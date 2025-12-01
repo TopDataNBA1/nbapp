@@ -247,7 +247,8 @@
                     let html = notis.map(noti => {
                         const playerMatch = noti.match(/(LeBron James|Stephen Curry|...)/);
                         const playerName = playerMatch ? playerMatch[0] : null;
-                        const photoUrl = playerName ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${getPlayerId(playerName)}.png` : 'logo.jpg';
+                        const collageUrl = 'collage.png';  // la copia que se guarda en docs/
+
 
                         return `
                         <div class="move-item">
@@ -262,7 +263,7 @@
                         .then(collages => {
                             collages.forEach(c => {
                                 html += `<div class="move-item">
-                                            <img src="collages/${c}" alt="Collage">
+                                            <img src="${collageUrl}" alt="Collage" style="width:100%;border-radius:12px;object-fit:cover;">
                                             <div class="move-text">Collage histórico</div>
                                         </div>`;
                             });
