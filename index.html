@@ -55,7 +55,14 @@
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
-    </style>
+        .collage-img {
+            width: 90%;
+            max-width: 380px;
+            border-radius: 12px;
+            margin: 10px auto;
+            display: block;
+        }
+   </style>
 </head>
 <body>
 
@@ -119,10 +126,11 @@
 
         function getTimes() {
             const now = new Date();
-            const cest = now.toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Europe/Paris'});
             const est = now.toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true,timeZone:'America/New_York'});
-            return {cest, est};
+            const local = now.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'}); // hora del dispositivo
+            return {est, local};
         }
+
 
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
@@ -152,7 +160,7 @@
 
         function updatePage() {
             const {cest, est} = getTimes();
-            document.getElementById('clock-line').textContent = `${est} ET • ${cest} CEST`;
+            document.getElementById('clock-line').textContent = `${est} ET • ${local} (your time)`;
 
             fetch('data.json?v=' + new Date().getTime())
                 .then(r => r.ok ? r.json() : Promise.reject())
@@ -238,27 +246,23 @@
             const list = document.getElementById('moves-list');
             if (!list) return;
 
-            // URL del collage generado por tu script
-            const collageUrl = 'collage.png'; // Asegúrate de que Python copie esta imagen a docs/
-
             fetch('data.json?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
-                    const notis = (data.notificaciones || []).reverse();
+                    const notis = (data.notificaciones || []).reverse().slice(0, 50); // solo 50 últimas
 
-                    // Muestra cada notificación con el mismo collage
                     list.innerHTML = notis.map(noti => {
+                        const collage = noti.collage ? `collages/${noti.collage}` : "logo.jpg";
+
                         return `
                         <div class="move-item">
-                            <img src="${collageUrl}" alt="Collage" style="width:220px; height:auto; border-radius:12px; object-fit:cover;">
-                            <div class="move-text">${noti}</div>
+                            <img src="${collage}" class="collage-img">
+                            <div class="move-text">${noti.texto || noti}</div>
                         </div>`;
                     }).join('');
-                })
-                .catch(() => {
-                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
                 });
-        }       
+        }
+      
 
         function getPlayerId(name) {
             const ids = {
