@@ -1,0 +1,29 @@
+name: Live Monitor Every Minute
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # cada minuto
+  push:
+    branches:
+      - main  # también se ejecuta al hacer push a main
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # si tienes un requirements.txt
+
+      - name: Ejecutar script de monitor
+        run: python tu_script.py
