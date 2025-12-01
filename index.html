@@ -238,42 +238,27 @@
             const list = document.getElementById('moves-list');
             if (!list) return;
 
+            // URL del collage generado por tu script
+            const collageUrl = 'collage.png'; // Asegúrate de que Python copie esta imagen a docs/
+
             fetch('data.json?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones || []).reverse();
 
-                    // Fotos de jugadores como antes
-                    let html = notis.map(noti => {
-                        const playerMatch = noti.match(/(LeBron James|Stephen Curry|...)/);
-                        const playerName = playerMatch ? playerMatch[0] : null;
-                        const collageUrl = 'collage.png';  // la copia que se guarda en docs/
-
-
+                    // Muestra cada notificación con el mismo collage
+                    list.innerHTML = notis.map(noti => {
                         return `
                         <div class="move-item">
-                            <img src="${photoUrl}" onerror="this.src='logo.jpg'">
-                            <div class="move-text">${noti.replace(playerName || '', playerName ? `<strong>${playerName}</strong>` : '')}</div>
+                            <img src="${collageUrl}" alt="Collage" style="width:220px; height:auto; border-radius:12px; object-fit:cover;">
+                            <div class="move-text">${noti}</div>
                         </div>`;
                     }).join('');
-
-                    // Añadir collages históricos
-                    fetch('collages/index.json?v=' + new Date().getTime())
-                        .then(r => r.json())
-                        .then(collages => {
-                            collages.forEach(c => {
-                                html += `<div class="move-item">
-                                            <img src="${collageUrl}" alt="Collage" style="width:100%;border-radius:12px;object-fit:cover;">
-                                            <div class="move-text">Collage histórico</div>
-                                        </div>`;
-                            });
-                            list.innerHTML = html;
-                        }).catch(() => {
-                            // Si no existe index.json, solo mostramos notis
-                            list.innerHTML = html;
-                        });
+                })
+                .catch(() => {
+                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
                 });
-        }
+        }       
 
         function getPlayerId(name) {
             const ids = {
