@@ -151,7 +151,7 @@ def cargar_hof():
 HOF_SET = cargar_hof()
 
 # === CONFIG ===
-TELEGRAM_TOKEN = '8443967594:AAG0-PiB2KjpMuVtyMQL3Kg5vHteI2e8xBs'
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = '-1003157720995'
 DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1436135535897874533/jqCft_wX4mKFyehmThUQSTrtkzX2W8sfQhA2znDicWj_xbPMl7MTdNsSE8dCyN1m2wAM'
 
