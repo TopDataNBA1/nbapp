@@ -2,7 +2,7 @@ import json, time
 from flask import Flask, jsonify
 from your_data_module import tablas_activos_global, notificaciones_del_dia  # tu script que genera los datos
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="docs", template_folder="docs")
 
 @app.route("/data.json")
 def data():
