@@ -24,4 +24,4 @@ jobs:
         run: python -m pip install --upgrade pip
 
       - name: Ejecutar script de monitor
-        run: python tu_script.py
+        run: python nba_ranking_monitor.py
