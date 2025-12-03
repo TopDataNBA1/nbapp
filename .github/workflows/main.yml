@@ -1,13 +1,9 @@
 name: Live Deploy Every Minute
 
 on:
-  # Eliminamos la línea 'schedule' para que SOLO se base en el 'push'
-  # schedule:
-  #   - cron: '*/1 * * * *'
-  
-  workflow_dispatch:  # ← Para ejecución manual (mantenemos)
-  push:               # ← ESTA LÍNEA ES LA QUE HACE QUE SE EJECUTE CADA 30 SEGUNDOS
-    branches: [ main ]
+  schedule:
+    - cron: '*/1 * * * *'   # Ejecutar cada minuto
+  workflow_dispatch:        # Ejecutar manualmente si quieres
 
 jobs:
   deploy:
@@ -21,5 +17,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           commit_message: "Live update $(date)"
+
 
 
