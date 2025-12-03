@@ -19,6 +19,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./            # sirve desde la raíz
-          force_orphan: true         # fuerza redeploy completo
+          publish_dir: ./
           commit_message: "Live update $(date)"
+
+
