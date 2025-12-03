@@ -2,8 +2,10 @@ name: Live Deploy Every Minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'     # cada minuto
-  workflow_dispatch:         # para ejecutarlo manual cuando quieras
+    - cron: '*/1 * * * *'
+  workflow_dispatch:   # ← ESTA LÍNEA ES LA QUE LO DESBLOQUEA MANUALMENTE
+  push:                 # ← Y ESTA LO MANTIENE VIVO CON CADA PUSH
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -18,3 +20,4 @@ jobs:
           publish_dir: ./          # sirve desde la raíz
           force_orphan: true       # fuerza redeploy completo
           commit_message: "Live update $(date)"
+
