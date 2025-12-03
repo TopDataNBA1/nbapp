@@ -1,10 +1,12 @@
 name: Live Deploy Every Minute
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'
-  workflow_dispatch:   # ← ESTA LÍNEA ES LA QUE LO DESBLOQUEA MANUALMENTE
-  push:                 # ← Y ESTA LO MANTIENE VIVO CON CADA PUSH
+  # Eliminamos la línea 'schedule' para que SOLO se base en el 'push'
+  # schedule:
+  #   - cron: '*/1 * * * *'
+  
+  workflow_dispatch:  # ← Para ejecución manual (mantenemos)
+  push:               # ← ESTA LÍNEA ES LA QUE HACE QUE SE EJECUTE CADA 30 SEGUNDOS
     branches: [ main ]
 
 jobs:
@@ -17,7 +19,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./          # sirve desde la raíz
-          force_orphan: true       # fuerza redeploy completo
+          publish_dir: ./            # sirve desde la raíz
+          force_orphan: true         # fuerza redeploy completo
           commit_message: "Live update $(date)"
-
