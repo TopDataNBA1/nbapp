@@ -1,3 +1,4 @@
+<!-- AUTO-GENERATED: DO NOT EDIT MANUALLY -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,23 +55,6 @@
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
-               
-        /* === ESTILO DE RESALTADO SOSTENIDO (25 SEGUNDOS) === */
-        .highlight-row {
-            /* Color de fondo sutil que se desvanece */
-            background-color: rgba(255, 255, 0, 0.1) !important; 
-            /* Borde brillante para que sea inconfundible */
-            border-left: 3px solid #FFD700 !important; 
-            /* Animación de opacidad/fondo de 25s, usando ease-out para desvanecerse lentamente */
-            transition: background-color 25s ease-out, border-left 25s ease-out; 
-        }
-
-        /* Aseguramos que la opacidad inicial sea fuerte y luego se desvanezca */
-        .highlight-row.faded {
-            background-color: transparent !important;
-            border-left: 3px solid transparent !important;
-        }
-}
     </style>
 </head>
 <body>
@@ -165,28 +149,6 @@
                 all: document.querySelector('[data-filter="all"]').classList.contains('active')
             };
         }
-    // --- FUNCIÓN PARA RESALTAR LA FILA (SOSTENIDO) ---
-        function explotar(rowElement) {
-            // 1. Aplicamos el estilo inicial de resaltado
-            rowElement.classList.add('highlight-row');
-            rowElement.classList.remove('faded'); // Asegurar que no esté desvanecido al empezar
-
-            // 2. Establecemos un temporizador para iniciar el desvanecimiento inmediatamente
-            // (La transición de 25s en el CSS hace el resto)
-            setTimeout(() => {
-                rowElement.classList.add('faded');
-            }, 100); // 100ms después de aplicar el estilo inicial.
-
-            // 3. Establecemos un segundo temporizador para LIMPIAR las clases
-            // El efecto visual dura 25s, limpiamos las clases 26s después.
-            setTimeout(() => {
-                rowElement.classList.remove('highlight-row');
-                rowElement.classList.remove('faded');
-            }, 26000); // 26 segundos después (un poco más del ciclo de 25s)
-
-            // OPCIONAL: El log es útil para depuración.
-            // console.log(`¡CAMBIO DETECTADO! Aplicando efecto de 25s.`);
-        }
 
         function updatePage() {
             const {cest, est} = getTimes();
@@ -216,12 +178,12 @@
                             // FILTRO "ALMOST" – CON EXCEPCIÓN PERFECTA PARA GAMES PLAYED
                             if (filters.almost) {
                                 if (stat === 'g') {
-                                    // En Games Played: solo los que NO han jugado hoy (Hoy=0) y están a 0 o 1 del de arriba
-                                    if (hoy !== 0 || !['0','1'].includes(diff)) return false;
+                                    // En Games Played: solo los que NO han jugado hoy (Hoy=0) y están a 0 del de arriba
+                                    if (hoy !== 0 || !['0'].includes(diff)) return false;
                                 } else {
                                     // En el resto de stats: como antes (a 0-1-2-3 del de arriba y jugando o no empezado)
                                     const isPlayingOrNotStarted = (gameStatus === 'playing' || gameStatus === 'not_started');
-                                    const near = (stat === 'pts') ? ['0','1','2','3'] : ['0','1'];
+                                    const near = (stat === 'pts') ? ['0','1','2'] : ['0'];
                                     if (!isPlayingOrNotStarted || !near.includes(diff)) return false;
                                 }
                             }
@@ -256,7 +218,6 @@
                             else todayStyle = 'color:#888';
 
                             const tr = document.createElement('tr');
-                            tr.dataset.player = row.Nombre;   // ← ESTA LÍNEA SOLA (sin replace, sin nada)
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
@@ -274,29 +235,30 @@
 
         // LATEST MOVES CON FOTOS
         function updateMoves() {
+            const list = document.getElementById('moves-list');
+            if (!list) return;
+
+            // URL del collage generado por tu script
+            const collageUrl = 'collage.png'; // Asegúrate de que Python copie esta imagen a docs/
+
             fetch('data.json?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
-                    const list = document.getElementById('moves-list');
-                    if (!list) return;
                     const notis = (data.notificaciones || []).reverse();
 
+                    // Muestra cada notificación con el mismo collage
                     list.innerHTML = notis.map(noti => {
-                        const playerMatch = noti.match(/(LeBron James|Stephen Curry|Tobias Harris|Kevin Love|Al Horford|Harrison Barnes|Jayson Tatum|Luka Doncic|Draymond Green|Trae Young|De'Aaron Fox|Tyus Jones|Kentavious Caldwell-Pope|Marcus Smart|Bismack Biyombo|Kristaps Porzingis|Jaren Jackson Jr.|Jusuf Nurkic|Buddy Hield|Duncan Robinson|Lauri Markkanen|Jaylen Brown|Anfernee Simons|Derrick White|Kelly Olynyk|Luke Kennard|Michael Porter Jr.|Georges Niang|Desmond Bane)/);
-                        const playerName = playerMatch ? playerMatch[0] : null;
-                        const photoUrl = playerName ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${getPlayerId(playerName)}.png` : 'logo.jpg';
-
                         return `
                         <div class="move-item">
-                            <img src="${photoUrl}" onerror="this.src='logo.jpg'">
-                            <div class="move-text">
-                                ${noti.replace(playerName || '', playerName ? `<strong>${playerName}</strong>` : '')}
-                            </div>
+                            <img src="${collageUrl}" alt="Collage" style="width:220px; height:auto; border-radius:12px; object-fit:cover;">
+                            <div class="move-text">${noti}</div>
                         </div>`;
                     }).join('');
                 })
-                .catch(() => { document.getElementById('moves-list').innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>'; });
-        }
+                .catch(() => {
+                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
+                });
+        }       
 
         function getPlayerId(name) {
             const ids = {
@@ -314,87 +276,7 @@
             if (document.getElementById('telegram').classList.contains('active')) updateMoves();
             if (document.getElementById('live').classList.contains('active')) updatePage();
         }, 25000);
-        // === BRILLO QUE SÍ FUNCIONA YA EN TU WEB ===
-        // === BRILLO ÉPICO QUE FUNCIONA EN DIRECTO YA ===
-        const highlighted = new Map();
 
-        function explotar(tr) {
-            tr.classList.remove('highlight-strong', 'highlight-medium');
-            tr.classList.add('highlight-strong');
-            const id = Date.now() + Math.random();
-            highlighted.set(tr, id);
-
-            setTimeout(() => {
-                if (highlighted.get(tr) === id) {
-                    tr.classList.remove('highlight-strong');
-                    tr.classList.add('highlight-medium');
-                    setTimeout(() => {
-                        if (highlighted.get(tr) === id) {
-                            tr.classList.remove('highlight-medium');
-                            highlighted.delete(tr);
-                        }
-                    }, 60000);
-                }
-            }, 60000);
-        }
-
-        let lastData = null;
-        const originalUpdatePage = updatePage;
-
-        updatePage = function() {
-            fetch('data.json?t=' + Date.now())
-                .then(r => r.json())
-                .then(data => {
-                    originalUpdatePage(); // renderiza las tablas
-                    document.getElementById('ultima-act').textContent = data.ultima_actualizacion || new Date().toLocaleTimeString();
-
-                    if (!lastData) {
-                        lastData = data;
-                        return;
-                    }
-
-                    // DETECTAR CAMBIOS Y HACER BRILLAR
-                    Object.keys(data.tablas).forEach(stat => {
-                        const viejo = (lastData.tablas[stat] || []);
-                        const nuevo = (data.tablas[stat] || []);
-
-                        nuevo.forEach(jugador => {
-                            const antes = viejo.find(p => p.Nombre === jugador.Nombre);
-                            if (!antes || jugador.Hoy > antes.Hoy) {
-                                // 1. Encontramos la celda con el nombre del jugador para localizar la fila (<tr>)
-                                const celdaNombre = Array.from(document.querySelectorAll(`#tabla-${stat} .player`))
-                                    .find(td => td.textContent.trim() === jugador.Nombre);
-                                
-                                if (celdaNombre) {
-                                    const fila = celdaNombre.closest('tr');
-                                    // 2. Buscamos la celda 'Hoy' dentro de esa fila (es el 4º <td>, índice 3)
-                                    const celdas = fila.querySelectorAll('td');
-                                    
-                                    // Comprobamos que la celda de 'Hoy' existe antes de intentar resaltarla
-                                    if (celdas.length > 3) { 
-                                        highlightCell(celdas[3]); // <--- LLAMADA CORREGIDA A LA CELDA 'HOY' (índice 3)
-                                    }
-                                }
-                            }
-                        });
-                    });
-
-                    lastData = data;
-                })
-                .catch(() => {});
-        };
-
-        // ACTUALIZAR CADA 25 SEGUNDOS
-        setInterval(() => {
-            if (document.getElementById('live').classList.contains('active')) {
-                updatePage();
-            }
-            if (document.getElementById('telegram').classList.contains('active')) {
-                updateMoves();
-            }
-        }, 25000);
-
-        // Primera carga
         updatePage();
         updateMoves();
     </script>
