@@ -55,6 +55,14 @@
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
+        .collage {
+            width: 100%;
+            margin-bottom: 12px;
+            overflow: hidden;
+            border-radius: 12px;
+            border: 4px solid #ff4655;
+            box-shadow: 0 0 15px rgba(255,70,85,0.6);
+        }
     </style>
 </head>
 <body>
@@ -238,27 +246,76 @@
             const list = document.getElementById('moves-list');
             if (!list) return;
 
-            // URL del collage generado por tu script
-            const collageUrl = 'collage.png'; // Asegúrate de que Python copie esta imagen a docs/
-
             fetch('data.json?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones || []).reverse();
 
-                    // Muestra cada notificación con el mismo collage
-                    list.innerHTML = notis.map(noti => {
+                    list.innerHTML = notis.map(n => {
+                        const texto = n.texto || "";
+                        const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+
+                        // SIN FOTOS → solo texto
+                        if (fotos.length === 0) {
+                            return `
+                                <div class="move-item">
+                                    <div class="move-text">${texto}</div>
+                                </div>`;
+                        }
+
+                        // 1 FOTO → ocupa todo
+                        if (fotos.length === 1) {
+                            return `
+                                <div class="move-item">
+                                    <div class="collage c1">
+                                        <img src="${fotos[0]}" />
+                                    </div>
+                                    <div class="move-text">${texto}</div>
+                                </div>`;
+                        }
+
+                        // 2 FOTOS → mitad / mitad
+                        if (fotos.length === 2) {
+                            return `
+                                <div class="move-item">
+                                    <div class="collage c2">
+                                        <img src="${fotos[0]}" />
+                                        <img src="${fotos[1]}" />
+                                    </div>
+                                    <div class="move-text">${texto}</div>
+                                </div>`;
+                        }
+
+                        // 3 FOTOS → 1 a la izquierda, 2 a la derecha
+                        if (fotos.length === 3) {
+                            return `
+                                <div class="move-item">
+                                    <div class="collage c3">
+                                        <div class="left"><img src="${fotos[0]}" /></div>
+                                        <div class="right">
+                                            <img src="${fotos[1]}" />
+                                            <img src="${fotos[2]}" />
+                                        </div>
+                                    </div>
+                                    <div class="move-text">${texto}</div>
+                                </div>`;
+                        }
+
+                        // 4 FOTOS → grid 2x2
                         return `
-                        <div class="move-item">
-                            <img src="${collageUrl}" alt="Collage" style="width:220px; height:auto; border-radius:12px; object-fit:cover;">
-                            <div class="move-text">${noti}</div>
-                        </div>`;
+                            <div class="move-item">
+                                <div class="collage c4">
+                                    ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
+                                </div>
+                                <div class="move-text">${texto}</div>
+                            </div>`;
                     }).join('');
                 })
-                .catch(() => {
+                .catch(err => {
+                    console.error(err);
                     list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
                 });
-        }       
+        }      
 
         function getPlayerId(name) {
             const ids = {
