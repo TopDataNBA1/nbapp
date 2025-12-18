@@ -55,7 +55,24 @@
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
-        /* Collages de Latest Moves responsivos */
+        .collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        /* Tamaño máximo de los collages de Latest Moves */
+        .collage {
+            max-width: 300px;      /* ancho máximo de cada collage */
+            max-height: 200px;     /* altura máxima del collage */
+            margin: 0 auto 12px;
+        }
+
+        /* 1 FOTO → ocupa todo el collage */
+        .collage.c1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
         /* 2 FOTOS → lado a lado */
         .collage.c2 {
@@ -64,36 +81,27 @@
         }
         .collage.c2 img {
             flex: 1;
-            height: 150px;
+            height: 100%;
             object-fit: cover;
-            border-radius: 10px;
         }
 
         /* 3 FOTOS → 1 izquierda, 2 derecha en columna */
         .collage.c3 {
             display: flex;
             gap: 6px;
+            height: 200px;  /* altura máxima */
         }
-        .collage.c3 .left {
-            flex: 1;
-        }
-        .collage.c3 .left img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+        .collage.c3 .left,
         .collage.c3 .right {
             flex: 1;
             display: flex;
             flex-direction: column;
-            gap: 6px;
         }
+        .collage.c3 .left img,
         .collage.c3 .right img {
             flex: 1;
             width: 100%;
             object-fit: cover;
-            border-radius: 10px;
         }
 
         /* 4 FOTOS → grid 2x2 */
@@ -102,17 +110,14 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap: 6px;
+            height: 200px; /* altura máxima */
         }
         .collage.c4 img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: 10px;
-        /* Tamaño máximo de todos los collages */
-        .collage {
-            max-width: 400px;   /* ajusta a lo que quieras */
-            margin: 0 auto 12px auto;
         }
+
     </style>
 </head>
 <body>
