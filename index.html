@@ -296,7 +296,18 @@
                 });
         }
 
-        // LATEST MOVES CON FOTOS
+        // Función para convertir timestamp → "5m ago", "2h ago", "now", etc.
+        function timeAgo(ts) {
+            const now = Date.now() / 1000;
+            const diff = Math.floor(now - ts);
+
+            if (diff < 60) return "now";
+            if (diff < 3600) return Math.floor(diff / 60) + "m ago";
+            if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
+            return Math.floor(diff / 86400) + "d ago";
+}    
+
+        // LATEST MOVES CON FOTOS + TIEMPO
         function updateMoves() {
             const list = document.getElementById('moves-list');
             if (!list) return;
@@ -309,12 +320,14 @@
                     list.innerHTML = notis.map(n => {
                         const texto = n.texto || "";
                         const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+                        const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
 
                         // SIN FOTOS → solo texto
                         if (fotos.length === 0) {
                             return `
                                 <div class="move-item">
                                     <div class="move-text">${texto}</div>
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -326,6 +339,7 @@
                                         <img src="${fotos[0]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -338,6 +352,7 @@
                                         <img src="${fotos[1]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -353,6 +368,7 @@
                                         </div>
                                     </div>
                                     <div class="move-text">${texto}</div>
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -363,6 +379,7 @@
                                     ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                                 </div>
                                 <div class="move-text">${texto}</div>
+                                <div class="move-time">${cuando}</div>
                             </div>`;
                     }).join('');
                 })
