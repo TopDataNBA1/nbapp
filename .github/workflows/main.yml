@@ -2,7 +2,7 @@ name: Live Deploy Every Minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'   # cada minuto
+    - cron: '*/2 * * * *'   # cada minuto
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -28,4 +28,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           force_orphan: false
+
 
