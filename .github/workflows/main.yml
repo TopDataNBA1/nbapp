@@ -1,11 +1,13 @@
-name: Live Deploy Every Minute
+name: Live Deploy
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'   # cada minuto
-  workflow_dispatch:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -14,19 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Copy data.json from last run
-        run: |
-          if [ -f ./data.json ]; then
-            echo "data.json exists"
-          else
-            echo "data.json missing"
-          fi
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-          force_orphan: false
-
-
