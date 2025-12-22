@@ -1,13 +1,17 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "name": "NBApp",
+  "short_name": "NBApp",
+  "start_url": "/nbapp/",
+  "scope": "/nbapp/",
   "display": "standalone",
-  "name": "topdatanba1.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "topdatanba1.github",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "com.topdatanba1.nbapp",
-  "description": "Datos NBA en tiempo real"
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/nbapp/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "com.topdatanba1.nbapp"
 }
