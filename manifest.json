@@ -1,16 +1,13 @@
 {
-  "name": "Latest Moves",
-  "short_name": "LatestMoves",
-  "start_url": "/",
-  "scope": "/",
+  "background_color": "#ffffff",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
-  "icons": [
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "name": "topdatanba1.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "topdatanba1.github",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "com.topdatanba1.nbapp",
+  "description": "Datos NBA en tiempo real"
 }
