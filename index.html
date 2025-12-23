@@ -143,6 +143,16 @@
             overflow-y: auto;
         }
 
+        /* ESTO ES LO QUE FALTABA */
+        #settings-panel {
+            display: none;
+        }
+
+        #settings-panel.open {
+            display: block;
+        }
+
+
         .settings-tabs {
             display: flex;
             gap: 10px;
@@ -697,27 +707,6 @@
         }).join('');
     }
 
-    /* --- 5. Tabs dentro del panel de ajustes --- */
-    document.querySelectorAll("#settings-panel .settings-tab").forEach(btn => {
-        btn.onclick = () => {
-            document.querySelectorAll("#settings-panel .settings-tab").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-
-            document.querySelectorAll("#settings-panel .settings-tab-content").forEach(c => c.classList.remove("active"));
-            document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
-        };
-    });
-
-
-    /* --- 6. Abrir/cerrar panel de ajustes --- */
-    document.getElementById("settings-btn").onclick = () => {
-        document.getElementById("settings-panel").style.display = "block";
-    };
-
-    document.getElementById("close-settings").onclick = () => {
-        document.getElementById("settings-panel").style.display = "none";
-    };
-
     /* --- 7. Render inicial de filtros --- */
     renderFilters("push-filters", "pushFilters");
     renderFilters("latest-filters", "latestFilters");
@@ -754,7 +743,7 @@
 </script>
 
 <!-- PANEL DE AJUSTES -->
-<div id="settings-panel" style="display:none;">
+<div id="settings-panel">
     <div class="settings-tabs">
         <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
         <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
