@@ -154,11 +154,14 @@
             background: #ff4655;
         }
 
-        .tab-content {
+        /* SOLO para las tabs principales */
+        #telegram.tab-content,
+        #live.tab-content {
             display: none;
         }
 
-        .tab-content.active {
+        #telegram.tab-content.active,
+        #live.tab-content.active {
             display: block;
         }
 
