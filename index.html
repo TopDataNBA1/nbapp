@@ -712,6 +712,33 @@
     /* --- 7. Render inicial de filtros --- */
     renderFilters("push-filters", "pushFilters");
     renderFilters("latest-filters", "latestFilters");
+    // <<< AÑADE ESTO AQUÍ PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
+    document.querySelectorAll('.settings-tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Quitar active de todos los botones
+            document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
+            // Quitar active de todos los contenidos
+            document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
+            
+            // Añadir active al botón clicado
+            btn.classList.add('active');
+            
+            // Mostrar el contenido correspondiente
+            const tabId = btn.id.replace('-btn', '');
+            document.getElementById(tabId).classList.add('active');
+        });
+    });
+
+    // Abrir settings al clicar el botón de engranaje
+    document.getElementById('settings-btn').addEventListener('click', () => {
+        document.getElementById('settings-panel').classList.add('open');
+    });
+
+    // Cerrar settings
+    document.getElementById('close-settings').addEventListener('click', () => {
+        document.getElementById('settings-panel').classList.remove('open');
+    });
+    // <<< FIN DEL AÑADIDO >>>
 </script>
 
 <!-- PANEL DE AJUSTES -->
