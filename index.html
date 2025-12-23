@@ -717,26 +717,7 @@
     }
 
     /* --- 7. Render inicial de filtros --- */
-    // <<< AÑADIDO PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
-    // Cambiar pestaña al hacer clic
-    document.querySelectorAll('.settings-tab-btn').forEach(button => {
-        button.addEventListener('click', () => {
-            // Quitar active de todos los botones
-            document.querySelectorAll('.settings-tab-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            // Quitar active de todos los contenidos
-            document.querySelectorAll('.settings-tab-content').forEach(content => {
-                content.classList.remove('active');
-            });
-            // Añadir active al botón clicado
-            button.classList.add('active');
-            // Mostrar el contenido correspondiente
-            const tabId = button.getAttribute('data-tab');
-            document.getElementById(tabId).classList.add('active');
-        });
-    });
-
+    
     // Abrir panel
     document.getElementById('settings-btn').addEventListener('click', () => {
         document.getElementById('settings-panel').classList.add('open');
@@ -794,6 +775,27 @@ document.getElementById('close-settings').addEventListener('click', () => {
 });
     renderFilters("push-filters", "pushFilters");
     renderFilters("latest-filters", "latestFilters");
+
+// <<< AÑADIDO PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
+    // Cambiar pestaña al hacer clic
+    document.querySelectorAll('.settings-tab-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            // Quitar active de todos los botones
+            document.querySelectorAll('.settings-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            // Quitar active de todos los contenidos
+            document.querySelectorAll('.settings-tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            // Añadir active al botón clicado
+            button.classList.add('active');
+            // Mostrar el contenido correspondiente
+            const tabId = button.getAttribute('data-tab');
+            document.getElementById(tabId).classList.add('active');
+        });
+    });
+
 </script>
 
 </body>
