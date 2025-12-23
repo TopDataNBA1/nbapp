@@ -712,29 +712,32 @@
     /* --- 7. Render inicial de filtros --- */
     renderFilters("push-filters", "pushFilters");
     renderFilters("latest-filters", "latestFilters");
-    // <<< AÑADE ESTO AQUÍ PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
-    document.querySelectorAll('.settings-tab-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
+    // <<< AÑADIDO PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
+    // Cambiar pestaña al hacer clic
+    document.querySelectorAll('.settings-tab-btn').forEach(button => {
+        button.addEventListener('click', () => {
             // Quitar active de todos los botones
-            document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.settings-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
             // Quitar active de todos los contenidos
-            document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
-            
+            document.querySelectorAll('.settings-tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
             // Añadir active al botón clicado
-            btn.classList.add('active');
-            
+            button.classList.add('active');
             // Mostrar el contenido correspondiente
-            const tabId = btn.id.replace('-btn', '');
+            const tabId = button.getAttribute('data-tab');
             document.getElementById(tabId).classList.add('active');
         });
     });
 
-    // Abrir settings al clicar el botón de engranaje
+    // Abrir panel
     document.getElementById('settings-btn').addEventListener('click', () => {
         document.getElementById('settings-panel').classList.add('open');
     });
 
-    // Cerrar settings
+    // Cerrar panel
     document.getElementById('close-settings').addEventListener('click', () => {
         document.getElementById('settings-panel').classList.remove('open');
     });
@@ -744,8 +747,8 @@
 <!-- PANEL DE AJUSTES -->
 <div id="settings-panel" style="display:none;">
     <div class="settings-tabs">
-        <button class="settings-tab active" data-tab="push">Push Notifications</button>
-        <button class="settings-tab" data-tab="latest">Latest Moves View</button>
+        <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
+        <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
     </div>
 
     <div class="settings-content">
