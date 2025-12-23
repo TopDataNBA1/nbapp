@@ -681,15 +681,16 @@
     }
 
     /* --- 5. Tabs dentro del panel de ajustes --- */
-    document.querySelectorAll(".tab").forEach(btn => {
+    document.querySelectorAll("#settings-panel .settings-tab").forEach(btn => {
         btn.onclick = () => {
-            document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+            document.querySelectorAll("#settings-panel .settings-tab").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
 
-            document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+            document.querySelectorAll("#settings-panel .settings-tab-content").forEach(c => c.classList.remove("active"));
             document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
         };
     });
+
 
     /* --- 6. Abrir/cerrar panel de ajustes --- */
     document.getElementById("settings-btn").onclick = () => {
@@ -708,17 +709,17 @@
 <!-- PANEL DE AJUSTES -->
 <div id="settings-panel" style="display:none;">
     <div class="settings-tabs">
-        <button class="tab active" data-tab="push">Push Notifications</button>
-        <button class="tab" data-tab="latest">Latest Moves View</button>
+        <button class="settings-tab active" data-tab="push">Push Notifications</button>
+        <button class="settings-tab" data-tab="latest">Latest Moves View</button>
     </div>
 
     <div class="settings-content">
-        <div class="tab-content active" id="tab-push">
+        <div class="settings-tab-content active" id="tab-push">
             <h3>Push Notifications</h3>
             <div id="push-filters"></div>
         </div>
 
-        <div class="tab-content" id="tab-latest">
+        <div class="settings-tab-content" id="tab-latest">
             <h3>Latest Moves View</h3>
             <div id="latest-filters"></div>
         </div>
