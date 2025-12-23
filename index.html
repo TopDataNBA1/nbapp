@@ -708,8 +708,6 @@
     }
 
     /* --- 7. Render inicial de filtros --- */
-    renderFilters("push-filters", "pushFilters");
-    renderFilters("latest-filters", "latestFilters");
     // <<< AÑADIDO PARA QUE FUNCIONEN LOS BOTONES DE SETTINGS >>>
     // Cambiar pestaña al hacer clic
     document.querySelectorAll('.settings-tab-btn').forEach(button => {
@@ -772,6 +770,8 @@ document.getElementById('settings-btn').addEventListener('click', () => {
 document.getElementById('close-settings').addEventListener('click', () => {
     document.getElementById('settings-panel').classList.remove('open');
 });
+    renderFilters("push-filters", "pushFilters");
+    renderFilters("latest-filters", "latestFilters");
 </script>
 
 </body>
