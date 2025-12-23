@@ -568,7 +568,7 @@
         // ALL AQUÍ (BIEN)
         const allBtn = document.createElement("button");
         allBtn.innerText = "ALL";
-        allBtn.className = "all-btn" + (saved.all ? " active" : "");
+        allBtn.className = "all-btn" + ((!saved.none && !saved.top && !saved.stats && !saved.teams && !saved.type) ? " active" : "");
         allBtn.onclick = () => {
             localStorage.setItem(storageKey, JSON.stringify({ all: true }));
             renderFilters(containerId, storageKey);
@@ -586,7 +586,8 @@
                 const btn = document.createElement("button");
                 btn.innerText = option;
 
-                const active = saved[group]?.includes(option) || (option === "All" && !saved[group]);
+                const active = saved[group]?.includes(option)
+                    || (option === "All" && !saved[group] && !saved.all && !saved.none);
                 if (active) btn.classList.add("active");
 
                 btn.onclick = () => {
