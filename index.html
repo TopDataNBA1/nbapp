@@ -475,234 +475,234 @@
 </script> 
 
 <script>
-/* ============================
-   SISTEMA DE FILTROS NBAPP
-   ============================ */
+    /* ============================
+    SISTEMA DE FILTROS NBAPP
+    ============================ */
 
-/* --- 1. Esquema de filtros --- */
-const filterSchema = {
-    top: {
-        type: "single",
-        options: ["All", "Top 100", "Top 25"]
-    },
-    stats: {
-        type: "multi",
-        options: ["All", "Points", "Rebounds", "Assists"]
-    },
-    teams: {
-        type: "multi",
-        options: [
-            "All","ATL","BOS","BKN","CHA","CHI","CLE","DAL","DEN","DET",
-            "GSW","HOU","IND","LAC","LAL","MEM","MIA","MIL","MIN","NOP",
-            "NYK","OKC","ORL","PHI","PHX","POR","SAC","SAS","TOR","UTA","WAS"
-        ]
-    },
-    type: {
-        type: "multi",
-        options: ["All", "Overtakes", "Milestones"]
-    }
-};
+    /* --- 1. Esquema de filtros --- */
+    const filterSchema = {
+        top: {
+            type: "single",
+            options: ["All", "Top 100", "Top 25"]
+        },
+        stats: {
+            type: "multi",
+            options: ["All", "Points", "Rebounds", "Assists"]
+        },
+        teams: {
+            type: "multi",
+            options: [
+                "All","ATL","BOS","BKN","CHA","CHI","CLE","DAL","DEN","DET",
+                "GSW","HOU","IND","LAC","LAL","MEM","MIA","MIL","MIN","NOP",
+                "NYK","OKC","ORL","PHI","PHX","POR","SAC","SAS","TOR","UTA","WAS"
+            ]
+        },
+        type: {
+            type: "multi",
+            options: ["All", "Overtakes", "Milestones"]
+        }
+    };
 
-/* --- 2. Render dinámico de filtros --- */
-function renderFilters(containerId, storageKey) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = "";
+    /* --- 2. Render dinámico de filtros --- */
+    function renderFilters(containerId, storageKey) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = "";
 
-    const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
 
-    for (const group in filterSchema) {
-        const schema = filterSchema[group];
+        for (const group in filterSchema) {
+            const schema = filterSchema[group];
 
-        const groupDiv = document.createElement("div");
-        groupDiv.className = "filter-group";
+            const groupDiv = document.createElement("div");
+            groupDiv.className = "filter-group";
 
-        schema.options.forEach(option => {
-            const btn = document.createElement("button");
-            btn.innerText = option;
+            schema.options.forEach(option => {
+                const btn = document.createElement("button");
+                btn.innerText = option;
 
-            const active = saved[group]?.includes(option) || (option === "All" && !saved[group]);
-            if (active) btn.classList.add("active");
+                const active = saved[group]?.includes(option) || (option === "All" && !saved[group]);
+                if (active) btn.classList.add("active");
 
-            btn.onclick = () => {
-                let current = saved[group] || [];
+                btn.onclick = () => {
+                    let current = saved[group] || [];
 
-                if (schema.type === "single") {
-                    current = [option];
-                } else {
-                    if (option === "All") {
-                        current = ["All"];
+                    if (schema.type === "single") {
+                        current = [option];
                     } else {
-                        current = current.filter(v => v !== "All");
-                        if (current.includes(option)) {
-                            current = current.filter(v => v !== option);
+                        if (option === "All") {
+                            current = ["All"];
                         } else {
-                            current.push(option);
+                            current = current.filter(v => v !== "All");
+                            if (current.includes(option)) {
+                                current = current.filter(v => v !== option);
+                            } else {
+                                current.push(option);
+                            }
                         }
                     }
-                }
 
-                saved[group] = current;
-                localStorage.setItem(storageKey, JSON.stringify(saved));
-                renderFilters(containerId, storageKey);
-                applyFiltersIfNeeded(storageKey);
-            };
+                    saved[group] = current;
+                    localStorage.setItem(storageKey, JSON.stringify(saved));
+                    renderFilters(containerId, storageKey);
+                    applyFiltersIfNeeded(storageKey);
+                };
 
-            groupDiv.appendChild(btn);
-        });
-
-        container.appendChild(groupDiv);
-    }
-
-    // Línea final: NONE
-    const noneBtn = document.createElement("button");
-    noneBtn.innerText = "None";
-    noneBtn.className = "none-btn";
-
-    if (saved.none) noneBtn.classList.add("active");
-
-    noneBtn.onclick = () => {
-        localStorage.setItem(storageKey, JSON.stringify({ none: true }));
-        renderFilters(containerId, storageKey);
-        applyFiltersIfNeeded(storageKey);
-    };
-
-    container.appendChild(noneBtn);
-}
-
-/* --- 3. Aplicar filtros dinámicos a Latest Moves --- */
-function applyFiltersIfNeeded(storageKey) {
-    if (storageKey === "latestFilters") {
-        applyLatestMovesFilters();
-    }
-}
-
-function applyLatestMovesFilters() {
-    const filters = JSON.parse(localStorage.getItem("latestFilters") || "{}");
-
-    fetch('data.json?v=' + new Date().getTime())
-        .then(r => r.json())
-        .then(data => {
-            const events = (data.notificaciones || []).reverse();
-
-            const filtered = events.filter(ev => {
-                if (filters.none) return false;
-
-                // TOP
-                if (filters.top && !filters.top.includes("All")) {
-                    if (filters.top.includes("Top 25") && ev.rank > 25) return false;
-                    if (filters.top.includes("Top 100") && ev.rank > 100) return false;
-                }
-
-                // STATS
-                if (filters.stats && !filters.stats.includes("All")) {
-                    if (!filters.stats.includes(ev.stat)) return false;
-                }
-
-                // TEAMS
-                if (filters.teams && !filters.teams.includes("All")) {
-                    if (!filters.teams.includes(ev.team)) return false;
-                }
-
-                // TYPE
-                if (filters.type && !filters.type.includes("All")) {
-                    if (!filters.type.includes(ev.type)) return false;
-                }
-
-                return true;
+                groupDiv.appendChild(btn);
             });
 
-            renderLatestMoves(filtered);
-        });
-}
-
-/* --- 4. Render de Latest Moves filtrado --- */
-function renderLatestMoves(list) {
-    const container = document.getElementById("moves-list");
-    if (!container) return;
-
-    container.innerHTML = list.map(n => {
-        const texto = n.texto || "";
-        const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
-        const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
-
-        if (fotos.length === 0) {
-            return `
-                <div class="move-item">
-                    <div class="move-text">${texto}</div>
-                    <div class="move-time">${cuando}</div>
-                </div>`;
+            container.appendChild(groupDiv);
         }
 
-        if (fotos.length === 1) {
-            return `
-                <div class="move-item">
-                    <div class="collage c1"><img src="${fotos[0]}" /></div>
-                    <div class="move-text">${texto}</div>
-                    <div class="move-time">${cuando}</div>
-                </div>`;
-        }
+        // Línea final: NONE
+        const noneBtn = document.createElement("button");
+        noneBtn.innerText = "None";
+        noneBtn.className = "none-btn";
 
-        if (fotos.length === 2) {
-            return `
-                <div class="move-item">
-                    <div class="collage c2">
-                        <img src="${fotos[0]}" />
-                        <img src="${fotos[1]}" />
-                    </div>
-                    <div class="move-text">${texto}</div>
-                    <div class="move-time">${cuando}</div>
-                </div>`;
-        }
+        if (saved.none) noneBtn.classList.add("active");
 
-        if (fotos.length === 3) {
-            return `
-                <div class="move-item">
-                    <div class="collage c3">
-                        <div class="left"><img src="${fotos[0]}" /></div>
-                        <div class="right">
+        noneBtn.onclick = () => {
+            localStorage.setItem(storageKey, JSON.stringify({ none: true }));
+            renderFilters(containerId, storageKey);
+            applyFiltersIfNeeded(storageKey);
+        };
+
+        container.appendChild(noneBtn);
+    }
+
+    /* --- 3. Aplicar filtros dinámicos a Latest Moves --- */
+    function applyFiltersIfNeeded(storageKey) {
+        if (storageKey === "latestFilters") {
+            applyLatestMovesFilters();
+        }
+    }
+
+    function applyLatestMovesFilters() {
+        const filters = JSON.parse(localStorage.getItem("latestFilters") || "{}");
+
+        fetch('data.json?v=' + new Date().getTime())
+            .then(r => r.json())
+            .then(data => {
+                const events = (data.notificaciones || []).reverse();
+
+                const filtered = events.filter(ev => {
+                    if (filters.none) return false;
+
+                    // TOP
+                    if (filters.top && !filters.top.includes("All")) {
+                        if (filters.top.includes("Top 25") && ev.rank > 25) return false;
+                        if (filters.top.includes("Top 100") && ev.rank > 100) return false;
+                    }
+
+                    // STATS
+                    if (filters.stats && !filters.stats.includes("All")) {
+                        if (!filters.stats.includes(ev.stat)) return false;
+                    }
+
+                    // TEAMS
+                    if (filters.teams && !filters.teams.includes("All")) {
+                        if (!filters.teams.includes(ev.team)) return false;
+                    }
+
+                    // TYPE
+                    if (filters.type && !filters.type.includes("All")) {
+                        if (!filters.type.includes(ev.type)) return false;
+                    }
+
+                    return true;
+                });
+
+                renderLatestMoves(filtered);
+            });
+    }
+
+    /* --- 4. Render de Latest Moves filtrado --- */
+    function renderLatestMoves(list) {
+        const container = document.getElementById("moves-list");
+        if (!container) return;
+
+        container.innerHTML = list.map(n => {
+            const texto = n.texto || "";
+            const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+            const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
+
+            if (fotos.length === 0) {
+                return `
+                    <div class="move-item">
+                        <div class="move-text">${texto}</div>
+                        <div class="move-time">${cuando}</div>
+                    </div>`;
+            }
+
+            if (fotos.length === 1) {
+                return `
+                    <div class="move-item">
+                        <div class="collage c1"><img src="${fotos[0]}" /></div>
+                        <div class="move-text">${texto}</div>
+                        <div class="move-time">${cuando}</div>
+                    </div>`;
+            }
+
+            if (fotos.length === 2) {
+                return `
+                    <div class="move-item">
+                        <div class="collage c2">
+                            <img src="${fotos[0]}" />
                             <img src="${fotos[1]}" />
-                            <img src="${fotos[2]}" />
                         </div>
+                        <div class="move-text">${texto}</div>
+                        <div class="move-time">${cuando}</div>
+                    </div>`;
+            }
+
+            if (fotos.length === 3) {
+                return `
+                    <div class="move-item">
+                        <div class="collage c3">
+                            <div class="left"><img src="${fotos[0]}" /></div>
+                            <div class="right">
+                                <img src="${fotos[1]}" />
+                                <img src="${fotos[2]}" />
+                            </div>
+                        </div>
+                        <div class="move-text">${texto}</div>
+                        <div class="move-time">${cuando}</div>
+                    </div>`;
+            }
+
+            return `
+                <div class="move-item">
+                    <div class="collage c4">
+                        ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                     </div>
                     <div class="move-text">${texto}</div>
                     <div class="move-time">${cuando}</div>
                 </div>`;
-        }
+        }).join('');
+    }
 
-        return `
-            <div class="move-item">
-                <div class="collage c4">
-                    ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
-                </div>
-                <div class="move-text">${texto}</div>
-                <div class="move-time">${cuando}</div>
-            </div>`;
-    }).join('');
-}
+    /* --- 5. Tabs dentro del panel de ajustes --- */
+    document.querySelectorAll(".tab").forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
 
-/* --- 5. Tabs dentro del panel de ajustes --- */
-document.querySelectorAll(".tab").forEach(btn => {
-    btn.onclick = () => {
-        document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
+            document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+            document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+        };
+    });
 
-        document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
-        document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+    /* --- 6. Abrir/cerrar panel de ajustes --- */
+    document.getElementById("settings-btn").onclick = () => {
+        document.getElementById("settings-panel").style.display = "block";
     };
-});
 
-/* --- 6. Abrir/cerrar panel de ajustes --- */
-document.getElementById("settings-btn").onclick = () => {
-    document.getElementById("settings-panel").style.display = "block";
-};
+    document.getElementById("close-settings").onclick = () => {
+        document.getElementById("settings-panel").style.display = "none";
+    };
 
-document.getElementById("close-settings").onclick = () => {
-    document.getElementById("settings-panel").style.display = "none";
-};
-
-/* --- 7. Render inicial de filtros --- */
-renderFilters("push-filters", "pushFilters");
-renderFilters("latest-filters", "latestFilters");
+    /* --- 7. Render inicial de filtros --- */
+    renderFilters("push-filters", "pushFilters");
+    renderFilters("latest-filters", "latestFilters");
 </script>
 
 <!-- PANEL DE AJUSTES -->
@@ -726,6 +726,5 @@ renderFilters("latest-filters", "latestFilters");
 
     <button id="close-settings">Close</button>
 </div>
-
 </body>
 </html>
