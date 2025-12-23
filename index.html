@@ -24,8 +24,17 @@
         .tab-btn:hover{background:rgba(255,70,85,0.4);}
         .tab-btn.active{background:#ff4655;box-shadow:0 0 12px #ff4655;}
 
-        .tab-content{display:none;background:rgba(20,20,40,0.97);padding:10px;border-radius:0 0 10px 10px;}
-        .tab-content.active{display:block;}
+        /* SOLO afecta a las tabs principales */
+        #telegram.tab-content,
+        #live.tab-content {
+            display: none;
+        }
+
+        #telegram.tab-content.active,
+        #live.tab-content.active {
+            display: block;
+        }
+
         .container{max-width:900px;margin:0 auto;}
 
         /* LATEST MOVES – VERSIÓN QUE TÚ AMAS + TUS 4 CAMBIOS */
