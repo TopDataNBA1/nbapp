@@ -549,19 +549,20 @@
     function renderFilters(containerId, storageKey) {
         const container = document.getElementById(containerId);
         container.innerHTML = "";
-    // Al inicio de renderFilters()
-    const allBtn = document.createElement("button");
-    allBtn.innerText = "ALL";
-    allBtn.className = "all-btn active";
-
-    allBtn.onclick = () => {
-        localStorage.setItem(storageKey, JSON.stringify({ all: true }));
-        renderFilters(containerId, storageKey);
-        applyFiltersIfNeeded(storageKey);
-    };
-
-        container.appendChild(allBtn);    
+        
         const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+        // Al inicio de renderFilters()
+        const allBtn = document.createElement("button");
+        allBtn.innerText = "ALL";
+        allBtn.className = "all-btn active";
+
+        allBtn.onclick = () => {
+            localStorage.setItem(storageKey, JSON.stringify({ all: true }));
+            renderFilters(containerId, storageKey);
+            applyFiltersIfNeeded(storageKey);
+        };
+
+            container.appendChild(allBtn);
         if (saved.none) {
             // No renderizamos grupos activos, solo None
             container.innerHTML = "";
