@@ -564,7 +564,23 @@ container.appendChild(allBtn);
         container.innerHTML = "";
 
         const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+        if (saved.none) {
+            // No renderizamos grupos activos, solo None
+            container.innerHTML = "";
 
+            const noneBtn = document.createElement("button");
+            noneBtn.innerText = "None";
+            noneBtn.className = "none-btn active";
+
+            noneBtn.onclick = () => {
+                localStorage.setItem(storageKey, JSON.stringify({ none: true }));
+                renderFilters(containerId, storageKey);
+                applyFiltersIfNeeded(storageKey);
+            };
+
+            container.appendChild(noneBtn);
+            return; // SALIR: no renderizar nada más
+        }
         for (const group in filterSchema) {
             const schema = filterSchema[group];
 
@@ -580,12 +596,15 @@ container.appendChild(allBtn);
 
                 btn.onclick = () => {
                     let current = saved[group] || [];
-
+                    // Exclusividad en el grupo TYPE
+                    if (group === "type" && option !== "All") {
+                        current = [option]; // solo uno activo
+                    }
                     if (schema.type === "single") {
                         current = [option];
                     } else {
-                        if (option === "All") {
-                            current = ["All"];
+                        if (group === "type") {
+                            current = ["All"]; // apaga Overtakes y Milestones
                         } else {
                             current = current.filter(v => v !== "All");
                             if (current.includes(option)) {
@@ -616,11 +635,19 @@ container.appendChild(allBtn);
         if (saved.none) noneBtn.classList.add("active");
 
         noneBtn.onclick = () => {
+            // Guardar estado None
             localStorage.setItem(storageKey, JSON.stringify({ none: true }));
+
+            // Re-render
             renderFilters(containerId, storageKey);
+
+            // Apagar TODOS los botones excepto None
+            const cont = document.getElementById(containerId);
+            cont.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+            noneBtn.classList.add("active");
+
             applyFiltersIfNeeded(storageKey);
         };
-
         container.appendChild(noneBtn);
     }
 
