@@ -216,6 +216,12 @@
             font-weight: bold;
         }
 
+        .filter-group {
+            border-bottom: 2px solid orange;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
@@ -523,7 +529,7 @@
         },
         stats: {
             type: "multi",
-            options: ["All", "Points", "Rebounds", "Assists"]
+            options: ["All", "PTS", "REB", "AST", "STL", "BLK", "3PM", "G"]
         },
         teams: {
             type: "multi",
@@ -540,6 +546,19 @@
     };
 
     /* --- 2. Render dinámico de filtros --- */
+    // Al inicio de renderFilters()
+    const allBtn = document.createElement("button");
+    allBtn.innerText = "ALL";
+    allBtn.className = "all-btn active";
+
+    allBtn.onclick = () => {
+        localStorage.setItem(storageKey, JSON.stringify({ all: true }));
+        renderFilters(containerId, storageKey);
+        applyFiltersIfNeeded(storageKey);
+    };
+
+container.appendChild(allBtn);
+
     function renderFilters(containerId, storageKey) {
         const container = document.getElementById(containerId);
         container.innerHTML = "";
@@ -741,21 +760,13 @@
 
         <!-- PESTAÑA PUSH -->
         <div class="settings-tab-content active" id="tab-push">
-            <h3>Push Notifications</h3>
-
-            <!-- TEXTO DE PRUEBA -->
-            <p style="color:yellow; font-weight:bold;">ESTO ES PUSH</p>
-
+            
             <div id="push-filters"></div>
         </div>
 
         <!-- PESTAÑA LATEST -->
         <div class="settings-tab-content" id="tab-latest">
-            <h3>Latest Moves View</h3>
-
-            <!-- TEXTO DE PRUEBA -->
-            <p style="color:cyan; font-weight:bold;">ESTO ES LATEST</p>
-
+           
             <div id="latest-filters"></div>
         </div>
 
