@@ -763,6 +763,17 @@
 
     <button id="close-settings">Close</button>
 </div>
+
+<script>
+document.getElementById('settings-btn').addEventListener('click', () => {
+    document.getElementById('settings-panel').classList.add('open');
+});
+
+document.getElementById('close-settings').addEventListener('click', () => {
+    document.getElementById('settings-panel').classList.remove('open');
+});
+</script>
+
 </body>
 
 </html>
