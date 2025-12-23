@@ -159,7 +159,7 @@
             margin-bottom: 20px;
         }
 
-        .settings-tabs .settings-tab {
+        .settings-tabs .settings-tab-btn {
             flex: 1;
             padding: 12px;
             background: rgba(255,70,85,0.2);
@@ -169,9 +169,18 @@
             cursor: pointer;
         }
 
-        .settings-tabs .settings-tab.active {
+        .settings-tabs .settings-tab-btn.active {
             background: #ff4655;
         }
+
+        .settings-tab-content {
+            display: none;
+        }
+
+        .settings-tab-content.active {
+            display: block;
+        }
+
 
         /* SOLO para las tabs principales */
         #telegram.tab-content,
