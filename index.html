@@ -546,6 +546,9 @@
     };
 
     /* --- 2. Render dinámico de filtros --- */
+    function renderFilters(containerId, storageKey) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = "";
     // Al inicio de renderFilters()
     const allBtn = document.createElement("button");
     allBtn.innerText = "ALL";
@@ -557,12 +560,7 @@
         applyFiltersIfNeeded(storageKey);
     };
 
-container.appendChild(allBtn);
-
-    function renderFilters(containerId, storageKey) {
-        const container = document.getElementById(containerId);
-        container.innerHTML = "";
-
+        container.appendChild(allBtn);    
         const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
         if (saved.none) {
             // No renderizamos grupos activos, solo None
@@ -600,21 +598,24 @@ container.appendChild(allBtn);
                     if (group === "type" && option !== "All") {
                         current = [option]; // solo uno activo
                     }
-                    if (schema.type === "single") {
-                        current = [option];
-                    } else {
-                        if (group === "type") {
-                            current = ["All"]; // apaga Overtakes y Milestones
+                    if (group === "type") {
+                        if (option === "All") {
+                            current = ["All"];
                         } else {
-                            current = current.filter(v => v !== "All");
-                            if (current.includes(option)) {
-                                current = current.filter(v => v !== option);
-                            } else {
-                                current.push(option);
-                            }
+                            current = [option]; // exclusividad real
                         }
                     }
-
+                    else if (schema.type === "single") {
+                        current = [option];
+                    }
+                    else {
+                        current = current.filter(v => v !== "All");
+                        if (current.includes(option)) {
+                            current = current.filter(v => v !== option);
+                        } else {
+                            current.push(option);
+                        }
+                    }
                     saved[group] = current;
                     localStorage.setItem(storageKey, JSON.stringify(saved));
                     renderFilters(containerId, storageKey);
