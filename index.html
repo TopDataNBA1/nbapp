@@ -551,35 +551,31 @@
         container.innerHTML = "";
         
         const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
-        // Al inicio de renderFilters()
-        const allBtn = document.createElement("button");
-        allBtn.innerText = "ALL";
-        allBtn.className = "all-btn active";
-
-        allBtn.onclick = () => {
-            localStorage.setItem(storageKey, JSON.stringify({ all: true }));
-            renderFilters(containerId, storageKey);
-            applyFiltersIfNeeded(storageKey);
-        };
-
-            container.appendChild(allBtn);
         if (saved.none) {
-            // No renderizamos grupos activos, solo None
             container.innerHTML = "";
-
             const noneBtn = document.createElement("button");
             noneBtn.innerText = "None";
             noneBtn.className = "none-btn active";
-
             noneBtn.onclick = () => {
                 localStorage.setItem(storageKey, JSON.stringify({ none: true }));
                 renderFilters(containerId, storageKey);
                 applyFiltersIfNeeded(storageKey);
             };
-
             container.appendChild(noneBtn);
-            return; // SALIR: no renderizar nada más
+            return;
         }
+
+        // ALL AQUÍ (BIEN)
+        const allBtn = document.createElement("button");
+        allBtn.innerText = "ALL";
+        allBtn.className = "all-btn" + (saved.all ? " active" : "");
+        allBtn.onclick = () => {
+            localStorage.setItem(storageKey, JSON.stringify({ all: true }));
+            renderFilters(containerId, storageKey);
+            applyFiltersIfNeeded(storageKey);
+        };
+        container.appendChild(allBtn);
+
         for (const group in filterSchema) {
             const schema = filterSchema[group];
 
