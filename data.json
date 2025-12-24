@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:16",
+    "ultima_actualizacion": "03:56:50",
     "tablas": {
         "pts": [
             {
@@ -224,9 +224,9 @@
             },
             {
                 "Rank": 190,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
-                "Hoy": 8,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 17,
                 "Total": 14177,
                 "Diff": "48",
                 "Antece": "Thaddeus Young",
@@ -235,6 +235,17 @@
             },
             {
                 "Rank": 191,
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 8,
+                "Total": 14177,
+                "Diff": "",
+                "Antece": "Harrison Barnes",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 192,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
                 "Hoy": 27,
@@ -245,24 +256,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 192,
-                "Nombre": "Harrison Barnes",
-                "Team": "SAS",
-                "Hoy": 16,
-                "Total": 14176,
-                "Diff": "",
-                "Antece": "Donovan Mitchell",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 193,
                 "Nombre": "Eric Gordon",
                 "Team": "PHI",
                 "Hoy": 12,
                 "Total": 14167,
                 "Diff": "9",
-                "Antece": "Harrison Barnes",
+                "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "finished"
             },
@@ -2263,5 +2263,5 @@
             "timestamp": 1766544697
         }
     ],
-    "cache_buster": 1766544976
+    "cache_buster": 1766545010
 }
