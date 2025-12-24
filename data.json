@@ -1,6 +1,824 @@
 {
-    "ultima_actualizacion": "01:24:52",
-    "tablas": {},
+    "ultima_actualizacion": "01:25:00",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 42,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 21030,
+                "Diff": "556",
+                "Antece": "Hal Greer",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 69,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 4,
+                "Total": 18879,
+                "Diff": "2",
+                "Antece": "Jason Terry",
+                "Nota": "A tiro de 2",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 105,
+                "Nombre": "Nikola Vucevic",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 17150,
+                "Diff": "32",
+                "Antece": "Chris Webber",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 120,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 16362,
+                "Diff": "39",
+                "Antece": "Joe Dumars",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 132,
+                "Nombre": "CJ McCollum",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 15923,
+                "Diff": "25",
+                "Antece": "Pete Maravich",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 173,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 14567,
+                "Diff": "25",
+                "Antece": "Spencer Haywood",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 193,
+                "Nombre": "Eric Gordon",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 14155,
+                "Diff": "",
+                "Antece": "Eddie Jones",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 194,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 14149,
+                "Diff": "6",
+                "Antece": "Eric Gordon",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 229,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 13074,
+                "Diff": "53",
+                "Antece": "Kevin Johnson",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 245,
+                "Nombre": "Joel Embiid",
+                "Team": "PHI",
+                "Hoy": 6,
+                "Total": 12754,
+                "Diff": "27",
+                "Antece": "Lamar Odom",
+                "Nota": "",
+                "game_status": "playing"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 31,
+                "Nombre": "Andre Drummond",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 11231,
+                "Diff": "25",
+                "Antece": "Dolph Schayes",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 34,
+                "Nombre": "DeAndre Jordan",
+                "Team": "NOP",
+                "Hoy": 0,
+                "Total": 10795,
+                "Diff": "21",
+                "Antece": "Jack Sikma",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 39,
+                "Nombre": "Nikola Vucevic",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 10418,
+                "Diff": "26",
+                "Antece": "Dave Cowens",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 66,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 8702,
+                "Diff": "7",
+                "Antece": "Leroy Ellis",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 208,
+                "Nombre": "Mason Plumlee",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 5807,
+                "Diff": "15",
+                "Antece": "Enes Freedom",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 215,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 5741,
+                "Diff": "4",
+                "Antece": "Tom Boerwinkle",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 245,
+                "Nombre": "Jarrett Allen",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 5379,
+                "Diff": "25",
+                "Antece": "Joe Barry Carroll",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "ast": [
+            {
+                "Rank": 19,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 7104,
+                "Diff": "56",
+                "Antece": "Terry Porter",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 80,
+                "Nombre": "Trae Young",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 4806,
+                "Diff": "57",
+                "Antece": "Mark Price",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 100,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 4392,
+                "Diff": "10",
+                "Antece": "Calvin Murphy",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 165,
+                "Nombre": "T.J. McConnell",
+                "Team": "IND",
+                "Hoy": 0,
+                "Total": 3624,
+                "Diff": "26",
+                "Antece": "Elgin Baylor",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 189,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 3407,
+                "Diff": "15",
+                "Antece": "Carmelo Anthony",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 219,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 3127,
+                "Diff": "9",
+                "Antece": "Tom Henderson",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 225,
+                "Nombre": "CJ McCollum",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 3100,
+                "Diff": "11",
+                "Antece": "Foots Walker",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 249,
+                "Nombre": "Tyrese Haliburton",
+                "Team": "IND",
+                "Hoy": 0,
+                "Total": 2947,
+                "Diff": "15",
+                "Antece": "Tom Gola",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "stl": [
+            {
+                "Rank": 44,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 1555,
+                "Diff": "",
+                "Antece": "Doug Christie",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 55,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 1500,
+                "Diff": "5",
+                "Antece": "Reggie Miller",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 118,
+                "Nombre": "Andre Drummond",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 1149,
+                "Diff": "3",
+                "Antece": "Chris Ford",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 193,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 977,
+                "Diff": "8",
+                "Antece": "Dell Curry",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 234,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 917,
+                "Diff": "",
+                "Antece": "James Posey",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            }
+        ],
+        "blk": [
+            {
+                "Rank": 37,
+                "Nombre": "DeAndre Jordan",
+                "Team": "NOP",
+                "Hoy": 0,
+                "Total": 1568,
+                "Diff": "13",
+                "Antece": "Benoit Benjamin",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 45,
+                "Nombre": "Myles Turner",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 1455,
+                "Diff": "1",
+                "Antece": "Hot Rod Williams",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 69,
+                "Nombre": "Andre Drummond",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 1174,
+                "Diff": "9",
+                "Antece": "Elmore Smith",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 92,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 1080,
+                "Diff": "6",
+                "Antece": "Thurl Bailey",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 119,
+                "Nombre": "Kristaps Porzingis",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 930,
+                "Diff": "1",
+                "Antece": "Chris Kaman",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 141,
+                "Nombre": "Nikola Vucevic",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 855,
+                "Diff": "9",
+                "Antece": "Kenyon Martin",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 164,
+                "Nombre": "Jakob Poeltl",
+                "Team": "TOR",
+                "Hoy": 0,
+                "Total": 768,
+                "Diff": "12",
+                "Antece": "Gar Heard",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 170,
+                "Nombre": "Joel Embiid",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 752,
+                "Diff": "",
+                "Antece": "Danny Manning",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 181,
+                "Nombre": "Jarrett Allen",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 721,
+                "Diff": "4",
+                "Antece": "Michael Cage",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 189,
+                "Nombre": "Mason Plumlee",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 703,
+                "Diff": "3",
+                "Antece": "Billy Paultz",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 246,
+                "Nombre": "Nic Claxton",
+                "Team": "BKN",
+                "Hoy": 0,
+                "Total": 570,
+                "Diff": "1",
+                "Antece": "Keon Clark",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 9,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 2376,
+                "Diff": "24",
+                "Antece": "2400",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 2207,
+                "Diff": "14",
+                "Antece": "Jamal Crawford",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Eric Gordon",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 2089,
+                "Diff": "11",
+                "Antece": "2100",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "CJ McCollum",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 2068,
+                "Diff": "21",
+                "Antece": "Eric Gordon",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 35,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 1729,
+                "Diff": "2",
+                "Antece": "Carmelo Anthony",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 66,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 1424,
+                "Diff": "14",
+                "Antece": "Jordan Clarkson",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 73,
+                "Nombre": "Terry Rozier",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1356,
+                "Diff": "3",
+                "Antece": "Evan Fournier",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 83,
+                "Nombre": "Trae Young",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 1289,
+                "Diff": "8",
+                "Antece": "Terry Porter",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 112,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1192,
+                "Diff": "8",
+                "Antece": "Jaylen Brown",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 129,
+                "Nombre": "Norman Powell",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1130,
+                "Diff": "2",
+                "Antece": "Gary Payton",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 143,
+                "Nombre": "Gary Trent Jr.",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 1079,
+                "Diff": "1",
+                "Antece": "Justin Holiday",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 147,
+                "Nombre": "Kyle Kuzma",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 1068,
+                "Diff": "2",
+                "Antece": "Derek Harper",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 149,
+                "Nombre": "Kevin Huerter",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 1063,
+                "Diff": "3",
+                "Antece": "George Hill",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 154,
+                "Nombre": "Jordan Poole",
+                "Team": "NOP",
+                "Hoy": 0,
+                "Total": 1045,
+                "Diff": "1",
+                "Antece": "Marvin Williams",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 166,
+                "Nombre": "Coby White",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 1010,
+                "Diff": "16",
+                "Antece": "Joe Harris",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 171,
+                "Nombre": "Kelly Oubre Jr.",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 1005,
+                "Diff": "1",
+                "Antece": "Jerami Grant",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 174,
+                "Nombre": "Taurean Prince",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 1000,
+                "Diff": "2",
+                "Antece": "Danny Ainge",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 175,
+                "Nombre": "Tyler Herro",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 999,
+                "Diff": "1",
+                "Antece": "Taurean Prince",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 190,
+                "Nombre": "Kristaps Porzingis",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 974,
+                "Diff": "1",
+                "Antece": "Alec Burks",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 198,
+                "Nombre": "Nikola Vucevic",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 947,
+                "Diff": "2",
+                "Antece": "Michael Adams",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 203,
+                "Nombre": "Luke Kennard",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 939,
+                "Diff": "1",
+                "Antece": "Anthony Peeler",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 206,
+                "Nombre": "Darius Garland",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 931,
+                "Diff": "3",
+                "Antece": "Chucky Atkins",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 207,
+                "Nombre": "Michael Porter Jr.",
+                "Team": "BKN",
+                "Hoy": 3,
+                "Total": 930,
+                "Diff": "1",
+                "Antece": "Darius Garland",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 214,
+                "Nombre": "Gary Harris",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 919,
+                "Diff": "1",
+                "Antece": "Jose Calderon",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 239,
+                "Nombre": "Tyrese Haliburton",
+                "Team": "IND",
+                "Hoy": 0,
+                "Total": 856,
+                "Diff": "3",
+                "Antece": "Avery Bradley",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 250,
+                "Nombre": "Myles Turner",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 821,
+                "Diff": "6",
+                "Antece": "Clyde Drexler",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "g": [
+            {
+                "Rank": 59,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 1177,
+                "Diff": "",
+                "Antece": "James Harden",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 82,
+                "Nombre": "DeAndre Jordan",
+                "Team": "NOP",
+                "Hoy": 0,
+                "Total": 1113,
+                "Diff": "3",
+                "Antece": "Zach Randolph",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 154,
+                "Nombre": "Nikola Vucevic",
+                "Team": "CHI",
+                "Hoy": 0,
+                "Total": 999,
+                "Diff": "1",
+                "Antece": "Glen Rice",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 227,
+                "Nombre": "Andre Drummond",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 930,
+                "Diff": "2",
+                "Antece": "Jerry West",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 228,
+                "Nombre": "Eric Gordon",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 930,
+                "Diff": "",
+                "Antece": "Andre Drummond",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 245,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 920,
+                "Diff": "",
+                "Antece": "Larry Nance",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            }
+        ]
+    },
     "notificaciones": [],
-    "cache_buster": 1766535892
+    "cache_buster": 1766535900
 }
