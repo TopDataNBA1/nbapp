@@ -117,6 +117,92 @@
             height: 100%;
             object-fit: cover;
         }
+        /* PANEL DE CONFIGURACIÓN */
+        .settings-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+        }
+        .settings-panel.open {
+            display: flex;
+        }
+        .settings-header {
+            background: #ff4655;
+            padding: 15px;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .settings-header h2 {
+            margin: 0;
+            color: white;
+        }
+        .settings-tabs {
+            display: flex;
+            background: #1e1e2e;
+        }
+        .settings-tab-btn {
+            flex: 1;
+            padding: 12px;
+            background: rgba(255,70,85,0.2);
+            border: none;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .settings-tab-btn.active {
+            background: #ff4655;
+        }
+        .settings-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        .settings-tab-content {
+            display: none;
+        }
+        .settings-tab-content.active {
+            display: block;
+        }
+        .filter-group {
+            margin-bottom: 20px;
+        }
+        .filter-group h4 {
+            margin: 10px 0 8px 0;
+            color: #ffaa00;
+        }
+        .filter-option {
+            display: block;
+            width: 100%;
+            margin: 8px 0;
+            padding: 10px;
+            background: rgba(255,70,85,0.2);
+            border: 1px solid #ff4655;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        .filter-option.active {
+            background: #ff4655;
+        }
+        .none-btn {
+            background: #333 !important;
+            border-color: #888 !important;
+        }
+        #close-settings {
+            background: #ff4655;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
 
     </style>
 </head>
@@ -125,6 +211,7 @@
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
         <div class="nbapp">NBApp</div>
+        <button id="settings-btn" style="background:none;border:none;color:#ff4655;font-size:1.8em;cursor:pointer;">⚙️</button>
     </div>
 
     <div class="status-bar">
@@ -408,6 +495,136 @@
 
         updatePage();
         updateMoves();
+            // ABRIR Y CERRAR PANEL DE SETTINGS
+                document.getElementById('settings-btn').addEventListener('click', () => {
+                    document.getElementById('settings-panel').classList.add('open');
+                });
+
+                document.getElementById('close-settings').addEventListener('click', () => {
+                    document.getElementById('settings-panel').classList.remove('open');
+                });
+
+                // CAMBIO DE PESTAÑA EN SETTINGS
+                document.querySelectorAll('.settings-tab-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
+                        document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
+                        btn.classList.add('active');
+                        document.getElementById(btn.dataset.tab).classList.add('active');
+                    });
+                });
+
+                // FILTROS COMPATIBLES / INCOMPATIBLES
+                document.querySelectorAll('.filter-option').forEach(opt => {
+                    opt.addEventListener('click', () => {
+                        const group = opt.dataset.group;
+                        if (group.includes('none')) {
+                            // "None" desactiva todo
+                            document.querySelectorAll(`.filter-option[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
+                        } else if (group.endsWith('-amount') || group.endsWith('-type')) {
+                            // Grupos incompatibles (ALL vs Top100 vs Top25, y ALL vs Milestones vs Overtaking)
+                            document.querySelectorAll(`.filter-option[data-group="${group}"]`).forEach(o => o.classList.remove('active'));
+                            opt.classList.add('active');
+                        } else {
+                            // Grupos compatibles (estadísticas y equipos)
+                            opt.classList.toggle('active');
+                            // Si se activa alguna, desactiva "ALL" del mismo grupo
+                            const allBtn = document.querySelector(`.filter-option[data-group="${group}"][data-value="all"]`);
+                            if (opt.dataset.value !== 'all' && opt.classList.contains('active')) {
+                                allBtn.classList.remove('active');
+                            }
+                            // Si se desactiva la última, activa "ALL"
+                            const activeInGroup = document.querySelectorAll(`.filter-option[data-group="${group}"].active`).length;
+                            if (activeInGroup === 0) allBtn.classList.add('active');
+                        }
+                    });
+                });
     </script>
+    <!-- PANEL DE CONFIGURACIÓN -->
+    <div id="settings-panel" class="settings-panel">
+        <div class="settings-header">
+            <h2>Configuración de Notificaciones</h2>
+        </div>
+
+        <div class="settings-tabs">
+            <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
+            <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
+        </div>
+
+        <div class="settings-content">
+            <div class="settings-tab-content active" id="tab-push">
+                <h3>Push Notifications</h3>
+                <div class="filter-group">
+                    <h4>Cantidad</h4>
+                    <button class="filter-option active" data-group="push-amount" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="push-amount" data-value="top100">Top 100</button>
+                    <button class="filter-option" data-group="push-amount" data-value="top25">Top 25</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Estadística</h4>
+                    <button class="filter-option active" data-group="push-stat" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="push-stat" data-value="pts">PTS</button>
+                    <button class="filter-option" data-group="push-stat" data-value="reb">REB</button>
+                    <button class="filter-option" data-group="push-stat" data-value="ast">AST</button>
+                    <button class="filter-option" data-group="push-stat" data-value="stl">STL</button>
+                    <button class="filter-option" data-group="push-stat" data-value="blk">BLK</button>
+                    <button class="filter-option" data-group="push-stat" data-value="fg3">3P</button>
+                    <button class="filter-option" data-group="push-stat" data-value="g">GAMES</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Equipo</h4>
+                    <button class="filter-option active" data-group="push-team" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="push-team" data-value="ATL">ATL</button>
+                    <button class="filter-option" data-group="push-team" data-value="BOS">BOS</button>
+                    <!-- Añade los demás equipos si quieres -->
+                </div>
+                <div class="filter-group">
+                    <h4>Tipo</h4>
+                    <button class="filter-option active" data-group="push-type" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="push-type" data-value="milestones">Milestones</button>
+                    <button class="filter-option" data-group="push-type" data-value="overtaking">Overtaking</button>
+                </div>
+                <button class="filter-option none-btn" data-group="push-none">None</button>
+            </div>
+
+            <div class="settings-tab-content" id="tab-latest">
+                <h3>Latest Moves View</h3>
+                <div class="filter-group">
+                    <h4>Cantidad</h4>
+                    <button class="filter-option active" data-group="latest-amount" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="latest-amount" data-value="top100">Top 100</button>
+                    <button class="filter-option" data-group="latest-amount" data-value="top25">Top 25</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Estadística</h4>
+                    <button class="filter-option active" data-group="latest-stat" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="pts">PTS</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="reb">REB</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="ast">AST</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="stl">STL</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="blk">BLK</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="fg3">3P</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="g">GAMES</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Equipo</h4>
+                    <button class="filter-option active" data-group="latest-team" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="latest-team" data-value="ATL">ATL</button>
+                    <button class="filter-option" data-group="latest-team" data-value="BOS">BOS</button>
+                    <!-- Añade más si quieres -->
+                </div>
+                <div class="filter-group">
+                    <h4>Tipo</h4>
+                    <button class="filter-option active" data-group="latest-type" data-value="all">ALL</button>
+                    <button class="filter-option" data-group="latest-type" data-value="milestones">Milestones</button>
+                    <button class="filter-option" data-group="latest-type" data-value="overtaking">Overtaking</button>
+                </div>
+                <button class="filter-option none-btn" data-group="latest-none">None</button>
+            </div>
+        </div>
+
+        <button id="close-settings">Close</button>
+    </div>
+    <!-- FIN PANEL CONFIGURACIÓN -->
 </body>
 </html>
