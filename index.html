@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED: DO NOT EDIT MANUALLY -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,17 +26,25 @@
         .tab-content.active{display:block;}
         .container{max-width:900px;margin:0 auto;}
 
-        /* LATEST MOVES – VERSIÓN QUE TÚ AMAS + TUS 4 CAMBIOS */
+        /* LATEST MOVES */
         .moves-area{height:88vh;background:#1e1e2e;border-radius:16px;overflow:hidden;box-shadow:0 12px 40px rgba(255,70,85,0.4);display:flex;flex-direction:column;}
         .moves-list{flex:1;overflow-y:auto;padding:18px 12px;background:#0f0f1b;}
         .move-item{background:rgba(30,30,46,0.9);border-radius:14px;margin:14px 8px;padding:16px 14px;box-shadow:0 4px 12px rgba(0,0,0,0.5);}
-        .move-photos{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px;}
-        .move-photos img{width:78px;height:78px;border-radius:50%;object-fit:cover;border:4px solid #ff4655;box-shadow:0 0 15px rgba(255,70,85,0.6);}
         .move-text{font-size:1.01em;line-height:1.52;color:#e0e0e0;text-align:center;}
         .move-text strong{color:#ffaa00;font-weight:700;}
         .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
 
-        /* LIVE RANKINGS – 100% COMO ANTES */
+        /* COLLAGES */
+        .collage { max-width: 300px; max-height: 200px; margin: 0 auto 12px; border-radius: 10px; overflow: hidden; }
+        .collage img { width: 100%; height: 100%; object-fit: cover; }
+        .collage.c2 { display: flex; gap: 6px; }
+        .collage.c2 img { flex: 1; }
+        .collage.c3 { display: flex; gap: 6px; height: 200px; }
+        .collage.c3 .left, .collage.c3 .right { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+        .collage.c3 img { flex: 1; width: 100%; }
+        .collage.c4 { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 6px; height: 200px; }
+
+        /* LIVE RANKINGS */
         .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
         .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;}
         .filter-btn.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;}
@@ -49,179 +56,29 @@
         th{background:#1a1a2e;position:sticky;top:0;font-size:0.88em;}
         .rank{color:#ffaa00;text-align:center;font-weight:bold;width:8%;}
         .player{text-align:left;font-weight:500;width:28%;}
-        .number,.today,.diff{text-align:right;}
         .today{font-weight:bold;width:12%;}
         .diff{color:#ffaa00;width:10%;}
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
-        .collage img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-        /* Tamaño máximo de los collages de Latest Moves */
-        .collage {
-            max-width: 300px;      /* ancho máximo de cada collage */
-            max-height: 200px;     /* altura máxima del collage */
-            margin: 0 auto 12px;
-        }
 
-        /* 1 FOTO → ocupa todo el collage */
-        .collage.c1 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* 2 FOTOS → lado a lado */
-        .collage.c2 {
-            display: flex;
-            gap: 6px;
-        }
-        .collage.c2 img {
-            flex: 1;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* 3 FOTOS → 1 izquierda, 2 derecha en columna */
-        .collage.c3 {
-            display: flex;
-            gap: 6px;
-            height: 200px;  /* altura máxima */
-        }
-        .collage.c3 .left,
-        .collage.c3 .right {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .collage.c3 .left img,
-        .collage.c3 .right img {
-            flex: 1;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        /* 4 FOTOS → grid 2x2 */
-        .collage.c4 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 6px;
-            height: 200px; /* altura máxima */
-        }
-        .collage.c4 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
         /* PANEL DE CONFIGURACIÓN */
-        .settings-panel {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.95);
-            z-index: 1000;
-            display: none;
-            flex-direction: column;
-        }
-        .settings-panel.open {
-            display: flex;
-        }
-        .settings-header {
-            background: #ff4655;
-            padding: 15px;
-            text-align: center;
-            font-family: 'Orbitron', sans-serif;
-        }
-        .settings-header h2 {
-            margin: 0;
-            color: white;
-        }
-        .settings-tabs {
-            display: flex;
-            background: #1e1e2e;
-        }
-        .settings-tab-btn {
-            flex: 1;
-            padding: 12px;
-            background: rgba(255,70,85,0.2);
-            border: none;
-            color: white;
-            font-size: 1em;
-            cursor: pointer;
-        }
-        .settings-tab-btn.active {
-            background: #ff4655;
-            color: black;
-        }
-        .settings-content {
-            flex: 1;
-            overflow-y: auto;
-            padding: 20px;
-        }
-        .settings-tab-content {
-            display: none;
-        }
-        .settings-tab-content.active {
-            display: block;
-        }
-        .filter-group {
-            margin-bottom: 20px;
-        }
-        .filter-group h4 {
-            margin: 10px 0 8px 0;
-            color: #ffaa00;
-        }
-        .filter-option {
-            display: block;
-            width: 100%;
-            margin: 8px 0;
-            padding: 10px;
-            background: rgba(255,70,85,0.2);
-            border: 1px solid #ff4655;
-            color: white;
-            text-align: center;
-            cursor: pointer;
-            border-radius: 6px;
-        }
-        .filter-option.active {
-            background: #ff4655;
-            color: black !important;
-            box-shadow: 0 0 12px #ff4655;
-        }
-        .none-btn {
-            background: #333 !important;
-            border-color: #888 !important;
-        }
-        #close-settings {
-            background: #ff4655;
-            color: white;
-            border: none;
-            padding: 15px;
-            font-size: 1.1em;
-            cursor: pointer;
-        }
-        .settings-panel {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.95);
-            z-index: 1000;
-            display: none;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        .settings-panel.open {
-            display: flex;
-        }
+        .settings-panel { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 1000; display: none; flex-direction: column; }
+        .settings-panel.open { display: flex; }
+        .settings-header { background: #ff4655; padding: 15px; text-align: center; font-family: 'Orbitron', sans-serif; }
+        .settings-header h2 { margin: 0; color: white; }
+        .settings-tabs { display: flex; background: #1e1e2e; }
+        .settings-tab-btn { flex: 1; padding: 12px; background: rgba(255,70,85,0.2); border: none; color: white; font-size: 1em; cursor: pointer; }
+        .settings-tab-btn.active { background: #ff4655; color: black; }
+        .settings-content { flex: 1; overflow-y: auto; padding: 20px; }
+        .settings-tab-content { display: none; }
+        .settings-tab-content.active { display: block; }
+        .filter-group { margin-bottom: 20px; }
+        .filter-group h4 { margin: 10px 0 8px 0; color: #ffaa00; }
+        .filter-option { display: block; width: 100%; margin: 8px 0; padding: 10px; background: rgba(255,70,85,0.2); border: 1px solid #ff4655; color: white; text-align: center; cursor: pointer; border-radius: 6px; }
+        .filter-option.active { background: #ff4655; color: black !important; box-shadow: 0 0 12px #ff4655; }
+        .none-btn { background: #333 !important; border-color: #888 !important; }
+        #close-settings { background: #ff4655; color: white; border: none; padding: 15px; font-size: 1.1em; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -242,7 +99,6 @@
         <button class="tab-btn" onclick="openTab('live')">Live Rankings</button>
     </div>
 
-    <!-- LATEST MOVES -->
     <div id="telegram" class="tab-content active">
         <div class="container">
             <div class="moves-area">
@@ -253,7 +109,6 @@
         </div>
     </div>
 
-    <!-- LIVE RANKINGS -->
     <div id="live" class="tab-content">
         <div class="container">
             <div class="leyenda">
@@ -273,7 +128,68 @@
         </div>
     </div>
 
+    <div id="settings-panel" class="settings-panel">
+        <div class="settings-header"><h2>Configuración</h2></div>
+        <div class="settings-tabs">
+            <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
+            <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-content active" id="tab-push">
+                <p style="text-align:center; font-size:0.8em; color:#888;">(Configuración para notificaciones del sistema)</p>
+            </div>
+
+            <div class="settings-tab-content active" id="tab-latest">
+                <button class="filter-option active" data-group="latest-global" data-value="ALL">ALL (Show Everything)</button>
+                <hr style="border-color:#ff4655;margin:20px 0;">
+                <div class="filter-group">
+                    <h4>Top</h4>
+                    <button class="filter-option active" data-group="latest-amount" data-value="all">All</button>
+                    <button class="filter-option" data-group="latest-amount" data-value="top100">Top 100</button>
+                    <button class="filter-option" data-group="latest-amount" data-value="top25">Top 25</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Stat</h4>
+                    <button class="filter-option active" data-group="latest-stat" data-value="all">All</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="pts">PTS</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="trb">REB</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="ast">AST</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="stl">STL</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="blk">BLK</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="fg3">3P</button>
+                    <button class="filter-option" data-group="latest-stat" data-value="g">GAMES</button>
+                </div>
+                <div class="filter-group">
+                    <h4>Type</h4>
+                    <button class="filter-option active" data-group="latest-type" data-value="all">All</button>
+                    <button class="filter-option" data-group="latest-type" data-value="milestone">Milestones</button>
+                    <button class="filter-option" data-group="latest-type" data-value="overtake">Overtaking</button>
+                </div>
+                <button class="filter-option none-btn" data-group="latest-none">None (Mute View)</button>
+            </div>
+        </div>
+        <button id="close-settings">Close</button>
+    </div>
+
     <script>
+        // --- UTILIDADES ---
+        function getTimes() {
+            const now = new Date();
+            const cest = now.toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Europe/Paris'});
+            const est = now.toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true,timeZone:'America/New_York'});
+            return {cest, est};
+        }
+
+        function timeAgo(ts) {
+            const now = Date.now() / 1000;
+            const diff = Math.floor(now - ts);
+            if (diff < 60) return "now";
+            if (diff < 3600) return Math.floor(diff / 60) + "m ago";
+            if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
+            return Math.floor(diff / 86400) + "d ago";
+        }
+
+        // --- NAVEGACIÓN ---
         function openTab(tabName) {
             document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -283,116 +199,129 @@
             if (tabName === 'telegram') updateMoves();
         }
 
-        const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
+        // --- PASO 2: LÓGICA DE FILTRADO PARA LATEST MOVES ---
+        function getActiveLatestFilters() {
+            const isGlobalAll = document.querySelector('[data-group="latest-global"][data-value="ALL"]').classList.contains('active');
+            if (isGlobalAll) return "ALL";
 
-        function getTimes() {
-            const now = new Date();
-            const cest = now.toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Europe/Paris'});
-            const est = now.toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true,timeZone:'America/New_York'});
-            return {cest, est};
-        }
+            const isNone = document.querySelector('[data-group="latest-none"]').classList.contains('active');
+            if (isNone) return "NONE";
 
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const filter = this.getAttribute('data-filter');
-                if (filter === 'all') {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                } else {
-                    document.querySelector('[data-filter="all"]').classList.remove('active');
-                    if (filter === 'top25') document.querySelector('[data-filter="top100"]')?.classList.remove('active');
-                    if (filter === 'top100') document.querySelector('[data-filter="top25"]')?.classList.remove('active');
-                    this.classList.toggle('active');
-                }
-                updatePage();
-            });
-        });
-
-        function getActiveFilters() {
             return {
-                top25: document.querySelector('[data-filter="top25"]').classList.contains('active'),
-                top100: document.querySelector('[data-filter="top100"]').classList.contains('active'),
-                playing: document.querySelector('[data-filter="playing"]').classList.contains('active'),
-                almost: document.querySelector('[data-filter="almost"]').classList.contains('active'),
-                all: document.querySelector('[data-filter="all"]').classList.contains('active')
+                top: document.querySelector('[data-group="latest-amount"].active').dataset.value,
+                stats: Array.from(document.querySelectorAll('[data-group="latest-stat"].active')).map(b => b.dataset.value),
+                types: document.querySelector('[data-group="latest-type"].active').dataset.value
             };
         }
+
+        function updateMoves() {
+            const list = document.getElementById('moves-list');
+            if (!list) return;
+
+            fetch('data.json?v=' + new Date().getTime())
+                .then(r => r.json())
+                .then(data => {
+                    const filters = getActiveLatestFilters();
+                    if (filters === "NONE") {
+                        list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">View Muted (Check Settings)</div>';
+                        return;
+                    }
+
+                    let notis = (data.notificaciones || []).reverse();
+
+                    // Aplicar filtros si no es "ALL"
+                    if (filters !== "ALL") {
+                        notis = notis.filter(n => {
+                            // Filtrar por TOP
+                            if (filters.top === 'top25' && n.rank > 25) return false;
+                            if (filters.top === 'top100' && n.rank > 100) return false;
+
+                            // Filtrar por STAT (si hay stats seleccionadas y no es 'all')
+                            if (!filters.stats.includes('all') && !filters.stats.includes(n.stat)) return false;
+
+                            // Filtrar por TIPO (Milestone / Overtake)
+                            if (filters.types !== 'all' && n.type !== filters.types) return false;
+
+                            return true;
+                        });
+                    }
+
+                    if (notis.length === 0) {
+                        list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No moves match your filters...</div>';
+                        return;
+                    }
+
+                    list.innerHTML = notis.map(n => {
+                        const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+                        const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
+                        let collageHtml = '';
+
+                        if (fotos.length === 1) collageHtml = `<div class="collage c1"><img src="${fotos[0]}"></div>`;
+                        else if (fotos.length === 2) collageHtml = `<div class="collage c2"><img src="${fotos[0]}"><img src="${fotos[1]}"></div>`;
+                        else if (fotos.length === 3) collageHtml = `<div class="collage c3"><div class="left"><img src="${fotos[0]}"></div><div class="right"><img src="${fotos[1]}"><img src="${fotos[2]}"></div></div>`;
+                        else if (fotos.length >= 4) collageHtml = `<div class="collage c4">${fotos.slice(0,4).map(f=>`<img src="${f}">`).join('')}</div>`;
+
+                        return `
+                            <div class="move-item">
+                                ${collageHtml}
+                                <div class="move-text">${n.texto}</div>
+                                <div class="move-time">${cuando}</div>
+                            </div>`;
+                    }).join('');
+                })
+                .catch(() => {
+                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for action...</div>';
+                });
+        }
+
+        // --- LIVE RANKINGS (Mantenido igual) ---
+        const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
 
         function updatePage() {
             const {cest, est} = getTimes();
             document.getElementById('clock-line').textContent = `${est} ET • ${cest} CEST`;
 
             fetch('data.json?v=' + new Date().getTime())
-                .then(r => r.ok ? r.json() : Promise.reject())
+                .then(r => r.json())
                 .then(data => {
                     const tablesDiv = document.getElementById('tables');
                     tablesDiv.innerHTML = '';
-                    const filters = getActiveFilters();
+                    const f = {
+                        top25: document.querySelector('[data-filter="top25"]').classList.contains('active'),
+                        top100: document.querySelector('[data-filter="top100"]').classList.contains('active'),
+                        playing: document.querySelector('[data-filter="playing"]').classList.contains('active'),
+                        almost: document.querySelector('[data-filter="almost"]').classList.contains('active'),
+                        all: document.querySelector('[data-filter="all"]').classList.contains('active')
+                    };
 
                     for (const [stat, tabla] of Object.entries(data.tablas || {})) {
-                        if (!tabla.length) continue;
-
                         let filtered = tabla.filter(row => {
-                            const rank = row.Rank;
-                            const gameStatus = String(row.game_status || '').toLowerCase();
-                            const hoy = row.Hoy ?? 0;
-                            const diff = (row.Diff ?? '').toString().trim() || '0';
-
-                            // FILTROS EXISTENTES
-                            if (filters.top25 && rank > 25) return false;
-                            if (filters.top100 && !filters.top25 && rank > 100) return false;
-                            if (filters.playing && gameStatus !== 'playing') return false;
-
-                            // FILTRO "ALMOST" – CON EXCEPCIÓN PERFECTA PARA GAMES PLAYED
-                            if (filters.almost) {
-                                if (stat === 'g') {
-                                    // En Games Played: solo los que NO han jugado hoy (Hoy=0) y están a 0 del de arriba
-                                    if (hoy !== 0 || !['0'].includes(diff)) return false;
-                                } else {
-                                    // En el resto de stats: como antes (a 0-1-2-3 del de arriba y jugando o no empezado)
-                                    const isPlayingOrNotStarted = (gameStatus === 'playing' || gameStatus === 'not_started');
-                                    const near = (stat === 'pts') ? ['0','1','2'] : ['0'];
-                                    if (!isPlayingOrNotStarted || !near.includes(diff)) return false;
-                                }
+                            if (f.top25 && row.Rank > 25) return false;
+                            if (f.top100 && !f.top25 && row.Rank > 100) return false;
+                            if (f.playing && row.game_status !== 'playing') return false;
+                            if (f.almost) {
+                                const diff = String(row.Diff).trim();
+                                const near = (stat === 'pts') ? ['0','1','2'] : ['0'];
+                                if (!near.includes(diff)) return false;
                             }
-
-                            if (filters.all || (!filters.top25 && !filters.top100 && !filters.playing && !filters.almost)) return true;
                             return true;
                         });
 
                         if (filtered.length === 0) continue;
 
                         const card = document.createElement('div'); card.className = 'card';
-                        card.innerHTML = `<h2>${statNames[stat]}</h2><table><thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Today</th><th>Total</th><th>Diff</th><th>Ahead Of</th></tr></thead><tbody></tbody></table>`;
+                        card.innerHTML = `<h2>${statNames[stat]}</h2><table><thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Today</th><th>Total</th><th>Diff</th><th>Ahead</th></tr></thead><tbody></tbody></table>`;
                         const tbody = card.querySelector('tbody');
 
                         filtered.forEach(row => {
-                            const hoy = row.Hoy ?? 0;
-                            const diff = (row.Diff ?? '').toString().trim() || '0';
-                            const gameStatus = String(row.game_status || '').toLowerCase();
-                            const isInactive = hoy === -1;
-
-                            const isPoints = stat === 'pts';
-                            const isGames = stat === 'g';
-                            const near = isPoints ? ['0','1','2','3'] : ['0','1'];
-                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
-                            const mustBlinkGames = isGames && (gameStatus === 'playing' || gameStatus === 'not_started') && hoy === 0 && near.includes(diff);
-                            const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
-
-                            let todayStyle = '';
-                            if (isInactive) todayStyle = 'color:#ff5555';
-                            else if (gameStatus === 'finished') todayStyle = 'color:white';
-                            else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
-                            else todayStyle = 'color:#888';
-
                             const tr = document.createElement('tr');
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
                                 <td class="team">${row.Team}</td>
-                                <td class="today" style="${todayStyle}">${hoy}</td>
+                                <td class="today" style="${row.game_status==='playing'?'color:#ffaa00;font-weight:900;':''}">${row.Hoy ?? 0}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
-                                <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
+                                <td class="diff">${row.Diff}</td>
                                 <td>${row.Antece||'-'}</td>`;
                             tbody.appendChild(tr);
                         });
@@ -401,260 +330,62 @@
                 });
         }
 
-        // Función para convertir timestamp → "5m ago", "2h ago", "now", etc.
-        function timeAgo(ts) {
-            const now = Date.now() / 1000;
-            const diff = Math.floor(now - ts);
-
-            if (diff < 60) return "now";
-            if (diff < 3600) return Math.floor(diff / 60) + "m ago";
-            if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
-            return Math.floor(diff / 86400) + "d ago";
-}    
-
-        // LATEST MOVES CON FOTOS + TIEMPO
-        function updateMoves() {
-            const list = document.getElementById('moves-list');
-            if (!list) return;
-
-            fetch('data.json?v=' + new Date().getTime())
-                .then(r => r.json())
-                .then(data => {
-                    const notis = (data.notificaciones || []).reverse();
-
-                    list.innerHTML = notis.map(n => {
-                        const texto = n.texto || "";
-                        const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
-                        const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
-
-                        // SIN FOTOS → solo texto
-                        if (fotos.length === 0) {
-                            return `
-                                <div class="move-item">
-                                    <div class="move-text">${texto}</div>
-                                    <div class="move-time">${cuando}</div>
-                                </div>`;
-                        }
-
-                        // 1 FOTO → ocupa todo
-                        if (fotos.length === 1) {
-                            return `
-                                <div class="move-item">
-                                    <div class="collage c1">
-                                        <img src="${fotos[0]}" />
-                                    </div>
-                                    <div class="move-text">${texto}</div>
-                                    <div class="move-time">${cuando}</div>
-                                </div>`;
-                        }
-
-                        // 2 FOTOS → mitad / mitad
-                        if (fotos.length === 2) {
-                            return `
-                                <div class="move-item">
-                                    <div class="collage c2">
-                                        <img src="${fotos[0]}" />
-                                        <img src="${fotos[1]}" />
-                                    </div>
-                                    <div class="move-text">${texto}</div>
-                                    <div class="move-time">${cuando}</div>
-                                </div>`;
-                        }
-
-                        // 3 FOTOS → 1 a la izquierda, 2 a la derecha
-                        if (fotos.length === 3) {
-                            return `
-                                <div class="move-item">
-                                    <div class="collage c3">
-                                        <div class="left"><img src="${fotos[0]}" /></div>
-                                        <div class="right">
-                                            <img src="${fotos[1]}" />
-                                            <img src="${fotos[2]}" />
-                                        </div>
-                                    </div>
-                                    <div class="move-text">${texto}</div>
-                                    <div class="move-time">${cuando}</div>
-                                </div>`;
-                        }
-
-                        // 4 FOTOS → grid 2x2
-                        return `
-                            <div class="move-item">
-                                <div class="collage c4">
-                                    ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
-                                </div>
-                                <div class="move-text">${texto}</div>
-                                <div class="move-time">${cuando}</div>
-                            </div>`;
-                    }).join('');
-                })
-                .catch(err => {
-                    console.error(err);
-                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
-                });
-        }      
-
-        function getPlayerId(name) {
-            const ids = {
-                "LeBron James": 2544, "Stephen Curry": 201939, "Kevin Love": 201567, "Al Horford": 201143,
-                "Luka Doncic": 1629029, "Jayson Tatum": 1628369, "Draymond Green": 203110, "Trae Young": 1629027,
-                "De'Aaron Fox": 1628368, "Harrison Barnes": 203084, "Tobias Harris": 202699, "Kentavious Caldwell-Pope": 203484,
-                "Marcus Smart": 203935, "Kristaps Porzingis": 204001, "Jusuf Nurkic": 203994, "Buddy Hield": 1627741,
-                "Duncan Robinson": 1629130, "Jaylen Brown": 1627759, "Anfernee Simons": 1629014, "Derrick White": 1628401,
-                "Michael Porter Jr.": 1629008
-            };
-            return ids[name] || 0;
-        }
-
-        setInterval(() => {
-            if (document.getElementById('telegram').classList.contains('active')) updateMoves();
-            if (document.getElementById('live').classList.contains('active')) updatePage();
-        }, 25000);
-
-        updatePage();
-        updateMoves();
-        
-        // Asegurar que el panel esté cerrado al cargar la página
-        document.getElementById('settings-panel').classList.remove('open');            
-    </script>
-<!-- PANEL DE CONFIGURACIÓN -->
-<div id="settings-panel" class="settings-panel">
-    <div class="settings-header">
-        <h2>Configuración de Notificaciones</h2>
-    </div>
-
-    <div class="settings-tabs">
-        <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
-        <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
-    </div>
-
-    <div class="settings-content">
-        <div class="settings-tab-content active" id="tab-push">
-            <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
-            <hr style="border-color:#ff4655;margin:20px 0;">
-            <div class="filter-group">
-                <h4>Top</h4>
-                <button class="filter-option active" data-group="push-amount" data-value="all">All</button>
-                <button class="filter-option" data-group="push-amount" data-value="top100">Top 100</button>
-                <button class="filter-option" data-group="push-amount" data-value="top25">Top 25</button>
-            </div>
-            <div class="filter-group">
-                <h4>Stat</h4>
-                <button class="filter-option active" data-group="push-stat" data-value="all">All</button>
-                <button class="filter-option" data-group="push-stat" data-value="pts">PTS</button>
-                <button class="filter-option" data-group="push-stat" data-value="reb">REB</button>
-                <button class="filter-option" data-group="push-stat" data-value="ast">AST</button>
-                <button class="filter-option" data-group="push-stat" data-value="stl">STL</button>
-                <button class="filter-option" data-group="push-stat" data-value="blk">BLK</button>
-                <button class="filter-option" data-group="push-stat" data-value="fg3">3P</button>
-                <button class="filter-option" data-group="push-stat" data-value="g">GAMES</button>
-            </div>
-            <div class="filter-group">
-                <h4>Team</h4>
-                <button class="filter-option active" data-group="push-team" data-value="all">All</button>
-                <button class="filter-option" data-group="push-team" data-value="ATL">ATL</button>
-                <button class="filter-option" data-group="push-team" data-value="BOS">BOS</button>
-                <!-- Añade los demás equipos si quieres -->
-            </div>
-            <div class="filter-group">
-                <h4>Type</h4>
-                <button class="filter-option active" data-group="push-type" data-value="all">All</button>
-                <button class="filter-option" data-group="push-type" data-value="milestones">Milestones</button>
-                <button class="filter-option" data-group="push-type" data-value="overtaking">Overtaking</button>
-            </div>
-            <button class="filter-option none-btn" data-group="push-none">None</button>
-        </div>
-
-        <div class="settings-tab-content" id="tab-latest">
-            <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
-            <hr style="border-color:#ff4655;margin:20px 0;">
-            <div class="filter-group">
-                <h4>Top</h4>
-                <button class="filter-option active" data-group="latest-amount" data-value="all">All</button>
-                <button class="filter-option" data-group="latest-amount" data-value="top100">Top 100</button>
-                <button class="filter-option" data-group="latest-amount" data-value="top25">Top 25</button>
-            </div>
-            <div class="filter-group">
-                <h4>Stat</h4>
-                <button class="filter-option active" data-group="latest-stat" data-value="all">All</button>
-                <button class="filter-option" data-group="latest-stat" data-value="pts">PTS</button>
-                <button class="filter-option" data-group="latest-stat" data-value="reb">REB</button>
-                <button class="filter-option" data-group="latest-stat" data-value="ast">AST</button>
-                <button class="filter-option" data-group="latest-stat" data-value="stl">STL</button>
-                <button class="filter-option" data-group="latest-stat" data-value="blk">BLK</button>
-                <button class="filter-option" data-group="latest-stat" data-value="fg3">3P</button>
-                <button class="filter-option" data-group="latest-stat" data-value="g">GAMES</button>
-            </div>
-            <div class="filter-group">
-                <h4>Team</h4>
-                <button class="filter-option active" data-group="latest-team" data-value="all">All</button>
-                <button class="filter-option" data-group="latest-team" data-value="ATL">ATL</button>
-                <button class="filter-option" data-group="latest-team" data-value="BOS">BOS</button>
-                <!-- Añade más si quieres -->
-            </div>
-            <div class="filter-group">
-                <h4>Type</h4>
-                <button class="filter-option active" data-group="latest-type" data-value="all">All</button>
-                <button class="filter-option" data-group="latest-type" data-value="milestones">Milestones</button>
-                <button class="filter-option" data-group="latest-type" data-value="overtaking">Overtaking</button>
-            </div>
-            <button class="filter-option none-btn" data-group="latest-none">None</button>
-        </div>
-    </div>
-    <button id="close-settings">Close</button>
-</div>
-    <!-- FIN PANEL CONFIGURACIÓN -->
-
-    <script>
-        // ABRIR Y CERRAR PANEL DE SETTINGS
-        document.getElementById('settings-btn').addEventListener('click', () => {
-            document.getElementById('settings-panel').classList.add('open');
-        });
-
+        // --- GESTIÓN DE PANEL SETTINGS ---
+        document.getElementById('settings-btn').addEventListener('click', () => document.getElementById('settings-panel').classList.add('open'));
         document.getElementById('close-settings').addEventListener('click', () => {
             document.getElementById('settings-panel').classList.remove('open');
+            updateMoves(); // Actualizar al cerrar por si cambió algo
         });
 
-        // CAMBIO DE PESTAÑA EN SETTINGS
         document.querySelectorAll('.settings-tab-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
-                document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
+                document.querySelectorAll('.settings-tab-btn, .settings-tab-content').forEach(el => el.classList.remove('active'));
                 btn.classList.add('active');
                 document.getElementById(btn.dataset.tab).classList.add('active');
             });
         });
 
-        // FILTROS COMPATIBLES / INCOMPATIBLES
         document.querySelectorAll('.filter-option').forEach(opt => {
             opt.addEventListener('click', () => {
                 const group = opt.dataset.group;
+                
                 if (opt.dataset.value === 'ALL') {
-                    document.querySelectorAll('.filter-option').forEach(o => o.classList.remove('active'));
+                    document.querySelectorAll(`[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
                     opt.classList.add('active');
-                    return;
-                }
-                if (group.includes('none')) {
-                    // "None" desactiva todo
-                    document.querySelectorAll(`.filter-option[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
+                } else if (group.includes('none')) {
+                    document.querySelectorAll(`[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
+                    opt.classList.add('active');
                 } else if (group.endsWith('-amount') || group.endsWith('-type')) {
-                    // Grupos incompatibles (ALL vs Top100 vs Top25, y ALL vs Milestones vs Overtaking)
-                    document.querySelectorAll(`.filter-option[data-group="${group}"]`).forEach(o => o.classList.remove('active'));
+                    document.querySelectorAll(`[data-group="${group}"]`).forEach(o => o.classList.remove('active'));
                     opt.classList.add('active');
+                    document.querySelector(`[data-group="${group.split('-')[0]}-global"]`)?.classList.remove('active');
+                    document.querySelector(`[data-group="${group.split('-')[0]}-none"]`)?.classList.remove('active');
                 } else {
-                    // Grupos compatibles (estadísticas y equipos)
                     opt.classList.toggle('active');
-                    // Si se activa alguna, desactiva "ALL" del mismo grupo
-                    const allBtn = document.querySelector(`.filter-option[data-group="${group}"][data-value="all"]`);
-                    if (opt.dataset.value !== 'all' && opt.classList.contains('active')) {
-                        allBtn.classList.remove('active');
-                    }
-                    // Si se desactiva la última, activa "ALL"
-                    const activeInGroup = document.querySelectorAll(`.filter-option[data-group="${group}"].active`).length;
-                    if (activeInGroup === 0) allBtn.classList.add('active');
+                    const allBtn = document.querySelector(`[data-group="${group}"][data-value="all"]`);
+                    if (opt.dataset.value !== 'all') allBtn.classList.remove('active');
+                    if (document.querySelectorAll(`[data-group="${group}"].active`).length === 0) allBtn.classList.add('active');
+                    document.querySelector(`[data-group="${group.split('-')[0]}-global"]`)?.classList.remove('active');
+                    document.querySelector(`[data-group="${group.split('-')[0]}-none"]`)?.classList.remove('active');
                 }
             });
         });
-    </script>    
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                updatePage();
+            });
+        });
+
+        setInterval(() => {
+            if (document.getElementById('telegram').classList.contains('active')) updateMoves();
+            if (document.getElementById('live').classList.contains('active')) updatePage();
+        }, 30000);
+
+        updatePage();
+        updateMoves();
+    </script>
 </body>
 </html>
