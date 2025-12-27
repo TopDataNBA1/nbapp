@@ -498,55 +498,55 @@
 
         updatePage();
         updateMoves();
-            // ABRIR Y CERRAR PANEL DE SETTINGS
-                document.getElementById('settings-btn').addEventListener('click', () => {
-                    document.getElementById('settings-panel').classList.add('open');
-                });
+// ABRIR Y CERRAR PANEL DE SETTINGS
+        document.getElementById('settings-btn').addEventListener('click', () => {
+            document.getElementById('settings-panel').classList.add('open');
+        });
 
-                document.getElementById('close-settings').addEventListener('click', () => {
-                    document.getElementById('settings-panel').classList.remove('open');
-                });
+        document.getElementById('close-settings').addEventListener('click', () => {
+            document.getElementById('settings-panel').classList.remove('open');
+        });
 
-                // CAMBIO DE PESTAÑA EN SETTINGS
-                document.querySelectorAll('.settings-tab-btn').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
-                        document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
-                        btn.classList.add('active');
-                        document.getElementById(btn.dataset.tab).classList.add('active');
-                    });
-                });
+        // CAMBIO DE PESTAÑA EN SETTINGS
+        document.querySelectorAll('.settings-tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.settings-tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.settings-tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
 
-                // FILTROS COMPATIBLES / INCOMPATIBLES
-                document.querySelectorAll('.filter-option').forEach(opt => {
-                    opt.addEventListener('click', () => {
-                        const group = opt.dataset.group;
-                        if (opt.dataset.value === 'ALL') {
-                            document.querySelectorAll('.filter-option').forEach(o => o.classList.remove('active'));
-                            opt.classList.add('active');
-                            return;
-                        }
-                        if (group.includes('none')) {
-                            // "None" desactiva todo
-                            document.querySelectorAll(`.filter-option[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
-                        } else if (group.endsWith('-amount') || group.endsWith('-type')) {
-                            // Grupos incompatibles (ALL vs Top100 vs Top25, y ALL vs Milestones vs Overtaking)
-                            document.querySelectorAll(`.filter-option[data-group="${group}"]`).forEach(o => o.classList.remove('active'));
-                            opt.classList.add('active');
-                        } else {
-                            // Grupos compatibles (estadísticas y equipos)
-                            opt.classList.toggle('active');
-                            // Si se activa alguna, desactiva "ALL" del mismo grupo
-                            const allBtn = document.querySelector(`.filter-option[data-group="${group}"][data-value="all"]`);
-                            if (opt.dataset.value !== 'all' && opt.classList.contains('active')) {
-                                allBtn.classList.remove('active');
-                            }
-                            // Si se desactiva la última, activa "ALL"
-                            const activeInGroup = document.querySelectorAll(`.filter-option[data-group="${group}"].active`).length;
-                            if (activeInGroup === 0) allBtn.classList.add('active');
-                        }
-                    });
-                });
+        // FILTROS COMPATIBLES / INCOMPATIBLES
+        document.querySelectorAll('.filter-option').forEach(opt => {
+            opt.addEventListener('click', () => {
+                const group = opt.dataset.group;
+                if (opt.dataset.value === 'ALL') {
+                    document.querySelectorAll('.filter-option').forEach(o => o.classList.remove('active'));
+                    opt.classList.add('active');
+                    return;
+                }
+                if (group.includes('none')) {
+                    // "None" desactiva todo
+                    document.querySelectorAll(`.filter-option[data-group^="${group.split('-')[0]}"]`).forEach(o => o.classList.remove('active'));
+                } else if (group.endsWith('-amount') || group.endsWith('-type')) {
+                    // Grupos incompatibles (ALL vs Top100 vs Top25, y ALL vs Milestones vs Overtaking)
+                    document.querySelectorAll(`.filter-option[data-group="${group}"]`).forEach(o => o.classList.remove('active'));
+                    opt.classList.add('active');
+                } else {
+                    // Grupos compatibles (estadísticas y equipos)
+                    opt.classList.toggle('active');
+                    // Si se activa alguna, desactiva "ALL" del mismo grupo
+                    const allBtn = document.querySelector(`.filter-option[data-group="${group}"][data-value="all"]`);
+                    if (opt.dataset.value !== 'all' && opt.classList.contains('active')) {
+                        allBtn.classList.remove('active');
+                    }
+                    // Si se desactiva la última, activa "ALL"
+                    const activeInGroup = document.querySelectorAll(`.filter-option[data-group="${group}"].active`).length;
+                    if (activeInGroup === 0) allBtn.classList.add('active');
+                }
+            });
+        });            
     </script>
     <!-- PANEL DE CONFIGURACIÓN -->
     <div id="settings-panel" class="settings-panel">
