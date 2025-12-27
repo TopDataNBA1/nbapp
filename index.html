@@ -206,7 +206,22 @@
             font-size: 1.1em;
             cursor: pointer;
         }
-
+        .settings-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .settings-panel.open {
+            display: flex;
+        }
     </style>
 </head>
 <body>
@@ -498,6 +513,99 @@
 
         updatePage();
         updateMoves();
+        
+        // Asegurar que el panel esté cerrado al cargar la página
+        document.getElementById('settings-panel').classList.remove('open');            
+    </script>
+<!-- PANEL DE CONFIGURACIÓN -->
+<div id="settings-panel" class="settings-panel">
+    <div class="settings-header">
+        <h2>Configuración de Notificaciones</h2>
+    </div>
+
+    <div class="settings-tabs">
+        <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
+        <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
+    </div>
+
+    <div class="settings-content">
+        <div class="settings-tab-content active" id="tab-push">
+            <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
+            <hr style="border-color:#ff4655;margin:20px 0;">
+            <div class="filter-group">
+                <h4>Top</h4>
+                <button class="filter-option active" data-group="push-amount" data-value="all">All</button>
+                <button class="filter-option" data-group="push-amount" data-value="top100">Top 100</button>
+                <button class="filter-option" data-group="push-amount" data-value="top25">Top 25</button>
+            </div>
+            <div class="filter-group">
+                <h4>Stat</h4>
+                <button class="filter-option active" data-group="push-stat" data-value="all">All</button>
+                <button class="filter-option" data-group="push-stat" data-value="pts">PTS</button>
+                <button class="filter-option" data-group="push-stat" data-value="reb">REB</button>
+                <button class="filter-option" data-group="push-stat" data-value="ast">AST</button>
+                <button class="filter-option" data-group="push-stat" data-value="stl">STL</button>
+                <button class="filter-option" data-group="push-stat" data-value="blk">BLK</button>
+                <button class="filter-option" data-group="push-stat" data-value="fg3">3P</button>
+                <button class="filter-option" data-group="push-stat" data-value="g">GAMES</button>
+            </div>
+            <div class="filter-group">
+                <h4>Team</h4>
+                <button class="filter-option active" data-group="push-team" data-value="all">All</button>
+                <button class="filter-option" data-group="push-team" data-value="ATL">ATL</button>
+                <button class="filter-option" data-group="push-team" data-value="BOS">BOS</button>
+                <!-- Añade los demás equipos si quieres -->
+            </div>
+            <div class="filter-group">
+                <h4>Type</h4>
+                <button class="filter-option active" data-group="push-type" data-value="all">All</button>
+                <button class="filter-option" data-group="push-type" data-value="milestones">Milestones</button>
+                <button class="filter-option" data-group="push-type" data-value="overtaking">Overtaking</button>
+            </div>
+            <button class="filter-option none-btn" data-group="push-none">None</button>
+        </div>
+
+        <div class="settings-tab-content" id="tab-latest">
+            <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
+            <hr style="border-color:#ff4655;margin:20px 0;">
+            <div class="filter-group">
+                <h4>Top</h4>
+                <button class="filter-option active" data-group="latest-amount" data-value="all">All</button>
+                <button class="filter-option" data-group="latest-amount" data-value="top100">Top 100</button>
+                <button class="filter-option" data-group="latest-amount" data-value="top25">Top 25</button>
+            </div>
+            <div class="filter-group">
+                <h4>Stat</h4>
+                <button class="filter-option active" data-group="latest-stat" data-value="all">All</button>
+                <button class="filter-option" data-group="latest-stat" data-value="pts">PTS</button>
+                <button class="filter-option" data-group="latest-stat" data-value="reb">REB</button>
+                <button class="filter-option" data-group="latest-stat" data-value="ast">AST</button>
+                <button class="filter-option" data-group="latest-stat" data-value="stl">STL</button>
+                <button class="filter-option" data-group="latest-stat" data-value="blk">BLK</button>
+                <button class="filter-option" data-group="latest-stat" data-value="fg3">3P</button>
+                <button class="filter-option" data-group="latest-stat" data-value="g">GAMES</button>
+            </div>
+            <div class="filter-group">
+                <h4>Team</h4>
+                <button class="filter-option active" data-group="latest-team" data-value="all">All</button>
+                <button class="filter-option" data-group="latest-team" data-value="ATL">ATL</button>
+                <button class="filter-option" data-group="latest-team" data-value="BOS">BOS</button>
+                <!-- Añade más si quieres -->
+            </div>
+            <div class="filter-group">
+                <h4>Type</h4>
+                <button class="filter-option active" data-group="latest-type" data-value="all">All</button>
+                <button class="filter-option" data-group="latest-type" data-value="milestones">Milestones</button>
+                <button class="filter-option" data-group="latest-type" data-value="overtaking">Overtaking</button>
+            </div>
+            <button class="filter-option none-btn" data-group="latest-none">None</button>
+        </div>
+    </div>
+    <button id="close-settings">Close</button>
+</div>
+    <!-- FIN PANEL CONFIGURACIÓN -->
+
+    <script>
         // ABRIR Y CERRAR PANEL DE SETTINGS
         document.getElementById('settings-btn').addEventListener('click', () => {
             document.getElementById('settings-panel').classList.add('open');
@@ -546,95 +654,7 @@
                     if (activeInGroup === 0) allBtn.classList.add('active');
                 }
             });
-        });            
-    </script>
-    <!-- PANEL DE CONFIGURACIÓN -->
-    <div id="settings-panel" class="settings-panel">
-        <div class="settings-header">
-            <h2>Configuración de Notificaciones</h2>
-        </div>
-
-        <div class="settings-tabs">
-            <button class="settings-tab-btn active" data-tab="tab-push">Push Notifications</button>
-            <button class="settings-tab-btn" data-tab="tab-latest">Latest Moves View</button>
-        </div>
-
-        <div class="settings-content">
-            <div class="settings-tab-content active" id="tab-push">
-                <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
-                <hr style="border-color:#ff4655;margin:20px 0;">
-                <div class="filter-group">
-                    <h4>Top</h4>
-                    <button class="filter-option active" data-group="push-amount" data-value="all">All</button>
-                    <button class="filter-option" data-group="push-amount" data-value="top100">Top 100</button>
-                    <button class="filter-option" data-group="push-amount" data-value="top25">Top 25</button>
-                </div>
-                <div class="filter-group">
-                    <h4>Stat</h4>
-                    <button class="filter-option active" data-group="push-stat" data-value="all">All</button>
-                    <button class="filter-option" data-group="push-stat" data-value="pts">PTS</button>
-                    <button class="filter-option" data-group="push-stat" data-value="reb">REB</button>
-                    <button class="filter-option" data-group="push-stat" data-value="ast">AST</button>
-                    <button class="filter-option" data-group="push-stat" data-value="stl">STL</button>
-                    <button class="filter-option" data-group="push-stat" data-value="blk">BLK</button>
-                    <button class="filter-option" data-group="push-stat" data-value="fg3">3P</button>
-                    <button class="filter-option" data-group="push-stat" data-value="g">GAMES</button>
-                </div>
-                <div class="filter-group">
-                    <h4>Team</h4>
-                    <button class="filter-option active" data-group="push-team" data-value="all">All</button>
-                    <button class="filter-option" data-group="push-team" data-value="ATL">ATL</button>
-                    <button class="filter-option" data-group="push-team" data-value="BOS">BOS</button>
-                    <!-- Añade los demás equipos si quieres -->
-                </div>
-                <div class="filter-group">
-                    <h4>Type</h4>
-                    <button class="filter-option active" data-group="push-type" data-value="all">All</button>
-                    <button class="filter-option" data-group="push-type" data-value="milestones">Milestones</button>
-                    <button class="filter-option" data-group="push-type" data-value="overtaking">Overtaking</button>
-                </div>
-                <button class="filter-option none-btn" data-group="push-none">None</button>
-            </div>
-
-            <div class="settings-tab-content" id="tab-latest">
-                <button class="filter-option active" data-group="push-global" data-value="ALL">ALL</button>
-                <hr style="border-color:#ff4655;margin:20px 0;">
-                <div class="filter-group">
-                    <h4>Top</h4>
-                    <button class="filter-option active" data-group="latest-amount" data-value="all">All</button>
-                    <button class="filter-option" data-group="latest-amount" data-value="top100">Top 100</button>
-                    <button class="filter-option" data-group="latest-amount" data-value="top25">Top 25</button>
-                </div>
-                <div class="filter-group">
-                    <h4>Stat</h4>
-                    <button class="filter-option active" data-group="latest-stat" data-value="all">All</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="pts">PTS</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="reb">REB</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="ast">AST</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="stl">STL</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="blk">BLK</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="fg3">3P</button>
-                    <button class="filter-option" data-group="latest-stat" data-value="g">GAMES</button>
-                </div>
-                <div class="filter-group">
-                    <h4>Team</h4>
-                    <button class="filter-option active" data-group="latest-team" data-value="all">All</button>
-                    <button class="filter-option" data-group="latest-team" data-value="ATL">ATL</button>
-                    <button class="filter-option" data-group="latest-team" data-value="BOS">BOS</button>
-                    <!-- Añade más si quieres -->
-                </div>
-                <div class="filter-group">
-                    <h4>Type</h4>
-                    <button class="filter-option active" data-group="latest-type" data-value="all">All</button>
-                    <button class="filter-option" data-group="latest-type" data-value="milestones">Milestones</button>
-                    <button class="filter-option" data-group="latest-type" data-value="overtaking">Overtaking</button>
-                </div>
-                <button class="filter-option none-btn" data-group="latest-none">None</button>
-            </div>
-        </div>
-
-        <button id="close-settings">Close</button>
-    </div>
-    <!-- FIN PANEL CONFIGURACIÓN -->
+        });
+    </script>    
 </body>
 </html>
