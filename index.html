@@ -795,5 +795,126 @@
     });
     </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        /* ============================================================
+        FUNCIÓN: activar botón exclusivo (solo uno activo)
+        ============================================================ */
+        function activateExclusive(groupEl, clickedBtn) {
+            const buttons = groupEl.querySelectorAll("button");
+            buttons.forEach(btn => btn.classList.remove("active"));
+            clickedBtn.classList.add("active");
+        }
+
+        /* ============================================================
+        FUNCIÓN: activar botón múltiple (varios activos)
+        ============================================================ */
+        function activateMulti(groupEl, clickedBtn) {
+            const isAll = clickedBtn.textContent.trim() === "All";
+
+            if (isAll) {
+                // Si pulsas All → desactiva todos los demás
+                groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+                clickedBtn.classList.add("active");
+            } else {
+                // Si pulsas otro → desactiva All
+                const allBtn = groupEl.querySelector("button:first-child");
+                allBtn.classList.remove("active");
+
+                // Alterna el botón pulsado
+                clickedBtn.classList.toggle("active");
+
+                // Si no queda ninguno activo → vuelve a activar All
+                const anyActive = [...groupEl.querySelectorAll("button")].some(btn => btn.classList.contains("active"));
+                if (!anyActive) allBtn.classList.add("active");
+            }
+        }
+
+        /* ============================================================
+        FUNCIÓN: activar botón NONE (solo en notificaciones)
+        ============================================================ */
+        function activateNone(groupEl, clickedBtn) {
+            const buttons = groupEl.querySelectorAll("button");
+            buttons.forEach(btn => btn.classList.remove("active"));
+            clickedBtn.classList.add("active");
+
+            // Desactivar TODOS los demás grupos de notificaciones
+            const pushGroups = document.querySelectorAll('[data-group^="push-"]:not([data-group="push-none"])');
+            pushGroups.forEach(g => {
+                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+                // Reactivar All en cada grupo
+                const allBtn = g.querySelector("button:first-child");
+                if (allBtn) allBtn.classList.add("active");
+            });
+        }
+
+        /* ============================================================
+        FUNCIÓN: activar ALL GLOBAL (resetea todo)
+        ============================================================ */
+        function activateGlobalAll() {
+            const allGroups = document.querySelectorAll(".filter-buttons");
+
+            allGroups.forEach(group => {
+                const buttons = group.querySelectorAll("button");
+                buttons.forEach(btn => btn.classList.remove("active"));
+                const allBtn = group.querySelector("button:first-child");
+                if (allBtn) allBtn.classList.add("active");
+            });
+
+            // Desactivar NONE también
+            const noneGroup = document.querySelector('[data-group="push-none"]');
+            if (noneGroup) {
+                noneGroup.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+            }
+        }
+
+        /* ============================================================
+        ASIGNAR EVENTOS A TODOS LOS BOTONES
+        ============================================================ */
+        document.querySelectorAll(".filter-buttons").forEach(groupEl => {
+            const type = groupEl.classList.contains("exclusive") ? "exclusive" : "multi";
+
+            groupEl.querySelectorAll("button").forEach(btn => {
+                btn.addEventListener("click", () => {
+
+                    // Caso especial: NONE
+                    if (groupEl.dataset.group === "push-none") {
+                        activateNone(groupEl, btn);
+                        return;
+                    }
+
+                    // Caso especial: ALL GLOBAL
+                    if (btn.classList.contains("global-all")) {
+                        activateGlobalAll();
+                        return;
+                    }
+
+                    // Exclusivo
+                    if (type === "exclusive") {
+                        activateExclusive(groupEl, btn);
+                        return;
+                    }
+
+                    // Múltiple
+                    if (type === "multi") {
+                        activateMulti(groupEl, btn);
+                        return;
+                    }
+                });
+            });
+        });
+
+        /* ============================================================
+        BOTÓN ALL GLOBAL (fuera de los grupos)
+        ============================================================ */
+        document.querySelectorAll(".global-all").forEach(btn => {
+            btn.addEventListener("click", () => { 
+                activateGlobalAll(); 
+            }); 
+        }); 
+    }); 
+    </script>
+
 </body>
 </html>
