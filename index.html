@@ -913,119 +913,145 @@
     </script>
 
     <script>
-    <script>
     document.addEventListener("DOMContentLoaded", () => {
 
         /* ============================================================
-        LEER EL ESTADO ACTUAL DE LOS FILTROS
+        HELPERS DE CONTEXTO
         ============================================================ */
+
+        function getTabRoot(element) {
+            return element.closest('.filter-content');
+        }
+
+        function getTabName(tabRoot) {
+            return tabRoot ? tabRoot.getAttribute('data-tab-content') : null;
+        }
+
+        /* ============================================================
+        LECTURA DE FILTROS (LOS DOS TABS)
+        ============================================================ */
+
         function getSelectedFilters() {
             const result = {
-                latest: {
-                    top: null,
-                    stat: [],
-                    team: [],
-                    type: null
-                },
-                push: {
-                    top: null,
-                    stat: [],
-                    team: [],
-                    type: null,
-                    none: false
-                }
+                latest: { top: "All", stat: [], team: [], type: "All" },
+                push:   { top: "All", stat: [], team: [], type: "All", none: false }
             };
 
-            // ----- LATEST MOVES -----
-            const topBtn = document.querySelector('[data-group="top"] .active');
-            result.latest.top = topBtn ? topBtn.textContent.trim() : "All";
+            // LATEST
+            const latestRoot = document.querySelector('.filter-content[data-tab-content="latest"]');
+            if (latestRoot) {
+                const topBtn = latestRoot.querySelector('[data-group="top"] .active');
+                if (topBtn) result.latest.top = topBtn.textContent.trim();
 
-            document.querySelectorAll('[data-group="stat"] .active').forEach(btn => {
-                const val = btn.textContent.trim();
-                if (val !== "All") result.latest.stat.push(val);
-            });
+                latestRoot.querySelectorAll('[data-group="stat"] .active').forEach(btn => {
+                    const v = btn.textContent.trim();
+                    if (v !== "All") result.latest.stat.push(v);
+                });
 
-            document.querySelectorAll('[data-group="team"] .active').forEach(btn => {
-                const val = btn.textContent.trim();
-                if (val !== "All") result.latest.team.push(val);
-            });
+                latestRoot.querySelectorAll('[data-group="team"] .active').forEach(btn => {
+                    const v = btn.textContent.trim();
+                    if (v !== "All") result.latest.team.push(v);
+                });
 
-            const typeBtn = document.querySelector('[data-group="type"] .active');
-            result.latest.type = typeBtn ? typeBtn.textContent.trim() : "All";
+                const typeBtn = latestRoot.querySelector('[data-group="type"] .active');
+                if (typeBtn) result.latest.type = typeBtn.textContent.trim();
+            }
 
-            // ----- PUSH NOTIFICATIONS -----
-            const noneBtn = document.querySelector('[data-group="push-none"] .active');
-            result.push.none = !!noneBtn;
+            // PUSH
+            const pushRoot = document.querySelector('.filter-content[data-tab-content="push"]');
+            if (pushRoot) {
+                const noneBtn = pushRoot.querySelector('[data-group="push-none"] .active');
+                result.push.none = !!noneBtn;
 
-            const pTopBtn = document.querySelector('[data-group="push-top"] .active');
-            result.push.top = pTopBtn ? pTopBtn.textContent.trim() : "All";
+                const topBtn = pushRoot.querySelector('[data-group="push-top"] .active');
+                if (topBtn) result.push.top = topBtn.textContent.trim();
 
-            document.querySelectorAll('[data-group="push-stat"] .active').forEach(btn => {
-                const val = btn.textContent.trim();
-                if (val !== "All") result.push.stat.push(val);
-            });
+                pushRoot.querySelectorAll('[data-group="push-stat"] .active').forEach(btn => {
+                    const v = btn.textContent.trim();
+                    if (v !== "All") result.push.stat.push(v);
+                });
 
-            document.querySelectorAll('[data-group="push-team"] .active').forEach(btn => {
-                const val = btn.textContent.trim();
-                if (val !== "All") result.push.team.push(val);
-            });
+                pushRoot.querySelectorAll('[data-group="push-team"] .active').forEach(btn => {
+                    const v = btn.textContent.trim();
+                    if (v !== "All") result.push.team.push(v);
+                });
 
-            const pTypeBtn = document.querySelector('[data-group="push-type"] .active');
-            result.push.type = pTypeBtn ? pTypeBtn.textContent.trim() : "All";
+                const typeBtn = pushRoot.querySelector('[data-group="push-type"] .active');
+                if (typeBtn) result.push.type = typeBtn.textContent.trim();
+            }
 
             return result;
         }
 
         /* ============================================================
-        ¿TODOS LOS FILTROS ESTÁN EN ESTADO "POR DEFECTO"?
-        (All en todo y No notifications apagado)
+        ¿ESTÁ UNA PESTAÑA EN ESTADO "POR DEFECTO"?
         ============================================================ */
-        function updateGlobalAllState() {
-            const filters = getSelectedFilters();
 
-            const allDefault =
-                filters.latest.top === "All" &&
-                filters.latest.stat.length === 0 &&
-                filters.latest.team.length === 0 &&
-                filters.latest.type === "All" &&
-                filters.push.top === "All" &&
-                filters.push.stat.length === 0 &&
-                filters.push.team.length === 0 &&
-                filters.push.type === "All" &&
-                filters.push.none === false;
+        function isTabDefault(tabRoot) {
+            const tabName = getTabName(tabRoot);
+            if (!tabName) return false;
 
-            const globalButtons = document.querySelectorAll(".global-all");
+            const all = getSelectedFilters();
 
-            if (allDefault) {
-                globalButtons.forEach(btn => btn.classList.add("active"));
+            if (tabName === "latest") {
+                return (
+                    all.latest.top === "All" &&
+                    all.latest.stat.length === 0 &&
+                    all.latest.team.length === 0 &&
+                    all.latest.type === "All"
+                );
+            }
+
+            if (tabName === "push") {
+                return (
+                    all.push.none === false &&
+                    all.push.top === "All" &&
+                    all.push.stat.length === 0 &&
+                    all.push.team.length === 0 &&
+                    all.push.type === "All"
+                );
+            }
+
+            return false;
+        }
+
+        function updateGlobalAllForTab(tabRoot) {
+            if (!tabRoot) return;
+            const globalBtn = tabRoot.querySelector('.global-all');
+            if (!globalBtn) return;
+
+            if (isTabDefault(tabRoot)) {
+                globalBtn.classList.add('active');
             } else {
-                globalButtons.forEach(btn => btn.classList.remove("active"));
+                globalBtn.classList.remove('active');
             }
         }
 
         /* ============================================================
         EXCLUSIVO (solo uno activo)
         ============================================================ */
+
         function activateExclusive(groupEl, clickedBtn) {
-            const buttons = groupEl.querySelectorAll("button");
-            buttons.forEach(btn => btn.classList.remove("active"));
+            const tabRoot = getTabRoot(groupEl);
+            groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             clickedBtn.classList.add("active");
-            updateGlobalAllState();
+            updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
         MÚLTIPLE (varios activos)
         ============================================================ */
+
         function activateMulti(groupEl, clickedBtn) {
+            const tabRoot = getTabRoot(groupEl);
             const isAll = clickedBtn.textContent.trim() === "All";
 
             if (isAll) {
-                // All → apaga todos los demás y deja solo All
                 groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
                 clickedBtn.classList.add("active");
             } else {
                 const allBtn = groupEl.querySelector("button:first-child");
-                allBtn.classList.remove("active");
+                if (allBtn) allBtn.classList.remove("active");
 
                 clickedBtn.classList.toggle("active");
 
@@ -1037,63 +1063,70 @@
                 }
             }
 
-            updateGlobalAllState();
+            updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        NO NOTIFICATIONS → apaga absolutamente todo
+        NO NOTIFICATIONS → apaga TODO en ESA pestaña
         ============================================================ */
+
         function activateNone(groupEl, clickedBtn) {
+            const tabRoot = getTabRoot(groupEl);
+            if (!tabRoot) return;
+
             // Activar solo "No notifications" en su grupo
             groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             clickedBtn.classList.add("active");
 
-            // Apagar todos los botones de todos los grupos (latest + push)
-            const allGroups = document.querySelectorAll(".filter-buttons");
-            allGroups.forEach(g => {
+            // Apagar todos los grupos de ESA pestaña
+            tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
                 g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             });
-
-            // Apagar ALL global también
-            document.querySelectorAll(".global-all").forEach(btn => btn.classList.remove("active"));
 
             // Mantener solo "No notifications" activo
             clickedBtn.classList.add("active");
 
-            updateGlobalAllState();
+            // Global-all de ESA pestaña debe quedar apagado
+            updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        ALL GLOBAL: resetearlo todo a "All" y quitar "No notifications"
+        ALL GLOBAL DE UNA PESTAÑA → resetea ESA pestaña
         ============================================================ */
-        function resetAllToDefault(globalBtn) {
-            // Activar solo este ALL global
-            document.querySelectorAll(".global-all").forEach(b => b.classList.remove("active"));
+
+        function resetTabToDefault(globalBtn) {
+            const tabRoot = getTabRoot(globalBtn);
+            if (!tabRoot) return;
+
+            // Activar solo este global-all (por si hubiera más en esta pestaña)
+            tabRoot.querySelectorAll(".global-all").forEach(b => b.classList.remove("active"));
             globalBtn.classList.add("active");
 
-            // En todos los grupos: dejar solo el primer botón (All) activo
-            const allGroups = document.querySelectorAll(".filter-buttons");
-            allGroups.forEach(g => {
+            // Resetear todos los grupos de ESA pestaña
+            tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
+                const isNoneGroup = g.dataset.group === "push-none";
                 const buttons = g.querySelectorAll("button");
                 buttons.forEach(b => b.classList.remove("active"));
-                const allBtn = g.querySelector("button:first-child");
-                if (allBtn && g.dataset.group !== "push-none") {
-                    allBtn.classList.add("active");
+
+                if (!isNoneGroup) {
+                    const allBtn = g.querySelector("button:first-child");
+                    if (allBtn) allBtn.classList.add("active");
                 }
             });
 
-            // Apagar "No notifications"
-            const noneGroup = document.querySelector('[data-group="push-none"]');
+            // Asegurar que "No notifications" está apagado en ESA pestaña
+            const noneGroup = tabRoot.querySelector('[data-group="push-none"]');
             if (noneGroup) {
                 noneGroup.querySelectorAll("button").forEach(b => b.classList.remove("active"));
             }
 
-            updateGlobalAllState();
+            updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        ASIGNAR EVENTOS A TODOS LOS BOTONES DE FILTROS
+        ASIGNAR EVENTOS A BOTONES DENTRO DE GRUPOS
         ============================================================ */
+
         document.querySelectorAll(".filter-buttons").forEach(groupEl => {
             const type = groupEl.classList.contains("exclusive") ? "exclusive" : "multi";
 
@@ -1106,11 +1139,8 @@
                         return;
                     }
 
-                    // Botón ALL global (no va dentro de .filter-buttons, pero por si acaso)
-                    if (btn.classList.contains("global-all")) {
-                        resetAllToDefault(btn);
-                        return;
-                    }
+                    // Si por alguna razón llega aquí un global-all, lo ignoramos (se gestiona abajo)
+                    if (btn.classList.contains("global-all")) return;
 
                     if (type === "exclusive") {
                         activateExclusive(groupEl, btn);
@@ -1126,19 +1156,22 @@
         });
 
         /* ============================================================
-        CLICK EN ALL GLOBAL (fuera de .filter-buttons)
+        ALL GLOBAL (BOTONES .global-all)
         ============================================================ */
+
         document.querySelectorAll(".global-all").forEach(btn => {
             btn.addEventListener("click", () => {
-                resetAllToDefault(btn);
+                resetTabToDefault(btn);
             });
         });
 
         /* ============================================================
-        APPLY & CLOSE: guardar en memoria y cerrar panel
+        APPLY & CLOSE
         ============================================================ */
+
         function closeFilterPanel() {
-            document.getElementById("filter-panel").classList.remove("open");
+            const panel = document.getElementById("filter-panel");
+            if (panel) panel.classList.remove("open");
         }
 
         document.querySelectorAll(".apply-close").forEach(btn => {
@@ -1151,11 +1184,15 @@
         });
 
         /* ============================================================
-        ESTADO INICIAL COHERENTE
+        ESTADO INICIAL COHERENTE PARA CADA TAB
         ============================================================ */
-        updateGlobalAllState();
+
+        document.querySelectorAll('.filter-content').forEach(tabRoot => {
+            updateGlobalAllForTab(tabRoot);
+        });
     });
     </script>
+
 
 
 </body>
