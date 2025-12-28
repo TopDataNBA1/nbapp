@@ -321,7 +321,64 @@
     </div>
 
     <div class="filter-content hidden" data-tab-content="push">
-        <!-- Aquí irá la versión de notificaciones con el botón NONE -->
+        <div class="filter-group">
+        <button class="filter-all global-all">ALL – no filters</button>
+        </div>
+
+        <div class="filter-group">
+        <label>Top</label>
+        <div class="filter-buttons exclusive" data-group="push-top">
+            <button>All</button>
+            <button>Top100</button>
+            <button>Top25</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Stat</label>
+        <div class="filter-buttons multi" data-group="push-stat">
+            <button>All</button>
+            <button>PTS</button>
+            <button>REB</button>
+            <button>AST</button>
+            <button>STL</button>
+            <button>BLK</button>
+            <button>3PM</button>
+            <button>G</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Team</label>
+        <div class="filter-buttons multi" data-group="push-team">
+            <button>All</button>
+            <button>ATL</button>
+            <button>BOS</button>
+            <button>BKN</button>
+            <!-- Añadimos el resto luego -->
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Type</label>
+        <div class="filter-buttons exclusive" data-group="push-type">
+            <button>All</button>
+            <button>Overtakes</button>
+            <button>Milestones</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Notifications</label>
+        <div class="filter-buttons exclusive" data-group="push-none">
+            <button>None</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <button class="apply-close">Apply and Close</button>
+        </div>
+
     </div>
     </div>
 
