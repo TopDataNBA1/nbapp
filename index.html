@@ -209,9 +209,8 @@
 
         <div id="settings-btn" class="settings-icon">⚙</div>
     
-    </div>
-        <div id="version" style="text-align:center;opacity:0.4;font-size:0.8em;margin-top:4px;">
-        v2025.01.28-01
+    <div id="version" style="text-align:center;opacity:0.4;font-size:0.8em;margin-top:4px;">
+        cargando versión...
     </div>
 
     <!-- PANEL DE FILTROS -->
@@ -509,6 +508,7 @@
         updatePage();
         updateMoves();
     </script>
+
     <script>
     document.addEventListener("click", (e) => {
         // Abrir panel
@@ -522,15 +522,34 @@
         }
     });
     </script>
+
     <script>
-    const CURRENT_VERSION = "v2025.01.28-01";
+    let lastVersion = null;
 
     fetch("data.json?v=" + Date.now())
     .then(r => r.json())
     .then(data => {
-        if (data.version && data.version !== CURRENT_VERSION) {
-            alert("Nueva versión disponible. Recarga la página.");
+        const version = data.ultima_actualizacion;
+
+        // Primera carga → guardamos versión
+        if (!lastVersion) {
+            lastVersion = version;
+            console.log("Versión cargada:", version);
+            return;
         }
+
+        // Si cambia → hay nueva versión
+        if (version !== lastVersion) {
+            alert("Nueva versión disponible (" + version + "). Recarga la página.");
+        }
+    });
+    </script>
+
+    <script>
+    fetch("data.json?v=" + Date.now())
+    .then(r => r.json())
+    .then(data => {
+        document.getElementById("version").textContent = "Versión: " + data.ultima_actualizacion;
     });
     </script>
 
