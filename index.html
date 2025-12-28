@@ -916,25 +916,14 @@
     document.addEventListener("DOMContentLoaded", () => {
 
         /* ============================================================
-        HELPERS DE CONTEXTO
+        HELPERS
         ============================================================ */
 
-        function getTabRoot(element) {
-            return element.closest('.filter-content');
+        function getTabRoot(el) {
+            return el.closest('.filter-content');
         }
 
-        function getTabName(tabRoot) {
-            return tabRoot ? tabRoot.getAttribute('data-tab-content') : null;
-        }
-
-        /* ============================================================
-        LECTURA DE FILTROS POR PESTAÑA
-        ============================================================ */
-
-        function getFiltersForTab(tabName) {
-            const root = document.querySelector(`.filter-content[data-tab-content="${tabName}"]`);
-            if (!root) return null;
-
+        function getFilters(tabRoot) {
             const result = {
                 top: "All",
                 stat: [],
@@ -944,144 +933,118 @@
             };
 
             // NONE (solo push)
-            const noneBtn = root.querySelector('[data-group="push-none"] .active');
-            result.none = !!noneBtn;
+            const none = tabRoot.querySelector('[data-group$="none"] .active');
+            result.none = !!none;
 
             // TOP
-            const topBtn = root.querySelector('[data-group$="top"] .active');
-            if (topBtn) result.top = topBtn.textContent.trim();
+            const top = tabRoot.querySelector('[data-group$="top"] .active');
+            if (top) result.top = top.textContent.trim();
 
             // STAT
-            root.querySelectorAll('[data-group$="stat"] .active').forEach(btn => {
+            tabRoot.querySelectorAll('[data-group$="stat"] .active').forEach(btn => {
                 const v = btn.textContent.trim();
                 if (v !== "All") result.stat.push(v);
             });
 
             // TEAM
-            root.querySelectorAll('[data-group$="team"] .active').forEach(btn => {
+            tabRoot.querySelectorAll('[data-group$="team"] .active').forEach(btn => {
                 const v = btn.textContent.trim();
                 if (v !== "All") result.team.push(v);
             });
 
             // TYPE
-            const typeBtn = root.querySelector('[data-group$="type"] .active');
-            if (typeBtn) result.type = typeBtn.textContent.trim();
+            const type = tabRoot.querySelector('[data-group$="type"] .active');
+            if (type) result.type = type.textContent.trim();
 
             return result;
         }
 
-        /* ============================================================
-        ¿ESTÁ UNA PESTAÑA EN ESTADO POR DEFECTO?
-        ============================================================ */
-
-        function isTabDefault(tabRoot) {
-            const tabName = getTabName(tabRoot);
-            const f = getFiltersForTab(tabName);
-
-            if (!f) return false;
-
-            if (tabName === "latest") {
-                return (
-                    f.top === "All" &&
-                    f.stat.length === 0 &&
-                    f.team.length === 0 &&
-                    f.type === "All"
-                );
-            }
-
-            if (tabName === "push") {
-                return (
-                    f.none === false &&
-                    f.top === "All" &&
-                    f.stat.length === 0 &&
-                    f.team.length === 0 &&
-                    f.type === "All"
-                );
-            }
-
-            return false;
+        function isDefault(tabRoot) {
+            const f = getFilters(tabRoot);
+            return (
+                f.none === false &&
+                f.top === "All" &&
+                f.stat.length === 0 &&
+                f.team.length === 0 &&
+                f.type === "All"
+            );
         }
 
-        function updateGlobalAllForTab(tabRoot) {
-            const globalBtn = tabRoot.querySelector('.global-all');
-            if (!globalBtn) return;
-
-            if (isTabDefault(tabRoot)) {
-                globalBtn.classList.add("active");
-            } else {
-                globalBtn.classList.remove("active");
-            }
+        function updateGlobalAll(tabRoot) {
+            const btn = tabRoot.querySelector('.global-all');
+            if (!btn) return;
+            if (isDefault(tabRoot)) btn.classList.add("active");
+            else btn.classList.remove("active");
         }
 
         /* ============================================================
-        EXCLUSIVO
+        EXCLUSIVE
         ============================================================ */
 
-        function activateExclusive(groupEl, clickedBtn) {
+        function activateExclusive(groupEl, btn) {
             const tabRoot = getTabRoot(groupEl);
-            groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
-            clickedBtn.classList.add("active");
-            updateGlobalAllForTab(tabRoot);
+            groupEl.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            updateGlobalAll(tabRoot);
         }
 
         /* ============================================================
         MULTI
         ============================================================ */
 
-        function activateMulti(groupEl, clickedBtn) {
+        function activateMulti(groupEl, btn) {
             const tabRoot = getTabRoot(groupEl);
-            const isAll = clickedBtn.textContent.trim() === "All";
+            const isAll = btn.textContent.trim() === "All";
 
             if (isAll) {
-                groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
-                clickedBtn.classList.add("active");
+                groupEl.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
             } else {
                 const allBtn = groupEl.querySelector("button:first-child");
                 allBtn.classList.remove("active");
-
-                clickedBtn.classList.toggle("active");
+                btn.classList.toggle("active");
 
                 const anyActive = [...groupEl.querySelectorAll("button")]
-                    .some(btn => btn.classList.contains("active"));
+                    .some(b => b.classList.contains("active"));
 
                 if (!anyActive) allBtn.classList.add("active");
             }
 
-            updateGlobalAllForTab(tabRoot);
+            updateGlobalAll(tabRoot);
         }
 
         /* ============================================================
         NO NOTIFICATIONS
         ============================================================ */
 
-        function activateNone(groupEl, clickedBtn) {
+        function activateNone(groupEl, btn) {
             const tabRoot = getTabRoot(groupEl);
 
             // Activar solo NONE
-            groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
-            clickedBtn.classList.add("active");
+            groupEl.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
 
-            // Apagar todos los grupos de esa pestaña
+            // Apagar todos los grupos de ESA pestaña
             tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
-                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+                g.querySelectorAll("button").forEach(b => b.classList.remove("active"));
             });
 
             // Mantener solo NONE
-            clickedBtn.classList.add("active");
+            btn.classList.add("active");
 
-            updateGlobalAllForTab(tabRoot);
+            updateGlobalAll(tabRoot);
         }
 
         /* ============================================================
-        RESET DE UNA PESTAÑA
+        RESET TAB
         ============================================================ */
 
-        function resetTabToDefault(globalBtn) {
+        function resetTab(globalBtn) {
             const tabRoot = getTabRoot(globalBtn);
 
             tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
-                const isNone = g.dataset.group === "push-none";
-                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+                const isNone = g.dataset.group.endsWith("none");
+                g.querySelectorAll("button").forEach(b => b.classList.remove("active"));
 
                 if (!isNone) {
                     const allBtn = g.querySelector("button:first-child");
@@ -1089,7 +1052,7 @@
                 }
             });
 
-            updateGlobalAllForTab(tabRoot);
+            updateGlobalAll(tabRoot);
         }
 
         /* ============================================================
@@ -1102,7 +1065,7 @@
             groupEl.querySelectorAll("button").forEach(btn => {
                 btn.addEventListener("click", () => {
 
-                    if (groupEl.dataset.group === "push-none") {
+                    if (groupEl.dataset.group.endsWith("none")) {
                         activateNone(groupEl, btn);
                         return;
                     }
@@ -1123,36 +1086,32 @@
         });
 
         document.querySelectorAll(".global-all").forEach(btn => {
-            btn.addEventListener("click", () => resetTabToDefault(btn));
+            btn.addEventListener("click", () => resetTab(btn));
         });
 
         /* ============================================================
         APPLY & CLOSE
         ============================================================ */
 
-        function closeFilterPanel() {
-            document.getElementById("filter-panel").classList.remove("open");
-        }
-
         document.querySelectorAll(".apply-close").forEach(btn => {
             btn.addEventListener("click", () => {
                 window.NBAppFilters = {
-                    latest: getFiltersForTab("latest"),
-                    push: getFiltersForTab("push")
+                    latest: getFilters(document.querySelector('[data-tab-content="latest"]')),
+                    push: getFilters(document.querySelector('[data-tab-content="push"]'))
                 };
-                closeFilterPanel();
+                document.getElementById("filter-panel").classList.remove("open");
             });
         });
 
         /* ============================================================
-        RE-CALCULAR ALL-NO FILTERS AL CAMBIAR DE PESTAÑA
+        RECALCULAR AL CAMBIAR DE PESTAÑA
         ============================================================ */
 
         document.querySelectorAll('.tab-btn[data-tab]').forEach(tabBtn => {
             tabBtn.addEventListener("click", () => {
                 const tabName = tabBtn.getAttribute("data-tab");
                 const tabRoot = document.querySelector(`.filter-content[data-tab-content="${tabName}"]`);
-                updateGlobalAllForTab(tabRoot);
+                updateGlobalAll(tabRoot);
             });
         });
 
@@ -1161,7 +1120,7 @@
         ============================================================ */
 
         document.querySelectorAll('.filter-content').forEach(tabRoot => {
-            updateGlobalAllForTab(tabRoot);
+            updateGlobalAll(tabRoot);
         });
 
     });
