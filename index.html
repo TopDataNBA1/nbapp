@@ -928,87 +928,74 @@
         }
 
         /* ============================================================
-        LECTURA DE FILTROS (LOS DOS TABS)
+        LECTURA DE FILTROS POR PESTAÑA
         ============================================================ */
 
-        function getSelectedFilters() {
+        function getFiltersForTab(tabName) {
+            const root = document.querySelector(`.filter-content[data-tab-content="${tabName}"]`);
+            if (!root) return null;
+
             const result = {
-                latest: { top: "All", stat: [], team: [], type: "All" },
-                push:   { top: "All", stat: [], team: [], type: "All", none: false }
+                top: "All",
+                stat: [],
+                team: [],
+                type: "All",
+                none: false
             };
 
-            // LATEST
-            const latestRoot = document.querySelector('.filter-content[data-tab-content="latest"]');
-            if (latestRoot) {
-                const topBtn = latestRoot.querySelector('[data-group="top"] .active');
-                if (topBtn) result.latest.top = topBtn.textContent.trim();
+            // NONE (solo push)
+            const noneBtn = root.querySelector('[data-group="push-none"] .active');
+            result.none = !!noneBtn;
 
-                latestRoot.querySelectorAll('[data-group="stat"] .active').forEach(btn => {
-                    const v = btn.textContent.trim();
-                    if (v !== "All") result.latest.stat.push(v);
-                });
+            // TOP
+            const topBtn = root.querySelector('[data-group$="top"] .active');
+            if (topBtn) result.top = topBtn.textContent.trim();
 
-                latestRoot.querySelectorAll('[data-group="team"] .active').forEach(btn => {
-                    const v = btn.textContent.trim();
-                    if (v !== "All") result.latest.team.push(v);
-                });
+            // STAT
+            root.querySelectorAll('[data-group$="stat"] .active').forEach(btn => {
+                const v = btn.textContent.trim();
+                if (v !== "All") result.stat.push(v);
+            });
 
-                const typeBtn = latestRoot.querySelector('[data-group="type"] .active');
-                if (typeBtn) result.latest.type = typeBtn.textContent.trim();
-            }
+            // TEAM
+            root.querySelectorAll('[data-group$="team"] .active').forEach(btn => {
+                const v = btn.textContent.trim();
+                if (v !== "All") result.team.push(v);
+            });
 
-            // PUSH
-            const pushRoot = document.querySelector('.filter-content[data-tab-content="push"]');
-            if (pushRoot) {
-                const noneBtn = pushRoot.querySelector('[data-group="push-none"] .active');
-                result.push.none = !!noneBtn;
-
-                const topBtn = pushRoot.querySelector('[data-group="push-top"] .active');
-                if (topBtn) result.push.top = topBtn.textContent.trim();
-
-                pushRoot.querySelectorAll('[data-group="push-stat"] .active').forEach(btn => {
-                    const v = btn.textContent.trim();
-                    if (v !== "All") result.push.stat.push(v);
-                });
-
-                pushRoot.querySelectorAll('[data-group="push-team"] .active').forEach(btn => {
-                    const v = btn.textContent.trim();
-                    if (v !== "All") result.push.team.push(v);
-                });
-
-                const typeBtn = pushRoot.querySelector('[data-group="push-type"] .active');
-                if (typeBtn) result.push.type = typeBtn.textContent.trim();
-            }
+            // TYPE
+            const typeBtn = root.querySelector('[data-group$="type"] .active');
+            if (typeBtn) result.type = typeBtn.textContent.trim();
 
             return result;
         }
 
         /* ============================================================
-        ¿ESTÁ UNA PESTAÑA EN ESTADO "POR DEFECTO"?
+        ¿ESTÁ UNA PESTAÑA EN ESTADO POR DEFECTO?
         ============================================================ */
 
         function isTabDefault(tabRoot) {
             const tabName = getTabName(tabRoot);
-            if (!tabName) return false;
+            const f = getFiltersForTab(tabName);
 
-            const all = getSelectedFilters();
+            if (!f) return false;
 
             if (tabName === "latest") {
                 return (
-                    all.latest.top === "All" &&
-                    all.latest.stat.length === 0 &&
-                    all.latest.team.length === 0 &&
-                    all.latest.type === "All"
+                    f.top === "All" &&
+                    f.stat.length === 0 &&
+                    f.team.length === 0 &&
+                    f.type === "All"
                 );
             }
 
             if (tabName === "push") {
                 return (
-                    all.push.none === false &&
-                    all.push.top === "All" &&
-                    all.push.stat.length === 0 &&
-                    all.push.team.length === 0 &&
-                    all.push.type === "All"
+                    f.none === false &&
+                    f.top === "All" &&
+                    f.stat.length === 0 &&
+                    f.team.length === 0 &&
+                    f.type === "All"
                 );
             }
 
@@ -1016,19 +1003,18 @@
         }
 
         function updateGlobalAllForTab(tabRoot) {
-            if (!tabRoot) return;
             const globalBtn = tabRoot.querySelector('.global-all');
             if (!globalBtn) return;
 
             if (isTabDefault(tabRoot)) {
-                globalBtn.classList.add('active');
+                globalBtn.classList.add("active");
             } else {
-                globalBtn.classList.remove('active');
+                globalBtn.classList.remove("active");
             }
         }
 
         /* ============================================================
-        EXCLUSIVO (solo uno activo)
+        EXCLUSIVO
         ============================================================ */
 
         function activateExclusive(groupEl, clickedBtn) {
@@ -1039,7 +1025,7 @@
         }
 
         /* ============================================================
-        MÚLTIPLE (varios activos)
+        MULTI
         ============================================================ */
 
         function activateMulti(groupEl, clickedBtn) {
@@ -1051,80 +1037,63 @@
                 clickedBtn.classList.add("active");
             } else {
                 const allBtn = groupEl.querySelector("button:first-child");
-                if (allBtn) allBtn.classList.remove("active");
+                allBtn.classList.remove("active");
 
                 clickedBtn.classList.toggle("active");
 
                 const anyActive = [...groupEl.querySelectorAll("button")]
                     .some(btn => btn.classList.contains("active"));
 
-                if (!anyActive && allBtn) {
-                    allBtn.classList.add("active");
-                }
+                if (!anyActive) allBtn.classList.add("active");
             }
 
             updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        NO NOTIFICATIONS → apaga TODO en ESA pestaña
+        NO NOTIFICATIONS
         ============================================================ */
 
         function activateNone(groupEl, clickedBtn) {
             const tabRoot = getTabRoot(groupEl);
-            if (!tabRoot) return;
 
-            // Activar solo "No notifications" en su grupo
+            // Activar solo NONE
             groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             clickedBtn.classList.add("active");
 
-            // Apagar todos los grupos de ESA pestaña
+            // Apagar todos los grupos de esa pestaña
             tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
                 g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             });
 
-            // Mantener solo "No notifications" activo
+            // Mantener solo NONE
             clickedBtn.classList.add("active");
 
-            // Global-all de ESA pestaña debe quedar apagado
             updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        ALL GLOBAL DE UNA PESTAÑA → resetea ESA pestaña
+        RESET DE UNA PESTAÑA
         ============================================================ */
 
         function resetTabToDefault(globalBtn) {
             const tabRoot = getTabRoot(globalBtn);
-            if (!tabRoot) return;
 
-            // Activar solo este global-all (por si hubiera más en esta pestaña)
-            tabRoot.querySelectorAll(".global-all").forEach(b => b.classList.remove("active"));
-            globalBtn.classList.add("active");
-
-            // Resetear todos los grupos de ESA pestaña
             tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
-                const isNoneGroup = g.dataset.group === "push-none";
-                const buttons = g.querySelectorAll("button");
-                buttons.forEach(b => b.classList.remove("active"));
+                const isNone = g.dataset.group === "push-none";
+                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
 
-                if (!isNoneGroup) {
+                if (!isNone) {
                     const allBtn = g.querySelector("button:first-child");
                     if (allBtn) allBtn.classList.add("active");
                 }
             });
 
-            // Asegurar que "No notifications" está apagado en ESA pestaña
-            const noneGroup = tabRoot.querySelector('[data-group="push-none"]');
-            if (noneGroup) {
-                noneGroup.querySelectorAll("button").forEach(b => b.classList.remove("active"));
-            }
-
             updateGlobalAllForTab(tabRoot);
         }
 
         /* ============================================================
-        ASIGNAR EVENTOS A BOTONES DENTRO DE GRUPOS
+        EVENTOS DE BOTONES
         ============================================================ */
 
         document.querySelectorAll(".filter-buttons").forEach(groupEl => {
@@ -1133,13 +1102,11 @@
             groupEl.querySelectorAll("button").forEach(btn => {
                 btn.addEventListener("click", () => {
 
-                    // Grupo especial: No notifications
                     if (groupEl.dataset.group === "push-none") {
                         activateNone(groupEl, btn);
                         return;
                     }
 
-                    // Si por alguna razón llega aquí un global-all, lo ignoramos (se gestiona abajo)
                     if (btn.classList.contains("global-all")) return;
 
                     if (type === "exclusive") {
@@ -1155,14 +1122,8 @@
             });
         });
 
-        /* ============================================================
-        ALL GLOBAL (BOTONES .global-all)
-        ============================================================ */
-
         document.querySelectorAll(".global-all").forEach(btn => {
-            btn.addEventListener("click", () => {
-                resetTabToDefault(btn);
-            });
+            btn.addEventListener("click", () => resetTabToDefault(btn));
         });
 
         /* ============================================================
@@ -1170,30 +1131,41 @@
         ============================================================ */
 
         function closeFilterPanel() {
-            const panel = document.getElementById("filter-panel");
-            if (panel) panel.classList.remove("open");
+            document.getElementById("filter-panel").classList.remove("open");
         }
 
         document.querySelectorAll(".apply-close").forEach(btn => {
             btn.addEventListener("click", () => {
-                const filters = getSelectedFilters();
-                console.log("Filtros aplicados:", filters);
-                window.NBAppFilters = filters;
+                window.NBAppFilters = {
+                    latest: getFiltersForTab("latest"),
+                    push: getFiltersForTab("push")
+                };
                 closeFilterPanel();
             });
         });
 
         /* ============================================================
-        ESTADO INICIAL COHERENTE PARA CADA TAB
+        RE-CALCULAR ALL-NO FILTERS AL CAMBIAR DE PESTAÑA
+        ============================================================ */
+
+        document.querySelectorAll('.tab-btn[data-tab]').forEach(tabBtn => {
+            tabBtn.addEventListener("click", () => {
+                const tabName = tabBtn.getAttribute("data-tab");
+                const tabRoot = document.querySelector(`.filter-content[data-tab-content="${tabName}"]`);
+                updateGlobalAllForTab(tabRoot);
+            });
+        });
+
+        /* ============================================================
+        ESTADO INICIAL
         ============================================================ */
 
         document.querySelectorAll('.filter-content').forEach(tabRoot => {
             updateGlobalAllForTab(tabRoot);
         });
+
     });
     </script>
-
-
 
 </body>
 </html>
