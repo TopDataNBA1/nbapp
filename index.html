@@ -912,6 +912,114 @@
     });
     </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        /* ============================================================
+        FUNCIÓN: obtener filtros seleccionados
+        ============================================================ */
+        function getSelectedFilters() {
+            const result = {
+                latest: {
+                    top: null,
+                    stat: [],
+                    team: [],
+                    type: null
+                },
+                push: {
+                    top: null,
+                    stat: [],
+                    team: [],
+                    type: null,
+                    none: false
+                }
+            };
+
+            /* -------------------------
+            LATEST MOVES
+            ------------------------- */
+
+            // TOP (exclusive)
+            const topBtn = document.querySelector('[data-group="top"] .active');
+            result.latest.top = topBtn ? topBtn.textContent.trim() : "All";
+
+            // STAT (multi)
+            document.querySelectorAll('[data-group="stat"] .active').forEach(btn => {
+                const val = btn.textContent.trim();
+                if (val !== "All") result.latest.stat.push(val);
+            });
+
+            // TEAM (multi)
+            document.querySelectorAll('[data-group="team"] .active').forEach(btn => {
+                const val = btn.textContent.trim();
+                if (val !== "All") result.latest.team.push(val);
+            });
+
+            // TYPE (exclusive)
+            const typeBtn = document.querySelector('[data-group="type"] .active');
+            result.latest.type = typeBtn ? typeBtn.textContent.trim() : "All";
+
+
+            /* -------------------------
+            PUSH NOTIFICATIONS
+            ------------------------- */
+
+            // NONE (exclusive)
+            const noneBtn = document.querySelector('[data-group="push-none"] .active');
+            result.push.none = !!noneBtn;
+
+            // TOP (exclusive)
+            const pTopBtn = document.querySelector('[data-group="push-top"] .active');
+            result.push.top = pTopBtn ? pTopBtn.textContent.trim() : "All";
+
+            // STAT (multi)
+            document.querySelectorAll('[data-group="push-stat"] .active').forEach(btn => {
+                const val = btn.textContent.trim();
+                if (val !== "All") result.push.stat.push(val);
+            });
+
+            // TEAM (multi)
+            document.querySelectorAll('[data-group="push-team"] .active').forEach(btn => {
+                const val = btn.textContent.trim();
+                if (val !== "All") result.push.team.push(val);
+            });
+
+            // TYPE (exclusive)
+            const pTypeBtn = document.querySelector('[data-group="push-type"] .active');
+            result.push.type = pTypeBtn ? pTypeBtn.textContent.trim() : "All";
+
+            return result;
+        }
+
+
+        /* ============================================================
+        FUNCIÓN: cerrar panel
+        ============================================================ */
+        function closeFilterPanel() {
+            document.getElementById("filter-panel").classList.remove("open");
+        }
+
+
+        /* ============================================================
+        EVENTO: Apply & Close
+        ============================================================ */
+        document.querySelectorAll(".apply-close").forEach(btn => {
+            btn.addEventListener("click", () => {
+
+                // 1) Obtener filtros seleccionados
+                const filters = getSelectedFilters();
+                console.log("Filtros aplicados:", filters);
+
+                // 2) Guardar en memoria temporal (global)
+                window.NBAppFilters = filters;
+
+                // 3) Cerrar panel
+                closeFilterPanel();
+            });
+        });
+
+    });
+    </script>
 
 </body>
 </html>
