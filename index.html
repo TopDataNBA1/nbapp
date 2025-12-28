@@ -503,15 +503,20 @@
         updatePage();
         updateMoves();
     </script>
-<script>
-document.getElementById("settings-btn").addEventListener("click", () => {
-    document.getElementById("filter-panel").classList.add("open");
-});
+    <script>
+    document.addEventListener("click", (e) => {
+        // Abrir panel
+        if (e.target.id === "settings-btn") {
+            document.getElementById("filter-panel").classList.add("open");
+        }
 
-document.getElementById("close-filters").addEventListener("click", () => {
-    document.getElementById("filter-panel").classList.remove("open");
-});
-</script>
+        // Cerrar panel
+        if (e.target.id === "close-filters") {
+            document.getElementById("filter-panel").classList.remove("open");
+        }
+    });
+    </script>
+
 
 </body>
 </html>
