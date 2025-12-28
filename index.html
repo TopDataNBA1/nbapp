@@ -262,221 +262,162 @@
 
     <!-- PANEL DE FILTROS -->
     <div id="filter-panel" class="filter-panel">
+        
         <div class="filter-tabs">
-        <button class="tab-btn active" data-tab="latest">Latest Moves View</button>
-        <button class="tab-btn" data-tab="push">Push Notifications</button>
-    </div>
-
-    <div class="filter-content" data-tab-content="latest">
-        <div class="filter-group">
-        <button class="filter-all global-all">ALL – no filters</button>
+            <button class="tab-btn active" data-tab="latest">Latest Moves View</button>
+            <button class="tab-btn" data-tab="push">Push Notifications</button>
         </div>
 
-        <div class="filter-group">
-        <label>Top</label>
-        <div class="filter-buttons exclusive" data-group="top">
-            <button>All</button>
-            <button>Top100</button>
-            <button>Top25</button>
-        </div>
-        </div>
+        <!-- ============================
+            TAB: LATEST MOVES VIEW
+        ============================ -->
+        <div class="filter-content" data-tab-content="latest">
 
-        <div class="filter-group">
-        <label>Stat</label>
-        <div class="filter-buttons multi" data-group="stat">
-            <button>All</button>
-            <button>PTS</button>
-            <button>REB</button>
-            <button>AST</button>
-            <button>STL</button>
-            <button>BLK</button>
-            <button>3PM</button>
-            <button>G</button>
-        </div>
-        </div>
+            <!-- ALL GLOBAL -->
+            <div class="filter-group">
+                <button class="filter-all global-all active">ALL – no filters</button>
+            </div>
 
-        <div class="filter-group">
-        <label>Team</label>
-        <div class="filter-buttons multi" data-group="team">
-            <button>All</button>
-            <button>ATL</button>
-            <button>BOS</button>
-            <button>BKN</button>
-            <button>CHA</button>
-            <button>CHI</button>
-            <button>CLE</button>
-            <button>DAL</button>
-            <button>DEN</button>
-            <button>DET</button>
-            <button>GSW</button>
-            <button>HOU</button>
-            <button>IND</button>
-            <button>LAC</button>
-            <button>LAL</button>
-            <button>MEM</button>
-            <button>MIA</button>
-            <button>MIL</button>
-            <button>MIN</button>
-            <button>NOP</button>
-            <button>NYK</button>
-            <button>OKC</button>
-            <button>ORL</button>
-            <button>PHI</button>
-            <button>PHX</button>
-            <button>POR</button>
-            <button>SAC</button>
-            <button>SAS</button>
-            <button>TOR</button>
-            <button>UTA</button>
-            <button>WAS</button>
-        </div>
-
-        </div>
-
-        <div class="filter-group">
-        <label>Type</label>
-        <div class="filter-buttons exclusive" data-group="type">
-            <button>All</button>
-            <button>Overtakes</button>
-            <button>Milestones</button>
-        </div>
-        </div>
-
-        <div class="filter-group">
-        <button class="apply-close">Apply and Close</button>
-        </div>
-    </div>
-
-    <div class="filter-content hidden" data-tab-content="push">
-        <div class="filter-group">
-        <button class="filter-all global-all">ALL – no filters</button>
-        </div>
-
-        <div class="filter-group">
-        <label>Top</label>
-        <div class="filter-buttons exclusive" data-group="push-top">
-            <button>All</button>
-            <button>Top100</button>
-            <button>Top25</button>
-        </div>
-        </div>
-
-        <div class="filter-group">
-        <label>Stat</label>
-        <div class="filter-buttons multi" data-group="push-stat">
-            <button>All</button>
-            <button>PTS</button>
-            <button>REB</button>
-            <button>AST</button>
-            <button>STL</button>
-            <button>BLK</button>
-            <button>3PM</button>
-            <button>G</button>
-        </div>
-        </div>
-
-        <div class="filter-group">
-        <label>Team</label>
-        <div class="filter-buttons multi" data-group="push-team">
-            <button>All</button>
-            <button>ATL</button>
-            <button>BOS</button>
-            <button>BKN</button>
-            <button>CHA</button>
-            <button>CHI</button>
-            <button>CLE</button>
-            <button>DAL</button>
-            <button>DEN</button>
-            <button>DET</button>
-            <button>GSW</button>
-            <button>HOU</button>
-            <button>IND</button>
-            <button>LAC</button>
-            <button>LAL</button>
-            <button>MEM</button>
-            <button>MIA</button>
-            <button>MIL</button>
-            <button>MIN</button>
-            <button>NOP</button>
-            <button>NYK</button>
-            <button>OKC</button>
-            <button>ORL</button>
-            <button>PHI</button>
-            <button>PHX</button>
-            <button>POR</button>
-            <button>SAC</button>
-            <button>SAS</button>
-            <button>TOR</button>
-            <button>UTA</button>
-            <button>WAS</button>
-        </div>
-
-        </div>
-
-        <div class="filter-group">
-        <label>Type</label>
-        <div class="filter-buttons exclusive" data-group="push-type">
-            <button>All</button>
-            <button>Overtakes</button>
-            <button>Milestones</button>
-        </div>
-        </div>
-
-        <div class="filter-group">
-        <label>Notifications</label>
-        <div class="filter-buttons exclusive" data-group="push-none">
-            <button>None</button>
-        </div>
-        </div>
-
-        <div class="filter-group">
-        <button class="apply-close">Apply and Close</button>
-        </div>
-
-    </div>
-    </div>
-
-
-    <div class="status-bar">
-        <div class="status-line1">ONLINE - Last update:</div>
-        <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
-    </div>
-
-    <div class="tabs">
-        <button class="tab-btn active" onclick="openTab('telegram')">Latest Moves</button>
-        <button class="tab-btn" onclick="openTab('live')">Live Rankings</button>
-    </div>
-
-    <!-- LATEST MOVES -->
-    <div id="telegram" class="tab-content active">
-        <div class="container">
-            <div class="moves-area">
-                <div class="moves-list">
-                    <div id="moves-list"></div>
+            <!-- TOP -->
+            <div class="filter-group">
+                <label>Top</label>
+                <div class="filter-buttons exclusive" data-group="top">
+                    <button class="active">All</button>
+                    <button>Top100</button>
+                    <button>Top25</button>
                 </div>
             </div>
+
+            <!-- STAT -->
+            <div class="filter-group">
+                <label>Stat</label>
+                <div class="filter-buttons multi" data-group="stat">
+                    <button class="active">All</button>
+                    <button>PTS</button>
+                    <button>REB</button>
+                    <button>AST</button>
+                    <button>STL</button>
+                    <button>BLK</button>
+                    <button>3PM</button>
+                    <button>G</button>
+                </div>
+            </div>
+
+            <!-- TEAM -->
+            <div class="filter-group">
+                <label>Team</label>
+                <div class="filter-buttons multi" data-group="team">
+                    <button class="active">All</button>
+                    <button>ATL</button><button>BOS</button><button>BKN</button>
+                    <button>CHA</button><button>CHI</button><button>CLE</button>
+                    <button>DAL</button><button>DEN</button><button>DET</button>
+                    <button>GSW</button><button>HOU</button><button>IND</button>
+                    <button>LAC</button><button>LAL</button><button>MEM</button>
+                    <button>MIA</button><button>MIL</button><button>MIN</button>
+                    <button>NOP</button><button>NYK</button><button>OKC</button>
+                    <button>ORL</button><button>PHI</button><button>PHX</button>
+                    <button>POR</button><button>SAC</button><button>SAS</button>
+                    <button>TOR</button><button>UTA</button><button>WAS</button>
+                </div>
+            </div>
+
+            <!-- TYPE -->
+            <div class="filter-group">
+                <label>Type</label>
+                <div class="filter-buttons exclusive" data-group="type">
+                    <button class="active">All</button>
+                    <button>Overtakes</button>
+                    <button>Milestones</button>
+                </div>
+            </div>
+
+            <!-- APPLY -->
+            <div class="filter-group">
+                <button class="apply-close">Apply and Close</button>
+            </div>
+
         </div>
+
+        <!-- ============================
+            TAB: PUSH NOTIFICATIONS
+        ============================ -->
+        <div class="filter-content hidden" data-tab-content="push">
+
+            <!-- ALL GLOBAL -->
+            <div class="filter-group">
+                <button class="filter-all global-all active">ALL – no filters</button>
+            </div>
+
+            <!-- TOP -->
+            <div class="filter-group">
+                <label>Top</label>
+                <div class="filter-buttons exclusive" data-group="push-top">
+                    <button class="active">All</button>
+                    <button>Top100</button>
+                    <button>Top25</button>
+                </div>
+            </div>
+
+            <!-- STAT -->
+            <div class="filter-group">
+                <label>Stat</label>
+                <div class="filter-buttons multi" data-group="push-stat">
+                    <button class="active">All</button>
+                    <button>PTS</button>
+                    <button>REB</button>
+                    <button>AST</button>
+                    <button>STL</button>
+                    <button>BLK</button>
+                    <button>3PM</button>
+                    <button>G</button>
+                </div>
+            </div>
+
+            <!-- TEAM -->
+            <div class="filter-group">
+                <label>Team</label>
+                <div class="filter-buttons multi" data-group="push-team">
+                    <button class="active">All</button>
+                    <button>ATL</button><button>BOS</button><button>BKN</button>
+                    <button>CHA</button><button>CHI</button><button>CLE</button>
+                    <button>DAL</button><button>DEN</button><button>DET</button>
+                    <button>GSW</button><button>HOU</button><button>IND</button>
+                    <button>LAC</button><button>LAL</button><button>MEM</button>
+                    <button>MIA</button><button>MIL</button><button>MIN</button>
+                    <button>NOP</button><button>NYK</button><button>OKC</button>
+                    <button>ORL</button><button>PHI</button><button>PHX</button>
+                    <button>POR</button><button>SAC</button><button>SAS</button>
+                    <button>TOR</button><button>UTA</button><button>WAS</button>
+                </div>
+            </div>
+
+            <!-- TYPE -->
+            <div class="filter-group">
+                <label>Type</label>
+                <div class="filter-buttons exclusive" data-group="push-type">
+                    <button class="active">All</button>
+                    <button>Overtakes</button>
+                    <button>Milestones</button>
+                </div>
+            </div>
+
+            <!-- NONE -->
+            <div class="filter-group">
+                <label>Disable all notifications</label>
+                <div class="filter-buttons exclusive" data-group="push-none">
+                    <button>No notifications</button>
+                </div>
+            </div>
+
+            <!-- APPLY -->
+            <div class="filter-group">
+                <button class="apply-close">Apply and Close</button>
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- LIVE RANKINGS -->
-    <div id="live" class="tab-content">
-        <div class="container">
-            <div class="leyenda">
-                Today column: <span style="color:white">game finished</span> • 
-                <span style="color:#ffaa00;text-shadow:0 0 8px #ffaa00">playing now</span> • 
-                <span style="color:#888">not started</span> • 
-                <span style="color:#ff5555">inactive</span>
-            </div>
-            <div class="filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="top25">Top 25</button>
-                <button class="filter-btn" data-filter="top100">Top 100</button>
-                <button class="filter-btn" data-filter="playing">Playing</button>
-                <button class="filter-btn" data-filter="almost">Almost</button>
-            </div>
-            <div id="tables"></div>
-        </div>
-    </div>
 
     <script>
         function openTab(tabName) {
