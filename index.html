@@ -13,43 +13,46 @@
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
         .topbar{
         position:relative;
-        display:flex;
-        align-items:center;
-        padding:12px 20px;
+        height:70px; /* ← fija la altura para que nada empuje */
         background:rgba(0,0,0,0.9);
         border-bottom:3px solid #ff4655;
         }
 
+        /* Logo a la izquierda */
         .logo-img{
+        position:absolute;
+        left:20px;
+        top:50%;
+        transform:translateY(-50%);
         height:60px;
         width:auto;
-        position:relative;
-        z-index:2; /* ← evita que tape NBApp */
         }
 
+        /* NBApp centrado REAL */
         .nbapp{
         position:absolute;
         left:50%;
-        transform:translateX(-50%);
+        top:50%;
+        transform:translate(-50%, -50%);
         font-family:'Orbitron',sans-serif;
         font-size:2.4em;
         color:#ff4655;
         text-shadow:0 0 10px #ff4655;
         font-weight:700;
-        z-index:1; /* ← NBApp queda por debajo del logo y del icono */
         }
 
+        /* Icono a la derecha */
         .settings-icon{
         position:absolute;
         right:20px;
         top:50%;
         transform:translateY(-50%);
-        font-size:26px;
+        font-size:28px;
         color:#ff4655;
         cursor:pointer;
         user-select:none;
-        z-index:2; /* ← icono por encima */
         }
+
         .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
