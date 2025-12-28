@@ -241,6 +241,9 @@
                 font-weight:bold;
                 background:#333;
             }
+            .hidden{
+                display:none;
+            }
 
     </style>
 
@@ -652,6 +655,33 @@
         border-left: none !important;
         box-shadow: none !important;
     }
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabButtons = document.querySelectorAll('.filter-tabs .tab-btn');
+        const tabContents = document.querySelectorAll('#filter-panel .filter-content');
+
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const target = btn.getAttribute('data-tab');
+
+                // activar pestaña visual
+                tabButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // mostrar/ocultar contenidos
+                tabContents.forEach(content => {
+                    const tabName = content.getAttribute('data-tab-content');
+                    if (tabName === target) {
+                        content.classList.remove('hidden');
+                    } else {
+                        content.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    });
     </script>
 
 </body>
