@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
-        .topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(0,0,0,0.9);border-bottom:3px solid #ff4655;}
+        .topbar{position:relative;display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(0,0,0,0.9);border-bottom:3px solid #ff4655;}
         .logo-img{height:60px;width:auto;}
-        .nbapp{font-family:'Orbitron',sans-serif;font-size:2.4em;color:#ff4655;text-shadow:0 0 10px #ff4655;font-weight:700;}
+        .nbapp{position:absolute;left:50%;transform:translateX(-50%);font-family:'Orbitron',sans-serif;font-size:2.4em;color:#ff4655;text-shadow:0 0 10px #ff4655;font-weight:700;}
+        .settings-icon{position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:26px;color:#ff4655;cursor:pointer;user-select:none;}
         .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
@@ -123,9 +124,13 @@
 <body>
 
     <div class="topbar">
-        <img src="logo.jpg" alt="Logo" class="logo-img">
+        <img src="logo.jpg" class="logo-img">
+
         <div class="nbapp">NBApp</div>
+
+        <div id="settings-btn" class="settings-icon">⚙</div>
     </div>
+
 
     <div class="status-bar">
         <div class="status-line1">ONLINE - Last update:</div>
