@@ -933,7 +933,7 @@
             };
 
             // NONE (solo push)
-            const none = tabRoot.querySelector('[data-group$="none"] .active');
+            const none = tabRoot.querySelector('[data-group="push-none"] .active');
             result.none = !!none;
 
             // TOP
@@ -1043,7 +1043,7 @@
             const tabRoot = getTabRoot(globalBtn);
 
             tabRoot.querySelectorAll(".filter-buttons").forEach(g => {
-                const isNone = g.dataset.group.endsWith("none");
+                const isNone = g.dataset.group === "push-none";
                 g.querySelectorAll("button").forEach(b => b.classList.remove("active"));
 
                 if (!isNone) {
@@ -1065,7 +1065,7 @@
             groupEl.querySelectorAll("button").forEach(btn => {
                 btn.addEventListener("click", () => {
 
-                    if (groupEl.dataset.group.endsWith("none")) {
+                    if (groupEl.dataset.group === "push-none") {
                         activateNone(groupEl, btn);
                         return;
                     }
