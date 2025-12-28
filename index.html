@@ -913,10 +913,11 @@
     </script>
 
     <script>
+    <script>
     document.addEventListener("DOMContentLoaded", () => {
 
         /* ============================================================
-        FUNCIÓN: obtener filtros seleccionados
+        LEER EL ESTADO ACTUAL DE LOS FILTROS
         ============================================================ */
         function getSelectedFilters() {
             const result = {
@@ -935,91 +936,227 @@
                 }
             };
 
-            /* -------------------------
-            LATEST MOVES
-            ------------------------- */
-
-            // TOP (exclusive)
+            // ----- LATEST MOVES -----
             const topBtn = document.querySelector('[data-group="top"] .active');
             result.latest.top = topBtn ? topBtn.textContent.trim() : "All";
 
-            // STAT (multi)
             document.querySelectorAll('[data-group="stat"] .active').forEach(btn => {
                 const val = btn.textContent.trim();
                 if (val !== "All") result.latest.stat.push(val);
             });
 
-            // TEAM (multi)
             document.querySelectorAll('[data-group="team"] .active').forEach(btn => {
                 const val = btn.textContent.trim();
                 if (val !== "All") result.latest.team.push(val);
             });
 
-            // TYPE (exclusive)
             const typeBtn = document.querySelector('[data-group="type"] .active');
             result.latest.type = typeBtn ? typeBtn.textContent.trim() : "All";
 
-
-            /* -------------------------
-            PUSH NOTIFICATIONS
-            ------------------------- */
-
-            // NONE (exclusive)
+            // ----- PUSH NOTIFICATIONS -----
             const noneBtn = document.querySelector('[data-group="push-none"] .active');
             result.push.none = !!noneBtn;
 
-            // TOP (exclusive)
             const pTopBtn = document.querySelector('[data-group="push-top"] .active');
             result.push.top = pTopBtn ? pTopBtn.textContent.trim() : "All";
 
-            // STAT (multi)
             document.querySelectorAll('[data-group="push-stat"] .active').forEach(btn => {
                 const val = btn.textContent.trim();
                 if (val !== "All") result.push.stat.push(val);
             });
 
-            // TEAM (multi)
             document.querySelectorAll('[data-group="push-team"] .active').forEach(btn => {
                 const val = btn.textContent.trim();
                 if (val !== "All") result.push.team.push(val);
             });
 
-            // TYPE (exclusive)
             const pTypeBtn = document.querySelector('[data-group="push-type"] .active');
             result.push.type = pTypeBtn ? pTypeBtn.textContent.trim() : "All";
 
             return result;
         }
 
+        /* ============================================================
+        ¿TODOS LOS FILTROS ESTÁN EN ESTADO "POR DEFECTO"?
+        (All en todo y No notifications apagado)
+        ============================================================ */
+        function updateGlobalAllState() {
+            const filters = getSelectedFilters();
+
+            const allDefault =
+                filters.latest.top === "All" &&
+                filters.latest.stat.length === 0 &&
+                filters.latest.team.length === 0 &&
+                filters.latest.type === "All" &&
+                filters.push.top === "All" &&
+                filters.push.stat.length === 0 &&
+                filters.push.team.length === 0 &&
+                filters.push.type === "All" &&
+                filters.push.none === false;
+
+            const globalButtons = document.querySelectorAll(".global-all");
+
+            if (allDefault) {
+                globalButtons.forEach(btn => btn.classList.add("active"));
+            } else {
+                globalButtons.forEach(btn => btn.classList.remove("active"));
+            }
+        }
 
         /* ============================================================
-        FUNCIÓN: cerrar panel
+        EXCLUSIVO (solo uno activo)
+        ============================================================ */
+        function activateExclusive(groupEl, clickedBtn) {
+            const buttons = groupEl.querySelectorAll("button");
+            buttons.forEach(btn => btn.classList.remove("active"));
+            clickedBtn.classList.add("active");
+            updateGlobalAllState();
+        }
+
+        /* ============================================================
+        MÚLTIPLE (varios activos)
+        ============================================================ */
+        function activateMulti(groupEl, clickedBtn) {
+            const isAll = clickedBtn.textContent.trim() === "All";
+
+            if (isAll) {
+                // All → apaga todos los demás y deja solo All
+                groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+                clickedBtn.classList.add("active");
+            } else {
+                const allBtn = groupEl.querySelector("button:first-child");
+                allBtn.classList.remove("active");
+
+                clickedBtn.classList.toggle("active");
+
+                const anyActive = [...groupEl.querySelectorAll("button")]
+                    .some(btn => btn.classList.contains("active"));
+
+                if (!anyActive && allBtn) {
+                    allBtn.classList.add("active");
+                }
+            }
+
+            updateGlobalAllState();
+        }
+
+        /* ============================================================
+        NO NOTIFICATIONS → apaga absolutamente todo
+        ============================================================ */
+        function activateNone(groupEl, clickedBtn) {
+            // Activar solo "No notifications" en su grupo
+            groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+            clickedBtn.classList.add("active");
+
+            // Apagar todos los botones de todos los grupos (latest + push)
+            const allGroups = document.querySelectorAll(".filter-buttons");
+            allGroups.forEach(g => {
+                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
+            });
+
+            // Apagar ALL global también
+            document.querySelectorAll(".global-all").forEach(btn => btn.classList.remove("active"));
+
+            // Mantener solo "No notifications" activo
+            clickedBtn.classList.add("active");
+
+            updateGlobalAllState();
+        }
+
+        /* ============================================================
+        ALL GLOBAL: resetearlo todo a "All" y quitar "No notifications"
+        ============================================================ */
+        function resetAllToDefault(globalBtn) {
+            // Activar solo este ALL global
+            document.querySelectorAll(".global-all").forEach(b => b.classList.remove("active"));
+            globalBtn.classList.add("active");
+
+            // En todos los grupos: dejar solo el primer botón (All) activo
+            const allGroups = document.querySelectorAll(".filter-buttons");
+            allGroups.forEach(g => {
+                const buttons = g.querySelectorAll("button");
+                buttons.forEach(b => b.classList.remove("active"));
+                const allBtn = g.querySelector("button:first-child");
+                if (allBtn && g.dataset.group !== "push-none") {
+                    allBtn.classList.add("active");
+                }
+            });
+
+            // Apagar "No notifications"
+            const noneGroup = document.querySelector('[data-group="push-none"]');
+            if (noneGroup) {
+                noneGroup.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+            }
+
+            updateGlobalAllState();
+        }
+
+        /* ============================================================
+        ASIGNAR EVENTOS A TODOS LOS BOTONES DE FILTROS
+        ============================================================ */
+        document.querySelectorAll(".filter-buttons").forEach(groupEl => {
+            const type = groupEl.classList.contains("exclusive") ? "exclusive" : "multi";
+
+            groupEl.querySelectorAll("button").forEach(btn => {
+                btn.addEventListener("click", () => {
+
+                    // Grupo especial: No notifications
+                    if (groupEl.dataset.group === "push-none") {
+                        activateNone(groupEl, btn);
+                        return;
+                    }
+
+                    // Botón ALL global (no va dentro de .filter-buttons, pero por si acaso)
+                    if (btn.classList.contains("global-all")) {
+                        resetAllToDefault(btn);
+                        return;
+                    }
+
+                    if (type === "exclusive") {
+                        activateExclusive(groupEl, btn);
+                        return;
+                    }
+
+                    if (type === "multi") {
+                        activateMulti(groupEl, btn);
+                        return;
+                    }
+                });
+            });
+        });
+
+        /* ============================================================
+        CLICK EN ALL GLOBAL (fuera de .filter-buttons)
+        ============================================================ */
+        document.querySelectorAll(".global-all").forEach(btn => {
+            btn.addEventListener("click", () => {
+                resetAllToDefault(btn);
+            });
+        });
+
+        /* ============================================================
+        APPLY & CLOSE: guardar en memoria y cerrar panel
         ============================================================ */
         function closeFilterPanel() {
             document.getElementById("filter-panel").classList.remove("open");
         }
 
-
-        /* ============================================================
-        EVENTO: Apply & Close
-        ============================================================ */
         document.querySelectorAll(".apply-close").forEach(btn => {
             btn.addEventListener("click", () => {
-
-                // 1) Obtener filtros seleccionados
                 const filters = getSelectedFilters();
                 console.log("Filtros aplicados:", filters);
-
-                // 2) Guardar en memoria temporal (global)
                 window.NBAppFilters = filters;
-
-                // 3) Cerrar panel
                 closeFilterPanel();
             });
         });
 
+        /* ============================================================
+        ESTADO INICIAL COHERENTE
+        ============================================================ */
+        updateGlobalAllState();
     });
     </script>
+
 
 </body>
 </html>
