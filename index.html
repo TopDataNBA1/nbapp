@@ -10,6 +10,46 @@
     <meta http-equiv="Expires" content="0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
+        /* PANEL LATERAL */
+        .filter-panel{
+            position:fixed;
+            top:0;
+            right:-320px; /* oculto */
+            width:300px;
+            height:100vh;
+            background:#111;
+            border-left:3px solid #ff4655;
+            box-shadow:-4px 0 12px rgba(0,0,0,0.6);
+            transition:0.35s ease;
+            z-index:9999;
+            padding:20px;
+            color:white;
+            overflow-y:auto;
+        }
+
+        .filter-panel.open{
+            right:0; /* visible */
+        }
+
+        .filter-header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            font-size:1.4em;
+            margin-bottom:20px;
+            color:#ff4655;
+        }
+
+        .close-btn{
+            cursor:pointer;
+            font-size:0.9em;
+            color:#ff4655;
+        }
+
+        .filter-content{
+            font-size:1.1em;
+        }
+
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
         .topbar{
         position:relative;
@@ -168,7 +208,18 @@
 
         <div id="settings-btn" class="settings-icon">⚙</div>
     </div>
+    <!-- PANEL DE FILTROS -->
+    <div id="filter-panel" class="filter-panel">
+        <div class="filter-header">
+            <span>Filters</span>
+            <span id="close-filters" class="close-btn">✖</span>
+        </div>
 
+        <div class="filter-content">
+            <!-- Aquí meteremos los filtros en el siguiente paso -->
+            <p style="opacity:0.6;">(Filter panel ready)</p>
+        </div>
+    </div>
 
     <div class="status-bar">
         <div class="status-line1">ONLINE - Last update:</div>
@@ -452,5 +503,15 @@
         updatePage();
         updateMoves();
     </script>
+<script>
+document.getElementById("settings-btn").addEventListener("click", () => {
+    document.getElementById("filter-panel").classList.add("open");
+});
+
+document.getElementById("close-filters").addEventListener("click", () => {
+    document.getElementById("filter-panel").classList.remove("open");
+});
+</script>
+
 </body>
 </html>
