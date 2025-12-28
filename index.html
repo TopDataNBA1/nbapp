@@ -10,195 +10,240 @@
     <meta http-equiv="Expires" content="0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        /* PANEL LATERAL */
-        .filter-panel{
-        position:fixed;
-        top:0;
-        right:-340px;
-        width:300px;
-        height:100vh;
-        background:#111;
-        border-left:none;
-        box-shadow:none !important;
-        transition:0.35s ease;
-        z-index:9999;
-        padding:20px;
-        color:white;
-        overflow-y:auto;
-    }
 
-        .filter-panel.open{
-            right:0; /* visible */
-        }
+            /* PANEL LATERAL (TU VERSIÓN, SIN CAMBIOS) */
+            .filter-panel{
+                position:fixed;
+                top:0;
+                right:-340px;
+                width:300px;
+                height:100vh;
+                background:#111;
+                border-left:none;
+                box-shadow:none !important;
+                transition:0.35s ease;
+                z-index:9999;
+                padding:20px;
+                color:white;
+                overflow-y:auto;
+            }
 
-        .filter-header{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            font-size:1.4em;
-            margin-bottom:20px;
-            color:#ff4655;
-        }
+            .filter-panel.open{
+                right:0;
+            }
 
-        .close-btn{
-            cursor:pointer;
-            font-size:0.9em;
-            color:#ff4655;
-        }
+            .filter-header{
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                font-size:1.4em;
+                margin-bottom:20px;
+                color:#ff4655;
+            }
 
-        .filter-content{
-            font-size:1.1em;
-        }
+            .close-btn{
+                cursor:pointer;
+                font-size:0.9em;
+                color:#ff4655;
+            }
 
-        body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
-        .topbar{
-        position:relative;
-        height:70px; /* ← fija la altura para que nada empuje */
-        background:rgba(0,0,0,0.9);
-        border-bottom:3px solid #ff4655;
-        }
+            .filter-content{
+                font-size:1.1em;
+            }
 
-        /* Logo a la izquierda */
-        .logo-img{
-        position:absolute;
-        left:20px;
-        top:50%;
-        transform:translateY(-50%);
-        height:60px;
-        width:auto;
-        }
+            /* ============================
+            TU CSS ORIGINAL COMPLETO
+            ============================ */
 
-        /* NBApp centrado REAL */
-        .nbapp{
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform:translate(-50%, -50%);
-        font-family:'Orbitron',sans-serif;
-        font-size:2.4em;
-        color:#ff4655;
-        text-shadow:0 0 10px #ff4655;
-        font-weight:700;
-        }
+            body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
+            .topbar{
+                position:relative;
+                height:70px;
+                background:rgba(0,0,0,0.9);
+                border-bottom:3px solid #ff4655;
+            }
 
-        /* Icono a la derecha */
-        .settings-icon{
-        position:absolute;
-        right:20px;
-        top:50%;
-        transform:translateY(-50%);
-        font-size:28px;
-        color:#ff4655;
-        cursor:pointer;
-        user-select:none;
-        }
+            .logo-img{
+                position:absolute;
+                left:20px;
+                top:50%;
+                transform:translateY(-50%);
+                height:60px;
+                width:auto;
+            }
 
-        .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
-        .status-line1{color:#55ff55;}
-        .status-line2{color:#ffaa00;font-weight:600;}
+            .nbapp{
+                position:absolute;
+                left:50%;
+                top:50%;
+                transform:translate(-50%, -50%);
+                font-family:'Orbitron',sans-serif;
+                font-size:2.4em;
+                color:#ff4655;
+                text-shadow:0 0 10px #ff4655;
+                font-weight:700;
+            }
 
-        .tabs{max-width:900px;margin:15px auto;display:flex;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px rgba(255,70,85,0.3);}
-        .tab-btn{flex:1;padding:12px 8px;font-family:'Orbitron',sans-serif;font-size:1.1em;color:white;background:rgba(255,70,85,0.2);border:none;cursor:pointer;transition:0.3s;}
-        .tab-btn:hover{background:rgba(255,70,85,0.4);}
-        .tab-btn.active{background:#ff4655;box-shadow:0 0 12px #ff4655;}
+            .settings-icon{
+                position:absolute;
+                right:20px;
+                top:50%;
+                transform:translateY(-50%);
+                font-size:28px;
+                color:#ff4655;
+                cursor:pointer;
+                user-select:none;
+            }
 
-        .tab-content{display:none;background:rgba(20,20,40,0.97);padding:10px;border-radius:0 0 10px 10px;}
-        .tab-content.active{display:block;}
-        .container{max-width:900px;margin:0 auto;}
+            .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
+            .status-line1{color:#55ff55;}
+            .status-line2{color:#ffaa00;font-weight:600;}
 
-        /* LATEST MOVES – VERSIÓN QUE TÚ AMAS + TUS 4 CAMBIOS */
-        .moves-area{height:88vh;background:#1e1e2e;border-radius:16px;overflow:hidden;box-shadow:0 12px 40px rgba(255,70,85,0.4);display:flex;flex-direction:column;}
-        .moves-list{flex:1;overflow-y:auto;padding:18px 12px;background:#0f0f1b;}
-        .move-item{background:rgba(30,30,46,0.9);border-radius:14px;margin:14px 8px;padding:16px 14px;box-shadow:0 4px 12px rgba(0,0,0,0.5);}
-        .move-photos{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px;}
-        .move-photos img{width:78px;height:78px;border-radius:50%;object-fit:cover;border:4px solid #ff4655;box-shadow:0 0 15px rgba(255,70,85,0.6);}
-        .move-text{font-size:1.01em;line-height:1.52;color:#e0e0e0;text-align:center;}
-        .move-text strong{color:#ffaa00;font-weight:700;}
-        .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
+            .tabs{max-width:900px;margin:15px auto;display:flex;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px rgba(255,70,85,0.3);}
+            .tab-btn{flex:1;padding:12px 8px;font-family:'Orbitron',sans-serif;font-size:1.1em;color:white;background:rgba(255,70,85,0.2);border:none;cursor:pointer;transition:0.3s;}
+            .tab-btn:hover{background:rgba(255,70,85,0.4);}
+            .tab-btn.active{background:#ff4655;box-shadow:0 0 12px #ff4655;}
 
-        /* LIVE RANKINGS – 100% COMO ANTES */
-        .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
-        .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;}
-        .filter-btn.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;}
+            .tab-content{display:none;background:rgba(20,20,40,0.97);padding:10px;border-radius:0 0 10px 10px;}
+            .tab-content.active{display:block;}
+            .container{max-width:900px;margin:0 auto;}
 
-        .card{background:rgba(20,20,40,0.97);border-radius:8px;overflow:hidden;margin:10px 0;box-shadow:0 4px 12px rgba(0,0,0,0.6);}
-        .card h2{margin:0;padding:8px;font-family:'Orbitron',sans-serif;font-size:1.15em;background:#ff4655;color:white;text-align:center;}
-        table{width:100%;border-collapse:collapse;font-size:0.84em;}
-        th,td{padding:5px 4px;border-bottom:1px solid #333;}
-        th{background:#1a1a2e;position:sticky;top:0;font-size:0.88em;}
-        .rank{color:#ffaa00;text-align:center;font-weight:bold;width:8%;}
-        .player{text-align:left;font-weight:500;width:28%;}
-        .number,.today,.diff{text-align:right;}
-        .today{font-weight:bold;width:12%;}
-        .diff{color:#ffaa00;width:10%;}
-        .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
-        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
-        .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
-        .collage img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-        }    
-        /* Tamaño máximo de los collages de Latest Moves */
-        .collage {
-            max-width: 300px;      /* ancho máximo de cada collage */
-            max-height: 200px;     /* altura máxima del collage */
-            margin: 0 auto 12px;
-        }
+            .moves-area{height:88vh;background:#1e1e2e;border-radius:16px;overflow:hidden;box-shadow:0 12px 40px rgba(255,70,85,0.4);display:flex;flex-direction:column;}
+            .moves-list{flex:1;overflow-y:auto;padding:18px 12px;background:#0f0f1b;}
+            .move-item{background:rgba(30,30,46,0.9);border-radius:14px;margin:14px 8px;padding:16px 14px;box-shadow:0 4px 12px rgba(0,0,0,0.5);}
+            .move-photos{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px;}
+            .move-photos img{width:78px;height:78px;border-radius:50%;object-fit:cover;border:4px solid #ff4655;box-shadow:0 0 15px rgba(255,70,85,0.6);}
+            .move-text{font-size:1.01em;line-height:1.52;color:#e0e0e0;text-align:center;}
+            .move-text strong{color:#ffaa00;font-weight:700;}
+            .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
 
-        /* 1 FOTO → ocupa todo el collage */
-        .collage.c1 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+            .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
+            .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;}
+            .filter-btn.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;}
 
-        /* 2 FOTOS → lado a lado */
-        .collage.c2 {
-            display: flex;
-            gap: 6px;
-        }
-        .collage.c2 img {
-            flex: 1;
-            height: 100%;
-            object-fit: cover;
-        }
+            .card{background:rgba(20,20,40,0.97);border-radius:8px;overflow:hidden;margin:10px 0;box-shadow:0 4px 12px rgba(0,0,0,0.6);}
+            .card h2{margin:0;padding:8px;font-family:'Orbitron',sans-serif;font-size:1.15em;background:#ff4655;color:white;text-align:center;}
+            table{width:100%;border-collapse:collapse;font-size:0.84em;}
+            th,td{padding:5px 4px;border-bottom:1px solid #333;}
+            th{background:#1a1a2e;position:sticky;top:0;font-size:0.88em;}
+            .rank{color:#ffaa00;text-align:center;font-weight:bold;width:8%;}
+            .player{text-align:left;font-weight:500;width:28%;}
+            .number,.today,.diff{text-align:right;}
+            .today{font-weight:bold;width:12%;}
+            .diff{color:#ffaa00;width:10%;}
+            .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
+            @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
+            .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
 
-        /* 3 FOTOS → 1 izquierda, 2 derecha en columna */
-        .collage.c3 {
-            display: flex;
-            gap: 6px;
-            height: 200px;  /* altura máxima */
-        }
-        .collage.c3 .left,
-        .collage.c3 .right {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .collage.c3 .left img,
-        .collage.c3 .right img {
-            flex: 1;
-            width: 100%;
-            object-fit: cover;
-        }
+            .collage img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
 
-        /* 4 FOTOS → grid 2x2 */
-        .collage.c4 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 6px;
-            height: 200px; /* altura máxima */
-        }
-        .collage.c4 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+            .collage {
+                max-width: 300px;
+                max-height: 200px;
+                margin: 0 auto 12px;
+            }
+
+            .collage.c1 img { width:100%; height:100%; object-fit:cover; }
+
+            .collage.c2 { display:flex; gap:6px; }
+            .collage.c2 img { flex:1; height:100%; object-fit:cover; }
+
+            .collage.c3 { display:flex; gap:6px; height:200px; }
+            .collage.c3 .left, .collage.c3 .right { flex:1; display:flex; flex-direction:column; }
+            .collage.c3 .left img, .collage.c3 .right img { flex:1; width:100%; object-fit:cover; }
+
+            .collage.c4 {
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows:1fr 1fr;
+                gap:6px;
+                height:200px;
+            }
+            .collage.c4 img { width:100%; height:100%; object-fit:cover; }
+
+
+            /* ============================================
+            PANEL PRO COMPACTO (NUEVO, INTEGRADO AQUÍ)
+            ============================================ */
+
+            .filter-tabs{
+                display:flex;
+                justify-content:space-between;
+                margin-bottom:20px;
+            }
+
+            .filter-tabs .tab-btn{
+                flex:1;
+                background:none;
+                border:none;
+                color:#888;
+                font-weight:bold;
+                padding:10px;
+                cursor:pointer;
+            }
+
+            .filter-tabs .tab-btn.active{
+                color:white;
+                border-bottom:2px solid #ff4655;
+            }
+
+            .filter-group{
+                margin-bottom:20px;
+            }
+
+            .filter-group label{
+                display:block;
+                font-weight:bold;
+                margin-bottom:8px;
+                color:#ff4655;
+            }
+
+            .filter-buttons{
+                display:flex;
+                flex-wrap:wrap;
+                gap:6px;
+            }
+
+            .filter-buttons button,
+            .filter-all,
+            .apply-close{
+                background:#222;
+                color:white;
+                border:none;
+                padding:6px 10px;
+                border-radius:4px;
+                cursor:pointer;
+                font-size:0.9em;
+            }
+
+            .filter-buttons button.active,
+            .filter-all.active,
+            .apply-close:hover{
+                background:#ff4655;
+                color:white;
+            }
+
+            .global-all{
+                width:100%;
+                text-align:center;
+                font-weight:bold;
+                margin-bottom:10px;
+            }
+
+            .apply-close{
+                width:100%;
+                padding:10px;
+                font-weight:bold;
+                background:#333;
+            }
 
     </style>
+
 </head>
 <body>
 
@@ -214,16 +259,69 @@
 
     <!-- PANEL DE FILTROS -->
     <div id="filter-panel" class="filter-panel">
-        <div class="filter-header">
-            <span>Filters</span>
-            <span id="close-filters" class="close-btn">✖</span>
+        <div class="filter-tabs">
+        <button class="tab-btn active" data-tab="latest">Latest Moves View</button>
+        <button class="tab-btn" data-tab="push">Push Notifications</button>
+    </div>
+
+    <div class="filter-content" data-tab-content="latest">
+        <div class="filter-group">
+        <button class="filter-all global-all">ALL – no filters</button>
         </div>
 
-        <div class="filter-content">
-            <!-- Aquí meteremos los filtros en el siguiente paso -->
-            <p style="opacity:0.6;">(Filter panel ready)</p>
+        <div class="filter-group">
+        <label>Top</label>
+        <div class="filter-buttons exclusive" data-group="top">
+            <button>All</button>
+            <button>Top100</button>
+            <button>Top25</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Stat</label>
+        <div class="filter-buttons multi" data-group="stat">
+            <button>All</button>
+            <button>PTS</button>
+            <button>REB</button>
+            <button>AST</button>
+            <button>STL</button>
+            <button>BLK</button>
+            <button>3PM</button>
+            <button>G</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Team</label>
+        <div class="filter-buttons multi" data-group="team">
+            <button>All</button>
+            <button>ATL</button>
+            <button>BOS</button>
+            <button>BKN</button>
+            <!-- Añade el resto de equipos aquí -->
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <label>Type</label>
+        <div class="filter-buttons exclusive" data-group="type">
+            <button>All</button>
+            <button>Overtakes</button>
+            <button>Milestones</button>
+        </div>
+        </div>
+
+        <div class="filter-group">
+        <button class="apply-close">Apply and Close</button>
         </div>
     </div>
+
+    <div class="filter-content hidden" data-tab-content="push">
+        <!-- Aquí irá la versión de notificaciones con el botón NONE -->
+    </div>
+    </div>
+
 
     <div class="status-bar">
         <div class="status-line1">ONLINE - Last update:</div>
