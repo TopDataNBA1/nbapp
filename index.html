@@ -780,12 +780,24 @@
     document.addEventListener("DOMContentLoaded", () => {
 
         /* ============================================================
+        FUNCIÓN: apagar ALL GLOBAL
+        ============================================================ */
+        function turnOffGlobalAll() {
+            document.querySelectorAll(".global-all").forEach(btn => {
+                btn.classList.remove("active");
+            });
+        }
+
+        /* ============================================================
         FUNCIÓN: activar botón exclusivo (solo uno activo)
         ============================================================ */
         function activateExclusive(groupEl, clickedBtn) {
             const buttons = groupEl.querySelectorAll("button");
             buttons.forEach(btn => btn.classList.remove("active"));
             clickedBtn.classList.add("active");
+
+            // Apagar ALL global
+            turnOffGlobalAll();
         }
 
         /* ============================================================
@@ -810,44 +822,31 @@
                 const anyActive = [...groupEl.querySelectorAll("button")].some(btn => btn.classList.contains("active"));
                 if (!anyActive) allBtn.classList.add("active");
             }
+
+            // Apagar ALL global
+            turnOffGlobalAll();
         }
 
         /* ============================================================
         FUNCIÓN: activar botón NONE (solo en notificaciones)
         ============================================================ */
         function activateNone(groupEl, clickedBtn) {
-            const buttons = groupEl.querySelectorAll("button");
-            buttons.forEach(btn => btn.classList.remove("active"));
+
+            // Activar solo NONE
+            groupEl.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             clickedBtn.classList.add("active");
 
-            // Desactivar TODOS los demás grupos de notificaciones
-            const pushGroups = document.querySelectorAll('[data-group^="push-"]:not([data-group="push-none"])');
-            pushGroups.forEach(g => {
-                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
-                // Reactivar All en cada grupo
-                const allBtn = g.querySelector("button:first-child");
-                if (allBtn) allBtn.classList.add("active");
-            });
-        }
-
-        /* ============================================================
-        FUNCIÓN: activar ALL GLOBAL (resetea todo)
-        ============================================================ */
-        function activateGlobalAll() {
+            // Apagar TODOS los grupos (latest + push)
             const allGroups = document.querySelectorAll(".filter-buttons");
-
-            allGroups.forEach(group => {
-                const buttons = group.querySelectorAll("button");
-                buttons.forEach(btn => btn.classList.remove("active"));
-                const allBtn = group.querySelector("button:first-child");
-                if (allBtn) allBtn.classList.add("active");
+            allGroups.forEach(g => {
+                g.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
             });
 
-            // Desactivar NONE también
-            const noneGroup = document.querySelector('[data-group="push-none"]');
-            if (noneGroup) {
-                noneGroup.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
-            }
+            // Apagar ALL global
+            turnOffGlobalAll();
+
+            // Mantener solo NONE activo
+            clickedBtn.classList.add("active");
         }
 
         /* ============================================================
@@ -865,11 +864,8 @@
                         return;
                     }
 
-                    // Caso especial: ALL GLOBAL
-                    if (btn.classList.contains("global-all")) {
-                        activateGlobalAll();
-                        return;
-                    }
+                    // Caso especial: ALL GLOBAL (lo gestionamos aparte)
+                    if (btn.classList.contains("global-all")) return;
 
                     // Exclusivo
                     if (type === "exclusive") {
@@ -890,12 +886,32 @@
         BOTÓN ALL GLOBAL (fuera de los grupos)
         ============================================================ */
         document.querySelectorAll(".global-all").forEach(btn => {
-            btn.addEventListener("click", () => { 
-                activateGlobalAll(); 
-            }); 
-        }); 
-    }); 
+            btn.addEventListener("click", () => {
+
+                // Activar solo ALL global
+                document.querySelectorAll(".global-all").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                // Resetear todos los grupos
+                const allGroups = document.querySelectorAll(".filter-buttons");
+                allGroups.forEach(g => {
+                    const buttons = g.querySelectorAll("button");
+                    buttons.forEach(b => b.classList.remove("active"));
+                    const allBtn = g.querySelector("button:first-child");
+                    if (allBtn) allBtn.classList.add("active");
+                });
+
+                // Apagar NONE
+                const noneGroup = document.querySelector('[data-group="push-none"]');
+                if (noneGroup) {
+                    noneGroup.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+                }
+            });
+        });
+
+    });
     </script>
+
 
 </body>
 </html>
