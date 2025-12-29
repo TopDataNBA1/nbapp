@@ -498,13 +498,23 @@
         });
 
         function getActiveFilters() {
-            return {
+            const filters = {
+                all: document.querySelector('[data-filter="all"]').classList.contains('active'),
                 top25: document.querySelector('[data-filter="top25"]').classList.contains('active'),
                 top100: document.querySelector('[data-filter="top100"]').classList.contains('active'),
                 playing: document.querySelector('[data-filter="playing"]').classList.contains('active'),
-                almost: document.querySelector('[data-filter="almost"]').classList.contains('active'),
-                all: document.querySelector('[data-filter="all"]').classList.contains('active')
+                almost: document.querySelector('[data-filter="almost"]').classList.contains('active')
             };
+
+            // Si ALL está activo → desactivar el resto
+            if (filters.all) {
+                filters.top25 = false;
+                filters.top100 = false;
+                filters.playing = false;
+                filters.almost = false;
+            }
+
+            return filters;
         }
 
         function updatePage() {
