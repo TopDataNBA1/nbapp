@@ -120,7 +120,7 @@
 
     </style>
 </head>
-<body>
+<body onclick="document.getElementById('notifSound').play()">
 
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
@@ -411,30 +411,35 @@
     </script>
 
     <script>
-    let lastLatestMoves = null;
+    let lastDataString = null;
 
     async function checkLatestMoves() {
         try {
             const response = await fetch("data.json?cache=" + Date.now());
             const data = await response.json();
 
-            const currentLatestMoves = data.latestMoves; // Ajusta al nombre real
+            // Convertimos todo el JSON a string
+            const currentDataString = JSON.stringify(data);
 
-            if (lastLatestMoves !== null && currentLatestMoves !== lastLatestMoves) {
+            // Si ya había datos antes y ahora ha cambiado → sonido
+            if (lastDataString !== null && currentDataString !== lastDataString) {
                 document.getElementById("notifSound").play();
             }
 
-            lastLatestMoves = currentLatestMoves;
+            // Guardamos el estado actual
+            lastDataString = currentDataString;
 
         } catch (e) {
             console.error("Error checking latest moves:", e);
         }
     }
 
-    // Ejecutar cada 5 segundos (o el intervalo que uses)
+    // Ejecutar cada 5 segundos (o lo que uses)
     setInterval(checkLatestMoves, 5000);
     </script>
 
-    <audio id="notifSound" src="sound.mp3" preload="auto"></audio>
+    <!-- Sonido -->
+    <audio id="notifSound" src="ball.mp3" preload="auto"></audio>
+
 </body>
 </html>
