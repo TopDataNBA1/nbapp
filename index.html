@@ -120,7 +120,7 @@
 
     </style>
 </head>
-<body onclick="document.getElementById('notifSound').play()">
+<body>
 
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
@@ -440,6 +440,21 @@
 
     <!-- Sonido -->
     <audio id="notifSound" src="ball.mp3" preload="auto"></audio>
+
+    <script>
+    function unlockSound() {
+        const audio = document.getElementById("notifSound");
+        audio.play().then(() => {
+            // Una vez desbloqueado, quitamos el listener
+            document.body.removeEventListener("click", unlockSound);
+        }).catch(() => {
+            // Si falla, lo intentará en el siguiente click
+        });
+    }
+
+    // Desbloquear sonido con el primer click
+    document.body.addEventListener("click", unlockSound);
+    </script>
 
 </body>
 </html>
