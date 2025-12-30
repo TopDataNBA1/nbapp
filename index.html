@@ -442,19 +442,26 @@
     <audio id="notifSound" src="ball.mp3" preload="auto"></audio>
 
     <script>
-    function unlockSound() {
+    let soundUnlocked = false;
+
+    function unlockSoundOnce() {
+        if (soundUnlocked) return; // Si ya está desbloqueado, no hace nada
+
         const audio = document.getElementById("notifSound");
+
         audio.play().then(() => {
-            // Una vez desbloqueado, quitamos el listener
-            document.body.removeEventListener("click", unlockSound);
+            soundUnlocked = true; // Marcamos como desbloqueado
+            audio.pause();        // Lo paramos inmediatamente
+            audio.currentTime = 0;
         }).catch(() => {
             // Si falla, lo intentará en el siguiente click
         });
     }
 
-    // Desbloquear sonido con el primer click
-    document.body.addEventListener("click", unlockSound);
+    // Intentar desbloquear en cualquier click, pero solo una vez
+    document.addEventListener("click", unlockSoundOnce, true);
     </script>
+
 
 </body>
 </html>
