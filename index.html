@@ -411,32 +411,32 @@
     </script>
 
     <script>
-    let lastDataString = null;
+    let lastTimestamp = null;
 
     async function checkLatestMoves() {
         try {
             const response = await fetch("data.json?cache=" + Date.now());
             const data = await response.json();
 
-            // Convertimos todo el JSON a string
-            const currentDataString = JSON.stringify(data);
+            const notis = data.notificaciones;
+            if (!notis || notis.length === 0) return;
 
-            // Si ya había datos antes y ahora ha cambiado → sonido
-            if (lastDataString !== null && currentDataString !== lastDataString) {
+            const currentTimestamp = notis[0].timestamp;
+
+            if (lastTimestamp !== null && currentTimestamp !== lastTimestamp) {
                 document.getElementById("notifSound").play();
             }
 
-            // Guardamos el estado actual
-            lastDataString = currentDataString;
+            lastTimestamp = currentTimestamp;
 
         } catch (e) {
             console.error("Error checking latest moves:", e);
         }
     }
 
-    // Ejecutar cada 5 segundos (o lo que uses)
     setInterval(checkLatestMoves, 5000);
     </script>
+
 
     <!-- Sonido -->
     <audio id="notifSound" src="ball.mp3" preload="auto"></audio>
