@@ -414,6 +414,7 @@
     let lastTimestamp = null;
 
     async function checkLatestMoves() {
+        console.log("CHECK ejecutado");
         try {
             const response = await fetch("data.json?cache=" + Date.now());
             const data = await response.json();
