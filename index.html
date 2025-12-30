@@ -409,5 +409,32 @@
         updatePage();
         updateMoves();
     </script>
+
+    <script>
+    let lastLatestMoves = null;
+
+    async function checkLatestMoves() {
+        try {
+            const response = await fetch("data.json?cache=" + Date.now());
+            const data = await response.json();
+
+            const currentLatestMoves = data.latestMoves; // Ajusta al nombre real
+
+            if (lastLatestMoves !== null && currentLatestMoves !== lastLatestMoves) {
+                document.getElementById("notifSound").play();
+            }
+
+            lastLatestMoves = currentLatestMoves;
+
+        } catch (e) {
+            console.error("Error checking latest moves:", e);
+        }
+    }
+
+    // Ejecutar cada 5 segundos (o el intervalo que uses)
+    setInterval(checkLatestMoves, 5000);
+    </script>
+
+    <audio id="notifSound" src="sound.mp3" preload="auto"></audio>
 </body>
 </html>
