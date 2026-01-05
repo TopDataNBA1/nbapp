@@ -471,6 +471,81 @@
     document.addEventListener("click", unlockSoundOnce, true);
     </script>
 
+    <script>
+    // Registrar Service Worker y pedir permisos de notificación
+    if ('serviceWorker' in navigator && 'Notification' in window) {
+    // Registrar service worker
+    navigator.serviceWorker.register('/nbapp/service-worker.js')
+        .then(registration => {
+        console.log('Service Worker registrado:', registration);
+        
+        // Pedir permisos de notificación
+        if (Notification.permission === 'default') {
+            Notification.requestPermission().then(permission => {
+            if (permission === 'granted') {
+                console.log('Permisos de notificación concedidos');
+            }
+            });
+        }
+        })
+        .catch(error => {
+        console.error('Error registrando Service Worker:', error);
+        });
+    }
+
+    // Función para detectar cambios cada 30 segundos
+    let lastNotificationCount = 0;
+
+    async function checkForNewMoves() {
+    try {
+        const response = await fetch('https://topdatanba1.github.io/nbapp/data.json');
+        const data = await response.json();
+        
+        if (data.notificaciones && data.notificaciones.length > lastNotificationCount) {
+        // Hay nuevas notificaciones
+        const newNotifications = data.notificaciones.slice(lastNotificationCount);
+        
+        newNotifications.forEach(notif => {
+            if (Notification.permission === 'granted') {
+            new Notification('NBA Latest Move', {
+                body: notif.texto,
+                icon: notif.foto && notif.foto[0] ? 
+                `https://topdatanba1.github.io/nbapp/${notif.foto[0]}` : 
+                '/nbapp/icon-192.png',
+                badge: '/nbapp/icon-192.png',
+                tag: `nba-${notif.timestamp}`,
+                requireInteraction: false
+            });
+            
+            // Reproducir sonido (opcional)
+            try {
+                const audio = new Audio('/nbapp/basketball-sound.mp3');
+                audio.volume = 0.5;
+                audio.play().catch(e => console.log('No se pudo reproducir sonido'));
+            } catch (e) {
+                console.log('Error con sonido:', e);
+            }
+            }
+        });
+        
+        lastNotificationCount = data.notificaciones.length;
+        }
+    } catch (error) {
+        console.error('Error checking for new moves:', error);
+    }
+    }
+
+    // Inicializar conteo y empezar a verificar cada 30 segundos
+    fetch('https://topdatanba1.github.io/nbapp/data.json')
+    .then(response => response.json())
+    .then(data => {
+        if (data.notificaciones) {
+        lastNotificationCount = data.notificaciones.length;
+        }
+        // Verificar cada 30 segundos
+        setInterval(checkForNewMoves, 30000);
+    });
+    </script>
 
 </body>
 </html>
