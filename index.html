@@ -531,7 +531,7 @@
     }
 
     // Inicializar conteo y empezar a verificar cada 30 segundos
-    fetch('https://topdatanba1.github.io/nbapp/data.json')
+    fetch(`https://topdatanba1.github.io/nbapp/data.json?t=${Date.now()}`)
     .then(response => response.json())
     .then(data => {
         if (data.notificaciones) {
@@ -544,6 +544,7 @@
 
 </body>
 </html>
+
 
 
 
