@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP DATA NBA LIVE</title>
-    <link rel="manifest" href="/nbapp/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -122,7 +122,7 @@
     </style>
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/nbapp/service-worker.js')
+        navigator.serviceWorker.register('/service-worker.js')
           .then(() => console.log('Service Worker registrado'))
           .catch(err => console.error('Error registrando SW:', err));
       }
@@ -475,7 +475,7 @@
     // Registrar Service Worker y pedir permisos de notificación
     if ('serviceWorker' in navigator && 'Notification' in window) {
     // Registrar service worker
-    navigator.serviceWorker.register('/nbapp/service-worker.js')
+    navigator.serviceWorker.register('/service-worker.js')
         .then(registration => {
         console.log('Service Worker registrado:', registration);
         
@@ -511,15 +511,15 @@
                 body: notif.texto,
                 icon: notif.foto && notif.foto[0] ? 
                 `https://topdatanba1.github.io/nbapp/${notif.foto[0]}` : 
-                '/nbapp/icon-192.png',
-                badge: '/nbapp/icon-192.png',
+                '/icon-192.png',
+                badge: '/icon-192.png',
                 tag: `nba-${notif.timestamp}`,
                 requireInteraction: false
             });
             
             // Reproducir sonido personalizado
             try {
-              const audio = new Audio('/nbapp/ball.mp3');
+              const audio = new Audio('/ball.mp3');
               audio.volume = 0.7;
               audio.play().then(() => {
                 console.log('Sonido reproducido correctamente');
@@ -553,5 +553,6 @@
 
 </body>
 </html>
+
 
 
