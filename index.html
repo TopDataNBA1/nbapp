@@ -517,13 +517,17 @@
                 requireInteraction: false
             });
             
-            // Reproducir sonido (opcional)
+            // Reproducir sonido personalizado
             try {
-                const audio = new Audio('/nbapp/ball.mp3');
-                audio.volume = 0.5;
-                audio.play().catch(e => console.log('No se pudo reproducir sonido'));
+              const audio = new Audio('/nbapp/ball.mp3');
+              audio.volume = 0.7;
+              audio.play().then(() => {
+                console.log('Sonido reproducido correctamente');
+              }).catch(e => {
+                console.log('Error reproduciendo sonido:', e);
+              });
             } catch (e) {
-                console.log('Error con sonido:', e);
+              console.log('Error creando audio:', e);
             }
             }
         });
@@ -549,4 +553,5 @@
 
 </body>
 </html>
+
 
