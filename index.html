@@ -475,8 +475,7 @@
     // Registrar Service Worker y pedir permisos de notificación
     if ('serviceWorker' in navigator && 'Notification' in window) {
     // Registrar service worker
-    navigator.serviceWorker.register('/service-worker.js')
-        .then(registration => {
+            .then(registration => {
         console.log('Service Worker registrado:', registration);
         
         // Pedir permisos de notificación
@@ -545,6 +544,7 @@
 
 </body>
 </html>
+
 
 
 
