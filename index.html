@@ -499,7 +499,7 @@
     async function checkForNewMoves() {
       try {
         // Cache-busting para evitar caché
-        const response = await fetch(`https://topdatanba1.github.io/nbapp/data.json?t=${Date.now()}`);
+        const response = await fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`);
         const data = await response.json();
         
         if (data.notificaciones && data.notificaciones.length > lastNotificationCount) {
@@ -531,7 +531,7 @@
     }
 
     // Inicializar conteo y empezar a verificar cada 30 segundos
-    fetch(`https://topdatanba1.github.io/nbapp/data.json?t=${Date.now()}`)
+    fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`)
     .then(response => response.json())
     .then(data => {
         if (data.notificaciones) {
@@ -544,6 +544,7 @@
 
 </body>
 </html>
+
 
 
 
