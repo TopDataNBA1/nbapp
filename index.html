@@ -497,37 +497,41 @@
 
     // Función mejorada con cache-busting
     async function checkForNewMoves() {
-      try {
-        // Cache-busting para evitar caché
-        const response = await fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`);
-        const data = await response.json();
-        
-        if (data.notificaciones && data.notificaciones.length > lastNotificationCount) {
-          const newNotifications = data.notificaciones.slice(lastNotificationCount);
-          
-          newNotifications.forEach(notif => {
-            if (Notification.permission === 'granted') {
-              // Crear notificación
-              new Notification('🏀 NBA Latest Move', {
-                body: notif.texto,
-                icon: notif.foto && notif.foto[0] ? 
-                  `https://topdatanba1.github.io/nbapp/${notif.foto[0]}` : 
-                  'https://topdatanba1.github.io/nbapp/icon-192.png',
-                badge: 'https://topdatanba1.github.io/nbapp/icon-192.png'
-              });
-              
-              // Sonido personalizado
-              const audio = new Audio('https://topdatanba1.github.io/nbapp/ball.mp3');
-              audio.volume = 0.7;
-              audio.play().catch(e => console.log('Sonido no disponible'));
+        try {
+            const response = await fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`);
+            const data = await response.json();
+            
+            if (data.notificaciones && data.notificaciones.length > lastNotificationCount) {
+            // Las nuevas están al PRINCIPIO (más recientes primero)
+            const totalNuevas = data.notificaciones.length - lastNotificationCount;
+            const newNotifications = data.notificaciones.slice(0, totalNuevas);
+            
+            console.log(`🏀 ${totalNuevas} nuevas notificaciones detectadas!`);
+            
+            newNotifications.forEach(notif => {
+                if (Notification.permission === 'granted') {
+                // Crear notificación SIN sonido por defecto
+                new Notification('🏀 NBA Latest Move', {
+                    body: notif.texto,
+                    icon: notif.foto && notif.foto[0] ? 
+                    `https://topdatanba1.github.io/nbapp/${notif.foto[0]}` : 
+                    'https://topdatanba1.github.io/nbapp/icon-192.png',
+                    badge: 'https://topdatanba1.github.io/nbapp/icon-192.png',
+                    silent: true  // ← ESTO quita el sonido por defecto
+                });
+                
+                // Solo tu sonido personalizado
+                const audio = new Audio('https://topdatanba1.github.io/nbapp/ball.mp3');
+                audio.volume = 0.7;
+                audio.play().catch(e => console.log('Sonido no disponible'));
+                }
+            });
+            
+            lastNotificationCount = data.notificaciones.length;
             }
-          });
-          
-          lastNotificationCount = data.notificaciones.length;
+        } catch (error) {
+            console.error('Error:', error);
         }
-      } catch (error) {
-        console.error('Error:', error);
-      }
     }
 
     // Inicializar conteo y empezar a verificar cada 30 segundos
@@ -544,12 +548,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
