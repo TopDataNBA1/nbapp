@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:42",
+    "ultima_actualizacion": "01:15:19",
     "tablas": {
         "trb": [
             {
@@ -162,11 +162,11 @@
                 "Rank": 185,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 3448,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 3449,
+                "Diff": "1",
                 "Antece": "Chris Mullin",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -742,11 +742,11 @@
                 "Rank": 229,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 930,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 931,
+                "Diff": "",
                 "Antece": "Eric Gordon",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -862,18 +862,33 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 13017,
-                "Diff": "",
-                "Antece": "Jeff Mullins",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 13019,
+                "Diff": "39",
+                "Antece": "Metta World Peace",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
     },
-    "notificaciones": [],
-    "cache_buster": 1768608882
+    "notificaciones": [
+        {
+            "texto": "Joel Embiid (2 points today) has passed Jeff Mullins and is now ranked 231st all-time in career points with 13,019.",
+            "foto": [
+                "collages/1768608916_collage_1768608916.png"
+            ],
+            "timestamp": 1768608916
+        },
+        {
+            "texto": "Paul George today surpasses Rick Fox and now ranked 229th all time with 931 games",
+            "foto": [
+                "collages/1768608919_collage_1768608919.png"
+            ],
+            "timestamp": 1768608919
+        }
+    ],
+    "cache_buster": 1768608919
 }
