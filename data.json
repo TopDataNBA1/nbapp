@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:32:27",
+    "ultima_actualizacion": "04:33:01",
     "tablas": {
         "trb": [
             {
@@ -925,9 +925,9 @@
             },
             {
                 "Rank": 103,
-                "Nombre": "Joe Ingles",
+                "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
+                "Hoy": 9,
                 "Total": 1228,
                 "Diff": "4",
                 "Antece": "Jae Crowder",
@@ -936,13 +936,13 @@
             },
             {
                 "Rank": 104,
-                "Nombre": "Anthony Edwards",
+                "Nombre": "Joe Ingles",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 1227,
-                "Diff": "1",
-                "Antece": "Joe Ingles",
-                "Nota": "A tiro de 1",
+                "Hoy": 0,
+                "Total": 1228,
+                "Diff": "",
+                "Antece": "Anthony Edwards",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -951,9 +951,9 @@
                 "Team": "BOS",
                 "Hoy": 2,
                 "Total": 1227,
-                "Diff": "",
-                "Antece": "Anthony Edwards",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Joe Ingles",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
             {
@@ -1591,13 +1591,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Paul George today surpasses Rick Fox and now ranked 229th all time with 931 games",
-            "foto": [
-                "collages/1768608919_collage_1768608919.png"
-            ],
-            "timestamp": 1768608919
-        },
-        {
             "texto": "Michael Porter Jr. (1 three-pointer today) has passed Luke Kennard and is now ranked 197th all-time in career three-pointers with 962.",
             "foto": [
                 "collages/1768610489_collage_1768610489.png"
@@ -2005,7 +1998,14 @@
                 "collages/1768707111_collage_1768707111.png"
             ],
             "timestamp": 1768707111
+        },
+        {
+            "texto": "Anthony Edwards (9 three-pointers today) has passed Jaylen Brown and is now ranked 103rd all-time in career three-pointers with 1,228.",
+            "foto": [
+                "collages/1768707181_collage_1768707181.png"
+            ],
+            "timestamp": 1768707181
         }
     ],
-    "cache_buster": 1768707147
+    "cache_buster": 1768707181
 }
