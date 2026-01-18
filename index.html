@@ -118,7 +118,11 @@
             height: 100%;
             object-fit: cover;
         }
-
+        /* HIGHLIGHT INACTIVOS */
+        .inactive-zero {
+            color: #ff4444 !important;
+            font-weight: bold !important;
+        }        
     </style>
     <script>
         console.log("PROBANDO_VERSION_HTML_NUEVA");
@@ -284,17 +288,22 @@
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
 
                             let todayStyle = '';
-                            if (isInactive) todayStyle = 'color:#ff5555';
-                            else if (gameStatus === 'finished') todayStyle = 'color:white';
-                            else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
-                            else todayStyle = 'color:#888';
+                            if (row.inactive === true) {
+                                todayStyle = 'color:#ff5555';
+                            } else if (gameStatus === 'finished') {
+                                todayStyle = 'color:white';
+                            } else if (gameStatus === 'playing') {
+                                todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
+                            } else {
+                                todayStyle = 'color:#888';
+                            }
 
                             const tr = document.createElement('tr');
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
                                 <td class="team">${row.Team}</td>
-                                <td class="today" style="${todayStyle}">${hoy}</td>
+                                <td class="today" style="${todayStyle}" ${row.inactive === true ? 'class="inactive-zero"' : ''}>${hoy}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
                                 <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
                                 <td>${row.Antece||'-'}</td>`;
