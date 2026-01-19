@@ -279,7 +279,7 @@
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
                             const isinactive = row.inactive === true || row.inactive === "true";
-
+                            
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
                             const near = isPoints ? ['0','1','2','3'] : ['0','1'];
