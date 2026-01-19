@@ -278,7 +278,7 @@
                             const hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
-                            const isInactive = hoy === -1;
+                            const isInactive = row.inactive === true;
 
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
