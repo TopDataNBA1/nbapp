@@ -278,17 +278,17 @@
                             const hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
-                            const isInactive = row.inactive === true || row.Inactive === true;
+                            const isinactive = row.inactive === true || row.inactive === true;
 
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
                             const near = isPoints ? ['0','1','2','3'] : ['0','1'];
-                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
+                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isinactive;
                             const mustBlinkGames = isGames && (gameStatus === 'playing' || gameStatus === 'not_started') && hoy === 0 && near.includes(diff);
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
 
                             let todayStyle = '';
-                            if (isInactive) todayStyle = 'color:#ff5555';
+                            if (isinactive) todayStyle = 'color:#ff5555';
                             else if (gameStatus === 'finished') todayStyle = 'color:white';
                             else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
                             else todayStyle = 'color:#888';
