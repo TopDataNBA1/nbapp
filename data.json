@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:16:19",
+    "ultima_actualizacion": "06:16:57",
     "tablas": {
         "pts": [
             {
@@ -874,18 +874,30 @@
             },
             {
                 "Rank": 246,
-                "Nombre": "Bradley Beal",
-                "Team": "LAC",
-                "Hoy": 0,
+                "Nombre": "Al Horford",
+                "Team": "GSW",
+                "Hoy": 1,
                 "Total": 885,
                 "Diff": "2",
                 "Antece": "Greg Anthony",
                 "Nota": "",
-                "game_status": "finished",
+                "game_status": "playing",
                 "inactive": false
             },
             {
                 "Rank": 247,
+                "Nombre": "Bradley Beal",
+                "Team": "LAC",
+                "Hoy": 0,
+                "Total": 885,
+                "Diff": "",
+                "Antece": "Al Horford",
+                "Nota": "Mismo total",
+                "game_status": "finished",
+                "inactive": false
+            },
+            {
+                "Rank": 248,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
                 "Hoy": 1,
@@ -894,18 +906,6 @@
                 "Antece": "Bradley Beal",
                 "Nota": "Mismo total",
                 "game_status": "finished",
-                "inactive": false
-            },
-            {
-                "Rank": 249,
-                "Nombre": "Al Horford",
-                "Team": "GSW",
-                "Hoy": 0,
-                "Total": 884,
-                "Diff": "1",
-                "Antece": "Tom Chambers",
-                "Nota": "A tiro de 1",
-                "game_status": "playing",
                 "inactive": false
             }
         ],
@@ -2008,6 +2008,21 @@
             }
         ]
     },
-    "notificaciones": [],
-    "cache_buster": 1768886179
+    "notificaciones": [
+        {
+            "texto": "Al Horford (1 steal today) has passed Gilbert Arenas and Steve Mix and is now ranked 246th all-time in career steals with 885.",
+            "foto": [
+                "collages/1768886214_collage_1768886214.png"
+            ],
+            "timestamp": 1768886214
+        },
+        {
+            "texto": "T.J. McConnell (1 steal today) has passed Gilbert Arenas and Steve Mix and is now ranked 248th all-time in career steals with 885.",
+            "foto": [
+                "collages/1768886216_collage_1768886216.png"
+            ],
+            "timestamp": 1768886216
+        }
+    ],
+    "cache_buster": 1768886217
 }
