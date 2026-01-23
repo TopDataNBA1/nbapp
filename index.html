@@ -278,7 +278,7 @@
 
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
-                            const near = isPoints ? ['0','1','2','3'] : ['0','1'];
+                            const near = isPoints ? ['0','1','2'] : ['0'];
                             const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
                             const mustBlinkGames = isGames && (gameStatus === 'playing' || gameStatus === 'not_started') && hoy === 0 && near.includes(diff);
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
