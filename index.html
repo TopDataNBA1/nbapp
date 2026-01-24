@@ -298,8 +298,8 @@
                             // Estilo de la celda Today
                             let todayStyle = '';
                             
-                            if (isInactive && (gameStatus === 'playing' || gameStatus === 'finished')) {
-                                todayStyle = 'color:#ff5555 !important; font-weight:bold;';  // ROJO para inactivos confirmados
+                            if (gameStatus === 'inactive' || isInactive) {              // ← prioriza 'inactive' o -1
+                                todayStyle = 'color:#ff5555 !important; font-weight:bold;';
                             } else if (gameStatus === 'finished') {
                                 todayStyle = 'color:white;';
                             } else if (gameStatus === 'playing') {
