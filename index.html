@@ -2,15 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CJVLBNGFW"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-7CJVLBNGFW');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP DATA NBA LIVE</title>
@@ -70,7 +61,6 @@
             height: 100%;
             object-fit: cover;
             border-radius: 10px;
-        }
         /* Tamaño máximo de los collages de Latest Moves */
         .collage {
             max-width: 300px;      /* ancho máximo de cada collage */
@@ -280,65 +270,33 @@
                         const tbody = card.querySelector('tbody');
 
                         filtered.forEach(row => {
-                            let hoy = row.Hoy ?? 0;
+                            const hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
+                            const isInactive = hoy === -1;
 
-                            // ────────────────────────────────────────────────
-                            // LÓGICA PARA INACTIVOS (los que vienen con -1)
-                            // ────────────────────────────────────────────────
-                            let isInactive = false;
-                            let hoyDisplay = hoy;
-
-                            if (hoy === -1) {
-                                isInactive = true;
-                                hoyDisplay = 0;           // Mostramos 0 en vez de -1
-                            }
-
-                            // Estilo de la celda Today
-                            let todayStyle = '';
-
-                            // Prioridad absoluta: inactivo (por -1 o por game_status)
-                            if (isInactive || gameStatus === 'inactive') {
-                                todayStyle = 'color:#ff5555 !important; font-weight:bold;';
-                            }
-                            // Solo después el resto
-                            else if (gameStatus === 'finished') {
-                                todayStyle = 'color:white;';
-                            } else if (gameStatus === 'playing') {
-                                todayStyle = 'color:#ffaa00; font-weight:900; text-shadow:0 0 12px #ffaa00;';
-                            } else {
-                                todayStyle = 'color:#888;';
-                            }
-
-                            // Lógica de parpadeo (blink) – la mantenemos como estaba, pero excluimos inactivos
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
-                            const near = isPoints ? ['0','1','2'] : ['0'];
-                            
-                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') 
-                                                && near.includes(diff) 
-                                                && !isInactive;
-                            
-                            const mustBlinkGames = isGames 
-                                                && (gameStatus === 'playing' || gameStatus === 'not_started') 
-                                                && hoy === 0 
-                                                && near.includes(diff) 
-                                                && !isInactive;
-                            
+                            const near = isPoints ? ['0','1','2','3'] : ['0','1'];
+                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
+                            const mustBlinkGames = isGames && (gameStatus === 'playing' || gameStatus === 'not_started') && hoy === 0 && near.includes(diff);
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
 
-                            // Crear la fila
+                            let todayStyle = '';
+                            if (isInactive) todayStyle = 'color:#ff5555';
+                            else if (gameStatus === 'finished') todayStyle = 'color:white';
+                            else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
+                            else todayStyle = 'color:#888';
+
                             const tr = document.createElement('tr');
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
                                 <td class="team">${row.Team}</td>
-                                <td class="today" style="${todayStyle}">${hoyDisplay}</td>
+                                <td class="today" style="${todayStyle}">${hoy}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
-                                <td class="diff number${mustBlink ? ' diff-blink' : ''}">${diff}</td>
-                                <td>${row.Antece || '-'}</td>`;
-                            
+                                <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
+                                <td>${row.Antece||'-'}</td>`;
                             tbody.appendChild(tr);
                         });
                         tablesDiv.appendChild(card);
