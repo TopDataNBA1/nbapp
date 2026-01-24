@@ -280,33 +280,62 @@
                         const tbody = card.querySelector('tbody');
 
                         filtered.forEach(row => {
-                            const hoy = row.Hoy ?? 0;
+                            let hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
-                            const isInactive = hoy === -1;
 
+                            // ────────────────────────────────────────────────
+                            // LÓGICA PARA INACTIVOS (los que vienen con -1)
+                            // ────────────────────────────────────────────────
+                            let isInactive = false;
+                            let hoyDisplay = hoy;
+
+                            if (hoy === -1) {
+                                isInactive = true;
+                                hoyDisplay = 0;           // Mostramos 0 en vez de -1
+                            }
+
+                            // Estilo de la celda Today
+                            let todayStyle = '';
+                            
+                            if (isInactive && (gameStatus === 'playing' || gameStatus === 'finished')) {
+                                todayStyle = 'color:#ff5555 !important; font-weight:bold;';  // ROJO para inactivos confirmados
+                            } else if (gameStatus === 'finished') {
+                                todayStyle = 'color:white;';
+                            } else if (gameStatus === 'playing') {
+                                todayStyle = 'color:#ffaa00; font-weight:900; text-shadow:0 0 12px #ffaa00;';
+                            } else {
+                                todayStyle = 'color:#888;';
+                            }
+
+                            // Lógica de parpadeo (blink) – la mantenemos como estaba, pero excluimos inactivos
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
                             const near = isPoints ? ['0','1','2'] : ['0'];
-                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
-                            const mustBlinkGames = isGames && (gameStatus === 'playing' || gameStatus === 'not_started') && hoy === 0 && near.includes(diff);
+                            
+                            const mustBlinkNormal = (gameStatus === 'playing' || gameStatus === 'not_started') 
+                                                && near.includes(diff) 
+                                                && !isInactive;
+                            
+                            const mustBlinkGames = isGames 
+                                                && (gameStatus === 'playing' || gameStatus === 'not_started') 
+                                                && hoy === 0 
+                                                && near.includes(diff) 
+                                                && !isInactive;
+                            
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
 
-                            let todayStyle = '';
-                            if (isInactive) todayStyle = 'color:#ff5555';
-                            else if (gameStatus === 'finished') todayStyle = 'color:white';
-                            else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
-                            else todayStyle = 'color:#888';
-
+                            // Crear la fila
                             const tr = document.createElement('tr');
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
                                 <td class="team">${row.Team}</td>
-                                <td class="today" style="${todayStyle}">${hoy}</td>
+                                <td class="today" style="${todayStyle}">${hoyDisplay}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
-                                <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
-                                <td>${row.Antece||'-'}</td>`;
+                                <td class="diff number${mustBlink ? ' diff-blink' : ''}">${diff}</td>
+                                <td>${row.Antece || '-'}</td>`;
+                            
                             tbody.appendChild(tr);
                         });
                         tablesDiv.appendChild(card);
