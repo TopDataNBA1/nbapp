@@ -273,7 +273,7 @@
                             const hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
-                            const isInactive = hoy === -1;
+                            const isInactive = (gameStatus === 'inactive');
 
                             const isPoints = stat === 'pts';
                             const isGames = stat === 'g';
@@ -283,10 +283,10 @@
                             const mustBlink = isGames ? mustBlinkGames : mustBlinkNormal;
 
                             let todayStyle = '';
-                            if (isInactive) todayStyle = 'color:#ff5555';
+                            if (isInactive) todayStyle = 'color:#ff5555';             // rojo
                             else if (gameStatus === 'finished') todayStyle = 'color:white';
                             else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
-                            else todayStyle = 'color:#888';
+                            else todayStyle = 'color:#888';                           // not_started
 
                             const tr = document.createElement('tr');
                             tr.innerHTML = `
