@@ -139,81 +139,99 @@
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 </head>
 <body>
-    <h1>Latest Moves</h1>
+    <h1>TOP DATA NBApp</h1>
   <div id="TOP DATA NBApp"></div>
 
-  <h3>Preferencias de Notificaciones:</h3>
-  
-  <label>Stat:
-    <select id="stat">
-      <option value="PTS">PTS</option>
-      <option value="REB">REB</option>
-      <option value="AST">AST</option>
-      <option value="STL">STL</option>
-      <option value="BLK">BLK</option>
-      <option value="3PM">3PM</option>
-      <option value="GAMES">GAMES</option>
-    </select>
-  </label>
-  
-  <label>Equipo:
-    <select id="team">
-      <option value="ATL">ATL</option><option value="BOS">BOS</option><option value="BKN">BKN</option>
-      <option value="CHA">CHA</option><option value="CHI">CHI</option><option value="CLE">CLE</option>
-      <option value="DAL">DAL</option><option value="DEN">DEN</option><option value="DET">DET</option>
-      <option value="GSW">GSW</option><option value="HOU">HOU</option><option value="IND">IND</option>
-      <option value="LAC">LAC</option><option value="LAL">LAL</option><option value="MEM">MEM</option>
-      <option value="MIA">MIA</option><option value="MIL">MIL</option><option value="MIN">MIN</option>
-      <option value="NOP">NOP</option><option value="NYK">NYK</option><option value="OKC">OKC</option>
-      <option value="ORL">ORL</option><option value="PHI">PHI</option><option value="PHX">PHX</option>
-      <option value="POR">POR</option><option value="SAC">SAC</option><option value="SAS">SAS</option>
-      <option value="TOR">TOR</option><option value="UTA">UTA</option><option value="WAS">WAS</option>
-    </select>
-  </label>
+  <!-- Opción global para desactivar notificaciones -->
+    <div>
+    <label><input type="checkbox" id="disableNotifications"> No recibir notificaciones</label>
+    </div>
 
-  <label>Tipo:
-    <select id="alert">
-      <option value="Milestone">Milestone</option>
-      <option value="Overtake">Overtake</option>
-    </select>
-  </label>
+    <!-- Estadísticas (múltiple) -->
+    <div>
+    <strong>Estadísticas:</strong><br>
+    <label><input type="checkbox" class="stat" value="PTS"> PTS</label>
+    <label><input type="checkbox" class="stat" value="REB"> REB</label>
+    <label><input type="checkbox" class="stat" value="AST"> AST</label>
+    <label><input type="checkbox" class="stat" value="STL"> STL</label>
+    <label><input type="checkbox" class="stat" value="BLK"> BLK</label>
+    <label><input type="checkbox" class="stat" value="3PM"> 3PM</label>
+    <label><input type="checkbox" class="stat" value="GAMES"> GAMES</label>
+    </div>
 
-  <label>Ranking:
-    <select id="ranking">
-      <option value="Top25">Top25</option>
-      <option value="Top100">Top100</option>
-    </select>
-  </label>
+    <!-- Equipos (múltiple) -->
+    <div>
+    <strong>Equipos:</strong><br>
+    <!-- Aquí se pueden poner los 30 equipos de la NBA como checkboxes -->
+    <label><input type="checkbox" class="team" value="LAL"> LAL</label>
+    <label><input type="checkbox" class="team" value="BOS"> BOS</label>
+    <label><input type="checkbox" class="team" value="GSW"> GSW</label>
+    <!-- ... agregar los demás equipos ... -->
+    </div>
 
-  <button onclick="updateTags()">Guardar Preferencias</button>
+    <!-- Tipo de alerta (puede elegir uno, otro o ambos) -->
+    <div>
+    <strong>Tipo de alerta:</strong><br>
+    <label><input type="checkbox" class="alert" value="Milestone"> Milestone</label>
+    <label><input type="checkbox" class="alert" value="Overtake"> Overtake</label>
+    </div>
 
-  <script>
+    <!-- Ranking (puede elegir Top25, Top100 o ambos) -->
+    <div>
+    <strong>Ranking:</strong><br>
+    <label><input type="checkbox" class="ranking" value="Top25"> Top25</label>
+    <label><input type="checkbox" class="ranking" value="Top100"> Top100</label>
+    </div>
+
+    <button onclick="updateTags()">Guardar Preferencias</button>
+
+    <script>
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function() {
-      OneSignal.init({
+    OneSignal.init({
         appId: "TU_APP_ID_AQUI",
         notifyButton: { enable: true },
-      });
+    });
     });
 
     function updateTags() {
-      const stat = document.getElementById('stat').value;
-      const team = document.getElementById('team').value;
-      const alert = document.getElementById('alert').value;
-      const ranking = document.getElementById('ranking').value;
+    const disabled = document.getElementById('disableNotifications').checked;
 
-      OneSignal.push(function() {
-        OneSignal.sendTags({
-          stat: stat,
-          team: team,
-          alert: alert,
-          ranking: ranking
-        });
-      });
-
-      alert("Preferencias guardadas!");
+    if (disabled) {
+        // Si desactiva notificaciones, borramos todos los tags
+        OneSignal.push(function() { OneSignal.deleteTags(["stat","team","alert","ranking"]); });
+        alert("Notificaciones desactivadas");
+        return;
     }
-  </script>
+
+    // Estadísticas seleccionadas
+    const statChecked = Array.from(document.querySelectorAll('.stat:checked')).map(el => el.value);
+    const statsTag = statChecked.length ? statChecked.join(',') : ''; // vacío = todas
+
+    // Equipos seleccionados
+    const teamChecked = Array.from(document.querySelectorAll('.team:checked')).map(el => el.value);
+    const teamsTag = teamChecked.length ? teamChecked.join(',') : ''; // vacío = todos
+
+    // Tipo de alerta
+    const alertChecked = Array.from(document.querySelectorAll('.alert:checked')).map(el => el.value);
+    const alertTag = alertChecked.length ? alertChecked.join(',') : ''; // vacío = ambos
+
+    // Ranking
+    const rankingChecked = Array.from(document.querySelectorAll('.ranking:checked')).map(el => el.value);
+    const rankingTag = rankingChecked.length ? rankingChecked.join(',') : ''; // vacío = ambos
+
+    OneSignal.push(function() {
+        OneSignal.sendTags({
+        stat: statsTag,
+        team: teamsTag,
+        alert: alertTag,
+        ranking: rankingTag
+        });
+    });
+
+    alert("Preferencias guardadas!");
+    }
+    </script>
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
         <div class="nbapp">NBApp</div>
