@@ -13,19 +13,25 @@
     <style>
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
         .topbar{
-            position:relative;
-            display:flex;
+            display:grid;
+            grid-template-columns: auto 1fr auto;
             align-items:center;
-            justify-content:center;
             padding:12px 20px;
             background:rgba(0,0,0,0.9);
             border-bottom:3px solid #ff4655;
         }
 
+        .topbar-left{
+            display:flex;
+            align-items:center;
+        }
+
         .logo-img{
-            position:absolute;
-            left:20px;
-            height:60px;
+            height:56px;
+        }
+
+        .topbar-center{
+            text-align:center;
         }
 
         .nbapp{
@@ -33,6 +39,26 @@
             font-size:2.1em;
             color:#ff4655;
             text-shadow:0 0 10px #ff4655;
+        }
+
+        .topbar-right{
+            display:flex;
+            align-items:center;
+            cursor:pointer;
+        }
+
+        .notif-icon{
+            width:26px;
+            height:26px;
+            fill:none;
+            stroke:#e0e0e0;
+            stroke-width:1.8;
+            transition:0.25s;
+        }
+
+        .topbar-right:hover .notif-icon{
+            stroke:#ff4655;
+            filter:drop-shadow(0 0 6px #ff4655);
         }
 
         .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
@@ -138,58 +164,34 @@
             height: 100%;
             object-fit: cover;
         }
-        #notif-bell{
-        position:absolute;
-        right:18px;
-        top:50%;
-        transform:translateY(-50%);
-        font-size:24px;
-        cursor:pointer;
-        filter: drop-shadow(0 0 6px #ff4655);
-    }
-
-
+        
     /* OVERLAY */
     #notif-overlay{
         position:fixed;
         inset:0;
-        background:rgba(0,0,0,0.65);
+        background:rgba(0,0,0,0.75);
         z-index:3000;
         display:flex;
         justify-content:center;
-        align-items:center;
-    }      
+        align-items:flex-start;
+        padding-top:90px; /* debajo de la topbar */
+    }  
 
     /* PANEL */
     #notif-panel{
         width:92%;
-        max-width:420px;
-        max-height:90vh;
-        background:#0f0f1b;
+        max-width:460px;
+        max-height:80vh;
+        background:#141428;
         border:2px solid #ff4655;
-        border-radius:16px;
-        padding:14px;
+        border-radius:18px;
+        padding:18px 16px;
         overflow-y:auto;
-        box-shadow:0 0 25px rgba(255,70,85,0.6);
+        box-shadow:
+            0 0 25px rgba(255,70,85,0.55),
+            inset 0 0 30px rgba(255,255,255,0.03);
     }
 
-    /* HEADER */
-    .notif-header{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        font-family:'Orbitron',sans-serif;
-        font-size:1.1em;
-        margin-bottom:12px;
-    }
-
-    .notif-header button{
-        background:none;
-        border:none;
-        color:#ff4655;
-        font-size:20px;
-        cursor:pointer;
-    }
     /* FILTER GROUP (NOTIFICATIONS PANEL ONLY) */
     .filter-group{
         margin-bottom:16px;
@@ -279,10 +281,21 @@
 <body>
 
     <div class="topbar">
-        <img src="logo.jpg" alt="Logo" class="logo-img">
-        <div class="nbapp">Top Data NBApp</div>
-        <div id="notif-bell" onclick="openFilters()">🔔</div>
-    </div>              
+        <div class="topbar-left">
+            <img src="logo.jpg" alt="Logo" class="logo-img">
+        </div>
+
+        <div class="topbar-center">
+            <div class="nbapp">Top Data NBApp</div>
+        </div>
+
+        <div class="topbar-right" onclick="openFilters()">
+            <!-- icono SVG esquemático -->
+            <svg class="notif-icon" viewBox="0 0 24 24">
+                <path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6V11a6 6 0 1 0-12 0v5l-2 2v1h16v-1l-2-2z"/>
+            </svg>
+        </div>
+    </div>           
 
     <div class="status-bar">
         <div class="status-line1">ONLINE - Last update:</div>
