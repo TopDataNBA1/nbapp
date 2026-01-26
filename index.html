@@ -937,6 +937,39 @@ function disableNotifications(){
     });
 }
 </script>
-
+<script>
+// ✅ VERIFICAR INICIALIZACIÓN DE ONESIGNAL
+OneSignalDeferred.push(async function(OneSignal) {
+    console.log("✅ OneSignal inicializado correctamente");
+    
+    // Mostrar ID del usuario
+    const userId = await OneSignal.User.getExternalId() || "Sin ID externo";
+    const oneSignalId = await OneSignal.User.PushSubscription.id;
+    console.log("👤 OneSignal User ID:", oneSignalId);
+    console.log("🔗 External ID:", userId);
+    
+    // Verificar suscripción
+    const isSubscribed = await OneSignal.User.PushSubscription.optedIn;
+    console.log("🔔 ¿Suscrito a notificaciones?", isSubscribed);
+    
+    // Mostrar tags actuales
+    const tags = await OneSignal.User.getTags();
+    console.log("🏷️ Tags actuales:", tags);
+    
+    // Pedir permisos si no los tiene
+    const permission = await OneSignal.Notifications.permission;
+    console.log("🔐 Permisos de notificaciones:", permission);
+    
+    if(permission === 'default'){
+        console.log("⚠️ Pidiendo permisos...");
+        const granted = await OneSignal.Notifications.requestPermission();
+        if(granted){
+            console.log("✅ Permisos otorgados");
+        } else {
+            console.log("❌ Permisos denegados");
+        }
+    }
+});
+</script>
 </body>
 </html>
