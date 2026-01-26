@@ -773,27 +773,35 @@
   </div>
 </div>
 <script>
+const LOCAL_STORAGE_KEY = 'notifFilters';
+
 function openFilters(){
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
 
+    const stored = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) || '{}');
     const disableBtn = overlay.querySelector('.disable-btn');
-    const disabledTag = false; // <- aquí deberías leer OneSignal si quieres real, por ahora asumimos false
 
-    if(!disabledTag){
-        // Si no está deshabilitado, activamos todos los ALL de los grupos
-        overlay.querySelectorAll('.filter-buttons').forEach(group=>{
-            group.querySelectorAll('button').forEach(btn=>{
-                if(btn.dataset.value === 'ALL') btn.classList.add('active');
-                else btn.classList.remove('active');
-            });
-        });
-        disableBtn.classList.remove('active');
-    } else {
-        // Si está deshabilitado, disable se queda activo
+    // Si está deshabilitado
+    if (stored.disabled) {
         disableBtn.classList.add('active');
         overlay.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
+        return;
+    } else {
+        disableBtn.classList.remove('active');
     }
+
+    // Activar filtros guardados o ALL si no hay
+    overlay.querySelectorAll('.filter-buttons').forEach(group => {
+        const key = group.dataset.tag;
+        const values = stored[key] ? stored[key].split(',') : ['ALL'];
+
+        group.querySelectorAll('button').forEach(btn => {
+            const val = btn.dataset.value || btn.textContent;
+            if (values.includes(val)) btn.classList.add('active');
+            else btn.classList.remove('active');
+        });
+    });
 }
 
 function closeFilters(){
@@ -807,16 +815,22 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
     group.querySelectorAll('button').forEach(btn=>{
         btn.addEventListener('click',()=>{
             document.querySelector('.disable-btn').classList.remove('active');
+
+            // quitar tag 'disabled' si existía
+            const localStore = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) || '{}');
+            delete localStore.disabled;
+            localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(localStore));
             OneSignalDeferred.push(async function(OneSignal){
                 await OneSignal.User.removeTag('disabled');
             });
+
             if(btn.dataset.value === 'ALL'){
                 group.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
                 btn.classList.add('active');
                 return;
             }
 
-            group.querySelector('[data-value="ALL"]').classList.remove('active');
+            group.querySelector('[data-value="ALL"]')?.classList.remove('active');
 
             if(isExclusive){
                 group.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
@@ -831,6 +845,7 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 <script>
 async function saveFilters(){
     const tags = {};
+    const localStore = {};
 
     document.querySelectorAll('.filter-buttons').forEach(group=>{
         const key = group.dataset.tag;
@@ -840,33 +855,48 @@ async function saveFilters(){
 
         if(values.length){
             tags[key] = values.join(',');
+            localStore[key] = values.join(',');
         }
     });
 
+    // Si Disable está activo
+    const disableBtn = document.querySelector('.disable-btn');
+    if(disableBtn.classList.contains('active')){
+        tags.disabled = 'true';
+        localStore.disabled = true;
+    }
+
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags(tags);
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(localStore));
         alert('Preferences saved ✔');
-    });
-    
-    // ✅ CERRAR EL PANEL DESPUÉS DEL ALERT
-    closeFilters();
-}
-
-function disableNotifications(){
-    // activar visualmente el botón
-    const disableBtn = document.querySelector('.disable-btn');
-    disableBtn.classList.add('active');
-
-    // apagar TODOS los filtros
-    document.querySelectorAll('.filter-buttons button')
-        .forEach(b => b.classList.remove('active'));
-
-    // mandar tag a OneSignal
-    OneSignalDeferred.push(async function(OneSignal){
-        await OneSignal.User.addTags({disabled:'true'});
+        closeFilters();
     });
 }
 </script>
+
+<script>
+function disableNotifications() {
+    const disableBtn = document.querySelector('.disable-btn');
+    disableBtn.classList.toggle('active');
+
+    // Guardar estado en localStorage
+    const localStore = JSON.parse(localStorage.getItem('notifFilters') || '{}');
+    if (disableBtn.classList.contains('active')) {
+        localStore.disabled = true;
+        OneSignalDeferred.push(async function(OneSignal){
+            await OneSignal.User.addTag('disabled', 'true');
+        });
+    } else {
+        delete localStore.disabled;
+        OneSignalDeferred.push(async function(OneSignal){
+            await OneSignal.User.removeTag('disabled');
+        });
+    }
+    localStorage.setItem('notifFilters', JSON.stringify(localStore));
+}
+</script>
+
 
 </body>
 </html>
