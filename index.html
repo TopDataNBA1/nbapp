@@ -774,7 +774,26 @@
 </div>
 <script>
 function openFilters(){
-    document.getElementById('notif-overlay').classList.remove('hidden');
+    const overlay = document.getElementById('notif-overlay');
+    overlay.classList.remove('hidden');
+
+    const disableBtn = overlay.querySelector('.disable-btn');
+    const disabledTag = false; // <- aquí deberías leer OneSignal si quieres real, por ahora asumimos false
+
+    if(!disabledTag){
+        // Si no está deshabilitado, activamos todos los ALL de los grupos
+        overlay.querySelectorAll('.filter-buttons').forEach(group=>{
+            group.querySelectorAll('button').forEach(btn=>{
+                if(btn.dataset.value === 'ALL') btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+        });
+        disableBtn.classList.remove('active');
+    } else {
+        // Si está deshabilitado, disable se queda activo
+        disableBtn.classList.add('active');
+        overlay.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
+    }
 }
 
 function closeFilters(){
@@ -827,7 +846,7 @@ async function saveFilters(){
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags(tags);
         alert('Preferences saved ✔');
-        closeFilters();
+        closeFilters(); // <--- ESTA LÍNEA cierra el panel al guardar
     });
 }
 
