@@ -248,7 +248,27 @@
         cursor:pointer;
     }
 
-    .disable-btn.active{
+    .disable-btn {
+        all:unset; /* igual que los botones del panel */
+        display:block;
+        width:100%;
+        padding:10px 12px;
+        border-radius:10px;
+        border:1px solid #ff4655;
+        background:rgba(255,70,85,0.18);
+        color:#e0e0e0;
+        font-family:'Orbitron',sans-serif;
+        font-size:0.85em;
+        text-align:center;
+        cursor:pointer;
+        transition:0.25s;
+    }
+
+    .disable-btn:hover {
+        background:rgba(255,70,85,0.35);
+    }
+
+    .disable-btn.active {
         background:#ff4655;
         border-color:#ff4655;
         color:white;
