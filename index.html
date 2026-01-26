@@ -252,6 +252,7 @@
         all:unset; /* igual que los botones del panel */
         display:block;
         width:100%;
+        box-sizing:border-box;
         padding:10px 12px;
         border-radius:10px;
         border:1px solid #ff4655;
@@ -843,6 +844,8 @@ function disableNotifications(){
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags({disabled:'true'});
     });
+    // cerrar el panel
+    closeFilters();   // <-- esto hace que se cierre inmediatamente
 }
 </script>
 
