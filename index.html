@@ -775,7 +775,7 @@
 <script>
 const LOCAL_STORAGE_KEY = 'notifFilters';
 
-function openFilters() {
+function openFilters(){
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
 
@@ -794,14 +794,7 @@ function openFilters() {
     // Activar filtros guardados o ALL si no hay
     overlay.querySelectorAll('.filter-buttons').forEach(group => {
         const key = group.dataset.tag;
-        const values = stored[key] ? stored[key].split(',') : [];
-
-        // Si no hay valores guardados → ALL activo
-        if (!values.length) {
-            group.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-            group.querySelector('[data-value="ALL"]')?.classList.add('active');
-            return;
-        }
+        const values = stored[key] ? stored[key].split(',') : ['ALL'];
 
         group.querySelectorAll('button').forEach(btn => {
             const val = btn.dataset.value || btn.textContent;
@@ -903,7 +896,6 @@ function disableNotifications() {
     localStorage.setItem('notifFilters', JSON.stringify(localStore));
 }
 </script>
-
 
 </body>
 </html>
