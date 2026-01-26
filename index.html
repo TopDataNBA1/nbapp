@@ -107,6 +107,7 @@
             height: 100%;
             object-fit: cover;
             border-radius: 10px;
+        }
         /* Tamaño máximo de los collages de Latest Moves */
         .collage {
             max-width: 300px;      /* ancho máximo de cada collage */
@@ -634,26 +635,6 @@
     </script>
 
     <script>
-    // Registrar Service Worker y pedir permisos de notificación
-    if ('serviceWorker' in navigator && 'Notification' in window) {
-    // Registrar service worker
-            .then(registration => {
-        console.log('Service Worker registrado:', registration);
-        
-        // Pedir permisos de notificación
-        if (Notification.permission === 'default') {
-            Notification.requestPermission().then(permission => {
-            if (permission === 'granted') {
-                console.log('Permisos de notificación concedidos');
-            }
-            });
-        }
-        })
-        .catch(error => {
-        console.error('Error registrando Service Worker:', error);
-        });
-    }
-
     // Función para detectar cambios cada 30 segundos
     let lastNotificationCount = 0;
 
