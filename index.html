@@ -806,10 +806,31 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 
     group.querySelectorAll('button').forEach(btn=>{
         btn.addEventListener('click',()=>{
-            document.querySelector('.disable-btn').classList.remove('active');
-            OneSignalDeferred.push(async function(OneSignal){
-                await OneSignal.User.removeTag('disabled');
-            });
+            // ✅ Al pulsar cualquier filtro, desactivar "disable" y restaurar "ALL"
+            const disableBtn = document.querySelector('.disable-btn');
+            
+            // Si "disable" está activo, restaurar todos los "ALL"
+            if(disableBtn.classList.contains('active')){
+                disableBtn.classList.remove('active');
+                
+                // ✅ ACTIVAR TODOS LOS "ALL" DE TODOS LOS GRUPOS
+                document.querySelectorAll('.filter-buttons').forEach(g=>{
+                    g.querySelectorAll('button').forEach(b=>{
+                        if(b.dataset.value === 'ALL'){
+                            b.classList.add('active');
+                        } else {
+                            b.classList.remove('active');
+                        }
+                    });
+                });
+                
+                // Borrar tag de disabled en OneSignal
+                OneSignalDeferred.push(async function(OneSignal){
+                    await OneSignal.User.removeTag('disabled');
+                });
+            }
+            
+            // ✅ LÓGICA NORMAL DE CLICK (igual que antes)
             if(btn.dataset.value === 'ALL'){
                 group.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
                 btn.classList.add('active');
