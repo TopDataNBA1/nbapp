@@ -248,14 +248,11 @@
         cursor:pointer;
     }
 
-    .disable-btn{
-        width:100%;
-        padding:8px;
-        background:#333;
-        border:1px solid #666;
-        border-radius:10px;
-        color:#aaa;
-        cursor:pointer;
+    .disable-btn.active{
+        background:#ff4655;
+        border-color:#ff4655;
+        color:white;
+        box-shadow:0 0 10px #ff4655;
     }
     .hidden{
         display:none !important;
@@ -713,9 +710,14 @@
       <div class="filter-title">Teams</div>
       <div class="filter-buttons" data-tag="team">
         <button data-value="ALL" class="active">All</button>
-        <button>BOS</button><button>MIN</button><button>LAL</button>
-        <button>GSW</button><button>NYK</button><button>MIA</button>
-        <!-- añade aquí los 30 -->
+        <button>ATL</button><button>BOS</button><button>BKN</button><button>CHA</button>
+        <button>CHI</button><button>CLE</button><button>DAL</button><button>DEN</button>
+        <button>DET</button><button>GSW</button><button>HOU</button><button>IND</button>
+        <button>LAC</button><button>LAL</button><button>MEM</button><button>MIA</button>
+        <button>MIL</button><button>MIN</button><button>NOP</button><button>NYK</button>
+        <button>OKC</button><button>ORL</button><button>PHI</button><button>PHX</button>
+        <button>POR</button><button>SAC</button><button>SAS</button><button>TOR</button>
+        <button>UTA</button><button>WAS</button>
       </div>
     </div>
 
@@ -724,8 +726,8 @@
       <div class="filter-title">Type</div>
       <div class="filter-buttons" data-tag="alert">
         <button data-value="ALL" class="active">All</button>
-        <button>Milestone</button>
-        <button>Overtake</button>
+        <button data-value="milestones">Milestones</button>
+        <button data-value="overtakes">Overtakes</button>
       </div>
     </div>
 
@@ -764,6 +766,10 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 
     group.querySelectorAll('button').forEach(btn=>{
         btn.addEventListener('click',()=>{
+            document.querySelector('.disable-btn').classList.remove('active');
+            OneSignalDeferred.push(async function(OneSignal){
+                await OneSignal.User.removeTag('disabled');
+            });
             if(btn.dataset.value === 'ALL'){
                 group.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
                 btn.classList.add('active');
@@ -805,10 +811,17 @@ async function saveFilters(){
 }
 
 function disableNotifications(){
+    // activar visualmente el botón
+    const disableBtn = document.querySelector('.disable-btn');
+    disableBtn.classList.add('active');
+
+    // apagar TODOS los filtros
+    document.querySelectorAll('.filter-buttons button')
+        .forEach(b => b.classList.remove('active'));
+
+    // mandar tag a OneSignal
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags({disabled:'true'});
-        alert('Notifications disabled');
-        closeFilters();
     });
 }
 </script>
