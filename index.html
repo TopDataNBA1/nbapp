@@ -846,8 +846,10 @@ async function saveFilters(){
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags(tags);
         alert('Preferences saved ✔');
-        setTimeout(closeFilters, 0); // <--- fuerza el cierre del panel
     });
+    
+    // ✅ CERRAR EL PANEL DESPUÉS DEL ALERT
+    closeFilters();
 }
 
 function disableNotifications(){
