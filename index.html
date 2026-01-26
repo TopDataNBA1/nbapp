@@ -773,27 +773,76 @@
   </div>
 </div>
 <script>
-function openFilters(){
+async function openFilters(){
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
 
-    const disableBtn = overlay.querySelector('.disable-btn');
-    const disabledTag = false; // <- aquí deberías leer OneSignal si quieres real, por ahora asumimos false
-
-    if(!disabledTag){
-        // Si no está deshabilitado, activamos todos los ALL de los grupos
-        overlay.querySelectorAll('.filter-buttons').forEach(group=>{
-            group.querySelectorAll('button').forEach(btn=>{
-                if(btn.dataset.value === 'ALL') btn.classList.add('active');
-                else btn.classList.remove('active');
+    // ✅ CARGAR TAGS DESDE ONESIGNAL
+    OneSignalDeferred.push(async function(OneSignal){
+        try {
+            const tags = await OneSignal.User.getTags();
+            console.log("📊 Tags cargados desde OneSignal:", tags);
+            
+            const disableBtn = overlay.querySelector('.disable-btn');
+            
+            // Si está deshabilitado
+            if(tags.disabled === 'true'){
+                console.log("🔕 Notificaciones deshabilitadas");
+                disableBtn.classList.add('active');
+                // Apagar todos los filtros
+                overlay.querySelectorAll('.filter-buttons button').forEach(b => {
+                    b.classList.remove('active');
+                });
+                return;
+            }
+            
+            // ✅ SI NO ESTÁ DESHABILITADO, CARGAR FILTROS GUARDADOS
+            disableBtn.classList.remove('active');
+            
+            // Resetear todo a inactivo primero
+            overlay.querySelectorAll('.filter-buttons button').forEach(btn => {
+                btn.classList.remove('active');
             });
-        });
-        disableBtn.classList.remove('active');
-    } else {
-        // Si está deshabilitado, disable se queda activo
-        disableBtn.classList.add('active');
-        overlay.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
-    }
+            
+            // Recorrer cada grupo de filtros
+            overlay.querySelectorAll('.filter-buttons').forEach(group => {
+                const key = group.dataset.tag; // 'stat', 'team', 'alert', 'ranking'
+                const savedValue = tags[key];
+                
+                console.log(`  Grupo ${key}: "${savedValue}"`);
+                
+                if(!savedValue || savedValue === 'ALL'){
+                    // Si no hay tag guardado o es "ALL", activar el botón "ALL"
+                    const allBtn = group.querySelector('[data-value="ALL"]');
+                    if(allBtn) allBtn.classList.add('active');
+                } else {
+                    // Si hay valores guardados, activarlos
+                    const values = savedValue.split(',');
+                    values.forEach(val => {
+                        // Buscar por data-value o por textContent
+                        const btn = group.querySelector(`button[data-value="${val}"]`) || 
+                                   [...group.querySelectorAll('button')].find(b => b.textContent.trim() === val);
+                        if(btn){
+                            btn.classList.add('active');
+                            console.log(`    ✅ Activado: ${val}`);
+                        } else {
+                            console.log(`    ⚠️ No encontrado: ${val}`);
+                        }
+                    });
+                }
+            });
+            
+        } catch(error) {
+            console.error("❌ Error cargando tags:", error);
+            // Si falla, poner todo en "ALL" por defecto
+            overlay.querySelectorAll('.filter-buttons').forEach(group=>{
+                group.querySelectorAll('button').forEach(btn=>{
+                    if(btn.dataset.value === 'ALL') btn.classList.add('active');
+                    else btn.classList.remove('active');
+                });
+            });
+        }
+    });
 }
 
 function closeFilters(){
