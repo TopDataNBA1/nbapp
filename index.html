@@ -139,99 +139,7 @@
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 </head>
 <body>
-    <h1>TOP DATA NBApp</h1>
-  <div id="TOP DATA NBApp"></div>
 
-  <!-- Opción global para desactivar notificaciones -->
-    <div>
-    <label><input type="checkbox" id="disableNotifications"> No recibir notificaciones</label>
-    </div>
-
-    <!-- Estadísticas (múltiple) -->
-    <div>
-    <strong>Estadísticas:</strong><br>
-    <label><input type="checkbox" class="stat" value="PTS"> PTS</label>
-    <label><input type="checkbox" class="stat" value="REB"> REB</label>
-    <label><input type="checkbox" class="stat" value="AST"> AST</label>
-    <label><input type="checkbox" class="stat" value="STL"> STL</label>
-    <label><input type="checkbox" class="stat" value="BLK"> BLK</label>
-    <label><input type="checkbox" class="stat" value="3PM"> 3PM</label>
-    <label><input type="checkbox" class="stat" value="GAMES"> GAMES</label>
-    </div>
-
-    <!-- Equipos (múltiple) -->
-    <div>
-    <strong>Equipos:</strong><br>
-    <!-- Aquí se pueden poner los 30 equipos de la NBA como checkboxes -->
-    <label><input type="checkbox" class="team" value="LAL"> LAL</label>
-    <label><input type="checkbox" class="team" value="BOS"> BOS</label>
-    <label><input type="checkbox" class="team" value="GSW"> GSW</label>
-    <!-- ... agregar los demás equipos ... -->
-    </div>
-
-    <!-- Tipo de alerta (puede elegir uno, otro o ambos) -->
-    <div>
-    <strong>Tipo de alerta:</strong><br>
-    <label><input type="checkbox" class="alert" value="Milestone"> Milestone</label>
-    <label><input type="checkbox" class="alert" value="Overtake"> Overtake</label>
-    </div>
-
-    <!-- Ranking (puede elegir Top25, Top100 o ambos) -->
-    <div>
-    <strong>Ranking:</strong><br>
-    <label><input type="checkbox" class="ranking" value="Top25"> Top25</label>
-    <label><input type="checkbox" class="ranking" value="Top100"> Top100</label>
-    </div>
-
-    <button onclick="updateTags()">Guardar Preferencias</button>
-
-    <script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-    OneSignal.init({
-        appId: "TU_APP_ID_AQUI",
-        notifyButton: { enable: true },
-    });
-    });
-
-    function updateTags() {
-    const disabled = document.getElementById('disableNotifications').checked;
-
-    if (disabled) {
-        // Si desactiva notificaciones, borramos todos los tags
-        OneSignal.push(function() { OneSignal.deleteTags(["stat","team","alert","ranking"]); });
-        alert("Notificaciones desactivadas");
-        return;
-    }
-
-    // Estadísticas seleccionadas
-    const statChecked = Array.from(document.querySelectorAll('.stat:checked')).map(el => el.value);
-    const statsTag = statChecked.length ? statChecked.join(',') : ''; // vacío = todas
-
-    // Equipos seleccionados
-    const teamChecked = Array.from(document.querySelectorAll('.team:checked')).map(el => el.value);
-    const teamsTag = teamChecked.length ? teamChecked.join(',') : ''; // vacío = todos
-
-    // Tipo de alerta
-    const alertChecked = Array.from(document.querySelectorAll('.alert:checked')).map(el => el.value);
-    const alertTag = alertChecked.length ? alertChecked.join(',') : ''; // vacío = ambos
-
-    // Ranking
-    const rankingChecked = Array.from(document.querySelectorAll('.ranking:checked')).map(el => el.value);
-    const rankingTag = rankingChecked.length ? rankingChecked.join(',') : ''; // vacío = ambos
-
-    OneSignal.push(function() {
-        OneSignal.sendTags({
-        stat: statsTag,
-        team: teamsTag,
-        alert: alertTag,
-        ranking: rankingTag
-        });
-    });
-
-    alert("Preferencias guardadas!");
-    }
-    </script>
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
         <div class="nbapp">NBApp</div>
@@ -648,6 +556,73 @@
     });
     </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45aad425429240e08f69e0b5e6aedd75"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Campana -->
+<div id="notif-bell" onclick="openFilters()">🔔</div>
+
+<!-- Overlay -->
+<div id="notif-overlay" class="hidden">
+  <div id="notif-panel">
+    <div class="notif-header">
+      <span>Notificaciones</span>
+      <button onclick="closeFilters()">✕</button>
+    </div>
+
+    <!-- STATS -->
+    <div class="filter-group">
+      <div class="filter-title">Stats</div>
+      <div class="filter-buttons" data-tag="stat">
+        <button data-value="ALL" class="active">All</button>
+        <button data-value="PTS">PTS</button>
+        <button data-value="REB">REB</button>
+        <button data-value="AST">AST</button>
+        <button data-value="STL">STL</button>
+        <button data-value="BLK">BLK</button>
+        <button data-value="3PM">3PM</button>
+        <button data-value="GAMES">GAMES</button>
+      </div>
+    </div>
+
+    <!-- TEAMS -->
+    <div class="filter-group">
+      <div class="filter-title">Teams</div>
+      <div class="filter-buttons" data-tag="team">
+        <button data-value="ALL" class="active">All</button>
+        <button>BOS</button><button>MIN</button><button>LAL</button>
+        <button>GSW</button><button>NYK</button><button>MIA</button>
+        <!-- añade aquí los 30 -->
+      </div>
+    </div>
+
+    <!-- ALERT TYPE -->
+    <div class="filter-group">
+      <div class="filter-title">Type</div>
+      <div class="filter-buttons" data-tag="alert">
+        <button data-value="ALL" class="active">All</button>
+        <button>Milestone</button>
+        <button>Overtake</button>
+      </div>
+    </div>
+
+    <!-- RANKING -->
+    <div class="filter-group">
+      <div class="filter-title">Ranking</div>
+      <div class="filter-buttons" data-tag="ranking">
+        <button data-value="ALL" class="active">All</button>
+        <button>Top25</button>
+        <button>Top100</button>
+      </div>
+    </div>
+
+    <!-- GLOBAL -->
+    <div class="filter-group">
+      <button class="disable-btn" onclick="disableNotifications()">
+        Disable notifications
+      </button>
+    </div>
+
+    <button class="save-btn" onclick="saveFilters()">Save</button>
+  </div>
+</div>
     
 </body>
 </html>
