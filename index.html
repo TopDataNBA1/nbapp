@@ -863,8 +863,6 @@ function disableNotifications(){
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags({disabled:'true'});
     });
-    // cerrar el panel
-    closeFilters();   // <-- esto hace que se cierre inmediatamente
 }
 </script>
 
