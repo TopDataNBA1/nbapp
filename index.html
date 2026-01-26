@@ -12,9 +12,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
-        .topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(0,0,0,0.9);border-bottom:3px solid #ff4655;}
-        .logo-img{height:60px;width:auto;}
-        .nbapp{font-family:'Orbitron',sans-serif;font-size:2.4em;color:#ff4655;text-shadow:0 0 10px #ff4655;font-weight:700;}
+        .topbar{
+            position:relative;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:12px 20px;
+            background:rgba(0,0,0,0.9);
+            border-bottom:3px solid #ff4655;
+        }
+
+        .logo-img{
+            position:absolute;
+            left:20px;
+            height:60px;
+        }
+
+        .nbapp{
+            font-family:'Orbitron',sans-serif;
+            font-size:2.1em;
+            color:#ff4655;
+            text-shadow:0 0 10px #ff4655;
+        }
+
         .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
@@ -118,16 +138,16 @@
             height: 100%;
             object-fit: cover;
         }
-    /* 🔔 CAMPANA */
-    #notif-bell{
-        position:fixed;
-        top:14px;
-        right:16px;
-        font-size:26px;
+        #notif-bell{
+        position:absolute;
+        right:18px;
+        top:50%;
+        transform:translateY(-50%);
+        font-size:24px;
         cursor:pointer;
-        z-index:2000;
         filter: drop-shadow(0 0 6px #ff4655);
     }
+
 
     /* OVERLAY */
     #notif-overlay{
@@ -138,11 +158,7 @@
         display:flex;
         justify-content:center;
         align-items:center;
-    }
-
-    #notif-overlay.hidden{
-        display:none;
-    }
+    }      
 
     /* PANEL */
     #notif-panel{
@@ -174,39 +190,46 @@
         font-size:20px;
         cursor:pointer;
     }
-
-    /* FILTER GROUP */
+    /* FILTER GROUP (NOTIFICATIONS PANEL ONLY) */
     .filter-group{
-        margin-bottom:14px;
+        margin-bottom:16px;
     }
 
     .filter-title{
         font-family:'Orbitron',sans-serif;
-        font-size:0.95em;
-        margin-bottom:6px;
+        font-size:0.9em;
         color:#ffaa00;
+        margin-bottom:8px;
     }
 
     .filter-buttons{
         display:flex;
         flex-wrap:wrap;
-        gap:6px;
+        gap:8px;
     }
 
+    /* clave: reset total para evitar botones blancos */
     .filter-buttons button{
-        padding:6px 10px;
-        border-radius:8px;
+        all:unset;
+        padding:7px 12px;
+        border-radius:10px;
         border:1px solid #ff4655;
-        background:rgba(255,70,85,0.15);
-        color:white;
+        background:rgba(255,70,85,0.18);
+        color:#e0e0e0;
         font-family:'Orbitron',sans-serif;
         font-size:0.75em;
         cursor:pointer;
+        transition:0.25s;
+    }
+
+    .filter-buttons button:hover{
+        background:rgba(255,70,85,0.35);
     }
 
     .filter-buttons button.active{
         background:#ff4655;
         box-shadow:0 0 10px #ff4655;
+        color:white;
     }
 
     /* SAVE / DISABLE */
@@ -231,7 +254,9 @@
         color:#aaa;
         cursor:pointer;
     }
-
+    .hidden{
+        display:none !important;
+    } 
     </style>
     <script>
       if ('serviceWorker' in navigator) {
@@ -255,8 +280,9 @@
 
     <div class="topbar">
         <img src="logo.jpg" alt="Logo" class="logo-img">
-        <div class="nbapp">NBApp</div>
-    </div>
+        <div class="nbapp">Top Data NBApp</div>
+        <div id="notif-bell" onclick="openFilters()">🔔</div>
+    </div>              
 
     <div class="status-bar">
         <div class="status-line1">ONLINE - Last update:</div>
@@ -669,18 +695,11 @@
     });
     </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45aad425429240e08f69e0b5e6aedd75"}'></script><!-- End Cloudflare Web Analytics -->
-<!-- Campana -->
-<div id="notif-bell" onclick="openFilters()">🔔</div>
 
 <!-- Overlay -->
 <div id="notif-overlay" class="hidden">
   <div id="notif-panel">
-    <div class="notif-header">
-      <span>Notificaciones</span>
-      <button onclick="closeFilters()">✕</button>
-    </div>
-
-    <!-- STATS -->
+        <!-- STATS -->
     <div class="filter-group">
       <div class="filter-title">Stats</div>
       <div class="filter-buttons" data-tag="stat">
