@@ -1,6 +1,505 @@
 {
-    "ultima_actualizacion": "01:36:28",
-    "tablas": {},
+    "ultima_actualizacion": "01:36:35",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 15,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 26930,
+                "Diff": "16",
+                "Antece": "Hakeem Olajuwon",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 22,
+                "Nombre": "DeMar DeRozan",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 26176,
+                "Diff": "219",
+                "Antece": "John Havlicek",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 37,
+                "Nombre": "Damian Lillard",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 22598,
+                "Diff": "402",
+                "Antece": "23000",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 113,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 16713,
+                "Diff": "71",
+                "Antece": "Buck Williams",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 137,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 15743,
+                "Diff": "18",
+                "Antece": "Detlef Schrempf",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 190,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 14252,
+                "Diff": "42",
+                "Antece": "Harrison Barnes",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 227,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 5,
+                "Total": 13200,
+                "Diff": "20",
+                "Antece": "Jalen Rose",
+                "Nota": "",
+                "game_status": "playing"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 60,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 8959,
+                "Diff": "15",
+                "Antece": "Larry Bird",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 92,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 7615,
+                "Diff": "11",
+                "Antece": "Clyde Lee",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 118,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 7062,
+                "Diff": "48",
+                "Antece": "Olden Polynice",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 248,
+                "Nombre": "DeMar DeRozan",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 5359,
+                "Diff": "7",
+                "Antece": "Jerry West",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "ast": [
+            {
+                "Rank": 7,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 10241,
+                "Diff": "93",
+                "Antece": "Mark Jackson",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 30,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 1,
+                "Total": 6572,
+                "Diff": "5",
+                "Antece": "Derek Harper",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 41,
+                "Nombre": "Damian Lillard",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 6069,
+                "Diff": "45",
+                "Antece": "John Havlicek",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 74,
+                "Nombre": "DeMar DeRozan",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 5054,
+                "Diff": "42",
+                "Antece": "Raymond Felton",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 80,
+                "Nombre": "Trae Young",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 4837,
+                "Diff": "26",
+                "Antece": "Mark Price",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 106,
+                "Nombre": "Dennis Schroder",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 4299,
+                "Diff": "40",
+                "Antece": "Jay Humphries",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 205,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 3227,
+                "Diff": "13",
+                "Antece": "Jerry Stackhouse",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 213,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 3164,
+                "Diff": "6",
+                "Antece": "Antoine Walker",
+                "Nota": "",
+                "game_status": "playing"
+            }
+        ],
+        "stl": [
+            {
+                "Rank": 14,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 2021,
+                "Diff": "54",
+                "Antece": "Mookie Blaylock",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 56,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 1499,
+                "Diff": "1",
+                "Antece": "Kyle Lowry",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 87,
+                "Nombre": "DeMar DeRozan",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1233,
+                "Diff": "15",
+                "Antece": "Grant Hill",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 225,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 927,
+                "Diff": "2",
+                "Antece": "Allen Leavell",
+                "Nota": "",
+                "game_status": "playing"
+            }
+        ],
+        "blk": [
+            {
+                "Rank": 156,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 799,
+                "Diff": "",
+                "Antece": "Jerome Kersey",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 164,
+                "Nombre": "Jerami Grant",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 770,
+                "Diff": "10",
+                "Antece": "Gar Heard",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 203,
+                "Nombre": "Mitchell Robinson",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 659,
+                "Diff": "5",
+                "Antece": "Jusuf Nurkic",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 5,
+                "Nombre": "Damian Lillard",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 2804,
+                "Diff": "19",
+                "Antece": "Klay Thompson",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 41,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1624,
+                "Diff": "46",
+                "Antece": "Kemba Walker",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 42,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 1620,
+                "Diff": "4",
+                "Antece": "Zach LaVine",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 61,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1463,
+                "Diff": "31",
+                "Antece": "Devin Booker",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 62,
+                "Nombre": "Jordan Clarkson",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 1460,
+                "Diff": "3",
+                "Antece": "Russell Westbrook",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 67,
+                "Nombre": "Khris Middleton",
+                "Team": "WAS",
+                "Hoy": 1,
+                "Total": 1437,
+                "Diff": "16",
+                "Antece": "Malik Beasley",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 84,
+                "Nombre": "Trae Young",
+                "Team": "WAS",
+                "Hoy": 0,
+                "Total": 1295,
+                "Diff": "2",
+                "Antece": "Terry Porter",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 114,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 1188,
+                "Diff": "12",
+                "Antece": "1200",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 132,
+                "Nombre": "Dennis Schroder",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1112,
+                "Diff": "11",
+                "Antece": "David Wesley",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 149,
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 1077,
+                "Diff": "2",
+                "Antece": "Gilbert Arenas",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 171,
+                "Nombre": "Malik Monk",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1017,
+                "Diff": "1",
+                "Antece": "Al Horford",
+                "Nota": "A tiro de 1",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 172,
+                "Nombre": "Jerami Grant",
+                "Team": "POR",
+                "Hoy": 0,
+                "Total": 1012,
+                "Diff": "5",
+                "Antece": "Malik Monk",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 179,
+                "Nombre": "Doug McDermott",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 992,
+                "Diff": "4",
+                "Antece": "Rafer Alston",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 212,
+                "Nombre": "OG Anunoby",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 928,
+                "Diff": "1",
+                "Antece": "Kelly Olynyk",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 221,
+                "Nombre": "Jalen Brunson",
+                "Team": "NYK",
+                "Hoy": 0,
+                "Total": 897,
+                "Diff": "3",
+                "Antece": "900",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "g": [
+            {
+                "Rank": 28,
+                "Nombre": "Russell Westbrook",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1284,
+                "Diff": "2",
+                "Antece": "Sam Perkins",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 40,
+                "Nombre": "DeMar DeRozan",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1234,
+                "Diff": "4",
+                "Antece": "Hakeem Olajuwon",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 118,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 1,
+                "Total": 1057,
+                "Diff": "",
+                "Antece": "Johnny Green",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            }
+        ]
+    },
     "notificaciones": [
         {
             "texto": "Mitchell Robinson (1 block today) has passed Andrew Bynum and is now ranked 203rd all-time in career blocks with 658.",
@@ -556,5 +1055,5 @@
             "timestamp": 1769481702
         }
     ],
-    "cache_buster": 1769560588
+    "cache_buster": 1769560595
 }
