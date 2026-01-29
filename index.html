@@ -12,8 +12,8 @@
     <meta name="version" content="2.1.<?php echo time(); ?>">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     
-    <!-- ✅ ONESIGNAL SDK - AÑADIDO -->
-    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <!-- ✅ ONESIGNAL SDK - TEMPORALMENTE COMENTADO PARA DEBUG -->
+    <!-- <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script> -->
     
     <style>
         body{margin:0;padding:0;background:#0f0f1b;color:#e0e0e0;font-family:'Roboto',sans-serif;min-height:100vh;}
@@ -411,7 +411,8 @@
   </div>
 </div>
 
-<!-- ✅ INICIALIZACIÓN DE ONESIGNAL - SOLO INIT, NADA MÁS -->
+<!-- ✅ INICIALIZACIÓN DE ONESIGNAL - TEMPORALMENTE COMENTADO PARA DEBUG -->
+<!--
 <script>
 window.OneSignalDeferred = window.OneSignalDeferred || [];
 
@@ -423,6 +424,7 @@ OneSignalDeferred.push(async function(OneSignal) {
     console.log("✅ OneSignal inicializado");
 });
 </script>
+-->
 
 <script>
 async function openFilters(){
