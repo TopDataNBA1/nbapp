@@ -740,6 +740,8 @@ async function refreshAll(){
 }
 
 window.addEventListener('DOMContentLoaded',async()=>{
+    console.log('🔍 DEBUG: Página cargada');
+    console.log('🔍 DEBUG: Panel tiene clase hidden?', document.getElementById('notif-overlay').classList.contains('hidden'));
     await refreshAll();
     tInterval=setInterval(refreshAll,30000);
 });
