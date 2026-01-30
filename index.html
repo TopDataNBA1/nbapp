@@ -774,8 +774,18 @@
 </div>
 <script>
 async function openFilters(){
-    const overlay = document.getElementById('notif-overlay');
-    overlay.classList.remove('hidden');
+    OneSignalDeferred.push(async function(OneSignal){
+        const permission = await OneSignal.Notifications.permission;
+        if(permission === 'default'){
+            console.log('⚠️ Pidiendo permisos...');
+            const granted = await OneSignal.Notifications.requestPermission();
+            if(!granted){
+                alert('Necesitas permitir las notificaciones.');
+                return;
+            }
+        }
+        const overlay = document.getElementById('notif-overlay');
+        overlay.classList.remove('hidden');
 
     // ✅ CARGAR TAGS DESDE ONESIGNAL
     OneSignalDeferred.push(async function(OneSignal){
