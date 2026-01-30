@@ -284,7 +284,9 @@
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async function(OneSignal) {
         await OneSignal.init({
-        appId: "7d1985a1-b7ee-42b0-b0c6-089032fd8124",
+            appId: "7d1985a1-b7ee-42b0-b0c6-089032fd8124",
+            serviceWorkerPath: "/nbapp/OneSignalSDKWorker.js",
+            serviceWorkerParam: { scope: "/nbapp/" }
         });
     });
     </script>
