@@ -279,13 +279,6 @@
         display:none !important;
     } 
     </style>
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/nbapp/service-worker.js')
-          .then(() => console.log('Service Worker registrado'))
-          .catch(err => console.error('Error registrando SW:', err));
-      }
-    </script>
     <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
     <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
@@ -774,15 +767,6 @@
 </div>
 <script>
 async function openFilters(){
-    // Pedir permisos primero si no los tiene
-    OneSignalDeferred.push(async function(OneSignal){
-        const permission = await OneSignal.Notifications.permission;
-        if(permission === 'default'){
-            console.log('⚠️ Pidiendo permisos de notificaciones...');
-            await OneSignal.Notifications.requestPermission();
-        }
-    });
-    
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
 
