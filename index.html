@@ -774,6 +774,15 @@
 </div>
 <script>
 async function openFilters(){
+    // Pedir permisos primero si no los tiene
+    OneSignalDeferred.push(async function(OneSignal){
+        const permission = await OneSignal.Notifications.permission;
+        if(permission === 'default'){
+            console.log('⚠️ Pidiendo permisos de notificaciones...');
+            await OneSignal.Notifications.requestPermission();
+        }
+    });
+    
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
 
