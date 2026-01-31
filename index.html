@@ -894,25 +894,44 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 </script>
 <script>
 async function saveFilters(){
-    const tags = {};
+    const tagsToAdd = {};
+    const tagsToRemove = [];
 
-    document.querySelectorAll('.filter-buttons').forEach(group=>{
+    document.querySelectorAll('.filter-buttons').forEach(group => {
         const key = group.dataset.tag;
-        const values = [...group.querySelectorAll('button.active')]
-            .map(b=>b.dataset.value || b.textContent)
-            .filter(v=>v!=='ALL');
-
-        if(values.length){
-            tags[key] = values.join(',');
+        const allBtn = group.querySelector('[data-value="ALL"]');
+        
+        // Si "ALL" está activo, hay que BORRAR el tag
+        if(allBtn && allBtn.classList.contains('active')){
+            tagsToRemove.push(key);
+        } else {
+            // Si no, guardar los valores seleccionados
+            const values = [...group.querySelectorAll('button.active')]
+                .map(b => b.dataset.value || b.textContent.trim())
+                .filter(v => v !== 'ALL');
+            
+            if(values.length){
+                tagsToAdd[key] = values.join(',');
+            }
         }
     });
 
     OneSignalDeferred.push(async function(OneSignal){
-        await OneSignal.User.addTags(tags);
+        // Primero eliminar los tags que deben ser "ALL"
+        if(tagsToRemove.length > 0){
+            await OneSignal.User.removeTags(tagsToRemove);
+            console.log("🗑️ Tags eliminados:", tagsToRemove);
+        }
+        
+        // Luego añadir los tags con valores específicos
+        if(Object.keys(tagsToAdd).length > 0){
+            await OneSignal.User.addTags(tagsToAdd);
+            console.log("💾 Tags guardados:", tagsToAdd);
+        }
+        
         alert('Preferences saved ✔');
     });
     
-    // ✅ CERRAR EL PANEL DESPUÉS DEL ALERT
     closeFilters();
 }
 
