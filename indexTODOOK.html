@@ -84,49 +84,6 @@
         .move-text strong{color:#ffaa00;font-weight:700;}
         .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
 
-        /* SHARE & REACTIONS */
-        .move-footer{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:12px;}
-        .move-footer .move-time{margin:0;}
-        .share-btns{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;}
-        .share-btn{
-            all:unset;
-            width:28px;height:28px;
-            display:flex;align-items:center;justify-content:center;
-            border-radius:50%;
-            background:rgba(255,255,255,0.06);
-            cursor:pointer;
-            transition:0.25s;
-            opacity:0.45;
-        }
-        .share-btn:hover{opacity:1;transform:scale(1.18);}
-        .share-btn svg{width:14px;height:14px;fill:#e0e0e0;}
-        .share-btn.copied{opacity:1;background:rgba(85,255,85,0.25);}
-        .share-btn.copied svg{fill:#55ff55;}
-        .share-btn[data-net="x"]:hover{background:rgba(0,0,0,0.5);}
-        .share-btn[data-net="whatsapp"]:hover{background:rgba(37,211,102,0.25);}
-        .share-btn[data-net="facebook"]:hover{background:rgba(24,119,242,0.25);}
-        .share-btn[data-net="telegram"]:hover{background:rgba(38,165,220,0.25);}
-        .share-btn[data-net="reddit"]:hover{background:rgba(255,69,0,0.25);}
-        .share-btn[data-net="copy"]:hover{background:rgba(255,255,255,0.15);}
-
-        /* EMOJI REACTIONS */
-        .emoji-bar{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;}
-        .emoji-btn{
-            all:unset;
-            display:flex;align-items:center;gap:3px;
-            padding:3px 8px;
-            border-radius:20px;
-            background:rgba(255,255,255,0.05);
-            border:1px solid rgba(255,255,255,0.08);
-            cursor:pointer;
-            transition:0.25s;
-            font-size:0.82em;
-        }
-        .emoji-btn:hover{background:rgba(255,255,255,0.12);transform:scale(1.08);}
-        .emoji-btn.voted{background:rgba(255,70,85,0.2);border-color:rgba(255,70,85,0.4);}
-        .emoji-btn .em{font-size:1.1em;}
-        .emoji-btn .emoji-count{color:#888;font-size:0.85em;min-width:8px;text-align:center;}
-
         /* LIVE RANKINGS – 100% COMO ANTES */
         .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
         .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;}
@@ -333,26 +290,6 @@
         });
     });
     </script>
-    <!-- Firebase para emoji reactions -->
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
-    <script>
-    // =====================================================
-    // PEGA AQUÍ TU firebaseConfig de la consola de Firebase
-    // Consola → Project settings → General → Your apps → SDK config
-    // =====================================================
-    const firebaseConfig = {
-        apiKey: "AIzaSyBctf7Cj3v9e1eR9pTE_IZTd8KNlDfAJtI",
-        authDomain: "nbapp-6641e.firebaseapp.com",
-        databaseURL: "https://nbapp-6641e-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "nbapp-6641e",
-        storageBucket: "nbapp-6641e.firebasestorage.app",
-        messagingSenderId: "495331129934",
-        appId: "1:495331129934:web:7a282b9bf37f87bead611f"
-    };
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.database();
-    </script>
 </head>
 <body>
 
@@ -553,151 +490,6 @@
             return Math.floor(diff / 86400) + "d ago";
 }    
 
-        // === SHARE ICONS (SVG) ===
-        const shareIcons = {
-            x: `<svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
-            whatsapp: `<svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>`,
-            facebook: `<svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`,
-            telegram: `<svg viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>`,
-            reddit: `<svg viewBox="0 0 24 24"><path d="M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 01-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 01.042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 014.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 01.14-.197.35.35 0 01.238-.042l2.906.617a1.214 1.214 0 011.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 00-.231.094.33.33 0 000 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 000-.463.327.327 0 00-.462 0c-.545.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 00-.205-.094z"/></svg>`,
-            copy: `<svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>`
-        };
-
-        // === EMOJIS CONFIG ===
-        const emojiList = [
-            {key: 'fire', em: '🔥'},
-            {key: 'goat', em: '🐐'},
-            {key: 'trophy', em: '🏆'},
-            {key: 'wow', em: '😮'},
-            {key: 'clap', em: '👏'},
-            {key: 'eyes', em: '👀'}
-        ];
-
-        // Cache local de votos del usuario (para saber si ya votó)
-        let misVotos = JSON.parse(localStorage.getItem('nbapp_votos') || '{}');
-
-        function shareMove(texto, plataforma) {
-            const url = "https://topdatanba1.github.io/nbapp/";
-            const textoLimpio = texto.replace(/<[^>]*>/g, '');
-            
-            switch(plataforma) {
-                case 'x':
-                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(textoLimpio)}&url=${encodeURIComponent(url)}`, '_blank');
-                    break;
-                case 'whatsapp':
-                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + url)}`, '_blank');
-                    break;
-                case 'facebook':
-                    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
-                    break;
-                case 'telegram':
-                    window.open(`https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
-                    break;
-                case 'reddit':
-                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
-                    break;
-                case 'copy':
-                    navigator.clipboard.writeText(textoLimpio + '\n' + url).then(() => {
-                        const btn = event.target.closest('.share-btn');
-                        btn.classList.add('copied');
-                        setTimeout(() => btn.classList.remove('copied'), 1500);
-                    });
-                    break;
-            }
-        }
-
-        // === EXTRAER JUGADOR PRINCIPAL DEL MENSAJE ===
-        function extraerJugador(texto) {
-            // El jugador principal es el primer nombre en negrita o al inicio del texto
-            const limpio = texto.replace(/<[^>]*>/g, '');
-            // Patrón: nombre al inicio hasta el primer paréntesis o "today" o "has" o "becomes"
-            const match = limpio.match(/^([A-Z][a-zA-Z'.]+(?:\s+[A-Z][a-zA-Z'.]+)*(?:\s+(?:Jr\.|Sr\.|II|III|IV))?)/);
-            return match ? match[1].trim() : null;
-        }
-
-        // === GENERAR ID ÚNICO PARA CADA NOTIFICACIÓN ===
-        function notifId(timestamp) {
-            return 'n_' + timestamp;
-        }
-
-        // === VOTAR EMOJI ===
-        function votarEmoji(timestamp, emojiKey) {
-            const nid = notifId(timestamp);
-            const jugador = document.querySelector(`[data-nid="${nid}"]`)?.dataset?.player;
-            if (!jugador) return;
-            
-            // Comprobar si ya votó este emoji en esta notificación
-            const votoKey = `${nid}_${emojiKey}`;
-            if (misVotos[votoKey]) return; // Ya votó
-            
-            // Marcar como votado localmente
-            misVotos[votoKey] = true;
-            localStorage.setItem('nbapp_votos', JSON.stringify(misVotos));
-            
-            // Sanitizar nombre jugador para Firebase (no permite . # $ [ ] /)
-            const jugadorKey = jugador.replace(/[.#$\[\]\/]/g, '_');
-            
-            // Incrementar en Firebase: votos por notificación
-            const refNotif = db.ref(`votos/${nid}/${emojiKey}`);
-            refNotif.transaction(c => (c || 0) + 1);
-            
-            // Incrementar en Firebase: totales por jugador
-            const refJugador = db.ref(`jugadores/${jugadorKey}/${emojiKey}`);
-            refJugador.transaction(c => (c || 0) + 1);
-            
-            // Actualizar UI inmediatamente
-            const btn = document.querySelector(`[data-nid="${nid}"] .emoji-btn[data-emoji="${emojiKey}"]`);
-            if (btn) {
-                btn.classList.add('voted');
-                const countEl = btn.querySelector('.emoji-count');
-                countEl.textContent = parseInt(countEl.textContent || '0') + 1;
-            }
-        }
-
-        // === CARGAR CONTEOS DE FIREBASE ===
-        function cargarConteos(timestamp) {
-            const nid = notifId(timestamp);
-            const ref = db.ref(`votos/${nid}`);
-            ref.once('value').then(snap => {
-                const data = snap.val() || {};
-                emojiList.forEach(e => {
-                    const btn = document.querySelector(`[data-nid="${nid}"] .emoji-btn[data-emoji="${e.key}"]`);
-                    if (btn) {
-                        const count = data[e.key] || 0;
-                        btn.querySelector('.emoji-count').textContent = count > 0 ? count : '';
-                        // Marcar si ya votó
-                        if (misVotos[`${nid}_${e.key}`]) btn.classList.add('voted');
-                    }
-                });
-            });
-        }
-
-        function makeFooter(texto, cuando, timestamp) {
-            const t = texto.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            const jugador = extraerJugador(texto) || '';
-            const jugadorSafe = jugador.replace(/'/g, "\\'");
-            const nid = notifId(timestamp);
-            
-            const shareBtns = [
-                {net:'x', icon: shareIcons.x, title:'Share on X'},
-                {net:'whatsapp', icon: shareIcons.whatsapp, title:'Share on WhatsApp'},
-                {net:'facebook', icon: shareIcons.facebook, title:'Share on Facebook'},
-                {net:'telegram', icon: shareIcons.telegram, title:'Share on Telegram'},
-                {net:'reddit', icon: shareIcons.reddit, title:'Share on Reddit'},
-                {net:'copy', icon: shareIcons.copy, title:'Copy text'}
-            ].map(s => `<button class="share-btn" data-net="${s.net}" onclick="shareMove('${t}','${s.net}')" title="${s.title}">${s.icon}</button>`).join('');
-            
-            const emojiBtns = emojiList.map(e => 
-                `<button class="emoji-btn" data-emoji="${e.key}" onclick="votarEmoji(${timestamp},'${e.key}')"><span class="em">${e.em}</span><span class="emoji-count"></span></button>`
-            ).join('');
-            
-            return `<div class="move-footer" data-nid="${nid}" data-player="${jugadorSafe}">
-                <div class="emoji-bar">${emojiBtns}</div>
-                <div class="move-time">${cuando}</div>
-                <div class="share-btns">${shareBtns}</div>
-            </div>`;
-        }
-
         // LATEST MOVES CON FOTOS + TIEMPO
         function updateMoves() {
             const list = document.getElementById('moves-list');
@@ -718,7 +510,7 @@
                             return `
                                 <div class="move-item">
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -730,7 +522,7 @@
                                         <img src="${fotos[0]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -743,7 +535,7 @@
                                         <img src="${fotos[1]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -759,7 +551,7 @@
                                         </div>
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    <div class="move-time">${cuando}</div>
                                 </div>`;
                         }
 
@@ -770,14 +562,9 @@
                                     ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                                 </div>
                                 <div class="move-text">${texto}</div>
-                                ${makeFooter(texto, cuando, n.timestamp)}
+                                <div class="move-time">${cuando}</div>
                             </div>`;
                     }).join('');
-                    
-                    // Cargar conteos de Firebase para cada notificación
-                    notis.forEach(n => {
-                        if (n.timestamp) cargarConteos(n.timestamp);
-                    });
                 })
                 .catch(err => {
                     console.error(err);
@@ -1107,25 +894,44 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 </script>
 <script>
 async function saveFilters(){
-    const tags = {};
+    const tagsToAdd = {};
+    const tagsToRemove = [];
 
-    document.querySelectorAll('.filter-buttons').forEach(group=>{
+    document.querySelectorAll('.filter-buttons').forEach(group => {
         const key = group.dataset.tag;
-        const values = [...group.querySelectorAll('button.active')]
-            .map(b=>b.dataset.value || b.textContent)
-            .filter(v=>v!=='ALL');
-
-        if(values.length){
-            tags[key] = values.join(',');
+        const allBtn = group.querySelector('[data-value="ALL"]');
+        
+        // Si "ALL" está activo, hay que BORRAR el tag
+        if(allBtn && allBtn.classList.contains('active')){
+            tagsToRemove.push(key);
+        } else {
+            // Si no, guardar los valores seleccionados
+            const values = [...group.querySelectorAll('button.active')]
+                .map(b => b.dataset.value || b.textContent.trim())
+                .filter(v => v !== 'ALL');
+            
+            if(values.length){
+                tagsToAdd[key] = values.join(',');
+            }
         }
     });
 
     OneSignalDeferred.push(async function(OneSignal){
-        await OneSignal.User.addTags(tags);
+        // Primero eliminar los tags que deben ser "ALL"
+        if(tagsToRemove.length > 0){
+            await OneSignal.User.removeTags(tagsToRemove);
+            console.log("🗑️ Tags eliminados:", tagsToRemove);
+        }
+        
+        // Luego añadir los tags con valores específicos
+        if(Object.keys(tagsToAdd).length > 0){
+            await OneSignal.User.addTags(tagsToAdd);
+            console.log("💾 Tags guardados:", tagsToAdd);
+        }
+        
         alert('Preferences saved ✔');
     });
     
-    // ✅ CERRAR EL PANEL DESPUÉS DEL ALERT
     closeFilters();
 }
 
