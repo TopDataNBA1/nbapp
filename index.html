@@ -84,22 +84,23 @@
         .move-text strong{color:#ffaa00;font-weight:700;}
         .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
 
-        /* SHARE & REACTIONS */
-        .move-footer{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:12px;}
-        .move-footer .move-time{margin:0;}
-        .share-btns{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;}
+        /* SHARE & REACTIONS - TODO EN UNA LÍNEA */
+        .move-footer{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px;flex-wrap:nowrap;}
+        .move-footer .move-time{margin:0;white-space:nowrap;font-size:0.78em;}
+        .share-btns{display:flex;gap:3px;flex-shrink:0;}
         .share-btn{
             all:unset;
-            width:28px;height:28px;
+            width:22px;height:22px;
             display:flex;align-items:center;justify-content:center;
             border-radius:50%;
             background:rgba(255,255,255,0.06);
             cursor:pointer;
             transition:0.25s;
-            opacity:0.45;
+            opacity:0.4;
+            flex-shrink:0;
         }
-        .share-btn:hover{opacity:1;transform:scale(1.18);}
-        .share-btn svg{width:14px;height:14px;fill:#e0e0e0;}
+        .share-btn:hover{opacity:1;transform:scale(1.15);}
+        .share-btn svg{width:11px;height:11px;fill:#e0e0e0;}
         .share-btn.copied{opacity:1;background:rgba(85,255,85,0.25);}
         .share-btn.copied svg{fill:#55ff55;}
         .share-btn[data-net="x"]:hover{background:rgba(0,0,0,0.5);}
@@ -109,23 +110,24 @@
         .share-btn[data-net="reddit"]:hover{background:rgba(255,69,0,0.25);}
         .share-btn[data-net="copy"]:hover{background:rgba(255,255,255,0.15);}
 
-        /* EMOJI REACTIONS */
-        .emoji-bar{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;}
+        /* EMOJI REACTIONS - COMPACTOS */
+        .emoji-bar{display:flex;gap:2px;flex-shrink:0;}
         .emoji-btn{
             all:unset;
-            display:flex;align-items:center;gap:3px;
-            padding:3px 8px;
-            border-radius:20px;
+            display:flex;align-items:center;gap:1px;
+            padding:2px 5px;
+            border-radius:12px;
             background:rgba(255,255,255,0.05);
             border:1px solid rgba(255,255,255,0.08);
             cursor:pointer;
             transition:0.25s;
-            font-size:0.82em;
+            font-size:0.75em;
         }
-        .emoji-btn:hover{background:rgba(255,255,255,0.12);transform:scale(1.08);}
+        .emoji-btn:hover{background:rgba(255,255,255,0.12);transform:scale(1.1);}
         .emoji-btn.voted{background:rgba(255,70,85,0.2);border-color:rgba(255,70,85,0.4);}
-        .emoji-btn .em{font-size:1.1em;}
-        .emoji-btn .emoji-count{color:#888;font-size:0.85em;min-width:8px;text-align:center;}
+        .emoji-btn .em{font-size:0.95em;line-height:1;}
+        .emoji-btn .emoji-count{color:#888;font-size:0.8em;min-width:0;}
+        .foot-sep{color:rgba(255,255,255,0.1);font-size:0.7em;flex-shrink:0;}
 
         /* LIVE RANKINGS – 100% COMO ANTES */
         .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
@@ -563,12 +565,10 @@
             copy: `<svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>`
         };
 
-        // === EMOJIS CONFIG ===
+        // === EMOJIS CONFIG (solo 4) ===
         const emojiList = [
             {key: 'fire', em: '🔥'},
             {key: 'goat', em: '🐐'},
-            {key: 'trophy', em: '🏆'},
-            {key: 'wow', em: '😮'},
             {key: 'clap', em: '👏'},
             {key: 'eyes', em: '👀'}
         ];
@@ -576,28 +576,44 @@
         // Cache local de votos del usuario (para saber si ya votó)
         let misVotos = JSON.parse(localStorage.getItem('nbapp_votos') || '{}');
 
-        function shareMove(texto, plataforma) {
+        function shareMove(texto, plataforma, timestamp, imagenUrl) {
             const url = "https://topdatanba1.github.io/nbapp/";
             const textoLimpio = texto.replace(/<[^>]*>/g, '');
+            const fullImageUrl = imagenUrl ? `https://topdatanba1.github.io/nbapp/${imagenUrl}` : '';
+            
+            // Registrar share en Firebase
+            const nid = notifId(timestamp);
+            const jugador = document.querySelector(`[data-nid="${nid}"]`)?.dataset?.player;
+            if (jugador) {
+                const jugadorKey = jugador.replace(/[.#$\[\]\/]/g, '_');
+                db.ref(`shares/${nid}/${plataforma}`).transaction(c => (c || 0) + 1);
+                db.ref(`jugadores/${jugadorKey}/shares_${plataforma}`).transaction(c => (c || 0) + 1);
+            }
             
             switch(plataforma) {
                 case 'x':
-                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(textoLimpio)}&url=${encodeURIComponent(url)}`, '_blank');
+                    // X soporta imágenes a través de Twitter Cards (necesita meta tags) pero podemos adjuntar la URL de la imagen
+                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(textoLimpio + (fullImageUrl ? '\n' + fullImageUrl : ''))}&url=${encodeURIComponent(url)}`, '_blank');
                     break;
                 case 'whatsapp':
-                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + url)}`, '_blank');
+                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + (fullImageUrl || url))}`, '_blank');
                     break;
                 case 'facebook':
-                    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    // Facebook necesita og:tags para mostrar preview. Compartimos con la URL de la imagen directamente
+                    if (fullImageUrl) {
+                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullImageUrl)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    } else {
+                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    }
                     break;
                 case 'telegram':
-                    window.open(`https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    window.open(`https://t.me/share/url?url=${encodeURIComponent(fullImageUrl || url)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'reddit':
-                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(fullImageUrl || url)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'copy':
-                    navigator.clipboard.writeText(textoLimpio + '\n' + url).then(() => {
+                    navigator.clipboard.writeText(textoLimpio + '\n' + (fullImageUrl || url)).then(() => {
                         const btn = event.target.closest('.share-btn');
                         btn.classList.add('copied');
                         setTimeout(() => btn.classList.remove('copied'), 1500);
@@ -672,20 +688,21 @@
             });
         }
 
-        function makeFooter(texto, cuando, timestamp) {
+        function makeFooter(texto, cuando, timestamp, imagenUrl) {
             const t = texto.replace(/'/g, "\\'").replace(/"/g, '&quot;');
             const jugador = extraerJugador(texto) || '';
             const jugadorSafe = jugador.replace(/'/g, "\\'");
             const nid = notifId(timestamp);
+            const img = imagenUrl ? imagenUrl.replace(/'/g, "\\'") : '';
             
             const shareBtns = [
-                {net:'x', icon: shareIcons.x, title:'Share on X'},
-                {net:'whatsapp', icon: shareIcons.whatsapp, title:'Share on WhatsApp'},
-                {net:'facebook', icon: shareIcons.facebook, title:'Share on Facebook'},
-                {net:'telegram', icon: shareIcons.telegram, title:'Share on Telegram'},
-                {net:'reddit', icon: shareIcons.reddit, title:'Share on Reddit'},
-                {net:'copy', icon: shareIcons.copy, title:'Copy text'}
-            ].map(s => `<button class="share-btn" data-net="${s.net}" onclick="shareMove('${t}','${s.net}')" title="${s.title}">${s.icon}</button>`).join('');
+                {net:'x', icon: shareIcons.x, title:'X'},
+                {net:'whatsapp', icon: shareIcons.whatsapp, title:'WhatsApp'},
+                {net:'facebook', icon: shareIcons.facebook, title:'Facebook'},
+                {net:'telegram', icon: shareIcons.telegram, title:'Telegram'},
+                {net:'reddit', icon: shareIcons.reddit, title:'Reddit'},
+                {net:'copy', icon: shareIcons.copy, title:'Copy'}
+            ].map(s => `<button class="share-btn" data-net="${s.net}" onclick="shareMove('${t}','${s.net}',${timestamp},'${img}')" title="${s.title}">${s.icon}</button>`).join('');
             
             const emojiBtns = emojiList.map(e => 
                 `<button class="emoji-btn" data-emoji="${e.key}" onclick="votarEmoji(${timestamp},'${e.key}')"><span class="em">${e.em}</span><span class="emoji-count"></span></button>`
@@ -693,7 +710,9 @@
             
             return `<div class="move-footer" data-nid="${nid}" data-player="${jugadorSafe}">
                 <div class="emoji-bar">${emojiBtns}</div>
+                <span class="foot-sep">│</span>
                 <div class="move-time">${cuando}</div>
+                <span class="foot-sep">│</span>
                 <div class="share-btns">${shareBtns}</div>
             </div>`;
         }
@@ -718,7 +737,7 @@
                             return `
                                 <div class="move-item">
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
 
@@ -730,7 +749,7 @@
                                         <img src="${fotos[0]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
 
@@ -743,7 +762,7 @@
                                         <img src="${fotos[1]}" />
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
 
@@ -759,7 +778,7 @@
                                         </div>
                                     </div>
                                     <div class="move-text">${texto}</div>
-                                    ${makeFooter(texto, cuando, n.timestamp)}
+                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
 
@@ -770,7 +789,7 @@
                                     ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                                 </div>
                                 <div class="move-text">${texto}</div>
-                                ${makeFooter(texto, cuando, n.timestamp)}
+                                ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                             </div>`;
                     }).join('');
                     
