@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP DATA NBA LIVE</title>
+    <!-- Open Graph / Facebook / X -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://topdatanba1.github.io/nbapp/">
+    <meta property="og:title" content="Top Data NBApp - Live NBA All-Time Rankings">
+    <meta property="og:description" content="Track every move in the NBA all-time rankings as it happens. Points, rebounds, assists, steals, blocks and more.">
+    <meta property="og:image" content="https://topdatanba1.github.io/nbapp/logo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Top Data NBApp - Live NBA All-Time Rankings">
+    <meta name="twitter:description" content="Track every move in the NBA all-time rankings as it happens.">
+    <meta name="twitter:image" content="https://topdatanba1.github.io/nbapp/logo.jpg">
     <link rel="manifest" href="/nbapp/manifest.json" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -16,34 +26,39 @@
             display:grid;
             grid-template-columns: auto 1fr auto;
             align-items:center;
-            padding:12px 20px;
+            padding:8px 8px;
             background:rgba(0,0,0,0.9);
             border-bottom:3px solid #ff4655;
+            gap:4px;
         }
 
         .topbar-left{
             display:flex;
             align-items:center;
+            justify-content:flex-start;
         }
 
         .logo-img{
-            height:56px;
+            height:46px;
         }
 
         .topbar-center{
             text-align:center;
+            overflow:hidden;
         }
 
         .nbapp{
             font-family:'Orbitron',sans-serif;
-            font-size:2.1em;
+            font-size:clamp(1em, 4.5vw, 2.1em);
             color:#ff4655;
             text-shadow:0 0 10px #ff4655;
+            white-space:nowrap;
         }
 
         .topbar-right{
             display:flex;
             align-items:center;
+            justify-content:flex-end;
             cursor:pointer;
         }
 
@@ -82,25 +97,24 @@
         .move-photos img{width:78px;height:78px;border-radius:50%;object-fit:cover;border:4px solid #ff4655;box-shadow:0 0 15px rgba(255,70,85,0.6);}
         .move-text{font-size:1.01em;line-height:1.52;color:#e0e0e0;text-align:center;}
         .move-text strong{color:#ffaa00;font-weight:700;}
-        .move-time{color:#888;font-size:0.89em;text-align:center;margin-top:10px;font-style:italic;}
+        .move-time{color:#888;font-size:0.85em;font-style:italic;}
 
-        /* SHARE & REACTIONS - TODO EN UNA LÍNEA */
-        .move-footer{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px;flex-wrap:nowrap;}
-        .move-footer .move-time{margin:0;white-space:nowrap;font-size:0.78em;}
-        .share-btns{display:flex;gap:3px;flex-shrink:0;}
+        /* EMOJIS + SHARE EN UNA LÍNEA */
+        .move-footer{display:flex;align-items:center;justify-content:center;gap:5px;margin-top:8px;flex-wrap:nowrap;}
+        .share-btns{display:flex;gap:4px;flex-shrink:0;}
         .share-btn{
             all:unset;
-            width:22px;height:22px;
+            width:26px;height:26px;
             display:flex;align-items:center;justify-content:center;
             border-radius:50%;
-            background:rgba(255,255,255,0.06);
+            background:rgba(255,255,255,0.07);
             cursor:pointer;
             transition:0.25s;
-            opacity:0.4;
+            opacity:0.45;
             flex-shrink:0;
         }
         .share-btn:hover{opacity:1;transform:scale(1.15);}
-        .share-btn svg{width:11px;height:11px;fill:#e0e0e0;}
+        .share-btn svg{width:13px;height:13px;fill:#e0e0e0;}
         .share-btn.copied{opacity:1;background:rgba(85,255,85,0.25);}
         .share-btn.copied svg{fill:#55ff55;}
         .share-btn[data-net="x"]:hover{background:rgba(0,0,0,0.5);}
@@ -110,24 +124,31 @@
         .share-btn[data-net="reddit"]:hover{background:rgba(255,69,0,0.25);}
         .share-btn[data-net="copy"]:hover{background:rgba(255,255,255,0.15);}
 
-        /* EMOJI REACTIONS - COMPACTOS */
-        .emoji-bar{display:flex;gap:2px;flex-shrink:0;}
+        /* EMOJI REACTIONS */
+        .emoji-bar{display:flex;gap:3px;flex-shrink:0;}
         .emoji-btn{
             all:unset;
-            display:flex;align-items:center;gap:1px;
-            padding:2px 5px;
-            border-radius:12px;
+            display:flex;align-items:center;gap:2px;
+            padding:3px 6px;
+            border-radius:14px;
             background:rgba(255,255,255,0.05);
             border:1px solid rgba(255,255,255,0.08);
             cursor:pointer;
             transition:0.25s;
-            font-size:0.75em;
+            font-size:0.82em;
         }
         .emoji-btn:hover{background:rgba(255,255,255,0.12);transform:scale(1.1);}
         .emoji-btn.voted{background:rgba(255,70,85,0.2);border-color:rgba(255,70,85,0.4);}
-        .emoji-btn .em{font-size:0.95em;line-height:1;}
+        .emoji-btn .em{font-size:1em;line-height:1;}
         .emoji-btn .emoji-count{color:#888;font-size:0.8em;min-width:0;}
-        .foot-sep{color:rgba(255,255,255,0.1);font-size:0.7em;flex-shrink:0;}
+        .foot-sep{color:rgba(255,255,255,0.12);font-size:0.8em;flex-shrink:0;}
+
+        @media(max-width:400px){
+            .share-btn{width:23px;height:23px;}
+            .share-btn svg{width:11px;height:11px;}
+            .emoji-btn{padding:2px 4px;font-size:0.75em;}
+            .move-footer{gap:3px;}
+        }
 
         /* LIVE RANKINGS – 100% COMO ANTES */
         .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
@@ -577,9 +598,10 @@
         let misVotos = JSON.parse(localStorage.getItem('nbapp_votos') || '{}');
 
         function shareMove(texto, plataforma, timestamp, imagenUrl) {
-            const url = "https://topdatanba1.github.io/nbapp/";
+            const siteUrl = "https://topdatanba1.github.io/nbapp/";
             const textoLimpio = texto.replace(/<[^>]*>/g, '');
-            const fullImageUrl = imagenUrl ? `https://topdatanba1.github.io/nbapp/${imagenUrl}` : '';
+            const fullImageUrl = imagenUrl ? (imagenUrl.startsWith('http') ? imagenUrl : `https://topdatanba1.github.io/nbapp/${imagenUrl}`) : '';
+            const shareText = textoLimpio + '\n📊 topdatanba1.github.io/nbapp';
             
             // Registrar share en Firebase
             const nid = notifId(timestamp);
@@ -592,28 +614,32 @@
             
             switch(plataforma) {
                 case 'x':
-                    // X soporta imágenes a través de Twitter Cards (necesita meta tags) pero podemos adjuntar la URL de la imagen
-                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(textoLimpio + (fullImageUrl ? '\n' + fullImageUrl : ''))}&url=${encodeURIComponent(url)}`, '_blank');
+                    // X: texto + URL del sitio. X genera preview con og:tags del sitio
+                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`, '_blank');
                     break;
                 case 'whatsapp':
-                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + (fullImageUrl || url))}`, '_blank');
+                    // WhatsApp: texto + enlace. Si enlazamos a la imagen directamente, WhatsApp la previsualiza
+                    const waUrl = fullImageUrl || siteUrl;
+                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + waUrl)}`, '_blank');
                     break;
                 case 'facebook':
-                    // Facebook necesita og:tags para mostrar preview. Compartimos con la URL de la imagen directamente
-                    if (fullImageUrl) {
-                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullImageUrl)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
-                    } else {
-                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(textoLimpio)}`, '_blank');
-                    }
+                    // Facebook: compartir la URL del sitio (usa og:tags para preview)
+                    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}&hashtag=${encodeURIComponent('#NBA')}`, '_blank');
                     break;
                 case 'telegram':
-                    window.open(`https://t.me/share/url?url=${encodeURIComponent(fullImageUrl || url)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    // Telegram: texto + enlace directo a imagen (Telegram renderiza la imagen inline)
+                    const tgUrl = fullImageUrl || siteUrl;
+                    window.open(`https://t.me/share/url?url=${encodeURIComponent(tgUrl)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'reddit':
-                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(fullImageUrl || url)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    // Reddit: link post con la URL de la imagen o del sitio
+                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(fullImageUrl || siteUrl)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'copy':
-                    navigator.clipboard.writeText(textoLimpio + '\n' + (fullImageUrl || url)).then(() => {
+                    const copyText = fullImageUrl 
+                        ? textoLimpio + '\n' + fullImageUrl + '\n' + siteUrl
+                        : textoLimpio + '\n' + siteUrl;
+                    navigator.clipboard.writeText(copyText).then(() => {
                         const btn = event.target.closest('.share-btn');
                         btn.classList.add('copied');
                         setTimeout(() => btn.classList.remove('copied'), 1500);
@@ -711,8 +737,6 @@
             return `<div class="move-footer" data-nid="${nid}" data-player="${jugadorSafe}">
                 <div class="emoji-bar">${emojiBtns}</div>
                 <span class="foot-sep">│</span>
-                <div class="move-time">${cuando}</div>
-                <span class="foot-sep">│</span>
                 <div class="share-btns">${shareBtns}</div>
             </div>`;
         }
@@ -736,7 +760,7 @@
                         if (fotos.length === 0) {
                             return `
                                 <div class="move-item">
-                                    <div class="move-text">${texto}</div>
+                                    <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
                                     ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
@@ -748,7 +772,7 @@
                                     <div class="collage c1">
                                         <img src="${fotos[0]}" />
                                     </div>
-                                    <div class="move-text">${texto}</div>
+                                    <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
                                     ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
@@ -761,7 +785,7 @@
                                         <img src="${fotos[0]}" />
                                         <img src="${fotos[1]}" />
                                     </div>
-                                    <div class="move-text">${texto}</div>
+                                    <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
                                     ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
@@ -777,7 +801,7 @@
                                             <img src="${fotos[2]}" />
                                         </div>
                                     </div>
-                                    <div class="move-text">${texto}</div>
+                                    <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
                                     ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                                 </div>`;
                         }
@@ -788,7 +812,7 @@
                                 <div class="collage c4">
                                     ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                                 </div>
-                                <div class="move-text">${texto}</div>
+                                <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
                                 ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
                             </div>`;
                     }).join('');
