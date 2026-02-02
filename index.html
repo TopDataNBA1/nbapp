@@ -597,11 +597,9 @@
         // Cache local de votos del usuario (para saber si ya votó)
         let misVotos = JSON.parse(localStorage.getItem('nbapp_votos') || '{}');
 
-        function shareMove(texto, plataforma, timestamp, imagenUrl) {
+        function shareMove(texto, plataforma, timestamp) {
             const siteUrl = "https://topdatanba1.github.io/nbapp/";
             const textoLimpio = texto.replace(/<[^>]*>/g, '');
-            const fullImageUrl = imagenUrl ? (imagenUrl.startsWith('http') ? imagenUrl : `https://topdatanba1.github.io/nbapp/${imagenUrl}`) : '';
-            const shareText = textoLimpio + '\n📊 topdatanba1.github.io/nbapp';
             
             // Registrar share en Firebase
             const nid = notifId(timestamp);
@@ -612,34 +610,26 @@
                 db.ref(`jugadores/${jugadorKey}/shares_${plataforma}`).transaction(c => (c || 0) + 1);
             }
             
+            const msg = textoLimpio + '\n📊 ' + siteUrl;
+            
             switch(plataforma) {
                 case 'x':
-                    // X: texto + URL del sitio. X genera preview con og:tags del sitio
-                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`, '_blank');
+                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(msg)}`, '_blank');
                     break;
                 case 'whatsapp':
-                    // WhatsApp: texto + enlace. Si enlazamos a la imagen directamente, WhatsApp la previsualiza
-                    const waUrl = fullImageUrl || siteUrl;
-                    window.open(`https://wa.me/?text=${encodeURIComponent(textoLimpio + '\n' + waUrl)}`, '_blank');
+                    window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, '_blank');
                     break;
                 case 'facebook':
-                    // Facebook: compartir la URL del sitio (usa og:tags para preview)
                     window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}&hashtag=${encodeURIComponent('#NBA')}`, '_blank');
                     break;
                 case 'telegram':
-                    // Telegram: texto + enlace directo a imagen (Telegram renderiza la imagen inline)
-                    const tgUrl = fullImageUrl || siteUrl;
-                    window.open(`https://t.me/share/url?url=${encodeURIComponent(tgUrl)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    window.open(`https://t.me/share/url?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'reddit':
-                    // Reddit: link post con la URL de la imagen o del sitio
-                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(fullImageUrl || siteUrl)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
+                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(siteUrl)}&title=${encodeURIComponent(textoLimpio)}`, '_blank');
                     break;
                 case 'copy':
-                    const copyText = fullImageUrl 
-                        ? textoLimpio + '\n' + fullImageUrl + '\n' + siteUrl
-                        : textoLimpio + '\n' + siteUrl;
-                    navigator.clipboard.writeText(copyText).then(() => {
+                    navigator.clipboard.writeText(msg).then(() => {
                         const btn = event.target.closest('.share-btn');
                         btn.classList.add('copied');
                         setTimeout(() => btn.classList.remove('copied'), 1500);
@@ -714,12 +704,11 @@
             });
         }
 
-        function makeFooter(texto, cuando, timestamp, imagenUrl) {
+        function makeFooter(texto, cuando, timestamp) {
             const t = texto.replace(/'/g, "\\'").replace(/"/g, '&quot;');
             const jugador = extraerJugador(texto) || '';
             const jugadorSafe = jugador.replace(/'/g, "\\'");
             const nid = notifId(timestamp);
-            const img = imagenUrl ? imagenUrl.replace(/'/g, "\\'") : '';
             
             const shareBtns = [
                 {net:'x', icon: shareIcons.x, title:'X'},
@@ -728,7 +717,7 @@
                 {net:'telegram', icon: shareIcons.telegram, title:'Telegram'},
                 {net:'reddit', icon: shareIcons.reddit, title:'Reddit'},
                 {net:'copy', icon: shareIcons.copy, title:'Copy'}
-            ].map(s => `<button class="share-btn" data-net="${s.net}" onclick="shareMove('${t}','${s.net}',${timestamp},'${img}')" title="${s.title}">${s.icon}</button>`).join('');
+            ].map(s => `<button class="share-btn" data-net="${s.net}" onclick="shareMove('${t}','${s.net}',${timestamp})" title="${s.title}">${s.icon}</button>`).join('');
             
             const emojiBtns = emojiList.map(e => 
                 `<button class="emoji-btn" data-emoji="${e.key}" onclick="votarEmoji(${timestamp},'${e.key}')"><span class="em">${e.em}</span><span class="emoji-count"></span></button>`
@@ -761,7 +750,7 @@
                             return `
                                 <div class="move-item">
                                     <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
+                                    ${makeFooter(texto, cuando, n.timestamp)}
                                 </div>`;
                         }
 
@@ -773,7 +762,7 @@
                                         <img src="${fotos[0]}" />
                                     </div>
                                     <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
+                                    ${makeFooter(texto, cuando, n.timestamp)}
                                 </div>`;
                         }
 
@@ -786,7 +775,7 @@
                                         <img src="${fotos[1]}" />
                                     </div>
                                     <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
+                                    ${makeFooter(texto, cuando, n.timestamp)}
                                 </div>`;
                         }
 
@@ -802,7 +791,7 @@
                                         </div>
                                     </div>
                                     <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                    ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
+                                    ${makeFooter(texto, cuando, n.timestamp)}
                                 </div>`;
                         }
 
@@ -813,7 +802,7 @@
                                     ${fotos.slice(0,4).map(f=>`<img src="${f}" />`).join("")}
                                 </div>
                                 <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                ${makeFooter(texto, cuando, n.timestamp, fotos[0] || '')}
+                                ${makeFooter(texto, cuando, n.timestamp)}
                             </div>`;
                     }).join('');
                     
