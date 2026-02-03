@@ -59,7 +59,22 @@
             display:flex;
             align-items:center;
             justify-content:flex-end;
+            gap:12px;
+        }
+
+        .topbar-icon{
+            width:26px;
+            height:26px;
+            fill:none;
+            stroke:#e0e0e0;
+            stroke-width:1.8;
+            transition:0.25s;
             cursor:pointer;
+        }
+
+        .topbar-icon:hover{
+            stroke:#ff4655;
+            filter:drop-shadow(0 0 6px #ff4655);
         }
 
         .notif-icon{
@@ -381,11 +396,20 @@
             <div class="nbapp">Top Data NBApp</div>
         </div>
 
-        <div class="topbar-right" onclick="openFilters()">
-            <!-- icono SVG esquemático -->
-            <svg class="notif-icon" viewBox="0 0 24 24">
-                <path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6V11a6 6 0 1 0-12 0v5l-2 2v1h16v-1l-2-2z"/>
-            </svg>
+        <div class="topbar-right">
+            <!-- icono de email/feedback -->
+            <a href="mailto:topdatanba@gmail.com?subject=NBApp%20Feedback&body=Bugs%3F%20Suggestions%3F%20Compliments%3F%20Write%20here%20and%20thanks!%0A%0A" title="Send Feedback">
+                <svg class="topbar-icon" viewBox="0 0 24 24">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+            <!-- icono de campanita/filtros -->
+            <div onclick="openFilters()">
+                <svg class="notif-icon topbar-icon" viewBox="0 0 24 24">
+                    <path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6V11a6 6 0 1 0-12 0v5l-2 2v1h16v-1l-2-2z"/>
+                </svg>
+            </div>
         </div>
     </div>           
 
