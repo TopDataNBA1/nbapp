@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:56",
+    "ultima_actualizacion": "04:38:31",
     "tablas": {
         "trb": [
             {
@@ -546,7 +546,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 241,
+                "Rank": 240,
+                "Nombre": "Tyrese Maxey",
+                "Team": "PHI",
+                "Hoy": 4,
+                "Total": 857,
+                "Diff": "2",
+                "Antece": "Avery Bradley",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 242,
                 "Nombre": "Tyrese Haliburton",
                 "Team": "IND",
                 "Hoy": 0,
@@ -555,17 +566,6 @@
                 "Antece": "Myles Turner",
                 "Nota": "Mismo total",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 242,
-                "Nombre": "Tyrese Maxey",
-                "Team": "PHI",
-                "Hoy": 3,
-                "Total": 856,
-                "Diff": "",
-                "Antece": "Tyrese Haliburton",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 249,
@@ -1139,13 +1139,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nikola Jokic (3 steals today) has passed Jason Richardson and is now ranked 187th all-time with 996.",
-            "foto": [
-                "collages/1769830531_collage_1769830531.png"
-            ],
-            "timestamp": 1769830531
-        },
         {
             "texto": "Royce O'Neale (3 three-pointers today) has passed Allen Iverson and is now ranked 156th all-time with 1,060.",
             "foto": [
@@ -1830,7 +1823,14 @@
                 "collages/1770089348_collage_1770089347.png"
             ],
             "timestamp": 1770089348
+        },
+        {
+            "texto": "Tyrese Maxey (4 three-pointers today) has passed Myles Turner and Tyrese Haliburton and is now ranked 240th all-time with 857.",
+            "foto": [
+                "collages/1770089911_collage_1770089911.png"
+            ],
+            "timestamp": 1770089911
         }
     ],
-    "cache_buster": 1770089876
+    "cache_buster": 1770089911
 }
