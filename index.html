@@ -550,9 +550,9 @@
                     <span style="color:#888">not started</span>
                 </div>
                 <div class="filters-teams">
-                    <button class="filter-btn active" data-filter-teams="all">All</button>
-                    <button class="filter-btn" data-filter-teams="top10">Top 10</button>
-                    <select id="team-select" class="team-select">
+                    <button class="filter-btn active" data-filter-teams="all" onclick="filterTeams('all', this)">All</button>
+                    <button class="filter-btn" data-filter-teams="top10" onclick="filterTeams('top10', this)">Top 10</button>
+                    <select id="team-select" class="team-select" onchange="updateTeamsPage()">
                         <option value="all">All Teams</option>
                         <option value="ATL">Atlanta Hawks</option>
                         <option value="BOS">Boston Celtics</option>
@@ -585,8 +585,8 @@
                         <option value="UTA">Utah Jazz</option>
                         <option value="WAS">Washington Wizards</option>
                     </select>
-                    <button class="filter-btn" data-filter-teams="playing">Playing</button>
-                    <button class="filter-btn" data-filter-teams="almost">Next?</button>
+                    <button class="filter-btn" data-filter-teams="playing" onclick="filterTeams('playing', this)">Playing</button>
+                    <button class="filter-btn" data-filter-teams="almost" onclick="filterTeams('almost', this)">Next?</button>
                 </div>
                 <div id="teams-tables"></div>
             </div>
@@ -1118,12 +1118,14 @@
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
                             const statAbbr = row.Stat || '';
+                            const isInactive = (gameStatus === 'inactive');
                             
                             const near = ['0','1','2','3'];
-                            const mustBlink = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff);
+                            const mustBlink = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
 
                             let todayStyle = '';
-                            if (gameStatus === 'finished') todayStyle = 'color:white';
+                            if (isInactive) todayStyle = 'color:#ff5555';  // rojo para inactivos
+                            else if (gameStatus === 'finished') todayStyle = 'color:white';
                             else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
                             else todayStyle = 'color:#888';
 
@@ -1163,24 +1165,17 @@
             };
         }
 
-        // Event listeners para filtros de Teams (usar timeout para asegurar que el DOM está listo)
-        setTimeout(() => {
-            document.querySelectorAll('[data-filter-teams]').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    const filter = this.getAttribute('data-filter-teams');
-                    if (filter === 'all') {
-                        document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
-                        this.classList.add('active');
-                    } else {
-                        document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
-                        this.classList.toggle('active');
-                    }
-                    updateTeamsPage();
-                });
-            });
-
-            document.getElementById('team-select')?.addEventListener('change', updateTeamsPage);
-        }, 100);      
+        // Función para filtros de Teams
+        function filterTeams(filter, btn) {
+            if (filter === 'all') {
+                document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            } else {
+                document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
+                btn.classList.toggle('active');
+            }
+            updateTeamsPage();
+        }      
 
         function getPlayerId(name) {
             const ids = {
