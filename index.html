@@ -108,8 +108,24 @@
         .tab-btn{flex:1;padding:12px 8px;font-family:'Orbitron',sans-serif;font-size:1.1em;color:white;background:rgba(255,70,85,0.2);border:none;cursor:pointer;transition:0.3s;}
         .tab-btn:hover{background:rgba(255,70,85,0.4);}
         
-        .tab-content-franchise{display:none;}
-        .tab-content-franchise.active{display:block;}
+        .tab-content-teams{display:none;}
+        .tab-content-teams.active{display:block;}
+
+        /* Filtros Teams */
+        .filters-teams{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;flex-wrap:wrap;}
+        .team-select{
+            padding:6px 12px;
+            background:rgba(255,70,85,0.25);
+            border:1px solid #ff4655;
+            border-radius:6px;
+            font-family:'Orbitron',sans-serif;
+            font-size:0.86em;
+            color:#e0e0e0;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        .team-select:focus{outline:none;box-shadow:0 0 10px #ff4655;}
+        .team-select option{background:#1a1a2e;color:#e0e0e0;}
         .tab-btn.active{background:#ff4655;box-shadow:0 0 12px #ff4655;}
 
         .tab-content{display:none;background:rgba(20,20,40,0.97);padding:10px;border-radius:0 0 10px 10px;}
@@ -279,6 +295,38 @@
             inset 0 0 30px rgba(255,255,255,0.03);
     }
 
+    /* SCOPE TABS (Global / Teams) */
+    .scope-tabs{
+        display:flex;
+        gap:0;
+        margin-bottom:18px;
+        border-radius:10px;
+        overflow:hidden;
+        border:2px solid #ff4655;
+    }
+    .scope-tab{
+        flex:1;
+        padding:12px 8px;
+        font-family:'Orbitron',sans-serif;
+        font-size:1em;
+        color:#e0e0e0;
+        background:rgba(255,70,85,0.15);
+        border:none;
+        cursor:pointer;
+        transition:0.3s;
+    }
+    .scope-tab:hover{background:rgba(255,70,85,0.3);}
+    .scope-tab.active{
+        background:#ff4655;
+        color:white;
+        font-weight:bold;
+        box-shadow:0 0 15px rgba(255,70,85,0.5);
+    }
+
+    /* SCOPE FILTERS (show/hide) */
+    .scope-filters{display:none;}
+    .scope-filters.active{display:block;}
+
     /* FILTER GROUP (NOTIFICATIONS PANEL ONLY) */
     .filter-group{
         margin-bottom:16px;
@@ -430,10 +478,10 @@
         <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
     </div>
 
-    <!-- PESTAÑAS PRINCIPALES: GLOBAL / FRANCHISE -->
+    <!-- PESTAÑAS PRINCIPALES: GLOBAL / TEAMS -->
     <div class="main-tabs">
         <button class="main-tab-btn active" onclick="openMainTab('global')">🌍 Global</button>
-        <button class="main-tab-btn" onclick="openMainTab('franchise')">🏀 Franchise</button>
+        <button class="main-tab-btn" onclick="openMainTab('teams')">🏀 Teams</button>
     </div>
 
     <!-- ==================== GLOBAL ==================== -->
@@ -475,47 +523,86 @@
     </div>
     </div> <!-- FIN GLOBAL -->
 
-    <!-- ==================== FRANCHISE ==================== -->
-    <div id="franchise" class="main-tab-content">
+    <!-- ==================== TEAMS ==================== -->
+    <div id="teams" class="main-tab-content">
         <div class="tabs">
-            <button class="tab-btn active" onclick="openTabFranchise('franchise-moves')">Latest Moves</button>
-            <button class="tab-btn" onclick="openTabFranchise('franchise-live')">Live Rankings</button>
+            <button class="tab-btn active" onclick="openTabTeams('teams-moves')">Latest Moves</button>
+            <button class="tab-btn" onclick="openTabTeams('teams-live')">Live Rankings</button>
         </div>
 
-        <!-- LATEST MOVES FRANCHISE -->
-        <div id="franchise-moves" class="tab-content-franchise active">
+        <!-- LATEST MOVES TEAMS -->
+        <div id="teams-moves" class="tab-content-teams active">
             <div class="container">
                 <div class="moves-area">
                     <div class="moves-list">
-                        <div id="franchise-moves-list"></div>
+                        <div id="teams-moves-list"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- LIVE RANKINGS FRANCHISE (próximamente) -->
-        <div id="franchise-live" class="tab-content-franchise">
+        <!-- LIVE RANKINGS TEAMS -->
+        <div id="teams-live" class="tab-content-teams">
             <div class="container">
                 <div class="leyenda">
-                    Franchise rankings - Top 25 per team
+                    Today column: <span style="color:white">game finished</span> • 
+                    <span style="color:#ffaa00;text-shadow:0 0 8px #ffaa00">playing now</span> • 
+                    <span style="color:#888">not started</span>
                 </div>
-                <div id="franchise-tables">
-                    <p style="text-align:center;color:#888;padding:40px;">Coming soon...</p>
+                <div class="filters-teams">
+                    <button class="filter-btn active" data-filter-teams="all">All</button>
+                    <button class="filter-btn" data-filter-teams="top10">Top 10</button>
+                    <select id="team-select" class="team-select">
+                        <option value="all">All Teams</option>
+                        <option value="ATL">Atlanta Hawks</option>
+                        <option value="BOS">Boston Celtics</option>
+                        <option value="NJN">Brooklyn Nets</option>
+                        <option value="CHA">Charlotte Hornets</option>
+                        <option value="CHI">Chicago Bulls</option>
+                        <option value="CLE">Cleveland Cavaliers</option>
+                        <option value="DAL">Dallas Mavericks</option>
+                        <option value="DEN">Denver Nuggets</option>
+                        <option value="DET">Detroit Pistons</option>
+                        <option value="GSW">Golden State Warriors</option>
+                        <option value="HOU">Houston Rockets</option>
+                        <option value="IND">Indiana Pacers</option>
+                        <option value="LAC">LA Clippers</option>
+                        <option value="LAL">LA Lakers</option>
+                        <option value="MEM">Memphis Grizzlies</option>
+                        <option value="MIA">Miami Heat</option>
+                        <option value="MIL">Milwaukee Bucks</option>
+                        <option value="MIN">Minnesota Timberwolves</option>
+                        <option value="NOH">New Orleans Pelicans</option>
+                        <option value="NYK">New York Knicks</option>
+                        <option value="OKC">Oklahoma City Thunder</option>
+                        <option value="ORL">Orlando Magic</option>
+                        <option value="PHI">Philadelphia 76ers</option>
+                        <option value="PHO">Phoenix Suns</option>
+                        <option value="POR">Portland Trail Blazers</option>
+                        <option value="SAC">Sacramento Kings</option>
+                        <option value="SAS">San Antonio Spurs</option>
+                        <option value="TOR">Toronto Raptors</option>
+                        <option value="UTA">Utah Jazz</option>
+                        <option value="WAS">Washington Wizards</option>
+                    </select>
+                    <button class="filter-btn" data-filter-teams="playing">Playing</button>
+                    <button class="filter-btn" data-filter-teams="almost">Next?</button>
                 </div>
+                <div id="teams-tables"></div>
             </div>
         </div>
-    </div> <!-- FIN FRANCHISE -->
+    </div> <!-- FIN TEAMS -->
 
     <script>
-        // === MAIN TABS (Global / Franchise) ===
+        // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
             document.querySelectorAll('.main-tab-content').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
             document.querySelector(`.main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
             
-            if (tabName === 'franchise') {
-                updateFranchiseMoves();
+            if (tabName === 'teams') {
+                updateTeamsMoves();
             } else {
                 updateMoves();
             }
@@ -531,16 +618,28 @@
             if (tabName === 'telegram') updateMoves();
         }
 
-        // === SUB TABS FRANCHISE ===
-        function openTabFranchise(tabName) {
-            document.querySelectorAll('.tab-content-franchise').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('#franchise .tab-btn').forEach(b => b.classList.remove('active'));
+        // === SUB TABS TEAMS ===
+        function openTabTeams(tabName) {
+            document.querySelectorAll('.tab-content-teams').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('#teams .tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
-            document.querySelector(`#franchise button[onclick="openTabFranchise('${tabName}')"]`).classList.add('active');
-            if (tabName === 'franchise-moves') updateFranchiseMoves();
+            document.querySelector(`#teams button[onclick="openTabTeams('${tabName}')"]`).classList.add('active');
+            if (tabName === 'teams-moves') updateTeamsMoves();
+            if (tabName === 'teams-live') updateTeamsPage();
         }
 
         const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
+        
+        const teamFullNames = {
+            'ATL':'Atlanta Hawks','BOS':'Boston Celtics','NJN':'Brooklyn Nets','CHA':'Charlotte Hornets',
+            'CHI':'Chicago Bulls','CLE':'Cleveland Cavaliers','DAL':'Dallas Mavericks','DEN':'Denver Nuggets',
+            'DET':'Detroit Pistons','GSW':'Golden State Warriors','HOU':'Houston Rockets','IND':'Indiana Pacers',
+            'LAC':'LA Clippers','LAL':'LA Lakers','MEM':'Memphis Grizzlies','MIA':'Miami Heat',
+            'MIL':'Milwaukee Bucks','MIN':'Minnesota Timberwolves','NOH':'New Orleans Pelicans','NYK':'New York Knicks',
+            'OKC':'Oklahoma City Thunder','ORL':'Orlando Magic','PHI':'Philadelphia 76ers','PHO':'Phoenix Suns',
+            'POR':'Portland Trail Blazers','SAC':'Sacramento Kings','SAS':'San Antonio Spurs','TOR':'Toronto Raptors',
+            'UTA':'Utah Jazz','WAS':'Washington Wizards'
+        };
 
         function getTimes() {
             const now = new Date();
@@ -897,9 +996,9 @@
                 });
         }
 
-        // === UPDATE FRANCHISE MOVES ===
-        function updateFranchiseMoves() {
-            const list = document.getElementById('franchise-moves-list');
+        // === UPDATE TEAMS MOVES ===
+        function updateTeamsMoves() {
+            const list = document.getElementById('teams-moves-list');
             if (!list) return;
 
             fetch('data.json?v=' + new Date().getTime())
@@ -908,7 +1007,7 @@
                     const notis = (data.notificaciones_franchise || []).reverse();
 
                     if (notis.length === 0) {
-                        list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No franchise moves yet today...</div>';
+                        list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No team moves yet today...</div>';
                         return;
                     }
 
@@ -917,11 +1016,11 @@
                         const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
                         const team = n.team || "";
 
-                        // Franchise moves sin fotos por ahora
+                        // Teams moves sin fotos por ahora
                         return `
                             <div class="move-item">
                                 <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
-                                ${makeFooterFranchise(texto, cuando, n.timestamp, team)}
+                                ${makeFooterTeams(texto, cuando, n.timestamp, team)}
                             </div>`;
                     }).join('');
                     
@@ -936,8 +1035,8 @@
                 });
         }
 
-        // Footer simplificado para franchise (sin share por ahora)
-        function makeFooterFranchise(texto, cuando, timestamp, team) {
+        // Footer para Teams
+        function makeFooterTeams(texto, cuando, timestamp, team) {
             const t = texto.replace(/'/g, "\\'").replace(/"/g, '&quot;');
             const nid = notifId(timestamp);
             
@@ -952,7 +1051,134 @@
                 <span class="foot-sep">│</span>
                 <button class="share-btn" onclick="shareMove('${t}',${timestamp},this)" title="Share">${shareIcon}</button>
             </div>`;
-        }      
+        }
+
+        // === UPDATE TEAMS LIVE RANKINGS ===
+        function updateTeamsPage() {
+            const tablesDiv = document.getElementById('teams-tables');
+            if (!tablesDiv) return;
+
+            fetch('data.json?v=' + new Date().getTime())
+                .then(r => r.json())
+                .then(data => {
+                    const teamsData = data.tablas_teams || {};
+                    const filters = getTeamsFilters();
+                    
+                    if (Object.keys(teamsData).length === 0) {
+                        tablesDiv.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No active players in team rankings today...</div>';
+                        return;
+                    }
+
+                    tablesDiv.innerHTML = '';
+                    
+                    // Agrupar por equipo
+                    Object.entries(teamsData).forEach(([team, rows]) => {
+                        if (!rows || rows.length === 0) return;
+                        
+                        // Filtro por equipo
+                        if (filters.team !== 'all' && team !== filters.team) return;
+                        
+                        // Filtrar filas
+                        let filteredRows = rows.filter(row => {
+                            if (filters.top10 && row.Rank > 10) return false;
+                            if (filters.playing && row.game_status !== 'playing') return false;
+                            if (filters.almost) {
+                                const diff = parseInt(row.Diff) || 999;
+                                return diff <= 3;
+                            }
+                            return true;
+                        });
+                        
+                        if (filteredRows.length === 0) return;
+                        
+                        const card = document.createElement('div');
+                        card.className = 'stat-card';
+                        
+                        const teamName = teamFullNames[team] || team;
+                        card.innerHTML = `
+                            <div class="stat-header">${teamName}</div>
+                            <table class="stat-table">
+                                <thead>
+                                    <tr>
+                                        <th class="rank">#</th>
+                                        <th class="player">Player</th>
+                                        <th class="stat-col">Stat</th>
+                                        <th class="today">Today</th>
+                                        <th class="number">Total</th>
+                                        <th class="diff">Diff</th>
+                                        <th>Next</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>`;
+                        
+                        const tbody = card.querySelector('tbody');
+                        filteredRows.forEach(row => {
+                            const hoy = row.Hoy ?? 0;
+                            const diff = (row.Diff ?? '').toString().trim() || '0';
+                            const gameStatus = String(row.game_status || '').toLowerCase();
+                            const statAbbr = row.Stat || '';
+                            
+                            const near = ['0','1','2','3'];
+                            const mustBlink = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff);
+
+                            let todayStyle = '';
+                            if (gameStatus === 'finished') todayStyle = 'color:white';
+                            else if (gameStatus === 'playing') todayStyle = 'color:#ffaa00;font-weight:900;text-shadow:0 0 12px #ffaa00';
+                            else todayStyle = 'color:#888';
+
+                            const tr = document.createElement('tr');
+                            tr.innerHTML = `
+                                <td class="rank">${row.Rank}</td>
+                                <td class="player">${row.Nombre}</td>
+                                <td class="stat-col">${statAbbr}</td>
+                                <td class="today" style="${todayStyle}">${hoy}</td>
+                                <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
+                                <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
+                                <td>${row.Antece||'-'}</td>`;
+                            tbody.appendChild(tr);
+                        });
+                        
+                        tablesDiv.appendChild(card);
+                    });
+                    
+                    if (tablesDiv.innerHTML === '') {
+                        tablesDiv.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No players match the current filters...</div>';
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                    tablesDiv.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Error loading team rankings...</div>';
+                });
+        }
+
+        function getTeamsFilters() {
+            const teamSelect = document.getElementById('team-select');
+            return {
+                all: document.querySelector('[data-filter-teams="all"]')?.classList.contains('active'),
+                top10: document.querySelector('[data-filter-teams="top10"]')?.classList.contains('active'),
+                team: teamSelect ? teamSelect.value : 'all',
+                playing: document.querySelector('[data-filter-teams="playing"]')?.classList.contains('active'),
+                almost: document.querySelector('[data-filter-teams="almost"]')?.classList.contains('active')
+            };
+        }
+
+        // Event listeners para filtros de Teams
+        document.querySelectorAll('[data-filter-teams]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter-teams');
+                if (filter === 'all') {
+                    document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                } else {
+                    document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
+                    this.classList.toggle('active');
+                }
+                updateTeamsPage();
+            });
+        });
+
+        document.getElementById('team-select')?.addEventListener('change', updateTeamsPage);      
 
         function getPlayerId(name) {
             const ids = {
@@ -968,14 +1194,15 @@
 
         setInterval(() => {
             const globalActive = document.getElementById('global').classList.contains('active');
-            const franchiseActive = document.getElementById('franchise').classList.contains('active');
+            const teamsActive = document.getElementById('teams').classList.contains('active');
             
             if (globalActive) {
                 if (document.getElementById('telegram').classList.contains('active')) updateMoves();
                 if (document.getElementById('live').classList.contains('active')) updatePage();
             }
-            if (franchiseActive) {
-                if (document.getElementById('franchise-moves').classList.contains('active')) updateFranchiseMoves();
+            if (teamsActive) {
+                if (document.getElementById('teams-moves').classList.contains('active')) updateTeamsMoves();
+                if (document.getElementById('teams-live').classList.contains('active')) updateTeamsPage();
             }
         }, 25000);
 
@@ -1095,81 +1322,116 @@
 <!-- Overlay -->
 <div id="notif-overlay" class="hidden">
   <div id="notif-panel">
-    <!-- SCOPE (Global / Franchise) -->
-    <div class="filter-group">
-      <div class="filter-title">Scope</div>
-      <div class="filter-buttons" data-tag="scope">
-        <button data-value="ALL" class="active">All</button>
-        <button data-value="global">Global</button>
-        <button data-value="franchise">Franchise</button>
+    <!-- SCOPE TABS (diseño diferente, como pestañas) -->
+    <div class="scope-tabs">
+      <button class="scope-tab active" data-scope="global" onclick="switchNotifScope('global')">🌍 Global</button>
+      <button class="scope-tab" data-scope="teams" onclick="switchNotifScope('teams')">🏀 Teams</button>
+    </div>
+
+    <!-- ===== FILTROS GLOBAL ===== -->
+    <div id="filters-global" class="scope-filters active">
+      <div class="filter-group">
+        <div class="filter-title">Stats</div>
+        <div class="filter-buttons" data-tag="stat_global">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="PTS">PTS</button>
+          <button data-value="REB">REB</button>
+          <button data-value="AST">AST</button>
+          <button data-value="STL">STL</button>
+          <button data-value="BLK">BLK</button>
+          <button data-value="3PM">3PM</button>
+          <button data-value="GAMES">GAMES</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Teams</div>
+        <div class="filter-buttons teams-grid" data-tag="team_global">
+          <button data-value="ALL" class="active">All</button>
+          <button>ATL</button><button>BOS</button><button>BKN</button><button>CHA</button>
+          <button>CHI</button><button>CLE</button><button>DAL</button><button>DEN</button>
+          <button>DET</button><button>GSW</button><button>HOU</button><button>IND</button>
+          <button>LAC</button><button>LAL</button><button>MEM</button><button>MIA</button>
+          <button>MIL</button><button>MIN</button><button>NOP</button><button>NYK</button>
+          <button>OKC</button><button>ORL</button><button>PHI</button><button>PHX</button>
+          <button>POR</button><button>SAC</button><button>SAS</button><button>TOR</button>
+          <button>UTA</button><button>WAS</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Type</div>
+        <div class="filter-buttons" data-tag="alert_global">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="milestones">Milestones</button>
+          <button data-value="overtakes">Overtakes</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Ranking</div>
+        <div class="filter-buttons" data-tag="ranking_global">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="Top25">Top 25</button>
+          <button data-value="Top100">Top 100</button>
+        </div>
       </div>
     </div>
 
-    <!-- STATS -->
-    <div class="filter-group">
-      <div class="filter-title">Stats</div>
-      <div class="filter-buttons" data-tag="stat">
-        <button data-value="ALL" class="active">All</button>
-        <button data-value="PTS">PTS</button>
-        <button data-value="REB">REB</button>
-        <button data-value="AST">AST</button>
-        <button data-value="STL">STL</button>
-        <button data-value="BLK">BLK</button>
-        <button data-value="3PM">3PM</button>
-        <button data-value="GAMES">GAMES</button>
+    <!-- ===== FILTROS TEAMS ===== -->
+    <div id="filters-teams" class="scope-filters">
+      <div class="filter-group">
+        <div class="filter-title">Stats</div>
+        <div class="filter-buttons" data-tag="stat_teams">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="PTS">PTS</button>
+          <button data-value="REB">REB</button>
+          <button data-value="AST">AST</button>
+          <button data-value="STL">STL</button>
+          <button data-value="BLK">BLK</button>
+          <button data-value="3PM">3PM</button>
+          <button data-value="GAMES">GAMES</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Teams</div>
+        <div class="filter-buttons teams-grid" data-tag="team_teams">
+          <button data-value="ALL" class="active">All</button>
+          <button>ATL</button><button>BOS</button><button>BKN</button><button>CHA</button>
+          <button>CHI</button><button>CLE</button><button>DAL</button><button>DEN</button>
+          <button>DET</button><button>GSW</button><button>HOU</button><button>IND</button>
+          <button>LAC</button><button>LAL</button><button>MEM</button><button>MIA</button>
+          <button>MIL</button><button>MIN</button><button>NOP</button><button>NYK</button>
+          <button>OKC</button><button>ORL</button><button>PHI</button><button>PHX</button>
+          <button>POR</button><button>SAC</button><button>SAS</button><button>TOR</button>
+          <button>UTA</button><button>WAS</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Type</div>
+        <div class="filter-buttons" data-tag="alert_teams">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="milestones">Milestones</button>
+          <button data-value="overtakes">Overtakes</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Ranking</div>
+        <div class="filter-buttons" data-tag="ranking_teams">
+          <button data-value="ALL" class="active">All</button>
+          <button data-value="Top3">Top 3</button>
+          <button data-value="Top10">Top 10</button>
+        </div>
       </div>
     </div>
 
-    <!-- TEAMS -->
-    <div class="filter-group">
-      <div class="filter-title">Teams</div>
-      <div class="filter-buttons" data-tag="team">
-        <button data-value="ALL" class="active">All</button>
-        <button>ATL</button><button>BOS</button><button>BKN</button><button>CHA</button>
-        <button>CHI</button><button>CLE</button><button>DAL</button><button>DEN</button>
-        <button>DET</button><button>GSW</button><button>HOU</button><button>IND</button>
-        <button>LAC</button><button>LAL</button><button>MEM</button><button>MIA</button>
-        <button>MIL</button><button>MIN</button><button>NOP</button><button>NYK</button>
-        <button>OKC</button><button>ORL</button><button>PHI</button><button>PHX</button>
-        <button>POR</button><button>SAC</button><button>SAS</button><button>TOR</button>
-        <button>UTA</button><button>WAS</button>
-      </div>
-    </div>
-
-    <!-- ALERT TYPE -->
-    <div class="filter-group">
-      <div class="filter-title">Type</div>
-      <div class="filter-buttons" data-tag="alert">
-        <button data-value="ALL" class="active">All</button>
-        <button data-value="milestones">Milestones</button>
-        <button data-value="overtakes">Overtakes</button>
-      </div>
-    </div>
-
-    <!-- RANKING -->
-    <div class="filter-group">
-      <div class="filter-title">Ranking (Global)</div>
-      <div class="filter-buttons" data-tag="ranking">
-        <button data-value="ALL" class="active">All</button>
-        <button>Top25</button>
-        <button>Top100</button>
-      </div>
-    </div>
-
-    <!-- RANKING FRANCHISE -->
-    <div class="filter-group">
-      <div class="filter-title">Ranking (Franchise)</div>
-      <div class="filter-buttons" data-tag="ranking_franchise">
-        <button data-value="ALL" class="active">All</button>
-        <button>Top3</button>
-        <button>Top10</button>
-      </div>
-    </div>
-
-    <!-- DISABLE -->
+    <!-- DISABLE (común) -->
     <div class="filter-group">
       <button class="disable-btn" onclick="disableNotifications()">
-        Disable notifications
+        Disable all notifications
       </button>
     </div>
 
@@ -1177,6 +1439,17 @@
   </div>
 </div>
 <script>
+// === SWITCH ENTRE GLOBAL Y TEAMS EN PANEL DE NOTIFICACIONES ===
+function switchNotifScope(scope) {
+    // Cambiar pestañas activas
+    document.querySelectorAll('.scope-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector(`.scope-tab[data-scope="${scope}"]`).classList.add('active');
+    
+    // Mostrar/ocultar filtros correspondientes
+    document.querySelectorAll('.scope-filters').forEach(f => f.classList.remove('active'));
+    document.getElementById(`filters-${scope}`).classList.add('active');
+}
+
 async function openFilters(){
     const overlay = document.getElementById('notif-overlay');
     overlay.classList.remove('hidden');
@@ -1255,11 +1528,12 @@ function closeFilters(){
 </script>   
 <script>
 document.querySelectorAll('.filter-buttons').forEach(group=>{
-    const isExclusive = ['alert','ranking'].includes(group.dataset.tag);
+    const tag = group.dataset.tag || '';
+    const isExclusive = tag.includes('alert') || tag.includes('ranking');
 
     group.querySelectorAll('button').forEach(btn=>{
         btn.addEventListener('click',()=>{
-            // ✅ Al pulsar cualquier filtro, desactivar "disable" y restaurar "ALL"
+            // ✅ Al pulsar cualquier filtro, desactivar "disable"
             const disableBtn = document.querySelector('.disable-btn');
             
             // Si "disable" está activo, restaurar todos los "ALL"
@@ -1283,7 +1557,7 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
                 });
             }
             
-            // ✅ LÓGICA NORMAL DE CLICK (igual que antes)
+            // ✅ LÓGICA NORMAL DE CLICK
             if(btn.dataset.value === 'ALL'){
                 group.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
                 btn.classList.add('active');
