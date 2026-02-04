@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:32:18",
+    "ultima_actualizacion": "02:32:56",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 105,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 7,
-                "Total": 17212,
-                "Diff": "19",
+                "Hoy": 10,
+                "Total": 17215,
+                "Diff": "16",
                 "Antece": "Jeff Malone",
                 "Nota": "",
                 "game_status": "playing"
@@ -105,9 +105,9 @@
                 "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 16,
-                "Total": 15809,
-                "Diff": "31",
+                "Hoy": 18,
+                "Total": 15811,
+                "Diff": "29",
                 "Antece": "Jack Twyman",
                 "Nota": "",
                 "game_status": "playing"
@@ -305,9 +305,9 @@
                 "Rank": 243,
                 "Nombre": "Bam Adebayo",
                 "Team": "MIA",
-                "Hoy": 5,
-                "Total": 5450,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 5451,
+                "Diff": "4",
                 "Antece": "Adrian Dantley",
                 "Nota": "",
                 "game_status": "playing"
@@ -1080,14 +1080,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 194,
+                "Rank": 191,
                 "Nombre": "Luke Kennard",
                 "Team": "ATL",
-                "Hoy": 2,
-                "Total": 975,
-                "Diff": "",
-                "Antece": "Alec Burks",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 976,
+                "Diff": "1",
+                "Antece": "Al Harrington",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1138,11 +1138,11 @@
                 "Rank": 226,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 884,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 885,
+                "Diff": "",
                 "Antece": "Davis Bertans",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1249,13 +1249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Andrew Wiggins (1 three-pointer today) has passed Joe Ingles and is now ranked 105th all-time with 1,230.",
-            "foto": [
-                "collages/1769909210_collage_1769909209.png"
-            ],
-            "timestamp": 1769909210
-        },
         {
             "texto": "Kentavious Caldwell-Pope today surpasses Donyell Marshall, James Donaldson, Rajon Rondo and Sleepy Floyd and now ranked 203rd all time with 958 games",
             "foto": [
@@ -1942,6 +1935,13 @@
                 "collages/1770168399_collage_1770168399.png"
             ],
             "timestamp": 1770168399
+        },
+        {
+            "texto": "Luke Kennard (3 three-pointers today) has passed Alec Burks and is now ranked 191st all-time with 976.",
+            "foto": [
+                "collages/1770168775_collage_1770168775.png"
+            ],
+            "timestamp": 1770168775
         }
     ],
     "notificaciones_franchise": [
@@ -2623,7 +2623,28 @@
             "timestamp": 1770168738,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Luguentz Dort has reached 5,000 career points with OKC! Now ranked 24th in franchise history.",
+            "foto": [],
+            "timestamp": 1770168776,
+            "team": "OKC",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢HOF🏛️ Rui Hachimura (1 three-pointer today) has passed Magic Johnson in LAL franchise history and is now ranked 20th.",
+            "foto": [],
+            "timestamp": 1770168776,
+            "team": "LAL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Nic Claxton has reached 400 career games with NJN! Now ranked 17th in franchise history.",
+            "foto": [],
+            "timestamp": 1770168776,
+            "team": "NJN",
+            "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770168738
+    "cache_buster": 1770168776
 }
