@@ -1163,22 +1163,24 @@
             };
         }
 
-        // Event listeners para filtros de Teams
-        document.querySelectorAll('[data-filter-teams]').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const filter = this.getAttribute('data-filter-teams');
-                if (filter === 'all') {
-                    document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                } else {
-                    document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
-                    this.classList.toggle('active');
-                }
-                updateTeamsPage();
+        // Event listeners para filtros de Teams (usar timeout para asegurar que el DOM está listo)
+        setTimeout(() => {
+            document.querySelectorAll('[data-filter-teams]').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter-teams');
+                    if (filter === 'all') {
+                        document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
+                        this.classList.add('active');
+                    } else {
+                        document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
+                        this.classList.toggle('active');
+                    }
+                    updateTeamsPage();
+                });
             });
-        });
 
-        document.getElementById('team-select')?.addEventListener('change', updateTeamsPage);      
+            document.getElementById('team-select')?.addEventListener('change', updateTeamsPage);
+        }, 100);      
 
         function getPlayerId(name) {
             const ids = {
