@@ -95,9 +95,21 @@
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
 
+        /* MAIN TABS (Global / Franchise) */
+        .main-tabs{max-width:900px;margin:10px auto 5px;display:flex;gap:8px;justify-content:center;}
+        .main-tab-btn{padding:8px 24px;font-family:'Orbitron',sans-serif;font-size:0.95em;color:#e0e0e0;background:rgba(255,255,255,0.05);border:2px solid rgba(255,70,85,0.3);border-radius:20px;cursor:pointer;transition:0.3s;}
+        .main-tab-btn:hover{background:rgba(255,70,85,0.2);border-color:#ff4655;}
+        .main-tab-btn.active{background:rgba(255,70,85,0.4);border-color:#ff4655;color:white;box-shadow:0 0 15px rgba(255,70,85,0.4);}
+        .main-tab-content{display:none;}
+        .main-tab-content.active{display:block;}
+
+        /* Sub-tabs (Latest Moves / Live Rankings) */
         .tabs{max-width:900px;margin:15px auto;display:flex;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px rgba(255,70,85,0.3);}
         .tab-btn{flex:1;padding:12px 8px;font-family:'Orbitron',sans-serif;font-size:1.1em;color:white;background:rgba(255,70,85,0.2);border:none;cursor:pointer;transition:0.3s;}
         .tab-btn:hover{background:rgba(255,70,85,0.4);}
+        
+        .tab-content-franchise{display:none;}
+        .tab-content-franchise.active{display:block;}
         .tab-btn.active{background:#ff4655;box-shadow:0 0 12px #ff4655;}
 
         .tab-content{display:none;background:rgba(20,20,40,0.97);padding:10px;border-radius:0 0 10px 10px;}
@@ -418,32 +430,40 @@
         <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
     </div>
 
-    <div class="tabs">
-        <button class="tab-btn active" onclick="openTab('telegram')">Latest Moves</button>
-        <button class="tab-btn" onclick="openTab('live')">Live Rankings</button>
+    <!-- PESTAÑAS PRINCIPALES: GLOBAL / FRANCHISE -->
+    <div class="main-tabs">
+        <button class="main-tab-btn active" onclick="openMainTab('global')">🌍 Global</button>
+        <button class="main-tab-btn" onclick="openMainTab('franchise')">🏀 Franchise</button>
     </div>
 
-    <!-- LATEST MOVES -->
-    <div id="telegram" class="tab-content active">
-        <div class="container">
-            <div class="moves-area">
-                <div class="moves-list">
-                    <div id="moves-list"></div>
+    <!-- ==================== GLOBAL ==================== -->
+    <div id="global" class="main-tab-content active">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab('telegram')">Latest Moves</button>
+            <button class="tab-btn" onclick="openTab('live')">Live Rankings</button>
+        </div>
+
+        <!-- LATEST MOVES GLOBAL -->
+        <div id="telegram" class="tab-content active">
+            <div class="container">
+                <div class="moves-area">
+                    <div class="moves-list">
+                        <div id="moves-list"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- LIVE RANKINGS -->
-    <div id="live" class="tab-content">
-        <div class="container">
-            <div class="leyenda">
-                Today column: <span style="color:white">game finished</span> • 
-                <span style="color:#ffaa00;text-shadow:0 0 8px #ffaa00">playing now</span> • 
-                <span style="color:#888">not started</span> • 
-                <span style="color:#ff5555">inactive</span>
-            </div>
-            <div class="filters">
+        <!-- LIVE RANKINGS GLOBAL -->
+        <div id="live" class="tab-content">
+            <div class="container">
+                <div class="leyenda">
+                    Today column: <span style="color:white">game finished</span> • 
+                    <span style="color:#ffaa00;text-shadow:0 0 8px #ffaa00">playing now</span> • 
+                    <span style="color:#888">not started</span> • 
+                    <span style="color:#ff5555">inactive</span>
+                </div>
+                <div class="filters">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="top25">Top 25</button>
                 <button class="filter-btn" data-filter="top100">Top 100</button>
@@ -453,15 +473,71 @@
             <div id="tables"></div>
         </div>
     </div>
+    </div> <!-- FIN GLOBAL -->
+
+    <!-- ==================== FRANCHISE ==================== -->
+    <div id="franchise" class="main-tab-content">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTabFranchise('franchise-moves')">Latest Moves</button>
+            <button class="tab-btn" onclick="openTabFranchise('franchise-live')">Live Rankings</button>
+        </div>
+
+        <!-- LATEST MOVES FRANCHISE -->
+        <div id="franchise-moves" class="tab-content-franchise active">
+            <div class="container">
+                <div class="moves-area">
+                    <div class="moves-list">
+                        <div id="franchise-moves-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LIVE RANKINGS FRANCHISE (próximamente) -->
+        <div id="franchise-live" class="tab-content-franchise">
+            <div class="container">
+                <div class="leyenda">
+                    Franchise rankings - Top 25 per team
+                </div>
+                <div id="franchise-tables">
+                    <p style="text-align:center;color:#888;padding:40px;">Coming soon...</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- FIN FRANCHISE -->
 
     <script>
-        function openTab(tabName) {
-            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        // === MAIN TABS (Global / Franchise) ===
+        function openMainTab(tabName) {
+            document.querySelectorAll('.main-tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
-            document.querySelector(`button[onclick="openTab('${tabName}')"]`).classList.add('active');
+            document.querySelector(`.main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
+            
+            if (tabName === 'franchise') {
+                updateFranchiseMoves();
+            } else {
+                updateMoves();
+            }
+        }
+
+        // === SUB TABS GLOBAL ===
+        function openTab(tabName) {
+            document.querySelectorAll('#global .tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('#global .tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            document.querySelector(`#global button[onclick="openTab('${tabName}')"]`).classList.add('active');
             if (tabName === 'live') updatePage();
             if (tabName === 'telegram') updateMoves();
+        }
+
+        // === SUB TABS FRANCHISE ===
+        function openTabFranchise(tabName) {
+            document.querySelectorAll('.tab-content-franchise').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('#franchise .tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            document.querySelector(`#franchise button[onclick="openTabFranchise('${tabName}')"]`).classList.add('active');
+            if (tabName === 'franchise-moves') updateFranchiseMoves();
         }
 
         const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
@@ -819,6 +895,63 @@
                     console.error(err);
                     list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
                 });
+        }
+
+        // === UPDATE FRANCHISE MOVES ===
+        function updateFranchiseMoves() {
+            const list = document.getElementById('franchise-moves-list');
+            if (!list) return;
+
+            fetch('data.json?v=' + new Date().getTime())
+                .then(r => r.json())
+                .then(data => {
+                    const notis = (data.notificaciones_franchise || []).reverse();
+
+                    if (notis.length === 0) {
+                        list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No franchise moves yet today...</div>';
+                        return;
+                    }
+
+                    list.innerHTML = notis.map(n => {
+                        const texto = n.texto || "";
+                        const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
+                        const team = n.team || "";
+
+                        // Franchise moves sin fotos por ahora
+                        return `
+                            <div class="move-item">
+                                <div class="move-text">${texto} <span class="move-time">(${cuando})</span></div>
+                                ${makeFooterFranchise(texto, cuando, n.timestamp, team)}
+                            </div>`;
+                    }).join('');
+                    
+                    // Cargar conteos de Firebase para cada notificación
+                    notis.forEach(n => {
+                        if (n.timestamp) cargarConteos(n.timestamp);
+                    });
+                })
+                .catch(err => {
+                    console.error(err);
+                    list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">Waiting for tonight\'s action...</div>';
+                });
+        }
+
+        // Footer simplificado para franchise (sin share por ahora)
+        function makeFooterFranchise(texto, cuando, timestamp, team) {
+            const t = texto.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+            const nid = notifId(timestamp);
+            
+            const emojiBtns = emojiList.map(e => 
+                `<button class="emoji-btn" data-emoji="${e.key}" onclick="votarEmoji(${timestamp},'${e.key}')"><span class="em">${e.em}</span><span class="emoji-count"></span></button>`
+            ).join('');
+            
+            const shareIcon = `<svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>`;
+            
+            return `<div class="move-footer" data-nid="${nid}" data-player="${team}">
+                <div class="emoji-bar">${emojiBtns}</div>
+                <span class="foot-sep">│</span>
+                <button class="share-btn" onclick="shareMove('${t}',${timestamp},this)" title="Share">${shareIcon}</button>
+            </div>`;
         }      
 
         function getPlayerId(name) {
@@ -834,8 +967,16 @@
         }
 
         setInterval(() => {
-            if (document.getElementById('telegram').classList.contains('active')) updateMoves();
-            if (document.getElementById('live').classList.contains('active')) updatePage();
+            const globalActive = document.getElementById('global').classList.contains('active');
+            const franchiseActive = document.getElementById('franchise').classList.contains('active');
+            
+            if (globalActive) {
+                if (document.getElementById('telegram').classList.contains('active')) updateMoves();
+                if (document.getElementById('live').classList.contains('active')) updatePage();
+            }
+            if (franchiseActive) {
+                if (document.getElementById('franchise-moves').classList.contains('active')) updateFranchiseMoves();
+            }
         }, 25000);
 
         updatePage();
