@@ -1144,20 +1144,34 @@ document.querySelectorAll('.filter-buttons').forEach(group=>{
 <script>
 async function saveFilters(){
     const tags = {};
+    const tagsToRemove = [];
 
     document.querySelectorAll('.filter-buttons').forEach(group=>{
         const key = group.dataset.tag;
-        const values = [...group.querySelectorAll('button.active')]
+        const activeButtons = [...group.querySelectorAll('button.active')];
+        const values = activeButtons
             .map(b=>b.dataset.value || b.textContent)
             .filter(v=>v!=='ALL');
 
-        if(values.length){
+        // Si hay un botón ALL activo o no hay valores específicos, eliminar el tag
+        const hasAllActive = activeButtons.some(b => (b.dataset.value || b.textContent) === 'ALL');
+        
+        if(hasAllActive || values.length === 0){
+            tagsToRemove.push(key);
+        } else {
             tags[key] = values.join(',');
         }
     });
 
     OneSignalDeferred.push(async function(OneSignal){
-        await OneSignal.User.addTags(tags);
+        // Primero eliminar los tags que deben ser ALL
+        if(tagsToRemove.length > 0){
+            await OneSignal.User.removeTags(tagsToRemove);
+        }
+        // Luego añadir los tags específicos
+        if(Object.keys(tags).length > 0){
+            await OneSignal.User.addTags(tags);
+        }
         alert('Preferences saved ✔');
     });
     
