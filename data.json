@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:10:54",
+    "ultima_actualizacion": "02:11:31",
     "tablas": {
         "pts": [
             {
@@ -105,9 +105,9 @@
                 "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 15807,
-                "Diff": "33",
+                "Hoy": 16,
+                "Total": 15809,
+                "Diff": "31",
                 "Antece": "Jack Twyman",
                 "Nota": "",
                 "game_status": "playing"
@@ -504,14 +504,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 185,
+                "Rank": 183,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 998,
-                "Diff": "",
-                "Antece": "Devin Harris",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 999,
+                "Diff": "1",
+                "Antece": "Danny Manning",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -852,9 +852,9 @@
                 "Rank": 75,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 1336,
-                "Diff": "18",
+                "Hoy": 4,
+                "Total": 1337,
+                "Diff": "17",
                 "Antece": "Tobias Harris",
                 "Nota": "",
                 "game_status": "playing"
@@ -1249,13 +1249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (1 three-pointer today) has passed Derek Harper and is now ranked 152nd all-time with 1,071.",
-            "foto": [
-                "collages/1769908419_collage_1769908419.png"
-            ],
-            "timestamp": 1769908419
-        },
         {
             "texto": "Julius Randle (3 points today) has passed Purvis Short and is now ranked 173rd all-time with 14,608.",
             "foto": [
@@ -1942,6 +1935,13 @@
                 "collages/1770167377_collage_1770167377.png"
             ],
             "timestamp": 1770167377
+        },
+        {
+            "texto": "Nikola Jokic (2 steals today) has passed Devin Harris and Paul Pressey and is now ranked 183rd all-time with 999.",
+            "foto": [
+                "collages/1770167491_collage_1770167491.png"
+            ],
+            "timestamp": 1770167491
         }
     ],
     "notificaciones_franchise": [
@@ -2007,7 +2007,14 @@
             "timestamp": 1770167416,
             "team": "IND",
             "type": "franchise"
+        },
+        {
+            "texto": "OG Anunoby (3 three-pointers today) has passed Hubert Davis in NYK franchise history and is now ranked 19th.",
+            "foto": [],
+            "timestamp": 1770167491,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "cache_buster": 1770167454
+    "cache_buster": 1770167491
 }
