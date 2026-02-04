@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:14:43",
+    "ultima_actualizacion": "02:15:21",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 124,
+                "Rank": 123,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 8,
-                "Total": 16278,
-                "Diff": "",
-                "Antece": "Andre Miller",
-                "Nota": "Mismo total",
+                "Hoy": 11,
+                "Total": 16281,
+                "Diff": "16",
+                "Antece": "Stephon Marbury",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -564,9 +564,9 @@
                 "Rank": 41,
                 "Nombre": "Myles Turner",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1486,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 1487,
+                "Diff": "13",
                 "Antece": "1500",
                 "Nota": "",
                 "game_status": "playing"
@@ -731,9 +731,9 @@
                 "Rank": 17,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 2,
-                "Total": 2109,
-                "Diff": "34",
+                "Hoy": 3,
+                "Total": 2110,
+                "Diff": "33",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -1249,13 +1249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (1 three-pointer today) has passed Dell Curry and is now ranked 97th all-time with 1,246.",
-            "foto": [
-                "collages/1769908636_collage_1769908636.png"
-            ],
-            "timestamp": 1769908636
-        },
         {
             "texto": "Joel Embiid (12 points today) has passed Khris Middleton and is now ranked 226th all-time with 13,228.",
             "foto": [
@@ -1942,6 +1935,13 @@
                 "collages/1770167606_collage_1770167606.png"
             ],
             "timestamp": 1770167606
+        },
+        {
+            "texto": "CJ McCollum (11 points today) has passed Andre Miller and is now ranked 123rd all-time with 16,281.",
+            "foto": [
+                "collages/1770167721_collage_1770167721.png"
+            ],
+            "timestamp": 1770167721
         }
     ],
     "notificaciones_franchise": [
@@ -2035,7 +2035,14 @@
             "timestamp": 1770167645,
             "team": "WAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Cade Cunningham (1 three-pointer today) has passed Kentavious Caldwell-Pope in DET franchise history and is now ranked 9th.",
+            "foto": [],
+            "timestamp": 1770167721,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "cache_buster": 1770167683
+    "cache_buster": 1770167721
 }
