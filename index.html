@@ -1095,7 +1095,17 @@
 <!-- Overlay -->
 <div id="notif-overlay" class="hidden">
   <div id="notif-panel">
-        <!-- STATS -->
+    <!-- SCOPE (Global / Franchise) -->
+    <div class="filter-group">
+      <div class="filter-title">Scope</div>
+      <div class="filter-buttons" data-tag="scope">
+        <button data-value="ALL" class="active">All</button>
+        <button data-value="global">Global</button>
+        <button data-value="franchise">Franchise</button>
+      </div>
+    </div>
+
+    <!-- STATS -->
     <div class="filter-group">
       <div class="filter-title">Stats</div>
       <div class="filter-buttons" data-tag="stat">
@@ -1138,7 +1148,7 @@
 
     <!-- RANKING -->
     <div class="filter-group">
-      <div class="filter-title">Ranking</div>
+      <div class="filter-title">Ranking (Global)</div>
       <div class="filter-buttons" data-tag="ranking">
         <button data-value="ALL" class="active">All</button>
         <button>Top25</button>
@@ -1146,7 +1156,17 @@
       </div>
     </div>
 
-    <!-- GLOBAL -->
+    <!-- RANKING FRANCHISE -->
+    <div class="filter-group">
+      <div class="filter-title">Ranking (Franchise)</div>
+      <div class="filter-buttons" data-tag="ranking_franchise">
+        <button data-value="ALL" class="active">All</button>
+        <button>Top3</button>
+        <button>Top10</button>
+      </div>
+    </div>
+
+    <!-- DISABLE -->
     <div class="filter-group">
       <button class="disable-btn" onclick="disableNotifications()">
         Disable notifications
