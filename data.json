@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:31:22",
+    "ultima_actualizacion": "03:31:59",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 22,
-                "Total": 42885,
-                "Diff": "115",
+                "Hoy": 24,
+                "Total": 42887,
+                "Diff": "113",
                 "Antece": "43000",
                 "Nota": "",
                 "game_status": "playing"
@@ -179,14 +179,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 247,
+                "Rank": 246,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 21,
-                "Total": 12780,
-                "Diff": "1",
-                "Antece": "Lamar Odom",
-                "Nota": "A tiro de 1",
+                "Hoy": 23,
+                "Total": 12782,
+                "Diff": "20",
+                "Antece": "DeMarcus Cousins",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1017,9 +1017,9 @@
                 "Rank": 158,
                 "Nombre": "Coby White",
                 "Team": "CHI",
-                "Hoy": 1,
-                "Total": 1056,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 1057,
+                "Diff": "2",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1249,13 +1249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Kelly Oubre Jr. (3 three-pointers today) has passed Joe Harris and is now ranked 168th all-time with 1,027.",
-            "foto": [
-                "collages/1769910858_collage_1769910858.png"
-            ],
-            "timestamp": 1769910858
-        },
         {
             "texto": "Joel Embiid (2 blocks today) has passed Jakob Poeltl and is now ranked 165th all-time with 769.",
             "foto": [
@@ -1942,37 +1935,16 @@
                 "collages/1770172019_collage_1770172019.png"
             ],
             "timestamp": 1770172019
+        },
+        {
+            "texto": "Jaylen Brown (23 points today) has passed Lamar Odom and is now ranked 246th all-time with 12,782.",
+            "foto": [
+                "collages/1770172319_collage_1770172319.png"
+            ],
+            "timestamp": 1770172319
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Paolo Banchero (2 assists today) has passed D.J. Augustin in ORL franchise history and is now ranked 12th.",
-            "foto": [],
-            "timestamp": 1770171380,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝3️⃣ Nikola Jokić has reached 1,200 career steals with DEN! Now ranked 1st in franchise history.",
-            "foto": [],
-            "timestamp": 1770171380,
-            "team": "DEN",
-            "type": "franchise_milestone"
-        },
-        {
-            "texto": "Wendell Carter Jr. (1 game today) has passed Horace Grant and Jeff Turner in ORL franchise history and is now ranked 13th.",
-            "foto": [],
-            "timestamp": 1770171380,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Jalen Brunson (21 points today) has passed Willie Naulls in NYK franchise history and is now ranked 13th.",
-            "foto": [],
-            "timestamp": 1770171417,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Jaylen Brown (9 rebounds today) has passed Cedric Maxwell in BOS franchise history and is now ranked 15th.",
             "foto": [],
@@ -2644,7 +2616,35 @@
             "timestamp": 1770172282,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jamal Murray has reached 13,000 career points with DEN! Now ranked 5th in franchise history.",
+            "foto": [],
+            "timestamp": 1770172319,
+            "team": "DEN",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢HOF🏛️ Peyton Watson (1 block today) has passed Carmelo Anthony in DEN franchise history and is now ranked 22nd.",
+            "foto": [],
+            "timestamp": 1770172319,
+            "team": "DEN",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 OG Anunoby has reached 700 career three-pointers with NYK! Now ranked 5th in franchise history.",
+            "foto": [],
+            "timestamp": 1770172319,
+            "team": "NYK",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝3️⃣ Luguentz Dort has reached 1,100 career three-pointers with OKC! Now ranked 2nd in franchise history.",
+            "foto": [],
+            "timestamp": 1770172319,
+            "team": "OKC",
+            "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770172282
+    "cache_buster": 1770172319
 }
