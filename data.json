@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:12:09",
+    "ultima_actualizacion": "02:12:47",
     "tablas": {
         "pts": [
             {
@@ -261,9 +261,9 @@
                 "Rank": 71,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 6,
-                "Total": 8555,
-                "Diff": "50",
+                "Hoy": 7,
+                "Total": 8556,
+                "Diff": "49",
                 "Antece": "Dale Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -417,11 +417,11 @@
                 "Rank": 214,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 3169,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 3170,
+                "Diff": "",
                 "Antece": "Antoine Walker",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1083,11 +1083,11 @@
                 "Rank": 194,
                 "Nombre": "Luke Kennard",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 973,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 974,
+                "Diff": "1",
                 "Antece": "Alec Burks",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1249,13 +1249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (3 points today) has passed Purvis Short and is now ranked 173rd all-time with 14,608.",
-            "foto": [
-                "collages/1769908456_collage_1769908456.png"
-            ],
-            "timestamp": 1769908456
-        },
         {
             "texto": "Julius Randle (1 three-pointer today) has passed Raymond Felton and is now ranked 213th all-time with 926.",
             "foto": [
@@ -1942,6 +1935,13 @@
                 "collages/1770167491_collage_1770167491.png"
             ],
             "timestamp": 1770167491
+        },
+        {
+            "texto": "Luke Kennard (1 three-pointer today) has passed Patrick Beverley and is now ranked 194th all-time with 974.",
+            "foto": [
+                "collages/1770167567_collage_1770167567.png"
+            ],
+            "timestamp": 1770167567
         }
     ],
     "notificaciones_franchise": [
@@ -2014,7 +2014,14 @@
             "timestamp": 1770167491,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham has reached 2,000 career assists with DET! Now ranked 11th in franchise history.",
+            "foto": [],
+            "timestamp": 1770167567,
+            "team": "DET",
+            "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770167529
+    "cache_buster": 1770167567
 }
