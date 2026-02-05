@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:03:26",
+    "ultima_actualizacion": "05:04:02",
     "tablas": {
         "pts": [
             {
@@ -125,25 +125,25 @@
             },
             {
                 "Rank": 168,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 7,
+                "Total": 14679,
+                "Diff": "19",
+                "Antece": "Mike Bibby",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 169,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
                 "Hoy": 17,
                 "Total": 14678,
-                "Diff": "20",
-                "Antece": "Mike Bibby",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Donovan Mitchell",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 169,
-                "Nombre": "Donovan Mitchell",
-                "Team": "CLE",
-                "Hoy": 4,
-                "Total": 14676,
-                "Diff": "2",
-                "Antece": "Julius Randle",
-                "Nota": "A tiro de 2",
-                "game_status": "playing"
             },
             {
                 "Rank": 184,
@@ -527,9 +527,9 @@
                 "Rank": 181,
                 "Nombre": "De'Aaron Fox",
                 "Team": "SAS",
-                "Hoy": 7,
-                "Total": 3515,
-                "Diff": "10",
+                "Hoy": 8,
+                "Total": 3516,
+                "Diff": "9",
                 "Antece": "Ricky Sobers",
                 "Nota": "",
                 "game_status": "playing"
@@ -984,9 +984,9 @@
                 "Rank": 32,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1793,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 1794,
+                "Diff": "6",
                 "Antece": "1800",
                 "Nota": "",
                 "game_status": "playing"
@@ -1755,9 +1755,9 @@
                 "Rank": 13,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 6442,
-                "Diff": "58",
+                "Hoy": 7,
+                "Total": 6445,
+                "Diff": "55",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1845,9 +1845,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 835,
-                "Diff": "65",
+                "Hoy": 1,
+                "Total": 836,
+                "Diff": "64",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -3435,9 +3435,9 @@
                 "Rank": 14,
                 "Nombre": "Keldon Johnson",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 6438,
-                "Diff": "28",
+                "Hoy": 23,
+                "Total": 6441,
+                "Diff": "25",
                 "Antece": "Rich Jones",
                 "game_status": "playing"
             },
@@ -3455,9 +3455,9 @@
                 "Rank": 20,
                 "Nombre": "Keldon Johnson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2286,
-                "Diff": "96",
+                "Hoy": 3,
+                "Total": 2287,
+                "Diff": "95",
                 "Antece": "Jakob Poeltl",
                 "game_status": "playing"
             },
@@ -3495,9 +3495,9 @@
                 "Rank": 7,
                 "Nombre": "Keldon Johnson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 642,
-                "Diff": "14",
+                "Hoy": 4,
+                "Total": 643,
+                "Diff": "13",
                 "Antece": "Matt Bonner",
                 "game_status": "playing"
             },
@@ -3758,13 +3758,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Draymond Green today surpasses Jalen Rose and Mark Aguirre and now ranked 240th all time with 924 games",
-            "foto": [
-                "collages/1770183074_collage_1770183074.png"
-            ],
-            "timestamp": 1770183074
-        },
         {
             "texto": "📢HOF🏛️ Nikola Jokic (24 points today) has passed Jack Sikma and is now ranked 102nd all-time with 17,301.",
             "foto": [
@@ -4455,6 +4448,13 @@
                 "collages/1770262086801441_collage_1770262086680920.png"
             ],
             "timestamp": 1770262086
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (7 points today) has passed Richie Guerin and is now ranked 168th all-time with 14,679.",
+            "foto": [
+                "collages/1770264242471506_collage_1770264242376501.png"
+            ],
+            "timestamp": 1770264242
         }
     ],
     "notificaciones_franchise": [
@@ -4522,5 +4522,5 @@
             "type": "franchise"
         }
     ],
-    "cache_buster": 1770264206
+    "cache_buster": 1770264242
 }
