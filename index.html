@@ -460,7 +460,7 @@
 
         <div class="topbar-right">
             <!-- icono de email/feedback -->
-            <a href="mailto:topdatanba@gmail.com?subject=NBApp%20Feedback&body=Bugs%3F%20Suggestions%3F%20Compliments%3F%20Write%20here%20and%20thanks!%0A%0A" title="Send Feedback">
+            <a href="/cdn-cgi/l/email-protection#e692899682879287888487a6818b878f8ac885898bd99593848c838592dba8a4a79696c3d4d6a08383828487858dc08489829fdba4938195c3d5a0c3d4d6b59381818395928f898895c3d5a0c3d4d6a5898b968a8f8b83889295c3d5a0c3d4d6b1948f9283c3d4d68e839483c3d4d6878882c3d4d6928e87888d95c7c3d6a7c3d6a7" title="Send Feedback">
                 <svg class="topbar-icon" viewBox="0 0 24 24">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
@@ -595,7 +595,7 @@
         </div>
     </div> <!-- FIN TEAMS -->
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
             document.querySelectorAll('.main-tab-content').forEach(t => t.classList.remove('active'));
@@ -1118,11 +1118,17 @@
                             if (filters.top10 && row.Rank > 10) return false;
                             if (filters.playing && row.game_status !== 'playing') return false;
                             if (filters.almost) {
-                                const diff = parseInt(row.Diff) || 999;
+                                // Manejar diff: puede ser número, string numérico, o string vacío
+                                let diffRaw = row.Diff;
+                                let diff = 999;
+                                if (diffRaw !== '' && diffRaw !== null && diffRaw !== undefined) {
+                                    const parsed = parseInt(diffRaw, 10);
+                                    if (!isNaN(parsed)) diff = parsed;
+                                }
                                 const stat = row.Stat || '';
                                 // PTS: diff 0,1,2 | otras: diff 0
                                 const threshold = (stat === 'PTS') ? 2 : 0;
-                                console.log(`[FILTER] ${row.Nombre} - Stat: ${stat}, Diff: ${row.Diff}, parsed: ${diff}, threshold: ${threshold}, pass: ${diff <= threshold}`);
+                                console.log(`[FILTER] ${row.Nombre} - Stat: ${stat}, Diff: '${diffRaw}', parsed: ${diff}, threshold: ${threshold}, pass: ${diff <= threshold}`);
                                 return diff <= threshold;
                             }
                             return true;
@@ -1152,7 +1158,28 @@
                             </table>`;
                         
                         const tbody = card.querySelector('tbody');
+                        
+                        // Ordenar filas por Stat para agruparlas
+                        const statOrder = ['PTS', 'REB', 'AST', 'STL', 'BLK', '3PM', 'G'];
+                        filteredRows.sort((a, b) => {
+                            const idxA = statOrder.indexOf(a.Stat) !== -1 ? statOrder.indexOf(a.Stat) : 999;
+                            const idxB = statOrder.indexOf(b.Stat) !== -1 ? statOrder.indexOf(b.Stat) : 999;
+                            if (idxA !== idxB) return idxA - idxB;
+                            return a.Rank - b.Rank;
+                        });
+                        
+                        // Rastrear cambios de stat para alternar fondo
+                        let currentStat = null;
+                        let statGroupIndex = 0;
+                        
                         filteredRows.forEach(row => {
+                            // Detectar cambio de stat para alternar fondo
+                            if (row.Stat !== currentStat) {
+                                currentStat = row.Stat;
+                                statGroupIndex++;
+                            }
+                            const isAltGroup = (statGroupIndex % 2 === 0);
+                            
                             const hoy = row.Hoy ?? 0;
                             const diff = (row.Diff ?? '').toString().trim() || '0';
                             const gameStatus = String(row.game_status || '').toLowerCase();
@@ -1171,6 +1198,10 @@
                             else todayStyle = 'color:#888';
 
                             const tr = document.createElement('tr');
+                            // Aplicar fondo alternado por grupo de stat
+                            if (isAltGroup) {
+                                tr.style.backgroundColor = 'rgba(255,255,255,0.03)';
+                            }
                             tr.innerHTML = `
                                 <td class="rank">${row.Rank}</td>
                                 <td class="player">${row.Nombre}</td>
@@ -1669,14 +1700,4 @@ OneSignalDeferred.push(async function(OneSignal) {
     
     if(permission === 'default'){
         console.log("⚠️ Pidiendo permisos...");
-        const granted = await OneSignal.Notifications.requestPermission();
-        if(granted){
-            console.log("✅ Permisos otorgados");
-        } else {
-            console.log("❌ Permisos denegados");
-        }
-    }
-});
-</script>
-</body>
-</html>
+ 
