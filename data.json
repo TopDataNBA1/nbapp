@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:42:39",
+    "ultima_actualizacion": "01:43:16",
     "tablas": {
         "pts": [
             {
@@ -50,12 +50,12 @@
                 "Rank": 171,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 14651,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 14653,
+                "Diff": "6",
                 "Antece": "Dan Issel",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 184,
@@ -112,7 +112,7 @@
                 "Diff": "117",
                 "Antece": "Otis Thorpe",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 61,
@@ -189,7 +189,7 @@
                 "Diff": "2",
                 "Antece": "Brook Lopez",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 168,
@@ -257,7 +257,7 @@
                 "Diff": "5",
                 "Antece": "Doug Christie",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "stl": [
@@ -305,7 +305,7 @@
                 "Diff": "20",
                 "Antece": "Jermaine O'Neal",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 37,
@@ -516,7 +516,7 @@
                 "Diff": "1",
                 "Antece": "Shane Battier",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 101,
@@ -538,7 +538,7 @@
                 "Diff": "3",
                 "Antece": "Jae Crowder",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 113,
@@ -637,7 +637,7 @@
                 "Diff": "",
                 "Antece": "Derrick White",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 178,
@@ -692,7 +692,7 @@
                 "Diff": "1",
                 "Antece": "Gary Harris",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 220,
@@ -911,6 +911,38 @@
                 "game_status": "playing"
             }
         ],
+        "TOR": [
+            {
+                "Rank": 8,
+                "Nombre": "Scottie Barnes",
+                "Stat": "AST",
+                "Hoy": 1,
+                "Total": 1646,
+                "Diff": "115",
+                "Antece": "Damon Stoudamire",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Scottie Barnes",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 327,
+                "Diff": "22",
+                "Antece": "Norman Powell",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 290,
+                "Diff": "10",
+                "Antece": "300",
+                "game_status": "inactive"
+            }
+        ],
         "BOS": [
             {
                 "Rank": 17,
@@ -966,7 +998,7 @@
                 "Total": 457,
                 "Diff": "41",
                 "Antece": "Gorgui Dieng",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 9,
@@ -976,7 +1008,7 @@
                 "Total": 422,
                 "Diff": "16",
                 "Antece": "Wally Szczerbiak",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 11,
@@ -986,7 +1018,7 @@
                 "Total": 415,
                 "Diff": "6",
                 "Antece": "Ricky Rubio",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 21,
@@ -996,7 +1028,7 @@
                 "Total": 267,
                 "Diff": "3",
                 "Antece": "Mark Madsen",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "NOH": [
@@ -1039,28 +1071,6 @@
                 "Diff": "3",
                 "Antece": "Darius Miller",
                 "game_status": "not_started"
-            }
-        ],
-        "TOR": [
-            {
-                "Rank": 17,
-                "Nombre": "Scottie Barnes",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 326,
-                "Diff": "23",
-                "Antece": "Norman Powell",
-                "game_status": "not_started"
-            },
-            {
-                "Rank": 20,
-                "Nombre": "Jakob Poeltl",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 290,
-                "Diff": "10",
-                "Antece": "300",
-                "game_status": "inactive"
             }
         ]
     },
@@ -1767,5 +1777,5 @@
         }
     ],
     "notificaciones_franchise": [],
-    "cache_buster": 1770252159
+    "cache_buster": 1770252196
 }
