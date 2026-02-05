@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:13:17",
+    "ultima_actualizacion": "02:13:56",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 15823,
-                "Diff": "17",
+                "Hoy": 12,
+                "Total": 15824,
+                "Diff": "16",
                 "Antece": "Jack Twyman",
                 "Nota": "",
                 "game_status": "playing"
@@ -1135,6 +1135,16 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 14,
+                "Nombre": "Immanuel Quickley",
+                "Stat": "AST",
+                "Hoy": 1,
+                "Total": 740,
+                "Diff": "168",
+                "Antece": "T.J. Ford",
+                "game_status": "playing"
+            },
+            {
                 "Rank": 19,
                 "Nombre": "Jamal Shead",
                 "Stat": "AST",
@@ -1195,6 +1205,28 @@
                 "game_status": "inactive"
             }
         ],
+        "HOU": [
+            {
+                "Rank": 25,
+                "Nombre": "Jabari Smith Jr.",
+                "Stat": "REB",
+                "Hoy": 1,
+                "Total": 1909,
+                "Diff": "11",
+                "Antece": "Mike Newlin",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 24,
+                "Nombre": "Clint Capela",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 376,
+                "Diff": "3",
+                "Antece": "Eric Gordon",
+                "game_status": "playing"
+            }
+        ],
         "NOH": [
             {
                 "Rank": 15,
@@ -1204,6 +1236,26 @@
                 "Total": 1256,
                 "Diff": "96",
                 "Antece": "Ryan Anderson",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "Herbert Jones",
+                "Stat": "REB",
+                "Hoy": 1,
+                "Total": 1020,
+                "Diff": "18",
+                "Antece": "Alexis Ajinça",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "Zion Williamson",
+                "Stat": "AST",
+                "Hoy": 1,
+                "Total": 1043,
+                "Diff": "20",
+                "Antece": "Greivis Vásquez",
                 "game_status": "playing"
             },
             {
@@ -1221,8 +1273,8 @@
                 "Nombre": "Herbert Jones",
                 "Stat": "G",
                 "Hoy": 1,
-                "Total": 269,
-                "Diff": "24",
+                "Total": 270,
+                "Diff": "23",
                 "Antece": "Rasual Butler",
                 "game_status": "playing"
             },
@@ -1232,7 +1284,7 @@
                 "Stat": "G",
                 "Hoy": 1,
                 "Total": 267,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Herbert Jones",
                 "game_status": "playing"
             },
@@ -1241,8 +1293,8 @@
                 "Nombre": "Zion Williamson",
                 "Stat": "G",
                 "Hoy": 1,
-                "Total": 250,
-                "Diff": "3",
+                "Total": 251,
+                "Diff": "2",
                 "Antece": "Darius Miller",
                 "game_status": "playing"
             }
@@ -1277,18 +1329,6 @@
                 "Diff": "15",
                 "Antece": "600",
                 "game_status": "inactive"
-            }
-        ],
-        "HOU": [
-            {
-                "Rank": 24,
-                "Nombre": "Clint Capela",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 376,
-                "Diff": "3",
-                "Antece": "Eric Gordon",
-                "game_status": "playing"
             }
         ],
         "MIL": [
@@ -2022,5 +2062,5 @@
             "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770253997
+    "cache_buster": 1770254036
 }
