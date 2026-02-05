@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:43:16",
+    "ultima_actualizacion": "01:43:52",
     "tablas": {
         "pts": [
             {
@@ -252,9 +252,9 @@
                 "Rank": 248,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 2987,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 2988,
+                "Diff": "4",
                 "Antece": "Doug Christie",
                 "Nota": "",
                 "game_status": "playing"
@@ -508,14 +508,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 96,
+                "Rank": 94,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1249,
-                "Diff": "1",
-                "Antece": "Shane Battier",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1250,
+                "Diff": "2",
+                "Antece": "Stephen Jackson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -859,6 +859,78 @@
                 "game_status": "playing"
             }
         ],
+        "MIN": [
+            {
+                "Rank": 3,
+                "Nombre": "Anthony Edwards",
+                "Stat": "PTS",
+                "Hoy": 3,
+                "Total": 10316,
+                "Diff": "184",
+                "Antece": "10500",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Anthony Edwards",
+                "Stat": "REB",
+                "Hoy": 1,
+                "Total": 2231,
+                "Diff": "78",
+                "Antece": "Naz Reid",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 1,
+                "Nombre": "Anthony Edwards",
+                "Stat": "3PM",
+                "Hoy": 1,
+                "Total": 1250,
+                "Diff": "50",
+                "Antece": "1300",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Naz Reid",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 457,
+                "Diff": "41",
+                "Antece": "Gorgui Dieng",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Anthony Edwards",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 423,
+                "Diff": "15",
+                "Antece": "Wally Szczerbiak",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Jaden McDaniels",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 415,
+                "Diff": "6",
+                "Antece": "Ricky Rubio",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "Rudy Gobert",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 267,
+                "Diff": "3",
+                "Antece": "Mark Madsen",
+                "game_status": "playing"
+            }
+        ],
         "NYK": [
             {
                 "Rank": 20,
@@ -987,48 +1059,6 @@
                 "Diff": "11",
                 "Antece": "900",
                 "game_status": "inactive"
-            }
-        ],
-        "MIN": [
-            {
-                "Rank": 6,
-                "Nombre": "Naz Reid",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 457,
-                "Diff": "41",
-                "Antece": "Gorgui Dieng",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 9,
-                "Nombre": "Anthony Edwards",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 422,
-                "Diff": "16",
-                "Antece": "Wally Szczerbiak",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 11,
-                "Nombre": "Jaden McDaniels",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 415,
-                "Diff": "6",
-                "Antece": "Ricky Rubio",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 21,
-                "Nombre": "Rudy Gobert",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 267,
-                "Diff": "3",
-                "Antece": "Mark Madsen",
-                "game_status": "playing"
             }
         ],
         "NOH": [
@@ -1777,5 +1807,5 @@
         }
     ],
     "notificaciones_franchise": [],
-    "cache_buster": 1770252196
+    "cache_buster": 1770252232
 }
