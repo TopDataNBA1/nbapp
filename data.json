@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:12:39",
+    "ultima_actualizacion": "02:13:17",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 15822,
-                "Diff": "18",
+                "Hoy": 11,
+                "Total": 15823,
+                "Diff": "17",
                 "Antece": "Jack Twyman",
                 "Nota": "",
                 "game_status": "playing"
@@ -151,9 +151,9 @@
                 "Rank": 78,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 8072,
-                "Diff": "52",
+                "Hoy": 1,
+                "Total": 8073,
+                "Diff": "51",
                 "Antece": "Chris Webber",
                 "Nota": "",
                 "game_status": "playing"
@@ -752,14 +752,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 64,
+                "Rank": 62,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1168,
-                "Diff": "",
-                "Antece": "James Edwards",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1169,
+                "Diff": "3",
+                "Antece": "Thaddeus Young",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1195,6 +1195,58 @@
                 "game_status": "inactive"
             }
         ],
+        "NOH": [
+            {
+                "Rank": 15,
+                "Nombre": "Trey Murphy III",
+                "Stat": "REB",
+                "Hoy": 1,
+                "Total": 1256,
+                "Diff": "96",
+                "Antece": "Ryan Anderson",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "Trey Murphy III",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "6",
+                "Antece": "Brandon Ingram",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Herbert Jones",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 269,
+                "Diff": "24",
+                "Antece": "Rasual Butler",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 10,
+                "Nombre": "Jose Alvarado",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 267,
+                "Diff": "2",
+                "Antece": "Herbert Jones",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Zion Williamson",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 250,
+                "Diff": "3",
+                "Antece": "Darius Miller",
+                "game_status": "playing"
+            }
+        ],
         "BOS": [
             {
                 "Rank": 8,
@@ -1250,58 +1302,9 @@
                 "Antece": "900",
                 "game_status": "inactive"
             }
-        ],
-        "NOH": [
-            {
-                "Rank": 7,
-                "Nombre": "Trey Murphy III",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 299,
-                "Diff": "1",
-                "Antece": "300",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 9,
-                "Nombre": "Herbert Jones",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 269,
-                "Diff": "24",
-                "Antece": "Rasual Butler",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 10,
-                "Nombre": "Jose Alvarado",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 267,
-                "Diff": "2",
-                "Antece": "Herbert Jones",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 14,
-                "Nombre": "Zion Williamson",
-                "Stat": "G",
-                "Hoy": 1,
-                "Total": 250,
-                "Diff": "3",
-                "Antece": "Darius Miller",
-                "game_status": "playing"
-            }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Luke Kennard (4 three-pointers today) has passed Al Harrington, Nikola Vucevic and Scottie Pippen and is now ranked 188th all-time with 981.",
-            "foto": [
-                "collages/1770173823_collage_1770173823.png"
-            ],
-            "timestamp": 1770173823
-        },
         {
             "texto": "Myles Turner (2 three-pointers today) has passed Avery Bradley and is now ranked 239th all-time with 860.",
             "foto": [
@@ -1994,6 +1997,13 @@
                 "collages/1770252453659272_collage_1770252453563076.png"
             ],
             "timestamp": 1770252453
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant today surpasses Al Horford and James Edwards and now ranked 62nd all time with 1,169 games",
+            "foto": [
+                "collages/1770253997189757_collage_1770253997097078.png"
+            ],
+            "timestamp": 1770253997
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2013,14 @@
             "timestamp": 1770253478,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Trey Murphy III became 7th player to reach 300 games with Pelicans.",
+            "foto": [],
+            "timestamp": 1770253997,
+            "team": "NOH",
+            "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770253959
+    "cache_buster": 1770253997
 }
