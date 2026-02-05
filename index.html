@@ -188,8 +188,10 @@
 
         /* LIVE RANKINGS – 100% COMO ANTES */
         .filters{display:flex;gap:10px;margin:12px 0;justify-content:center;padding:4px 0;overflow-x:auto;}
-        .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;}
-        .filter-btn.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;}
+        .filter-btn{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;color:#e0e0e0;}
+        .filter-btn.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;color:white;}
+        .filter-btn-teams{white-space:nowrap;padding:6px 11px;background:rgba(255,70,85,0.25);border:1px solid #ff4655;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:0.86em;cursor:pointer;transition:0.3s;color:#e0e0e0;}
+        .filter-btn-teams.active{background:#ff4655;box-shadow:0 0 10px #ff4655;font-weight:bold;color:white;}
 
         .card{background:rgba(20,20,40,0.97);border-radius:8px;overflow:hidden;margin:10px 0;box-shadow:0 4px 12px rgba(0,0,0,0.6);}
         .card h2{margin:0;padding:8px;font-family:'Orbitron',sans-serif;font-size:1.15em;background:#ff4655;color:white;text-align:center;}
@@ -444,30 +446,6 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
     </script>
-    <script>
-    // Funciones globales para filtros de Teams (deben existir antes del HTML)
-    function filterTeams(filter, btn) {
-        if (filter === 'all') {
-            document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        } else {
-            document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
-            btn.classList.toggle('active');
-        }
-        if (typeof updateTeamsPage === 'function') updateTeamsPage();
-    }
-
-    function getTeamsFilters() {
-        const teamSelect = document.getElementById('team-select');
-        return {
-            all: document.querySelector('[data-filter-teams="all"]')?.classList.contains('active'),
-            top10: document.querySelector('[data-filter-teams="top10"]')?.classList.contains('active'),
-            team: teamSelect ? teamSelect.value : 'all',
-            playing: document.querySelector('[data-filter-teams="playing"]')?.classList.contains('active'),
-            almost: document.querySelector('[data-filter-teams="almost"]')?.classList.contains('active')
-        };
-    }
-    </script>
 </head>
 <body>
 
@@ -574,8 +552,8 @@
                     <span style="color:#888">not started</span>
                 </div>
                 <div class="filters-teams">
-                    <button class="filter-btn active" data-filter-teams="all" onclick="filterTeams('all', this)">All</button>
-                    <button class="filter-btn" data-filter-teams="top10" onclick="filterTeams('top10', this)">Top 10</button>
+                    <button class="filter-btn-teams active" data-filter-teams="all">All</button>
+                    <button class="filter-btn-teams" data-filter-teams="top10">Top 10</button>
                     <select id="team-select" class="team-select" onchange="updateTeamsPage()">
                         <option value="all">All Teams</option>
                         <option value="ATL">Atlanta Hawks</option>
@@ -609,8 +587,8 @@
                         <option value="UTA">Utah Jazz</option>
                         <option value="WAS">Washington Wizards</option>
                     </select>
-                    <button class="filter-btn" data-filter-teams="playing" onclick="filterTeams('playing', this)">Playing</button>
-                    <button class="filter-btn" data-filter-teams="almost" onclick="filterTeams('almost', this)">Next?</button>
+                    <button class="filter-btn-teams" data-filter-teams="playing">Playing</button>
+                    <button class="filter-btn-teams" data-filter-teams="almost">Next?</button>
                 </div>
                 <div id="teams-tables"></div>
             </div>
@@ -685,6 +663,21 @@
                     this.classList.toggle('active');
                 }
                 updatePage();
+            });
+        });
+
+        // Event listeners para filtros de Teams (mismo patrón que Global)
+        document.querySelectorAll('.filter-btn-teams').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter-teams');
+                if (filter === 'all') {
+                    document.querySelectorAll('.filter-btn-teams').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                } else {
+                    document.querySelector('[data-filter-teams="all"]').classList.remove('active');
+                    this.classList.toggle('active');
+                }
+                updateTeamsPage();
             });
         });
 
