@@ -1122,6 +1122,7 @@
                                 const stat = row.Stat || '';
                                 // PTS: diff 0,1,2 | otras: diff 0
                                 const threshold = (stat === 'PTS') ? 2 : 0;
+                                console.log(`[FILTER] ${row.Nombre} - Stat: ${stat}, Diff: ${row.Diff}, parsed: ${diff}, threshold: ${threshold}, pass: ${diff <= threshold}`);
                                 return diff <= threshold;
                             }
                             return true;
