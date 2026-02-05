@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "01:16:13",
+    "ultima_actualizacion": "01:16:50",
     "tablas": {
         "pts": [
             {
                 "Rank": 105,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 17229,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 17231,
+                "Diff": "",
                 "Antece": "Jeff Malone",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -63,9 +63,9 @@
                 "Rank": 71,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 8565,
-                "Diff": "40",
+                "Hoy": 3,
+                "Total": 8567,
+                "Diff": "38",
                 "Antece": "Dale Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -291,9 +291,9 @@
                 "Rank": 205,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 944,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 945,
+                "Diff": "2",
                 "Antece": "Seth Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -358,36 +358,24 @@
         ]
     },
     "tablas_teams": {
-        "NYK": [
+        "DEN": [
             {
-                "Rank": 20,
-                "Nombre": "Jalen Brunson",
+                "Rank": 2,
+                "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 6735,
-                "Diff": "119",
-                "Antece": "Kenny Sears",
+                "Hoy": 2,
+                "Total": 17207,
+                "Diff": "293",
+                "Antece": "17500",
                 "game_status": "playing"
             },
-            {
-                "Rank": 5,
-                "Nombre": "Jalen Brunson",
-                "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 628,
-                "Diff": "10",
-                "Antece": "Julius Randle",
-                "game_status": "playing"
-            }
-        ],
-        "DEN": [
             {
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 8550,
-                "Diff": "450",
+                "Hoy": 3,
+                "Total": 8552,
+                "Diff": "448",
                 "Antece": "9000",
                 "game_status": "playing"
             },
@@ -409,6 +397,38 @@
                 "Total": 581,
                 "Diff": "12",
                 "Antece": "Bill Hanzlik",
+                "game_status": "playing"
+            }
+        ],
+        "NYK": [
+            {
+                "Rank": 20,
+                "Nombre": "Jalen Brunson",
+                "Stat": "PTS",
+                "Hoy": 3,
+                "Total": 6735,
+                "Diff": "119",
+                "Antece": "Kenny Sears",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Jalen Brunson",
+                "Stat": "3PM",
+                "Hoy": 1,
+                "Total": 628,
+                "Diff": "10",
+                "Antece": "Julius Randle",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 22,
+                "Nombre": "OG Anunoby",
+                "Stat": "3PM",
+                "Hoy": 1,
+                "Total": 291,
+                "Diff": "9",
+                "Antece": "Al Harrington",
                 "game_status": "playing"
             }
         ],
@@ -1180,5 +1200,5 @@
         }
     ],
     "notificaciones_franchise": [],
-    "cache_buster": 1770250573
+    "cache_buster": 1770250610
 }
