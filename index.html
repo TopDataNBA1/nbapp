@@ -681,6 +681,17 @@
             });
         });
 
+        function getTeamsFilters() {
+            const teamSelect = document.getElementById('team-select');
+            return {
+                all: document.querySelector('[data-filter-teams="all"]')?.classList.contains('active'),
+                top10: document.querySelector('[data-filter-teams="top10"]')?.classList.contains('active'),
+                team: teamSelect ? teamSelect.value : 'all',
+                playing: document.querySelector('[data-filter-teams="playing"]')?.classList.contains('active'),
+                almost: document.querySelector('[data-filter-teams="almost"]')?.classList.contains('active')
+            };
+        }
+
         function getActiveFilters() {
             return {
                 top25: document.querySelector('[data-filter="top25"]').classList.contains('active'),
