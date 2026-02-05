@@ -444,6 +444,30 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
     </script>
+    <script>
+    // Funciones globales para filtros de Teams (deben existir antes del HTML)
+    function filterTeams(filter, btn) {
+        if (filter === 'all') {
+            document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        } else {
+            document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
+            btn.classList.toggle('active');
+        }
+        if (typeof updateTeamsPage === 'function') updateTeamsPage();
+    }
+
+    function getTeamsFilters() {
+        const teamSelect = document.getElementById('team-select');
+        return {
+            all: document.querySelector('[data-filter-teams="all"]')?.classList.contains('active'),
+            top10: document.querySelector('[data-filter-teams="top10"]')?.classList.contains('active'),
+            team: teamSelect ? teamSelect.value : 'all',
+            playing: document.querySelector('[data-filter-teams="playing"]')?.classList.contains('active'),
+            almost: document.querySelector('[data-filter-teams="almost"]')?.classList.contains('active')
+        };
+    }
+    </script>
 </head>
 <body>
 
@@ -626,29 +650,6 @@
             document.querySelector(`#teams button[onclick="openTabTeams('${tabName}')"]`).classList.add('active');
             if (tabName === 'teams-moves') updateTeamsMoves();
             if (tabName === 'teams-live') updateTeamsPage();
-        }
-
-        // Función para filtros de Teams
-        function filterTeams(filter, btn) {
-            if (filter === 'all') {
-                document.querySelectorAll('[data-filter-teams]').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-            } else {
-                document.querySelector('[data-filter-teams="all"]')?.classList.remove('active');
-                btn.classList.toggle('active');
-            }
-            updateTeamsPage();
-        }
-
-        function getTeamsFilters() {
-            const teamSelect = document.getElementById('team-select');
-            return {
-                all: document.querySelector('[data-filter-teams="all"]')?.classList.contains('active'),
-                top10: document.querySelector('[data-filter-teams="top10"]')?.classList.contains('active'),
-                team: teamSelect ? teamSelect.value : 'all',
-                playing: document.querySelector('[data-filter-teams="playing"]')?.classList.contains('active'),
-                almost: document.querySelector('[data-filter-teams="almost"]')?.classList.contains('active')
-            };
         }
 
         const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
