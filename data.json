@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:08:34",
+    "ultima_actualizacion": "06:09:11",
     "tablas": {
         "pts": [
             {
@@ -158,25 +158,25 @@
             },
             {
                 "Rank": 188,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 11,
+                "Total": 14332,
+                "Diff": "11",
+                "Antece": "Al Jefferson",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 189,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
                 "Hoy": 9,
                 "Total": 14330,
-                "Diff": "13",
-                "Antece": "Al Jefferson",
-                "Nota": "",
+                "Diff": "2",
+                "Antece": "Zach LaVine",
+                "Nota": "A tiro de 2",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 189,
-                "Nombre": "Zach LaVine",
-                "Team": "SAC",
-                "Hoy": 9,
-                "Total": 14330,
-                "Diff": "",
-                "Antece": "Harrison Barnes",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 212,
@@ -3759,13 +3759,6 @@
     },
     "notificaciones": [
         {
-            "texto": "CJ McCollum (26 points today) has passed Kyle Lowry and is now ranked 120th all-time with 16,374.",
-            "foto": [
-                "collages/1770183562803096_collage_1770183562709348.png"
-            ],
-            "timestamp": 1770183562
-        },
-        {
             "texto": "📢HOF🏛️ Luka Doncic (24 points today) has passed Alonzo Mourning and is now ranked 190th all-time with 14,319.",
             "foto": [
                 "collages/1770183562974969_collage_1770183562896845.png"
@@ -4455,6 +4448,13 @@
                 "collages/1770265339039926_collage_1770265338922089.png"
             ],
             "timestamp": 1770265339
+        },
+        {
+            "texto": "Zach LaVine (11 points today) has passed Harrison Barnes and is now ranked 188th all-time with 14,332.",
+            "foto": [
+                "collages/1770268151539921_collage_1770268151454821.png"
+            ],
+            "timestamp": 1770268151
         }
     ],
     "notificaciones_franchise": [
@@ -4536,5 +4536,5 @@
             "type": "franchise_milestone"
         }
     ],
-    "cache_buster": 1770268114
+    "cache_buster": 1770268151
 }
