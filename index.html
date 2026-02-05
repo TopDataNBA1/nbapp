@@ -1099,8 +1099,15 @@
 
                     tablesDiv.innerHTML = '';
                     
+                    // Ordenar equipos alfabéticamente
+                    const sortedTeams = Object.entries(teamsData).sort((a, b) => {
+                        const nameA = teamFullNames[a[0]] || a[0];
+                        const nameB = teamFullNames[b[0]] || b[0];
+                        return nameA.localeCompare(nameB);
+                    });
+                    
                     // Agrupar por equipo
-                    Object.entries(teamsData).forEach(([team, rows]) => {
+                    sortedTeams.forEach(([team, rows]) => {
                         if (!rows || rows.length === 0) return;
                         
                         // Filtro por equipo
