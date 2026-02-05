@@ -1112,7 +1112,10 @@
                             if (filters.playing && row.game_status !== 'playing') return false;
                             if (filters.almost) {
                                 const diff = parseInt(row.Diff) || 999;
-                                return diff <= 3;
+                                const stat = row.Stat || '';
+                                // PTS: diff 0,1,2 | otras: diff 0
+                                const threshold = (stat === 'PTS') ? 2 : 0;
+                                return diff <= threshold;
                             }
                             return true;
                         });
@@ -1148,8 +1151,10 @@
                             const statAbbr = row.Stat || '';
                             const isInactive = (gameStatus === 'inactive');
                             
-                            const near = ['0','1','2','3'];
-                            const mustBlink = (gameStatus === 'playing' || gameStatus === 'not_started') && near.includes(diff) && !isInactive;
+                            // PTS: parpadea con diff 0,1,2 | otras: parpadea con diff 0
+                            const isPoints = (statAbbr === 'PTS');
+                            const nearThreshold = isPoints ? ['0','1','2'] : ['0'];
+                            const mustBlink = (gameStatus === 'playing' || gameStatus === 'not_started') && nearThreshold.includes(diff) && !isInactive;
 
                             let todayStyle = '';
                             if (isInactive) todayStyle = 'color:#ff5555';  // rojo para inactivos
