@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:42:57",
+    "ultima_actualizacion": "04:43:34",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 42890,
-                "Diff": "110",
+                "Hoy": 4,
+                "Total": 42892,
+                "Diff": "108",
                 "Antece": "43000",
                 "Nota": "",
                 "game_status": "playing"
@@ -217,9 +217,9 @@
                 "Rank": 24,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 11914,
-                "Diff": "40",
+                "Hoy": 2,
+                "Total": 11915,
+                "Diff": "39",
                 "Antece": "Dennis Rodman",
                 "Nota": "",
                 "game_status": "playing"
@@ -494,9 +494,9 @@
                 "Rank": 177,
                 "Nombre": "De'Aaron Fox",
                 "Team": "SAS",
-                "Hoy": 6,
-                "Total": 3527,
-                "Diff": "14",
+                "Hoy": 7,
+                "Total": 3528,
+                "Diff": "13",
                 "Antece": "Vlade Divac",
                 "Nota": "",
                 "game_status": "playing"
@@ -2035,9 +2035,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 11852,
-                "Diff": "148",
+                "Hoy": 4,
+                "Total": 11854,
+                "Diff": "146",
                 "Antece": "12000",
                 "game_status": "playing"
             },
@@ -2045,10 +2045,10 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3499,
-                "Diff": "1",
-                "Antece": "3500",
+                "Hoy": 2,
+                "Total": 3500,
+                "Diff": "104",
+                "Antece": "Elden Campbell",
                 "game_status": "playing"
             },
             {
@@ -3117,13 +3117,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Draymond Green today surpasses Bob Cousy and now ranked 239th all time with 925 games",
-            "foto": [
-                "collages/1770183568495239_collage_1770183568401474.png"
-            ],
-            "timestamp": 1770183568
-        },
-        {
             "texto": "Grayson Allen (5 three-pointers today) has passed Spencer Dinwiddie and is now ranked 197th all-time with 968.",
             "foto": [
                 "collages/1770184160534007_collage_1770184160440259.png"
@@ -3809,10 +3802,25 @@
                 "collages/1770349152893422_collage_1770349152789459.png"
             ],
             "timestamp": 1770349152
+        },
+        {
+            "texto": "De'Aaron Fox (7 assists today) has passed Jalen Rose and is now ranked 177th all-time with 3,528.",
+            "foto": [
+                "collages/1770349414841903_collage_1770349414729878.png"
+            ],
+            "timestamp": 1770349414
         }
     ],
-    "notificaciones_franchise": [],
-    "total_notificaciones_historicas": 135,
-    "total_franchise_historicas": 13,
-    "cache_buster": 1770349377
+    "notificaciones_franchise": [
+        {
+            "texto": "LeBron James (2 rebounds today) becomes the 18th player to reach 3,500 rebounds with Lakers.",
+            "foto": [],
+            "timestamp": 1770349414,
+            "team": "LAL",
+            "type": "franchise_milestone"
+        }
+    ],
+    "total_notificaciones_historicas": 136,
+    "total_franchise_historicas": 14,
+    "cache_buster": 1770349414
 }
