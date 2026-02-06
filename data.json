@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:51:10",
+    "ultima_actualizacion": "01:51:48",
     "tablas": {
         "blk": [
             {
@@ -192,14 +192,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 99,
+                "Rank": 98,
                 "Nombre": "Lauri Markkanen",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 1246,
-                "Diff": "",
-                "Antece": "Hedo Turkoglu",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1247,
+                "Diff": "1",
+                "Antece": "Derek Fisher",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -923,9 +923,9 @@
                 "Rank": 14,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 5262,
-                "Diff": "238",
+                "Hoy": 6,
+                "Total": 5264,
+                "Diff": "236",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -1337,9 +1337,9 @@
                 "Rank": 24,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 4849,
-                "Diff": "151",
+                "Hoy": 5,
+                "Total": 4852,
+                "Diff": "148",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -1377,9 +1377,9 @@
                 "Rank": 6,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 615,
-                "Diff": "74",
+                "Hoy": 1,
+                "Total": 616,
+                "Diff": "73",
                 "Antece": "Gordon Hayward",
                 "game_status": "playing"
             },
@@ -1451,9 +1451,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2550,
-                "Diff": "137",
+                "Hoy": 3,
+                "Total": 2551,
+                "Diff": "136",
                 "Antece": "Antonio McDyess",
                 "game_status": "playing"
             },
@@ -1586,13 +1586,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (33 points today) has passed Rik Smits and Wayman Tisdale and is now ranked 240th all-time with 12,883.",
-            "foto": [
-                "collages/1770183563334327_collage_1770183563256215.png"
-            ],
-            "timestamp": 1770183563
-        },
         {
             "texto": "📢🔝💯 Jonas Valanciunas (11 rebounds today) has passed Russell Westbrook and is now ranked 60th all-time with 8,964.",
             "foto": [
@@ -2283,6 +2276,13 @@
                 "collages/1770337996864495_collage_1770337996783531.png"
             ],
             "timestamp": 1770337996
+        },
+        {
+            "texto": "📢🔝💯 Lauri Markkanen (1 three-pointer today) has passed Hedo Turkoglu and is now ranked 98th all-time with 1,247.",
+            "foto": [
+                "collages/1770339107959774_collage_1770339107860790.png"
+            ],
+            "timestamp": 1770339107
         }
     ],
     "notificaciones_franchise": [
@@ -2308,7 +2308,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 101,
+    "total_notificaciones_historicas": 102,
     "total_franchise_historicas": 3,
-    "cache_buster": 1770339070
+    "cache_buster": 1770339108
 }
