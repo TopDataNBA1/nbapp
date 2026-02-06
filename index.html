@@ -744,10 +744,21 @@
                                     // En Games Played: solo los que NO han jugado hoy (Hoy=0) y están a 0 del de arriba
                                     if (hoy !== 0 || !['0'].includes(diff)) return false;
                                 } else {
-                                    // En el resto de stats: como antes (a 0-1-2-3 del de arriba y jugando o no empezado)
                                     const isPlayingOrNotStarted = (gameStatus === 'playing' || gameStatus === 'not_started');
-                                    const near = (stat === 'pts') ? ['0','1','2'] : ['0'];
-                                    if (!isPlayingOrNotStarted || !near.includes(diff)) return false;
+                                    if (!isPlayingOrNotStarted) return false;
+                                    
+                                    // Detectar si es milestone (Antece es número) o rival (Antece es nombre)
+                                    const antece = (row.Antece || '').toString().trim();
+                                    const isMilestone = /^\d+$/.test(antece.replace(/,/g, ''));
+                                    
+                                    if (isMilestone) {
+                                        // Milestone: SOLO diff=1 (diff=0 ya está conseguido)
+                                        if (diff !== '1') return false;
+                                    } else {
+                                        // Rival: diff 0 (PTS permite 0,1,2)
+                                        const near = (stat === 'pts') ? ['0','1','2'] : ['0'];
+                                        if (!near.includes(diff)) return false;
+                                    }
                                 }
                             }
 
@@ -1141,10 +1152,20 @@
                                     const parsed = parseInt(diffRaw, 10);
                                     if (!isNaN(parsed)) diff = parsed;
                                 }
-                                // PTS: diff 0,1,2 | otras: diff 0
-                                const threshold = (stat === 'PTS') ? 2 : 0;
-                                console.log(`[FILTER] ${row.Nombre} - Stat: ${stat}, Diff: '${diffRaw}', parsed: ${diff}, threshold: ${threshold}, pass: ${diff <= threshold}`);
-                                return diff <= threshold;
+                                
+                                // Detectar si es milestone (Antece es número) o rival (Antece es nombre)
+                                const antece = (row.Antece || '').toString().trim();
+                                const isMilestone = /^\d+$/.test(antece.replace(/,/g, ''));
+                                
+                                if (isMilestone) {
+                                    // Milestone: SOLO diff=1 (diff=0 ya está conseguido)
+                                    if (diff !== 1) return false;
+                                } else {
+                                    // Rival: diff 0 (PTS permite 0,1,2)
+                                    const threshold = (stat === 'PTS') ? 2 : 0;
+                                    if (diff > threshold) return false;
+                                }
+                                return true;
                             }
                             return true;
                         });
