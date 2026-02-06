@@ -1129,6 +1129,11 @@
                             if (filters.top10 && row.Rank > 10) return false;
                             if (filters.playing && row.game_status !== 'playing') return false;
                             if (filters.almost) {
+                                // Excluir jugadores con Hoy=1 en stat G (ya jugaron, no pueden adelantar más hoy)
+                                const stat = row.Stat || '';
+                                const hoy = row.Hoy ?? 0;
+                                if (stat === 'G' && hoy === 1) return false;
+                                
                                 // Manejar diff: puede ser número, string numérico, o string vacío
                                 let diffRaw = row.Diff;
                                 let diff = 999;
@@ -1136,7 +1141,6 @@
                                     const parsed = parseInt(diffRaw, 10);
                                     if (!isNaN(parsed)) diff = parsed;
                                 }
-                                const stat = row.Stat || '';
                                 // PTS: diff 0,1,2 | otras: diff 0
                                 const threshold = (stat === 'PTS') ? 2 : 0;
                                 console.log(`[FILTER] ${row.Nombre} - Stat: ${stat}, Diff: '${diffRaw}', parsed: ${diff}, threshold: ${threshold}, pass: ${diff <= threshold}`);
