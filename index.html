@@ -716,7 +716,15 @@
                     tablesDiv.innerHTML = '';
                     const filters = getActiveFilters();
 
-                    for (const [stat, tabla] of Object.entries(data.tablas || {})) {
+                    // Orden fijo de estadísticas
+                    const statOrder = ['pts', 'trb', 'ast', 'stl', 'blk', 'fg3', 'g'];
+                    const sortedStats = Object.entries(data.tablas || {}).sort((a, b) => {
+                        const idxA = statOrder.indexOf(a[0]) !== -1 ? statOrder.indexOf(a[0]) : 999;
+                        const idxB = statOrder.indexOf(b[0]) !== -1 ? statOrder.indexOf(b[0]) : 999;
+                        return idxA - idxB;
+                    });
+
+                    for (const [stat, tabla] of sortedStats) {
                         if (!tabla.length) continue;
 
                         let filtered = tabla.filter(row => {
