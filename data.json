@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:27:29",
+    "ultima_actualizacion": "02:28:06",
     "tablas": {
         "blk": [
             {
@@ -390,14 +390,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 249,
+                "Rank": 248,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 843,
-                "Diff": "",
-                "Antece": "Cameron Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 844,
+                "Diff": "1",
+                "Antece": "John Stockton",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -407,7 +407,7 @@
                 "Hoy": 0,
                 "Total": 840,
                 "Diff": "3",
-                "Antece": "LaMelo Ball",
+                "Antece": "Cameron Johnson",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -876,13 +876,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 5650,
-                "Diff": "1",
-                "Antece": "Glen Rice",
+                "Hoy": 10,
+                "Total": 5653,
+                "Diff": "321",
+                "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
             {
@@ -959,9 +959,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 843,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 844,
+                "Diff": "20",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -971,7 +971,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 840,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "LaMelo Ball",
                 "game_status": "playing"
             },
@@ -2011,13 +2011,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Draymond Green (7 rebounds today) has passed Jerome Kersey and is now ranked 170th all-time with 6,340.",
-            "foto": [
-                "collages/1770183563969949_collage_1770183563872666.png"
-            ],
-            "timestamp": 1770183563
-        },
-        {
             "texto": "Marcus Smart (1 assist today) has passed Lionel Hollins and is now ranked 241st all-time with 3,007.",
             "foto": [
                 "collages/1770183564173071_collage_1770183564079328.png"
@@ -2705,6 +2698,13 @@
             "texto": "Anfernee Simons (3 three-pointers today) becomes the 137th player to reach 1,100 three-pointers",
             "foto": [],
             "timestamp": 1770341138
+        },
+        {
+            "texto": "LaMelo Ball (2 three-pointers today) has passed Cameron Johnson and is now ranked 248th all-time with 844.",
+            "foto": [
+                "collages/1770341286671770_collage_1770341286586799.png"
+            ],
+            "timestamp": 1770341286
         }
     ],
     "notificaciones_franchise": [
@@ -2749,9 +2749,16 @@
             "timestamp": 1770341024,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 LaMelo Ball (10 points today) has passed Glen Rice and is now ranked 7th in Hornets history with 5,653.",
+            "foto": [],
+            "timestamp": 1770341286,
+            "team": "CHA",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 104,
-    "total_franchise_historicas": 6,
-    "cache_buster": 1770341249
+    "total_notificaciones_historicas": 105,
+    "total_franchise_historicas": 7,
+    "cache_buster": 1770341286
 }
