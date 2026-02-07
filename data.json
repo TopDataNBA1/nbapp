@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:22:19",
+    "ultima_actualizacion": "06:22:55",
     "tablas": {
         "pts": [
             {
@@ -259,25 +259,25 @@
             },
             {
                 "Rank": 131,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
+                "Nombre": "Brook Lopez",
+                "Team": "LAC",
                 "Hoy": 8,
                 "Total": 6855,
                 "Diff": "36",
                 "Antece": "Antoine Walker",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 132,
-                "Nombre": "Brook Lopez",
-                "Team": "LAC",
-                "Hoy": 7,
-                "Total": 6854,
-                "Diff": "1",
-                "Antece": "Julius Randle",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 8,
+                "Total": 6855,
+                "Diff": "",
+                "Antece": "Brook Lopez",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 182,
@@ -2815,20 +2815,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Harrison Barnes (1 three-pointer today) has passed Nick Van Exel and is now ranked 54th all-time with 1,529.",
-            "foto": [
-                "collages/1770261389723334_collage_1770261389631925.png"
-            ],
-            "timestamp": 1770261389
-        },
-        {
-            "texto": "Myles Turner (2 three-pointers today) has passed Avery Bradley and is now ranked 240th all-time with 860.",
-            "foto": [
-                "collages/1770261537653253_collage_1770261537557432.png"
-            ],
-            "timestamp": 1770261537
-        },
-        {
             "texto": "Kentavious Caldwell-Pope today surpasses Bob Lanier and now ranked 202nd all time with 960 games",
             "foto": [
                 "collages/1770262086801441_collage_1770262086680920.png"
@@ -3505,6 +3491,20 @@
                 "collages/1770440723947764_collage_1770440723860913.png"
             ],
             "timestamp": 1770440723
+        },
+        {
+            "texto": "Brook Lopez (8 rebounds today) has passed Tyrone Hill and is now ranked 131st all-time with 6,855.",
+            "foto": [
+                "collages/1770441775638675_collage_1770441775523368.png"
+            ],
+            "timestamp": 1770441775
+        },
+        {
+            "texto": "Julius Randle (8 rebounds today) has passed Tyrone Hill and is now ranked 132nd all-time with 6,855.",
+            "foto": [
+                "collages/1770441775857179_collage_1770441775743519.png"
+            ],
+            "timestamp": 1770441775
         }
     ],
     "notificaciones_franchise": [
@@ -3572,7 +3572,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 201,
+    "total_notificaciones_historicas": 203,
     "total_franchise_historicas": 33,
-    "cache_buster": 1770441739
+    "cache_buster": 1770441775
 }
