@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:16:19",
+    "ultima_actualizacion": "02:16:56",
     "tablas": {
         "pts": [
             {
@@ -118,9 +118,9 @@
                 "Rank": 42,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 10266,
-                "Diff": "104",
+                "Hoy": 2,
+                "Total": 10267,
+                "Diff": "103",
                 "Antece": "Otis Thorpe",
                 "Nota": "",
                 "game_status": "playing"
@@ -508,13 +508,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 142,
+                "Rank": 141,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1090,
+                "Hoy": 3,
+                "Total": 1091,
                 "Diff": "",
-                "Antece": "Dana Barros",
+                "Antece": "Kyle Kuzma",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -525,7 +525,7 @@
                 "Hoy": 0,
                 "Total": 1086,
                 "Diff": "4",
-                "Antece": "Mikal Bridges",
+                "Antece": "Dana Barros",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -544,11 +544,11 @@
                 "Rank": 147,
                 "Nombre": "Donte DiVincenzo",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1083,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1084,
+                "Diff": "",
                 "Antece": "Derrick White",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1136,22 +1136,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 3404,
-                "Diff": "1",
-                "Antece": "Nikola Peković",
+                "Hoy": 4,
+                "Total": 3406,
+                "Diff": "94",
+                "Antece": "3500",
                 "game_status": "playing"
             },
             {
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3147,
-                "Diff": "353",
+                "Hoy": 2,
+                "Total": 3148,
+                "Diff": "352",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -1189,9 +1189,9 @@
                 "Rank": 5,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1757,
-                "Diff": "58",
+                "Hoy": 2,
+                "Total": 1759,
+                "Diff": "56",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1299,9 +1299,9 @@
                 "Rank": 12,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 340,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 341,
+                "Diff": "2",
                 "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
@@ -1806,13 +1806,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (3 three-pointers today) has passed Justin Holiday and is now ranked 147th all-time with 1,081.",
-            "foto": [
-                "collages/1770254798985039_collage_1770254798895595.png"
-            ],
-            "timestamp": 1770254798
-        },
         {
             "texto": "📢HOF🏛️ Julius Randle (10 points today) has passed Dan Issel and is now ranked 170th all-time with 14,661.",
             "foto": [
@@ -2497,10 +2490,25 @@
                 "collages/1770426796289914_collage_1770426796197929.png"
             ],
             "timestamp": 1770426796
+        },
+        {
+            "texto": "Mikal Bridges (3 three-pointers today) has passed Dana Barros and is now ranked 141st all-time with 1,091.",
+            "foto": [
+                "collages/1770427016788296_collage_1770427016660340.png"
+            ],
+            "timestamp": 1770427016
         }
     ],
-    "notificaciones_franchise": [],
-    "total_notificaciones_historicas": 171,
-    "total_franchise_historicas": 24,
-    "cache_buster": 1770426979
+    "notificaciones_franchise": [
+        {
+            "texto": "Rudy Gobert (4 points today) has passed Nikola Peković and is now ranked 20th in Timberwolves history with 3,406.",
+            "foto": [],
+            "timestamp": 1770427016,
+            "team": "MIN",
+            "type": "franchise"
+        }
+    ],
+    "total_notificaciones_historicas": 172,
+    "total_franchise_historicas": 25,
+    "cache_buster": 1770427016
 }
