@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:20",
+    "ultima_actualizacion": "04:16:58",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 22,
                 "Nombre": "DeMar DeRozan",
                 "Team": "SAC",
-                "Hoy": 0,
-                "Total": 26293,
-                "Diff": "102",
+                "Hoy": 1,
+                "Total": 26294,
+                "Diff": "101",
                 "Antece": "John Havlicek",
                 "Nota": "",
                 "game_status": "playing"
@@ -426,25 +426,25 @@
             },
             {
                 "Rank": 245,
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 6,
+                "Total": 2997,
+                "Diff": "",
+                "Antece": "Johnny Dawkins",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 246,
                 "Nombre": "Nikola Vučević",
                 "Team": "BOS",
                 "Hoy": 4,
                 "Total": 2997,
                 "Diff": "",
-                "Antece": "Johnny Dawkins",
+                "Antece": "Julius Randle",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 246,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
-                "Hoy": 5,
-                "Total": 2996,
-                "Diff": "1",
-                "Antece": "Nikola Vučević",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             }
         ],
         "stl": [
@@ -485,9 +485,9 @@
                 "Rank": 87,
                 "Nombre": "DeMar DeRozan",
                 "Team": "SAC",
-                "Hoy": 0,
-                "Total": 1233,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 1234,
+                "Diff": "14",
                 "Antece": "Grant Hill",
                 "Nota": "",
                 "game_status": "playing"
@@ -2815,13 +2815,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Julius Randle (4 assists today) has passed Nikola Vucevic and is now ranked 246th all-time with 2,994.",
-            "foto": [
-                "collages/1770258972799137_collage_1770258972704630.png"
-            ],
-            "timestamp": 1770258972
-        },
-        {
             "texto": "📢HOF🏛️ Julius Randle (16 points today) has passed Richie Guerin and is now ranked 168th all-time with 14,677.",
             "foto": [
                 "collages/1770259119401517_collage_1770259119305132.png"
@@ -3503,6 +3496,13 @@
                 "collages/1770434103993618_collage_1770434103871673.png"
             ],
             "timestamp": 1770434104
+        },
+        {
+            "texto": "Julius Randle (6 assists today) has passed Doug Christie and Marc Gasol and is now ranked 245th all-time with 2,997.",
+            "foto": [
+                "collages/1770434218167576_collage_1770434218072624.png"
+            ],
+            "timestamp": 1770434218
         }
     ],
     "notificaciones_franchise": [
@@ -3549,7 +3549,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 191,
+    "total_notificaciones_historicas": 192,
     "total_franchise_historicas": 30,
-    "cache_buster": 1770434180
+    "cache_buster": 1770434218
 }
