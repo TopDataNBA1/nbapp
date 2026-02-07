@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:40:49",
+    "ultima_actualizacion": "02:41:25",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 128,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 16068,
-                "Diff": "91",
+                "Hoy": 8,
+                "Total": 16071,
+                "Diff": "88",
                 "Antece": "Juwan Howard",
                 "Nota": "",
                 "game_status": "playing"
@@ -197,9 +197,9 @@
                 "Rank": 155,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 3,
-                "Total": 3721,
-                "Diff": "33",
+                "Hoy": 4,
+                "Total": 3722,
+                "Diff": "32",
                 "Antece": "Sam Lacey",
                 "Nota": "",
                 "game_status": "playing"
@@ -379,11 +379,11 @@
                 "Rank": 73,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 1357,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1358,
+                "Diff": "1",
                 "Antece": "Evan Fournier",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -392,9 +392,9 @@
                 "Team": "MIA",
                 "Hoy": 0,
                 "Total": 1356,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Tobias Harris",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "inactive"
             },
             {
@@ -1408,13 +1408,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Yves Missi",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 859,
-                "Diff": "0",
-                "Antece": "Rasual Butler",
+                "Hoy": 3,
+                "Total": 860,
+                "Diff": "22",
+                "Antece": "Peja Stojaković",
                 "game_status": "playing"
             },
             {
@@ -1583,9 +1583,9 @@
                 "Rank": 20,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 6797,
-                "Diff": "57",
+                "Hoy": 4,
+                "Total": 6799,
+                "Diff": "55",
                 "Antece": "Kenny Sears",
                 "game_status": "playing"
             },
@@ -1715,9 +1715,9 @@
                 "Rank": 15,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 394,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 395,
+                "Diff": "3",
                 "Antece": "Isiah Thomas",
                 "game_status": "playing"
             }
@@ -1725,23 +1725,23 @@
         "IND": [
             {
                 "Rank": 7,
+                "Nombre": "T.J. McConnell",
+                "Stat": "AST",
+                "Hoy": 4,
+                "Total": 2260,
+                "Diff": "19",
+                "Antece": "Freddie Lewis",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 8,
                 "Nombre": "Tyrese Haliburton",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 2259,
-                "Diff": "20",
-                "Antece": "Freddie Lewis",
+                "Diff": "1",
+                "Antece": "T.J. McConnell",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 8,
-                "Nombre": "T.J. McConnell",
-                "Stat": "AST",
-                "Hoy": 3,
-                "Total": 2259,
-                "Diff": "0",
-                "Antece": "Tyrese Haliburton",
-                "game_status": "playing"
             },
             {
                 "Rank": 24,
@@ -2513,9 +2513,23 @@
             "timestamp": 1770428336,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Yves Missi (3 rebounds today) has passed Rasual Butler and is now ranked 24th in Pelicans history with 860.",
+            "foto": [],
+            "timestamp": 1770428485,
+            "team": "NOH",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 T.J. McConnell (4 assists today) has passed Tyrese Haliburton and is now ranked 7th in Pacers history with 2,260.",
+            "foto": [],
+            "timestamp": 1770428485,
+            "team": "IND",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 179,
-    "total_franchise_historicas": 26,
-    "cache_buster": 1770428449
+    "total_franchise_historicas": 28,
+    "cache_buster": 1770428485
 }
