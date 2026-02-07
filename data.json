@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:02:40",
+    "ultima_actualizacion": "02:03:01",
     "tablas": {
         "pts": [
             {
@@ -83,9 +83,9 @@
                 "Rank": 246,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 12792,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 12794,
+                "Diff": "8",
                 "Antece": "DeMarcus Cousins",
                 "Nota": "",
                 "game_status": "playing"
@@ -224,6 +224,30 @@
                 "Diff": "1",
                 "Antece": "Doug Christie",
                 "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ],
+        "stl": [
+            {
+                "Rank": 191,
+                "Nombre": "Giannis Antetokounmpo",
+                "Team": "MIL",
+                "Hoy": 0,
+                "Total": 988,
+                "Diff": "1",
+                "Antece": "Craig Ehlo",
+                "Nota": "A tiro de 1",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 244,
+                "Nombre": "T.J. McConnell",
+                "Team": "IND",
+                "Hoy": 0,
+                "Total": 893,
+                "Diff": "",
+                "Antece": "Kenyon Martin",
+                "Nota": "Mismo total",
                 "game_status": "not_started"
             }
         ],
@@ -661,30 +685,6 @@
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
-        ],
-        "stl": [
-            {
-                "Rank": 191,
-                "Nombre": "Giannis Antetokounmpo",
-                "Team": "MIL",
-                "Hoy": 0,
-                "Total": 988,
-                "Diff": "1",
-                "Antece": "Craig Ehlo",
-                "Nota": "A tiro de 1",
-                "game_status": "inactive"
-            },
-            {
-                "Rank": 244,
-                "Nombre": "T.J. McConnell",
-                "Team": "IND",
-                "Hoy": 0,
-                "Total": 893,
-                "Diff": "",
-                "Antece": "Kenyon Martin",
-                "Nota": "Mismo total",
-                "game_status": "not_started"
-            }
         ]
     },
     "tablas_teams": {
@@ -703,9 +703,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 12792,
-                "Diff": "208",
+                "Hoy": 2,
+                "Total": 12794,
+                "Diff": "206",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 20,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1808,
-                "Diff": "21",
+                "Hoy": 1,
+                "Total": 1809,
+                "Diff": "20",
                 "Antece": "Sherman Douglas",
                 "game_status": "playing"
             },
@@ -1705,9 +1705,9 @@
                 "Rank": 8,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 480,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 481,
+                "Diff": "6",
                 "Antece": "Saddiq Bey",
                 "game_status": "playing"
             },
@@ -2502,5 +2502,5 @@
     "notificaciones_franchise": [],
     "total_notificaciones_historicas": 170,
     "total_franchise_historicas": 24,
-    "cache_buster": 1770426160
+    "cache_buster": 1770426181
 }
