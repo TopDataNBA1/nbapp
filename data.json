@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:46",
+    "ultima_actualizacion": "03:55:23",
     "tablas": {
         "pts": [
             {
@@ -426,24 +426,24 @@
             },
             {
                 "Rank": 245,
+                "Nombre": "Nikola Vučević",
+                "Team": "BOS",
+                "Hoy": 4,
+                "Total": 2997,
+                "Diff": "",
+                "Antece": "Johnny Dawkins",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 246,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
                 "Hoy": 5,
                 "Total": 2996,
                 "Diff": "1",
-                "Antece": "Johnny Dawkins",
+                "Antece": "Nikola Vučević",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 247,
-                "Nombre": "Nikola Vučević",
-                "Team": "BOS",
-                "Hoy": 3,
-                "Total": 2996,
-                "Diff": "",
-                "Antece": "Marc Gasol",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -962,9 +962,9 @@
                 "Rank": 143,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 1087,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 1088,
+                "Diff": "2",
                 "Antece": "Dana Barros",
                 "Nota": "",
                 "game_status": "playing"
@@ -975,9 +975,9 @@
                 "Team": "NOP",
                 "Hoy": 0,
                 "Total": 1086,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Derrick White",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1383,9 +1383,9 @@
                 "Rank": 8,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 787,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 788,
+                "Diff": "5",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1973,9 +1973,9 @@
                 "Rank": 12,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 4550,
-                "Diff": "209",
+                "Hoy": 6,
+                "Total": 4552,
+                "Diff": "207",
                 "Antece": "Christian Laettner",
                 "game_status": "playing"
             },
@@ -2255,9 +2255,9 @@
                 "Rank": 24,
                 "Nombre": "Yves Missi",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 862,
-                "Diff": "20",
+                "Hoy": 4,
+                "Total": 861,
+                "Diff": "21",
                 "Antece": "Peja Stojaković",
                 "game_status": "playing"
             },
@@ -2755,9 +2755,9 @@
                 "Rank": 24,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1253,
-                "Diff": "12",
+                "Hoy": 6,
+                "Total": 1254,
+                "Diff": "11",
                 "Antece": "George Hill",
                 "game_status": "playing"
             },
@@ -2814,13 +2814,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (12 points today) has passed Donovan Mitchell and is now ranked 169th all-time with 14,673.",
-            "foto": [
-                "collages/1770256608764540_collage_1770256608677289.png"
-            ],
-            "timestamp": 1770256608
-        },
         {
             "texto": "Julius Randle (2 rebounds today) has passed Brook Lopez and is now ranked 133rd all-time with 6,846.",
             "foto": [
@@ -3505,6 +3498,11 @@
                 "collages/1770431959052666_collage_1770431958943702.png"
             ],
             "timestamp": 1770431959
+        },
+        {
+            "texto": "Nikola Vučević (4 assists today) has passed Marc Gasol and is now ranked 245th all-time with 2,997.",
+            "foto": [],
+            "timestamp": 1770432923
         }
     ],
     "notificaciones_franchise": [
@@ -3544,7 +3542,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 187,
+    "total_notificaciones_historicas": 188,
     "total_franchise_historicas": 29,
-    "cache_buster": 1770432886
+    "cache_buster": 1770432923
 }
