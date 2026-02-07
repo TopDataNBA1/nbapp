@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:49:11",
+    "ultima_actualizacion": "05:49:47",
     "tablas": {
         "pts": [
             {
@@ -272,11 +272,11 @@
                 "Rank": 133,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 5,
-                "Total": 6852,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 6853,
+                "Diff": "1",
                 "Antece": "Tyrone Hill",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -992,14 +992,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 171,
+                "Rank": 170,
                 "Nombre": "Malik Monk",
                 "Team": "SAC",
-                "Hoy": 3,
-                "Total": 1024,
-                "Diff": "",
-                "Antece": "Al Horford",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1025,
+                "Diff": "1",
+                "Antece": "Joe Harris",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1009,7 +1009,7 @@
                 "Hoy": 3,
                 "Total": 1021,
                 "Diff": "3",
-                "Antece": "Malik Monk",
+                "Antece": "Al Horford",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -2723,9 +2723,9 @@
                 "Rank": 8,
                 "Nombre": "Malik Monk",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 516,
-                "Diff": "52",
+                "Hoy": 4,
+                "Total": 517,
+                "Diff": "51",
                 "Antece": "Keegan Murray",
                 "game_status": "playing"
             }
@@ -2814,13 +2814,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Russell Westbrook (3 points today) has passed Hakeem Olajuwon and is now ranked 14th all-time with 26,947.",
-            "foto": [
-                "collages/1770261279247775_collage_1770261279133386.png"
-            ],
-            "timestamp": 1770261279
-        },
         {
             "texto": "Harrison Barnes (3 points today) has passed Zach LaVine and is now ranked 188th all-time with 14,324.",
             "foto": [
@@ -3505,6 +3498,13 @@
                 "collages/1770438457838928_collage_1770438457740276.png"
             ],
             "timestamp": 1770438457
+        },
+        {
+            "texto": "Malik Monk (4 three-pointers today) has passed Al Horford and is now ranked 170th all-time with 1,025.",
+            "foto": [
+                "collages/1770439787502253_collage_1770439787418996.png"
+            ],
+            "timestamp": 1770439787
         }
     ],
     "notificaciones_franchise": [
@@ -3572,7 +3572,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 199,
+    "total_notificaciones_historicas": 200,
     "total_franchise_historicas": 33,
-    "cache_buster": 1770439751
+    "cache_buster": 1770439787
 }
