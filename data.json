@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:19:08",
+    "ultima_actualizacion": "20:19:45",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 242,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 21,
-                "Total": 12842,
-                "Diff": "10",
+                "Hoy": 23,
+                "Total": 12844,
+                "Diff": "8",
                 "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "",
                 "game_status": "playing"
@@ -139,13 +139,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 246,
+                "Rank": 244,
                 "Nombre": "Nikola Vucevic",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 2997,
+                "Hoy": 1,
+                "Total": 2998,
                 "Diff": "",
-                "Antece": "Johnny Dawkins",
+                "Antece": "Julius Randle",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -417,9 +417,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 12842,
-                "Diff": "158",
+                "Hoy": 23,
+                "Total": 12844,
+                "Diff": "156",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -822,13 +822,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Draymond Green today surpasses Bob Cousy and now ranked 239th all time with 925 games",
-            "foto": [
-                "collages/1770350986569125_collage_1770350986474547.png"
-            ],
-            "timestamp": 1770350986
-        },
         {
             "texto": "Grayson Allen (5 three-pointers today) has passed Patrick Beverley and is now ranked 195th all-time with 974.",
             "foto": [
@@ -1511,6 +1504,13 @@
                 "collages/1770578348790703_collage_1770578348702891.png"
             ],
             "timestamp": 1770578348
+        },
+        {
+            "texto": "Nikola Vucevic (1 assist today) has passed Greg Anthony and Johnny Dawkins and is now ranked 244th all-time with 2,998.",
+            "foto": [
+                "collages/1770578385329042_collage_1770578385247086.png"
+            ],
+            "timestamp": 1770578385
         }
     ],
     "notificaciones_franchise": [
@@ -1837,7 +1837,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 248,
+    "total_notificaciones_historicas": 249,
     "total_franchise_historicas": 46,
-    "cache_buster": 1770578348
+    "cache_buster": 1770578385
 }
