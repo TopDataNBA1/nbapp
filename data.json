@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:54:21",
+    "ultima_actualizacion": "21:55:31",
     "tablas": {
         "pts": [
             {
@@ -69,14 +69,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 137,
+                "Rank": 136,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 18,
-                "Total": 15802,
-                "Diff": "",
-                "Antece": "Chauncey Billups",
-                "Nota": "Mismo total",
+                "Hoy": 20,
+                "Total": 15804,
+                "Diff": "36",
+                "Antece": "Jack Twyman",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -140,9 +140,9 @@
                 "Rank": 42,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 10282,
-                "Diff": "88",
+                "Hoy": 2,
+                "Total": 10283,
+                "Diff": "87",
                 "Antece": "Otis Thorpe",
                 "Nota": "",
                 "game_status": "playing"
@@ -1029,9 +1029,9 @@
                 "Rank": 7,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 7552,
-                "Diff": "169",
+                "Hoy": 20,
+                "Total": 7554,
+                "Diff": "167",
                 "Antece": "Chris Paul",
                 "game_status": "playing"
             },
@@ -1263,9 +1263,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3163,
-                "Diff": "337",
+                "Hoy": 2,
+                "Total": 3164,
+                "Diff": "336",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -1830,13 +1830,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Al Horford (4 assists today) has passed Larry Drew and is now ranked 158th all-time with 3,706.",
-            "foto": [
-                "collages/1770354491355449_collage_1770354491257721.png"
-            ],
-            "timestamp": 1770354491
-        },
         {
             "texto": "📢HOF🏛️ De'Aaron Fox (7 assists today) has passed Vlade Divac and is now ranked 176th all-time with 3,542.",
             "foto": [
@@ -2517,6 +2510,13 @@
             "texto": "Julius Randle (2 assists today) becomes the 243rd player to reach 3,000",
             "foto": [],
             "timestamp": 1770583577
+        },
+        {
+            "texto": "📢HOF🏛️ Kawhi Leonard (20 points today) has passed Chauncey Billups and is now ranked 136th all-time with 15,804.",
+            "foto": [
+                "collages/1770584131061029_collage_1770584130962141.png"
+            ],
+            "timestamp": 1770584131
         }
     ],
     "notificaciones_franchise": [
@@ -2850,7 +2850,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 254,
+    "total_notificaciones_historicas": 255,
     "total_franchise_historicas": 47,
-    "cache_buster": 1770584061
+    "cache_buster": 1770584131
 }
