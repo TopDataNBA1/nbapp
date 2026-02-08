@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:45:39",
+    "ultima_actualizacion": "21:46:17",
     "tablas": {
         "pts": [
             {
@@ -171,24 +171,24 @@
             },
             {
                 "Rank": 131,
-                "Nombre": "Brook Lopez",
-                "Team": "LAC",
-                "Hoy": 1,
-                "Total": 6857,
-                "Diff": "34",
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 3,
+                "Total": 6858,
+                "Diff": "33",
                 "Antece": "Antoine Walker",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 132,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
-                "Hoy": 2,
+                "Nombre": "Brook Lopez",
+                "Team": "LAC",
+                "Hoy": 1,
                 "Total": 6857,
-                "Diff": "",
-                "Antece": "Brook Lopez",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Julius Randle",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -296,10 +296,10 @@
                 "Rank": 243,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 2,
+                "Total": 3000,
+                "Diff": "6",
+                "Antece": "Lionel Hollins",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1831,20 +1831,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ CJ McCollum (8 points today) has passed James Worthy and is now ranked 121st all-time with 16,324.",
-            "foto": [
-                "collages/1770354490970265_collage_1770354490883350.png"
-            ],
-            "timestamp": 1770354490
-        },
-        {
-            "texto": "Jeff Green (6 points today) has passed Rod Strickland and is now ranked 183rd all-time with 14,466.",
-            "foto": [
-                "collages/1770354491151566_collage_1770354491065538.png"
-            ],
-            "timestamp": 1770354491
-        },
-        {
             "texto": "Al Horford (4 assists today) has passed Larry Drew and is now ranked 158th all-time with 3,706.",
             "foto": [
                 "collages/1770354491355449_collage_1770354491257721.png"
@@ -2519,6 +2505,18 @@
                 "collages/1770582986583673_collage_1770582986501311.png"
             ],
             "timestamp": 1770582986
+        },
+        {
+            "texto": "Julius Randle (3 rebounds today) has passed Brook Lopez and is now ranked 131st all-time with 6,858.",
+            "foto": [
+                "collages/1770583574487127_collage_1770583574397973.png"
+            ],
+            "timestamp": 1770583574
+        },
+        {
+            "texto": "Julius Randle (2 assists today) becomes the 243rd player to reach 3,000",
+            "foto": [],
+            "timestamp": 1770583577
         }
     ],
     "notificaciones_franchise": [
@@ -2852,7 +2850,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 252,
+    "total_notificaciones_historicas": 254,
     "total_franchise_historicas": 47,
-    "cache_buster": 1770583539
+    "cache_buster": 1770583577
 }
