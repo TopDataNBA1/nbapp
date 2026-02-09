@@ -1,7 +1,320 @@
 {
-    "ultima_actualizacion": "00:33:23",
-    "tablas": {},
-    "tablas_teams": {},
+    "ultima_actualizacion": "00:34:01",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 128,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 16078,
+                "Diff": "81",
+                "Antece": "Juwan Howard",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 182,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 6133,
+                "Diff": "21",
+                "Antece": "Grant Long",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 73,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1359,
+                "Diff": "",
+                "Antece": "Evan Fournier",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 75,
+                "Nombre": "Duncan Robinson",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1348,
+                "Diff": "8",
+                "Antece": "Terry Rozier",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 139,
+                "Nombre": "Kevin Huerter",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1093,
+                "Diff": "1",
+                "Antece": "Mo Williams",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 158,
+                "Nombre": "Coby White",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1057,
+                "Diff": "2",
+                "Antece": "Allen Iverson",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 246,
+                "Nombre": "LaMelo Ball",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 849,
+                "Diff": "3",
+                "Antece": "Arron Afflalo",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 250,
+                "Nombre": "Miles Bridges",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 844,
+                "Diff": "1",
+                "Antece": "John Stockton",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ],
+        "g": [
+            {
+                "Rank": 148,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1005,
+                "Diff": "",
+                "Antece": "Nazr Mohammed",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            }
+        ]
+    },
+    "tablas_teams": {
+        "CHA": [
+            {
+                "Rank": 3,
+                "Nombre": "Miles Bridges",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 7599,
+                "Diff": "401",
+                "Antece": "8000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "LaMelo Ball",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 5682,
+                "Diff": "292",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "Miles Bridges",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2945,
+                "Diff": "55",
+                "Antece": "3000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "LaMelo Ball",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 1587,
+                "Diff": "54",
+                "Antece": "Al Jefferson",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "LaMelo Ball",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 2032,
+                "Diff": "468",
+                "Antece": "2500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 12,
+                "Nombre": "Miles Bridges",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1318,
+                "Diff": "77",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "LaMelo Ball",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 389,
+                "Diff": "9",
+                "Antece": "Kendall Gill",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Miles Bridges",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 349,
+                "Diff": "6",
+                "Antece": "Brevin Knight",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Miles Bridges",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 320,
+                "Diff": "80",
+                "Antece": "400",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "LaMelo Ball",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 849,
+                "Diff": "15",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Miles Bridges",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 844,
+                "Diff": "5",
+                "Antece": "LaMelo Ball",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Brandon Miller",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 392,
+                "Diff": "8",
+                "Antece": "400",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "Miles Bridges",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 476,
+                "Diff": "24",
+                "Antece": "500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 24,
+                "Nombre": "LaMelo Ball",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 274,
+                "Diff": "8",
+                "Antece": "Frank Kaminsky",
+                "game_status": "not_started"
+            }
+        ],
+        "DET": [
+            {
+                "Rank": 22,
+                "Nombre": "Jalen Duren",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2564,
+                "Diff": "123",
+                "Antece": "Antonio McDyess",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Cade Cunningham",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1966,
+                "Diff": "34",
+                "Antece": "2000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 10,
+                "Nombre": "Isaiah Stewart",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 419,
+                "Diff": "7",
+                "Antece": "Jason Maxiell",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 19,
+                "Nombre": "Jalen Duren",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 229,
+                "Diff": "0",
+                "Antece": "Rick Mahorn",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Cade Cunningham",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 481,
+                "Diff": "6",
+                "Antece": "Saddiq Bey",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 15,
+                "Nombre": "Tobias Harris",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 396,
+                "Diff": "2",
+                "Antece": "Isiah Thomas",
+                "game_status": "not_started"
+            }
+        ]
+    },
     "notificaciones": [
         {
             "texto": "Julius Randle (1 rebound today) has passed Brook Lopez and is now ranked 132nd all-time with 6,848.",
@@ -999,5 +1312,5 @@
     ],
     "total_notificaciones_historicas": 270,
     "total_franchise_historicas": 52,
-    "cache_buster": 1770680003
+    "cache_buster": 1770680041
 }
