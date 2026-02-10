@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:33:39",
+    "ultima_actualizacion": "02:34:17",
     "tablas": {
         "pts": [
             {
@@ -83,9 +83,9 @@
                 "Rank": 168,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 14713,
-                "Diff": "23",
+                "Hoy": 7,
+                "Total": 14716,
+                "Diff": "20",
                 "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "playing"
@@ -502,14 +502,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 211,
+                "Rank": 210,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 932,
-                "Diff": "",
-                "Antece": "Dorian Finney-Smith",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 933,
+                "Diff": "1",
+                "Antece": "Chucky Atkins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -519,7 +519,7 @@
                 "Hoy": 0,
                 "Total": 931,
                 "Diff": "1",
-                "Antece": "Julius Randle",
+                "Antece": "Dorian Finney-Smith",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1473,9 +1473,9 @@
                 "Rank": 11,
                 "Nombre": "Zion Williamson",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 1653,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 1652,
+                "Diff": "17",
                 "Antece": "Brandon Ingram",
                 "game_status": "playing"
             },
@@ -1563,9 +1563,9 @@
                 "Rank": 10,
                 "Nombre": "Zion Williamson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 257,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 258,
+                "Diff": "7",
                 "Antece": "P.J. Brown",
                 "game_status": "playing"
             },
@@ -2186,13 +2186,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (3 rebounds today) has passed Paul Arizin and is now ranked 182nd all-time with 6,130.",
-            "foto": [
-                "collages/1770428297934618_collage_1770428297807662.png"
-            ],
-            "timestamp": 1770428297
-        },
         {
             "texto": "📢🔝💯 Tobias Harris (1 three-pointer today) has passed Terry Rozier and is now ranked 73rd all-time with 1,357.",
             "foto": [
@@ -2875,6 +2868,13 @@
                 "collages/1770686841645373_collage_1770686841560767.png"
             ],
             "timestamp": 1770686841
+        },
+        {
+            "texto": "Julius Randle (1 three-pointer today) has passed Dorian Finney-Smith and is now ranked 210th all-time with 933.",
+            "foto": [
+                "collages/1770687257439730_collage_1770687257352926.png"
+            ],
+            "timestamp": 1770687257
         }
     ],
     "notificaciones_franchise": [
@@ -3229,7 +3229,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 282,
+    "total_notificaciones_historicas": 283,
     "total_franchise_historicas": 54,
-    "cache_buster": 1770687219
+    "cache_buster": 1770687257
 }
