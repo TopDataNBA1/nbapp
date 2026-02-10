@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:04:34",
+    "ultima_actualizacion": "05:05:12",
     "tablas": {
         "pts": [
             {
@@ -102,14 +102,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 113,
+                "Rank": 112,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 16782,
-                "Diff": "2",
-                "Antece": "Buck Williams",
-                "Nota": "A tiro de 2",
+                "Hoy": 6,
+                "Total": 16785,
+                "Diff": "42",
+                "Antece": "Elton Brand",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -604,9 +604,9 @@
                 "Rank": 42,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1627,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 1628,
+                "Diff": "4",
                 "Antece": "Zach LaVine",
                 "Nota": "",
                 "game_status": "playing"
@@ -3878,13 +3878,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 7657,
-                "Diff": "0",
-                "Antece": "Hersey Hawkins",
+                "Hoy": 16,
+                "Total": 7659,
+                "Diff": "14",
+                "Antece": "Fred Carter",
                 "game_status": "playing"
             },
             {
@@ -4364,13 +4364,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Brook Lopez (9 rebounds today) has passed Julius Randle and is now ranked 131st all-time with 6,856.",
-            "foto": [
-                "collages/1770442030185013_collage_1770442030100907.png"
-            ],
-            "timestamp": 1770442030
-        },
         {
             "texto": "📢HOF🏛️ Michael Porter Jr. (1 three-pointer today) has passed Joe Dumars and is now ranked 181st all-time with 991.",
             "foto": [
@@ -5053,6 +5046,13 @@
                 "collages/1770695174761479_collage_1770695174644451.png"
             ],
             "timestamp": 1770695174
+        },
+        {
+            "texto": "Jrue Holiday (6 points today) has passed Buck Williams and is now ranked 112th all-time with 16,785.",
+            "foto": [
+                "collages/1770696312480670_collage_1770696312373284.png"
+            ],
+            "timestamp": 1770696312
         }
     ],
     "notificaciones_franchise": [
@@ -5440,9 +5440,16 @@
             "timestamp": 1770694263,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (16 points today) has passed Hersey Hawkins and is now ranked 14th in 76ers history with 7,659.",
+            "foto": [],
+            "timestamp": 1770696312,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 308,
-    "total_franchise_historicas": 59,
-    "cache_buster": 1770696274
+    "total_notificaciones_historicas": 309,
+    "total_franchise_historicas": 60,
+    "cache_buster": 1770696312
 }
