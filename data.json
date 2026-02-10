@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:18:50",
+    "ultima_actualizacion": "04:19:28",
     "tablas": {
         "pts": [
             {
@@ -857,9 +857,9 @@
                 "Rank": 169,
                 "Nombre": "Jerami Grant",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1027,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 1028,
+                "Diff": "7",
                 "Antece": "James Posey",
                 "Nota": "",
                 "game_status": "playing"
@@ -870,9 +870,9 @@
                 "Team": "SAC",
                 "Hoy": 0,
                 "Total": 1027,
-                "Diff": "",
+                "Diff": "1",
                 "Antece": "Jerami Grant",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -1430,24 +1430,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 240,
+                "Rank": 239,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 3013,
-                "Diff": "",
-                "Antece": "Gary Grant",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3014,
+                "Diff": "9",
+                "Antece": "Jeff Mullins",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 241,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 9,
-                "Total": 3009,
-                "Diff": "4",
-                "Antece": "Marcus Smart",
+                "Hoy": 10,
+                "Total": 3010,
+                "Diff": "3",
+                "Antece": "Gary Grant",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -3881,9 +3881,9 @@
                 "Rank": 16,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 7643,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 7645,
+                "Diff": "6",
                 "Antece": "Wilt Chamberlain",
                 "game_status": "playing"
             },
@@ -4053,9 +4053,9 @@
                 "Rank": 11,
                 "Nombre": "Jerami Grant",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 449,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 450,
+                "Diff": "14",
                 "Antece": "Clyde Drexler",
                 "game_status": "playing"
             },
@@ -4364,20 +4364,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (7 assists today) has passed Doug Christie, Greg Anthony, Johnny Dawkins, Marc Gasol and Nikola Vučević and is now ranked 243rd all-time with 2,998.",
-            "foto": [
-                "collages/1770435667417802_collage_1770435667343299.png"
-            ],
-            "timestamp": 1770435667
-        },
-        {
-            "texto": "📢HOF🏛️ Nicolas Batum (2 rebounds today) has passed Julius Erving and is now ranked 230th all-time with 5,602.",
-            "foto": [
-                "collages/1770435849390047_collage_1770435849301080.png"
-            ],
-            "timestamp": 1770435849
-        },
         {
             "texto": "Kawhi Leonard (10 points today) has passed Detlef Schrempf and is now ranked 137th all-time with 15,763.",
             "foto": [
@@ -5055,6 +5041,20 @@
                 "collages/1770693451748646_collage_1770693451656943.png"
             ],
             "timestamp": 1770693451
+        },
+        {
+            "texto": "Marcus Smart (1 assist today) has passed Gary Grant and is now ranked 239th all-time with 3,014.",
+            "foto": [
+                "collages/1770693567786267_collage_1770693567689018.png"
+            ],
+            "timestamp": 1770693567
+        },
+        {
+            "texto": "Jerami Grant (1 three-pointer today) has passed Malik Monk and is now ranked 169th all-time with 1,028.",
+            "foto": [
+                "collages/1770693568000420_collage_1770693567911069.png"
+            ],
+            "timestamp": 1770693568
         }
     ],
     "notificaciones_franchise": [
@@ -5437,7 +5437,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 299,
+    "total_notificaciones_historicas": 301,
     "total_franchise_historicas": 58,
-    "cache_buster": 1770693530
+    "cache_buster": 1770693568
 }
