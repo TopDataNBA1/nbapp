@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:53",
+    "ultima_actualizacion": "04:17:31",
     "tablas": {
         "pts": [
             {
@@ -821,14 +821,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 156,
+                "Rank": 155,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1066,
-                "Diff": "",
-                "Antece": "George Hill",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1067,
+                "Diff": "3",
+                "Antece": "Derek Harper",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1246,9 +1246,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 11817,
-                "Diff": "183",
+                "Hoy": 2,
+                "Total": 11818,
+                "Diff": "182",
                 "Antece": "12000",
                 "Nota": "",
                 "game_status": "playing"
@@ -2445,9 +2445,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3609,
-                "Diff": "41",
+                "Hoy": 2,
+                "Total": 3610,
+                "Diff": "40",
                 "Antece": "Elgin Baylor",
                 "game_status": "playing"
             },
@@ -4365,13 +4365,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Julius Randle (7 assists today) has passed Greg Anthony, Johnny Dawkins and Nikola Vučević and is now ranked 243rd all-time with 2,998.",
-            "foto": [
-                "collages/1770434479485545_collage_1770434479396950.png"
-            ],
-            "timestamp": 1770434479
-        },
-        {
             "texto": "Julius Randle (7 assists today) has passed Doug Christie, Greg Anthony, Johnny Dawkins, Marc Gasol and Nikola Vučević and is now ranked 243rd all-time with 2,998.",
             "foto": [
                 "collages/1770435667417802_collage_1770435667343299.png"
@@ -5055,6 +5048,13 @@
                 "collages/1770692731776071_collage_1770692731679193.png"
             ],
             "timestamp": 1770692731
+        },
+        {
+            "texto": "Marcus Smart (1 three-pointer today) has passed George Hill and is now ranked 155th all-time with 1,067.",
+            "foto": [
+                "collages/1770693451748646_collage_1770693451656943.png"
+            ],
+            "timestamp": 1770693451
         }
     ],
     "notificaciones_franchise": [
@@ -5437,7 +5437,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 298,
+    "total_notificaciones_historicas": 299,
     "total_franchise_historicas": 58,
-    "cache_buster": 1770693413
+    "cache_buster": 1770693451
 }
