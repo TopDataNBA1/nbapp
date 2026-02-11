@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:27:47",
+    "ultima_actualizacion": "03:28:22",
     "tablas": {
         "pts": [
             {
@@ -359,14 +359,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 175,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 1006,
-                "Diff": "",
-                "Antece": "Danny Granger",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1007,
+                "Diff": "1",
+                "Antece": "Tyler Herro",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -509,11 +509,11 @@
                 "Rank": 149,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 3787,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 3788,
+                "Diff": "1",
                 "Antece": "Lou Williams",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1179,9 +1179,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3787,
-                "Diff": "213",
+                "Hoy": 2,
+                "Total": 3788,
+                "Diff": "212",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1330,13 +1330,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Kevin Love today surpasses Isiah Thomas and now ranked 177th all time with 980 games",
-            "foto": [
-                "collages/1770510752334551_collage_1770510752240802.png"
-            ],
-            "timestamp": 1770510752
-        },
         {
             "texto": "Jusuf Nurkic (4 rebounds today) has passed Derrick Favors and is now ranked 228th all-time with 5,609.",
             "foto": [
@@ -2021,6 +2014,13 @@
                 "collages/1770776133987607_collage_1770776133895633.png"
             ],
             "timestamp": 1770776133
+        },
+        {
+            "texto": "Dillon Brooks (1 three-pointer today) has passed Danny Granger and is now ranked 175th all-time with 1,007.",
+            "foto": [
+                "collages/1770776902389751_collage_1770776902293279.png"
+            ],
+            "timestamp": 1770776902
         }
     ],
     "notificaciones_franchise": [
@@ -2494,7 +2494,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 319,
+    "total_notificaciones_historicas": 320,
     "total_franchise_historicas": 67,
-    "cache_buster": 1770776867
+    "cache_buster": 1770776902
 }
