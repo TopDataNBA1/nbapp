@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:37",
+    "ultima_actualizacion": "02:27:13",
     "tablas": {
         "pts": [
             {
@@ -502,9 +502,9 @@
                 "Rank": 107,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 983,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 984,
+                "Diff": "5",
                 "Antece": "Mike Gminski",
                 "Nota": "",
                 "game_status": "playing"
@@ -643,9 +643,9 @@
                 "Rank": 5,
                 "Nombre": "Clint Capela",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 523,
-                "Diff": "62",
+                "Hoy": 1,
+                "Total": 524,
+                "Diff": "61",
                 "Antece": "Ralph Sampson",
                 "game_status": "playing"
             },
@@ -690,13 +690,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Clint Capela",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 379,
-                "Diff": "0",
-                "Antece": "Eric Gordon",
+                "Hoy": 1,
+                "Total": 380,
+                "Diff": "2",
+                "Antece": "Trevor Ariza",
                 "game_status": "playing"
             }
         ],
@@ -938,13 +938,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Harrison Barnes today surpasses Elden Campbell and now ranked 126th all time with 1,045 games",
-            "foto": [
-                "collages/1770508005473513_collage_1770508005395395.png"
-            ],
-            "timestamp": 1770508005
-        },
         {
             "texto": "De'Aaron Fox (3 assists today) has passed Jalen Rose and is now ranked 177th all-time with 3,528.",
             "foto": [
@@ -1629,6 +1622,13 @@
                 "collages/1770772386084781_collage_1770772385999824.png"
             ],
             "timestamp": 1770772386
+        },
+        {
+            "texto": "Clint Capela (1 block today) has passed John Salley and is now ranked 107th all-time with 984.",
+            "foto": [
+                "collages/1770773233057036_collage_1770773232955071.png"
+            ],
+            "timestamp": 1770773233
         }
     ],
     "notificaciones_franchise": [
@@ -2065,9 +2065,16 @@
             "timestamp": 1770700550,
             "team": "MEM",
             "type": "franchise"
+        },
+        {
+            "texto": "Clint Capela today surpasses Eric Gordon and is now ranked 23rd in Rockets history with 380 games.",
+            "foto": [],
+            "timestamp": 1770773233,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 315,
-    "total_franchise_historicas": 62,
-    "cache_buster": 1770773197
+    "total_notificaciones_historicas": 316,
+    "total_franchise_historicas": 63,
+    "cache_buster": 1770773233
 }
