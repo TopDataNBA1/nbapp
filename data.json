@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:27:13",
+    "ultima_actualizacion": "02:27:50",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 111,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 7190,
-                "Diff": "42",
+                "Hoy": 1,
+                "Total": 7191,
+                "Diff": "41",
                 "Antece": "Derrick Coleman",
                 "Nota": "",
                 "game_status": "playing"
@@ -249,14 +249,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 140,
+                "Rank": 138,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1093,
-                "Diff": "",
-                "Antece": "Kevin Huerter",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1094,
+                "Diff": "6",
+                "Antece": "1100",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -593,9 +593,9 @@
                 "Rank": 9,
                 "Nombre": "Clint Capela",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 3448,
-                "Diff": "52",
+                "Hoy": 1,
+                "Total": 3449,
+                "Diff": "51",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -938,13 +938,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "De'Aaron Fox (3 assists today) has passed Jalen Rose and is now ranked 177th all-time with 3,528.",
-            "foto": [
-                "collages/1770508290150489_collage_1770508290056741.png"
-            ],
-            "timestamp": 1770508290
-        },
         {
             "texto": "📢🔝💯 Lauri Markkanen (2 three-pointers today) has passed C.J. Miles and Shane Battier and is now ranked 95th all-time with 1,251.",
             "foto": [
@@ -1629,6 +1622,13 @@
                 "collages/1770773233057036_collage_1770773232955071.png"
             ],
             "timestamp": 1770773233
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Kevin Huerter and is now ranked 138th all-time with 1,094.",
+            "foto": [
+                "collages/1770773270454061_collage_1770773270368091.png"
+            ],
+            "timestamp": 1770773270
         }
     ],
     "notificaciones_franchise": [
@@ -2074,7 +2074,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 316,
+    "total_notificaciones_historicas": 317,
     "total_franchise_historicas": 63,
-    "cache_buster": 1770773233
+    "cache_buster": 1770773270
 }
