@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:20:58",
+    "ultima_actualizacion": "01:21:40",
     "tablas": {
         "pts": [
             {
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 28853,
-                "Diff": "147",
+                "Hoy": 4,
+                "Total": 28854,
+                "Diff": "146",
                 "Antece": "29000",
                 "Nota": "",
                 "game_status": "playing"
@@ -116,9 +116,9 @@
                 "Rank": 167,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 14770,
-                "Diff": "88",
+                "Hoy": 4,
+                "Total": 14772,
+                "Diff": "86",
                 "Antece": "Monta Ellis",
                 "Nota": "",
                 "game_status": "playing"
@@ -492,25 +492,25 @@
             },
             {
                 "Rank": 141,
+                "Nombre": "Kyle Kuzma",
+                "Team": "MIL",
+                "Hoy": 1,
+                "Total": 1092,
+                "Diff": "1",
+                "Antece": "Kevin Huerter",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 142,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
                 "Hoy": 0,
                 "Total": 1091,
-                "Diff": "2",
-                "Antece": "Kevin Huerter",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Kyle Kuzma",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 142,
-                "Nombre": "Kyle Kuzma",
-                "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1091,
-                "Diff": "",
-                "Antece": "Derrick White",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 158,
@@ -1333,9 +1333,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 2036,
-                "Diff": "464",
+                "Hoy": 1,
+                "Total": 2037,
+                "Diff": "463",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1435,9 +1435,9 @@
                 "Rank": 13,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 6536,
-                "Diff": "52",
+                "Hoy": 4,
+                "Total": 6538,
+                "Diff": "50",
                 "Antece": "Campy Russell",
                 "game_status": "playing"
             },
@@ -2567,13 +2567,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jusuf Nurkic (14 rebounds today) has passed Drew Gooden and is now ranked 225th all-time with 5,619.",
-            "foto": [
-                "collages/1770515083149007_collage_1770515083070884.png"
-            ],
-            "timestamp": 1770515083
-        },
-        {
             "texto": "Anfernee Simons (2 three-pointers today) has passed Latrell Sprewell and Randy Foye and is now ranked 135th all-time with 1,105.",
             "foto": [
                 "collages/1770515119162830_collage_1770515119084707.png"
@@ -3257,6 +3250,13 @@
                 "collages/1770782854779092_collage_1770782854689122.png"
             ],
             "timestamp": 1770782854
+        },
+        {
+            "texto": "Kyle Kuzma (1 three-pointer today) has passed Derrick White and is now ranked 141st all-time with 1,092.",
+            "foto": [
+                "collages/1770855700253570_collage_1770855700152619.png"
+            ],
+            "timestamp": 1770855700
         }
     ],
     "notificaciones_franchise": [
@@ -3765,7 +3765,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 329,
+    "total_notificaciones_historicas": 330,
     "total_franchise_historicas": 72,
-    "cache_buster": 1770855658
+    "cache_buster": 1770855700
 }
