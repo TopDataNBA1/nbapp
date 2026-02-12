@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:20",
+    "ultima_actualizacion": "03:19:02",
     "tablas": {
         "pts": [
             {
@@ -136,25 +136,25 @@
             },
             {
                 "Rank": 100,
+                "Nombre": "Nikola Jokic",
+                "Team": "DEN",
+                "Hoy": 4,
+                "Total": 17307,
+                "Diff": "28",
+                "Antece": "Kevin McHale",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 101,
                 "Nombre": "Bradley Beal",
                 "Team": "LAC",
                 "Hoy": 0,
                 "Total": 17306,
-                "Diff": "29",
-                "Antece": "Kevin McHale",
-                "Nota": "",
-                "game_status": "inactive"
-            },
-            {
-                "Rank": 102,
-                "Nombre": "Nikola Jokic",
-                "Team": "DEN",
-                "Hoy": 2,
-                "Total": 17305,
                 "Diff": "1",
-                "Antece": "Michael Finley",
+                "Antece": "Nikola Jokic",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "inactive"
             },
             {
                 "Rank": 112,
@@ -569,9 +569,9 @@
                 "Rank": 224,
                 "Nombre": "Jusuf Nurkic",
                 "Team": "UTA",
-                "Hoy": 1,
-                "Total": 5636,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 5637,
+                "Diff": "17",
                 "Antece": "Ray Felix",
                 "Nota": "",
                 "game_status": "playing"
@@ -591,9 +591,9 @@
                 "Rank": 232,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 5594,
-                "Diff": "7",
+                "Hoy": 9,
+                "Total": 5595,
+                "Diff": "6",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -2710,9 +2710,9 @@
                 "Rank": 19,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 5545,
-                "Diff": "98",
+                "Hoy": 21,
+                "Total": 5547,
+                "Diff": "96",
                 "Antece": "Danny Ferry",
                 "game_status": "playing"
             },
@@ -2730,9 +2730,9 @@
                 "Rank": 9,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 3738,
-                "Diff": "52",
+                "Hoy": 9,
+                "Total": 3739,
+                "Diff": "51",
                 "Antece": "Jim Chones",
                 "game_status": "playing"
             },
@@ -2842,9 +2842,9 @@
                 "Rank": 2,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 17305,
-                "Diff": "195",
+                "Hoy": 4,
+                "Total": 17307,
+                "Diff": "193",
                 "Antece": "17500",
                 "game_status": "playing"
             },
@@ -5506,13 +5506,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Nikola Vucevic (1 assist today) has passed Greg Anthony and Johnny Dawkins and is now ranked 244th all-time with 2,998.",
-            "foto": [
-                "collages/1770578385329042_collage_1770578385247086.png"
-            ],
-            "timestamp": 1770578385
-        },
-        {
             "texto": "Bam Adebayo (3 rebounds today) has passed Luol Deng and is now ranked 240th all-time with 5,469.",
             "foto": [
                 "collages/1770579772417163_collage_1770579772318193.png"
@@ -6200,6 +6193,13 @@
                 "collages/1770862539208957_collage_1770862539111992.png"
             ],
             "timestamp": 1770862539
+        },
+        {
+            "texto": "📢🔝💯 Nikola Jokic (4 points today) has passed Bradley Beal and Michael Finley and is now ranked 100th all-time with 17,307.",
+            "foto": [
+                "collages/1770862741933472_collage_1770862741860510.png"
+            ],
+            "timestamp": 1770862741
         }
     ],
     "notificaciones_franchise": [
@@ -6778,7 +6778,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 353,
+    "total_notificaciones_historicas": 354,
     "total_franchise_historicas": 82,
-    "cache_buster": 1770862700
+    "cache_buster": 1770862742
 }
