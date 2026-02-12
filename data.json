@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:51:02",
+    "ultima_actualizacion": "01:51:42",
     "tablas": {
         "pts": [
             {
@@ -248,9 +248,9 @@
                 "Rank": 241,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 12852,
-                "Diff": "19",
+                "Hoy": 8,
+                "Total": 12855,
+                "Diff": "16",
                 "Antece": "Rik Smits",
                 "Nota": "",
                 "game_status": "playing"
@@ -723,25 +723,25 @@
             },
             {
                 "Rank": 100,
+                "Nombre": "Jaylen Brown",
+                "Team": "BOS",
+                "Hoy": 2,
+                "Total": 1246,
+                "Diff": "",
+                "Antece": "Hedo Turkoglu",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 101,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 0,
                 "Total": 1245,
                 "Diff": "1",
-                "Antece": "Hedo Turkoglu",
+                "Antece": "Jaylen Brown",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 102,
-                "Nombre": "Jaylen Brown",
-                "Team": "BOS",
-                "Hoy": 1,
-                "Total": 1245,
-                "Diff": "",
-                "Antece": "Dell Curry",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 106,
@@ -1869,9 +1869,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 12852,
-                "Diff": "148",
+                "Hoy": 8,
+                "Total": 12855,
+                "Diff": "145",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -1979,9 +1979,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 1245,
-                "Diff": "55",
+                "Hoy": 2,
+                "Total": 1246,
+                "Diff": "54",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -3359,9 +3359,9 @@
                 "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1754,
-                "Diff": "246",
+                "Hoy": 1,
+                "Total": 1755,
+                "Diff": "245",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -4227,18 +4227,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Nikola Jokic (1 steal today) becomes the 183rd player to reach 1,000",
-            "foto": [],
-            "timestamp": 1770519535
-        },
-        {
-            "texto": "Nikola Jokic (1 steal today) has passed Sam Lacey and is now ranked 183rd all-time with 1,000.",
-            "foto": [
-                "collages/1770519535371843_collage_1770519535293723.png"
-            ],
-            "timestamp": 1770519535
-        },
-        {
             "texto": "Devin Booker (3 assists today) has passed Ray Williams and is now ranked 149th all-time with 3,780.",
             "foto": [
                 "collages/1770519607842912_collage_1770519607749165.png"
@@ -4919,6 +4907,20 @@
                 "collages/1770857261046398_collage_1770857260958054.png"
             ],
             "timestamp": 1770857261
+        },
+        {
+            "texto": "Jaylen Brown (8 points today) has passed Shai Gilgeous-Alexander and is now ranked 241st all-time with 12,855.",
+            "foto": [
+                "collages/1770857502461618_collage_1770857502376697.png"
+            ],
+            "timestamp": 1770857502
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (2 three-pointers today) has passed Andrew Wiggins and Dell Curry and is now ranked 100th all-time with 1,246.",
+            "foto": [
+                "collages/1770857502691621_collage_1770857502618730.png"
+            ],
+            "timestamp": 1770857502
         }
     ],
     "notificaciones_franchise": [
@@ -5434,7 +5436,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 335,
+    "total_notificaciones_historicas": 337,
     "total_franchise_historicas": 73,
-    "cache_buster": 1770857462
+    "cache_buster": 1770857502
 }
