@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:45",
+    "ultima_actualizacion": "03:25:25",
     "tablas": {
         "pts": [
             {
@@ -382,9 +382,9 @@
                 "Rank": 48,
                 "Nombre": "Kevin Love",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 9659,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 9660,
+                "Diff": "27",
                 "Antece": "Sam Lacey",
                 "Nota": "",
                 "game_status": "playing"
@@ -1574,11 +1574,11 @@
                 "Rank": 177,
                 "Nombre": "Kevin Love",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 980,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 981,
+                "Diff": "",
                 "Antece": "Al Harrington",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1930,11 +1930,11 @@
                 "Rank": 54,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 1507,
-                "Diff": "1",
+                "Hoy": 0,
+                "Total": 1506,
+                "Diff": "2",
                 "Antece": "Julius Erving",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -3061,13 +3061,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Alperen Şengün",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 291,
-                "Diff": "0",
-                "Antece": "Rodney McCray",
+                "Hoy": 3,
+                "Total": 292,
+                "Diff": "1",
+                "Antece": "Dikembe Mutombo",
                 "game_status": "playing"
             },
             {
@@ -3126,9 +3126,9 @@
                 "Rank": 20,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 1969,
-                "Diff": "31",
+                "Hoy": 6,
+                "Total": 1970,
+                "Diff": "30",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -3420,9 +3420,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 9798,
-                "Diff": "202",
+                "Hoy": 18,
+                "Total": 9799,
+                "Diff": "201",
                 "Antece": "10000",
                 "game_status": "playing"
             },
@@ -4270,7 +4270,7 @@
                 "Rank": 24,
                 "Nombre": "Luguentz Dort",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 387,
                 "Diff": "1",
                 "Antece": "Ray Allen",
@@ -5132,9 +5132,9 @@
                 "Rank": 24,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 4941,
-                "Diff": "59",
+                "Hoy": 7,
+                "Total": 4943,
+                "Diff": "57",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -5505,13 +5505,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (3 rebounds today) has passed Brook Lopez and is now ranked 131st all-time with 6,858.",
-            "foto": [
-                "collages/1770583574487127_collage_1770583574397973.png"
-            ],
-            "timestamp": 1770583574
-        },
         {
             "texto": "Julius Randle (2 assists today) becomes the 243rd player to reach 3,000",
             "foto": [],
@@ -6198,6 +6191,13 @@
             "texto": "Nikola Vucevic (3 assists today) becomes the 244th player to reach 3,000",
             "foto": [],
             "timestamp": 1770862916
+        },
+        {
+            "texto": "Kevin Love today surpasses Rolando Blackman and now ranked 177th all time with 981 games",
+            "foto": [
+                "collages/1770863125523403_collage_1770863125428718.png"
+            ],
+            "timestamp": 1770863125
         }
     ],
     "notificaciones_franchise": [
@@ -6788,9 +6788,16 @@
             "timestamp": 1770863045,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alperen Şengün (3 blocks today) has passed Rodney McCray and is now ranked 14th in Rockets history with 292.",
+            "foto": [],
+            "timestamp": 1770863125,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 357,
-    "total_franchise_historicas": 84,
-    "cache_buster": 1770863085
+    "total_notificaciones_historicas": 358,
+    "total_franchise_historicas": 85,
+    "cache_buster": 1770863125
 }
