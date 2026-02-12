@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:55:44",
+    "ultima_actualizacion": "02:56:24",
     "tablas": {
         "pts": [
             {
@@ -160,32 +160,32 @@
                 "Rank": 112,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 6,
-                "Total": 16798,
-                "Diff": "29",
+                "Hoy": 9,
+                "Total": 16801,
+                "Diff": "26",
                 "Antece": "Elton Brand",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 120,
-                "Nombre": "Kyle Lowry",
-                "Team": "PHI",
-                "Hoy": 0,
-                "Total": 16368,
-                "Diff": "33",
+                "Nombre": "CJ McCollum",
+                "Team": "ATL",
+                "Hoy": 15,
+                "Total": 16369,
+                "Diff": "32",
                 "Antece": "Joe Dumars",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 121,
-                "Nombre": "CJ McCollum",
-                "Team": "ATL",
-                "Hoy": 13,
-                "Total": 16367,
+                "Nombre": "Kyle Lowry",
+                "Team": "PHI",
+                "Hoy": 0,
+                "Total": 16368,
                 "Diff": "1",
-                "Antece": "Kyle Lowry",
+                "Antece": "CJ McCollum",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -767,25 +767,25 @@
             },
             {
                 "Rank": 41,
-                "Nombre": "Zach LaVine",
-                "Team": "SAC",
-                "Hoy": 0,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 3,
                 "Total": 1632,
                 "Diff": "38",
                 "Antece": "Kemba Walker",
                 "Nota": "",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
                 "Rank": 42,
-                "Nombre": "Jrue Holiday",
-                "Team": "POR",
-                "Hoy": 2,
-                "Total": 1631,
-                "Diff": "1",
-                "Antece": "Zach LaVine",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1632,
+                "Diff": "",
+                "Antece": "Jrue Holiday",
+                "Nota": "Mismo total",
+                "game_status": "inactive"
             },
             {
                 "Rank": 43,
@@ -793,8 +793,8 @@
                 "Team": "WAS",
                 "Hoy": 0,
                 "Total": 1609,
-                "Diff": "22",
-                "Antece": "Jrue Holiday",
+                "Diff": "23",
+                "Antece": "Zach LaVine",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -1675,9 +1675,9 @@
                 "Rank": 29,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 6603,
-                "Diff": "108",
+                "Hoy": 1,
+                "Total": 6604,
+                "Diff": "107",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -2526,9 +2526,9 @@
                 "Rank": 10,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 653,
-                "Diff": "47",
+                "Hoy": 4,
+                "Total": 654,
+                "Diff": "46",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -3908,7 +3908,7 @@
                 "Stat": "PTS",
                 "Hoy": 9,
                 "Total": 4587,
-                "Diff": "130",
+                "Diff": "132",
                 "Antece": "CJ McCollum",
                 "game_status": "playing"
             },
@@ -4482,9 +4482,9 @@
                 "Rank": 15,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 348,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 349,
+                "Diff": "16",
                 "Antece": "Victor Oladipo",
                 "game_status": "playing"
             },
@@ -5506,13 +5506,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Kyle Kuzma and is now ranked 140th all-time with 1,092.",
-            "foto": [
-                "collages/1770572510485233_collage_1770572510398594.png"
-            ],
-            "timestamp": 1770572510
-        },
-        {
             "texto": "Jalen Brunson (1 three-pointer today) has passed Brandon Jennings and is now ranked 218th all-time with 915.",
             "foto": [
                 "collages/1770573450035892_collage_1770573449945819.png"
@@ -6200,6 +6193,13 @@
                 "collages/1770860672637290_collage_1770860672541742.png"
             ],
             "timestamp": 1770860672
+        },
+        {
+            "texto": "CJ McCollum (15 points today) has passed Kyle Lowry and is now ranked 120th all-time with 16,369.",
+            "foto": [
+                "collages/1770861384174818_collage_1770861384086851.png"
+            ],
+            "timestamp": 1770861384
         }
     ],
     "notificaciones_franchise": [
@@ -6771,7 +6771,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 348,
+    "total_notificaciones_historicas": 349,
     "total_franchise_historicas": 81,
-    "cache_buster": 1770861344
+    "cache_buster": 1770861384
 }
