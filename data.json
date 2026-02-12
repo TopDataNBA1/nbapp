@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:07",
+    "ultima_actualizacion": "03:21:56",
     "tablas": {
         "pts": [
             {
@@ -259,9 +259,9 @@
                 "Rank": 168,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 10,
-                "Total": 14737,
-                "Diff": "61",
+                "Hoy": 11,
+                "Total": 14738,
+                "Diff": "60",
                 "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "playing"
@@ -311,14 +311,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 241,
+                "Rank": 240,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 22,
-                "Total": 12869,
-                "Diff": "2",
-                "Antece": "Rik Smits",
-                "Nota": "A tiro de 2",
+                "Hoy": 24,
+                "Total": 12871,
+                "Diff": "7",
+                "Antece": "Wayman Tisdale",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -327,8 +327,8 @@
                 "Team": "OKC",
                 "Hoy": 0,
                 "Total": 12852,
-                "Diff": "17",
-                "Antece": "Jaylen Brown",
+                "Diff": "19",
+                "Antece": "Rik Smits",
                 "Nota": "",
                 "game_status": "inactive"
             }
@@ -1873,10 +1873,10 @@
                 "Rank": 244,
                 "Nombre": "Nikola Vucevic",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 3,
+                "Total": 3000,
+                "Diff": "6",
+                "Antece": "Lionel Hollins",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -2386,9 +2386,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 12869,
-                "Diff": "131",
+                "Hoy": 24,
+                "Total": 12871,
+                "Diff": "129",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -2994,9 +2994,9 @@
                 "Rank": 21,
                 "Nombre": "Alperen Şengün",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 5526,
-                "Diff": "71",
+                "Hoy": 9,
+                "Total": 5528,
+                "Diff": "69",
                 "Antece": "Luis Scola",
                 "game_status": "playing"
             },
@@ -4138,9 +4138,9 @@
                 "Rank": 20,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2983,
-                "Diff": "17",
+                "Hoy": 5,
+                "Total": 2984,
+                "Diff": "16",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -4402,9 +4402,9 @@
                 "Rank": 20,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 3868,
-                "Diff": "132",
+                "Hoy": 6,
+                "Total": 3870,
+                "Diff": "130",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -5432,7 +5432,7 @@
                 "Rank": 12,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "BLK",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 376,
                 "Diff": "1",
                 "Antece": "John Collins",
@@ -5505,13 +5505,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Nicolas Batum today surpasses Richard Jefferson and now ranked 57th all time with 1,182 games",
-            "foto": [
-                "collages/1770582986583673_collage_1770582986501311.png"
-            ],
-            "timestamp": 1770582986
-        },
         {
             "texto": "Julius Randle (3 rebounds today) has passed Brook Lopez and is now ranked 131st all-time with 6,858.",
             "foto": [
@@ -6200,6 +6193,11 @@
                 "collages/1770862867470136_collage_1770862867355172.png"
             ],
             "timestamp": 1770862867
+        },
+        {
+            "texto": "Nikola Vucevic (3 assists today) becomes the 244th player to reach 3,000",
+            "foto": [],
+            "timestamp": 1770862916
         }
     ],
     "notificaciones_franchise": [
@@ -6785,7 +6783,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 356,
+    "total_notificaciones_historicas": 357,
     "total_franchise_historicas": 83,
-    "cache_buster": 1770862867
+    "cache_buster": 1770862916
 }
