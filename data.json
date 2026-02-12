@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:19",
+    "ultima_actualizacion": "02:27:00",
     "tablas": {
         "pts": [
             {
@@ -248,9 +248,9 @@
                 "Rank": 241,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 12,
-                "Total": 12859,
-                "Diff": "12",
+                "Hoy": 14,
+                "Total": 12861,
+                "Diff": "10",
                 "Antece": "Rik Smits",
                 "Nota": "",
                 "game_status": "playing"
@@ -1077,11 +1077,11 @@
                 "Rank": 242,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 3,
-                "Total": 856,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 858,
+                "Diff": "1",
                 "Antece": "Avery Bradley",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1090,9 +1090,9 @@
                 "Team": "IND",
                 "Hoy": 0,
                 "Total": 856,
-                "Diff": "",
+                "Diff": "2",
                 "Antece": "LaMelo Ball",
-                "Nota": "Mismo total",
+                "Nota": "",
                 "game_status": "inactive"
             },
             {
@@ -1411,9 +1411,9 @@
                 "Rank": 211,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 4,
-                "Total": 3183,
-                "Diff": "19",
+                "Hoy": 3,
+                "Total": 3182,
+                "Diff": "20",
                 "Antece": "Rafer Alston",
                 "Nota": "",
                 "game_status": "playing"
@@ -1869,9 +1869,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 12859,
-                "Diff": "141",
+                "Hoy": 14,
+                "Total": 12861,
+                "Diff": "139",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -2051,9 +2051,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 5711,
-                "Diff": "263",
+                "Hoy": 15,
+                "Total": 5717,
+                "Diff": "257",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -2131,9 +2131,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 856,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 858,
+                "Diff": "6",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -2143,7 +2143,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 844,
-                "Diff": "12",
+                "Diff": "14",
                 "Antece": "LaMelo Ball",
                 "game_status": "playing"
             },
@@ -2863,9 +2863,9 @@
                 "Rank": 12,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 384,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 385,
+                "Diff": "1",
                 "Antece": "Terrell Brandon",
                 "game_status": "playing"
             },
@@ -4227,13 +4227,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday (1 steal today) has passed Reggie Miller and is now ranked 54th all-time with 1,506.",
-            "foto": [
-                "collages/1770522695782833_collage_1770522695704710.png"
-            ],
-            "timestamp": 1770522695
-        },
-        {
             "texto": "Jerami Grant (4 three-pointers today) has passed Al Horford and is now ranked 171st all-time with 1,025.",
             "foto": [
                 "collages/1770523720999002_collage_1770523720905254.png"
@@ -4921,6 +4914,13 @@
                 "collages/1770859498162534_collage_1770859498070418.png"
             ],
             "timestamp": 1770859498
+        },
+        {
+            "texto": "LaMelo Ball (5 three-pointers today) has passed Tyrese Haliburton and is now ranked 242nd all-time with 858.",
+            "foto": [
+                "collages/1770859620187060_collage_1770859620097071.png"
+            ],
+            "timestamp": 1770859620
         }
     ],
     "notificaciones_franchise": [
@@ -5471,7 +5471,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 344,
+    "total_notificaciones_historicas": 345,
     "total_franchise_historicas": 78,
-    "cache_buster": 1770859579
+    "cache_buster": 1770859620
 }
