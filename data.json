@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:12:42",
+    "ultima_actualizacion": "02:13:22",
     "tablas": {
         "pts": [
             {
@@ -171,9 +171,9 @@
                 "Rank": 135,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 15849,
-                "Diff": "27",
+                "Hoy": 2,
+                "Total": 15851,
+                "Diff": "25",
                 "Antece": "Karl-Anthony Towns",
                 "Nota": "",
                 "game_status": "playing"
@@ -1167,9 +1167,9 @@
                 "Rank": 61,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1172,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 1173,
+                "Diff": "5",
                 "Antece": "Scottie Pippen",
                 "Nota": "",
                 "game_status": "playing"
@@ -1312,9 +1312,9 @@
                 "Rank": 72,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 5124,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 5125,
+                "Diff": "22",
                 "Antece": "Andre Iguodala",
                 "Nota": "",
                 "game_status": "playing"
@@ -2009,9 +2009,9 @@
                 "Rank": 10,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 651,
-                "Diff": "49",
+                "Hoy": 2,
+                "Total": 652,
+                "Diff": "48",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -2447,9 +2447,9 @@
                 "Rank": 7,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 7599,
-                "Diff": "122",
+                "Hoy": 2,
+                "Total": 7601,
+                "Diff": "120",
                 "Antece": "Chris Paul",
                 "game_status": "playing"
             },
@@ -2457,9 +2457,9 @@
                 "Rank": 20,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1964,
-                "Diff": "36",
+                "Hoy": 1,
+                "Total": 1965,
+                "Diff": "35",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -2517,9 +2517,9 @@
                 "Rank": 24,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 306,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 307,
+                "Diff": "5",
                 "Antece": "Lamar Odom",
                 "game_status": "playing"
             }
@@ -4227,13 +4227,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Russell Westbrook today surpasses Derek Fisher and now ranked 26th all time with 1,288 games",
-            "foto": [
-                "collages/1770520279584068_collage_1770520279474698.png"
-            ],
-            "timestamp": 1770520279
-        },
-        {
             "texto": "📢🔝💯 Nikola Jokic (17 assists today) has passed Nick Van Exel and is now ranked 46th all-time with 5,778.",
             "foto": [
                 "collages/1770521094061141_collage_1770521093967399.png"
@@ -4921,6 +4914,13 @@
                 "collages/1770858154344064_collage_1770858154272399.png"
             ],
             "timestamp": 1770858154
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant today surpasses Thaddeus Young and now ranked 61st all time with 1,173 games",
+            "foto": [
+                "collages/1770858802386117_collage_1770858802301312.png"
+            ],
+            "timestamp": 1770858802
         }
     ],
     "notificaciones_franchise": [
@@ -5448,9 +5448,16 @@
             "timestamp": 1770858397,
             "team": "TOR",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Kawhi Leonard today surpasses Bob Kauffman and is now ranked 24th in Clippers history with 307 games.",
+            "foto": [],
+            "timestamp": 1770858802,
+            "team": "LAC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 339,
-    "total_franchise_historicas": 75,
-    "cache_buster": 1770858762
+    "total_notificaciones_historicas": 340,
+    "total_franchise_historicas": 76,
+    "cache_buster": 1770858802
 }
