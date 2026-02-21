@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:05:43",
+    "ultima_actualizacion": "03:06:57",
     "tablas": {
         "pts": [
             {
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 11,
-                "Total": 28874,
-                "Diff": "126",
+                "Hoy": 14,
+                "Total": 28877,
+                "Diff": "123",
                 "Antece": "29000",
                 "Nota": "",
                 "game_status": "playing"
@@ -72,9 +72,9 @@
                 "Rank": 120,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 13,
-                "Total": 16384,
-                "Diff": "17",
+                "Hoy": 18,
+                "Total": 16389,
+                "Diff": "12",
                 "Antece": "Joe Dumars",
                 "Nota": "",
                 "game_status": "playing"
@@ -105,9 +105,9 @@
                 "Rank": 167,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 24,
-                "Total": 14822,
-                "Diff": "36",
+                "Hoy": 26,
+                "Total": 14824,
+                "Diff": "34",
                 "Antece": "Monta Ellis",
                 "Nota": "",
                 "game_status": "playing"
@@ -118,7 +118,7 @@
                 "Team": "MIN",
                 "Hoy": 7,
                 "Total": 14775,
-                "Diff": "47",
+                "Diff": "49",
                 "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "playing"
@@ -263,9 +263,9 @@
                 "Rank": 2,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 3319,
-                "Diff": "81",
+                "Hoy": 2,
+                "Total": 3320,
+                "Diff": "80",
                 "Antece": "3400",
                 "Nota": "",
                 "game_status": "playing"
@@ -296,9 +296,9 @@
                 "Rank": 17,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 3,
-                "Total": 2124,
-                "Diff": "19",
+                "Hoy": 4,
+                "Total": 2125,
+                "Diff": "18",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -1066,9 +1066,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 5742,
-                "Diff": "232",
+                "Hoy": 18,
+                "Total": 5744,
+                "Diff": "230",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1195,13 +1195,13 @@
         ],
         "CLE": [
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 6588,
-                "Diff": "0",
-                "Antece": "Campy Russell",
+                "Hoy": 26,
+                "Total": 6590,
+                "Diff": "410",
+                "Antece": "7000",
                 "game_status": "playing"
             },
             {
@@ -1714,9 +1714,9 @@
                 "Rank": 9,
                 "Nombre": "Tyler Herro",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1490,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 1491,
+                "Diff": "9",
                 "Antece": "1500",
                 "game_status": "playing"
             },
@@ -2160,9 +2160,9 @@
                 "Rank": 6,
                 "Nombre": "Zion Williamson",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 6162,
-                "Diff": "338",
+                "Hoy": 21,
+                "Total": 6164,
+                "Diff": "336",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -2172,7 +2172,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 4597,
-                "Diff": "120",
+                "Diff": "125",
                 "Antece": "CJ McCollum",
                 "game_status": "inactive"
             },
@@ -2524,7 +2524,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 320,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "James Harden",
                 "game_status": "inactive"
             },
@@ -3502,13 +3502,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Clint Capela today surpasses Eric Gordon and is now ranked 23rd in Rockets history with 380 games.",
-            "foto": [],
-            "timestamp": 1770342813,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
             "texto": "Jonathan Isaac today surpasses Franz Wagner and is now ranked 20th in Magic history with 318 games.",
             "foto": [],
             "timestamp": 1770342813,
@@ -4200,9 +4193,16 @@
             "timestamp": 1771638235,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (26 points today) has passed Campy Russell and is now ranked 12th in Cavaliers history with 6,590.",
+            "foto": [],
+            "timestamp": 1771639617,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 422,
-    "total_franchise_historicas": 110,
-    "cache_buster": 1771639543
+    "total_franchise_historicas": 111,
+    "cache_buster": 1771639617
 }
