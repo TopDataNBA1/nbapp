@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:35:25",
+    "ultima_actualizacion": "04:36:20",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 135,
+                "Rank": 134,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 18,
-                "Total": 15929,
-                "Diff": "1",
-                "Antece": "Kawhi Leonard",
-                "Nota": "A tiro de 1",
+                "Hoy": 20,
+                "Total": 15931,
+                "Diff": "17",
+                "Antece": "Pete Maravich",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1189,13 +1189,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Alperen Şengün",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 294,
-                "Diff": "0",
-                "Antece": "Dwight Howard",
+                "Hoy": 2,
+                "Total": 295,
+                "Diff": "5",
+                "Antece": "300",
                 "game_status": "playing"
             },
             {
@@ -3288,16 +3288,16 @@
                 "collages/1771730615393111_collage_1771730615330606.png"
             ],
             "timestamp": 1771730615
+        },
+        {
+            "texto": "Karl-Anthony Towns (20 points today) has passed Kawhi Leonard and is now ranked 134th all-time with 15,931.",
+            "foto": [
+                "collages/1771731380623040_collage_1771731380544904.png"
+            ],
+            "timestamp": 1771731380
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Nicolas Batum (1 three-pointer today) becomes the 8th player to reach 500 three-pointers with Clippers.",
-            "foto": [],
-            "timestamp": 1770439751,
-            "team": "LAC",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Jabari Smith Jr. (2 rebounds today) has passed Mike Newlin and is now ranked 24th in Rockets history with 1,921.",
             "foto": [],
@@ -3990,9 +3990,16 @@
             "timestamp": 1771729275,
             "team": "HOU",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Alperen Şengün (2 blocks today) has passed Dwight Howard and is now ranked 12th in Rockets history with 295.",
+            "foto": [],
+            "timestamp": 1771731380,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 484,
-    "total_franchise_historicas": 133,
-    "cache_buster": 1771731325
+    "total_notificaciones_historicas": 485,
+    "total_franchise_historicas": 134,
+    "cache_buster": 1771731380
 }
