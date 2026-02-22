@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:09:19",
+    "ultima_actualizacion": "20:10:31",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 226,
+                "Rank": 225,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 5622,
-                "Diff": "",
-                "Antece": "Brian Grant",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 5623,
+                "Diff": "21",
+                "Antece": "Jusuf Nurkić",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -206,9 +206,9 @@
                 "Rank": 9,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 3766,
-                "Diff": "24",
+                "Hoy": 4,
+                "Total": 3767,
+                "Diff": "23",
                 "Antece": "Jim Chones",
                 "game_status": "playing"
             },
@@ -325,13 +325,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Luguentz Dort",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 4844,
-                "Diff": "0",
-                "Antece": "Sam Perkins",
+                "Hoy": 5,
+                "Total": 4847,
+                "Diff": "153",
+                "Antece": "5000",
                 "game_status": "playing"
             },
             {
@@ -408,9 +408,9 @@
                 "Rank": 6,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 822,
-                "Diff": "47",
+                "Hoy": 1,
+                "Total": 823,
+                "Diff": "46",
                 "Antece": "Ray Allen",
                 "game_status": "playing"
             },
@@ -487,13 +487,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Royce O'Neale (1 three-pointer today) has passed Justin Holiday and is now ranked 149th all-time with 1,081.",
-            "foto": [
-                "collages/1771554346915279_collage_1771554346834306.png"
-            ],
-            "timestamp": 1771554346
-        },
         {
             "texto": "Jalen Brunson (2 three-pointers today) has passed Raymond Felton and is now ranked 214th all-time with 926.",
             "foto": [
@@ -1186,16 +1179,16 @@
                 "collages/1771787297252199_collage_1771787297149234.png"
             ],
             "timestamp": 1771787297
+        },
+        {
+            "texto": "Jarrett Allen (4 rebounds today) has passed Brian Grant and is now ranked 225th all-time with 5,623.",
+            "foto": [
+                "collages/1771787431440796_collage_1771787431339825.png"
+            ],
+            "timestamp": 1771787431
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Scottie Barnes (2 steals today) has passed Chris Bosh and is now ranked 11th in Raptors history with 398.",
-            "foto": [],
-            "timestamp": 1770606540,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Immanuel Quickley (3 three-pointers today) has passed DeMar DeRozan and is now ranked 18th in Raptors history with 327.",
             "foto": [],
@@ -1888,9 +1881,16 @@
             "timestamp": 1771787359,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Luguentz Dort (5 points today) has passed Sam Perkins and is now ranked 24th in Thunder history with 4,847.",
+            "foto": [],
+            "timestamp": 1771787431,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 508,
-    "total_franchise_historicas": 151,
-    "cache_buster": 1771787359
+    "total_notificaciones_historicas": 509,
+    "total_franchise_historicas": 152,
+    "cache_buster": 1771787431
 }
