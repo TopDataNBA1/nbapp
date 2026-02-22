@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:22:52",
+    "ultima_actualizacion": "03:23:59",
     "tablas": {
         "pts": [
             {
@@ -72,9 +72,9 @@
                 "Rank": 128,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 6,
-                "Total": 16118,
-                "Diff": "41",
+                "Hoy": 8,
+                "Total": 16120,
+                "Diff": "39",
                 "Antece": "Juwan Howard",
                 "Nota": "",
                 "game_status": "playing"
@@ -494,11 +494,11 @@
                 "Rank": 139,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1095,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1096,
+                "Diff": "",
                 "Antece": "Kyle Kuzma",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -507,19 +507,19 @@
                 "Team": "DET",
                 "Hoy": 0,
                 "Total": 1094,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Mikal Bridges",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 145,
+                "Rank": 144,
                 "Nombre": "Jordan Poole",
                 "Team": "NOP",
-                "Hoy": 3,
-                "Total": 1090,
+                "Hoy": 4,
+                "Total": 1091,
                 "Diff": "",
-                "Antece": "Dana Barros",
+                "Antece": "Donte DiVincenzo",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -986,9 +986,9 @@
                 "Rank": 37,
                 "Nombre": "DeAndre Jordan",
                 "Team": "NOP",
-                "Hoy": 3,
-                "Total": 1571,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 1572,
+                "Diff": "9",
                 "Antece": "Benoit Benjamin",
                 "Nota": "",
                 "game_status": "playing"
@@ -2480,10 +2480,10 @@
                 "Rank": 11,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1999,
-                "Diff": "1",
-                "Antece": "2000",
+                "Hoy": 6,
+                "Total": 2001,
+                "Diff": "37",
+                "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
             {
@@ -3218,16 +3218,16 @@
                 "collages/1771725639251508_collage_1771725639142136.png"
             ],
             "timestamp": 1771725639
+        },
+        {
+            "texto": "Jordan Poole (4 three-pointers today) has passed Dana Barros and is now ranked 144th all-time with 1,091.",
+            "foto": [
+                "collages/1771727039769439_collage_1771727039660068.png"
+            ],
+            "timestamp": 1771727039
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Bobby Portis (2 three-pointers today) has passed Giannis Antetokounmpo and is now ranked 6th in Bucks history with 558.",
-            "foto": [],
-            "timestamp": 1770429011,
-            "team": "MIL",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Andrew Nembhard (2 three-pointers today) has passed Roger Brown and is now ranked 22nd in Pacers history with 281.",
             "foto": [],
@@ -3920,9 +3920,16 @@
             "timestamp": 1771726324,
             "team": "NYK",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Cade Cunningham (6 assists today) becomes the 11th player to reach 2,000 assists with Pistons.",
+            "foto": [],
+            "timestamp": 1771727039,
+            "team": "DET",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 474,
-    "total_franchise_historicas": 129,
-    "cache_buster": 1771726972
+    "total_notificaciones_historicas": 475,
+    "total_franchise_historicas": 130,
+    "cache_buster": 1771727039
 }
