@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:08:17",
+    "ultima_actualizacion": "20:09:19",
     "tablas": {
         "pts": [
             {
@@ -276,10 +276,10 @@
                 "Rank": 13,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 399,
-                "Diff": "1",
-                "Antece": "400",
+                "Hoy": 3,
+                "Total": 400,
+                "Diff": "14",
+                "Antece": "Mo Williams",
                 "game_status": "playing"
             },
             {
@@ -288,7 +288,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 391,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Sam Merrill",
                 "game_status": "playing"
             },
@@ -1190,13 +1190,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Scottie Barnes (14 rebounds today) becomes the 8th player to reach 2,500 rebounds with Raptors.",
-            "foto": [],
-            "timestamp": 1770606540,
-            "team": "TOR",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "📢HOF🏛️ Scottie Barnes (2 steals today) has passed Chris Bosh and is now ranked 11th in Raptors history with 398.",
             "foto": [],
             "timestamp": 1770606540,
@@ -1888,9 +1881,16 @@
             "timestamp": 1771786694,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Sam Merrill (3 three-pointers today) becomes the 13th player to reach 400 three-pointers with Cavaliers.",
+            "foto": [],
+            "timestamp": 1771787359,
+            "team": "CLE",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 508,
-    "total_franchise_historicas": 150,
-    "cache_buster": 1771787297
+    "total_franchise_historicas": 151,
+    "cache_buster": 1771787359
 }
