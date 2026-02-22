@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:08:51",
+    "ultima_actualizacion": "03:09:27",
     "tablas": {
         "pts": [
             {
@@ -1728,9 +1728,9 @@
                 "Rank": 13,
                 "Nombre": "Zion Williamson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 162,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 163,
+                "Diff": "4",
                 "Antece": "Jaxson Hayes",
                 "game_status": "playing"
             },
@@ -1740,7 +1740,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 162,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Zion Williamson",
                 "game_status": "inactive"
             },
@@ -2378,9 +2378,9 @@
                 "Rank": 24,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 4873,
-                "Diff": "17",
+                "Hoy": 6,
+                "Total": 4876,
+                "Diff": "14",
                 "Antece": "Johnny Moore",
                 "game_status": "playing"
             },
@@ -2418,9 +2418,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 715,
-                "Diff": "85",
+                "Hoy": 2,
+                "Total": 716,
+                "Diff": "84",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -3222,13 +3222,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Yves Missi (3 rebounds today) has passed Rasual Butler and is now ranked 24th in Pelicans history with 860.",
-            "foto": [],
-            "timestamp": 1770428485,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 T.J. McConnell (4 assists today) has passed Tyrese Haliburton and is now ranked 7th in Pacers history with 2,260.",
             "foto": [],
             "timestamp": 1770428485,
@@ -3920,9 +3913,16 @@
             "timestamp": 1771725639,
             "team": "SAS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Zion Williamson (1 block today) has passed Yves Missi and is now ranked 13th in Pelicans history with 163.",
+            "foto": [],
+            "timestamp": 1771726167,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 474,
-    "total_franchise_historicas": 127,
-    "cache_buster": 1771726131
+    "total_franchise_historicas": 128,
+    "cache_buster": 1771726167
 }
