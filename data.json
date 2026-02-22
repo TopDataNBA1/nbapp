@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:23:18",
+    "ultima_actualizacion": "00:24:30",
     "tablas": {
         "pts": [
             {
@@ -659,11 +659,11 @@
                 "Rank": 241,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 864,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 865,
+                "Diff": "",
                 "Antece": "Eric Piatkowski",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1490,9 +1490,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5760,
-                "Diff": "214",
+                "Hoy": 8,
+                "Total": 5763,
+                "Diff": "211",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1510,9 +1510,9 @@
                 "Rank": 20,
                 "Nombre": "LaMelo Ball",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1604,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 1605,
+                "Diff": "36",
                 "Antece": "Al Jefferson",
                 "game_status": "playing"
             },
@@ -1567,13 +1567,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 4,
+                "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 864,
-                "Diff": "0",
-                "Antece": "Terry Rozier",
+                "Hoy": 2,
+                "Total": 865,
+                "Diff": "35",
+                "Antece": "900",
                 "game_status": "playing"
             },
             {
@@ -1583,7 +1583,7 @@
                 "Hoy": 0,
                 "Total": 844,
                 "Diff": "20",
-                "Antece": "LaMelo Ball",
+                "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
             {
@@ -3606,13 +3606,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Donte DiVincenzo (2 three-pointers today) has passed Wally Szczerbiak and is now ranked 11th in Timberwolves history with 344.",
-            "foto": [],
-            "timestamp": 1770690315,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Paolo Banchero (8 rebounds today) has passed Anfernee Hardaway and is now ranked 12th in Magic history with 1,753.",
             "foto": [],
             "timestamp": 1770690470,
@@ -4304,9 +4297,16 @@
             "timestamp": 1771801313,
             "team": "GSW",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝3️⃣ LaMelo Ball (2 three-pointers today) has passed Terry Rozier and is now ranked 3rd in Hornets history with 865.",
+            "foto": [],
+            "timestamp": 1771802670,
+            "team": "CHA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 522,
-    "total_franchise_historicas": 155,
-    "cache_buster": 1771802598
+    "total_franchise_historicas": 156,
+    "cache_buster": 1771802670
 }
