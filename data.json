@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:50:42",
+    "ultima_actualizacion": "00:51:43",
     "tablas": {
         "pts": [
             {
@@ -182,9 +182,9 @@
                 "Rank": 191,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 14300,
-                "Diff": "11",
+                "Hoy": 8,
+                "Total": 14303,
+                "Diff": "8",
                 "Antece": "Alonzo Mourning",
                 "Nota": "",
                 "game_status": "playing"
@@ -560,9 +560,9 @@
                 "Rank": 55,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 1536,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 1537,
+                "Diff": "5",
                 "Antece": "Tim Hardaway",
                 "Nota": "",
                 "game_status": "playing"
@@ -767,25 +767,25 @@
             },
             {
                 "Rank": 187,
+                "Nombre": "Luke Kennard",
+                "Team": "LAL",
+                "Hoy": 1,
+                "Total": 984,
+                "Diff": "2",
+                "Antece": "Nikola Vučević",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 188,
                 "Nombre": "Kristaps Porziņģis",
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 983,
-                "Diff": "3",
-                "Antece": "Nikola Vučević",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Luke Kennard",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 188,
-                "Nombre": "Luke Kennard",
-                "Team": "LAL",
-                "Hoy": 0,
-                "Total": 983,
-                "Diff": "",
-                "Antece": "Kristaps Porziņģis",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 205,
@@ -1147,11 +1147,11 @@
                 "Rank": 125,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 4072,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 4073,
+                "Diff": "",
                 "Antece": "Kenny Smith",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -2623,9 +2623,9 @@
                 "Rank": 24,
                 "Nombre": "Luka Dončić",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 260,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 261,
+                "Diff": "13",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -3651,13 +3651,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Kawhi Leonard (1 three-pointer today) has passed Terry Porter and is now ranked 84th all-time with 1,298.",
-            "foto": [
-                "collages/1771564613765712_collage_1771564613673741.png"
-            ],
-            "timestamp": 1771564613
-        },
-        {
             "texto": "Kristaps Porzingis (2 three-pointers today) has passed Luke Kennard and Matt Barnes and is now ranked 187th all-time with 983.",
             "foto": [
                 "collages/1771564613948653_collage_1771564613878676.png"
@@ -4349,6 +4342,13 @@
                 "collages/1771803453323268_collage_1771803453237296.png"
             ],
             "timestamp": 1771803453
+        },
+        {
+            "texto": "Luke Kennard (1 three-pointer today) has passed Kristaps Porziņģis and is now ranked 187th all-time with 984.",
+            "foto": [
+                "collages/1771804303786487_collage_1771804303672526.png"
+            ],
+            "timestamp": 1771804303
         }
     ],
     "notificaciones_franchise": [
@@ -5053,7 +5053,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 524,
+    "total_notificaciones_historicas": 525,
     "total_franchise_historicas": 156,
-    "cache_buster": 1771804242
+    "cache_buster": 1771804303
 }
