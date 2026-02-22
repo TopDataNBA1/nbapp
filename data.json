@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:35:27",
+    "ultima_actualizacion": "03:36:33",
     "tablas": {
         "pts": [
             {
                 "Rank": 6,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 9,
-                "Total": 31906,
-                "Diff": "94",
+                "Hoy": 11,
+                "Total": 31908,
+                "Diff": "92",
                 "Antece": "32000",
                 "Nota": "",
                 "game_status": "playing"
@@ -83,9 +83,9 @@
                 "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 15919,
-                "Diff": "11",
+                "Hoy": 11,
+                "Total": 15922,
+                "Diff": "8",
                 "Antece": "Kawhi Leonard",
                 "Nota": "",
                 "game_status": "playing"
@@ -170,14 +170,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 60,
+                "Rank": 59,
                 "Nombre": "Russell Westbrook",
                 "Team": "SAC",
-                "Hoy": 1,
-                "Total": 8974,
-                "Diff": "",
-                "Antece": "Larry Bird",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 8975,
+                "Diff": "25",
+                "Antece": "9000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -461,9 +461,9 @@
                 "Rank": 114,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1198,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1199,
+                "Diff": "1",
                 "Antece": "1200",
                 "Nota": "",
                 "game_status": "playing"
@@ -474,7 +474,7 @@
                 "Team": "MIA",
                 "Hoy": 2,
                 "Total": 1193,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Karl-Anthony Towns",
                 "Nota": "",
                 "game_status": "playing"
@@ -1688,9 +1688,9 @@
                 "Rank": 4,
                 "Nombre": "Herbert Jones",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 430,
-                "Diff": "70",
+                "Hoy": 1,
+                "Total": 429,
+                "Diff": "71",
                 "Antece": "500",
                 "game_status": "playing"
             },
@@ -1837,13 +1837,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1730,
-                "Diff": "0",
-                "Antece": "Dick Barnett",
+                "Hoy": 3,
+                "Total": 1731,
+                "Diff": "208",
+                "Antece": "Gerald Wilkins",
                 "game_status": "playing"
             },
             {
@@ -3246,16 +3246,16 @@
                 "collages/1771727689701166_collage_1771727689607418.png"
             ],
             "timestamp": 1771727689
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Russell Westbrook (2 rebounds today) has passed Larry Bird and is now ranked 59th all-time with 8,975.",
+            "foto": [
+                "collages/1771727793406087_collage_1771727793327964.png"
+            ],
+            "timestamp": 1771727793
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Nicolas Batum today surpasses Bob McAdoo and is now ranked 19th in Clippers history with 335 games.",
-            "foto": [],
-            "timestamp": 1770435776,
-            "team": "LAC",
-            "type": "franchise"
-        },
         {
             "texto": "Toumani Camara (2 three-pointers today) has passed Brandon Roy and is now ranked 18th in Trail Blazers history with 323.",
             "foto": [],
@@ -3948,9 +3948,16 @@
             "timestamp": 1771727108,
             "team": "DET",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢HOF🏛️ Jalen Brunson (3 assists today) has passed Dick Barnett and is now ranked 16th in Knicks history with 1,731.",
+            "foto": [],
+            "timestamp": 1771727793,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 478,
-    "total_franchise_historicas": 131,
-    "cache_buster": 1771727727
+    "total_notificaciones_historicas": 479,
+    "total_franchise_historicas": 132,
+    "cache_buster": 1771727793
 }
