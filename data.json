@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:28",
+    "ultima_actualizacion": "03:25:43",
     "tablas": {
         "pts": [
             {
@@ -868,9 +868,9 @@
                 "Rank": 138,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1097,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 1098,
+                "Diff": "2",
                 "Antece": "1100",
                 "Nota": "",
                 "game_status": "playing"
@@ -881,9 +881,9 @@
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1096,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Mikal Bridges",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "finished"
             },
             {
@@ -1422,9 +1422,9 @@
                 "Rank": 29,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 6620,
-                "Diff": "91",
+                "Hoy": 4,
+                "Total": 6621,
+                "Diff": "90",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -3405,7 +3405,7 @@
                 "Stat": "AST",
                 "Hoy": 3,
                 "Total": 1775,
-                "Diff": "40",
+                "Diff": "41",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -3605,9 +3605,9 @@
                 "Rank": 16,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1738,
-                "Diff": "201",
+                "Hoy": 5,
+                "Total": 1739,
+                "Diff": "200",
                 "Antece": "Gerald Wilkins",
                 "game_status": "playing"
             },
@@ -3662,13 +3662,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 284,
-                "Diff": "0",
-                "Antece": "Alec Burks",
+                "Hoy": 2,
+                "Total": 285,
+                "Diff": "1",
+                "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             }
         ],
@@ -5419,13 +5419,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jaden McDaniels (1 steal today) has passed Pooh Richardson and is now ranked 12th in Timberwolves history with 384.",
-            "foto": [],
-            "timestamp": 1770690736,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Draymond Green (2 points today) has passed Latrell Sprewell and is now ranked 14th in Warriors history with 8,033.",
             "foto": [],
             "timestamp": 1770693413,
@@ -6117,9 +6110,16 @@
             "timestamp": 1771807946,
             "team": "MIN",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Alec Burks and is now ranked 24th in Knicks history with 285.",
+            "foto": [],
+            "timestamp": 1771813543,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 539,
-    "total_franchise_historicas": 157,
-    "cache_buster": 1771813468
+    "total_franchise_historicas": 158,
+    "cache_buster": 1771813543
 }
