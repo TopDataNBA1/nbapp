@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:22:26",
+    "ultima_actualizacion": "05:23:38",
     "tablas": {
         "pts": [
             {
@@ -191,25 +191,25 @@
             },
             {
                 "Rank": 133,
+                "Nombre": "Kawhi Leonard",
+                "Team": "LAC",
+                "Hoy": 35,
+                "Total": 15965,
+                "Diff": "15",
+                "Antece": "Kiki Vandeweghe",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 134,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
                 "Hoy": 28,
                 "Total": 15964,
-                "Diff": "16",
-                "Antece": "Kiki Vandeweghe",
-                "Nota": "",
-                "game_status": "finished"
-            },
-            {
-                "Rank": 134,
-                "Nombre": "Kawhi Leonard",
-                "Team": "LAC",
-                "Hoy": 33,
-                "Total": 15963,
                 "Diff": "1",
-                "Antece": "Karl-Anthony Towns",
+                "Antece": "Kawhi Leonard",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 163,
@@ -3027,9 +3027,9 @@
                 "Rank": 7,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 33,
-                "Total": 7713,
-                "Diff": "8",
+                "Hoy": 35,
+                "Total": 7715,
+                "Diff": "6",
                 "Antece": "Chris Paul",
                 "game_status": "playing"
             },
@@ -4717,13 +4717,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Andrew Wiggins (3 three-pointers today) has passed Dell Curry, Hedo Turkoglu and Jaylen Brown and is now ranked 98th all-time with 1,248.",
-            "foto": [
-                "collages/1771639371292399_collage_1771639371230419.png"
-            ],
-            "timestamp": 1771639371
-        },
-        {
             "texto": "Kyle Kuzma (2 three-pointers today) has passed Kevin Huerter, Mikal Bridges and Mo Williams and is now ranked 138th all-time with 1,096.",
             "foto": [
                 "collages/1771639371490396_collage_1771639371426417.png"
@@ -5415,6 +5408,13 @@
                 "collages/1771817317915003_collage_1771817317733063.png"
             ],
             "timestamp": 1771817317
+        },
+        {
+            "texto": "Kawhi Leonard (35 points today) has passed Karl-Anthony Towns and is now ranked 133rd all-time with 15,965.",
+            "foto": [
+                "collages/1771820617993013_collage_1771820617829067.png"
+            ],
+            "timestamp": 1771820618
         }
     ],
     "notificaciones_franchise": [
@@ -6119,7 +6119,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 541,
+    "total_notificaciones_historicas": 542,
     "total_franchise_historicas": 159,
-    "cache_buster": 1771820546
+    "cache_buster": 1771820618
 }
