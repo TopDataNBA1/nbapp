@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:04:52",
+    "ultima_actualizacion": "05:05:26",
     "tablas": {
         "pts": [
             {
@@ -131,11 +131,11 @@
                 "Rank": 92,
                 "Nombre": "Lauri Markkanen",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 1256,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1257,
+                "Diff": "",
                 "Antece": "Bogdan Bogdanović",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -225,11 +225,11 @@
                 "Rank": 96,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1217,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1218,
+                "Diff": "1",
                 "Antece": "Robert Parish",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -430,9 +430,9 @@
                 "Rank": 24,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 4973,
-                "Diff": "27",
+                "Hoy": 21,
+                "Total": 4976,
+                "Diff": "24",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -470,9 +470,9 @@
                 "Rank": 6,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 627,
-                "Diff": "62",
+                "Hoy": 1,
+                "Total": 628,
+                "Diff": "61",
                 "Antece": "Gordon Hayward",
                 "game_status": "playing"
             },
@@ -499,13 +499,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jarrett Allen (14 rebounds today) has passed Derrick Favors and is now ranked 229th all-time with 5,609.",
-            "foto": [
-                "collages/1771641046685622_collage_1771641046597295.png"
-            ],
-            "timestamp": 1771641046
-        },
         {
             "texto": "James Harden (4 rebounds today) has passed Tom Chambers and is now ranked 137th all-time with 6,705.",
             "foto": [
@@ -1198,6 +1191,13 @@
                 "collages/1771900311255553_collage_1771900311171146.png"
             ],
             "timestamp": 1771900311
+        },
+        {
+            "texto": "📢🔝💯 Lauri Markkanen (1 three-pointer today) has passed Vernon Maxwell and is now ranked 92nd all-time with 1,257.",
+            "foto": [
+                "collages/1771905926296795_collage_1771905926176067.png"
+            ],
+            "timestamp": 1771905926
         }
     ],
     "notificaciones_franchise": [
@@ -1902,7 +1902,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 546,
+    "total_notificaciones_historicas": 547,
     "total_franchise_historicas": 176,
-    "cache_buster": 1771905892
+    "cache_buster": 1771905926
 }
