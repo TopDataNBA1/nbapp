@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:03:38",
+    "ultima_actualizacion": "04:04:53",
     "tablas": {
         "pts": [
             {
@@ -1356,17 +1356,28 @@
             },
             {
                 "Rank": 138,
-                "Nombre": "Derrick White",
-                "Team": "BOS",
-                "Hoy": 4,
-                "Total": 1099,
-                "Diff": "1",
-                "Antece": "1100",
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 1100,
+                "Diff": "4",
+                "Antece": "Randy Foye",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 139,
+                "Nombre": "Derrick White",
+                "Team": "BOS",
+                "Hoy": 4,
+                "Total": 1099,
+                "Diff": "1",
+                "Antece": "Mikal Bridges",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 140,
                 "Nombre": "Kyle Kuzma",
                 "Team": "MIL",
                 "Hoy": 3,
@@ -1377,24 +1388,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 140,
-                "Nombre": "Mikal Bridges",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1099,
-                "Diff": "",
-                "Antece": "Kyle Kuzma",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 141,
                 "Nombre": "Jordan Poole",
                 "Team": "NOP",
                 "Hoy": 3,
                 "Total": 1095,
                 "Diff": "4",
-                "Antece": "Mikal Bridges",
+                "Antece": "Kyle Kuzma",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -3008,9 +3008,9 @@
                 "Rank": 6,
                 "Nombre": "Zion Williamson",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 6214,
-                "Diff": "286",
+                "Hoy": 19,
+                "Total": 6215,
+                "Diff": "285",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -3320,9 +3320,9 @@
                 "Rank": 23,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 286,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 287,
+                "Diff": "13",
                 "Antece": "Al Harrington",
                 "game_status": "playing"
             }
@@ -3892,7 +3892,7 @@
                 "Stat": "AST",
                 "Hoy": 4,
                 "Total": 627,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "OG Anunoby",
                 "game_status": "finished"
             },
@@ -4349,6 +4349,13 @@
                 "collages/1771988414530834_collage_1771988414467852.png"
             ],
             "timestamp": 1771988414
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) becomes the 138th player to reach 1,100",
+            "foto": [
+                "collages/1771988693096484_collage_1771988693032504.png"
+            ],
+            "timestamp": 1771988693
         }
     ],
     "notificaciones_franchise": [
@@ -5053,7 +5060,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 572,
+    "total_notificaciones_historicas": 573,
     "total_franchise_historicas": 188,
-    "cache_buster": 1771988618
+    "cache_buster": 1771988693
 }
