@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:23:23",
+    "ultima_actualizacion": "01:24:29",
     "tablas": {
         "pts": [
             {
@@ -105,9 +105,9 @@
                 "Rank": 224,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 13350,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 13352,
+                "Diff": "9",
                 "Antece": "Luol Deng",
                 "Nota": "",
                 "game_status": "playing"
@@ -118,7 +118,7 @@
                 "Team": "DAL",
                 "Hoy": 0,
                 "Total": 13316,
-                "Diff": "34",
+                "Diff": "36",
                 "Antece": "Joel Embiid",
                 "Nota": "",
                 "game_status": "not_started"
@@ -750,13 +750,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 880,
+                "Hoy": 1,
+                "Total": 881,
                 "Diff": "",
-                "Antece": "P.J. Tucker",
+                "Antece": "Jim Jackson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1333,9 +1333,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 13350,
-                "Diff": "150",
+                "Hoy": 4,
+                "Total": 13352,
+                "Diff": "148",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -1343,9 +1343,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 7802,
-                "Diff": "155",
+                "Hoy": 7,
+                "Total": 7806,
+                "Diff": "151",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -1373,9 +1373,9 @@
                 "Rank": 18,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1772,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 1773,
+                "Diff": "6",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -1390,13 +1390,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 400,
-                "Diff": "0",
-                "Antece": "T.J. McConnell",
+                "Hoy": 1,
+                "Total": 401,
+                "Diff": "24",
+                "Antece": "Jrue Holiday",
                 "game_status": "playing"
             },
             {
@@ -1413,9 +1413,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 880,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 881,
+                "Diff": "4",
                 "Antece": "Allen Iverson",
                 "game_status": "playing"
             },
@@ -1791,15 +1791,16 @@
             }
         ]
     },
-    "notificaciones": [],
-    "notificaciones_franchise": [
+    "notificaciones": [
         {
-            "texto": "Jabari Smith Jr. (2 three-pointers today) has passed Steve Francis and is now ranked 13th in Rockets history with 471.",
-            "foto": [],
-            "timestamp": 1770859906,
-            "team": "HOU",
-            "type": "franchise"
-        },
+            "texto": "Tyrese Maxey (1 three-pointer today) has passed P.J. Tucker and is now ranked 231st all-time with 881.",
+            "foto": [
+                "collages/1771979069904181_collage_1771979069807213.png"
+            ],
+            "timestamp": 1771979069
+        }
+    ],
+    "notificaciones_franchise": [
         {
             "texto": "Jalen Suggs (3 three-pointers today) becomes the 16th player to reach 400 three-pointers with Magic.",
             "foto": [],
@@ -2492,9 +2493,16 @@
             "timestamp": 1771978317,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (1 steal today) has passed T.J. McConnell and is now ranked 19th in 76ers history with 401.",
+            "foto": [],
+            "timestamp": 1771979069,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 549,
-    "total_franchise_historicas": 178,
-    "cache_buster": 1771979003
+    "total_notificaciones_historicas": 550,
+    "total_franchise_historicas": 179,
+    "cache_buster": 1771979069
 }
