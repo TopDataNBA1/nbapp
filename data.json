@@ -1,7 +1,415 @@
 {
-    "ultima_actualizacion": "01:02:51",
-    "tablas": {},
-    "tablas_teams": {},
+    "ultima_actualizacion": "01:03:58",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 186,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 14404,
+                "Diff": "33",
+                "Antece": "Nate Thurmond",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 209,
+                "Nombre": "Mason Plumlee",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 5807,
+                "Diff": "15",
+                "Antece": "Enes Freedom",
+                "Nota": "",
+                "game_status": "inactive"
+            }
+        ],
+        "ast": [
+            {
+                "Rank": 171,
+                "Nombre": "De'Aaron Fox",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 3564,
+                "Diff": "27",
+                "Antece": "Paul Westphal",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "blk": [
+            {
+                "Rank": 84,
+                "Nombre": "Bismack Biyombo",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 1101,
+                "Diff": "1",
+                "Antece": "Antonio McDyess",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 166,
+                "Nombre": "Jakob Poeltl",
+                "Team": "TOR",
+                "Hoy": 0,
+                "Total": 768,
+                "Diff": "5",
+                "Antece": "Joel Embiid",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 189,
+                "Nombre": "Mason Plumlee",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 703,
+                "Diff": "3",
+                "Antece": "Billy Paultz",
+                "Nota": "",
+                "game_status": "inactive"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 51,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 1546,
+                "Diff": "",
+                "Antece": "Eddie Jones",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 214,
+                "Nombre": "Kelly Olynyk",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 929,
+                "Diff": "2",
+                "Antece": "Jalen Brunson",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 222,
+                "Nombre": "De'Aaron Fox",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 908,
+                "Diff": "3",
+                "Antece": "Rasual Butler",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "g": [
+            {
+                "Rank": 124,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 1050,
+                "Diff": "1",
+                "Antece": "Shawn Kemp",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ]
+    },
+    "tablas_teams": {
+        "SAS": [
+            {
+                "Rank": 12,
+                "Nombre": "Keldon Johnson",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 6523,
+                "Diff": "131",
+                "Antece": "Kawhi Leonard",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "Devin Vassell",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 4906,
+                "Diff": "94",
+                "Antece": "5000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Keldon Johnson",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2317,
+                "Diff": "65",
+                "Antece": "Jakob Poeltl",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "Devin Vassell",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 354,
+                "Diff": "42",
+                "Antece": "Mark Olberding",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Victor Wembanyama",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 551,
+                "Diff": "49",
+                "Antece": "600",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "Devin Vassell",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 723,
+                "Diff": "77",
+                "Antece": "800",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "Keldon Johnson",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 649,
+                "Diff": "7",
+                "Antece": "Matt Bonner",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Julian Champagnie",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 449,
+                "Diff": "8",
+                "Antece": "Chuck Person",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Victor Wembanyama",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 347,
+                "Diff": "9",
+                "Antece": "Brent Barry",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Harrison Barnes",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 263,
+                "Diff": "11",
+                "Antece": "Richard Jefferson",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Keldon Johnson",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 427,
+                "Diff": "6",
+                "Antece": "Vinny Del Negro",
+                "game_status": "not_started"
+            }
+        ],
+        "TOR": [
+            {
+                "Rank": 9,
+                "Nombre": "Scottie Barnes",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 5828,
+                "Diff": "172",
+                "Antece": "6000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 2673,
+                "Diff": "112",
+                "Antece": "Anthony Parker",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Scottie Barnes",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2531,
+                "Diff": "208",
+                "Antece": "DeMar DeRozan",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 13,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 1947,
+                "Diff": "53",
+                "Antece": "2000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Scottie Barnes",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1683,
+                "Diff": "78",
+                "Antece": "Damon Stoudamire",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Immanuel Quickley",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 779,
+                "Diff": "129",
+                "Antece": "T.J. Ford",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "Jamal Shead",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 627,
+                "Diff": "5",
+                "Antece": "OG Anunoby",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "RJ Barrett",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 565,
+                "Diff": "30",
+                "Antece": "Jalen Rose",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Scottie Barnes",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 406,
+                "Diff": "62",
+                "Antece": "Pascal Siakam",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 205,
+                "Diff": "19",
+                "Antece": "Charles Oakley",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Scottie Barnes",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 358,
+                "Diff": "2",
+                "Antece": "Marcus Camby",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 312,
+                "Diff": "5",
+                "Antece": "Pascal Siakam",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 16,
+                "Nombre": "Scottie Barnes",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 347,
+                "Diff": "4",
+                "Antece": "Patrick Patterson",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "Immanuel Quickley",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 340,
+                "Diff": "2",
+                "Antece": "Anthony Parker",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "Gradey Dick",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 250,
+                "Diff": "17",
+                "Antece": "Serge Ibaka",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Scottie Barnes",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 332,
+                "Diff": "17",
+                "Antece": "Norman Powell",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 293,
+                "Diff": "7",
+                "Antece": "300",
+                "game_status": "not_started"
+            }
+        ]
+    },
     "notificaciones": [],
     "notificaciones_franchise": [
         {
@@ -707,5 +1115,5 @@
     ],
     "total_notificaciones_historicas": 623,
     "total_franchise_historicas": 210,
-    "cache_buster": 1772064171
+    "cache_buster": 1772064238
 }
