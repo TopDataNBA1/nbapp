@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:44:57",
+    "ultima_actualizacion": "04:46:05",
     "tablas": {
         "pts": [
             {
@@ -187,14 +187,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 139,
+                "Rank": 138,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1099,
-                "Diff": "1",
-                "Antece": "Mikal Bridges",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1100,
+                "Diff": "4",
+                "Antece": "Randy Foye",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -415,10 +415,10 @@
                 "Rank": 7,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 799,
-                "Diff": "1",
-                "Antece": "800",
+                "Hoy": 1,
+                "Total": 800,
+                "Diff": "10",
+                "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
             {
@@ -731,16 +731,23 @@
                 "collages/1772076468228180_collage_1772076468149294.png"
             ],
             "timestamp": 1772076468
+        },
+        {
+            "texto": "Derrick White (1 three-pointer today) becomes the 138th player to reach 1,100",
+            "foto": [
+                "collages/1772077564879797_collage_1772077564813703.png"
+            ],
+            "timestamp": 1772077564
+        },
+        {
+            "texto": "Derrick White (1 three-pointer today) has passed Donte DiVincenzo and Kyle Kuzma and is now ranked 138th all-time with 1,100.",
+            "foto": [
+                "collages/1772077565120573_collage_1772077565005669.png"
+            ],
+            "timestamp": 1772077565
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Zion Williamson (2 assists today) has passed Greivis Vásquez and is now ranked 6th in Pelicans history with 1,064.",
-            "foto": [],
-            "timestamp": 1771664446,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Kawhi Leonard (4 three-pointers today) has passed Jamal Crawford and is now ranked 4th in Clippers history with 664.",
             "foto": [],
@@ -1433,9 +1440,16 @@
             "timestamp": 1772074940,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Derrick White (1 three-pointer today) becomes the 7th player to reach 800 three-pointers with Celtics.",
+            "foto": [],
+            "timestamp": 1772077565,
+            "team": "BOS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 641,
-    "total_franchise_historicas": 218,
-    "cache_buster": 1772077497
+    "total_notificaciones_historicas": 643,
+    "total_franchise_historicas": 219,
+    "cache_buster": 1772077565
 }
