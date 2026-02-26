@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:55",
+    "ultima_actualizacion": "02:23:34",
     "tablas": {
         "pts": [
             {
@@ -272,9 +272,9 @@
                 "Rank": 224,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 5645,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 5647,
+                "Diff": "7",
                 "Antece": "Ray Felix",
                 "Nota": "",
                 "game_status": "playing"
@@ -740,9 +740,9 @@
                 "Rank": 138,
                 "Nombre": "Kyle Kuzma",
                 "Team": "MIL",
-                "Hoy": 1,
-                "Total": 1100,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 1101,
+                "Diff": "3",
                 "Antece": "Randy Foye",
                 "Nota": "",
                 "game_status": "playing"
@@ -1138,13 +1138,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 3789,
-                "Diff": "1",
-                "Antece": "Jim Chones",
+                "Hoy": 5,
+                "Total": 3791,
+                "Diff": "209",
+                "Antece": "4000",
                 "game_status": "playing"
             },
             {
@@ -2205,9 +2205,9 @@
                 "Rank": 8,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1684,
-                "Diff": "77",
+                "Hoy": 2,
+                "Total": 1685,
+                "Diff": "76",
                 "Antece": "Damon Stoudamire",
                 "game_status": "playing"
             },
@@ -2245,9 +2245,9 @@
                 "Rank": 11,
                 "Nombre": "Scottie Barnes",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 406,
-                "Diff": "62",
+                "Hoy": 1,
+                "Total": 407,
+                "Diff": "61",
                 "Antece": "Pascal Siakam",
                 "game_status": "playing"
             },
@@ -2295,9 +2295,9 @@
                 "Rank": 18,
                 "Nombre": "Immanuel Quickley",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 341,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 342,
+                "Diff": "0",
                 "Antece": "Anthony Parker",
                 "game_status": "playing"
             },
@@ -2506,16 +2506,16 @@
                 "collages/1772068975497927_collage_1772068975403944.png"
             ],
             "timestamp": 1772068975
+        },
+        {
+            "texto": "Kyle Kuzma (2 three-pointers today) has passed Mikal Bridges and is now ranked 138th all-time with 1,101.",
+            "foto": [
+                "collages/1772069014227577_collage_1772069014138266.png"
+            ],
+            "timestamp": 1772069014
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Naz Reid (8 points today) becomes the 9th player to reach 5,500 points with Timberwolves.",
-            "foto": [],
-            "timestamp": 1771640624,
-            "team": "MIN",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Rudy Gobert (22 points today) becomes the 20th player to reach 3,500 points with Timberwolves.",
             "foto": [],
@@ -3208,9 +3208,16 @@
             "timestamp": 1772068607,
             "team": "HOU",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Jarrett Allen (5 rebounds today) has passed Jim Chones and is now ranked 8th in Cavaliers history with 3,791.",
+            "foto": [],
+            "timestamp": 1772069014,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 630,
-    "total_franchise_historicas": 211,
-    "cache_buster": 1772068975
+    "total_notificaciones_historicas": 631,
+    "total_franchise_historicas": 212,
+    "cache_buster": 1772069014
 }
