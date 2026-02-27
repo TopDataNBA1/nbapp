@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:14:37",
+    "ultima_actualizacion": "05:15:46",
     "tablas": {
         "pts": [
             {
@@ -656,14 +656,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 169,
+                "Rank": 168,
                 "Nombre": "Nicolas Batum",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 3594,
-                "Diff": "",
-                "Antece": "Earl Monroe",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3595,
+                "Diff": "11",
+                "Antece": "Reggie Jackson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1301,9 +1301,9 @@
                 "Rank": 91,
                 "Nombre": "Bogdan Bogdanović",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 1257,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 1258,
+                "Diff": "4",
                 "Antece": "D.J. Augustin",
                 "Nota": "",
                 "game_status": "playing"
@@ -1314,9 +1314,9 @@
                 "Team": "UTA",
                 "Hoy": 0,
                 "Total": 1257,
-                "Diff": "",
+                "Diff": "1",
                 "Antece": "Bogdan Bogdanović",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -2696,9 +2696,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 10556,
-                "Diff": "444",
+                "Hoy": 11,
+                "Total": 10558,
+                "Diff": "442",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -2756,9 +2756,9 @@
                 "Rank": 8,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2277,
-                "Diff": "78",
+                "Hoy": 2,
+                "Total": 2278,
+                "Diff": "77",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -4192,20 +4192,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ LeBron James (6 rebounds today) has passed Dennis Rodman and is now ranked 23rd all-time with 11,959.",
-            "foto": [
-                "collages/1772026111105445_collage_1772026111009423.png"
-            ],
-            "timestamp": 1772026111
-        },
-        {
-            "texto": "Jarrett Allen (10 rebounds today) has passed Jusuf Nurkić and is now ranked 224th all-time with 5,652.",
-            "foto": [
-                "collages/1772026111299430_collage_1772026111205678.png"
-            ],
-            "timestamp": 1772026111
-        },
-        {
             "texto": "Bam Adebayo (9 rebounds today) has passed Hassan Whiteside and Jim Fox and is now ranked 237th all-time with 5,531.",
             "foto": [
                 "collages/1772026111489144_collage_1772026111415707.png"
@@ -4890,6 +4876,20 @@
                 "collages/1772165607308256_collage_1772165607227415.png"
             ],
             "timestamp": 1772165607
+        },
+        {
+            "texto": "📢HOF🏛️ Nicolas Batum (1 assist today) has passed Earl Monroe and is now ranked 168th all-time with 3,595.",
+            "foto": [
+                "collages/1772165746566445_collage_1772165746467086.png"
+            ],
+            "timestamp": 1772165746
+        },
+        {
+            "texto": "📢🔝💯 Bogdan Bogdanović (1 three-pointer today) has passed Lauri Markkanen and is now ranked 91st all-time with 1,258.",
+            "foto": [
+                "collages/1772165746770753_collage_1772165746680748.png"
+            ],
+            "timestamp": 1772165746
         }
     ],
     "notificaciones_franchise": [
@@ -5594,7 +5594,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 688,
+    "total_notificaciones_historicas": 690,
     "total_franchise_historicas": 230,
-    "cache_buster": 1772165677
+    "cache_buster": 1772165746
 }
