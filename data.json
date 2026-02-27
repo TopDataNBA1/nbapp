@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:22:45",
+    "ultima_actualizacion": "05:23:55",
     "tablas": {
         "pts": [
             {
@@ -248,9 +248,9 @@
                 "Rank": 188,
                 "Nombre": "Luka Doncic",
                 "Team": "LAL",
-                "Hoy": 38,
-                "Total": 14380,
-                "Diff": "19",
+                "Hoy": 41,
+                "Total": 14383,
+                "Diff": "16",
                 "Antece": "Jo Jo White",
                 "Nota": "",
                 "game_status": "playing"
@@ -1188,7 +1188,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 51,
+                "Rank": 50,
+                "Nombre": "Luka Dončić",
+                "Team": "LAL",
+                "Hoy": 6,
+                "Total": 1547,
+                "Diff": "12",
+                "Antece": "Glen Rice",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 52,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
                 "Hoy": 0,
@@ -1197,17 +1208,6 @@
                 "Antece": "Eddie Jones",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 53,
-                "Nombre": "Luka Dončić",
-                "Team": "LAL",
-                "Hoy": 5,
-                "Total": 1546,
-                "Diff": "",
-                "Antece": "Jayson Tatum",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 59,
@@ -1962,14 +1962,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 161,
+                "Rank": 160,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1051,
-                "Diff": "",
-                "Antece": "Chauncey Billups",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1052,
+                "Diff": "1",
+                "Antece": "Tony Parker",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2552,9 +2552,9 @@
                 "Rank": 24,
                 "Nombre": "Luka Dončić",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 270,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 271,
+                "Diff": "3",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -2988,9 +2988,9 @@
                 "Rank": 10,
                 "Nombre": "Zion Williamson",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 1676,
-                "Diff": "52",
+                "Hoy": 4,
+                "Total": 1677,
+                "Diff": "51",
                 "Antece": "Jrue Holiday",
                 "game_status": "playing"
             },
@@ -3028,9 +3028,9 @@
                 "Rank": 6,
                 "Nombre": "Zion Williamson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1072,
-                "Diff": "41",
+                "Hoy": 3,
+                "Total": 1073,
+                "Diff": "40",
                 "Antece": "CJ McCollum",
                 "game_status": "playing"
             },
@@ -4192,20 +4192,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Bam Adebayo (9 rebounds today) has passed Hassan Whiteside and Jim Fox and is now ranked 237th all-time with 5,531.",
-            "foto": [
-                "collages/1772026111489144_collage_1772026111415707.png"
-            ],
-            "timestamp": 1772026111
-        },
-        {
-            "texto": "📢🔝💯 Draymond Green (6 assists today) has passed Kenny Anderson and is now ranked 66th all-time with 5,200.",
-            "foto": [
-                "collages/1772026111689516_collage_1772026111584554.png"
-            ],
-            "timestamp": 1772026111
-        },
-        {
             "texto": "Dennis Schröder (5 assists today) has passed Spud Webb and is now ranked 104th all-time with 4,346.",
             "foto": [
                 "collages/1772026111874575_collage_1772026111774256.png"
@@ -4890,6 +4876,20 @@
                 "collages/1772165746770753_collage_1772165746680748.png"
             ],
             "timestamp": 1772165746
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (1 steal today) has passed Chauncey Billups and is now ranked 160th all-time with 1,052.",
+            "foto": [
+                "collages/1772166235216670_collage_1772166235105708.png"
+            ],
+            "timestamp": 1772166235
+        },
+        {
+            "texto": "📢🔝💯 Luka Dončić (6 three-pointers today) has passed Eddie Jones, Harrison Barnes, Jayson Tatum and Patty Mills and is now ranked 50th all-time with 1,547.",
+            "foto": [
+                "collages/1772166235516320_collage_1772166235441363.png"
+            ],
+            "timestamp": 1772166235
         }
     ],
     "notificaciones_franchise": [
@@ -5594,7 +5594,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 690,
+    "total_notificaciones_historicas": 692,
     "total_franchise_historicas": 230,
-    "cache_buster": 1772166165
+    "cache_buster": 1772166235
 }
