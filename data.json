@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:23:06",
+    "ultima_actualizacion": "01:24:16",
     "tablas": {
         "pts": [
             {
@@ -91,14 +91,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 223,
+                "Rank": 222,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 7,
-                "Total": 13382,
-                "Diff": "1",
-                "Antece": "Rudy Tomjanovich",
-                "Nota": "A tiro de 1",
+                "Hoy": 9,
+                "Total": 13384,
+                "Diff": "14",
+                "Antece": "Vlade Divac",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -674,11 +674,11 @@
                 "Rank": 234,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 877,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 878,
+                "Diff": "1",
                 "Antece": "Reggie Bullock",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -857,9 +857,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5813,
-                "Diff": "161",
+                "Hoy": 8,
+                "Total": 5816,
+                "Diff": "158",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -937,9 +937,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 877,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 878,
+                "Diff": "22",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -957,9 +957,9 @@
                 "Rank": 11,
                 "Nombre": "Brandon Miller",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 417,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 418,
+                "Diff": "13",
                 "Antece": "Devonte' Graham",
                 "game_status": "playing"
             },
@@ -1485,9 +1485,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 13382,
-                "Diff": "118",
+                "Hoy": 9,
+                "Total": 13384,
+                "Diff": "116",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -1525,9 +1525,9 @@
                 "Rank": 17,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1781,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 1782,
+                "Diff": "4",
                 "Antece": "Joel Embiid",
                 "game_status": "playing"
             },
@@ -1884,13 +1884,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "T.J. McConnell (1 steal today) has passed Al Horford and is now ranked 243rd all-time with 896.",
-            "foto": [
-                "collages/1771979273182464_collage_1771979273095503.png"
-            ],
-            "timestamp": 1771979273
-        },
         {
             "texto": "Michael Porter Jr. (1 three-pointer today) has passed Rafer Alston and is now ranked 180th all-time with 997.",
             "foto": [
@@ -2583,6 +2576,13 @@
                 "collages/1772151570836776_collage_1772151570738750.png"
             ],
             "timestamp": 1772151570
+        },
+        {
+            "texto": "Joel Embiid (9 points today) has passed Rudy Tomjanovich and is now ranked 222nd all-time with 13,384.",
+            "foto": [
+                "collages/1772151856380426_collage_1772151856267470.png"
+            ],
+            "timestamp": 1772151856
         }
     ],
     "notificaciones_franchise": [
@@ -3287,7 +3287,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 650,
+    "total_notificaciones_historicas": 651,
     "total_franchise_historicas": 220,
-    "cache_buster": 1772151786
+    "cache_buster": 1772151856
 }
