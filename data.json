@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:13:39",
+    "ultima_actualizacion": "19:14:45",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 111,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 16903,
-                "Diff": "57",
+                "Hoy": 2,
+                "Total": 16905,
+                "Diff": "55",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -212,11 +212,11 @@
                 "Rank": 232,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 880,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 881,
+                "Diff": "",
                 "Antece": "Jim Jackson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -233,14 +233,14 @@
         ],
         "g": [
             {
-                "Rank": 112,
+                "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1068,
-                "Diff": "",
-                "Antece": "Caldwell Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1069,
+                "Diff": "3",
+                "Antece": "Michael Jordan",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -274,9 +274,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 5828,
-                "Diff": "146",
+                "Hoy": 3,
+                "Total": 5831,
+                "Diff": "143",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -354,9 +354,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 880,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 881,
+                "Diff": "19",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -394,9 +394,9 @@
                 "Rank": 24,
                 "Nombre": "LaMelo Ball",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 281,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 282,
+                "Diff": "0",
                 "Antece": "Frank Kaminsky",
                 "game_status": "playing"
             }
@@ -515,20 +515,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Kyle Kuzma (1 three-pointer today) has passed Derrick White and Donte DiVincenzo and is now ranked 138th all-time with 1,100.",
-            "foto": [
-                "collages/1772068607422216_collage_1772068607348154.png"
-            ],
-            "timestamp": 1772068607
-        },
-        {
-            "texto": "📢🔝💯 DeMar DeRozan (2 assists today) has passed Raymond Felton and is now ranked 73rd all-time with 5,097.",
-            "foto": [
-                "collages/1772068770449116_collage_1772068770357147.png"
-            ],
-            "timestamp": 1772068770
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Paul Pierce and is now ranked 176th all-time with 746.",
             "foto": [
@@ -1214,6 +1200,20 @@
                 "collages/1772254934481427_collage_1772254934398472.png"
             ],
             "timestamp": 1772254934
+        },
+        {
+            "texto": "LaMelo Ball (1 three-pointer today) has passed P.J. Tucker and is now ranked 232nd all-time with 881.",
+            "foto": [
+                "collages/1772302485376693_collage_1772302485259732.png"
+            ],
+            "timestamp": 1772302485
+        },
+        {
+            "texto": "Jrue Holiday today surpasses Bill Laimbeer and Caldwell Jones and now ranked 110th all time with 1,069 games",
+            "foto": [
+                "collages/1772302485590639_collage_1772302485512666.png"
+            ],
+            "timestamp": 1772302485
         }
     ],
     "notificaciones_franchise": [
@@ -1918,7 +1918,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 724,
+    "total_notificaciones_historicas": 726,
     "total_franchise_historicas": 237,
-    "cache_buster": 1772302419
+    "cache_buster": 1772302485
 }
