@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:48",
+    "ultima_actualizacion": "04:38:50",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 98,
+                "Rank": 97,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 6,
-                "Total": 17454,
-                "Diff": "",
-                "Antece": "Earl Monroe",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 17456,
+                "Diff": "73",
+                "Antece": "Jason Kidd",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1372,9 +1372,9 @@
                 "Rank": 2,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 17454,
-                "Diff": "46",
+                "Hoy": 8,
+                "Total": 17456,
+                "Diff": "44",
                 "Antece": "17500",
                 "game_status": "playing"
             },
@@ -1980,9 +1980,9 @@
                 "Rank": 11,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 362,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 363,
+                "Diff": "2",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -2183,13 +2183,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Nikola Vučević today surpasses Grant Hill and Reggie Theus and now ranked 139th all time with 1,027 games",
-            "foto": [
-                "collages/1772026123525498_collage_1772026123449561.png"
-            ],
-            "timestamp": 1772026123
-        },
         {
             "texto": "Draymond Green today surpasses Armen Gilliam, Matt Barnes and Tom Van Arsdale and now ranked 230th all time with 930 games",
             "foto": [
@@ -2882,16 +2875,16 @@
                 "collages/1772249091030467_collage_1772249090953401.png"
             ],
             "timestamp": 1772249091
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Nikola Jokić (8 points today) has passed Earl Monroe and is now ranked 97th all-time with 17,456.",
+            "foto": [
+                "collages/1772249930488126_collage_1772249930389172.png"
+            ],
+            "timestamp": 1772249930
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Zion Williamson (6 rebounds today) has passed Brandon Ingram and is now ranked 10th in Pelicans history with 1,673.",
-            "foto": [],
-            "timestamp": 1771750843,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "Herbert Jones (1 rebound today) has passed Alexis Ajinça and is now ranked 17th in Pelicans history with 1,039.",
             "foto": [],
@@ -3584,9 +3577,16 @@
             "timestamp": 1772248628,
             "team": "MIL",
             "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (1 block today) has passed Rashard Lewis and is now ranked 11th in Thunder history with 363.",
+            "foto": [],
+            "timestamp": 1772249930,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 720,
-    "total_franchise_historicas": 235,
-    "cache_buster": 1772249868
+    "total_notificaciones_historicas": 721,
+    "total_franchise_historicas": 236,
+    "cache_buster": 1772249930
 }
