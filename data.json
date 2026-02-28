@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:43:39",
+    "ultima_actualizacion": "01:44:15",
     "tablas": {
         "pts": [
             {
@@ -408,25 +408,25 @@
             },
             {
                 "Rank": 136,
-                "Nombre": "Kyle Kuzma",
-                "Team": "MIL",
-                "Hoy": 0,
+                "Nombre": "Derrick White",
+                "Team": "BOS",
+                "Hoy": 1,
                 "Total": 1104,
                 "Diff": "4",
                 "Antece": "Gary Trent Jr.",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
-                "Rank": 139,
-                "Nombre": "Derrick White",
-                "Team": "BOS",
+                "Rank": 137,
+                "Nombre": "Kyle Kuzma",
+                "Team": "MIL",
                 "Hoy": 0,
-                "Total": 1103,
-                "Diff": "1",
-                "Antece": "Randy Foye",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Total": 1104,
+                "Diff": "",
+                "Antece": "Derrick White",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
             },
             {
                 "Rank": 141,
@@ -624,9 +624,9 @@
                 "Rank": 17,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 3578,
-                "Diff": "422",
+                "Hoy": 1,
+                "Total": 3579,
+                "Diff": "421",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -644,9 +644,9 @@
                 "Rank": 19,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1841,
-                "Diff": "42",
+                "Hoy": 1,
+                "Total": 1842,
+                "Diff": "41",
                 "Antece": "Dee Brown",
                 "game_status": "playing"
             },
@@ -734,9 +734,9 @@
                 "Rank": 7,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 803,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 804,
+                "Diff": "6",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -754,9 +754,9 @@
                 "Rank": 15,
                 "Nombre": "Jaylen Brown",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 655,
-                "Diff": "21",
+                "Hoy": 1,
+                "Total": 656,
+                "Diff": "20",
                 "Antece": "K.C. Jones",
                 "game_status": "playing"
             },
@@ -1223,13 +1223,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Khris Middleton (1 steal today) has passed Jason Williams and is now ranked 222nd all-time with 934.",
-            "foto": [
-                "collages/1772026112845385_collage_1772026112759482.png"
-            ],
-            "timestamp": 1772026112
-        },
         {
             "texto": "📢🔝💯 Myles Turner (1 block today) becomes the 41st player to reach 1,500",
             "foto": [
@@ -1922,6 +1915,13 @@
                 "collages/1772238394404684_collage_1772238394283724.png"
             ],
             "timestamp": 1772238394
+        },
+        {
+            "texto": "Derrick White (1 three-pointer today) has passed Donte DiVincenzo and is now ranked 136th all-time with 1,104.",
+            "foto": [
+                "collages/1772239455213322_collage_1772239455124318.png"
+            ],
+            "timestamp": 1772239455
         }
     ],
     "notificaciones_franchise": [
@@ -2626,7 +2626,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 697,
+    "total_notificaciones_historicas": 698,
     "total_franchise_historicas": 232,
-    "cache_buster": 1772239419
+    "cache_buster": 1772239455
 }
