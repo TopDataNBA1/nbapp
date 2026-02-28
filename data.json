@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:30:10",
+    "ultima_actualizacion": "02:30:45",
     "tablas": {
         "pts": [
             {
@@ -594,14 +594,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 178,
+                "Rank": 177,
                 "Nombre": "Michael Porter Jr.",
                 "Team": "BKN",
-                "Hoy": 1,
-                "Total": 1002,
-                "Diff": "",
-                "Antece": "Danny Ainge",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1003,
+                "Diff": "3",
+                "Antece": "Danny Granger",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -641,11 +641,11 @@
                 "Rank": 213,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 933,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 934,
+                "Diff": "",
                 "Antece": "Desmond Bane",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -654,7 +654,7 @@
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 931,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Jalen Brunson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1513,9 +1513,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 6989,
-                "Diff": "11",
+                "Hoy": 16,
+                "Total": 6994,
+                "Diff": "6",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1563,9 +1563,9 @@
                 "Rank": 4,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 652,
-                "Diff": "48",
+                "Hoy": 3,
+                "Total": 653,
+                "Diff": "47",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -1637,9 +1637,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 2617,
-                "Diff": "70",
+                "Hoy": 7,
+                "Total": 2618,
+                "Diff": "69",
                 "Antece": "Antonio McDyess",
                 "game_status": "playing"
             },
@@ -1706,13 +1706,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Andrew Wiggins (3 blocks today) has passed Keon Clark and Lorenzen Wright and is now ranked 245th all-time with 573.",
-            "foto": [
-                "collages/1772026117355418_collage_1772026117275452.png"
-            ],
-            "timestamp": 1772026117
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Luka Dončić (2 three-pointers today) has passed Tim Hardaway and is now ranked 54th all-time with 1,543.",
             "foto": [
@@ -2405,6 +2398,13 @@
                 "collages/1772241909105445_collage_1772241909031465.png"
             ],
             "timestamp": 1772241909
+        },
+        {
+            "texto": "Michael Porter Jr. (2 three-pointers today) has passed Danny Ainge and is now ranked 177th all-time with 1,003.",
+            "foto": [
+                "collages/1772242245485179_collage_1772242245384230.png"
+            ],
+            "timestamp": 1772242245
         }
     ],
     "notificaciones_franchise": [
@@ -3109,7 +3109,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 703,
+    "total_notificaciones_historicas": 704,
     "total_franchise_historicas": 232,
-    "cache_buster": 1772242210
+    "cache_buster": 1772242245
 }
