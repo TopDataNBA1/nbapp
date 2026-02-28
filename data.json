@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:36:09",
+    "ultima_actualizacion": "20:37:15",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 111,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 14,
-                "Total": 16917,
-                "Diff": "43",
+                "Hoy": 16,
+                "Total": 16919,
+                "Diff": "41",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -201,11 +201,11 @@
                 "Rank": 165,
                 "Nombre": "Jerami Grant",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 1042,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1043,
+                "Diff": "1",
                 "Antece": "Isaiah Thomas",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -304,9 +304,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 2083,
-                "Diff": "417",
+                "Hoy": 7,
+                "Total": 2084,
+                "Diff": "416",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -374,9 +374,9 @@
                 "Rank": 11,
                 "Nombre": "Brandon Miller",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 427,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 428,
+                "Diff": "3",
                 "Antece": "Devonte' Graham",
                 "game_status": "playing"
             },
@@ -463,13 +463,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Jerami Grant",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 464,
-                "Diff": "0",
-                "Antece": "Clyde Drexler",
+                "Hoy": 2,
+                "Total": 465,
+                "Diff": "27",
+                "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
             {
@@ -515,13 +515,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Myles Turner (1 block today) becomes the 41st player to reach 1,500",
-            "foto": [
-                "collages/1772068907393716_collage_1772068907318759.png"
-            ],
-            "timestamp": 1772068907
-        },
         {
             "texto": "Dennis Schröder (2 three-pointers today) has passed David Wesley and is now ranked 131st all-time with 1,124.",
             "foto": [
@@ -1214,16 +1207,16 @@
                 "collages/1772304616622967_collage_1772304616515005.png"
             ],
             "timestamp": 1772304616
+        },
+        {
+            "texto": "Jerami Grant (2 three-pointers today) has passed Richard Jefferson and is now ranked 165th all-time with 1,043.",
+            "foto": [
+                "collages/1772307435654323_collage_1772307435569350.png"
+            ],
+            "timestamp": 1772307435
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Tyler Herro (6 assists today) becomes the 9th player to reach 1,500 assists with Heat.",
-            "foto": [],
-            "timestamp": 1771750843,
-            "team": "MIA",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Tyrese Maxey (5 steals today) has passed T.J. McConnell and is now ranked 19th in 76ers history with 403.",
             "foto": [],
@@ -1916,9 +1909,16 @@
             "timestamp": 1772253965,
             "team": "DEN",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Jerami Grant (2 three-pointers today) has passed Clyde Drexler and is now ranked 10th in Trail Blazers history with 465.",
+            "foto": [],
+            "timestamp": 1772307435,
+            "team": "POR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 728,
-    "total_franchise_historicas": 237,
-    "cache_buster": 1772307369
+    "total_notificaciones_historicas": 729,
+    "total_franchise_historicas": 238,
+    "cache_buster": 1772307435
 }
