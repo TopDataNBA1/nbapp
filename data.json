@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:39",
+    "ultima_actualizacion": "02:54:14",
     "tablas": {
         "pts": [
             {
@@ -113,14 +113,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 237,
+                "Rank": 236,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 14,
-                "Total": 12963,
-                "Diff": "1",
-                "Antece": "Bob Boozer",
-                "Nota": "A tiro de 1",
+                "Hoy": 17,
+                "Total": 12966,
+                "Diff": "10",
+                "Antece": "Stephen Jackson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -509,11 +509,11 @@
                 "Rank": 96,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 1252,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 1253,
+                "Diff": "",
                 "Antece": "Clifford Robinson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -813,9 +813,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 12963,
-                "Diff": "37",
+                "Hoy": 17,
+                "Total": 12966,
+                "Diff": "34",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -923,9 +923,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 1252,
-                "Diff": "48",
+                "Hoy": 3,
+                "Total": 1253,
+                "Diff": "47",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -1127,9 +1127,9 @@
                 "Rank": 18,
                 "Nombre": "Dwight Powell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 4861,
-                "Diff": "139",
+                "Hoy": 1,
+                "Total": 4862,
+                "Diff": "138",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -1411,9 +1411,9 @@
                 "Rank": 20,
                 "Nombre": "Bobby Portis",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 5334,
-                "Diff": "166",
+                "Hoy": 7,
+                "Total": 5335,
+                "Diff": "165",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -1706,20 +1706,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (5 three-pointers today) has passed Derrick White, Kyle Kuzma and Mikal Bridges and is now ranked 136th all-time with 1,104.",
-            "foto": [
-                "collages/1772026119549285_collage_1772026119479401.png"
-            ],
-            "timestamp": 1772026119
-        },
-        {
-            "texto": "Derrick White (4 three-pointers today) has passed Kyle Kuzma and Mikal Bridges and is now ranked 139th all-time with 1,103.",
-            "foto": [
-                "collages/1772026119735783_collage_1772026119659542.png"
-            ],
-            "timestamp": 1772026119
-        },
         {
             "texto": "Kyle Kuzma (3 three-pointers today) has passed Mikal Bridges and is now ranked 140th all-time with 1,102.",
             "foto": [
@@ -2405,6 +2391,20 @@
                 "collages/1772243495921153_collage_1772243495823197.png"
             ],
             "timestamp": 1772243495
+        },
+        {
+            "texto": "Jaylen Brown (17 points today) has passed Bob Boozer and is now ranked 236th all-time with 12,966.",
+            "foto": [
+                "collages/1772243654621052_collage_1772243654530082.png"
+            ],
+            "timestamp": 1772243654
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (3 three-pointers today) has passed Stephen Jackson and is now ranked 96th all-time with 1,253.",
+            "foto": [
+                "collages/1772243654840185_collage_1772243654747225.png"
+            ],
+            "timestamp": 1772243654
         }
     ],
     "notificaciones_franchise": [
@@ -3109,7 +3109,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 707,
+    "total_notificaciones_historicas": 709,
     "total_franchise_historicas": 233,
-    "cache_buster": 1772243619
+    "cache_buster": 1772243654
 }
