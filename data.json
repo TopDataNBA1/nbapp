@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:06:14",
+    "ultima_actualizacion": "02:07:19",
     "tablas": {
         "pts": [
             {
@@ -550,14 +550,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 213,
+                "Rank": 211,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 934,
-                "Diff": "",
-                "Antece": "Chucky Atkins",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 935,
+                "Diff": "1",
+                "Antece": "Voshon Lenard",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1678,9 +1678,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 2635,
-                "Diff": "52",
+                "Hoy": 9,
+                "Total": 2636,
+                "Diff": "51",
                 "Antece": "Antonio McDyess",
                 "game_status": "playing"
             },
@@ -1688,9 +1688,9 @@
                 "Rank": 10,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 2046,
-                "Diff": "28",
+                "Hoy": 9,
+                "Total": 2047,
+                "Diff": "27",
                 "Antece": "Tayshaun Prince",
                 "game_status": "playing"
             },
@@ -1769,13 +1769,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (1 three-pointer today) becomes the 138th player to reach 1,100",
-            "foto": [
-                "collages/1772162281016487_collage_1772162280952929.png"
-            ],
-            "timestamp": 1772162281
-        },
         {
             "texto": "Donte DiVincenzo (1 three-pointer today) has passed Derrick White and Kyle Kuzma and is now ranked 138th all-time with 1,100.",
             "foto": [
@@ -2468,6 +2461,13 @@
                 "collages/1772413448095420_collage_1772413447959466.png"
             ],
             "timestamp": 1772413448
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Chucky Atkins and is now ranked 211th all-time with 935.",
+            "foto": [
+                "collages/1772413639437772_collage_1772413639277824.png"
+            ],
+            "timestamp": 1772413639
         }
     ],
     "notificaciones_franchise": [
@@ -3060,7 +3060,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 794,
+    "total_notificaciones_historicas": 795,
     "total_franchise_historicas": 278,
-    "cache_buster": 1772413574
+    "cache_buster": 1772413639
 }
