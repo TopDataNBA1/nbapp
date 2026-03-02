@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:45:27",
+    "ultima_actualizacion": "03:46:32",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 43066,
-                "Diff": "934",
+                "Hoy": 4,
+                "Total": 43070,
+                "Diff": "930",
                 "Antece": "44000",
                 "Nota": "",
                 "game_status": "playing"
@@ -384,9 +384,9 @@
                 "Rank": 168,
                 "Nombre": "Nicolas Batum",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 3598,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 3599,
+                "Diff": "7",
                 "Antece": "Reggie Jackson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1052,11 +1052,11 @@
                 "Rank": 158,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1054,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1055,
+                "Diff": "",
                 "Antece": "Anthony Davis",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1466,9 +1466,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 12028,
-                "Diff": "472",
+                "Hoy": 4,
+                "Total": 12032,
+                "Diff": "468",
                 "Antece": "12500",
                 "game_status": "playing"
             },
@@ -1496,9 +1496,9 @@
                 "Rank": 25,
                 "Nombre": "Austin Reaves",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1376,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 1377,
+                "Diff": "22",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1638,9 +1638,9 @@
                 "Rank": 24,
                 "Nombre": "Yves Missi",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 871,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 873,
+                "Diff": "9",
                 "Antece": "Peja Stojaković",
                 "game_status": "playing"
             },
@@ -1716,23 +1716,23 @@
             },
             {
                 "Rank": 13,
+                "Nombre": "Yves Missi",
+                "Stat": "BLK",
+                "Hoy": 1,
+                "Total": 166,
+                "Diff": "1",
+                "Antece": "Jaxson Hayes",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
                 "Nombre": "Zion Williamson",
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 165,
-                "Diff": "2",
-                "Antece": "Jaxson Hayes",
+                "Diff": "1",
+                "Antece": "Yves Missi",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 14,
-                "Nombre": "Yves Missi",
-                "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 165,
-                "Diff": "0",
-                "Antece": "Zion Williamson",
-                "game_status": "playing"
             },
             {
                 "Rank": 18,
@@ -2002,9 +2002,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 7878,
-                "Diff": "79",
+                "Hoy": 21,
+                "Total": 7880,
+                "Diff": "77",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -3487,9 +3487,16 @@
             "timestamp": 1772418802,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Yves Missi (1 block today) has passed Zion Williamson and is now ranked 13th in Pelicans history with 166.",
+            "foto": [],
+            "timestamp": 1772419592,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 802,
-    "total_franchise_historicas": 283,
-    "cache_buster": 1772419527
+    "total_franchise_historicas": 284,
+    "cache_buster": 1772419592
 }
