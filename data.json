@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:04",
+    "ultima_actualizacion": "04:14:39",
     "tablas": {
         "pts": [
             {
@@ -184,9 +184,9 @@
                 "Rank": 56,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 9131,
-                "Diff": "30",
+                "Hoy": 1,
+                "Total": 9132,
+                "Diff": "29",
                 "Antece": "Artis Gilmore",
                 "Nota": "",
                 "game_status": "playing"
@@ -1091,13 +1091,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 230,
+                "Rank": 229,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 930,
+                "Hoy": 1,
+                "Total": 931,
                 "Diff": "1",
-                "Antece": "Eric Gordon",
+                "Antece": "Jerry West",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -1129,11 +1129,11 @@
                 "Rank": 94,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 1222,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1223,
+                "Diff": "",
                 "Antece": "Carmelo Anthony",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1142,7 +1142,7 @@
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 1220,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Draymond Green",
                 "Nota": "",
                 "game_status": "finished"
@@ -1625,9 +1625,9 @@
                 "Rank": 3,
                 "Nombre": "Draymond Green",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 1222,
-                "Diff": "78",
+                "Hoy": 1,
+                "Total": 1223,
+                "Diff": "77",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -1705,9 +1705,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 930,
-                "Diff": "70",
+                "Hoy": 1,
+                "Total": 931,
+                "Diff": "69",
                 "Antece": "1000",
                 "game_status": "playing"
             }
@@ -2134,13 +2134,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Nikola Vučević (26 points today) has passed Rolando Blackman and is now ranked 92nd all-time with 17,624.",
-            "foto": [
-                "collages/1772245696477993_collage_1772245696384570.png"
-            ],
-            "timestamp": 1772245696
-        },
         {
             "texto": "Nikola Vučević (4 assists today) has passed Lionel Hollins and is now ranked 243rd all-time with 3,007.",
             "foto": [
@@ -2833,6 +2826,13 @@
                 "collages/1772504663356992_collage_1772504663255307.png"
             ],
             "timestamp": 1772504663
+        },
+        {
+            "texto": "Draymond Green today surpasses Rick Fox and now ranked 229th all time with 931 games",
+            "foto": [
+                "collages/1772507679809916_collage_1772507679716192.png"
+            ],
+            "timestamp": 1772507679
         }
     ],
     "notificaciones_franchise": [
@@ -3446,7 +3446,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 829,
+    "total_notificaciones_historicas": 830,
     "total_franchise_historicas": 285,
-    "cache_buster": 1772507644
+    "cache_buster": 1772507679
 }
