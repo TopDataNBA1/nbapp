@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:30:28",
+    "ultima_actualizacion": "02:31:26",
     "tablas": {
         "pts": [
             {
@@ -254,11 +254,11 @@
                 "Rank": 91,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1086,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1087,
+                "Diff": "",
                 "Antece": "Ervin Johnson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -925,9 +925,9 @@
                 "Rank": 1,
                 "Nombre": "Giannis Antetokounmpo",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 1086,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 1087,
+                "Diff": "13",
                 "Antece": "1100",
                 "game_status": "playing"
             },
@@ -1006,13 +1006,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (17 points today) has passed Bob Boozer and is now ranked 236th all-time with 12,966.",
-            "foto": [
-                "collages/1772243654621052_collage_1772243654530082.png"
-            ],
-            "timestamp": 1772243654
-        },
         {
             "texto": "📢🔝💯 Jaylen Brown (3 three-pointers today) has passed Stephen Jackson and is now ranked 96th all-time with 1,253.",
             "foto": [
@@ -1705,6 +1698,13 @@
                 "collages/1772501298042589_collage_1772501297929019.png"
             ],
             "timestamp": 1772501298
+        },
+        {
+            "texto": "📢🔝💯 Giannis Antetokounmpo (1 block today) has passed Thurl Bailey and is now ranked 91st all-time with 1,087.",
+            "foto": [
+                "collages/1772501486744345_collage_1772501486604852.png"
+            ],
+            "timestamp": 1772501486
         }
     ],
     "notificaciones_franchise": [
@@ -2318,7 +2318,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 822,
+    "total_notificaciones_historicas": 823,
     "total_franchise_historicas": 285,
-    "cache_buster": 1772501428
+    "cache_buster": 1772501486
 }
