@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:00:41",
+    "ultima_actualizacion": "05:02:29",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 132,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 5,
-                "Total": 15995,
-                "Diff": "5",
+                "Hoy": 8,
+                "Total": 15998,
+                "Diff": "2",
                 "Antece": "16000",
                 "Nota": "",
                 "game_status": "playing"
@@ -217,9 +217,9 @@
                 "Rank": 66,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 10,
-                "Total": 8719,
-                "Diff": "6",
+                "Hoy": 11,
+                "Total": 8720,
+                "Diff": "5",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -261,9 +261,9 @@
                 "Rank": 131,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 2,
-                "Total": 6896,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 6897,
+                "Diff": "12",
                 "Antece": "Julius Randle",
                 "Nota": "",
                 "game_status": "playing"
@@ -751,9 +751,9 @@
                 "Rank": 81,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 1306,
-                "Diff": "19",
+                "Hoy": 2,
+                "Total": 1307,
+                "Diff": "18",
                 "Antece": "Ryan Anderson",
                 "Nota": "",
                 "game_status": "playing"
@@ -905,9 +905,9 @@
                 "Rank": 202,
                 "Nombre": "Darius Garland",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 956,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 957,
+                "Diff": "2",
                 "Antece": "OG Anunoby",
                 "Nota": "",
                 "game_status": "playing"
@@ -1423,9 +1423,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 8719,
-                "Diff": "281",
+                "Hoy": 11,
+                "Total": 8720,
+                "Diff": "280",
                 "Antece": "9000",
                 "game_status": "playing"
             },
@@ -1839,9 +1839,9 @@
                 "Rank": 6,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 7745,
-                "Diff": "255",
+                "Hoy": 8,
+                "Total": 7748,
+                "Diff": "252",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -1849,10 +1849,10 @@
                 "Rank": 20,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 1999,
-                "Diff": "1",
-                "Antece": "2000",
+                "Hoy": 5,
+                "Total": 2000,
+                "Diff": "130",
+                "Antece": "Elmore Smith",
                 "game_status": "playing"
             },
             {
@@ -1879,9 +1879,9 @@
                 "Rank": 4,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 665,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 666,
+                "Diff": "8",
                 "Antece": "JJ Redick",
                 "game_status": "playing"
             },
@@ -2134,13 +2134,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (28 points today) has passed Wayman Tisdale and is now ranked 240th all-time with 12,880.",
-            "foto": [
-                "collages/1772252909926732_collage_1772252909821656.png"
-            ],
-            "timestamp": 1772252909
-        },
         {
             "texto": "Shai Gilgeous-Alexander (34 points today) has passed Derrick Coleman and is now ranked 239th all-time with 12,886.",
             "foto": [
@@ -2833,6 +2826,13 @@
                 "collages/1772509969740749_collage_1772509969631371.png"
             ],
             "timestamp": 1772509969
+        },
+        {
+            "texto": "Darius Garland (1 three-pointer today) has passed Raja Bell and is now ranked 202nd all-time with 957.",
+            "foto": [
+                "collages/1772510512357018_collage_1772510512263283.png"
+            ],
+            "timestamp": 1772510512
         }
     ],
     "notificaciones_franchise": [
@@ -3444,9 +3444,16 @@
             "timestamp": 1772420053,
             "team": "BOS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Kawhi Leonard (5 rebounds today) becomes the 20th player to reach 2,000 rebounds with Clippers.",
+            "foto": [],
+            "timestamp": 1772510549,
+            "team": "LAC",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 837,
-    "total_franchise_historicas": 285,
-    "cache_buster": 1772510441
+    "total_notificaciones_historicas": 838,
+    "total_franchise_historicas": 286,
+    "cache_buster": 1772510549
 }
