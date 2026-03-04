@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:49:27",
+    "ultima_actualizacion": "01:50:46",
     "tablas": {
         "pts": [
             {
@@ -214,14 +214,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 85,
+                "Rank": 84,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 7808,
-                "Diff": "",
-                "Antece": "Carmelo Anthony",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 7809,
+                "Diff": "191",
+                "Antece": "8000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1254,9 +1254,9 @@
                 "Rank": 3,
                 "Nombre": "Miles Bridges",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 7645,
-                "Diff": "355",
+                "Hoy": 5,
+                "Total": 7647,
+                "Diff": "353",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -1294,9 +1294,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 2088,
-                "Diff": "412",
+                "Hoy": 4,
+                "Total": 2089,
+                "Diff": "411",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -2490,9 +2490,9 @@
                 "Rank": 13,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 5512,
-                "Diff": "386",
+                "Hoy": 15,
+                "Total": 5514,
+                "Diff": "384",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -2996,9 +2996,9 @@
                 "Rank": 13,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1964,
-                "Diff": "36",
+                "Hoy": 1,
+                "Total": 1965,
+                "Diff": "35",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -3016,9 +3016,9 @@
                 "Rank": 14,
                 "Nombre": "Immanuel Quickley",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 792,
-                "Diff": "116",
+                "Hoy": 3,
+                "Total": 793,
+                "Diff": "115",
                 "Antece": "T.J. Ford",
                 "game_status": "playing"
             },
@@ -3063,13 +3063,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Scottie Barnes",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 360,
-                "Diff": "0",
-                "Antece": "Marcus Camby",
+                "Hoy": 1,
+                "Total": 361,
+                "Diff": "21",
+                "Antece": "Andrea Bargnani",
                 "game_status": "playing"
             },
             {
@@ -3170,9 +3170,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2637,
-                "Diff": "50",
+                "Hoy": 2,
+                "Total": 2639,
+                "Diff": "48",
                 "Antece": "Antonio McDyess",
                 "game_status": "playing"
             },
@@ -3293,13 +3293,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jerami Grant (2 three-pointers today) has passed Richard Jefferson and is now ranked 165th all-time with 1,043.",
-            "foto": [
-                "collages/1772307435654323_collage_1772307435569350.png"
-            ],
-            "timestamp": 1772307435
-        },
         {
             "texto": "LaMelo Ball (2 three-pointers today) has passed Jim Jackson and is now ranked 231st all-time with 882.",
             "foto": [
@@ -3992,6 +3985,13 @@
                 "collages/1772584938853380_collage_1772584938750795.png"
             ],
             "timestamp": 1772584938
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Karl-Anthony Towns (3 rebounds today) has passed Carmelo Anthony and is now ranked 84th all-time with 7,809.",
+            "foto": [
+                "collages/1772585446238544_collage_1772585446127597.png"
+            ],
+            "timestamp": 1772585446
         }
     ],
     "notificaciones_franchise": [
@@ -4638,9 +4638,16 @@
             "timestamp": 1772583989,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Scottie Barnes (1 block today) has passed Marcus Camby and is now ranked 8th in Raptors history with 361.",
+            "foto": [],
+            "timestamp": 1772585406,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 843,
-    "total_franchise_historicas": 290,
-    "cache_buster": 1772585367
+    "total_notificaciones_historicas": 844,
+    "total_franchise_historicas": 291,
+    "cache_buster": 1772585446
 }
