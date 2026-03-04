@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:11:48",
+    "ultima_actualizacion": "03:13:41",
     "tablas": {
         "pts": [
             {
@@ -305,9 +305,9 @@
                 "Rank": 236,
                 "Nombre": "Bam Adebayo",
                 "Team": "MIA",
-                "Hoy": 6,
-                "Total": 5553,
-                "Diff": "22",
+                "Hoy": 7,
+                "Total": 5554,
+                "Diff": "21",
                 "Antece": "Otto Moore",
                 "Nota": "",
                 "game_status": "playing"
@@ -573,11 +573,11 @@
                 "Rank": 213,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 640,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 641,
+                "Diff": "1",
                 "Antece": "John Henson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1598,9 +1598,9 @@
                 "Rank": 21,
                 "Nombre": "Daniel Gafford",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 214,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 215,
+                "Diff": "9",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -1832,9 +1832,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 5553,
-                "Diff": "238",
+                "Hoy": 7,
+                "Total": 5554,
+                "Diff": "237",
                 "Antece": "Udonis Haslem",
                 "game_status": "playing"
             },
@@ -2226,9 +2226,9 @@
                 "Rank": 16,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 1765,
-                "Diff": "174",
+                "Hoy": 9,
+                "Total": 1766,
+                "Diff": "173",
                 "Antece": "Gerald Wilkins",
                 "game_status": "playing"
             },
@@ -2548,23 +2548,23 @@
             },
             {
                 "Rank": 13,
+                "Nombre": "Paolo Banchero",
+                "Stat": "AST",
+                "Hoy": 5,
+                "Total": 1169,
+                "Diff": "15",
+                "Antece": "D.J. Augustin",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 1168,
-                "Diff": "16",
-                "Antece": "D.J. Augustin",
+                "Diff": "1",
+                "Antece": "Paolo Banchero",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 14,
-                "Nombre": "Paolo Banchero",
-                "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1168,
-                "Diff": "0",
-                "Antece": "Franz Wagner",
-                "game_status": "playing"
             },
             {
                 "Rank": 21,
@@ -3294,13 +3294,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jerami Grant (3 three-pointers today) has passed Richard Jefferson and is now ranked 165th all-time with 1,044.",
-            "foto": [
-                "collages/1772325246644748_collage_1772325246553797.png"
-            ],
-            "timestamp": 1772325246
-        },
-        {
             "texto": "LaMelo Ball (2 three-pointers today) has passed Jim Jackson and P.J. Tucker and is now ranked 231st all-time with 882.",
             "foto": [
                 "collages/1772325246846679_collage_1772325246771723.png"
@@ -3992,6 +3985,13 @@
                 "collages/1772589701397549_collage_1772589701293583.png"
             ],
             "timestamp": 1772589701
+        },
+        {
+            "texto": "📢HOF🏛️ Daniel Gafford (1 block today) has passed Kobe Bryant and is now ranked 213th all-time with 641.",
+            "foto": [
+                "collages/1772590347624482_collage_1772590347517517.png"
+            ],
+            "timestamp": 1772590347
         }
     ],
     "notificaciones_franchise": [
@@ -4673,9 +4673,16 @@
             "timestamp": 1772588148,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (5 assists today) has passed Franz Wagner and is now ranked 13th in Magic history with 1,169.",
+            "foto": [],
+            "timestamp": 1772590347,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 854,
-    "total_franchise_historicas": 295,
-    "cache_buster": 1772590308
+    "total_notificaciones_historicas": 855,
+    "total_franchise_historicas": 296,
+    "cache_buster": 1772590421
 }
