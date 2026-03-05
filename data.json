@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:18",
+    "ultima_actualizacion": "02:50:25",
     "tablas": {
         "pts": [
             {
@@ -561,14 +561,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 207,
+                "Rank": 206,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 941,
-                "Diff": "",
-                "Antece": "Damon Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 942,
+                "Diff": "5",
+                "Antece": "Seth Curry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -909,9 +909,9 @@
                 "Rank": 10,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 669,
-                "Diff": "31",
+                "Hoy": 1,
+                "Total": 670,
+                "Diff": "30",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -951,9 +951,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 5851,
-                "Diff": "123",
+                "Hoy": 10,
+                "Total": 5853,
+                "Diff": "121",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1255,9 +1255,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 7036,
-                "Diff": "409",
+                "Hoy": 10,
+                "Total": 7039,
+                "Diff": "406",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1305,9 +1305,9 @@
                 "Rank": 4,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 658,
-                "Diff": "42",
+                "Hoy": 1,
+                "Total": 659,
+                "Diff": "41",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -1832,13 +1832,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jonas Valančiūnas today surpasses Devin Harris, Kevin Love and LaSalle Thompson and now ranked 168th all time with 986 games",
-            "foto": [
-                "collages/1772400137576141_collage_1772400137510162.png"
-            ],
-            "timestamp": 1772400137
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (4 rebounds today) has passed Hal Greer and is now ranked 222nd all-time with 5,666.",
             "foto": [
@@ -2531,6 +2524,13 @@
                 "collages/1772673889493989_collage_1772673889396037.png"
             ],
             "timestamp": 1772673889
+        },
+        {
+            "texto": "Jalen Brunson (1 three-pointer today) has passed Damon Jones and is now ranked 206th all-time with 942.",
+            "foto": [
+                "collages/1772675425409060_collage_1772675425313096.png"
+            ],
+            "timestamp": 1772675425
         }
     ],
     "notificaciones_franchise": [
@@ -3235,7 +3235,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 880,
+    "total_notificaciones_historicas": 881,
     "total_franchise_historicas": 301,
-    "cache_buster": 1772675358
+    "cache_buster": 1772675425
 }
