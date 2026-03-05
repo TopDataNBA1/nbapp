@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:50:33",
+    "ultima_actualizacion": "01:51:39",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 129,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 16032,
-                "Diff": "127",
+                "Hoy": 6,
+                "Total": 16034,
+                "Diff": "125",
                 "Antece": "Juwan Howard",
                 "Nota": "",
                 "game_status": "playing"
@@ -105,9 +105,9 @@
                 "Rank": 233,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 13006,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 13009,
+                "Diff": "8",
                 "Antece": "Jeff Mullins",
                 "Nota": "",
                 "game_status": "playing"
@@ -452,25 +452,25 @@
             },
             {
                 "Rank": 93,
-                "Nombre": "Lauri Markkanen",
-                "Team": "UTA",
-                "Hoy": 0,
+                "Nombre": "Jaylen Brown",
+                "Team": "BOS",
+                "Hoy": 1,
                 "Total": 1257,
                 "Diff": "1",
                 "Antece": "Bogdan Bogdanovic",
                 "Nota": "A tiro de 1",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
                 "Rank": 94,
-                "Nombre": "Jaylen Brown",
-                "Team": "BOS",
+                "Nombre": "Lauri Markkanen",
+                "Team": "UTA",
                 "Hoy": 0,
-                "Total": 1256,
-                "Diff": "1",
-                "Antece": "Lauri Markkanen",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Total": 1257,
+                "Diff": "",
+                "Antece": "Jaylen Brown",
+                "Nota": "Mismo total",
+                "game_status": "inactive"
             },
             {
                 "Rank": 114,
@@ -586,9 +586,9 @@
                 "Rank": 227,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 887,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 888,
+                "Diff": "5",
                 "Antece": "Will Barton",
                 "Nota": "",
                 "game_status": "playing"
@@ -769,9 +769,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 13006,
-                "Diff": "182",
+                "Hoy": 5,
+                "Total": 13009,
+                "Diff": "179",
                 "Antece": "Jo Jo White",
                 "game_status": "playing"
             },
@@ -879,9 +879,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1256,
-                "Diff": "44",
+                "Hoy": 1,
+                "Total": 1257,
+                "Diff": "43",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -951,9 +951,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5848,
-                "Diff": "126",
+                "Hoy": 8,
+                "Total": 5851,
+                "Diff": "123",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1031,9 +1031,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 883,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 884,
+                "Diff": "16",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1833,13 +1833,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Myles Turner (2 three-pointers today) has passed Josh Richardson and Wilson Chandler and is now ranked 236th all-time with 875.",
-            "foto": [
-                "collages/1772397770866839_collage_1772397770788115.png"
-            ],
-            "timestamp": 1772397770
-        },
-        {
             "texto": "📢🔝💯 Nikola Jokić (2 assists today) has passed Avery Johnson and is now ranked 45th all-time with 5,847.",
             "foto": [
                 "collages/1772398904855507_collage_1772398904767553.png"
@@ -2531,6 +2524,13 @@
                 "collages/1772671569361822_collage_1772671569272725.png"
             ],
             "timestamp": 1772671569
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Vernon Maxwell and is now ranked 93rd all-time with 1,257.",
+            "foto": [
+                "collages/1772671899504670_collage_1772671899387232.png"
+            ],
+            "timestamp": 1772671899
         }
     ],
     "notificaciones_franchise": [
@@ -3235,7 +3235,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 877,
+    "total_notificaciones_historicas": 878,
     "total_franchise_historicas": 300,
-    "cache_buster": 1772671833
+    "cache_buster": 1772671899
 }
