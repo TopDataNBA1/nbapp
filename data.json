@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:12",
+    "ultima_actualizacion": "02:54:54",
     "tablas": {
         "pts": [
             {
@@ -239,9 +239,9 @@
                 "Rank": 130,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 6923,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 6922,
+                "Diff": "14",
                 "Antece": "Rudy LaRusso",
                 "Nota": "",
                 "game_status": "playing"
@@ -617,10 +617,10 @@
                 "Rank": 232,
                 "Nombre": "Nic Claxton",
                 "Team": "BKN",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "3",
+                "Antece": "Jamaal Magloire",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -2766,9 +2766,9 @@
                 "Rank": 5,
                 "Nombre": "Nic Claxton",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 597,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 598,
+                "Diff": "1",
                 "Antece": "Mike Gminski",
                 "game_status": "playing"
             },
@@ -2798,9 +2798,9 @@
                 "Rank": 10,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 2052,
-                "Diff": "22",
+                "Hoy": 4,
+                "Total": 2053,
+                "Diff": "21",
                 "Antece": "Tayshaun Prince",
                 "game_status": "playing"
             },
@@ -2911,13 +2911,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (20 points today) has passed Horace Grant and Josh Smith and is now ranked 233rd all-time with 12,997.",
-            "foto": [
-                "collages/1772419789772460_collage_1772419789687485.png"
-            ],
-            "timestamp": 1772419789
-        },
         {
             "texto": "Derrick White (5 three-pointers today) has passed Gordon Hayward and is now ranked 134th all-time with 1,112.",
             "foto": [
@@ -3610,6 +3603,13 @@
                 "collages/1772761810822632_collage_1772761810747630.png"
             ],
             "timestamp": 1772761810
+        },
+        {
+            "texto": "Nic Claxton (1 block today) becomes the 232nd player to reach 600",
+            "foto": [
+                "collages/1772762094287066_collage_1772762094225005.png"
+            ],
+            "timestamp": 1772762094
         }
     ],
     "notificaciones_franchise": [
@@ -4314,7 +4314,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 902,
+    "total_notificaciones_historicas": 903,
     "total_franchise_historicas": 308,
-    "cache_buster": 1772762052
+    "cache_buster": 1772762094
 }
