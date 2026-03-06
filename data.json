@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:26:32",
+    "ultima_actualizacion": "03:27:39",
     "tablas": {
         "pts": [
             {
@@ -160,11 +160,11 @@
                 "Rank": 224,
                 "Nombre": "Khris Middleton",
                 "Team": "DAL",
-                "Hoy": 17,
-                "Total": 13379,
-                "Diff": "4",
+                "Hoy": 19,
+                "Total": 13381,
+                "Diff": "2",
                 "Antece": "Rudy Tomjanovich",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -617,10 +617,10 @@
                 "Rank": 232,
                 "Nombre": "Nic Claxton",
                 "Team": "BKN",
-                "Hoy": 1,
-                "Total": 600,
-                "Diff": "3",
-                "Antece": "Jamaal Magloire",
+                "Hoy": 0,
+                "Total": 599,
+                "Diff": "1",
+                "Antece": "600",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -2124,23 +2124,23 @@
             },
             {
                 "Rank": 13,
+                "Nombre": "Paolo Banchero",
+                "Stat": "AST",
+                "Hoy": 6,
+                "Total": 1170,
+                "Diff": "14",
+                "Antece": "D.J. Augustin",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 1168,
-                "Diff": "16",
-                "Antece": "D.J. Augustin",
+                "Diff": "2",
+                "Antece": "Paolo Banchero",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 14,
-                "Nombre": "Paolo Banchero",
-                "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1168,
-                "Diff": "0",
-                "Antece": "Franz Wagner",
-                "game_status": "playing"
             },
             {
                 "Rank": 21,
@@ -2766,7 +2766,7 @@
                 "Rank": 5,
                 "Nombre": "Nic Claxton",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 598,
                 "Diff": "1",
                 "Antece": "Mike Gminski",
@@ -3614,13 +3614,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Luguentz Dort (1 steal today) has passed Luke Ridnour and is now ranked 22nd in Thunder history with 390.",
-            "foto": [],
-            "timestamp": 1771987019,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
             "texto": "Royce O'Neale (3 three-pointers today) has passed Goran Dragić and is now ranked 13th in Suns history with 399.",
             "foto": [],
             "timestamp": 1771987692,
@@ -4312,9 +4305,16 @@
             "timestamp": 1772763055,
             "team": "DAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (6 assists today) has passed Franz Wagner and is now ranked 13th in Magic history with 1,170.",
+            "foto": [],
+            "timestamp": 1772764059,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 906,
-    "total_franchise_historicas": 309,
-    "cache_buster": 1772763992
+    "total_franchise_historicas": 310,
+    "cache_buster": 1772764059
 }
