@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:50:09",
+    "ultima_actualizacion": "01:51:19",
     "tablas": {
         "pts": [
             {
@@ -102,14 +102,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 162,
+                "Rank": 161,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 2,
-                "Total": 15027,
-                "Diff": "1",
-                "Antece": "Shareef Abdur-Rahim",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 15030,
+                "Diff": "36",
+                "Antece": "Andrew Wiggins",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -329,9 +329,9 @@
                 "Rank": 66,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 5206,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 5207,
+                "Diff": "10",
                 "Antece": "Norm Van Lier",
                 "Nota": "",
                 "game_status": "playing"
@@ -883,11 +883,11 @@
                 "Rank": 167,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 1040,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1041,
+                "Diff": "1",
                 "Antece": "Richard Jefferson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1351,9 +1351,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 5200,
-                "Diff": "300",
+                "Hoy": 1,
+                "Total": 5201,
+                "Diff": "299",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -2721,20 +2721,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (5 rebounds today) has passed Zydrunas Ilgauskas and is now ranked 179th all-time with 6,192.",
-            "foto": [
-                "collages/1772410732163722_collage_1772410732068754.png"
-            ],
-            "timestamp": 1772410732
-        },
-        {
-            "texto": "Tobias Harris (12 points today) has passed Juwan Howard and is now ranked 127th all-time with 16,161.",
-            "foto": [
-                "collages/1772411733069352_collage_1772411732931397.png"
-            ],
-            "timestamp": 1772411733
-        },
-        {
             "texto": "CJ McCollum (19 points today) has passed Tiny Archibald and is now ranked 117th all-time with 16,482.",
             "foto": [
                 "collages/1772413448095420_collage_1772413447959466.png"
@@ -3419,6 +3405,20 @@
                 "collages/1772757855913595_collage_1772757855814646.png"
             ],
             "timestamp": 1772757855
+        },
+        {
+            "texto": "Al Horford (5 points today) has passed Shareef Abdur-Rahim and is now ranked 161st all-time with 15,030.",
+            "foto": [
+                "collages/1772758279092065_collage_1772758278988371.png"
+            ],
+            "timestamp": 1772758279
+        },
+        {
+            "texto": "Al Horford (1 three-pointer today) has passed Malik Monk and is now ranked 167th all-time with 1,041.",
+            "foto": [
+                "collages/1772758279336383_collage_1772758279239412.png"
+            ],
+            "timestamp": 1772758279
         }
     ],
     "notificaciones_franchise": [
@@ -4123,7 +4123,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 891,
+    "total_notificaciones_historicas": 893,
     "total_franchise_historicas": 303,
-    "cache_buster": 1772758209
+    "cache_buster": 1772758279
 }
