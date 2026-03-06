@@ -1,7 +1,401 @@
 {
-    "ultima_actualizacion": "00:31:13",
-    "tablas": {},
-    "tablas_teams": {},
+    "ultima_actualizacion": "00:32:30",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 160,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 15074,
+                "Diff": "5",
+                "Antece": "Dick Van Arsdale",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 236,
+                "Nombre": "Bam Adebayo",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 5563,
+                "Diff": "12",
+                "Antece": "Otto Moore",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "blk": [
+            {
+                "Rank": 243,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 577,
+                "Diff": "1",
+                "Antece": "Robert Covington",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 75,
+                "Nombre": "Terry Rozier",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1356,
+                "Diff": "3",
+                "Antece": "Evan Fournier",
+                "Nota": "",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 91,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1260,
+                "Diff": "2",
+                "Antece": "D.J. Augustin",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 115,
+                "Nombre": "Norman Powell",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1198,
+                "Diff": "2",
+                "Antece": "1200",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 157,
+                "Nombre": "Coby White",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1063,
+                "Diff": "3",
+                "Antece": "George Hill",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 173,
+                "Nombre": "Tyler Herro",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1023,
+                "Diff": "3",
+                "Antece": "Joe Harris",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 227,
+                "Nombre": "LaMelo Ball",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 890,
+                "Diff": "3",
+                "Antece": "Will Barton",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 246,
+                "Nombre": "Miles Bridges",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 854,
+                "Diff": "",
+                "Antece": "Eric Bledsoe",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            }
+        ]
+    },
+    "tablas_teams": {
+        "CHA": [
+            {
+                "Rank": 3,
+                "Nombre": "Miles Bridges",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 7662,
+                "Diff": "338",
+                "Antece": "8000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "LaMelo Ball",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 5876,
+                "Diff": "98",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "Miles Bridges",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2973,
+                "Diff": "27",
+                "Antece": "3000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "LaMelo Ball",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 1635,
+                "Diff": "6",
+                "Antece": "Al Jefferson",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "LaMelo Ball",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 2098,
+                "Diff": "402",
+                "Antece": "2500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 12,
+                "Nombre": "Miles Bridges",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1335,
+                "Diff": "60",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "LaMelo Ball",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 401,
+                "Diff": "38",
+                "Antece": "Baron Davis",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 10,
+                "Nombre": "Miles Bridges",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 356,
+                "Diff": "42",
+                "Antece": "Kendall Gill",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Miles Bridges",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 323,
+                "Diff": "77",
+                "Antece": "400",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 3,
+                "Nombre": "LaMelo Ball",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 890,
+                "Diff": "10",
+                "Antece": "900",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Miles Bridges",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 854,
+                "Diff": "10",
+                "Antece": "Terry Rozier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 10,
+                "Nombre": "Brandon Miller",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 432,
+                "Diff": "64",
+                "Antece": "Nicolas Batum",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 4,
+                "Nombre": "Miles Bridges",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 482,
+                "Diff": "18",
+                "Antece": "500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 22,
+                "Nombre": "LaMelo Ball",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 284,
+                "Diff": "3",
+                "Antece": "Jeremy Lamb",
+                "game_status": "not_started"
+            }
+        ],
+        "MIA": [
+            {
+                "Rank": 2,
+                "Nombre": "Bam Adebayo",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 9953,
+                "Diff": "47",
+                "Antece": "10000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Tyler Herro",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 7370,
+                "Diff": "130",
+                "Antece": "7500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 2,
+                "Nombre": "Bam Adebayo",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 5563,
+                "Diff": "228",
+                "Antece": "Udonis Haslem",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Tyler Herro",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 1878,
+                "Diff": "27",
+                "Antece": "Jimmy Butler",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 3,
+                "Nombre": "Bam Adebayo",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 2200,
+                "Diff": "300",
+                "Antece": "2500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Tyler Herro",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1522,
+                "Diff": "267",
+                "Antece": "Jimmy Butler",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 3,
+                "Nombre": "Bam Adebayo",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 667,
+                "Diff": "33",
+                "Antece": "700",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Tyler Herro",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 277,
+                "Diff": "1",
+                "Antece": "Keith Askins",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Bam Adebayo",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 526,
+                "Diff": "74",
+                "Antece": "600",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 24,
+                "Nombre": "Kel'el Ware",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 133,
+                "Diff": "5",
+                "Antece": "Kevin Edwards",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 2,
+                "Nombre": "Tyler Herro",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 1023,
+                "Diff": "77",
+                "Antece": "1100",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 3,
+                "Nombre": "Bam Adebayo",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 622,
+                "Diff": "78",
+                "Antece": "700",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 16,
+                "Nombre": "Tyler Herro",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 379,
+                "Diff": "3",
+                "Antece": "Joel Anthony",
+                "game_status": "not_started"
+            }
+        ]
+    },
     "notificaciones": [
         {
             "texto": "📢🔝💯 Al Horford (1 block today) has passed Terry Tyler and is now ranked 49th all-time with 1,343.",
@@ -1408,5 +1802,5 @@
     ],
     "total_notificaciones_historicas": 936,
     "total_franchise_historicas": 313,
-    "cache_buster": 1772839873
+    "cache_buster": 1772839950
 }
