@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:29:08",
+    "ultima_actualizacion": "04:29:46",
     "tablas": {
         "pts": [
             {
@@ -922,24 +922,24 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 247,
+                "Rank": 246,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 5,
+                "Total": 573,
+                "Diff": "3",
+                "Antece": "Grant Hill",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 248,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
                 "Hoy": 0,
                 "Total": 572,
                 "Diff": "",
                 "Antece": "Lorenzen Wright",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 248,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 4,
-                "Total": 572,
-                "Diff": "",
-                "Antece": "Nikola Jokic",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -3475,9 +3475,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 4,
-                "Total": 566,
-                "Diff": "34",
+                "Hoy": 5,
+                "Total": 567,
+                "Diff": "33",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -3998,13 +3998,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart (5 steals today) has passed Anthony Davis and Sam Cassell and is now ranked 156th all-time with 1,059.",
-            "foto": [
-                "collages/1772425901631766_collage_1772425901557284.png"
-            ],
-            "timestamp": 1772425901
-        },
         {
             "texto": "📢HOF🏛️ Nikola Vučević (1 assist today) has passed Bob Lanier and is now ranked 242nd all-time with 3,008.",
             "foto": [
@@ -4697,6 +4690,13 @@
                 "collages/1772767677287779_collage_1772767677203792.png"
             ],
             "timestamp": 1772767677
+        },
+        {
+            "texto": "Victor Wembanyama (5 blocks today) has passed Lorenzen Wright and Nikola Jokic and is now ranked 246th all-time with 573.",
+            "foto": [
+                "collages/1772767786144543_collage_1772767786070563.png"
+            ],
+            "timestamp": 1772767786
         }
     ],
     "notificaciones_franchise": [
@@ -5401,7 +5401,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 917,
+    "total_notificaciones_historicas": 918,
     "total_franchise_historicas": 311,
-    "cache_buster": 1772767748
+    "cache_buster": 1772767786
 }
