@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:23:18",
+    "ultima_actualizacion": "00:24:24",
     "tablas": {
         "pts": [
             {
@@ -118,9 +118,9 @@
                 "Rank": 177,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 6206,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 6207,
+                "Diff": "16",
                 "Antece": "Walter Dukes",
                 "Nota": "",
                 "game_status": "playing"
@@ -175,10 +175,10 @@
                 "Rank": 232,
                 "Nombre": "Nic Claxton",
                 "Team": "BKN",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "3",
+                "Antece": "Jamaal Magloire",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -1052,9 +1052,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 7944,
-                "Diff": "13",
+                "Hoy": 10,
+                "Total": 7948,
+                "Diff": "9",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -1102,9 +1102,9 @@
                 "Rank": 19,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 410,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 411,
+                "Diff": "14",
                 "Antece": "Jrue Holiday",
                 "game_status": "playing"
             },
@@ -1171,13 +1171,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 5,
+                "Rank": 4,
                 "Nombre": "Nic Claxton",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "0",
-                "Antece": "Mike Gminski",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "96",
+                "Antece": "Buck Williams",
                 "game_status": "playing"
             },
             {
@@ -1979,20 +1979,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jalen Suggs (1 block today) has passed Steven Hunter and is now ranked 19th in Magic history with 153.",
-            "foto": [],
-            "timestamp": 1772154800,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Andrew Nembhard (2 three-pointers today) has passed Brandon Rush and is now ranked 20th in Pacers history with 296.",
-            "foto": [],
-            "timestamp": 1772157502,
-            "team": "IND",
-            "type": "franchise"
-        },
-        {
             "texto": "Royce O'Neale (1 three-pointer today) becomes the 13th player to reach 400 three-pointers with Suns.",
             "foto": [],
             "timestamp": 1772158368,
@@ -2677,9 +2663,23 @@
             "timestamp": 1772916958,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Nic Claxton (1 block today) has passed Mike Gminski and is now ranked 4th in Nets history with 600.",
+            "foto": [],
+            "timestamp": 1772925864,
+            "team": "NJN",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Nic Claxton (1 block today) becomes the 4th player to reach 600 blocks with Nets.",
+            "foto": [],
+            "timestamp": 1772925864,
+            "team": "NJN",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 993,
-    "total_franchise_historicas": 323,
-    "cache_buster": 1772925798
+    "total_franchise_historicas": 325,
+    "cache_buster": 1772925864
 }
