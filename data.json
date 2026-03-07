@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:33:11",
+    "ultima_actualizacion": "05:34:10",
     "tablas": {
         "pts": [
             {
@@ -579,13 +579,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 246,
+                "Rank": 245,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 576,
+                "Hoy": 4,
+                "Total": 577,
                 "Diff": "",
-                "Antece": "Grant Hill",
+                "Antece": "Marvin Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -596,7 +596,7 @@
                 "Hoy": 0,
                 "Total": 573,
                 "Diff": "3",
-                "Antece": "Victor Wembanyama",
+                "Antece": "Grant Hill",
                 "Nota": "",
                 "game_status": "finished"
             }
@@ -3148,10 +3148,10 @@
                 "Rank": 23,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 4997,
-                "Diff": "3",
-                "Antece": "5000",
+                "Hoy": 11,
+                "Total": 5000,
+                "Diff": "181",
+                "Antece": "Terry Cummings",
                 "game_status": "playing"
             },
             {
@@ -3178,9 +3178,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 576,
-                "Diff": "24",
+                "Hoy": 4,
+                "Total": 577,
+                "Diff": "23",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -3188,9 +3188,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 743,
-                "Diff": "57",
+                "Hoy": 2,
+                "Total": 744,
+                "Diff": "56",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -3329,13 +3329,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Royce O'Neale (2 three-pointers today) has passed Dana Barros and is now ranked 145th all-time with 1,092.",
-            "foto": [
-                "collages/1772602835896545_collage_1772602835785970.png"
-            ],
-            "timestamp": 1772602835
-        },
         {
             "texto": "Marcus Smart (2 three-pointers today) has passed Justin Holiday and is now ranked 150th all-time with 1,081.",
             "foto": [
@@ -4028,16 +4021,16 @@
                 "collages/1772857924632305_collage_1772857924534081.png"
             ],
             "timestamp": 1772857924
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (4 blocks today) has passed Grant Hill and is now ranked 245th all-time with 577.",
+            "foto": [
+                "collages/1772858049875366_collage_1772858049776069.png"
+            ],
+            "timestamp": 1772858049
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ 📢HOF🏛️ Tyrese Maxey (4 three-pointers today) has passed Allen Iverson and is now ranked 1st in 76ers history with 886.",
-            "foto": [],
-            "timestamp": 1772152648,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (1 block today) has passed Dennis Scott and Rony Seikaly and is now ranked 21st in Magic history with 147.",
             "foto": [],
@@ -4730,9 +4723,16 @@
             "timestamp": 1772854927,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Devin Vassell (11 points today) becomes the 23rd player to reach 5,000 points with Spurs.",
+            "foto": [],
+            "timestamp": 1772858049,
+            "team": "SAS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 970,
-    "total_franchise_historicas": 320,
-    "cache_buster": 1772857991
+    "total_notificaciones_historicas": 971,
+    "total_franchise_historicas": 321,
+    "cache_buster": 1772858050
 }
