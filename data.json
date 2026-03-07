@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:54:51",
+    "ultima_actualizacion": "21:55:58",
     "tablas": {
         "pts": [
             {
@@ -536,13 +536,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 904,
-                "Diff": "0",
-                "Antece": "Victor Oladipo",
+                "Hoy": 2,
+                "Total": 905,
+                "Diff": "30",
+                "Antece": "Dwight Howard",
                 "game_status": "playing"
             },
             {
@@ -1352,13 +1352,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Tyrese Maxey (7 assists today) has passed Joel Embiid and is now ranked 16th in 76ers history with 1,787.",
-            "foto": [],
-            "timestamp": 1772154800,
-            "team": "PHI",
-            "type": "franchise"
-        },
-        {
             "texto": "Jalen Suggs (1 block today) has passed Steven Hunter and is now ranked 19th in Magic history with 153.",
             "foto": [],
             "timestamp": 1772154800,
@@ -2050,9 +2043,16 @@
             "timestamp": 1772915041,
             "team": "MIN",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Jalen Suggs (2 assists today) has passed Victor Oladipo and is now ranked 20th in Magic history with 905.",
+            "foto": [],
+            "timestamp": 1772916958,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 989,
-    "total_franchise_historicas": 322,
-    "cache_buster": 1772916891
+    "total_franchise_historicas": 323,
+    "cache_buster": 1772916958
 }
