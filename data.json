@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:23:51",
+    "ultima_actualizacion": "05:25:00",
     "tablas": {
         "pts": [
             {
@@ -125,24 +125,24 @@
             },
             {
                 "Rank": 129,
-                "Nombre": "Karl-Anthony Towns",
-                "Team": "NYK",
-                "Hoy": 17,
-                "Total": 16062,
-                "Diff": "97",
+                "Nombre": "Kawhi Leonard",
+                "Team": "LAC",
+                "Hoy": 22,
+                "Total": 16064,
+                "Diff": "95",
                 "Antece": "Juwan Howard",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 130,
-                "Nombre": "Kawhi Leonard",
-                "Team": "LAC",
-                "Hoy": 20,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 17,
                 "Total": 16062,
-                "Diff": "",
-                "Antece": "Karl-Anthony Towns",
-                "Nota": "Mismo total",
+                "Diff": "2",
+                "Antece": "Kawhi Leonard",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -360,9 +360,9 @@
                 "Rank": 226,
                 "Nombre": "Nicolas Batum",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 5625,
-                "Diff": "19",
+                "Hoy": 2,
+                "Total": 5626,
+                "Diff": "18",
                 "Antece": "Jusuf Nurkic",
                 "Nota": "",
                 "game_status": "playing"
@@ -2284,9 +2284,9 @@
                 "Rank": 6,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 7812,
-                "Diff": "188",
+                "Hoy": 22,
+                "Total": 7814,
+                "Diff": "186",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -2640,9 +2640,9 @@
                 "Rank": 10,
                 "Nombre": "Zion Williamson",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 1699,
-                "Diff": "33",
+                "Hoy": 10,
+                "Total": 1701,
+                "Diff": "31",
                 "Antece": "Jrue Holiday",
                 "game_status": "playing"
             },
@@ -3140,7 +3140,7 @@
                 "Stat": "PTS",
                 "Hoy": 7,
                 "Total": 6568,
-                "Diff": "106",
+                "Diff": "108",
                 "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
@@ -3158,9 +3158,9 @@
                 "Rank": 20,
                 "Nombre": "Keldon Johnson",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2342,
-                "Diff": "40",
+                "Hoy": 5,
+                "Total": 2343,
+                "Diff": "39",
                 "Antece": "Jakob Poeltl",
                 "game_status": "playing"
             },
@@ -3329,13 +3329,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Grayson Allen (1 three-pointer today) has passed Kristaps Porziņģis and is now ranked 188th all-time with 984.",
-            "foto": [
-                "collages/1772599346170851_collage_1772599346077881.png"
-            ],
-            "timestamp": 1772599346
-        },
         {
             "texto": "📢🔝💯 Devin Booker (2 three-pointers today) becomes the 59th player to reach 1,500",
             "foto": [
@@ -4028,6 +4021,13 @@
                 "collages/1772857358241863_collage_1772857358151893.png"
             ],
             "timestamp": 1772857358
+        },
+        {
+            "texto": "Kawhi Leonard (22 points today) has passed Karl-Anthony Towns and is now ranked 129th all-time with 16,064.",
+            "foto": [
+                "collages/1772857500611598_collage_1772857500519601.png"
+            ],
+            "timestamp": 1772857500
         }
     ],
     "notificaciones_franchise": [
@@ -4732,7 +4732,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 966,
+    "total_notificaciones_historicas": 967,
     "total_franchise_historicas": 320,
-    "cache_buster": 1772857431
+    "cache_buster": 1772857500
 }
