@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:08:40",
+    "ultima_actualizacion": "02:09:48",
     "tablas": {
         "pts": [
             {
@@ -94,11 +94,11 @@
                 "Rank": 212,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 13786,
-                "Diff": "4",
+                "Hoy": 5,
+                "Total": 13789,
+                "Diff": "1",
                 "Antece": "Bill Laimbeer",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -328,14 +328,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 53,
+                "Rank": 52,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1546,
-                "Diff": "",
-                "Antece": "Eddie Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1547,
+                "Diff": "3",
+                "Antece": "Harrison Barnes",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -693,9 +693,9 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 13786,
-                "Diff": "214",
+                "Hoy": 5,
+                "Total": 13789,
+                "Diff": "211",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -780,13 +780,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Derrick White",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 348,
-                "Diff": "0",
-                "Antece": "Robert Williams",
+                "Hoy": 2,
+                "Total": 349,
+                "Diff": "20",
+                "Antece": "Tony Battie",
                 "game_status": "playing"
             },
             {
@@ -803,9 +803,9 @@
                 "Rank": 2,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1546,
-                "Diff": "54",
+                "Hoy": 1,
+                "Total": 1547,
+                "Diff": "53",
                 "Antece": "1600",
                 "game_status": "playing"
             },
@@ -1321,9 +1321,9 @@
                 "Rank": 5,
                 "Nombre": "Bam Adebayo",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 526,
-                "Diff": "74",
+                "Hoy": 1,
+                "Total": 527,
+                "Diff": "73",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -1482,13 +1482,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Al Horford (4 three-pointers today) has passed Nick Young and is now ranked 167th all-time with 1,040.",
-            "foto": [
-                "collages/1772514836828004_collage_1772514836732442.png"
-            ],
-            "timestamp": 1772514836
-        },
         {
             "texto": "Kawhi Leonard (21 points today) has passed Derek Harper, Karl-Anthony Towns and Rasheed Wallace and is now ranked 129th all-time with 16,011.",
             "foto": [
@@ -2181,16 +2174,16 @@
                 "collages/1772843888831157_collage_1772843888727949.png"
             ],
             "timestamp": 1772843888
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (1 three-pointer today) has passed Eddie Jones and Patty Mills and is now ranked 52nd all-time with 1,547.",
+            "foto": [
+                "collages/1772845788140494_collage_1772845788054350.png"
+            ],
+            "timestamp": 1772845788
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Cade Cunningham (1 three-pointer today) becomes the 6th player to reach 500 three-pointers with Pistons.",
-            "foto": [],
-            "timestamp": 1772069774,
-            "team": "DET",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Alperen Şengün (18 points today) has passed Luis Scola and is now ranked 20th in Rockets history with 5,598.",
             "foto": [],
@@ -2883,9 +2876,16 @@
             "timestamp": 1772843819,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Derrick White (2 blocks today) has passed Robert Williams and is now ranked 13th in Celtics history with 349.",
+            "foto": [],
+            "timestamp": 1772845788,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 940,
-    "total_franchise_historicas": 314,
-    "cache_buster": 1772845720
+    "total_notificaciones_historicas": 941,
+    "total_franchise_historicas": 315,
+    "cache_buster": 1772845788
 }
