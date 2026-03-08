@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:26:11",
+    "ultima_actualizacion": "04:27:19",
     "tablas": {
         "pts": [
             {
@@ -160,9 +160,9 @@
                 "Rank": 237,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 21,
-                "Total": 12965,
-                "Diff": "11",
+                "Hoy": 22,
+                "Total": 12966,
+                "Diff": "10",
                 "Antece": "Stephen Jackson",
                 "Nota": "",
                 "game_status": "playing"
@@ -681,24 +681,24 @@
             },
             {
                 "Rank": 136,
+                "Nombre": "Kyle Kuzma",
+                "Team": "MIL",
+                "Hoy": 3,
+                "Total": 1112,
+                "Diff": "1",
+                "Antece": "Donte DiVincenzo",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 137,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 1,
                 "Total": 1111,
-                "Diff": "2",
-                "Antece": "Donte DiVincenzo",
-                "Nota": "",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 138,
-                "Nombre": "Kyle Kuzma",
-                "Team": "MIL",
-                "Hoy": 2,
-                "Total": 1111,
-                "Diff": "",
-                "Antece": "Gordon Hayward",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Kyle Kuzma",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2055,9 +2055,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 12076,
-                "Diff": "424",
+                "Hoy": 22,
+                "Total": 12077,
+                "Diff": "423",
                 "Antece": "12500",
                 "game_status": "playing"
             },
@@ -2827,13 +2827,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Victor Wembanyama (2 blocks today) has passed Orlando Woolridge and is now ranked 249th all-time with 570.",
-            "foto": [
-                "collages/1772760746504174_collage_1772760746380216.png"
-            ],
-            "timestamp": 1772760746
-        },
-        {
             "texto": "Jakob Poeltl (1 block today) has passed Joel Embiid and is now ranked 165th all-time with 774.",
             "foto": [
                 "collages/1772760786982525_collage_1772760786895247.png"
@@ -3525,6 +3518,13 @@
                 "collages/1772940371486893_collage_1772940371396918.png"
             ],
             "timestamp": 1772940371
+        },
+        {
+            "texto": "Kyle Kuzma (3 three-pointers today) has passed Gary Trent Jr. and Gordon Hayward and is now ranked 136th all-time with 1,112.",
+            "foto": [
+                "collages/1772940438931687_collage_1772940438860730.png"
+            ],
+            "timestamp": 1772940438
         }
     ],
     "notificaciones_franchise": [
@@ -4229,7 +4229,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1008,
+    "total_notificaciones_historicas": 1009,
     "total_franchise_historicas": 328,
-    "cache_buster": 1772940371
+    "cache_buster": 1772940439
 }
