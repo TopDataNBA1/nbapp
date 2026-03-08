@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "18:33:41",
+    "ultima_actualizacion": "18:34:20",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 165,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 14894,
-                "Diff": "10",
+                "Hoy": 6,
+                "Total": 14896,
+                "Diff": "8",
                 "Antece": "Richard Jefferson",
                 "Nota": "",
                 "game_status": "playing"
@@ -414,22 +414,22 @@
             },
             {
                 "Rank": 6,
-                "Nombre": "Derrick White",
+                "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 821,
-                "Diff": "79",
+                "Hoy": 1,
+                "Total": 822,
+                "Diff": "78",
                 "Antece": "900",
                 "game_status": "playing"
             },
             {
                 "Rank": 7,
-                "Nombre": "Payton Pritchard",
+                "Nombre": "Derrick White",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 821,
-                "Diff": "0",
-                "Antece": "Derrick White",
+                "Diff": "1",
+                "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
             {
@@ -468,9 +468,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 6660,
-                "Diff": "340",
+                "Hoy": 6,
+                "Total": 6662,
+                "Diff": "338",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1310,13 +1310,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Zion Williamson (3 steals today) has passed P.J. Brown and is now ranked 9th in Pelicans history with 266.",
-            "foto": [],
-            "timestamp": 1772165186,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
             "texto": "Naz Reid (1 steal today) has passed Tony Campbell and is now ranked 17th in Timberwolves history with 317.",
             "foto": [],
             "timestamp": 1772168482,
@@ -2008,9 +2001,16 @@
             "timestamp": 1772990550,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Payton Pritchard (1 three-pointer today) has passed Derrick White and is now ranked 6th in Celtics history with 822.",
+            "foto": [],
+            "timestamp": 1772991260,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1012,
-    "total_franchise_historicas": 329,
-    "cache_buster": 1772991221
+    "total_franchise_historicas": 330,
+    "cache_buster": 1772991260
 }
