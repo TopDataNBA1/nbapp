@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:18:29",
+    "ultima_actualizacion": "01:19:08",
     "tablas": {
         "pts": [
             {
@@ -261,9 +261,9 @@
                 "Rank": 76,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 8152,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 8153,
+                "Diff": "4",
                 "Antece": "Antawn Jamison",
                 "Nota": "",
                 "game_status": "playing"
@@ -977,7 +977,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 210,
+                "Rank": 209,
+                "Nombre": "Dorian Finney-Smith",
+                "Team": "HOU",
+                "Hoy": 1,
+                "Total": 940,
+                "Diff": "",
+                "Antece": "Anthony Peeler",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 211,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
                 "Hoy": 0,
@@ -985,17 +996,6 @@
                 "Diff": "1",
                 "Antece": "Julius Randle",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 211,
-                "Nombre": "Dorian Finney-Smith",
-                "Team": "HOU",
-                "Hoy": 0,
-                "Total": 939,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1742,9 +1742,9 @@
                 "Rank": 9,
                 "Nombre": "Dwight Powell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3174,
-                "Diff": "37",
+                "Hoy": 2,
+                "Total": 3175,
+                "Diff": "36",
                 "Antece": "Erick Dampier",
                 "game_status": "playing"
             },
@@ -2068,10 +2068,10 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 9999,
-                "Diff": "1",
-                "Antece": "10000",
+                "Hoy": 24,
+                "Total": 10001,
+                "Diff": "499",
+                "Antece": "10500",
                 "game_status": "playing"
             },
             {
@@ -2148,9 +2148,9 @@
                 "Rank": 5,
                 "Nombre": "Bam Adebayo",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 527,
-                "Diff": "73",
+                "Hoy": 1,
+                "Total": 528,
+                "Diff": "72",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -2676,9 +2676,9 @@
                 "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 1832,
-                "Diff": "168",
+                "Hoy": 3,
+                "Total": 1833,
+                "Diff": "167",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -3140,9 +3140,9 @@
                 "Rank": 23,
                 "Nombre": "Gradey Dick",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 250,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 251,
+                "Diff": "16",
                 "Antece": "Serge Ibaka",
                 "game_status": "playing"
             },
@@ -3283,13 +3283,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ DeMar DeRozan (10 points today) has passed Stephen Curry and is now ranked 19th all-time with 26,449.",
-            "foto": [
-                "collages/1772768031284756_collage_1772768031159810.png"
-            ],
-            "timestamp": 1772768031
-        },
         {
             "texto": "Luka Doncic (5 points today) has passed Ricky Pierce and is now ranked 182nd all-time with 14,469.",
             "foto": [
@@ -3982,16 +3975,16 @@
                 "collages/1773014839178660_collage_1773014839079712.png"
             ],
             "timestamp": 1773014839
+        },
+        {
+            "texto": "Dorian Finney-Smith (1 three-pointer today) has passed Desmond Bane and is now ranked 209th all-time with 940.",
+            "foto": [
+                "collages/1773015548374189_collage_1773015548276220.png"
+            ],
+            "timestamp": 1773015548
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Miles Bridges (3 steals today) has passed Brevin Knight and is now ranked 10th in Hornets history with 356.",
-            "foto": [],
-            "timestamp": 1772310246,
-            "team": "CHA",
-            "type": "franchise"
-        },
         {
             "texto": "Clint Capela today surpasses Luis Scola and is now ranked 20th in Rockets history with 387 games.",
             "foto": [],
@@ -4684,9 +4677,16 @@
             "timestamp": 1773014634,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Bam Adebayo (24 points today) becomes the 2nd player to reach 10,000 points with Heat.",
+            "foto": [],
+            "timestamp": 1773015548,
+            "team": "MIA",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1027,
-    "total_franchise_historicas": 338,
-    "cache_buster": 1773015509
+    "total_notificaciones_historicas": 1028,
+    "total_franchise_historicas": 339,
+    "cache_buster": 1773015548
 }
