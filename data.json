@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:15",
+    "ultima_actualizacion": "03:18:59",
     "tablas": {
         "pts": [
             {
@@ -678,14 +678,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 242,
+                "Rank": 240,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 580,
-                "Diff": "",
-                "Antece": "Eddie Jones",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 581,
+                "Diff": "5",
+                "Antece": "Kent Benson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1299,9 +1299,9 @@
                 "Rank": 225,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 896,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 897,
+                "Diff": "3",
                 "Antece": "900",
                 "Nota": "",
                 "game_status": "playing"
@@ -1485,14 +1485,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 148,
+                "Rank": 147,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 3804,
-                "Diff": "",
-                "Antece": "Derek Fisher",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3805,
+                "Diff": "17",
+                "Antece": "Wes Unseld",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2051,9 +2051,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5902,
-                "Diff": "72",
+                "Hoy": 8,
+                "Total": 5905,
+                "Diff": "69",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -2131,9 +2131,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 896,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 897,
+                "Diff": "3",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -3501,9 +3501,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 3804,
-                "Diff": "196",
+                "Hoy": 1,
+                "Total": 3805,
+                "Diff": "195",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -3725,9 +3725,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 580,
-                "Diff": "20",
+                "Hoy": 4,
+                "Total": 581,
+                "Diff": "19",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -4236,20 +4236,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (4 three-pointers today) has passed Gary Trent Jr., Gordon Hayward and Kyle Kuzma and is now ranked 135th all-time with 1,113.",
-            "foto": [
-                "collages/1772774500666943_collage_1772774500592447.png"
-            ],
-            "timestamp": 1772774500
-        },
-        {
-            "texto": "Al Horford (3 three-pointers today) has passed Malik Monk and Richard Jefferson and is now ranked 166th all-time with 1,043.",
-            "foto": [
-                "collages/1772774500903326_collage_1772774500821090.png"
-            ],
-            "timestamp": 1772774500
-        },
         {
             "texto": "📢HOF🏛️ Grayson Allen (5 three-pointers today) has passed Jerry Stackhouse, Joe Dumars, Leandro Barbosa and Stephon Marbury and is now ranked 184th all-time with 992.",
             "foto": [
@@ -4935,6 +4921,20 @@
                 "collages/1773022695373936_collage_1773022695277986.png"
             ],
             "timestamp": 1773022695
+        },
+        {
+            "texto": "Devin Booker (1 assist today) has passed Derek Fisher and is now ranked 147th all-time with 3,805.",
+            "foto": [
+                "collages/1773022739459424_collage_1773022739329469.png"
+            ],
+            "timestamp": 1773022739
+        },
+        {
+            "texto": "Victor Wembanyama (4 blocks today) has passed Andris Biedriņš and Eddie Jones and is now ranked 240th all-time with 581.",
+            "foto": [
+                "collages/1773022739718340_collage_1773022739634367.png"
+            ],
+            "timestamp": 1773022739
         }
     ],
     "notificaciones_franchise": [
@@ -5639,7 +5639,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1042,
+    "total_notificaciones_historicas": 1044,
     "total_franchise_historicas": 344,
-    "cache_buster": 1773022695
+    "cache_buster": 1773022739
 }
