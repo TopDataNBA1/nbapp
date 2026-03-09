@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:49",
+    "ultima_actualizacion": "03:46:33",
     "tablas": {
         "pts": [
             {
@@ -571,11 +571,11 @@
                 "Rank": 164,
                 "Nombre": "Jerami Grant",
                 "Team": "POR",
-                "Hoy": 2,
-                "Total": 779,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 780,
+                "Diff": "",
                 "Antece": "Gar Heard",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -584,7 +584,7 @@
                 "Team": "TOR",
                 "Hoy": 2,
                 "Total": 776,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Jerami Grant",
                 "Nota": "",
                 "game_status": "finished"
@@ -1340,14 +1340,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 247,
+                "Rank": 246,
                 "Nombre": "Miles Bridges",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 854,
-                "Diff": "",
-                "Antece": "Eric Bledsoe",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 855,
+                "Diff": "1",
+                "Antece": "Tyrese Haliburton",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -2041,9 +2041,9 @@
                 "Rank": 3,
                 "Nombre": "Miles Bridges",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 7676,
-                "Diff": "324",
+                "Hoy": 6,
+                "Total": 7680,
+                "Diff": "320",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -2071,9 +2071,9 @@
                 "Rank": 20,
                 "Nombre": "LaMelo Ball",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 1639,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 1640,
+                "Diff": "1",
                 "Antece": "Al Jefferson",
                 "game_status": "playing"
             },
@@ -2081,9 +2081,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 2104,
-                "Diff": "396",
+                "Hoy": 2,
+                "Total": 2105,
+                "Diff": "395",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -2141,9 +2141,9 @@
                 "Rank": 5,
                 "Nombre": "Miles Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 854,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 855,
+                "Diff": "9",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -4237,13 +4237,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Jayson Tatum (1 three-pointer today) has passed Eddie Jones and Patty Mills and is now ranked 52nd all-time with 1,547.",
-            "foto": [
-                "collages/1772845788140494_collage_1772845788054350.png"
-            ],
-            "timestamp": 1772845788
-        },
-        {
             "texto": "📢🔝💯 Kevin Durant today surpasses Kyle Lowry and Richard Jefferson and now ranked 58th all time with 1,182 games",
             "foto": [
                 "collages/1772846035609750_collage_1772846035519739.png"
@@ -4935,6 +4928,13 @@
                 "collages/1773024348931655_collage_1773024348829192.png"
             ],
             "timestamp": 1773024348
+        },
+        {
+            "texto": "Miles Bridges (1 three-pointer today) has passed Eric Bledsoe and O.J. Mayo and is now ranked 246th all-time with 855.",
+            "foto": [
+                "collages/1773024393365869_collage_1773024393276498.png"
+            ],
+            "timestamp": 1773024393
         }
     ],
     "notificaciones_franchise": [
@@ -5639,7 +5639,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1049,
+    "total_notificaciones_historicas": 1050,
     "total_franchise_historicas": 344,
-    "cache_buster": 1773024349
+    "cache_buster": 1773024393
 }
