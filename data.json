@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:55:53",
+    "ultima_actualizacion": "01:57:03",
     "tablas": {
         "pts": [
             {
@@ -667,14 +667,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 243,
+                "Rank": 242,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 578,
-                "Diff": "",
-                "Antece": "Robert Covington",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 579,
+                "Diff": "1",
+                "Antece": "Eddie Jones",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -684,7 +684,7 @@
                 "Hoy": 0,
                 "Total": 577,
                 "Diff": "1",
-                "Antece": "Victor Wembanyama",
+                "Antece": "Robert Covington",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             }
@@ -2226,9 +2226,9 @@
                 "Rank": 16,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1502,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 1503,
+                "Diff": "16",
                 "Antece": "Rafer Alston",
                 "game_status": "playing"
             },
@@ -3392,9 +3392,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 578,
-                "Diff": "22",
+                "Hoy": 2,
+                "Total": 579,
+                "Diff": "21",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -3903,13 +3903,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luka Doncic (8 points today) has passed Hersey Hawkins and is now ranked 181st all-time with 14,472.",
-            "foto": [
-                "collages/1772769591629033_collage_1772769591527072.png"
-            ],
-            "timestamp": 1772769591
-        },
         {
             "texto": "Grayson Allen (5 three-pointers today) has passed Stephon Marbury and is now ranked 184th all-time with 992.",
             "foto": [
@@ -4602,6 +4595,13 @@
                 "collages/1773016843738676_collage_1773016843650704.png"
             ],
             "timestamp": 1773016843
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Robert Covington and is now ranked 242nd all-time with 579.",
+            "foto": [
+                "collages/1773017823382268_collage_1773017823288954.png"
+            ],
+            "timestamp": 1773017823
         }
     ],
     "notificaciones_franchise": [
@@ -5306,7 +5306,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1032,
+    "total_notificaciones_historicas": 1033,
     "total_franchise_historicas": 341,
-    "cache_buster": 1773017753
+    "cache_buster": 1773017823
 }
