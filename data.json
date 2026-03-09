@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:40:03",
+    "ultima_actualizacion": "01:40:43",
     "tablas": {
         "pts": [
             {
@@ -668,25 +668,25 @@
             },
             {
                 "Rank": 243,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 1,
+                "Total": 578,
+                "Diff": "",
+                "Antece": "Robert Covington",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 244,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 0,
                 "Total": 577,
                 "Diff": "1",
-                "Antece": "Robert Covington",
+                "Antece": "Victor Wembanyama",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 245,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 0,
-                "Total": 577,
-                "Diff": "",
-                "Antece": "Marvin Williams",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -1542,14 +1542,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 94,
+                "Rank": 92,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1224,
-                "Diff": "",
-                "Antece": "Draymond Green",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1225,
+                "Diff": "1",
+                "Antece": "Ricky Rubio",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -3392,9 +3392,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 577,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 578,
+                "Diff": "22",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -3903,13 +3903,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jamal Murray (3 three-pointers today) has passed Baron Davis and is now ranked 76th all-time with 1,333.",
-            "foto": [
-                "collages/1772768950739834_collage_1772768950649864.png"
-            ],
-            "timestamp": 1772768950
-        },
         {
             "texto": "Luka Doncic (8 points today) has passed Hersey Hawkins and is now ranked 181st all-time with 14,472.",
             "foto": [
@@ -4602,6 +4595,13 @@
                 "collages/1773016310556021_collage_1773016310471970.png"
             ],
             "timestamp": 1773016310
+        },
+        {
+            "texto": "Victor Wembanyama (1 block today) has passed Andrew Wiggins and Marvin Williams and is now ranked 243rd all-time with 578.",
+            "foto": [
+                "collages/1773016843738676_collage_1773016843650704.png"
+            ],
+            "timestamp": 1773016843
         }
     ],
     "notificaciones_franchise": [
@@ -5306,7 +5306,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1031,
+    "total_notificaciones_historicas": 1032,
     "total_franchise_historicas": 340,
-    "cache_buster": 1773016803
+    "cache_buster": 1773016843
 }
