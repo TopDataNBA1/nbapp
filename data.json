@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:07",
+    "ultima_actualizacion": "02:46:44",
     "tablas": {
         "pts": [
             {
@@ -102,14 +102,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 143,
+                "Rank": 142,
                 "Nombre": "Kevin Love",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 15646,
-                "Diff": "1",
-                "Antece": "Antoine Walker",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 15649,
+                "Diff": "10",
+                "Antece": "Jeff Hornacek",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -606,9 +606,9 @@
                 "Rank": 37,
                 "Nombre": "Kevin Love",
                 "Team": "UTA",
-                "Hoy": 0,
-                "Total": 1721,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 1722,
+                "Diff": "2",
                 "Antece": "Bradley Beal",
                 "Nota": "",
                 "game_status": "playing"
@@ -894,9 +894,9 @@
                 "Rank": 64,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 3,
-                "Total": 5222,
-                "Diff": "26",
+                "Hoy": 4,
+                "Total": 5223,
+                "Diff": "25",
                 "Antece": "Karl Malone",
                 "Nota": "",
                 "game_status": "playing"
@@ -1598,9 +1598,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 5222,
-                "Diff": "278",
+                "Hoy": 4,
+                "Total": 5223,
+                "Diff": "277",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -2430,9 +2430,9 @@
                 "Rank": 21,
                 "Nombre": "Brice Sensabaugh",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 304,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 305,
+                "Diff": "18",
                 "Antece": "Trey Burke",
                 "game_status": "playing"
             }
@@ -2471,13 +2471,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Grayson Allen (2 three-pointers today) has passed Nikola Vucevic and is now ranked 183rd all-time with 994.",
-            "foto": [
-                "collages/1772851752409488_collage_1772851752301690.png"
-            ],
-            "timestamp": 1772851752
-        },
         {
             "texto": "Jonas Valanciunas today surpasses Alvan Adams and now ranked 163rd all time with 989 games",
             "foto": [
@@ -3170,6 +3163,13 @@
                 "collages/1773107167681637_collage_1773107167580670.png"
             ],
             "timestamp": 1773107167
+        },
+        {
+            "texto": "Kevin Love (3 points today) has passed Antoine Walker and is now ranked 142nd all-time with 15,649.",
+            "foto": [
+                "collages/1773107204856137_collage_1773107204760562.png"
+            ],
+            "timestamp": 1773107204
         }
     ],
     "notificaciones_franchise": [
@@ -3874,7 +3874,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1062,
+    "total_notificaciones_historicas": 1063,
     "total_franchise_historicas": 345,
-    "cache_buster": 1773107167
+    "cache_buster": 1773107204
 }
