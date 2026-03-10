@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:32:49",
+    "ultima_actualizacion": "02:33:56",
     "tablas": {
         "pts": [
             {
@@ -173,9 +173,9 @@
                 "Rank": 64,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 9,
-                "Total": 8750,
-                "Diff": "84",
+                "Hoy": 10,
+                "Total": 8751,
+                "Diff": "83",
                 "Antece": "Shawn Kemp",
                 "Nota": "",
                 "game_status": "playing"
@@ -195,9 +195,9 @@
                 "Rank": 169,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 6378,
-                "Diff": "13",
+                "Hoy": 0,
+                "Total": 6377,
+                "Diff": "14",
                 "Antece": "Steven Adams",
                 "Nota": "",
                 "game_status": "playing"
@@ -559,14 +559,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 206,
+                "Rank": 205,
                 "Nombre": "Seth Curry",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 947,
-                "Diff": "",
-                "Antece": "Jalen Brunson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 948,
+                "Diff": "1",
+                "Antece": "Michael Adams",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1097,9 +1097,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 8750,
-                "Diff": "250",
+                "Hoy": 10,
+                "Total": 8751,
+                "Diff": "249",
                 "Antece": "9000",
                 "game_status": "playing"
             },
@@ -1249,7 +1249,7 @@
                 "Rank": 5,
                 "Nombre": "Draymond Green",
                 "Stat": "REB",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 6379,
                 "Diff": "37",
                 "Antece": "Clyde Lee",
@@ -1521,9 +1521,9 @@
                 "Rank": 16,
                 "Nombre": "Jaylen Wells",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 253,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 254,
+                "Diff": "12",
                 "Antece": "De'Anthony Melton",
                 "game_status": "playing"
             },
@@ -1978,13 +1978,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Nikola Jokic (4 rebounds today) has passed LaMarcus Aldridge and is now ranked 64th all-time with 8,737.",
-            "foto": [
-                "collages/1772850363630464_collage_1772850363531571.png"
-            ],
-            "timestamp": 1772850363
-        },
         {
             "texto": "Jrue Holiday (14 points today) becomes the 110th player to reach 17,000",
             "foto": [
@@ -2677,6 +2670,13 @@
                 "collages/1773106302566395_collage_1773106302505415.png"
             ],
             "timestamp": 1773106302
+        },
+        {
+            "texto": "Seth Curry (1 three-pointer today) has passed Jalen Brunson and is now ranked 205th all-time with 948.",
+            "foto": [
+                "collages/1773106436024336_collage_1773106435917386.png"
+            ],
+            "timestamp": 1773106436
         }
     ],
     "notificaciones_franchise": [
@@ -3381,7 +3381,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1059,
+    "total_notificaciones_historicas": 1060,
     "total_franchise_historicas": 345,
-    "cache_buster": 1773106369
+    "cache_buster": 1773106436
 }
