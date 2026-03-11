@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:15:10",
+    "ultima_actualizacion": "04:16:21",
     "tablas": {
         "pts": [
             {
@@ -226,9 +226,9 @@
                 "Rank": 166,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 14884,
-                "Diff": "20",
+                "Hoy": 3,
+                "Total": 14887,
+                "Diff": "17",
                 "Antece": "Richard Jefferson",
                 "Nota": "",
                 "game_status": "playing"
@@ -357,14 +357,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 41,
+                "Rank": 40,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 10399,
-                "Diff": "1",
-                "Antece": "Bill Laimbeer",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 10401,
+                "Diff": "43",
+                "Antece": "Dave Cowens",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1439,13 +1439,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 209,
+                "Rank": 208,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 941,
+                "Hoy": 1,
+                "Total": 942,
                 "Diff": "",
-                "Antece": "Damon Jones",
+                "Antece": "Dorian Finney-Smith",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -3515,9 +3515,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 10696,
-                "Diff": "304",
+                "Hoy": 2,
+                "Total": 10698,
+                "Diff": "302",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -3555,9 +3555,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3280,
-                "Diff": "220",
+                "Hoy": 3,
+                "Total": 3282,
+                "Diff": "218",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -3745,9 +3745,9 @@
                 "Rank": 9,
                 "Nombre": "Anthony Edwards",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 435,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 436,
+                "Diff": "2",
                 "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
@@ -3757,7 +3757,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 428,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -4709,20 +4709,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Shai Gilgeous-Alexander (21 points today) has passed Bob Boozer and is now ranked 237th all-time with 12,965.",
-            "foto": [
-                "collages/1772940371486893_collage_1772940371396918.png"
-            ],
-            "timestamp": 1772940371
-        },
-        {
-            "texto": "Kyle Kuzma (3 three-pointers today) has passed Gary Trent Jr. and Gordon Hayward and is now ranked 136th all-time with 1,112.",
-            "foto": [
-                "collages/1772940438931687_collage_1772940438860730.png"
-            ],
-            "timestamp": 1772940438
-        },
-        {
             "texto": "Draymond Green (4 rebounds today) has passed Donyell Marshall and is now ranked 169th all-time with 6,377.",
             "foto": [
                 "collages/1772940793091936_collage_1772940792998958.png"
@@ -5407,6 +5393,20 @@
                 "collages/1773198027968758_collage_1773198027860806.png"
             ],
             "timestamp": 1773198027
+        },
+        {
+            "texto": "📢🔝💯 Rudy Gobert (3 rebounds today) has passed Bill Laimbeer and is now ranked 40th all-time with 10,401.",
+            "foto": [
+                "collages/1773198980821291_collage_1773198980726324.png"
+            ],
+            "timestamp": 1773198980
+        },
+        {
+            "texto": "Julius Randle (1 three-pointer today) has passed Damon Jones and is now ranked 208th all-time with 942.",
+            "foto": [
+                "collages/1773198981088201_collage_1773198980990247.png"
+            ],
+            "timestamp": 1773198981
         }
     ],
     "notificaciones_franchise": [
@@ -6111,7 +6111,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1107,
+    "total_notificaciones_historicas": 1109,
     "total_franchise_historicas": 350,
-    "cache_buster": 1773198910
+    "cache_buster": 1773198981
 }
