@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:29:31",
+    "ultima_actualizacion": "01:30:11",
     "tablas": {
         "pts": [
             {
@@ -791,24 +791,24 @@
             },
             {
                 "Rank": 136,
+                "Nombre": "Kyle Kuzma",
+                "Team": "MIL",
+                "Hoy": 1,
+                "Total": 1113,
+                "Diff": "",
+                "Antece": "Donte DiVincenzo",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 137,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1112,
                 "Diff": "1",
-                "Antece": "Donte DiVincenzo",
+                "Antece": "Kyle Kuzma",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 137,
-                "Nombre": "Kyle Kuzma",
-                "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1112,
-                "Diff": "",
-                "Antece": "Gary Trent Jr.",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1394,9 +1394,9 @@
                 "Rank": 17,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 3620,
-                "Diff": "380",
+                "Hoy": 1,
+                "Total": 3621,
+                "Diff": "379",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1411,13 +1411,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 1883,
-                "Diff": "0",
-                "Antece": "Dee Brown",
+                "Hoy": 4,
+                "Total": 1884,
+                "Diff": "116",
+                "Antece": "2000",
                 "game_status": "playing"
             },
             {
@@ -2850,13 +2850,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Marcus Smart (3 three-pointers today) has passed Rasheed Wallace and is now ranked 147th all-time with 1,087.",
-            "foto": [
-                "collages/1772860043287237_collage_1772860043186281.png"
-            ],
-            "timestamp": 1772860043
-        },
-        {
             "texto": "📢HOF🏛️ Luka Doncic (32 points today) has passed Bill Russell and is now ranked 178th all-time with 14,523.",
             "foto": [
                 "collages/1772860196785845_collage_1772860196686761.png"
@@ -3548,16 +3541,16 @@
                 "collages/1773188868523037_collage_1773188868434062.png"
             ],
             "timestamp": 1773188868
+        },
+        {
+            "texto": "Kyle Kuzma (1 three-pointer today) has passed Gary Trent Jr. and is now ranked 136th all-time with 1,113.",
+            "foto": [
+                "collages/1773189011212859_collage_1773189011095915.png"
+            ],
+            "timestamp": 1773189011
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Yves Missi (3 blocks today) has passed Jaxson Hayes and Zion Williamson and is now ranked 12th in Pelicans history with 168.",
-            "foto": [],
-            "timestamp": 1772355645,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Scottie Barnes (1 block today) has passed Marcus Camby and is now ranked 8th in Raptors history with 361.",
             "foto": [],
@@ -4250,9 +4243,16 @@
             "timestamp": 1773188971,
             "team": "HOU",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Jaylen Brown (4 assists today) has passed Dee Brown and is now ranked 18th in Celtics history with 1,884.",
+            "foto": [],
+            "timestamp": 1773189011,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1082,
-    "total_franchise_historicas": 347,
-    "cache_buster": 1773188971
+    "total_notificaciones_historicas": 1083,
+    "total_franchise_historicas": 348,
+    "cache_buster": 1773189011
 }
