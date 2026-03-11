@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:08:45",
+    "ultima_actualizacion": "02:09:26",
     "tablas": {
         "pts": [
             {
@@ -169,25 +169,25 @@
             },
             {
                 "Rank": 221,
+                "Nombre": "Khris Middleton",
+                "Team": "DAL",
+                "Hoy": 9,
+                "Total": 13403,
+                "Diff": "27",
+                "Antece": "Steve Smith",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 222,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
                 "Hoy": 0,
                 "Total": 13401,
-                "Diff": "29",
-                "Antece": "Steve Smith",
-                "Nota": "",
+                "Diff": "2",
+                "Antece": "Khris Middleton",
+                "Nota": "A tiro de 2",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 222,
-                "Nombre": "Khris Middleton",
-                "Team": "DAL",
-                "Hoy": 6,
-                "Total": 13400,
-                "Diff": "1",
-                "Antece": "Joel Embiid",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 231,
@@ -672,11 +672,11 @@
                 "Rank": 67,
                 "Nombre": "Khris Middleton",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 1451,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1452,
+                "Diff": "1",
                 "Antece": "Malik Beasley",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2850,13 +2850,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tyrese Maxey (1 three-pointer today) has passed LaMelo Ball and is now ranked 225th all-time with 896.",
-            "foto": [
-                "collages/1772925294194445_collage_1772925294111472.png"
-            ],
-            "timestamp": 1772925294
-        },
-        {
             "texto": "Andre Drummond today surpasses Sedale Threatt and now ranked 212th all time with 952 games",
             "foto": [
                 "collages/1772925999113922_collage_1772925998993973.png"
@@ -3548,6 +3541,13 @@
                 "collages/1773191325887544_collage_1773191325810567.png"
             ],
             "timestamp": 1773191325
+        },
+        {
+            "texto": "Khris Middleton (9 points today) has passed Joel Embiid and is now ranked 221st all-time with 13,403.",
+            "foto": [
+                "collages/1773191366751586_collage_1773191366659623.png"
+            ],
+            "timestamp": 1773191366
         }
     ],
     "notificaciones_franchise": [
@@ -4252,7 +4252,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1092,
+    "total_notificaciones_historicas": 1093,
     "total_franchise_historicas": 348,
-    "cache_buster": 1773191325
+    "cache_buster": 1773191366
 }
