@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:47:26",
+    "ultima_actualizacion": "05:48:11",
     "tablas": {
         "pts": [
             {
@@ -234,14 +234,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 175,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 20,
-                "Total": 14590,
-                "Diff": "2",
-                "Antece": "Spencer Haywood",
-                "Nota": "A tiro de 2",
+                "Hoy": 22,
+                "Total": 14592,
+                "Diff": "15",
+                "Antece": "Purvis Short",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1098,14 +1098,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 85,
+                "Rank": 84,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1299,
-                "Diff": "1",
-                "Antece": "Marcus Morris",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1300,
+                "Diff": "4",
+                "Antece": "Mike Dunleavy",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1114,9 +1114,9 @@
                 "Team": "WAS",
                 "Hoy": 0,
                 "Total": 1299,
-                "Diff": "",
-                "Antece": "Anthony Edwards",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Marcus Morris",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -3515,9 +3515,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 10705,
-                "Diff": "295",
+                "Hoy": 12,
+                "Total": 10708,
+                "Diff": "292",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -3685,10 +3685,10 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1299,
-                "Diff": "1",
-                "Antece": "1300",
+                "Hoy": 1,
+                "Total": 1300,
+                "Diff": "100",
+                "Antece": "1400",
                 "game_status": "playing"
             },
             {
@@ -4709,20 +4709,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Karl-Anthony Towns (12 points today) has passed Kawhi Leonard and is now ranked 129th all-time with 16,074.",
-            "foto": [
-                "collages/1773004361378196_collage_1773004361293476.png"
-            ],
-            "timestamp": 1773004361
-        },
-        {
-            "texto": "Luka Dončić (19 points today) has passed Allan Houston and is now ranked 176th all-time with 14,554.",
-            "foto": [
-                "collages/1773004852651755_collage_1773004852565877.png"
-            ],
-            "timestamp": 1773004852
-        },
-        {
             "texto": "Luke Kennard (2 three-pointers today) becomes the 180th player to reach 1,000",
             "foto": [
                 "collages/1773006396051106_collage_1773006395992850.png"
@@ -5407,16 +5393,23 @@
                 "collages/1773203869102522_collage_1773203869005555.png"
             ],
             "timestamp": 1773203869
+        },
+        {
+            "texto": "📢🔝💯 Anthony Edwards (1 three-pointer today) becomes the 84th player to reach 1,300",
+            "foto": [
+                "collages/1773204490607529_collage_1773204490534548.png"
+            ],
+            "timestamp": 1773204490
+        },
+        {
+            "texto": "📢🔝💯 Anthony Edwards (1 three-pointer today) has passed Trae Young and is now ranked 84th all-time with 1,300.",
+            "foto": [
+                "collages/1773204490819460_collage_1773204490705511.png"
+            ],
+            "timestamp": 1773204490
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Kel'el Ware (1 block today) has passed Shane Battier and is now ranked 24th in Heat history with 128.",
-            "foto": [],
-            "timestamp": 1772371754,
-            "team": "MIA",
-            "type": "franchise"
-        },
         {
             "texto": "Austin Reaves (3 assists today) has passed Rick Fox and is now ranked 24th in Lakers history with 1,400.",
             "foto": [],
@@ -6109,9 +6102,16 @@
             "timestamp": 1773203462,
             "team": "LAL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝3️⃣ Anthony Edwards (1 three-pointer today) becomes the 1st player to reach 1,300 three-pointers with Timberwolves.",
+            "foto": [],
+            "timestamp": 1773204490,
+            "team": "MIN",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1118,
-    "total_franchise_historicas": 352,
-    "cache_buster": 1773204446
+    "total_notificaciones_historicas": 1120,
+    "total_franchise_historicas": 353,
+    "cache_buster": 1773204491
 }
