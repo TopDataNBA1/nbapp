@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:58:33",
+    "ultima_actualizacion": "04:59:16",
     "tablas": {
         "pts": [
             {
@@ -226,9 +226,9 @@
                 "Rank": 166,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 6,
-                "Total": 14890,
-                "Diff": "14",
+                "Hoy": 10,
+                "Total": 14894,
+                "Diff": "10",
                 "Antece": "Richard Jefferson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1486,10 +1486,10 @@
                 "Rank": 225,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "900",
+                "Hoy": 1,
+                "Total": 900,
+                "Diff": "2",
+                "Antece": "Donyell Marshall",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1499,9 +1499,9 @@
                 "Team": "PHI",
                 "Hoy": 0,
                 "Total": 898,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "LaMelo Ball",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "inactive"
             },
             {
@@ -1697,9 +1697,9 @@
                 "Rank": 121,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 4142,
-                "Diff": "17",
+                "Hoy": 6,
+                "Total": 4143,
+                "Diff": "16",
                 "Antece": "David Wesley",
                 "Nota": "",
                 "game_status": "playing"
@@ -2469,9 +2469,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 5925,
-                "Diff": "49",
+                "Hoy": 9,
+                "Total": 5928,
+                "Diff": "46",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -2489,9 +2489,9 @@
                 "Rank": 19,
                 "Nombre": "LaMelo Ball",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 1646,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 1647,
+                "Diff": "20",
                 "Antece": "P.J. Washington",
                 "game_status": "playing"
             },
@@ -2549,10 +2549,10 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "900",
+                "Hoy": 1,
+                "Total": 900,
+                "Diff": "29",
+                "Antece": "Dell Curry",
                 "game_status": "playing"
             },
             {
@@ -3595,9 +3595,9 @@
                 "Rank": 5,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1797,
-                "Diff": "18",
+                "Hoy": 1,
+                "Total": 1798,
+                "Diff": "17",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -4709,13 +4709,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Luka Dončić (4 points today) has passed Paul Millsap and is now ranked 177th all-time with 14,539.",
-            "foto": [
-                "collages/1772999528242802_collage_1772999528157679.png"
-            ],
-            "timestamp": 1772999528
-        },
-        {
             "texto": "Marcus Smart (1 steal today) has passed Johnny Newman and is now ranked 155th all-time with 1,065.",
             "foto": [
                 "collages/1773002553964458_collage_1773002553870484.png"
@@ -5407,16 +5400,16 @@
                 "collages/1773201353644238_collage_1773201353548289.png"
             ],
             "timestamp": 1773201353
+        },
+        {
+            "texto": "LaMelo Ball (1 three-pointer today) becomes the 225th player to reach 900",
+            "foto": [
+                "collages/1773201556430880_collage_1773201556356023.png"
+            ],
+            "timestamp": 1773201556
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Moses Moody (4 three-pointers today) has passed Baron Davis and is now ranked 10th in Warriors history with 436.",
-            "foto": [],
-            "timestamp": 1772355645,
-            "team": "GSW",
-            "type": "franchise"
-        },
         {
             "texto": "LaMelo Ball today surpasses D.J. Augustin and Frank Kaminsky and is now ranked 22nd in Hornets history with 283 games.",
             "foto": [],
@@ -6109,9 +6102,16 @@
             "timestamp": 1773193452,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ LaMelo Ball (1 three-pointer today) becomes the 3rd player to reach 900 three-pointers with Hornets.",
+            "foto": [],
+            "timestamp": 1773201556,
+            "team": "CHA",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1115,
-    "total_franchise_historicas": 350,
-    "cache_buster": 1773201513
+    "total_notificaciones_historicas": 1116,
+    "total_franchise_historicas": 351,
+    "cache_buster": 1773201556
 }
