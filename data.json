@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:55:50",
+    "ultima_actualizacion": "01:56:29",
     "tablas": {
         "pts": [
             {
@@ -59,25 +59,25 @@
             },
             {
                 "Rank": 91,
+                "Nombre": "Devin Booker",
+                "Team": "PHX",
+                "Hoy": 9,
+                "Total": 17655,
+                "Diff": "45",
+                "Antece": "Shawn Marion",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 92,
                 "Nombre": "Nikola Vučević",
                 "Team": "BOS",
                 "Hoy": 0,
                 "Total": 17654,
-                "Diff": "46",
-                "Antece": "Shawn Marion",
-                "Nota": "",
-                "game_status": "inactive"
-            },
-            {
-                "Rank": 92,
-                "Nombre": "Devin Booker",
-                "Team": "PHX",
-                "Hoy": 7,
-                "Total": 17653,
                 "Diff": "1",
-                "Antece": "Nikola Vučević",
+                "Antece": "Devin Booker",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "inactive"
             },
             {
                 "Rank": 106,
@@ -250,9 +250,9 @@
                 "Rank": 75,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 3,
-                "Total": 8160,
-                "Diff": "32",
+                "Hoy": 4,
+                "Total": 8161,
+                "Diff": "31",
                 "Antece": "Carlos Boozer",
                 "Nota": "",
                 "game_status": "playing"
@@ -1942,9 +1942,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 43,
-                "Total": 10044,
-                "Diff": "456",
+                "Hoy": 45,
+                "Total": 10046,
+                "Diff": "454",
                 "Antece": "10500",
                 "game_status": "playing"
             },
@@ -2308,9 +2308,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 17653,
-                "Diff": "347",
+                "Hoy": 9,
+                "Total": 17655,
+                "Diff": "345",
                 "Antece": "18000",
                 "game_status": "playing"
             },
@@ -2849,13 +2849,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Anthony Edwards (3 three-pointers today) has passed Trae Young and is now ranked 85th all-time with 1,297.",
-            "foto": [
-                "collages/1772915172756658_collage_1772915172662518.png"
-            ],
-            "timestamp": 1772915172
-        },
         {
             "texto": "Julius Randle (1 three-pointer today) has passed Anthony Peeler and is now ranked 208th all-time with 941.",
             "foto": [
@@ -3548,6 +3541,13 @@
                 "collages/1773190509306242_collage_1773190509195273.png"
             ],
             "timestamp": 1773190509
+        },
+        {
+            "texto": "📢🔝💯 Devin Booker (9 points today) has passed Nikola Vučević and is now ranked 91st all-time with 17,655.",
+            "foto": [
+                "collages/1773190589551792_collage_1773190589464831.png"
+            ],
+            "timestamp": 1773190589
         }
     ],
     "notificaciones_franchise": [
@@ -4252,7 +4252,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1087,
+    "total_notificaciones_historicas": 1088,
     "total_franchise_historicas": 348,
-    "cache_buster": 1773190550
+    "cache_buster": 1773190589
 }
