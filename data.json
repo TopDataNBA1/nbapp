@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:49:12",
+    "ultima_actualizacion": "04:50:22",
     "tablas": {
         "pts": [
             {
@@ -1198,25 +1198,25 @@
             },
             {
                 "Rank": 135,
+                "Nombre": "Donte DiVincenzo",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 1114,
+                "Diff": "4",
+                "Antece": "Kyle Kuzma",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 136,
                 "Nombre": "Anfernee Simons",
                 "Team": "CHI",
                 "Hoy": 0,
                 "Total": 1113,
-                "Diff": "5",
-                "Antece": "Kyle Kuzma",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Donte DiVincenzo",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 136,
-                "Nombre": "Donte DiVincenzo",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1113,
-                "Diff": "",
-                "Antece": "Anfernee Simons",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 137,
@@ -1225,7 +1225,7 @@
                 "Hoy": 0,
                 "Total": 1112,
                 "Diff": "1",
-                "Antece": "Donte DiVincenzo",
+                "Antece": "Anfernee Simons",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
@@ -3725,9 +3725,9 @@
                 "Rank": 11,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 370,
-                "Diff": "30",
+                "Hoy": 1,
+                "Total": 371,
+                "Diff": "29",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -4081,9 +4081,9 @@
                 "Rank": 25,
                 "Nombre": "Deni Avdija",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 227,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 228,
+                "Diff": "10",
                 "Antece": "Gary Trent Jr.",
                 "game_status": "playing"
             },
@@ -4708,13 +4708,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (16 points today) has passed Richard Jefferson and is now ranked 164th all-time with 14,906.",
-            "foto": [
-                "collages/1772994945706231_collage_1772994945628125.png"
-            ],
-            "timestamp": 1772994945
-        },
         {
             "texto": "📢🔝💯 Jayson Tatum (2 three-pointers today) has passed Harrison Barnes and is now ranked 51st all-time with 1,551.",
             "foto": [
@@ -5407,6 +5400,13 @@
                 "collages/1773199459442107_collage_1773199459327128.png"
             ],
             "timestamp": 1773199459
+        },
+        {
+            "texto": "Donte DiVincenzo (1 three-pointer today) has passed Anfernee Simons and is now ranked 135th all-time with 1,114.",
+            "foto": [
+                "collages/1773201021962027_collage_1773201021854045.png"
+            ],
+            "timestamp": 1773201021
         }
     ],
     "notificaciones_franchise": [
@@ -6111,7 +6111,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1113,
+    "total_notificaciones_historicas": 1114,
     "total_franchise_historicas": 350,
-    "cache_buster": 1773200952
+    "cache_buster": 1773201022
 }
