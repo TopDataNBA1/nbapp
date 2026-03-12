@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:40",
+    "ultima_actualizacion": "03:13:17",
     "tablas": {
         "pts": [
             {
@@ -955,14 +955,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 225,
+                "Rank": 224,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 902,
-                "Diff": "",
-                "Antece": "Donyell Marshall",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 903,
+                "Diff": "4",
+                "Antece": "Nikola Jokić",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1374,9 +1374,9 @@
                 "Rank": 7,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5924,
-                "Diff": "50",
+                "Hoy": 8,
+                "Total": 5927,
+                "Diff": "47",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1454,9 +1454,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 900,
-                "Diff": "29",
+                "Hoy": 2,
+                "Total": 901,
+                "Diff": "28",
                 "Antece": "Dell Curry",
                 "game_status": "playing"
             },
@@ -3146,13 +3146,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jerami Grant (3 three-pointers today) has passed Kelly Oubre Jr. and is now ranked 160th all-time with 1,053.",
-            "foto": [
-                "collages/1773023546787123_collage_1773023546682117.png"
-            ],
-            "timestamp": 1773023546
-        },
-        {
             "texto": "Jeff Green (2 points today) has passed Rod Strickland and is now ranked 184th all-time with 14,465.",
             "foto": [
                 "collages/1773023731881325_collage_1773023731782358.png"
@@ -3844,6 +3837,13 @@
                 "collages/1773281376179582_collage_1773281376082632.png"
             ],
             "timestamp": 1773281376
+        },
+        {
+            "texto": "LaMelo Ball (2 three-pointers today) has passed Donyell Marshall and is now ranked 224th all-time with 903.",
+            "foto": [
+                "collages/1773281597445112_collage_1773281597340147.png"
+            ],
+            "timestamp": 1773281597
         }
     ],
     "notificaciones_franchise": [
@@ -4548,7 +4548,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1144,
+    "total_notificaciones_historicas": 1145,
     "total_franchise_historicas": 361,
-    "cache_buster": 1773281560
+    "cache_buster": 1773281597
 }
