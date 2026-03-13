@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:14:39",
+    "ultima_actualizacion": "02:15:16",
     "tablas": {
         "pts": [
             {
@@ -261,9 +261,9 @@
                 "Rank": 64,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 8767,
-                "Diff": "67",
+                "Hoy": 1,
+                "Total": 8768,
+                "Diff": "66",
                 "Antece": "Shawn Kemp",
                 "Nota": "",
                 "game_status": "playing"
@@ -1679,9 +1679,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 8767,
-                "Diff": "233",
+                "Hoy": 1,
+                "Total": 8768,
+                "Diff": "232",
                 "Antece": "9000",
                 "game_status": "playing"
             },
@@ -1729,10 +1729,10 @@
                 "Rank": 11,
                 "Nombre": "Jamal Murray",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "2",
+                "Antece": "Michael Adams",
                 "game_status": "playing"
             },
             {
@@ -3937,13 +3937,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Austin Reaves (3 assists today) has passed Lamar Odom and is now ranked 16th in Lakers history with 1,946.",
-            "foto": [],
-            "timestamp": 1772377283,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "Kel'el Ware (1 block today) has passed Grant Long and is now ranked 14th in Heat history with 227.",
             "foto": [],
             "timestamp": 1772377623,
@@ -4635,9 +4628,16 @@
             "timestamp": 1773362237,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Jamal Murray (1 steal today) becomes the 11th player to reach 600 steals with Nuggets.",
+            "foto": [],
+            "timestamp": 1773364516,
+            "team": "DEN",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1183,
-    "total_franchise_historicas": 366,
-    "cache_buster": 1773364479
+    "total_franchise_historicas": 367,
+    "cache_buster": 1773364516
 }
