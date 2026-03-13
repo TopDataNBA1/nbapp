@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:31:36",
+    "ultima_actualizacion": "01:32:15",
     "tablas": {
         "pts": [
             {
@@ -647,14 +647,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 229,
+                "Rank": 228,
                 "Nombre": "Myles Turner",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 885,
-                "Diff": "",
-                "Antece": "Dāvis Bertāns",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 886,
+                "Diff": "7",
+                "Antece": "Will Barton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -707,9 +707,9 @@
                 "Rank": 97,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 4473,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 4474,
+                "Diff": "7",
                 "Antece": "Brevin Knight",
                 "Nota": "",
                 "game_status": "playing"
@@ -1425,9 +1425,9 @@
                 "Rank": 1,
                 "Nombre": "Giannis Antetokounmpo",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 4473,
-                "Diff": "27",
+                "Hoy": 1,
+                "Total": 4474,
+                "Diff": "26",
                 "Antece": "4500",
                 "game_status": "playing"
             },
@@ -2211,13 +2211,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Kelly Oubre Jr. (1 three-pointer today) has passed Nick Anderson and is now ranked 159th all-time with 1,056.",
-            "foto": [
-                "collages/1773184287833912_collage_1773184287716969.png"
-            ],
-            "timestamp": 1773184287
-        },
-        {
             "texto": "Tobias Harris today surpasses Tayshaun Prince and now ranked 143rd all time with 1,018 games",
             "foto": [
                 "collages/1773186208886364_collage_1773186208791378.png"
@@ -2909,6 +2902,13 @@
                 "collages/1773361896097789_collage_1773361895998804.png"
             ],
             "timestamp": 1773361896
+        },
+        {
+            "texto": "Myles Turner (1 three-pointer today) has passed Dāvis Bertāns and is now ranked 228th all-time with 886.",
+            "foto": [
+                "collages/1773361935365649_collage_1773361935267681.png"
+            ],
+            "timestamp": 1773361935
         }
     ],
     "notificaciones_franchise": [
@@ -3613,7 +3613,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1176,
+    "total_notificaciones_historicas": 1177,
     "total_franchise_historicas": 365,
-    "cache_buster": 1773361896
+    "cache_buster": 1773361935
 }
