@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:40",
+    "ultima_actualizacion": "04:12:48",
     "tablas": {
         "pts": [
             {
@@ -204,9 +204,9 @@
                 "Rank": 231,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 18,
-                "Total": 13097,
-                "Diff": "30",
+                "Hoy": 21,
+                "Total": 13100,
+                "Diff": "27",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -338,9 +338,9 @@
                 "Rank": 209,
                 "Nombre": "Mason Plumlee",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 5811,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 5810,
+                "Diff": "12",
                 "Antece": "Enes Freedom",
                 "Nota": "",
                 "game_status": "playing"
@@ -780,25 +780,25 @@
             },
             {
                 "Rank": 91,
+                "Nombre": "Jaylen Brown",
+                "Team": "BOS",
+                "Hoy": 1,
+                "Total": 1261,
+                "Diff": "1",
+                "Antece": "D.J. Augustin",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 92,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 0,
                 "Total": 1260,
-                "Diff": "2",
-                "Antece": "D.J. Augustin",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Jaylen Brown",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 92,
-                "Nombre": "Jaylen Brown",
-                "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1260,
-                "Diff": "",
-                "Antece": "Andrew Wiggins",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 115,
@@ -1550,9 +1550,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 13097,
-                "Diff": "91",
+                "Hoy": 21,
+                "Total": 13100,
+                "Diff": "88",
                 "Antece": "Jo Jo White",
                 "game_status": "playing"
             },
@@ -1590,9 +1590,9 @@
                 "Rank": 18,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1892,
-                "Diff": "108",
+                "Hoy": 6,
+                "Total": 1893,
+                "Diff": "107",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1660,9 +1660,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1260,
-                "Diff": "40",
+                "Hoy": 1,
+                "Total": 1261,
+                "Diff": "39",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -1874,9 +1874,9 @@
                 "Rank": 5,
                 "Nombre": "Jamal Murray",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 2950,
-                "Diff": "28",
+                "Hoy": 7,
+                "Total": 2951,
+                "Diff": "27",
                 "Antece": "Andre Miller",
                 "game_status": "playing"
             },
@@ -1894,9 +1894,9 @@
                 "Rank": 11,
                 "Nombre": "Jamal Murray",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 600,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 601,
+                "Diff": "1",
                 "Antece": "Michael Adams",
                 "game_status": "playing"
             },
@@ -3534,13 +3534,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Kristaps Porziņģis (1 block today) has passed Sam Perkins and is now ranked 115th all-time with 934.",
-            "foto": [
-                "collages/1773196260245413_collage_1773196260132455.png"
-            ],
-            "timestamp": 1773196260
-        },
-        {
             "texto": "Kristaps Porziņģis (2 blocks today) has passed Rasho Nesterović and is now ranked 115th all-time with 935.",
             "foto": [
                 "collages/1773197081625046_collage_1773197081538077.png"
@@ -4232,6 +4225,13 @@
                 "collages/1773370751648136_collage_1773370751509180.png"
             ],
             "timestamp": 1773370751
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Andrew Wiggins and is now ranked 91st all-time with 1,261.",
+            "foto": [
+                "collages/1773371568019930_collage_1773371567932815.png"
+            ],
+            "timestamp": 1773371568
         }
     ],
     "notificaciones_franchise": [
@@ -4936,7 +4936,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1203,
+    "total_notificaciones_historicas": 1204,
     "total_franchise_historicas": 369,
-    "cache_buster": 1773371500
+    "cache_buster": 1773371568
 }
