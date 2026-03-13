@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:53:59",
+    "ultima_actualizacion": "02:54:36",
     "tablas": {
         "pts": [
             {
                 "Rank": 42,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIL",
-                "Hoy": 29,
-                "Total": 21498,
-                "Diff": "88",
+                "Hoy": 31,
+                "Total": 21500,
+                "Diff": "86",
                 "Antece": "Hal Greer",
                 "Nota": "",
                 "game_status": "playing"
@@ -99,7 +99,7 @@
                 "Diff": "114",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 121,
@@ -477,7 +477,7 @@
                 "Diff": "3",
                 "Antece": "Armen Gilliam",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 241,
@@ -556,7 +556,7 @@
                 "Diff": "6",
                 "Antece": "2200",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 17,
@@ -567,7 +567,7 @@
                 "Diff": "3",
                 "Antece": "Paul Pierce",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 19,
@@ -1108,7 +1108,7 @@
                 "Diff": "12",
                 "Antece": "Jerry Stackhouse",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 209,
@@ -1983,9 +1983,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 10103,
-                "Diff": "397",
+                "Hoy": 20,
+                "Total": 10104,
+                "Diff": "396",
                 "Antece": "10500",
                 "game_status": "playing"
             },
@@ -2115,10 +2115,10 @@
                 "Rank": 1,
                 "Nombre": "Giannis Antetokounmpo",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 21498,
-                "Diff": "2",
-                "Antece": "21500",
+                "Hoy": 31,
+                "Total": 21500,
+                "Diff": "500",
+                "Antece": "22000",
                 "game_status": "playing"
             },
             {
@@ -2991,7 +2991,7 @@
                 "Total": 2820,
                 "Diff": "98",
                 "Antece": "Chris Morris",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 4,
@@ -3001,7 +3001,7 @@
                 "Total": 604,
                 "Diff": "92",
                 "Antece": "Buck Williams",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 21,
@@ -3011,7 +3011,7 @@
                 "Total": 371,
                 "Diff": "2",
                 "Antece": "Jayson Williams",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "DET": [
@@ -3187,7 +3187,7 @@
                 "Total": 395,
                 "Diff": "5",
                 "Antece": "400",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 21,
@@ -3197,7 +3197,7 @@
                 "Total": 242,
                 "Diff": "25",
                 "Antece": "Josh Smith",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "WAS": [
@@ -3937,13 +3937,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Kel'el Ware (1 block today) has passed Grant Long and is now ranked 14th in Heat history with 227.",
-            "foto": [],
-            "timestamp": 1772377623,
-            "team": "MIA",
-            "type": "franchise"
-        },
-        {
             "texto": "Austin Reaves (3 assists today) becomes the 16th player to reach 2,000 assists with Lakers.",
             "foto": [],
             "timestamp": 1772377762,
@@ -4635,9 +4628,16 @@
             "timestamp": 1773364516,
             "team": "DEN",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝3️⃣ Giannis Antetokounmpo (31 points today) becomes the 1st player to reach 21,500 points with Bucks.",
+            "foto": [],
+            "timestamp": 1773366876,
+            "team": "MIL",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1190,
-    "total_franchise_historicas": 367,
-    "cache_buster": 1773366839
+    "total_franchise_historicas": 368,
+    "cache_buster": 1773366876
 }
