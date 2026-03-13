@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:36:40",
+    "ultima_actualizacion": "01:38:33",
     "tablas": {
         "pts": [
             {
@@ -441,9 +441,9 @@
                 "Rank": 71,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 1381,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 1383,
+                "Diff": "3",
                 "Antece": "Fred VanVleet",
                 "Nota": "",
                 "game_status": "playing"
@@ -454,7 +454,7 @@
                 "Team": "DET",
                 "Hoy": 2,
                 "Total": 1371,
-                "Diff": "10",
+                "Diff": "12",
                 "Antece": "Duncan Robinson",
                 "Nota": "",
                 "game_status": "playing"
@@ -696,9 +696,9 @@
                 "Rank": 80,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 5,
-                "Total": 4856,
-                "Diff": "7",
+                "Hoy": 6,
+                "Total": 4857,
+                "Diff": "6",
                 "Antece": "Mark Price",
                 "Nota": "",
                 "game_status": "playing"
@@ -1557,9 +1557,9 @@
                 "Rank": 19,
                 "Nombre": "Jonathan Isaac",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1490,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 1491,
+                "Diff": "9",
                 "Antece": "1500",
                 "game_status": "playing"
             },
@@ -1717,9 +1717,9 @@
                 "Rank": 19,
                 "Nombre": "Jonathan Isaac",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 327,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 328,
+                "Diff": "21",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -1729,7 +1729,7 @@
                 "Stat": "G",
                 "Hoy": 1,
                 "Total": 326,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jonathan Isaac",
                 "game_status": "playing"
             },
@@ -1911,9 +1911,9 @@
                 "Rank": 24,
                 "Nombre": "Devin Booker",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 203,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 204,
+                "Diff": "6",
                 "Antece": "Grant Hill",
                 "game_status": "playing"
             },
@@ -1992,13 +1992,13 @@
         ],
         "DET": [
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 2686,
-                "Diff": "1",
-                "Antece": "Antonio McDyess",
+                "Hoy": 9,
+                "Total": 2690,
+                "Diff": "131",
+                "Antece": "Terry Mills",
                 "game_status": "playing"
             },
             {
@@ -2015,9 +2015,9 @@
                 "Rank": 9,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 10,
-                "Total": 2106,
-                "Diff": "150",
+                "Hoy": 12,
+                "Total": 2108,
+                "Diff": "148",
                 "Antece": "Bob Lanier",
                 "game_status": "playing"
             },
@@ -2913,13 +2913,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Kel'el Ware (1 block today) has passed Chris Andersen and is now ranked 15th in Heat history with 206.",
-            "foto": [],
-            "timestamp": 1772376388,
-            "team": "MIA",
-            "type": "franchise"
-        },
-        {
             "texto": "Austin Reaves (3 assists today) has passed Lamar Odom and is now ranked 16th in Lakers history with 1,946.",
             "foto": [],
             "timestamp": 1772377283,
@@ -3611,9 +3604,16 @@
             "timestamp": 1773308526,
             "team": "CHA",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Jalen Duren (7 rebounds today) has passed Antonio McDyess and is now ranked 21st in Pistons history with 2,688.",
+            "foto": [],
+            "timestamp": 1773362237,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1178,
-    "total_franchise_historicas": 365,
-    "cache_buster": 1773362200
+    "total_franchise_historicas": 366,
+    "cache_buster": 1773362313
 }
