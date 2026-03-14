@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:31:20",
+    "ultima_actualizacion": "00:31:57",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 210,
+                "Rank": 209,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 14,
-                "Total": 13857,
-                "Diff": "1",
-                "Antece": "Chuck Person",
-                "Nota": "A tiro de 1",
+                "Hoy": 16,
+                "Total": 13859,
+                "Diff": "33",
+                "Antece": "Marques Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -586,11 +586,11 @@
                 "Rank": 80,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 5,
-                "Total": 4862,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 4863,
+                "Diff": "",
                 "Antece": "Mark Price",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -781,9 +781,9 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 13857,
-                "Diff": "143",
+                "Hoy": 16,
+                "Total": 13859,
+                "Diff": "141",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -1535,13 +1535,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Karl-Anthony Towns (9 points today) has passed Kawhi Leonard and is now ranked 129th all-time with 16,131.",
-            "foto": [
-                "collages/1773280261907945_collage_1773280261819975.png"
-            ],
-            "timestamp": 1773280261
-        },
-        {
             "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Marco Belinelli and is now ranked 110th all-time with 1,217.",
             "foto": [
                 "collages/1773281375963962_collage_1773281375860984.png"
@@ -2233,6 +2226,13 @@
                 "collages/1773526550687005_collage_1773526550573022.png"
             ],
             "timestamp": 1773526550
+        },
+        {
+            "texto": "Jayson Tatum (16 points today) has passed Chuck Person and is now ranked 209th all-time with 13,859.",
+            "foto": [
+                "collages/1773531117261635_collage_1773531117154670.png"
+            ],
+            "timestamp": 1773531117
         }
     ],
     "notificaciones_franchise": [
@@ -2937,7 +2937,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1241,
+    "total_notificaciones_historicas": 1242,
     "total_franchise_historicas": 382,
-    "cache_buster": 1773531080
+    "cache_buster": 1773531117
 }
