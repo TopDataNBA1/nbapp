@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:25:25",
+    "ultima_actualizacion": "20:26:02",
     "tablas": {
         "pts": [
             {
@@ -394,14 +394,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 244,
+                "Rank": 243,
                 "Nombre": "Bobby Portis",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 859,
-                "Diff": "",
-                "Antece": "Avery Bradley",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 860,
+                "Diff": "2",
+                "Antece": "Cameron Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -411,7 +411,7 @@
                 "Hoy": 0,
                 "Total": 858,
                 "Diff": "1",
-                "Antece": "Bobby Portis",
+                "Antece": "Avery Bradley",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
             }
@@ -724,9 +724,9 @@
                 "Rank": 20,
                 "Nombre": "Bobby Portis",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 5434,
-                "Diff": "66",
+                "Hoy": 3,
+                "Total": 5437,
+                "Diff": "63",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -784,9 +784,9 @@
                 "Rank": 5,
                 "Nombre": "Bobby Portis",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 589,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 590,
+                "Diff": "10",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -1111,13 +1111,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Anthony Peeler and is now ranked 210th all-time with 941.",
-            "foto": [
-                "collages/1773277900689142_collage_1773277900603176.png"
-            ],
-            "timestamp": 1773277900
-        },
         {
             "texto": "Jalen Brunson (1 three-pointer today) has passed Michael Adams and Seth Curry and is now ranked 204th all-time with 950.",
             "foto": [
@@ -1810,6 +1803,13 @@
                 "collages/1773480873218202_collage_1773480873067577.png"
             ],
             "timestamp": 1773480873
+        },
+        {
+            "texto": "Bobby Portis (1 three-pointer today) has passed Avery Bradley and is now ranked 243rd all-time with 860.",
+            "foto": [
+                "collages/1773516362199985_collage_1773516362101021.png"
+            ],
+            "timestamp": 1773516362
         }
     ],
     "notificaciones_franchise": [
@@ -2514,7 +2514,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1234,
+    "total_notificaciones_historicas": 1235,
     "total_franchise_historicas": 379,
-    "cache_buster": 1773516325
+    "cache_buster": 1773516362
 }
