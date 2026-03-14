@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:56:44",
+    "ultima_actualizacion": "23:57:21",
     "tablas": {
         "pts": [
             {
@@ -397,9 +397,9 @@
                 "Rank": 132,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 1125,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 1126,
+                "Diff": "4",
                 "Antece": "Dennis Schröder",
                 "Nota": "",
                 "game_status": "playing"
@@ -821,9 +821,9 @@
                 "Rank": 15,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 2257,
-                "Diff": "9",
+                "Hoy": 4,
+                "Total": 2258,
+                "Diff": "8",
                 "Antece": "Antoine Walker",
                 "game_status": "playing"
             },
@@ -909,22 +909,22 @@
             },
             {
                 "Rank": 6,
-                "Nombre": "Payton Pritchard",
+                "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 825,
-                "Diff": "75",
+                "Hoy": 2,
+                "Total": 826,
+                "Diff": "74",
                 "Antece": "900",
                 "game_status": "playing"
             },
             {
                 "Rank": 7,
-                "Nombre": "Derrick White",
+                "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 825,
-                "Diff": "0",
-                "Antece": "Payton Pritchard",
+                "Diff": "1",
+                "Antece": "Derrick White",
                 "game_status": "playing"
             },
             {
@@ -2237,13 +2237,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Kawhi Leonard (5 points today) has passed Chris Paul and is now ranked 6th in Clippers history with 7,722.",
-            "foto": [],
-            "timestamp": 1772418456,
-            "team": "LAC",
-            "type": "franchise"
-        },
-        {
             "texto": "Trey Murphy III (1 assist today) has passed Tim Frazier and is now ranked 15th in Pelicans history with 662.",
             "foto": [],
             "timestamp": 1772418802,
@@ -2935,9 +2928,16 @@
             "timestamp": 1773526996,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Derrick White (2 three-pointers today) has passed Payton Pritchard and is now ranked 6th in Celtics history with 826.",
+            "foto": [],
+            "timestamp": 1773529041,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1241,
-    "total_franchise_historicas": 381,
-    "cache_buster": 1773529004
+    "total_franchise_historicas": 382,
+    "cache_buster": 1773529041
 }
