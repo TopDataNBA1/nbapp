@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:18:44",
+    "ultima_actualizacion": "01:19:53",
     "tablas": {
         "pts": [
             {
                 "Rank": 6,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 3,
-                "Total": 32177,
-                "Diff": "115",
+                "Hoy": 5,
+                "Total": 32179,
+                "Diff": "113",
                 "Antece": "Michael Jordan",
                 "Nota": "",
                 "game_status": "playing"
@@ -83,9 +83,9 @@
                 "Rank": 164,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 14970,
-                "Diff": "30",
+                "Hoy": 10,
+                "Total": 14972,
+                "Diff": "28",
                 "Antece": "15000",
                 "Nota": "",
                 "game_status": "playing"
@@ -595,9 +595,9 @@
                 "Rank": 191,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 978,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 979,
+                "Diff": "3",
                 "Antece": "Matt Barnes",
                 "Nota": "",
                 "game_status": "playing"
@@ -891,9 +891,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 6736,
-                "Diff": "264",
+                "Hoy": 10,
+                "Total": 6738,
+                "Diff": "262",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -951,9 +951,9 @@
                 "Rank": 19,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 386,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 387,
+                "Diff": "11",
                 "Antece": "Zydrunas Ilgauskas",
                 "game_status": "playing"
             },
@@ -1429,9 +1429,9 @@
                 "Rank": 6,
                 "Nombre": "Zion Williamson",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 6351,
-                "Diff": "149",
+                "Hoy": 2,
+                "Total": 6353,
+                "Diff": "147",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1646,13 +1646,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Zion Williamson",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 264,
-                "Diff": "0",
-                "Antece": "E'Twaun Moore",
+                "Hoy": 1,
+                "Total": 265,
+                "Diff": "4",
+                "Antece": "Jose Alvarado",
                 "game_status": "playing"
             }
         ],
@@ -1731,9 +1731,9 @@
                 "Rank": 18,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 327,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 328,
+                "Diff": "21",
                 "Antece": "Stephon Marbury",
                 "game_status": "playing"
             },
@@ -2188,13 +2188,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jerami Grant (3 three-pointers today) has passed Kelly Oubre Jr. and is now ranked 159th all-time with 1,057.",
-            "foto": [
-                "collages/1773199379794961_collage_1773199379679999.png"
-            ],
-            "timestamp": 1773199379
-        },
         {
             "texto": "DeMar DeRozan (3 rebounds today) has passed Joe Barry Carroll and is now ranked 246th all-time with 5,405.",
             "foto": [
@@ -2887,16 +2880,16 @@
                 "collages/1773447523943939_collage_1773447523857980.png"
             ],
             "timestamp": 1773447523
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (1 three-pointer today) has passed Scottie Pippen and is now ranked 191st all-time with 979.",
+            "foto": [
+                "collages/1773447592908925_collage_1773447592816954.png"
+            ],
+            "timestamp": 1773447592
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ Nikola Jokić (30 points today) becomes the 2nd player to reach 17,500 points with Nuggets.",
-            "foto": [],
-            "timestamp": 1772404165,
-            "team": "DEN",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Rudy Gobert (7 points today) becomes the 20th player to reach 3,500 points with Timberwolves.",
             "foto": [],
@@ -3589,9 +3582,16 @@
             "timestamp": 1773445431,
             "team": "TOR",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Zion Williamson today surpasses E'Twaun Moore and is now ranked 11th in Pelicans history with 265 games.",
+            "foto": [],
+            "timestamp": 1773447592,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1211,
-    "total_franchise_historicas": 372,
-    "cache_buster": 1773447524
+    "total_notificaciones_historicas": 1212,
+    "total_franchise_historicas": 373,
+    "cache_buster": 1773447593
 }
