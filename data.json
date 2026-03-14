@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:15:14",
+    "ultima_actualizacion": "23:15:50",
     "tablas": {
         "pts": [
             {
@@ -282,14 +282,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 241,
+                "Rank": 240,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 586,
-                "Diff": "",
-                "Antece": "Kent Benson",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 587,
+                "Diff": "3",
+                "Antece": "Greg Anderson",
+                "Nota": "",
                 "game_status": "finished"
             }
         ],
@@ -586,9 +586,9 @@
                 "Rank": 80,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 1,
-                "Total": 4858,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 4859,
+                "Diff": "4",
                 "Antece": "Mark Price",
                 "Nota": "",
                 "game_status": "playing"
@@ -1379,9 +1379,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 586,
-                "Diff": "14",
+                "Hoy": 4,
+                "Total": 587,
+                "Diff": "13",
                 "Antece": "600",
                 "game_status": "finished"
             },
@@ -1534,13 +1534,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Dennis Scott and Wayne Ellington and is now ranked 111th all-time with 1,215.",
-            "foto": [
-                "collages/1773280047168731_collage_1773280047090748.png"
-            ],
-            "timestamp": 1773280047
-        },
         {
             "texto": "Karl-Anthony Towns (9 points today) has passed Kawhi Leonard and is now ranked 129th all-time with 16,131.",
             "foto": [
@@ -2233,6 +2226,13 @@
                 "collages/1773524170170832_collage_1773524170072862.png"
             ],
             "timestamp": 1773524170
+        },
+        {
+            "texto": "Victor Wembanyama (4 blocks today) has passed Kent Benson and is now ranked 240th all-time with 587.",
+            "foto": [
+                "collages/1773526550687005_collage_1773526550573022.png"
+            ],
+            "timestamp": 1773526550
         }
     ],
     "notificaciones_franchise": [
@@ -2937,7 +2937,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1240,
+    "total_notificaciones_historicas": 1241,
     "total_franchise_historicas": 380,
-    "cache_buster": 1773526514
+    "cache_buster": 1773526550
 }
