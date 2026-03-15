@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:17:18",
+    "ultima_actualizacion": "20:17:55",
     "tablas": {
         "pts": [
             {
@@ -397,9 +397,9 @@
                 "Rank": 134,
                 "Nombre": "Donte DiVincenzo",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 1120,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 1121,
+                "Diff": "2",
                 "Antece": "David Wesley",
                 "Nota": "",
                 "game_status": "playing"
@@ -410,9 +410,9 @@
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1119,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Donte DiVincenzo",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "not_started"
             },
             {
@@ -583,14 +583,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 234,
+                "Rank": 233,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 5,
-                "Total": 3058,
-                "Diff": "",
-                "Antece": "Hakeem Olajuwon",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 3059,
+                "Diff": "1",
+                "Antece": "Dick Van Arsdale",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -1231,7 +1231,7 @@
                 "Rank": 10,
                 "Nombre": "Anthony Edwards",
                 "Stat": "BLK",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 281,
                 "Diff": "18",
                 "Antece": "Christian Laettner",
@@ -1281,9 +1281,9 @@
                 "Rank": 11,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 377,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 378,
+                "Diff": "22",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -1858,13 +1858,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Devin Booker (2 assists today) has passed Wes Unseld and is now ranked 146th all-time with 3,823.",
-            "foto": [
-                "collages/1773359755401071_collage_1773359755316091.png"
-            ],
-            "timestamp": 1773359755
-        },
         {
             "texto": "📢🔝💯 Khris Middleton (1 three-pointer today) has passed Malik Beasley and is now ranked 65th all-time with 1,454.",
             "foto": [
@@ -2557,6 +2550,13 @@
                 "collages/1773601679221601_collage_1773601679131696.png"
             ],
             "timestamp": 1773601679
+        },
+        {
+            "texto": "📢HOF🏛️ Julius Randle (6 assists today) has passed Hakeem Olajuwon and is now ranked 233rd all-time with 3,059.",
+            "foto": [
+                "collages/1773602275312003_collage_1773602275211095.png"
+            ],
+            "timestamp": 1773602275
         }
     ],
     "notificaciones_franchise": [
@@ -3261,7 +3261,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1271,
+    "total_notificaciones_historicas": 1272,
     "total_franchise_historicas": 387,
-    "cache_buster": 1773602238
+    "cache_buster": 1773602275
 }
