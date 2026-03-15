@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:26:05",
+    "ultima_actualizacion": "01:26:42",
     "tablas": {
         "pts": [
             {
@@ -680,14 +680,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 172,
+                "Rank": 171,
                 "Nombre": "Tyler Herro",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1035,
-                "Diff": "",
-                "Antece": "James Posey",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1036,
+                "Diff": "1",
+                "Antece": "Steve Blake",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1775,9 +1775,9 @@
                 "Rank": 6,
                 "Nombre": "Tyler Herro",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 7430,
-                "Diff": "70",
+                "Hoy": 5,
+                "Total": 7433,
+                "Diff": "67",
                 "Antece": "7500",
                 "game_status": "playing"
             },
@@ -1865,9 +1865,9 @@
                 "Rank": 2,
                 "Nombre": "Tyler Herro",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1035,
-                "Diff": "65",
+                "Hoy": 1,
+                "Total": 1036,
+                "Diff": "64",
                 "Antece": "1100",
                 "game_status": "playing"
             },
@@ -2579,13 +2579,6 @@
     },
     "notificaciones": [
         {
-            "texto": "LaMelo Ball (2 three-pointers today) has passed Donyell Marshall and is now ranked 224th all-time with 903.",
-            "foto": [
-                "collages/1773281597445112_collage_1773281597340147.png"
-            ],
-            "timestamp": 1773281597
-        },
-        {
             "texto": "Miles Bridges (2 three-pointers today) has passed Tyrese Haliburton and is now ranked 245th all-time with 857.",
             "foto": [
                 "collages/1773282153442318_collage_1773282153349351.png"
@@ -3277,6 +3270,13 @@
                 "collages/1773533989990936_collage_1773533989902965.png"
             ],
             "timestamp": 1773533989
+        },
+        {
+            "texto": "Tyler Herro (1 three-pointer today) has passed James Posey and is now ranked 171st all-time with 1,036.",
+            "foto": [
+                "collages/1773534402520599_collage_1773534402412627.png"
+            ],
+            "timestamp": 1773534402
         }
     ],
     "notificaciones_franchise": [
@@ -3981,7 +3981,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1244,
+    "total_notificaciones_historicas": 1245,
     "total_franchise_historicas": 383,
-    "cache_buster": 1773534365
+    "cache_buster": 1773534402
 }
