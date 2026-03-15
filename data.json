@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "18:13:24",
+    "ultima_actualizacion": "18:14:02",
     "tablas": {
         "pts": [
             {
@@ -247,9 +247,9 @@
                 "Rank": 8,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2307,
-                "Diff": "90",
+                "Hoy": 1,
+                "Total": 2308,
+                "Diff": "89",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -414,13 +414,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Anthony Edwards",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 438,
-                "Diff": "0",
-                "Antece": "Wally Szczerbiak",
+                "Hoy": 1,
+                "Total": 439,
+                "Diff": "3",
+                "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
             {
@@ -430,7 +430,7 @@
                 "Hoy": 0,
                 "Total": 431,
                 "Diff": "7",
-                "Antece": "Anthony Edwards",
+                "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
             {
@@ -509,9 +509,9 @@
                 "Rank": 22,
                 "Nombre": "Luguentz Dort",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 395,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 396,
+                "Diff": "4",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -529,9 +529,9 @@
                 "Rank": 11,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 369,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 370,
+                "Diff": "0",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -619,9 +619,9 @@
                 "Rank": 19,
                 "Nombre": "Luguentz Dort",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 419,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 420,
+                "Diff": "16",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             }
@@ -1331,13 +1331,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Kawhi Leonard (5 rebounds today) becomes the 20th player to reach 2,000 rebounds with Clippers.",
-            "foto": [],
-            "timestamp": 1772510549,
-            "team": "LAC",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "LaMelo Ball today surpasses D.J. Augustin and Frank Kaminsky and is now ranked 22nd in Hornets history with 283 games.",
             "foto": [],
             "timestamp": 1772583131,
@@ -2029,9 +2022,16 @@
             "timestamp": 1773542038,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Anthony Edwards today surpasses Wally Szczerbiak and is now ranked 8th in Timberwolves history with 439 games.",
+            "foto": [],
+            "timestamp": 1773594842,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1266,
-    "total_franchise_historicas": 385,
-    "cache_buster": 1773594804
+    "total_franchise_historicas": 386,
+    "cache_buster": 1773594842
 }
