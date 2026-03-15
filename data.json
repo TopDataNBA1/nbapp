@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:30:40",
+    "ultima_actualizacion": "21:31:21",
     "tablas": {
         "pts": [
             {
@@ -651,14 +651,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 244,
+                "Rank": 243,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 0,
-                "Total": 899,
-                "Diff": "",
-                "Antece": "Steve Nash",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 900,
+                "Diff": "2",
+                "Antece": "Joe Dumars",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1515,9 +1515,9 @@
                 "Rank": 9,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 5955,
-                "Diff": "45",
+                "Hoy": 1,
+                "Total": 5956,
+                "Diff": "44",
                 "Antece": "6000",
                 "game_status": "playing"
             },
@@ -1757,7 +1757,7 @@
                 "Rank": 5,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 521,
                 "Diff": "60",
                 "Antece": "Rasheed Wallace",
@@ -1809,10 +1809,10 @@
                 "Rank": 11,
                 "Nombre": "T.J. McConnell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 499,
-                "Diff": "1",
-                "Antece": "500",
+                "Hoy": 1,
+                "Total": 500,
+                "Diff": "7",
+                "Antece": "Jeff Foster",
                 "game_status": "playing"
             },
             {
@@ -1858,20 +1858,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (35 points today) has passed Magic Johnson and is now ranked 89th all-time with 17,708.",
-            "foto": [
-                "collages/1773363023162888_collage_1773363023066939.png"
-            ],
-            "timestamp": 1773363023
-        },
-        {
-            "texto": "📢🔝💯 Devin Booker (4 three-pointers today) has passed Mike Bibby and is now ranked 57th all-time with 1,518.",
-            "foto": [
-                "collages/1773363099349588_collage_1773363099260608.png"
-            ],
-            "timestamp": 1773363099
-        },
         {
             "texto": "📢🔝💯 Giannis Antetokounmpo (1 block today) has passed Ervin Johnson and is now ranked 90th all-time with 1,088.",
             "foto": [
@@ -2557,16 +2543,23 @@
                 "collages/1773606380404478_collage_1773606380306582.png"
             ],
             "timestamp": 1773606380
+        },
+        {
+            "texto": "T.J. McConnell (1 steal today) becomes the 243rd player to reach 900",
+            "foto": [
+                "collages/1773606680913216_collage_1773606680848836.png"
+            ],
+            "timestamp": 1773606680
+        },
+        {
+            "texto": "📢HOF🏛️ T.J. McConnell (1 steal today) has passed Steve Nash and is now ranked 243rd all-time with 900.",
+            "foto": [
+                "collages/1773606681093047_collage_1773606681004300.png"
+            ],
+            "timestamp": 1773606681
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Paolo Banchero (11 points today) has passed Aaron Gordon and is now ranked 13th in Magic history with 5,510.",
-            "foto": [],
-            "timestamp": 1772583989,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Scottie Barnes (1 block today) has passed Marcus Camby and is now ranked 8th in Raptors history with 361.",
             "foto": [],
@@ -3259,9 +3252,16 @@
             "timestamp": 1773603810,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "T.J. McConnell (1 steal today) becomes the 11th player to reach 500 steals with Pacers.",
+            "foto": [],
+            "timestamp": 1773606681,
+            "team": "IND",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1279,
-    "total_franchise_historicas": 389,
-    "cache_buster": 1773606640
+    "total_notificaciones_historicas": 1281,
+    "total_franchise_historicas": 390,
+    "cache_buster": 1773606681
 }
