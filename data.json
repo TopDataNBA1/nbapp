@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:49:46",
+    "ultima_actualizacion": "20:50:23",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 42,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIL",
-                "Hoy": 5,
-                "Total": 21505,
-                "Diff": "81",
+                "Hoy": 7,
+                "Total": 21507,
+                "Diff": "79",
                 "Antece": "Hal Greer",
                 "Nota": "",
                 "game_status": "playing"
@@ -219,11 +219,11 @@
                 "Rank": 164,
                 "Nombre": "Jakob Poeltl",
                 "Team": "TOR",
-                "Hoy": 0,
-                "Total": 779,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 780,
+                "Diff": "",
                 "Antece": "Gar Heard",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -561,14 +561,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 152,
+                "Rank": 151,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 1,
-                "Total": 3770,
-                "Diff": "",
-                "Antece": "Derrick Rose",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 3771,
+                "Diff": "8",
+                "Antece": "Ray Williams",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -959,9 +959,9 @@
                 "Rank": 1,
                 "Nombre": "Giannis Antetokounmpo",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 21505,
-                "Diff": "495",
+                "Hoy": 7,
+                "Total": 21507,
+                "Diff": "493",
                 "Antece": "22000",
                 "game_status": "playing"
             },
@@ -1545,9 +1545,9 @@
                 "Rank": 13,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2000,
-                "Diff": "64",
+                "Hoy": 2,
+                "Total": 2001,
+                "Diff": "63",
                 "Antece": "Morris Peterson",
                 "game_status": "playing"
             },
@@ -1625,9 +1625,9 @@
                 "Rank": 10,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 323,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 324,
+                "Diff": "36",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -1779,9 +1779,9 @@
                 "Rank": 6,
                 "Nombre": "T.J. McConnell",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 2308,
-                "Diff": "192",
+                "Hoy": 2,
+                "Total": 2309,
+                "Diff": "191",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1858,20 +1858,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Dorian Finney-Smith and Julius Randle and is now ranked 207th all-time with 943.",
-            "foto": [
-                "collages/1773361854473510_collage_1773361854399544.png"
-            ],
-            "timestamp": 1773361854
-        },
-        {
-            "texto": "📢🔝💯 Devin Booker (28 points today) has passed Shawn Marion and is now ranked 90th all-time with 17,701.",
-            "foto": [
-                "collages/1773361896097789_collage_1773361895998804.png"
-            ],
-            "timestamp": 1773361896
-        },
         {
             "texto": "Myles Turner (1 three-pointer today) has passed Dāvis Bertāns and is now ranked 228th all-time with 886.",
             "foto": [
@@ -2557,6 +2543,20 @@
                 "collages/1773603849930325_collage_1773603849837437.png"
             ],
             "timestamp": 1773603849
+        },
+        {
+            "texto": "T.J. McConnell (2 assists today) has passed Derrick Rose and is now ranked 151st all-time with 3,771.",
+            "foto": [
+                "collages/1773604223485072_collage_1773604223395384.png"
+            ],
+            "timestamp": 1773604223
+        },
+        {
+            "texto": "Jakob Poeltl (1 block today) has passed Jerami Grant and is now ranked 164th all-time with 780.",
+            "foto": [
+                "collages/1773604223679192_collage_1773604223592070.png"
+            ],
+            "timestamp": 1773604223
         }
     ],
     "notificaciones_franchise": [
@@ -3261,7 +3261,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1274,
+    "total_notificaciones_historicas": 1276,
     "total_franchise_historicas": 389,
-    "cache_buster": 1773604186
+    "cache_buster": 1773604223
 }
