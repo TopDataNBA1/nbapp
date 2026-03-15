@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:09:50",
+    "ultima_actualizacion": "03:10:27",
     "tablas": {
         "pts": [
             {
@@ -933,7 +933,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 179,
+                "Rank": 178,
+                "Nombre": "Luke Kennard",
+                "Team": "LAL",
+                "Hoy": 1,
+                "Total": 1003,
+                "Diff": "3",
+                "Antece": "Danny Granger",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 180,
                 "Nombre": "Doug McDermott",
                 "Team": "SAC",
                 "Hoy": 0,
@@ -944,24 +955,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 180,
-                "Nombre": "Luke Kennard",
-                "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1002,
-                "Diff": "",
-                "Antece": "Doug McDermott",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 181,
                 "Nombre": "Taurean Prince",
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1002,
                 "Diff": "",
-                "Antece": "Luke Kennard",
+                "Antece": "Doug McDermott",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             },
@@ -2182,9 +2182,9 @@
                 "Rank": 23,
                 "Nombre": "Austin Reaves",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1420,
-                "Diff": "35",
+                "Hoy": 5,
+                "Total": 1421,
+                "Diff": "34",
                 "Antece": "Hot Rod Hundley",
                 "game_status": "playing"
             },
@@ -3130,13 +3130,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ DeMar DeRozan (31 points today) has passed Tim Duncan and is now ranked 18th all-time with 26,497.",
-            "foto": [
-                "collages/1773286918742315_collage_1773286918654022.png"
-            ],
-            "timestamp": 1773286918
-        },
-        {
             "texto": "Coby White (2 three-pointers today) has passed George Hill and is now ranked 156th all-time with 1,067.",
             "foto": [
                 "collages/1773287432097560_collage_1773287431996608.png"
@@ -3828,6 +3821,13 @@
                 "collages/1773540478129420_collage_1773540478040449.png"
             ],
             "timestamp": 1773540478
+        },
+        {
+            "texto": "Luke Kennard (1 three-pointer today) has passed Danny Ainge, Doug McDermott and Taurean Prince and is now ranked 178th all-time with 1,003.",
+            "foto": [
+                "collages/1773540627176222_collage_1773540627107243.png"
+            ],
+            "timestamp": 1773540627
         }
     ],
     "notificaciones_franchise": [
@@ -4532,7 +4532,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1254,
+    "total_notificaciones_historicas": 1255,
     "total_franchise_historicas": 384,
-    "cache_buster": 1773540590
+    "cache_buster": 1773540627
 }
