@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:03",
+    "ultima_actualizacion": "03:07:40",
     "tablas": {
         "pts": [
             {
@@ -516,11 +516,11 @@
                 "Rank": 154,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 807,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 808,
+                "Diff": "",
                 "Antece": "Alvan Adams",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -771,9 +771,9 @@
                 "Rank": 62,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1470,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 1471,
+                "Diff": "22",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -784,7 +784,7 @@
                 "Team": "DAL",
                 "Hoy": 1,
                 "Total": 1462,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Jordan Clarkson",
                 "Nota": "",
                 "game_status": "finished"
@@ -3394,13 +3394,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Khris Middleton (6 three-pointers today) has passed Danilo Gallinari, Lou Williams, Malik Beasley and Michael Finley and is now ranked 63rd all-time with 1,459.",
-            "foto": [
-                "collages/1773367883407389_collage_1773367883335412.png"
-            ],
-            "timestamp": 1773367883
-        },
-        {
             "texto": "Shai Gilgeous-Alexander (13 points today) has passed Jeff Mullins and is now ranked 233rd all-time with 13,019.",
             "foto": [
                 "collages/1773369110960518_collage_1773369110861514.png"
@@ -4092,6 +4085,13 @@
                 "collages/1773620136280557_collage_1773620136207397.png"
             ],
             "timestamp": 1773620136
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Tracy McGrady and is now ranked 154th all-time with 808.",
+            "foto": [
+                "collages/1773626860242892_collage_1773626860142435.png"
+            ],
+            "timestamp": 1773626860
         }
     ],
     "notificaciones_franchise": [
@@ -4796,7 +4796,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1297,
+    "total_notificaciones_historicas": 1298,
     "total_franchise_historicas": 392,
-    "cache_buster": 1773626823
+    "cache_buster": 1773626860
 }
