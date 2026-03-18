@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:21:10",
+    "ultima_actualizacion": "00:21:49",
     "tablas": {
         "pts": [
             {
@@ -72,9 +72,9 @@
                 "Rank": 230,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 4,
-                "Total": 13174,
-                "Diff": "24",
+                "Hoy": 9,
+                "Total": 13179,
+                "Diff": "19",
                 "Antece": "Corey Maggette",
                 "Nota": "",
                 "game_status": "playing"
@@ -254,9 +254,9 @@
                 "Rank": 89,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1263,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 1264,
+                "Diff": "19",
                 "Antece": "Mookie Blaylock",
                 "Nota": "",
                 "game_status": "playing"
@@ -560,9 +560,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 13174,
-                "Diff": "14",
+                "Hoy": 9,
+                "Total": 13179,
+                "Diff": "9",
                 "Antece": "Jo Jo White",
                 "game_status": "playing"
             },
@@ -587,13 +587,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 2266,
-                "Diff": "0",
-                "Antece": "Antoine Walker",
+                "Hoy": 2,
+                "Total": 2267,
+                "Diff": "155",
+                "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
             {
@@ -610,9 +610,9 @@
                 "Rank": 25,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1521,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 1522,
+                "Diff": "10",
                 "Antece": "Larry Siegfried",
                 "game_status": "playing"
             },
@@ -620,9 +620,9 @@
                 "Rank": 8,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 673,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 674,
+                "Diff": "1",
                 "Antece": "Dee Brown",
                 "game_status": "playing"
             },
@@ -680,9 +680,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1263,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 1264,
+                "Diff": "36",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -1309,13 +1309,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (19 points today) has passed Metta World Peace and is now ranked 232nd all-time with 13,060.",
-            "foto": [
-                "collages/1773602424977562_collage_1773602424888773.png"
-            ],
-            "timestamp": 1773602424
-        },
         {
             "texto": "📢🔝💯 James Harden today surpasses Juwan Howard and now ranked 48th all time with 1,209 games",
             "foto": [
@@ -2008,16 +2001,16 @@
                 "collages/1773875909522684_collage_1773875909428950.png"
             ],
             "timestamp": 1773875909
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Robert Covington and is now ranked 89th all-time with 1,264.",
+            "foto": [
+                "collages/1773876108955083_collage_1773876108861334.png"
+            ],
+            "timestamp": 1773876108
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Paolo Banchero (6 assists today) has passed Franz Wagner and is now ranked 13th in Magic history with 1,170.",
-            "foto": [],
-            "timestamp": 1772764059,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Draymond Green (10 points today) has passed Monta Ellis and is now ranked 13th in Warriors history with 8,090.",
             "foto": [],
@@ -2710,9 +2703,16 @@
             "timestamp": 1773805600,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Jayson Tatum (2 assists today) has passed Antoine Walker and is now ranked 14th in Celtics history with 2,267.",
+            "foto": [],
+            "timestamp": 1773876108,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1372,
-    "total_franchise_historicas": 409,
-    "cache_buster": 1773876070
+    "total_notificaciones_historicas": 1373,
+    "total_franchise_historicas": 410,
+    "cache_buster": 1773876109
 }
