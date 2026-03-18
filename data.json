@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:39:21",
+    "ultima_actualizacion": "01:41:46",
     "tablas": {
         "pts": [
             {
@@ -496,10 +496,10 @@
                 "Rank": 115,
                 "Nombre": "Norman Powell",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1199,
-                "Diff": "1",
-                "Antece": "1200",
+                "Hoy": 1,
+                "Total": 1200,
+                "Diff": "13",
+                "Antece": "Jeff Green",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -986,9 +986,9 @@
                 "Rank": 4,
                 "Nombre": "LaMelo Ball",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 2127,
-                "Diff": "373",
+                "Hoy": 8,
+                "Total": 2128,
+                "Diff": "372",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1257,13 +1257,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Tyler Herro",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 1905,
-                "Diff": "0",
-                "Antece": "Jimmy Butler",
+                "Hoy": 7,
+                "Total": 1906,
+                "Diff": "94",
+                "Antece": "2000",
                 "game_status": "playing"
             },
             {
@@ -1280,9 +1280,9 @@
                 "Rank": 9,
                 "Nombre": "Tyler Herro",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1543,
-                "Diff": "246",
+                "Hoy": 5,
+                "Total": 1544,
+                "Diff": "245",
                 "Antece": "Jimmy Butler",
                 "game_status": "playing"
             },
@@ -1484,9 +1484,9 @@
                 "Rank": 9,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5625,
-                "Diff": "375",
+                "Hoy": 7,
+                "Total": 5627,
+                "Diff": "373",
                 "Antece": "6000",
                 "game_status": "playing"
             },
@@ -2548,13 +2548,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jaylen Brown (16 points today) has passed Kevin Johnson and is now ranked 230th all-time with 13,129.",
-            "foto": [
-                "collages/1773532998135030_collage_1773532998048057.png"
-            ],
-            "timestamp": 1773532998
-        },
-        {
             "texto": "📢HOF🏛️ Bam Adebayo (1 rebound today) has passed Julius Erving and is now ranked 232nd all-time with 5,602.",
             "foto": [
                 "collages/1773533989990936_collage_1773533989902965.png"
@@ -3246,16 +3239,16 @@
                 "collages/1773793879014022_collage_1773793878915055.png"
             ],
             "timestamp": 1773793879
+        },
+        {
+            "texto": "Norman Powell (1 three-pointer today) becomes the 115th player to reach 1,200",
+            "foto": [
+                "collages/1773794506648498_collage_1773794506580520.png"
+            ],
+            "timestamp": 1773794506
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Kawhi Leonard (6 rebounds today) becomes the 20th player to reach 2,000 rebounds with Clippers.",
-            "foto": [],
-            "timestamp": 1772687382,
-            "team": "LAC",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Paolo Banchero (1 point today) becomes the 14th player to reach 5,500 points with Magic.",
             "foto": [],
@@ -3948,9 +3941,16 @@
             "timestamp": 1773793954,
             "team": "CHA",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyler Herro (7 rebounds today) has passed Jimmy Butler and is now ranked 13th in Heat history with 1,906.",
+            "foto": [],
+            "timestamp": 1773794506,
+            "team": "MIA",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1342,
-    "total_franchise_historicas": 401,
-    "cache_buster": 1773794361
+    "total_notificaciones_historicas": 1343,
+    "total_franchise_historicas": 402,
+    "cache_buster": 1773794506
 }
