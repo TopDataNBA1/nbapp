@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:29:46",
+    "ultima_actualizacion": "02:30:23",
     "tablas": {
         "pts": [
             {
@@ -562,11 +562,11 @@
                 "Rank": 139,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1112,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1113,
+                "Diff": "",
                 "Antece": "Gary Trent Jr.",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -661,9 +661,9 @@
                 "Rank": 205,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 3,
-                "Total": 951,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 952,
+                "Diff": "3",
                 "Antece": "Jalen Brunson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1746,9 +1746,9 @@
                 "Rank": 19,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 3090,
-                "Diff": "162",
+                "Hoy": 8,
+                "Total": 3091,
+                "Diff": "161",
                 "Antece": "Phil Jackson",
                 "game_status": "playing"
             },
@@ -1816,9 +1816,9 @@
                 "Rank": 23,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 299,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "0",
                 "Antece": "Al Harrington",
                 "game_status": "playing"
             }
@@ -2100,9 +2100,9 @@
                 "Rank": 20,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 932,
-                "Diff": "3",
+                "Hoy": 6,
+                "Total": 933,
+                "Diff": "2",
                 "Antece": "Dwight Howard",
                 "game_status": "playing"
             },
@@ -3250,13 +3250,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Kel'el Ware (2 blocks today) has passed Shane Battier and is now ranked 24th in Heat history with 128.",
-            "foto": [],
-            "timestamp": 1772759194,
-            "team": "MIA",
-            "type": "franchise"
-        },
-        {
             "texto": "Jabari Smith Jr. (7 rebounds today) has passed Trevor Ariza and is now ranked 22nd in Rockets history with 1,981.",
             "foto": [],
             "timestamp": 1772759668,
@@ -3948,9 +3941,16 @@
             "timestamp": 1773794735,
             "team": "MIL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) becomes the 23rd player to reach 300 three-pointers with Knicks.",
+            "foto": [],
+            "timestamp": 1773797423,
+            "team": "NYK",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1353,
-    "total_franchise_historicas": 404,
-    "cache_buster": 1773797386
+    "total_franchise_historicas": 405,
+    "cache_buster": 1773797423
 }
