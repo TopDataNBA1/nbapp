@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:31:19",
+    "ultima_actualizacion": "01:32:34",
     "tablas": {
         "pts": [
             {
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 9,
-                "Total": 29086,
-                "Diff": "914",
+                "Hoy": 14,
+                "Total": 29091,
+                "Diff": "909",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -973,13 +973,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "LaMelo Ball",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 1661,
-                "Diff": "0",
-                "Antece": "P.J. Washington",
+                "Hoy": 4,
+                "Total": 1662,
+                "Diff": "43",
+                "Antece": "Nicolas Batum",
                 "game_status": "playing"
             },
             {
@@ -1280,9 +1280,9 @@
                 "Rank": 9,
                 "Nombre": "Tyler Herro",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 1542,
-                "Diff": "247",
+                "Hoy": 4,
+                "Total": 1543,
+                "Diff": "246",
                 "Antece": "Jimmy Butler",
                 "game_status": "playing"
             },
@@ -1524,9 +1524,9 @@
                 "Rank": 7,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2402,
-                "Diff": "98",
+                "Hoy": 2,
+                "Total": 2403,
+                "Diff": "97",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1536,7 +1536,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 2313,
-                "Diff": "89",
+                "Diff": "90",
                 "Antece": "Naz Reid",
                 "game_status": "inactive"
             },
@@ -3250,13 +3250,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Derrick White (3 three-pointers today) has passed Payton Pritchard and is now ranked 6th in Celtics history with 815.",
-            "foto": [],
-            "timestamp": 1772673963,
-            "team": "BOS",
-            "type": "franchise"
-        },
-        {
             "texto": "Kawhi Leonard (6 rebounds today) becomes the 20th player to reach 2,000 rebounds with Clippers.",
             "foto": [],
             "timestamp": 1772687382,
@@ -3948,9 +3941,16 @@
             "timestamp": 1773793727,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "LaMelo Ball (4 rebounds today) has passed P.J. Washington and is now ranked 18th in Hornets history with 1,662.",
+            "foto": [],
+            "timestamp": 1773793954,
+            "team": "CHA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1342,
-    "total_franchise_historicas": 400,
-    "cache_buster": 1773793879
+    "total_franchise_historicas": 401,
+    "cache_buster": 1773793954
 }
