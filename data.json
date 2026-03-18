@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:11:38",
+    "ultima_actualizacion": "01:12:17",
     "tablas": {
         "pts": [
             {
@@ -537,7 +537,18 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 137,
+                "Rank": 136,
+                "Nombre": "Royce O'Neale",
+                "Team": "PHX",
+                "Hoy": 1,
+                "Total": 1114,
+                "Diff": "7",
+                "Antece": "Kyle Kuzma",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 138,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 0,
@@ -548,24 +559,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 138,
-                "Nombre": "Royce O'Neale",
-                "Team": "PHX",
-                "Hoy": 0,
-                "Total": 1113,
-                "Diff": "",
-                "Antece": "Gary Trent Jr.",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 139,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
                 "Hoy": 0,
                 "Total": 1112,
                 "Diff": "1",
-                "Antece": "Royce O'Neale",
+                "Antece": "Gary Trent Jr.",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -806,11 +806,11 @@
                 "Rank": 146,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 3832,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 3833,
+                "Diff": "",
                 "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1504,9 +1504,9 @@
                 "Rank": 20,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3568,
-                "Diff": "54",
+                "Hoy": 2,
+                "Total": 3570,
+                "Diff": "52",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -1724,9 +1724,9 @@
                 "Rank": 17,
                 "Nombre": "Rudy Gobert",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 283,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 284,
+                "Diff": "16",
                 "Antece": "300",
                 "game_status": "playing"
             }
@@ -2282,9 +2282,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 3826,
-                "Diff": "174",
+                "Hoy": 1,
+                "Total": 3827,
+                "Diff": "173",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -2332,9 +2332,9 @@
                 "Rank": 12,
                 "Nombre": "Royce O'Neale",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 423,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 424,
+                "Diff": "10",
                 "Antece": "Cameron Johnson",
                 "game_status": "playing"
             },
@@ -2342,9 +2342,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 724,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 725,
+                "Diff": "19",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             }
@@ -2547,13 +2547,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "LaMelo Ball (3 three-pointers today) has passed Nikola Jokić and is now ranked 223rd all-time with 910.",
-            "foto": [
-                "collages/1773520243322177_collage_1773520243236197.png"
-            ],
-            "timestamp": 1773520243
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ CJ McCollum (4 three-pointers today) has passed Paul Pierce and is now ranked 16th all-time with 2,144.",
             "foto": [
@@ -3246,6 +3239,13 @@
                 "collages/1773792380340330_collage_1773792380245361.png"
             ],
             "timestamp": 1773792380
+        },
+        {
+            "texto": "Royce O'Neale (1 three-pointer today) has passed Anfernee Simons and Gary Trent Jr. and is now ranked 136th all-time with 1,114.",
+            "foto": [
+                "collages/1773792737101159_collage_1773792737013188.png"
+            ],
+            "timestamp": 1773792737
         }
     ],
     "notificaciones_franchise": [
@@ -3950,7 +3950,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1337,
+    "total_notificaciones_historicas": 1338,
     "total_franchise_historicas": 399,
-    "cache_buster": 1773792698
+    "cache_buster": 1773792737
 }
