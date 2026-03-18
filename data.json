@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:35:17",
+    "ultima_actualizacion": "02:35:55",
     "tablas": {
         "pts": [
             {
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 19,
-                "Total": 29096,
-                "Diff": "904",
+                "Hoy": 21,
+                "Total": 29098,
+                "Diff": "902",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -702,24 +702,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 138,
+                "Rank": 137,
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 2,
+                "Total": 1114,
+                "Diff": "2",
+                "Antece": "Royce O'Neale",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 139,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1113,
                 "Diff": "",
                 "Antece": "Anfernee Simons",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 139,
-                "Nombre": "Mikal Bridges",
-                "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1113,
-                "Diff": "",
-                "Antece": "Gary Trent Jr.",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -2110,13 +2110,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 300,
+                "Hoy": 2,
+                "Total": 301,
                 "Diff": "0",
-                "Antece": "Al Harrington",
+                "Antece": "Danilo Gallinari",
                 "game_status": "playing"
             }
         ],
@@ -3009,13 +3009,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Marcus Smart (3 steals today) has passed Nicolas Batum and is now ranked 153rd all-time with 1,071.",
-            "foto": [
-                "collages/1773540478129420_collage_1773540478040449.png"
-            ],
-            "timestamp": 1773540478
-        },
-        {
             "texto": "Luke Kennard (1 three-pointer today) has passed Danny Ainge, Doug McDermott and Taurean Prince and is now ranked 178th all-time with 1,003.",
             "foto": [
                 "collages/1773540627176222_collage_1773540627107243.png"
@@ -3707,16 +3700,16 @@
                 "collages/1773797014200916_collage_1773797014105946.png"
             ],
             "timestamp": 1773797014
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Anfernee Simons and Gary Trent Jr. and is now ranked 137th all-time with 1,114.",
+            "foto": [
+                "collages/1773797754952730_collage_1773797754875905.png"
+            ],
+            "timestamp": 1773797754
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jabari Smith Jr. (7 rebounds today) has passed Trevor Ariza and is now ranked 22nd in Rockets history with 1,981.",
-            "foto": [],
-            "timestamp": 1772759668,
-            "team": "HOU",
-            "type": "franchise"
-        },
         {
             "texto": "Wendell Carter Jr. (1 block today) becomes the 14th player to reach 200 blocks with Magic.",
             "foto": [],
@@ -4409,9 +4402,16 @@
             "timestamp": 1773797423,
             "team": "NYK",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Al Harrington and is now ranked 22nd in Knicks history with 301.",
+            "foto": [],
+            "timestamp": 1773797755,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1353,
-    "total_franchise_historicas": 405,
-    "cache_buster": 1773797717
+    "total_notificaciones_historicas": 1354,
+    "total_franchise_historicas": 406,
+    "cache_buster": 1773797755
 }
