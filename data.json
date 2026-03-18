@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:55",
+    "ultima_actualizacion": "03:14:33",
     "tablas": {
         "pts": [
             {
@@ -250,9 +250,9 @@
                 "Rank": 59,
                 "Nombre": "Russell Westbrook",
                 "Team": "SAC",
-                "Hoy": 0,
-                "Total": 9021,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 9022,
+                "Diff": "18",
                 "Antece": "Elton Brand",
                 "Nota": "",
                 "game_status": "playing"
@@ -1224,9 +1224,9 @@
                 "Rank": 45,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 5930,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 5931,
+                "Diff": "8",
                 "Antece": "Sam Cassell",
                 "Nota": "",
                 "game_status": "playing"
@@ -1798,9 +1798,9 @@
                 "Rank": 17,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1345,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 1346,
+                "Diff": "20",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1865,13 +1865,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 288,
-                "Diff": "0",
-                "Antece": "Matthew Dellavedova",
+                "Hoy": 2,
+                "Total": 289,
+                "Diff": "8",
+                "Antece": "Chris Mills",
                 "game_status": "playing"
             },
             {
@@ -1920,9 +1920,9 @@
                 "Rank": 22,
                 "Nombre": "Jamal Murray",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2291,
-                "Diff": "111",
+                "Hoy": 1,
+                "Total": 2292,
+                "Diff": "110",
                 "Antece": "Will Barton",
                 "game_status": "playing"
             },
@@ -1930,9 +1930,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 5930,
-                "Diff": "70",
+                "Hoy": 2,
+                "Total": 5931,
+                "Diff": "69",
                 "Antece": "6000",
                 "game_status": "playing"
             },
@@ -2030,10 +2030,10 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "100",
+                "Antece": "700",
                 "game_status": "playing"
             }
         ],
@@ -4348,20 +4348,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Wendell Carter Jr. (1 block today) becomes the 14th player to reach 200 blocks with Magic.",
-            "foto": [],
-            "timestamp": 1772760434,
-            "team": "ORL",
-            "type": "franchise_milestone"
-        },
-        {
-            "texto": "Jalen Suggs (3 three-pointers today) has passed D.J. Augustin and is now ranked 15th in Magic history with 411.",
-            "foto": [],
-            "timestamp": 1772761342,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Klay Thompson (6 three-pointers today) has passed Kyrie Irving and is now ranked 15th in Mavericks history with 376.",
             "foto": [],
             "timestamp": 1772763055,
@@ -5046,9 +5032,23 @@
             "timestamp": 1773797755,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (2 three-pointers today) has passed Matthew Dellavedova and is now ranked 21st in Cavaliers history with 289.",
+            "foto": [],
+            "timestamp": 1773800073,
+            "team": "CLE",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jamal Murray today becomes the 6th player to reach 600 games with Nuggets.",
+            "foto": [],
+            "timestamp": 1773800073,
+            "team": "DEN",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1356,
-    "total_franchise_historicas": 406,
-    "cache_buster": 1773800035
+    "total_franchise_historicas": 408,
+    "cache_buster": 1773800073
 }
