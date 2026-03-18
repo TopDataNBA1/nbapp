@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:42:09",
+    "ultima_actualizacion": "00:43:58",
     "tablas": {
         "pts": [
             {
@@ -586,9 +586,9 @@
                 "Rank": 29,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 6687,
-                "Diff": "24",
+                "Hoy": 1,
+                "Total": 6688,
+                "Diff": "23",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -752,14 +752,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 103,
+                "Rank": 102,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1077,
-                "Diff": "",
-                "Antece": "Jeff Hornacek",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1078,
+                "Diff": "5",
+                "Antece": "Dell Curry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1460,9 +1460,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 2469,
-                "Diff": "31",
+                "Hoy": 1,
+                "Total": 2470,
+                "Diff": "30",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1587,13 +1587,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 437,
-                "Diff": "0",
-                "Antece": "Sam Perkins",
+                "Hoy": 1,
+                "Total": 438,
+                "Diff": "5",
+                "Antece": "Dick Snyder",
                 "game_status": "playing"
             },
             {
@@ -1603,7 +1603,7 @@
                 "Hoy": 0,
                 "Total": 421,
                 "Diff": "16",
-                "Antece": "Shai Gilgeous-Alexander",
+                "Antece": "Sam Perkins",
                 "game_status": "inactive"
             }
         ],
@@ -2131,13 +2131,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "T.J. McConnell (2 assists today) has passed Derrick Rose and is now ranked 151st all-time with 3,771.",
-            "foto": [
-                "collages/1773604223485072_collage_1773604223395384.png"
-            ],
-            "timestamp": 1773604223
-        },
         {
             "texto": "Jakob Poeltl (1 block today) has passed Jerami Grant and is now ranked 164th all-time with 780.",
             "foto": [
@@ -2830,16 +2823,16 @@
                 "collages/1773876365322126_collage_1773876365212766.png"
             ],
             "timestamp": 1773876365
+        },
+        {
+            "texto": "📢HOF🏛️ Jrue Holiday today surpasses Jeff Hornacek and Lenny Wilkens and now ranked 102nd all time with 1,078 games",
+            "foto": [
+                "collages/1773877438795047_collage_1773877438716939.png"
+            ],
+            "timestamp": 1773877438
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Yves Missi (2 blocks today) has passed Jaxson Hayes and is now ranked 12th in Pelicans history with 168.",
-            "foto": [],
-            "timestamp": 1772770032,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Trey Murphy III (2 steals today) becomes the 7th player to reach 300 steals with Pelicans.",
             "foto": [],
@@ -3532,9 +3525,16 @@
             "timestamp": 1773876959,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander today surpasses Sam Perkins and is now ranked 17th in Thunder history with 438 games.",
+            "foto": [],
+            "timestamp": 1773877438,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1374,
-    "total_franchise_historicas": 411,
-    "cache_buster": 1773877329
+    "total_notificaciones_historicas": 1375,
+    "total_franchise_historicas": 412,
+    "cache_buster": 1773877438
 }
