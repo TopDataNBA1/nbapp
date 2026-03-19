@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:25:03",
+    "ultima_actualizacion": "01:25:43",
     "tablas": {
         "pts": [
             {
@@ -127,9 +127,9 @@
                 "Rank": 128,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 9,
-                "Total": 16242,
-                "Diff": "20",
+                "Hoy": 12,
+                "Total": 16245,
+                "Diff": "17",
                 "Antece": "Randy Smith",
                 "Nota": "",
                 "game_status": "playing"
@@ -261,9 +261,9 @@
                 "Rank": 46,
                 "Nombre": "Kevin Love",
                 "Team": "UTA",
-                "Hoy": 1,
-                "Total": 9709,
-                "Diff": "291",
+                "Hoy": 2,
+                "Total": 9710,
+                "Diff": "290",
                 "Antece": "10000",
                 "Nota": "",
                 "game_status": "playing"
@@ -746,14 +746,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 80,
+                "Rank": 79,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 1325,
-                "Diff": "1",
-                "Antece": "Mitch Richmond",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 1326,
+                "Diff": "3",
+                "Antece": "Terrence Ross",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2082,9 +2082,9 @@
                 "Rank": 6,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 7992,
-                "Diff": "8",
+                "Hoy": 12,
+                "Total": 7995,
+                "Diff": "5",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -2132,9 +2132,9 @@
                 "Rank": 3,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 684,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 685,
+                "Diff": "15",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -2678,9 +2678,9 @@
                 "Rank": 6,
                 "Nombre": "Zion Williamson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1091,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 1092,
+                "Diff": "21",
                 "Antece": "CJ McCollum",
                 "game_status": "playing"
             },
@@ -2755,13 +2755,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Zion Williamson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 167,
-                "Diff": "0",
-                "Antece": "Jaxson Hayes",
+                "Hoy": 1,
+                "Total": 168,
+                "Diff": "2",
+                "Antece": "Brandon Ingram",
                 "game_status": "playing"
             },
             {
@@ -3174,9 +3174,9 @@
                 "Rank": 13,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2018,
-                "Diff": "46",
+                "Hoy": 2,
+                "Total": 2019,
+                "Diff": "45",
                 "Antece": "Morris Peterson",
                 "game_status": "playing"
             },
@@ -3573,13 +3573,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "T.J. McConnell (1 steal today) becomes the 243rd player to reach 900",
-            "foto": [
-                "collages/1773606680913216_collage_1773606680848836.png"
-            ],
-            "timestamp": 1773606680
-        },
         {
             "texto": "📢HOF🏛️ T.J. McConnell (1 steal today) has passed Steve Nash and is now ranked 243rd all-time with 900.",
             "foto": [
@@ -4272,16 +4265,16 @@
                 "collages/1773879712081008_collage_1773879711987267.png"
             ],
             "timestamp": 1773879712
+        },
+        {
+            "texto": "📢🔝💯 Kawhi Leonard (2 three-pointers today) has passed Ryan Anderson and is now ranked 79th all-time with 1,326.",
+            "foto": [
+                "collages/1773879942899351_collage_1773879942821228.png"
+            ],
+            "timestamp": 1773879942
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Alperen Şengün (1 assist today) becomes the 16th player to reach 1,500 assists with Rockets.",
-            "foto": [],
-            "timestamp": 1772846288,
-            "team": "HOU",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Tyler Herro (2 steals today) has passed Keith Askins and is now ranked 19th in Heat history with 279.",
             "foto": [],
@@ -4974,9 +4967,16 @@
             "timestamp": 1773879751,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Zion Williamson (1 block today) has passed Jaxson Hayes and is now ranked 13th in Pelicans history with 168.",
+            "foto": [],
+            "timestamp": 1773879942,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1379,
-    "total_franchise_historicas": 415,
-    "cache_buster": 1773879903
+    "total_notificaciones_historicas": 1380,
+    "total_franchise_historicas": 416,
+    "cache_buster": 1773879943
 }
