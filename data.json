@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:18:20",
+    "ultima_actualizacion": "02:18:57",
     "tablas": {
         "pts": [
             {
@@ -659,9 +659,9 @@
                 "Rank": 209,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 646,
-                "Diff": "4",
+                "Hoy": 0,
+                "Total": 645,
+                "Diff": "5",
                 "Antece": "Terry Cummings",
                 "Nota": "",
                 "game_status": "playing"
@@ -1334,9 +1334,9 @@
                 "Rank": 149,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 9,
-                "Total": 3799,
-                "Diff": "5",
+                "Hoy": 10,
+                "Total": 3800,
+                "Diff": "4",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -1586,14 +1586,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 217,
+                "Rank": 216,
                 "Nombre": "Khris Middleton",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 941,
-                "Diff": "",
-                "Antece": "George Gervin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 942,
+                "Diff": "1",
+                "Antece": "P.J. Tucker",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2078,7 +2078,7 @@
                 "Rank": 21,
                 "Nombre": "Daniel Gafford",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 220,
                 "Diff": "4",
                 "Antece": "Mark Aguirre",
@@ -4026,9 +4026,9 @@
                 "Rank": 6,
                 "Nombre": "T.J. McConnell",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 2337,
-                "Diff": "163",
+                "Hoy": 10,
+                "Total": 2338,
+                "Diff": "162",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -4159,13 +4159,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jerami Grant (1 three-pointer today) has passed Allen Iverson and is now ranked 158th all-time with 1,060.",
-            "foto": [
-                "collages/1773612763256268_collage_1773612763162237.png"
-            ],
-            "timestamp": 1773612763
-        },
         {
             "texto": "Andre Drummond today surpasses Alton Lister and now ranked 210th all time with 954 games",
             "foto": [
@@ -4858,6 +4851,13 @@
                 "collages/1773883027151321_collage_1773883027057561.png"
             ],
             "timestamp": 1773883027
+        },
+        {
+            "texto": "📢HOF🏛️ Khris Middleton (2 steals today) has passed George Gervin and is now ranked 216th all-time with 942.",
+            "foto": [
+                "collages/1773883137600342_collage_1773883137506595.png"
+            ],
+            "timestamp": 1773883137
         }
     ],
     "notificaciones_franchise": [
@@ -5562,7 +5562,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1392,
+    "total_notificaciones_historicas": 1393,
     "total_franchise_historicas": 419,
-    "cache_buster": 1773883100
+    "cache_buster": 1773883137
 }
