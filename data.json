@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:00:44",
+    "ultima_actualizacion": "01:01:22",
     "tablas": {
         "pts": [
             {
@@ -904,14 +904,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 90,
+                "Rank": 89,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 1229,
-                "Diff": "",
-                "Antece": "Brevin Knight",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1230,
+                "Diff": "1",
+                "Antece": "Rudy Gay",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1098,9 +1098,9 @@
                 "Rank": 13,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 4339,
-                "Diff": "161",
+                "Hoy": 6,
+                "Total": 4340,
+                "Diff": "160",
                 "Antece": "4500",
                 "game_status": "playing"
             },
@@ -1340,9 +1340,9 @@
                 "Rank": 3,
                 "Nombre": "Draymond Green",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 1229,
-                "Diff": "71",
+                "Hoy": 1,
+                "Total": 1230,
+                "Diff": "70",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -2730,13 +2730,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jakob Poeltl (1 block today) has passed Jerami Grant and is now ranked 164th all-time with 780.",
-            "foto": [
-                "collages/1773604223679192_collage_1773604223592070.png"
-            ],
-            "timestamp": 1773604223
-        },
-        {
             "texto": "Bobby Portis (1 three-pointer today) has passed Miles Bridges and is now ranked 243rd all-time with 863.",
             "foto": [
                 "collages/1773605338636867_collage_1773605338542792.png"
@@ -3428,6 +3421,13 @@
                 "collages/1773877438795047_collage_1773877438716939.png"
             ],
             "timestamp": 1773877438
+        },
+        {
+            "texto": "📢🔝💯 Draymond Green (1 steal today) has passed Brevin Knight and is now ranked 89th all-time with 1,230.",
+            "foto": [
+                "collages/1773878482669664_collage_1773878482575919.png"
+            ],
+            "timestamp": 1773878482
         }
     ],
     "notificaciones_franchise": [
@@ -4132,7 +4132,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1375,
+    "total_notificaciones_historicas": 1376,
     "total_franchise_historicas": 414,
-    "cache_buster": 1773878444
+    "cache_buster": 1773878482
 }
