@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:30:26",
+    "ultima_actualizacion": "03:31:07",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 35,
-                "Total": 29139,
-                "Diff": "861",
+                "Hoy": 36,
+                "Total": 29140,
+                "Diff": "860",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -911,7 +911,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 138,
+                "Rank": 137,
+                "Nombre": "Gary Trent Jr.",
+                "Team": "MIL",
+                "Hoy": 1,
+                "Total": 1114,
+                "Diff": "2",
+                "Antece": "Royce O'Neale",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 139,
                 "Nombre": "Anfernee Simons",
                 "Team": "CHI",
                 "Hoy": 0,
@@ -920,17 +931,6 @@
                 "Antece": "Mikal Bridges",
                 "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 139,
-                "Nombre": "Gary Trent Jr.",
-                "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1113,
-                "Diff": "",
-                "Antece": "Anfernee Simons",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 143,
@@ -2381,9 +2381,9 @@
                 "Rank": 20,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 278,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 279,
+                "Diff": "21",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -3501,13 +3501,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Marcus Smart (2 three-pointers today) has passed Mo Williams and is now ranked 145th all-time with 1,095.",
-            "foto": [
-                "collages/1773715075001379_collage_1773715074896416.png"
-            ],
-            "timestamp": 1773715075
-        },
-        {
             "texto": "Clint Capela (7 rebounds today) has passed Truck Robinson and is now ranked 107th all-time with 7,268.",
             "foto": [
                 "collages/1773718764922500_collage_1773718764823585.png"
@@ -4199,6 +4192,13 @@
                 "collages/1773973826856727_collage_1773973826774302.png"
             ],
             "timestamp": 1773973826
+        },
+        {
+            "texto": "Gary Trent Jr. (1 three-pointer today) has passed Anfernee Simons and is now ranked 137th all-time with 1,114.",
+            "foto": [
+                "collages/1773973867813226_collage_1773973867720997.png"
+            ],
+            "timestamp": 1773973867
         }
     ],
     "notificaciones_franchise": [
@@ -4903,7 +4903,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1425,
+    "total_notificaciones_historicas": 1426,
     "total_franchise_historicas": 431,
-    "cache_buster": 1773973826
+    "cache_buster": 1773973867
 }
