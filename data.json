@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:44:32",
+    "ultima_actualizacion": "00:45:08",
     "tablas": {
         "pts": [
             {
@@ -239,11 +239,11 @@
                 "Rank": 168,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 6400,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 6401,
+                "Diff": "",
                 "Antece": "Armen Gilliam",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -252,7 +252,7 @@
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 6391,
-                "Diff": "9",
+                "Diff": "10",
                 "Antece": "Draymond Green",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1334,9 +1334,9 @@
                 "Rank": 5,
                 "Nombre": "Draymond Green",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 6401,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 6402,
+                "Diff": "14",
                 "Antece": "Clyde Lee",
                 "game_status": "playing"
             },
@@ -2246,9 +2246,9 @@
                 "Rank": 9,
                 "Nombre": "Nic Claxton",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2837,
-                "Diff": "81",
+                "Hoy": 1,
+                "Total": 2838,
+                "Diff": "80",
                 "Antece": "Chris Morris",
                 "game_status": "playing"
             },
@@ -2263,13 +2263,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Nic Claxton",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 373,
+                "Hoy": 1,
+                "Total": 374,
                 "Diff": "0",
-                "Antece": "Jayson Williams",
+                "Antece": "Vince Carter",
                 "game_status": "playing"
             }
         ],
@@ -3082,13 +3082,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Scottie Barnes (1 three-pointer today) has passed Patrick Patterson and is now ranked 15th in Raptors history with 352.",
-            "foto": [],
-            "timestamp": 1773008040,
-            "team": "TOR",
-            "type": "franchise"
-        },
-        {
             "texto": "Tyler Herro (1 steal today) has passed Keith Askins and is now ranked 19th in Heat history with 279.",
             "foto": [],
             "timestamp": 1773008181,
@@ -3780,9 +3773,16 @@
             "timestamp": 1773973556,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Nic Claxton today surpasses Jayson Williams and is now ranked 20th in Nets history with 374 games.",
+            "foto": [],
+            "timestamp": 1774050308,
+            "team": "NJN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1431,
-    "total_franchise_historicas": 431,
-    "cache_buster": 1774050272
+    "total_franchise_historicas": 432,
+    "cache_buster": 1774050308
 }
