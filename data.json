@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:42:45",
+    "ultima_actualizacion": "00:43:21",
     "tablas": {
         "pts": [
             {
@@ -239,11 +239,11 @@
                 "Rank": 168,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 6399,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 6400,
+                "Diff": "1",
                 "Antece": "Armen Gilliam",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -252,7 +252,7 @@
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 6391,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Draymond Green",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1104,14 +1104,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 225,
+                "Rank": 222,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 937,
-                "Diff": "",
-                "Antece": "Derrick McKey",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 938,
+                "Diff": "2",
+                "Antece": "JJ Redick",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
@@ -1334,9 +1334,9 @@
                 "Rank": 5,
                 "Nombre": "Draymond Green",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 6400,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 6401,
+                "Diff": "15",
                 "Antece": "Clyde Lee",
                 "game_status": "playing"
             },
@@ -1464,9 +1464,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 937,
-                "Diff": "63",
+                "Hoy": 1,
+                "Total": 938,
+                "Diff": "62",
                 "Antece": "1000",
                 "game_status": "playing"
             }
@@ -2380,13 +2380,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Draymond Green (2 steals today) has passed Kevin Durant and Tyrone Corbin and is now ranked 90th all-time with 1,229.",
-            "foto": [
-                "collages/1773741884709511_collage_1773741884587552.png"
-            ],
-            "timestamp": 1773741884
-        },
-        {
             "texto": "Khris Middleton (2 steals today) has passed Gerald Henderson and Robert Covington and is now ranked 219th all-time with 940.",
             "foto": [
                 "collages/1773741884952432_collage_1773741884873458.png"
@@ -3078,6 +3071,13 @@
                 "collages/1773977113757725_collage_1773977113671008.png"
             ],
             "timestamp": 1773977113
+        },
+        {
+            "texto": "Draymond Green today surpasses Derrick McKey and Lindsey Hunter and now ranked 222nd all time with 938 games",
+            "foto": [
+                "collages/1774050201357298_collage_1774050201279179.png"
+            ],
+            "timestamp": 1774050201
         }
     ],
     "notificaciones_franchise": [
@@ -3782,7 +3782,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1430,
+    "total_notificaciones_historicas": 1431,
     "total_franchise_historicas": 431,
-    "cache_buster": 1774050165
+    "cache_buster": 1774050201
 }
