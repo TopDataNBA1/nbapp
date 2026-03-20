@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:49",
+    "ultima_actualizacion": "03:02:26",
     "tablas": {
         "pts": [
             {
@@ -824,24 +824,24 @@
             },
             {
                 "Rank": 92,
-                "Nombre": "Andrew Wiggins",
-                "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1260,
-                "Diff": "2",
+                "Nombre": "Bogdan Bogdanović",
+                "Team": "LAC",
+                "Hoy": 3,
+                "Total": 1261,
+                "Diff": "1",
                 "Antece": "D.J. Augustin",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
                 "Rank": 93,
-                "Nombre": "Bogdan Bogdanović",
-                "Team": "LAC",
-                "Hoy": 2,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 0,
                 "Total": 1260,
-                "Diff": "",
-                "Antece": "Andrew Wiggins",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Bogdan Bogdanović",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -851,7 +851,7 @@
                 "Hoy": 0,
                 "Total": 1257,
                 "Diff": "3",
-                "Antece": "Bogdan Bogdanović",
+                "Antece": "Andrew Wiggins",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -3501,13 +3501,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (27 points today) has passed Lenny Wilkens and is now ranked 87th all-time with 17,774.",
-            "foto": [
-                "collages/1773709101668560_collage_1773709101574610.png"
-            ],
-            "timestamp": 1773709101
-        },
-        {
             "texto": "Jerami Grant (2 three-pointers today) has passed George Hill and is now ranked 157th all-time with 1,067.",
             "foto": [
                 "collages/1773709587756823_collage_1773709587663849.png"
@@ -4199,6 +4192,13 @@
                 "collages/1773971705486710_collage_1773971705396054.png"
             ],
             "timestamp": 1773971705
+        },
+        {
+            "texto": "📢🔝💯 Bogdan Bogdanović (3 three-pointers today) has passed Andrew Wiggins and is now ranked 92nd all-time with 1,261.",
+            "foto": [
+                "collages/1773972146277393_collage_1773972146189934.png"
+            ],
+            "timestamp": 1773972146
         }
     ],
     "notificaciones_franchise": [
@@ -4903,7 +4903,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1416,
+    "total_notificaciones_historicas": 1417,
     "total_franchise_historicas": 430,
-    "cache_buster": 1773972109
+    "cache_buster": 1773972146
 }
