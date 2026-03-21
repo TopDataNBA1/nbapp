@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:00:11",
+    "ultima_actualizacion": "02:00:47",
     "tablas": {
         "pts": [
             {
@@ -192,14 +192,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 39,
+                "Rank": 38,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 10466,
-                "Diff": "1",
-                "Antece": "Tyson Chandler",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 10467,
+                "Diff": "15",
+                "Antece": "Ben Wallace",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -938,9 +938,9 @@
                 "Rank": 29,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 6,
-                "Total": 6701,
-                "Diff": "10",
+                "Hoy": 7,
+                "Total": 6702,
+                "Diff": "9",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1102,7 +1102,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 89,
+                "Rank": 88,
+                "Nombre": "Kevin Durant",
+                "Team": "HOU",
+                "Hoy": 2,
+                "Total": 1231,
+                "Diff": "17",
+                "Antece": "Grant Hill",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 90,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
                 "Hoy": 0,
@@ -1110,17 +1121,6 @@
                 "Diff": "1",
                 "Antece": "Rudy Gay",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 90,
-                "Nombre": "Kevin Durant",
-                "Team": "HOU",
-                "Hoy": 1,
-                "Total": 1230,
-                "Diff": "",
-                "Antece": "Draymond Green",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -2128,9 +2128,9 @@
                 "Rank": 20,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 3607,
-                "Diff": "15",
+                "Hoy": 11,
+                "Total": 3609,
+                "Diff": "13",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -2138,9 +2138,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 3347,
-                "Diff": "153",
+                "Hoy": 5,
+                "Total": 3348,
+                "Diff": "152",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -2552,9 +2552,9 @@
                 "Rank": 25,
                 "Nombre": "Deni Avdija",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 234,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 235,
+                "Diff": "3",
                 "Antece": "Gary Trent Jr.",
                 "game_status": "playing"
             },
@@ -2889,13 +2889,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Kyle Kuzma (1 three-pointer today) has passed Donte DiVincenzo and is now ranked 134th all-time with 1,122.",
-            "foto": [
-                "collages/1773793727493478_collage_1773793727404502.png"
-            ],
-            "timestamp": 1773793727
-        },
         {
             "texto": "Ivica Zubac (2 blocks today) has passed Darko Miličić and is now ranked 227th all-time with 614.",
             "foto": [
@@ -3588,6 +3581,13 @@
                 "collages/1774053717907812_collage_1774053717814067.png"
             ],
             "timestamp": 1774053717
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant (2 steals today) has passed Draymond Green and is now ranked 88th all-time with 1,231.",
+            "foto": [
+                "collages/1774054847145956_collage_1774054847067830.png"
+            ],
+            "timestamp": 1774054847
         }
     ],
     "notificaciones_franchise": [
@@ -4292,7 +4292,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1440,
+    "total_notificaciones_historicas": 1441,
     "total_franchise_historicas": 436,
-    "cache_buster": 1774054811
+    "cache_buster": 1774054847
 }
