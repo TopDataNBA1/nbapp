@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:28:59",
+    "ultima_actualizacion": "03:29:35",
     "tablas": {
         "pts": [
             {
@@ -779,14 +779,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 157,
+                "Rank": 156,
                 "Nombre": "Jerami Grant",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 1070,
-                "Diff": "",
-                "Antece": "Derek Harper",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1071,
+                "Diff": "4",
+                "Antece": "Lindsey Hunter",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -938,9 +938,9 @@
                 "Rank": 29,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 11,
-                "Total": 6706,
-                "Diff": "5",
+                "Hoy": 12,
+                "Total": 6707,
+                "Diff": "4",
                 "Antece": "Kevin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -2519,13 +2519,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 8,
                 "Nombre": "Jerami Grant",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 492,
-                "Diff": "0",
-                "Antece": "Clifford Robinson",
+                "Hoy": 4,
+                "Total": 493,
+                "Diff": "7",
+                "Antece": "500",
                 "game_status": "playing"
             },
             {
@@ -2889,13 +2889,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (5 points today) has passed Mike Mitchell and is now ranked 163rd all-time with 15,017.",
-            "foto": [
-                "collages/1773795765311860_collage_1773795765214875.png"
-            ],
-            "timestamp": 1773795765
-        },
         {
             "texto": "T.J. McConnell (10 assists today) has passed Lou Williams and is now ranked 149th all-time with 3,790.",
             "foto": [
@@ -3588,16 +3581,16 @@
                 "collages/1774059781201511_collage_1774059781123393.png"
             ],
             "timestamp": 1774059781
+        },
+        {
+            "texto": "Jerami Grant (4 three-pointers today) has passed Derek Harper and is now ranked 156th all-time with 1,071.",
+            "foto": [
+                "collages/1774060175058097_collage_1774060174964331.png"
+            ],
+            "timestamp": 1774060175
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Keldon Johnson today surpasses Vinny Del Negro and is now ranked 19th in Spurs history with 434 games.",
-            "foto": [],
-            "timestamp": 1773016488,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "Yves Missi (1 block today) has passed Brandon Ingram and is now ranked 11th in Pelicans history with 171.",
             "foto": [],
@@ -4290,9 +4283,16 @@
             "timestamp": 1774057514,
             "team": "HOU",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Jerami Grant (4 three-pointers today) has passed Steve Blake and Clifford Robinson and is now ranked 8th in Trail Blazers history with 493.",
+            "foto": [],
+            "timestamp": 1774060175,
+            "team": "POR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1449,
-    "total_franchise_historicas": 439,
-    "cache_buster": 1774060139
+    "total_notificaciones_historicas": 1450,
+    "total_franchise_historicas": 440,
+    "cache_buster": 1774060175
 }
