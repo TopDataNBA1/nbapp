@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:42:07",
+    "ultima_actualizacion": "00:42:46",
     "tablas": {
         "pts": [
             {
@@ -261,9 +261,9 @@
                 "Rank": 216,
                 "Nombre": "Taj Gibson",
                 "Team": "MEM",
-                "Hoy": 0,
-                "Total": 5736,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 5737,
+                "Diff": "8",
                 "Antece": "Tom Boerwinkle",
                 "Nota": "",
                 "game_status": "playing"
@@ -823,14 +823,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 221,
+                "Rank": 219,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 2,
-                "Total": 920,
-                "Diff": "",
-                "Antece": "José Calderón",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 921,
+                "Diff": "2",
+                "Antece": "Darrell Armstrong",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1275,9 +1275,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 6039,
-                "Diff": "461",
+                "Hoy": 12,
+                "Total": 6042,
+                "Diff": "458",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1355,9 +1355,9 @@
                 "Rank": 3,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 920,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 921,
+                "Diff": "8",
                 "Antece": "Dell Curry",
                 "game_status": "playing"
             },
@@ -1437,9 +1437,9 @@
                 "Rank": 20,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 5426,
-                "Diff": "74",
+                "Hoy": 12,
+                "Total": 5428,
+                "Diff": "72",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -2336,13 +2336,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Herbert Jones",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 726,
-                "Diff": "0",
-                "Antece": "Eric Gordon",
+                "Hoy": 1,
+                "Total": 727,
+                "Diff": "27",
+                "Antece": "Lonzo Ball",
                 "game_status": "playing"
             },
             {
@@ -2352,7 +2352,7 @@
                 "Hoy": 0,
                 "Total": 704,
                 "Diff": "22",
-                "Antece": "Herbert Jones",
+                "Antece": "Eric Gordon",
                 "game_status": "playing"
             },
             {
@@ -2389,9 +2389,9 @@
                 "Rank": 8,
                 "Nombre": "Herbert Jones",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 196,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 197,
+                "Diff": "3",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -2401,7 +2401,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 185,
-                "Diff": "11",
+                "Diff": "12",
                 "Antece": "Herbert Jones",
                 "game_status": "playing"
             },
@@ -3181,13 +3181,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (14 rebounds today) has passed Dave Cowens and is now ranked 39th all-time with 10,445.",
-            "foto": [
-                "collages/1773798094284605_collage_1773798094196632.png"
-            ],
-            "timestamp": 1773798094
-        },
-        {
             "texto": "📢🔝2️⃣5️⃣ Russell Westbrook (1 game today) becomes the 25th player to reach 1,300",
             "foto": [
                 "collages/1773799923302308_collage_1773799923233136.png"
@@ -3879,16 +3872,16 @@
                 "collages/1774136034017347_collage_1774136033932985.png"
             ],
             "timestamp": 1774136034
+        },
+        {
+            "texto": "LaMelo Ball (3 three-pointers today) has passed George McCloud and José Calderón and is now ranked 219th all-time with 921.",
+            "foto": [
+                "collages/1774136566227646_collage_1774136566155121.png"
+            ],
+            "timestamp": 1774136566
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Brandin Podziemski (4 three-pointers today) has passed Mickaël Piétrus and is now ranked 17th in Warriors history with 318.",
-            "foto": [],
-            "timestamp": 1773111925,
-            "team": "GSW",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Clint Capela (3 rebounds today) becomes the 9th player to reach 3,500 rebounds with Rockets.",
             "foto": [],
@@ -4581,9 +4574,16 @@
             "timestamp": 1774135425,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Herbert Jones (1 assist today) has passed Eric Gordon and is now ranked 13th in Pelicans history with 727.",
+            "foto": [],
+            "timestamp": 1774136566,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1454,
-    "total_franchise_historicas": 445,
-    "cache_buster": 1774136527
+    "total_notificaciones_historicas": 1455,
+    "total_franchise_historicas": 446,
+    "cache_buster": 1774136566
 }
