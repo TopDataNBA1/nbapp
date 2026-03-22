@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:16:30",
+    "ultima_actualizacion": "03:17:11",
     "tablas": {
         "pts": [
             {
@@ -1242,25 +1242,25 @@
             },
             {
                 "Rank": 176,
+                "Nombre": "Taurean Prince",
+                "Team": "MIL",
+                "Hoy": 1,
+                "Total": 1010,
+                "Diff": "3",
+                "Antece": "Doug McDermott",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 177,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
                 "Hoy": 0,
                 "Total": 1009,
-                "Diff": "4",
-                "Antece": "Doug McDermott",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Taurean Prince",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 178,
-                "Nombre": "Taurean Prince",
-                "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1009,
-                "Diff": "",
-                "Antece": "Morris Peterson",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 179,
@@ -1269,7 +1269,7 @@
                 "Hoy": 3,
                 "Total": 1007,
                 "Diff": "2",
-                "Antece": "Taurean Prince",
+                "Antece": "Morris Peterson",
                 "Nota": "",
                 "game_status": "finished"
             },
@@ -3198,9 +3198,9 @@
                 "Rank": 13,
                 "Nombre": "Tyler Herro",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 1920,
-                "Diff": "80",
+                "Hoy": 6,
+                "Total": 1921,
+                "Diff": "79",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -3469,13 +3469,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 22,
+                "Rank": 23,
                 "Nombre": "Yves Missi",
                 "Stat": "REB",
                 "Hoy": 10,
                 "Total": 944,
-                "Diff": "18",
-                "Antece": "Dante Cunningham",
+                "Diff": "1",
+                "Antece": "CJ McCollum",
                 "game_status": "finished"
             },
             {
@@ -4630,13 +4630,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Klay Thompson (2 points today) has passed Jeff Malone and is now ranked 105th all-time with 17,232.",
-            "foto": [
-                "collages/1773881705998803_collage_1773881705889431.png"
-            ],
-            "timestamp": 1773881706
-        },
-        {
             "texto": "📢HOF🏛️ Klay Thompson today surpasses Bob Cousy and now ranked 240th all time with 925 games",
             "foto": [
                 "collages/1773881706248786_collage_1773881706155055.png"
@@ -5328,6 +5321,13 @@
                 "collages/1774145706523213_collage_1774145706436515.png"
             ],
             "timestamp": 1774145706
+        },
+        {
+            "texto": "Taurean Prince (1 three-pointer today) has passed Dillon Brooks and Morris Peterson and is now ranked 176th all-time with 1,010.",
+            "foto": [
+                "collages/1774145831766332_collage_1774145831687829.png"
+            ],
+            "timestamp": 1774145831
         }
     ],
     "notificaciones_franchise": [
@@ -6032,7 +6032,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1484,
+    "total_notificaciones_historicas": 1485,
     "total_franchise_historicas": 452,
-    "cache_buster": 1774145790
+    "cache_buster": 1774145831
 }
