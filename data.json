@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:55:51",
+    "ultima_actualizacion": "04:59:29",
     "tablas": {
         "pts": [
             {
@@ -1154,25 +1154,25 @@
             },
             {
                 "Rank": 136,
-                "Nombre": "Royce O'Neale",
-                "Team": "PHX",
-                "Hoy": 0,
+                "Nombre": "Gary Trent Jr.",
+                "Team": "MIL",
+                "Hoy": 2,
                 "Total": 1116,
                 "Diff": "7",
                 "Antece": "David Wesley",
                 "Nota": "",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
                 "Rank": 137,
-                "Nombre": "Gary Trent Jr.",
-                "Team": "MIL",
-                "Hoy": 1,
-                "Total": 1115,
-                "Diff": "1",
-                "Antece": "Royce O'Neale",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Royce O'Neale",
+                "Team": "PHX",
+                "Hoy": 0,
+                "Total": 1116,
+                "Diff": "",
+                "Antece": "Gary Trent Jr.",
+                "Nota": "Mismo total",
+                "game_status": "inactive"
             },
             {
                 "Rank": 144,
@@ -3390,9 +3390,9 @@
                 "Rank": 20,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 280,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 281,
+                "Diff": "19",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -4630,13 +4630,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Khris Middleton (2 steals today) has passed George Gervin and is now ranked 216th all-time with 942.",
-            "foto": [
-                "collages/1773883137600342_collage_1773883137506595.png"
-            ],
-            "timestamp": 1773883137
-        },
-        {
             "texto": "Donte DiVincenzo (3 three-pointers today) has passed David Wesley and is now ranked 133rd all-time with 1,124.",
             "foto": [
                 "collages/1773884336060484_collage_1773884335966751.png"
@@ -5328,6 +5321,13 @@
                 "collages/1774149172106459_collage_1774149172010770.png"
             ],
             "timestamp": 1774149172
+        },
+        {
+            "texto": "Gary Trent Jr. (2 three-pointers today) has passed Mikal Bridges and is now ranked 136th all-time with 1,116.",
+            "foto": [
+                "collages/1774151969390132_collage_1774151969298607.png"
+            ],
+            "timestamp": 1774151969
         }
     ],
     "notificaciones_franchise": [
@@ -6032,7 +6032,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1492,
+    "total_notificaciones_historicas": 1493,
     "total_franchise_historicas": 452,
-    "cache_buster": 1774151751
+    "cache_buster": 1774151969
 }
