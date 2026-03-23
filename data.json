@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:44:32",
+    "ultima_actualizacion": "00:46:16",
     "tablas": {
         "pts": [
             {
@@ -362,10 +362,10 @@
                 "Rank": 233,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 2,
+                "Total": 600,
+                "Diff": "3",
+                "Antece": "Jamaal Magloire",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1175,9 +1175,9 @@
                 "Rank": 23,
                 "Nombre": "Austin Reaves",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1445,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 1446,
+                "Diff": "9",
                 "Antece": "Hot Rod Hundley",
                 "game_status": "playing"
             },
@@ -1691,9 +1691,9 @@
                 "Rank": 17,
                 "Nombre": "Jalen Williams",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 320,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 321,
+                "Diff": "19",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -2157,10 +2157,10 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 2,
+                "Total": 600,
+                "Diff": "100",
+                "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
             {
@@ -2444,13 +2444,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Andre Drummond today surpasses Adrian Dantley and Dan Majerle and now ranked 208th all time with 956 games",
-            "foto": [
-                "collages/1773973480396059_collage_1773973480323699.png"
-            ],
-            "timestamp": 1773973480
-        },
         {
             "texto": "📢🔝💯 Luka Dončić (8 three-pointers today) has passed Jason Richardson and is now ranked 44th all-time with 1,609.",
             "foto": [
@@ -3143,23 +3136,16 @@
                 "collages/1774309269920277_collage_1774309269835305.png"
             ],
             "timestamp": 1774309269
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) becomes the 233rd player to reach 600",
+            "foto": [
+                "collages/1774309576116589_collage_1774309576056590.png"
+            ],
+            "timestamp": 1774309576
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Zion Williamson today surpasses Dante Cunningham and is now ranked 12th in Pelicans history with 264 games.",
-            "foto": [],
-            "timestamp": 1773274453,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Trey Murphy III (6 points today) has passed CJ McCollum and is now ranked 7th in Pelicans history with 4,707.",
-            "foto": [],
-            "timestamp": 1773274631,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "Herbert Jones (11 points today) has passed E'Twaun Moore and is now ranked 15th in Pelicans history with 2,823.",
             "foto": [],
@@ -3845,9 +3831,23 @@
             "timestamp": 1774307730,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Victor Wembanyama (2 blocks today) becomes the 6th player to reach 600 blocks with Spurs.",
+            "foto": [],
+            "timestamp": 1774309576,
+            "team": "SAS",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Jalen Williams (1 three-pointer today) has passed James Harden and is now ranked 17th in Thunder history with 321.",
+            "foto": [],
+            "timestamp": 1774309576,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1521,
-    "total_franchise_historicas": 455,
-    "cache_buster": 1774309472
+    "total_notificaciones_historicas": 1522,
+    "total_franchise_historicas": 457,
+    "cache_buster": 1774309576
 }
