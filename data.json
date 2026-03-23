@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:38:05",
+    "ultima_actualizacion": "01:40:22",
     "tablas": {
         "pts": [
             {
@@ -22,7 +22,7 @@
                 "Diff": "70",
                 "Antece": "Dominique Wilkins",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 37,
@@ -277,7 +277,7 @@
                 "Diff": "7",
                 "Antece": "Jack Twyman",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "blk": [
@@ -573,9 +573,9 @@
                 "Rank": 130,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1135,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 1136,
+                "Diff": "5",
                 "Antece": "Kevin Martin",
                 "Nota": "",
                 "game_status": "playing"
@@ -633,7 +633,7 @@
                 "Diff": "3",
                 "Antece": "Nick Anderson",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 174,
@@ -655,7 +655,7 @@
                 "Diff": "3",
                 "Antece": "Michael Porter Jr.",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 177,
@@ -822,7 +822,7 @@
                 "Diff": "3",
                 "Antece": "Ricky Rubio",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 79,
@@ -956,7 +956,7 @@
                 "Diff": "7",
                 "Antece": "Terry Cummings",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 158,
@@ -1002,7 +1002,7 @@
                 "Diff": "2",
                 "Antece": "Carmelo Anthony",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 45,
@@ -1123,13 +1123,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 675,
-                "Diff": "0",
-                "Antece": "Dee Brown",
+                "Hoy": 1,
+                "Total": 676,
+                "Diff": "24",
+                "Antece": "700",
                 "game_status": "playing"
             },
             {
@@ -1206,9 +1206,9 @@
                 "Rank": 7,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 835,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 836,
+                "Diff": "0",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -2206,7 +2206,7 @@
                 "Total": 206,
                 "Diff": "10",
                 "Antece": "Spencer Hawes",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 7,
@@ -2216,7 +2216,7 @@
                 "Total": 574,
                 "Diff": "26",
                 "Antece": "600",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 8,
@@ -2226,7 +2226,7 @@
                 "Total": 544,
                 "Diff": "30",
                 "Antece": "Keegan Murray",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "WAS": [
@@ -2966,13 +2966,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝3️⃣ Anthony Edwards (1 three-pointer today) becomes the 1st player to reach 1,300 three-pointers with Timberwolves.",
-            "foto": [],
-            "timestamp": 1773204490,
-            "team": "MIN",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Wendell Carter Jr. (1 block today) has passed Darko Miličić and is now ranked 13th in Magic history with 203.",
             "foto": [],
             "timestamp": 1773272890,
@@ -3664,9 +3657,16 @@
             "timestamp": 1774144180,
             "team": "MIA",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Jaylen Brown (1 steal today) has passed Dee Brown and is now ranked 7th in Celtics history with 676.",
+            "foto": [],
+            "timestamp": 1774226422,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1512,
-    "total_franchise_historicas": 452,
-    "cache_buster": 1774226285
+    "total_franchise_historicas": 453,
+    "cache_buster": 1774226422
 }
