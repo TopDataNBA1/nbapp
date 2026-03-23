@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:25:25",
+    "ultima_actualizacion": "01:26:40",
     "tablas": {
         "pts": [
             {
@@ -228,9 +228,9 @@
                 "Rank": 84,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 7925,
-                "Diff": "75",
+                "Hoy": 5,
+                "Total": 7926,
+                "Diff": "74",
                 "Antece": "8000",
                 "Nota": "",
                 "game_status": "playing"
@@ -337,14 +337,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 198,
+                "Rank": 197,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 679,
-                "Diff": "",
-                "Antece": "James Harden",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 680,
+                "Diff": "1",
+                "Antece": "Gerald Wallace",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1584,9 +1584,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 7248,
-                "Diff": "199",
+                "Hoy": 14,
+                "Total": 7250,
+                "Diff": "197",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1594,9 +1594,9 @@
                 "Rank": 19,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 3103,
-                "Diff": "149",
+                "Hoy": 4,
+                "Total": 3105,
+                "Diff": "147",
                 "Antece": "Phil Jackson",
                 "game_status": "playing"
             },
@@ -1624,9 +1624,9 @@
                 "Rank": 2,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 679,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 680,
+                "Diff": "20",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -1901,13 +1901,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Bam Adebayo (1 rebound today) has passed Derrick Favors and is now ranked 231st all-time with 5,609.",
-            "foto": [
-                "collages/1773967514767915_collage_1773967514677934.png"
-            ],
-            "timestamp": 1773967514
-        },
         {
             "texto": "📢🔝💯 Luka Dončić (5 three-pointers today) has passed Trevor Ariza and is now ranked 45th all-time with 1,606.",
             "foto": [
@@ -2600,6 +2593,13 @@
                 "collages/1774225524989072_collage_1774225524889117.png"
             ],
             "timestamp": 1774225525
+        },
+        {
+            "texto": "Mitchell Robinson (2 blocks today) has passed James Harden and is now ranked 197th all-time with 680.",
+            "foto": [
+                "collages/1774225562952303_collage_1774225562855336.png"
+            ],
+            "timestamp": 1774225562
         }
     ],
     "notificaciones_franchise": [
@@ -3304,7 +3304,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1510,
+    "total_notificaciones_historicas": 1511,
     "total_franchise_historicas": 452,
-    "cache_buster": 1774225525
+    "cache_buster": 1774225600
 }
