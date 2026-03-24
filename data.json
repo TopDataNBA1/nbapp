@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:29:01",
+    "ultima_actualizacion": "01:30:40",
     "tablas": {
         "pts": [
             {
@@ -162,9 +162,9 @@
                 "Rank": 74,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 8193,
-                "Diff": "216",
+                "Hoy": 2,
+                "Total": 8194,
+                "Diff": "215",
                 "Antece": "P.J. Brown",
                 "Nota": "",
                 "game_status": "playing"
@@ -496,11 +496,11 @@
                 "Rank": 69,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1394,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 1395,
+                "Diff": "",
                 "Antece": "Brent Barry",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -707,9 +707,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 11931,
-                "Diff": "69",
+                "Hoy": 7,
+                "Total": 11932,
+                "Diff": "68",
                 "Antece": "12000",
                 "Nota": "",
                 "game_status": "playing"
@@ -1165,9 +1165,9 @@
                 "Rank": 5,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 3723,
-                "Diff": "123",
+                "Hoy": 7,
+                "Total": 3724,
+                "Diff": "122",
                 "Antece": "Norm Nixon",
                 "game_status": "playing"
             },
@@ -1215,10 +1215,10 @@
                 "Rank": 5,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 599,
-                "Diff": "1",
-                "Antece": "600",
+                "Hoy": 1,
+                "Total": 600,
+                "Diff": "100",
+                "Antece": "700",
                 "game_status": "playing"
             },
             {
@@ -1753,9 +1753,9 @@
                 "Rank": 13,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 5788,
-                "Diff": "110",
+                "Hoy": 25,
+                "Total": 5791,
+                "Diff": "107",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -1943,9 +1943,9 @@
                 "Rank": 21,
                 "Nombre": "Paolo Banchero",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 365,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 366,
+                "Diff": "0",
                 "Antece": "Anfernee Hardaway",
                 "game_status": "playing"
             },
@@ -2331,9 +2331,9 @@
                 "Rank": 22,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1336,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 1337,
+                "Diff": "4",
                 "Antece": "Jerry Sichting",
                 "game_status": "playing"
             },
@@ -2361,9 +2361,9 @@
                 "Rank": 12,
                 "Nombre": "Aaron Nesmith",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 433,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 434,
+                "Diff": "0",
                 "Antece": "Justin Holiday",
                 "game_status": "playing"
             },
@@ -3147,13 +3147,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Trey Murphy III (3 steals today) has passed Jose Alvarado and is now ranked 6th in Pelicans history with 309.",
-            "foto": [],
-            "timestamp": 1773279754,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
             "texto": "Immanuel Quickley (3 three-pointers today) has passed Scottie Barnes and is now ranked 15th in Raptors history with 355.",
             "foto": [],
             "timestamp": 1773280401,
@@ -3845,9 +3838,16 @@
             "timestamp": 1774310565,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Austin Reaves (1 three-pointer today) becomes the 5th player to reach 600 three-pointers with Lakers.",
+            "foto": [],
+            "timestamp": 1774312240,
+            "team": "LAL",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1527,
-    "total_franchise_historicas": 458,
-    "cache_buster": 1774312141
+    "total_franchise_historicas": 459,
+    "cache_buster": 1774312240
 }
