@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:28",
+    "ultima_actualizacion": "03:03:07",
     "tablas": {
         "pts": [
             {
@@ -1836,13 +1836,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Moses Moody",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 434,
-                "Diff": "0",
-                "Antece": "Baron Davis",
+                "Hoy": 1,
+                "Total": 435,
+                "Diff": "65",
+                "Antece": "500",
                 "game_status": "playing"
             },
             {
@@ -1881,9 +1881,9 @@
                 "Rank": 20,
                 "Nombre": "Alperen Şengün",
                 "Stat": "PTS",
-                "Hoy": 26,
-                "Total": 5839,
-                "Diff": "71",
+                "Hoy": 29,
+                "Total": 5842,
+                "Diff": "68",
                 "Antece": "Kenny Smith",
                 "game_status": "playing"
             },
@@ -1901,10 +1901,10 @@
                 "Rank": 11,
                 "Nombre": "Alperen Şengün",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 10,
+                "Total": 3000,
+                "Diff": "189",
+                "Antece": "Ralph Sampson",
                 "game_status": "playing"
             },
             {
@@ -4423,20 +4423,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jamal Murray (1 steal today) becomes the 11th player to reach 600 steals with Nuggets.",
-            "foto": [],
-            "timestamp": 1773364516,
-            "team": "DEN",
-            "type": "franchise_milestone"
-        },
-        {
-            "texto": "📢🔝3️⃣ Giannis Antetokounmpo (31 points today) becomes the 1st player to reach 21,500 points with Bucks.",
-            "foto": [],
-            "timestamp": 1773366876,
-            "team": "MIL",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "📢🔝🔟 Payton Pritchard (2 three-pointers today) has passed Derrick White and is now ranked 6th in Celtics history with 825.",
             "foto": [],
             "timestamp": 1773369521,
@@ -5121,9 +5107,23 @@
             "timestamp": 1774315500,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Alperen Şengün (10 rebounds today) becomes the 11th player to reach 3,000 rebounds with Rockets.",
+            "foto": [],
+            "timestamp": 1774317787,
+            "team": "HOU",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Moses Moody (1 three-pointer today) has passed Baron Davis and is now ranked 10th in Warriors history with 435.",
+            "foto": [],
+            "timestamp": 1774317787,
+            "team": "GSW",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1534,
-    "total_franchise_historicas": 466,
-    "cache_buster": 1774317688
+    "total_franchise_historicas": 468,
+    "cache_buster": 1774317787
 }
