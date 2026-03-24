@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:11",
+    "ultima_actualizacion": "04:37:52",
     "tablas": {
         "pts": [
             {
@@ -147,25 +147,25 @@
             },
             {
                 "Rank": 123,
+                "Nombre": "Kawhi Leonard",
+                "Team": "LAC",
+                "Hoy": 22,
+                "Total": 16314,
+                "Diff": "6",
+                "Antece": "James Worthy",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 124,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 14,
                 "Total": 16313,
-                "Diff": "7",
-                "Antece": "James Worthy",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Kawhi Leonard",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 124,
-                "Nombre": "Kawhi Leonard",
-                "Team": "LAC",
-                "Hoy": 19,
-                "Total": 16311,
-                "Diff": "2",
-                "Antece": "Tobias Harris",
-                "Nota": "A tiro de 2",
-                "game_status": "playing"
             },
             {
                 "Rank": 141,
@@ -448,11 +448,11 @@
                 "Rank": 227,
                 "Nombre": "Nicolas Batum",
                 "Team": "LAC",
-                "Hoy": 2,
-                "Total": 5640,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 5641,
+                "Diff": "1",
                 "Antece": "Bam Adebayo",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -991,9 +991,9 @@
                 "Rank": 77,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 1334,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 1335,
+                "Diff": "16",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -1685,14 +1685,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 153,
+                "Rank": 152,
                 "Nombre": "Nicolas Batum",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 1072,
-                "Diff": "",
-                "Antece": "Derrick McKey",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1073,
+                "Diff": "5",
+                "Antece": "Marcus Smart",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2355,9 +2355,9 @@
                 "Rank": 6,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 8061,
-                "Diff": "439",
+                "Hoy": 22,
+                "Total": 8064,
+                "Diff": "436",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -2405,9 +2405,9 @@
                 "Rank": 3,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 693,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 694,
+                "Diff": "6",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -4277,20 +4277,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Rudy Gobert (6 rebounds today) has passed Tyson Chandler and is now ranked 38th all-time with 10,468.",
-            "foto": [
-                "collages/1774056231145758_collage_1774056231052012.png"
-            ],
-            "timestamp": 1774056231
-        },
-        {
-            "texto": "Jaylen Brown (20 points today) has passed Jalen Rose and is now ranked 228th all-time with 13,222.",
-            "foto": [
-                "collages/1774056484126581_collage_1774056484032833.png"
-            ],
-            "timestamp": 1774056484
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Jeff Green today surpasses Dwight Howard and now ranked 39th all time with 1,243 games",
             "foto": [
                 "collages/1774059674551381_collage_1774059674473258.png"
@@ -4975,6 +4961,20 @@
                 "collages/1774322968945448_collage_1774322968821486.png"
             ],
             "timestamp": 1774322968
+        },
+        {
+            "texto": "Kawhi Leonard (22 points today) has passed Tobias Harris and is now ranked 123rd all-time with 16,314.",
+            "foto": [
+                "collages/1774323471977682_collage_1774323471875707.png"
+            ],
+            "timestamp": 1774323471
+        },
+        {
+            "texto": "Nicolas Batum (2 steals today) has passed Derrick McKey and is now ranked 152nd all-time with 1,073.",
+            "foto": [
+                "collages/1774323472258739_collage_1774323472141761.png"
+            ],
+            "timestamp": 1774323472
         }
     ],
     "notificaciones_franchise": [
@@ -5679,7 +5679,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1545,
+    "total_notificaciones_historicas": 1547,
     "total_franchise_historicas": 472,
-    "cache_buster": 1774323371
+    "cache_buster": 1774323472
 }
