@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:17:10",
+    "ultima_actualizacion": "01:18:45",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 162,
+                "Rank": 161,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 15061,
-                "Diff": "1",
-                "Antece": "Al Horford",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 15063,
+                "Diff": "11",
+                "Antece": "Andrew Wiggins",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -364,9 +364,9 @@
                 "Rank": 204,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 956,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 957,
+                "Diff": "3",
                 "Antece": "Jalen Brunson",
                 "Nota": "",
                 "game_status": "playing"
@@ -691,9 +691,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 6827,
-                "Diff": "173",
+                "Hoy": 5,
+                "Total": 6829,
+                "Diff": "171",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -913,9 +913,9 @@
                 "Rank": 13,
                 "Nombre": "Herbert Jones",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 732,
-                "Diff": "22",
+                "Hoy": 4,
+                "Total": 733,
+                "Diff": "21",
                 "Antece": "Lonzo Ball",
                 "game_status": "playing"
             },
@@ -933,9 +933,9 @@
                 "Rank": 4,
                 "Nombre": "Herbert Jones",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 459,
-                "Diff": "41",
+                "Hoy": 1,
+                "Total": 460,
+                "Diff": "40",
                 "Antece": "500",
                 "game_status": "playing"
             },
@@ -1187,9 +1187,9 @@
                 "Rank": 13,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 5772,
-                "Diff": "126",
+                "Hoy": 4,
+                "Total": 5770,
+                "Diff": "128",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -1197,9 +1197,9 @@
                 "Rank": 19,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 4054,
-                "Diff": "140",
+                "Hoy": 2,
+                "Total": 4056,
+                "Diff": "138",
                 "Antece": "Rashard Lewis",
                 "game_status": "playing"
             },
@@ -1377,7 +1377,7 @@
                 "Rank": 21,
                 "Nombre": "Paolo Banchero",
                 "Stat": "3PM",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 363,
                 "Diff": "3",
                 "Antece": "Anfernee Hardaway",
@@ -1478,13 +1478,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luka Dončić (6 assists today) has passed Rory Sparrow and is now ranked 117th all-time with 4,193.",
-            "foto": [
-                "collages/1774140096499646_collage_1774140096375769.png"
-            ],
-            "timestamp": 1774140096
-        },
         {
             "texto": "Bam Adebayo (5 rebounds today) has passed Brian Grant and is now ranked 227th all-time with 5,623.",
             "foto": [
@@ -2177,6 +2170,13 @@
                 "collages/1774397450980945_collage_1774397450885869.png"
             ],
             "timestamp": 1774397450
+        },
+        {
+            "texto": "Donovan Mitchell (5 points today) has passed Al Horford and is now ranked 161st all-time with 15,063.",
+            "foto": [
+                "collages/1774397925845893_collage_1774397925761920.png"
+            ],
+            "timestamp": 1774397925
         }
     ],
     "notificaciones_franchise": [
@@ -2881,7 +2881,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1563,
+    "total_notificaciones_historicas": 1564,
     "total_franchise_historicas": 474,
-    "cache_buster": 1774397830
+    "cache_buster": 1774397925
 }
