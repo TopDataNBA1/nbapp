@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:31:04",
+    "ultima_actualizacion": "00:32:45",
     "tablas": {
         "pts": [
             {
@@ -581,14 +581,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 178,
+                "Rank": 177,
                 "Nombre": "Luke Kennard",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 1009,
-                "Diff": "",
-                "Antece": "Dillon Brooks",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1010,
+                "Diff": "2",
+                "Antece": "Taurean Prince",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1266,9 +1266,9 @@
                 "Rank": 23,
                 "Nombre": "Austin Reaves",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1451,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 1452,
+                "Diff": "3",
                 "Antece": "Hot Rod Hundley",
                 "game_status": "playing"
             },
@@ -2010,13 +2010,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Kawhi Leonard (2 three-pointers today) has passed Terrence Ross and is now ranked 78th all-time with 1,330.",
-            "foto": [
-                "collages/1774144678138070_collage_1774144678045037.png"
-            ],
-            "timestamp": 1774144678
-        },
-        {
             "texto": "Kawhi Leonard (23 points today) has passed Andre Miller and is now ranked 125th all-time with 16,281.",
             "foto": [
                 "collages/1774144914971855_collage_1774144914884133.png"
@@ -2708,6 +2701,13 @@
                 "collages/1774480655634455_collage_1774480655519182.png"
             ],
             "timestamp": 1774480655
+        },
+        {
+            "texto": "Luke Kennard (2 three-pointers today) has passed Dillon Brooks and Morris Peterson and is now ranked 177th all-time with 1,010.",
+            "foto": [
+                "collages/1774481565817251_collage_1774481565728148.png"
+            ],
+            "timestamp": 1774481565
         }
     ],
     "notificaciones_franchise": [
@@ -3412,7 +3412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1580,
+    "total_notificaciones_historicas": 1581,
     "total_franchise_historicas": 482,
-    "cache_buster": 1774481464
+    "cache_buster": 1774481565
 }
