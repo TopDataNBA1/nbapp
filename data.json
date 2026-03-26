@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:31",
+    "ultima_actualizacion": "03:58:10",
     "tablas": {
         "pts": [
             {
@@ -1318,13 +1318,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 75,
+                "Rank": 74,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 5,
-                "Total": 1359,
+                "Hoy": 6,
+                "Total": 1360,
                 "Diff": "",
-                "Antece": "Evan Fournier",
+                "Antece": "Dan Majerle",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1335,7 +1335,7 @@
                 "Hoy": 0,
                 "Total": 1356,
                 "Diff": "3",
-                "Antece": "Jamal Murray",
+                "Antece": "Evan Fournier",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -1552,11 +1552,11 @@
                 "Rank": 156,
                 "Nombre": "Jerami Grant",
                 "Team": "POR",
-                "Hoy": 2,
-                "Total": 1073,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 1074,
+                "Diff": "1",
                 "Antece": "Lindsey Hunter",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1626,14 +1626,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 184,
+                "Rank": 183,
                 "Nombre": "Darius Garland",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 995,
-                "Diff": "1",
-                "Antece": "Rafer Alston",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 996,
+                "Diff": "4",
+                "Antece": "1000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1642,8 +1642,8 @@
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 993,
-                "Diff": "2",
-                "Antece": "Darius Garland",
+                "Diff": "3",
+                "Antece": "Rafer Alston",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1884,9 +1884,9 @@
                 "Rank": 43,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 10,
-                "Total": 6002,
-                "Diff": "23",
+                "Hoy": 11,
+                "Total": 6003,
+                "Diff": "22",
                 "Antece": "Baron Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -3075,9 +3075,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 26,
-                "Total": 11352,
-                "Diff": "148",
+                "Hoy": 30,
+                "Total": 11356,
+                "Diff": "144",
                 "Antece": "11500",
                 "game_status": "playing"
             },
@@ -3105,9 +3105,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 10,
-                "Total": 6002,
-                "Diff": "498",
+                "Hoy": 11,
+                "Total": 6003,
+                "Diff": "497",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -3165,9 +3165,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 1359,
-                "Diff": "41",
+                "Hoy": 6,
+                "Total": 1360,
+                "Diff": "40",
                 "Antece": "1400",
                 "game_status": "playing"
             },
@@ -4767,9 +4767,9 @@
                 "Rank": 8,
                 "Nombre": "Jerami Grant",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 495,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 496,
+                "Diff": "4",
                 "Antece": "500",
                 "game_status": "playing"
             },
@@ -5495,13 +5495,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ Rudy Gobert (3 blocks today) has passed Elton Brand and is now ranked 24th all-time with 1,829.",
-            "foto": [
-                "collages/1774225524989072_collage_1774225524889117.png"
-            ],
-            "timestamp": 1774225525
-        },
-        {
             "texto": "Mitchell Robinson (2 blocks today) has passed James Harden and is now ranked 197th all-time with 680.",
             "foto": [
                 "collages/1774225562952303_collage_1774225562855336.png"
@@ -6193,6 +6186,13 @@
                 "collages/1774493690642673_collage_1774493690573877.png"
             ],
             "timestamp": 1774493690
+        },
+        {
+            "texto": "📢🔝💯 Jamal Murray (6 three-pointers today) has passed Evan Fournier and is now ranked 74th all-time with 1,360.",
+            "foto": [
+                "collages/1774493890568084_collage_1774493890480945.png"
+            ],
+            "timestamp": 1774493890
         }
     ],
     "notificaciones_franchise": [
@@ -6897,7 +6897,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1609,
+    "total_notificaciones_historicas": 1610,
     "total_franchise_historicas": 495,
-    "cache_buster": 1774493791
+    "cache_buster": 1774493890
 }
