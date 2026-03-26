@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:35:04",
+    "ultima_actualizacion": "02:36:43",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 12,
-                "Total": 29198,
-                "Diff": "802",
+                "Hoy": 13,
+                "Total": 29199,
+                "Diff": "801",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -800,25 +800,25 @@
             },
             {
                 "Rank": 230,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 6,
+                "Total": 609,
+                "Diff": "2",
+                "Antece": "Derrick McKey",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 231,
                 "Nombre": "Nic Claxton",
                 "Team": "BKN",
                 "Hoy": 0,
                 "Total": 608,
-                "Diff": "3",
-                "Antece": "Derrick McKey",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Victor Wembanyama",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 231,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 5,
-                "Total": 608,
-                "Diff": "",
-                "Antece": "Nic Claxton",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 238,
@@ -2215,9 +2215,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 676,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 677,
+                "Diff": "23",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -3311,9 +3311,9 @@
                 "Rank": 6,
                 "Nombre": "Tyler Herro",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 7538,
-                "Diff": "404",
+                "Hoy": 18,
+                "Total": 7540,
+                "Diff": "402",
                 "Antece": "LeBron James",
                 "game_status": "playing"
             },
@@ -3371,9 +3371,9 @@
                 "Rank": 19,
                 "Nombre": "Tyler Herro",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 282,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 283,
+                "Diff": "17",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -4049,9 +4049,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 5,
-                "Total": 608,
-                "Diff": "92",
+                "Hoy": 6,
+                "Total": 609,
+                "Diff": "91",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -4492,13 +4492,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 DeMar DeRozan today surpasses Otis Thorpe and now ranked 35th all time with 1,258 games",
-            "foto": [
-                "collages/1774217499528362_collage_1774217499430395.png"
-            ],
-            "timestamp": 1774217499
-        },
         {
             "texto": "Jamal Murray (3 assists today) has passed Rolando Blackman and is now ranked 249th all-time with 2,982.",
             "foto": [
@@ -5191,6 +5184,13 @@
                 "collages/1774488505465716_collage_1774488505382830.png"
             ],
             "timestamp": 1774488505
+        },
+        {
+            "texto": "Victor Wembanyama (6 blocks today) has passed Nic Claxton and is now ranked 230th all-time with 609.",
+            "foto": [
+                "collages/1774489002878387_collage_1774489002793426.png"
+            ],
+            "timestamp": 1774489002
         }
     ],
     "notificaciones_franchise": [
@@ -5895,7 +5895,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1598,
+    "total_notificaciones_historicas": 1599,
     "total_franchise_historicas": 486,
-    "cache_buster": 1774488904
+    "cache_buster": 1774489003
 }
