@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:14:42",
+    "ultima_actualizacion": "00:16:21",
     "tablas": {
         "pts": [
             {
@@ -129,11 +129,11 @@
                 "Rank": 127,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 6949,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 6950,
+                "Diff": "1",
                 "Antece": "Mychal Thompson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1015,9 +1015,9 @@
                 "Rank": 20,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2069,
-                "Diff": "61",
+                "Hoy": 1,
+                "Total": 2070,
+                "Diff": "60",
                 "Antece": "Elmore Smith",
                 "game_status": "playing"
             },
@@ -1092,13 +1092,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 323,
-                "Diff": "0",
-                "Antece": "Amir Coffey",
+                "Hoy": 1,
+                "Total": 324,
+                "Diff": "10",
+                "Antece": "Bob McAdoo",
                 "game_status": "playing"
             }
         ],
@@ -2053,13 +2053,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Miles Bridges (5 rebounds today) becomes the 4th player to reach 3,000 rebounds with Hornets.",
-            "foto": [],
-            "timestamp": 1773789698,
-            "team": "CHA",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Wendell Carter Jr. (4 points today) has passed Cole Anthony and is now ranked 19th in Magic history with 4,017.",
             "foto": [],
             "timestamp": 1773792626,
@@ -2751,9 +2744,16 @@
             "timestamp": 1774567492,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Kawhi Leonard today surpasses Amir Coffey and Michael Olowokandi and is now ranked 21st in Clippers history with 324 games.",
+            "foto": [],
+            "timestamp": 1774653381,
+            "team": "LAC",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1631,
-    "total_franchise_historicas": 497,
-    "cache_buster": 1774653282
+    "total_franchise_historicas": 498,
+    "cache_buster": 1774653381
 }
