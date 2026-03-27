@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:11:19",
+    "ultima_actualizacion": "00:13:02",
     "tablas": {
         "pts": [
             {
@@ -452,10 +452,10 @@
                 "Rank": 183,
                 "Nombre": "Darius Garland",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 999,
-                "Diff": "1",
-                "Antece": "1000",
+                "Hoy": 1,
+                "Total": 1000,
+                "Diff": "2",
+                "Antece": "Danny Ainge",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1299,9 +1299,9 @@
                 "Rank": 20,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 307,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 308,
+                "Diff": "11",
                 "Antece": "Bojan Bogdanović",
                 "game_status": "playing"
             },
@@ -1350,13 +1350,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luka Dončić (5 assists today) has passed Danny Ainge and is now ranked 116th all-time with 4,200.",
-            "foto": [
-                "collages/1774313329688486_collage_1774313329592600.png"
-            ],
-            "timestamp": 1774313329
-        },
         {
             "texto": "Harrison Barnes (7 points today) has passed Kemba Walker and is now ranked 181st all-time with 14,487.",
             "foto": [
@@ -2049,6 +2042,13 @@
                 "collages/1774574425064265_collage_1774574424961299.png"
             ],
             "timestamp": 1774574425
+        },
+        {
+            "texto": "Darius Garland (1 three-pointer today) becomes the 183rd player to reach 1,000",
+            "foto": [
+                "collages/1774653182143555_collage_1774653182076809.png"
+            ],
+            "timestamp": 1774653182
         }
     ],
     "notificaciones_franchise": [
@@ -2753,7 +2753,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1630,
+    "total_notificaciones_historicas": 1631,
     "total_franchise_historicas": 497,
-    "cache_buster": 1774653079
+    "cache_buster": 1774653182
 }
