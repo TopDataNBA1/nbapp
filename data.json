@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:29:18",
+    "ultima_actualizacion": "04:32:32",
     "tablas": {
         "pts": [
             {
@@ -604,11 +604,11 @@
                 "Rank": 121,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 924,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 925,
+                "Diff": "",
                 "Antece": "Antoine Carr",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1477,11 +1477,11 @@
                 "Rank": 114,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 4209,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 4210,
+                "Diff": "1",
                 "Antece": "Richie Guerin",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2670,9 +2670,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 924,
-                "Diff": "76",
+                "Hoy": 2,
+                "Total": 925,
+                "Diff": "75",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -4212,9 +4212,9 @@
                 "Rank": 9,
                 "Nombre": "Nic Claxton",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2854,
-                "Diff": "64",
+                "Hoy": 3,
+                "Total": 2855,
+                "Diff": "63",
                 "Antece": "Chris Morris",
                 "game_status": "playing"
             },
@@ -4419,13 +4419,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 three-pointers today) has passed John Starks and is now ranked 108th all-time with 1,223.",
-            "foto": [
-                "collages/1774401833695887_collage_1774401833587785.png"
-            ],
-            "timestamp": 1774401833
-        },
         {
             "texto": "Donovan Mitchell (18 points today) has passed Andrew Wiggins and is now ranked 160th all-time with 15,076.",
             "foto": [
@@ -5118,6 +5111,13 @@
                 "collages/1774668261631041_collage_1774668261545461.png"
             ],
             "timestamp": 1774668261
+        },
+        {
+            "texto": "Luka Dončić (2 assists today) has passed Michael Adams and is now ranked 114th all-time with 4,210.",
+            "foto": [
+                "collages/1774668752631978_collage_1774668752518032.png"
+            ],
+            "timestamp": 1774668752
         }
     ],
     "notificaciones_franchise": [
@@ -5822,7 +5822,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1666,
+    "total_notificaciones_historicas": 1667,
     "total_franchise_historicas": 512,
-    "cache_buster": 1774668558
+    "cache_buster": 1774668752
 }
