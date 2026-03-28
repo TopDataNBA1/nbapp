@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:48:41",
+    "ultima_actualizacion": "23:53:28",
     "tablas": {
         "pts": [
             {
@@ -83,9 +83,9 @@
                 "Rank": 219,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 14,
-                "Total": 13450,
-                "Diff": "38",
+                "Hoy": 17,
+                "Total": 13453,
+                "Diff": "35",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -485,10 +485,10 @@
                 "Rank": 226,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "900",
+                "Hoy": 2,
+                "Total": 900,
+                "Diff": "2",
+                "Antece": "Donyell Marshall",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -498,7 +498,7 @@
                 "Team": "MIL",
                 "Hoy": 4,
                 "Total": 897,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Tyrese Maxey",
                 "Nota": "",
                 "game_status": "finished"
@@ -756,9 +756,9 @@
                 "Rank": 18,
                 "Nombre": "LaMelo Ball",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 1685,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 1686,
+                "Diff": "19",
                 "Antece": "Nicolas Batum",
                 "game_status": "playing"
             },
@@ -1262,9 +1262,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 13450,
-                "Diff": "50",
+                "Hoy": 17,
+                "Total": 13453,
+                "Diff": "47",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -1272,9 +1272,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 7978,
-                "Diff": "22",
+                "Hoy": 12,
+                "Total": 7981,
+                "Diff": "19",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -1302,9 +1302,9 @@
                 "Rank": 17,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1795,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 1796,
+                "Diff": "2",
                 "Antece": "Johnny Dawkins",
                 "game_status": "playing"
             },
@@ -1342,19 +1342,19 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "900",
+                "Hoy": 2,
+                "Total": 900,
+                "Diff": "100",
+                "Antece": "1000",
                 "game_status": "playing"
             },
             {
                 "Rank": 5,
                 "Nombre": "Joel Embiid",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 579,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 580,
+                "Diff": "20",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -1575,13 +1575,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Andrew Wiggins (1 three-pointer today) has passed Bogdan Bogdanović and is now ranked 91st all-time with 1,262.",
-            "foto": [
-                "collages/1774482368387637_collage_1774482368281673.png"
-            ],
-            "timestamp": 1774482368
-        },
         {
             "texto": "Tyler Herro (1 three-pointer today) has passed Marvin Williams and is now ranked 165th all-time with 1,047.",
             "foto": [
@@ -2274,16 +2267,16 @@
                 "collages/1774737738458036_collage_1774737738379917.png"
             ],
             "timestamp": 1774737738
+        },
+        {
+            "texto": "Tyrese Maxey (2 three-pointers today) becomes the 226th player to reach 900",
+            "foto": [
+                "collages/1774738408049860_collage_1774738407987362.png"
+            ],
+            "timestamp": 1774738408
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (23 points today) has passed Dave Cowens and is now ranked 10th in Celtics history with 13,193.",
-            "foto": [],
-            "timestamp": 1773878257,
-            "team": "BOS",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Yves Missi (1 block today) has passed Jonas Valančiūnas and is now ranked 10th in Pelicans history with 181.",
             "foto": [],
@@ -2976,9 +2969,16 @@
             "timestamp": 1774670120,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Tyrese Maxey (2 three-pointers today) becomes the 1st player to reach 900 three-pointers with 76ers.",
+            "foto": [],
+            "timestamp": 1774738408,
+            "team": "PHI",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1682,
-    "total_franchise_historicas": 513,
-    "cache_buster": 1774738121
+    "total_notificaciones_historicas": 1683,
+    "total_franchise_historicas": 514,
+    "cache_buster": 1774738408
 }
