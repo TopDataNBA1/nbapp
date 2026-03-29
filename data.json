@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:23:38",
+    "ultima_actualizacion": "00:25:17",
     "tablas": {
         "pts": [
             {
@@ -637,25 +637,25 @@
             },
             {
                 "Rank": 174,
-                "Nombre": "Taurean Prince",
-                "Team": "MIL",
-                "Hoy": 4,
+                "Nombre": "Doug McDermott",
+                "Team": "SAC",
+                "Hoy": 1,
                 "Total": 1020,
                 "Diff": "6",
                 "Antece": "Joe Harris",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 175,
-                "Nombre": "Doug McDermott",
-                "Team": "SAC",
-                "Hoy": 0,
-                "Total": 1019,
-                "Diff": "1",
-                "Antece": "Taurean Prince",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Taurean Prince",
+                "Team": "MIL",
+                "Hoy": 4,
+                "Total": 1020,
+                "Diff": "",
+                "Antece": "Doug McDermott",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 176,
@@ -663,9 +663,9 @@
                 "Team": "BKN",
                 "Hoy": 0,
                 "Total": 1019,
-                "Diff": "",
-                "Antece": "Doug McDermott",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Taurean Prince",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -1789,9 +1789,9 @@
                 "Rank": 13,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 5873,
-                "Diff": "25",
+                "Hoy": 4,
+                "Total": 5875,
+                "Diff": "23",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -2531,13 +2531,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Brook Lopez (2 three-pointers today) has passed Ben Gordon and Reggie Jackson and is now ranked 118th all-time with 1,172.",
-            "foto": [
-                "collages/1774493690642673_collage_1774493690573877.png"
-            ],
-            "timestamp": 1774493690
-        },
-        {
             "texto": "📢🔝💯 Jamal Murray (6 three-pointers today) has passed Evan Fournier and is now ranked 74th all-time with 1,360.",
             "foto": [
                 "collages/1774493890568084_collage_1774493890480945.png"
@@ -3229,6 +3222,13 @@
                 "collages/1774822032763382_collage_1774822032650337.png"
             ],
             "timestamp": 1774822032
+        },
+        {
+            "texto": "Doug McDermott (1 three-pointer today) has passed Michael Porter Jr. and is now ranked 174th all-time with 1,020.",
+            "foto": [
+                "collages/1774823117402017_collage_1774823117295052.png"
+            ],
+            "timestamp": 1774823117
         }
     ],
     "notificaciones_franchise": [
@@ -3933,7 +3933,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1708,
+    "total_notificaciones_historicas": 1709,
     "total_franchise_historicas": 518,
-    "cache_buster": 1774823018
+    "cache_buster": 1774823117
 }
