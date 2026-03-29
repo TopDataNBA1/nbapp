@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:54:59",
+    "ultima_actualizacion": "00:56:42",
     "tablas": {
         "pts": [
             {
@@ -127,9 +127,9 @@
                 "Rank": 159,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 13,
-                "Total": 15120,
-                "Diff": "14",
+                "Hoy": 15,
+                "Total": 15122,
+                "Diff": "12",
                 "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "playing"
@@ -160,10 +160,10 @@
                 "Rank": 203,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 16,
-                "Total": 13998,
-                "Diff": "2",
-                "Antece": "14000",
+                "Hoy": 18,
+                "Total": 14000,
+                "Diff": "18",
+                "Antece": "Fred Brown",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1331,10 +1331,10 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 13998,
-                "Diff": "2",
-                "Antece": "14000",
+                "Hoy": 18,
+                "Total": 14000,
+                "Diff": "500",
+                "Antece": "14500",
                 "game_status": "playing"
             },
             {
@@ -1523,9 +1523,9 @@
                 "Rank": 3,
                 "Nombre": "Miles Bridges",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 7833,
-                "Diff": "167",
+                "Hoy": 10,
+                "Total": 7834,
+                "Diff": "166",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -2545,7 +2545,7 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 208,
                 "Diff": "30",
                 "Antece": "Goga Bitadze",
@@ -3146,13 +3146,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jamal Murray (7 three-pointers today) has passed Dan Majerle and is now ranked 73rd all-time with 1,361.",
-            "foto": [
-                "collages/1774496093753870_collage_1774496093659889.png"
-            ],
-            "timestamp": 1774496093
-        },
         {
             "texto": "📢HOF🏛️ Donte DiVincenzo (4 three-pointers today) has passed Gary Payton and is now ranked 131st all-time with 1,133.",
             "foto": [
@@ -3845,16 +3838,16 @@
                 "collages/1774824502050722_collage_1774824501963630.png"
             ],
             "timestamp": 1774824502
+        },
+        {
+            "texto": "Jayson Tatum (18 points today) becomes the 203rd player to reach 14,000",
+            "foto": [
+                "collages/1774825002118762_collage_1774825002039788.png"
+            ],
+            "timestamp": 1774825002
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Kawhi Leonard (17 points today) becomes the 6th player to reach 8,000 points with Clippers.",
-            "foto": [],
-            "timestamp": 1773881939,
-            "team": "LAC",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Brice Sensabaugh (3 three-pointers today) has passed Trey Burke and is now ranked 20th in Jazz history with 324.",
             "foto": [],
@@ -4547,9 +4540,16 @@
             "timestamp": 1774815647,
             "team": "LAC",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Jayson Tatum (18 points today) becomes the 9th player to reach 14,000 points with Celtics.",
+            "foto": [],
+            "timestamp": 1774825002,
+            "team": "BOS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1713,
-    "total_franchise_historicas": 518,
-    "cache_buster": 1774824899
+    "total_notificaciones_historicas": 1714,
+    "total_franchise_historicas": 519,
+    "cache_buster": 1774825002
 }
