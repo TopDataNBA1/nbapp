@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:15:06",
+    "ultima_actualizacion": "01:16:42",
     "tablas": {
         "pts": [
             {
@@ -626,25 +626,25 @@
             },
             {
                 "Rank": 212,
+                "Nombre": "LaMelo Ball",
+                "Team": "CHA",
+                "Hoy": 3,
+                "Total": 938,
+                "Diff": "2",
+                "Antece": "Anthony Peeler",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 213,
                 "Nombre": "Gary Harris",
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 937,
-                "Diff": "3",
-                "Antece": "Anthony Peeler",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "LaMelo Ball",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 213,
-                "Nombre": "LaMelo Ball",
-                "Team": "CHA",
-                "Hoy": 2,
-                "Total": 937,
-                "Diff": "",
-                "Antece": "Gary Harris",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 216,
@@ -1044,9 +1044,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 6112,
-                "Diff": "388",
+                "Hoy": 14,
+                "Total": 6115,
+                "Diff": "385",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1124,9 +1124,9 @@
                 "Rank": 2,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 937,
-                "Diff": "63",
+                "Hoy": 3,
+                "Total": 938,
+                "Diff": "62",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -2172,13 +2172,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Victor Wembanyama (1 block today) has passed Jamaal Magloire and is now ranked 232nd all-time with 604.",
-            "foto": [
-                "collages/1774483992358887_collage_1774483992236927.png"
-            ],
-            "timestamp": 1774483992
-        },
-        {
             "texto": "📢🔝💯 Andrew Wiggins (2 three-pointers today) has passed D.J. Augustin and is now ranked 90th all-time with 1,263.",
             "foto": [
                 "collages/1774484496384838_collage_1774484496273873.png"
@@ -2870,6 +2863,13 @@
                 "collages/1774742825438407_collage_1774742825360286.png"
             ],
             "timestamp": 1774742825
+        },
+        {
+            "texto": "LaMelo Ball (3 three-pointers today) has passed Gary Harris and is now ranked 212th all-time with 938.",
+            "foto": [
+                "collages/1774743402758196_collage_1774743402664453.png"
+            ],
+            "timestamp": 1774743402
         }
     ],
     "notificaciones_franchise": [
@@ -3574,7 +3574,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1688,
+    "total_notificaciones_historicas": 1689,
     "total_franchise_historicas": 515,
-    "cache_buster": 1774743306
+    "cache_buster": 1774743402
 }
