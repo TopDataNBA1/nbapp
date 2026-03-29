@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:18:56",
+    "ultima_actualizacion": "04:20:32",
     "tablas": {
         "pts": [
             {
@@ -639,11 +639,11 @@
                 "Rank": 138,
                 "Nombre": "Royce O'Neale",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 1122,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 1123,
+                "Diff": "",
                 "Antece": "Mikal Bridges",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -652,7 +652,7 @@
                 "Team": "CHI",
                 "Hoy": 0,
                 "Total": 1113,
-                "Diff": "9",
+                "Diff": "10",
                 "Antece": "Royce O'Neale",
                 "Nota": "",
                 "game_status": "playing"
@@ -905,9 +905,9 @@
                 "Rank": 144,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 3861,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 3862,
+                "Diff": "4",
                 "Antece": "Johnny Moore",
                 "Nota": "",
                 "game_status": "playing"
@@ -2028,9 +2028,9 @@
                 "Rank": 9,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2942,
-                "Diff": "58",
+                "Hoy": 2,
+                "Total": 2943,
+                "Diff": "57",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -2038,9 +2038,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 3861,
-                "Diff": "139",
+                "Hoy": 1,
+                "Total": 3862,
+                "Diff": "138",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -2085,13 +2085,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Royce O'Neale",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 434,
-                "Diff": "0",
-                "Antece": "Cameron Johnson",
+                "Hoy": 2,
+                "Total": 435,
+                "Diff": "65",
+                "Antece": "500",
                 "game_status": "playing"
             },
             {
@@ -3202,13 +3202,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jaden McDaniels (4 points today) has passed Christian Laettner and is now ranked 11th in Timberwolves history with 4,761.",
-            "foto": [],
-            "timestamp": 1773881140,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Payton Pritchard (3 three-pointers today) has passed Derrick White and is now ranked 6th in Celtics history with 833.",
             "foto": [],
             "timestamp": 1773881474,
@@ -3900,9 +3893,16 @@
             "timestamp": 1774748453,
             "team": "ATL",
             "type": "franchise"
+        },
+        {
+            "texto": "Royce O'Neale (2 three-pointers today) has passed Cameron Johnson and is now ranked 11th in Suns history with 435.",
+            "foto": [],
+            "timestamp": 1774750832,
+            "team": "PHO",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1692,
-    "total_franchise_historicas": 516,
-    "cache_buster": 1774750736
+    "total_franchise_historicas": 517,
+    "cache_buster": 1774750832
 }
