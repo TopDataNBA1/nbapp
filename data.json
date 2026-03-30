@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:18:28",
+    "ultima_actualizacion": "02:21:40",
     "tablas": {
         "pts": [
             {
@@ -272,9 +272,9 @@
                 "Rank": 84,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 7959,
-                "Diff": "41",
+                "Hoy": 6,
+                "Total": 7960,
+                "Diff": "40",
                 "Antece": "8000",
                 "Nota": "",
                 "game_status": "playing"
@@ -532,7 +532,7 @@
                 "Diff": "",
                 "Antece": "Derrick McKey",
                 "Nota": "Mismo total",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 238,
@@ -886,7 +886,7 @@
                 "Diff": "1",
                 "Antece": "Tyler Herro",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 174,
@@ -897,7 +897,7 @@
                 "Diff": "3",
                 "Antece": "Joe Harris",
                 "Nota": "",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 175,
@@ -933,14 +933,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 185,
+                "Rank": 184,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 998,
-                "Diff": "",
-                "Antece": "Kristaps Porziņģis",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 999,
+                "Diff": "1",
+                "Antece": "1000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2585,9 +2585,9 @@
                 "Rank": 18,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 347,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 348,
+                "Diff": "1",
                 "Antece": "Stephon Marbury",
                 "game_status": "playing"
             },
@@ -3349,7 +3349,7 @@
                 "Total": 2866,
                 "Diff": "52",
                 "Antece": "Chris Morris",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 4,
@@ -3359,7 +3359,7 @@
                 "Total": 611,
                 "Diff": "85",
                 "Antece": "Buck Williams",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 18,
@@ -3369,7 +3369,7 @@
                 "Total": 378,
                 "Diff": "14",
                 "Antece": "Mike O'Koren",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "SAC": [
@@ -3401,7 +3401,7 @@
                 "Total": 206,
                 "Diff": "10",
                 "Antece": "Spencer Hawes",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 7,
@@ -3411,7 +3411,7 @@
                 "Total": 574,
                 "Diff": "26",
                 "Antece": "600",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 8,
@@ -3421,7 +3421,7 @@
                 "Total": 547,
                 "Diff": "27",
                 "Antece": "Keegan Murray",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "IND": [
@@ -3540,13 +3540,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ DeMar DeRozan (4 rebounds today) has passed Jack Twyman and is now ranked 245th all-time with 5,425.",
-            "foto": [
-                "collages/1774570352320454_collage_1774570352205287.png"
-            ],
-            "timestamp": 1774570352
-        },
         {
             "texto": "LaMelo Ball (4 three-pointers today) has passed Chucky Atkins and De'Aaron Fox and is now ranked 214th all-time with 935.",
             "foto": [
@@ -4239,6 +4232,13 @@
                 "collages/1774829421390409_collage_1774829421299002.png"
             ],
             "timestamp": 1774829421
+        },
+        {
+            "texto": "OG Anunoby (1 three-pointer today) has passed Kristaps Porziņģis and is now ranked 184th all-time with 999.",
+            "foto": [
+                "collages/1774830100654173_collage_1774830100565595.png"
+            ],
+            "timestamp": 1774830100
         }
     ],
     "notificaciones_franchise": [
@@ -4943,7 +4943,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1724,
+    "total_notificaciones_historicas": 1725,
     "total_franchise_historicas": 526,
-    "cache_buster": 1774829908
+    "cache_buster": 1774830100
 }
