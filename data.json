@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:37:44",
+    "ultima_actualizacion": "01:39:22",
     "tablas": {
         "pts": [
             {
@@ -1111,19 +1111,19 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 7997,
-                "Diff": "3",
-                "Antece": "8000",
+                "Hoy": 5,
+                "Total": 8000,
+                "Diff": "500",
+                "Antece": "8500",
                 "game_status": "playing"
             },
             {
                 "Rank": 8,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 5250,
-                "Diff": "250",
+                "Hoy": 3,
+                "Total": 5251,
+                "Diff": "249",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -1138,13 +1138,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1798,
-                "Diff": "0",
-                "Antece": "Johnny Dawkins",
+                "Hoy": 2,
+                "Total": 1799,
+                "Diff": "20",
+                "Antece": "Tyrese Maxey",
                 "game_status": "playing"
             },
             {
@@ -2047,20 +2047,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Bobby Portis (4 points today) becomes the 20th player to reach 5,500 points with Bucks.",
-            "foto": [],
-            "timestamp": 1773970675,
-            "team": "MIL",
-            "type": "franchise_milestone"
-        },
-        {
-            "texto": "📢🔝🔟 Austin Reaves (2 three-pointers today) has passed Byron Scott and is now ranked 5th in Lakers history with 596.",
-            "foto": [],
-            "timestamp": 1773971853,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "📢HOF🏛️ Luka Dončić (8 three-pointers today) has passed Magic Johnson and is now ranked 19th in Lakers history with 326.",
             "foto": [],
             "timestamp": 1773973556,
@@ -2745,9 +2731,23 @@
             "timestamp": 1774834201,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (5 points today) becomes the 12th player to reach 8,000 points with 76ers.",
+            "foto": [],
+            "timestamp": 1774913962,
+            "team": "PHI",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Joel Embiid (2 assists today) has passed Johnny Dawkins and is now ranked 16th in 76ers history with 1,799.",
+            "foto": [],
+            "timestamp": 1774913962,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1744,
-    "total_franchise_historicas": 528,
-    "cache_buster": 1774913864
+    "total_franchise_historicas": 530,
+    "cache_buster": 1774913962
 }
