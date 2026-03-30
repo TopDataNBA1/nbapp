@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:30:01",
+    "ultima_actualizacion": "03:33:15",
     "tablas": {
         "pts": [
             {
@@ -956,25 +956,25 @@
             },
             {
                 "Rank": 201,
+                "Nombre": "Jalen Brunson",
+                "Team": "NYK",
+                "Hoy": 4,
+                "Total": 964,
+                "Diff": "3",
+                "Antece": "Spencer Dinwiddie",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 202,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
                 "Hoy": 2,
                 "Total": 963,
-                "Diff": "4",
-                "Antece": "Spencer Dinwiddie",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Jalen Brunson",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 202,
-                "Nombre": "Jalen Brunson",
-                "Team": "NYK",
-                "Hoy": 3,
-                "Total": 963,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 209,
@@ -2505,9 +2505,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 7337,
-                "Diff": "108",
+                "Hoy": 23,
+                "Total": 7340,
+                "Diff": "105",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -2515,9 +2515,9 @@
                 "Rank": 19,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 3128,
-                "Diff": "123",
+                "Hoy": 4,
+                "Total": 3129,
+                "Diff": "122",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -2565,9 +2565,9 @@
                 "Rank": 4,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 682,
-                "Diff": "18",
+                "Hoy": 4,
+                "Total": 683,
+                "Diff": "17",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -2637,9 +2637,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 2501,
-                "Diff": "276",
+                "Hoy": 2,
+                "Total": 2502,
+                "Diff": "275",
                 "Antece": "Lenny Wilkens",
                 "game_status": "playing"
             },
@@ -3541,13 +3541,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (13 points today) has passed Paul Arizin and is now ranked 127th all-time with 16,268.",
-            "foto": [
-                "collages/1774573280430562_collage_1774573280286610.png"
-            ],
-            "timestamp": 1774573280
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ DeMar DeRozan (1 steal today) has passed Grant Hill and is now ranked 86th all-time with 1,249.",
             "foto": [
                 "collages/1774574233051786_collage_1774574232939823.png"
@@ -4239,6 +4232,13 @@
                 "collages/1774831574467997_collage_1774831574392976.png"
             ],
             "timestamp": 1774831574
+        },
+        {
+            "texto": "Jalen Brunson (4 three-pointers today) has passed Desmond Bane and is now ranked 201st all-time with 964.",
+            "foto": [
+                "collages/1774834395225668_collage_1774834395139801.png"
+            ],
+            "timestamp": 1774834395
         }
     ],
     "notificaciones_franchise": [
@@ -4943,7 +4943,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1727,
+    "total_notificaciones_historicas": 1728,
     "total_franchise_historicas": 528,
-    "cache_buster": 1774834201
+    "cache_buster": 1774834395
 }
