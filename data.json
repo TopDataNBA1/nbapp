@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:01:59",
+    "ultima_actualizacion": "04:03:36",
     "tablas": {
         "pts": [
             {
@@ -1114,9 +1114,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 8842,
-                "Diff": "124",
+                "Hoy": 8,
+                "Total": 8843,
+                "Diff": "123",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -1774,10 +1774,10 @@
                 "Rank": 20,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 5498,
-                "Diff": "2",
-                "Antece": "5500",
+                "Hoy": 16,
+                "Total": 5500,
+                "Diff": "143",
+                "Antece": "Danny Ferry",
                 "game_status": "playing"
             },
             {
@@ -3264,9 +3264,9 @@
                 "Rank": 19,
                 "Nombre": "Brice Sensabaugh",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 331,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 332,
+                "Diff": "2",
                 "Antece": "C.J. Miles",
                 "game_status": "playing"
             }
@@ -4154,20 +4154,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Alperen Şengün (1 assist today) has passed Rodney McCray and is now ranked 14th in Rockets history with 1,522.",
-            "foto": [],
-            "timestamp": 1774052637,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Payton Pritchard (2 three-pointers today) has passed Derrick White and is now ranked 6th in Celtics history with 835.",
-            "foto": [],
-            "timestamp": 1774053214,
-            "team": "BOS",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝3️⃣ Nikola Jokić today becomes the 3rd player to reach 800 games with Nuggets.",
             "foto": [],
             "timestamp": 1774055600,
@@ -4852,9 +4838,23 @@
             "timestamp": 1774921541,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (16 points today) becomes the 20th player to reach 5,500 points with Cavaliers.",
+            "foto": [],
+            "timestamp": 1774922616,
+            "team": "CLE",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Brice Sensabaugh (1 three-pointer today) has passed Andrei Kirilenko and is now ranked 19th in Jazz history with 332.",
+            "foto": [],
+            "timestamp": 1774922616,
+            "team": "UTA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1766,
-    "total_franchise_historicas": 534,
-    "cache_buster": 1774922519
+    "total_franchise_historicas": 536,
+    "cache_buster": 1774922616
 }
