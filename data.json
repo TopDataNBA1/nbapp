@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:00:25",
+    "ultima_actualizacion": "05:02:02",
     "tablas": {
         "pts": [
             {
@@ -546,14 +546,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 198,
+                "Rank": 197,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 681,
-                "Diff": "",
-                "Antece": "Gerald Wallace",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 682,
+                "Diff": "1",
+                "Antece": "Stromile Swift",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1158,9 +1158,9 @@
                 "Rank": 98,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 4409,
-                "Diff": "72",
+                "Hoy": 3,
+                "Total": 4408,
+                "Diff": "73",
                 "Antece": "Brevin Knight",
                 "Nota": "",
                 "game_status": "playing"
@@ -3452,13 +3452,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Draymond Green (3 rebounds today) has passed Rony Seikaly and is now ranked 165th all-time with 6,425.",
-            "foto": [
-                "collages/1774669047485139_collage_1774669047381503.png"
-            ],
-            "timestamp": 1774669047
-        },
-        {
             "texto": "📢HOF🏛️ Klay Thompson (7 points today) has passed Jack Sikma and is now ranked 103rd all-time with 17,289.",
             "foto": [
                 "collages/1774670019991711_collage_1774670019897744.png"
@@ -4150,6 +4143,13 @@
                 "collages/1774924950968889_collage_1774924950875685.png"
             ],
             "timestamp": 1774924950
+        },
+        {
+            "texto": "James Harden (1 block today) has passed Gerald Wallace and is now ranked 197th all-time with 682.",
+            "foto": [
+                "collages/1774926122660036_collage_1774926122560331.png"
+            ],
+            "timestamp": 1774926122
         }
     ],
     "notificaciones_franchise": [
@@ -4854,7 +4854,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1767,
+    "total_notificaciones_historicas": 1768,
     "total_franchise_historicas": 537,
-    "cache_buster": 1774926025
+    "cache_buster": 1774926122
 }
