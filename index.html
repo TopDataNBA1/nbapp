@@ -483,10 +483,11 @@
         <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
     </div>
 
-    <!-- PESTAÑAS PRINCIPALES: GLOBAL / TEAMS -->
+    <!-- PESTAÑAS PRINCIPALES: GLOBAL / TEAMS / TOP -->
     <div class="main-tabs">
         <button class="main-tab-btn active" onclick="openMainTab('global')">🌍 Global</button>
         <button class="main-tab-btn" onclick="openMainTab('teams')">🏀 Teams</button>
+        <button class="main-tab-btn" onclick="openMainTab('topmoves')">🏆 Top</button>
     </div>
 
     <!-- ==================== GLOBAL ==================== -->
@@ -598,6 +599,52 @@
         </div>
     </div> <!-- FIN TEAMS -->
 
+    <!-- ==================== TOP MOVES ==================== -->
+    <div id="topmoves" class="main-tab-content">
+        <div class="container">
+            <div class="top-moves-header">
+                <h2 style="text-align:center;font-family:'Orbitron',sans-serif;color:#ff4655;margin:15px 0 10px;">🏆 Top Ranking Moves</h2>
+            </div>
+            
+            <!-- Filtres Top Moves -->
+            <div class="filters-top" style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0;">
+                <!-- Període -->
+                <select id="top-period" class="team-select" onchange="updateTopMoves()">
+                    <option value="today">Today</option>
+                    <option value="week">This Week</option>
+                    <option value="month">This Month</option>
+                    <option value="season" selected>This Season</option>
+                </select>
+                
+                <!-- Tipus -->
+                <select id="top-type" class="team-select" onchange="updateTopMoves()">
+                    <option value="all">All</option>
+                    <option value="global">Global Only</option>
+                    <option value="franchise">Franchise Only</option>
+                </select>
+                
+                <!-- Estadística -->
+                <select id="top-stat" class="team-select" onchange="updateTopMoves()">
+                    <option value="all">All Stats</option>
+                    <option value="pts">Points</option>
+                    <option value="trb">Rebounds</option>
+                    <option value="ast">Assists</option>
+                    <option value="stl">Steals</option>
+                    <option value="blk">Blocks</option>
+                    <option value="fg3">Three-Pointers</option>
+                    <option value="g">Games</option>
+                </select>
+            </div>
+            
+            <!-- Llista Top 5 -->
+            <div class="moves-area" style="height:auto;min-height:300px;">
+                <div class="moves-list" style="padding:10px;">
+                    <div id="top-moves-list"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- FIN TOP MOVES -->
+
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
@@ -608,6 +655,8 @@
             
             if (tabName === 'teams') {
                 updateTeamsMoves();
+            } else if (tabName === 'topmoves') {
+                updateTopMoves();
             } else {
                 updateMoves();
             }
@@ -1709,6 +1758,175 @@ function disableNotifications(){
     OneSignalDeferred.push(async function(OneSignal){
         await OneSignal.User.addTags({disabled:'true'});
     });
+}
+
+// === TOP MOVES ===
+let topMovesData = null;
+
+async function loadTopMovesData() {
+    if (topMovesData) return topMovesData;
+    try {
+        const response = await fetch('notificaciones_historicas.json?t=' + Date.now());
+        topMovesData = await response.json();
+        return topMovesData;
+    } catch (e) {
+        console.error('Error loading top moves data:', e);
+        return null;
+    }
+}
+
+function extractRanking(text) {
+    // Extraure el ranking del text de la notificació
+    const patterns = [
+        /ranked (\d+)(?:st|nd|rd|th)/i,
+        /becomes the (\d+)(?:st|nd|rd|th)/i
+    ];
+    for (const pattern of patterns) {
+        const match = text.match(pattern);
+        if (match) return parseInt(match[1]);
+    }
+    return 9999; // Si no trobem ranking, posar al final
+}
+
+function extractStat(text) {
+    // Extraure l'estadística del text
+    const lowerText = text.toLowerCase();
+    if (lowerText.includes('point')) return 'pts';
+    if (lowerText.includes('rebound')) return 'trb';
+    if (lowerText.includes('assist')) return 'ast';
+    if (lowerText.includes('steal')) return 'stl';
+    if (lowerText.includes('block')) return 'blk';
+    if (lowerText.includes('three-pointer') || lowerText.includes('3-pointer')) return 'fg3';
+    if (lowerText.includes('game')) return 'g';
+    return 'other';
+}
+
+function extractPlayerName(text) {
+    // Extraure nom del jugador (abans del primer parèntesi o "today")
+    const match = text.match(/^(?:📢[^\s]*\s*)*(?:<b>)?([^(<]+)/);
+    if (match) {
+        return match[1].replace(/<\/?b>/g, '').trim();
+    }
+    return 'Unknown';
+}
+
+function filterByPeriod(notifications, period) {
+    const now = new Date();
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    // Calcular inici de la setmana (dilluns)
+    const weekStart = new Date(todayStart);
+    const dayOfWeek = weekStart.getDay();
+    const diff = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
+    weekStart.setDate(weekStart.getDate() - diff);
+    
+    // Calcular inici del mes
+    const monthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+    
+    // Calcular inici de la temporada (octubre 2025)
+    const seasonStart = new Date(2025, 9, 1); // Octubre 2025
+    
+    return notifications.filter(n => {
+        const notifDate = new Date(n.timestamp * 1000);
+        switch(period) {
+            case 'today': return notifDate >= todayStart;
+            case 'week': return notifDate >= weekStart;
+            case 'month': return notifDate >= monthStart;
+            case 'season': return notifDate >= seasonStart;
+            default: return true;
+        }
+    });
+}
+
+async function updateTopMoves() {
+    const data = await loadTopMovesData();
+    if (!data) {
+        document.getElementById('top-moves-list').innerHTML = '<p style="text-align:center;color:#888;">Error loading data</p>';
+        return;
+    }
+    
+    const period = document.getElementById('top-period').value;
+    const type = document.getElementById('top-type').value;
+    const stat = document.getElementById('top-stat').value;
+    
+    let allNotifications = [];
+    
+    // Combinar global i franchise segons filtre
+    if (type === 'all' || type === 'global') {
+        const globalNotifs = (data.global || []).map(n => ({...n, source: 'global'}));
+        allNotifications = allNotifications.concat(globalNotifs);
+    }
+    if (type === 'all' || type === 'franchise') {
+        const franchiseNotifs = (data.franchise || []).map(n => ({...n, source: 'franchise'}));
+        allNotifications = allNotifications.concat(franchiseNotifs);
+    }
+    
+    // Filtrar per període
+    allNotifications = filterByPeriod(allNotifications, period);
+    
+    // Filtrar per estadística
+    if (stat !== 'all') {
+        allNotifications = allNotifications.filter(n => extractStat(n.texto) === stat);
+    }
+    
+    // Extraure ranking i ordenar
+    allNotifications = allNotifications.map(n => ({
+        ...n,
+        ranking: extractRanking(n.texto),
+        statType: extractStat(n.texto),
+        playerName: extractPlayerName(n.texto)
+    }));
+    
+    // Ordenar per ranking (menor = millor)
+    allNotifications.sort((a, b) => a.ranking - b.ranking);
+    
+    // Agafar top 5
+    const top5 = allNotifications.slice(0, 5);
+    
+    // Renderitzar
+    const container = document.getElementById('top-moves-list');
+    
+    if (top5.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:#888;padding:20px;">No moves found for this filter</p>';
+        return;
+    }
+    
+    const statEmojis = {
+        'pts': '🏀',
+        'trb': '📊',
+        'ast': '🎯',
+        'stl': '🖐️',
+        'blk': '🚫',
+        'fg3': '🎯',
+        'g': '📅'
+    };
+    
+    container.innerHTML = top5.map((n, index) => {
+        const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
+        const statEmoji = statEmojis[n.statType] || '📈';
+        const sourceLabel = n.source === 'franchise' ? `<span style="color:#ff4655;font-size:0.8em;">[${n.team || 'TEAM'}]</span>` : '<span style="color:#55ff55;font-size:0.8em;">[GLOBAL]</span>';
+        const date = new Date(n.timestamp * 1000).toLocaleDateString('en-US', {month:'short', day:'numeric'});
+        
+        // Foto (només globals en tenen)
+        const photoHtml = n.foto && n.foto.length > 0 
+            ? `<div class="move-photos">${n.foto.map(f => `<img src="${f}" onerror="this.style.display='none'">`).join('')}</div>` 
+            : '';
+        
+        return `
+            <div class="move-item" style="position:relative;">
+                <div style="position:absolute;top:10px;left:10px;font-size:1.5em;">${medal}</div>
+                <div style="position:absolute;top:10px;right:10px;font-size:1.2em;">${statEmoji}</div>
+                ${photoHtml}
+                <div class="move-text" style="margin-top:${n.foto && n.foto.length > 0 ? '0' : '25px'};">
+                    ${n.texto.replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>')}
+                </div>
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
+                    ${sourceLabel}
+                    <span class="move-time">${date}</span>
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 </script>
 <script>
