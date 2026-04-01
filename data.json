@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:14:47",
+    "ultima_actualizacion": "02:16:26",
     "tablas": {
         "pts": [
             {
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 32409,
-                "Diff": "591",
+                "Hoy": 2,
+                "Total": 32411,
+                "Diff": "589",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -118,9 +118,9 @@
                 "Rank": 74,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 8212,
-                "Diff": "197",
+                "Hoy": 1,
+                "Total": 8213,
+                "Diff": "196",
                 "Antece": "P.J. Brown",
                 "Nota": "",
                 "game_status": "playing"
@@ -419,9 +419,9 @@
                 "Rank": 132,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1134,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 1135,
+                "Diff": "3",
                 "Antece": "Derrick White",
                 "Nota": "",
                 "game_status": "playing"
@@ -685,9 +685,9 @@
                 "Rank": 207,
                 "Nombre": "Khris Middleton",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 3229,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 3230,
+                "Diff": "10",
                 "Antece": "Jerry Stackhouse",
                 "Nota": "",
                 "game_status": "playing"
@@ -766,11 +766,11 @@
                 "Rank": 55,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1194,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1195,
+                "Diff": "1",
                 "Antece": "Dikembe Mutombo",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1097,9 +1097,9 @@
                 "Rank": 14,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1561,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 1563,
+                "Diff": "10",
                 "Antece": "Rudy Tomjanovich",
                 "game_status": "playing"
             },
@@ -1177,9 +1177,9 @@
                 "Rank": 25,
                 "Nombre": "Alperen Şengün",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 351,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 352,
+                "Diff": "27",
                 "Antece": "Eric Gordon",
                 "game_status": "playing"
             }
@@ -1279,10 +1279,10 @@
                 "Rank": 20,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 299,
-                "Diff": "1",
-                "Antece": "300",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "6",
+                "Antece": "Grayson Allen",
                 "game_status": "playing"
             },
             {
@@ -1301,9 +1301,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 7349,
-                "Diff": "96",
+                "Hoy": 1,
+                "Total": 7350,
+                "Diff": "95",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1433,9 +1433,9 @@
                 "Rank": 19,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 4108,
-                "Diff": "86",
+                "Hoy": 11,
+                "Total": 4111,
+                "Diff": "83",
                 "Antece": "Rashard Lewis",
                 "game_status": "playing"
             },
@@ -1443,9 +1443,9 @@
                 "Rank": 7,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2739,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 2740,
+                "Diff": "13",
                 "Antece": "Aaron Gordon",
                 "game_status": "playing"
             },
@@ -2763,13 +2763,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Jerami Grant (4 three-pointers today) has passed Steve Blake and Clifford Robinson and is now ranked 8th in Trail Blazers history with 493.",
-            "foto": [],
-            "timestamp": 1774060175,
-            "team": "POR",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Scottie Barnes (13 points today) becomes the 9th player to reach 6,000 points with Raptors.",
             "foto": [],
             "timestamp": 1774062967,
@@ -3461,9 +3454,16 @@
             "timestamp": 1774999887,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Gary Trent Jr. (1 three-pointer today) becomes the 20th player to reach 300 three-pointers with Bucks.",
+            "foto": [],
+            "timestamp": 1775002586,
+            "team": "MIL",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 1770,
-    "total_franchise_historicas": 539,
-    "cache_buster": 1775002487
+    "total_franchise_historicas": 540,
+    "cache_buster": 1775002586
 }
