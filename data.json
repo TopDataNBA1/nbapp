@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:40:48",
+    "ultima_actualizacion": "02:42:25",
     "tablas": {
         "pts": [
             {
@@ -507,11 +507,11 @@
                 "Rank": 178,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 1009,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1010,
+                "Diff": "1",
                 "Antece": "Luke Kennard",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -520,9 +520,9 @@
                 "Team": "PHX",
                 "Hoy": 1,
                 "Total": 1009,
-                "Diff": "",
+                "Diff": "1",
                 "Antece": "Dillon Brooks",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -671,14 +671,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 142,
+                "Rank": 141,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 3870,
-                "Diff": "1",
-                "Antece": "Earl Watson",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 3871,
+                "Diff": "7",
+                "Antece": "Walter Davis",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1685,9 +1685,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3870,
-                "Diff": "130",
+                "Hoy": 2,
+                "Total": 3871,
+                "Diff": "129",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -2060,13 +2060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Myles Turner (1 three-pointer today) has passed Will Barton and is now ranked 227th all-time with 894.",
-            "foto": [
-                "collages/1774726012520306_collage_1774726012426567.png"
-            ],
-            "timestamp": 1774726012
-        },
         {
             "texto": "Gary Trent Jr. (1 three-pointer today) has passed David Wesley and Mikal Bridges and is now ranked 135th all-time with 1,124.",
             "foto": [
@@ -2759,6 +2752,13 @@
                 "collages/1775000468354161_collage_1775000468262458.png"
             ],
             "timestamp": 1775000468
+        },
+        {
+            "texto": "Dillon Brooks (1 three-pointer today) has passed Morris Peterson and is now ranked 178th all-time with 1,010.",
+            "foto": [
+                "collages/1775004145129194_collage_1775004145030120.png"
+            ],
+            "timestamp": 1775004145
         }
     ],
     "notificaciones_franchise": [
@@ -3463,7 +3463,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1770,
+    "total_notificaciones_historicas": 1771,
     "total_franchise_historicas": 541,
-    "cache_buster": 1775004048
+    "cache_buster": 1775004145
 }
