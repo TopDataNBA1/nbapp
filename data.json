@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "07:19:13",
+    "ultima_actualizacion": "07:20:50",
     "tablas": {
         "pts": [
             {
@@ -879,25 +879,25 @@
             },
             {
                 "Rank": 177,
-                "Nombre": "Luke Kennard",
-                "Team": "LAL",
-                "Hoy": 0,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 3,
                 "Total": 1011,
                 "Diff": "8",
                 "Antece": "Michael Porter Jr.",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 178,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
-                "Hoy": 2,
-                "Total": 1010,
-                "Diff": "1",
-                "Antece": "Luke Kennard",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Luke Kennard",
+                "Team": "LAL",
+                "Hoy": 0,
+                "Total": 1011,
+                "Diff": "",
+                "Antece": "Darius Garland",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 179,
@@ -905,9 +905,9 @@
                 "Team": "PHX",
                 "Hoy": 1,
                 "Total": 1010,
-                "Diff": "",
-                "Antece": "Darius Garland",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Luke Kennard",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
             {
@@ -3156,13 +3156,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Grayson Allen (2 three-pointers today) has passed Darius Garland and is now ranked 181st all-time with 1,006.",
-            "foto": [
-                "collages/1774751502545635_collage_1774751502451881.png"
-            ],
-            "timestamp": 1774751502
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (9 points today) has passed Chris Mullin and is now ranked 86th all-time with 17,913.",
             "foto": [
                 "collages/1774752544161581_collage_1774752544083462.png"
@@ -3854,6 +3847,13 @@
                 "collages/1775019799318356_collage_1775019799237378.png"
             ],
             "timestamp": 1775019799
+        },
+        {
+            "texto": "Darius Garland (3 three-pointers today) has passed Dillon Brooks and Grayson Allen and is now ranked 177th all-time with 1,011.",
+            "foto": [
+                "collages/1775020850214736_collage_1775020850136766.png"
+            ],
+            "timestamp": 1775020850
         }
     ],
     "notificaciones_franchise": [
@@ -4558,7 +4558,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1792,
+    "total_notificaciones_historicas": 1793,
     "total_franchise_historicas": 546,
-    "cache_buster": 1775020753
+    "cache_buster": 1775020850
 }
