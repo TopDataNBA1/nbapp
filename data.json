@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:05:32",
+    "ultima_actualizacion": "06:07:09",
     "tablas": {
         "pts": [
             {
@@ -116,9 +116,9 @@
                 "Rank": 109,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 9,
-                "Total": 17175,
-                "Diff": "7",
+                "Hoy": 11,
+                "Total": 17177,
+                "Diff": "5",
                 "Antece": "Chris Webber",
                 "Nota": "",
                 "game_status": "playing"
@@ -171,9 +171,9 @@
                 "Rank": 166,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 28,
-                "Total": 14995,
-                "Diff": "5",
+                "Hoy": 31,
+                "Total": 14998,
+                "Diff": "2",
                 "Antece": "15000",
                 "Nota": "",
                 "game_status": "playing"
@@ -261,9 +261,9 @@
                 "Rank": 124,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 1,
-                "Total": 6965,
-                "Diff": "32",
+                "Hoy": 2,
+                "Total": 6966,
+                "Diff": "31",
                 "Antece": "Julius Randle",
                 "Nota": "",
                 "game_status": "playing"
@@ -628,9 +628,9 @@
                 "Rank": 43,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 1629,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 1630,
+                "Diff": "2",
                 "Antece": "Zach LaVine",
                 "Nota": "",
                 "game_status": "playing"
@@ -890,17 +890,28 @@
             },
             {
                 "Rank": 178,
-                "Nombre": "Dillon Brooks",
-                "Team": "PHX",
-                "Hoy": 1,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 2,
                 "Total": 1010,
                 "Diff": "1",
                 "Antece": "Luke Kennard",
                 "Nota": "A tiro de 1",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 179,
+                "Nombre": "Dillon Brooks",
+                "Team": "PHX",
+                "Hoy": 1,
+                "Total": 1010,
+                "Diff": "",
+                "Antece": "Darius Garland",
+                "Nota": "Mismo total",
+                "game_status": "finished"
+            },
+            {
+                "Rank": 180,
                 "Nombre": "Grayson Allen",
                 "Team": "PHX",
                 "Hoy": 2,
@@ -909,17 +920,6 @@
                 "Antece": "Dillon Brooks",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 180,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
-                "Hoy": 1,
-                "Total": 1009,
-                "Diff": "1",
-                "Antece": "Grayson Allen",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 185,
@@ -1048,9 +1048,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 8837,
-                "Diff": "129",
+                "Hoy": 3,
+                "Total": 8838,
+                "Diff": "128",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -2140,9 +2140,9 @@
                 "Rank": 18,
                 "Nombre": "Luka Dončić",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 353,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 354,
+                "Diff": "6",
                 "Antece": "Lamar Odom",
                 "game_status": "playing"
             },
@@ -3156,13 +3156,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Andre Drummond (1 block today) has passed Adonal Foyle and Bo Outlaw and is now ranked 67th all-time with 1,194.",
-            "foto": [
-                "collages/1774742825438407_collage_1774742825360286.png"
-            ],
-            "timestamp": 1774742825
-        },
-        {
             "texto": "LaMelo Ball (3 three-pointers today) has passed Gary Harris and is now ranked 212th all-time with 938.",
             "foto": [
                 "collages/1774743402758196_collage_1774743402664453.png"
@@ -3854,6 +3847,13 @@
                 "collages/1775015558717880_collage_1775015558633918.png"
             ],
             "timestamp": 1775015558
+        },
+        {
+            "texto": "Darius Garland (2 three-pointers today) has passed Morris Peterson and is now ranked 178th all-time with 1,010.",
+            "foto": [
+                "collages/1775016428950821_collage_1775016428845114.png"
+            ],
+            "timestamp": 1775016428
         }
     ],
     "notificaciones_franchise": [
@@ -4558,7 +4558,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1787,
+    "total_notificaciones_historicas": 1788,
     "total_franchise_historicas": 546,
-    "cache_buster": 1775016332
+    "cache_buster": 1775016429
 }
