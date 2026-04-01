@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:26:14",
+    "ultima_actualizacion": "03:27:52",
     "tablas": {
         "pts": [
             {
@@ -186,9 +186,9 @@
                 "Rank": 53,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 1335,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 1336,
+                "Diff": "6",
                 "Antece": "Terry Tyler",
                 "Nota": "",
                 "game_status": "playing"
@@ -674,9 +674,9 @@
                 "Rank": 141,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 6,
-                "Total": 3875,
-                "Diff": "3",
+                "Hoy": 7,
+                "Total": 3876,
+                "Diff": "2",
                 "Antece": "Walter Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -1420,13 +1420,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 5897,
-                "Diff": "1",
-                "Antece": "Darrell Armstrong",
+                "Hoy": 19,
+                "Total": 5899,
+                "Diff": "101",
+                "Antece": "6000",
                 "game_status": "playing"
             },
             {
@@ -1685,9 +1685,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 3875,
-                "Diff": "125",
+                "Hoy": 7,
+                "Total": 3876,
+                "Diff": "124",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -2060,13 +2060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Paul George (1 assist today) has passed Steve Francis and is now ranked 184th all-time with 3,474.",
-            "foto": [
-                "collages/1774737155999144_collage_1774737155921024.png"
-            ],
-            "timestamp": 1774737156
-        },
         {
             "texto": "Julius Randle (7 points today) has passed Al Horford and is now ranked 162nd all-time with 15,063.",
             "foto": [
@@ -2759,16 +2752,16 @@
                 "collages/1775006675511027_collage_1775006675398063.png"
             ],
             "timestamp": 1775006675
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant (2 blocks today) has passed Tyson Chandler and is now ranked 53rd all-time with 1,336.",
+            "foto": [
+                "collages/1775006872263243_collage_1775006872172269.png"
+            ],
+            "timestamp": 1775006872
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Zion Williamson (2 rebounds today) has passed Jrue Holiday and is now ranked 9th in Pelicans history with 1,729.",
-            "foto": [],
-            "timestamp": 1774135048,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "Luka Dončić (1 three-pointer today) has passed Jordan Clarkson and is now ranked 18th in Lakers history with 335.",
             "foto": [],
@@ -3461,9 +3454,16 @@
             "timestamp": 1775005895,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (19 points today) has passed Darrell Armstrong and is now ranked 12th in Magic history with 5,899.",
+            "foto": [],
+            "timestamp": 1775006872,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1778,
-    "total_franchise_historicas": 543,
-    "cache_buster": 1775006774
+    "total_notificaciones_historicas": 1779,
+    "total_franchise_historicas": 544,
+    "cache_buster": 1775006872
 }
