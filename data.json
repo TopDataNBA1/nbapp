@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:55",
+    "ultima_actualizacion": "02:24:32",
     "tablas": {
         "pts": [
             {
@@ -742,11 +742,11 @@
                 "Rank": 215,
                 "Nombre": "Khris Middleton",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 944,
-                "Diff": "",
+                "Hoy": 0,
+                "Total": 943,
+                "Diff": "1",
                 "Antece": "Adrian Dantley",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -813,9 +813,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 6146,
-                "Diff": "354",
+                "Hoy": 8,
+                "Total": 6148,
+                "Diff": "352",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1107,9 +1107,9 @@
                 "Rank": 22,
                 "Nombre": "Alperen Şengün",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 370,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 371,
+                "Diff": "3",
                 "Antece": "Rudy Tomjanovich",
                 "game_status": "playing"
             },
@@ -1398,13 +1398,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 284,
-                "Diff": "0",
-                "Antece": "Alec Burks",
+                "Hoy": 1,
+                "Total": 285,
+                "Diff": "15",
+                "Antece": "Al Harrington",
                 "game_status": "playing"
             }
         ],
@@ -2763,13 +2763,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Scottie Barnes (13 points today) becomes the 9th player to reach 6,000 points with Raptors.",
-            "foto": [],
-            "timestamp": 1774062967,
-            "team": "TOR",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "📢🔝🔟 Jamal Murray (6 assists today) has passed Andre Miller and is now ranked 4th in Nuggets history with 2,979.",
             "foto": [],
             "timestamp": 1774063188,
@@ -3461,9 +3454,16 @@
             "timestamp": 1775002586,
             "team": "MIL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Josh Hart (1 three-pointer today) has passed Alec Burks and is now ranked 24th in Knicks history with 285.",
+            "foto": [],
+            "timestamp": 1775003072,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1770,
-    "total_franchise_historicas": 540,
-    "cache_buster": 1775002975
+    "total_franchise_historicas": 541,
+    "cache_buster": 1775003072
 }
