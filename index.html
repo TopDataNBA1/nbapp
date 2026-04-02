@@ -1797,6 +1797,7 @@ function disableNotifications(){
 
 // === TOP MOVES ===
 let topMovesData = null;
+let playerTeamsMap = null;
 
 async function loadTopMovesData() {
     if (topMovesData) return topMovesData;
@@ -1807,6 +1808,27 @@ async function loadTopMovesData() {
     } catch (e) {
         console.error('Error loading top moves data:', e);
         return null;
+    }
+}
+
+async function loadPlayerTeams() {
+    if (playerTeamsMap) return playerTeamsMap;
+    try {
+        const response = await fetch('data.json?t=' + Date.now());
+        const data = await response.json();
+        playerTeamsMap = {};
+        // Recórrer totes les taules per obtenir jugador -> equip
+        for (const stat in data.tablas || {}) {
+            for (const row of data.tablas[stat] || []) {
+                if (row.Nombre && row.Team) {
+                    playerTeamsMap[row.Nombre] = row.Team;
+                }
+            }
+        }
+        return playerTeamsMap;
+    } catch (e) {
+        console.error('Error loading player teams:', e);
+        return {};
     }
 }
 
@@ -1847,34 +1869,40 @@ function extractPlayerName(text) {
 }
 
 function filterByPeriod(notifications, period) {
-    // Usar hora Eastern (USA) per filtrar
+    // Obtenir l'hora actual en ET
     const now = new Date();
-    const etOptions = { timeZone: 'America/New_York' };
-    const etNow = new Date(now.toLocaleString('en-US', etOptions));
-    const todayStart = new Date(etNow.getFullYear(), etNow.getMonth(), etNow.getDate());
+    const etFormatter = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York',
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+    });
+    const etParts = etFormatter.formatToParts(now);
+    const etYear = parseInt(etParts.find(p => p.type === 'year').value);
+    const etMonth = parseInt(etParts.find(p => p.type === 'month').value) - 1;
+    const etDay = parseInt(etParts.find(p => p.type === 'day').value);
     
-    // Calcular inici de la setmana (dilluns en hora ET)
-    const weekStart = new Date(todayStart);
-    const dayOfWeek = weekStart.getDay();
-    const diff = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
-    weekStart.setDate(weekStart.getDate() - diff);
+    // Inici del dia actual en ET (convertit a timestamp UTC)
+    const todayET = new Date(Date.UTC(etYear, etMonth, etDay, 5, 0, 0)); // 00:00 ET = 05:00 UTC
     
-    // Calcular inici del mes (en hora ET)
-    const monthStart = new Date(etNow.getFullYear(), etNow.getMonth(), 1);
+    // Inici de la setmana (dilluns) en ET
+    const dayOfWeek = new Date(now.toLocaleString('en-US', {timeZone: 'America/New_York'})).getDay();
+    const daysToMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
+    const weekStartET = new Date(todayET.getTime() - daysToMonday * 24 * 60 * 60 * 1000);
     
-    // Calcular inici de la temporada (octubre 2025)
-    const seasonStart = new Date(2025, 9, 1); // Octubre 2025
+    // Inici del mes en ET
+    const monthStartET = new Date(Date.UTC(etYear, etMonth, 1, 5, 0, 0));
+    
+    // Inici de la temporada (octubre 2025)
+    const seasonStart = new Date(Date.UTC(2025, 9, 1, 4, 0, 0)); // Oct 1, 2025 00:00 ET
     
     return notifications.filter(n => {
-        // Convertir timestamp a data ET
-        const notifDate = new Date(n.timestamp * 1000);
-        const notifET = new Date(notifDate.toLocaleString('en-US', etOptions));
+        const notifTimestamp = n.timestamp * 1000;
         
         switch(period) {
-            case 'today': return notifET >= todayStart;
-            case 'week': return notifET >= weekStart;
-            case 'month': return notifET >= monthStart;
-            case 'season': return notifET >= seasonStart;
+            case 'today': return notifTimestamp >= todayET.getTime();
+            case 'week': return notifTimestamp >= weekStartET.getTime();
+            case 'month': return notifTimestamp >= monthStartET.getTime();
+            case 'season': return notifTimestamp >= seasonStart.getTime();
             default: return true;
         }
     });
@@ -1887,10 +1915,17 @@ async function updateTopMoves() {
         return;
     }
     
+    // Carregar mapa jugador -> equip
+    const playerTeams = await loadPlayerTeams();
+    
     const period = document.getElementById('top-period').value;
     const type = document.getElementById('top-type').value;
     const stat = document.getElementById('top-stat').value;
     const team = document.getElementById('top-team').value;
+    
+    // Sempre mostrar filtre equips (funciona per globals i franchise)
+    const teamSelect = document.getElementById('top-team');
+    teamSelect.style.display = '';
     
     let allNotifications = [];
     
@@ -1904,7 +1939,7 @@ async function updateTopMoves() {
         allNotifications = allNotifications.concat(franchiseNotifs);
     }
     
-    // Filtrar per període
+    // Filtrar per període (usant hora ET per als límits)
     allNotifications = filterByPeriod(allNotifications, period);
     
     // Filtrar per estadística
@@ -1912,18 +1947,24 @@ async function updateTopMoves() {
         allNotifications = allNotifications.filter(n => extractStat(n.texto) === stat);
     }
     
-    // Filtrar per equip (només aplica a franchise)
-    if (team !== 'all') {
-        allNotifications = allNotifications.filter(n => n.team === team);
-    }
+    // Extraure ranking, equip i ordenar
+    allNotifications = allNotifications.map(n => {
+        const playerName = extractPlayerName(n.texto);
+        // Per globals, buscar equip al mapa; per franchise, usar el camp team
+        const playerTeam = n.source === 'franchise' ? n.team : (playerTeams[playerName] || null);
+        return {
+            ...n,
+            ranking: extractRanking(n.texto),
+            statType: extractStat(n.texto),
+            playerName: playerName,
+            playerTeam: playerTeam
+        };
+    });
     
-    // Extraure ranking i ordenar
-    allNotifications = allNotifications.map(n => ({
-        ...n,
-        ranking: extractRanking(n.texto),
-        statType: extractStat(n.texto),
-        playerName: extractPlayerName(n.texto)
-    }));
+    // Filtrar per equip (ara funciona tant per globals com franchise)
+    if (team !== 'all') {
+        allNotifications = allNotifications.filter(n => n.playerTeam === team);
+    }
     
     // Ordenar per ranking (menor = millor), desempat per timestamp (més nou primer)
     allNotifications.sort((a, b) => {
@@ -1957,16 +1998,18 @@ async function updateTopMoves() {
     container.innerHTML = top5.map((n, index) => {
         const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
         const statEmoji = statEmojis[n.statType] || '📈';
-        const sourceLabel = n.source === 'franchise' ? `<span style="color:#ff4655;font-size:0.8em;">[${n.team || 'TEAM'}]</span>` : '<span style="color:#55ff55;font-size:0.8em;">[GLOBAL]</span>';
+        // Mostrar equip per tots (globals i franchise)
+        const teamLabel = n.playerTeam ? `<span style="color:#ff4655;font-size:0.8em;">[${n.playerTeam}]</span>` : '';
+        const sourceLabel = n.source === 'franchise' ? '<span style="color:#888;font-size:0.75em;">franchise</span>' : '<span style="color:#55ff55;font-size:0.75em;">global</span>';
         
         // Data en hora Eastern (USA)
         const notifDate = new Date(n.timestamp * 1000);
         const dateStr = notifDate.toLocaleDateString('en-US', {month:'short', day:'numeric', timeZone:'America/New_York'});
         
-        // Collages: mostrar com a imatge normal (sense cercle)
+        // Collages: mostrar com a imatge normal amb tamany limitat (igual que Latest Moves)
         const photoHtml = n.foto && n.foto.length > 0 
-            ? `<div style="text-align:center;margin-bottom:12px;">
-                ${n.foto.map(f => `<img src="${f}" style="max-width:100%;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.5);" loading="lazy" onerror="this.style.display='none'">`).join('')}
+            ? `<div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px;">
+                ${n.foto.map(f => `<img src="${f}" style="max-width:300px;max-height:300px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.5);" loading="lazy" onerror="this.style.display='none'">`).join('')}
                </div>` 
             : '';
         
@@ -1979,7 +2022,7 @@ async function updateTopMoves() {
                     ${n.texto.replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>')}
                 </div>
                 <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
-                    ${sourceLabel}
+                    <div>${teamLabel} ${sourceLabel}</div>
                     <span class="move-time">${dateStr}</span>
                 </div>
             </div>
