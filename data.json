@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:08:58",
+    "ultima_actualizacion": "04:10:36",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 17,
                 "Nombre": "DeMar DeRozan",
                 "Team": "SAC",
-                "Hoy": 14,
-                "Total": 26674,
-                "Diff": "36",
+                "Hoy": 17,
+                "Total": 26677,
+                "Diff": "33",
                 "Antece": "Oscar Robertson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1176,25 +1176,25 @@
             },
             {
                 "Rank": 183,
+                "Nombre": "OG Anunoby",
+                "Team": "NYK",
+                "Hoy": 2,
+                "Total": 1004,
+                "Diff": "2",
+                "Antece": "Danny Granger",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 184,
                 "Nombre": "Kristaps Porziņģis",
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 1003,
-                "Diff": "3",
-                "Antece": "Danny Granger",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "OG Anunoby",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 184,
-                "Nombre": "OG Anunoby",
-                "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1003,
-                "Diff": "",
-                "Antece": "Kristaps Porziņģis",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 187,
@@ -3070,9 +3070,9 @@
                 "Rank": 16,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 352,
-                "Diff": "32",
+                "Hoy": 2,
+                "Total": 353,
+                "Diff": "31",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -4120,13 +4120,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jayson Tatum (18 points today) becomes the 203rd player to reach 14,000",
-            "foto": [
-                "collages/1774825002118762_collage_1774825002039788.png"
-            ],
-            "timestamp": 1774825002
-        },
-        {
             "texto": "LaMelo Ball (1 three-pointer today) has passed Anthony Peeler and is now ranked 211th all-time with 941.",
             "foto": [
                 "collages/1774825396570117_collage_1774825396471152.png"
@@ -4818,6 +4811,13 @@
                 "collages/1775095540472014_collage_1775095540375029.png"
             ],
             "timestamp": 1775095540
+        },
+        {
+            "texto": "OG Anunoby (2 three-pointers today) has passed Kristaps Porziņģis and is now ranked 183rd all-time with 1,004.",
+            "foto": [
+                "collages/1775095836093011_collage_1775095836003722.png"
+            ],
+            "timestamp": 1775095836
         }
     ],
     "notificaciones_franchise": [
@@ -5522,7 +5522,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1813,
+    "total_notificaciones_historicas": 1814,
     "total_franchise_historicas": 557,
-    "cache_buster": 1775095738
+    "cache_buster": 1775095836
 }
