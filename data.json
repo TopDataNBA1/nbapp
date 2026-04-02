@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:02:23",
+    "ultima_actualizacion": "06:05:38",
     "tablas": {
         "pts": [
             {
@@ -722,7 +722,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 227,
+                "Rank": 226,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 2,
+                "Total": 616,
+                "Diff": "",
+                "Antece": "Kevin Kunnert",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 228,
                 "Nombre": "Ivica Zubac",
                 "Team": "IND",
                 "Hoy": 0,
@@ -731,17 +742,6 @@
                 "Antece": "Alex Len",
                 "Nota": "Mismo total",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 228,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 1,
-                "Total": 615,
-                "Diff": "",
-                "Antece": "Ivica Zubac",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 238,
@@ -3526,9 +3526,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 615,
-                "Diff": "85",
+                "Hoy": 2,
+                "Total": 616,
+                "Diff": "84",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -4119,13 +4119,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "LaMelo Ball (2 three-pointers today) has passed Damon Jones and is now ranked 210th all-time with 942.",
-            "foto": [
-                "collages/1774828147833554_collage_1774828147741882.png"
-            ],
-            "timestamp": 1774828147
-        },
         {
             "texto": "📢🔝💯 Jayson Tatum (5 three-pointers today) has passed Danny Green and is now ranked 49th all-time with 1,578.",
             "foto": [
@@ -4818,6 +4811,13 @@
                 "collages/1775102543209744_collage_1775102543128771.png"
             ],
             "timestamp": 1775102543
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Alex Len and Ivica Zubac and is now ranked 226th all-time with 616.",
+            "foto": [
+                "collages/1775102738191726_collage_1775102738120620.png"
+            ],
+            "timestamp": 1775102738
         }
     ],
     "notificaciones_franchise": [
@@ -5522,7 +5522,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1820,
+    "total_notificaciones_historicas": 1821,
     "total_franchise_historicas": 558,
-    "cache_buster": 1775102543
+    "cache_buster": 1775102738
 }
