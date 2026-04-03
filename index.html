@@ -610,22 +610,21 @@
             <div class="filters-top" style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0;">
                 <!-- Període -->
                 <select id="top-period" class="team-select" onchange="updateTopMoves()">
-                    <option value="today">Today</option>
+                    <option value="today" selected>Today</option>
                     <option value="week">This Week</option>
                     <option value="month">This Month</option>
-                    <option value="season" selected>This Season</option>
+                    <option value="season">This Season</option>
                 </select>
                 
                 <!-- Tipus -->
                 <select id="top-type" class="team-select" onchange="updateTopMoves()">
-                    <option value="all">All</option>
-                    <option value="global">Global Only</option>
-                    <option value="franchise">Franchise Only</option>
+                    <option value="global" selected>Global</option>
+                    <option value="franchise">Franchise</option>
                 </select>
                 
                 <!-- Estadística -->
                 <select id="top-stat" class="team-select" onchange="updateTopMoves()">
-                    <option value="all">All Stats</option>
+                    <option value="all" selected>All Stats</option>
                     <option value="pts">Points</option>
                     <option value="trb">Rebounds</option>
                     <option value="ast">Assists</option>
@@ -635,9 +634,9 @@
                     <option value="g">Games</option>
                 </select>
                 
-                <!-- Equip (només quan Franchise està seleccionat) -->
+                <!-- Equip -->
                 <select id="top-team" class="team-select" onchange="updateTopMoves()">
-                    <option value="all">All Teams</option>
+                    <option value="all" selected>All Teams</option>
                     <option value="ATL">Atlanta Hawks</option>
                     <option value="BOS">Boston Celtics</option>
                     <option value="NJN">Brooklyn Nets</option>
@@ -1923,24 +1922,38 @@ async function updateTopMoves() {
     const stat = document.getElementById('top-stat').value;
     const team = document.getElementById('top-team').value;
     
-    // Sempre mostrar filtre equips (funciona per globals i franchise)
-    const teamSelect = document.getElementById('top-team');
-    teamSelect.style.display = '';
-    
     let allNotifications = [];
     
-    // Combinar global i franchise segons filtre
-    if (type === 'all' || type === 'global') {
+    // Afegir notificacions segons tipus
+    if (type === 'global') {
         const globalNotifs = (data.global || []).map(n => ({...n, source: 'global'}));
         allNotifications = allNotifications.concat(globalNotifs);
     }
-    if (type === 'all' || type === 'franchise') {
+    if (type === 'franchise') {
         const franchiseNotifs = (data.franchise || []).map(n => ({...n, source: 'franchise'}));
         allNotifications = allNotifications.concat(franchiseNotifs);
     }
     
-    // Filtrar per període (usant hora ET per als límits)
-    allNotifications = filterByPeriod(allNotifications, period);
+    // Filtrar per període
+    // Per "today": si no hi ha notificacions d'avui, mostrar l'última jornada
+    let filteredByPeriod = filterByPeriod(allNotifications, period);
+    
+    if (period === 'today' && filteredByPeriod.length === 0 && allNotifications.length > 0) {
+        // Trobar la data de l'última notificació i mostrar totes d'aquell dia
+        const lastTimestamp = Math.max(...allNotifications.map(n => n.timestamp));
+        const lastDate = new Date(lastTimestamp * 1000);
+        const lastDateET = new Date(lastDate.toLocaleString('en-US', {timeZone: 'America/New_York'}));
+        const lastDayStart = new Date(lastDateET.getFullYear(), lastDateET.getMonth(), lastDateET.getDate());
+        const lastDayStartUTC = new Date(Date.UTC(lastDayStart.getFullYear(), lastDayStart.getMonth(), lastDayStart.getDate(), 5, 0, 0));
+        const lastDayEndUTC = new Date(lastDayStartUTC.getTime() + 24 * 60 * 60 * 1000);
+        
+        filteredByPeriod = allNotifications.filter(n => {
+            const ts = n.timestamp * 1000;
+            return ts >= lastDayStartUTC.getTime() && ts < lastDayEndUTC.getTime();
+        });
+    }
+    
+    allNotifications = filteredByPeriod;
     
     // Filtrar per estadística
     if (stat !== 'all') {
@@ -1961,7 +1974,7 @@ async function updateTopMoves() {
         };
     });
     
-    // Filtrar per equip (ara funciona tant per globals com franchise)
+    // Filtrar per equip (funciona tant per globals com franchise)
     if (team !== 'all') {
         allNotifications = allNotifications.filter(n => n.playerTeam === team);
     }
@@ -1987,11 +2000,11 @@ async function updateTopMoves() {
     
     const statEmojis = {
         'pts': '🏀',
-        'trb': '📊',
+        'trb': '💪',
         'ast': '🎯',
         'stl': '🖐️',
         'blk': '🚫',
-        'fg3': '🎯',
+        'fg3': '🏹',
         'g': '📅'
     };
     
