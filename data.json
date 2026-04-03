@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:42:57",
+    "ultima_actualizacion": "05:44:36",
     "tablas": {
         "pts": [
             {
@@ -83,9 +83,9 @@
                 "Rank": 107,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 13,
-                "Total": 17209,
-                "Diff": "22",
+                "Hoy": 16,
+                "Total": 17212,
+                "Diff": "19",
                 "Antece": "Jeff Malone",
                 "Nota": "",
                 "game_status": "playing"
@@ -127,9 +127,9 @@
                 "Rank": 158,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 16,
-                "Total": 15194,
-                "Diff": "97",
+                "Hoy": 17,
+                "Total": 15195,
+                "Diff": "96",
                 "Antece": "John Drew",
                 "Nota": "",
                 "game_status": "playing"
@@ -538,9 +538,9 @@
             },
             {
                 "Rank": 29,
-                "Nombre": "Nicolas Batum",
-                "Team": "LAC",
-                "Hoy": 0,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 3,
                 "Total": 1838,
                 "Diff": "7",
                 "Antece": "Wesley Matthews",
@@ -549,13 +549,13 @@
             },
             {
                 "Rank": 30,
-                "Nombre": "Donovan Mitchell",
-                "Team": "CLE",
-                "Hoy": 2,
-                "Total": 1837,
-                "Diff": "1",
-                "Antece": "Nicolas Batum",
-                "Nota": "A tiro de 1",
+                "Nombre": "Nicolas Batum",
+                "Team": "LAC",
+                "Hoy": 0,
+                "Total": 1838,
+                "Diff": "",
+                "Antece": "Donovan Mitchell",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -573,10 +573,10 @@
                 "Rank": 39,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 1699,
-                "Diff": "1",
-                "Antece": "1700",
+                "Hoy": 4,
+                "Total": 1700,
+                "Diff": "19",
+                "Antece": "Dale Ellis",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -949,9 +949,9 @@
                 "Rank": 26,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 4,
-                "Total": 6733,
-                "Diff": "42",
+                "Hoy": 5,
+                "Total": 6734,
+                "Diff": "41",
                 "Antece": "Mike Conley",
                 "Nota": "",
                 "game_status": "playing"
@@ -962,7 +962,7 @@
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 6729,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1505,9 +1505,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 6960,
-                "Diff": "40",
+                "Hoy": 17,
+                "Total": 6961,
+                "Diff": "39",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1595,9 +1595,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 879,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 880,
+                "Diff": "20",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -2677,9 +2677,9 @@
                 "Rank": 19,
                 "Nombre": "Kenrich Williams",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 309,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 310,
+                "Diff": "12",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -3114,13 +3114,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Draymond Green (3 rebounds today) has passed Tristan Thompson and is now ranked 164th all-time with 6,429.",
-            "foto": [
-                "collages/1774844972886015_collage_1774844972802497.png"
-            ],
-            "timestamp": 1774844972
-        },
         {
             "texto": "Paul George today surpasses Derrick McKey and Lindsey Hunter and now ranked 224th all time with 938 games",
             "foto": [
@@ -3813,6 +3806,13 @@
                 "collages/1775185568604401_collage_1775185568519588.png"
             ],
             "timestamp": 1775185568
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (4 three-pointers today) becomes the 39th player to reach 1,700",
+            "foto": [
+                "collages/1775187876569201_collage_1775187876508221.png"
+            ],
+            "timestamp": 1775187876
         }
     ],
     "notificaciones_franchise": [
@@ -4517,7 +4517,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1628,
+    "total_notificaciones_historicas": 1629,
     "total_franchise_historicas": 480,
-    "cache_buster": 1775187777
+    "cache_buster": 1775187876
 }
