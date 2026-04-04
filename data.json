@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:48:55",
+    "ultima_actualizacion": "03:50:33",
     "tablas": {
         "pts": [
             {
@@ -215,9 +215,9 @@
                 "Rank": 224,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 22,
-                "Total": 13386,
-                "Diff": "12",
+                "Hoy": 26,
+                "Total": 13390,
+                "Diff": "8",
                 "Antece": "Vlade Divac",
                 "Nota": "",
                 "game_status": "playing"
@@ -1000,25 +1000,25 @@
             },
             {
                 "Rank": 174,
+                "Nombre": "Taurean Prince",
+                "Team": "MIL",
+                "Hoy": 3,
+                "Total": 1025,
+                "Diff": "1",
+                "Antece": "Joe Harris",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 175,
                 "Nombre": "Doug McDermott",
                 "Team": "SAC",
                 "Hoy": 0,
                 "Total": 1024,
-                "Diff": "2",
-                "Antece": "Joe Harris",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Taurean Prince",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 175,
-                "Nombre": "Taurean Prince",
-                "Team": "MIL",
-                "Hoy": 2,
-                "Total": 1024,
-                "Diff": "",
-                "Antece": "Doug McDermott",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 176,
@@ -1027,7 +1027,7 @@
                 "Hoy": 0,
                 "Total": 1019,
                 "Diff": "5",
-                "Antece": "Taurean Prince",
+                "Antece": "Doug McDermott",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -1671,9 +1671,9 @@
                 "Rank": 10,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 13386,
-                "Diff": "114",
+                "Hoy": 26,
+                "Total": 13390,
+                "Diff": "110",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -4065,13 +4065,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Dillon Brooks (1 three-pointer today) has passed Morris Peterson and is now ranked 178th all-time with 1,010.",
-            "foto": [
-                "collages/1775004145129194_collage_1775004145030120.png"
-            ],
-            "timestamp": 1775004145
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (20 points today) has passed Calvin Murphy and Lou Hudson and is now ranked 84th all-time with 17,950.",
             "foto": [
                 "collages/1775004533535378_collage_1775004533452144.png"
@@ -4763,6 +4756,13 @@
                 "collages/1775267040608848_collage_1775267040502870.png"
             ],
             "timestamp": 1775267040
+        },
+        {
+            "texto": "Taurean Prince (3 three-pointers today) has passed Doug McDermott and is now ranked 174th all-time with 1,025.",
+            "foto": [
+                "collages/1775267433727966_collage_1775267433633016.png"
+            ],
+            "timestamp": 1775267433
         }
     ],
     "notificaciones_franchise": [
@@ -5467,7 +5467,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1658,
+    "total_notificaciones_historicas": 1659,
     "total_franchise_historicas": 490,
-    "cache_buster": 1775267335
+    "cache_buster": 1775267433
 }
