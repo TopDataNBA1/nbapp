@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:59",
+    "ultima_actualizacion": "02:46:37",
     "tablas": {
         "pts": [
             {
@@ -1024,11 +1024,11 @@
                 "Rank": 246,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 858,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 859,
+                "Diff": "",
                 "Antece": "Avery Bradley",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1037,7 +1037,7 @@
                 "Team": "IND",
                 "Hoy": 0,
                 "Total": 856,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Payton Pritchard",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1507,13 +1507,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 653,
-                "Diff": "1",
-                "Antece": "Dennis Johnson",
+                "Hoy": 2,
+                "Total": 655,
+                "Diff": "16",
+                "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
             {
@@ -1570,9 +1570,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 858,
-                "Diff": "42",
+                "Hoy": 1,
+                "Total": 859,
+                "Diff": "41",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1582,7 +1582,7 @@
                 "Stat": "3PM",
                 "Hoy": 2,
                 "Total": 841,
-                "Diff": "17",
+                "Diff": "18",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1642,9 +1642,9 @@
                 "Rank": 4,
                 "Nombre": "Miles Bridges",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 3045,
-                "Diff": "353",
+                "Hoy": 4,
+                "Total": 3046,
+                "Diff": "352",
                 "Antece": "Gerald Wallace",
                 "game_status": "playing"
             },
@@ -2696,9 +2696,9 @@
                 "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 5910,
-                "Diff": "90",
+                "Hoy": 1,
+                "Total": 5911,
+                "Diff": "89",
                 "Antece": "6000",
                 "game_status": "playing"
             },
@@ -2958,9 +2958,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 8057,
-                "Diff": "443",
+                "Hoy": 13,
+                "Total": 8059,
+                "Diff": "441",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -3100,9 +3100,9 @@
                 "Rank": 8,
                 "Nombre": "Scottie Barnes",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2631,
-                "Diff": "108",
+                "Hoy": 2,
+                "Total": 2630,
+                "Diff": "109",
                 "Antece": "DeMar DeRozan",
                 "game_status": "playing"
             },
@@ -4242,13 +4242,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝3️⃣ LaMelo Ball (5 three-pointers today) has passed Dell Curry and is now ranked 2nd in Hornets history with 930.",
-            "foto": [],
-            "timestamp": 1774398023,
-            "team": "CHA",
-            "type": "franchise"
-        },
-        {
             "texto": "Kon Knueppel (3 three-pointers today) has passed Gordon Hayward and is now ranked 23rd in Hornets history with 246.",
             "foto": [],
             "timestamp": 1774398119,
@@ -4940,9 +4933,16 @@
             "timestamp": 1775263499,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Jayson Tatum (2 steals today) has passed Dennis Johnson and is now ranked 10th in Celtics history with 655.",
+            "foto": [],
+            "timestamp": 1775263597,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1641,
-    "total_franchise_historicas": 486,
-    "cache_buster": 1775263499
+    "total_franchise_historicas": 487,
+    "cache_buster": 1775263597
 }
