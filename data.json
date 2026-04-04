@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:23:47",
+    "ultima_actualizacion": "23:28:26",
     "tablas": {
         "pts": [
             {
@@ -164,34 +164,34 @@
                 "Rank": 225,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 4,
-                "Total": 621,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 622,
+                "Diff": "2",
                 "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 241,
+                "Nombre": "Nikola Jokic",
+                "Team": "DEN",
+                "Hoy": 4,
+                "Total": 587,
+                "Diff": "3",
+                "Antece": "Greg Anderson",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 242,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 1,
                 "Total": 586,
-                "Diff": "4",
-                "Antece": "Greg Anderson",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Nikola Jokic",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 243,
-                "Nombre": "Nikola Jokic",
-                "Team": "DEN",
-                "Hoy": 3,
-                "Total": 586,
-                "Diff": "",
-                "Antece": "Kent Benson",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -232,11 +232,11 @@
                 "Rank": 73,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 1381,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1382,
+                "Diff": "1",
                 "Antece": "Tobias Harris",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -344,9 +344,9 @@
                 "Rank": 42,
                 "Nombre": "Nikola Jokic",
                 "Team": "DEN",
-                "Hoy": 9,
-                "Total": 6052,
-                "Diff": "17",
+                "Hoy": 10,
+                "Total": 6053,
+                "Diff": "16",
                 "Antece": "Damian Lillard",
                 "Nota": "",
                 "game_status": "playing"
@@ -472,9 +472,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 11476,
-                "Diff": "516",
+                "Hoy": 12,
+                "Total": 11479,
+                "Diff": "513",
                 "Antece": "David Thompson",
                 "game_status": "playing"
             },
@@ -502,9 +502,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 6052,
-                "Diff": "948",
+                "Hoy": 10,
+                "Total": 6053,
+                "Diff": "947",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -542,9 +542,9 @@
                 "Rank": 8,
                 "Nombre": "Nikola Jokić",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 586,
-                "Diff": "14",
+                "Hoy": 4,
+                "Total": 587,
+                "Diff": "13",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -562,9 +562,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 1381,
-                "Diff": "19",
+                "Hoy": 2,
+                "Total": 1382,
+                "Diff": "18",
                 "Antece": "1400",
                 "game_status": "playing"
             },
@@ -786,9 +786,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 4,
-                "Total": 621,
-                "Diff": "79",
+                "Hoy": 5,
+                "Total": 622,
+                "Diff": "78",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -887,13 +887,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Dennis Schröder (3 assists today) has passed Goran Dragić and Terrell Brandon and is now ranked 98th all-time with 4,408.",
-            "foto": [
-                "collages/1775014022776540_collage_1775014022703567.png"
-            ],
-            "timestamp": 1775014022
-        },
         {
             "texto": "📢HOF🏛️ Luka Dončić (5 assists today) has passed Charles Barkley and is now ranked 112th all-time with 4,216.",
             "foto": [
@@ -1586,6 +1579,13 @@
                 "collages/1775337730818260_collage_1775337730726728.png"
             ],
             "timestamp": 1775337730
+        },
+        {
+            "texto": "Nikola Jokic (4 blocks today) has passed Andrew Wiggins and Kent Benson and is now ranked 241st all-time with 587.",
+            "foto": [
+                "collages/1775338106711175_collage_1775338106637899.png"
+            ],
+            "timestamp": 1775338106
         }
     ],
     "notificaciones_franchise": [
@@ -2290,7 +2290,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1672,
+    "total_notificaciones_historicas": 1673,
     "total_franchise_historicas": 498,
-    "cache_buster": 1775337827
+    "cache_buster": 1775338106
 }
