@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:48",
+    "ultima_actualizacion": "03:19:28",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 103,
+                "Rank": 101,
                 "Nombre": "Klay Thompson",
                 "Team": "DAL",
-                "Hoy": 11,
-                "Total": 17305,
-                "Diff": "1",
-                "Antece": "Michael Finley",
-                "Nota": "A tiro de 1",
+                "Hoy": 14,
+                "Total": 17308,
+                "Diff": "27",
+                "Antece": "Kevin McHale",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -562,9 +562,9 @@
                 "Rank": 4,
                 "Nombre": "Klay Thompson",
                 "Team": "DAL",
-                "Hoy": 3,
-                "Total": 2890,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 2891,
+                "Diff": "9",
                 "Antece": "2900",
                 "Nota": "",
                 "game_status": "playing"
@@ -914,11 +914,11 @@
                 "Rank": 200,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 2,
-                "Total": 969,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 970,
+                "Diff": "1",
                 "Antece": "Vladimir Radmanović",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1844,9 +1844,9 @@
                 "Rank": 14,
                 "Nombre": "Klay Thompson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 409,
-                "Diff": "21",
+                "Hoy": 4,
+                "Total": 410,
+                "Diff": "20",
                 "Antece": "Devin Harris",
                 "game_status": "playing"
             },
@@ -2564,9 +2564,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 7374,
-                "Diff": "88",
+                "Hoy": 15,
+                "Total": 7376,
+                "Diff": "86",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -2723,13 +2723,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2753,
-                "Diff": "0",
-                "Antece": "Aaron Gordon",
+                "Hoy": 1,
+                "Total": 2754,
+                "Diff": "246",
+                "Antece": "3000",
                 "game_status": "playing"
             },
             {
@@ -3120,9 +3120,9 @@
                 "Rank": 6,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1808,
-                "Diff": "40",
+                "Hoy": 5,
+                "Total": 1809,
+                "Diff": "39",
                 "Antece": "Pascal Siakam",
                 "game_status": "playing"
             },
@@ -3539,13 +3539,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Khris Middleton (1 steal today) has passed P.J. Tucker and is now ranked 215th all-time with 944.",
-            "foto": [
-                "collages/1774922321447746_collage_1774922321355067.png"
-            ],
-            "timestamp": 1774922321
-        },
         {
             "texto": "Donte DiVincenzo (3 three-pointers today) has passed Kevin Martin and is now ranked 129th all-time with 1,142.",
             "foto": [
@@ -4238,16 +4231,16 @@
                 "collages/1775265468603909_collage_1775265468524960.png"
             ],
             "timestamp": 1775265468
+        },
+        {
+            "texto": "Klay Thompson (14 points today) has passed Bradley Beal and Michael Finley and is now ranked 101st all-time with 17,308.",
+            "foto": [
+                "collages/1775265568368241_collage_1775265568300284.png"
+            ],
+            "timestamp": 1775265568
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Mikal Bridges (3 three-pointers today) has passed Quentin Grimes and is now ranked 20th in Knicks history with 307.",
-            "foto": [],
-            "timestamp": 1774399170,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Wendell Carter Jr. (1 block today) has passed Tony Battie and is now ranked 12th in Magic history with 206.",
             "foto": [],
@@ -4940,9 +4933,16 @@
             "timestamp": 1775264880,
             "team": "CHA",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Wendell Carter Jr. (1 rebound today) has passed Aaron Gordon and is now ranked 6th in Magic history with 2,754.",
+            "foto": [],
+            "timestamp": 1775265568,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1652,
-    "total_franchise_historicas": 488,
-    "cache_buster": 1775265468
+    "total_notificaciones_historicas": 1653,
+    "total_franchise_historicas": 489,
+    "cache_buster": 1775265568
 }
