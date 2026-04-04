@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:02:00",
+    "ultima_actualizacion": "04:03:39",
     "tablas": {
         "pts": [
             {
@@ -601,13 +601,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 208,
+                "Rank": 207,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 650,
+                "Hoy": 2,
+                "Total": 651,
                 "Diff": "1",
-                "Antece": "Olden Polynice",
+                "Antece": "Spencer Hawes",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -903,9 +903,9 @@
                 "Rank": 130,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 4,
-                "Total": 1143,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 1144,
+                "Diff": "4",
                 "Antece": "Steve Smith",
                 "Nota": "",
                 "game_status": "playing"
@@ -1002,11 +1002,11 @@
                 "Rank": 174,
                 "Nombre": "Taurean Prince",
                 "Team": "MIL",
-                "Hoy": 3,
-                "Total": 1025,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 1026,
+                "Diff": "",
                 "Antece": "Joe Harris",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1015,9 +1015,9 @@
                 "Team": "SAC",
                 "Hoy": 0,
                 "Total": 1024,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Taurean Prince",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "not_started"
             },
             {
@@ -1811,9 +1811,9 @@
                 "Rank": 7,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 843,
-                "Diff": "17",
+                "Hoy": 5,
+                "Total": 844,
+                "Diff": "16",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -2062,13 +2062,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Daniel Gafford",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 224,
-                "Diff": "0",
-                "Antece": "Mark Aguirre",
+                "Hoy": 2,
+                "Total": 225,
+                "Diff": "6",
+                "Antece": "Shawn Marion",
                 "game_status": "playing"
             },
             {
@@ -3279,9 +3279,9 @@
                 "Rank": 18,
                 "Nombre": "Franz Wagner",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 327,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 328,
+                "Diff": "0",
                 "Antece": "Aaron Gordon",
                 "game_status": "playing"
             },
@@ -4065,13 +4065,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Devin Booker (3 assists today) has passed Devin Harris and Earl Watson and is now ranked 141st all-time with 3,872.",
-            "foto": [
-                "collages/1775005793543744_collage_1775005793464770.png"
-            ],
-            "timestamp": 1775005793
-        },
-        {
             "texto": "Royce O'Neale (4 three-pointers today) has passed David Wesley, Kyle Kuzma and Mikal Bridges and is now ranked 135th all-time with 1,127.",
             "foto": [
                 "collages/1775005793773361_collage_1775005793704367.png"
@@ -4763,16 +4756,16 @@
                 "collages/1775267726122308_collage_1775267726032340.png"
             ],
             "timestamp": 1775267726
+        },
+        {
+            "texto": "Daniel Gafford (2 blocks today) has passed Terry Cummings and is now ranked 207th all-time with 651.",
+            "foto": [
+                "collages/1775268219033345_collage_1775268218930781.png"
+            ],
+            "timestamp": 1775268219
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Grayson Allen (2 three-pointers today) becomes the 10th player to reach 500 three-pointers with Suns.",
-            "foto": [],
-            "timestamp": 1774409914,
-            "team": "PHO",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Aaron Gordon (1 three-pointer today) has passed Randy Foye and is now ranked 19th in Nuggets history with 334.",
             "foto": [],
@@ -5465,9 +5458,16 @@
             "timestamp": 1775265863,
             "team": "DAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Daniel Gafford (2 blocks today) has passed Mark Aguirre and is now ranked 20th in Mavericks history with 225.",
+            "foto": [],
+            "timestamp": 1775268219,
+            "team": "DAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1660,
-    "total_franchise_historicas": 490,
-    "cache_buster": 1775268120
+    "total_notificaciones_historicas": 1661,
+    "total_franchise_historicas": 491,
+    "cache_buster": 1775268219
 }
