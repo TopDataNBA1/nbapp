@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:23:37",
+    "ultima_actualizacion": "02:25:16",
     "tablas": {
         "pts": [
             {
@@ -351,9 +351,9 @@
                 "Rank": 24,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1839,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 1840,
+                "Diff": "8",
                 "Antece": "Anthony Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -901,24 +901,24 @@
             },
             {
                 "Rank": 205,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
-                "Hoy": 1,
-                "Total": 956,
-                "Diff": "6",
+                "Nombre": "LaMelo Ball",
+                "Team": "CHA",
+                "Hoy": 4,
+                "Total": 957,
+                "Diff": "5",
                 "Antece": "Tim Thomas",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 206,
-                "Nombre": "LaMelo Ball",
-                "Team": "CHA",
-                "Hoy": 3,
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 1,
                 "Total": 956,
-                "Diff": "",
-                "Antece": "Julius Randle",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "LaMelo Ball",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1588,9 +1588,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 6204,
-                "Diff": "796",
+                "Hoy": 20,
+                "Total": 6207,
+                "Diff": "793",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1668,9 +1668,9 @@
                 "Rank": 2,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 956,
-                "Diff": "44",
+                "Hoy": 4,
+                "Total": 957,
+                "Diff": "43",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -2500,9 +2500,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 482,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 483,
+                "Diff": "6",
                 "Antece": "Gorgui Dieng",
                 "game_status": "playing"
             },
@@ -2512,7 +2512,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 443,
-                "Diff": "39",
+                "Diff": "40",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -3870,13 +3870,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Malik Monk (2 three-pointers today) has passed Nick Anderson and is now ranked 162nd all-time with 1,057.",
-            "foto": [
-                "collages/1775090898006630_collage_1775090897909178.png"
-            ],
-            "timestamp": 1775090898
-        },
-        {
             "texto": "CJ McCollum (3 assists today) has passed Darrell Walker and is now ranked 201st all-time with 3,277.",
             "foto": [
                 "collages/1775091296482963_collage_1775091296381886.png"
@@ -4568,6 +4561,13 @@
                 "collages/1775434818855154_collage_1775434818777032.png"
             ],
             "timestamp": 1775434818
+        },
+        {
+            "texto": "LaMelo Ball (4 three-pointers today) has passed Julius Randle and Raja Bell and is now ranked 205th all-time with 957.",
+            "foto": [
+                "collages/1775435116435608_collage_1775435116373109.png"
+            ],
+            "timestamp": 1775435116
         }
     ],
     "notificaciones_franchise": [
@@ -5272,7 +5272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1690,
+    "total_notificaciones_historicas": 1691,
     "total_franchise_historicas": 507,
-    "cache_buster": 1775435017
+    "cache_buster": 1775435116
 }
