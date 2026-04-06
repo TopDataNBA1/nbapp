@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:55:51",
+    "ultima_actualizacion": "03:57:30",
     "tablas": {
         "pts": [
             {
@@ -1330,25 +1330,25 @@
             },
             {
                 "Rank": 178,
-                "Nombre": "Dillon Brooks",
-                "Team": "PHX",
-                "Hoy": 1,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 2,
                 "Total": 1014,
                 "Diff": "3",
                 "Antece": "Luke Kennard",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 179,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
+                "Nombre": "Dillon Brooks",
+                "Team": "PHX",
                 "Hoy": 1,
-                "Total": 1013,
-                "Diff": "1",
-                "Antece": "Dillon Brooks",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Total": 1014,
+                "Diff": "",
+                "Antece": "Darius Garland",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 180,
@@ -1356,9 +1356,9 @@
                 "Team": "PHX",
                 "Hoy": 1,
                 "Total": 1013,
-                "Diff": "",
-                "Antece": "Darius Garland",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Dillon Brooks",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
             {
@@ -5143,13 +5143,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Jonas Valančiūnas today surpasses Dolph Schayes and now ranked 157th all time with 997 games",
-            "foto": [
-                "collages/1775094075458838_collage_1775094075347628.png"
-            ],
-            "timestamp": 1775094075
-        },
-        {
             "texto": "Jaylen Brown (43 points today) has passed Luol Deng and is now ranked 225th all-time with 13,364.",
             "foto": [
                 "collages/1775094859984125_collage_1775094859901671.png"
@@ -5841,6 +5834,13 @@
                 "collages/1775438584985734_collage_1775438584891986.png"
             ],
             "timestamp": 1775438584
+        },
+        {
+            "texto": "Darius Garland (2 three-pointers today) has passed Grayson Allen and OG Anunoby and is now ranked 178th all-time with 1,014.",
+            "foto": [
+                "collages/1775440650521150_collage_1775440650443041.png"
+            ],
+            "timestamp": 1775440650
         }
     ],
     "notificaciones_franchise": [
@@ -6545,7 +6545,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1698,
+    "total_notificaciones_historicas": 1699,
     "total_franchise_historicas": 510,
-    "cache_buster": 1775440551
+    "cache_buster": 1775440650
 }
