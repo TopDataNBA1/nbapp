@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:17:41",
+    "ultima_actualizacion": "01:20:56",
     "tablas": {
         "pts": [
             {
@@ -37,25 +37,25 @@
             },
             {
                 "Rank": 159,
+                "Nombre": "Julius Randle",
+                "Team": "MIN",
+                "Hoy": 6,
+                "Total": 15171,
+                "Diff": "70",
+                "Antece": "Donovan Mitchell",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 160,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 0,
                 "Total": 15170,
-                "Diff": "71",
-                "Antece": "Donovan Mitchell",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Julius Randle",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 160,
-                "Nombre": "Julius Randle",
-                "Team": "MIN",
-                "Hoy": 3,
-                "Total": 15168,
-                "Diff": "2",
-                "Antece": "Andrew Wiggins",
-                "Nota": "A tiro de 2",
-                "game_status": "playing"
             },
             {
                 "Rank": 244,
@@ -74,9 +74,9 @@
                 "Rank": 36,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 10561,
-                "Diff": "130",
+                "Hoy": 2,
+                "Total": 10562,
+                "Diff": "129",
                 "Antece": "Nikola Vucevic",
                 "Nota": "",
                 "game_status": "playing"
@@ -386,9 +386,9 @@
                 "Rank": 206,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 957,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 958,
+                "Diff": "2",
                 "Antece": "LaMelo Ball",
                 "Nota": "",
                 "game_status": "playing"
@@ -856,9 +856,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3442,
-                "Diff": "558",
+                "Hoy": 2,
+                "Total": 3443,
+                "Diff": "557",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1046,9 +1046,9 @@
                 "Rank": 25,
                 "Nombre": "Julius Randle",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 215,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 216,
+                "Diff": "2",
                 "Antece": "Chuck Person",
                 "game_status": "playing"
             },
@@ -1465,13 +1465,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday (4 three-pointers today) becomes the 39th player to reach 1,700",
-            "foto": [
-                "collages/1775187876569201_collage_1775187876508221.png"
-            ],
-            "timestamp": 1775187876
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (4 three-pointers today) has passed Nicolas Batum and is now ranked 29th all-time with 1,839.",
             "foto": [
@@ -2164,6 +2157,13 @@
                 "collages/1775603760483859_collage_1775603760392888.png"
             ],
             "timestamp": 1775603760
+        },
+        {
+            "texto": "Julius Randle (6 points today) has passed Andrew Wiggins and is now ranked 159th all-time with 15,171.",
+            "foto": [
+                "collages/1775604056290195_collage_1775604056206222.png"
+            ],
+            "timestamp": 1775604056
         }
     ],
     "notificaciones_franchise": [
@@ -2868,7 +2868,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1728,
+    "total_notificaciones_historicas": 1729,
     "total_franchise_historicas": 523,
-    "cache_buster": 1775603861
+    "cache_buster": 1775604056
 }
