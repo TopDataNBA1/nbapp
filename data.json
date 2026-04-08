@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:19:24",
+    "ultima_actualizacion": "06:21:03",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 11,
-                "Total": 32522,
-                "Diff": "478",
+                "Hoy": 13,
+                "Total": 32524,
+                "Diff": "476",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -160,9 +160,9 @@
                 "Rank": 118,
                 "Nombre": "Kawhi Leonard",
                 "Team": "LAC",
-                "Hoy": 29,
-                "Total": 16497,
-                "Diff": "161",
+                "Hoy": 32,
+                "Total": 16500,
+                "Diff": "158",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -967,25 +967,25 @@
             },
             {
                 "Rank": 76,
-                "Nombre": "Terry Rozier",
-                "Team": "MIA",
-                "Hoy": 0,
+                "Nombre": "Kawhi Leonard",
+                "Team": "LAC",
+                "Hoy": 6,
                 "Total": 1356,
                 "Diff": "3",
                 "Antece": "Evan Fournier",
                 "Nota": "",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
                 "Rank": 77,
-                "Nombre": "Kawhi Leonard",
-                "Team": "LAC",
-                "Hoy": 5,
-                "Total": 1355,
-                "Diff": "1",
-                "Antece": "Terry Rozier",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Terry Rozier",
+                "Team": "MIA",
+                "Hoy": 0,
+                "Total": 1356,
+                "Diff": "",
+                "Antece": "Kawhi Leonard",
+                "Nota": "Mismo total",
+                "game_status": "inactive"
             },
             {
                 "Rank": 82,
@@ -1776,9 +1776,9 @@
                 "Rank": 88,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 1242,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 1243,
+                "Diff": "5",
                 "Antece": "Grant Hill",
                 "Nota": "",
                 "game_status": "playing"
@@ -1789,7 +1789,7 @@
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 1235,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Draymond Green",
                 "Nota": "",
                 "game_status": "playing"
@@ -2584,9 +2584,9 @@
                 "Rank": 3,
                 "Nombre": "Draymond Green",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 1242,
-                "Diff": "58",
+                "Hoy": 2,
+                "Total": 1243,
+                "Diff": "57",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -2808,9 +2808,9 @@
                 "Rank": 6,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 8247,
-                "Diff": "588",
+                "Hoy": 32,
+                "Total": 8250,
+                "Diff": "585",
                 "Antece": "Corey Maggette",
                 "game_status": "playing"
             },
@@ -2868,9 +2868,9 @@
                 "Rank": 3,
                 "Nombre": "Kawhi Leonard",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 714,
-                "Diff": "24",
+                "Hoy": 6,
+                "Total": 715,
+                "Diff": "23",
                 "Antece": "Eric Piatkowski",
                 "game_status": "playing"
             },
@@ -3888,22 +3888,22 @@
             },
             {
                 "Rank": 8,
-                "Nombre": "Shai Gilgeous-Alexander",
+                "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 676,
-                "Diff": "23",
+                "Hoy": 6,
+                "Total": 677,
+                "Diff": "22",
                 "Antece": "Dale Ellis",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Isaiah Joe",
+                "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 5,
+                "Hoy": 2,
                 "Total": 676,
-                "Diff": "0",
-                "Antece": "Shai Gilgeous-Alexander",
+                "Diff": "1",
+                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -5278,13 +5278,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Alperen Şengün (1 steal today) has passed Chuck Hayes and is now ranked 23rd in Rockets history with 368.",
-            "foto": [],
-            "timestamp": 1774827656,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
             "texto": "Alperen Şengün (2 steals today) has passed Buck Johnson and is now ranked 22nd in Rockets history with 369.",
             "foto": [],
             "timestamp": 1774828049,
@@ -5976,9 +5969,16 @@
             "timestamp": 1775621964,
             "team": "GSW",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Isaiah Joe (6 three-pointers today) has passed Shai Gilgeous-Alexander and is now ranked 8th in Thunder history with 677.",
+            "foto": [],
+            "timestamp": 1775622063,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1749,
-    "total_franchise_historicas": 534,
-    "cache_buster": 1775621964
+    "total_franchise_historicas": 535,
+    "cache_buster": 1775622063
 }
