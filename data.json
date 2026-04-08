@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:45",
+    "ultima_actualizacion": "02:21:24",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 223,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 13418,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 13421,
+                "Diff": "9",
                 "Antece": "Steve Smith",
                 "Nota": "",
                 "game_status": "playing"
@@ -428,24 +428,24 @@
             },
             {
                 "Rank": 89,
-                "Nombre": "Andrew Wiggins",
-                "Team": "MIA",
+                "Nombre": "Jaylen Brown",
+                "Team": "BOS",
                 "Hoy": 1,
-                "Total": 1279,
-                "Diff": "4",
+                "Total": 1280,
+                "Diff": "3",
                 "Antece": "Mookie Blaylock",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 90,
-                "Nombre": "Jaylen Brown",
-                "Team": "BOS",
-                "Hoy": 0,
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
+                "Hoy": 1,
                 "Total": 1279,
-                "Diff": "",
-                "Antece": "Andrew Wiggins",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Jaylen Brown",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -603,14 +603,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 203,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 2,
-                "Total": 962,
-                "Diff": "",
-                "Antece": "Gerald Green",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 963,
+                "Diff": "4",
+                "Antece": "Spencer Dinwiddie",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -879,9 +879,9 @@
                 "Rank": 10,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 13418,
-                "Diff": "582",
+                "Hoy": 5,
+                "Total": 13421,
+                "Diff": "579",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -999,9 +999,9 @@
                 "Rank": 3,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1279,
-                "Diff": "21",
+                "Hoy": 1,
+                "Total": 1280,
+                "Diff": "20",
                 "Antece": "1300",
                 "game_status": "playing"
             },
@@ -1071,9 +1071,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 6230,
-                "Diff": "770",
+                "Hoy": 13,
+                "Total": 6235,
+                "Diff": "765",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1151,9 +1151,9 @@
                 "Rank": 2,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 962,
-                "Diff": "38",
+                "Hoy": 3,
+                "Total": 963,
+                "Diff": "37",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -2051,9 +2051,9 @@
                 "Rank": 15,
                 "Nombre": "Jamal Shead",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 743,
-                "Diff": "108",
+                "Hoy": 4,
+                "Total": 744,
+                "Diff": "107",
                 "Antece": "Immanuel Quickley",
                 "game_status": "playing"
             },
@@ -2430,13 +2430,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Pascal Siakam (2 points today) has passed Lamar Odom and is now ranked 247th all-time with 12,782.",
-            "foto": [
-                "collages/1775257968475746_collage_1775257968353789.png"
-            ],
-            "timestamp": 1775257968
-        },
         {
             "texto": "LaMelo Ball (2 three-pointers today) has passed Michael Adams and is now ranked 208th all-time with 950.",
             "foto": [
@@ -3129,6 +3122,13 @@
                 "collages/1775605619733850_collage_1775605619651184.png"
             ],
             "timestamp": 1775605619
+        },
+        {
+            "texto": "LaMelo Ball (3 three-pointers today) has passed Gerald Green and Tim Thomas and is now ranked 203rd all-time with 963.",
+            "foto": [
+                "collages/1775607684185047_collage_1775607684114065.png"
+            ],
+            "timestamp": 1775607684
         }
     ],
     "notificaciones_franchise": [
@@ -3833,7 +3833,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1730,
+    "total_notificaciones_historicas": 1731,
     "total_franchise_historicas": 527,
-    "cache_buster": 1775607585
+    "cache_buster": 1775607684
 }
