@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:03:19",
+    "ultima_actualizacion": "04:04:58",
     "tablas": {
         "pts": [
             {
@@ -215,11 +215,11 @@
                 "Rank": 222,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 29,
-                "Total": 13445,
-                "Diff": "2",
+                "Hoy": 31,
+                "Total": 13447,
+                "Diff": "",
                 "Antece": "Cliff Hagan",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -250,9 +250,9 @@
                 "Rank": 35,
                 "Nombre": "Nikola Vucevic",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 10694,
-                "Diff": "122",
+                "Hoy": 4,
+                "Total": 10695,
+                "Diff": "121",
                 "Antece": "Jack Sikma",
                 "Nota": "",
                 "game_status": "playing"
@@ -263,7 +263,7 @@
                 "Team": "MIN",
                 "Hoy": 12,
                 "Total": 10572,
-                "Diff": "122",
+                "Diff": "123",
                 "Antece": "Nikola Vucevic",
                 "Nota": "",
                 "game_status": "finished"
@@ -1638,9 +1638,9 @@
                 "Rank": 10,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 13445,
-                "Diff": "555",
+                "Hoy": 31,
+                "Total": 13447,
+                "Diff": "553",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -1937,13 +1937,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Kon Knueppel",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 267,
-                "Diff": "0",
-                "Antece": "Gerald Wallace",
+                "Hoy": 3,
+                "Total": 268,
+                "Diff": "2",
+                "Antece": "Jason Richardson",
                 "game_status": "playing"
             },
             {
@@ -4310,13 +4310,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝3️⃣ Kawhi Leonard (2 three-pointers today) becomes the 3rd player to reach 700 three-pointers with Clippers.",
-            "foto": [],
-            "timestamp": 1774815647,
-            "team": "LAC",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "📢🔝🔟 Jayson Tatum (18 points today) becomes the 9th player to reach 14,000 points with Celtics.",
             "foto": [],
             "timestamp": 1774825002,
@@ -5008,9 +5001,16 @@
             "timestamp": 1775612820,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Kon Knueppel (3 three-pointers today) has passed Gerald Wallace and is now ranked 22nd in Hornets history with 268.",
+            "foto": [],
+            "timestamp": 1775613898,
+            "team": "CHA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1739,
-    "total_franchise_historicas": 529,
-    "cache_buster": 1775613799
+    "total_franchise_historicas": 530,
+    "cache_buster": 1775613898
 }
