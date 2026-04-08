@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:00:52",
+    "ultima_actualizacion": "03:02:32",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 159,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 14,
-                "Total": 15184,
-                "Diff": "57",
+                "Hoy": 17,
+                "Total": 15187,
+                "Diff": "54",
                 "Antece": "Donovan Mitchell",
                 "Nota": "",
                 "game_status": "playing"
@@ -74,20 +74,20 @@
                 "Team": "MIN",
                 "Hoy": 17,
                 "Total": 15182,
-                "Diff": "2",
+                "Diff": "5",
                 "Antece": "Andrew Wiggins",
-                "Nota": "A tiro de 2",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 198,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 7,
-                "Total": 14092,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 14093,
+                "Diff": "",
                 "Antece": "Gus Williams",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -430,11 +430,11 @@
                 "Rank": 89,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 3,
-                "Total": 1281,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 1282,
+                "Diff": "1",
                 "Antece": "Mookie Blaylock",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -443,9 +443,9 @@
                 "Team": "BOS",
                 "Hoy": 2,
                 "Total": 1281,
-                "Diff": "",
+                "Diff": "1",
                 "Antece": "Andrew Wiggins",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -869,9 +869,9 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 14092,
-                "Diff": "430",
+                "Hoy": 8,
+                "Total": 14093,
+                "Diff": "429",
                 "Antece": "Bill Russell",
                 "game_status": "playing"
             },
@@ -940,8 +940,8 @@
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
                 "Hoy": 0,
-                "Total": 683,
-                "Diff": "17",
+                "Total": 682,
+                "Diff": "18",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -949,9 +949,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 659,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 660,
+                "Diff": "11",
                 "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
@@ -2431,13 +2431,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Mitchell Robinson (1 block today) has passed Kelvin Cato and is now ranked 193rd all-time with 686.",
-            "foto": [
-                "collages/1775260547870128_collage_1775260547743184.png"
-            ],
-            "timestamp": 1775260547
-        },
-        {
             "texto": "📢HOF🏛️ Paul George (6 rebounds today) has passed Neil Johnston and is now ranked 205th all-time with 5,857.",
             "foto": [
                 "collages/1775261041292107_collage_1775261041197150.png"
@@ -3129,6 +3122,13 @@
                 "collages/1775610052411049_collage_1775610052315094.png"
             ],
             "timestamp": 1775610052
+        },
+        {
+            "texto": "📢🔝💯 Andrew Wiggins (4 three-pointers today) has passed Jaylen Brown and is now ranked 89th all-time with 1,282.",
+            "foto": [
+                "collages/1775610152540179_collage_1775610152453207.png"
+            ],
+            "timestamp": 1775610152
         }
     ],
     "notificaciones_franchise": [
@@ -3833,7 +3833,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1734,
+    "total_notificaciones_historicas": 1735,
     "total_franchise_historicas": 527,
-    "cache_buster": 1775610052
+    "cache_buster": 1775610152
 }
