@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:16:27",
+    "ultima_actualizacion": "02:18:06",
     "tablas": {
         "pts": [
             {
@@ -603,14 +603,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 205,
+                "Rank": 204,
                 "Nombre": "LaMelo Ball",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 961,
-                "Diff": "1",
-                "Antece": "Tim Thomas",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 962,
+                "Diff": "",
+                "Antece": "Gerald Green",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -619,8 +619,8 @@
                 "Team": "MIN",
                 "Hoy": 2,
                 "Total": 958,
-                "Diff": "3",
-                "Antece": "LaMelo Ball",
+                "Diff": "4",
+                "Antece": "Tim Thomas",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1071,9 +1071,9 @@
                 "Rank": 6,
                 "Nombre": "LaMelo Ball",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 6225,
-                "Diff": "775",
+                "Hoy": 8,
+                "Total": 6230,
+                "Diff": "770",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -1111,9 +1111,9 @@
                 "Rank": 12,
                 "Nombre": "Miles Bridges",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1373,
-                "Diff": "22",
+                "Hoy": 2,
+                "Total": 1374,
+                "Diff": "21",
                 "Antece": "Terry Rozier",
                 "game_status": "playing"
             },
@@ -1151,9 +1151,9 @@
                 "Rank": 2,
                 "Nombre": "LaMelo Ball",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 961,
-                "Diff": "39",
+                "Hoy": 2,
+                "Total": 962,
+                "Diff": "38",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1213,9 +1213,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 10315,
-                "Diff": "685",
+                "Hoy": 2,
+                "Total": 10317,
+                "Diff": "683",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -2001,9 +2001,9 @@
                 "Rank": 24,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 2911,
-                "Diff": "44",
+                "Hoy": 6,
+                "Total": 2913,
+                "Diff": "42",
                 "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
@@ -2021,9 +2021,9 @@
                 "Rank": 12,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2081,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 2082,
+                "Diff": "1",
                 "Antece": "Chris Boucher",
                 "game_status": "playing"
             },
@@ -2235,18 +2235,18 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 455,
-                "Diff": "25",
+                "Diff": "26",
                 "Antece": "Mike Conley",
                 "game_status": "inactive"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Brice Sensabaugh",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 348,
-                "Diff": "0",
-                "Antece": "Kyle Korver",
+                "Hoy": 1,
+                "Total": 349,
+                "Diff": "51",
+                "Antece": "400",
                 "game_status": "playing"
             }
         ],
@@ -3133,13 +3133,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Jalen Duren (1 block today) has passed Isiah Thomas and is now ranked 16th in Pistons history with 250.",
-            "foto": [],
-            "timestamp": 1774739277,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "Nickeil Alexander-Walker (4 three-pointers today) has passed Vít Krejčí and is now ranked 22nd in Hawks history with 225.",
             "foto": [],
             "timestamp": 1774748453,
@@ -3831,9 +3824,16 @@
             "timestamp": 1775607288,
             "team": "BOS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Brice Sensabaugh (1 three-pointer today) has passed Kyle Korver and is now ranked 17th in Jazz history with 349.",
+            "foto": [],
+            "timestamp": 1775607486,
+            "team": "UTA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1730,
-    "total_franchise_historicas": 526,
-    "cache_buster": 1775607387
+    "total_franchise_historicas": 527,
+    "cache_buster": 1775607486
 }
