@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:57:23",
+    "ultima_actualizacion": "02:59:00",
     "tablas": {
         "pts": [
             {
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 9,
-                "Total": 32544,
-                "Diff": "456",
+                "Hoy": 11,
+                "Total": 32546,
+                "Diff": "454",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,14 +192,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 106,
+                "Rank": 105,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 7314,
-                "Diff": "",
-                "Antece": "Chet Walker",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 7315,
+                "Diff": "5",
+                "Antece": "David Lee",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -562,11 +562,11 @@
                 "Rank": 136,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1130,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1131,
+                "Diff": "1",
                 "Antece": "Gary Payton",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -964,9 +964,9 @@
                 "Rank": 14,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 2324,
-                "Diff": "98",
+                "Hoy": 5,
+                "Total": 2325,
+                "Diff": "97",
                 "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
@@ -1126,9 +1126,9 @@
                 "Rank": 9,
                 "Nombre": "Clint Capela",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 3572,
-                "Diff": "134",
+                "Hoy": 1,
+                "Total": 3573,
+                "Diff": "133",
                 "Antece": "Robert Reid",
                 "game_status": "playing"
             },
@@ -1477,13 +1477,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 317,
-                "Diff": "0",
-                "Antece": "Hubert Davis",
+                "Hoy": 2,
+                "Total": 318,
+                "Diff": "31",
+                "Antece": "Stephon Marbury",
                 "game_status": "playing"
             },
             {
@@ -1991,13 +1991,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles Bridges (3 three-pointers today) has passed Courtney Lee and is now ranked 237th all-time with 877.",
-            "foto": [
-                "collages/1775435416211560_collage_1775435416117813.png"
-            ],
-            "timestamp": 1775435416
-        },
         {
             "texto": "Coby White (3 three-pointers today) has passed Mo Williams and is now ranked 146th all-time with 1,095.",
             "foto": [
@@ -2690,16 +2683,16 @@
                 "collages/1775782545807400_collage_1775782545689539.png"
             ],
             "timestamp": 1775782545
+        },
+        {
+            "texto": "📢HOF🏛️ Clint Capela (1 rebound today) has passed Chet Walker and is now ranked 105th all-time with 7,315.",
+            "foto": [
+                "collages/1775782739886891_collage_1775782739793489.png"
+            ],
+            "timestamp": 1775782739
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Sam Hauser (1 three-pointer today) becomes the 10th player to reach 700 three-pointers with Celtics.",
-            "foto": [],
-            "timestamp": 1774916808,
-            "team": "BOS",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Julian Champagnie (1 three-pointer today) has passed Michael Finley and is now ranked 12th in Spurs history with 491.",
             "foto": [],
@@ -3392,9 +3385,16 @@
             "timestamp": 1775782448,
             "team": "HOU",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Hubert Davis and is now ranked 19th in Knicks history with 318.",
+            "foto": [],
+            "timestamp": 1775782739,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1792,
-    "total_franchise_historicas": 542,
-    "cache_buster": 1775782643
+    "total_notificaciones_historicas": 1793,
+    "total_franchise_historicas": 543,
+    "cache_buster": 1775782740
 }
