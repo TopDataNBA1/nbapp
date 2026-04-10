@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:08:50",
+    "ultima_actualizacion": "02:10:27",
     "tablas": {
         "pts": [
             {
@@ -636,14 +636,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 200,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 970,
-                "Diff": "1",
-                "Antece": "Vladimir Radmanović",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 971,
+                "Diff": "2",
+                "Antece": "Patrick Beverley",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -669,14 +669,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 245,
+                "Rank": 243,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 865,
-                "Diff": "",
-                "Antece": "Eric Piatkowski",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 866,
+                "Diff": "2",
+                "Antece": "Ben McLemore",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -964,9 +964,9 @@
                 "Rank": 14,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 2321,
-                "Diff": "101",
+                "Hoy": 2,
+                "Total": 2322,
+                "Diff": "100",
                 "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
@@ -1064,9 +1064,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 865,
-                "Diff": "35",
+                "Hoy": 1,
+                "Total": 866,
+                "Diff": "34",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1076,7 +1076,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 850,
-                "Diff": "15",
+                "Diff": "16",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1380,9 +1380,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 7415,
-                "Diff": "30",
+                "Hoy": 10,
+                "Total": 7418,
+                "Diff": "27",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1450,9 +1450,9 @@
                 "Rank": 4,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 689,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 690,
+                "Diff": "10",
                 "Antece": "700",
                 "game_status": "playing"
             },
@@ -1634,9 +1634,9 @@
                 "Rank": 23,
                 "Nombre": "RJ Barrett",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 2982,
-                "Diff": "18",
+                "Hoy": 15,
+                "Total": 2984,
+                "Diff": "16",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1646,7 +1646,7 @@
                 "Stat": "PTS",
                 "Hoy": 2,
                 "Total": 2926,
-                "Diff": "56",
+                "Diff": "58",
                 "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
@@ -1991,13 +1991,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Grayson Allen (1 three-pointer today) has passed Darius Garland and is now ranked 179th all-time with 1,013.",
-            "foto": [
-                "collages/1775420482864062_collage_1775420482785940.png"
-            ],
-            "timestamp": 1775420482
-        },
         {
             "texto": "Taj Gibson (4 rebounds today) has passed Tom Boerwinkle and is now ranked 215th all-time with 5,746.",
             "foto": [
@@ -2690,6 +2683,13 @@
                 "collages/1775706910866302_collage_1775706910758339.png"
             ],
             "timestamp": 1775706910
+        },
+        {
+            "texto": "Payton Pritchard (1 three-pointer today) has passed Anthony Tolliver and Eric Piatkowski and is now ranked 243rd all-time with 866.",
+            "foto": [
+                "collages/1775779827249501_collage_1775779827176074.png"
+            ],
+            "timestamp": 1775779827
         }
     ],
     "notificaciones_franchise": [
@@ -3394,7 +3394,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1777,
+    "total_notificaciones_historicas": 1778,
     "total_franchise_historicas": 541,
-    "cache_buster": 1775779730
+    "cache_buster": 1775779827
 }
