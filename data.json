@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:25:01",
+    "ultima_actualizacion": "02:26:42",
     "tablas": {
         "pts": [
             {
@@ -193,9 +193,9 @@
                 "Rank": 220,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 14,
-                "Total": 13465,
-                "Diff": "51",
+                "Hoy": 16,
+                "Total": 13467,
+                "Diff": "49",
                 "Antece": "Dave Cowens",
                 "Nota": "",
                 "game_status": "playing"
@@ -269,14 +269,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 83,
+                "Rank": 82,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 8019,
-                "Diff": "",
-                "Antece": "Happy Hairston",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 8020,
+                "Diff": "21",
+                "Antece": "Larry Foust",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1451,9 +1451,9 @@
                 "Rank": 10,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 13465,
-                "Diff": "35",
+                "Hoy": 16,
+                "Total": 13467,
+                "Diff": "33",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -2515,9 +2515,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 7439,
-                "Diff": "6",
+                "Hoy": 8,
+                "Total": 7441,
+                "Diff": "4",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -2647,10 +2647,10 @@
                 "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 5999,
-                "Diff": "1",
-                "Antece": "6000",
+                "Hoy": 7,
+                "Total": 6001,
+                "Diff": "210",
+                "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
             {
@@ -3021,9 +3021,9 @@
                 "Rank": 11,
                 "Nombre": "Keldon Johnson",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 6809,
-                "Diff": "191",
+                "Hoy": 4,
+                "Total": 6811,
+                "Diff": "189",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -3644,13 +3644,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (7 points today) has passed Dave Cowens and is now ranked 217th all-time with 13,517.",
-            "foto": [
-                "collages/1775522803392599_collage_1775522803298630.png"
-            ],
-            "timestamp": 1775522803
-        },
         {
             "texto": "📢🔝💯 Karl-Anthony Towns (9 rebounds today) becomes the 84th player to reach 8,000",
             "foto": [
@@ -4343,16 +4336,16 @@
                 "collages/1775866491525720_collage_1775866491424759.png"
             ],
             "timestamp": 1775866491
+        },
+        {
+            "texto": "📢🔝💯 Karl-Anthony Towns (5 rebounds today) has passed Happy Hairston and is now ranked 82nd all-time with 8,020.",
+            "foto": [
+                "collages/1775867202040806_collage_1775867201942718.png"
+            ],
+            "timestamp": 1775867202
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (16 points today) becomes the 20th player to reach 5,500 points with Cavaliers.",
-            "foto": [],
-            "timestamp": 1774922616,
-            "team": "CLE",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Brice Sensabaugh (1 three-pointer today) has passed Andrei Kirilenko and is now ranked 19th in Jazz history with 332.",
             "foto": [],
@@ -5045,9 +5038,16 @@
             "timestamp": 1775865980,
             "team": "WAS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Paolo Banchero (7 points today) becomes the 12th player to reach 6,000 points with Magic.",
+            "foto": [],
+            "timestamp": 1775867202,
+            "team": "ORL",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1811,
-    "total_franchise_historicas": 546,
-    "cache_buster": 1775867101
+    "total_notificaciones_historicas": 1812,
+    "total_franchise_historicas": 547,
+    "cache_buster": 1775867202
 }
