@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:22:01",
+    "ultima_actualizacion": "05:23:43",
     "tablas": {
         "pts": [
             {
@@ -215,11 +215,11 @@
                 "Rank": 116,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 16706,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 16709,
+                "Diff": "3",
                 "Antece": "Latrell Sprewell",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -448,9 +448,9 @@
                 "Rank": 23,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 12086,
-                "Diff": "119",
+                "Hoy": 2,
+                "Total": 12087,
+                "Diff": "118",
                 "Antece": "Charles Oakley",
                 "Nota": "",
                 "game_status": "playing"
@@ -1299,9 +1299,9 @@
                 "Rank": 21,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1983,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 1984,
+                "Diff": "4",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -1695,11 +1695,11 @@
                 "Rank": 133,
                 "Nombre": "Royce O'Neale",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 1137,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 1138,
+                "Diff": "",
                 "Antece": "Gary Trent Jr.",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1708,7 +1708,7 @@
                 "Team": "CLE",
                 "Hoy": 1,
                 "Total": 1135,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Royce O'Neale",
                 "Nota": "",
                 "game_status": "finished"
@@ -4033,9 +4033,9 @@
                 "Rank": 13,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1602,
-                "Diff": "97",
+                "Hoy": 6,
+                "Total": 1603,
+                "Diff": "96",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -4237,9 +4237,9 @@
                 "Rank": 17,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3671,
-                "Diff": "329",
+                "Hoy": 2,
+                "Total": 3672,
+                "Diff": "328",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -4965,9 +4965,9 @@
                 "Rank": 9,
                 "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 417,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 418,
+                "Diff": "22",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -6047,9 +6047,9 @@
                 "Rank": 11,
                 "Nombre": "Royce O'Neale",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 449,
-                "Diff": "51",
+                "Hoy": 2,
+                "Total": 450,
+                "Diff": "50",
                 "Antece": "500",
                 "game_status": "playing"
             },
@@ -7661,13 +7661,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Sam Hauser (2 three-pointers today) becomes the 10th player to reach 700 three-pointers with Celtics.",
-            "foto": [],
-            "timestamp": 1775088078,
-            "team": "BOS",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Jakob Poeltl (3 rebounds today) has passed Morris Peterson and is now ranked 12th in Raptors history with 2,067.",
             "foto": [],
             "timestamp": 1775090898,
@@ -8359,9 +8352,16 @@
             "timestamp": 1775874742,
             "team": "GSW",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Mike Conley (1 three-pointer today) has passed Malik Beasley and is now ranked 9th in Timberwolves history with 418.",
+            "foto": [],
+            "timestamp": 1775877823,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1846,
-    "total_franchise_historicas": 559,
-    "cache_buster": 1775877721
+    "total_franchise_historicas": 560,
+    "cache_buster": 1775877823
 }
