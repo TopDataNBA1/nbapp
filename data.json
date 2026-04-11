@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:00:51",
+    "ultima_actualizacion": "04:02:36",
     "tablas": {
         "pts": [
             {
@@ -2278,25 +2278,25 @@
             },
             {
                 "Rank": 205,
+                "Nombre": "Khris Middleton",
+                "Team": "DAL",
+                "Hoy": 3,
+                "Total": 3241,
+                "Diff": "4",
+                "Antece": "Michael Finley",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 206,
                 "Nombre": "Domantas Sabonis",
                 "Team": "SAC",
                 "Hoy": 0,
                 "Total": 3240,
-                "Diff": "5",
-                "Antece": "Michael Finley",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Khris Middleton",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 207,
-                "Nombre": "Khris Middleton",
-                "Team": "DAL",
-                "Hoy": 2,
-                "Total": 3240,
-                "Diff": "",
-                "Antece": "Jerry Stackhouse",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 213,
@@ -5189,9 +5189,9 @@
                 "Rank": 15,
                 "Nombre": "Aaron Wiggins",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 376,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 377,
+                "Diff": "23",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -6535,13 +6535,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Andrew Wiggins (4 three-pointers today) has passed Jaylen Brown and is now ranked 89th all-time with 1,282.",
-            "foto": [
-                "collages/1775610152540179_collage_1775610152453207.png"
-            ],
-            "timestamp": 1775610152
-        },
-        {
             "texto": "Jordan Poole (3 three-pointers today) has passed Latrell Sprewell and Randy Foye and is now ranked 142nd all-time with 1,105.",
             "foto": [
                 "collages/1775611531119844_collage_1775611531038882.png"
@@ -7233,6 +7226,13 @@
                 "collages/1775872226212992_collage_1775872226118024.png"
             ],
             "timestamp": 1775872226
+        },
+        {
+            "texto": "Khris Middleton (3 assists today) has passed Domantas Sabonis and Jerry Stackhouse and is now ranked 205th all-time with 3,241.",
+            "foto": [
+                "collages/1775872955730907_collage_1775872955640934.png"
+            ],
+            "timestamp": 1775872955
         }
     ],
     "notificaciones_franchise": [
@@ -7937,7 +7937,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1834,
+    "total_notificaciones_historicas": 1835,
     "total_franchise_historicas": 556,
-    "cache_buster": 1775872851
+    "cache_buster": 1775872956
 }
