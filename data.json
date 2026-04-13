@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:08",
+    "ultima_actualizacion": "03:37:51",
     "tablas": {
         "pts": [
             {
@@ -1891,17 +1891,28 @@
             },
             {
                 "Rank": 178,
-                "Nombre": "Dillon Brooks",
-                "Team": "PHX",
-                "Hoy": 0,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 1,
                 "Total": 1019,
                 "Diff": "1",
                 "Antece": "OG Anunoby",
                 "Nota": "A tiro de 1",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
                 "Rank": 179,
+                "Nombre": "Dillon Brooks",
+                "Team": "PHX",
+                "Hoy": 0,
+                "Total": 1019,
+                "Diff": "",
+                "Antece": "Darius Garland",
+                "Nota": "Mismo total",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 180,
                 "Nombre": "Michael Porter Jr.",
                 "Team": "BKN",
                 "Hoy": 0,
@@ -1912,24 +1923,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 180,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
-                "Hoy": 0,
-                "Total": 1018,
-                "Diff": "1",
-                "Antece": "Michael Porter Jr.",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 181,
                 "Nombre": "Grayson Allen",
                 "Team": "PHX",
                 "Hoy": 0,
                 "Total": 1014,
-                "Diff": "4",
-                "Antece": "Darius Garland",
+                "Diff": "5",
+                "Antece": "Michael Porter Jr.",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -2170,9 +2170,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 12015,
-                "Diff": "76",
+                "Hoy": 6,
+                "Total": 12016,
+                "Diff": "75",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -2247,9 +2247,9 @@
                 "Rank": 41,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 6080,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 6081,
+                "Diff": "33",
                 "Antece": "John Havlicek",
                 "Nota": "",
                 "game_status": "playing"
@@ -2260,7 +2260,7 @@
                 "Team": "POR",
                 "Hoy": 0,
                 "Total": 6069,
-                "Diff": "11",
+                "Diff": "12",
                 "Antece": "Nikola Jokić",
                 "Nota": "",
                 "game_status": "inactive"
@@ -3719,9 +3719,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 6080,
-                "Diff": "420",
+                "Hoy": 2,
+                "Total": 6081,
+                "Diff": "419",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -3861,9 +3861,9 @@
                 "Rank": 8,
                 "Nombre": "Stephen Curry",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 4968,
-                "Diff": "32",
+                "Hoy": 2,
+                "Total": 4969,
+                "Diff": "31",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -4247,9 +4247,9 @@
                 "Rank": 5,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 3807,
-                "Diff": "39",
+                "Hoy": 6,
+                "Total": 3808,
+                "Diff": "38",
                 "Antece": "Norm Nixon",
                 "game_status": "playing"
             },
@@ -4317,9 +4317,9 @@
                 "Rank": 19,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 335,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 336,
+                "Diff": "20",
                 "Antece": "Luka Dončić",
                 "game_status": "playing"
             },
@@ -6211,9 +6211,9 @@
                 "Rank": 22,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 5200,
-                "Diff": "97",
+                "Hoy": 13,
+                "Total": 5206,
+                "Diff": "91",
                 "Antece": "Billy Paultz",
                 "game_status": "playing"
             },
@@ -6261,9 +6261,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 780,
-                "Diff": "20",
+                "Hoy": 3,
+                "Total": 782,
+                "Diff": "18",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -8363,5 +8363,5 @@
     ],
     "total_notificaciones_historicas": 1880,
     "total_franchise_historicas": 578,
-    "cache_buster": 1776044168
+    "cache_buster": 1776044271
 }
