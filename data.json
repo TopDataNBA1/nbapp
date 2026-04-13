@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:30:44",
+    "ultima_actualizacion": "04:32:27",
     "tablas": {
         "pts": [
             {
@@ -1860,9 +1860,9 @@
                 "Rank": 174,
                 "Nombre": "Doug McDermott",
                 "Team": "SAC",
-                "Hoy": 1,
-                "Total": 1031,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 1032,
+                "Diff": "3",
                 "Antece": "James Posey",
                 "Nota": "",
                 "game_status": "playing"
@@ -6107,23 +6107,23 @@
             },
             {
                 "Rank": 23,
+                "Nombre": "Donovan Clingan",
+                "Stat": "BLK",
+                "Hoy": 1,
+                "Total": 240,
+                "Diff": "3",
+                "Antece": "Kevin Duckworth",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 24,
                 "Nombre": "Damian Lillard",
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 239,
-                "Diff": "4",
-                "Antece": "Kevin Duckworth",
+                "Diff": "1",
+                "Antece": "Donovan Clingan",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 24,
-                "Nombre": "Donovan Clingan",
-                "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 239,
-                "Diff": "0",
-                "Antece": "Damian Lillard",
-                "game_status": "playing"
             },
             {
                 "Rank": 1,
@@ -7661,13 +7661,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "LaMelo Ball today surpasses Terry Rozier and is now ranked 20th in Hornets history with 299 games.",
-            "foto": [],
-            "timestamp": 1775257968,
-            "team": "CHA",
-            "type": "franchise"
-        },
-        {
             "texto": "Miles McBride (2 three-pointers today) has passed Latrell Sprewell and is now ranked 14th in Knicks history with 386.",
             "foto": [],
             "timestamp": 1775261732,
@@ -8359,9 +8352,16 @@
             "timestamp": 1776045587,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Clingan (1 block today) has passed Damian Lillard and is now ranked 23rd in Trail Blazers history with 240.",
+            "foto": [],
+            "timestamp": 1776047547,
+            "team": "POR",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1887,
-    "total_franchise_historicas": 580,
-    "cache_buster": 1776047444
+    "total_franchise_historicas": 581,
+    "cache_buster": 1776047547
 }
