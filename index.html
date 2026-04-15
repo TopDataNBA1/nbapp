@@ -687,7 +687,7 @@
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // === SEASON MODE (Playoffs / Regular Season) ===
-        let currentSeason = 'playoffs'; // playoffs actiu per defecte
+        let lastTimestamp = null; // àmbit global per poder resetejar des de switchSeason
         let currentDataFile = 'data_playoffs.json';
         let currentHistoricoFile = 'notificaciones_historicas_playoffs.json';
 
@@ -704,18 +704,20 @@
                 document.getElementById('btn-season-playoffs').classList.remove('active');
                 document.getElementById('btn-season-regular').classList.add('active');
             }
-            // Recarregar totes les dades amb el nou fitxer
-            updatePage();
-            cargarUltimasNoticias();
-            cargarNoticias();
+            // Resetear timestamp de so per evitar l'estruendo
+            if (typeof lastTimestamp !== 'undefined') lastTimestamp = null;
+            // Refrescar la pestanya central activa
+            const activeTab = document.querySelector('.main-tab-content.active');
+            if (activeTab) openMainTab(activeTab.id);
         }
 
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
             document.querySelectorAll('.main-tab-content').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+            // Només desactivar els botons centrals (no els de season)
+            document.querySelectorAll('.main-tabs .main-tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
-            document.querySelector(`.main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
+            document.querySelector(`.main-tabs .main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
             
             if (tabName === 'teams') {
                 updateTeamsMoves();
@@ -1414,7 +1416,7 @@
     </script>
 
     <script>
-    let lastTimestamp = null;
+    // lastTimestamp declarat globalment a dalt
 
     async function checkLatestMoves() {
         console.log("CHECK ejecutado");
