@@ -706,6 +706,9 @@
             }
             // Resetear timestamp de so per evitar l'estruendo
             if (typeof lastTimestamp !== 'undefined') lastTimestamp = null;
+            // Resetear caches de dades per forçar recàrrega amb el nou fitxer
+            topMovesData = null;
+            playerTeamsMap = null;
             // Refrescar la pestanya central activa
             const activeTab = document.querySelector('.main-tab-content.active');
             if (activeTab) openMainTab(activeTab.id);
