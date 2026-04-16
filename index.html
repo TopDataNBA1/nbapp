@@ -483,6 +483,12 @@
         <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
     </div>
 
+    <!-- SELECTOR PLAYOFFS / REGULAR SEASON -->
+    <div style="display:flex;justify-content:center;gap:10px;margin:10px 0 4px;">
+        <button id="btn-season-playoffs" class="main-tab-btn active" onclick="switchSeason('playoffs')" style="font-size:0.85em;padding:6px 18px;">🏆 Playoffs</button>
+        <button id="btn-season-regular" class="main-tab-btn" onclick="switchSeason('regular')" style="font-size:0.85em;padding:6px 18px;">📅 Regular Season</button>
+    </div>
+
     <!-- PESTAÑAS PRINCIPALES: GLOBAL / TEAMS / TOP -->
     <div class="main-tabs">
         <button class="main-tab-btn active" onclick="openMainTab('global')">🌍 Global</button>
@@ -680,12 +686,41 @@
     </div> <!-- FIN TOP MOVES -->
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // === SEASON MODE (Playoffs / Regular Season) ===
+        let lastTimestamp = null; // àmbit global per poder resetejar des de switchSeason
+        let currentDataFile = 'data_playoffs.json';
+        let currentHistoricoFile = 'notificaciones_historicas_playoffs.json';
+
+        function switchSeason(season) {
+            currentSeason = season;
+            if (season === 'playoffs') {
+                currentDataFile = 'data_playoffs.json';
+                currentHistoricoFile = 'notificaciones_historicas_playoffs.json';
+                document.getElementById('btn-season-playoffs').classList.add('active');
+                document.getElementById('btn-season-regular').classList.remove('active');
+            } else {
+                currentDataFile = 'data.json';
+                currentHistoricoFile = 'notificaciones_historicas.json';
+                document.getElementById('btn-season-playoffs').classList.remove('active');
+                document.getElementById('btn-season-regular').classList.add('active');
+            }
+            // Resetear timestamp de so per evitar l'estruendo
+            if (typeof lastTimestamp !== 'undefined') lastTimestamp = null;
+            // Resetear caches de dades per forçar recàrrega amb el nou fitxer
+            topMovesData = null;
+            playerTeamsMap = null;
+            // Refrescar la pestanya central activa
+            const activeTab = document.querySelector('.main-tab-content.active');
+            if (activeTab) openMainTab(activeTab.id);
+        }
+
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
             document.querySelectorAll('.main-tab-content').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+            // Només desactivar els botons centrals (no els de season)
+            document.querySelectorAll('.main-tabs .main-tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
-            document.querySelector(`.main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
+            document.querySelector(`.main-tabs .main-tab-btn[onclick="openMainTab('${tabName}')"]`).classList.add('active');
             
             if (tabName === 'teams') {
                 updateTeamsMoves();
@@ -716,7 +751,14 @@
             if (tabName === 'teams-live') updateTeamsPage();
         }
 
-        const statNames = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
+        const statNamesBase = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
+        function getStatNames() {
+            const suffix = currentSeason === 'playoffs' ? ' (Playoffs)' : ' (Regular Season)';
+            const result = {};
+            for (const [k,v] of Object.entries(statNamesBase)) result[k] = v + suffix;
+            return result;
+        }
+        const statNames = new Proxy({}, { get: (_, k) => getStatNames()[k] });
         
         const teamFullNames = {
             'ATL':'Atlanta Hawks','BOS':'Boston Celtics','NJN':'Brooklyn Nets','CHA':'Charlotte Hornets',
@@ -792,7 +834,7 @@
             const {cest, est} = getTimes();
             document.getElementById('clock-line').textContent = `${est} ET • ${cest} CEST`;
 
-            fetch('data.json?v=' + new Date().getTime())
+            fetch(currentDataFile + '?v=' + new Date().getTime())
                 .then(r => r.ok ? r.json() : Promise.reject())
                 .then(data => {
                     const tablesDiv = document.getElementById('tables');
@@ -1047,7 +1089,7 @@
             const list = document.getElementById('moves-list');
             if (!list) return;
 
-            fetch('data.json?v=' + new Date().getTime())
+            fetch(currentDataFile + '?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones || []).reverse();
@@ -1134,7 +1176,7 @@
             const list = document.getElementById('teams-moves-list');
             if (!list) return;
 
-            fetch('data.json?v=' + new Date().getTime())
+            fetch(currentDataFile + '?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones_franchise || []).reverse();
@@ -1191,7 +1233,7 @@
             const tablesDiv = document.getElementById('teams-tables');
             if (!tablesDiv) return;
 
-            fetch('data.json?v=' + new Date().getTime())
+            fetch(currentDataFile + '?v=' + new Date().getTime())
                 .then(r => r.json())
                 .then(data => {
                     const teamsData = data.tablas_teams || {};
@@ -1259,8 +1301,9 @@
                         card.className = 'stat-card';
                         
                         const teamName = teamFullNames[team] || team;
+                        const seasonSuffix = currentSeason === 'playoffs' ? ' (Playoffs)' : ' (Regular Season)';
                         card.innerHTML = `
-                            <div class="stat-header">${teamName}</div>
+                            <div class="stat-header">${teamName}${seasonSuffix}</div>
                             <table class="stat-table">
                                 <thead>
                                     <tr>
@@ -1376,12 +1419,12 @@
     </script>
 
     <script>
-    let lastTimestamp = null;
+    // lastTimestamp declarat globalment a dalt
 
     async function checkLatestMoves() {
         console.log("CHECK ejecutado");
         try {
-            const response = await fetch("data.json?cache=" + Date.now());
+            const response = await fetch(currentDataFile + "?cache=" + Date.now());
             const data = await response.json();
 
             const notis = data.notificaciones;
@@ -1435,7 +1478,7 @@
     // Función mejorada con cache-busting
     async function checkForNewMoves() {
         try {
-            const response = await fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`);
+            const response = await fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/${currentDataFile}?t=${Date.now()}`);
             const data = await response.json();
             
             if (data.notificaciones && data.notificaciones.length > lastNotificationCount) {
@@ -1472,7 +1515,7 @@
     }
 
     // Inicializar conteo y empezar a verificar cada 30 segundos
-    fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/data.json?t=${Date.now()}`)
+    fetch(`https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/${currentDataFile}?t=${Date.now()}`)
     .then(response => response.json())
     .then(data => {
         if (data.notificaciones) {
@@ -1801,7 +1844,7 @@ let playerTeamsMap = null;
 async function loadTopMovesData() {
     if (topMovesData) return topMovesData;
     try {
-        const response = await fetch('notificaciones_historicas.json?t=' + Date.now());
+        const response = await fetch(currentHistoricoFile + '?t=' + Date.now());
         topMovesData = await response.json();
         return topMovesData;
     } catch (e) {
@@ -1813,7 +1856,7 @@ async function loadTopMovesData() {
 async function loadPlayerTeams() {
     if (playerTeamsMap) return playerTeamsMap;
     try {
-        const response = await fetch('data.json?t=' + Date.now());
+        const response = await fetch(currentDataFile + '?t=' + Date.now());
         const data = await response.json();
         playerTeamsMap = {};
         // Recórrer totes les taules per obtenir jugador -> equip
