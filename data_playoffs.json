@@ -1,10 +1,383 @@
 {
-    "ultima_actualizacion": "16:10:50",
-    "tablas": {},
-    "tablas_teams": {},
+    "ultima_actualizacion": "18:35:38",
+    "tablas": {
+        "pts": [
+            {
+                "Rank": 14,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 3895,
+                "Diff": "2",
+                "Antece": "Larry Bird",
+                "Nota": "A tiro de 2",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 91,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 1783,
+                "Diff": "37",
+                "Antece": "Jamaal Wilkes",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "trb": [
+            {
+                "Rank": 60,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 948,
+                "Diff": "6",
+                "Antece": "Tom Heinsohn",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "ast": [
+            {
+                "Rank": 8,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 1125,
+                "Diff": "11",
+                "Antece": "Rajon Rondo",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 144,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 303,
+                "Diff": "1",
+                "Antece": "Dan Majerle",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 165,
+                "Nombre": "Dennis Schröder",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 271,
+                "Diff": "3",
+                "Antece": "Kevin McHale",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ],
+        "stl": [
+            {
+                "Rank": 12,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 282,
+                "Diff": "5",
+                "Antece": "Chris Paul",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 149,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 86,
+                "Diff": "1",
+                "Antece": "Richard Jefferson",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ],
+        "blk": [
+            {
+                "Rank": 85,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 98,
+                "Diff": "",
+                "Antece": "Gar Heard",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 248,
+                "Nombre": "Evan Mobley",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 40,
+                "Diff": "",
+                "Antece": "Brad Daugherty",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            }
+        ],
+        "fg3": [
+            {
+                "Rank": 4,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 434,
+                "Diff": "46",
+                "Antece": "LeBron James",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 32,
+                "Nombre": "Donovan Mitchell",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 199,
+                "Diff": "1",
+                "Antece": "Scottie Pippen",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 67,
+                "Nombre": "Max Strus",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 141,
+                "Diff": "",
+                "Antece": "Clyde Drexler",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 136,
+                "Nombre": "Dennis Schröder",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 88,
+                "Diff": "1",
+                "Antece": "Nick Anderson",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            }
+        ],
+        "g": [
+            {
+                "Rank": 23,
+                "Nombre": "James Harden",
+                "Team": "CLE",
+                "Hoy": 0,
+                "Total": 173,
+                "Diff": "4",
+                "Antece": "Rasheed Wallace",
+                "Nota": "",
+                "game_status": "not_started"
+            }
+        ]
+    },
+    "tablas_teams": {
+        "CLE": [
+            {
+                "Rank": 9,
+                "Nombre": "Donovan Mitchell",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 678,
+                "Diff": "15",
+                "Antece": "Larry Nance",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Evan Mobley",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 378,
+                "Diff": "3",
+                "Antece": "Darius Garland",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Jarrett Allen",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 236,
+                "Diff": "37",
+                "Antece": "Mike Sanders",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Evan Mobley",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 226,
+                "Diff": "28",
+                "Antece": "J.R. Smith",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Jarrett Allen",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 168,
+                "Diff": "8",
+                "Antece": "Jim Brewer",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Donovan Mitchell",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 121,
+                "Diff": "1",
+                "Antece": "Ben Wallace",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 22,
+                "Nombre": "Max Strus",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 115,
+                "Diff": "3",
+                "Antece": "Nate Thurmond",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Donovan Mitchell",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 118,
+                "Diff": "2",
+                "Antece": "Darius Garland",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "Max Strus",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 70,
+                "Diff": "2",
+                "Antece": "Tristan Thompson",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 12,
+                "Nombre": "Donovan Mitchell",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 40,
+                "Diff": "3",
+                "Antece": "Delonte West",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 20,
+                "Nombre": "Evan Mobley",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 22,
+                "Diff": "1",
+                "Antece": "Darius Garland",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "Jarrett Allen",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 22,
+                "Diff": "0",
+                "Antece": "Evan Mobley",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 7,
+                "Nombre": "Evan Mobley",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 40,
+                "Diff": "0",
+                "Antece": "Brad Daugherty",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 16,
+                "Nombre": "Jarrett Allen",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 17,
+                "Diff": "1",
+                "Antece": "Ben Wallace",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 22,
+                "Nombre": "Larry Nance Jr.",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 14,
+                "Diff": "0",
+                "Antece": "Kyle Korver",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Donovan Mitchell",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 70,
+                "Diff": "2",
+                "Antece": "Kyle Korver",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 11,
+                "Nombre": "Max Strus",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 51,
+                "Diff": "4",
+                "Antece": "Mo Williams",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 19,
+                "Nombre": "Sam Merrill",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 24,
+                "Diff": "2",
+                "Antece": "Sasha Pavlović",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Evan Mobley",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 19,
+                "Diff": "1",
+                "Antece": "Anthony Parker",
+                "game_status": "not_started"
+            }
+        ]
+    },
     "notificaciones": [],
     "notificaciones_franchise": [],
     "total_notificaciones_historicas": 0,
     "total_franchise_historicas": 0,
-    "cache_buster": 1776521450
+    "cache_buster": 1776530138
 }
