@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:08:18",
+    "ultima_actualizacion": "22:09:54",
     "tablas": {
         "pts": [
             {
@@ -126,13 +126,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 234,
+                "Rank": 233,
                 "Nombre": "Aaron Gordon",
                 "Team": "DEN",
-                "Hoy": 2,
-                "Total": 441,
+                "Hoy": 3,
+                "Total": 442,
                 "Diff": "1",
-                "Antece": "Darrall Imhoff",
+                "Antece": "Danny Ainge",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -240,14 +240,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 95,
+                "Rank": 92,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 116,
-                "Diff": "",
-                "Antece": "Mookie Blaylock",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 117,
+                "Diff": "1",
+                "Antece": "Sam Perkins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -759,13 +759,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Aaron Gordon",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 848,
-                "Diff": "0",
-                "Antece": "Byron Beck",
+                "Hoy": 5,
+                "Total": 849,
+                "Diff": "87",
+                "Antece": "Ralph Simpson",
                 "game_status": "playing"
             },
             {
@@ -782,9 +782,9 @@
                 "Rank": 5,
                 "Nombre": "Aaron Gordon",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 405,
-                "Diff": "81",
+                "Hoy": 3,
+                "Total": 406,
+                "Diff": "80",
                 "Antece": "Byron Beck",
                 "game_status": "playing"
             },
@@ -794,7 +794,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 388,
-                "Diff": "17",
+                "Diff": "18",
                 "Antece": "Aaron Gordon",
                 "game_status": "playing"
             },
@@ -832,9 +832,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 116,
-                "Diff": "84",
+                "Hoy": 1,
+                "Total": 117,
+                "Diff": "83",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1104,9 +1104,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 144,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 146,
+                "Diff": "18",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1322,22 +1322,22 @@
             },
             {
                 "Rank": 3,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Anthony Edwards",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 39,
+                "Diff": "3",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
                 "Rank": 4,
-                "Nombre": "Anthony Edwards",
+                "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 38,
-                "Diff": "0",
-                "Antece": "Rudy Gobert",
+                "Diff": "1",
+                "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
             {
@@ -1347,7 +1347,7 @@
                 "Hoy": 0,
                 "Total": 32,
                 "Diff": "6",
-                "Antece": "Anthony Edwards",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1649,6 +1649,13 @@
                 "collages/1776542799194052_collage_1776542799092110.png"
             ],
             "timestamp": 1776542799
+        },
+        {
+            "texto": "📢🔝💯 Nikola Jokić (1 steal today) has passed Mookie Blaylock and Paul Pressey and is now ranked 92nd all-time with 117 in playoffs.",
+            "foto": [
+                "collages/1776542994008318_collage_1776542993931769.png"
+            ],
+            "timestamp": 1776542994
         }
     ],
     "notificaciones_franchise": [
@@ -1763,9 +1770,23 @@
             "timestamp": 1776542799,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Aaron Gordon (5 points today) has passed Byron Beck and is now ranked 9th in Nuggets history with 849 in playoffs.",
+            "foto": [],
+            "timestamp": 1776542994,
+            "team": "DEN",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Anthony Edwards (2 blocks today) has passed Rudy Gobert and is now ranked 3rd in Timberwolves history with 39 in playoffs.",
+            "foto": [],
+            "timestamp": 1776542994,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 19,
-    "total_franchise_historicas": 16,
-    "cache_buster": 1776542898
+    "total_notificaciones_historicas": 20,
+    "total_franchise_historicas": 18,
+    "cache_buster": 1776542994
 }
