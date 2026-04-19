@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:38:39",
+    "ultima_actualizacion": "00:40:17",
     "tablas": {
         "pts": [
             {
@@ -486,13 +486,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 64,
+                "Rank": 63,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 147,
+                "Hoy": 1,
+                "Total": 148,
                 "Diff": "1",
-                "Antece": "Michael Jordan",
+                "Antece": "Dirk Nowitzki",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1241,7 +1241,17 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 22,
+                "Nombre": "Jalen Suggs",
+                "Stat": "3PM",
+                "Hoy": 2,
+                "Total": 16,
+                "Diff": "0",
+                "Antece": "Franz Wagner",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 25,
                 "Nombre": "Jonathan Isaac",
                 "Stat": "3PM",
                 "Hoy": 0,
@@ -1249,16 +1259,6 @@
                 "Diff": "0",
                 "Antece": "Keith Bogans",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 25,
-                "Nombre": "Jalen Suggs",
-                "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 14,
-                "Diff": "1",
-                "Antece": "Jonathan Isaac",
-                "game_status": "playing"
             },
             {
                 "Rank": 24,
@@ -2610,9 +2610,16 @@
             "timestamp": 1776638319,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Suggs (2 three-pointers today) has passed Maurice Evans, Keith Bogans and Jonathan Isaac and is now ranked 22nd in Magic history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1776638417,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 144,
-    "total_franchise_historicas": 60,
-    "cache_buster": 1776638319
+    "total_franchise_historicas": 61,
+    "cache_buster": 1776638417
 }
