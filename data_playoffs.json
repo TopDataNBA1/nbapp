@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:16:50",
+    "ultima_actualizacion": "19:18:25",
     "tablas": {
         "pts": [
             {
@@ -85,11 +85,11 @@
                 "Rank": 73,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 855,
-                "Diff": "",
+                "Hoy": 0,
+                "Total": 854,
+                "Diff": "1",
                 "Antece": "Jerry West",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -139,14 +139,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 51,
+                "Rank": 50,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 593,
-                "Diff": "1",
-                "Antece": "Julius Erving",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 594,
+                "Diff": "3",
+                "Antece": "Jrue Holiday",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -491,9 +491,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 593,
-                "Diff": "146",
+                "Hoy": 2,
+                "Total": 594,
+                "Diff": "145",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -618,13 +618,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 17,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 44,
-                "Diff": "0",
-                "Antece": "Jrue Holiday",
+                "Hoy": 2,
+                "Total": 45,
+                "Diff": "3",
+                "Antece": "Marcus Morris",
                 "game_status": "playing"
             },
             {
@@ -663,9 +663,9 @@
                 "Rank": 17,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 733,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 734,
+                "Diff": "16",
                 "Antece": "Caldwell Jones",
                 "game_status": "playing"
             },
@@ -1716,9 +1716,16 @@
             "timestamp": 1776560628,
             "team": "HOU",
             "type": "franchise"
+        },
+        {
+            "texto": "Sam Hauser (2 three-pointers today) has passed Jae Crowder and Jrue Holiday and is now ranked 17th in Celtics history with 45 in playoffs.",
+            "foto": [],
+            "timestamp": 1776619105,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 96,
-    "total_franchise_historicas": 41,
-    "cache_buster": 1776619010
+    "total_franchise_historicas": 42,
+    "cache_buster": 1776619105
 }
