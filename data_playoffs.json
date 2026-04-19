@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:46:47",
+    "ultima_actualizacion": "20:49:59",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 42,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 12,
-                "Total": 2620,
-                "Diff": "53",
+                "Hoy": 15,
+                "Total": 2623,
+                "Diff": "50",
                 "Antece": "Bill Russell",
                 "Nota": "",
                 "game_status": "playing"
@@ -175,11 +175,11 @@
                 "Rank": 193,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 244,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 245,
+                "Diff": "1",
                 "Antece": "Sam Perkins",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -221,11 +221,11 @@
                 "Rank": 70,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 135,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 136,
+                "Diff": "1",
                 "Antece": "Tony Allen",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -335,9 +335,9 @@
                 "Rank": 17,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 263,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 264,
+                "Diff": "3",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -461,9 +461,9 @@
                 "Rank": 9,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 2620,
-                "Diff": "53",
+                "Hoy": 15,
+                "Total": 2623,
+                "Diff": "50",
                 "Antece": "Bill Russell",
                 "game_status": "playing"
             },
@@ -508,13 +508,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 222,
-                "Diff": "0",
-                "Antece": "Robert Parish",
+                "Hoy": 4,
+                "Total": 223,
+                "Diff": "51",
+                "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
             {
@@ -531,9 +531,9 @@
                 "Rank": 8,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 135,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 136,
+                "Diff": "2",
                 "Antece": "Robert Parish",
                 "game_status": "playing"
             },
@@ -591,9 +591,9 @@
                 "Rank": 2,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 263,
-                "Diff": "30",
+                "Hoy": 1,
+                "Total": 264,
+                "Diff": "29",
                 "Antece": "Jayson Tatum",
                 "game_status": "playing"
             },
@@ -762,13 +762,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (1 three-pointer today) has passed Mark Jackson, Mike Miller and Tobias Harris and is now ranked 120th all-time with 98 in playoffs.",
-            "foto": [
-                "collages/1776541452952530_collage_1776541452885532.png"
-            ],
-            "timestamp": 1776541452
-        },
         {
             "texto": "Anthony Edwards (1 assist today) has passed Antonio Daniels and is now ranked 211th all-time with 231 in playoffs.",
             "foto": [
@@ -1461,6 +1454,13 @@
                 "collages/1776624407665137_collage_1776624407582160.png"
             ],
             "timestamp": 1776624407
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (4 assists today) has passed Jack Sikma and is now ranked 193rd all-time with 245 in playoffs.",
+            "foto": [
+                "collages/1776624599021889_collage_1776624598929894.png"
+            ],
+            "timestamp": 1776624599
         }
     ],
     "notificaciones_franchise": [
@@ -1771,9 +1771,16 @@
             "timestamp": 1776622718,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (4 assists today) has passed Robert Parish and is now ranked 19th in Celtics history with 223 in playoffs.",
+            "foto": [],
+            "timestamp": 1776624599,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 110,
-    "total_franchise_historicas": 44,
-    "cache_buster": 1776624407
+    "total_notificaciones_historicas": 111,
+    "total_franchise_historicas": 45,
+    "cache_buster": 1776624599
 }
