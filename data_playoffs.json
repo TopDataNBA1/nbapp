@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "21:10:43",
+    "ultima_actualizacion": "21:12:23",
     "tablas": {
         "pts": [
             {
                 "Rank": 34,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 23,
-                "Total": 2959,
-                "Diff": "4",
+                "Hoy": 25,
+                "Total": 2961,
+                "Diff": "2",
                 "Antece": "Clyde Drexler",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -93,14 +93,14 @@
         ],
         "trb": [
             {
-                "Rank": 53,
+                "Rank": 52,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 10,
-                "Total": 999,
-                "Diff": "",
-                "Antece": "Caldwell Jones",
-                "Nota": "Mismo total",
+                "Hoy": 11,
+                "Total": 1000,
+                "Diff": "2",
+                "Antece": "Clyde Drexler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -594,9 +594,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 2959,
-                "Diff": "41",
+                "Hoy": 25,
+                "Total": 2961,
+                "Diff": "39",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -614,10 +614,10 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 999,
-                "Diff": "1",
-                "Antece": "1000",
+                "Hoy": 11,
+                "Total": 1000,
+                "Diff": "186",
+                "Antece": "John Havlicek",
                 "game_status": "playing"
             },
             {
@@ -1199,20 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (3 points today) has passed Mychal Thompson and is now ranked 206th all-time with 1,133 in playoffs.",
-            "foto": [
-                "collages/1776542415279028_collage_1776542415178060.png"
-            ],
-            "timestamp": 1776542415
-        },
-        {
-            "texto": "📢🔝💯 Anthony Edwards (1 three-pointer today) has passed Fred VanVleet, Marcus Morris and Reggie Jackson and is now ranked 75th all-time with 131 in playoffs.",
-            "foto": [
-                "collages/1776542415505250_collage_1776542415440284.png"
-            ],
-            "timestamp": 1776542415
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (2 points today) has passed Lenny Wilkens and Nick Van Exel and is now ranked 238th all-time with 1,033 in playoffs.",
             "foto": [
@@ -1898,6 +1884,20 @@
                 "collages/1776625842983894_collage_1776625842885946.png"
             ],
             "timestamp": 1776625842
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (11 rebounds today) becomes the 52nd player to reach 1,000 in playoffs",
+            "foto": [
+                "collages/1776625943423936_collage_1776625943362362.png"
+            ],
+            "timestamp": 1776625943
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (11 rebounds today) has passed Caldwell Jones and is now ranked 52nd all-time with 1,000 in playoffs.",
+            "foto": [
+                "collages/1776625943621245_collage_1776625943524272.png"
+            ],
+            "timestamp": 1776625943
         }
     ],
     "notificaciones_franchise": [
@@ -2222,9 +2222,16 @@
             "timestamp": 1776625460,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jayson Tatum (11 rebounds today) becomes the 7th player to reach 1,000 rebounds with Celtics in playoffs.",
+            "foto": [],
+            "timestamp": 1776625943,
+            "team": "BOS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 115,
-    "total_franchise_historicas": 46,
-    "cache_buster": 1776625843
+    "total_notificaciones_historicas": 117,
+    "total_franchise_historicas": 47,
+    "cache_buster": 1776625943
 }
