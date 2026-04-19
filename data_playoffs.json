@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:20:07",
+    "ultima_actualizacion": "23:24:49",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 169,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 17,
-                "Total": 1332,
-                "Diff": "3",
+                "Hoy": 20,
+                "Total": 1335,
+                "Diff": "",
                 "Antece": "David West",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -456,11 +456,11 @@
                 "Rank": 99,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 111,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 112,
+                "Diff": "",
                 "Antece": "Bradley Beal",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -806,9 +806,9 @@
                 "Rank": 14,
                 "Nombre": "Jalen Williams",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 692,
-                "Diff": "4",
+                "Hoy": 16,
+                "Total": 695,
+                "Diff": "1",
                 "Antece": "Dale Ellis",
                 "game_status": "playing"
             },
@@ -953,13 +953,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Jalen Williams",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Detlef Schrempf",
+                "Hoy": 2,
+                "Total": 52,
+                "Diff": "2",
+                "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
             {
@@ -1130,9 +1130,9 @@
                 "Rank": 3,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1332,
-                "Diff": "33",
+                "Hoy": 20,
+                "Total": 1335,
+                "Diff": "30",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -1180,9 +1180,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 111,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 112,
+                "Diff": "3",
                 "Antece": "Dan Majerle",
                 "game_status": "playing"
             },
@@ -1199,13 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Aaron Gordon (6 rebounds today) has passed Bill Walton and Bryon Russell and is now ranked 230th all-time with 445 in playoffs.",
-            "foto": [
-                "collages/1776546816713893_collage_1776546816636914.png"
-            ],
-            "timestamp": 1776546816
-        },
         {
             "texto": "Aaron Gordon (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton, Shai Gilgeous-Alexander and Shawn Marion and is now ranked 183rd all-time with 72 in playoffs.",
             "foto": [
@@ -1898,6 +1891,13 @@
                 "collages/1776633414628322_collage_1776633414534353.png"
             ],
             "timestamp": 1776633414
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (2 three-pointers today) has passed John Stockton and is now ranked 99th all-time with 112 in playoffs.",
+            "foto": [
+                "collages/1776633889362677_collage_1776633889277631.png"
+            ],
+            "timestamp": 1776633889
         }
     ],
     "notificaciones_franchise": [
@@ -2285,9 +2285,16 @@
             "timestamp": 1776632001,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jalen Williams (2 three-pointers today) has passed Detlef Schrempf and is now ranked 10th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1776633889,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 136,
-    "total_franchise_historicas": 55,
-    "cache_buster": 1776633607
+    "total_notificaciones_historicas": 137,
+    "total_franchise_historicas": 56,
+    "cache_buster": 1776633889
 }
