@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:05:56",
+    "ultima_actualizacion": "21:09:05",
     "tablas": {
         "pts": [
             {
@@ -164,11 +164,11 @@
                 "Rank": 49,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 597,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 598,
+                "Diff": "",
                 "Antece": "Derek Fisher",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -634,9 +634,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 597,
-                "Diff": "142",
+                "Hoy": 6,
+                "Total": 598,
+                "Diff": "141",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -764,9 +764,9 @@
                 "Rank": 17,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 45,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 46,
+                "Diff": "2",
                 "Antece": "Marcus Morris",
                 "game_status": "playing"
             },
@@ -1199,13 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Cameron Johnson (1 three-pointer today) has passed Chris Mullin and Eddie Johnson and is now ranked 199th all-time with 68 in playoffs.",
-            "foto": [
-                "collages/1776541939267628_collage_1776541939195646.png"
-            ],
-            "timestamp": 1776541939
-        },
         {
             "texto": "📢HOF🏛️ Nikola Jokić today surpasses Bob McAdoo, Matt Bonner, Mike Miller, Moses Malone and Scott Williams and now ranked 197th all time with 95 games in playoffs",
             "foto": [
@@ -1898,6 +1891,13 @@
                 "collages/1776625267745019_collage_1776625267677652.png"
             ],
             "timestamp": 1776625267
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (6 assists today) has passed Jrue Holiday and is now ranked 49th all-time with 598 in playoffs.",
+            "foto": [
+                "collages/1776625745482197_collage_1776625745395411.png"
+            ],
+            "timestamp": 1776625745
         }
     ],
     "notificaciones_franchise": [
@@ -2224,7 +2224,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 113,
+    "total_notificaciones_historicas": 114,
     "total_franchise_historicas": 46,
-    "cache_buster": 1776625556
+    "cache_buster": 1776625745
 }
