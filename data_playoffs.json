@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:37:41",
+    "ultima_actualizacion": "23:40:51",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 167,
+                "Rank": 166,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 22,
-                "Total": 1337,
-                "Diff": "1",
-                "Antece": "Steve Smith",
-                "Nota": "A tiro de 1",
+                "Hoy": 23,
+                "Total": 1338,
+                "Diff": "",
+                "Antece": "Danny Green",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -197,11 +197,11 @@
                 "Rank": 167,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 6,
-                "Total": 268,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 269,
+                "Diff": "1",
                 "Antece": "Bam Adebayo",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -846,9 +846,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 249,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 250,
+                "Diff": "16",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1130,9 +1130,9 @@
                 "Rank": 3,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1337,
-                "Diff": "28",
+                "Hoy": 23,
+                "Total": 1338,
+                "Diff": "27",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -1199,13 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Anthony Edwards (6 assists today) has passed Bob Lanier and is now ranked 202nd all-time with 236 in playoffs.",
-            "foto": [
-                "collages/1776548061992897_collage_1776548061888924.png"
-            ],
-            "timestamp": 1776548062
-        },
         {
             "texto": "Kyle Anderson (1 steal today) has passed Derrick White, John Wall, Mark Price, Nick Van Exel, Quinn Buckner and Shai Gilgeous-Alexander and is now ranked 231st all-time with 65 in playoffs.",
             "foto": [
@@ -1898,6 +1891,13 @@
                 "collages/1776634661338520_collage_1776634661250523.png"
             ],
             "timestamp": 1776634661
+        },
+        {
+            "texto": "📢HOF🏛️ Devin Booker (23 points today) has passed Paul Westphal and is now ranked 166th all-time with 1,338 in playoffs.",
+            "foto": [
+                "collages/1776634851765260_collage_1776634851672310.png"
+            ],
+            "timestamp": 1776634851
         }
     ],
     "notificaciones_franchise": [
@@ -2301,7 +2301,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 142,
+    "total_notificaciones_historicas": 143,
     "total_franchise_historicas": 57,
-    "cache_buster": 1776634661
+    "cache_buster": 1776634851
 }
