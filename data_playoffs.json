@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "20:17:02",
+    "ultima_actualizacion": "20:18:38",
     "tablas": {
         "pts": [
             {
                 "Rank": 34,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 19,
-                "Total": 2955,
-                "Diff": "8",
+                "Hoy": 21,
+                "Total": 2957,
+                "Diff": "6",
                 "Antece": "Clyde Drexler",
                 "Nota": "",
                 "game_status": "playing"
@@ -207,13 +207,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 62,
+                "Rank": 60,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 144,
+                "Hoy": 2,
+                "Total": 145,
                 "Diff": "1",
-                "Antece": "Robert Parish",
+                "Antece": "Reggie Miller",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -451,9 +451,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 2955,
-                "Diff": "45",
+                "Hoy": 21,
+                "Total": 2957,
+                "Diff": "43",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -518,13 +518,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 5,
+                "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 144,
-                "Diff": "0",
-                "Antece": "Marcus Smart",
+                "Hoy": 2,
+                "Total": 145,
+                "Diff": "35",
+                "Antece": "Paul Pierce",
                 "game_status": "playing"
             },
             {
@@ -762,13 +762,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (3 assists today) has passed Cliff Hagan, Kenny Smith and Ron Harper and is now ranked 137th all-time with 306 in playoffs.",
-            "foto": [
-                "collages/1776535969649656_collage_1776535969586690.png"
-            ],
-            "timestamp": 1776535969
-        },
         {
             "texto": "Donovan Mitchell (4 assists today) has passed John Paxson, Tiny Archibald and Vinnie Johnson and is now ranked 137th all-time with 307 in playoffs.",
             "foto": [
@@ -1461,6 +1454,13 @@
                 "collages/1776622429620653_collage_1776622429537354.png"
             ],
             "timestamp": 1776622429
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (2 steals today) has passed Marcus Smart and is now ranked 60th all-time with 145 in playoffs.",
+            "foto": [
+                "collages/1776622718082430_collage_1776622717993477.png"
+            ],
+            "timestamp": 1776622718
         }
     ],
     "notificaciones_franchise": [
@@ -1764,9 +1764,16 @@
             "timestamp": 1776619202,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jayson Tatum (2 steals today) has passed Marcus Smart and is now ranked 4th in Celtics history with 145 in playoffs.",
+            "foto": [],
+            "timestamp": 1776622718,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 106,
-    "total_franchise_historicas": 43,
-    "cache_buster": 1776622622
+    "total_notificaciones_historicas": 107,
+    "total_franchise_historicas": 44,
+    "cache_buster": 1776622718
 }
