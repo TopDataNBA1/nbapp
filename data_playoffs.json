@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:02:13",
+    "ultima_actualizacion": "03:03:48",
     "tablas": {
         "pts": [
             {
@@ -307,9 +307,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 2101,
-                "Diff": "245",
+                "Hoy": 7,
+                "Total": 2102,
+                "Diff": "244",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1181,13 +1181,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 239,
+                "Rank": 231,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 87,
+                "Hoy": 1,
+                "Total": 88,
                 "Diff": "",
-                "Antece": "Alton Lister",
+                "Antece": "Brent Barry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1640,13 +1640,13 @@
         ],
         "HOU": [
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Clint Capela",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 504,
-                "Diff": "0",
-                "Antece": "Chris Paul",
+                "Hoy": 2,
+                "Total": 506,
+                "Diff": "5",
+                "Antece": "Rudy Tomjanovich",
                 "game_status": "playing"
             },
             {
@@ -1693,9 +1693,9 @@
                 "Rank": 8,
                 "Nombre": "Clint Capela",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "1",
                 "Antece": "Allen Leavell",
                 "game_status": "playing"
             }
@@ -1725,9 +1725,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 414,
-                "Diff": "49",
+                "Hoy": 7,
+                "Total": 415,
+                "Diff": "48",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -3134,6 +3134,13 @@
                 "collages/1776560149794223_collage_1776560149685582.png"
             ],
             "timestamp": 1776560149
+        },
+        {
+            "texto": "Clint Capela today surpasses Alton Lister, Cory Joseph, Jeff Teague, Keith Erickson, Luc Longley and Reggie Jackson and now ranked 231st all time with 88 games in playoffs",
+            "foto": [
+                "collages/1776560628863630_collage_1776560628782318.png"
+            ],
+            "timestamp": 1776560628
         }
     ],
     "notificaciones_franchise": [
@@ -3416,9 +3423,16 @@
             "timestamp": 1776560247,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Clint Capela (2 points today) has passed Chris Paul and is now ranked 19th in Rockets history with 506 in playoffs.",
+            "foto": [],
+            "timestamp": 1776560628,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 83,
-    "total_franchise_historicas": 40,
-    "cache_buster": 1776560533
+    "total_notificaciones_historicas": 84,
+    "total_franchise_historicas": 41,
+    "cache_buster": 1776560628
 }
