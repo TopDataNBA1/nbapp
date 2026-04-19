@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:57:54",
+    "ultima_actualizacion": "20:59:30",
     "tablas": {
         "pts": [
             {
@@ -376,14 +376,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 157,
+                "Rank": 155,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 82,
-                "Diff": "",
-                "Antece": "Iman Shumpert",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 83,
+                "Diff": "1",
+                "Antece": "Vernon Maxwell",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -611,9 +611,9 @@
                 "Rank": 8,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 82,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 83,
+                "Diff": "17",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -762,13 +762,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (1 assist today) has passed Antonio Daniels and is now ranked 211th all-time with 231 in playoffs.",
-            "foto": [
-                "collages/1776541551668661_collage_1776541551570560.png"
-            ],
-            "timestamp": 1776541551
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jamal Murray (3 points today) has passed Hal Greer and is now ranked 82nd all-time with 1,879 in playoffs.",
             "foto": [
@@ -1461,6 +1454,13 @@
                 "collages/1776624599021889_collage_1776624598929894.png"
             ],
             "timestamp": 1776624599
+        },
+        {
+            "texto": "Payton Pritchard (2 three-pointers today) has passed Gabe Vincent and Iman Shumpert and is now ranked 155th all-time with 83 in playoffs.",
+            "foto": [
+                "collages/1776625170406818_collage_1776625170335812.png"
+            ],
+            "timestamp": 1776625170
         }
     ],
     "notificaciones_franchise": [
@@ -1780,7 +1780,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 111,
+    "total_notificaciones_historicas": 112,
     "total_franchise_historicas": 45,
-    "cache_buster": 1776625074
+    "cache_buster": 1776625170
 }
