@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:51:45",
+    "ultima_actualizacion": "22:53:21",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 171,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 10,
-                "Total": 1325,
-                "Diff": "6",
+                "Hoy": 13,
+                "Total": 1328,
+                "Diff": "3",
                 "Antece": "Marc Gasol",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -453,13 +453,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 100,
+                "Rank": 99,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 110,
+                "Hoy": 1,
+                "Total": 111,
                 "Diff": "1",
-                "Antece": "John Stockton",
+                "Antece": "Bradley Beal",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -813,13 +813,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 518,
-                "Diff": "1",
-                "Antece": "Tom Chambers",
+                "Hoy": 16,
+                "Total": 521,
+                "Diff": "19",
+                "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
             {
@@ -963,13 +963,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 13,
                 "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 41,
+                "Hoy": 2,
+                "Total": 42,
                 "Diff": "0",
-                "Antece": "Thabo Sefolosha",
+                "Antece": "Dale Ellis",
                 "game_status": "playing"
             },
             {
@@ -979,7 +979,7 @@
                 "Hoy": 0,
                 "Total": 39,
                 "Diff": "2",
-                "Antece": "Chet Holmgren",
+                "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
             {
@@ -1130,9 +1130,9 @@
                 "Rank": 3,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1325,
-                "Diff": "40",
+                "Hoy": 13,
+                "Total": 1328,
+                "Diff": "37",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -1180,9 +1180,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 110,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 111,
+                "Diff": "4",
                 "Antece": "Dan Majerle",
                 "game_status": "playing"
             },
@@ -1199,13 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Anthony Edwards (5 assists today) has passed Greg Anthony, Metta World Peace, Norm Van Lier and Robert Parish and is now ranked 202nd all-time with 235 in playoffs.",
-            "foto": [
-                "collages/1776545394644605_collage_1776545394564629.png"
-            ],
-            "timestamp": 1776545394
-        },
         {
             "texto": "Aaron Gordon (4 rebounds today) has passed Darrall Imhoff and is now ranked 232nd all-time with 443 in playoffs.",
             "foto": [
@@ -1898,6 +1891,13 @@
                 "collages/1776631808395891_collage_1776631808281933.png"
             ],
             "timestamp": 1776631808
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (1 three-pointer today) has passed Tim Hardaway and is now ranked 99th all-time with 111 in playoffs.",
+            "foto": [
+                "collages/1776632001143776_collage_1776632001041727.png"
+            ],
+            "timestamp": 1776632001
         }
     ],
     "notificaciones_franchise": [
@@ -2271,9 +2271,23 @@
             "timestamp": 1776630482,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (16 points today) has passed Tom Chambers and is now ranked 21st in Thunder history with 521 in playoffs.",
+            "foto": [],
+            "timestamp": 1776632001,
+            "team": "OKC",
+            "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (2 three-pointers today) has passed Serge Ibaka and Thabo Sefolosha and is now ranked 13th in Thunder history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1776632001,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 132,
-    "total_franchise_historicas": 53,
-    "cache_buster": 1776631905
+    "total_notificaciones_historicas": 133,
+    "total_franchise_historicas": 55,
+    "cache_buster": 1776632001
 }
