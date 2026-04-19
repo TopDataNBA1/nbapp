@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:09:05",
+    "ultima_actualizacion": "21:10:43",
     "tablas": {
         "pts": [
             {
@@ -96,11 +96,11 @@
                 "Rank": 53,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 9,
-                "Total": 998,
-                "Diff": "1",
+                "Hoy": 10,
+                "Total": 999,
+                "Diff": "",
                 "Antece": "Caldwell Jones",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -161,14 +161,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 49,
+                "Rank": 47,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 6,
-                "Total": 598,
-                "Diff": "",
-                "Antece": "Derek Fisher",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 599,
+                "Diff": "9",
+                "Antece": "Jimmy Butler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -614,9 +614,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 998,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 999,
+                "Diff": "1",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -634,9 +634,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 598,
-                "Diff": "141",
+                "Hoy": 7,
+                "Total": 599,
+                "Diff": "140",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -764,9 +764,9 @@
                 "Rank": 17,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 46,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 47,
+                "Diff": "1",
                 "Antece": "Marcus Morris",
                 "game_status": "playing"
             },
@@ -1199,13 +1199,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Nikola Jokić today surpasses Bob McAdoo, Matt Bonner, Mike Miller, Moses Malone and Scott Williams and now ranked 197th all time with 95 games in playoffs",
-            "foto": [
-                "collages/1776541939525709_collage_1776541939448556.png"
-            ],
-            "timestamp": 1776541939
-        },
         {
             "texto": "Anthony Edwards (3 points today) has passed Mychal Thompson and is now ranked 206th all-time with 1,133 in playoffs.",
             "foto": [
@@ -1898,6 +1891,13 @@
                 "collages/1776625745482197_collage_1776625745395411.png"
             ],
             "timestamp": 1776625745
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (7 assists today) has passed Derek Fisher and is now ranked 47th all-time with 599 in playoffs.",
+            "foto": [
+                "collages/1776625842983894_collage_1776625842885946.png"
+            ],
+            "timestamp": 1776625842
         }
     ],
     "notificaciones_franchise": [
@@ -2224,7 +2224,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 114,
+    "total_notificaciones_historicas": 115,
     "total_franchise_historicas": 46,
-    "cache_buster": 1776625745
+    "cache_buster": 1776625843
 }
