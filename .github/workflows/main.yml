@@ -1,4 +1,4 @@
-name: Live Deploy 
+name: Live Deploy
 on:
   push:
     branches: [ main ]
@@ -8,8 +8,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            index.html
+            data.json
+            data_playoffs.json
+            notificaciones_historicas.json
+            notificaciones_historicas_playoffs.json
+            logo.jpg
+            ball.mp3
+            manifest.json
+            sw.js
+          sparse-checkout-cone-mode: false
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+          keep_files: true
