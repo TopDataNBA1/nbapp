@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:36:47",
+    "ultima_actualizacion": "02:38:23",
     "tablas": {
         "pts": [
             {
@@ -91,14 +91,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 219,
+                "Rank": 218,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 13,
-                "Total": 1100,
-                "Diff": "",
-                "Antece": "Bill Cartwright",
-                "Nota": "Mismo total",
+                "Hoy": 17,
+                "Total": 1104,
+                "Diff": "5",
+                "Antece": "Tracy McGrady",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -486,13 +486,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 63,
+                "Rank": 62,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 149,
+                "Hoy": 3,
+                "Total": 150,
                 "Diff": "",
-                "Antece": "Dirk Nowitzki",
+                "Antece": "CJ McCollum",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1244,9 +1244,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Suggs",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 16,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 17,
+                "Diff": "0",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
@@ -1489,20 +1489,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Luguentz Dort, Patrick Beverley, Rick Fox and Tyrese Maxey and is now ranked 143rd all-time with 87 in playoffs.",
-            "foto": [
-                "collages/1776551109213662_collage_1776551109140154.png"
-            ],
-            "timestamp": 1776551109
-        },
-        {
-            "texto": "📢🔝💯 Jalen Brunson (15 points today) has passed Damian Lillard and is now ranked 97th all-time with 1,716 in playoffs.",
-            "foto": [
-                "collages/1776551399608367_collage_1776551399516370.png"
-            ],
-            "timestamp": 1776551399
-        },
         {
             "texto": "Karl-Anthony Towns (1 rebound today) has passed Byron Scott and is now ranked 179th all-time with 537 in playoffs.",
             "foto": [
@@ -2188,6 +2174,20 @@
                 "collages/1776644087082126_collage_1776644086973157.png"
             ],
             "timestamp": 1776644087
+        },
+        {
+            "texto": "Tobias Harris (17 points today) has passed Bill Cartwright and is now ranked 218th all-time with 1,104 in playoffs.",
+            "foto": [
+                "collages/1776645503335089_collage_1776645503240743.png"
+            ],
+            "timestamp": 1776645503
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Duncan Robinson (3 three-pointers today) has passed Dirk Nowitzki and is now ranked 62nd all-time with 150 in playoffs.",
+            "foto": [
+                "collages/1776645503540582_collage_1776645503454454.png"
+            ],
+            "timestamp": 1776645503
         }
     ],
     "notificaciones_franchise": [
@@ -2675,7 +2675,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 150,
+    "total_notificaciones_historicas": 152,
     "total_franchise_historicas": 69,
-    "cache_buster": 1776645407
+    "cache_buster": 1776645503
 }
