@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:31:11",
+    "ultima_actualizacion": "01:32:47",
     "tablas": {
         "pts": [
             {
@@ -78,9 +78,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 284,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 285,
+                "Diff": "2",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -137,9 +137,9 @@
                 "Rank": 65,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 145,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 146,
+                "Diff": "2",
                 "Antece": "Michael Jordan",
                 "Nota": "",
                 "game_status": "playing"
@@ -263,13 +263,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 56,
-                "Diff": "0",
-                "Antece": "Iman Shumpert",
+                "Hoy": 2,
+                "Total": 57,
+                "Diff": "1",
+                "Antece": "Mike Sanders",
                 "game_status": "playing"
             },
             {
@@ -346,9 +346,9 @@
                 "Rank": 10,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 55,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 56,
+                "Diff": "0",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -378,9 +378,9 @@
                 "Rank": 25,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 25,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 26,
+                "Diff": "0",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -407,13 +407,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 rebounds today) has passed Gar Heard, Mark Aguirre and Tom Hawkins and is now ranked 178th all-time with 538 in playoffs.",
-            "foto": [
-                "collages/1776554064805668_collage_1776554064727176.png"
-            ],
-            "timestamp": 1776554064
-        },
         {
             "texto": "Karl-Anthony Towns (4 rebounds today) has passed Josh Smith and is now ranked 176th all-time with 540 in playoffs.",
             "foto": [
@@ -1106,6 +1099,13 @@
                 "collages/1776727305919875_collage_1776727305832978.png"
             ],
             "timestamp": 1776727305
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Mike Bibby and is now ranked 65th all-time with 146 in playoffs.",
+            "foto": [
+                "collages/1776727967296313_collage_1776727967192353.png"
+            ],
+            "timestamp": 1776727967
         }
     ],
     "notificaciones_franchise": [
@@ -1640,9 +1640,23 @@
             "timestamp": 1776727682,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 assists today) has passed Iman Shumpert and is now ranked 23rd in Cavaliers history with 57 in playoffs.",
+            "foto": [],
+            "timestamp": 1776727967,
+            "team": "CLE",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Max Strus (1 three-pointer today) has passed Mo Williams and is now ranked 10th in Cavaliers history with 56 in playoffs.",
+            "foto": [],
+            "timestamp": 1776727967,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 162,
-    "total_franchise_historicas": 76,
-    "cache_buster": 1776727871
+    "total_notificaciones_historicas": 163,
+    "total_franchise_historicas": 78,
+    "cache_buster": 1776727967
 }
