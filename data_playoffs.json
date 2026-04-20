@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:02:07",
+    "ultima_actualizacion": "02:03:42",
     "tablas": {
         "pts": [
             {
@@ -1122,31 +1122,31 @@
             },
             {
                 "Rank": 20,
+                "Nombre": "Franz Wagner",
+                "Stat": "REB",
+                "Hoy": 4,
+                "Total": 76,
+                "Diff": "5",
+                "Antece": "Ryan Anderson",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 21,
                 "Nombre": "Jonathan Isaac",
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 75,
-                "Diff": "6",
-                "Antece": "Ryan Anderson",
+                "Diff": "1",
+                "Antece": "Franz Wagner",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 21,
-                "Nombre": "Franz Wagner",
-                "Stat": "REB",
-                "Hoy": 3,
-                "Total": 75,
-                "Diff": "0",
-                "Antece": "Jonathan Isaac",
-                "game_status": "playing"
             },
             {
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "6",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -1154,8 +1154,8 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 51,
+                "Hoy": 3,
+                "Total": 52,
                 "Diff": "8",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
@@ -2645,9 +2645,16 @@
             "timestamp": 1776640788,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Franz Wagner (4 rebounds today) has passed Jonathan Isaac and is now ranked 20th in Magic history with 76 in playoffs.",
+            "foto": [],
+            "timestamp": 1776643422,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 146,
-    "total_franchise_historicas": 65,
-    "cache_buster": 1776643327
+    "total_franchise_historicas": 66,
+    "cache_buster": 1776643422
 }
