@@ -17,14 +17,62 @@ jobs:
             notificaciones_historicas.json
             notificaciones_historicas_playoffs.json
             logo.jpg
+            logo256.png
             ball.mp3
             manifest.json
-            sw.js
+            fondo.jpg
+            icon-192.png
+            icon-512.png
+            OneSignalSDKWorker.js
+            pwabuilder-sw.js
+            service-worker.js
+            privacy.html
+            assetlinks.json
+            .nojekyll
+            .gitignore
+            Global Latest Moves.png
+            Global Live Rankings.png
+            Next.png
+            Push filters.png
+            Teams Latest Moves.png
+            Teams Live Rankings.png
           sparse-checkout-cone-mode: false
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          keep_files: true
+      - name: Deploy changed files to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          mkdir /tmp/deploy_files
+          cp -r . /tmp/deploy_files/ 2>/dev/null || true
+
+          git fetch origin gh-pages
+          git checkout gh-pages
+
+          for f in \
+            "index.html" "data.json" "data_playoffs.json" \
+            "notificaciones_historicas.json" "notificaciones_historicas_playoffs.json" \
+            "logo.jpg" "logo256.png" "ball.mp3" "manifest.json" "fondo.jpg" \
+            "icon-192.png" "icon-512.png" "OneSignalSDKWorker.js" \
+            "pwabuilder-sw.js" "service-worker.js" "privacy.html" \
+            "assetlinks.json" ".nojekyll" ".gitignore" \
+            "Global Latest Moves.png" "Global Live Rankings.png" "Next.png" \
+            "Push filters.png" "Teams Latest Moves.png" "Teams Live Rankings.png"; do
+            if [ -f "/tmp/deploy_files/$f" ]; then
+              cp "/tmp/deploy_files/$f" .
+            fi
+          done
+
+          git add -A -- \
+            index.html data.json data_playoffs.json \
+            notificaciones_historicas.json notificaciones_historicas_playoffs.json \
+            logo.jpg logo256.png ball.mp3 manifest.json fondo.jpg \
+            icon-192.png icon-512.png OneSignalSDKWorker.js \
+            pwabuilder-sw.js service-worker.js privacy.html \
+            assetlinks.json .nojekyll \
+            "Global Latest Moves.png" "Global Live Rankings.png" "Next.png" \
+            "Push filters.png" "Teams Latest Moves.png" "Teams Live Rankings.png" \
+            2>/dev/null || true
+
+          git diff --staged --quiet || git commit -m "Deploy: $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin gh-pages
