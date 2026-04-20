@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:01",
+    "ultima_actualizacion": "03:50:25",
     "tablas": {
         "pts": [
             {
@@ -217,25 +217,25 @@
             },
             {
                 "Rank": 47,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 3,
+                "Total": 600,
+                "Diff": "8",
+                "Antece": "Jimmy Butler",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 48,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
                 "Hoy": 7,
                 "Total": 599,
-                "Diff": "9",
-                "Antece": "Jimmy Butler",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Jrue Holiday",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 48,
-                "Nombre": "Jrue Holiday",
-                "Team": "POR",
-                "Hoy": 2,
-                "Total": 599,
-                "Diff": "",
-                "Antece": "Jayson Tatum",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 66,
@@ -1716,13 +1716,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ OG Anunoby (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 113th all-time with 102 in playoffs.",
-            "foto": [
-                "collages/1776552734679901_collage_1776552734614936.png"
-            ],
-            "timestamp": 1776552734
-        },
-        {
             "texto": "CJ McCollum (13 points today) has passed Bill Laimbeer and is now ranked 162nd all-time with 1,357 in playoffs.",
             "foto": [
                 "collages/1776553397948543_collage_1776553397852589.png"
@@ -2414,6 +2407,13 @@
                 "collages/1776648241878326_collage_1776648241781612.png"
             ],
             "timestamp": 1776648241
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday (3 assists today) has passed Walt Frazier and is now ranked 47th all-time with 600 in playoffs.",
+            "foto": [
+                "collages/1776649825253734_collage_1776649825155779.png"
+            ],
+            "timestamp": 1776649825
         }
     ],
     "notificaciones_franchise": [
@@ -2915,7 +2915,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 157,
+    "total_notificaciones_historicas": 158,
     "total_franchise_historicas": 71,
-    "cache_buster": 1776648241
+    "cache_buster": 1776649825
 }
