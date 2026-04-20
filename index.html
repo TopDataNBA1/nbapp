@@ -710,6 +710,8 @@
             // Resetear caches de dades per forçar recàrrega amb el nou fitxer
             topMovesData = null;
             playerTeamsMap = null;
+            _lastMovesTimestamp = null;
+            _lastTeamsMovesTimestamp = null;
             // Refrescar la pestanya central activa
             const activeTab = document.querySelector('.main-tab-content.active');
             if (activeTab) openMainTab(activeTab.id);
@@ -1086,6 +1088,9 @@
         }
 
         // LATEST MOVES CON FOTOS + TIEMPO
+        let _lastMovesTimestamp = null;
+        let _lastMovesDataFile = null;
+
         function updateMoves() {
             const list = document.getElementById('moves-list');
             if (!list) return;
@@ -1094,6 +1099,13 @@
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones || []).reverse();
+                    const latestTs = notis.length > 0 ? notis[0].timestamp : null;
+
+                    // Si no hi ha canvis ni canvi de season, no reconstruir el DOM
+                    if (latestTs === _lastMovesTimestamp && currentDataFile === _lastMovesDataFile && list.innerHTML !== '') return;
+
+                    _lastMovesTimestamp = latestTs;
+                    _lastMovesDataFile = currentDataFile;
 
                     list.innerHTML = notis.map(n => {
                         const texto = n.texto || "";
@@ -1173,6 +1185,9 @@
         }
 
         // === UPDATE TEAMS MOVES ===
+        let _lastTeamsMovesTimestamp = null;
+        let _lastTeamsMovesDataFile = null;
+
         function updateTeamsMoves() {
             const list = document.getElementById('teams-moves-list');
             if (!list) return;
@@ -1181,6 +1196,12 @@
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones_franchise || []).reverse();
+                    const latestTs = notis.length > 0 ? notis[0].timestamp : null;
+
+                    if (latestTs === _lastTeamsMovesTimestamp && currentDataFile === _lastTeamsMovesDataFile && list.innerHTML !== '') return;
+
+                    _lastTeamsMovesTimestamp = latestTs;
+                    _lastTeamsMovesDataFile = currentDataFile;
 
                     if (notis.length === 0) {
                         list.innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No team moves yet today...</div>';
