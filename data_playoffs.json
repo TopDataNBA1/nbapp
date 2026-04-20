@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:13:45",
+    "ultima_actualizacion": "01:15:22",
     "tablas": {
         "pts": [
             {
                 "Rank": 13,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 3917,
-                "Diff": "37",
+                "Hoy": 2,
+                "Total": 3919,
+                "Diff": "35",
                 "Antece": "Dwyane Wade",
                 "Nota": "",
                 "game_status": "playing"
@@ -54,9 +54,9 @@
                 "Rank": 137,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 307,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 308,
+                "Diff": "3",
                 "Antece": "Baron Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -86,14 +86,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 145,
+                "Rank": 138,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "",
-                "Antece": "Charles Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "1",
+                "Antece": "Buck Williams",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -161,9 +161,9 @@
                 "Rank": 23,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 174,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 175,
+                "Diff": "2",
                 "Antece": "Rasheed Wallace",
                 "Nota": "",
                 "game_status": "playing"
@@ -196,9 +196,9 @@
                 "Rank": 25,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 248,
-                "Diff": "25",
+                "Hoy": 4,
+                "Total": 250,
+                "Diff": "23",
                 "Antece": "Mike Sanders",
                 "game_status": "playing"
             },
@@ -223,13 +223,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 124,
-                "Diff": "0",
-                "Antece": "Mark Price",
+                "Hoy": 1,
+                "Total": 125,
+                "Diff": "35",
+                "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
             {
@@ -246,9 +246,9 @@
                 "Rank": 7,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 122,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 123,
+                "Diff": "14",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -276,9 +276,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "0",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -378,9 +378,9 @@
                 "Rank": 25,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "1",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -407,13 +407,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (15 points today) has passed Willis Reed and is now ranked 161st all-time with 1,359 in playoffs.",
-            "foto": [
-                "collages/1776553685528077_collage_1776553685427024.png"
-            ],
-            "timestamp": 1776553685
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (21 points today) has passed Jo Jo White and is now ranked 95th all-time with 1,722 in playoffs.",
             "foto": [
@@ -1106,6 +1099,13 @@
                 "collages/1776654870663988_collage_1776654870581031.png"
             ],
             "timestamp": 1776654870
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Alvan Adams, Charles Johnson, Tim Hardaway and Walter Davis and is now ranked 138th all-time with 89 in playoffs.",
+            "foto": [
+                "collages/1776726922195719_collage_1776726922122755.png"
+            ],
+            "timestamp": 1776726922
         }
     ],
     "notificaciones_franchise": [
@@ -1619,9 +1619,16 @@
             "timestamp": 1776726825,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (1 rebound today) has passed Mark Price and is now ranked 18th in Cavaliers history with 125 in playoffs.",
+            "foto": [],
+            "timestamp": 1776726922,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 160,
-    "total_franchise_historicas": 73,
-    "cache_buster": 1776726825
+    "total_notificaciones_historicas": 161,
+    "total_franchise_historicas": 74,
+    "cache_buster": 1776726922
 }
