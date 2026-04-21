@@ -2,19 +2,34 @@ name: Live Deploy
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'collages/**'
+    paths:
+      - 'data_playoffs.json'
+      - 'data.json'
+      - 'index.html'
+      - 'notificaciones_historicas*.json'
   workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: gh-pages
           fetch-depth: 1
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          keep_files: true
+
+      - name: Update files from main
+        run: |
+          git fetch origin main
+          for f in data_playoffs.json data.json index.html notificaciones_historicas.json notificaciones_historicas_playoffs.json; do
+            git checkout origin/main -- "$f" 2>/dev/null || true
+          done
+
+      - name: Commit and push to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_playoffs.json data.json index.html notificaciones_historicas.json notificaciones_historicas_playoffs.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Deploy $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin gh-pages
