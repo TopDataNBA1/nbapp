@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:55:20",
+    "ultima_actualizacion": "05:56:58",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 74,
+                "Rank": 73,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 20,
-                "Total": 1926,
-                "Diff": "1",
-                "Antece": "Walt Frazier",
-                "Nota": "A tiro de 1",
+                "Hoy": 23,
+                "Total": 1929,
+                "Diff": "",
+                "Antece": "Gus Williams",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -478,9 +478,9 @@
                 "Rank": 27,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 4,
-                "Total": 210,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 211,
+                "Diff": "10",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -971,9 +971,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1926,
-                "Diff": "74",
+                "Hoy": 23,
+                "Total": 1929,
+                "Diff": "71",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1051,9 +1051,9 @@
                 "Rank": 6,
                 "Nombre": "Aaron Gordon",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 182,
-                "Diff": "41",
+                "Hoy": 4,
+                "Total": 183,
+                "Diff": "40",
                 "Antece": "Ralph Simpson",
                 "game_status": "playing"
             },
@@ -1141,9 +1141,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 210,
-                "Diff": "90",
+                "Hoy": 5,
+                "Total": 211,
+                "Diff": "89",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -1380,13 +1380,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 52,
-                "Diff": "0",
-                "Antece": "Michael Olowokandi",
+                "Hoy": 3,
+                "Total": 53,
+                "Diff": "2",
+                "Antece": "Joe Smith",
                 "game_status": "playing"
             },
             {
@@ -2038,13 +2038,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Devin Booker (22 points today) has passed David West and is now ranked 167th all-time with 1,337 in playoffs.",
-            "foto": [
-                "collages/1776634661338520_collage_1776634661250523.png"
-            ],
-            "timestamp": 1776634661
-        },
         {
             "texto": "📢HOF🏛️ Devin Booker (23 points today) has passed Paul Westphal and is now ranked 166th all-time with 1,338 in playoffs.",
             "foto": [
@@ -2737,16 +2730,16 @@
                 "collages/1776743720093817_collage_1776743720003846.png"
             ],
             "timestamp": 1776743720
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jamal Murray (23 points today) has passed Walt Frazier and is now ranked 73rd all-time with 1,929 in playoffs.",
+            "foto": [
+                "collages/1776743818237218_collage_1776743818119256.png"
+            ],
+            "timestamp": 1776743818
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Donovan Mitchell (17 points today) has passed Larry Nance and is now ranked 8th in Cavaliers history with 695 in playoffs.",
-            "foto": [],
-            "timestamp": 1776537669,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Max Strus (4 rebounds today) has passed Nate Thurmond and is now ranked 21st in Cavaliers history with 119 in playoffs.",
             "foto": [],
@@ -3439,9 +3432,16 @@
             "timestamp": 1776743433,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Donte DiVincenzo (3 rebounds today) has passed Michael Olowokandi and is now ranked 22nd in Timberwolves history with 53 in playoffs.",
+            "foto": [],
+            "timestamp": 1776743818,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 241,
-    "total_franchise_historicas": 105,
-    "cache_buster": 1776743720
+    "total_notificaciones_historicas": 242,
+    "total_franchise_historicas": 106,
+    "cache_buster": 1776743818
 }
