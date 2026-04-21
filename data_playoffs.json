@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:10",
+    "ultima_actualizacion": "02:18:46",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 95,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1729,
-                "Diff": "18",
+                "Hoy": 3,
+                "Total": 1732,
+                "Diff": "15",
                 "Antece": "Mark Aguirre",
                 "Nota": "",
                 "game_status": "playing"
@@ -174,13 +174,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 212,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Luol Deng",
+                "Antece": "Mikal Bridges",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -266,13 +266,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 73,
+                "Rank": 72,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 135,
+                "Hoy": 1,
+                "Total": 136,
                 "Diff": "1",
-                "Antece": "Steve Smith",
+                "Antece": "Gary Payton",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -587,9 +587,9 @@
                 "Rank": 6,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1285,
-                "Diff": "55",
+                "Hoy": 3,
+                "Total": 1288,
+                "Diff": "52",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -607,9 +607,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 405,
-                "Diff": "56",
+                "Hoy": 3,
+                "Total": 406,
+                "Diff": "55",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -647,30 +647,30 @@
                 "Rank": 13,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 169,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 170,
+                "Diff": "33",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Josh Hart",
+                "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
             {
                 "Rank": 10,
-                "Nombre": "OG Anunoby",
+                "Nombre": "Josh Hart",
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 45,
-                "Diff": "0",
-                "Antece": "Josh Hart",
+                "Diff": "1",
+                "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
             {
@@ -757,9 +757,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 103,
-                "Diff": "72",
+                "Hoy": 1,
+                "Total": 104,
+                "Diff": "71",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -860,13 +860,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 211th all-time with 69 in playoffs.",
-            "foto": [
-                "collages/1776556528427807_collage_1776556528352850.png"
-            ],
-            "timestamp": 1776556528
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 215th all-time with 68 in playoffs.",
             "foto": [
@@ -1559,6 +1552,13 @@
                 "collages/1776730531917728_collage_1776730531810762.png"
             ],
             "timestamp": 1776730531
+        },
+        {
+            "texto": "OG Anunoby (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 212th all-time with 69 in playoffs.",
+            "foto": [
+                "collages/1776730726357873_collage_1776730726282315.png"
+            ],
+            "timestamp": 1776730726
         }
     ],
     "notificaciones_franchise": [
@@ -2142,9 +2142,16 @@
             "timestamp": 1776730531,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 OG Anunoby (1 steal today) has passed Josh Hart and is now ranked 9th in Knicks history with 46 in playoffs.",
+            "foto": [],
+            "timestamp": 1776730726,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 171,
-    "total_franchise_historicas": 83,
-    "cache_buster": 1776730630
+    "total_notificaciones_historicas": 172,
+    "total_franchise_historicas": 84,
+    "cache_buster": 1776730726
 }
