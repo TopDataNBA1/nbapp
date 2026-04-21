@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:01:33",
+    "ultima_actualizacion": "04:07:37",
     "tablas": {
         "pts": [
             {
@@ -72,9 +72,9 @@
                 "Rank": 154,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 24,
-                "Total": 1394,
-                "Diff": "7",
+                "Hoy": 26,
+                "Total": 1396,
+                "Diff": "5",
                 "Antece": "Bailey Howell",
                 "Nota": "",
                 "game_status": "playing"
@@ -102,14 +102,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 244,
+                "Rank": 239,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 13,
-                "Total": 1027,
-                "Diff": "2",
-                "Antece": "Dan Issel",
-                "Nota": "A tiro de 2",
+                "Hoy": 18,
+                "Total": 1032,
+                "Diff": "5",
+                "Antece": "Eddie Jones",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -162,11 +162,11 @@
                 "Rank": 173,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 553,
-                "Diff": "",
+                "Hoy": 8,
+                "Total": 552,
+                "Diff": "1",
                 "Antece": "Cedric Maxwell",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -640,14 +640,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 165,
+                "Rank": 162,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 79,
-                "Diff": "",
-                "Antece": "Jerry Stackhouse",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 80,
+                "Diff": "1",
+                "Antece": "Raja Bell",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1805,9 +1805,9 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 226,
-                "Diff": "4",
+                "Hoy": 8,
+                "Total": 225,
+                "Diff": "5",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -1982,13 +1982,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 30,
+                "Hoy": 2,
+                "Total": 31,
                 "Diff": "0",
-                "Antece": "Carmelo Anthony",
+                "Antece": "Mikal Bridges",
                 "game_status": "playing"
             }
         ],
@@ -2038,20 +2038,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jayson Tatum (2 steals today) has passed Marcus Smart and is now ranked 60th all-time with 145 in playoffs.",
-            "foto": [
-                "collages/1776622718082430_collage_1776622717993477.png"
-            ],
-            "timestamp": 1776622718
-        },
-        {
-            "texto": "Derrick White (3 assists today) has passed Trae Young and is now ranked 193rd all-time with 244 in playoffs.",
-            "foto": [
-                "collages/1776623839377369_collage_1776623839286376.png"
-            ],
-            "timestamp": 1776623839
-        },
         {
             "texto": "📢HOF🏛️ Derrick White (10 points today) has passed Rolando Blackman and Tracy McGrady and is now ranked 215th all-time with 1,111 in playoffs.",
             "foto": [
@@ -2737,6 +2723,20 @@
                 "collages/1776736629086405_collage_1776736628950878.png"
             ],
             "timestamp": 1776736629
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (18 points today) has passed Antoine Walker, Dan Issel, James Edwards, Lenny Wilkens, Lou Williams, Norm Nixon and Robert Reid and is now ranked 239th all-time with 1,032 in playoffs.",
+            "foto": [
+                "collages/1776737256793821_collage_1776737256646869.png"
+            ],
+            "timestamp": 1776737256
+        },
+        {
+            "texto": "Karl-Anthony Towns (2 three-pointers today) has passed Bogdan Bogdanović, David Wesley, DeMarre Carroll, Jerry Stackhouse and Marco Belinelli and is now ranked 162nd all-time with 80 in playoffs.",
+            "foto": [
+                "collages/1776737257263670_collage_1776737257148707.png"
+            ],
+            "timestamp": 1776737257
         }
     ],
     "notificaciones_franchise": [
@@ -3404,9 +3404,16 @@
             "timestamp": 1776735676,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 three-pointers today) has passed Carmelo Anthony and is now ranked 16th in Knicks history with 31 in playoffs.",
+            "foto": [],
+            "timestamp": 1776737257,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 206,
-    "total_franchise_historicas": 95,
-    "cache_buster": 1776736893
+    "total_notificaciones_historicas": 208,
+    "total_franchise_historicas": 96,
+    "cache_buster": 1776737257
 }
