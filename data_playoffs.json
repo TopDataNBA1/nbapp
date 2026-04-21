@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:25:25",
+    "ultima_actualizacion": "01:27:03",
     "tablas": {
         "pts": [
             {
@@ -71,14 +71,14 @@
         ],
         "trb": [
             {
-                "Rank": 52,
+                "Rank": 51,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 1002,
-                "Diff": "",
-                "Antece": "Clyde Drexler",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 1003,
+                "Diff": "19",
+                "Antece": "Giannis Antetokounmpo",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -142,9 +142,9 @@
                 "Rank": 48,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 600,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 601,
+                "Diff": "7",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "playing"
@@ -471,9 +471,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 1002,
-                "Diff": "184",
+                "Hoy": 3,
+                "Total": 1003,
+                "Diff": "183",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 600,
-                "Diff": "139",
+                "Hoy": 2,
+                "Total": 601,
+                "Diff": "138",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -618,13 +618,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 48,
-                "Diff": "0",
-                "Antece": "Marcus Morris",
+                "Hoy": 2,
+                "Total": 49,
+                "Diff": "3",
+                "Antece": "Isaiah Thomas",
                 "game_status": "playing"
             },
             {
@@ -772,13 +772,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa, Seth Curry and Tyrese Maxey and is now ranked 138th all-time with 88 in playoffs.",
-            "foto": [
-                "collages/1776730531917728_collage_1776730531810762.png"
-            ],
-            "timestamp": 1776730531
-        },
         {
             "texto": "OG Anunoby (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 212th all-time with 69 in playoffs.",
             "foto": [
@@ -1471,16 +1464,16 @@
                 "collages/1776813925503474_collage_1776813925410503.png"
             ],
             "timestamp": 1776813925
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (3 rebounds today) has passed Clyde Drexler and is now ranked 51st all-time with 1,003 in playoffs.",
+            "foto": [
+                "collages/1776814023540759_collage_1776814023454774.png"
+            ],
+            "timestamp": 1776814023
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Aaron Gordon (5 points today) has passed Byron Beck and is now ranked 9th in Nuggets history with 849 in playoffs.",
-            "foto": [],
-            "timestamp": 1776542994,
-            "team": "DEN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ Anthony Edwards (2 blocks today) has passed Rudy Gobert and is now ranked 3rd in Timberwolves history with 39 in playoffs.",
             "foto": [],
@@ -2173,9 +2166,16 @@
             "timestamp": 1776813345,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Sam Hauser (2 three-pointers today) has passed Marcus Morris and is now ranked 16th in Celtics history with 49 in playoffs.",
+            "foto": [],
+            "timestamp": 1776814023,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 270,
-    "total_franchise_historicas": 116,
-    "cache_buster": 1776813925
+    "total_notificaciones_historicas": 271,
+    "total_franchise_historicas": 117,
+    "cache_buster": 1776814023
 }
