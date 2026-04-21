@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:22:17",
+    "ultima_actualizacion": "01:25:25",
     "tablas": {
         "pts": [
             {
@@ -93,14 +93,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 84,
+                "Rank": 83,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 776,
-                "Diff": "",
-                "Antece": "Andre Iguodala",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 777,
+                "Diff": "2",
+                "Antece": "Rudy LaRusso",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -175,11 +175,11 @@
                 "Rank": 189,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 247,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 248,
+                "Diff": "",
                 "Antece": "Andy Phillip",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 776,
-                "Diff": "54",
+                "Hoy": 2,
+                "Total": 777,
+                "Diff": "53",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -511,9 +511,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 225,
-                "Diff": "49",
+                "Hoy": 1,
+                "Total": 226,
+                "Diff": "48",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -772,20 +772,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (1 assist today) has passed Tayshaun Prince and is now ranked 100th all-time with 369 in playoffs.",
-            "foto": [
-                "collages/1776730338077236_collage_1776730337978268.png"
-            ],
-            "timestamp": 1776730338
-        },
-        {
-            "texto": "CJ McCollum (1 assist today) has passed Al Attles, Goran Dragić and Rodney McCray and is now ranked 243rd all-time with 207 in playoffs.",
-            "foto": [
-                "collages/1776730531428656_collage_1776730531366690.png"
-            ],
-            "timestamp": 1776730531
-        },
         {
             "texto": "Mikal Bridges (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa, Seth Curry and Tyrese Maxey and is now ranked 138th all-time with 88 in playoffs.",
             "foto": [
@@ -1471,6 +1457,20 @@
                 "collages/1776813638461260_collage_1776813638375294.png"
             ],
             "timestamp": 1776813638
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (2 rebounds today) has passed Andre Iguodala and is now ranked 83rd all-time with 777 in playoffs.",
+            "foto": [
+                "collages/1776813925303537_collage_1776813925215564.png"
+            ],
+            "timestamp": 1776813925
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (1 assist today) has passed Dick Barnett and is now ranked 189th all-time with 248 in playoffs.",
+            "foto": [
+                "collages/1776813925503474_collage_1776813925410503.png"
+            ],
+            "timestamp": 1776813925
         }
     ],
     "notificaciones_franchise": [
@@ -2175,7 +2175,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 268,
+    "total_notificaciones_historicas": 270,
     "total_franchise_historicas": 116,
-    "cache_buster": 1776813737
+    "cache_buster": 1776813925
 }
