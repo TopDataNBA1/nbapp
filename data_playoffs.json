@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:52:11",
+    "ultima_actualizacion": "04:53:47",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 7,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 4985,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 4987,
+                "Diff": "13",
                 "Antece": "5000",
                 "Nota": "",
                 "game_status": "playing"
@@ -116,11 +116,11 @@
                 "Rank": 155,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 1395,
-                "Diff": "6",
+                "Hoy": 6,
+                "Total": 1398,
+                "Diff": "3",
                 "Antece": "Bailey Howell",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -151,9 +151,9 @@
                 "Rank": 28,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 1328,
-                "Diff": "33",
+                "Hoy": 2,
+                "Total": 1329,
+                "Diff": "32",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -461,25 +461,25 @@
             },
             {
                 "Rank": 59,
+                "Nombre": "Marcus Smart",
+                "Team": "LAL",
+                "Hoy": 2,
+                "Total": 147,
+                "Diff": "",
+                "Antece": "Allen Iverson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 60,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
                 "Hoy": 1,
                 "Total": 146,
                 "Diff": "1",
-                "Antece": "Allen Iverson",
+                "Antece": "Marcus Smart",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 60,
-                "Nombre": "Marcus Smart",
-                "Team": "LAL",
-                "Hoy": 1,
-                "Total": 146,
-                "Diff": "",
-                "Antece": "Jayson Tatum",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 68,
@@ -797,9 +797,9 @@
                 "Rank": 28,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 209,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 210,
+                "Diff": "2",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -1594,13 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (3 rebounds today) has passed Bob Cousy and is now ranked 173rd all-time with 547 in playoffs.",
-            "foto": [
-                "collages/1776735675792874_collage_1776735675685930.png"
-            ],
-            "timestamp": 1776735675
-        },
-        {
             "texto": "CJ McCollum (4 assists today) has passed Larry Siegfried and is now ranked 239th all-time with 210 in playoffs.",
             "foto": [
                 "collages/1776735676053381_collage_1776735675928875.png"
@@ -2292,6 +2285,13 @@
                 "collages/1776826232839858_collage_1776826232770898.png"
             ],
             "timestamp": 1776826232
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (2 steals today) has passed Jayson Tatum and Reggie Miller and is now ranked 59th all-time with 147 in playoffs.",
+            "foto": [
+                "collages/1776826427094417_collage_1776826427018443.png"
+            ],
+            "timestamp": 1776826427
         }
     ],
     "notificaciones_franchise": [
@@ -2996,7 +2996,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 296,
+    "total_notificaciones_historicas": 297,
     "total_franchise_historicas": 120,
-    "cache_buster": 1776826331
+    "cache_buster": 1776826427
 }
