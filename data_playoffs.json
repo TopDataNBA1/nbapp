@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:16:33",
+    "ultima_actualizacion": "01:18:11",
     "tablas": {
         "pts": [
             {
@@ -19,11 +19,11 @@
                 "Rank": 169,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 555,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 557,
+                "Diff": "",
                 "Antece": "Mark Eaton",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -471,9 +471,9 @@
                 "Rank": 25,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 121,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 122,
+                "Diff": "4",
                 "Antece": "Evan Fournier",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "5",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -501,9 +501,9 @@
                 "Rank": 20,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 77,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 78,
+                "Diff": "3",
                 "Antece": "Ryan Anderson",
                 "game_status": "playing"
             },
@@ -513,7 +513,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 75,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Franz Wagner",
                 "game_status": "inactive"
             },
@@ -702,13 +702,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (1 assist today) has passed Aaron McKie and is now ranked 200th all-time with 238 in playoffs.",
-            "foto": [
-                "collages/1776740814973575_collage_1776740814866603.png"
-            ],
-            "timestamp": 1776740814
-        },
         {
             "texto": "CJ McCollum (6 assists today) has passed Al Attles, Don Nelson, Fred VanVleet, Goran Dragić, Jae Crowder, Jamaal Tinsley, Larry Siegfried, Latrell Sprewell, Rodney McCray and Sean Elliott and is now ranked 236th all-time with 212 in playoffs.",
             "foto": [
@@ -1401,6 +1394,13 @@
                 "collages/1776899793799819_collage_1776899793709860.png"
             ],
             "timestamp": 1776899793
+        },
+        {
+            "texto": "Tobias Harris (3 rebounds today) has passed Zydrunas Ilgauskas and is now ranked 169th all-time with 557 in playoffs.",
+            "foto": [
+                "collages/1776899891930397_collage_1776899891835424.png"
+            ],
+            "timestamp": 1776899891
         }
     ],
     "notificaciones_franchise": [
@@ -2105,7 +2105,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 314,
+    "total_notificaciones_historicas": 315,
     "total_franchise_historicas": 121,
-    "cache_buster": 1776899793
+    "cache_buster": 1776899891
 }
