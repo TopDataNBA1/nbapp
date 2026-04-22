@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "06:49:55",
+    "ultima_actualizacion": "06:51:30",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 21,
-                "Total": 8329,
-                "Diff": "671",
+                "Hoy": 22,
+                "Total": 8330,
+                "Diff": "670",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -460,13 +460,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 59,
+                "Rank": 58,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 147,
+                "Hoy": 3,
+                "Total": 148,
                 "Diff": "",
-                "Antece": "Allen Iverson",
+                "Antece": "Derek Harper",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -477,7 +477,7 @@
                 "Hoy": 1,
                 "Total": 146,
                 "Diff": "1",
-                "Antece": "Marcus Smart",
+                "Antece": "Allen Iverson",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
@@ -1123,13 +1123,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 4,
+                "Rank": 5,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 146,
-                "Diff": "34",
-                "Antece": "Paul Pierce",
+                "Diff": "1",
+                "Antece": "Marcus Smart",
                 "game_status": "finished"
             },
             {
@@ -1320,9 +1320,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 1418,
-                "Diff": "143",
+                "Hoy": 22,
+                "Total": 1419,
+                "Diff": "142",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1593,13 +1593,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jamal Murray (7 points today) has passed Dwight Howard, Horace Grant, Maurice Cheeks and Oscar Robertson and is now ranked 76th all-time with 1,913 in playoffs.",
-            "foto": [
-                "collages/1776740813519169_collage_1776740813438214.png"
-            ],
-            "timestamp": 1776740813
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (29 points today) has passed Jason Terry, Joe Dumars and Mark Aguirre and is now ranked 92nd all-time with 1,758 in playoffs.",
             "foto": [
@@ -2292,6 +2285,13 @@
                 "collages/1776831048509791_collage_1776831048435785.png"
             ],
             "timestamp": 1776831048
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (3 steals today) has passed Allen Iverson and is now ranked 58th all-time with 148 in playoffs.",
+            "foto": [
+                "collages/1776833490805404_collage_1776833490715429.png"
+            ],
+            "timestamp": 1776833490
         }
     ],
     "notificaciones_franchise": [
@@ -2996,7 +2996,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 308,
+    "total_notificaciones_historicas": 309,
     "total_franchise_historicas": 121,
-    "cache_buster": 1776833395
+    "cache_buster": 1776833490
 }
