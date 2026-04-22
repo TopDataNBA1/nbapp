@@ -22,11 +22,18 @@ jobs:
       - name: Update files from main
         run: |
           git fetch origin main
+          # Actualitzar fitxers de dades
           for f in data_playoffs.json data.json index.html notificaciones_historicas.json notificaciones_historicas_playoffs.json; do
             git checkout origin/main -- "$f" 2>/dev/null || true
           done
-          # Copiar collages nous de main a gh-pages
-          git checkout origin/main -- collages/ 2>/dev/null || true
+          # Copiar només collages nous (que no existeixen a gh-pages)
+          mkdir -p collages
+          git ls-tree -r --name-only origin/main -- collages/ | while read f; do
+            fname=$(basename "$f")
+            if [ ! -f "collages/$fname" ]; then
+              git checkout origin/main -- "$f" 2>/dev/null || true
+            fi
+          done
 
       - name: Commit and push to gh-pages
         run: |
