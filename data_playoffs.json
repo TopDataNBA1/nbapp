@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:01:36",
+    "ultima_actualizacion": "05:03:14",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 7,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 7,
-                "Total": 4992,
-                "Diff": "8",
+                "Hoy": 9,
+                "Total": 4994,
+                "Diff": "6",
                 "Antece": "5000",
                 "Nota": "",
                 "game_status": "playing"
@@ -140,9 +140,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 2636,
-                "Diff": "223",
+                "Hoy": 1,
+                "Total": 2637,
+                "Diff": "222",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -439,25 +439,25 @@
             },
             {
                 "Rank": 43,
-                "Nombre": "Paul George",
-                "Team": "PHI",
+                "Nombre": "Kevin Durant",
+                "Team": "HOU",
                 "Hoy": 1,
                 "Total": 173,
                 "Diff": "1",
                 "Antece": "Kyle Lowry",
                 "Nota": "A tiro de 1",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
-                "Rank": 45,
-                "Nombre": "Kevin Durant",
-                "Team": "HOU",
-                "Hoy": 0,
-                "Total": 172,
+                "Rank": 44,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 173,
                 "Diff": "",
-                "Antece": "Danny Ainge",
+                "Antece": "Kevin Durant",
                 "Nota": "Mismo total",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 59,
@@ -1330,9 +1330,9 @@
                 "Rank": 19,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 514,
-                "Diff": "26",
+                "Hoy": 1,
+                "Total": 515,
+                "Diff": "25",
                 "Antece": "Anthony Davis",
                 "game_status": "playing"
             },
@@ -1593,20 +1593,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Bogdan Bogdanović, David Wesley and Marco Belinelli and is now ranked 165th all-time with 79 in playoffs.",
-            "foto": [
-                "collages/1776735676517232_collage_1776735676397270.png"
-            ],
-            "timestamp": 1776735676
-        },
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (20 points today) has passed Chris Bosh, Darryl Dawkins, DeMar DeRozan and Vinnie Johnson and is now ranked 155th all-time with 1,390 in playoffs.",
-            "foto": [
-                "collages/1776735813326536_collage_1776735813255454.png"
-            ],
-            "timestamp": 1776735813
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (6 rebounds today) has passed Bob Cousy and Otis Thorpe and is now ranked 173rd all-time with 550 in playoffs.",
             "foto": [
@@ -2292,6 +2278,20 @@
                 "collages/1776826896790947_collage_1776826896716952.png"
             ],
             "timestamp": 1776826896
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant (1 steal today) has passed Danny Ainge and is now ranked 43rd all-time with 173 in playoffs.",
+            "foto": [
+                "collages/1776826994072885_collage_1776826993970915.png"
+            ],
+            "timestamp": 1776826994
+        },
+        {
+            "texto": "📢🔝💯 Paul George (1 steal today) has passed Danny Ainge and is now ranked 44th all-time with 173 in playoffs.",
+            "foto": [
+                "collages/1776826994264840_collage_1776826994170851.png"
+            ],
+            "timestamp": 1776826994
         }
     ],
     "notificaciones_franchise": [
@@ -2996,7 +2996,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 298,
+    "total_notificaciones_historicas": 300,
     "total_franchise_historicas": 120,
-    "cache_buster": 1776826896
+    "cache_buster": 1776826994
 }
