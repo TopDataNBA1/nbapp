@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:05:53",
+    "ultima_actualizacion": "03:07:36",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 51,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 10,
-                "Total": 1010,
-                "Diff": "12",
+                "Hoy": 11,
+                "Total": 1011,
+                "Diff": "11",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -363,13 +363,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 154,
+                "Rank": 150,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 56,
+                "Hoy": 1,
+                "Total": 57,
                 "Diff": "",
-                "Antece": "Dave Cowens",
+                "Antece": "Bill Cartwright",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -625,9 +625,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 1010,
-                "Diff": "176",
+                "Hoy": 11,
+                "Total": 1011,
+                "Diff": "175",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -725,9 +725,9 @@
                 "Rank": 11,
                 "Nombre": "Jaylen Brown",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 56,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 57,
+                "Diff": "13",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -867,9 +867,9 @@
                 "Rank": 24,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 33,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 34,
+                "Diff": "0",
                 "Antece": "Doug Collins",
                 "game_status": "playing"
             },
@@ -998,13 +998,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 CJ McCollum (1 three-pointer today) has passed P.J. Tucker and is now ranked 58th all-time with 155 in playoffs.",
-            "foto": [
-                "collages/1776732239149908_collage_1776732238847008.png"
-            ],
-            "timestamp": 1776732239
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (28 points today) has passed Cliff Hagan, Jamaal Wilkes, Joe Johnson, Kyle Lowry, Rick Barry and Terry Porter and is now ranked 85th all-time with 1,843 in playoffs.",
             "foto": [
@@ -1697,16 +1690,16 @@
                 "collages/1776819952383532_collage_1776819952169601.png"
             ],
             "timestamp": 1776819952
+        },
+        {
+            "texto": "📢HOF🏛️ Jaylen Brown (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 150th all-time with 57 in playoffs.",
+            "foto": [
+                "collages/1776820056207772_collage_1776820055986838.png"
+            ],
+            "timestamp": 1776820056
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jaden McDaniels (2 assists today) has passed Rudy Gobert and is now ranked 15th in Timberwolves history with 47 in playoffs.",
-            "foto": [],
-            "timestamp": 1776545190,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Donte DiVincenzo (9 points today) has passed Trenton Hassell and is now ranked 17th in Timberwolves history with 139 in playoffs.",
             "foto": [],
@@ -2399,9 +2392,16 @@
             "timestamp": 1776819743,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Jaylen Brown (1 block today) has passed Dave Cowens and is now ranked 11th in Celtics history with 57 in playoffs.",
+            "foto": [],
+            "timestamp": 1776820056,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 281,
-    "total_franchise_historicas": 119,
-    "cache_buster": 1776819953
+    "total_notificaciones_historicas": 282,
+    "total_franchise_historicas": 120,
+    "cache_buster": 1776820056
 }
