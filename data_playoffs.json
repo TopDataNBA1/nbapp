@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:14:14",
+    "ultima_actualizacion": "03:16:00",
     "tablas": {
         "pts": [
             {
@@ -216,13 +216,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 113,
+                "Rank": 112,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 352,
+                "Hoy": 4,
+                "Total": 353,
                 "Diff": "1",
-                "Antece": "Paul Westphal",
+                "Antece": "Slater Martin",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -352,14 +352,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 143,
+                "Rank": 142,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "1",
-                "Antece": "Rick Mahorn",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "",
+                "Antece": "Elton Brand",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -497,14 +497,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 137,
+                "Rank": 132,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 89,
-                "Diff": "",
-                "Antece": "Nick Anderson",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 91,
+                "Diff": "1",
+                "Antece": "Kirk Hinrich",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -655,9 +655,9 @@
                 "Rank": 15,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 352,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 353,
+                "Diff": "5",
                 "Antece": "Sam Jones",
                 "game_status": "playing"
             },
@@ -817,9 +817,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 768,
-                "Diff": "160",
+                "Hoy": 23,
+                "Total": 774,
+                "Diff": "154",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -897,9 +897,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 89,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 91,
+                "Diff": "9",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -998,20 +998,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "CJ McCollum (18 points today) has passed Darryl Dawkins, DeMar DeRozan and Vinnie Johnson and is now ranked 155th all-time with 1,388 in playoffs.",
-            "foto": [
-                "collages/1776735028358368_collage_1776735028261332.png"
-            ],
-            "timestamp": 1776735028
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (6 assists today) has passed Eric Snow, George Hill, Joe Johnson, Lenny Wilkens and Tayshaun Prince and is now ranked 97th all-time with 374 in playoffs.",
-            "foto": [
-                "collages/1776735028714414_collage_1776735028614349.png"
-            ],
-            "timestamp": 1776735028
-        },
         {
             "texto": "Donovan Mitchell (5 assists today) has passed Baron Davis and is now ranked 135th all-time with 312 in playoffs.",
             "foto": [
@@ -1697,6 +1683,20 @@
                 "collages/1776820453891936_collage_1776820453664954.png"
             ],
             "timestamp": 1776820453
+        },
+        {
+            "texto": "Paul George (1 block today) has passed Terry Cummings and is now ranked 142nd all-time with 63 in playoffs.",
+            "foto": [
+                "collages/1776820559574971_collage_1776820559434016.png"
+            ],
+            "timestamp": 1776820559
+        },
+        {
+            "texto": "Tyrese Maxey (4 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Craig Hodges, Dennis Schröder, Dorian Finney-Smith, Goran Dragić, James Posey, Leandro Barbosa, Luguentz Dort, Mario Elie, Mikal Bridges, Nick Anderson, Seth Curry, Tim Hardaway Jr. and Tim Thomas and is now ranked 132nd all-time with 91 in playoffs.",
+            "foto": [
+                "collages/1776820560228212_collage_1776820559979294.png"
+            ],
+            "timestamp": 1776820560
         }
     ],
     "notificaciones_franchise": [
@@ -2401,7 +2401,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 283,
+    "total_notificaciones_historicas": 285,
     "total_franchise_historicas": 120,
-    "cache_buster": 1776820454
+    "cache_buster": 1776820560
 }
