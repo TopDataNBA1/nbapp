@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:31",
+    "ultima_actualizacion": "03:02:23",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 214,
+                "Rank": 212,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 1116,
-                "Diff": "",
-                "Antece": "Cedric Maxwell",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 1119,
+                "Diff": "4",
+                "Antece": "Bradley Beal",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -186,11 +186,11 @@
                 "Rank": 48,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 7,
-                "Total": 606,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 607,
+                "Diff": "1",
                 "Antece": "Jimmy Butler",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -478,9 +478,9 @@
                 "Rank": 35,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 190,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 191,
+                "Diff": "5",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -645,9 +645,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 606,
-                "Diff": "133",
+                "Hoy": 8,
+                "Total": 607,
+                "Diff": "132",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -752,13 +752,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 184,
-                "Diff": "0",
-                "Antece": "Al Horford",
+                "Hoy": 2,
+                "Total": 185,
+                "Diff": "15",
+                "Antece": "200",
                 "game_status": "playing"
             },
             {
@@ -998,20 +998,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (2 assists today) has passed George Hill, Joe Johnson and Tayshaun Prince and is now ranked 99th all-time with 370 in playoffs.",
-            "foto": [
-                "collages/1776731444693486_collage_1776731444604512.png"
-            ],
-            "timestamp": 1776731444
-        },
-        {
-            "texto": "Mikal Bridges (2 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Dennis Schröder, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa, Luguentz Dort, Seth Curry, Tim Thomas and Tyrese Maxey and is now ranked 135th all-time with 89 in playoffs.",
-            "foto": [
-                "collages/1776731445134342_collage_1776731445032374.png"
-            ],
-            "timestamp": 1776731445
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (21 points today) has passed Cliff Hagan, Jamaal Wilkes, Joe Johnson, Rick Barry and Terry Porter and is now ranked 85th all-time with 1,836 in playoffs.",
             "foto": [
@@ -1697,16 +1683,23 @@
                 "collages/1776819451862924_collage_1776819451769940.png"
             ],
             "timestamp": 1776819451
+        },
+        {
+            "texto": "Derrick White (8 points today) has passed Cedric Maxwell, Kevin Love and Sean Elliott and is now ranked 212th all-time with 1,119 in playoffs.",
+            "foto": [
+                "collages/1776819741271994_collage_1776819741035071.png"
+            ],
+            "timestamp": 1776819741
+        },
+        {
+            "texto": "📢🔝💯 Derrick White (2 three-pointers today) has passed JJ Redick and Rasheed Wallace and is now ranked 35th all-time with 191 in playoffs.",
+            "foto": [
+                "collages/1776819742771578_collage_1776819742515014.png"
+            ],
+            "timestamp": 1776819742
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ Nikola Jokić (2 three-pointers today) has passed Michael Porter Jr. and is now ranked 2nd in Nuggets history with 167 in playoffs.",
-            "foto": [],
-            "timestamp": 1776544717,
-            "team": "DEN",
-            "type": "franchise"
-        },
         {
             "texto": "Jaden McDaniels (2 assists today) has passed Rudy Gobert and is now ranked 15th in Timberwolves history with 47 in playoffs.",
             "foto": [],
@@ -2399,9 +2392,16 @@
             "timestamp": 1776814499,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Derrick White (2 three-pointers today) has passed Al Horford and is now ranked 6th in Celtics history with 185 in playoffs.",
+            "foto": [],
+            "timestamp": 1776819743,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 277,
-    "total_franchise_historicas": 118,
-    "cache_buster": 1776819451
+    "total_notificaciones_historicas": 279,
+    "total_franchise_historicas": 119,
+    "cache_buster": 1776819743
 }
