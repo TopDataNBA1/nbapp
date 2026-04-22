@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "01:21:23",
+    "ultima_actualizacion": "01:23:01",
     "tablas": {
         "pts": [
             {
                 "Rank": 218,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1106,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 1108,
+                "Diff": "1",
                 "Antece": "Tracy McGrady",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -286,26 +286,26 @@
         ],
         "blk": [
             {
-                "Rank": 219,
+                "Rank": 215,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 44,
+                "Hoy": 2,
+                "Total": 45,
                 "Diff": "",
-                "Antece": "Sam Lacey",
+                "Antece": "Timofey Mozgov",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
         "fg3": [
             {
-                "Rank": 62,
+                "Rank": 61,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 150,
+                "Hoy": 1,
+                "Total": 151,
                 "Diff": "1",
-                "Antece": "Terry Porter",
+                "Antece": "Sam Perkins",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 108,
+                "Diff": "3",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -673,20 +673,20 @@
                 "Rank": 21,
                 "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 13,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 14,
+                "Diff": "0",
                 "Antece": "Chauncey Billups",
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 11,
-                "Diff": "0",
-                "Antece": "Kent Benson",
+                "Hoy": 1,
+                "Total": 12,
+                "Diff": "2",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -702,13 +702,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 205th all-time with 70 in playoffs.",
-            "foto": [
-                "collages/1776740815674424_collage_1776740815545460.png"
-            ],
-            "timestamp": 1776740815
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Adrian Dantley, Anderson Varejão, Blake Griffin, Bob Dandridge, Bradley Beal, George Gervin, Luol Deng and Rashard Lewis and is now ranked 206th all-time with 70 in playoffs.",
             "foto": [
@@ -1401,16 +1394,16 @@
                 "collages/1776900083748032_collage_1776900083678111.png"
             ],
             "timestamp": 1776900083
+        },
+        {
+            "texto": "Tobias Harris (2 blocks today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 215th all-time with 45 in playoffs.",
+            "foto": [
+                "collages/1776900181293774_collage_1776900181221796.png"
+            ],
+            "timestamp": 1776900181
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ 📢HOF🏛️ Anthony Edwards (7 assists today) has passed Kevin Garnett and is now ranked 1st in Timberwolves history with 237 in playoffs.",
-            "foto": [],
-            "timestamp": 1776548639,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Donte DiVincenzo (2 steals today) has passed Wally Szczerbiak and is now ranked 8th in Timberwolves history with 23 in playoffs.",
             "foto": [],
@@ -2103,9 +2096,16 @@
             "timestamp": 1776900083,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Duren (1 block today) has passed Andre Drummond and Kent Benson and is now ranked 22nd in Pistons history with 12 in playoffs.",
+            "foto": [],
+            "timestamp": 1776900181,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 316,
-    "total_franchise_historicas": 125,
-    "cache_buster": 1776900083
+    "total_notificaciones_historicas": 317,
+    "total_franchise_historicas": 126,
+    "cache_buster": 1776900181
 }
