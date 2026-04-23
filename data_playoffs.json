@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:05",
+    "ultima_actualizacion": "04:20:43",
     "tablas": {
         "pts": [
             {
@@ -189,13 +189,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 171,
                 "Nombre": "Royce O'Neale",
                 "Team": "PHX",
-                "Hoy": 2,
-                "Total": 76,
+                "Hoy": 3,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Channing Frye",
+                "Antece": "Chuck Person",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -206,7 +206,7 @@
                 "Hoy": 2,
                 "Total": 75,
                 "Diff": "1",
-                "Antece": "Royce O'Neale",
+                "Antece": "Channing Frye",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
@@ -412,9 +412,9 @@
                 "Rank": 10,
                 "Nombre": "Jalen Williams",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 172,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 173,
+                "Diff": "20",
                 "Antece": "Fred Brown",
                 "game_status": "playing"
             },
@@ -532,9 +532,9 @@
                 "Rank": 13,
                 "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "0",
                 "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
@@ -897,13 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jamal Murray (26 points today) has passed Gus Williams and is now ranked 72nd all-time with 1,932 in playoffs.",
-            "foto": [
-                "collages/1776744842750643_collage_1776744842651689.png"
-            ],
-            "timestamp": 1776744842
-        },
         {
             "texto": "📢HOF🏛️ Jamal Murray (1 steal today) has passed Fat Lever, Luka Dončić, Norm Nixon and Paul Westphal and is now ranked 138th all-time with 90 in playoffs.",
             "foto": [
@@ -1596,16 +1589,16 @@
                 "collages/1776910373774909_collage_1776910373676955.png"
             ],
             "timestamp": 1776910373
+        },
+        {
+            "texto": "Royce O'Neale (3 three-pointers today) has passed Allan Houston and Channing Frye and is now ranked 171st all-time with 77 in playoffs.",
+            "foto": [
+                "collages/1776910842958293_collage_1776910842885336.png"
+            ],
+            "timestamp": 1776910842
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Rui Hachimura (1 three-pointer today) has passed Danny Green and is now ranked 21st in Lakers history with 40 in playoffs.",
-            "foto": [],
-            "timestamp": 1776560247,
-            "team": "LAL",
-            "type": "franchise"
-        },
         {
             "texto": "Clint Capela (2 points today) has passed Chris Paul and is now ranked 19th in Rockets history with 506 in playoffs.",
             "foto": [],
@@ -2298,9 +2291,16 @@
             "timestamp": 1776909812,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Joe (1 three-pointer today) has passed Dale Ellis and is now ranked 13th in Thunder history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1776910842,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 342,
-    "total_franchise_historicas": 139,
-    "cache_buster": 1776910565
+    "total_notificaciones_historicas": 343,
+    "total_franchise_historicas": 140,
+    "cache_buster": 1776910843
 }
