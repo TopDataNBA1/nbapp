@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:20:43",
+    "ultima_actualizacion": "04:22:21",
     "tablas": {
         "pts": [
             {
@@ -132,13 +132,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 242,
+                "Rank": 229,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 41,
+                "Hoy": 1,
+                "Total": 42,
                 "Diff": "",
-                "Antece": "Evan Mobley",
+                "Antece": "Felton Spencer",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -362,9 +362,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Williams",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 707,
-                "Diff": "83",
+                "Hoy": 8,
+                "Total": 709,
+                "Diff": "81",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -520,22 +520,22 @@
             },
             {
                 "Rank": 12,
-                "Nombre": "Chet Holmgren",
+                "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 43,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 44,
+                "Diff": "7",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
             {
                 "Rank": 13,
-                "Nombre": "Isaiah Joe",
+                "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 43,
-                "Diff": "0",
-                "Antece": "Chet Holmgren",
+                "Diff": "1",
+                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -897,13 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jamal Murray (1 steal today) has passed Fat Lever, Luka Dončić, Norm Nixon and Paul Westphal and is now ranked 138th all-time with 90 in playoffs.",
-            "foto": [
-                "collages/1776744842987253_collage_1776744842916289.png"
-            ],
-            "timestamp": 1776744842
-        },
         {
             "texto": "📢HOF🏛️ Donte DiVincenzo (3 three-pointers today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 108th all-time with 104 in playoffs.",
             "foto": [
@@ -1596,16 +1589,16 @@
                 "collages/1776910842958293_collage_1776910842885336.png"
             ],
             "timestamp": 1776910842
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, Evan Mobley, John Wall, Karl-Anthony Towns, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 229th all-time with 42 in playoffs.",
+            "foto": [
+                "collages/1776910941218250_collage_1776910941122282.png"
+            ],
+            "timestamp": 1776910941
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Clint Capela (2 points today) has passed Chris Paul and is now ranked 19th in Rockets history with 506 in playoffs.",
-            "foto": [],
-            "timestamp": 1776560628,
-            "team": "HOU",
-            "type": "franchise"
-        },
         {
             "texto": "Sam Hauser (2 three-pointers today) has passed Jae Crowder and Jrue Holiday and is now ranked 17th in Celtics history with 45 in playoffs.",
             "foto": [],
@@ -2298,9 +2291,16 @@
             "timestamp": 1776910842,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Joe (2 three-pointers today) has passed Chet Holmgren and is now ranked 12th in Thunder history with 44 in playoffs.",
+            "foto": [],
+            "timestamp": 1776910941,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 343,
-    "total_franchise_historicas": 140,
-    "cache_buster": 1776910843
+    "total_notificaciones_historicas": 344,
+    "total_franchise_historicas": 141,
+    "cache_buster": 1776910941
 }
