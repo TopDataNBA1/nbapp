@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:23:00",
+    "ultima_actualizacion": "05:24:36",
     "tablas": {
         "pts": [
             {
@@ -99,14 +99,14 @@
         ],
         "blk": [
             {
-                "Rank": 128,
+                "Rank": 123,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "",
-                "Antece": "Artis Gilmore",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 73,
+                "Diff": "1",
+                "Antece": "Scott Williams",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -372,9 +372,9 @@
                 "Rank": 21,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 538,
-                "Diff": "2",
+                "Hoy": 19,
+                "Total": 540,
+                "Diff": "0",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -472,9 +472,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "29",
+                "Hoy": 3,
+                "Total": 73,
+                "Diff": "27",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -806,9 +806,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 249,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 250,
+                "Diff": "7",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -897,13 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Aaron Gordon (7 rebounds today) has passed Maurice Cheeks and is now ranked 226th all-time with 454 in playoffs.",
-            "foto": [
-                "collages/1776746184448660_collage_1776746184348430.png"
-            ],
-            "timestamp": 1776746184
-        },
         {
             "texto": "📢HOF🏛️ Kyle Anderson (1 steal today) has passed Andrei Kirilenko, Derrick White, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 225th all-time with 66 in playoffs.",
             "foto": [
@@ -1596,6 +1589,13 @@
                 "collages/1776914580846892_collage_1776914580760916.png"
             ],
             "timestamp": 1776914580
+        },
+        {
+            "texto": "📢HOF🏛️ Chet Holmgren (3 blocks today) has passed Alvan Adams, Artis Gilmore, Jimmy Butler, Joel Anthony and Taj Gibson and is now ranked 123rd all-time with 73 in playoffs.",
+            "foto": [
+                "collages/1776914676880846_collage_1776914676803886.png"
+            ],
+            "timestamp": 1776914676
         }
     ],
     "notificaciones_franchise": [
@@ -2300,7 +2300,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 349,
+    "total_notificaciones_historicas": 350,
     "total_franchise_historicas": 142,
-    "cache_buster": 1776914580
+    "cache_buster": 1776914676
 }
