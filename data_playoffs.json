@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:17:41",
+    "ultima_actualizacion": "01:24:00",
     "tablas": {
         "pts": [
             {
@@ -75,7 +75,18 @@
         ],
         "stl": [
             {
-                "Rank": 205,
+                "Rank": 202,
+                "Nombre": "OG Anunoby",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "",
+                "Antece": "Maurice Lucas",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 206,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -84,28 +95,17 @@
                 "Antece": "Johnny Moore",
                 "Nota": "Mismo total",
                 "game_status": "playing"
-            },
-            {
-                "Rank": 206,
-                "Nombre": "OG Anunoby",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "",
-                "Antece": "Mikal Bridges",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "blk": [
             {
-                "Rank": 184,
+                "Rank": 177,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 50,
+                "Hoy": 1,
+                "Total": 51,
                 "Diff": "",
-                "Antece": "Jrue Holiday",
+                "Antece": "Nate Thurmond",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -422,9 +422,9 @@
                 "Rank": 7,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "2",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -434,7 +434,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 47,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -482,9 +482,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 32,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 33,
+                "Diff": "7",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -1208,6 +1208,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986066491001_collage_1776986066397050.png"
             ],
             "timestamp": 1776986069
+        },
+        {
+            "texto": "OG Anunoby (1 steal today) has passed Jeff Teague, Johnny Moore, Mikal Bridges and Ricky Pierce and is now ranked 202nd all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986634023100_collage_1776986633951030.png"
+            ],
+            "timestamp": 1776986637
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 177th all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986637484408_collage_1776986637375442.png"
+            ],
+            "timestamp": 1776986640
         }
     ],
     "notificaciones_franchise": [
@@ -1898,7 +1912,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 364,
+    "total_notificaciones_historicas": 366,
     "total_franchise_historicas": 144,
-    "cache_buster": 1776986261
+    "cache_buster": 1776986640
 }
