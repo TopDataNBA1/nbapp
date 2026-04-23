@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:08:09",
+    "ultima_actualizacion": "02:14:19",
     "tablas": {
         "pts": [
             {
-                "Rank": 218,
+                "Rank": 217,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 1108,
-                "Diff": "1",
-                "Antece": "Tracy McGrady",
-                "Nota": "A tiro de 1",
+                "Hoy": 6,
+                "Total": 1110,
+                "Diff": "",
+                "Antece": "Rolando Blackman",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -321,13 +321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 176,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 73,
+                "Hoy": 1,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Aaron Gordon",
+                "Antece": "Danilo Gallinari",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -451,9 +451,9 @@
                 "Rank": 12,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 369,
-                "Diff": "1",
+                "Hoy": 11,
+                "Total": 370,
+                "Diff": "0",
                 "Antece": "Mickaël Piétrus",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 57,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 58,
+                "Diff": "5",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
@@ -541,9 +541,9 @@
                 "Rank": 23,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 30,
+                "Diff": "2",
                 "Antece": "Vince Carter",
                 "game_status": "playing"
             },
@@ -702,20 +702,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Adrian Dantley, Anderson Varejão, Blake Griffin, Bob Dandridge, Bradley Beal, George Gervin, Luol Deng and Rashard Lewis and is now ranked 206th all-time with 70 in playoffs.",
-            "foto": [
-                "collages/1776740816004319_collage_1776740815907364.png"
-            ],
-            "timestamp": 1776740816
-        },
-        {
-            "texto": "📢🔝💯 Jamal Murray (2 three-pointers today) has passed Jae Crowder and is now ranked 28th all-time with 208 in playoffs.",
-            "foto": [
-                "collages/1776740816215250_collage_1776740816118281.png"
-            ],
-            "timestamp": 1776740816
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (4 three-pointers today) has passed Deron Williams, Gary Payton, Rashard Lewis and Steve Smith and is now ranked 68th all-time with 139 in playoffs.",
             "foto": [
@@ -1401,6 +1387,20 @@
                 "collages/1776900181293774_collage_1776900181221796.png"
             ],
             "timestamp": 1776900181
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (6 points today) has passed Tracy McGrady and is now ranked 217th all-time with 1,110 in playoffs.",
+            "foto": [
+                "collages/1776903258920447_collage_1776903258821046.png"
+            ],
+            "timestamp": 1776903258
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Aaron Gordon, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 176th all-time with 74 in playoffs.",
+            "foto": [
+                "collages/1776903259173931_collage_1776903259100982.png"
+            ],
+            "timestamp": 1776903259
         }
     ],
     "notificaciones_franchise": [
@@ -2105,7 +2105,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 317,
+    "total_notificaciones_historicas": 319,
     "total_franchise_historicas": 132,
-    "cache_buster": 1776902889
+    "cache_buster": 1776903259
 }
