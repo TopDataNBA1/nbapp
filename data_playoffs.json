@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:49:19",
+    "ultima_actualizacion": "03:50:57",
     "tablas": {
         "pts": [
             {
@@ -86,13 +86,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 240,
+                "Rank": 233,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 64,
+                "Hoy": 1,
+                "Total": 65,
                 "Diff": "",
-                "Antece": "Quinn Buckner",
+                "Antece": "Kevin McHale",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -372,9 +372,9 @@
                 "Rank": 21,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 521,
-                "Diff": "19",
+                "Hoy": 3,
+                "Total": 524,
+                "Diff": "16",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -382,9 +382,9 @@
                 "Rank": 17,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 278,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 279,
+                "Diff": "10",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -419,13 +419,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 58,
-                "Diff": "0",
-                "Antece": "James Harden",
+                "Hoy": 1,
+                "Total": 59,
+                "Diff": "6",
+                "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
             {
@@ -520,22 +520,22 @@
             },
             {
                 "Rank": 12,
-                "Nombre": "Isaiah Joe",
+                "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "8",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
             {
                 "Rank": 13,
-                "Nombre": "Chet Holmgren",
+                "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 42,
-                "Diff": "0",
-                "Antece": "Isaiah Joe",
+                "Diff": "1",
+                "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
             {
@@ -897,13 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tim Hardaway Jr. (2 three-pointers today) has passed Myles Turner, Patrick Beverley and Rick Fox and is now ranked 146th all-time with 87 in playoffs.",
-            "foto": [
-                "collages/1776742747493384_collage_1776742747424410.png"
-            ],
-            "timestamp": 1776742747
-        },
         {
             "texto": "Anthony Edwards (17 points today) has passed Eddie Johnson and is now ranked 197th all-time with 1,169 in playoffs.",
             "foto": [
@@ -1596,23 +1589,16 @@
                 "collages/1776908959386407_collage_1776908959322451.png"
             ],
             "timestamp": 1776908959
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed John Wall, Mark Price, Nick Van Exel and Quinn Buckner and is now ranked 233rd all-time with 65 in playoffs.",
+            "foto": [
+                "collages/1776909057180195_collage_1776909057105224.png"
+            ],
+            "timestamp": 1776909057
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Mikal Bridges (1 steal today) has passed Mitchell Robinson and is now ranked 21st in Knicks history with 31 in playoffs.",
-            "foto": [],
-            "timestamp": 1776556528,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "Josh Hart (5 assists today) has passed Greg Anthony and is now ranked 13th in Knicks history with 168 in playoffs.",
-            "foto": [],
-            "timestamp": 1776558525,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Julius Randle and is now ranked 18th in Knicks history with 29 in playoffs.",
             "foto": [],
@@ -2298,9 +2284,23 @@
             "timestamp": 1776908959,
             "team": "PHO",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed James Harden and is now ranked 12th in Thunder history with 59 in playoffs.",
+            "foto": [],
+            "timestamp": 1776909057,
+            "team": "OKC",
+            "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (1 three-pointer today) has passed Isaiah Joe and Dale Ellis and is now ranked 12th in Thunder history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1776909057,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 332,
-    "total_franchise_historicas": 136,
-    "cache_buster": 1776908959
+    "total_notificaciones_historicas": 333,
+    "total_franchise_historicas": 138,
+    "cache_buster": 1776909057
 }
