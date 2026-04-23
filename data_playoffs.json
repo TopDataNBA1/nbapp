@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:12:47",
+    "ultima_actualizacion": "01:14:29",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 154,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 1402,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 1405,
+                "Diff": "2",
                 "Antece": "Lamar Odom",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -41,24 +41,24 @@
                 "Rank": 173,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 552,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 553,
+                "Diff": "",
                 "Antece": "Cedric Maxwell",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
         "ast": [
             {
-                "Rank": 96,
+                "Rank": 95,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 375,
-                "Diff": "",
-                "Antece": "Brian Shaw",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 376,
+                "Diff": "6",
+                "Antece": "Tim Hardaway",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -134,14 +134,14 @@
         ],
         "fg3": [
             {
-                "Rank": 57,
+                "Rank": 56,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 157,
-                "Diff": "1",
-                "Antece": "Joe Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 158,
+                "Diff": "4",
+                "Antece": "Peja Stojaković",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -156,14 +156,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 108,
+                "Rank": 107,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "",
-                "Antece": "Donte DiVincenzo",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "1",
+                "Antece": "Tyrese Haliburton",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -392,9 +392,9 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 225,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 226,
+                "Diff": "4",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -402,9 +402,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 299,
-                "Diff": "93",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "92",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -532,9 +532,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "5",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1194,6 +1194,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776917877189839_collage_1776917877113851.png"
             ],
             "timestamp": 1776917877
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (1 assist today) has passed Brian Shaw and Jason Terry and is now ranked 95th all-time with 376 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986063416760_collage_1776986063336768.png"
+            ],
+            "timestamp": 1776986066
+        },
+        {
+            "texto": "OG Anunoby (1 three-pointer today) has passed Donte DiVincenzo and is now ranked 107th all-time with 106 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986066491001_collage_1776986066397050.png"
+            ],
+            "timestamp": 1776986069
         }
     ],
     "notificaciones_franchise": [
@@ -1877,7 +1891,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 362,
+    "total_notificaciones_historicas": 364,
     "total_franchise_historicas": 143,
-    "cache_buster": 1776985967
+    "cache_buster": 1776986069
 }
