@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:43:42",
+    "ultima_actualizacion": "02:45:19",
     "tablas": {
         "pts": [
             {
-                "Rank": 216,
+                "Rank": 215,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 8,
-                "Total": 1112,
-                "Diff": "",
-                "Antece": "Kevin Love",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 1114,
+                "Diff": "2",
+                "Antece": "Cedric Maxwell",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -321,14 +321,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 174,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 1,
-                "Total": 74,
-                "Diff": "",
-                "Antece": "Danilo Gallinari",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 75,
+                "Diff": "1",
+                "Antece": "Channing Frye",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -531,9 +531,9 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 58,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 59,
+                "Diff": "4",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
@@ -702,20 +702,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (1 three-pointer today) has passed Andrew Nembhard and is now ranked 196th all-time with 70 in playoffs.",
-            "foto": [
-                "collages/1776740816997999_collage_1776740816890034.png"
-            ],
-            "timestamp": 1776740817
-        },
-        {
-            "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Antawn Jamison, Devean George, Jon Barry, Lance Stephenson, Maxi Kleber, Robert Covington, Terrence Ross, Torrey Craig and Victor Oladipo and is now ranked 227th all-time with 61 in playoffs.",
-            "foto": [
-                "collages/1776740817398870_collage_1776740817286907.png"
-            ],
-            "timestamp": 1776740817
-        },
         {
             "texto": "Julius Randle (2 three-pointers today) has passed Charlie Ward, Devean George, Jamal Mashburn, Jim Jackson, Maxi Kleber, Spencer Dinwiddie, Terrence Ross and Torrey Craig and is now ranked 232nd all-time with 60 in playoffs.",
             "foto": [
@@ -1401,6 +1387,20 @@
                 "collages/1776905022426025_collage_1776905022325080.png"
             ],
             "timestamp": 1776905022
+        },
+        {
+            "texto": "Tobias Harris (10 points today) has passed Kevin Love and is now ranked 215th all-time with 1,114 in playoffs.",
+            "foto": [
+                "collages/1776905118968126_collage_1776905118873162.png"
+            ],
+            "timestamp": 1776905118
+        },
+        {
+            "texto": "Desmond Bane (2 three-pointers today) has passed Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Royce O'Neale and is now ranked 174th all-time with 75 in playoffs.",
+            "foto": [
+                "collages/1776905119238066_collage_1776905119161116.png"
+            ],
+            "timestamp": 1776905119
         }
     ],
     "notificaciones_franchise": [
@@ -2105,7 +2105,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 321,
+    "total_notificaciones_historicas": 323,
     "total_franchise_historicas": 132,
-    "cache_buster": 1776905022
+    "cache_buster": 1776905119
 }
