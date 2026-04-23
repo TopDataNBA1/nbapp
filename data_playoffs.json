@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:05:10",
+    "ultima_actualizacion": "04:12:53",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 185,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 8,
-                "Total": 1219,
-                "Diff": "3",
+                "Hoy": 11,
+                "Total": 1222,
+                "Diff": "",
                 "Antece": "Bill Bradley",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -190,34 +190,34 @@
             },
             {
                 "Rank": 174,
+                "Nombre": "Royce O'Neale",
+                "Team": "PHX",
+                "Hoy": 2,
+                "Total": 76,
+                "Diff": "",
+                "Antece": "Channing Frye",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 175,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
                 "Hoy": 2,
                 "Total": 75,
                 "Diff": "1",
-                "Antece": "Channing Frye",
+                "Antece": "Royce O'Neale",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
             {
-                "Rank": 176,
-                "Nombre": "Royce O'Neale",
-                "Team": "PHX",
-                "Hoy": 1,
-                "Total": 75,
-                "Diff": "",
-                "Antece": "Rafer Alston",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 193,
+                "Rank": 186,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 71,
+                "Hoy": 1,
+                "Total": 72,
                 "Diff": "",
-                "Antece": "Richard Hamilton",
+                "Antece": "Lindsey Hunter",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -352,9 +352,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1137,
-                "Diff": "60",
+                "Hoy": 11,
+                "Total": 1140,
+                "Diff": "57",
                 "Antece": "Fred Brown",
                 "game_status": "playing"
             },
@@ -502,9 +502,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "3",
                 "Antece": "Hersey Hawkins",
                 "game_status": "playing"
             },
@@ -897,20 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tim Hardaway Jr. (3 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa, Seth Curry and Tyrese Maxey and is now ranked 139th all-time with 88 in playoffs.",
-            "foto": [
-                "collages/1776743720093817_collage_1776743720003846.png"
-            ],
-            "timestamp": 1776743720
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jamal Murray (23 points today) has passed Walt Frazier and is now ranked 73rd all-time with 1,929 in playoffs.",
-            "foto": [
-                "collages/1776743818237218_collage_1776743818119256.png"
-            ],
-            "timestamp": 1776743818
-        },
         {
             "texto": "📢🔝💯 Jamal Murray (26 points today) has passed Gus Williams and is now ranked 72nd all-time with 1,932 in playoffs.",
             "foto": [
@@ -1596,6 +1582,20 @@
                 "collages/1776909910325465_collage_1776909910252500.png"
             ],
             "timestamp": 1776909910
+        },
+        {
+            "texto": "Royce O'Neale (2 three-pointers today) has passed Rafer Alston and is now ranked 174th all-time with 76 in playoffs.",
+            "foto": [
+                "collages/1776910373433977_collage_1776910373347003.png"
+            ],
+            "timestamp": 1776910373
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 186th all-time with 72 in playoffs.",
+            "foto": [
+                "collages/1776910373774909_collage_1776910373676955.png"
+            ],
+            "timestamp": 1776910373
         }
     ],
     "notificaciones_franchise": [
@@ -2300,7 +2300,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 340,
+    "total_notificaciones_historicas": 342,
     "total_franchise_historicas": 139,
-    "cache_buster": 1776909910
+    "cache_buster": 1776910373
 }
