@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:50:57",
+    "ultima_actualizacion": "03:52:34",
     "tablas": {
         "pts": [
             {
@@ -62,14 +62,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 186,
+                "Rank": 184,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 250,
-                "Diff": "",
-                "Antece": "Derrick White",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 251,
+                "Diff": "1",
+                "Antece": "Sedale Threatt",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -362,9 +362,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Williams",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 701,
-                "Diff": "89",
+                "Hoy": 1,
+                "Total": 702,
+                "Diff": "88",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -806,9 +806,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 244,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 245,
+                "Diff": "12",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -816,9 +816,9 @@
                 "Rank": 6,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 250,
-                "Diff": "46",
+                "Hoy": 2,
+                "Total": 251,
+                "Diff": "45",
                 "Antece": "Walter Davis",
                 "game_status": "playing"
             },
@@ -897,13 +897,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (17 points today) has passed Eddie Johnson and is now ranked 197th all-time with 1,169 in playoffs.",
-            "foto": [
-                "collages/1776743134684913_collage_1776743134543400.png"
-            ],
-            "timestamp": 1776743134
-        },
         {
             "texto": "📢🔝💯 Jamal Murray (4 three-pointers today) has passed Jae Crowder and Marcus Smart and is now ranked 27th all-time with 210 in playoffs.",
             "foto": [
@@ -1596,6 +1589,13 @@
                 "collages/1776909057180195_collage_1776909057105224.png"
             ],
             "timestamp": 1776909057
+        },
+        {
+            "texto": "Devin Booker (2 assists today) has passed Clifford Robinson, Derrick White and Lou Williams and is now ranked 184th all-time with 251 in playoffs.",
+            "foto": [
+                "collages/1776909154226696_collage_1776909154163736.png"
+            ],
+            "timestamp": 1776909154
         }
     ],
     "notificaciones_franchise": [
@@ -2300,7 +2300,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 333,
+    "total_notificaciones_historicas": 334,
     "total_franchise_historicas": 138,
-    "cache_buster": 1776909057
+    "cache_buster": 1776909154
 }
