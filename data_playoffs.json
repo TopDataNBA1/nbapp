@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:35:29",
+    "ultima_actualizacion": "04:37:14",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 192,
+                "Rank": 191,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 1190,
-                "Diff": "2",
-                "Antece": "Rashard Lewis",
-                "Nota": "A tiro de 2",
+                "Hoy": 11,
+                "Total": 1193,
+                "Diff": "1",
+                "Antece": "Jim McMillian",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -574,13 +574,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 73,
+                "Rank": 71,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 136,
+                "Hoy": 2,
+                "Total": 137,
                 "Diff": "1",
-                "Antece": "Gary Payton",
+                "Antece": "Rashard Lewis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1266,9 +1266,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1190,
-                "Diff": "810",
+                "Hoy": 11,
+                "Total": 1193,
+                "Diff": "807",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1456,9 +1456,9 @@
                 "Rank": 10,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 62,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 63,
+                "Diff": "7",
                 "Antece": "Sam Cassell",
                 "game_status": "playing"
             },
@@ -1486,9 +1486,9 @@
                 "Rank": 16,
                 "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
@@ -1498,7 +1498,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 44,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1546,9 +1546,9 @@
                 "Rank": 8,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 25,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 26,
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1656,9 +1656,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 136,
-                "Diff": "64",
+                "Hoy": 2,
+                "Total": 137,
+                "Diff": "63",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -2081,20 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (6 rebounds today) has passed Happy Hairston and is now ranked 165th all-time with 560 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776905022426025_collage_1776905022325080.png"
-            ],
-            "timestamp": 1776905022
-        },
-        {
-            "texto": "Tobias Harris (10 points today) has passed Kevin Love and is now ranked 215th all-time with 1,114 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776905118968126_collage_1776905118873162.png"
-            ],
-            "timestamp": 1776905118
-        },
         {
             "texto": "Desmond Bane (2 three-pointers today) has passed Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Royce O'Neale and is now ranked 174th all-time with 75 in playoffs.",
             "foto": [
@@ -2766,6 +2752,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776997843743441_6820_collage_1776997843658488.png"
             ],
             "timestamp": 1776997849
+        },
+        {
+            "texto": "Anthony Edwards (11 points today) has passed Rashard Lewis and is now ranked 191st all-time with 1,193 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776998224452246_7233_collage_1776998224352279.png"
+            ],
+            "timestamp": 1776998229
+        },
+        {
+            "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Steve Smith and is now ranked 71st all-time with 137 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776998229407886_5704_collage_1776998229311121.png"
+            ],
+            "timestamp": 1776998234
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 418,
+    "total_notificaciones_historicas": 420,
     "total_franchise_historicas": 180,
-    "cache_buster": 1776998129
+    "cache_buster": 1776998234
 }
