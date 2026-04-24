@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:58",
+    "ultima_actualizacion": "04:19:38",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 85,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 13,
-                "Total": 1858,
-                "Diff": "3",
+                "Hoy": 15,
+                "Total": 1860,
+                "Diff": "1",
                 "Antece": "Sam Perkins",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 195,
+                "Rank": 192,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 1184,
-                "Diff": "1",
-                "Antece": "Mark Jackson",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 1187,
+                "Diff": "5",
+                "Antece": "Rashard Lewis",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -792,9 +792,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 753,
-                "Diff": "29",
+                "Hoy": 15,
+                "Total": 755,
+                "Diff": "27",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -822,9 +822,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 246,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 247,
+                "Diff": "7",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -882,9 +882,9 @@
                 "Rank": 21,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 63,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 64,
+                "Diff": "1",
                 "Antece": "Eric Snow",
                 "game_status": "playing"
             },
@@ -1266,9 +1266,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1184,
-                "Diff": "816",
+                "Hoy": 5,
+                "Total": 1187,
+                "Diff": "813",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -2005,13 +2005,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 13,
+                "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 32,
                 "Diff": "1",
-                "Antece": "Greg Anthony",
+                "Antece": "RJ Barrett",
                 "game_status": "finished"
             },
             {
@@ -2081,13 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Aaron Gordon, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 176th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776903259173931_collage_1776903259100982.png"
-            ],
-            "timestamp": 1776903259
-        },
         {
             "texto": "Tobias Harris (8 points today) has passed Rolando Blackman and is now ranked 216th all-time with 1,112 in playoffs.",
             "foto": [
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776996600089521_1145_collage_1776996599999551.png"
             ],
             "timestamp": 1776996605
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (5 points today) has passed Bill Bridges, Mark Jackson and Paul Arizin and is now ranked 192nd all-time with 1,187 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776997173898457_5977_collage_1776997173827482.png"
+            ],
+            "timestamp": 1776997178
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 416,
+    "total_notificaciones_historicas": 417,
     "total_franchise_historicas": 176,
-    "cache_buster": 1776997078
+    "cache_buster": 1776997178
 }
