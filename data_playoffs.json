@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:45:58",
+    "ultima_actualizacion": "01:47:39",
     "tablas": {
         "pts": [
             {
@@ -449,13 +449,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 228,
+                "Rank": 223,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 65,
+                "Hoy": 1,
+                "Total": 66,
                 "Diff": "",
-                "Antece": "Andrei Kirilenko",
+                "Antece": "Brian Shaw",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -992,9 +992,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "0",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Devin Booker (7 points today) has passed Rudy LaRusso and is now ranked 164th all-time with 1,345 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776911590966671_collage_1776911590875703.png"
-            ],
-            "timestamp": 1776911590
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (13 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 183rd all-time with 1,224 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074073267290_7087_collage_1777074073169324.png"
             ],
             "timestamp": 1777074078
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Shai Gilgeous-Alexander, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 223rd all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074454251092_9339_collage_1777074454155122.png"
+            ],
+            "timestamp": 1777074459
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 442,
+    "total_notificaciones_historicas": 443,
     "total_franchise_historicas": 190,
-    "cache_buster": 1777074358
+    "cache_buster": 1777074459
 }
