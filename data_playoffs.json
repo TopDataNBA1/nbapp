@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:06:47",
+    "ultima_actualizacion": "04:10:05",
     "tablas": {
         "pts": [
             {
@@ -306,14 +306,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 92,
+                "Rank": 91,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "1",
-                "Antece": "Sam Perkins",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 118,
+                "Diff": "",
+                "Antece": "Mario Chalmers",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -643,11 +643,11 @@
                 "Rank": 140,
                 "Nombre": "Tim Hardaway Jr.",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "",
                 "Antece": "Nick Anderson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1094,9 +1094,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "83",
+                "Hoy": 1,
+                "Total": 118,
+                "Diff": "82",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -2082,20 +2082,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (2 blocks today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 215th all-time with 45 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776900181293774_collage_1776900181221796.png"
-            ],
-            "timestamp": 1776900181
-        },
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (6 points today) has passed Tracy McGrady and is now ranked 217th all-time with 1,110 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776903258920447_collage_1776903258821046.png"
-            ],
-            "timestamp": 1776903258
-        },
-        {
             "texto": "Desmond Bane (1 three-pointer today) has passed Aaron Gordon, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 176th all-time with 74 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776903259173931_collage_1776903259100982.png"
@@ -2766,6 +2752,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776996211389220_6868_collage_1776996211324876.png"
             ],
             "timestamp": 1776996215
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Nikola Jokić (1 steal today) has passed Shaquille O'Neal and Vlade Divac and is now ranked 91st all-time with 118 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776996595102834_4965_collage_1776996595028673.png"
+            ],
+            "timestamp": 1776996599
+        },
+        {
+            "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Tim Thomas and is now ranked 140th all-time with 89 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776996600089521_1145_collage_1776996599999551.png"
+            ],
+            "timestamp": 1776996605
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 414,
+    "total_notificaciones_historicas": 416,
     "total_franchise_historicas": 176,
-    "cache_buster": 1776996407
+    "cache_buster": 1776996605
 }
