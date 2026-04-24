@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:09:04",
+    "ultima_actualizacion": "06:10:44",
     "tablas": {
         "pts": [
             {
@@ -597,9 +597,9 @@
             },
             {
                 "Rank": 103,
-                "Nombre": "Joe Ingles",
+                "Nombre": "Donte DiVincenzo",
                 "Team": "MIN",
-                "Hoy": 0,
+                "Hoy": 3,
                 "Total": 108,
                 "Diff": "1",
                 "Antece": "OG Anunoby",
@@ -607,14 +607,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 106,
-                "Nombre": "Donte DiVincenzo",
+                "Rank": 104,
+                "Nombre": "Joe Ingles",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "1",
-                "Antece": "Wesley Matthews",
-                "Nota": "A tiro de 1",
+                "Hoy": 0,
+                "Total": 108,
+                "Diff": "",
+                "Antece": "Donte DiVincenzo",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1326,9 +1326,9 @@
                 "Rank": 15,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 168,
-                "Diff": "48",
+                "Hoy": 15,
+                "Total": 173,
+                "Diff": "43",
                 "Antece": "Terrell Brandon",
                 "game_status": "playing"
             },
@@ -1696,9 +1696,9 @@
                 "Rank": 7,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 38,
-                "Diff": "12",
+                "Hoy": 3,
+                "Total": 39,
+                "Diff": "11",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -2081,13 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luguentz Dort (1 three-pointer today) has passed Dennis Schröder, Tim Hardaway Jr. and Tim Thomas and is now ranked 136th all-time with 89 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776908959386407_collage_1776908959322451.png"
-            ],
-            "timestamp": 1776908959
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 steal today) has passed John Wall, Mark Price, Nick Van Exel and Quinn Buckner and is now ranked 233rd all-time with 65 in playoffs.",
             "foto": [
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777002985533076_6567_collage_1777002985446110.png"
             ],
             "timestamp": 1777002990
+        },
+        {
+            "texto": "Donte DiVincenzo (3 three-pointers today) has passed Jamal Crawford and Tyrese Haliburton and is now ranked 103rd all-time with 108 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777003839782484_3654_collage_1777003839706459.png"
+            ],
+            "timestamp": 1777003844
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 429,
+    "total_notificaciones_historicas": 430,
     "total_franchise_historicas": 188,
-    "cache_buster": 1777003744
+    "cache_buster": 1777003844
 }
