@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:55:37",
+    "ultima_actualizacion": "01:57:22",
     "tablas": {
         "pts": [
             {
@@ -384,25 +384,25 @@
             },
             {
                 "Rank": 43,
+                "Nombre": "Paul George",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 174,
+                "Diff": "",
+                "Antece": "Kyle Lowry",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 44,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 173,
                 "Diff": "1",
-                "Antece": "Kyle Lowry",
+                "Antece": "Paul George",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 44,
-                "Nombre": "Paul George",
-                "Team": "PHI",
-                "Hoy": 0,
-                "Total": 173,
-                "Diff": "",
-                "Antece": "Kevin Durant",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 55,
@@ -550,14 +550,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 150,
+                "Rank": 149,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 57,
-                "Diff": "",
-                "Antece": "Bill Cartwright",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 58,
+                "Diff": "1",
+                "Antece": "Derrick Coleman",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1022,9 +1022,9 @@
                 "Rank": 11,
                 "Nombre": "Jaylen Brown",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 57,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 58,
+                "Diff": "13",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -1367,20 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 assists today) has passed Bam Adebayo and is now ranked 166th all-time with 271 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776912250977291_collage_1776912250883303.png"
-            ],
-            "timestamp": 1776912250
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Andrei Kirilenko, Derrick White, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 226th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776914206698093_collage_1776914206599126.png"
-            ],
-            "timestamp": 1776914206
-        },
         {
             "texto": "Chet Holmgren (1 block today) has passed Brendan Haywood, Buck Williams, Clifford Ray, Hot Rod Williams and Marcin Gortat and is now ranked 128th all-time with 71 in playoffs.",
             "foto": [
@@ -2052,6 +2038,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074555874652_2135_collage_1777074555787683.png"
             ],
             "timestamp": 1777074561
+        },
+        {
+            "texto": "📢🔝💯 Paul George (1 steal today) has passed Kevin Durant and is now ranked 43rd all-time with 174 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075032506456_7250_collage_1777075032420446.png"
+            ],
+            "timestamp": 1777075037
+        },
+        {
+            "texto": "📢HOF🏛️ Jaylen Brown (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 149th all-time with 58 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075038014831_2995_collage_1777075037949866.png"
+            ],
+            "timestamp": 1777075042
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 444,
+    "total_notificaciones_historicas": 446,
     "total_franchise_historicas": 190,
-    "cache_buster": 1777074937
+    "cache_buster": 1777075042
 }
