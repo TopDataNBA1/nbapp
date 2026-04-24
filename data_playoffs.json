@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:07:19",
+    "ultima_actualizacion": "05:09:00",
     "tablas": {
         "pts": [
             {
@@ -118,9 +118,9 @@
                 "Rank": 37,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 9,
-                "Total": 1196,
-                "Diff": "48",
+                "Hoy": 10,
+                "Total": 1197,
+                "Diff": "47",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -374,14 +374,14 @@
         ],
         "blk": [
             {
-                "Rank": 55,
+                "Rank": 53,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 129,
-                "Diff": "",
-                "Antece": "Dirk Nowitzki",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 130,
+                "Diff": "2",
+                "Antece": "Clifford Robinson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1024,9 +1024,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 1196,
-                "Diff": "804",
+                "Hoy": 10,
+                "Total": 1197,
+                "Diff": "803",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1306,9 +1306,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 373,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 376,
+                "Diff": "0",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1406,9 +1406,9 @@
                 "Rank": 20,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 57,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 58,
+                "Diff": "0",
                 "Antece": "Mark Madsen",
                 "game_status": "playing"
             },
@@ -1418,7 +1418,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 57,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -1456,9 +1456,9 @@
                 "Rank": 10,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 63,
-                "Diff": "7",
+                "Hoy": 6,
+                "Total": 64,
+                "Diff": "6",
                 "Antece": "Sam Cassell",
                 "game_status": "playing"
             },
@@ -1606,9 +1606,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 40,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 41,
+                "Diff": "1",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1618,7 +1618,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 32,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -2081,13 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (14 points today) has passed Cedric Maxwell and is now ranked 214th all-time with 1,118 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776907923697184_collage_1776907923579226.png"
-            ],
-            "timestamp": 1776907923
-        },
         {
             "texto": "Tobias Harris (15 points today) has passed Sean Elliott and is now ranked 213th all-time with 1,119 in playoffs.",
             "foto": [
@@ -2766,16 +2759,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777000034440958_4703_collage_1777000034350802.png"
             ],
             "timestamp": 1777000039
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (3 blocks today) has passed Anthony Davis and Dirk Nowitzki and is now ranked 53rd all-time with 130 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777000135496661_8754_collage_1777000135422922.png"
+            ],
+            "timestamp": 1777000140
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (2 assists today) has passed Iman Shumpert and Daniel Gibson and is now ranked 23rd in Cavaliers history with 57 in playoffs.",
-            "foto": [],
-            "timestamp": 1776731061,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 OG Anunoby (2 steals today) has passed Chris Childs, Larry Johnson and Josh Hart and is now ranked 7th in Knicks history with 47 in playoffs.",
             "foto": [],
@@ -3468,9 +3461,16 @@
             "timestamp": 1776998624,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Donte DiVincenzo (1 rebound today) has passed Kyle Anderson and is now ranked 20th in Timberwolves history with 58 in playoffs.",
+            "foto": [],
+            "timestamp": 1777000140,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 424,
-    "total_franchise_historicas": 184,
-    "cache_buster": 1777000039
+    "total_notificaciones_historicas": 425,
+    "total_franchise_historicas": 185,
+    "cache_buster": 1777000140
 }
