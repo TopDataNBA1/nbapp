@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:08",
+    "ultima_actualizacion": "02:50:57",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 85,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 1850,
-                "Diff": "11",
+                "Hoy": 7,
+                "Total": 1852,
+                "Diff": "9",
                 "Antece": "Sam Perkins",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,9 +28,9 @@
                 "Rank": 92,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 17,
-                "Total": 1775,
-                "Diff": "45",
+                "Hoy": 19,
+                "Total": 1777,
+                "Diff": "43",
                 "Antece": "Jamaal Wilkes",
                 "Nota": "",
                 "game_status": "playing"
@@ -365,24 +365,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 220,
+                "Rank": 216,
+                "Nombre": "Nickeil Alexander-Walker",
+                "Team": "ATL",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "",
+                "Antece": "Charles Barkley",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 221,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
                 "Hoy": 0,
                 "Total": 63,
                 "Diff": "",
                 "Antece": "Keith Van Horn",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 221,
-                "Nombre": "Nickeil Alexander-Walker",
-                "Team": "ATL",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "",
-                "Antece": "Landry Shamet",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -407,9 +407,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 745,
-                "Diff": "37",
+                "Hoy": 7,
+                "Total": 747,
+                "Diff": "35",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -417,9 +417,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 426,
-                "Diff": "133",
+                "Hoy": 7,
+                "Total": 427,
+                "Diff": "132",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -437,9 +437,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 244,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 245,
+                "Diff": "9",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -609,9 +609,9 @@
                 "Rank": 6,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1331,
-                "Diff": "9",
+                "Hoy": 19,
+                "Total": 1333,
+                "Diff": "7",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (1 steal today) has passed Rasheed Wallace and Robert Parish and is now ranked 60th all-time with 146 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776826232591062_collage_1776826232514370.png"
-            ],
-            "timestamp": 1776826232
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart today surpasses Bob Cousy, Darryl Dawkins, Hedo Türkoğlu and Shawn Marion and now ranked 130th all time with 110 games in playoffs",
             "foto": [
@@ -1577,6 +1570,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991430694869_6399_collage_1776991430424958.png"
             ],
             "timestamp": 1776991438
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991850245144_2133_collage_1776991850009225.png"
+            ],
+            "timestamp": 1776991857
         }
     ],
     "notificaciones_franchise": [
@@ -2281,7 +2281,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 392,
+    "total_notificaciones_historicas": 393,
     "total_franchise_historicas": 159,
-    "cache_buster": 1776991748
+    "cache_buster": 1776991857
 }
