@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:52:40",
+    "ultima_actualizacion": "02:54:44",
     "tablas": {
         "pts": [
             {
@@ -220,24 +220,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 228,
+                "Nombre": "Evan Mobley",
+                "Team": "CLE",
+                "Hoy": 1,
+                "Total": 42,
+                "Diff": "",
+                "Antece": "Derrick Favors",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 233,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
                 "Hoy": 1,
                 "Total": 42,
                 "Diff": "",
                 "Antece": "James Donaldson",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 243,
-                "Nombre": "Evan Mobley",
-                "Team": "CLE",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "",
-                "Antece": "Bismack Biyombo",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -457,9 +457,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 133,
-                "Diff": "27",
+                "Hoy": 3,
+                "Total": 134,
+                "Diff": "26",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -497,9 +497,9 @@
                 "Rank": 22,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 59,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 60,
+                "Diff": "1",
                 "Antece": "Jim Cleamons",
                 "game_status": "playing"
             },
@@ -537,9 +537,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 42,
+                "Diff": "11",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -892,20 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart today surpasses Bob Cousy, Darryl Dawkins, Hedo Türkoğlu and Shawn Marion and now ranked 130th all time with 110 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776826232839858_collage_1776826232770898.png"
-            ],
-            "timestamp": 1776826232
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (2 steals today) has passed Jayson Tatum and Reggie Miller and is now ranked 59th all-time with 147 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776826427094417_collage_1776826427018443.png"
-            ],
-            "timestamp": 1776826427
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart (12 points today) has passed Bailey Howell and CJ McCollum and is now ranked 153rd all-time with 1,404 in playoffs.",
             "foto": [
@@ -1577,6 +1563,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991850245144_2133_collage_1776991850009225.png"
             ],
             "timestamp": 1776991857
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 228th all-time with 42 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992066450968_5681_collage_1776992066192051.png"
+            ],
+            "timestamp": 1776992075
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 233rd all-time with 42 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992076331577_7514_collage_1776992076036675.png"
+            ],
+            "timestamp": 1776992084
         }
     ],
     "notificaciones_franchise": [
@@ -2281,7 +2281,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 393,
+    "total_notificaciones_historicas": 395,
     "total_franchise_historicas": 159,
-    "cache_buster": 1776991960
+    "cache_buster": 1776992084
 }
