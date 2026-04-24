@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:31:08",
+    "ultima_actualizacion": "05:35:52",
     "tablas": {
         "pts": [
             {
@@ -94,11 +94,11 @@
                 "Rank": 235,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 7,
-                "Total": 1057,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 1058,
+                "Diff": "1",
                 "Antece": "Hedo Türkoğlu",
-                "Nota": "A tiro de 2",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -107,7 +107,7 @@
                 "Team": "NYK",
                 "Hoy": 21,
                 "Total": 1053,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Rudy Gobert",
                 "Nota": "",
                 "game_status": "finished"
@@ -619,17 +619,28 @@
             },
             {
                 "Rank": 136,
+                "Nombre": "Tim Hardaway Jr.",
+                "Team": "DEN",
+                "Hoy": 2,
+                "Total": 90,
+                "Diff": "",
+                "Antece": "Mario Elie",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 137,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
                 "Hoy": 1,
                 "Total": 89,
                 "Diff": "1",
-                "Antece": "Mario Elie",
+                "Antece": "Tim Hardaway Jr.",
                 "Nota": "A tiro de 1",
                 "game_status": "finished"
             },
             {
-                "Rank": 138,
+                "Rank": 139,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -638,17 +649,6 @@
                 "Antece": "James Posey",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 140,
-                "Nombre": "Tim Hardaway Jr.",
-                "Team": "DEN",
-                "Hoy": 1,
-                "Total": 89,
-                "Diff": "",
-                "Antece": "Nick Anderson",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 151,
@@ -1286,9 +1286,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 400,
-                "Diff": "114",
+                "Hoy": 8,
+                "Total": 401,
+                "Diff": "113",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1298,7 +1298,7 @@
                 "Stat": "PTS",
                 "Hoy": 5,
                 "Total": 378,
-                "Diff": "22",
+                "Diff": "23",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -2082,13 +2082,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (16 points today) has passed Derrick White and is now ranked 212th all-time with 1,120 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776908674558454_collage_1776908674465479.png"
-            ],
-            "timestamp": 1776908674
-        },
-        {
             "texto": "Tobias Harris (11 rebounds today) has passed Kevon Looney and is now ranked 163rd all-time with 565 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776908770921490_collage_1776908770824506.png"
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777000707677558_2713_collage_1777000707585616.png"
             ],
             "timestamp": 1777000712
+        },
+        {
+            "texto": "Tim Hardaway Jr. (2 three-pointers today) has passed Dennis Schröder, James Posey, Mikal Bridges and Nick Anderson and is now ranked 136th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777001748181793_5876_collage_1777001748110840.png"
+            ],
+            "timestamp": 1777001752
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 426,
+    "total_notificaciones_historicas": 427,
     "total_franchise_historicas": 186,
-    "cache_buster": 1777001468
+    "cache_buster": 1777001752
 }
