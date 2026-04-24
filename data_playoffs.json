@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:13:16",
+    "ultima_actualizacion": "01:14:56",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 42,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 2670,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 2672,
+                "Diff": "1",
                 "Antece": "Bill Russell",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -400,14 +400,14 @@
         ],
         "g": [
             {
-                "Rank": 74,
+                "Rank": 73,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 137,
-                "Diff": "",
-                "Antece": "Dale Davis",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 138,
+                "Diff": "1",
+                "Antece": "Patrick Ewing",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -417,7 +417,7 @@
                 "Hoy": 0,
                 "Total": 136,
                 "Diff": "1",
-                "Antece": "Jaylen Brown",
+                "Antece": "Dale Davis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -461,9 +461,9 @@
                 "Rank": 9,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 2670,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 2672,
+                "Diff": "1",
                 "Antece": "Bill Russell",
                 "game_status": "playing"
             },
@@ -631,9 +631,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 137,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 138,
+                "Diff": "16",
                 "Antece": "Sam Jones",
                 "game_status": "playing"
             },
@@ -772,13 +772,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed John Wall, Mark Price, Nick Van Exel and Quinn Buckner and is now ranked 233rd all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776909057180195_collage_1776909057105224.png"
-            ],
-            "timestamp": 1776909057
-        },
         {
             "texto": "Devin Booker (2 assists today) has passed Clifford Robinson, Derrick White and Lou Williams and is now ranked 184th all-time with 251 in playoffs.",
             "foto": [
@@ -1457,6 +1450,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777003839782484_3654_collage_1777003839706459.png"
             ],
             "timestamp": 1777003844
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown today surpasses Dale Davis and now ranked 73rd all time with 138 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072491606542_4588_collage_1777072491512575.png"
+            ],
+            "timestamp": 1777072496
         }
     ],
     "notificaciones_franchise": [
@@ -2161,7 +2161,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 430,
+    "total_notificaciones_historicas": 431,
     "total_franchise_historicas": 188,
-    "cache_buster": 1777072396
+    "cache_buster": 1777072496
 }
