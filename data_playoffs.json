@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:39:37",
+    "ultima_actualizacion": "01:41:18",
     "tablas": {
         "pts": [
             {
@@ -326,14 +326,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 112,
+                "Rank": 111,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 353,
-                "Diff": "1",
-                "Antece": "Slater Martin",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 354,
+                "Diff": "3",
+                "Antece": "Reggie Miller",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -952,9 +952,9 @@
                 "Rank": 15,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 353,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 354,
+                "Diff": "4",
                 "Antece": "Sam Jones",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, Evan Mobley, John Wall, Karl-Anthony Towns, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 229th all-time with 42 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776910941218250_collage_1776910941122282.png"
-            ],
-            "timestamp": 1776910941
-        },
         {
             "texto": "Devin Booker (7 points today) has passed Rudy LaRusso and is now ranked 164th all-time with 1,345 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073876643393_8229_collage_1777073876558429.png"
             ],
             "timestamp": 1777073881
+        },
+        {
+            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Paul Westphal and is now ranked 111th all-time with 354 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074073267290_7087_collage_1777074073169324.png"
+            ],
+            "timestamp": 1777074078
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 441,
+    "total_notificaciones_historicas": 442,
     "total_franchise_historicas": 190,
-    "cache_buster": 1777073977
+    "cache_buster": 1777074078
 }
