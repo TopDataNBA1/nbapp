@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:10",
+    "ultima_actualizacion": "02:40:01",
     "tablas": {
         "pts": [
             {
@@ -71,14 +71,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 165,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 561,
-                "Diff": "",
-                "Antece": "Arnie Risen",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 562,
+                "Diff": "2",
+                "Antece": "Kevon Looney",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -457,9 +457,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 131,
-                "Diff": "29",
+                "Hoy": 1,
+                "Total": 132,
+                "Diff": "28",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -649,9 +649,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 234,
-                "Diff": "28",
+                "Hoy": 10,
+                "Total": 235,
+                "Diff": "27",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday (2 three-pointers today) has passed Draymond Green and is now ranked 45th all-time with 175 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776824353932329_collage_1776824353844371.png"
-            ],
-            "timestamp": 1776824353
-        },
         {
             "texto": "📢HOF🏛️ Jrue Holiday (2 blocks today) has passed Anfernee Hardaway, Arvydas Sabonis, Bam Adebayo, Harvey Catchings, Kyle Lowry, Nenê and Paul Pressey and is now ranked 183rd all-time with 50 in playoffs.",
             "foto": [
@@ -1577,6 +1570,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991077888311_5199_collage_1776991077716366.png"
             ],
             "timestamp": 1776991089
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (10 rebounds today) has passed Arnie Risen, Carmelo Anthony, Cedric Maxwell, Clifford Robinson, Clyde Lovellette, Happy Hairston, Mark Eaton and Zydrunas Ilgauskas and is now ranked 165th all-time with 562 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991194621817_8870_collage_1776991194320918.png"
+            ],
+            "timestamp": 1776991201
         }
     ],
     "notificaciones_franchise": [
@@ -2281,7 +2281,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 388,
+    "total_notificaciones_historicas": 389,
     "total_franchise_historicas": 155,
-    "cache_buster": 1776991090
+    "cache_buster": 1776991201
 }
