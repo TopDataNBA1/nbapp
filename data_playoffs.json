@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:31:00",
+    "ultima_actualizacion": "02:32:49",
     "tablas": {
         "pts": [
             {
@@ -376,13 +376,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 226,
+                "Rank": 221,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Team": "ATL",
-                "Hoy": 1,
-                "Total": 62,
+                "Hoy": 2,
+                "Total": 63,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Landry Shamet",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -851,9 +851,9 @@
                 "Rank": 22,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 30,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 31,
+                "Diff": "1",
                 "Antece": "Charles Oakley",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jrue Holiday (2 rebounds today) has passed Boris Diaw and is now ranked 190th all-time with 521 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776822295732047_collage_1776822295639091.png"
-            ],
-            "timestamp": 1776822295
-        },
         {
             "texto": "Jrue Holiday (3 rebounds today) has passed Khris Middleton and is now ranked 190th all-time with 522 in playoffs.",
             "foto": [
@@ -1577,6 +1570,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776990651674880_9511_collage_1776990651443450.png"
             ],
             "timestamp": 1776990660
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 221st all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776990762485638_3483_collage_1776990762327691.png"
+            ],
+            "timestamp": 1776990769
         }
     ],
     "notificaciones_franchise": [
@@ -2281,7 +2281,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 385,
+    "total_notificaciones_historicas": 386,
     "total_franchise_historicas": 154,
-    "cache_buster": 1776990660
+    "cache_buster": 1776990769
 }
