@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:03:58",
+    "ultima_actualizacion": "05:05:38",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 70,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 8,
-                "Total": 1944,
-                "Diff": "23",
+                "Hoy": 9,
+                "Total": 1945,
+                "Diff": "22",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -80,13 +80,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 191,
+                "Rank": 190,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 11,
-                "Total": 1193,
+                "Hoy": 13,
+                "Total": 1195,
                 "Diff": "1",
-                "Antece": "Jim McMillian",
+                "Antece": "JJ Redick",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -140,11 +140,11 @@
                 "Rank": 68,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 5,
-                "Total": 911,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 912,
+                "Diff": "1",
                 "Antece": "Vlade Divac",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1004,9 +1004,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1944,
-                "Diff": "56",
+                "Hoy": 9,
+                "Total": 1945,
+                "Diff": "55",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1266,9 +1266,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1193,
-                "Diff": "807",
+                "Hoy": 13,
+                "Total": 1195,
+                "Diff": "805",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1346,9 +1346,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 359,
-                "Diff": "269",
+                "Hoy": 6,
+                "Total": 360,
+                "Diff": "268",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1356,9 +1356,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 302,
-                "Diff": "42",
+                "Hoy": 5,
+                "Total": 303,
+                "Diff": "41",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1366,8 +1366,8 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 177,
+                "Hoy": 6,
+                "Total": 178,
                 "Diff": "125",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
@@ -1378,7 +1378,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 158,
-                "Diff": "19",
+                "Diff": "20",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -2082,13 +2082,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Sam Perkins and is now ranked 60th all-time with 153 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776905495978168_collage_1776905495869216.png"
-            ],
-            "timestamp": 1776905495
-        },
-        {
             "texto": "📢HOF🏛️ Tobias Harris (8 rebounds today) has passed Arnie Risen and is now ranked 164th all-time with 562 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776906798415613_collage_1776906798313631.png"
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776998720525004_6685_collage_1776998720444033.png"
             ],
             "timestamp": 1776998725
+        },
+        {
+            "texto": "Anthony Edwards (13 points today) has passed Jim McMillian and is now ranked 190th all-time with 1,195 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776999933814750_7293_collage_1776999933709785.png"
+            ],
+            "timestamp": 1776999938
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 422,
+    "total_notificaciones_historicas": 423,
     "total_franchise_historicas": 184,
-    "cache_buster": 1776999838
+    "cache_buster": 1776999938
 }
