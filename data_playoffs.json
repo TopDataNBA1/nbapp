@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:32:34",
+    "ultima_actualizacion": "03:34:13",
     "tablas": {
         "pts": [
             {
@@ -162,11 +162,11 @@
                 "Rank": 162,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 566,
-                "Diff": "3",
+                "Hoy": 16,
+                "Total": 568,
+                "Diff": "1",
                 "Antece": "Tom Chambers",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -596,13 +596,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 106,
+                "Rank": 103,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 107,
+                "Hoy": 3,
+                "Total": 108,
                 "Diff": "",
-                "Antece": "Jamal Crawford",
+                "Antece": "Joe Ingles",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -832,9 +832,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 179,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 180,
+                "Diff": "12",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -1838,9 +1838,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 14,
-                "Total": 239,
-                "Diff": "23",
+                "Hoy": 16,
+                "Total": 241,
+                "Diff": "21",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -1978,9 +1978,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "3",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -2081,13 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 162nd all-time with 54 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776830951919475_collage_1776830951857490.png"
-            ],
-            "timestamp": 1776830951
-        },
         {
             "texto": "Marcus Smart (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 158th all-time with 55 in playoffs.",
             "foto": [
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776994157070668_3608_collage_1776994156988856.png"
             ],
             "timestamp": 1776994161
+        },
+        {
+            "texto": "OG Anunoby (3 three-pointers today) has passed Donte DiVincenzo, Jamal Crawford and Tyrese Haliburton and is now ranked 103rd all-time with 108 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776994449440886_6785_collage_1776994449375061.png"
+            ],
+            "timestamp": 1776994453
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 404,
+    "total_notificaciones_historicas": 405,
     "total_franchise_historicas": 166,
-    "cache_buster": 1776994354
+    "cache_buster": 1776994453
 }
