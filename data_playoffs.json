@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:51:46",
+    "ultima_actualizacion": "05:56:30",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 70,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 14,
-                "Total": 1950,
-                "Diff": "17",
+                "Hoy": 16,
+                "Total": 1952,
+                "Diff": "15",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -91,14 +91,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 235,
+                "Rank": 234,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 1058,
-                "Diff": "1",
-                "Antece": "Hedo Türkoğlu",
-                "Nota": "A tiro de 1",
+                "Hoy": 10,
+                "Total": 1060,
+                "Diff": "",
+                "Antece": "Jamal Crawford",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -107,8 +107,8 @@
                 "Team": "NYK",
                 "Hoy": 21,
                 "Total": 1053,
-                "Diff": "5",
-                "Antece": "Rudy Gobert",
+                "Diff": "6",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "",
                 "game_status": "finished"
             }
@@ -1004,9 +1004,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1950,
-                "Diff": "50",
+                "Hoy": 16,
+                "Total": 1952,
+                "Diff": "48",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1286,9 +1286,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 401,
-                "Diff": "115",
+                "Hoy": 10,
+                "Total": 403,
+                "Diff": "113",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1298,7 +1298,7 @@
                 "Stat": "PTS",
                 "Hoy": 5,
                 "Total": 378,
-                "Diff": "23",
+                "Diff": "25",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -2082,13 +2082,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Devin Booker (1 assist today) has passed Tracy McGrady and is now ranked 186th all-time with 250 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776908959169488_collage_1776908959075522.png"
-            ],
-            "timestamp": 1776908959
-        },
-        {
             "texto": "Luguentz Dort (1 three-pointer today) has passed Dennis Schröder, Tim Hardaway Jr. and Tim Thomas and is now ranked 136th all-time with 89 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776908959386407_collage_1776908959322451.png"
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777002413825597_4137_collage_1777002413707478.png"
             ],
             "timestamp": 1777002419
+        },
+        {
+            "texto": "Rudy Gobert (10 points today) has passed Hedo Türkoğlu and is now ranked 234th all-time with 1,060 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777002985533076_6567_collage_1777002985446110.png"
+            ],
+            "timestamp": 1777002990
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 428,
+    "total_notificaciones_historicas": 429,
     "total_franchise_historicas": 187,
-    "cache_buster": 1777002706
+    "cache_buster": 1777002990
 }
