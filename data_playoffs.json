@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:56",
+    "ultima_actualizacion": "01:16:38",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 213,
+                "Rank": 212,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1119,
-                "Diff": "1",
-                "Antece": "Tobias Harris",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 1121,
+                "Diff": "2",
+                "Antece": "Bradley Beal",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -693,9 +693,9 @@
                 "Rank": 24,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 146,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 147,
+                "Diff": "1",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -772,13 +772,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Devin Booker (2 assists today) has passed Clifford Robinson, Derrick White and Lou Williams and is now ranked 184th all-time with 251 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776909154226696_collage_1776909154163736.png"
-            ],
-            "timestamp": 1776909154
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 points today) has passed Buck Williams and is now ranked 186th all-time with 1,213 in playoffs.",
             "foto": [
@@ -1457,6 +1450,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072491606542_4588_collage_1777072491512575.png"
             ],
             "timestamp": 1777072496
+        },
+        {
+            "texto": "Derrick White (2 points today) has passed Tobias Harris and is now ranked 212th all-time with 1,121 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072593068592_7007_collage_1777072592977641.png"
+            ],
+            "timestamp": 1777072598
         }
     ],
     "notificaciones_franchise": [
@@ -2161,7 +2161,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 431,
+    "total_notificaciones_historicas": 432,
     "total_franchise_historicas": 188,
-    "cache_buster": 1777072496
+    "cache_buster": 1777072598
 }
