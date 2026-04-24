@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "01:29:50",
+    "ultima_actualizacion": "01:31:31",
     "tablas": {
         "pts": [
             {
-                "Rank": 32,
+                "Rank": 31,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 2980,
-                "Diff": "1",
-                "Antece": "Chris Paul",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 2983,
+                "Diff": "17",
+                "Antece": "3000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -313,9 +313,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 296,
+                "Diff": "4",
                 "Antece": "300",
                 "Nota": "",
                 "game_status": "playing"
@@ -451,9 +451,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 2980,
-                "Diff": "20",
+                "Hoy": 3,
+                "Total": 2983,
+                "Diff": "17",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -581,9 +581,9 @@
                 "Rank": 1,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 296,
+                "Diff": "4",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -593,7 +593,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 271,
-                "Diff": "24",
+                "Diff": "25",
                 "Antece": "Jayson Tatum",
                 "game_status": "playing"
             },
@@ -690,13 +690,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 148,
-                "Diff": "0",
-                "Antece": "Red Kerr",
+                "Hoy": 3,
+                "Total": 149,
+                "Diff": "15",
+                "Antece": "Wali Jones",
                 "game_status": "playing"
             },
             {
@@ -772,13 +772,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Royce O'Neale (2 three-pointers today) has passed Rafer Alston and is now ranked 174th all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776910373433977_collage_1776910373347003.png"
-            ],
-            "timestamp": 1776910373
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 186th all-time with 72 in playoffs.",
             "foto": [
@@ -1457,16 +1450,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073288233764_8935_collage_1777073288154791.png"
             ],
             "timestamp": 1777073293
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (3 points today) has passed Chris Paul and is now ranked 31st all-time with 2,983 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073486213709_9659_collage_1777073486126758.png"
+            ],
+            "timestamp": 1777073491
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 three-pointer today) has passed Anthony Parker and is now ranked 24th in Cavaliers history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1776732239,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Mikal Bridges (2 three-pointers today) has passed Carmelo Anthony and Karl-Anthony Towns and is now ranked 15th in Knicks history with 31 in playoffs.",
             "foto": [],
@@ -2159,9 +2152,16 @@
             "timestamp": 1777073293,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (3 assists today) has passed Red Kerr and is now ranked 23rd in 76ers history with 149 in playoffs.",
+            "foto": [],
+            "timestamp": 1777073491,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 438,
-    "total_franchise_historicas": 189,
-    "cache_buster": 1777073390
+    "total_notificaciones_historicas": 439,
+    "total_franchise_historicas": 190,
+    "cache_buster": 1777073491
 }
