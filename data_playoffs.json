@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:57:04",
+    "ultima_actualizacion": "03:58:44",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 71,
+                "Rank": 70,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 2,
-                "Total": 1938,
-                "Diff": "1",
-                "Antece": "Robert Horry",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 1940,
+                "Diff": "27",
+                "Antece": "Bob Dandridge",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -263,11 +263,11 @@
                 "Rank": 200,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 239,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 240,
+                "Diff": "1",
                 "Antece": "Richard Jefferson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -610,11 +610,11 @@
                 "Rank": 108,
                 "Nombre": "Donte DiVincenzo",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "1",
                 "Antece": "Tyrese Haliburton",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1004,9 +1004,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1938,
-                "Diff": "62",
+                "Hoy": 4,
+                "Total": 1940,
+                "Diff": "60",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1326,9 +1326,9 @@
                 "Rank": 16,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 158,
-                "Diff": "8",
+                "Hoy": 3,
+                "Total": 161,
+                "Diff": "5",
                 "Antece": "Sam Mitchell",
                 "game_status": "playing"
             },
@@ -1356,9 +1356,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 299,
-                "Diff": "45",
+                "Hoy": 2,
+                "Total": 300,
+                "Diff": "44",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1368,7 +1368,7 @@
                 "Stat": "REB",
                 "Hoy": 3,
                 "Total": 175,
-                "Diff": "124",
+                "Diff": "125",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1426,9 +1426,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 239,
-                "Diff": "761",
+                "Hoy": 1,
+                "Total": 240,
+                "Diff": "760",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1678,7 +1678,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 55,
-                "Diff": "1",
+                "Diff": "4",
                 "Antece": "Nickeil Alexander-Walker",
                 "game_status": "playing"
             },
@@ -1696,9 +1696,9 @@
                 "Rank": 8,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 36,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 37,
+                "Diff": "0",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -2081,13 +2081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (3 rebounds today) has passed Zydrunas Ilgauskas and is now ranked 169th all-time with 557 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776899891930397_collage_1776899891835424.png"
-            ],
-            "timestamp": 1776899891
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (4 rebounds today) has passed Carmelo Anthony, Clyde Lovellette and Mark Eaton and is now ranked 166th all-time with 558 in playoffs.",
             "foto": [
@@ -2766,6 +2759,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995627499219_9734_collage_1776995627418229.png"
             ],
             "timestamp": 1776995632
+        },
+        {
+            "texto": "📢🔝💯 Jamal Murray (4 points today) has passed Robert Horry and is now ranked 70th all-time with 1,940 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995919787008_2378_collage_1776995919684059.png"
+            ],
+            "timestamp": 1776995924
         }
     ],
     "notificaciones_franchise": [
@@ -3470,7 +3470,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 412,
+    "total_notificaciones_historicas": 413,
     "total_franchise_historicas": 173,
-    "cache_buster": 1776995824
+    "cache_buster": 1776995924
 }
