@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:58:11",
+    "ultima_actualizacion": "23:59:53",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 177,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 38,
-                "Total": 1286,
-                "Diff": "5",
+                "Hoy": 40,
+                "Total": 1288,
+                "Diff": "3",
                 "Antece": "Alonzo Mourning",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -442,13 +442,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 211,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 3,
-                "Total": 64,
+                "Hoy": 4,
+                "Total": 65,
                 "Diff": "",
-                "Antece": "Charles Barkley",
+                "Antece": "D'Angelo Russell",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -459,7 +459,7 @@
                 "Hoy": 0,
                 "Total": 64,
                 "Diff": "",
-                "Antece": "Dillon Brooks",
+                "Antece": "Charles Barkley",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
             },
@@ -846,9 +846,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 38,
-                "Total": 1204,
-                "Diff": "182",
+                "Hoy": 40,
+                "Total": 1206,
+                "Diff": "180",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tyrese Maxey (1 three-pointer today) has passed Kirk Hinrich and is now ranked 131st all-time with 93 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073282995922_2797_collage_1777073282909716.png"
-            ],
-            "timestamp": 1777073288
-        },
         {
             "texto": "Paul George today surpasses Mario Elie and Vinnie Johnson and now ranked 113th all time with 117 games in playoffs",
             "foto": [
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777154285931869_4068_collage_1777154285839911.png"
             ],
             "timestamp": 1777154291
+        },
+        {
+            "texto": "📢HOF🏛️ Dillon Brooks (4 three-pointers today) has passed Charles Barkley, Nickeil Alexander-Walker, Reggie Bullock and Richard Jefferson and is now ranked 211th all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777154388160750_2956_collage_1777154388091774.png"
+            ],
+            "timestamp": 1777154393
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 536,
+    "total_notificaciones_historicas": 537,
     "total_franchise_historicas": 228,
-    "cache_buster": 1777154291
+    "cache_buster": 1777154393
 }
