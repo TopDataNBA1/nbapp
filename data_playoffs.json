@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:38:36",
+    "ultima_actualizacion": "23:40:18",
     "tablas": {
         "pts": [
             {
@@ -128,14 +128,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
+                "Rank": 176,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 6,
-                "Total": 259,
-                "Diff": "",
-                "Antece": "Ben Simmons",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 260,
+                "Diff": "2",
+                "Antece": "Mark Aguirre",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1340,9 +1340,9 @@
                 "Rank": 6,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 259,
-                "Diff": "37",
+                "Hoy": 7,
+                "Total": 260,
+                "Diff": "36",
                 "Antece": "Walter Davis",
                 "game_status": "playing"
             },
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donte DiVincenzo (3 three-pointers today) has passed Jamal Crawford and Tyrese Haliburton and is now ranked 103rd all-time with 108 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777003839782484_3654_collage_1777003839706459.png"
-            ],
-            "timestamp": 1777003844
-        },
         {
             "texto": "📢🔝💯 Jaylen Brown today surpasses Dale Davis and now ranked 73rd all time with 138 games in playoffs",
             "foto": [
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153111120424_3102_collage_1777153111024473.png"
             ],
             "timestamp": 1777153116
+        },
+        {
+            "texto": "📢HOF🏛️ Devin Booker (7 assists today) has passed Ben Simmons, Jeff Mullins and Jim Pollard and is now ranked 176th all-time with 260 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153214123196_2583_collage_1777153214058217.png"
+            ],
+            "timestamp": 1777153218
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 529,
+    "total_notificaciones_historicas": 530,
     "total_franchise_historicas": 227,
-    "cache_buster": 1777153116
+    "cache_buster": 1777153218
 }
