@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "19:53:09",
+    "ultima_actualizacion": "19:54:51",
     "tablas": {
         "pts": [
             {
-                "Rank": 210,
+                "Rank": 209,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 1125,
-                "Diff": "",
-                "Antece": "Archie Clark",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 1126,
+                "Diff": "4",
+                "Antece": "Derrick White",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 123,
-                "Diff": "23",
+                "Hoy": 7,
+                "Total": 124,
+                "Diff": "22",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 65,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 66,
+                "Diff": "0",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (1 rebound today) has passed Lamar Odom and is now ranked 58th all-time with 956 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776993123628932_7157_collage_1776993123374315.png"
-            ],
-            "timestamp": 1776993131
-        },
         {
             "texto": "📢HOF🏛️ Donovan Mitchell (2 assists today) has passed Walter Davis and is now ranked 135th all-time with 314 in playoffs.",
             "foto": [
@@ -1431,6 +1424,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139583709379_8959_collage_1777139583615410.png"
             ],
             "timestamp": 1777139589
+        },
+        {
+            "texto": "Tobias Harris (6 points today) has passed Archie Clark and is now ranked 209th all-time with 1,126 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139686072539_5127_collage_1777139685970596.png"
+            ],
+            "timestamp": 1777139691
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 499,
+    "total_notificaciones_historicas": 500,
     "total_franchise_historicas": 207,
-    "cache_buster": 1777139589
+    "cache_buster": 1777139691
 }
