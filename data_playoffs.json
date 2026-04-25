@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:11:39",
+    "ultima_actualizacion": "01:13:26",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 150,
+                "Rank": 149,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 6,
-                "Total": 1431,
-                "Diff": "1",
-                "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 1",
+                "Hoy": 8,
+                "Total": 1433,
+                "Diff": "5",
+                "Antece": "Marcus Smart",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -324,11 +324,11 @@
                 "Rank": 101,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 110,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 111,
+                "Diff": "",
                 "Antece": "John Stockton",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -604,20 +604,20 @@
                 "Rank": 19,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 539,
-                "Diff": "19",
+                "Hoy": 4,
+                "Total": 543,
+                "Diff": "15",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 500,
-                "Diff": "0",
-                "Antece": "Derek Harper",
+                "Hoy": 12,
+                "Total": 503,
+                "Diff": "4",
+                "Antece": "Charles Smith",
                 "game_status": "playing"
             },
             {
@@ -674,9 +674,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 50,
+                "Diff": "0",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -686,7 +686,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 48,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -784,9 +784,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "0",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1443,20 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (7 points today) has passed Archie Clark, Jermaine O'Neal and Paul Silas and is now ranked 208th all-time with 1,126 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076180743311_1520_collage_1777076180677333.png"
-            ],
-            "timestamp": 1777076184
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (1 steal today) has passed Reggie Miller and is now ranked 60th all-time with 147 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076185183747_4815_collage_1777076185087778.png"
-            ],
-            "timestamp": 1777076190
-        },
         {
             "texto": "📢HOF🏛️ Clint Capela today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 218th all time with 90 games in playoffs",
             "foto": [
@@ -2142,16 +2128,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777157751114222_1902_collage_1777157751014253.png"
             ],
             "timestamp": 1777157756
+        },
+        {
+            "texto": "CJ McCollum (8 points today) has passed Detlef Schrempf and is now ranked 149th all-time with 1,433 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777158795679299_3225_collage_1777158795574289.png"
+            ],
+            "timestamp": 1777158801
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (2 three-pointers today) has passed Tim Hardaway and is now ranked 101st all-time with 111 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777158801324956_9696_collage_1777158801212992.png"
+            ],
+            "timestamp": 1777158806
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (5 rebounds today) has passed Ryan Anderson and is now ranked 19th in Magic history with 82 in playoffs.",
-            "foto": [],
-            "timestamp": 1776902794,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (6 rebounds today) has passed Mickaël Piétrus and is now ranked 18th in Magic history with 83 in playoffs.",
             "foto": [],
@@ -2844,9 +2837,16 @@
             "timestamp": 1777156033,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "OG Anunoby (12 points today) has passed Derek Harper and is now ranked 24th in Knicks history with 503 in playoffs.",
+            "foto": [],
+            "timestamp": 1777158806,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 547,
-    "total_franchise_historicas": 231,
-    "cache_buster": 1777158699
+    "total_notificaciones_historicas": 549,
+    "total_franchise_historicas": 232,
+    "cache_buster": 1777158806
 }
