@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:40:44",
+    "ultima_actualizacion": "02:43:56",
     "tablas": {
         "pts": [
             {
@@ -561,14 +561,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 162,
+                "Rank": 158,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "",
-                "Antece": "Jae Crowder",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 55,
+                "Diff": "1",
+                "Antece": "Pascal Siakam",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1368,13 +1368,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Devin Booker (17 points today) has passed Bill Laimbeer and is now ranked 163rd all-time with 1,355 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776916835386034_collage_1776916835289048.png"
-            ],
-            "timestamp": 1776916835
-        },
-        {
             "texto": "Devin Booker (4 assists today) has passed B.J. Armstrong and Sedale Threatt and is now ranked 182nd all-time with 253 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776916932341547_collage_1776916932214608.png"
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077543187327_2053_collage_1777077543104366.png"
             ],
             "timestamp": 1777077548
+        },
+        {
+            "texto": "Marcus Smart (1 block today) has passed Billy Paultz and Jae Crowder and is now ranked 158th all-time with 55 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077831835441_9726_collage_1777077831763482.png"
+            ],
+            "timestamp": 1777077836
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 454,
+    "total_notificaciones_historicas": 455,
     "total_franchise_historicas": 192,
-    "cache_buster": 1777077644
+    "cache_buster": 1777077836
 }
