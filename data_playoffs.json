@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:43:42",
+    "ultima_actualizacion": "01:45:22",
     "tablas": {
         "pts": [
             {
@@ -139,14 +139,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 233,
+                "Rank": 231,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 1,
-                "Total": 214,
-                "Diff": "",
-                "Antece": "Anthony Mason",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 215,
+                "Diff": "1",
+                "Antece": "Keith Erickson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Marcus Smart (1 block today) has passed Billy Paultz and Jae Crowder and is now ranked 158th all-time with 55 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077831835441_9726_collage_1777077831763482.png"
-            ],
-            "timestamp": 1777077836
-        },
-        {
             "texto": "Tyrese Maxey (3 three-pointers today) has passed Brook Lopez and Serge Ibaka and is now ranked 129th all-time with 95 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077932641049_3857_collage_1777077932568073.png"
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160521368509_8129_collage_1777160521307530.png"
             ],
             "timestamp": 1777160525
+        },
+        {
+            "texto": "📢HOF🏛️ CJ McCollum (2 assists today) has passed Anthony Mason, Jerry Lucas and Richie Guerin and is now ranked 231st all-time with 215 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160717877560_1233_collage_1777160717808581.png"
+            ],
+            "timestamp": 1777160722
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 554,
+    "total_notificaciones_historicas": 555,
     "total_franchise_historicas": 232,
-    "cache_buster": 1777160622
+    "cache_buster": 1777160722
 }
