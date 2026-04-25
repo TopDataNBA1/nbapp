@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:48:40",
+    "ultima_actualizacion": "01:53:28",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 233,
+                "Rank": 232,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 1063,
-                "Diff": "1",
-                "Antece": "Toni Kukoč",
-                "Nota": "A tiro de 1",
+                "Hoy": 12,
+                "Total": 1065,
+                "Diff": "",
+                "Antece": "Josh Smith",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Deandre Ayton (1 block today) has passed Daniel Gafford, Jaden McDaniels, Karl-Anthony Towns, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 216th all-time with 44 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078316098490_6946_collage_1777078316006335.png"
-            ],
-            "timestamp": 1777078321
-        },
-        {
             "texto": "Jaylen Brown (3 blocks today) has passed Derrick Coleman and is now ranked 148th all-time with 60 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078890645056_8757_collage_1777078890556085.png"
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160914725072_2098_collage_1777160914631203.png"
             ],
             "timestamp": 1777160920
+        },
+        {
+            "texto": "Karl-Anthony Towns (12 points today) has passed Toni Kukoč and is now ranked 232nd all-time with 1,065 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777161202532539_2324_collage_1777161202441567.png"
+            ],
+            "timestamp": 1777161208
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 556,
+    "total_notificaciones_historicas": 557,
     "total_franchise_historicas": 232,
-    "cache_buster": 1777160920
+    "cache_buster": 1777161208
 }
