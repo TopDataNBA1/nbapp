@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:24",
+    "ultima_actualizacion": "04:45:13",
     "tablas": {
         "pts": [
             {
@@ -113,14 +113,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 149,
+                "Rank": 148,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 13,
-                "Total": 1430,
-                "Diff": "2",
-                "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 2",
+                "Hoy": 16,
+                "Total": 1433,
+                "Diff": "8",
+                "Antece": "Kenyon Martin",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -419,9 +419,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 498,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 499,
+                "Diff": "1",
                 "Antece": "500",
                 "Nota": "",
                 "game_status": "playing"
@@ -797,9 +797,9 @@
                 "Rank": 27,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 215,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 216,
+                "Diff": "5",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -1350,9 +1350,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 79,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 80,
+                "Diff": "0",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1593,13 +1593,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "CJ McCollum (16 points today) has passed Marcus Smart and is now ranked 151st all-time with 1,418 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776988937823874_collage_1776988937732903.png"
-            ],
-            "timestamp": 1776988941
-        },
         {
             "texto": "📢🔝💯 CJ McCollum (2 three-pointers today) has passed Joe Johnson and is now ranked 56th all-time with 159 in playoffs.",
             "foto": [
@@ -2278,6 +2271,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777083514438636_7075_collage_1777083514353664.png"
             ],
             "timestamp": 1777083519
+        },
+        {
+            "texto": "Marcus Smart (16 points today) has passed Detlef Schrempf and is now ranked 148th all-time with 1,433 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777085107930634_9406_collage_1777085107825670.png"
+            ],
+            "timestamp": 1777085113
         }
     ],
     "notificaciones_franchise": [
@@ -2982,7 +2982,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 475,
+    "total_notificaciones_historicas": 476,
     "total_franchise_historicas": 198,
-    "cache_buster": 1777084644
+    "cache_buster": 1777085113
 }
