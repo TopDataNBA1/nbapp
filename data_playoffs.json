@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:13:04",
+    "ultima_actualizacion": "02:14:44",
     "tablas": {
         "pts": [
             {
@@ -228,9 +228,9 @@
                 "Rank": 212,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 489,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 490,
+                "Diff": "2",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -239,9 +239,9 @@
                 "Rank": 216,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 473,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 474,
+                "Diff": "3",
                 "Antece": "Vince Carter",
                 "Nota": "",
                 "game_status": "playing"
@@ -296,11 +296,11 @@
                 "Rank": 58,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 539,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 541,
+                "Diff": "",
                 "Antece": "Elgin Baylor",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -862,13 +862,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 131,
+                "Rank": 128,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 110,
+                "Hoy": 1,
+                "Total": 111,
                 "Diff": "",
-                "Antece": "JJ Redick",
+                "Antece": "James Edwards",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1236,9 +1236,9 @@
                 "Rank": 17,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 45,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 46,
+                "Diff": "3",
                 "Antece": "Kentavious Caldwell-Pope",
                 "game_status": "playing"
             }
@@ -1288,9 +1288,9 @@
                 "Rank": 23,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 149,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 150,
+                "Diff": "14",
                 "Antece": "Wali Jones",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Chet Holmgren (1 block today) has passed Brendan Haywood, Buck Williams, Clifford Ray, Hot Rod Williams and Marcin Gortat and is now ranked 128th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776914580846892_collage_1776914580760916.png"
-            ],
-            "timestamp": 1776914580
-        },
         {
             "texto": "📢HOF🏛️ Chet Holmgren (3 blocks today) has passed Alvan Adams, Artis Gilmore, Jimmy Butler, Joel Anthony and Taj Gibson and is now ranked 123rd all-time with 73 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075038014831_2995_collage_1777075037949866.png"
             ],
             "timestamp": 1777075042
+        },
+        {
+            "texto": "Marcus Smart today surpasses JJ Redick and Terry Cummings and now ranked 128th all time with 111 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076079887256_9315_collage_1777076079810295.png"
+            ],
+            "timestamp": 1777076084
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 446,
+    "total_notificaciones_historicas": 447,
     "total_franchise_historicas": 191,
-    "cache_buster": 1777075984
+    "cache_buster": 1777076084
 }
