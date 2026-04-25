@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:24:21",
+    "ultima_actualizacion": "02:26:02",
     "tablas": {
         "pts": [
             {
@@ -173,9 +173,9 @@
                 "Rank": 95,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 738,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 739,
+                "Diff": "3",
                 "Antece": "Terry Cummings",
                 "Nota": "",
                 "game_status": "playing"
@@ -884,13 +884,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 222,
+                "Rank": 218,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "",
-                "Antece": "Chris Bosh",
+                "Antece": "Cliff Hagan",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1104,9 +1104,9 @@
                 "Rank": 19,
                 "Nombre": "Clint Capela",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 506,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 508,
+                "Diff": "3",
                 "Antece": "Rudy Tomjanovich",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 4,
                 "Nombre": "Clint Capela",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 472,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 473,
+                "Diff": "10",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1151,13 +1151,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Clint Capela",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "0",
-                "Antece": "Allen Leavell",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "1",
+                "Antece": "Robert Horry",
                 "game_status": "playing"
             }
         ],
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (6 assists today) has passed Kevin McHale and is now ranked 165th all-time with 275 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776915055893498_collage_1776915055798511.png"
-            ],
-            "timestamp": 1776915055
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Lindsey Hunter and is now ranked 185th all-time with 73 in playoffs.",
             "foto": [
@@ -2052,16 +2045,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076185183747_4815_collage_1777076185087778.png"
             ],
             "timestamp": 1777076190
+        },
+        {
+            "texto": "📢HOF🏛️ Clint Capela today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 218th all time with 90 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076757001336_8569_collage_1777076756904380.png"
+            ],
+            "timestamp": 1777076762
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (3 rebounds today) has passed Jim Brewer and is now ranked 13th in Cavaliers history with 178 in playoffs.",
-            "foto": [],
-            "timestamp": 1776735033,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Scottie Barnes (5 assists today) has passed Morris Peterson and Danny Green and is now ranked 23rd in Raptors history with 29 in playoffs.",
             "foto": [],
@@ -2754,9 +2747,16 @@
             "timestamp": 1777075793,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Clint Capela today surpasses Allen Leavell and is now ranked 7th in Rockets history with 64 games in playoffs.",
+            "foto": [],
+            "timestamp": 1777076762,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 449,
-    "total_franchise_historicas": 191,
-    "cache_buster": 1777076661
+    "total_notificaciones_historicas": 450,
+    "total_franchise_historicas": 192,
+    "cache_buster": 1777076762
 }
