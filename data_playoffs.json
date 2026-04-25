@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:25:10",
+    "ultima_actualizacion": "05:29:55",
     "tablas": {
         "pts": [
             {
@@ -94,11 +94,11 @@
                 "Rank": 115,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 9,
-                "Total": 1586,
-                "Diff": "6",
+                "Hoy": 12,
+                "Total": 1589,
+                "Diff": "3",
                 "Antece": "George Hill",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -493,14 +493,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 71,
+                "Rank": 69,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 136,
-                "Diff": "1",
-                "Antece": "Tony Allen",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 137,
+                "Diff": "",
+                "Antece": "Jamaal Wilkes",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -827,14 +827,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 176,
-                "Diff": "",
-                "Antece": "John Starks",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 177,
+                "Diff": "1",
+                "Antece": "Steve Nash",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1594,11 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (8 rebounds today) has passed Carmelo Anthony, Cedric Maxwell, Clifford Robinson, Clyde Lovellette, Happy Hairston, Mark Eaton and Zydrunas Ilgauskas and is now ranked 166th all-time with 560 in playoffs.",
-            "foto": [],
-            "timestamp": 1776989819
-        },
-        {
             "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Austin Reaves, Dillon Brooks, Nikola Mirotić and Obi Toppin and is now ranked 226th all-time with 62 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776990651674880_9511_collage_1776990651443450.png"
@@ -2290,6 +2285,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087505217285_6227_collage_1777087505143315.png"
             ],
             "timestamp": 1777087510
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (2 three-pointers today) has passed John Starks and is now ranked 43rd all-time with 177 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087790801833_3141_collage_1777087790700855.png"
+            ],
+            "timestamp": 1777087795
         }
     ],
     "notificaciones_franchise": [
@@ -2994,7 +2996,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 483,
+    "total_notificaciones_historicas": 484,
     "total_franchise_historicas": 198,
-    "cache_buster": 1777087510
+    "cache_buster": 1777087795
 }
