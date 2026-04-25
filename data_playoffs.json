@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:53:21",
+    "ultima_actualizacion": "03:55:01",
     "tablas": {
         "pts": [
             {
@@ -118,9 +118,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 7,
-                "Total": 2651,
-                "Diff": "208",
+                "Hoy": 8,
+                "Total": 2652,
+                "Diff": "207",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -408,9 +408,9 @@
                 "Rank": 53,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 153,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 154,
+                "Diff": "5",
                 "Antece": "Al Horford",
                 "Nota": "",
                 "game_status": "playing"
@@ -561,14 +561,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 158,
+                "Rank": 156,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 55,
-                "Diff": "1",
-                "Antece": "Pascal Siakam",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 56,
+                "Diff": "",
+                "Antece": "Kyle Korver",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -969,13 +969,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 4,
+                "Rank": 5,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 147,
-                "Diff": "33",
-                "Antece": "Paul Pierce",
+                "Diff": "1",
+                "Antece": "Marcus Smart",
                 "game_status": "finished"
             },
             {
@@ -1176,9 +1176,9 @@
                 "Rank": 19,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 529,
-                "Diff": "11",
+                "Hoy": 8,
+                "Total": 530,
+                "Diff": "10",
                 "Antece": "Anthony Davis",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (3 rebounds today) has passed Clifford Robinson and is now ranked 170th all-time with 555 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776988174174346_collage_1776988174080377.png"
-            ],
-            "timestamp": 1776988177
-        },
         {
             "texto": "Karl-Anthony Towns (4 rebounds today) has passed Zydrunas Ilgauskas and is now ranked 170th all-time with 556 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777081338862559_9169_collage_1777081338796579.png"
             ],
             "timestamp": 1777081343
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (2 blocks today) has passed Shane Battier and Wes Unseld and is now ranked 156th all-time with 56 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777082096515598_3240_collage_1777082096442622.png"
+            ],
+            "timestamp": 1777082101
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 472,
+    "total_notificaciones_historicas": 473,
     "total_franchise_historicas": 197,
-    "cache_buster": 1777082001
+    "cache_buster": 1777082101
 }
