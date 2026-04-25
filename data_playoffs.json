@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "23:12:40",
+    "ultima_actualizacion": "23:14:21",
     "tablas": {
         "pts": [
             {
-                "Rank": 160,
+                "Rank": 158,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 13,
-                "Total": 1373,
-                "Diff": "2",
-                "Antece": "DeMar DeRozan",
-                "Nota": "A tiro de 2",
+                "Hoy": 16,
+                "Total": 1376,
+                "Diff": "11",
+                "Antece": "Vinnie Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -156,14 +156,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 98,
+                "Rank": 96,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 113,
-                "Diff": "1",
-                "Antece": "Nicolas Batum",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 114,
+                "Diff": "3",
+                "Antece": "Sam Cassell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -837,9 +837,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 1373,
-                "Diff": "627",
+                "Hoy": 16,
+                "Total": 1376,
+                "Diff": "624",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -887,9 +887,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 113,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 114,
+                "Diff": "1",
                 "Antece": "Dan Majerle",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (13 points today) has passed Jim McMillian and is now ranked 190th all-time with 1,195 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776999933814750_7293_collage_1776999933709785.png"
-            ],
-            "timestamp": 1776999938
-        },
         {
             "texto": "Anthony Edwards (15 points today) has passed JJ Redick and is now ranked 188th all-time with 1,197 in playoffs.",
             "foto": [
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151361510230_6852_collage_1777151361410263.png"
             ],
             "timestamp": 1777151367
+        },
+        {
+            "texto": "Devin Booker (16 points today) has passed Darryl Dawkins and DeMar DeRozan and is now ranked 158th all-time with 1,376 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151656078864_8783_collage_1777151656005903.png"
+            ],
+            "timestamp": 1777151661
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 522,
+    "total_notificaciones_historicas": 523,
     "total_franchise_historicas": 225,
-    "cache_buster": 1777151560
+    "cache_buster": 1777151661
 }
