@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:52:28",
+    "ultima_actualizacion": "00:54:09",
     "tablas": {
         "pts": [
             {
@@ -58,39 +58,39 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 236,
+                "Rank": 234,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 1057,
-                "Diff": "2",
-                "Antece": "Hedo Türkoğlu",
-                "Nota": "A tiro de 2",
+                "Hoy": 7,
+                "Total": 1060,
+                "Diff": "",
+                "Antece": "Jamal Crawford",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
         "trb": [
             {
                 "Rank": 161,
-                "Nombre": "Tobias Harris",
-                "Team": "DET",
-                "Hoy": 7,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 3,
                 "Total": 572,
                 "Diff": "2",
                 "Antece": "Michael Cooper",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 162,
-                "Nombre": "Karl-Anthony Towns",
-                "Team": "NYK",
-                "Hoy": 2,
-                "Total": 571,
-                "Diff": "1",
-                "Antece": "Tobias Harris",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 7,
+                "Total": 572,
+                "Diff": "",
+                "Antece": "Karl-Anthony Towns",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 240,
@@ -644,9 +644,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 244,
-                "Diff": "18",
+                "Hoy": 3,
+                "Total": 245,
+                "Diff": "17",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Paul George (1 steal today) has passed Kevin Durant and is now ranked 43rd all-time with 174 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075032506456_7250_collage_1777075032420446.png"
-            ],
-            "timestamp": 1777075037
-        },
-        {
             "texto": "📢HOF🏛️ Jaylen Brown (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 149th all-time with 58 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075038014831_2995_collage_1777075037949866.png"
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156130388049_9222_collage_1777156130318175.png"
             ],
             "timestamp": 1777156135
+        },
+        {
+            "texto": "Karl-Anthony Towns (7 points today) has passed Hedo Türkoğlu and is now ranked 234th all-time with 1,060 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777157643956081_4404_collage_1777157643866110.png"
+            ],
+            "timestamp": 1777157649
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 544,
+    "total_notificaciones_historicas": 545,
     "total_franchise_historicas": 231,
-    "cache_buster": 1777157548
+    "cache_buster": 1777157649
 }
