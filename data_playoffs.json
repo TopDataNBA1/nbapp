@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:58",
+    "ultima_actualizacion": "04:18:39",
     "tablas": {
         "pts": [
             {
@@ -113,14 +113,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 150,
+                "Rank": 149,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 8,
-                "Total": 1425,
-                "Diff": "",
-                "Antece": "CJ McCollum",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 1427,
+                "Diff": "5",
+                "Antece": "Detlef Schrempf",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1594,13 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Karl-Anthony Towns (6 points today) has passed Eddie Jones and is now ranked 238th all-time with 1,038 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776988464997657_collage_1776988464906621.png"
-            ],
-            "timestamp": 1776988467
-        },
-        {
             "texto": "CJ McCollum (16 points today) has passed Marcus Smart and is now ranked 151st all-time with 1,418 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776988937823874_collage_1776988937732903.png"
@@ -2278,6 +2271,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777083413308798_9933_collage_1777083413221846.png"
             ],
             "timestamp": 1777083418
+        },
+        {
+            "texto": "Marcus Smart (10 points today) has passed CJ McCollum and is now ranked 149th all-time with 1,427 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777083514438636_7075_collage_1777083514353664.png"
+            ],
+            "timestamp": 1777083519
         }
     ],
     "notificaciones_franchise": [
@@ -2982,7 +2982,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 474,
+    "total_notificaciones_historicas": 475,
     "total_franchise_historicas": 197,
-    "cache_buster": 1777083418
+    "cache_buster": 1777083519
 }
