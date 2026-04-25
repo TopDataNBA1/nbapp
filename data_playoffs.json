@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:12:18",
+    "ultima_actualizacion": "20:13:59",
     "tablas": {
         "pts": [
             {
@@ -16,14 +16,14 @@
         ],
         "trb": [
             {
-                "Rank": 162,
+                "Rank": 161,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 569,
-                "Diff": "",
-                "Antece": "Karl-Anthony Towns",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 570,
+                "Diff": "4",
+                "Antece": "Michael Cooper",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 124,
-                "Diff": "22",
+                "Hoy": 8,
+                "Total": 125,
+                "Diff": "21",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (2 assists today) has passed Walter Davis and is now ranked 135th all-time with 314 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776993132010896_6954_collage_1776993131792970.png"
-            ],
-            "timestamp": 1776993139
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Max Strus (3 three-pointers today) has passed Dirk Nowitzki and is now ranked 63rd all-time with 150 in playoffs.",
             "foto": [
@@ -1431,6 +1424,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139686072539_5127_collage_1777139685970596.png"
             ],
             "timestamp": 1777139691
+        },
+        {
+            "texto": "Tobias Harris (5 rebounds today) has passed Karl-Anthony Towns and Tom Chambers and is now ranked 161st all-time with 570 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777140834573656_9905_collage_1777140834493702.png"
+            ],
+            "timestamp": 1777140839
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 500,
+    "total_notificaciones_historicas": 501,
     "total_franchise_historicas": 211,
-    "cache_buster": 1777140738
+    "cache_buster": 1777140839
 }
