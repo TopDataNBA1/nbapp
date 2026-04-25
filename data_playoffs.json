@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "19:43:14",
+    "ultima_actualizacion": "19:45:00",
     "tablas": {
         "pts": [
             {
-                "Rank": 213,
+                "Rank": 210,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1122,
-                "Diff": "1",
-                "Antece": "Bradley Beal",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 1125,
+                "Diff": "",
+                "Antece": "Archie Clark",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -321,13 +321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 172,
+                "Rank": 168,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 2,
-                "Total": 77,
+                "Hoy": 3,
+                "Total": 78,
                 "Diff": "",
-                "Antece": "Chuck Person",
+                "Antece": "David Wesley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -521,9 +521,9 @@
                 "Rank": 14,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 67,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 68,
+                "Diff": "6",
                 "Antece": "JJ Redick",
                 "game_status": "playing"
             },
@@ -732,20 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (13 rebounds today) has passed Kevon Looney and is now ranked 163rd all-time with 565 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992485659530_3900_collage_1776992485432605.png"
-            ],
-            "timestamp": 1776992493
-        },
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (3 blocks today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green and Nazr Mohammed and is now ranked 166th all-time with 53 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992493839043_4750_collage_1776992493634193.png"
-            ],
-            "timestamp": 1776992500
-        },
         {
             "texto": "Karl-Anthony Towns (19 points today) has passed Rudy Gobert and is now ranked 235th all-time with 1,051 in playoffs.",
             "foto": [
@@ -1431,6 +1417,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777137378865490_7671_collage_1777137378797502.png"
             ],
             "timestamp": 1777137384
+        },
+        {
+            "texto": "Tobias Harris (5 points today) has passed Bradley Beal, Jermaine O'Neal and Paul Silas and is now ranked 210th all-time with 1,125 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139090613759_4411_collage_1777139090550785.png"
+            ],
+            "timestamp": 1777139095
+        },
+        {
+            "texto": "Desmond Bane (3 three-pointers today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 168th all-time with 78 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139095656764_1019_collage_1777139095591786.png"
+            ],
+            "timestamp": 1777139100
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 495,
+    "total_notificaciones_historicas": 497,
     "total_franchise_historicas": 204,
-    "cache_buster": 1777138994
+    "cache_buster": 1777139100
 }
