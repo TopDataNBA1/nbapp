@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:09:42",
+    "ultima_actualizacion": "03:11:23",
     "tablas": {
         "pts": [
             {
@@ -304,14 +304,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 66,
+                "Rank": 65,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 479,
-                "Diff": "",
-                "Antece": "Doc Rivers",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 480,
+                "Diff": "2",
+                "Antece": "Charles Barkley",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1368,13 +1368,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Alex Caruso (3 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 176th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776917877189839_collage_1776917877113851.png"
-            ],
-            "timestamp": 1776917877
-        },
-        {
             "texto": "📢🔝💯 Jalen Brunson (1 assist today) has passed Brian Shaw and Jason Terry and is now ranked 95th all-time with 376 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776986063416760_collage_1776986063336768.png"
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079377971116_2244_collage_1777079377907146.png"
             ],
             "timestamp": 1777079382
+        },
+        {
+            "texto": "📢🔝💯 Paul George (3 assists today) has passed Doc Rivers and is now ranked 65th all-time with 480 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079478412014_3799_collage_1777079478311057.png"
+            ],
+            "timestamp": 1777079483
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 461,
+    "total_notificaciones_historicas": 462,
     "total_franchise_historicas": 195,
-    "cache_buster": 1777079382
+    "cache_buster": 1777079483
 }
