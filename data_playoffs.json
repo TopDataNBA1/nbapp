@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:12:22",
+    "ultima_actualizacion": "22:17:09",
     "tablas": {
         "pts": [
             {
@@ -233,14 +233,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 228,
+                "Rank": 225,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "",
-                "Antece": "Austin Reaves",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "1",
+                "Antece": "Vladimir Radmanović",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -949,13 +949,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Tim Thomas and is now ranked 140th all-time with 89 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776996600089521_1145_collage_1776996599999551.png"
-            ],
-            "timestamp": 1776996605
-        },
-        {
             "texto": "📢HOF🏛️ Anthony Edwards (5 points today) has passed Bill Bridges, Mark Jackson and Paul Arizin and is now ranked 192nd all-time with 1,187 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776997173898457_5977_collage_1776997173827482.png"
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777147373407742_8819_collage_1777147373339779.png"
             ],
             "timestamp": 1777147380
+        },
+        {
+            "texto": "Dillon Brooks (1 three-pointer today) has passed Austin Reaves, Nikola Mirotić and Obi Toppin and is now ranked 225th all-time with 62 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777148224564614_9547_collage_1777148224500635.png"
+            ],
+            "timestamp": 1777148229
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 515,
+    "total_notificaciones_historicas": 516,
     "total_franchise_historicas": 224,
-    "cache_buster": 1777147942
+    "cache_buster": 1777148229
 }
