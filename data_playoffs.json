@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:11:36",
+    "ultima_actualizacion": "19:16:24",
     "tablas": {
         "pts": [
             {
@@ -321,13 +321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 175,
+                "Rank": 172,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 1,
-                "Total": 76,
+                "Hoy": 2,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Channing Frye",
+                "Antece": "Chuck Person",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -491,9 +491,9 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 113,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 114,
+                "Diff": "5",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -521,9 +521,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "0",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -533,7 +533,7 @@
                 "Stat": "AST",
                 "Hoy": 1,
                 "Total": 62,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 233rd all-time with 42 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992076331577_7514_collage_1776992076036675.png"
-            ],
-            "timestamp": 1776992084
-        },
         {
             "texto": "Karl-Anthony Towns (13 rebounds today) has passed Kevon Looney and is now ranked 163rd all-time with 565 in playoffs.",
             "foto": [
@@ -1431,6 +1424,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777137090600525_8432_collage_1777137090516550.png"
             ],
             "timestamp": 1777137096
+        },
+        {
+            "texto": "Desmond Bane (2 three-pointers today) has passed Allan Houston and Channing Frye and is now ranked 172nd all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777137378865490_7671_collage_1777137378797502.png"
+            ],
+            "timestamp": 1777137384
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 494,
+    "total_notificaciones_historicas": 495,
     "total_franchise_historicas": 199,
-    "cache_buster": 1777137096
+    "cache_buster": 1777137384
 }
