@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:45:02",
+    "ultima_actualizacion": "23:51:32",
     "tablas": {
         "pts": [
             {
@@ -120,11 +120,11 @@
                 "Rank": 159,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 282,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 283,
+                "Diff": "",
                 "Antece": "Charles Oakley",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -343,14 +343,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 133,
+                "Rank": 132,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 92,
-                "Diff": "",
-                "Antece": "Kirk Hinrich",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 93,
+                "Diff": "1",
+                "Antece": "Serge Ibaka",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -431,14 +431,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 198,
+                "Rank": 196,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 69,
-                "Diff": "1",
-                "Antece": "Trae Young",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 70,
+                "Diff": "",
+                "Antece": "Al-Farouq Aminu",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -453,7 +453,18 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 221,
+                "Rank": 220,
+                "Nombre": "Dillon Brooks",
+                "Team": "PHX",
+                "Hoy": 2,
+                "Total": 63,
+                "Diff": "",
+                "Antece": "Ben Gordon",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 222,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -462,17 +473,6 @@
                 "Antece": "Keith Van Horn",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 225,
-                "Nombre": "Dillon Brooks",
-                "Team": "PHX",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "1",
-                "Antece": "Vladimir Radmanović",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             }
         ],
         "g": [
@@ -896,9 +896,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 263,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 264,
+                "Diff": "2",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -986,9 +986,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 92,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 93,
+                "Diff": "7",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1036,9 +1036,9 @@
                 "Rank": 17,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 40,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 41,
+                "Diff": "0",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -1443,27 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jaylen Brown today surpasses Dale Davis and now ranked 73rd all time with 138 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072491606542_4588_collage_1777072491512575.png"
-            ],
-            "timestamp": 1777072496
-        },
-        {
-            "texto": "Derrick White (2 points today) has passed Tobias Harris and is now ranked 212th all-time with 1,121 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072593068592_7007_collage_1777072592977641.png"
-            ],
-            "timestamp": 1777072598
-        },
-        {
-            "texto": "📢🔝💯 Jayson Tatum (1 assist today) has passed Jimmy Butler and is now ranked 47th all-time with 609 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072790028852_4407_collage_1777072789933849.png"
-            ],
-            "timestamp": 1777072795
-        },
         {
             "texto": "Derrick White (1 block today) has passed Charles Smith, Manute Bol and Raef LaFrentz and is now ranked 114th all-time with 78 in playoffs.",
             "foto": [
@@ -2142,6 +2121,27 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153214123196_2583_collage_1777153214058217.png"
             ],
             "timestamp": 1777153218
+        },
+        {
+            "texto": "Luguentz Dort (2 three-pointers today) has passed Kirk Hinrich and is now ranked 132nd all-time with 93 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153876395933_5298_collage_1777153876308962.png"
+            ],
+            "timestamp": 1777153881
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Andrew Nembhard and is now ranked 196th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153882066567_8616_collage_1777153881982593.png"
+            ],
+            "timestamp": 1777153887
+        },
+        {
+            "texto": "Dillon Brooks (2 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 220th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153887615649_9516_collage_1777153887539678.png"
+            ],
+            "timestamp": 1777153892
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 530,
+    "total_notificaciones_historicas": 533,
     "total_franchise_historicas": 227,
-    "cache_buster": 1777153502
+    "cache_buster": 1777153892
 }
