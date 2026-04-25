@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:09:53",
+    "ultima_actualizacion": "19:11:36",
     "tablas": {
         "pts": [
             {
@@ -324,11 +324,11 @@
                 "Rank": 175,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 75,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 76,
+                "Diff": "",
                 "Antece": "Channing Frye",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -461,9 +461,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 292,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 294,
+                "Diff": "2",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -481,9 +481,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 119,
+                "Diff": "2",
                 "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 112,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 113,
+                "Diff": "6",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "3",
                 "Antece": "Franz Wagner",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 228th all-time with 42 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992066450968_5681_collage_1776992066192051.png"
-            ],
-            "timestamp": 1776992075
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 233rd all-time with 42 in playoffs.",
             "foto": [
@@ -1431,6 +1424,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777136987559464_5630_collage_1777136987448632.png"
             ],
             "timestamp": 1777136993
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777137090600525_8432_collage_1777137090516550.png"
+            ],
+            "timestamp": 1777137096
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 493,
+    "total_notificaciones_historicas": 494,
     "total_franchise_historicas": 199,
-    "cache_buster": 1777136993
+    "cache_buster": 1777137096
 }
