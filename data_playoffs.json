@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:40:24",
+    "ultima_actualizacion": "01:42:05",
     "tablas": {
         "pts": [
             {
@@ -93,13 +93,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 240,
+                "Rank": 238,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 431,
+                "Hoy": 7,
+                "Total": 432,
                 "Diff": "1",
-                "Antece": "Walter Dukes",
+                "Antece": "Rashard Lewis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -209,13 +209,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 166,
+                "Rank": 163,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 53,
+                "Hoy": 1,
+                "Total": 54,
                 "Diff": "",
-                "Antece": "Kyrie Irving",
+                "Antece": "Jae Crowder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -624,9 +624,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 431,
-                "Diff": "30",
+                "Hoy": 7,
+                "Total": 432,
+                "Diff": "29",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -734,9 +734,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 35,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 36,
+                "Diff": "4",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -755,8 +755,8 @@
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
                 "Hoy": 0,
-                "Total": 20,
-                "Diff": "1",
+                "Total": 19,
+                "Diff": "2",
                 "Antece": "Tyson Chandler",
                 "game_status": "playing"
             },
@@ -766,7 +766,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 17,
-                "Diff": "3",
+                "Diff": "2",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (2 steals today) has passed David Robinson and is now ranked 53rd all-time with 152 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077543187327_2053_collage_1777077543104366.png"
-            ],
-            "timestamp": 1777077548
-        },
         {
             "texto": "Marcus Smart (1 block today) has passed Billy Paultz and Jae Crowder and is now ranked 158th all-time with 55 in playoffs.",
             "foto": [
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160419569591_7241_collage_1777160419494618.png"
             ],
             "timestamp": 1777160424
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160521368509_8129_collage_1777160521307530.png"
+            ],
+            "timestamp": 1777160525
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 553,
+    "total_notificaciones_historicas": 554,
     "total_franchise_historicas": 232,
-    "cache_buster": 1777160424
+    "cache_buster": 1777160525
 }
