@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:02",
+    "ultima_actualizacion": "03:35:37",
     "tablas": {
         "pts": [
             {
@@ -28,10 +28,10 @@
                 "Rank": 31,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 19,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 22,
+                "Total": 3002,
+                "Diff": "20",
+                "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -50,9 +50,9 @@
                 "Rank": 47,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 16,
-                "Total": 2468,
-                "Diff": "58",
+                "Hoy": 18,
+                "Total": 2470,
+                "Diff": "56",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -118,9 +118,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 2647,
-                "Diff": "212",
+                "Hoy": 4,
+                "Total": 2648,
+                "Diff": "211",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -307,11 +307,11 @@
                 "Rank": 65,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 4,
-                "Total": 481,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 482,
+                "Diff": "",
                 "Antece": "Charles Barkley",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -632,9 +632,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 298,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 299,
+                "Diff": "1",
                 "Antece": "300",
                 "Nota": "",
                 "game_status": "playing"
@@ -902,10 +902,10 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 22,
+                "Total": 3002,
+                "Diff": "180",
+                "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
             {
@@ -1032,9 +1032,9 @@
                 "Rank": 1,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 298,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 299,
+                "Diff": "1",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -1044,7 +1044,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 271,
-                "Diff": "27",
+                "Diff": "28",
                 "Antece": "Jayson Tatum",
                 "game_status": "playing"
             },
@@ -1176,9 +1176,9 @@
                 "Rank": 19,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 525,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 526,
+                "Diff": "14",
                 "Antece": "Anthony Davis",
                 "game_status": "playing"
             },
@@ -2056,13 +2056,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 three-pointers today) has passed Carmelo Anthony and is now ranked 16th in Knicks history with 31 in playoffs.",
-            "foto": [],
-            "timestamp": 1776737257,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "📢HOF🏛️ Mitchell Robinson (7 rebounds today) has passed Jerry Lucas and is now ranked 14th in Knicks history with 281 in playoffs.",
             "foto": [],
             "timestamp": 1776740818,
@@ -2754,9 +2747,16 @@
             "timestamp": 1777079002,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jayson Tatum (22 points today) becomes the 4th player to reach 3,000 points with Celtics in playoffs.",
+            "foto": [],
+            "timestamp": 1777080937,
+            "team": "BOS",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 469,
-    "total_franchise_historicas": 195,
-    "cache_buster": 1777080842
+    "total_franchise_historicas": 196,
+    "cache_buster": 1777080937
 }
