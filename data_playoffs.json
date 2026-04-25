@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:41",
+    "ultima_actualizacion": "03:03:22",
     "tablas": {
         "pts": [
             {
@@ -364,9 +364,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 497,
-                "Diff": "3",
+                "Hoy": 0,
+                "Total": 496,
+                "Diff": "4",
                 "Antece": "500",
                 "Nota": "",
                 "game_status": "playing"
@@ -750,13 +750,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 149,
+                "Rank": 147,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 86,
+                "Hoy": 4,
+                "Total": 87,
                 "Diff": "",
-                "Antece": "Patrick Beverley",
+                "Antece": "Leandro Barbosa",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1062,9 +1062,9 @@
                 "Rank": 8,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 86,
-                "Diff": "14",
+                "Hoy": 4,
+                "Total": 87,
+                "Diff": "13",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1196,7 +1196,7 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 78,
                 "Diff": "2",
                 "Antece": "Rick Fox",
@@ -1288,9 +1288,9 @@
                 "Rank": 23,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 150,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 151,
+                "Diff": "13",
                 "Antece": "Wali Jones",
                 "game_status": "playing"
             },
@@ -1325,13 +1325,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 23,
+                "Rank": 21,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 16,
-                "Diff": "0",
-                "Antece": "Harvey Catchings",
+                "Hoy": 2,
+                "Total": 17,
+                "Diff": "1",
+                "Antece": "Hersey Hawkins",
                 "game_status": "playing"
             },
             {
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (9 assists today) has passed Dennis Schröder and Kirk Hinrich and is now ranked 161st all-time with 278 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776917498217118_collage_1776917498144138.png"
-            ],
-            "timestamp": 1776917498
-        },
         {
             "texto": "Luguentz Dort (3 three-pointers today) has passed Craig Hodges and Mario Elie and is now ranked 133rd all-time with 91 in playoffs.",
             "foto": [
@@ -2052,16 +2045,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078895563680_5058_collage_1777078895468728.png"
             ],
             "timestamp": 1777078900
+        },
+        {
+            "texto": "Payton Pritchard (4 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 147th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078997238576_7301_collage_1777078997167600.png"
+            ],
+            "timestamp": 1777079002
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (15 points today) has passed Carl Braun and is now ranked 19th in Knicks history with 537 in playoffs.",
-            "foto": [],
-            "timestamp": 1776735676,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (2 three-pointers today) has passed Carmelo Anthony and is now ranked 16th in Knicks history with 31 in playoffs.",
             "foto": [],
@@ -2754,9 +2747,16 @@
             "timestamp": 1777078321,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (2 blocks today) has passed Tyrone Hill and Harvey Catchings and is now ranked 21st in 76ers history with 17 in playoffs.",
+            "foto": [],
+            "timestamp": 1777079002,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 459,
-    "total_franchise_historicas": 194,
-    "cache_buster": 1777078901
+    "total_notificaciones_historicas": 460,
+    "total_franchise_historicas": 195,
+    "cache_buster": 1777079002
 }
