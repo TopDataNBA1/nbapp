@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:59:28",
+    "ultima_actualizacion": "22:01:10",
     "tablas": {
         "pts": [
             {
@@ -14,13 +14,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 180,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 1252,
+                "Hoy": 6,
+                "Total": 1254,
                 "Diff": "",
-                "Antece": "Brook Lopez",
+                "Antece": "Andrew Toney",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -65,11 +65,11 @@
                 "Rank": 181,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 2,
-                "Total": 255,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 256,
+                "Diff": "1",
                 "Antece": "Paul Seymour",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -363,9 +363,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1170,
-                "Diff": "27",
+                "Hoy": 6,
+                "Total": 1172,
+                "Diff": "25",
                 "Antece": "Fred Brown",
                 "game_status": "playing"
             },
@@ -463,9 +463,9 @@
                 "Rank": 19,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "1",
                 "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
@@ -475,7 +475,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 46,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -847,9 +847,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 251,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 252,
+                "Diff": "5",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -857,9 +857,9 @@
                 "Rank": 6,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 255,
-                "Diff": "41",
+                "Hoy": 3,
+                "Total": 256,
+                "Diff": "40",
                 "Antece": "Walter Davis",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jamal Murray (4 points today) has passed Robert Horry and is now ranked 70th all-time with 1,940 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995919787008_2378_collage_1776995919684059.png"
-            ],
-            "timestamp": 1776995924
-        },
         {
             "texto": "Anthony Edwards (3 assists today) has passed Bob Pettit, Reggie Jackson and Richard Jefferson and is now ranked 196th all-time with 242 in playoffs.",
             "foto": [
@@ -1647,16 +1640,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146589609730_3375_collage_1777146589511740.png"
             ],
             "timestamp": 1777146595
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (6 points today) has passed Brook Lopez and is now ranked 180th all-time with 1,254 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777147265015106_9721_collage_1777147264930153.png"
+            ],
+            "timestamp": 1777147270
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Paolo Banchero (1 steal today) has passed Jalen Suggs, Marcin Gortat and Vince Carter and is now ranked 19th in Magic history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1776900083,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Wendell Carter Jr. (1 block today) has passed Andrew DeClercq and Tree Rollins and is now ranked 17th in Magic history with 8 in playoffs.",
             "foto": [],
@@ -2349,9 +2342,16 @@
             "timestamp": 1777146979,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (1 steal today) has passed Luguentz Dort and is now ranked 19th in Thunder history with 47 in playoffs.",
+            "foto": [],
+            "timestamp": 1777147270,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 512,
-    "total_franchise_historicas": 223,
-    "cache_buster": 1777147168
+    "total_notificaciones_historicas": 513,
+    "total_franchise_historicas": 224,
+    "cache_buster": 1777147270
 }
