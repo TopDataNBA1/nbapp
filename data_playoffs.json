@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "21:43:15",
+    "ultima_actualizacion": "21:45:03",
     "tablas": {
         "pts": [
             {
-                "Rank": 162,
+                "Rank": 161,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 2,
-                "Total": 1362,
-                "Diff": "1",
-                "Antece": "John Starks",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 1365,
+                "Diff": "2",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -156,14 +156,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 99,
+                "Rank": 98,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 112,
-                "Diff": "",
-                "Antece": "Bradley Beal",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 113,
+                "Diff": "1",
+                "Antece": "Nicolas Batum",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -635,9 +635,9 @@
                 "Rank": 11,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 15,
-                "Total": 125,
-                "Diff": "3",
+                "Hoy": 16,
+                "Total": 126,
+                "Diff": "2",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -837,9 +837,9 @@
                 "Rank": 3,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1362,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 1365,
+                "Diff": "0",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -887,9 +887,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 112,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 113,
+                "Diff": "2",
                 "Antece": "Dan Majerle",
                 "game_status": "playing"
             },
@@ -948,20 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Nikola Jokić today surpasses Anthony Mason, Dave DeBusschere, Elvin Hayes, Glen Davis, John Starks, Kurt Thomas, Kyrie Irving, Thabo Sefolosha and Tom Hawkins and now ranked 182nd all time with 97 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995328495100_8187_collage_1776995328400132.png"
-            ],
-            "timestamp": 1776995333
-        },
-        {
-            "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Shawn Marion and is now ranked 55th all-time with 128 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995622176266_6443_collage_1776995622069302.png"
-            ],
-            "timestamp": 1776995627
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Bailey Howell, Devean George, Marcin Gortat, Oscar Robertson and Pat Connaughton and now ranked 245th all time with 87 games in playoffs",
             "foto": [
@@ -1647,6 +1633,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777145708639584_8040_collage_1777145708564609.png"
             ],
             "timestamp": 1777145713
+        },
+        {
+            "texto": "Devin Booker (5 points today) has passed John Starks and is now ranked 161st all-time with 1,365 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146291367620_2257_collage_1777146291269146.png"
+            ],
+            "timestamp": 1777146297
+        },
+        {
+            "texto": "📢🔝💯 Devin Booker (1 three-pointer today) has passed Bradley Beal and is now ranked 98th all-time with 113 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146297488197_6544_collage_1777146297396208.png"
+            ],
+            "timestamp": 1777146303
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 509,
+    "total_notificaciones_historicas": 511,
     "total_franchise_historicas": 220,
-    "cache_buster": 1777146195
+    "cache_buster": 1777146303
 }
