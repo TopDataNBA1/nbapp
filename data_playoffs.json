@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:48:20",
+    "ultima_actualizacion": "19:53:09",
     "tablas": {
         "pts": [
             {
@@ -302,11 +302,11 @@
                 "Rank": 59,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 154,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 155,
+                "Diff": "1",
                 "Antece": "Jimmy Butler",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -471,9 +471,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 141,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 143,
+                "Diff": "5",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 64,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 65,
+                "Diff": "1",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Max Strus (2 three-pointers today) has passed Michael Jordan and is now ranked 64th all-time with 149 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992612157708_1441_collage_1776992611989761.png"
-            ],
-            "timestamp": 1776992619
-        },
         {
             "texto": "📢🔝💯 James Harden (1 rebound today) has passed Lamar Odom and is now ranked 58th all-time with 956 in playoffs.",
             "foto": [
@@ -1431,6 +1424,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139197973186_6588_collage_1777139197904208.png"
             ],
             "timestamp": 1777139203
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed P.J. Tucker and is now ranked 59th all-time with 155 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139583709379_8959_collage_1777139583615410.png"
+            ],
+            "timestamp": 1777139589
         }
     ],
     "notificaciones_franchise": [
@@ -2135,7 +2135,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 498,
+    "total_notificaciones_historicas": 499,
     "total_franchise_historicas": 207,
-    "cache_buster": 1777139300
+    "cache_buster": 1777139589
 }
