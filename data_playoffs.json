@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:30:46",
+    "ultima_actualizacion": "03:32:26",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 41,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 23,
-                "Total": 2693,
-                "Diff": "52",
+                "Hoy": 25,
+                "Total": 2695,
+                "Diff": "50",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -91,14 +91,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 152,
+                "Rank": 151,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 1420,
-                "Diff": "",
-                "Antece": "Carlos Boozer",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1422,
+                "Diff": "1",
+                "Antece": "Dominique Wilkins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -140,9 +140,9 @@
                 "Rank": 51,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 1019,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 1018,
+                "Diff": "4",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -337,14 +337,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 185,
+                "Rank": 184,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 251,
-                "Diff": "1",
-                "Antece": "Sedale Threatt",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 252,
+                "Diff": "",
+                "Antece": "B.J. Armstrong",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -364,9 +364,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 496,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 497,
+                "Diff": "3",
                 "Antece": "500",
                 "Nota": "",
                 "game_status": "playing"
@@ -912,9 +912,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 2693,
-                "Diff": "150",
+                "Hoy": 25,
+                "Total": 2695,
+                "Diff": "148",
                 "Antece": "Paul Pierce",
                 "game_status": "playing"
             },
@@ -922,9 +922,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 1019,
-                "Diff": "167",
+                "Hoy": 4,
+                "Total": 1018,
+                "Diff": "168",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -962,9 +962,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 229,
-                "Diff": "45",
+                "Hoy": 2,
+                "Total": 230,
+                "Diff": "44",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -1196,7 +1196,7 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "STL",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 78,
                 "Diff": "2",
                 "Antece": "Rick Fox",
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (1 assist today) has passed Chet Walker and is now ranked 235th all-time with 213 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776987498881065_collage_1776987498798093.png"
-            ],
-            "timestamp": 1776987501
-        },
         {
             "texto": "Karl-Anthony Towns (2 points today) has passed Nick Van Exel and is now ranked 239th all-time with 1,034 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777080641247815_7105_collage_1777080641189851.png"
             ],
             "timestamp": 1777080646
+        },
+        {
+            "texto": "Marcus Smart (5 points today) has passed Carlos Boozer and is now ranked 151st all-time with 1,422 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777080741705490_8910_collage_1777080741614508.png"
+            ],
+            "timestamp": 1777080746
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 468,
+    "total_notificaciones_historicas": 469,
     "total_franchise_historicas": 195,
-    "cache_buster": 1777080646
+    "cache_buster": 1777080746
 }
