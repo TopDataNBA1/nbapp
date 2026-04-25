@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:45:00",
+    "ultima_actualizacion": "19:46:43",
     "tablas": {
         "pts": [
             {
@@ -321,13 +321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 168,
+                "Rank": 165,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 3,
-                "Total": 78,
+                "Hoy": 4,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "David Wesley",
+                "Antece": "DeMarre Carroll",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -478,23 +478,23 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 121,
-                "Diff": "0",
-                "Antece": "Dennis Scott",
+                "Hoy": 5,
+                "Total": 122,
+                "Diff": "24",
+                "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
             {
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 115,
-                "Diff": "6",
-                "Antece": "Paolo Banchero",
+                "Hoy": 6,
+                "Total": 116,
+                "Diff": "5",
+                "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
             {
@@ -703,9 +703,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Duren",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 13,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 14,
+                "Diff": "0",
                 "Antece": "Chauncey Billups",
                 "game_status": "playing"
             },
@@ -732,13 +732,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (19 points today) has passed Rudy Gobert and is now ranked 235th all-time with 1,051 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776992603810565_9851_collage_1776992603586638.png"
-            ],
-            "timestamp": 1776992611
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Max Strus (2 three-pointers today) has passed Michael Jordan and is now ranked 64th all-time with 149 in playoffs.",
             "foto": [
@@ -1431,16 +1424,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139095656764_1019_collage_1777139095591786.png"
             ],
             "timestamp": 1777139100
+        },
+        {
+            "texto": "Desmond Bane (4 three-pointers today) has passed Bogdan Bogdanović, David Wesley, Marco Belinelli and Royce O'Neale and is now ranked 165th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139197973186_6588_collage_1777139197904208.png"
+            ],
+            "timestamp": 1777139203
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Mike Conley (1 rebound today) has passed Wally Szczerbiak and is now ranked 7th in Timberwolves history with 117 in playoffs.",
-            "foto": [],
-            "timestamp": 1776743433,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Donte DiVincenzo (3 rebounds today) has passed Michael Olowokandi and is now ranked 22nd in Timberwolves history with 53 in playoffs.",
             "foto": [],
@@ -2133,9 +2126,16 @@
             "timestamp": 1777138523,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Paolo Banchero (5 rebounds today) has passed Dennis Scott and is now ranked 10th in Magic history with 122 in playoffs.",
+            "foto": [],
+            "timestamp": 1777139203,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 497,
-    "total_franchise_historicas": 204,
-    "cache_buster": 1777139100
+    "total_notificaciones_historicas": 498,
+    "total_franchise_historicas": 205,
+    "cache_buster": 1777139203
 }
