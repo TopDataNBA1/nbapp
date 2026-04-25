@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:21:38",
+    "ultima_actualizacion": "01:40:24",
     "tablas": {
         "pts": [
             {
@@ -71,14 +71,14 @@
         ],
         "trb": [
             {
-                "Rank": 161,
+                "Rank": 160,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 573,
-                "Diff": "1",
-                "Antece": "Michael Cooper",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 574,
+                "Diff": "",
+                "Antece": "Amar'e Stoudemire",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -87,9 +87,9 @@
                 "Team": "DET",
                 "Hoy": 7,
                 "Total": 572,
-                "Diff": "1",
-                "Antece": "Karl-Anthony Towns",
-                "Nota": "A tiro de 1",
+                "Diff": "2",
+                "Antece": "Michael Cooper",
+                "Nota": "",
                 "game_status": "finished"
             },
             {
@@ -139,14 +139,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 235,
+                "Rank": 233,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 213,
-                "Diff": "1",
-                "Antece": "Richie Guerin",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 214,
+                "Diff": "",
+                "Antece": "Anthony Mason",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -442,13 +442,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 207,
+                "Rank": 203,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Team": "ATL",
-                "Hoy": 3,
-                "Total": 67,
+                "Hoy": 4,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Eddie Johnson",
+                "Antece": "Kemba Walker",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -644,9 +644,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 246,
-                "Diff": "16",
+                "Hoy": 5,
+                "Total": 247,
+                "Diff": "15",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -1444,20 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Marcus Smart (1 steal today) has passed Klay Thompson and is now ranked 54th all-time with 151 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077055354141_8051_collage_1777077055268182.png"
-            ],
-            "timestamp": 1777077060
-        },
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (2 assists today) has passed Slater Martin and is now ranked 111th all-time with 355 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077252165185_5885_collage_1777077252064201.png"
-            ],
-            "timestamp": 1777077257
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (2 steals today) has passed David Robinson and is now ranked 53rd all-time with 152 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077543187327_2053_collage_1777077543104366.png"
@@ -2142,6 +2128,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777159005805518_1884_collage_1777159005741539.png"
             ],
             "timestamp": 1777159010
+        },
+        {
+            "texto": "📢HOF🏛️ CJ McCollum (1 assist today) has passed Calvin Murphy and is now ranked 233rd all-time with 214 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160413613141_8334_collage_1777160413496153.png"
+            ],
+            "timestamp": 1777160419
+        },
+        {
+            "texto": "📢HOF🏛️ Nickeil Alexander-Walker (4 three-pointers today) has passed Chris Mullin and Eddie Johnson and is now ranked 203rd all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160419569591_7241_collage_1777160419494618.png"
+            ],
+            "timestamp": 1777160424
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 551,
+    "total_notificaciones_historicas": 553,
     "total_franchise_historicas": 232,
-    "cache_buster": 1777159298
+    "cache_buster": 1777160424
 }
