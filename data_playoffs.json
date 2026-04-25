@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:08:02",
+    "ultima_actualizacion": "03:09:42",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 14,
-                "Total": 8350,
-                "Diff": "650",
+                "Hoy": 16,
+                "Total": 8352,
+                "Diff": "648",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -285,9 +285,9 @@
                 "Rank": 46,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 613,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 614,
+                "Diff": "3",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "playing"
@@ -728,13 +728,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 129,
+                "Rank": 126,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 95,
+                "Hoy": 4,
+                "Total": 96,
                 "Diff": "",
-                "Antece": "Pascal Siakam",
+                "Antece": "Tyler Herro",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -942,9 +942,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 613,
-                "Diff": "126",
+                "Hoy": 6,
+                "Total": 614,
+                "Diff": "125",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -1166,9 +1166,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1439,
-                "Diff": "122",
+                "Hoy": 16,
+                "Total": 1441,
+                "Diff": "120",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1258,9 +1258,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 803,
-                "Diff": "125",
+                "Hoy": 24,
+                "Total": 804,
+                "Diff": "124",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -1338,9 +1338,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 95,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 96,
+                "Diff": "4",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luguentz Dort (3 three-pointers today) has passed Craig Hodges and Mario Elie and is now ranked 133rd all-time with 91 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776917498482476_collage_1776917498362065.png"
-            ],
-            "timestamp": 1776917498
-        },
         {
             "texto": "Alex Caruso (3 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 176th all-time with 77 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078997238576_7301_collage_1777078997167600.png"
             ],
             "timestamp": 1777079002
+        },
+        {
+            "texto": "Tyrese Maxey (4 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 126th all-time with 96 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079377971116_2244_collage_1777079377907146.png"
+            ],
+            "timestamp": 1777079382
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 460,
+    "total_notificaciones_historicas": 461,
     "total_franchise_historicas": 195,
-    "cache_buster": 1777079282
+    "cache_buster": 1777079382
 }
