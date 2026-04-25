@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:27:13",
+    "ultima_actualizacion": "00:28:55",
     "tablas": {
         "pts": [
             {
@@ -253,7 +253,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 222,
+                "Rank": 217,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "",
+                "Antece": "Deandre Ayton",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 223,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
                 "Hoy": 1,
@@ -262,17 +273,6 @@
                 "Antece": "Daniel Gafford",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 224,
-                "Nombre": "Karl-Anthony Towns",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "",
-                "Antece": "Jaden McDaniels",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -365,13 +365,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 152,
+                "Rank": 151,
                 "Nombre": "Gabe Vincent",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 84,
+                "Hoy": 1,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Myles Turner",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -754,9 +754,9 @@
                 "Rank": 15,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
                 "Antece": "Tyson Chandler",
                 "game_status": "playing"
             },
@@ -766,7 +766,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 17,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (5 points today) has passed Bradley Beal and is now ranked 209th all-time with 1,124 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074555874652_2135_collage_1777074555787683.png"
-            ],
-            "timestamp": 1777074561
-        },
         {
             "texto": "📢🔝💯 Paul George (1 steal today) has passed Kevin Durant and is now ranked 43rd all-time with 174 in playoffs.",
             "foto": [
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156028267931_4620_collage_1777156028159986.png"
             ],
             "timestamp": 1777156033
+        },
+        {
+            "texto": "Gabe Vincent (1 three-pointer today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 151st all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156130388049_9222_collage_1777156130318175.png"
+            ],
+            "timestamp": 1777156135
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 543,
+    "total_notificaciones_historicas": 544,
     "total_franchise_historicas": 231,
-    "cache_buster": 1777156033
+    "cache_buster": 1777156135
 }
