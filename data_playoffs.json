@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:35:37",
+    "ultima_actualizacion": "03:37:18",
     "tablas": {
         "pts": [
             {
@@ -285,9 +285,9 @@
                 "Rank": 46,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 6,
-                "Total": 614,
-                "Diff": "3",
+                "Hoy": 7,
+                "Total": 615,
+                "Diff": "2",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "playing"
@@ -739,24 +739,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 144,
+                "Rank": 141,
+                "Nombre": "Payton Pritchard",
+                "Team": "BOS",
+                "Hoy": 5,
+                "Total": 88,
+                "Diff": "1",
+                "Antece": "Nick Anderson",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 145,
                 "Nombre": "Dorian Finney-Smith",
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 87,
                 "Diff": "",
                 "Antece": "Clifford Robinson",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 147,
-                "Nombre": "Payton Pritchard",
-                "Team": "BOS",
-                "Hoy": 4,
-                "Total": 87,
-                "Diff": "",
-                "Antece": "Leandro Barbosa",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -942,9 +942,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 614,
-                "Diff": "125",
+                "Hoy": 7,
+                "Total": 615,
+                "Diff": "124",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -1062,9 +1062,9 @@
                 "Rank": 8,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 87,
-                "Diff": "13",
+                "Hoy": 5,
+                "Total": 88,
+                "Diff": "12",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 points today) has passed Nick Van Exel and is now ranked 239th all-time with 1,034 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776987880335183_collage_1776987880238235.png"
-            ],
-            "timestamp": 1776987883
-        },
         {
             "texto": "Karl-Anthony Towns (2 rebounds today) has passed Cedric Maxwell and is now ranked 172nd all-time with 554 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777080741705490_8910_collage_1777080741614508.png"
             ],
             "timestamp": 1777080746
+        },
+        {
+            "texto": "Payton Pritchard (5 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 141st all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777081033731442_2735_collage_1777081033647471.png"
+            ],
+            "timestamp": 1777081038
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 469,
+    "total_notificaciones_historicas": 470,
     "total_franchise_historicas": 196,
-    "cache_buster": 1777080937
+    "cache_buster": 1777081038
 }
