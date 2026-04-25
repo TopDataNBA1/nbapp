@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:54:57",
+    "ultima_actualizacion": "23:58:11",
     "tablas": {
         "pts": [
             {
@@ -117,13 +117,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 158,
+                "Rank": 156,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 6,
-                "Total": 284,
+                "Hoy": 8,
+                "Total": 286,
                 "Diff": "",
-                "Antece": "Bobby Jones",
+                "Antece": "Guy Rodgers",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -343,14 +343,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 132,
+                "Rank": 131,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 93,
-                "Diff": "1",
-                "Antece": "Serge Ibaka",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 94,
+                "Diff": "",
+                "Antece": "Brook Lopez",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -866,9 +866,9 @@
                 "Rank": 20,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 548,
-                "Diff": "17",
+                "Hoy": 10,
+                "Total": 550,
+                "Diff": "15",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -893,13 +893,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 265,
-                "Diff": "1",
-                "Antece": "John Johnson",
+                "Hoy": 8,
+                "Total": 267,
+                "Diff": "73",
+                "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
             {
@@ -986,9 +986,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 93,
-                "Diff": "7",
+                "Hoy": 3,
+                "Total": 94,
+                "Diff": "6",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (5 points today) has passed Bill Russell and is now ranked 41st all-time with 2,675 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073277308822_5696_collage_1777073277218871.png"
-            ],
-            "timestamp": 1777073282
-        },
         {
             "texto": "Tyrese Maxey (1 three-pointer today) has passed Kirk Hinrich and is now ranked 131st all-time with 93 in playoffs.",
             "foto": [
@@ -2142,16 +2135,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153995507015_6969_collage_1777153995426041.png"
             ],
             "timestamp": 1777154000
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (8 assists today) has passed Bobby Jones and is now ranked 156th all-time with 286 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777154285931869_4068_collage_1777154285839911.png"
+            ],
+            "timestamp": 1777154291
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Jalen Suggs (1 steal today) has passed Marcin Gortat and Vince Carter and is now ranked 20th in Magic history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1776900742,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (1 steal today) has passed Evan Fournier and is now ranked 17th in Magic history with 14 in playoffs.",
             "foto": [],
@@ -2844,9 +2837,16 @@
             "timestamp": 1777153116,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Shai Gilgeous-Alexander (8 assists today) has passed John Johnson and is now ranked 6th in Thunder history with 267 in playoffs.",
+            "foto": [],
+            "timestamp": 1777154291,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 535,
-    "total_franchise_historicas": 227,
-    "cache_buster": 1777154097
+    "total_notificaciones_historicas": 536,
+    "total_franchise_historicas": 228,
+    "cache_buster": 1777154291
 }
