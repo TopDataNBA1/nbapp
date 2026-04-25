@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:29:20",
+    "ultima_actualizacion": "02:31:00",
     "tablas": {
         "pts": [
             {
@@ -94,11 +94,11 @@
                 "Rank": 152,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1417,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 1420,
+                "Diff": "",
                 "Antece": "Carlos Boozer",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -239,9 +239,9 @@
                 "Rank": 216,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 474,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 475,
+                "Diff": "2",
                 "Antece": "Vince Carter",
                 "Nota": "",
                 "game_status": "playing"
@@ -405,13 +405,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 55,
+                "Rank": 54,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 150,
+                "Hoy": 1,
+                "Total": 151,
                 "Diff": "",
-                "Antece": "Klay Thompson",
+                "Antece": "David Robinson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -676,9 +676,9 @@
                 "Rank": 27,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 214,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 215,
+                "Diff": "6",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -1368,13 +1368,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Jordan Poole and Kerry Kittles and is now ranked 204th all-time with 67 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776915056391312_collage_1776915056277351.png"
-            ],
-            "timestamp": 1776915056
-        },
-        {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (7 assists today) has passed John Johnson and Patrick Ewing and is now ranked 163rd all-time with 276 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776915341453346_collage_1776915341368362.png"
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076858905226_9007_collage_1777076858822253.png"
             ],
             "timestamp": 1777076864
+        },
+        {
+            "texto": "📢🔝💯 Marcus Smart (1 steal today) has passed Klay Thompson and is now ranked 54th all-time with 151 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777077055354141_8051_collage_1777077055268182.png"
+            ],
+            "timestamp": 1777077060
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 451,
+    "total_notificaciones_historicas": 452,
     "total_franchise_historicas": 192,
-    "cache_buster": 1777076960
+    "cache_buster": 1777077060
 }
