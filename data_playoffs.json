@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:36:18",
+    "ultima_actualizacion": "22:38:00",
     "tablas": {
         "pts": [
             {
@@ -222,13 +222,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 199,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 67,
+                "Hoy": 1,
+                "Total": 68,
                 "Diff": "1",
-                "Antece": "Rajon Rondo",
+                "Antece": "Andrew Nembhard",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -553,9 +553,9 @@
                 "Rank": 17,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 39,
+                "Diff": "2",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Steve Smith and is now ranked 71st all-time with 137 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776998229407886_5704_collage_1776998229311121.png"
-            ],
-            "timestamp": 1776998234
-        },
         {
             "texto": "📢HOF🏛️ Jaden McDaniels (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Felton Spencer, Isaiah Hartenstein, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 222nd all-time with 43 in playoffs.",
             "foto": [
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777149372595801_7741_collage_1777149372527838.png"
             ],
             "timestamp": 1777149377
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (1 three-pointer today) has passed Chris Mullin and Eddie Johnson and is now ranked 199th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777149474873679_8329_collage_1777149474791706.png"
+            ],
+            "timestamp": 1777149480
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 519,
+    "total_notificaciones_historicas": 520,
     "total_franchise_historicas": 224,
-    "cache_buster": 1777149378
+    "cache_buster": 1777149480
 }
