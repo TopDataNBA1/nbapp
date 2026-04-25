@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:46:40",
+    "ultima_actualizacion": "21:49:55",
     "tablas": {
         "pts": [
             {
@@ -62,14 +62,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 181,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 253,
-                "Diff": "",
-                "Antece": "Dave DeBusschere",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 254,
+                "Diff": "3",
+                "Antece": "Paul Seymour",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -857,9 +857,9 @@
                 "Rank": 6,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 253,
-                "Diff": "43",
+                "Hoy": 1,
+                "Total": 254,
+                "Diff": "42",
                 "Antece": "Walter Davis",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Bailey Howell, Devean George, Marcin Gortat, Oscar Robertson and Pat Connaughton and now ranked 245th all time with 87 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776995627499219_9734_collage_1776995627418229.png"
-            ],
-            "timestamp": 1776995632
-        },
         {
             "texto": "📢🔝💯 Jamal Murray (4 points today) has passed Robert Horry and is now ranked 70th all-time with 1,940 in playoffs.",
             "foto": [
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146297488197_6544_collage_1777146297396208.png"
             ],
             "timestamp": 1777146303
+        },
+        {
+            "texto": "📢HOF🏛️ Devin Booker (1 assist today) has passed Dave DeBusschere and is now ranked 181st all-time with 254 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146589609730_3375_collage_1777146589511740.png"
+            ],
+            "timestamp": 1777146595
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 511,
+    "total_notificaciones_historicas": 512,
     "total_franchise_historicas": 221,
-    "cache_buster": 1777146400
+    "cache_buster": 1777146595
 }
