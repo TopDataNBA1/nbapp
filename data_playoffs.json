@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:51:32",
+    "ultima_actualizacion": "23:53:20",
     "tablas": {
         "pts": [
             {
@@ -117,13 +117,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 159,
+                "Rank": 158,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 283,
+                "Hoy": 6,
+                "Total": 284,
                 "Diff": "",
-                "Antece": "Charles Oakley",
+                "Antece": "Bobby Jones",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -443,25 +443,25 @@
             },
             {
                 "Rank": 216,
+                "Nombre": "Dillon Brooks",
+                "Team": "PHX",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "",
+                "Antece": "Charles Barkley",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 217,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Team": "ATL",
                 "Hoy": 0,
                 "Total": 64,
                 "Diff": "",
-                "Antece": "Charles Barkley",
+                "Antece": "Dillon Brooks",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 220,
-                "Nombre": "Dillon Brooks",
-                "Team": "PHX",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "",
-                "Antece": "Ben Gordon",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 222,
@@ -896,9 +896,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 264,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 265,
+                "Diff": "1",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1330,9 +1330,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 254,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 255,
+                "Diff": "2",
                 "Antece": "Steve Nash",
                 "game_status": "playing"
             },
@@ -1443,20 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (1 block today) has passed Charles Smith, Manute Bol and Raef LaFrentz and is now ranked 114th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072795337987_5112_collage_1777072795272022.png"
-            ],
-            "timestamp": 1777072799
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum today surpasses Charles Barkley, Dan Majerle and David Robinson and now ranked 99th all time with 124 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777072800030936_8972_collage_1777072799968975.png"
-            ],
-            "timestamp": 1777072804
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (5 points today) has passed Bill Russell and is now ranked 41st all-time with 2,675 in playoffs.",
             "foto": [
@@ -2142,6 +2128,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153887615649_9516_collage_1777153887539678.png"
             ],
             "timestamp": 1777153892
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (6 assists today) has passed Charles Oakley and is now ranked 158th all-time with 284 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153989715608_9290_collage_1777153989628366.png"
+            ],
+            "timestamp": 1777153995
+        },
+        {
+            "texto": "Dillon Brooks (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153995507015_6969_collage_1777153995426041.png"
+            ],
+            "timestamp": 1777154000
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 533,
+    "total_notificaciones_historicas": 535,
     "total_franchise_historicas": 227,
-    "cache_buster": 1777153892
+    "cache_buster": 1777154000
 }
