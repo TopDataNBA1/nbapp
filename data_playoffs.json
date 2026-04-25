@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:53:44",
+    "ultima_actualizacion": "07:00:07",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 111,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 25,
-                "Total": 1602,
-                "Diff": "6",
+                "Hoy": 27,
+                "Total": 1604,
+                "Diff": "4",
                 "Antece": "Serge Ibaka",
                 "Nota": "",
                 "game_status": "playing"
@@ -483,25 +483,25 @@
             },
             {
                 "Rank": 67,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 3,
+                "Total": 139,
+                "Diff": "2",
+                "Antece": "Ron Harper",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 68,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
                 "Hoy": 1,
                 "Total": 138,
-                "Diff": "3",
-                "Antece": "Ron Harper",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Jrue Holiday",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 68,
-                "Nombre": "Jrue Holiday",
-                "Team": "POR",
-                "Hoy": 2,
-                "Total": 138,
-                "Diff": "",
-                "Antece": "Jaylen Brown",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 141,
@@ -1594,20 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ OG Anunoby (2 blocks today) has passed Alvin Scott, Andrew Lang, Cedric Maxwell, George Gervin, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Kurt Thomas, Nate Thurmond, Stephen Curry and Tony Battie and is now ranked 173rd all-time with 52 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991422763489_3456_collage_1776991422509578.png"
-            ],
-            "timestamp": 1776991430
-        },
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 three-pointer today) has passed Larry Bird and is now ranked 161st all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991430694869_6399_collage_1776991430424958.png"
-            ],
-            "timestamp": 1776991438
-        },
-        {
             "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991850245144_2133_collage_1776991850009225.png"
@@ -2292,6 +2278,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777092819194968_2082_collage_1777092819109205.png"
             ],
             "timestamp": 1777092824
+        },
+        {
+            "texto": "Jrue Holiday (27 points today) has passed Tayshaun Prince and is now ranked 111th all-time with 1,604 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777093197318830_9192_collage_1777093197232859.png"
+            ],
+            "timestamp": 1777093202
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (3 steals today) has passed Jaylen Brown and is now ranked 67th all-time with 139 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777093202686567_6800_collage_1777093202599585.png"
+            ],
+            "timestamp": 1777093207
         }
     ],
     "notificaciones_franchise": [
@@ -2996,7 +2996,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 490,
+    "total_notificaciones_historicas": 492,
     "total_franchise_historicas": 198,
-    "cache_buster": 1777092824
+    "cache_buster": 1777093207
 }
