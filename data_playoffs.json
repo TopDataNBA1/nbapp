@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:19:09",
+    "ultima_actualizacion": "00:20:50",
     "tablas": {
         "pts": [
             {
@@ -93,14 +93,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 242,
+                "Rank": 240,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 426,
-                "Diff": "",
-                "Antece": "Anderson Varejão",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 427,
+                "Diff": "5",
+                "Antece": "Walter Dukes",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -624,9 +624,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 426,
-                "Diff": "35",
+                "Hoy": 2,
+                "Total": 427,
+                "Diff": "34",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Paul Westphal and is now ranked 111th all-time with 354 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074073267290_7087_collage_1777074073169324.png"
-            ],
-            "timestamp": 1777074078
-        },
-        {
             "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Shai Gilgeous-Alexander, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 223rd all-time with 66 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074454251092_9339_collage_1777074454155122.png"
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155543764918_2868_collage_1777155543682946.png"
             ],
             "timestamp": 1777155549
+        },
+        {
+            "texto": "Josh Hart (2 rebounds today) has passed Anderson Varejão and is now ranked 240th all-time with 427 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155645417384_2601_collage_1777155645323401.png"
+            ],
+            "timestamp": 1777155650
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 541,
+    "total_notificaciones_historicas": 542,
     "total_franchise_historicas": 230,
-    "cache_buster": 1777155549
+    "cache_buster": 1777155650
 }
