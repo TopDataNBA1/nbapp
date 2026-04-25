@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:54:09",
+    "ultima_actualizacion": "00:55:56",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 234,
+                "Rank": 233,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 1060,
-                "Diff": "",
-                "Antece": "Jamal Crawford",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 1061,
+                "Diff": "3",
+                "Antece": "Toni Kukoč",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -365,13 +365,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 151,
+                "Rank": 149,
                 "Nombre": "Gabe Vincent",
                 "Team": "ATL",
-                "Hoy": 1,
-                "Total": 85,
+                "Hoy": 2,
+                "Total": 86,
                 "Diff": "1",
-                "Antece": "Rick Fox",
+                "Antece": "Seth Curry",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1444,20 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 149th all-time with 58 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777075038014831_2995_collage_1777075037949866.png"
-            ],
-            "timestamp": 1777075042
-        },
-        {
-            "texto": "Marcus Smart today surpasses JJ Redick and Terry Cummings and now ranked 128th all time with 111 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076079887256_9315_collage_1777076079810295.png"
-            ],
-            "timestamp": 1777076084
-        },
-        {
             "texto": "Derrick White (7 points today) has passed Archie Clark, Jermaine O'Neal and Paul Silas and is now ranked 208th all-time with 1,126 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777076180743311_1520_collage_1777076180677333.png"
@@ -2142,6 +2128,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777157643956081_4404_collage_1777157643866110.png"
             ],
             "timestamp": 1777157649
+        },
+        {
+            "texto": "Karl-Anthony Towns (8 points today) has passed Jamal Crawford and is now ranked 233rd all-time with 1,061 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777157745749849_4568_collage_1777157745662871.png"
+            ],
+            "timestamp": 1777157750
+        },
+        {
+            "texto": "Gabe Vincent (2 three-pointers today) has passed Myles Turner and is now ranked 149th all-time with 86 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777157751114222_1902_collage_1777157751014253.png"
+            ],
+            "timestamp": 1777157756
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 545,
+    "total_notificaciones_historicas": 547,
     "total_franchise_historicas": 231,
-    "cache_buster": 1777157649
+    "cache_buster": 1777157756
 }
