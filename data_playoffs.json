@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:25:32",
+    "ultima_actualizacion": "00:27:13",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 240,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 427,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 428,
+                "Diff": "4",
                 "Antece": "Walter Dukes",
                 "Nota": "",
                 "game_status": "playing"
@@ -109,9 +109,9 @@
                 "Rank": 95,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 379,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 380,
+                "Diff": "2",
                 "Antece": "Tim Hardaway",
                 "Nota": "",
                 "game_status": "playing"
@@ -614,9 +614,9 @@
                 "Rank": 25,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 495,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 497,
+                "Diff": "3",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -624,9 +624,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 427,
-                "Diff": "34",
+                "Hoy": 3,
+                "Total": 428,
+                "Diff": "33",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -654,9 +654,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 303,
-                "Diff": "89",
+                "Hoy": 1,
+                "Total": 304,
+                "Diff": "88",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -674,9 +674,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "1",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -686,7 +686,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 48,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Shai Gilgeous-Alexander, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 223rd all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074454251092_9339_collage_1777074454155122.png"
-            ],
-            "timestamp": 1777074459
-        },
-        {
             "texto": "Derrick White (5 points today) has passed Bradley Beal and is now ranked 209th all-time with 1,124 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074555874652_2135_collage_1777074555787683.png"
@@ -2142,16 +2135,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155645417384_2601_collage_1777155645323401.png"
             ],
             "timestamp": 1777155650
+        },
+        {
+            "texto": "Josh Hart (3 rebounds today) has passed Marques Johnson and is now ranked 240th all-time with 428 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156028267931_4620_collage_1777156028159986.png"
+            ],
+            "timestamp": 1777156033
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (2 three-pointers today) has passed Jason Richardson and D.J. Augustin and is now ranked 19th in Magic history with 19 in playoffs.",
-            "foto": [],
-            "timestamp": 1776902140,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (5 rebounds today) has passed Ryan Anderson and is now ranked 19th in Magic history with 82 in playoffs.",
             "foto": [],
@@ -2844,9 +2837,16 @@
             "timestamp": 1777155339,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Josh Hart (1 steal today) has passed OG Anunoby and is now ranked 7th in Knicks history with 49 in playoffs.",
+            "foto": [],
+            "timestamp": 1777156033,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 542,
-    "total_franchise_historicas": 230,
-    "cache_buster": 1777155932
+    "total_notificaciones_historicas": 543,
+    "total_franchise_historicas": 231,
+    "cache_buster": 1777156033
 }
