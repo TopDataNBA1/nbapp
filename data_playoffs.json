@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:17:08",
+    "ultima_actualizacion": "05:20:23",
     "tablas": {
         "pts": [
             {
@@ -236,14 +236,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 188,
+                "Rank": 187,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 525,
-                "Diff": "",
-                "Antece": "Blake Griffin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 526,
+                "Diff": "1",
+                "Antece": "Jeff Hornacek",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1594,11 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "CJ McCollum (16 points today) has passed Deron Williams, Lamar Odom and Marcus Smart and is now ranked 151st all-time with 1,418 in playoffs.",
-            "foto": [],
-            "timestamp": 1776989814
-        },
-        {
             "texto": "Karl-Anthony Towns (8 points today) has passed Bryon Russell, Eddie Jones and Nick Van Exel and is now ranked 237th all-time with 1,040 in playoffs.",
             "foto": [],
             "timestamp": 1776989816
@@ -2286,6 +2281,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087022791984_2622_collage_1777087022671496.png"
             ],
             "timestamp": 1777087028
+        },
+        {
+            "texto": "Jrue Holiday (2 rebounds today) has passed Blake Griffin and is now ranked 187th all-time with 526 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087216122242_8742_collage_1777087216038269.png"
+            ],
+            "timestamp": 1777087223
         }
     ],
     "notificaciones_franchise": [
@@ -2990,7 +2992,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 481,
+    "total_notificaciones_historicas": 482,
     "total_franchise_historicas": 198,
-    "cache_buster": 1777087028
+    "cache_buster": 1777087223
 }
