@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:04:40",
+    "ultima_actualizacion": "21:06:22",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 208,
+                "Rank": 207,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 11,
-                "Total": 1131,
-                "Diff": "1",
-                "Antece": "Mychal Thompson",
-                "Nota": "A tiro de 1",
+                "Hoy": 13,
+                "Total": 1133,
+                "Diff": "8",
+                "Antece": "Vern Mikkelsen",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -605,9 +605,9 @@
                 "Rank": 13,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 303,
-                "Diff": "67",
+                "Hoy": 12,
+                "Total": 304,
+                "Diff": "66",
                 "Antece": "Mickaël Piétrus",
                 "game_status": "playing"
             },
@@ -645,9 +645,9 @@
                 "Rank": 18,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 87,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 89,
+                "Diff": "0",
                 "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (3 three-pointers today) has passed Donte DiVincenzo, Jamal Crawford and Tyrese Haliburton and is now ranked 103rd all-time with 108 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776994449440886_6785_collage_1776994449375061.png"
-            ],
-            "timestamp": 1776994453
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (13 points today) has passed Dwyane Wade and is now ranked 12th all-time with 3,958 in playoffs.",
             "foto": [
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777142831252507_5316_collage_1777142831161564.png"
             ],
             "timestamp": 1777142836
+        },
+        {
+            "texto": "Tobias Harris (13 points today) has passed Mychal Thompson and is now ranked 207th all-time with 1,133 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777143976813212_1516_collage_1777143976716557.png"
+            ],
+            "timestamp": 1777143982
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 504,
+    "total_notificaciones_historicas": 505,
     "total_franchise_historicas": 214,
-    "cache_buster": 1777143880
+    "cache_buster": 1777143982
 }
