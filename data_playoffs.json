@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:13:57",
+    "ultima_actualizacion": "00:15:39",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 236,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1053,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 1057,
+                "Diff": "2",
                 "Antece": "Hedo Türkoğlu",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -85,9 +85,9 @@
                 "Rank": 162,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 569,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 570,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "Nota": "",
                 "game_status": "playing"
@@ -96,11 +96,11 @@
                 "Rank": 242,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 425,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 426,
+                "Diff": "",
                 "Antece": "Anderson Varejão",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -624,9 +624,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 425,
-                "Diff": "36",
+                "Hoy": 1,
+                "Total": 426,
+                "Diff": "35",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -644,9 +644,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 242,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 243,
+                "Diff": "19",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -664,9 +664,9 @@
                 "Rank": 13,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 180,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 181,
+                "Diff": "22",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -831,13 +831,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 45,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "0",
-                "Antece": "Dean Meminger",
+                "Antece": "Nat Clifton",
                 "game_status": "playing"
             }
         ],
@@ -1443,13 +1443,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Paul George today surpasses Mario Elie and Vinnie Johnson and now ranked 113th all time with 117 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073288233764_8935_collage_1777073288154791.png"
-            ],
-            "timestamp": 1777073293
-        },
         {
             "texto": "📢🔝💯 Jayson Tatum (3 points today) has passed Chris Paul and is now ranked 31st all-time with 2,983 in playoffs.",
             "foto": [
@@ -2142,16 +2135,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777154388160750_2956_collage_1777154388091774.png"
             ],
             "timestamp": 1777154393
+        },
+        {
+            "texto": "Karl-Anthony Towns (1 rebound today) has passed Tom Chambers and is now ranked 162nd all-time with 570 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155333800366_5370_collage_1777155333699412.png"
+            ],
+            "timestamp": 1777155339
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Wendell Carter Jr. (2 blocks today) has passed Nikola Vučević and Paolo Banchero and is now ranked 15th in Magic history with 9 in playoffs.",
-            "foto": [],
-            "timestamp": 1776901858,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Suggs (2 three-pointers today) has passed Jason Richardson and D.J. Augustin and is now ranked 19th in Magic history with 19 in playoffs.",
             "foto": [],
@@ -2844,9 +2837,16 @@
             "timestamp": 1777155237,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart today surpasses Dean Meminger and is now ranked 24th in Knicks history with 46 games in playoffs.",
+            "foto": [],
+            "timestamp": 1777155339,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 537,
-    "total_franchise_historicas": 229,
-    "cache_buster": 1777155237
+    "total_notificaciones_historicas": 538,
+    "total_franchise_historicas": 230,
+    "cache_buster": 1777155339
 }
