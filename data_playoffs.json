@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:07:44",
+    "ultima_actualizacion": "23:09:27",
     "tablas": {
         "pts": [
             {
@@ -132,13 +132,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 232,
+                "Rank": 222,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 42,
+                "Hoy": 1,
+                "Total": 43,
                 "Diff": "",
-                "Antece": "Felton Spencer",
+                "Antece": "Daniel Gafford",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -393,9 +393,9 @@
                 "Rank": 17,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 288,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 289,
+                "Diff": "0",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -948,13 +948,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Nikola Jokić (2 steals today) has passed Mario Chalmers and Sam Perkins and is now ranked 89th all-time with 119 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776998720525004_6685_collage_1776998720444033.png"
-            ],
-            "timestamp": 1776998725
-        },
         {
             "texto": "Anthony Edwards (13 points today) has passed Jim McMillian and is now ranked 190th all-time with 1,195 in playoffs.",
             "foto": [
@@ -1647,6 +1640,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151259403836_1806_collage_1777151259324862.png"
             ],
             "timestamp": 1777151264
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Evan Mobley, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 222nd all-time with 43 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151361510230_6852_collage_1777151361410263.png"
+            ],
+            "timestamp": 1777151367
         }
     ],
     "notificaciones_franchise": [
@@ -2351,7 +2351,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 521,
+    "total_notificaciones_historicas": 522,
     "total_franchise_historicas": 224,
-    "cache_buster": 1777151264
+    "cache_buster": 1777151367
 }
