@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:08:11",
+    "ultima_actualizacion": "19:09:53",
     "tablas": {
         "pts": [
             {
@@ -16,14 +16,14 @@
         ],
         "trb": [
             {
-                "Rank": 164,
+                "Rank": 163,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 565,
-                "Diff": "",
-                "Antece": "Detlef Schrempf",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 566,
+                "Diff": "3",
+                "Antece": "Tom Chambers",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -299,14 +299,14 @@
         ],
         "fg3": [
             {
-                "Rank": 60,
+                "Rank": 59,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 153,
-                "Diff": "1",
-                "Antece": "P.J. Tucker",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 154,
+                "Diff": "2",
+                "Antece": "Jimmy Butler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -451,9 +451,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 377,
-                "Diff": "90",
+                "Hoy": 2,
+                "Total": 379,
+                "Diff": "88",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 12,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 110,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 112,
+                "Diff": "5",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -541,9 +541,9 @@
                 "Rank": 23,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Vince Carter",
                 "game_status": "playing"
             },
@@ -723,22 +723,15 @@
                 "Rank": 22,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 9,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 10,
+                "Diff": "0",
                 "Antece": "Dennis Schröder",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1776991850245144_2133_collage_1776991850009225.png"
-            ],
-            "timestamp": 1776991857
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Aaron Williams, Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 228th all-time with 42 in playoffs.",
             "foto": [
@@ -1431,16 +1424,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777093202686567_6800_collage_1777093202599585.png"
             ],
             "timestamp": 1777093207
+        },
+        {
+            "texto": "Tobias Harris (1 rebound today) has passed Detlef Schrempf and is now ranked 163rd all-time with 566 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777136987559464_5630_collage_1777136987448632.png"
+            ],
+            "timestamp": 1777136993
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 6th in Timberwolves history with 37 games in playoffs.",
-            "foto": [],
-            "timestamp": 1776740818,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Donte DiVincenzo today surpasses Darrick Martin, Sam Cassell and Joe Smith and is now ranked 20th in Timberwolves history with 17 games in playoffs.",
             "foto": [],
@@ -2133,9 +2126,16 @@
             "timestamp": 1777084548,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (1 three-pointer today) has passed Langston Galloway, Luke Kennard and Mehmet Okur and is now ranked 22nd in Pistons history with 10 in playoffs.",
+            "foto": [],
+            "timestamp": 1777136993,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 492,
-    "total_franchise_historicas": 198,
-    "cache_buster": 1777136891
+    "total_notificaciones_historicas": 493,
+    "total_franchise_historicas": 199,
+    "cache_buster": 1777136993
 }
