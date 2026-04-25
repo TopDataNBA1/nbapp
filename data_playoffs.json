@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:20:23",
+    "ultima_actualizacion": "05:25:10",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 115,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 6,
-                "Total": 1583,
-                "Diff": "9",
+                "Hoy": 9,
+                "Total": 1586,
+                "Diff": "6",
                 "Antece": "George Hill",
                 "Nota": "",
                 "game_status": "playing"
@@ -827,13 +827,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 45,
+                "Rank": 44,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 175,
+                "Hoy": 1,
+                "Total": 176,
                 "Diff": "",
-                "Antece": "George Hill",
+                "Antece": "John Starks",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1594,11 +1594,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Karl-Anthony Towns (8 points today) has passed Bryon Russell, Eddie Jones and Nick Van Exel and is now ranked 237th all-time with 1,040 in playoffs.",
-            "foto": [],
-            "timestamp": 1776989816
-        },
-        {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (8 rebounds today) has passed Carmelo Anthony, Cedric Maxwell, Clifford Robinson, Clyde Lovellette, Happy Hairston, Mark Eaton and Zydrunas Ilgauskas and is now ranked 166th all-time with 560 in playoffs.",
             "foto": [],
             "timestamp": 1776989819
@@ -2288,6 +2283,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087216122242_8742_collage_1777087216038269.png"
             ],
             "timestamp": 1777087223
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (1 three-pointer today) has passed George Hill and Kevin Love and is now ranked 44th all-time with 176 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087505217285_6227_collage_1777087505143315.png"
+            ],
+            "timestamp": 1777087510
         }
     ],
     "notificaciones_franchise": [
@@ -2992,7 +2994,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 482,
+    "total_notificaciones_historicas": 483,
     "total_franchise_historicas": 198,
-    "cache_buster": 1777087223
+    "cache_buster": 1777087510
 }
