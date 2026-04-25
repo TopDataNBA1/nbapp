@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:17:26",
+    "ultima_actualizacion": "00:19:09",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 150,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 1425,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 1427,
+                "Diff": "5",
                 "Antece": "Detlef Schrempf",
                 "Nota": "",
                 "game_status": "playing"
@@ -442,7 +442,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 211,
+                "Rank": 209,
+                "Nombre": "Nickeil Alexander-Walker",
+                "Team": "ATL",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "",
+                "Antece": "Kerry Kittles",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 212,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
                 "Hoy": 4,
@@ -451,17 +462,6 @@
                 "Antece": "D'Angelo Russell",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 215,
-                "Nombre": "Nickeil Alexander-Walker",
-                "Team": "ATL",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "",
-                "Antece": "Malik Beasley",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 222,
@@ -614,9 +614,9 @@
                 "Rank": 25,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 491,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 493,
+                "Diff": "7",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1444,13 +1444,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Payton Pritchard (2 three-pointers today) has passed Gabe Vincent, Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 151st all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777073876643393_8229_collage_1777073876558429.png"
-            ],
-            "timestamp": 1777073881
-        },
-        {
             "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Paul Westphal and is now ranked 111th all-time with 354 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777074073267290_7087_collage_1777074073169324.png"
@@ -2142,6 +2135,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155442118898_7828_collage_1777155442054920.png"
             ],
             "timestamp": 1777155446
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Joel Embiid, Malik Beasley and Voshon Lenard and is now ranked 209th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155543764918_2868_collage_1777155543682946.png"
+            ],
+            "timestamp": 1777155549
         }
     ],
     "notificaciones_franchise": [
@@ -2846,7 +2846,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 540,
+    "total_notificaciones_historicas": 541,
     "total_franchise_historicas": 230,
-    "cache_buster": 1777155446
+    "cache_buster": 1777155549
 }
