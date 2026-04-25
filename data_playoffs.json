@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:22",
+    "ultima_actualizacion": "03:19:40",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 31,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 16,
-                "Total": 2996,
-                "Diff": "4",
+                "Hoy": 18,
+                "Total": 2998,
+                "Diff": "2",
                 "Antece": "3000",
                 "Nota": "",
                 "game_status": "playing"
@@ -105,9 +105,9 @@
                 "Rank": 208,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 7,
-                "Total": 1126,
-                "Diff": "6",
+                "Hoy": 9,
+                "Total": 1128,
+                "Diff": "4",
                 "Antece": "Mychal Thompson",
                 "Nota": "",
                 "game_status": "playing"
@@ -326,13 +326,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 111,
+                "Rank": 109,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 356,
+                "Hoy": 4,
+                "Total": 357,
                 "Diff": "1",
-                "Antece": "Reggie Miller",
+                "Antece": "Sam Jones",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -427,14 +427,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 68,
+                "Rank": 67,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 137,
-                "Diff": "",
-                "Antece": "Jamaal Wilkes",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 138,
+                "Diff": "3",
+                "Antece": "Ron Harper",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -902,9 +902,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 2996,
-                "Diff": "4",
+                "Hoy": 18,
+                "Total": 2998,
+                "Diff": "2",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -952,9 +952,9 @@
                 "Rank": 15,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 356,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 357,
+                "Diff": "1",
                 "Antece": "Sam Jones",
                 "game_status": "playing"
             },
@@ -982,9 +982,9 @@
                 "Rank": 8,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 137,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 138,
+                "Diff": "0",
                 "Antece": "Robert Parish",
                 "game_status": "playing"
             },
@@ -1367,13 +1367,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Gabe Vincent (1 three-pointer today) has passed Payton Pritchard and is now ranked 151st all-time with 84 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages/1776987204951306_collage_1776987204862512.png"
-            ],
-            "timestamp": 1776987207
-        },
         {
             "texto": "CJ McCollum (7 points today) has passed Lamar Odom and is now ranked 153rd all-time with 1,409 in playoffs.",
             "foto": [
@@ -2052,6 +2045,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079597386296_3783_collage_1777079597313332.png"
             ],
             "timestamp": 1777079602
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (1 steal today) has passed Jamaal Wilkes, Terry Porter and Tony Allen and is now ranked 67th all-time with 138 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079975846503_8002_collage_1777079975783540.png"
+            ],
+            "timestamp": 1777079980
         }
     ],
     "notificaciones_franchise": [
@@ -2756,7 +2756,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 466,
+    "total_notificaciones_historicas": 467,
     "total_franchise_historicas": 195,
-    "cache_buster": 1777079602
+    "cache_buster": 1777079980
 }
