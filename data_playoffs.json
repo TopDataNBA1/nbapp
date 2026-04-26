@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:53:31",
+    "ultima_actualizacion": "02:55:12",
     "tablas": {
         "pts": [
             {
                 "Rank": 43,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 2656,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 2658,
+                "Diff": "15",
                 "Antece": "Bill Russell",
                 "Nota": "",
                 "game_status": "playing"
@@ -851,13 +851,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 179,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 97,
+                "Hoy": 1,
+                "Total": 98,
                 "Diff": "",
-                "Antece": "Jermaine O'Neal",
+                "Antece": "Nate McMillan",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -880,9 +880,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 2656,
-                "Diff": "344",
+                "Hoy": 2,
+                "Total": 2658,
+                "Diff": "342",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1120,9 +1120,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 97,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 98,
+                "Diff": "2",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1132,7 +1132,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 82,
-                "Diff": "15",
+                "Diff": "16",
                 "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
@@ -1289,13 +1289,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 111,
-                "Diff": "0",
-                "Antece": "Anthony Peeler",
+                "Hoy": 2,
+                "Total": 112,
+                "Diff": "4",
+                "Antece": "Mike Conley",
                 "game_status": "playing"
             },
             {
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Marcus Smart (2 blocks today) has passed Shane Battier and Wes Unseld and is now ranked 156th all-time with 56 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777082096515598_3240_collage_1777082096442622.png"
-            ],
-            "timestamp": 1777082101
-        },
-        {
             "texto": "📢HOF🏛️ Marcus Smart (8 points today) has passed Dominique Wilkins and is now ranked 150th all-time with 1,425 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777083413308798_9933_collage_1777083413221846.png"
@@ -3242,16 +3235,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777164616876078_2245_collage_1777164616802111.png"
             ],
             "timestamp": 1777164622
+        },
+        {
+            "texto": "📢HOF🏛️ Nikola Jokić today surpasses Derek Harper, Dolph Schayes, Jermaine O'Neal and Ricky Pierce and now ranked 179th all time with 98 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777164907375219_1049_collage_1777164907300087.png"
+            ],
+            "timestamp": 1777164912
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Isaiah Joe (2 three-pointers today) has passed Chet Holmgren and is now ranked 12th in Thunder history with 44 in playoffs.",
-            "foto": [],
-            "timestamp": 1776910941,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 rebounds today) has passed Derrick McKey and is now ranked 21st in Thunder history with 238 in playoffs.",
             "foto": [],
@@ -3944,9 +3937,16 @@
             "timestamp": 1777164622,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Julius Randle (2 rebounds today) has passed Anthony Peeler and is now ranked 9th in Timberwolves history with 112 in playoffs.",
+            "foto": [],
+            "timestamp": 1777164912,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 572,
-    "total_franchise_historicas": 240,
-    "cache_buster": 1777164811
+    "total_notificaciones_historicas": 573,
+    "total_franchise_historicas": 241,
+    "cache_buster": 1777164912
 }
