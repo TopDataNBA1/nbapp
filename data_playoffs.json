@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:21:25",
+    "ultima_actualizacion": "04:23:07",
     "tablas": {
         "pts": [
             {
-                "Rank": 43,
+                "Rank": 42,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 17,
-                "Total": 2673,
-                "Diff": "",
-                "Antece": "Bill Russell",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 2674,
+                "Diff": "21",
+                "Antece": "Jaylen Brown",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -219,9 +219,9 @@
                 "Rank": 40,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 651,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 652,
+                "Diff": "4",
                 "Antece": "Danny Ainge",
                 "Nota": "",
                 "game_status": "playing"
@@ -880,9 +880,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 2673,
-                "Diff": "327",
+                "Hoy": 18,
+                "Total": 2674,
+                "Diff": "326",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1332,9 +1332,9 @@
                 "Rank": 3,
                 "Nombre": "Mike Conley",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 173,
-                "Diff": "63",
+                "Hoy": 2,
+                "Total": 174,
+                "Diff": "62",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1344,7 +1344,7 @@
                 "Stat": "AST",
                 "Hoy": 2,
                 "Total": 88,
-                "Diff": "85",
+                "Diff": "86",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Jrue Holiday (1 three-pointer today) has passed George Hill and Kevin Love and is now ranked 44th all-time with 176 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087505217285_6227_collage_1777087505143315.png"
-            ],
-            "timestamp": 1777087510
-        },
-        {
             "texto": "📢🔝💯 Jrue Holiday (2 three-pointers today) has passed John Starks and is now ranked 43rd all-time with 177 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087790801833_3141_collage_1777087790700855.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777170080144612_3362_collage_1777170080070628.png"
             ],
             "timestamp": 1777170084
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Nikola Jokić (18 points today) has passed Bill Russell and is now ranked 42nd all-time with 2,674 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777170181695783_9677_collage_1777170181615763.png"
+            ],
+            "timestamp": 1777170187
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 582,
+    "total_notificaciones_historicas": 583,
     "total_franchise_historicas": 248,
-    "cache_buster": 1777170085
+    "cache_buster": 1777170187
 }
