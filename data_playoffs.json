@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:53:13",
+    "ultima_actualizacion": "01:58:06",
     "tablas": {
         "pts": [
             {
@@ -102,14 +102,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 209,
+                "Rank": 208,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1130,
-                "Diff": "2",
-                "Antece": "Mychal Thompson",
-                "Nota": "A tiro de 2",
+                "Hoy": 3,
+                "Total": 1133,
+                "Diff": "8",
+                "Antece": "Vern Mikkelsen",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -418,14 +418,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 79,
+                "Rank": 77,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 102,
-                "Diff": "",
-                "Antece": "Chris Bosh",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 103,
+                "Diff": "1",
+                "Antece": "Amar'e Stoudemire",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -610,9 +610,9 @@
                 "Rank": 35,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 192,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 193,
+                "Diff": "3",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -920,9 +920,9 @@
                 "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 186,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 187,
+                "Diff": "13",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1244,9 +1244,9 @@
                 "Rank": 5,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 102,
-                "Diff": "31",
+                "Hoy": 1,
+                "Total": 103,
+                "Diff": "30",
                 "Antece": "Bobby Jones",
                 "game_status": "playing"
             },
@@ -1417,20 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dillon Brooks (1 three-pointer today) has passed Austin Reaves, Nikola Mirotić and Obi Toppin and is now ranked 225th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777148224564614_9547_collage_1777148224500635.png"
-            ],
-            "timestamp": 1777148229
-        },
-        {
-            "texto": "Devin Booker (9 points today) has passed Peja Stojaković and is now ranked 160th all-time with 1,369 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777148604900007_6640_collage_1777148604811560.png"
-            ],
-            "timestamp": 1777148610
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (13 points today) has passed Wes Unseld and is now ranked 178th all-time with 1,261 in playoffs.",
             "foto": [
@@ -2116,6 +2102,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247588366436_6217_collage_1777247588268463.png"
             ],
             "timestamp": 1777247593
+        },
+        {
+            "texto": "Derrick White (3 points today) has passed Mychal Thompson and is now ranked 208th all-time with 1,133 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247875406916_6964_collage_1777247875311949.png"
+            ],
+            "timestamp": 1777247880
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Joel Embiid (1 block today) has passed Antonio Davis and Chris Bosh and is now ranked 77th all-time with 103 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247880612733_2151_collage_1777247880539756.png"
+            ],
+            "timestamp": 1777247885
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 615,
+    "total_notificaciones_historicas": 617,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777247593
+    "cache_buster": 1777247886
 }
