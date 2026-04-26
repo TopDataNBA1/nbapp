@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:30:25",
+    "ultima_actualizacion": "22:44:31",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 1609,
-                "Diff": "41",
+                "Hoy": 6,
+                "Total": 1612,
+                "Diff": "38",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -266,13 +266,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 42,
+                "Rank": 40,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 181,
+                "Hoy": 2,
+                "Total": 182,
                 "Diff": "",
-                "Antece": "Dan Majerle",
+                "Antece": "Andre Iguodala",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (5 three-pointers today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 163rd all-time with 80 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777142245466065_2873_collage_1777142245396589.png"
-            ],
-            "timestamp": 1777142250
-        },
         {
             "texto": "📢HOF🏛️ Desmond Bane (6 three-pointers today) has passed Larry Bird and is now ranked 158th all-time with 81 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777235419814576_4801_collage_1777235419726620.png"
             ],
             "timestamp": 1777235425
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (2 three-pointers today) has passed Dan Majerle and is now ranked 40th all-time with 182 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777236265792109_2839_collage_1777236265688142.png"
+            ],
+            "timestamp": 1777236271
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 601,
+    "total_notificaciones_historicas": 602,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777235425
+    "cache_buster": 1777236271
 }
