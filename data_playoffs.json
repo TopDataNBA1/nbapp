@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:08:43",
+    "ultima_actualizacion": "00:10:24",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 19,
-                "Total": 1625,
-                "Diff": "25",
+                "Hoy": 20,
+                "Total": 1626,
+                "Diff": "24",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,11 +63,11 @@
                 "Rank": 183,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 5,
-                "Total": 535,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 536,
+                "Diff": "",
                 "Antece": "Byron Scott",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (11 points today) has passed Derrick White and is now ranked 208th all-time with 1,131 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777142831252507_5316_collage_1777142831161564.png"
-            ],
-            "timestamp": 1777142836
-        },
         {
             "texto": "Tobias Harris (13 points today) has passed Mychal Thompson and is now ranked 207th all-time with 1,133 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777238980785468_7291_collage_1777238980711501.png"
             ],
             "timestamp": 1777238985
+        },
+        {
+            "texto": "Jrue Holiday (6 rebounds today) has passed Larry Nance and is now ranked 183rd all-time with 536 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777241419052226_8203_collage_1777241418952268.png"
+            ],
+            "timestamp": 1777241424
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 603,
+    "total_notificaciones_historicas": 604,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777241323
+    "cache_buster": 1777241424
 }
