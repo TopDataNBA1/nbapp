@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "20:36:15",
+    "ultima_actualizacion": "20:39:42",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 84,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 1866,
-                "Diff": "10",
+                "Hoy": 8,
+                "Total": 1868,
+                "Diff": "8",
                 "Antece": "Hal Greer",
                 "Nota": "",
                 "game_status": "playing"
@@ -99,14 +99,14 @@
         ],
         "blk": [
             {
-                "Rank": 83,
+                "Rank": 81,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 99,
-                "Diff": "",
-                "Antece": "Bob Lanier",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 100,
+                "Diff": "1",
+                "Antece": "George Johnson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -187,9 +187,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 761,
-                "Diff": "21",
+                "Hoy": 8,
+                "Total": 763,
+                "Diff": "19",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 21,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 68,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 69,
+                "Diff": "1",
                 "Antece": "Amir Johnson",
                 "game_status": "playing"
             },
@@ -438,20 +438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (1 rebound today) has passed Detlef Schrempf and is now ranked 163rd all-time with 566 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777136987559464_5630_collage_1777136987448632.png"
-            ],
-            "timestamp": 1777136993
-        },
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777137090600525_8432_collage_1777137090516550.png"
-            ],
-            "timestamp": 1777137096
-        },
         {
             "texto": "Desmond Bane (2 three-pointers today) has passed Allan Houston and Channing Frye and is now ranked 172nd all-time with 77 in playoffs.",
             "foto": [
@@ -1137,6 +1123,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777227340022204_6082_collage_1777227339931002.png"
             ],
             "timestamp": 1777227345
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 block today) becomes the 81st player to reach 100 in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777228771850280_7691_collage_1777228771785823.png"
+            ],
+            "timestamp": 1777228776
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Bob Lanier and Kawhi Leonard and is now ranked 81st all-time with 100 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777228776631518_2022_collage_1777228776551527.png"
+            ],
+            "timestamp": 1777228781
         }
     ],
     "notificaciones_franchise": [
@@ -1841,7 +1841,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 592,
+    "total_notificaciones_historicas": 594,
     "total_franchise_historicas": 260,
-    "cache_buster": 1777228575
+    "cache_buster": 1777228782
 }
