@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:11:18",
+    "ultima_actualizacion": "01:13:00",
     "tablas": {
         "pts": [
             {
@@ -91,14 +91,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 136,
+                "Rank": 135,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 1471,
-                "Diff": "",
-                "Antece": "Earl Monroe",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1473,
+                "Diff": "14",
+                "Antece": "Sidney Moncrief",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1471,
-                "Diff": "259",
+                "Hoy": 4,
+                "Total": 1473,
+                "Diff": "257",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (23 points today) has passed Derrick Rose, Tom Sanders and Vern Mikkelsen and is now ranked 204th all-time with 1,143 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777145692290069_4740_collage_1777145692223092.png"
-            ],
-            "timestamp": 1777145697
-        },
         {
             "texto": "Tobias Harris (2 three-pointers today) becomes the 119th player to reach 100 in playoffs",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245072644465_5407_collage_1777245072516539.png"
             ],
             "timestamp": 1777245078
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (4 points today) has passed Earl Monroe and is now ranked 135th all-time with 1,473 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245174884635_4472_collage_1777245174777661.png"
+            ],
+            "timestamp": 1777245179
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 606,
+    "total_notificaciones_historicas": 607,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777245078
+    "cache_buster": 1777245180
 }
