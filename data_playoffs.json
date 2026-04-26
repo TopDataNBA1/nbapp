@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:51:32",
+    "ultima_actualizacion": "01:53:13",
     "tablas": {
         "pts": [
             {
@@ -140,9 +140,9 @@
                 "Rank": 72,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 864,
-                "Diff": "10",
+                "Hoy": 3,
+                "Total": 865,
+                "Diff": "9",
                 "Antece": "Manu Ginóbili",
                 "Nota": "",
                 "game_status": "playing"
@@ -293,14 +293,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 253,
-                "Diff": "",
-                "Antece": "Dave DeBusschere",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 254,
+                "Diff": "3",
+                "Antece": "Paul Seymour",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -830,9 +830,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 231,
-                "Diff": "43",
+                "Hoy": 2,
+                "Total": 232,
+                "Diff": "42",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -940,9 +940,9 @@
                 "Rank": 16,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "0",
                 "Antece": "Isaiah Thomas",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Aaron Gordon, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 181st all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777147373407742_8819_collage_1777147373339779.png"
-            ],
-            "timestamp": 1777147380
-        },
         {
             "texto": "Dillon Brooks (1 three-pointer today) has passed Austin Reaves, Nikola Mirotić and Obi Toppin and is now ranked 225th all-time with 62 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247390529780_8787_collage_1777247390445089.png"
             ],
             "timestamp": 1777247395
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (2 assists today) has passed Dave DeBusschere and is now ranked 182nd all-time with 254 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247588366436_6217_collage_1777247588268463.png"
+            ],
+            "timestamp": 1777247593
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 614,
+    "total_notificaciones_historicas": 615,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777247492
+    "cache_buster": 1777247593
 }
