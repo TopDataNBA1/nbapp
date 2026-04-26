@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:49:23",
+    "ultima_actualizacion": "21:51:04",
     "tablas": {
         "pts": [
             {
@@ -44,7 +44,7 @@
                 "Diff": "2",
                 "Antece": "Serge Ibaka",
                 "Nota": "A tiro de 2",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "trb": [
@@ -63,12 +63,12 @@
                 "Rank": 185,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 530,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 531,
+                "Diff": "1",
                 "Antece": "Steven Adams",
-                "Nota": "",
-                "game_status": "not_started"
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
             }
         ],
         "ast": [
@@ -92,7 +92,7 @@
                 "Diff": "2",
                 "Antece": "Terry Porter",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 85,
@@ -149,7 +149,7 @@
                 "Diff": "1",
                 "Antece": "Ron Harper",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 138,
@@ -195,7 +195,7 @@
                 "Diff": "",
                 "Antece": "John Stockton",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 223,
@@ -217,7 +217,7 @@
                 "Diff": "",
                 "Antece": "James Donaldson",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 243,
@@ -228,7 +228,7 @@
                 "Diff": "",
                 "Antece": "Anderson Varejão",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -274,7 +274,7 @@
                 "Diff": "1",
                 "Antece": "Dan Majerle",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 62,
@@ -307,7 +307,7 @@
                 "Diff": "1",
                 "Antece": "Karl-Anthony Towns",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "g": [
@@ -323,15 +323,15 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 169,
+                "Rank": 167,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 100,
+                "Hoy": 1,
+                "Total": 101,
                 "Diff": "",
-                "Antece": "Antonio McDyess",
+                "Antece": "Dikembe Mutombo",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ]
     },
@@ -615,9 +615,9 @@
                 "Rank": 22,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 151,
-                "Diff": "3",
+                "Hoy": 21,
+                "Total": 152,
+                "Diff": "2",
                 "Antece": "T.J. Ford",
                 "game_status": "playing"
             },
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (4 three-pointers today) has passed Bogdan Bogdanović, David Wesley, Marco Belinelli and Royce O'Neale and is now ranked 165th all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139197973186_6588_collage_1777139197904208.png"
-            ],
-            "timestamp": 1777139203
-        },
         {
             "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed P.J. Tucker and is now ranked 59th all-time with 155 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777231636184585_3081_collage_1777231636107666.png"
             ],
             "timestamp": 1777231641
+        },
+        {
+            "texto": "Jrue Holiday today surpasses Anthony Johnson and Antonio McDyess and now ranked 167th all time with 101 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777233058785714_7751_collage_1777233058699157.png"
+            ],
+            "timestamp": 1777233064
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 597,
+    "total_notificaciones_historicas": 598,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777232963
+    "cache_buster": 1777233064
 }
