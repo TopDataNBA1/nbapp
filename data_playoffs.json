@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:35:31",
+    "ultima_actualizacion": "01:37:12",
     "tablas": {
         "pts": [
             {
@@ -651,14 +651,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 136,
+                "Rank": 134,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 90,
-                "Diff": "",
-                "Antece": "Mario Elie",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 91,
+                "Diff": "1",
+                "Antece": "Kirk Hinrich",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -930,9 +930,9 @@
                 "Rank": 8,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 90,
-                "Diff": "10",
+                "Hoy": 3,
+                "Total": 91,
+                "Diff": "9",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (6 points today) has passed Brook Lopez and is now ranked 180th all-time with 1,254 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777147265015106_9721_collage_1777147264930153.png"
-            ],
-            "timestamp": 1777147270
-        },
         {
             "texto": "Shai Gilgeous-Alexander (9 points today) has passed Andrew Toney and is now ranked 179th all-time with 1,257 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777246526010044_3661_collage_1777246525920076.png"
             ],
             "timestamp": 1777246531
+        },
+        {
+            "texto": "Payton Pritchard (3 three-pointers today) has passed Craig Hodges, Mario Elie and Tim Hardaway Jr. and is now ranked 134th all-time with 91 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777246628193789_8716_collage_1777246628123110.png"
+            ],
+            "timestamp": 1777246632
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 612,
+    "total_notificaciones_historicas": 613,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777246531
+    "cache_buster": 1777246632
 }
