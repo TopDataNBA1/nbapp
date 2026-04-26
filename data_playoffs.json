@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:06:21",
+    "ultima_actualizacion": "02:08:10",
     "tablas": {
         "pts": [
             {
@@ -102,14 +102,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 12,
-                "Total": 1065,
-                "Diff": "",
-                "Antece": "Josh Smith",
-                "Nota": "Mismo total",
+                "Hoy": 15,
+                "Total": 1068,
+                "Diff": "2",
+                "Antece": "Larry Nance",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -162,11 +162,11 @@
                 "Rank": 158,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 576,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 577,
+                "Diff": "1",
                 "Antece": "Oscar Robertson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -241,11 +241,11 @@
                 "Rank": 95,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 380,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 381,
+                "Diff": "1",
                 "Antece": "Tim Hardaway",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -717,13 +717,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 162,
+                "Rank": 159,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 81,
+                "Hoy": 1,
+                "Total": 82,
                 "Diff": "",
-                "Antece": "Jason Williams",
+                "Antece": "Iman Shumpert",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1744,9 +1744,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 249,
-                "Diff": "13",
+                "Hoy": 8,
+                "Total": 250,
+                "Diff": "12",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -1754,9 +1754,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 304,
-                "Diff": "88",
+                "Hoy": 2,
+                "Total": 305,
+                "Diff": "87",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1914,9 +1914,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 32,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 33,
+                "Diff": "0",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -2543,20 +2543,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Payton Pritchard (4 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 147th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777078997238576_7301_collage_1777078997167600.png"
-            ],
-            "timestamp": 1777079002
-        },
-        {
-            "texto": "Tyrese Maxey (4 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 126th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079377971116_2244_collage_1777079377907146.png"
-            ],
-            "timestamp": 1777079382
-        },
         {
             "texto": "📢🔝💯 Paul George (3 assists today) has passed Doc Rivers and is now ranked 65th all-time with 480 in playoffs.",
             "foto": [
@@ -3242,6 +3228,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777161691284226_8413_collage_1777161691201258.png"
             ],
             "timestamp": 1777161696
+        },
+        {
+            "texto": "Karl-Anthony Towns (15 points today) has passed Josh Smith and is now ranked 231st all-time with 1,068 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162078151500_7648_collage_1777162078065119.png"
+            ],
+            "timestamp": 1777162084
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 three-pointer today) has passed Harrison Barnes, Isiah Thomas, Jason Williams and Raja Bell and is now ranked 159th all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162085176254_1923_collage_1777162085107288.png"
+            ],
+            "timestamp": 1777162090
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 559,
+    "total_notificaciones_historicas": 561,
     "total_franchise_historicas": 234,
-    "cache_buster": 1777161981
+    "cache_buster": 1777162090
 }
