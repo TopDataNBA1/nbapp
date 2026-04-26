@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:35:54",
+    "ultima_actualizacion": "19:37:36",
     "tablas": {
         "pts": [
             {
@@ -110,13 +110,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 231,
+                "Rank": 223,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 42,
+                "Hoy": 1,
+                "Total": 43,
                 "Diff": "",
-                "Antece": "Derrick Favors",
+                "Antece": "Daniel Gafford",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -217,9 +217,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 249,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 250,
+                "Diff": "4",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -317,9 +317,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "10",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -438,13 +438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jrue Holiday (27 points today) has passed Tayshaun Prince and is now ranked 111th all-time with 1,604 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777093197318830_9192_collage_1777093197232859.png"
-            ],
-            "timestamp": 1777093202
-        },
         {
             "texto": "📢🔝💯 Jrue Holiday (3 steals today) has passed Jaylen Brown and is now ranked 67th all-time with 139 in playoffs.",
             "foto": [
@@ -1137,6 +1130,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777224381678326_3161_collage_1777224381573744.png"
             ],
             "timestamp": 1777224386
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 223rd all-time with 43 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777225050586191_2375_collage_1777225050486369.png"
+            ],
+            "timestamp": 1777225056
         }
     ],
     "notificaciones_franchise": [
@@ -1841,7 +1841,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 590,
+    "total_notificaciones_historicas": 591,
     "total_franchise_historicas": 258,
-    "cache_buster": 1777224954
+    "cache_buster": 1777225056
 }
