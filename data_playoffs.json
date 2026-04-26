@@ -1,25 +1,25 @@
 {
-    "ultima_actualizacion": "04:19:44",
+    "ultima_actualizacion": "04:21:25",
     "tablas": {
         "pts": [
             {
                 "Rank": 43,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 16,
-                "Total": 2672,
-                "Diff": "1",
+                "Hoy": 17,
+                "Total": 2673,
+                "Diff": "",
                 "Antece": "Bill Russell",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
                 "Rank": 69,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 16,
-                "Total": 1968,
-                "Diff": "32",
+                "Hoy": 19,
+                "Total": 1971,
+                "Diff": "29",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -306,14 +306,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 87,
+                "Rank": 83,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 120,
-                "Diff": "",
-                "Antece": "John Starks",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 122,
+                "Diff": "1",
+                "Antece": "George Hill",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -533,9 +533,9 @@
                 "Rank": 28,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 213,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 214,
+                "Diff": "2",
                 "Antece": "Marcus Smart",
                 "Nota": "",
                 "game_status": "playing"
@@ -880,9 +880,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 2672,
-                "Diff": "328",
+                "Hoy": 17,
+                "Total": 2673,
+                "Diff": "327",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -890,9 +890,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1968,
-                "Diff": "32",
+                "Hoy": 19,
+                "Total": 1971,
+                "Diff": "29",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -980,9 +980,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 120,
-                "Diff": "80",
+                "Hoy": 3,
+                "Total": 122,
+                "Diff": "78",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1070,9 +1070,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 213,
-                "Diff": "87",
+                "Hoy": 2,
+                "Total": 214,
+                "Diff": "86",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -1292,9 +1292,9 @@
                 "Rank": 9,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 114,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 115,
+                "Diff": "1",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jrue Holiday (2 rebounds today) has passed Blake Griffin and is now ranked 187th all-time with 526 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087216122242_8742_collage_1777087216038269.png"
-            ],
-            "timestamp": 1777087223
-        },
-        {
             "texto": "📢🔝💯 Jrue Holiday (1 three-pointer today) has passed George Hill and Kevin Love and is now ranked 44th all-time with 176 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087505217285_6227_collage_1777087505143315.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777169406787256_3918_collage_1777169406703299.png"
             ],
             "timestamp": 1777169411
+        },
+        {
+            "texto": "📢🔝💯 Nikola Jokić (3 steals today) has passed John Starks and Kenyon Martin and is now ranked 83rd all-time with 122 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777170080144612_3362_collage_1777170080070628.png"
+            ],
+            "timestamp": 1777170084
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 581,
+    "total_notificaciones_historicas": 582,
     "total_franchise_historicas": 248,
-    "cache_buster": 1777169984
+    "cache_buster": 1777170085
 }
