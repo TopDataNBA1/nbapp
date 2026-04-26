@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:21:53",
+    "ultima_actualizacion": "23:29:45",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 11,
-                "Total": 1617,
-                "Diff": "33",
+                "Hoy": 14,
+                "Total": 1620,
+                "Diff": "30",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -266,14 +266,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 40,
+                "Rank": 39,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 2,
-                "Total": 182,
-                "Diff": "",
-                "Antece": "Andre Iguodala",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 183,
+                "Diff": "4",
+                "Antece": "Russell Westbrook",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Desmond Bane (6 three-pointers today) has passed Larry Bird and is now ranked 158th all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777142632883154_5027_collage_1777142632804198.png"
-            ],
-            "timestamp": 1777142638
-        },
         {
             "texto": "Tobias Harris (11 points today) has passed Derrick White and is now ranked 208th all-time with 1,131 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777236265792109_2839_collage_1777236265688142.png"
             ],
             "timestamp": 1777236271
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (3 three-pointers today) has passed Andre Iguodala and Luka Dončić and is now ranked 39th all-time with 183 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777238980785468_7291_collage_1777238980711501.png"
+            ],
+            "timestamp": 1777238985
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 602,
+    "total_notificaciones_historicas": 603,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777238513
+    "cache_buster": 1777238985
 }
