@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:00:06",
+    "ultima_actualizacion": "03:01:49",
     "tablas": {
         "pts": [
             {
                 "Rank": 43,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 6,
-                "Total": 2662,
-                "Diff": "11",
+                "Hoy": 8,
+                "Total": 2664,
+                "Diff": "9",
                 "Antece": "Bill Russell",
                 "Nota": "",
                 "game_status": "playing"
@@ -113,14 +113,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 235,
+                "Rank": 234,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1060,
-                "Diff": "",
-                "Antece": "Jamal Crawford",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1062,
+                "Diff": "2",
+                "Antece": "Toni Kukoč",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -880,9 +880,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 2662,
-                "Diff": "338",
+                "Hoy": 8,
+                "Total": 2664,
+                "Diff": "336",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1182,9 +1182,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 403,
-                "Diff": "120",
+                "Hoy": 2,
+                "Total": 405,
+                "Diff": "118",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1194,7 +1194,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 384,
-                "Diff": "19",
+                "Diff": "21",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1372,9 +1372,9 @@
                 "Rank": 14,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 55,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 56,
+                "Diff": "0",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Marcus Smart (10 points today) has passed CJ McCollum and is now ranked 149th all-time with 1,427 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777083514438636_7075_collage_1777083514353664.png"
-            ],
-            "timestamp": 1777083519
-        },
-        {
             "texto": "Marcus Smart (16 points today) has passed Detlef Schrempf and is now ranked 148th all-time with 1,433 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777085107930634_9406_collage_1777085107825670.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777165201259716_4351_collage_1777165201181785.png"
             ],
             "timestamp": 1777165206
+        },
+        {
+            "texto": "Rudy Gobert (2 points today) has passed Jamal Crawford and is now ranked 234th all-time with 1,062 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777165303684175_3272_collage_1777165303595142.png"
+            ],
+            "timestamp": 1777165308
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 574,
+    "total_notificaciones_historicas": 575,
     "total_franchise_historicas": 243,
-    "cache_buster": 1777165206
+    "cache_buster": 1777165309
 }
