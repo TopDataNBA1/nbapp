@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:09:36",
+    "ultima_actualizacion": "01:11:18",
     "tablas": {
         "pts": [
             {
@@ -118,11 +118,11 @@
                 "Rank": 51,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 1020,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1021,
+                "Diff": "1",
                 "Antece": "Giannis Antetokounmpo",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -140,9 +140,9 @@
                 "Rank": 72,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 862,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 863,
+                "Diff": "11",
                 "Antece": "Manu Ginóbili",
                 "Nota": "",
                 "game_status": "playing"
@@ -293,13 +293,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 184,
+                "Rank": 183,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 252,
+                "Hoy": 1,
+                "Total": 253,
                 "Diff": "",
-                "Antece": "B.J. Armstrong",
+                "Antece": "Dave DeBusschere",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -744,11 +744,11 @@
                 "Rank": 113,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 118,
+                "Diff": "",
                 "Antece": "David West",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -790,9 +790,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 1020,
-                "Diff": "166",
+                "Hoy": 2,
+                "Total": 1021,
+                "Diff": "165",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -830,9 +830,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 230,
-                "Diff": "44",
+                "Hoy": 1,
+                "Total": 231,
+                "Diff": "43",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Desmond Bane (7 three-pointers today) has passed Harrison Barnes, Isiah Thomas, Jason Williams, Karl-Anthony Towns and Raja Bell and is now ranked 157th all-time with 82 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777144363007459_1170_collage_1777144362936482.png"
-            ],
-            "timestamp": 1777144368
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (23 points today) has passed Derrick Rose, Tom Sanders and Vern Mikkelsen and is now ranked 204th all-time with 1,143 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777244875114142_2605_collage_1777244875047778.png"
             ],
             "timestamp": 1777244879
+        },
+        {
+            "texto": "Derrick White (1 assist today) has passed B.J. Armstrong and Sedale Threatt and is now ranked 183rd all-time with 253 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245072644465_5407_collage_1777245072516539.png"
+            ],
+            "timestamp": 1777245078
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 605,
+    "total_notificaciones_historicas": 606,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777244976
+    "cache_buster": 1777245078
 }
