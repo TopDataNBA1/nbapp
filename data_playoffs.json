@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:32:16",
+    "ultima_actualizacion": "01:35:31",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 135,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 8,
-                "Total": 1477,
-                "Diff": "10",
+                "Hoy": 10,
+                "Total": 1479,
+                "Diff": "8",
                 "Antece": "Sidney Moncrief",
                 "Nota": "",
                 "game_status": "playing"
@@ -227,14 +227,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 46,
+                "Rank": 45,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 618,
-                "Diff": "",
-                "Antece": "Andre Iguodala",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 619,
+                "Diff": "5",
+                "Antece": "Terry Porter",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -810,9 +810,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 618,
-                "Diff": "121",
+                "Hoy": 4,
+                "Total": 619,
+                "Diff": "120",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1477,
-                "Diff": "253",
+                "Hoy": 10,
+                "Total": 1479,
+                "Diff": "251",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1214,9 +1214,9 @@
                 "Rank": 23,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 153,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 154,
+                "Diff": "10",
                 "Antece": "Wali Jones",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Devin Booker (1 assist today) has passed Dave DeBusschere and is now ranked 181st all-time with 254 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777146589609730_3375_collage_1777146589511740.png"
-            ],
-            "timestamp": 1777146595
-        },
         {
             "texto": "Shai Gilgeous-Alexander (6 points today) has passed Brook Lopez and is now ranked 180th all-time with 1,254 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777246330807456_3254_collage_1777246330732801.png"
             ],
             "timestamp": 1777246335
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (4 assists today) has passed Andre Iguodala and is now ranked 45th all-time with 619 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777246526010044_3661_collage_1777246525920076.png"
+            ],
+            "timestamp": 1777246531
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 611,
+    "total_notificaciones_historicas": 612,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777246336
+    "cache_buster": 1777246531
 }
