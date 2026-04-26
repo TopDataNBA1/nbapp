@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:16:09",
+    "ultima_actualizacion": "22:17:51",
     "tablas": {
         "pts": [
             {
@@ -63,11 +63,11 @@
                 "Rank": 184,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 533,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 534,
+                "Diff": "1",
                 "Antece": "Larry Nance",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -84,14 +84,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 43,
+                "Rank": 42,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 2,
-                "Total": 624,
-                "Diff": "",
-                "Antece": "Al Horford",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 625,
+                "Diff": "5",
+                "Antece": "Deron Williams",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (6 points today) has passed Archie Clark and is now ranked 209th all-time with 1,126 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139686072539_5127_collage_1777139685970596.png"
-            ],
-            "timestamp": 1777139691
-        },
         {
             "texto": "Tobias Harris (5 rebounds today) has passed Karl-Anthony Towns and Tom Chambers and is now ranked 161st all-time with 570 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777234564175718_1159_collage_1777234564078752.png"
             ],
             "timestamp": 1777234569
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (3 assists today) has passed Al Horford and Terry Porter and is now ranked 42nd all-time with 625 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777234666163869_1172_collage_1777234666089899.png"
+            ],
+            "timestamp": 1777234671
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 599,
+    "total_notificaciones_historicas": 600,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777234569
+    "cache_buster": 1777234671
 }
