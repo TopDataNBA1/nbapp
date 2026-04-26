@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:56",
+    "ultima_actualizacion": "02:19:38",
     "tablas": {
         "pts": [
             {
@@ -105,11 +105,11 @@
                 "Rank": 229,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 19,
-                "Total": 1072,
-                "Diff": "2",
+                "Hoy": 20,
+                "Total": 1073,
+                "Diff": "1",
                 "Antece": "Trevor Ariza",
-                "Nota": "A tiro de 2",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -618,13 +618,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 101,
+                "Rank": 100,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 111,
+                "Hoy": 3,
+                "Total": 112,
                 "Diff": "",
-                "Antece": "John Stockton",
+                "Antece": "Bradley Beal",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1711,13 +1711,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 510,
-                "Diff": "0",
-                "Antece": "Gerald Wilkins",
+                "Hoy": 22,
+                "Total": 513,
+                "Diff": "23",
+                "Antece": "Carl Braun",
                 "game_status": "playing"
             },
             {
@@ -1881,13 +1881,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 5,
+                "Rank": 4,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 67,
-                "Diff": "0",
-                "Antece": "Derek Harper",
+                "Hoy": 3,
+                "Total": 68,
+                "Diff": "1",
+                "Antece": "Allan Houston",
                 "game_status": "playing"
             },
             {
@@ -1897,7 +1897,7 @@
                 "Hoy": 1,
                 "Total": 56,
                 "Diff": "11",
-                "Antece": "OG Anunoby",
+                "Antece": "Derek Harper",
                 "game_status": "playing"
             },
             {
@@ -2543,13 +2543,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Paul George (2 steals today) has passed Gus Williams and Kyle Lowry and is now ranked 41st all-time with 175 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079592291927_8534_collage_1777079592218952.png"
-            ],
-            "timestamp": 1777079597
-        },
         {
             "texto": "Tyrese Maxey (5 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 124th all-time with 97 in playoffs.",
             "foto": [
@@ -3242,23 +3235,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162670906006_6323_collage_1777162670833123.png"
             ],
             "timestamp": 1777162676
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (3 three-pointers today) has passed John Stockton and is now ranked 100th all-time with 112 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162772886387_3171_collage_1777162772795418.png"
+            ],
+            "timestamp": 1777162778
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Paolo Banchero (1 block today) has passed Nikola Vučević and is now ranked 16th in Magic history with 9 in playoffs.",
-            "foto": [],
-            "timestamp": 1776908018,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢HOF🏛️ Devin Booker today surpasses Charles Barkley and is now ranked 13th in Suns history with 49 games in playoffs.",
-            "foto": [],
-            "timestamp": 1776908959,
-            "team": "PHO",
-            "type": "franchise"
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 steal today) has passed James Harden and is now ranked 12th in Thunder history with 59 in playoffs.",
             "foto": [],
@@ -3944,9 +3930,23 @@
             "timestamp": 1777161981,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "OG Anunoby (22 points today) has passed Phil Jackson and Gerald Wilkins and is now ranked 21st in Knicks history with 513 in playoffs.",
+            "foto": [],
+            "timestamp": 1777162778,
+            "team": "NYK",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 OG Anunoby (3 three-pointers today) has passed Derek Harper and is now ranked 4th in Knicks history with 68 in playoffs.",
+            "foto": [],
+            "timestamp": 1777162778,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 564,
-    "total_franchise_historicas": 234,
-    "cache_buster": 1777162676
+    "total_notificaciones_historicas": 565,
+    "total_franchise_historicas": 236,
+    "cache_buster": 1777162778
 }
