@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "19:14:52",
+    "ultima_actualizacion": "19:16:34",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 3963,
-                "Diff": "37",
+                "Hoy": 3,
+                "Total": 3966,
+                "Diff": "34",
                 "Antece": "4000",
                 "Nota": "",
                 "game_status": "playing"
@@ -86,14 +86,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 139,
+                "Rank": 138,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 89,
-                "Diff": "1",
-                "Antece": "Jamal Murray",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 90,
+                "Diff": "",
+                "Antece": "Buck Williams",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -126,9 +126,9 @@
                 "Rank": 4,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 444,
-                "Diff": "43",
+                "Hoy": 1,
+                "Total": 445,
+                "Diff": "42",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "playing"
@@ -169,14 +169,14 @@
         ],
         "g": [
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 176,
-                "Diff": "1",
-                "Antece": "Rasheed Wallace",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 177,
+                "Diff": "",
+                "Antece": "Dwyane Wade",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ]
@@ -227,9 +227,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 182,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 183,
+                "Diff": "9",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -277,20 +277,20 @@
                 "Rank": 21,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "0",
                 "Antece": "Eric Snow",
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "0",
-                "Antece": "Delonte West",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "1",
+                "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
             {
@@ -389,9 +389,9 @@
                 "Rank": 25,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 131,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 135,
+                "Diff": "2",
                 "Antece": "José Calderón",
                 "game_status": "playing"
             },
@@ -438,13 +438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday (2 steals today) has passed Jamaal Wilkes, Terry Porter and Tony Allen and is now ranked 68th all-time with 138 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777091514414892_4137_collage_1777091514349913.png"
-            ],
-            "timestamp": 1777091518
-        },
         {
             "texto": "Jrue Holiday (5 rebounds today) has passed Trevor Ariza and is now ranked 185th all-time with 529 in playoffs.",
             "foto": [
@@ -1137,16 +1130,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777172483483181_3610_collage_1777172483420219.png"
             ],
             "timestamp": 1777172488
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Fat Lever, Luka Dončić, Norm Nixon and Paul Westphal and is now ranked 138th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777223789783868_6751_collage_1777223789713884.png"
+            ],
+            "timestamp": 1777223794
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 steal today) has passed Eric Snow and Ron Harper and is now ranked 21st in Cavaliers history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1776991438,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Chris Childs, Hubert Davis and Mikal Bridges and is now ranked 13th in Knicks history with 32 in playoffs.",
             "foto": [],
@@ -1839,9 +1832,16 @@
             "timestamp": 1777223692,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (1 steal today) has passed Delonte West and is now ranked 11th in Cavaliers history with 44 in playoffs.",
+            "foto": [],
+            "timestamp": 1777223794,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 587,
-    "total_franchise_historicas": 256,
-    "cache_buster": 1777223692
+    "total_notificaciones_historicas": 588,
+    "total_franchise_historicas": 257,
+    "cache_buster": 1777223794
 }
