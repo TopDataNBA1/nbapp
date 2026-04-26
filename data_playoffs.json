@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:36",
+    "ultima_actualizacion": "01:16:18",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 135,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 6,
-                "Total": 1475,
-                "Diff": "12",
+                "Hoy": 8,
+                "Total": 1477,
+                "Diff": "10",
                 "Antece": "Sidney Moncrief",
                 "Nota": "",
                 "game_status": "playing"
@@ -238,14 +238,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 65,
+                "Rank": 64,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 482,
-                "Diff": "",
-                "Antece": "Charles Barkley",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 483,
+                "Diff": "14",
+                "Antece": "Jamal Murray",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 1475,
-                "Diff": "255",
+                "Hoy": 8,
+                "Total": 1477,
+                "Diff": "253",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (2 three-pointers today) becomes the 119th player to reach 100 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777145703662161_1156_collage_1777145703598180.png"
-            ],
-            "timestamp": 1777145708
-        },
         {
             "texto": "Tobias Harris (2 three-pointers today) has passed Baron Davis and Hersey Hawkins and is now ranked 119th all-time with 100 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245174884635_4472_collage_1777245174777661.png"
             ],
             "timestamp": 1777245179
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Paul George (1 assist today) has passed Charles Barkley and is now ranked 64th all-time with 483 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245372899041_1670_collage_1777245372814626.png"
+            ],
+            "timestamp": 1777245378
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 607,
+    "total_notificaciones_historicas": 608,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777245276
+    "cache_buster": 1777245378
 }
