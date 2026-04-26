@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:46:57",
+    "ultima_actualizacion": "04:51:44",
     "tablas": {
         "pts": [
             {
@@ -137,14 +137,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 66,
+                "Rank": 65,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 10,
-                "Total": 928,
-                "Diff": "",
-                "Antece": "Dwyane Wade",
-                "Nota": "Mismo total",
+                "Hoy": 11,
+                "Total": 929,
+                "Diff": "7",
+                "Antece": "Sam Perkins",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -399,11 +399,11 @@
                 "Rank": 53,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 131,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 132,
+                "Diff": "",
                 "Antece": "Clifford Robinson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1242,9 +1242,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 376,
-                "Diff": "252",
+                "Hoy": 11,
+                "Total": 377,
+                "Diff": "251",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1490,22 +1490,22 @@
             },
             {
                 "Rank": 3,
-                "Nombre": "Anthony Edwards",
+                "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 43,
+                "Diff": "1",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
                 "Rank": 4,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Anthony Edwards",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 42,
-                "Diff": "0",
-                "Antece": "Anthony Edwards",
+                "Diff": "1",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1515,7 +1515,7 @@
                 "Hoy": 1,
                 "Total": 33,
                 "Diff": "9",
-                "Antece": "Rudy Gobert",
+                "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
             {
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Jrue Holiday (17 points today) has passed George Gervin, George Hill and Vince Carter and is now ranked 112th all-time with 1,594 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777088170980731_9934_collage_1777088170913752.png"
-            ],
-            "timestamp": 1777088175
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday (4 three-pointers today) has passed Steve Nash and is now ranked 42nd all-time with 179 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777090760152545_5218_collage_1777090760064592.png"
@@ -3242,16 +3235,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777170664914397_4627_collage_1777170664828439.png"
             ],
             "timestamp": 1777170670
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (11 rebounds today) has passed Dwyane Wade and is now ranked 65th all-time with 929 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777171898927740_2043_collage_1777171898854689.png"
+            ],
+            "timestamp": 1777171904
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 point today) has passed Anderson Varejão and is now ranked 13th in Cavaliers history with 421 in playoffs.",
-            "foto": [],
-            "timestamp": 1776990013,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley (3 points today) has passed Craig Ehlo and is now ranked 12th in Cavaliers history with 423 in playoffs.",
             "foto": [],
@@ -3944,9 +3937,16 @@
             "timestamp": 1777171617,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Rudy Gobert (2 blocks today) has passed Anthony Edwards and is now ranked 3rd in Timberwolves history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1777171904,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 584,
-    "total_franchise_historicas": 251,
-    "cache_buster": 1777171617
+    "total_notificaciones_historicas": 585,
+    "total_franchise_historicas": 252,
+    "cache_buster": 1777171904
 }
