@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:25:34",
+    "ultima_actualizacion": "21:27:21",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 84,
+                "Rank": 83,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 14,
-                "Total": 1874,
-                "Diff": "2",
-                "Antece": "Hal Greer",
-                "Nota": "A tiro de 2",
+                "Hoy": 18,
+                "Total": 1878,
+                "Diff": "9",
+                "Antece": "Dolph Schayes",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -152,13 +152,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 138,
+                "Rank": 135,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 90,
+                "Hoy": 2,
+                "Total": 91,
                 "Diff": "",
-                "Antece": "Buck Williams",
+                "Antece": "Deron Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -258,9 +258,9 @@
                 "Rank": 29,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 211,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 212,
+                "Diff": "3",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -341,9 +341,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 769,
-                "Diff": "13",
+                "Hoy": 18,
+                "Total": 773,
+                "Diff": "9",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -441,9 +441,9 @@
                 "Rank": 11,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 44,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 45,
+                "Diff": "0",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -501,9 +501,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 82,
-                "Diff": "18",
+                "Hoy": 4,
+                "Total": 83,
+                "Diff": "17",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -664,20 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (5 points today) has passed Bradley Beal, Jermaine O'Neal and Paul Silas and is now ranked 210th all-time with 1,125 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139090613759_4411_collage_1777139090550785.png"
-            ],
-            "timestamp": 1777139095
-        },
-        {
-            "texto": "Desmond Bane (3 three-pointers today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 168th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139095656764_1019_collage_1777139095591786.png"
-            ],
-            "timestamp": 1777139100
-        },
         {
             "texto": "Desmond Bane (4 three-pointers today) has passed Bogdan Bogdanović, David Wesley, Marco Belinelli and Royce O'Neale and is now ranked 165th all-time with 79 in playoffs.",
             "foto": [
@@ -1363,6 +1349,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777231529532262_5516_collage_1777231529459835.png"
             ],
             "timestamp": 1777231534
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (18 points today) has passed Hal Greer and is now ranked 83rd all-time with 1,878 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777231631246460_5936_collage_1777231631152750.png"
+            ],
+            "timestamp": 1777231635
+        },
+        {
+            "texto": "Donovan Mitchell (2 steals today) has passed Buck Williams and Jamal Murray and is now ranked 135th all-time with 91 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777231636184585_3081_collage_1777231636107666.png"
+            ],
+            "timestamp": 1777231641
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 595,
+    "total_notificaciones_historicas": 597,
     "total_franchise_historicas": 262,
-    "cache_buster": 1777231534
+    "cache_buster": 1777231641
 }
