@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:23:02",
+    "ultima_actualizacion": "19:24:44",
     "tablas": {
         "pts": [
             {
@@ -43,9 +43,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1143,
-                "Diff": "90",
+                "Hoy": 1,
+                "Total": 1144,
+                "Diff": "89",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -197,9 +197,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 435,
-                "Diff": "124",
+                "Hoy": 2,
+                "Total": 437,
+                "Diff": "122",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -227,9 +227,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 185,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 186,
+                "Diff": "6",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -237,9 +237,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 137,
-                "Diff": "23",
+                "Hoy": 2,
+                "Total": 138,
+                "Diff": "22",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -249,7 +249,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 127,
-                "Diff": "10",
+                "Diff": "11",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -297,9 +297,9 @@
                 "Rank": 15,
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 27,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 28,
+                "Diff": "0",
                 "Antece": "Mike Sanders",
                 "game_status": "playing"
             },
@@ -307,9 +307,9 @@
                 "Rank": 20,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "0",
                 "Antece": "Sasha Pavlović",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 21,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "4",
                 "Antece": "Amir Johnson",
                 "game_status": "playing"
             },
@@ -438,13 +438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jrue Holiday (5 rebounds today) has passed Trevor Ariza and is now ranked 185th all-time with 529 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777092813673165_6797_collage_1777092813580215.png"
-            ],
-            "timestamp": 1777092819
-        },
         {
             "texto": "📢🔝💯 Jrue Holiday (2 assists today) has passed Andre Iguodala and is now ranked 44th all-time with 619 in playoffs.",
             "foto": [
@@ -1137,16 +1130,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777223789783868_6751_collage_1777223789713884.png"
             ],
             "timestamp": 1777223794
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (1 assist today) has passed Tony Parker and is now ranked 6th all-time with 1,144 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777224278525511_1166_collage_1777224278440718.png"
+            ],
+            "timestamp": 1777224284
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Chris Childs, Hubert Davis and Mikal Bridges and is now ranked 13th in Knicks history with 32 in playoffs.",
-            "foto": [],
-            "timestamp": 1776991438,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Jakob Poeltl (3 rebounds today) has passed Alvin Williams and is now ranked 24th in Raptors history with 61 in playoffs.",
             "foto": [],
@@ -1839,9 +1832,16 @@
             "timestamp": 1777223794,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (1 steal today) has passed Brad Daugherty and is now ranked 15th in Cavaliers history with 28 in playoffs.",
+            "foto": [],
+            "timestamp": 1777224284,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 588,
-    "total_franchise_historicas": 257,
-    "cache_buster": 1777224182
+    "total_notificaciones_historicas": 589,
+    "total_franchise_historicas": 258,
+    "cache_buster": 1777224284
 }
