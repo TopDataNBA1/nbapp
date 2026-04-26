@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:17:51",
+    "ultima_actualizacion": "22:30:25",
     "tablas": {
         "pts": [
             {
@@ -36,14 +36,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 111,
+                "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1606,
-                "Diff": "2",
-                "Antece": "Serge Ibaka",
-                "Nota": "A tiro de 2",
+                "Hoy": 3,
+                "Total": 1609,
+                "Diff": "41",
+                "Antece": "Khris Middleton",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -269,11 +269,11 @@
                 "Rank": 42,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 180,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 181,
+                "Diff": "",
                 "Antece": "Dan Majerle",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (5 rebounds today) has passed Karl-Anthony Towns and Tom Chambers and is now ranked 161st all-time with 570 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777140834573656_9905_collage_1777140834493702.png"
-            ],
-            "timestamp": 1777140839
-        },
         {
             "texto": "Desmond Bane (5 three-pointers today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 163rd all-time with 80 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777234666163869_1172_collage_1777234666089899.png"
             ],
             "timestamp": 1777234671
+        },
+        {
+            "texto": "Jrue Holiday (3 points today) has passed Serge Ibaka and is now ranked 110th all-time with 1,609 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777235419814576_4801_collage_1777235419726620.png"
+            ],
+            "timestamp": 1777235425
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 600,
+    "total_notificaciones_historicas": 601,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777234671
+    "cache_buster": 1777235425
 }
