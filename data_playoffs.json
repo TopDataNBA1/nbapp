@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:08:30",
+    "ultima_actualizacion": "04:10:11",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 70,
+                "Rank": 69,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 14,
-                "Total": 1966,
-                "Diff": "1",
-                "Antece": "Bob Dandridge",
-                "Nota": "A tiro de 1",
+                "Hoy": 16,
+                "Total": 1968,
+                "Diff": "32",
+                "Antece": "2000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -890,9 +890,9 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1966,
-                "Diff": "34",
+                "Hoy": 16,
+                "Total": 1968,
+                "Diff": "32",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1190,22 +1190,22 @@
             },
             {
                 "Rank": 6,
-                "Nombre": "Naz Reid",
+                "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 389,
-                "Diff": "16",
+                "Hoy": 9,
+                "Total": 390,
+                "Diff": "15",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
                 "Rank": 7,
-                "Nombre": "Julius Randle",
+                "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 388,
+                "Hoy": 11,
+                "Total": 389,
                 "Diff": "1",
-                "Antece": "Naz Reid",
+                "Antece": "Julius Randle",
                 "game_status": "playing"
             },
             {
@@ -1292,9 +1292,9 @@
                 "Rank": 9,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 112,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 113,
+                "Diff": "3",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Jrue Holiday (6 points today) has passed Michael Cooper and is now ranked 115th all-time with 1,583 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087022791984_2622_collage_1777087022671496.png"
-            ],
-            "timestamp": 1777087028
-        },
-        {
             "texto": "Jrue Holiday (2 rebounds today) has passed Blake Griffin and is now ranked 187th all-time with 526 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777087216122242_8742_collage_1777087216038269.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777169304954139_6440_collage_1777169304882157.png"
             ],
             "timestamp": 1777169310
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jamal Murray (16 points today) has passed Bob Dandridge and is now ranked 69th all-time with 1,968 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777169406787256_3918_collage_1777169406703299.png"
+            ],
+            "timestamp": 1777169411
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 580,
+    "total_notificaciones_historicas": 581,
     "total_franchise_historicas": 248,
-    "cache_buster": 1777169310
+    "cache_buster": 1777169411
 }
