@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:22",
+    "ultima_actualizacion": "04:35:58",
     "tablas": {
         "pts": [
             {
@@ -484,7 +484,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 222,
+                "Rank": 217,
+                "Nombre": "Jaden McDaniels",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "",
+                "Antece": "Deandre Ayton",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 223,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
                 "Hoy": 1,
@@ -495,24 +506,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 223,
-                "Nombre": "Jaden McDaniels",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "",
-                "Antece": "Isaiah Hartenstein",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 224,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
                 "Hoy": 0,
                 "Total": 43,
                 "Diff": "",
-                "Antece": "Jaden McDaniels",
+                "Antece": "Isaiah Hartenstein",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             },
@@ -1192,9 +1192,9 @@
                 "Rank": 6,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 394,
-                "Diff": "11",
+                "Hoy": 15,
+                "Total": 396,
+                "Diff": "9",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1202,8 +1202,8 @@
                 "Rank": 7,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 391,
+                "Hoy": 15,
+                "Total": 393,
                 "Diff": "3",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
@@ -1272,9 +1272,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 167,
-                "Diff": "20",
+                "Hoy": 6,
+                "Total": 168,
+                "Diff": "19",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1284,7 +1284,7 @@
                 "Stat": "REB",
                 "Hoy": 7,
                 "Total": 117,
-                "Diff": "50",
+                "Diff": "51",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1482,9 +1482,9 @@
                 "Rank": 2,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "45",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "44",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1494,7 +1494,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 42,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1512,9 +1512,9 @@
                 "Rank": 5,
                 "Nombre": "Naz Reid",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 34,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 33,
+                "Diff": "9",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -3948,5 +3948,5 @@
     ],
     "total_notificaciones_historicas": 584,
     "total_franchise_historicas": 250,
-    "cache_buster": 1777170862
+    "cache_buster": 1777170958
 }
