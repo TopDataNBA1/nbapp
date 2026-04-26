@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:38",
+    "ultima_actualizacion": "02:22:53",
     "tablas": {
         "pts": [
             {
@@ -429,14 +429,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 163,
+                "Rank": 159,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 54,
-                "Diff": "",
-                "Antece": "Jae Crowder",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 55,
+                "Diff": "1",
+                "Antece": "Pascal Siakam",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1834,9 +1834,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 36,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 37,
+                "Diff": "3",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tyrese Maxey (5 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 124th all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079597386296_3783_collage_1777079597313332.png"
-            ],
-            "timestamp": 1777079602
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (1 steal today) has passed Jamaal Wilkes, Terry Porter and Tony Allen and is now ranked 67th all-time with 138 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777079975846503_8002_collage_1777079975783540.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162772886387_3171_collage_1777162772795418.png"
             ],
             "timestamp": 1777162778
+        },
+        {
+            "texto": "OG Anunoby (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 159th all-time with 55 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162968528390_5493_collage_1777162968452398.png"
+            ],
+            "timestamp": 1777162973
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 565,
+    "total_notificaciones_historicas": 566,
     "total_franchise_historicas": 236,
-    "cache_buster": 1777162778
+    "cache_buster": 1777162973
 }
