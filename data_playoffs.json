@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:24:44",
+    "ultima_actualizacion": "19:26:26",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 85,
+                "Rank": 84,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1860,
-                "Diff": "1",
-                "Antece": "Sam Perkins",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1863,
+                "Diff": "13",
+                "Antece": "Hal Greer",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -137,9 +137,9 @@
                 "Rank": 29,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 208,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 209,
+                "Diff": "6",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -187,9 +187,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 755,
-                "Diff": "27",
+                "Hoy": 3,
+                "Total": 758,
+                "Diff": "24",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -227,9 +227,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 186,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 187,
+                "Diff": "5",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -347,9 +347,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 79,
-                "Diff": "21",
+                "Hoy": 1,
+                "Total": 80,
+                "Diff": "20",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 21,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 66,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 67,
+                "Diff": "3",
                 "Antece": "Amir Johnson",
                 "game_status": "playing"
             },
@@ -438,13 +438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday (2 assists today) has passed Andre Iguodala and is now ranked 44th all-time with 619 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777092819194968_2082_collage_1777092819109205.png"
-            ],
-            "timestamp": 1777092824
-        },
         {
             "texto": "Jrue Holiday (27 points today) has passed Tayshaun Prince and is now ranked 111th all-time with 1,604 in playoffs.",
             "foto": [
@@ -1137,6 +1130,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777224278525511_1166_collage_1777224278440718.png"
             ],
             "timestamp": 1777224284
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (3 points today) has passed Sam Perkins and is now ranked 84th all-time with 1,863 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777224381678326_3161_collage_1777224381573744.png"
+            ],
+            "timestamp": 1777224386
         }
     ],
     "notificaciones_franchise": [
@@ -1841,7 +1841,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 589,
+    "total_notificaciones_historicas": 590,
     "total_franchise_historicas": 258,
-    "cache_buster": 1777224284
+    "cache_buster": 1777224386
 }
