@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:46:27",
+    "ultima_actualizacion": "03:48:10",
     "tablas": {
         "pts": [
             {
@@ -761,7 +761,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 191,
+                "Rank": 188,
+                "Nombre": "Cameron Johnson",
+                "Team": "DEN",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "",
+                "Antece": "Austin Rivers",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 192,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -772,7 +783,7 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 196,
+                "Rank": 197,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
                 "Hoy": 3,
@@ -781,17 +792,6 @@
                 "Antece": "Al-Farouq Aminu",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 197,
-                "Nombre": "Cameron Johnson",
-                "Team": "DEN",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "",
-                "Antece": "Alex Caruso",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 200,
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jrue Holiday today becomes the 169th player to reach 100 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777085892935198_5659_collage_1777085892866222.png"
-            ],
-            "timestamp": 1777085897
-        },
-        {
             "texto": "Jrue Holiday today surpasses Gus Williams, Marc Gasol, Mario Chalmers, Patty Mills and Toni Kukoč and now ranked 169th all time with 100 games in playoffs",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777085897470411_3871_collage_1777085897394453.png"
@@ -3242,6 +3235,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777167982409161_7089_collage_1777167982347543.png"
             ],
             "timestamp": 1777167987
+        },
+        {
+            "texto": "Cameron Johnson (1 three-pointer today) has passed Al-Farouq Aminu and Trae Young and is now ranked 188th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777168084624816_4223_collage_1777168084553839.png"
+            ],
+            "timestamp": 1777168089
         }
     ],
     "notificaciones_franchise": [
@@ -3946,7 +3946,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 578,
+    "total_notificaciones_historicas": 579,
     "total_franchise_historicas": 248,
-    "cache_buster": 1777167987
+    "cache_buster": 1777168090
 }
