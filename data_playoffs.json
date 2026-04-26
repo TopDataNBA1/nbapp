@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:37:28",
+    "ultima_actualizacion": "02:39:09",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 92,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 17,
-                "Total": 1801,
-                "Diff": "19",
+                "Hoy": 19,
+                "Total": 1803,
+                "Diff": "17",
                 "Antece": "Jamaal Wilkes",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,14 +192,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 237,
+                "Rank": 236,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 433,
-                "Diff": "1",
-                "Antece": "Scott Williams",
-                "Nota": "A tiro de 1",
+                "Hoy": 9,
+                "Total": 434,
+                "Diff": "3",
+                "Antece": "Curtis Perry",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1691,13 +1691,13 @@
         ],
         "NYK": [
             {
-                "Rank": 4,
+                "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1357,
-                "Diff": "1",
-                "Antece": "Willis Reed",
+                "Hoy": 19,
+                "Total": 1359,
+                "Diff": "568",
+                "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
             {
@@ -1724,9 +1724,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 433,
-                "Diff": "28",
+                "Hoy": 9,
+                "Total": 434,
+                "Diff": "27",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -2544,13 +2544,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Payton Pritchard (5 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Dorian Finney-Smith, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 141st all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777081033731442_2735_collage_1777081033647471.png"
-            ],
-            "timestamp": 1777081038
-        },
-        {
             "texto": "📢HOF🏛️ Deandre Ayton (6 rebounds today) has passed Frank Ramsey and is now ranked 208th all-time with 495 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777081229981891_1961_collage_1777081229894101.png"
@@ -3242,16 +3235,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777163842337757_8313_collage_1777163842252802.png"
             ],
             "timestamp": 1777163848
+        },
+        {
+            "texto": "Josh Hart (9 rebounds today) has passed Rashard Lewis and is now ranked 236th all-time with 434 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777163944336847_1725_collage_1777163944236882.png"
+            ],
+            "timestamp": 1777163949
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Chet Holmgren (1 three-pointer today) has passed Isaiah Joe and Dale Ellis and is now ranked 12th in Thunder history with 43 in playoffs.",
-            "foto": [],
-            "timestamp": 1776909057,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Alex Caruso (1 steal today) has passed Luguentz Dort and is now ranked 18th in Thunder history with 46 in playoffs.",
             "foto": [],
@@ -3944,9 +3937,16 @@
             "timestamp": 1777163458,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ 📢HOF🏛️ Jalen Brunson (19 points today) has passed Willis Reed and is now ranked 3rd in Knicks history with 1,359 in playoffs.",
+            "foto": [],
+            "timestamp": 1777163949,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 569,
-    "total_franchise_historicas": 237,
-    "cache_buster": 1777163848
+    "total_notificaciones_historicas": 570,
+    "total_franchise_historicas": 238,
+    "cache_buster": 1777163949
 }
