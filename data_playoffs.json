@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:57:27",
+    "ultima_actualizacion": "22:16:09",
     "tablas": {
         "pts": [
             {
@@ -60,14 +60,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 185,
+                "Rank": 184,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 531,
-                "Diff": "1",
-                "Antece": "Steven Adams",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 533,
+                "Diff": "2",
+                "Antece": "Larry Nance",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -84,14 +84,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 623,
-                "Diff": "1",
-                "Antece": "Terry Porter",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 624,
+                "Diff": "",
+                "Antece": "Al Horford",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -664,13 +664,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed P.J. Tucker and is now ranked 59th all-time with 155 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777139583709379_8959_collage_1777139583615410.png"
-            ],
-            "timestamp": 1777139589
-        },
         {
             "texto": "Tobias Harris (6 points today) has passed Archie Clark and is now ranked 209th all-time with 1,126 in playoffs.",
             "foto": [
@@ -1363,6 +1356,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777233058785714_7751_collage_1777233058699157.png"
             ],
             "timestamp": 1777233064
+        },
+        {
+            "texto": "Jrue Holiday (3 rebounds today) has passed Steven Adams and is now ranked 184th all-time with 533 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777234564175718_1159_collage_1777234564078752.png"
+            ],
+            "timestamp": 1777234569
         }
     ],
     "notificaciones_franchise": [
@@ -2067,7 +2067,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 598,
+    "total_notificaciones_historicas": 599,
     "total_franchise_historicas": 264,
-    "cache_buster": 1777233447
+    "cache_buster": 1777234569
 }
