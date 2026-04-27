@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:49",
+    "ultima_actualizacion": "03:12:25",
     "tablas": {
         "pts": [
             {
@@ -573,9 +573,9 @@
                 "Rank": 68,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "2",
                 "Antece": "Ron Harper",
                 "Nota": "",
                 "game_status": "playing"
@@ -614,13 +614,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 215,
+                "Rank": 217,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Blake Griffin",
+                "Antece": "Bam Adebayo",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1309,22 +1309,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "0",
-                "Antece": "Robert Parish",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "1",
+                "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
             {
                 "Rank": 18,
                 "Nombre": "Derrick White",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 62,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "2",
                 "Antece": "Jo Jo White",
                 "game_status": "playing"
             },
@@ -2726,13 +2726,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Donte DiVincenzo (1 assist today) has passed Kyle Anderson and is now ranked 11th in Timberwolves history with 59 in playoffs.",
-            "foto": [],
-            "timestamp": 1776995429,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Evan Mobley (2 steals today) has passed Darius Garland and is now ranked 20th in Cavaliers history with 24 in playoffs.",
             "foto": [],
             "timestamp": 1776995429,
@@ -3424,9 +3417,16 @@
             "timestamp": 1777252249,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (1 steal today) has passed Robert Parish and is now ranked 7th in Celtics history with 139 in playoffs.",
+            "foto": [],
+            "timestamp": 1777252345,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 634,
-    "total_franchise_historicas": 267,
-    "cache_buster": 1777252249
+    "total_franchise_historicas": 268,
+    "cache_buster": 1777252345
 }
