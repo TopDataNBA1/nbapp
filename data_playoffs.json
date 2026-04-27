@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:31:29",
+    "ultima_actualizacion": "02:33:11",
     "tablas": {
         "pts": [
             {
@@ -317,13 +317,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 40,
+                "Rank": 39,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 177,
+                "Hoy": 3,
+                "Total": 178,
                 "Diff": "",
-                "Antece": "James Worthy",
+                "Antece": "Kevin Garnett",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -440,13 +440,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 111,
+                "Rank": 108,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 81,
+                "Hoy": 2,
+                "Total": 82,
                 "Diff": "1",
-                "Antece": "Thurl Bailey",
+                "Antece": "P.J. Brown",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -880,9 +880,9 @@
                 "Rank": 10,
                 "Nombre": "Derrick White",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 74,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 75,
+                "Diff": "3",
                 "Antece": "Robert Williams",
                 "game_status": "playing"
             },
@@ -892,7 +892,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 60,
-                "Diff": "14",
+                "Diff": "15",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Evan Mobley, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 222nd all-time with 43 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151361510230_6852_collage_1777151361410263.png"
-            ],
-            "timestamp": 1777151367
-        },
         {
             "texto": "Devin Booker (16 points today) has passed Darryl Dawkins and DeMar DeRozan and is now ranked 158th all-time with 1,376 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777249691870815_3869_collage_1777249691794593.png"
             ],
             "timestamp": 1777249697
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Paul George (3 steals today) has passed James Worthy and is now ranked 39th all-time with 178 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777249985475742_8952_collage_1777249985386780.png"
+            ],
+            "timestamp": 1777249991
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 621,
+    "total_notificaciones_historicas": 622,
     "total_franchise_historicas": 265,
-    "cache_buster": 1777249889
+    "cache_buster": 1777249991
 }
