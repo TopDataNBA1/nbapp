@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:06",
+    "ultima_actualizacion": "03:45:52",
     "tablas": {
         "pts": [
             {
@@ -305,9 +305,9 @@
                 "Rank": 214,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 477,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 478,
+                "Diff": "4",
                 "Antece": "Greg Ostertag",
                 "Nota": "",
                 "game_status": "playing"
@@ -318,9 +318,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 2121,
-                "Diff": "225",
+                "Hoy": 1,
+                "Total": 2122,
+                "Diff": "224",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -1107,9 +1107,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 296,
+                "Diff": "4",
                 "Antece": "300",
                 "Nota": "",
                 "game_status": "playing"
@@ -1181,13 +1181,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 129,
+                "Rank": 123,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 111,
+                "Hoy": 1,
+                "Total": 112,
                 "Diff": "",
-                "Antece": "James Edwards",
+                "Antece": "Kenyon Martin",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1718,9 +1718,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 434,
-                "Diff": "29",
+                "Hoy": 1,
+                "Total": 435,
+                "Diff": "28",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -2023,20 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (1 three-pointer today) has passed Shane Battier and is now ranked 68th all-time with 140 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155436707620_5881_collage_1777155436612642.png"
-            ],
-            "timestamp": 1777155441
-        },
-        {
-            "texto": "📢HOF🏛️ Nickeil Alexander-Walker (1 three-pointer today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 215th all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155442118898_7828_collage_1777155442054920.png"
-            ],
-            "timestamp": 1777155446
-        },
         {
             "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Joel Embiid, Malik Beasley and Voshon Lenard and is now ranked 209th all-time with 66 in playoffs.",
             "foto": [
@@ -2722,6 +2708,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252743424185_4652_collage_1777252743329234.png"
             ],
             "timestamp": 1777252748
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (1 rebound today) has passed Mark Jackson and Vince Carter and is now ranked 214th all-time with 478 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254342343152_6855_collage_1777254342264177.png"
+            ],
+            "timestamp": 1777254347
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart today surpasses Isiah Thomas, James Edwards and Rick Fox and now ranked 123rd all time with 112 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254347672422_1175_collage_1777254347609419.png"
+            ],
+            "timestamp": 1777254352
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 638,
+    "total_notificaciones_historicas": 640,
     "total_franchise_historicas": 269,
-    "cache_buster": 1777254246
+    "cache_buster": 1777254352
 }
