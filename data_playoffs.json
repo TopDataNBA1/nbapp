@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:11:22",
+    "ultima_actualizacion": "05:16:16",
     "tablas": {
         "pts": [
             {
@@ -280,13 +280,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 205,
+                "Rank": 203,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 9,
-                "Total": 504,
+                "Hoy": 10,
+                "Total": 505,
                 "Diff": "1",
-                "Antece": "Truck Robinson",
+                "Antece": "Richard Hamilton",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -296,9 +296,9 @@
                 "Team": "LAL",
                 "Hoy": 0,
                 "Total": 504,
-                "Diff": "",
-                "Antece": "Deandre Ayton",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Truck Robinson",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -318,9 +318,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 2125,
-                "Diff": "221",
+                "Hoy": 5,
+                "Total": 2126,
+                "Diff": "220",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -781,14 +781,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 216,
+                "Rank": 212,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "1",
-                "Antece": "Tobias Harris",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "",
+                "Antece": "Chris Mullin",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1718,9 +1718,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 438,
-                "Diff": "25",
+                "Hoy": 5,
+                "Total": 439,
+                "Diff": "24",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -2023,20 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "CJ McCollum (8 points today) has passed Detlef Schrempf and is now ranked 149th all-time with 1,433 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777158795679299_3225_collage_1777158795574289.png"
-            ],
-            "timestamp": 1777158801
-        },
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (2 three-pointers today) has passed Tim Hardaway and is now ranked 101st all-time with 111 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777158801324956_9696_collage_1777158801212992.png"
-            ],
-            "timestamp": 1777158806
-        },
         {
             "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Jordan Poole and Kerry Kittles and is now ranked 207th all-time with 67 in playoffs.",
             "foto": [
@@ -2722,6 +2708,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777258157223361_3290_collage_1777258157150385.png"
             ],
             "timestamp": 1777258162
+        },
+        {
+            "texto": "Deandre Ayton (10 rebounds today) has passed Luka Dončić and is now ranked 203rd all-time with 505 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777259765593458_3282_collage_1777259765495494.png"
+            ],
+            "timestamp": 1777259771
+        },
+        {
+            "texto": "Deandre Ayton (1 block today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 212th all-time with 45 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777259771689120_8208_collage_1777259771608146.png"
+            ],
+            "timestamp": 1777259776
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 647,
+    "total_notificaciones_historicas": 649,
     "total_franchise_historicas": 269,
-    "cache_buster": 1777259482
+    "cache_buster": 1777259776
 }
