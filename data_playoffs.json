@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:25",
+    "ultima_actualizacion": "03:15:39",
     "tablas": {
         "pts": [
             {
@@ -127,11 +127,11 @@
                 "Rank": 134,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 22,
-                "Total": 1491,
-                "Diff": "2",
+                "Hoy": 24,
+                "Total": 1493,
+                "Diff": "",
                 "Antece": "J.R. Smith",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -993,25 +993,25 @@
             },
             {
                 "Rank": 118,
+                "Nombre": "Tyrese Maxey",
+                "Team": "PHI",
+                "Hoy": 4,
+                "Total": 101,
+                "Diff": "",
+                "Antece": "Hedo Türkoğlu",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 119,
                 "Nombre": "Jeff Green",
                 "Team": "HOU",
                 "Hoy": 0,
                 "Total": 100,
                 "Diff": "1",
-                "Antece": "Hedo Türkoğlu",
+                "Antece": "Tyrese Maxey",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 120,
-                "Nombre": "Tyrese Maxey",
-                "Team": "PHI",
-                "Hoy": 3,
-                "Total": 100,
-                "Diff": "",
-                "Antece": "Tobias Harris",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 132,
@@ -1780,9 +1780,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1491,
-                "Diff": "239",
+                "Hoy": 24,
+                "Total": 1493,
+                "Diff": "237",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1790,9 +1790,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 830,
-                "Diff": "98",
+                "Hoy": 22,
+                "Total": 833,
+                "Diff": "95",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -1870,9 +1870,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 100,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 101,
+                "Diff": "14",
                 "Antece": "Allen Iverson",
                 "game_status": "playing"
             },
@@ -2023,13 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dillon Brooks (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153995507015_6969_collage_1777153995426041.png"
-            ],
-            "timestamp": 1777154000
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (8 assists today) has passed Bobby Jones and is now ranked 156th all-time with 286 in playoffs.",
             "foto": [
@@ -2722,6 +2715,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252147508283_2165_collage_1777252147433997.png"
             ],
             "timestamp": 1777252152
+        },
+        {
+            "texto": "Tyrese Maxey (4 three-pointers today) has passed Jeff Green and Tobias Harris and is now ranked 118th all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252534172660_6061_collage_1777252534101237.png"
+            ],
+            "timestamp": 1777252539
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 634,
+    "total_notificaciones_historicas": 635,
     "total_franchise_historicas": 268,
-    "cache_buster": 1777252345
+    "cache_buster": 1777252539
 }
