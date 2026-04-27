@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:15:39",
+    "ultima_actualizacion": "03:17:21",
     "tablas": {
         "pts": [
             {
@@ -124,13 +124,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 134,
+                "Rank": 132,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 24,
-                "Total": 1493,
+                "Hoy": 26,
+                "Total": 1495,
                 "Diff": "",
-                "Antece": "J.R. Smith",
+                "Antece": "Chris Webber",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -149,9 +149,9 @@
                 "Rank": 208,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 1133,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 1136,
+                "Diff": "5",
                 "Antece": "Vern Mikkelsen",
                 "Nota": "",
                 "game_status": "playing"
@@ -360,25 +360,25 @@
             },
             {
                 "Rank": 42,
-                "Nombre": "Jrue Holiday",
-                "Team": "POR",
-                "Hoy": 4,
+                "Nombre": "Jayson Tatum",
+                "Team": "BOS",
+                "Hoy": 11,
                 "Total": 626,
                 "Diff": "4",
                 "Antece": "Deron Williams",
                 "Nota": "",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
                 "Rank": 43,
-                "Nombre": "Jayson Tatum",
-                "Team": "BOS",
-                "Hoy": 10,
-                "Total": 625,
-                "Diff": "1",
-                "Antece": "Jrue Holiday",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 4,
+                "Total": 626,
+                "Diff": "",
+                "Antece": "Jayson Tatum",
+                "Nota": "Mismo total",
+                "game_status": "finished"
             },
             {
                 "Rank": 57,
@@ -940,9 +940,9 @@
                 "Rank": 35,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 193,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 194,
+                "Diff": "2",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -1272,9 +1272,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 10,
-                "Total": 625,
-                "Diff": "114",
+                "Hoy": 11,
+                "Total": 626,
+                "Diff": "113",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -1382,9 +1382,9 @@
                 "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 187,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 188,
+                "Diff": "12",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1780,9 +1780,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1493,
-                "Diff": "237",
+                "Hoy": 26,
+                "Total": 1495,
+                "Diff": "235",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -2023,13 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (8 assists today) has passed Bobby Jones and is now ranked 156th all-time with 286 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777154285931869_4068_collage_1777154285839911.png"
-            ],
-            "timestamp": 1777154291
-        },
         {
             "texto": "📢HOF🏛️ Dillon Brooks (4 three-pointers today) has passed Charles Barkley, Nickeil Alexander-Walker, Reggie Bullock and Richard Jefferson and is now ranked 211th all-time with 65 in playoffs.",
             "foto": [
@@ -2722,6 +2715,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252534172660_6061_collage_1777252534101237.png"
             ],
             "timestamp": 1777252539
+        },
+        {
+            "texto": "Joel Embiid (26 points today) has passed J.R. Smith and LaMarcus Aldridge and is now ranked 132nd all-time with 1,495 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252635624290_4000_collage_1777252635548484.png"
+            ],
+            "timestamp": 1777252641
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 635,
+    "total_notificaciones_historicas": 636,
     "total_franchise_historicas": 268,
-    "cache_buster": 1777252539
+    "cache_buster": 1777252641
 }
