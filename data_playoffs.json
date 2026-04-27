@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:11:07",
+    "ultima_actualizacion": "02:28:17",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 31,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 3010,
-                "Diff": "12",
+                "Hoy": 8,
+                "Total": 3013,
+                "Diff": "9",
                 "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
@@ -451,13 +451,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 142,
+                "Rank": 141,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 63,
+                "Hoy": 1,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Elton Brand",
+                "Antece": "Magic Johnson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -643,11 +643,11 @@
                 "Rank": 122,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 98,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 99,
+                "Diff": "",
                 "Antece": "Hersey Hawkins",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -770,9 +770,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 3010,
-                "Diff": "172",
+                "Hoy": 8,
+                "Total": 3013,
+                "Diff": "169",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -1184,9 +1184,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 818,
-                "Diff": "110",
+                "Hoy": 10,
+                "Total": 821,
+                "Diff": "107",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 18,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 185,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 186,
+                "Diff": "16",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1264,9 +1264,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 98,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 99,
+                "Diff": "1",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Chet Holmgren (1 block today) has passed JaVale McGee and Scott Williams and is now ranked 121st all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151259403836_1806_collage_1777151259324862.png"
-            ],
-            "timestamp": 1777151264
-        },
         {
             "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Evan Mobley, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 222nd all-time with 43 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777248089269854_7112_collage_1777248089200875.png"
             ],
             "timestamp": 1777248093
+        },
+        {
+            "texto": "Paul George (1 block today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777249691870815_3869_collage_1777249691794593.png"
+            ],
+            "timestamp": 1777249697
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 620,
+    "total_notificaciones_historicas": 621,
     "total_franchise_historicas": 265,
-    "cache_buster": 1777248667
+    "cache_buster": 1777249697
 }
