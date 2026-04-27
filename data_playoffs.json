@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:52",
+    "ultima_actualizacion": "03:47:39",
     "tablas": {
         "pts": [
             {
@@ -294,11 +294,11 @@
                 "Rank": 208,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 495,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 496,
+                "Diff": "1",
                 "Antece": "Andrew Bynum",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -318,9 +318,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2122,
-                "Diff": "224",
+                "Hoy": 2,
+                "Total": 2123,
+                "Diff": "223",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -737,13 +737,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 156,
+                "Rank": 151,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 56,
+                "Hoy": 1,
+                "Total": 57,
                 "Diff": "",
-                "Antece": "Kyle Korver",
+                "Antece": "Bill Cartwright",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1718,9 +1718,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 435,
-                "Diff": "28",
+                "Hoy": 2,
+                "Total": 436,
+                "Diff": "27",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -2023,20 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Joel Embiid, Malik Beasley and Voshon Lenard and is now ranked 209th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155543764918_2868_collage_1777155543682946.png"
-            ],
-            "timestamp": 1777155549
-        },
-        {
-            "texto": "Josh Hart (2 rebounds today) has passed Anderson Varejão and is now ranked 240th all-time with 427 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777155645417384_2601_collage_1777155645323401.png"
-            ],
-            "timestamp": 1777155650
-        },
         {
             "texto": "Josh Hart (3 rebounds today) has passed Marques Johnson and is now ranked 240th all-time with 428 in playoffs.",
             "foto": [
@@ -2722,6 +2708,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254347672422_1175_collage_1777254347609419.png"
             ],
             "timestamp": 1777254352
+        },
+        {
+            "texto": "Deandre Ayton (1 rebound today) has passed Nat Clifton and is now ranked 208th all-time with 496 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254449086853_8144_collage_1777254448995891.png"
+            ],
+            "timestamp": 1777254453
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 151st all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254454142693_9150_collage_1777254454066718.png"
+            ],
+            "timestamp": 1777254458
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 640,
+    "total_notificaciones_historicas": 642,
     "total_franchise_historicas": 269,
-    "cache_buster": 1777254352
+    "cache_buster": 1777254459
 }
