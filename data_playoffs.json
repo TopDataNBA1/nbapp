@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:31",
+    "ultima_actualizacion": "03:09:13",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 30,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 21,
-                "Total": 3026,
-                "Diff": "6",
+                "Hoy": 25,
+                "Total": 3030,
+                "Diff": "2",
                 "Antece": "Klay Thompson",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -370,14 +370,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 9,
-                "Total": 624,
-                "Diff": "",
-                "Antece": "Al Horford",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 625,
+                "Diff": "1",
+                "Antece": "Jrue Holiday",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -863,9 +863,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 303,
-                "Diff": "12",
+                "Hoy": 4,
+                "Total": 304,
+                "Diff": "11",
                 "Antece": "Danny Green",
                 "Nota": "",
                 "game_status": "playing"
@@ -1232,9 +1232,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 3026,
-                "Diff": "156",
+                "Hoy": 25,
+                "Total": 3030,
+                "Diff": "152",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -1272,9 +1272,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 624,
-                "Diff": "115",
+                "Hoy": 10,
+                "Total": 625,
+                "Diff": "114",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -1362,9 +1362,9 @@
                 "Rank": 1,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 303,
-                "Diff": "97",
+                "Hoy": 4,
+                "Total": 304,
+                "Diff": "96",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2023,13 +2023,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (6 assists today) has passed Charles Oakley and is now ranked 158th all-time with 284 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777153989715608_9290_collage_1777153989628366.png"
-            ],
-            "timestamp": 1777153995
-        },
         {
             "texto": "Dillon Brooks (3 three-pointers today) has passed Ben Gordon, Keith Van Horn, Landry Shamet, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 216th all-time with 64 in playoffs.",
             "foto": [
@@ -2722,6 +2715,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777251669590553_6996_collage_1777251669499177.png"
             ],
             "timestamp": 1777251674
+        },
+        {
+            "texto": "📢🔝💯 Jayson Tatum (10 assists today) has passed Al Horford and Terry Porter and is now ranked 43rd all-time with 625 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777252147508283_2165_collage_1777252147433997.png"
+            ],
+            "timestamp": 1777252152
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 633,
+    "total_notificaciones_historicas": 634,
     "total_franchise_historicas": 266,
-    "cache_buster": 1777252051
+    "cache_buster": 1777252153
 }
