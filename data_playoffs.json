@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:12",
+    "ultima_actualizacion": "04:12:54",
     "tablas": {
         "pts": [
             {
@@ -291,14 +291,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 208,
+                "Rank": 207,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 497,
-                "Diff": "",
-                "Antece": "Andrew Bynum",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 498,
+                "Diff": "2",
+                "Antece": "Elden Campbell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2024,13 +2024,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Josh Hart (3 rebounds today) has passed Marques Johnson and is now ranked 240th all-time with 428 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156028267931_4620_collage_1777156028159986.png"
-            ],
-            "timestamp": 1777156033
-        },
-        {
             "texto": "Gabe Vincent (1 three-pointer today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 151st all-time with 85 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777156130388049_9222_collage_1777156130318175.png"
@@ -2722,6 +2715,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777254454142693_9150_collage_1777254454066718.png"
             ],
             "timestamp": 1777254458
+        },
+        {
+            "texto": "Deandre Ayton (3 rebounds today) has passed Andrew Bynum and is now ranked 207th all-time with 498 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777255968718350_2039_collage_1777255968622383.png"
+            ],
+            "timestamp": 1777255973
         }
     ],
     "notificaciones_franchise": [
@@ -3426,7 +3426,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 642,
+    "total_notificaciones_historicas": 643,
     "total_franchise_historicas": 269,
-    "cache_buster": 1777255872
+    "cache_buster": 1777255974
 }
