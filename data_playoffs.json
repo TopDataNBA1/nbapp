@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:39:32",
+    "ultima_actualizacion": "02:45:51",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 31,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 11,
-                "Total": 3016,
-                "Diff": "6",
+                "Hoy": 13,
+                "Total": 3018,
+                "Diff": "4",
                 "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
@@ -94,11 +94,11 @@
                 "Rank": 135,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 12,
-                "Total": 1481,
-                "Diff": "6",
+                "Hoy": 15,
+                "Total": 1484,
+                "Diff": "3",
                 "Antece": "Sidney Moncrief",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -159,13 +159,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 130,
+                "Rank": 129,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 6,
-                "Total": 647,
+                "Hoy": 8,
+                "Total": 649,
                 "Diff": "1",
-                "Antece": "Ray Allen",
+                "Antece": "Zach Randolph",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -770,9 +770,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 3016,
-                "Diff": "166",
+                "Hoy": 13,
+                "Total": 3018,
+                "Diff": "164",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1481,
-                "Diff": "249",
+                "Hoy": 15,
+                "Total": 1484,
+                "Diff": "246",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1194,9 +1194,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 647,
-                "Diff": "23",
+                "Hoy": 8,
+                "Total": 649,
+                "Diff": "21",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -1417,13 +1417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Devin Booker (16 points today) has passed Darryl Dawkins and DeMar DeRozan and is now ranked 158th all-time with 1,376 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777151656078864_8783_collage_1777151656005903.png"
-            ],
-            "timestamp": 1777151661
-        },
         {
             "texto": "📢HOF🏛️ Devin Booker (5 assists today) has passed Dolph Schayes and Paul Seymour and is now ranked 179th all-time with 258 in playoffs.",
             "foto": [
@@ -2116,6 +2109,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777249985475742_8952_collage_1777249985386780.png"
             ],
             "timestamp": 1777249991
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (8 rebounds today) has passed Ray Allen and is now ranked 129th all-time with 649 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777250746451610_6969_collage_1777250746365638.png"
+            ],
+            "timestamp": 1777250751
         }
     ],
     "notificaciones_franchise": [
@@ -2820,7 +2820,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 622,
+    "total_notificaciones_historicas": 623,
     "total_franchise_historicas": 265,
-    "cache_buster": 1777250372
+    "cache_buster": 1777250751
 }
