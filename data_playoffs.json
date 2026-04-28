@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:15:57",
+    "ultima_actualizacion": "04:17:42",
     "tablas": {
         "pts": [
             {
@@ -183,13 +183,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 156,
+                "Rank": 155,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 286,
+                "Hoy": 1,
+                "Total": 287,
                 "Diff": "",
-                "Antece": "Guy Rodgers",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -607,14 +607,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 208,
+                "Rank": 207,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "1",
-                "Antece": "Eddie Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "",
+                "Antece": "Chris Mullin",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1555,9 +1555,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 267,
-                "Diff": "73",
+                "Hoy": 1,
+                "Total": 268,
+                "Diff": "72",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1737,9 +1737,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 415,
-                "Diff": "52",
+                "Hoy": 15,
+                "Total": 417,
+                "Diff": "50",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -2130,20 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "CJ McCollum (17 points today) has passed Dan Majerle and Kenyon Martin and is now ranked 146th all-time with 1,442 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162670906006_6323_collage_1777162670833123.png"
-            ],
-            "timestamp": 1777162676
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (3 three-pointers today) has passed John Stockton and is now ranked 100th all-time with 112 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162772886387_3171_collage_1777162772795418.png"
-            ],
-            "timestamp": 1777162778
-        },
         {
             "texto": "OG Anunoby (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 159th all-time with 55 in playoffs.",
             "foto": [
@@ -2829,6 +2815,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342552022631_2435_collage_1777342551942093.png"
             ],
             "timestamp": 1777342557
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 assist today) has passed Guy Rodgers and Vlade Divac and is now ranked 155th all-time with 287 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342653087049_8722_collage_1777342653002570.png"
+            ],
+            "timestamp": 1777342658
+        },
+        {
+            "texto": "Dillon Brooks (2 three-pointers today) has passed Joel Embiid, Jordan Poole and Kerry Kittles and is now ranked 207th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342658205738_2610_collage_1777342658142758.png"
+            ],
+            "timestamp": 1777342662
         }
     ],
     "notificaciones_franchise": [
@@ -3533,7 +3533,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 663,
+    "total_notificaciones_historicas": 665,
     "total_franchise_historicas": 294,
-    "cache_buster": 1777342557
+    "cache_buster": 1777342662
 }
