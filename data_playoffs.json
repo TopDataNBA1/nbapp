@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:20:03",
+    "ultima_actualizacion": "01:21:46",
     "tablas": {
         "pts": [
             {
@@ -185,14 +185,14 @@
         ],
         "stl": [
             {
-                "Rank": 39,
+                "Rank": 37,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 178,
-                "Diff": "",
-                "Antece": "Kevin Garnett",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 179,
+                "Diff": "10",
+                "Antece": "Kareem Abdul-Jabbar",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -783,13 +783,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jayson Tatum (4 assists today) has passed Andre Iguodala and is now ranked 45th all-time with 619 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777246526010044_3661_collage_1777246525920076.png"
-            ],
-            "timestamp": 1777246531
-        },
         {
             "texto": "Payton Pritchard (3 three-pointers today) has passed Craig Hodges, Mario Elie and Tim Hardaway Jr. and is now ranked 134th all-time with 91 in playoffs.",
             "foto": [
@@ -1482,6 +1475,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418398147713_9936_collage_1777418398068744.png"
             ],
             "timestamp": 1777418403
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Paul George (1 steal today) has passed Charles Oakley and Kevin Garnett and is now ranked 37th all-time with 179 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418500372480_8061_collage_1777418500280528.png"
+            ],
+            "timestamp": 1777418505
         }
     ],
     "notificaciones_franchise": [
@@ -2186,7 +2186,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 711,
+    "total_notificaciones_historicas": 712,
     "total_franchise_historicas": 320,
-    "cache_buster": 1777418403
+    "cache_buster": 1777418506
 }
