@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:06:11",
+    "ultima_actualizacion": "04:07:54",
     "tablas": {
         "pts": [
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 186,
+                "Rank": 183,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 72,
+                "Hoy": 3,
+                "Total": 73,
                 "Diff": "1",
-                "Antece": "Sean Elliott",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -405,9 +405,9 @@
                 "Rank": 20,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 558,
-                "Diff": "7",
+                "Hoy": 10,
+                "Total": 560,
+                "Diff": "5",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -482,13 +482,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "0",
-                "Antece": "Lonnie Shelton",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "1",
+                "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
             {
@@ -498,7 +498,7 @@
                 "Hoy": 0,
                 "Total": 46,
                 "Diff": "2",
-                "Antece": "Cason Wallace",
+                "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
             {
@@ -575,9 +575,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 43,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 44,
+                "Diff": "0",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (19 points today) has passed Larry Nance and Zelmo Beaty and is now ranked 229th all-time with 1,072 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162282903626_7490_collage_1777162282826652.png"
-            ],
-            "timestamp": 1777162287
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (10 rebounds today) has passed Derek Fisher and Oscar Robertson and is now ranked 155th all-time with 579 in playoffs.",
             "foto": [
@@ -1709,16 +1702,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341965818346_3863_collage_1777341965721011.png"
             ],
             "timestamp": 1777341971
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Lindsey Hunter and is now ranked 183rd all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342068597985_7094_collage_1777342068488203.png"
+            ],
+            "timestamp": 1777342074
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (1 steal today) has passed Doug Collins and is now ranked 23rd in 76ers history with 35 in playoffs.",
-            "foto": [],
-            "timestamp": 1777078321,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (2 blocks today) has passed Tyrone Hill and Harvey Catchings and is now ranked 21st in 76ers history with 17 in playoffs.",
             "foto": [],
@@ -2411,9 +2404,16 @@
             "timestamp": 1777341971,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (1 steal today) has passed Lonnie Shelton and is now ranked 18th in Thunder history with 49 in playoffs.",
+            "foto": [],
+            "timestamp": 1777342074,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 661,
-    "total_franchise_historicas": 293,
-    "cache_buster": 1777341971
+    "total_notificaciones_historicas": 662,
+    "total_franchise_historicas": 294,
+    "cache_buster": 1777342074
 }
