@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:39",
+    "ultima_actualizacion": "03:38:21",
     "tablas": {
         "pts": [
             {
@@ -25,27 +25,27 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 204,
+                "Rank": 203,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 10,
-                "Total": 1153,
-                "Diff": "2",
-                "Antece": "Zach Randolph",
-                "Nota": "A tiro de 2",
+                "Hoy": 12,
+                "Total": 1155,
+                "Diff": "1",
+                "Antece": "Kyle Korver",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
         "trb": [
             {
-                "Rank": 160,
+                "Rank": 159,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 575,
-                "Diff": "",
-                "Antece": "Gary Payton",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 576,
+                "Diff": "2",
+                "Antece": "Oscar Robertson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -617,9 +617,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 412,
-                "Diff": "55",
+                "Hoy": 11,
+                "Total": 413,
+                "Diff": "54",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -677,9 +677,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 93,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 94,
+                "Diff": "1",
                 "Antece": "Nikola Vučević",
                 "game_status": "playing"
             },
@@ -961,9 +961,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Duren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 16,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 17,
+                "Diff": "2",
                 "Antece": "Curtis Rowe",
                 "game_status": "playing"
             },
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (2 assists today) has passed Anthony Mason, Jerry Lucas and Richie Guerin and is now ranked 231st all-time with 215 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160717877560_1233_collage_1777160717808581.png"
-            ],
-            "timestamp": 1777160722
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (6 rebounds today) has passed Amar'e Stoudemire and Michael Cooper and is now ranked 159th all-time with 575 in playoffs.",
             "foto": [
@@ -1709,6 +1702,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340194435437_9166_collage_1777340194335447.png"
             ],
             "timestamp": 1777340199
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (4 rebounds today) has passed Gary Payton and is now ranked 159th all-time with 576 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340295930153_2084_collage_1777340295841182.png"
+            ],
+            "timestamp": 1777340301
         }
     ],
     "notificaciones_franchise": [
@@ -2413,7 +2413,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 654,
+    "total_notificaciones_historicas": 655,
     "total_franchise_historicas": 286,
-    "cache_buster": 1777340199
+    "cache_buster": 1777340301
 }
