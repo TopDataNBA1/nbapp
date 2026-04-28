@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:47:22",
+    "ultima_actualizacion": "01:49:04",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 131,
+                "Rank": 130,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 7,
-                "Total": 1502,
-                "Diff": "1",
-                "Antece": "Mike Conley",
-                "Nota": "A tiro de 1",
+                "Hoy": 9,
+                "Total": 1504,
+                "Diff": "7",
+                "Antece": "Richard Jefferson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1168,9 +1168,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1502,
-                "Diff": "228",
+                "Hoy": 9,
+                "Total": 1504,
+                "Diff": "226",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1299,13 +1299,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (3 points today) has passed Mychal Thompson and is now ranked 208th all-time with 1,133 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777247875406916_6964_collage_1777247875311949.png"
-            ],
-            "timestamp": 1777247880
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Joel Embiid (1 block today) has passed Antonio Davis and Chris Bosh and is now ranked 77th all-time with 103 in playoffs.",
             "foto": [
@@ -1998,6 +1991,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777419750626880_5573_collage_1777419750535928.png"
             ],
             "timestamp": 1777419756
+        },
+        {
+            "texto": "Joel Embiid (9 points today) has passed Mike Conley and is now ranked 130th all-time with 1,504 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777420138297359_9376_collage_1777420138206396.png"
+            ],
+            "timestamp": 1777420143
         }
     ],
     "notificaciones_franchise": [
@@ -2702,7 +2702,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 715,
+    "total_notificaciones_historicas": 716,
     "total_franchise_historicas": 320,
-    "cache_buster": 1777420042
+    "cache_buster": 1777420144
 }
