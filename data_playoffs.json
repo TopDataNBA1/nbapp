@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:16",
+    "ultima_actualizacion": "04:15:57",
     "tablas": {
         "pts": [
             {
@@ -69,14 +69,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 203,
+                "Rank": 202,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 12,
-                "Total": 1155,
-                "Diff": "1",
-                "Antece": "Kyle Korver",
-                "Nota": "A tiro de 1",
+                "Hoy": 15,
+                "Total": 1158,
+                "Diff": "",
+                "Antece": "Jae Crowder",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -129,11 +129,11 @@
                 "Rank": 159,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 577,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 578,
+                "Diff": "",
                 "Antece": "Oscar Robertson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1685,9 +1685,9 @@
                 "Rank": 13,
                 "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "0",
                 "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
@@ -1697,7 +1697,7 @@
                 "Stat": "3PM",
                 "Hoy": 3,
                 "Total": 44,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (10 rebounds today) has passed Derek Fisher and Oscar Robertson and is now ranked 155th all-time with 579 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162287988012_4015_collage_1777162287912037.png"
-            ],
-            "timestamp": 1777162293
-        },
         {
             "texto": "CJ McCollum (17 points today) has passed Dan Majerle and Kenyon Martin and is now ranked 146th all-time with 1,442 in playoffs.",
             "foto": [
@@ -2829,6 +2822,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342068597985_7094_collage_1777342068488203.png"
             ],
             "timestamp": 1777342074
+        },
+        {
+            "texto": "Tobias Harris (15 points today) has passed Kyle Korver and Zach Randolph and is now ranked 202nd all-time with 1,158 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342552022631_2435_collage_1777342551942093.png"
+            ],
+            "timestamp": 1777342557
         }
     ],
     "notificaciones_franchise": [
@@ -3533,7 +3533,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 662,
+    "total_notificaciones_historicas": 663,
     "total_franchise_historicas": 294,
-    "cache_buster": 1777342456
+    "cache_buster": 1777342557
 }
