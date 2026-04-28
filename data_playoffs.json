@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:42:31",
+    "ultima_actualizacion": "06:44:13",
     "tablas": {
         "pts": [
             {
@@ -17,10 +17,10 @@
                 "Rank": 69,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 17,
-                "Total": 1999,
-                "Diff": "1",
-                "Antece": "2000",
+                "Hoy": 20,
+                "Total": 2002,
+                "Diff": "16",
+                "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -423,9 +423,9 @@
                 "Rank": 27,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 216,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 217,
+                "Diff": "4",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -681,10 +681,10 @@
                 "Rank": 2,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1999,
-                "Diff": "1",
-                "Antece": "2000",
+                "Hoy": 20,
+                "Total": 2002,
+                "Diff": "696",
+                "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
             {
@@ -861,9 +861,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 216,
-                "Diff": "84",
+                "Hoy": 2,
+                "Total": 217,
+                "Diff": "83",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -2131,13 +2131,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Derrick White (1 assist today) has passed B.J. Armstrong and Sedale Threatt and is now ranked 183rd all-time with 253 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245072644465_5407_collage_1777245072516539.png"
-            ],
-            "timestamp": 1777245078
-        },
-        {
             "texto": "📢HOF🏛️ Joel Embiid (4 points today) has passed Earl Monroe and is now ranked 135th all-time with 1,473 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245174884635_4472_collage_1777245174777661.png"
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351239970491_7257_collage_1777351239847530.png"
             ],
             "timestamp": 1777351245
+        },
+        {
+            "texto": "📢🔝💯 Jamal Murray (2 three-pointers today) has passed Marcus Smart and is now ranked 27th all-time with 217 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351447027450_8689_collage_1777351446931532.png"
+            ],
+            "timestamp": 1777351453
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Jalen Duren (4 blocks today) has passed Tobias Harris and Chauncey Billups and is now ranked 20th in Pistons history with 15 in playoffs.",
-            "foto": [],
-            "timestamp": 1777145713,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Tobias Harris (2 three-pointers today) has passed Tim Hardaway Jr. and Terry Mills and is now ranked 15th in Pistons history with 17 in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777351245,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Jamal Murray (20 points today) becomes the 2nd player to reach 2,000 points with Nuggets in playoffs.",
+            "foto": [],
+            "timestamp": 1777351453,
+            "team": "DEN",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 705,
-    "total_franchise_historicas": 317,
-    "cache_buster": 1777351351
+    "total_notificaciones_historicas": 706,
+    "total_franchise_historicas": 318,
+    "cache_buster": 1777351453
 }
