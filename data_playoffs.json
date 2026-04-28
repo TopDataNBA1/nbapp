@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:46:18",
+    "ultima_actualizacion": "03:47:59",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
+                "Rank": 176,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 1290,
-                "Diff": "1",
-                "Antece": "Alonzo Mourning",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1293,
+                "Diff": "7",
+                "Antece": "Lou Hudson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -385,9 +385,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1208,
-                "Diff": "178",
+                "Hoy": 3,
+                "Total": 1211,
+                "Diff": "175",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -647,9 +647,9 @@
                 "Rank": 23,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 145,
-                "Diff": "3",
+                "Hoy": 9,
+                "Total": 147,
+                "Diff": "1",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -948,13 +948,13 @@
         ],
         "DET": [
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 80,
+                "Hoy": 5,
+                "Total": 81,
                 "Diff": "0",
-                "Antece": "Dennis Rodman",
+                "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
             {
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (6 rebounds today) has passed Amar'e Stoudemire and Michael Cooper and is now ranked 159th all-time with 575 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160914725072_2098_collage_1777160914631203.png"
-            ],
-            "timestamp": 1777160920
-        },
         {
             "texto": "Karl-Anthony Towns (12 points today) has passed Toni Kukoč and is now ranked 232nd all-time with 1,065 in playoffs.",
             "foto": [
@@ -1709,16 +1702,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340295930153_2084_collage_1777340295841182.png"
             ],
             "timestamp": 1777340301
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (3 points today) has passed Alonzo Mourning and is now ranked 176th all-time with 1,293 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340874606971_7286_collage_1777340874518000.png"
+            ],
+            "timestamp": 1777340879
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Julius Randle (14 points today) has passed Naz Reid and is now ranked 6th in Timberwolves history with 380 in playoffs.",
-            "foto": [],
-            "timestamp": 1777003648,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (5 points today) has passed Bill Russell and is now ranked 8th in Celtics history with 2,675 in playoffs.",
             "foto": [],
@@ -2411,9 +2404,16 @@
             "timestamp": 1777340778,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Cade Cunningham (5 assists today) has passed Dennis Rodman and is now ranked 20th in Pistons history with 81 in playoffs.",
+            "foto": [],
+            "timestamp": 1777340879,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 655,
-    "total_franchise_historicas": 287,
-    "cache_buster": 1777340778
+    "total_notificaciones_historicas": 656,
+    "total_franchise_historicas": 288,
+    "cache_buster": 1777340879
 }
