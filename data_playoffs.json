@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:57:46",
+    "ultima_actualizacion": "03:59:26",
     "tablas": {
         "pts": [
             {
@@ -75,13 +75,13 @@
         ],
         "stl": [
             {
-                "Rank": 173,
+                "Rank": 169,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 78,
+                "Hoy": 1,
+                "Total": 79,
                 "Diff": "1",
-                "Antece": "Tom Henderson",
+                "Antece": "Tyrone Corbin",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -405,9 +405,9 @@
                 "Rank": 20,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 557,
-                "Diff": "8",
+                "Hoy": 8,
+                "Total": 558,
+                "Diff": "7",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -415,9 +415,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 293,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 294,
+                "Diff": "3",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -475,9 +475,9 @@
                 "Rank": 17,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "1",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (7 rebounds today) has passed Gary Payton and is now ranked 158th all-time with 576 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777161691284226_8413_collage_1777161691201258.png"
-            ],
-            "timestamp": 1777161696
-        },
         {
             "texto": "Karl-Anthony Towns (15 points today) has passed Josh Smith and is now ranked 231st all-time with 1,068 in playoffs.",
             "foto": [
@@ -1709,6 +1702,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341268776682_8547_collage_1777341268677709.png"
             ],
             "timestamp": 1777341274
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Damian Lillard, Dave Cowens and Gerald Henderson and is now ranked 169th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341561739650_1266_collage_1777341561658710.png"
+            ],
+            "timestamp": 1777341566
         }
     ],
     "notificaciones_franchise": [
@@ -2413,7 +2413,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 658,
+    "total_notificaciones_historicas": 659,
     "total_franchise_historicas": 290,
-    "cache_buster": 1777341466
+    "cache_buster": 1777341566
 }
