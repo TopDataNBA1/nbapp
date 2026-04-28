@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:14:43",
+    "ultima_actualizacion": "03:16:25",
     "tablas": {
         "pts": [
             {
@@ -200,13 +200,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 153,
+                "Rank": 152,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 2,
-                "Total": 84,
+                "Hoy": 3,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Myles Turner",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -657,9 +657,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 132,
-                "Diff": "14",
+                "Hoy": 4,
+                "Total": 133,
+                "Diff": "13",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -669,18 +669,18 @@
                 "Stat": "REB",
                 "Hoy": 3,
                 "Total": 130,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 92,
-                "Diff": "0",
-                "Antece": "Brian Shaw",
+                "Hoy": 4,
+                "Total": 93,
+                "Diff": "2",
+                "Antece": "Nikola Vučević",
                 "game_status": "playing"
             },
             {
@@ -707,9 +707,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 72,
+                "Diff": "0",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Nickeil Alexander-Walker (4 three-pointers today) has passed Chris Mullin and Eddie Johnson and is now ranked 203rd all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160419569591_7241_collage_1777160419494618.png"
-            ],
-            "timestamp": 1777160424
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
             "foto": [
@@ -1709,16 +1702,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777338119512621_3231_collage_1777338119416183.png"
             ],
             "timestamp": 1777338124
+        },
+        {
+            "texto": "Desmond Bane (3 three-pointers today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 152nd all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777338980181716_2081_collage_1777338980109676.png"
+            ],
+            "timestamp": 1777338984
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donte DiVincenzo (1 rebound today) has passed Kyle Anderson and is now ranked 20th in Timberwolves history with 58 in playoffs.",
-            "foto": [],
-            "timestamp": 1777000140,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Donte DiVincenzo (2 rebounds today) has passed Mark Madsen and is now ranked 19th in Timberwolves history with 59 in playoffs.",
             "foto": [],
@@ -2411,9 +2404,16 @@
             "timestamp": 1777338883,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Franz Wagner (4 rebounds today) has passed Brian Shaw and is now ranked 15th in Magic history with 93 in playoffs.",
+            "foto": [],
+            "timestamp": 1777338984,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 652,
-    "total_franchise_historicas": 284,
-    "cache_buster": 1777338883
+    "total_notificaciones_historicas": 653,
+    "total_franchise_historicas": 285,
+    "cache_buster": 1777338985
 }
