@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:30:41",
+    "ultima_actualizacion": "04:32:22",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 176,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 7,
-                "Total": 1297,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 1300,
+                "Diff": "",
                 "Antece": "Lou Hudson",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -564,25 +564,25 @@
             },
             {
                 "Rank": 177,
+                "Nombre": "Shai Gilgeous-Alexander",
+                "Team": "OKC",
+                "Hoy": 1,
+                "Total": 75,
+                "Diff": "",
+                "Antece": "Rafer Alston",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 178,
                 "Nombre": "Aaron Gordon",
                 "Team": "DEN",
                 "Hoy": 0,
                 "Total": 74,
                 "Diff": "1",
-                "Antece": "Rafer Alston",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 182,
-                "Nombre": "Shai Gilgeous-Alexander",
-                "Team": "OKC",
-                "Hoy": 0,
-                "Total": 74,
-                "Diff": "",
-                "Antece": "Mo Williams",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 183,
@@ -591,7 +591,7 @@
                 "Hoy": 3,
                 "Total": 73,
                 "Diff": "1",
-                "Antece": "Shai Gilgeous-Alexander",
+                "Antece": "Mo Williams",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1505,9 +1505,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1215,
-                "Diff": "171",
+                "Hoy": 10,
+                "Total": 1218,
+                "Diff": "168",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1655,9 +1655,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 65,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 66,
+                "Diff": "0",
                 "Antece": "Hersey Hawkins",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 three-pointers today) has passed Clyde Drexler and is now ranked 67th all-time with 142 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777163842337757_8313_collage_1777163842252802.png"
-            ],
-            "timestamp": 1777163848
-        },
         {
             "texto": "Josh Hart (9 rebounds today) has passed Rashard Lewis and is now ranked 236th all-time with 434 in playoffs.",
             "foto": [
@@ -2829,6 +2822,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343153046171_9857_collage_1777343152941469.png"
             ],
             "timestamp": 1777343158
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Danilo Gallinari, Gerald Green, Lou Williams and Mo Williams and is now ranked 177th all-time with 75 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343537229022_9159_collage_1777343537159830.png"
+            ],
+            "timestamp": 1777343542
         }
     ],
     "notificaciones_franchise": [
@@ -3533,7 +3533,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 668,
+    "total_notificaciones_historicas": 669,
     "total_franchise_historicas": 296,
-    "cache_buster": 1777343441
+    "cache_buster": 1777343542
 }
