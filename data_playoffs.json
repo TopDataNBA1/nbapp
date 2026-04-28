@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:42:15",
+    "ultima_actualizacion": "04:43:58",
     "tablas": {
         "pts": [
             {
@@ -295,7 +295,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 248,
+                "Rank": 247,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "",
+                "Antece": "Steve Kerr",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 249,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
                 "Hoy": 0,
@@ -304,17 +315,6 @@
                 "Antece": "Chris Childs",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 249,
-                "Nombre": "Tobias Harris",
-                "Team": "DET",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "",
-                "Antece": "Rudy Gobert",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "blk": [
@@ -2131,13 +2131,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Rudy Gobert today surpasses Alton Lister, Cory Joseph, Jeff Teague, Keith Erickson, Luc Longley and Reggie Jackson and now ranked 237th all time with 88 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777165201259716_4351_collage_1777165201181785.png"
-            ],
-            "timestamp": 1777165206
-        },
-        {
             "texto": "Rudy Gobert (2 points today) has passed Jamal Crawford and is now ranked 234th all-time with 1,062 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777165303684175_3272_collage_1777165303595142.png"
@@ -2829,6 +2822,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344130377358_1479_collage_1777344130293368.png"
             ],
             "timestamp": 1777344135
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed Chris Childs, Rudy Gobert and Tom Chambers and is now ranked 247th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344233338183_4104_collage_1777344233270330.png"
+            ],
+            "timestamp": 1777344238
         }
     ],
     "notificaciones_franchise": [
@@ -3533,7 +3533,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 673,
+    "total_notificaciones_historicas": 674,
     "total_franchise_historicas": 299,
-    "cache_buster": 1777344135
+    "cache_buster": 1777344238
 }
