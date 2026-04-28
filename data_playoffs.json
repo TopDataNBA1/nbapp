@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:34",
+    "ultima_actualizacion": "02:21:10",
     "tablas": {
         "pts": [
             {
@@ -425,9 +425,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 130,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 131,
+                "Diff": "15",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -435,8 +435,8 @@
                 "Rank": 11,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 127,
+                "Hoy": 1,
+                "Total": 128,
                 "Diff": "3",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
@@ -674,13 +674,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 23,
                 "Nombre": "Ausar Thompson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 11,
-                "Diff": "0",
-                "Antece": "Andre Drummond",
+                "Hoy": 1,
+                "Total": 12,
+                "Diff": "2",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -694,13 +694,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 12,
-                "Diff": "0",
-                "Antece": "Reggie Jackson",
+                "Hoy": 1,
+                "Total": 13,
+                "Diff": "2",
+                "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             }
         ]
@@ -1409,20 +1409,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jakob Poeltl (6 rebounds today) has passed Keon Clark and is now ranked 21st in Raptors history with 64 in playoffs.",
-            "foto": [],
-            "timestamp": 1776996215,
-            "team": "TOR",
-            "type": "franchise"
-        },
-        {
-            "texto": "Evan Mobley (5 assists today) has passed Jim Cleamons and is now ranked 21st in Cavaliers history with 62 in playoffs.",
-            "foto": [],
-            "timestamp": 1776996215,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Naz Reid (1 three-pointer today) has passed Jaden McDaniels and is now ranked 4th in Timberwolves history with 56 in playoffs.",
             "foto": [],
             "timestamp": 1776997273,
@@ -2107,9 +2093,23 @@
             "timestamp": 1777335574,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Ausar Thompson (1 block today) has passed Kent Benson and Andre Drummond and is now ranked 23rd in Pistons history with 12 in playoffs.",
+            "foto": [],
+            "timestamp": 1777335670,
+            "team": "DET",
+            "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (1 three-pointer today) has passed Reggie Jackson and Kentavious Caldwell-Pope and is now ranked 19th in Pistons history with 13 in playoffs.",
+            "foto": [],
+            "timestamp": 1777335670,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 651,
-    "total_franchise_historicas": 274,
-    "cache_buster": 1777335574
+    "total_franchise_historicas": 276,
+    "cache_buster": 1777335670
 }
