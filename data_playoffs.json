@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:24:17",
+    "ultima_actualizacion": "04:25:58",
     "tablas": {
         "pts": [
             {
@@ -50,9 +50,9 @@
                 "Rank": 176,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 1295,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 1296,
+                "Diff": "4",
                 "Antece": "Lou Hudson",
                 "Nota": "",
                 "game_status": "playing"
@@ -69,14 +69,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 201,
+                "Rank": 200,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 16,
-                "Total": 1159,
-                "Diff": "",
-                "Antece": "Maurice Lucas",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 1161,
+                "Diff": "2",
+                "Antece": "Marques Johnson",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -1505,9 +1505,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 1213,
-                "Diff": "173",
+                "Hoy": 6,
+                "Total": 1214,
+                "Diff": "172",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1757,9 +1757,9 @@
                 "Rank": 21,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 153,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 156,
+                "Diff": "13",
                 "Antece": "Courtney Lee",
                 "game_status": "playing"
             },
@@ -1787,9 +1787,9 @@
                 "Rank": 11,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 132,
-                "Diff": "3",
+                "Hoy": 6,
+                "Total": 133,
+                "Diff": "2",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -1957,9 +1957,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Suggs",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 23,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 24,
+                "Diff": "8",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nickeil Alexander-Walker (5 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 200th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777163075669924_9432_collage_1777163075593951.png"
-            ],
-            "timestamp": 1777163080
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 three-pointers today) has passed Clyde Drexler and is now ranked 67th all-time with 142 in playoffs.",
             "foto": [
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343051751151_9020_collage_1777343051659178.png"
             ],
             "timestamp": 1777343057
+        },
+        {
+            "texto": "Tobias Harris (18 points today) has passed Maurice Lucas and is now ranked 200th all-time with 1,161 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343153046171_9857_collage_1777343152941469.png"
+            ],
+            "timestamp": 1777343158
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Jayson Tatum (22 points today) becomes the 4th player to reach 3,000 points with Celtics in playoffs.",
-            "foto": [],
-            "timestamp": 1777080937,
-            "team": "BOS",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "📢🔝3️⃣ Jayson Tatum (5 three-pointers today) becomes the 1st player to reach 300 three-pointers with Celtics in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777342764,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Jalen Suggs (1 three-pointer today) has passed Tracy McGrady and is now ranked 13th in Magic history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1777343158,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 667,
-    "total_franchise_historicas": 295,
-    "cache_buster": 1777343057
+    "total_notificaciones_historicas": 668,
+    "total_franchise_historicas": 296,
+    "cache_buster": 1777343158
 }
