@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:08:23",
+    "ultima_actualizacion": "02:10:05",
     "tablas": {
         "pts": [
             {
                 "Rank": 204,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 1143,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 1145,
+                "Diff": "10",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -247,11 +247,11 @@
                 "Rank": 157,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 82,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 83,
+                "Diff": "1",
                 "Antece": "Vernon Maxwell",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -395,9 +395,9 @@
                 "Rank": 13,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 309,
-                "Diff": "61",
+                "Hoy": 2,
+                "Total": 311,
+                "Diff": "59",
                 "Antece": "Mickaël Piétrus",
                 "game_status": "playing"
             },
@@ -425,9 +425,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 129,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 130,
+                "Diff": "16",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -437,7 +437,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 127,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -463,22 +463,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Franz Wagner",
+                "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "3",
                 "Antece": "JJ Redick",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Paolo Banchero",
+                "Nombre": "Franz Wagner",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 70,
-                "Diff": "0",
-                "Antece": "Franz Wagner",
+                "Diff": "1",
+                "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
             {
@@ -644,13 +644,13 @@
         ],
         "DET": [
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "0",
-                "Antece": "Bob Lanier",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "1",
+                "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
             {
@@ -706,13 +706,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (1 steal today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 200th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777159005805518_1884_collage_1777159005741539.png"
-            ],
-            "timestamp": 1777159010
-        },
         {
             "texto": "📢HOF🏛️ CJ McCollum (1 assist today) has passed Calvin Murphy and is now ranked 233rd all-time with 214 in playoffs.",
             "foto": [
@@ -1405,23 +1398,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777261509472220_2403_collage_1777261509353280.png"
             ],
             "timestamp": 1777261514
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Iman Shumpert and is now ranked 157th all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777335000020744_5597_collage_1777334999933768.png"
+            ],
+            "timestamp": 1777335005
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donte DiVincenzo today surpasses Mark Madsen and is now ranked 19th in Timberwolves history with 18 games in playoffs.",
-            "foto": [],
-            "timestamp": 1776995429,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 38 games in playoffs.",
-            "foto": [],
-            "timestamp": 1776995632,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Scottie Barnes (8 assists today) has passed OG Anunoby and is now ranked 18th in Raptors history with 37 in playoffs.",
             "foto": [],
@@ -2107,9 +2093,23 @@
             "timestamp": 1777334903,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (1 assist today) has passed Franz Wagner and is now ranked 14th in Magic history with 71 in playoffs.",
+            "foto": [],
+            "timestamp": 1777335005,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Cade Cunningham (1 assist today) has passed Bob Lanier and is now ranked 23rd in Pistons history with 77 in playoffs.",
+            "foto": [],
+            "timestamp": 1777335005,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 650,
-    "total_franchise_historicas": 270,
-    "cache_buster": 1777334903
+    "total_notificaciones_historicas": 651,
+    "total_franchise_historicas": 272,
+    "cache_buster": 1777335005
 }
