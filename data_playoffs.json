@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:20:06",
+    "ultima_actualizacion": "05:21:47",
     "tablas": {
         "pts": [
             {
@@ -36,14 +36,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 157,
+                "Rank": 156,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 11,
-                "Total": 1387,
-                "Diff": "1",
-                "Antece": "Chris Bosh",
-                "Nota": "A tiro de 1",
+                "Hoy": 13,
+                "Total": 1389,
+                "Diff": "12",
+                "Antece": "Bailey Howell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -983,9 +983,9 @@
                 "Rank": 6,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 404,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 406,
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -995,7 +995,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 398,
-                "Diff": "6",
+                "Diff": "8",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1023,9 +1023,9 @@
                 "Rank": 22,
                 "Nombre": "Kyle Anderson",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 98,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 100,
+                "Diff": "15",
                 "Antece": "Fred Hoiberg",
                 "game_status": "playing"
             },
@@ -1035,7 +1035,7 @@
                 "Stat": "PTS",
                 "Hoy": 6,
                 "Total": 97,
-                "Diff": "1",
+                "Diff": "3",
                 "Antece": "Kyle Anderson",
                 "game_status": "playing"
             },
@@ -1143,9 +1143,9 @@
                 "Rank": 4,
                 "Nombre": "Julius Randle",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 89,
-                "Diff": "89",
+                "Hoy": 2,
+                "Total": 90,
+                "Diff": "88",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1999,9 +1999,9 @@
                 "Rank": 2,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1387,
-                "Diff": "613",
+                "Hoy": 13,
+                "Total": 1389,
+                "Diff": "611",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -2009,7 +2009,7 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 256,
                 "Diff": "1",
                 "Antece": "Steve Nash",
@@ -2029,9 +2029,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Jason Kidd",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Fat Lever, Luka Dončić, Norm Nixon and Paul Westphal and is now ranked 138th all-time with 90 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777223789783868_6751_collage_1777223789713884.png"
-            ],
-            "timestamp": 1777223794
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (1 assist today) has passed Tony Parker and is now ranked 6th all-time with 1,144 in playoffs.",
             "foto": [
@@ -2829,6 +2822,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346117270671_5793_collage_1777346117187485.png"
             ],
             "timestamp": 1777346122
+        },
+        {
+            "texto": "📢HOF🏛️ Devin Booker (13 points today) has passed Chris Bosh and Vinnie Johnson and is now ranked 156th all-time with 1,389 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346502617040_6063_collage_1777346502544048.png"
+            ],
+            "timestamp": 1777346507
         }
     ],
     "notificaciones_franchise": [
@@ -3533,7 +3533,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 687,
+    "total_notificaciones_historicas": 688,
     "total_franchise_historicas": 310,
-    "cache_buster": 1777346406
+    "cache_buster": 1777346507
 }
