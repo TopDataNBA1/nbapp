@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:21:47",
+    "ultima_actualizacion": "05:23:28",
     "tablas": {
         "pts": [
             {
@@ -186,11 +186,11 @@
                 "Rank": 154,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 290,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 291,
+                "Diff": "",
                 "Antece": "Chris Webber",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -585,14 +585,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 183,
+                "Rank": 179,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 73,
-                "Diff": "1",
-                "Antece": "Mo Williams",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 74,
+                "Diff": "",
+                "Antece": "Aaron Gordon",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1083,9 +1083,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 121,
-                "Diff": "51",
+                "Hoy": 3,
+                "Total": 122,
+                "Diff": "50",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1095,7 +1095,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 117,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1110,13 +1110,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Kyle Anderson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 58,
-                "Diff": "0",
-                "Antece": "Mark Madsen",
+                "Hoy": 2,
+                "Total": 59,
+                "Diff": "2",
+                "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
             {
@@ -1555,9 +1555,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 271,
-                "Diff": "69",
+                "Hoy": 5,
+                "Total": 272,
+                "Diff": "68",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1695,9 +1695,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 44,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 45,
+                "Diff": "1",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (1 assist today) has passed Tony Parker and is now ranked 6th all-time with 1,144 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777224278525511_1166_collage_1777224278440718.png"
-            ],
-            "timestamp": 1777224284
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (3 points today) has passed Sam Perkins and is now ranked 84th all-time with 1,863 in playoffs.",
             "foto": [
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346502617040_6063_collage_1777346502544048.png"
             ],
             "timestamp": 1777346507
+        },
+        {
+            "texto": "Alex Caruso (4 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 179th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346603636061_1401_collage_1777346603575098.png"
+            ],
+            "timestamp": 1777346608
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (2 three-pointers today) has passed Nikola Vučević and Pat Garrity and is now ranked 16th in Magic history with 22 in playoffs.",
-            "foto": [],
-            "timestamp": 1777140641,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (8 assists today) has passed Franz Wagner and is now ranked 14th in Magic history with 69 in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777346406,
             "team": "PHO",
             "type": "franchise"
+        },
+        {
+            "texto": "Kyle Anderson (2 rebounds today) has passed Mark Madsen and is now ranked 20th in Timberwolves history with 59 in playoffs.",
+            "foto": [],
+            "timestamp": 1777346608,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 688,
-    "total_franchise_historicas": 310,
-    "cache_buster": 1777346507
+    "total_notificaciones_historicas": 689,
+    "total_franchise_historicas": 311,
+    "cache_buster": 1777346608
 }
