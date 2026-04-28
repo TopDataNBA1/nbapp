@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:05:38",
+    "ultima_actualizacion": "05:07:19",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 34,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 2,
-                "Total": 745,
-                "Diff": "19",
+                "Hoy": 4,
+                "Total": 747,
+                "Diff": "17",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -596,14 +596,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 189,
+                "Rank": 187,
                 "Nombre": "Cameron Johnson",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 71,
-                "Diff": "",
-                "Antece": "Austin Rivers",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 72,
+                "Diff": "1",
+                "Antece": "Sean Elliott",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -741,9 +741,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 745,
-                "Diff": "255",
+                "Hoy": 4,
+                "Total": 747,
+                "Diff": "253",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -753,7 +753,7 @@
                 "Stat": "AST",
                 "Hoy": 3,
                 "Total": 500,
-                "Diff": "245",
+                "Diff": "247",
                 "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
@@ -1030,13 +1030,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 94,
+                "Hoy": 6,
+                "Total": 97,
                 "Diff": "1",
-                "Antece": "Terry Porter",
+                "Antece": "Kyle Anderson",
                 "game_status": "playing"
             },
             {
@@ -1413,9 +1413,9 @@
                 "Rank": 21,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 10,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 11,
+                "Diff": "0",
                 "Antece": "Terrell Brandon",
                 "game_status": "playing"
             },
@@ -2131,13 +2131,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (11 rebounds today) has passed Dwyane Wade and is now ranked 65th all-time with 929 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777171898927740_2043_collage_1777171898854689.png"
-            ],
-            "timestamp": 1777171904
-        },
-        {
             "texto": "📢🔝💯 Mike Conley (1 three-pointer today) has passed Danny Ainge and is now ranked 48th all-time with 173 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777172001128384_4551_collage_1777172001024416.png"
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345533145878_1756_collage_1777345533039932.png"
             ],
             "timestamp": 1777345538
+        },
+        {
+            "texto": "Cameron Johnson (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 187th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345634383055_1326_collage_1777345634290086.png"
+            ],
+            "timestamp": 1777345639
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (8 points today) has passed JJ Redick and Darrell Armstrong and is now ranked 13th in Magic history with 300 in playoffs.",
-            "foto": [],
-            "timestamp": 1777140544,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (6 assists today) has passed Horace Grant and is now ranked 15th in Magic history with 67 in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777345437,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Ayo Dosunmu (6 points today) has passed Terry Porter and is now ranked 23rd in Timberwolves history with 97 in playoffs.",
+            "foto": [],
+            "timestamp": 1777345639,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 684,
-    "total_franchise_historicas": 307,
-    "cache_buster": 1777345538
+    "total_notificaciones_historicas": 685,
+    "total_franchise_historicas": 308,
+    "cache_buster": 1777345639
 }
