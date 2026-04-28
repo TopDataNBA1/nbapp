@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:04:19",
+    "ultima_actualizacion": "04:06:11",
     "tablas": {
         "pts": [
             {
@@ -233,14 +233,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 186,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "",
-                "Antece": "Al-Farouq Aminu",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 72,
+                "Diff": "1",
+                "Antece": "Sean Elliott",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -415,9 +415,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 294,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 295,
+                "Diff": "2",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -572,13 +572,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "0",
-                "Antece": "Thabo Sefolosha",
+                "Hoy": 2,
+                "Total": 43,
+                "Diff": "1",
+                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -804,13 +804,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 18,
                 "Nombre": "Goga Bitadze",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 7,
+                "Hoy": 2,
+                "Total": 8,
                 "Diff": "0",
-                "Antece": "Tree Rollins",
+                "Antece": "Nikola Vučević",
                 "game_status": "playing"
             },
             {
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 three-pointer today) has passed Harrison Barnes, Isiah Thomas, Jason Williams and Raja Bell and is now ranked 159th all-time with 82 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162085176254_1923_collage_1777162085107288.png"
-            ],
-            "timestamp": 1777162090
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (19 points today) has passed Larry Nance and Zelmo Beaty and is now ranked 229th all-time with 1,072 in playoffs.",
             "foto": [
@@ -1709,23 +1702,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341758295383_5260_collage_1777341758202603.png"
             ],
             "timestamp": 1777341763
+        },
+        {
+            "texto": "Alex Caruso (2 three-pointers today) has passed Al-Farouq Aminu, Austin Rivers, Cameron Johnson, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton, Shawn Marion and Trae Young and is now ranked 186th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341965818346_3863_collage_1777341965721011.png"
+            ],
+            "timestamp": 1777341971
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Clint Capela today surpasses Allen Leavell and is now ranked 7th in Rockets history with 64 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777076762,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (15 points today) has passed Robert Parish and is now ranked 7th in Celtics history with 2,685 in playoffs.",
-            "foto": [],
-            "timestamp": 1777078321,
-            "team": "BOS",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (1 steal today) has passed Doug Collins and is now ranked 23rd in 76ers history with 35 in playoffs.",
             "foto": [],
@@ -2411,9 +2397,23 @@
             "timestamp": 1777341662,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Goga Bitadze (2 blocks today) has passed Andrew DeClercq and Tree Rollins and is now ranked 18th in Magic history with 8 in playoffs.",
+            "foto": [],
+            "timestamp": 1777341971,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 three-pointers today) has passed Dale Ellis, Serge Ibaka and Thabo Sefolosha and is now ranked 14th in Thunder history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1777341971,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 660,
-    "total_franchise_historicas": 291,
-    "cache_buster": 1777341859
+    "total_notificaciones_historicas": 661,
+    "total_franchise_historicas": 293,
+    "cache_buster": 1777341971
 }
