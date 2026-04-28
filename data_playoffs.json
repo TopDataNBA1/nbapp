@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:22:41",
+    "ultima_actualizacion": "03:36:39",
     "tablas": {
         "pts": [
             {
@@ -38,13 +38,13 @@
         ],
         "trb": [
             {
-                "Rank": 162,
+                "Rank": 160,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 574,
+                "Hoy": 3,
+                "Total": 575,
                 "Diff": "",
-                "Antece": "Michael Cooper",
+                "Antece": "Gary Payton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -677,9 +677,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 92,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 93,
+                "Diff": "2",
                 "Antece": "Nikola Vučević",
                 "game_status": "playing"
             },
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160521368509_8129_collage_1777160521307530.png"
-            ],
-            "timestamp": 1777160525
-        },
         {
             "texto": "📢HOF🏛️ CJ McCollum (2 assists today) has passed Anthony Mason, Jerry Lucas and Richie Guerin and is now ranked 231st all-time with 215 in playoffs.",
             "foto": [
@@ -1709,6 +1702,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777338980181716_2081_collage_1777338980109676.png"
             ],
             "timestamp": 1777338984
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (3 rebounds today) has passed Amar'e Stoudemire and Michael Cooper and is now ranked 160th all-time with 575 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340194435437_9166_collage_1777340194335447.png"
+            ],
+            "timestamp": 1777340199
         }
     ],
     "notificaciones_franchise": [
@@ -2413,7 +2413,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 653,
+    "total_notificaciones_historicas": 654,
     "total_franchise_historicas": 286,
-    "cache_buster": 1777339361
+    "cache_buster": 1777340199
 }
