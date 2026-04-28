@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:58",
+    "ultima_actualizacion": "01:16:40",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 47,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 2489,
-                "Diff": "37",
+                "Hoy": 6,
+                "Total": 2492,
+                "Diff": "34",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -61,11 +61,11 @@
                 "Rank": 208,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1136,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 1138,
+                "Diff": "3",
                 "Antece": "Vern Mikkelsen",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -107,9 +107,9 @@
                 "Rank": 128,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 651,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 652,
+                "Diff": "3",
                 "Antece": "David West",
                 "Nota": "",
                 "game_status": "playing"
@@ -324,9 +324,9 @@
                 "Rank": 13,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 287,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 288,
+                "Diff": "4",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -444,13 +444,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 242,
+                "Rank": 232,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 87,
+                "Hoy": 1,
+                "Total": 88,
                 "Diff": "",
-                "Antece": "Cory Joseph",
+                "Antece": "Brent Barry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -684,9 +684,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 651,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 652,
+                "Diff": "18",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -694,9 +694,9 @@
                 "Rank": 18,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 189,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 191,
+                "Diff": "3",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -783,13 +783,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jayson Tatum (4 rebounds today) has passed Giannis Antetokounmpo and is now ranked 50th all-time with 1,023 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777245942045059_6777_collage_1777245941956100.png"
-            ],
-            "timestamp": 1777245947
-        },
         {
             "texto": "Payton Pritchard (2 three-pointers today) has passed Dennis Schröder, James Posey, Mikal Bridges, Nick Anderson and Tim Thomas and is now ranked 136th all-time with 90 in playoffs.",
             "foto": [
@@ -1482,6 +1475,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418092672811_7202_collage_1777418092581839.png"
             ],
             "timestamp": 1777418098
+        },
+        {
+            "texto": "Derrick White today surpasses Alton Lister, Cory Joseph, Jeff Teague, Keith Erickson, Luc Longley and Reggie Jackson and now ranked 232nd all time with 88 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418195569714_3248_collage_1777418195488673.png"
+            ],
+            "timestamp": 1777418200
         }
     ],
     "notificaciones_franchise": [
@@ -2186,7 +2186,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 708,
+    "total_notificaciones_historicas": 709,
     "total_franchise_historicas": 320,
-    "cache_buster": 1777418098
+    "cache_buster": 1777418200
 }
