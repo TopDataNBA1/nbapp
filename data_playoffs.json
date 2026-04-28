@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:00:22",
+    "ultima_actualizacion": "03:02:04",
     "tablas": {
         "pts": [
             {
@@ -225,11 +225,11 @@
                 "Rank": 58,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 156,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 157,
+                "Diff": "1",
                 "Antece": "Joe Johnson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -415,9 +415,9 @@
                 "Rank": 23,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 141,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 143,
+                "Diff": "5",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -435,9 +435,9 @@
                 "Rank": 11,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 128,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 130,
+                "Diff": "1",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -706,13 +706,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (1 assist today) has passed Calvin Murphy and is now ranked 233rd all-time with 214 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777160413613141_8334_collage_1777160413496153.png"
-            ],
-            "timestamp": 1777160419
-        },
         {
             "texto": "📢HOF🏛️ Nickeil Alexander-Walker (4 three-pointers today) has passed Chris Mullin and Eddie Johnson and is now ranked 203rd all-time with 68 in playoffs.",
             "foto": [
@@ -1405,6 +1398,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777335000020744_5597_collage_1777334999933768.png"
             ],
             "timestamp": 1777335005
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed Jimmy Butler and is now ranked 58th all-time with 157 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777338119512621_3231_collage_1777338119416183.png"
+            ],
+            "timestamp": 1777338124
         }
     ],
     "notificaciones_franchise": [
@@ -2109,7 +2109,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 651,
+    "total_notificaciones_historicas": 652,
     "total_franchise_historicas": 281,
-    "cache_buster": 1777338022
+    "cache_buster": 1777338124
 }
