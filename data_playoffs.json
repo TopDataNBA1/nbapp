@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:52:53",
+    "ultima_actualizacion": "03:54:34",
     "tablas": {
         "pts": [
             {
@@ -132,13 +132,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 208,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 45,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "",
-                "Antece": "Timofey Mozgov",
+                "Antece": "Mehmet Okur",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -697,9 +697,9 @@
                 "Rank": 14,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 73,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 74,
+                "Diff": "0",
                 "Antece": "JJ Redick",
                 "game_status": "playing"
             },
@@ -709,7 +709,7 @@
                 "Stat": "AST",
                 "Hoy": 3,
                 "Total": 73,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -968,13 +968,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 14,
+                "Hoy": 1,
+                "Total": 15,
                 "Diff": "0",
-                "Antece": "Chauncey Billups",
+                "Antece": "Theo Ratliff",
                 "game_status": "playing"
             },
             {
@@ -984,7 +984,7 @@
                 "Hoy": 2,
                 "Total": 13,
                 "Diff": "1",
-                "Antece": "Tobias Harris",
+                "Antece": "Chauncey Billups",
                 "game_status": "playing"
             },
             {
@@ -1010,13 +1010,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (8 rebounds today) has passed Tree Rollins and Walter Dukes and is now ranked 237th all-time with 433 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777161304795377_6761_collage_1777161304714408.png"
-            ],
-            "timestamp": 1777161309
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (7 rebounds today) has passed Gary Payton and is now ranked 158th all-time with 576 in playoffs.",
             "foto": [
@@ -1709,16 +1702,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341071812995_5015_collage_1777341071729040.png"
             ],
             "timestamp": 1777341076
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 208th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341268776682_8547_collage_1777341268677709.png"
+            ],
+            "timestamp": 1777341274
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (3 assists today) has passed Red Kerr and is now ranked 23rd in 76ers history with 149 in playoffs.",
-            "foto": [],
-            "timestamp": 1777073491,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Rui Hachimura (1 three-pointer today) has passed Lamar Odom and is now ranked 17th in Lakers history with 45 in playoffs.",
             "foto": [],
@@ -2411,9 +2404,16 @@
             "timestamp": 1777341076,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Chauncey Billups and is now ranked 21st in Pistons history with 15 in playoffs.",
+            "foto": [],
+            "timestamp": 1777341274,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 657,
-    "total_franchise_historicas": 289,
-    "cache_buster": 1777341173
+    "total_notificaciones_historicas": 658,
+    "total_franchise_historicas": 290,
+    "cache_buster": 1777341274
 }
