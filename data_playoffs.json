@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:42",
+    "ultima_actualizacion": "04:19:24",
     "tablas": {
         "pts": [
             {
@@ -552,13 +552,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 167,
+                "Rank": 165,
                 "Nombre": "Royce O'Neale",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 79,
+                "Hoy": 1,
+                "Total": 80,
                 "Diff": "",
-                "Antece": "Jerry Stackhouse",
+                "Antece": "Larry Bird",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1673,22 +1673,22 @@
             },
             {
                 "Rank": 12,
-                "Nombre": "Chet Holmgren",
+                "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 46,
+                "Diff": "5",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
             {
                 "Rank": 13,
-                "Nombre": "Isaiah Joe",
+                "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 45,
-                "Diff": "0",
-                "Antece": "Chet Holmgren",
+                "Diff": "1",
+                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -1698,7 +1698,7 @@
                 "Hoy": 3,
                 "Total": 44,
                 "Diff": "1",
-                "Antece": "Isaiah Joe",
+                "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
             {
@@ -1737,9 +1737,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 417,
-                "Diff": "50",
+                "Hoy": 16,
+                "Total": 418,
+                "Diff": "49",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 159th all-time with 55 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777162968528390_5493_collage_1777162968452398.png"
-            ],
-            "timestamp": 1777162973
-        },
         {
             "texto": "CJ McCollum (3 assists today) has passed Tom Heinsohn and is now ranked 229th all-time with 216 in playoffs.",
             "foto": [
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342658205738_2610_collage_1777342658142758.png"
             ],
             "timestamp": 1777342662
+        },
+        {
+            "texto": "Royce O'Neale (1 three-pointer today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 165th all-time with 80 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342759387783_4993_collage_1777342759316807.png"
+            ],
+            "timestamp": 1777342764
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (2 blocks today) has passed Tyrone Hill and Harvey Catchings and is now ranked 21st in 76ers history with 17 in playoffs.",
-            "foto": [],
-            "timestamp": 1777079002,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Jayson Tatum (22 points today) becomes the 4th player to reach 3,000 points with Celtics in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777342074,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Joe (2 three-pointers today) has passed Chet Holmgren and is now ranked 12th in Thunder history with 46 in playoffs.",
+            "foto": [],
+            "timestamp": 1777342764,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 665,
-    "total_franchise_historicas": 294,
-    "cache_buster": 1777342662
+    "total_notificaciones_historicas": 666,
+    "total_franchise_historicas": 295,
+    "cache_buster": 1777342764
 }
