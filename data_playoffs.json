@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:25:10",
+    "ultima_actualizacion": "05:26:52",
     "tablas": {
         "pts": [
             {
@@ -552,13 +552,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 165,
+                "Rank": 164,
                 "Nombre": "Royce O'Neale",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 80,
+                "Hoy": 2,
+                "Total": 81,
                 "Diff": "",
-                "Antece": "Larry Bird",
+                "Antece": "Raja Bell",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -721,9 +721,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 406,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 407,
+                "Diff": "12",
                 "Antece": "Aaron Gordon",
                 "game_status": "playing"
             },
@@ -971,22 +971,22 @@
             },
             {
                 "Rank": 5,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 407,
-                "Diff": "126",
+                "Hoy": 12,
+                "Total": 408,
+                "Diff": "125",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
                 "Rank": 6,
-                "Nombre": "Julius Randle",
+                "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 406,
+                "Hoy": 0,
+                "Total": 407,
                 "Diff": "1",
-                "Antece": "Rudy Gobert",
+                "Antece": "Julius Randle",
                 "game_status": "playing"
             },
             {
@@ -995,8 +995,8 @@
                 "Stat": "PTS",
                 "Hoy": 5,
                 "Total": 400,
-                "Diff": "6",
-                "Antece": "Julius Randle",
+                "Diff": "7",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1113,9 +1113,9 @@
                 "Rank": 20,
                 "Nombre": "Kyle Anderson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 59,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 60,
+                "Diff": "1",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -2009,7 +2009,7 @@
                 "Rank": 13,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 256,
                 "Diff": "1",
                 "Antece": "Steve Nash",
@@ -2130,13 +2130,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 223rd all-time with 43 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777225050586191_2375_collage_1777225050486369.png"
-            ],
-            "timestamp": 1777225056
-        },
         {
             "texto": "Evan Mobley (2 blocks today) has passed Daniel Gafford, Isaiah Hartenstein, Karl-Anthony Towns, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 217th all-time with 44 in playoffs.",
             "foto": [
@@ -2829,16 +2822,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346705005026_1417_collage_1777346704891109.png"
             ],
             "timestamp": 1777346710
+        },
+        {
+            "texto": "📢HOF🏛️ Royce O'Neale (2 three-pointers today) has passed Larry Bird and is now ranked 164th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346806981680_5474_collage_1777346806900701.png"
+            ],
+            "timestamp": 1777346812
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (3 three-pointers today) has passed Ryan Anderson and Terrence Ross and is now ranked 14th in Magic history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1777142250,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (2 three-pointers today) has passed Dennis Schröder and is now ranked 21st in Pistons history with 11 in playoffs.",
             "foto": [],
@@ -3531,9 +3524,16 @@
             "timestamp": 1777346710,
             "team": "DEN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Julius Randle (12 points today) has passed Rudy Gobert and is now ranked 5th in Timberwolves history with 408 in playoffs.",
+            "foto": [],
+            "timestamp": 1777346812,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 690,
-    "total_franchise_historicas": 312,
-    "cache_buster": 1777346710
+    "total_notificaciones_historicas": 691,
+    "total_franchise_historicas": 313,
+    "cache_buster": 1777346812
 }
