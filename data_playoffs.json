@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:45:58",
+    "ultima_actualizacion": "01:47:34",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 3984,
-                "Diff": "16",
+                "Hoy": 6,
+                "Total": 3988,
+                "Diff": "12",
                 "Antece": "4000",
                 "Nota": "",
                 "game_status": "playing"
@@ -170,9 +170,9 @@
                 "Rank": 4,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 446,
-                "Diff": "41",
+                "Hoy": 1,
+                "Total": 447,
+                "Diff": "40",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,9 +284,9 @@
                 "Rank": 25,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 271,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 272,
+                "Diff": "1",
                 "Antece": "Mike Sanders",
                 "game_status": "playing"
             },
@@ -735,13 +735,13 @@
         ],
         "TOR": [
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 154,
-                "Diff": "0",
-                "Antece": "T.J. Ford",
+                "Hoy": 2,
+                "Total": 156,
+                "Diff": "10",
+                "Antece": "Danny Green",
                 "game_status": "playing"
             },
             {
@@ -820,9 +820,9 @@
                 "Rank": 22,
                 "Nombre": "Isaiah Stewart",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 14,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 15,
+                "Diff": "0",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -847,13 +847,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 16,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 16,
+                "Hoy": 2,
+                "Total": 17,
                 "Diff": "0",
-                "Antece": "Terry Mills",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -1572,27 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Aaron Gordon (1 three-pointer today) has passed J.R. Smith and is now ranked 4th in Nuggets history with 66 in playoffs.",
-            "foto": [],
-            "timestamp": 1777167987,
-            "team": "DEN",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Rudy Gobert (2 steals today) has passed Donte DiVincenzo and is now ranked 7th in Timberwolves history with 29 in playoffs.",
-            "foto": [],
-            "timestamp": 1777170283,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Julius Randle (7 rebounds today) has passed Wally Szczerbiak and Mike Conley and is now ranked 7th in Timberwolves history with 117 in playoffs.",
-            "foto": [],
-            "timestamp": 1777170862,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Jaden McDaniels (3 assists today) has passed Anthony Peeler and is now ranked 13th in Timberwolves history with 57 in playoffs.",
             "foto": [],
             "timestamp": 1777171617,
@@ -2270,9 +2249,30 @@
             "timestamp": 1777506257,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (2 points today) has passed T.J. Ford and is now ranked 21st in Raptors history with 156 in playoffs.",
+            "foto": [],
+            "timestamp": 1777506454,
+            "team": "TOR",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Stewart (1 block today) has passed Chauncey Billups and is now ranked 22nd in Pistons history with 15 in playoffs.",
+            "foto": [],
+            "timestamp": 1777506454,
+            "team": "DET",
+            "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (2 three-pointers today) has passed Tim Hardaway Jr. and Terry Mills and is now ranked 16th in Pistons history with 17 in playoffs.",
+            "foto": [],
+            "timestamp": 1777506454,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 776,
-    "total_franchise_historicas": 347,
-    "cache_buster": 1777506358
+    "total_franchise_historicas": 350,
+    "cache_buster": 1777506454
 }
