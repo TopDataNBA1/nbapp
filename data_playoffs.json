@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:51",
+    "ultima_actualizacion": "04:36:33",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 34,
-                "Total": 1837,
-                "Diff": "24",
+                "Hoy": 36,
+                "Total": 1839,
+                "Diff": "22",
                 "Antece": "Sam Perkins",
                 "Nota": "",
                 "game_status": "playing"
@@ -52,9 +52,9 @@
                 "Team": "PHI",
                 "Hoy": 0,
                 "Total": 1836,
-                "Diff": "1",
+                "Diff": "3",
                 "Antece": "Jalen Brunson",
-                "Nota": "A tiro de 1",
+                "Nota": "A tiro de 3",
                 "game_status": "finished"
             },
             {
@@ -91,14 +91,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 147,
+                "Rank": 144,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 4,
-                "Total": 1446,
-                "Diff": "",
-                "Antece": "Bill Sharman",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 1448,
+                "Diff": "2",
+                "Antece": "Walter Davis",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -1060,9 +1060,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 34,
-                "Total": 1393,
-                "Diff": "534",
+                "Hoy": 36,
+                "Total": 1395,
+                "Diff": "532",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (18 points today) has passed Maurice Lucas and is now ranked 200th all-time with 1,161 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343153046171_9857_collage_1777343152941469.png"
-            ],
-            "timestamp": 1777343158
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Danilo Gallinari, Gerald Green, Lou Williams and Mo Williams and is now ranked 177th all-time with 75 in playoffs.",
             "foto": [
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430086913050_5515_collage_1777430086833020.png"
             ],
             "timestamp": 1777430091
+        },
+        {
+            "texto": "📢HOF🏛️ CJ McCollum (6 points today) has passed Bill Sharman and Ricky Pierce and is now ranked 144th all-time with 1,448 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430188273422_7796_collage_1777430188189464.png"
+            ],
+            "timestamp": 1777430193
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 767,
+    "total_notificaciones_historicas": 768,
     "total_franchise_historicas": 333,
-    "cache_buster": 1777430091
+    "cache_buster": 1777430193
 }
