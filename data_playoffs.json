@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:17:21",
+    "ultima_actualizacion": "05:25:11",
     "tablas": {
         "pts": [
             {
@@ -350,14 +350,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 66,
+                "Rank": 64,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 141,
-                "Diff": "",
-                "Antece": "Clifford Robinson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 142,
+                "Diff": "3",
+                "Antece": "Robert Parish",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1526,13 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Rafer Alston and is now ranked 176th all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344130377358_1479_collage_1777344130293368.png"
-            ],
-            "timestamp": 1777344135
-        },
-        {
             "texto": "Tobias Harris (1 steal today) has passed Chris Childs, Rudy Gobert and Tom Chambers and is now ranked 247th all-time with 63 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344233338183_4104_collage_1777344233270330.png"
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432635925217_7075_collage_1777432635850231.png"
             ],
             "timestamp": 1777432640
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (1 steal today) has passed Clifford Robinson and Ron Harper and is now ranked 64th all-time with 142 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777433106400162_6821_collage_1777433106324188.png"
+            ],
+            "timestamp": 1777433111
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 772,
+    "total_notificaciones_historicas": 773,
     "total_franchise_historicas": 334,
-    "cache_buster": 1777432641
+    "cache_buster": 1777433111
 }
