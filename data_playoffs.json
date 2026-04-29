@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:43:16",
+    "ultima_actualizacion": "03:44:52",
     "tablas": {
         "pts": [
             {
@@ -173,11 +173,11 @@
                 "Rank": 151,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 589,
-                "Diff": "1",
+                "Hoy": 11,
+                "Total": 590,
+                "Diff": "",
                 "Antece": "Jonas Valančiūnas",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -274,9 +274,9 @@
                 "Rank": 92,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 386,
-                "Diff": "4",
+                "Hoy": 5,
+                "Total": 387,
+                "Diff": "3",
                 "Antece": "Rod Strickland",
                 "Nota": "",
                 "game_status": "playing"
@@ -654,11 +654,11 @@
                 "Rank": 99,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 113,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 114,
+                "Diff": "",
                 "Antece": "Nicolas Batum",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1080,9 +1080,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 523,
-                "Diff": "13",
+                "Hoy": 13,
+                "Total": 526,
+                "Diff": "10",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -1107,22 +1107,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 262,
-                "Diff": "0",
-                "Antece": "Kurt Thomas",
+                "Hoy": 11,
+                "Total": 263,
+                "Diff": "3",
+                "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
             {
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 310,
-                "Diff": "82",
+                "Hoy": 5,
+                "Total": 311,
+                "Diff": "81",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1247,13 +1247,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 4,
+                "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 69,
-                "Diff": "0",
-                "Antece": "Allan Houston",
+                "Hoy": 2,
+                "Total": 70,
+                "Diff": "30",
+                "Antece": "100",
                 "game_status": "playing"
             },
             {
@@ -2228,20 +2228,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Josh Hart (1 steal today) has passed OG Anunoby and is now ranked 7th in Knicks history with 49 in playoffs.",
-            "foto": [],
-            "timestamp": 1777156033,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "OG Anunoby (12 points today) has passed Derek Harper and is now ranked 24th in Knicks history with 503 in playoffs.",
-            "foto": [],
-            "timestamp": 1777158806,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Miles McBride (1 three-pointer today) has passed Charlie Ward and is now ranked 6th in Knicks history with 56 in playoffs.",
             "foto": [],
             "timestamp": 1777161594,
@@ -2926,9 +2912,23 @@
             "timestamp": 1777425062,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Karl-Anthony Towns (11 rebounds today) has passed Kurt Thomas and is now ranked 18th in Knicks history with 263 in playoffs.",
+            "foto": [],
+            "timestamp": 1777427092,
+            "team": "NYK",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ OG Anunoby (2 three-pointers today) has passed Allan Houston and is now ranked 3rd in Knicks history with 70 in playoffs.",
+            "foto": [],
+            "timestamp": 1777427092,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 753,
-    "total_franchise_historicas": 330,
-    "cache_buster": 1777426996
+    "total_franchise_historicas": 332,
+    "cache_buster": 1777427092
 }
