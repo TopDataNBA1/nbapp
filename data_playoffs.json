@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:54:44",
+    "ultima_actualizacion": "06:04:07",
     "tablas": {
         "pts": [
             {
@@ -192,14 +192,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 177,
+                "Rank": 176,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 5,
-                "Total": 541,
-                "Diff": "",
-                "Antece": "Danny Green",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 542,
+                "Diff": "4",
+                "Antece": "Bob Cousy",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -230,9 +230,9 @@
                 "Rank": 41,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 6,
-                "Total": 632,
-                "Diff": "22",
+                "Hoy": 7,
+                "Total": 633,
+                "Diff": "21",
                 "Antece": "Mike Conley",
                 "Nota": "",
                 "game_status": "playing"
@@ -1526,13 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Desmond Bane (5 three-pointers today) has passed Gabe Vincent, Patrick Beverley and Rick Fox and is now ranked 145th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344334245128_4480_collage_1777344334182100.png"
-            ],
-            "timestamp": 1777344338
-        },
-        {
             "texto": "Julius Randle (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 229th all-time with 61 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344622311093_1348_collage_1777344622234136.png"
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777434598478885_1468_collage_1777434598381925.png"
             ],
             "timestamp": 1777434603
+        },
+        {
+            "texto": "Jrue Holiday (6 rebounds today) has passed Danny Green and is now ranked 176th all-time with 542 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777435441732612_1262_collage_1777435441641637.png"
+            ],
+            "timestamp": 1777435447
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 774,
+    "total_notificaciones_historicas": 775,
     "total_franchise_historicas": 334,
-    "cache_buster": 1777434884
+    "cache_buster": 1777435447
 }
