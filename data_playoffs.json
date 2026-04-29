@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:52",
+    "ultima_actualizacion": "03:46:34",
     "tablas": {
         "pts": [
             {
@@ -170,14 +170,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 151,
+                "Rank": 150,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 590,
-                "Diff": "",
-                "Antece": "Jonas Valančiūnas",
-                "Nota": "Mismo total",
+                "Hoy": 12,
+                "Total": 591,
+                "Diff": "1",
+                "Antece": "Harry Gallatin",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -206,11 +206,11 @@
                 "Rank": 236,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 436,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 437,
+                "Diff": "",
                 "Antece": "Curtis Perry",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -1090,9 +1090,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 436,
-                "Diff": "25",
+                "Hoy": 3,
+                "Total": 437,
+                "Diff": "24",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1110,9 +1110,9 @@
                 "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 263,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 264,
+                "Diff": "2",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (3 rebounds today) has passed Amar'e Stoudemire and Michael Cooper and is now ranked 160th all-time with 575 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340194435437_9166_collage_1777340194335447.png"
-            ],
-            "timestamp": 1777340199
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (4 rebounds today) has passed Gary Payton and is now ranked 159th all-time with 576 in playoffs.",
             "foto": [
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777426990999872_6117_collage_1777426990907409.png"
             ],
             "timestamp": 1777426996
+        },
+        {
+            "texto": "Karl-Anthony Towns (12 rebounds today) has passed Jonas Valančiūnas and is now ranked 150th all-time with 591 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427188603054_9052_collage_1777427188510076.png"
+            ],
+            "timestamp": 1777427194
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 753,
+    "total_notificaciones_historicas": 754,
     "total_franchise_historicas": 332,
-    "cache_buster": 1777427092
+    "cache_buster": 1777427194
 }
