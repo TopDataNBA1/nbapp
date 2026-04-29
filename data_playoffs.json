@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:27",
+    "ultima_actualizacion": "02:47:08",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 41,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 14,
-                "Total": 2729,
-                "Diff": "16",
+                "Hoy": 16,
+                "Total": 2731,
+                "Diff": "14",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 129,
+                "Rank": 128,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 23,
-                "Total": 1518,
-                "Diff": "1",
-                "Antece": "Shawn Marion",
-                "Nota": "A tiro de 1",
+                "Hoy": 25,
+                "Total": 1520,
+                "Diff": "2",
+                "Antece": "Shawn Kemp",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -208,9 +208,9 @@
                 "Rank": 64,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 5,
-                "Total": 488,
-                "Diff": "9",
+                "Hoy": 6,
+                "Total": 489,
+                "Diff": "8",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -714,9 +714,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 2729,
-                "Diff": "114",
+                "Hoy": 16,
+                "Total": 2731,
+                "Diff": "112",
                 "Antece": "Paul Pierce",
                 "game_status": "playing"
             },
@@ -1168,9 +1168,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 1518,
-                "Diff": "212",
+                "Hoy": 25,
+                "Total": 1520,
+                "Diff": "210",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1299,13 +1299,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Mookie Blaylock and Reggie Miller and is now ranked 107th all-time with 358 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777250980519312_9131_collage_1777250980445318.png"
-            ],
-            "timestamp": 1777250985
-        },
         {
             "texto": "Jaylen Brown (1 block today) has passed Erick Dampier and is now ranked 146th all-time with 61 in playoffs.",
             "foto": [
@@ -1998,6 +1991,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423043987450_2365_collage_1777423043900190.png"
             ],
             "timestamp": 1777423049
+        },
+        {
+            "texto": "Joel Embiid (25 points today) has passed Shawn Marion and is now ranked 128th all-time with 1,520 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423622588729_1396_collage_1777423622465693.png"
+            ],
+            "timestamp": 1777423627
         }
     ],
     "notificaciones_franchise": [
@@ -2702,7 +2702,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 728,
+    "total_notificaciones_historicas": 729,
     "total_franchise_historicas": 327,
-    "cache_buster": 1777423527
+    "cache_buster": 1777423628
 }
