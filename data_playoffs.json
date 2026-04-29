@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:12:35",
+    "ultima_actualizacion": "05:17:21",
     "tablas": {
         "pts": [
             {
@@ -227,7 +227,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 42,
+                "Rank": 41,
+                "Nombre": "Jrue Holiday",
+                "Team": "POR",
+                "Hoy": 5,
+                "Total": 631,
+                "Diff": "23",
+                "Antece": "Mike Conley",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 43,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
                 "Hoy": 4,
@@ -236,17 +247,6 @@
                 "Antece": "Deron Williams",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 43,
-                "Nombre": "Jrue Holiday",
-                "Team": "POR",
-                "Hoy": 4,
-                "Total": 630,
-                "Diff": "",
-                "Antece": "Jayson Tatum",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 64,
@@ -1526,13 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Shai Gilgeous-Alexander (17 points today) has passed Anfernee Hardaway and is now ranked 174th all-time with 1,307 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344125049747_4604_collage_1777344124959695.png"
-            ],
-            "timestamp": 1777344130
-        },
-        {
             "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Rafer Alston and is now ranked 176th all-time with 76 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344130377358_1479_collage_1777344130293368.png"
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432349557174_8840_collage_1777432349468184.png"
             ],
             "timestamp": 1777432355
+        },
+        {
+            "texto": "📢🔝💯 Jrue Holiday (5 assists today) has passed Deron Williams and Jayson Tatum and is now ranked 41st all-time with 631 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432635925217_7075_collage_1777432635850231.png"
+            ],
+            "timestamp": 1777432640
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 771,
+    "total_notificaciones_historicas": 772,
     "total_franchise_historicas": 334,
-    "cache_buster": 1777432355
+    "cache_buster": 1777432641
 }
