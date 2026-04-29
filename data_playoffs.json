@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:36:03",
+    "ultima_actualizacion": "05:50:04",
     "tablas": {
         "pts": [
             {
@@ -195,11 +195,11 @@
                 "Rank": 177,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 4,
-                "Total": 540,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 541,
+                "Diff": "",
                 "Antece": "Danny Green",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1526,13 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (1 steal today) has passed Chris Childs, Rudy Gobert and Tom Chambers and is now ranked 247th all-time with 63 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344233338183_4104_collage_1777344233270330.png"
-            ],
-            "timestamp": 1777344238
-        },
-        {
             "texto": "Desmond Bane (5 three-pointers today) has passed Gabe Vincent, Patrick Beverley and Rick Fox and is now ranked 145th all-time with 87 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344334245128_4480_collage_1777344334182100.png"
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777433106400162_6821_collage_1777433106324188.png"
             ],
             "timestamp": 1777433111
+        },
+        {
+            "texto": "Jrue Holiday (5 rebounds today) has passed Rik Smits and is now ranked 177th all-time with 541 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777434598478885_1468_collage_1777434598381925.png"
+            ],
+            "timestamp": 1777434603
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 773,
+    "total_notificaciones_historicas": 774,
     "total_franchise_historicas": 334,
-    "cache_buster": 1777433763
+    "cache_buster": 1777434604
 }
