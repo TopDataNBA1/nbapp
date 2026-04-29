@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:30:00",
+    "ultima_actualizacion": "04:34:51",
     "tablas": {
         "pts": [
             {
@@ -72,9 +72,9 @@
                 "Rank": 110,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 1626,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 1628,
+                "Diff": "22",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -170,13 +170,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 150,
+                "Rank": 149,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 13,
-                "Total": 592,
+                "Hoy": 14,
+                "Total": 593,
                 "Diff": "",
-                "Antece": "Harry Gallatin",
+                "Antece": "Jae Crowder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -192,14 +192,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 180,
+                "Rank": 179,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 1,
-                "Total": 537,
-                "Diff": "",
-                "Antece": "Gar Heard",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 538,
+                "Diff": "1",
+                "Antece": "Josh Smith",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -274,11 +274,11 @@
                 "Rank": 92,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 388,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 389,
+                "Diff": "1",
                 "Antece": "Rod Strickland",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1080,9 +1080,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 528,
-                "Diff": "8",
+                "Hoy": 17,
+                "Total": 530,
+                "Diff": "6",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -1110,9 +1110,9 @@
                 "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 13,
-                "Total": 265,
-                "Diff": "1",
+                "Hoy": 14,
+                "Total": 266,
+                "Diff": "0",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -1120,9 +1120,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 312,
-                "Diff": "80",
+                "Hoy": 7,
+                "Total": 313,
+                "Diff": "79",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1525,20 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Royce O'Neale (1 three-pointer today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 165th all-time with 80 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342759387783_4993_collage_1777342759316807.png"
-            ],
-            "timestamp": 1777342764
-        },
-        {
-            "texto": "Tobias Harris (16 points today) has passed Jae Crowder and is now ranked 201st all-time with 1,159 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343051751151_9020_collage_1777343051659178.png"
-            ],
-            "timestamp": 1777343057
-        },
         {
             "texto": "Tobias Harris (18 points today) has passed Maurice Lucas and is now ranked 200th all-time with 1,161 in playoffs.",
             "foto": [
@@ -2224,6 +2210,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777429795827512_1360_collage_1777429795724558.png"
             ],
             "timestamp": 1777429800
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (14 rebounds today) has passed Harry Gallatin and is now ranked 149th all-time with 593 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430081885521_4267_collage_1777430081795569.png"
+            ],
+            "timestamp": 1777430086
+        },
+        {
+            "texto": "Jrue Holiday (2 rebounds today) has passed Gar Heard, Mark Aguirre and Tom Hawkins and is now ranked 179th all-time with 538 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430086913050_5515_collage_1777430086833020.png"
+            ],
+            "timestamp": 1777430091
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 765,
+    "total_notificaciones_historicas": 767,
     "total_franchise_historicas": 333,
-    "cache_buster": 1777429800
+    "cache_buster": 1777430091
 }
