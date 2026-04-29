@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:16",
+    "ultima_actualizacion": "02:20:56",
     "tablas": {
         "pts": [
             {
@@ -216,14 +216,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 94,
+                "Rank": 92,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 382,
-                "Diff": "",
-                "Antece": "Boris Diaw",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 383,
+                "Diff": "7",
+                "Antece": "Rod Strickland",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -916,9 +916,9 @@
                 "Rank": 19,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 549,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 552,
+                "Diff": "6",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -966,9 +966,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 306,
-                "Diff": "86",
+                "Hoy": 1,
+                "Total": 307,
+                "Diff": "85",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1116,9 +1116,9 @@
                 "Rank": 8,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 55,
+                "Diff": "0",
                 "Antece": "Charlie Ward",
                 "game_status": "playing"
             },
@@ -1153,13 +1153,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 46,
+                "Hoy": 1,
+                "Total": 47,
                 "Diff": "0",
-                "Antece": "Nat Clifton",
+                "Antece": "Jalen Brunson",
                 "game_status": "playing"
             }
         ],
@@ -1299,13 +1299,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Derrick White (1 block today) has passed Antonio McDyess, Jack Sikma and Jerome Kersey and is now ranked 111th all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777248089269854_7112_collage_1777248089200875.png"
-            ],
-            "timestamp": 1777248093
-        },
         {
             "texto": "Paul George (1 block today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
             "foto": [
@@ -1998,16 +1991,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777421195312679_6199_collage_1777421195244701.png"
             ],
             "timestamp": 1777421199
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (1 assist today) has passed Boris Diaw and Tim Hardaway and is now ranked 92nd all-time with 383 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422051336240_8356_collage_1777422051258267.png"
+            ],
+            "timestamp": 1777422056
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace (1 steal today) has passed Luguentz Dort and is now ranked 19th in Thunder history with 47 in playoffs.",
-            "foto": [],
-            "timestamp": 1777147270,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Chet Holmgren (4 rebounds today) has passed Marvin Webster and is now ranked 16th in Thunder history with 290 in playoffs.",
             "foto": [],
@@ -2700,9 +2693,16 @@
             "timestamp": 1777421860,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart today surpasses Nat Clifton and is now ranked 24th in Knicks history with 47 games in playoffs.",
+            "foto": [],
+            "timestamp": 1777422056,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 719,
-    "total_franchise_historicas": 323,
-    "cache_buster": 1777421956
+    "total_notificaciones_historicas": 720,
+    "total_franchise_historicas": 324,
+    "cache_buster": 1777422056
 }
