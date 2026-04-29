@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:26:33",
+    "ultima_actualizacion": "04:28:14",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 89,
+                "Rank": 88,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 28,
-                "Total": 1831,
-                "Diff": "2",
-                "Antece": "Rick Barry",
-                "Nota": "A tiro de 2",
+                "Hoy": 31,
+                "Total": 1834,
+                "Diff": "",
+                "Antece": "Cliff Hagan",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1060,9 +1060,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 28,
-                "Total": 1387,
-                "Diff": "540",
+                "Hoy": 31,
+                "Total": 1390,
+                "Diff": "537",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (15 points today) has passed Kyle Korver and Zach Randolph and is now ranked 202nd all-time with 1,158 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777342552022631_2435_collage_1777342551942093.png"
-            ],
-            "timestamp": 1777342557
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 assist today) has passed Guy Rodgers and Vlade Divac and is now ranked 155th all-time with 287 in playoffs.",
             "foto": [
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777429305441542_8756_collage_1777429305360642.png"
             ],
             "timestamp": 1777429310
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (31 points today) has passed Rick Barry and is now ranked 88th all-time with 1,834 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777429689163041_2832_collage_1777429689070083.png"
+            ],
+            "timestamp": 1777429694
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 762,
+    "total_notificaciones_historicas": 763,
     "total_franchise_historicas": 333,
-    "cache_buster": 1777429593
+    "cache_buster": 1777429694
 }
