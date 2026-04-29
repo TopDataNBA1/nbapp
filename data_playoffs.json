@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:46:34",
+    "ultima_actualizacion": "03:49:52",
     "tablas": {
         "pts": [
             {
@@ -77,7 +77,7 @@
                 "Diff": "24",
                 "Antece": "Khris Middleton",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 126,
@@ -192,15 +192,15 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 183,
+                "Rank": 180,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 536,
+                "Hoy": 1,
+                "Total": 537,
                 "Diff": "",
-                "Antece": "Byron Scott",
+                "Antece": "Gar Heard",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 236,
@@ -246,7 +246,7 @@
                 "Diff": "4",
                 "Antece": "Jayson Tatum",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 64,
@@ -358,7 +358,7 @@
                 "Diff": "",
                 "Antece": "Clifford Robinson",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 68,
@@ -492,7 +492,7 @@
                 "Diff": "",
                 "Antece": "John Stockton",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 193,
@@ -536,7 +536,7 @@
                 "Diff": "",
                 "Antece": "James Donaldson",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 243,
@@ -547,7 +547,7 @@
                 "Diff": "",
                 "Antece": "Anderson Varejão",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -626,7 +626,7 @@
                 "Diff": "4",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 56,
@@ -725,7 +725,7 @@
                 "Diff": "1",
                 "Antece": "Iman Shumpert",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 192,
@@ -829,15 +829,15 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 167,
+                "Rank": 164,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 101,
+                "Hoy": 1,
+                "Total": 102,
                 "Diff": "",
-                "Antece": "Dikembe Mutombo",
+                "Antece": "Jack Sikma",
                 "Nota": "Mismo total",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 232,
@@ -1526,20 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Tobias Harris (4 rebounds today) has passed Gary Payton and is now ranked 159th all-time with 576 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340295930153_2084_collage_1777340295841182.png"
-            ],
-            "timestamp": 1777340301
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (3 points today) has passed Alonzo Mourning and is now ranked 176th all-time with 1,293 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777340874606971_7286_collage_1777340874518000.png"
-            ],
-            "timestamp": 1777340879
-        },
-        {
             "texto": "Dillon Brooks (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley and Voshon Lenard and is now ranked 208th all-time with 66 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341071812995_5015_collage_1777341071729040.png"
@@ -2224,6 +2210,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427188603054_9052_collage_1777427188510076.png"
             ],
             "timestamp": 1777427194
+        },
+        {
+            "texto": "Jrue Holiday (1 rebound today) has passed Byron Scott and is now ranked 180th all-time with 537 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427382436916_4596_collage_1777427382327991.png"
+            ],
+            "timestamp": 1777427387
+        },
+        {
+            "texto": "📢HOF🏛️ Jrue Holiday today surpasses Craig Hodges and Dikembe Mutombo and now ranked 164th all time with 102 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427387706442_3590_collage_1777427387614483.png"
+            ],
+            "timestamp": 1777427392
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 754,
+    "total_notificaciones_historicas": 756,
     "total_franchise_historicas": 332,
-    "cache_buster": 1777427194
+    "cache_buster": 1777427392
 }
