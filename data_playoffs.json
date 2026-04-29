@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:33",
+    "ultima_actualizacion": "04:38:14",
     "tablas": {
         "pts": [
             {
@@ -241,11 +241,11 @@
                 "Rank": 43,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 2,
-                "Total": 628,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 629,
+                "Diff": "1",
                 "Antece": "Jayson Tatum",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -271,14 +271,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 92,
+                "Rank": 91,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 389,
-                "Diff": "1",
-                "Antece": "Rod Strickland",
-                "Nota": "A tiro de 1",
+                "Hoy": 8,
+                "Total": 390,
+                "Diff": "",
+                "Antece": "Byron Scott",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -684,13 +684,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 140,
+                "Rank": 137,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "",
-                "Antece": "James Posey",
+                "Antece": "Mario Elie",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1120,9 +1120,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 313,
-                "Diff": "79",
+                "Hoy": 8,
+                "Total": 314,
+                "Diff": "78",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1287,13 +1287,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "0",
-                "Antece": "Chris Childs",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "1",
+                "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
             {
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Danilo Gallinari, Gerald Green, Lou Williams and Mo Williams and is now ranked 177th all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343537229022_9159_collage_1777343537159830.png"
-            ],
-            "timestamp": 1777343542
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (14 points today) has passed Lou Hudson and is now ranked 175th all-time with 1,304 in playoffs.",
             "foto": [
@@ -2224,16 +2217,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430188273422_7796_collage_1777430188189464.png"
             ],
             "timestamp": 1777430193
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Schröder, James Posey and Nick Anderson and is now ranked 137th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430289527966_5825_collage_1777430289462120.png"
+            ],
+            "timestamp": 1777430294
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "OG Anunoby (18 points today) has passed Charles Smith and is now ranked 23rd in Knicks history with 509 in playoffs.",
-            "foto": [],
-            "timestamp": 1777161981,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "OG Anunoby (22 points today) has passed Phil Jackson and Gerald Wilkins and is now ranked 21st in Knicks history with 513 in playoffs.",
             "foto": [],
@@ -2926,9 +2919,16 @@
             "timestamp": 1777427881,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) has passed Chris Childs and Hubert Davis and is now ranked 14th in Knicks history with 32 in playoffs.",
+            "foto": [],
+            "timestamp": 1777430294,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 768,
-    "total_franchise_historicas": 333,
-    "cache_buster": 1777430193
+    "total_notificaciones_historicas": 769,
+    "total_franchise_historicas": 334,
+    "cache_buster": 1777430294
 }
