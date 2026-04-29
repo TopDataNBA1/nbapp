@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:53:15",
+    "ultima_actualizacion": "03:58:01",
     "tablas": {
         "pts": [
             {
@@ -383,13 +383,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 193,
+                "Rank": 189,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 73,
+                "Hoy": 2,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Lou Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1138,22 +1138,22 @@
             },
             {
                 "Rank": 6,
-                "Nombre": "Josh Hart",
+                "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 51,
+                "Diff": "12",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
-                "Nombre": "OG Anunoby",
+                "Rank": 7,
+                "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 50,
-                "Diff": "0",
-                "Antece": "Greg Anthony",
+                "Diff": "1",
+                "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
             {
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Damian Lillard, Dave Cowens and Gerald Henderson and is now ranked 169th all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341561739650_1266_collage_1777341561658710.png"
-            ],
-            "timestamp": 1777341566
-        },
         {
             "texto": "Desmond Bane (4 three-pointers today) has passed Myles Turner and is now ranked 149th all-time with 86 in playoffs.",
             "foto": [
@@ -2224,16 +2217,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427590546072_8800_collage_1777427590420201.png"
             ],
             "timestamp": 1777427595
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Caron Butler, Chris Bosh, Dominique Wilkins, Latrell Sprewell and Sedale Threatt and is now ranked 189th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427876181791_4495_collage_1777427876096825.png"
+            ],
+            "timestamp": 1777427881
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Miles McBride (1 three-pointer today) has passed Charlie Ward and is now ranked 6th in Knicks history with 56 in playoffs.",
-            "foto": [],
-            "timestamp": 1777161594,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "OG Anunoby (18 points today) has passed Charles Smith and is now ranked 23rd in Knicks history with 509 in playoffs.",
             "foto": [],
@@ -2926,9 +2919,16 @@
             "timestamp": 1777427092,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 OG Anunoby (2 steals today) has passed Josh Hart and Greg Anthony and is now ranked 6th in Knicks history with 51 in playoffs.",
+            "foto": [],
+            "timestamp": 1777427881,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 758,
-    "total_franchise_historicas": 332,
-    "cache_buster": 1777427595
+    "total_notificaciones_historicas": 759,
+    "total_franchise_historicas": 333,
+    "cache_buster": 1777427881
 }
