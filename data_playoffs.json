@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:30:12",
+    "ultima_actualizacion": "01:31:48",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 249,
+                "Rank": 247,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 62,
+                "Hoy": 1,
+                "Total": 63,
                 "Diff": "",
-                "Antece": "Rudy Gobert",
+                "Antece": "Steve Kerr",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 428,
-                "Diff": "39",
+                "Hoy": 10,
+                "Total": 430,
+                "Diff": "37",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -504,22 +504,22 @@
             },
             {
                 "Rank": 10,
-                "Nombre": "Wendell Carter Jr.",
+                "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 139,
-                "Diff": "7",
+                "Hoy": 3,
+                "Total": 140,
+                "Diff": "6",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
             {
                 "Rank": 11,
-                "Nombre": "Paolo Banchero",
+                "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 2,
+                "Hoy": 1,
                 "Total": 139,
-                "Diff": "0",
-                "Antece": "Wendell Carter Jr.",
+                "Diff": "1",
+                "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
             {
@@ -1572,13 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 39 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777165206,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Julius Randle (2 assists today) has passed Terrell Brandon and is now ranked 4th in Timberwolves history with 88 in playoffs.",
             "foto": [],
             "timestamp": 1777166463,
@@ -2270,9 +2263,16 @@
             "timestamp": 1777505224,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Paolo Banchero (3 rebounds today) has passed Wendell Carter Jr. and is now ranked 10th in Magic history with 140 in playoffs.",
+            "foto": [],
+            "timestamp": 1777505508,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 775,
-    "total_franchise_historicas": 342,
-    "cache_buster": 1777505412
+    "total_franchise_historicas": 343,
+    "cache_buster": 1777505508
 }
