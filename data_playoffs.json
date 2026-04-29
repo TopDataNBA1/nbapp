@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:49:52",
+    "ultima_actualizacion": "03:51:34",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 91,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 20,
-                "Total": 1823,
-                "Diff": "5",
+                "Hoy": 22,
+                "Total": 1825,
+                "Diff": "3",
                 "Antece": "Terry Porter",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -728,24 +728,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 192,
+                "Rank": 187,
+                "Nombre": "Nickeil Alexander-Walker",
+                "Team": "ATL",
+                "Hoy": 3,
+                "Total": 72,
+                "Diff": "",
+                "Antece": "Lindsey Hunter",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 193,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
                 "Hoy": 0,
                 "Total": 71,
                 "Diff": "",
                 "Antece": "Glen Rice",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 194,
-                "Nombre": "Nickeil Alexander-Walker",
-                "Team": "ATL",
-                "Hoy": 2,
-                "Total": 71,
-                "Diff": "",
-                "Antece": "Malcolm Brogdon",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1060,9 +1060,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1379,
-                "Diff": "548",
+                "Hoy": 22,
+                "Total": 1381,
+                "Diff": "546",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1080,9 +1080,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 526,
-                "Diff": "10",
+                "Hoy": 15,
+                "Total": 528,
+                "Diff": "8",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dillon Brooks (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley and Voshon Lenard and is now ranked 208th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777341071812995_5015_collage_1777341071729040.png"
-            ],
-            "timestamp": 1777341076
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 208th all-time with 46 in playoffs.",
             "foto": [
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427387706442_3590_collage_1777427387614483.png"
             ],
             "timestamp": 1777427392
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Austin Rivers, Cameron Johnson, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 187th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777427489200809_4011_collage_1777427489106848.png"
+            ],
+            "timestamp": 1777427494
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 756,
+    "total_notificaciones_historicas": 757,
     "total_franchise_historicas": 332,
-    "cache_buster": 1777427392
+    "cache_buster": 1777427494
 }
