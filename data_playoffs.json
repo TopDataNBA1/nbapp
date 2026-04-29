@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:35:48",
+    "ultima_actualizacion": "02:37:29",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 130,
+                "Rank": 129,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 15,
-                "Total": 1510,
-                "Diff": "1",
-                "Antece": "Richard Jefferson",
-                "Nota": "A tiro de 1",
+                "Hoy": 17,
+                "Total": 1512,
+                "Diff": "7",
+                "Antece": "Shawn Marion",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1168,9 +1168,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1510,
-                "Diff": "220",
+                "Hoy": 17,
+                "Total": 1512,
+                "Diff": "218",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -1299,13 +1299,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (19 points today) has passed Sidney Moncrief and is now ranked 134th all-time with 1,488 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777250975215830_5906_collage_1777250975113861.png"
-            ],
-            "timestamp": 1777250980
-        },
         {
             "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Mookie Blaylock and Reggie Miller and is now ranked 107th all-time with 358 in playoffs.",
             "foto": [
@@ -1998,6 +1991,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422751564368_6515_collage_1777422751486363.png"
             ],
             "timestamp": 1777422756
+        },
+        {
+            "texto": "Joel Embiid (17 points today) has passed Richard Jefferson and is now ranked 129th all-time with 1,512 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423043987450_2365_collage_1777423043900190.png"
+            ],
+            "timestamp": 1777423049
         }
     ],
     "notificaciones_franchise": [
@@ -2702,7 +2702,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 727,
+    "total_notificaciones_historicas": 728,
     "total_franchise_historicas": 326,
-    "cache_buster": 1777422948
+    "cache_buster": 1777423049
 }
