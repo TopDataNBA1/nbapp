@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:47:48",
+    "ultima_actualizacion": "05:12:35",
     "tablas": {
         "pts": [
             {
@@ -192,14 +192,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 179,
+                "Rank": 177,
                 "Nombre": "Jrue Holiday",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 539,
-                "Diff": "",
-                "Antece": "Josh Smith",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 540,
+                "Diff": "1",
+                "Antece": "Danny Green",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1526,13 +1526,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Devin Booker (3 assists today) has passed Mark Aguirre and is now ranked 175th all-time with 263 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777343643618717_9601_collage_1777343643526733.png"
-            ],
-            "timestamp": 1777343648
-        },
-        {
             "texto": "Shai Gilgeous-Alexander (17 points today) has passed Anfernee Hardaway and is now ranked 174th all-time with 1,307 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344125049747_4604_collage_1777344124959695.png"
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430487189897_7578_collage_1777430487104925.png"
             ],
             "timestamp": 1777430492
+        },
+        {
+            "texto": "Jrue Holiday (4 rebounds today) has passed Josh Smith and is now ranked 177th all-time with 540 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432349557174_8840_collage_1777432349468184.png"
+            ],
+            "timestamp": 1777432355
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 770,
+    "total_notificaciones_historicas": 771,
     "total_franchise_historicas": 334,
-    "cache_buster": 1777430868
+    "cache_buster": 1777432355
 }
