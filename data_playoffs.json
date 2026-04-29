@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:25:30",
+    "ultima_actualizacion": "03:27:10",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 41,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 20,
-                "Total": 2735,
-                "Diff": "10",
+                "Hoy": 21,
+                "Total": 2736,
+                "Diff": "9",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -137,14 +137,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 72,
+                "Rank": 71,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 8,
-                "Total": 874,
-                "Diff": "",
-                "Antece": "Manu Ginóbili",
-                "Nota": "Mismo total",
+                "Hoy": 9,
+                "Total": 875,
+                "Diff": "3",
+                "Antece": "Paul Millsap",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -868,9 +868,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 2735,
-                "Diff": "108",
+                "Hoy": 21,
+                "Total": 2736,
+                "Diff": "107",
                 "Antece": "Paul Pierce",
                 "game_status": "playing"
             },
@@ -1362,9 +1362,9 @@
                 "Rank": 23,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 162,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 163,
+                "Diff": "1",
                 "Antece": "Wali Jones",
                 "game_status": "playing"
             },
@@ -1525,13 +1525,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (1 block today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 212th all-time with 45 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777259771689120_8208_collage_1777259771608146.png"
-            ],
-            "timestamp": 1777259776
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart (9 points today) has passed Bill Sharman and is now ranked 144th all-time with 1,447 in playoffs.",
             "foto": [
@@ -2224,6 +2217,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777425355739311_4089_collage_1777425355635360.png"
             ],
             "timestamp": 1777425360
+        },
+        {
+            "texto": "📢🔝💯 Paul George (9 rebounds today) has passed Manu Ginóbili and is now ranked 71st all-time with 875 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777426025447336_7769_collage_1777426025357199.png"
+            ],
+            "timestamp": 1777426030
         }
     ],
     "notificaciones_franchise": [
@@ -2928,7 +2928,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 748,
+    "total_notificaciones_historicas": 749,
     "total_franchise_historicas": 330,
-    "cache_buster": 1777425930
+    "cache_buster": 1777426030
 }
