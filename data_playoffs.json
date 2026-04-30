@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:06:11",
+    "ultima_actualizacion": "05:09:24",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 140,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 8,
-                "Total": 1455,
-                "Diff": "6",
+                "Hoy": 11,
+                "Total": 1458,
+                "Diff": "3",
                 "Antece": "Jack Sikma",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -500,9 +500,9 @@
                 "Rank": 27,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 218,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 219,
+                "Diff": "2",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -513,7 +513,7 @@
                 "Team": "CLE",
                 "Hoy": 3,
                 "Total": 215,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Marcus Smart",
                 "Nota": "",
                 "game_status": "finished"
@@ -618,13 +618,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 226,
+                "Rank": 221,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 62,
+                "Hoy": 2,
+                "Total": 63,
                 "Diff": "1",
-                "Antece": "Vladimir Radmanović",
+                "Antece": "Richard Jefferson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1050,9 +1050,9 @@
                 "Rank": 9,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 63,
+                "Diff": "0",
                 "Antece": "Sasha Vujačić",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jamal Murray (2 three-pointers today) has passed Marcus Smart and is now ranked 27th all-time with 217 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351447027450_8689_collage_1777351446931532.png"
-            ],
-            "timestamp": 1777351453
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum today surpasses Bobby Jones and Dwight Howard and now ranked 93rd all time with 126 games in playoffs",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517801216144_2976_collage_1777517801124146.png"
             ],
             "timestamp": 1777517806
+        },
+        {
+            "texto": "Austin Reaves (2 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 221st all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777518559239659_8971_collage_1777518559158664.png"
+            ],
+            "timestamp": 1777518564
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 805,
+    "total_notificaciones_historicas": 806,
     "total_franchise_historicas": 377,
-    "cache_buster": 1777518371
+    "cache_buster": 1777518564
 }
