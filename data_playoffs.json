@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:18:15",
+    "ultima_actualizacion": "01:19:57",
     "tablas": {
         "pts": [
             {
@@ -189,14 +189,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 99,
+                "Rank": 96,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 114,
-                "Diff": "",
-                "Antece": "Nicolas Batum",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 116,
+                "Diff": "1",
+                "Antece": "Sam Cassell",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -369,13 +369,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 534,
-                "Diff": "2",
-                "Antece": "Carl Braun",
+                "Hoy": 10,
+                "Total": 540,
+                "Diff": "18",
+                "Antece": "Bernard King",
                 "game_status": "playing"
             },
             {
@@ -409,13 +409,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 183,
-                "Diff": "0",
-                "Antece": "Charlie Ward",
+                "Hoy": 2,
+                "Total": 184,
+                "Diff": "13",
+                "Antece": "Charles Smith",
                 "game_status": "playing"
             },
             {
@@ -552,9 +552,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "30",
+                "Hoy": 2,
+                "Total": 72,
+                "Diff": "28",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -643,13 +643,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (2 steals today) has passed Chauncey Billups and Derek Harper and is now ranked 57th all-time with 149 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777420910281091_9540_collage_1777420910206115.png"
-            ],
-            "timestamp": 1777420915
-        },
         {
             "texto": "📢HOF🏛️ Tyrese Maxey (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 115th all-time with 102 in playoffs.",
             "foto": [
@@ -1342,23 +1335,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591090774303_4365_collage_1777591090706338.png"
             ],
             "timestamp": 1777591095
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (2 three-pointers today) has passed Devin Booker, Nick Van Exel and Nicolas Batum and is now ranked 96th all-time with 116 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591192495218_8539_collage_1777591192433505.png"
+            ],
+            "timestamp": 1777591197
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (2 steals today) has passed Evan Fournier and is now ranked 19th in Magic history with 14 in playoffs.",
-            "foto": [],
-            "timestamp": 1777338412,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Franz Wagner (3 rebounds today) has passed Darrell Armstrong and is now ranked 16th in Magic history with 92 in playoffs.",
-            "foto": [],
-            "timestamp": 1777338788,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (4 assists today) has passed Rodney Stuckey and is now ranked 21st in Pistons history with 80 in playoffs.",
             "foto": [],
@@ -2044,9 +2030,23 @@
             "timestamp": 1777591095,
             "team": "ATL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (10 points today) has passed Carl Braun and is now ranked 20th in Knicks history with 540 in playoffs.",
+            "foto": [],
+            "timestamp": 1777591197,
+            "team": "NYK",
+            "type": "franchise"
+        },
+        {
+            "texto": "OG Anunoby (2 rebounds today) has passed Charlie Ward and is now ranked 23rd in Knicks history with 184 in playoffs.",
+            "foto": [],
+            "timestamp": 1777591197,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 817,
-    "total_franchise_historicas": 381,
-    "cache_buster": 1777591095
+    "total_notificaciones_historicas": 818,
+    "total_franchise_historicas": 383,
+    "cache_buster": 1777591197
 }
