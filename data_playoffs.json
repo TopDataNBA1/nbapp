@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:44:34",
+    "ultima_actualizacion": "01:46:15",
     "tablas": {
         "pts": [
             {
@@ -306,13 +306,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 181,
+                "Rank": 178,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 76,
+                "Hoy": 3,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Anthony Davis",
+                "Antece": "Craig Ehlo",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -541,14 +541,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 96,
+                "Rank": 95,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 116,
-                "Diff": "1",
-                "Antece": "Sam Cassell",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 117,
+                "Diff": "",
+                "Antece": "Mario Chalmers",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -948,9 +948,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 544,
-                "Diff": "14",
+                "Hoy": 18,
+                "Total": 548,
+                "Diff": "10",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -1018,9 +1018,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 53,
-                "Diff": "10",
+                "Hoy": 3,
+                "Total": 54,
+                "Diff": "9",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1128,9 +1128,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 72,
-                "Diff": "28",
+                "Hoy": 3,
+                "Total": 73,
+                "Diff": "27",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (17 points today) has passed Richard Jefferson and is now ranked 129th all-time with 1,512 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423043987450_2365_collage_1777423043900190.png"
-            ],
-            "timestamp": 1777423049
-        },
         {
             "texto": "Joel Embiid (25 points today) has passed Shawn Marion and is now ranked 128th all-time with 1,520 in playoffs.",
             "foto": [
@@ -2050,6 +2043,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592668807116_1007_collage_1777592668716145.png"
             ],
             "timestamp": 1777592674
+        },
+        {
+            "texto": "OG Anunoby (3 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 178th all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592770514850_1660_collage_1777592770437271.png"
+            ],
+            "timestamp": 1777592775
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 827,
+    "total_notificaciones_historicas": 828,
     "total_franchise_historicas": 391,
-    "cache_buster": 1777592674
+    "cache_buster": 1777592775
 }
