@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:37:59",
+    "ultima_actualizacion": "03:39:40",
     "tablas": {
         "pts": [
             {
@@ -197,9 +197,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1154,
-                "Diff": "79",
+                "Hoy": 4,
+                "Total": 1155,
+                "Diff": "78",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -238,14 +238,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 130,
+                "Rank": 127,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 320,
-                "Diff": "",
-                "Antece": "Alvan Adams",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 321,
+                "Diff": "2",
+                "Antece": "Andrew Toney",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -736,9 +736,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 455,
-                "Diff": "104",
+                "Hoy": 17,
+                "Total": 460,
+                "Diff": "99",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -796,9 +796,9 @@
                 "Rank": 7,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 135,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 136,
+                "Diff": "1",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -916,9 +916,9 @@
                 "Rank": 23,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 21,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 22,
+                "Diff": "0",
                 "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             }
@@ -1212,9 +1212,9 @@
                 "Rank": 19,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 16,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 17,
+                "Diff": "0",
                 "Antece": "Brian Shaw",
                 "game_status": "playing"
             },
@@ -1224,7 +1224,7 @@
                 "Stat": "STL",
                 "Hoy": 3,
                 "Total": 15,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (4 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 179th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346603636061_1401_collage_1777346603575098.png"
-            ],
-            "timestamp": 1777346608
-        },
         {
             "texto": "Shai Gilgeous-Alexander (26 points today) has passed A.C. Green and is now ranked 173rd all-time with 1,316 in playoffs.",
             "foto": [
@@ -2174,16 +2167,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512313501095_7335_collage_1777512313413307.png"
             ],
             "timestamp": 1777512318
+        },
+        {
+            "texto": "Donovan Mitchell (3 assists today) has passed Alvan Adams and Tyrese Haliburton and is now ranked 127th all-time with 321 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513175055573_3910_collage_1777513174978461.png"
+            ],
+            "timestamp": 1777513180
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Jalen Suggs (1 steal today) has passed Marcin Gortat, Vince Carter and Anthony Black and is now ranked 20th in Magic history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1777335103,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (2 steals today) has passed Courtney Lee and is now ranked 15th in Magic history with 20 in playoffs.",
             "foto": [],
@@ -2876,9 +2869,16 @@
             "timestamp": 1777512888,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (1 three-pointer today) has passed Jeff Green and is now ranked 23rd in Cavaliers history with 22 in playoffs.",
+            "foto": [],
+            "timestamp": 1777513180,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 788,
-    "total_franchise_historicas": 372,
-    "cache_buster": 1777513079
+    "total_notificaciones_historicas": 789,
+    "total_franchise_historicas": 373,
+    "cache_buster": 1777513180
 }
