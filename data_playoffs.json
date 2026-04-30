@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:39:40",
+    "ultima_actualizacion": "03:42:54",
     "tablas": {
         "pts": [
             {
@@ -72,11 +72,11 @@
                 "Rank": 199,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 21,
-                "Total": 1164,
-                "Diff": "4",
+                "Hoy": 23,
+                "Total": 1166,
+                "Diff": "2",
                 "Antece": "Eddie Johnson",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -126,14 +126,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 157,
+                "Rank": 155,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 7,
-                "Total": 579,
-                "Diff": "",
-                "Antece": "Rick Mahorn",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 580,
+                "Diff": "2",
+                "Antece": "Kyle Lowry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1476,13 +1476,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Shai Gilgeous-Alexander (26 points today) has passed A.C. Green and is now ranked 173rd all-time with 1,316 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346705005026_1417_collage_1777346704891109.png"
-            ],
-            "timestamp": 1777346710
-        },
-        {
             "texto": "📢HOF🏛️ Royce O'Neale (2 three-pointers today) has passed Larry Bird and is now ranked 164th all-time with 81 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346806981680_5474_collage_1777346806900701.png"
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513175055573_3910_collage_1777513174978461.png"
             ],
             "timestamp": 1777513180
+        },
+        {
+            "texto": "Tobias Harris (8 rebounds today) has passed Rick Mahorn and is now ranked 155th all-time with 580 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513368730729_8710_collage_1777513368619727.png"
+            ],
+            "timestamp": 1777513374
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 789,
+    "total_notificaciones_historicas": 790,
     "total_franchise_historicas": 373,
-    "cache_buster": 1777513180
+    "cache_buster": 1777513374
 }
