@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:36:12",
+    "ultima_actualizacion": "01:37:56",
     "tablas": {
         "pts": [
             {
@@ -451,13 +451,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 245,
+                "Rank": 235,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 41,
+                "Hoy": 1,
+                "Total": 42,
                 "Diff": "",
-                "Antece": "Kevin Love",
+                "Antece": "Mason Plumlee",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -968,9 +968,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 300,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 301,
+                "Diff": "16",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -1035,13 +1035,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 41,
+                "Hoy": 3,
+                "Total": 42,
                 "Diff": "0",
-                "Antece": "Mark Jackson",
+                "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
             {
@@ -1068,9 +1068,9 @@
                 "Rank": 4,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 42,
+                "Diff": "13",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1080,7 +1080,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 37,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Rick Mahorn and is now ranked 155th all-time with 580 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422636291663_8148_collage_1777422636182681.png"
-            ],
-            "timestamp": 1777422641
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (2 assists today) has passed Khris Middleton and is now ranked 92nd all-time with 384 in playoffs.",
             "foto": [
@@ -2050,16 +2043,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592167865072_1979_collage_1777592167796097.png"
             ],
             "timestamp": 1777592172
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (1 block today) has passed Anderson Varejão, Bismack Biyombo, John Wall, Kevin Love, Ray Allen, Robert Reid, Rodney Rogers, Sam Bowie and Udonis Haslem and is now ranked 235th all-time with 42 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592269466283_9754_collage_1777592269372330.png"
+            ],
+            "timestamp": 1777592276
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Cade Cunningham (6 assists today) has passed Adrian Dantley and is now ranked 19th in Pistons history with 82 in playoffs.",
-            "foto": [],
-            "timestamp": 1777341076,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Chauncey Billups and is now ranked 21st in Pistons history with 15 in playoffs.",
             "foto": [],
@@ -2752,9 +2745,16 @@
             "timestamp": 1777592066,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (3 steals today) has passed Mark Jackson and is now ranked 13th in Knicks history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1777592276,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 823,
-    "total_franchise_historicas": 388,
-    "cache_buster": 1777592172
+    "total_notificaciones_historicas": 824,
+    "total_franchise_historicas": 389,
+    "cache_buster": 1777592276
 }
