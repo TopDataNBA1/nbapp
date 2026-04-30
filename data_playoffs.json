@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:18:07",
+    "ultima_actualizacion": "06:19:48",
     "tablas": {
         "pts": [
             {
@@ -170,14 +170,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 214,
+                "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 482,
-                "Diff": "",
-                "Antece": "Greg Ostertag",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 483,
+                "Diff": "9",
+                "Antece": "Chauncey Billups",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1476,13 +1476,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Jayson Tatum (1 assist today) has passed Jrue Holiday and is now ranked 42nd all-time with 627 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418392358515_4648_collage_1777418392266447.png"
-            ],
-            "timestamp": 1777418397
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown today surpasses Kurt Rambis and Patrick Ewing and now ranked 68th all time with 140 games in playoffs",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418398147713_9936_collage_1777418398068744.png"
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777521096129307_3437_collage_1777521096047271.png"
             ],
             "timestamp": 1777521101
+        },
+        {
+            "texto": "Marcus Smart (4 rebounds today) has passed Greg Ostertag and is now ranked 213th all-time with 483 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777522783092584_5585_collage_1777522783003589.png"
+            ],
+            "timestamp": 1777522788
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 809,
+    "total_notificaciones_historicas": 810,
     "total_franchise_historicas": 378,
-    "cache_buster": 1777522687
+    "cache_buster": 1777522788
 }
