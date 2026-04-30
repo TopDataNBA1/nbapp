@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "06:24:33",
+    "ultima_actualizacion": "06:29:18",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 19,
-                "Total": 8394,
-                "Diff": "606",
+                "Hoy": 21,
+                "Total": 8396,
+                "Diff": "604",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -440,7 +440,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 216,
+                "Rank": 213,
+                "Nombre": "Deandre Ayton",
+                "Team": "LAL",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "",
+                "Antece": "Chris Mullin",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 217,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 0,
@@ -449,17 +460,6 @@
                 "Antece": "Timofey Mozgov",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 217,
-                "Nombre": "Deandre Ayton",
-                "Team": "LAL",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "1",
-                "Antece": "Tobias Harris",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -629,24 +629,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 238,
+                "Rank": 236,
+                "Nombre": "Rui Hachimura",
+                "Team": "LAL",
+                "Hoy": 2,
+                "Total": 60,
+                "Diff": "",
+                "Antece": "Robert Covington",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 239,
                 "Nombre": "Maxi Kleber",
                 "Team": "LAL",
                 "Hoy": 0,
                 "Total": 59,
                 "Diff": "",
                 "Antece": "Devean George",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 239,
-                "Nombre": "Rui Hachimura",
-                "Team": "LAL",
-                "Hoy": 1,
-                "Total": 59,
-                "Diff": "",
-                "Antece": "Maxi Kleber",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -990,9 +990,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1483,
-                "Diff": "78",
+                "Hoy": 21,
+                "Total": 1485,
+                "Diff": "76",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1060,9 +1060,9 @@
                 "Rank": 16,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Magic Johnson",
                 "game_status": "playing"
             }
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown today surpasses Kurt Rambis and Patrick Ewing and now ranked 68th all time with 140 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418398147713_9936_collage_1777418398068744.png"
-            ],
-            "timestamp": 1777418403
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Paul George (1 steal today) has passed Charles Oakley and Kevin Garnett and is now ranked 37th all-time with 179 in playoffs.",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777522783092584_5585_collage_1777522783003589.png"
             ],
             "timestamp": 1777522788
+        },
+        {
+            "texto": "Rui Hachimura (2 three-pointers today) has passed Devean George, Maxi Kleber, Terrence Ross and Torrey Craig and is now ranked 236th all-time with 60 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777523353365697_5841_collage_1777523353284676.png"
+            ],
+            "timestamp": 1777523358
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 810,
+    "total_notificaciones_historicas": 811,
     "total_franchise_historicas": 379,
-    "cache_buster": 1777523073
+    "cache_buster": 1777523358
 }
