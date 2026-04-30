@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:10",
+    "ultima_actualizacion": "03:08:45",
     "tablas": {
         "pts": [
             {
@@ -76,11 +76,11 @@
                 "Rank": 133,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 318,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 319,
+                "Diff": "",
                 "Antece": "Derrick McKey",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -284,9 +284,9 @@
                 "Rank": 24,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 274,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 276,
+                "Diff": "9",
                 "Antece": "Campy Russell",
                 "game_status": "playing"
             },
@@ -334,9 +334,9 @@
                 "Rank": 7,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 133,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 134,
+                "Diff": "3",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -381,13 +381,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 17,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 26,
+                "Hoy": 2,
+                "Total": 27,
                 "Diff": "0",
-                "Antece": "Zydrunas Ilgauskas",
+                "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
             {
@@ -1572,13 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed John Havlicek and is now ranked 18th in Celtics history with 61 in playoffs.",
-            "foto": [],
-            "timestamp": 1777248093,
-            "team": "BOS",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝3️⃣ Tyrese Maxey (3 three-pointers today) becomes the 2nd player to reach 100 three-pointers with 76ers in playoffs.",
             "foto": [],
             "timestamp": 1777250871,
@@ -2270,9 +2263,16 @@
             "timestamp": 1777510755,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 steals today) has passed Tristan Thompson and Zydrunas Ilgauskas and is now ranked 17th in Cavaliers history with 27 in playoffs.",
+            "foto": [],
+            "timestamp": 1777511325,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 782,
-    "total_franchise_historicas": 364,
-    "cache_buster": 1777511230
+    "total_franchise_historicas": 365,
+    "cache_buster": 1777511325
 }
