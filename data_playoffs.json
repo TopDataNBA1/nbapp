@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:00:18",
+    "ultima_actualizacion": "02:01:55",
     "tablas": {
         "pts": [
             {
@@ -100,11 +100,11 @@
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 290,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 291,
+                "Diff": "1",
                 "Antece": "Manu Ginóbili",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -281,13 +281,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 272,
-                "Diff": "1",
-                "Antece": "Mike Sanders",
+                "Hoy": 3,
+                "Total": 274,
+                "Diff": "11",
+                "Antece": "Campy Russell",
                 "game_status": "playing"
             },
             {
@@ -444,9 +444,9 @@
                 "Rank": 18,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 30,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 31,
+                "Diff": "1",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 436,
-                "Diff": "31",
+                "Hoy": 18,
+                "Total": 438,
+                "Diff": "29",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -566,9 +566,9 @@
                 "Rank": 19,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 38,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 39,
+                "Diff": "2",
                 "Antece": "Anthony Johnson",
                 "game_status": "playing"
             },
@@ -1572,13 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝3️⃣ Rudy Gobert (2 blocks today) has passed Anthony Edwards and is now ranked 3rd in Timberwolves history with 43 in playoffs.",
-            "foto": [],
-            "timestamp": 1777171904,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Christian Braun (5 rebounds today) has passed Calvin Natt and is now ranked 24th in Nuggets history with 179 in playoffs.",
             "foto": [],
             "timestamp": 1777172872,
@@ -2270,9 +2263,16 @@
             "timestamp": 1777507117,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (3 points today) has passed Mike Sanders and is now ranked 24th in Cavaliers history with 274 in playoffs.",
+            "foto": [],
+            "timestamp": 1777507315,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 777,
-    "total_franchise_historicas": 351,
-    "cache_buster": 1777507218
+    "total_franchise_historicas": 352,
+    "cache_buster": 1777507315
 }
