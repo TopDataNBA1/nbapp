@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:29:45",
+    "ultima_actualizacion": "01:34:26",
     "tablas": {
         "pts": [
             {
@@ -62,14 +62,14 @@
         ],
         "ast": [
             {
-                "Rank": 90,
+                "Rank": 89,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 392,
-                "Diff": "1",
-                "Antece": "John Starks",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 393,
+                "Diff": "",
+                "Antece": "Hal Greer",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -372,9 +372,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 540,
-                "Diff": "18",
+                "Hoy": 12,
+                "Total": 542,
+                "Diff": "16",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -389,13 +389,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 299,
-                "Diff": "0",
-                "Antece": "Marcus Camby",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "17",
+                "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
             {
@@ -412,9 +412,9 @@
                 "Rank": 23,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 184,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 185,
+                "Diff": "12",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -422,9 +422,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 316,
-                "Diff": "76",
+                "Hoy": 3,
+                "Total": 317,
+                "Diff": "75",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1346,13 +1346,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Cade Cunningham (5 assists today) has passed Dennis Rodman and is now ranked 20th in Pistons history with 81 in playoffs.",
-            "foto": [],
-            "timestamp": 1777340879,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "📢HOF🏛️ Cade Cunningham (6 assists today) has passed Adrian Dantley and is now ranked 19th in Pistons history with 82 in playoffs.",
             "foto": [],
             "timestamp": 1777341076,
@@ -2044,9 +2037,16 @@
             "timestamp": 1777591785,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mitchell Robinson (1 rebound today) has passed Marcus Camby and is now ranked 12th in Knicks history with 300 in playoffs.",
+            "foto": [],
+            "timestamp": 1777592066,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 821,
-    "total_franchise_historicas": 387,
-    "cache_buster": 1777591785
+    "total_franchise_historicas": 388,
+    "cache_buster": 1777592066
 }
