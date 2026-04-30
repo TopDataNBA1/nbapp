@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:21:17",
+    "ultima_actualizacion": "02:26:02",
     "tablas": {
         "pts": [
             {
@@ -222,14 +222,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 136,
+                "Rank": 135,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 90,
-                "Diff": "",
-                "Antece": "Craig Hodges",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 91,
+                "Diff": "1",
+                "Antece": "Kirk Hinrich",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -354,9 +354,9 @@
                 "Rank": 20,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "2",
                 "Antece": "Zydrunas Ilgauskas",
                 "game_status": "playing"
             },
@@ -596,9 +596,9 @@
                 "Rank": 17,
                 "Nombre": "Paolo Banchero",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 18,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 19,
+                "Diff": "0",
                 "Antece": "Courtney Lee",
                 "game_status": "playing"
             },
@@ -748,9 +748,9 @@
                 "Rank": 20,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 72,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 73,
+                "Diff": "5",
                 "Antece": "Jerome Williams",
                 "game_status": "playing"
             },
@@ -857,25 +857,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 23,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 11,
                 "Diff": "1",
-                "Antece": "Kentavious Caldwell-Pope",
+                "Antece": "Dennis Schröder",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 assists today) has passed Hedo Türkoğlu and is now ranked 154th all-time with 288 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345129558427_4343_collage_1777345129471427.png"
-            ],
-            "timestamp": 1777345134
-        },
         {
             "texto": "📢HOF🏛️ Devin Booker (4 assists today) has passed Bill Bradley and is now ranked 170th all-time with 264 in playoffs.",
             "foto": [
@@ -1568,6 +1561,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508376216110_1628_collage_1777508376102159.png"
             ],
             "timestamp": 1777508381
+        },
+        {
+            "texto": "Dennis Schröder (2 three-pointers today) has passed Craig Hodges and Mario Elie and is now ranked 135th all-time with 91 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508757364034_5811_collage_1777508757278794.png"
+            ],
+            "timestamp": 1777508762
         }
     ],
     "notificaciones_franchise": [
@@ -2272,7 +2272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 780,
+    "total_notificaciones_historicas": 781,
     "total_franchise_historicas": 358,
-    "cache_buster": 1777508477
+    "cache_buster": 1777508762
 }
