@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:58:37",
+    "ultima_actualizacion": "02:00:18",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
         ],
         "trb": [
             {
-                "Rank": 58,
+                "Rank": 57,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 962,
-                "Diff": "",
-                "Antece": "Dikembe Mutombo",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 963,
+                "Diff": "2",
+                "Antece": "Serge Ibaka",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 431,
-                "Diff": "36",
+                "Hoy": 16,
+                "Total": 436,
+                "Diff": "31",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -506,9 +506,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 141,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 142,
+                "Diff": "4",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -518,7 +518,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 139,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Paolo Banchero",
                 "game_status": "playing"
             },
@@ -686,9 +686,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 33,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 34,
+                "Diff": "2",
                 "Antece": "Rafer Alston",
                 "game_status": "playing"
             },
@@ -758,9 +758,9 @@
                 "Rank": 17,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 47,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 48,
+                "Diff": "0",
                 "Antece": "Greivis Vásquez",
                 "game_status": "playing"
             },
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Nikola Jokić today surpasses Bob Dandridge, Frank Ramsey, Kevin Willis and Nate McMillan and now ranked 173rd all time with 99 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344627695905_4670_collage_1777344627612933.png"
-            ],
-            "timestamp": 1777344632
-        },
         {
             "texto": "Julius Randle (2 three-pointers today) has passed Austin Reaves, Nikola Mirotić and Obi Toppin and is now ranked 227th all-time with 62 in playoffs.",
             "foto": [
@@ -1568,6 +1561,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777506353851576_1622_collage_1777506353784614.png"
             ],
             "timestamp": 1777506358
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Dikembe Mutombo and is now ranked 57th all-time with 963 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777507213006976_9914_collage_1777507212913022.png"
+            ],
+            "timestamp": 1777507218
         }
     ],
     "notificaciones_franchise": [
@@ -2272,7 +2272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 776,
+    "total_notificaciones_historicas": 777,
     "total_franchise_historicas": 351,
-    "cache_buster": 1777507117
+    "cache_buster": 1777507218
 }
