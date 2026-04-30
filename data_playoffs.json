@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:15:00",
+    "ultima_actualizacion": "01:18:15",
     "tablas": {
         "pts": [
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 187,
+                "Rank": 184,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 73,
+                "Hoy": 1,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Jeff Teague",
+                "Antece": "Mo Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -372,9 +372,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 532,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 534,
+                "Diff": "2",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -412,9 +412,9 @@
                 "Rank": 24,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 182,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 183,
+                "Diff": "0",
                 "Antece": "Charlie Ward",
                 "game_status": "playing"
             },
@@ -631,25 +631,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 17,
+                "Hoy": 1,
+                "Total": 18,
                 "Diff": "0",
-                "Antece": "Doc Rivers",
+                "Antece": "Shelvin Mack",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Jeff Teague and Sam Jones and is now ranked 107th all-time with 359 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777420522737230_9125_collage_1777420522660223.png"
-            ],
-            "timestamp": 1777420527
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (2 steals today) has passed Chauncey Billups and Derek Harper and is now ranked 57th all-time with 149 in playoffs.",
             "foto": [
@@ -1342,16 +1335,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777590895392810_3812_collage_1777590895296859.png"
             ],
             "timestamp": 1777590900
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Cameron Johnson, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 184th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591090774303_4365_collage_1777591090706338.png"
+            ],
+            "timestamp": 1777591095
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (2 assists today) has passed Nikola Vučević and is now ranked 19th in Magic history with 36 in playoffs.",
-            "foto": [],
-            "timestamp": 1777338022,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Suggs (2 steals today) has passed Evan Fournier and is now ranked 19th in Magic history with 14 in playoffs.",
             "foto": [],
@@ -2044,9 +2037,16 @@
             "timestamp": 1777590900,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Doc Rivers and is now ranked 23rd in Hawks history with 18 in playoffs.",
+            "foto": [],
+            "timestamp": 1777591095,
+            "team": "ATL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 816,
-    "total_franchise_historicas": 380,
-    "cache_buster": 1777590900
+    "total_notificaciones_historicas": 817,
+    "total_franchise_historicas": 381,
+    "cache_buster": 1777591095
 }
