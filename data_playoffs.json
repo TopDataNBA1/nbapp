@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:21",
+    "ultima_actualizacion": "03:12:02",
     "tablas": {
         "pts": [
             {
@@ -192,11 +192,11 @@
                 "Rank": 57,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 158,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 159,
+                "Diff": "",
                 "Antece": "CJ McCollum",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -384,9 +384,9 @@
                 "Rank": 17,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 27,
-                "Diff": "0",
+                "Hoy": 1,
+                "Total": 26,
+                "Diff": "1",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -486,9 +486,9 @@
                 "Rank": 21,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 166,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 168,
+                "Diff": "1",
                 "Antece": "Courtney Lee",
                 "game_status": "playing"
             },
@@ -498,7 +498,7 @@
                 "Stat": "PTS",
                 "Hoy": 7,
                 "Total": 157,
-                "Diff": "9",
+                "Diff": "11",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -606,9 +606,9 @@
                 "Rank": 19,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 15,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 16,
+                "Diff": "1",
                 "Antece": "Brian Shaw",
                 "game_status": "playing"
             },
@@ -618,7 +618,7 @@
                 "Stat": "STL",
                 "Hoy": 2,
                 "Total": 14,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -790,9 +790,9 @@
                 "Rank": 19,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 83,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 84,
+                "Diff": "0",
                 "Antece": "Grant Hill",
                 "game_status": "playing"
             },
@@ -857,25 +857,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 20,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 12,
-                "Diff": "0",
-                "Antece": "Dennis Schröder",
+                "Hoy": 3,
+                "Total": 13,
+                "Diff": "2",
+                "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jamal Murray (1 steal today) has passed Buck Williams and Donovan Mitchell and is now ranked 136th all-time with 91 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345236921496_1749_collage_1777345236840175.png"
-            ],
-            "timestamp": 1777345241
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (4 rebounds today) has passed Sam Perkins and is now ranked 64th all-time with 937 in playoffs.",
             "foto": [
@@ -1568,16 +1561,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777510088356656_1896_collage_1777510088270630.png"
             ],
             "timestamp": 1777510093
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Joe Johnson and is now ranked 57th all-time with 159 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511517601088_6499_collage_1777511517498135.png"
+            ],
+            "timestamp": 1777511522
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Joel Embiid (1 steal today) has passed Caldwell Jones and is now ranked 12th in 76ers history with 50 in playoffs.",
-            "foto": [],
-            "timestamp": 1777252249,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (1 steal today) has passed Robert Parish and is now ranked 7th in Celtics history with 139 in playoffs.",
             "foto": [],
@@ -2270,9 +2263,16 @@
             "timestamp": 1777511421,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Duncan Robinson (3 three-pointers today) has passed Reggie Jackson and Kentavious Caldwell-Pope and is now ranked 20th in Pistons history with 13 in playoffs.",
+            "foto": [],
+            "timestamp": 1777511522,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 782,
-    "total_franchise_historicas": 366,
-    "cache_buster": 1777511421
+    "total_notificaciones_historicas": 783,
+    "total_franchise_historicas": 367,
+    "cache_buster": 1777511522
 }
