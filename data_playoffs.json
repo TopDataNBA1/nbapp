@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:32",
+    "ultima_actualizacion": "02:48:13",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 82,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 10,
-                "Total": 1890,
-                "Diff": "12",
+                "Hoy": 11,
+                "Total": 1891,
+                "Diff": "11",
                 "Antece": "Danny Ainge",
                 "Nota": "",
                 "game_status": "playing"
@@ -143,24 +143,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 212,
+                "Nombre": "Evan Mobley",
+                "Team": "CLE",
+                "Hoy": 2,
+                "Total": 45,
+                "Diff": "",
+                "Antece": "Chris Mullin",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 216,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 0,
                 "Total": 45,
                 "Diff": "",
                 "Antece": "Timofey Mozgov",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 217,
-                "Nombre": "Evan Mobley",
-                "Team": "CLE",
-                "Hoy": 1,
-                "Total": 44,
-                "Diff": "",
-                "Antece": "Deandre Ayton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -264,9 +264,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 785,
-                "Diff": "24",
+                "Hoy": 11,
+                "Total": 786,
+                "Diff": "23",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 143,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 144,
+                "Diff": "16",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -326,7 +326,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 135,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -394,9 +394,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 44,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 45,
+                "Diff": "8",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Devin Booker (4 assists today) has passed Bill Bradley and is now ranked 170th all-time with 264 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345231648277_9607_collage_1777345231543303.png"
-            ],
-            "timestamp": 1777345236
-        },
         {
             "texto": "Jamal Murray (1 steal today) has passed Buck Williams and Donovan Mitchell and is now ranked 136th all-time with 91 in playoffs.",
             "foto": [
@@ -1568,6 +1561,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508757364034_5811_collage_1777508757278794.png"
             ],
             "timestamp": 1777508762
+        },
+        {
+            "texto": "Evan Mobley (2 blocks today) has passed Deandre Ayton, Jaden McDaniels, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 212th all-time with 45 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777510088356656_1896_collage_1777510088270630.png"
+            ],
+            "timestamp": 1777510093
         }
     ],
     "notificaciones_franchise": [
@@ -2272,7 +2272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 781,
+    "total_notificaciones_historicas": 782,
     "total_franchise_historicas": 362,
-    "cache_buster": 1777509992
+    "cache_buster": 1777510093
 }
