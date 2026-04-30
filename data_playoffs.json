@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:06:38",
+    "ultima_actualizacion": "02:08:14",
     "tablas": {
         "pts": [
             {
@@ -41,11 +41,11 @@
                 "Rank": 57,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 963,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 964,
+                "Diff": "1",
                 "Antece": "Serge Ibaka",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1151,
-                "Diff": "82",
+                "Hoy": 1,
+                "Total": 1152,
+                "Diff": "81",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 444,
-                "Diff": "115",
+                "Hoy": 3,
+                "Total": 446,
+                "Diff": "113",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -294,9 +294,9 @@
                 "Rank": 10,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 256,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 258,
+                "Diff": "0",
                 "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
@@ -755,13 +755,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 48,
-                "Diff": "0",
-                "Antece": "Greivis Vásquez",
+                "Hoy": 3,
+                "Total": 49,
+                "Diff": "8",
+                "Antece": "T.J. Ford",
                 "game_status": "playing"
             },
             {
@@ -1572,13 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Christian Braun (5 rebounds today) has passed Calvin Natt and is now ranked 24th in Nuggets history with 179 in playoffs.",
-            "foto": [],
-            "timestamp": 1777172872,
-            "team": "DEN",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Mike Conley (1 rebound today) has passed Wally Szczerbiak and is now ranked 8th in Timberwolves history with 117 in playoffs.",
             "foto": [],
             "timestamp": 1777173633,
@@ -2270,9 +2263,16 @@
             "timestamp": 1777507315,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (3 assists today) has passed Greivis Vásquez and is now ranked 16th in Raptors history with 49 in playoffs.",
+            "foto": [],
+            "timestamp": 1777507694,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 777,
-    "total_franchise_historicas": 352,
-    "cache_buster": 1777507598
+    "total_franchise_historicas": 353,
+    "cache_buster": 1777507694
 }
