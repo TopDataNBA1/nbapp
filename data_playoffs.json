@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:34:11",
+    "ultima_actualizacion": "06:43:40",
     "tablas": {
         "pts": [
             {
@@ -151,9 +151,9 @@
                 "Rank": 191,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 16,
-                "Total": 521,
-                "Diff": "3",
+                "Hoy": 17,
+                "Total": 522,
+                "Diff": "2",
                 "Antece": "Marcin Gortat",
                 "Nota": "",
                 "game_status": "playing"
@@ -173,9 +173,9 @@
                 "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 483,
-                "Diff": "9",
+                "Hoy": 6,
+                "Total": 485,
+                "Diff": "7",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -430,25 +430,25 @@
             },
             {
                 "Rank": 204,
+                "Nombre": "Deandre Ayton",
+                "Team": "LAL",
+                "Hoy": 2,
+                "Total": 46,
+                "Diff": "",
+                "Antece": "A.C. Green",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 205,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
                 "Hoy": 3,
                 "Total": 46,
                 "Diff": "",
-                "Antece": "A.C. Green",
+                "Antece": "Deandre Ayton",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 213,
-                "Nombre": "Deandre Ayton",
-                "Team": "LAL",
-                "Hoy": 1,
-                "Total": 45,
-                "Diff": "",
-                "Antece": "Chris Mullin",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 217,
@@ -1476,20 +1476,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Jayson Tatum (4 points today) has passed Russell Westbrook and is now ranked 28th all-time with 3,039 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418790418437_3976_collage_1777418790332400.png"
-            ],
-            "timestamp": 1777418796
-        },
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (2 points today) has passed Chris Webber and is now ranked 131st all-time with 1,497 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418796275978_8626_collage_1777418796169009.png"
-            ],
-            "timestamp": 1777418801
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (1 steal today) has passed Allen Iverson and is now ranked 59th all-time with 148 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777419750626880_5573_collage_1777419750535928.png"
@@ -2174,6 +2160,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777523454804294_6011_collage_1777523454728468.png"
             ],
             "timestamp": 1777523459
+        },
+        {
+            "texto": "Deandre Ayton (17 rebounds today) has passed Khris Middleton and is now ranked 191st all-time with 522 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777524208453336_7419_collage_1777524208368313.png"
+            ],
+            "timestamp": 1777524214
+        },
+        {
+            "texto": "📢HOF🏛️ Deandre Ayton (2 blocks today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks, Timofey Mozgov and Tobias Harris and is now ranked 204th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777524214715191_5052_collage_1777524214609195.png"
+            ],
+            "timestamp": 1777524220
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 812,
+    "total_notificaciones_historicas": 814,
     "total_franchise_historicas": 379,
-    "cache_buster": 1777523651
+    "cache_buster": 1777524220
 }
