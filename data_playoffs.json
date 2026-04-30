@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:16:18",
+    "ultima_actualizacion": "02:17:59",
     "tablas": {
         "pts": [
             {
@@ -222,14 +222,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 138,
+                "Rank": 136,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 89,
-                "Diff": "1",
-                "Antece": "Tim Hardaway Jr.",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 90,
+                "Diff": "",
+                "Antece": "Craig Hodges",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -486,9 +486,9 @@
                 "Rank": 21,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 161,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 163,
+                "Diff": "6",
                 "Antece": "Courtney Lee",
                 "game_status": "playing"
             },
@@ -498,7 +498,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 153,
-                "Diff": "8",
+                "Diff": "10",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -613,13 +613,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 21,
                 "Nombre": "Anthony Black",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 12,
+                "Hoy": 1,
+                "Total": 13,
                 "Diff": "0",
-                "Antece": "Marcin Gortat",
+                "Antece": "Evan Fournier",
                 "game_status": "playing"
             },
             {
@@ -738,9 +738,9 @@
                 "Rank": 21,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 162,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 164,
+                "Diff": "2",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mike Conley today surpasses Joe Dumars, Kenyon Martin, Ron Harper, Shane Battier and Tony Allen and now ranked 121st all time with 113 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344734019865_7322_collage_1777344733938856.png"
-            ],
-            "timestamp": 1777344739
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Anderson Varejão, Bob Pettit, Brent Barry, Gerald Henderson, Howard Eisley, Kevin Love, Luke Walton, Nazr Mohammed, Shawn Kemp and Vince Carter and now ranked 228th all time with 89 games in playoffs",
             "foto": [
@@ -1568,16 +1561,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508077502508_7655_collage_1777508077416525.png"
             ],
             "timestamp": 1777508082
+        },
+        {
+            "texto": "Dennis Schröder (1 three-pointer today) has passed James Posey, Mikal Bridges and Nick Anderson and is now ranked 136th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508274679256_5990_collage_1777508274612287.png"
+            ],
+            "timestamp": 1777508279
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donovan Mitchell (1 steal today) has passed Delonte West and is now ranked 11th in Cavaliers history with 44 in playoffs.",
-            "foto": [],
-            "timestamp": 1777223794,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (1 steal today) has passed Brad Daugherty and is now ranked 15th in Cavaliers history with 28 in playoffs.",
             "foto": [],
@@ -2270,9 +2263,16 @@
             "timestamp": 1777508178,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Black (1 steal today) has passed Vince Carter and Marcin Gortat and is now ranked 21st in Magic history with 13 in playoffs.",
+            "foto": [],
+            "timestamp": 1777508279,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 778,
-    "total_franchise_historicas": 356,
-    "cache_buster": 1777508178
+    "total_notificaciones_historicas": 779,
+    "total_franchise_historicas": 357,
+    "cache_buster": 1777508279
 }
