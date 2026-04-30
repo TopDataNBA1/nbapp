@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:05:08",
+    "ultima_actualizacion": "04:06:49",
     "tablas": {
         "pts": [
             {
@@ -284,14 +284,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 291,
-                "Diff": "1",
-                "Antece": "Manu Ginóbili",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 292,
+                "Diff": "3",
+                "Antece": "Maurice Cheeks",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -388,11 +388,11 @@
                 "Rank": 81,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 100,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 101,
+                "Diff": "",
                 "Antece": "George Johnson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -776,9 +776,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 146,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 147,
+                "Diff": "13",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -788,7 +788,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 138,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (3 points today) has passed Josh Smith and Toni Kukoč and is now ranked 232nd all-time with 1,067 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351172346773_9746_collage_1777351172268335.png"
-            ],
-            "timestamp": 1777351177
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (7 rebounds today) has passed Shawn Marion and is now ranked 63rd all-time with 940 in playoffs.",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513572206733_3116_collage_1777513572120694.png"
             ],
             "timestamp": 1777513577
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 block today) has passed LaMarcus Aldridge and is now ranked 81st all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777514803839463_6058_collage_1777514803751983.png"
+            ],
+            "timestamp": 1777514809
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 792,
+    "total_notificaciones_historicas": 793,
     "total_franchise_historicas": 376,
-    "cache_buster": 1777514708
+    "cache_buster": 1777514809
 }
