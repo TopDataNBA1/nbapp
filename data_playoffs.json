@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:30",
+    "ultima_actualizacion": "03:20:12",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 200,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 16,
-                "Total": 1159,
-                "Diff": "",
-                "Antece": "Maurice Lucas",
-                "Nota": "Mismo total",
+                "Hoy": 19,
+                "Total": 1162,
+                "Diff": "1",
+                "Antece": "Marques Johnson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -211,13 +211,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 120,
+                "Rank": 118,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 100,
+                "Hoy": 1,
+                "Total": 101,
                 "Diff": "",
-                "Antece": "Jeff Green",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -616,9 +616,9 @@
                 "Rank": 20,
                 "Nombre": "Anthony Black",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 15,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 16,
+                "Diff": "0",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -790,9 +790,9 @@
                 "Rank": 18,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 85,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 86,
+                "Diff": "0",
                 "Antece": "John Salley",
                 "game_status": "playing"
             },
@@ -827,13 +827,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Ausar Thompson",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 14,
+                "Hoy": 2,
+                "Total": 15,
                 "Diff": "0",
-                "Antece": "Chauncey Billups",
+                "Antece": "Isaiah Stewart",
                 "game_status": "playing"
             },
             {
@@ -850,9 +850,9 @@
                 "Rank": 16,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "2",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 187th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345634383055_1326_collage_1777345634290086.png"
-            ],
-            "timestamp": 1777345639
-        },
         {
             "texto": "📢HOF🏛️ Devin Booker (5 assists today) has passed Charlie Ward, Earl Monroe, Lamar Odom, Mario Elie and Rasheed Wallace and is now ranked 169th all-time with 265 in playoffs.",
             "foto": [
@@ -1568,16 +1561,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511905308764_8486_collage_1777511905234268.png"
             ],
             "timestamp": 1777511910
+        },
+        {
+            "texto": "Tobias Harris (1 three-pointer today) has passed Jeff Green and is now ranked 118th all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512007140674_2076_collage_1777512007048650.png"
+            ],
+            "timestamp": 1777512012
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Sam Hauser (2 three-pointers today) has passed Isaiah Thomas and is now ranked 15th in Celtics history with 53 in playoffs.",
-            "foto": [],
-            "timestamp": 1777253034,
-            "team": "BOS",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Suggs (1 assist today) has passed Markelle Fultz and is now ranked 20th in Magic history with 35 in playoffs.",
             "foto": [],
@@ -2270,9 +2263,16 @@
             "timestamp": 1777511910,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Ausar Thompson (2 blocks today) has passed Chauncey Billups and is now ranked 23rd in Pistons history with 15 in playoffs.",
+            "foto": [],
+            "timestamp": 1777512012,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 784,
-    "total_franchise_historicas": 368,
-    "cache_buster": 1777511910
+    "total_notificaciones_historicas": 785,
+    "total_franchise_historicas": 369,
+    "cache_buster": 1777512012
 }
