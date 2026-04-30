@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:20:12",
+    "ultima_actualizacion": "03:21:55",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 200,
+                "Rank": 199,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 19,
-                "Total": 1162,
-                "Diff": "1",
-                "Antece": "Marques Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 21,
+                "Total": 1164,
+                "Diff": "4",
+                "Antece": "Eddie Johnson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -52,11 +52,11 @@
                 "Rank": 159,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 577,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 578,
+                "Diff": "",
                 "Antece": "Oscar Robertson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 31,
-                "Total": 451,
-                "Diff": "16",
+                "Hoy": 36,
+                "Total": 456,
+                "Diff": "11",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -686,9 +686,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 34,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 35,
+                "Diff": "1",
                 "Antece": "Rafer Alston",
                 "game_status": "playing"
             },
@@ -787,13 +787,13 @@
         ],
         "DET": [
             {
-                "Rank": 18,
+                "Rank": 16,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 86,
-                "Diff": "0",
-                "Antece": "John Salley",
+                "Hoy": 5,
+                "Total": 87,
+                "Diff": "3",
+                "Antece": "George Yardley",
                 "game_status": "playing"
             },
             {
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Devin Booker (5 assists today) has passed Charlie Ward, Earl Monroe, Lamar Odom, Mario Elie and Rasheed Wallace and is now ranked 169th all-time with 265 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345920720880_7054_collage_1777345920636731.png"
-            ],
-            "timestamp": 1777345925
-        },
         {
             "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Craig Hodges and Mario Elie and is now ranked 135th all-time with 91 in playoffs.",
             "foto": [
@@ -1568,16 +1561,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512007140674_2076_collage_1777512007048650.png"
             ],
             "timestamp": 1777512012
+        },
+        {
+            "texto": "Tobias Harris (21 points today) has passed Marques Johnson and is now ranked 199th all-time with 1,164 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512109496417_7617_collage_1777512109382443.png"
+            ],
+            "timestamp": 1777512115
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Suggs (1 assist today) has passed Markelle Fultz and is now ranked 20th in Magic history with 35 in playoffs.",
-            "foto": [],
-            "timestamp": 1777334903,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (1 assist today) has passed Franz Wagner and is now ranked 14th in Magic history with 71 in playoffs.",
             "foto": [],
@@ -2270,9 +2263,16 @@
             "timestamp": 1777512012,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (5 assists today) has passed Chuck Noble and John Salley and is now ranked 16th in Pistons history with 87 in playoffs.",
+            "foto": [],
+            "timestamp": 1777512115,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 785,
-    "total_franchise_historicas": 369,
-    "cache_buster": 1777512012
+    "total_notificaciones_historicas": 786,
+    "total_franchise_historicas": 370,
+    "cache_buster": 1777512115
 }
