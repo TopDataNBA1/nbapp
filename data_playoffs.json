@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:21:12",
+    "ultima_actualizacion": "04:23:00",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 143,
+                "Rank": 142,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 1450,
-                "Diff": "",
-                "Antece": "Gail Goodrich",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1452,
+                "Diff": "1",
+                "Antece": "Clifford Robinson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -148,14 +148,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 201,
+                "Rank": 200,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 506,
-                "Diff": "",
-                "Antece": "Alton Lister",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 507,
+                "Diff": "1",
+                "Antece": "Luke Jackson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1476,20 +1476,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Devin Booker (6 assists today) has passed David West and is now ranked 168th all-time with 266 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351193821757_4863_collage_1777351193728097.png"
-            ],
-            "timestamp": 1777351199
-        },
-        {
-            "texto": "Jamal Murray (4 steals today) has passed Doug Christie and is now ranked 130th all-time with 94 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351199536740_9055_collage_1777351199434244.png"
-            ],
-            "timestamp": 1777351205
-        },
-        {
             "texto": "📢HOF🏛️ Rudy Gobert (2 steals today) has passed Amar'e Stoudemire, Anthony Peeler, Chris Childs, Jo Jo White, Scott Wedman, Steve Kerr, Tobias Harris and Tom Chambers and is now ranked 242nd all-time with 64 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351205522398_4505_collage_1777351205422648.png"
@@ -2174,6 +2160,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515667234563_1699_collage_1777515667148018.png"
             ],
             "timestamp": 1777515672
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (5 points today) has passed Gail Goodrich and Walter Davis and is now ranked 142nd all-time with 1,452 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515770097441_4982_collage_1777515770018445.png"
+            ],
+            "timestamp": 1777515775
+        },
+        {
+            "texto": "Deandre Ayton (2 rebounds today) has passed Alton Lister, Joe Johnson and Richard Hamilton and is now ranked 200th all-time with 507 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515775453797_1778_collage_1777515775383828.png"
+            ],
+            "timestamp": 1777515780
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 796,
+    "total_notificaciones_historicas": 798,
     "total_franchise_historicas": 376,
-    "cache_buster": 1777515672
+    "cache_buster": 1777515780
 }
