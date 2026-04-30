@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:16:49",
+    "ultima_actualizacion": "03:18:30",
     "tablas": {
         "pts": [
             {
@@ -73,13 +73,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 133,
+                "Rank": 130,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 319,
+                "Hoy": 2,
+                "Total": 320,
                 "Diff": "",
-                "Antece": "Derrick McKey",
+                "Antece": "Alvan Adams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 454,
-                "Diff": "105",
+                "Hoy": 12,
+                "Total": 455,
+                "Diff": "104",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -284,9 +284,9 @@
                 "Rank": 24,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 276,
-                "Diff": "9",
+                "Hoy": 7,
+                "Total": 278,
+                "Diff": "7",
                 "Antece": "Campy Russell",
                 "game_status": "playing"
             },
@@ -324,9 +324,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 137,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 138,
+                "Diff": "6",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -334,9 +334,9 @@
                 "Rank": 7,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 134,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 135,
+                "Diff": "2",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 449,
-                "Diff": "18",
+                "Hoy": 31,
+                "Total": 451,
+                "Diff": "16",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -787,13 +787,13 @@
         ],
         "DET": [
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 84,
-                "Diff": "0",
-                "Antece": "Grant Hill",
+                "Hoy": 3,
+                "Total": 85,
+                "Diff": "1",
+                "Antece": "John Salley",
                 "game_status": "playing"
             },
             {
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (4 rebounds today) has passed Sam Perkins and is now ranked 64th all-time with 937 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777345533145878_1756_collage_1777345533039932.png"
-            ],
-            "timestamp": 1777345538
-        },
         {
             "texto": "Cameron Johnson (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 187th all-time with 72 in playoffs.",
             "foto": [
@@ -1568,16 +1561,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511517601088_6499_collage_1777511517498135.png"
             ],
             "timestamp": 1777511522
+        },
+        {
+            "texto": "Donovan Mitchell (2 assists today) has passed Chris Childs and Derrick McKey and is now ranked 130th all-time with 320 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511905308764_8486_collage_1777511905234268.png"
+            ],
+            "timestamp": 1777511910
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 📢HOF🏛️ Jaylen Brown (1 steal today) has passed Robert Parish and is now ranked 7th in Celtics history with 139 in playoffs.",
-            "foto": [],
-            "timestamp": 1777252345,
-            "team": "BOS",
-            "type": "franchise"
-        },
         {
             "texto": "Sam Hauser (2 three-pointers today) has passed Isaiah Thomas and is now ranked 15th in Celtics history with 53 in playoffs.",
             "foto": [],
@@ -2270,9 +2263,16 @@
             "timestamp": 1777511522,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Cade Cunningham (3 assists today) has passed Grant Hill and is now ranked 18th in Pistons history with 85 in playoffs.",
+            "foto": [],
+            "timestamp": 1777511910,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 783,
-    "total_franchise_historicas": 367,
-    "cache_buster": 1777511809
+    "total_notificaciones_historicas": 784,
+    "total_franchise_historicas": 368,
+    "cache_buster": 1777511910
 }
