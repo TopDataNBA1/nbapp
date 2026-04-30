@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:28",
+    "ultima_actualizacion": "04:36:10",
     "tablas": {
         "pts": [
             {
@@ -618,13 +618,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 228,
+                "Rank": 226,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 61,
+                "Hoy": 1,
+                "Total": 62,
                 "Diff": "1",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Vladimir Radmanović",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1050,9 +1050,9 @@
                 "Rank": 9,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "1",
                 "Antece": "Sasha Vujačić",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Danny Schayes, Jon Koncak, Mikal Bridges, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 195th all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351223076701_8015_collage_1777351222942747.png"
-            ],
-            "timestamp": 1777351228
-        },
         {
             "texto": "Jaden McDaniels (1 block today) has passed Deandre Ayton, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 213th all-time with 45 in playoffs.",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516463370155_3822_collage_1777516463308139.png"
             ],
             "timestamp": 1777516468
+        },
+        {
+            "texto": "Austin Reaves (1 three-pointer today) has passed Nikola Mirotić and Obi Toppin and is now ranked 226th all-time with 62 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516565164680_5822_collage_1777516565081703.png"
+            ],
+            "timestamp": 1777516570
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 801,
+    "total_notificaciones_historicas": 802,
     "total_franchise_historicas": 377,
-    "cache_buster": 1777516468
+    "cache_buster": 1777516570
 }
