@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:36",
+    "ultima_actualizacion": "03:46:17",
     "tablas": {
         "pts": [
             {
@@ -252,9 +252,9 @@
                 "Rank": 162,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 277,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 278,
+                "Diff": "2",
                 "Antece": "David Robinson",
                 "Nota": "",
                 "game_status": "playing"
@@ -736,9 +736,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 460,
-                "Diff": "99",
+                "Hoy": 20,
+                "Total": 463,
+                "Diff": "96",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -756,9 +756,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 262,
-                "Diff": "43",
+                "Hoy": 7,
+                "Total": 263,
+                "Diff": "42",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -776,9 +776,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 144,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 145,
+                "Diff": "15",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -788,7 +788,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 138,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -913,13 +913,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 22,
+                "Hoy": 2,
+                "Total": 23,
                 "Diff": "0",
-                "Antece": "Wally Szczerbiak",
+                "Antece": "James Jones",
                 "game_status": "playing"
             }
         ],
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jamal Murray (2 steals today) has passed Chris Webber, Deron Williams, Eric Snow and Joe Dumars and is now ranked 133rd all-time with 92 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346909175698_6269_collage_1777346909101721.png"
-            ],
-            "timestamp": 1777346913
-        },
         {
             "texto": "Rudy Gobert (3 points today) has passed Josh Smith and Toni Kukoč and is now ranked 232nd all-time with 1,067 in playoffs.",
             "foto": [
@@ -2174,16 +2167,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513470575655_4282_collage_1777513470471681.png"
             ],
             "timestamp": 1777513476
+        },
+        {
+            "texto": "Dennis Schröder (1 assist today) has passed Kirk Hinrich and is now ranked 162nd all-time with 278 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777513572206733_3116_collage_1777513572120694.png"
+            ],
+            "timestamp": 1777513577
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (2 steals today) has passed Courtney Lee and is now ranked 15th in Magic history with 20 in playoffs.",
-            "foto": [],
-            "timestamp": 1777335574,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Ausar Thompson (1 block today) has passed Kent Benson and Andre Drummond and is now ranked 23rd in Pistons history with 12 in playoffs.",
             "foto": [],
@@ -2876,9 +2869,16 @@
             "timestamp": 1777513180,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 three-pointers today) has passed Wally Szczerbiak and is now ranked 22nd in Cavaliers history with 23 in playoffs.",
+            "foto": [],
+            "timestamp": 1777513577,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 791,
-    "total_franchise_historicas": 373,
-    "cache_buster": 1777513476
+    "total_notificaciones_historicas": 792,
+    "total_franchise_historicas": 374,
+    "cache_buster": 1777513577
 }
