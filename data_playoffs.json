@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:39:38",
+    "ultima_actualizacion": "01:41:20",
     "tablas": {
         "pts": [
             {
@@ -216,14 +216,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 88,
+                "Rank": 87,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 394,
-                "Diff": "",
-                "Antece": "Anfernee Hardaway",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 395,
+                "Diff": "1",
+                "Antece": "K.C. Jones",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -998,9 +998,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 318,
-                "Diff": "74",
+                "Hoy": 5,
+                "Total": 319,
+                "Diff": "73",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Desmond Bane and Iman Shumpert and is now ranked 157th all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422647903813_7810_collage_1777422647826314.png"
-            ],
-            "timestamp": 1777422652
-        },
         {
             "texto": "Karl-Anthony Towns (5 points today) has passed Alvan Adams and Bob Love and is now ranked 226th all-time with 1,078 in playoffs.",
             "foto": [
@@ -2050,6 +2043,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592372922806_2003_collage_1777592372824102.png"
             ],
             "timestamp": 1777592378
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (5 assists today) has passed Anfernee Hardaway and is now ranked 87th all-time with 395 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592475063485_2788_collage_1777592474972535.png"
+            ],
+            "timestamp": 1777592480
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 825,
+    "total_notificaciones_historicas": 826,
     "total_franchise_historicas": 390,
-    "cache_buster": 1777592378
+    "cache_buster": 1777592480
 }
