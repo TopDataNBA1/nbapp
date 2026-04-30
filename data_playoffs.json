@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:13:01",
+    "ultima_actualizacion": "02:14:42",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 83,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1883,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 1886,
+                "Diff": "1",
                 "Antece": "Dolph Schayes",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 247,
+                "Rank": 242,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 63,
+                "Hoy": 2,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Steve Kerr",
+                "Antece": "Quinn Buckner",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -181,11 +181,11 @@
                 "Rank": 29,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 213,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 214,
+                "Diff": "1",
                 "Antece": "Jamal Murray",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 778,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 781,
+                "Diff": "1",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -424,9 +424,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 84,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 85,
+                "Diff": "15",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -869,13 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (2 three-pointers today) has passed Austin Reaves, Nikola Mirotić and Obi Toppin and is now ranked 227th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777344729149761_1845_collage_1777344729079734.png"
-            ],
-            "timestamp": 1777344733
-        },
         {
             "texto": "📢HOF🏛️ Mike Conley today surpasses Joe Dumars, Kenyon Martin, Ron Harper, Shane Battier and Tony Allen and now ranked 121st all time with 113 games in playoffs",
             "foto": [
@@ -1568,6 +1561,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777507213006976_9914_collage_1777507212913022.png"
             ],
             "timestamp": 1777507218
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Amar'e Stoudemire, Anthony Peeler, Jo Jo White, Scott Wedman and Steve Kerr and is now ranked 242nd all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777508077502508_7655_collage_1777508077416525.png"
+            ],
+            "timestamp": 1777508082
         }
     ],
     "notificaciones_franchise": [
@@ -2272,7 +2272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 777,
+    "total_notificaciones_historicas": 778,
     "total_franchise_historicas": 355,
-    "cache_buster": 1777507981
+    "cache_buster": 1777508082
 }
