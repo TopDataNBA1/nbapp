@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:31",
+    "ultima_actualizacion": "03:25:18",
     "tablas": {
         "pts": [
             {
@@ -41,21 +41,21 @@
                 "Rank": 56,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 965,
-                "Diff": "20",
+                "Hoy": 5,
+                "Total": 966,
+                "Diff": "19",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 159,
+                "Rank": 157,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 6,
-                "Total": 578,
+                "Hoy": 7,
+                "Total": 579,
                 "Diff": "",
-                "Antece": "Oscar Robertson",
+                "Antece": "Rick Mahorn",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -444,9 +444,9 @@
                 "Rank": 18,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -616,9 +616,9 @@
                 "Rank": 20,
                 "Nombre": "Anthony Black",
                 "Stat": "STL",
-                "Hoy": 4,
-                "Total": 16,
-                "Diff": "0",
+                "Hoy": 3,
+                "Total": 15,
+                "Diff": "1",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -738,9 +738,9 @@
                 "Rank": 19,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 169,
-                "Diff": "20",
+                "Hoy": 17,
+                "Total": 171,
+                "Diff": "18",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -869,20 +869,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Craig Hodges and Mario Elie and is now ranked 135th all-time with 91 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346117270671_5793_collage_1777346117187485.png"
-            ],
-            "timestamp": 1777346122
-        },
-        {
-            "texto": "📢HOF🏛️ Devin Booker (13 points today) has passed Chris Bosh and Vinnie Johnson and is now ranked 156th all-time with 1,389 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777346502617040_6063_collage_1777346502544048.png"
-            ],
-            "timestamp": 1777346507
-        },
         {
             "texto": "Alex Caruso (4 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 179th all-time with 74 in playoffs.",
             "foto": [
@@ -1568,6 +1554,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512109496417_7617_collage_1777512109382443.png"
             ],
             "timestamp": 1777512115
+        },
+        {
+            "texto": "📢🔝💯 James Harden (5 rebounds today) has passed Serge Ibaka and is now ranked 56th all-time with 966 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512307554515_5320_collage_1777512307466547.png"
+            ],
+            "timestamp": 1777512313
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (7 rebounds today) has passed Derek Fisher and Oscar Robertson and is now ranked 157th all-time with 579 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512313501095_7335_collage_1777512313413307.png"
+            ],
+            "timestamp": 1777512318
         }
     ],
     "notificaciones_franchise": [
@@ -2272,7 +2272,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 786,
+    "total_notificaciones_historicas": 788,
     "total_franchise_historicas": 371,
-    "cache_buster": 1777512211
+    "cache_buster": 1777512318
 }
