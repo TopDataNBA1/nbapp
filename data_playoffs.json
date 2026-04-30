@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:24:50",
+    "ultima_actualizacion": "01:26:33",
     "tablas": {
         "pts": [
             {
@@ -86,13 +86,13 @@
         ],
         "stl": [
             {
-                "Rank": 189,
+                "Rank": 181,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 74,
+                "Hoy": 2,
+                "Total": 76,
                 "Diff": "",
-                "Antece": "Lou Williams",
+                "Antece": "Anthony Davis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -362,9 +362,9 @@
                 "Rank": 18,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 558,
-                "Diff": "31",
+                "Hoy": 2,
+                "Total": 560,
+                "Diff": "29",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -442,9 +442,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 53,
+                "Diff": "10",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -612,9 +612,9 @@
                 "Rank": 24,
                 "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "0",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             }
@@ -643,13 +643,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Derrick White (3 assists today) has passed Dolph Schayes and Paul Seymour and is now ranked 180th all-time with 258 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422524487281_6492_collage_1777422524408252.png"
-            ],
-            "timestamp": 1777422529
-        },
         {
             "texto": "📢HOF🏛️ Derrick White (6 points today) has passed Derrick Rose and Vern Mikkelsen and is now ranked 205th all-time with 1,142 in playoffs.",
             "foto": [
@@ -1342,16 +1335,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591485033684_3106_collage_1777591484933728.png"
             ],
             "timestamp": 1777591490
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 181st all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591588143288_8345_collage_1777591588048330.png"
+            ],
+            "timestamp": 1777591593
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (1 three-pointer today) has passed Jason Richardson and D.J. Augustin and is now ranked 20th in Magic history with 19 in playoffs.",
-            "foto": [],
-            "timestamp": 1777339081,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Shai Gilgeous-Alexander today surpasses James Harden and Hersey Hawkins and is now ranked 23rd in Thunder history with 44 games in playoffs.",
             "foto": [],
@@ -2044,9 +2037,16 @@
             "timestamp": 1777591490,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (2 points today) has passed Bernard King and is now ranked 18th in Knicks history with 560 in playoffs.",
+            "foto": [],
+            "timestamp": 1777591593,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 820,
-    "total_franchise_historicas": 385,
-    "cache_buster": 1777591490
+    "total_notificaciones_historicas": 821,
+    "total_franchise_historicas": 386,
+    "cache_buster": 1777591593
 }
