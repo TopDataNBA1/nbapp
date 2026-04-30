@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:41:20",
+    "ultima_actualizacion": "01:44:34",
     "tablas": {
         "pts": [
             {
@@ -429,24 +429,24 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 198,
-                "Nombre": "Karl-Anthony Towns",
+                "Rank": 195,
+                "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 47,
+                "Hoy": 1,
+                "Total": 48,
                 "Diff": "",
-                "Antece": "Jon Koncak",
+                "Antece": "Kyle Lowry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
-                "Nombre": "Mikal Bridges",
+                "Rank": 207,
+                "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 47,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "",
-                "Antece": "Karl-Anthony Towns",
+                "Antece": "James Edwards",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1098,9 +1098,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 23,
-                "Diff": "0",
+                "Hoy": 1,
+                "Total": 22,
+                "Diff": "1",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -1108,9 +1108,9 @@
                 "Rank": 16,
                 "Nombre": "Mikal Bridges",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "3",
                 "Antece": "Tyson Chandler",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (5 points today) has passed Alvan Adams and Bob Love and is now ranked 226th all-time with 1,078 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777422751564368_6515_collage_1777422751486363.png"
-            ],
-            "timestamp": 1777422756
-        },
         {
             "texto": "Joel Embiid (17 points today) has passed Richard Jefferson and is now ranked 129th all-time with 1,512 in playoffs.",
             "foto": [
@@ -2050,16 +2043,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592475063485_2788_collage_1777592474972535.png"
             ],
             "timestamp": 1777592480
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 195th all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592668807116_1007_collage_1777592668716145.png"
+            ],
+            "timestamp": 1777592674
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Cason Wallace (1 three-pointer today) has passed Ray Allen and Aaron Wiggins and is now ranked 21st in Thunder history with 32 in playoffs.",
-            "foto": [],
-            "timestamp": 1777341662,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Goga Bitadze (2 blocks today) has passed Andrew DeClercq and Tree Rollins and is now ranked 18th in Magic history with 8 in playoffs.",
             "foto": [],
@@ -2752,9 +2745,16 @@
             "timestamp": 1777592378,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (1 block today) has passed Kenyon Martin and is now ranked 16th in Knicks history with 18 in playoffs.",
+            "foto": [],
+            "timestamp": 1777592674,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 826,
-    "total_franchise_historicas": 390,
-    "cache_buster": 1777592480
+    "total_notificaciones_historicas": 827,
+    "total_franchise_historicas": 391,
+    "cache_buster": 1777592674
 }
