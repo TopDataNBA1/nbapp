@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:29:35",
+    "ultima_actualizacion": "04:34:28",
     "tablas": {
         "pts": [
             {
@@ -276,10 +276,10 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 499,
-                "Diff": "1",
-                "Antece": "500",
+                "Hoy": 1,
+                "Total": 500,
+                "Diff": "100",
+                "Antece": "600",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1020,9 +1020,9 @@
                 "Rank": 12,
                 "Nombre": "LeBron James",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 80,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 81,
+                "Diff": "1",
                 "Antece": "A.C. Green",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jonas Valančiūnas (1 block today) has passed Danny Schayes, Jon Koncak, Mikal Bridges, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 193rd all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351217093726_1473_collage_1777351216988760.png"
-            ],
-            "timestamp": 1777351222
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Danny Schayes, Jon Koncak, Mikal Bridges, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 195th all-time with 48 in playoffs.",
             "foto": [
@@ -2174,16 +2167,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516073886280_6482_collage_1777516073779276.png"
             ],
             "timestamp": 1777516079
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ LeBron James (1 steal today) becomes the 1st player to reach 500 in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516463370155_3822_collage_1777516463308139.png"
+            ],
+            "timestamp": 1777516468
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (3 steals today) has passed JJ Redick and is now ranked 14th in Magic history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1777336142,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (1 rebound today) has passed Drew Gooden and is now ranked 17th in Magic history with 90 in playoffs.",
             "foto": [],
@@ -2876,9 +2869,16 @@
             "timestamp": 1777513861,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "LeBron James (1 steal today) has passed Rick Fox and is now ranked 12th in Lakers history with 81 in playoffs.",
+            "foto": [],
+            "timestamp": 1777516468,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 800,
-    "total_franchise_historicas": 376,
-    "cache_buster": 1777516175
+    "total_notificaciones_historicas": 801,
+    "total_franchise_historicas": 377,
+    "cache_buster": 1777516468
 }
