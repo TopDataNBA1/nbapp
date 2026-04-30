@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:19:48",
+    "ultima_actualizacion": "06:21:24",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2662,
-                "Diff": "197",
+                "Hoy": 2,
+                "Total": 2663,
+                "Diff": "196",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -997,13 +997,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 540,
-                "Diff": "0",
-                "Antece": "Anthony Davis",
+                "Hoy": 2,
+                "Total": 541,
+                "Diff": "33",
+                "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
             {
@@ -2178,13 +2178,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Goga Bitadze (1 block today) has passed Glen Davis, Earl Clark, Drew Gooden and Anthony Black and is now ranked 20th in Magic history with 7 in playoffs.",
-            "foto": [],
-            "timestamp": 1777337269,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Cade Cunningham (3 assists today) has passed Clifford Robinson and is now ranked 22nd in Pistons history with 79 in playoffs.",
             "foto": [],
             "timestamp": 1777337649,
@@ -2876,9 +2869,16 @@
             "timestamp": 1777518943,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "LeBron James (2 rebounds today) has passed Anthony Davis and is now ranked 18th in Lakers history with 541 in playoffs.",
+            "foto": [],
+            "timestamp": 1777522884,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 810,
-    "total_franchise_historicas": 378,
-    "cache_buster": 1777522788
+    "total_franchise_historicas": 379,
+    "cache_buster": 1777522884
 }
