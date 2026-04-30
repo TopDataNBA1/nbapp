@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:47:54",
+    "ultima_actualizacion": "03:51:01",
     "tablas": {
         "pts": [
             {
@@ -197,9 +197,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 1155,
-                "Diff": "78",
+                "Hoy": 5,
+                "Total": 1156,
+                "Diff": "77",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -252,11 +252,11 @@
                 "Rank": 162,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 278,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 279,
+                "Diff": "1",
                 "Antece": "David Robinson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -736,9 +736,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 463,
-                "Diff": "96",
+                "Hoy": 23,
+                "Total": 466,
+                "Diff": "93",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -913,13 +913,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 23,
+                "Hoy": 3,
+                "Total": 24,
                 "Diff": "0",
-                "Antece": "James Jones",
+                "Antece": "Larry Hughes",
                 "game_status": "playing"
             }
         ],
@@ -1351,13 +1351,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 78,
-                "Diff": "0",
-                "Antece": "Jerome Williams",
+                "Hoy": 9,
+                "Total": 79,
+                "Diff": "8",
+                "Antece": "Danny Green",
                 "game_status": "playing"
             },
             {
@@ -2178,20 +2178,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Ausar Thompson (1 block today) has passed Kent Benson and Andre Drummond and is now ranked 23rd in Pistons history with 12 in playoffs.",
-            "foto": [],
-            "timestamp": 1777335670,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
-            "texto": "Cade Cunningham (1 three-pointer today) has passed Reggie Jackson and Kentavious Caldwell-Pope and is now ranked 19th in Pistons history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1777335670,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "Franz Wagner (3 steals today) has passed JJ Redick and is now ranked 14th in Magic history with 21 in playoffs.",
             "foto": [],
             "timestamp": 1777336142,
@@ -2876,9 +2862,23 @@
             "timestamp": 1777513577,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jakob Poeltl (9 rebounds today) has passed Jerome Williams and is now ranked 19th in Raptors history with 79 in playoffs.",
+            "foto": [],
+            "timestamp": 1777513861,
+            "team": "TOR",
+            "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (3 three-pointers today) has passed James Jones and is now ranked 21st in Cavaliers history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1777513861,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 792,
-    "total_franchise_historicas": 374,
-    "cache_buster": 1777513674
+    "total_franchise_historicas": 376,
+    "cache_buster": 1777513861
 }
