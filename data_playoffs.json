@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:53:32",
+    "ultima_actualizacion": "04:56:46",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 8379,
-                "Diff": "621",
+                "Hoy": 6,
+                "Total": 8381,
+                "Diff": "619",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -596,13 +596,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 142,
+                "Rank": 139,
                 "Nombre": "Dorian Finney-Smith",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 88,
+                "Hoy": 2,
+                "Total": 89,
                 "Diff": "1",
-                "Antece": "Nick Anderson",
+                "Antece": "Tim Hardaway Jr.",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -990,9 +990,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1468,
-                "Diff": "93",
+                "Hoy": 6,
+                "Total": 1470,
+                "Diff": "91",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (2 three-pointers today) has passed Lindsey Hunter and is now ranked 184th all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351239970491_7257_collage_1777351239847530.png"
-            ],
-            "timestamp": 1777351245
-        },
         {
             "texto": "📢🔝💯 Jamal Murray (2 three-pointers today) has passed Marcus Smart and is now ranked 27th all-time with 217 in playoffs.",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517607157270_5183_collage_1777517607075404.png"
             ],
             "timestamp": 1777517612
+        },
+        {
+            "texto": "Dorian Finney-Smith (2 three-pointers today) has passed Tim Thomas and is now ranked 139th all-time with 89 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517801216144_2976_collage_1777517801124146.png"
+            ],
+            "timestamp": 1777517806
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 804,
+    "total_notificaciones_historicas": 805,
     "total_franchise_historicas": 377,
-    "cache_buster": 1777517612
+    "cache_buster": 1777517806
 }
