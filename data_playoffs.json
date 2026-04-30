@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:47:13",
+    "ultima_actualizacion": "04:53:32",
     "tablas": {
         "pts": [
             {
@@ -596,14 +596,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 145,
+                "Rank": 142,
                 "Nombre": "Dorian Finney-Smith",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 87,
-                "Diff": "",
-                "Antece": "Clifford Robinson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 88,
+                "Diff": "1",
+                "Antece": "Nick Anderson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1476,13 +1476,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Devin Booker (1 three-pointer today) has passed Nick Van Exel and Nicolas Batum and is now ranked 96th all-time with 115 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351234222631_3033_collage_1777351234134656.png"
-            ],
-            "timestamp": 1777351239
-        },
-        {
             "texto": "Cameron Johnson (2 three-pointers today) has passed Lindsey Hunter and is now ranked 184th all-time with 73 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351239970491_7257_collage_1777351239847530.png"
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517227570429_2900_collage_1777517227480410.png"
             ],
             "timestamp": 1777517233
+        },
+        {
+            "texto": "Dorian Finney-Smith (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 142nd all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517607157270_5183_collage_1777517607075404.png"
+            ],
+            "timestamp": 1777517612
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 803,
+    "total_notificaciones_historicas": 804,
     "total_franchise_historicas": 377,
-    "cache_buster": 1777517233
+    "cache_buster": 1777517612
 }
