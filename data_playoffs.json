@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:24:37",
+    "ultima_actualizacion": "04:26:17",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 142,
+                "Rank": 140,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 1452,
-                "Diff": "1",
-                "Antece": "Clifford Robinson",
-                "Nota": "A tiro de 1",
+                "Hoy": 8,
+                "Total": 1455,
+                "Diff": "6",
+                "Antece": "Jack Sikma",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -186,9 +186,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2131,
-                "Diff": "215",
+                "Hoy": 3,
+                "Total": 2133,
+                "Diff": "213",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -500,9 +500,9 @@
                 "Rank": 27,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 217,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 218,
+                "Diff": "3",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -513,7 +513,7 @@
                 "Team": "CLE",
                 "Hoy": 3,
                 "Total": 215,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Marcus Smart",
                 "Nota": "",
                 "game_status": "finished"
@@ -1010,9 +1010,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 444,
-                "Diff": "19",
+                "Hoy": 3,
+                "Total": 446,
+                "Diff": "17",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert (2 steals today) has passed Amar'e Stoudemire, Anthony Peeler, Chris Childs, Jo Jo White, Scott Wedman, Steve Kerr, Tobias Harris and Tom Chambers and is now ranked 242nd all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777351205522398_4505_collage_1777351205422648.png"
-            ],
-            "timestamp": 1777351211
-        },
         {
             "texto": "📢🔝💯 Nikola Jokić (2 blocks today) has passed Klay Thompson, Robert Williams, Tyson Chandler and Zydrunas Ilgauskas and is now ranked 100th all-time with 86 in playoffs.",
             "foto": [
@@ -2174,6 +2167,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515775453797_1778_collage_1777515775383828.png"
             ],
             "timestamp": 1777515780
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (8 points today) has passed Bobby Jones and Clifford Robinson and is now ranked 140th all-time with 1,455 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515972483321_7584_collage_1777515972408347.png"
+            ],
+            "timestamp": 1777515977
         }
     ],
     "notificaciones_franchise": [
@@ -2878,7 +2878,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 798,
+    "total_notificaciones_historicas": 799,
     "total_franchise_historicas": 376,
-    "cache_buster": 1777515877
+    "cache_buster": 1777515977
 }
