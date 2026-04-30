@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:56",
+    "ultima_actualizacion": "02:46:32",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 82,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 9,
-                "Total": 1889,
-                "Diff": "13",
+                "Hoy": 10,
+                "Total": 1890,
+                "Diff": "12",
                 "Antece": "Danny Ainge",
                 "Nota": "",
                 "game_status": "playing"
@@ -261,13 +261,13 @@
     "tablas_teams": {
         "CLE": [
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 784,
-                "Diff": "0",
-                "Antece": "Zydrunas Ilgauskas",
+                "Hoy": 10,
+                "Total": 785,
+                "Diff": "24",
+                "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
             {
@@ -314,9 +314,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 142,
-                "Diff": "18",
+                "Hoy": 1,
+                "Total": 143,
+                "Diff": "17",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -326,7 +326,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 135,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -1572,13 +1572,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jarrett Allen (11 rebounds today) has passed Iman Shumpert and is now ranked 12th in Cavaliers history with 193 in playoffs.",
-            "foto": [],
-            "timestamp": 1777229166,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Evan Mobley (9 rebounds today) has passed J.R. Smith and is now ranked 10th in Cavaliers history with 256 in playoffs.",
             "foto": [],
             "timestamp": 1777232492,
@@ -2270,9 +2263,16 @@
             "timestamp": 1777509705,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Donovan Mitchell (10 points today) has passed Zydrunas Ilgauskas and is now ranked 6th in Cavaliers history with 785 in playoffs.",
+            "foto": [],
+            "timestamp": 1777509992,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 781,
-    "total_franchise_historicas": 361,
-    "cache_buster": 1777509896
+    "total_franchise_historicas": 362,
+    "cache_buster": 1777509992
 }
