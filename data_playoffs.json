@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:09:24",
+    "ultima_actualizacion": "05:15:43",
     "tablas": {
         "pts": [
             {
@@ -640,13 +640,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 245,
+                "Rank": 239,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 58,
+                "Hoy": 1,
+                "Total": 59,
                 "Diff": "",
-                "Antece": "Miles McBride",
+                "Antece": "Maxi Kleber",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1060,9 +1060,9 @@
                 "Rank": 16,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "1",
                 "Antece": "Magic Johnson",
                 "game_status": "playing"
             }
@@ -1475,13 +1475,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum today surpasses Bobby Jones and Dwight Howard and now ranked 93rd all time with 126 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777418087443809_2605_collage_1777418087355840.png"
-            ],
-            "timestamp": 1777418092
-        },
         {
             "texto": "Paul George today surpasses David West and now ranked 111th all time with 119 games in playoffs",
             "foto": [
@@ -2174,16 +2167,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777518559239659_8971_collage_1777518559158664.png"
             ],
             "timestamp": 1777518564
+        },
+        {
+            "texto": "Rui Hachimura (1 three-pointer today) has passed Charlie Ward, Jamal Mashburn, Jim Jackson, Miles McBride and Spencer Dinwiddie and is now ranked 239th all-time with 59 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777518938051258_5265_collage_1777518937969308.png"
+            ],
+            "timestamp": 1777518943
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (1 rebound today) has passed Drew Gooden and is now ranked 17th in Magic history with 90 in playoffs.",
-            "foto": [],
-            "timestamp": 1777336333,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Goga Bitadze (1 block today) has passed Glen Davis, Earl Clark, Drew Gooden and Anthony Black and is now ranked 20th in Magic history with 7 in playoffs.",
             "foto": [],
@@ -2876,9 +2869,16 @@
             "timestamp": 1777516468,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Rui Hachimura (1 three-pointer today) has passed Kentavious Caldwell-Pope and is now ranked 16th in Lakers history with 50 in playoffs.",
+            "foto": [],
+            "timestamp": 1777518943,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 806,
-    "total_franchise_historicas": 377,
-    "cache_buster": 1777518564
+    "total_notificaciones_historicas": 807,
+    "total_franchise_historicas": 378,
+    "cache_buster": 1777518943
 }
