@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:18:02",
+    "ultima_actualizacion": "01:24:21",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 154,
+                "Rank": 152,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 588,
-                "Diff": "",
-                "Antece": "John Salley",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 589,
+                "Diff": "3",
+                "Antece": "Harry Gallatin",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -466,9 +466,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 466,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 467,
+                "Diff": "0",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -566,9 +566,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 42,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 43,
+                "Diff": "6",
                 "Antece": "D.J. Augustin",
                 "game_status": "playing"
             },
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dorian Finney-Smith (2 three-pointers today) has passed Tim Thomas and is now ranked 139th all-time with 89 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517801216144_2976_collage_1777517801124146.png"
-            ],
-            "timestamp": 1777517806
-        },
         {
             "texto": "Austin Reaves (2 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 221st all-time with 63 in playoffs.",
             "foto": [
@@ -1648,6 +1641,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677475511507_5503_collage_1777677475400542.png"
             ],
             "timestamp": 1777677482
+        },
+        {
+            "texto": "Tobias Harris (3 rebounds today) has passed Alvan Adams and John Salley and is now ranked 152nd all-time with 589 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677856891022_4574_collage_1777677856815308.png"
+            ],
+            "timestamp": 1777677861
         }
     ],
     "notificaciones_franchise": [
@@ -2352,7 +2352,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 904,
+    "total_notificaciones_historicas": 905,
     "total_franchise_historicas": 424,
-    "cache_buster": 1777677482
+    "cache_buster": 1777677861
 }
