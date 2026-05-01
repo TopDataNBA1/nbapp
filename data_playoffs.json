@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:18",
+    "ultima_actualizacion": "02:59:00",
     "tablas": {
         "pts": [
             {
@@ -151,9 +151,9 @@
                 "Rank": 147,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 603,
-                "Diff": "5",
+                "Hoy": 11,
+                "Total": 604,
+                "Diff": "4",
                 "Antece": "Richard Jefferson",
                 "Nota": "",
                 "game_status": "playing"
@@ -385,14 +385,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 141,
+                "Rank": 139,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "",
-                "Antece": "Magic Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "2",
+                "Antece": "Theo Ratliff",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -938,9 +938,9 @@
                 "Rank": 18,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 568,
-                "Diff": "21",
+                "Hoy": 12,
+                "Total": 570,
+                "Diff": "19",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -950,7 +950,7 @@
                 "Stat": "PTS",
                 "Hoy": 29,
                 "Total": 559,
-                "Diff": "9",
+                "Diff": "11",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -978,9 +978,9 @@
                 "Rank": 16,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 276,
-                "Diff": "4",
+                "Hoy": 11,
+                "Total": 277,
+                "Diff": "3",
                 "Antece": "Jerry Lucas",
                 "game_status": "playing"
             },
@@ -1210,9 +1210,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 868,
-                "Diff": "60",
+                "Hoy": 12,
+                "Total": 870,
+                "Diff": "58",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (16 points today) has passed Phil Chenier and is now ranked 223rd all-time with 1,089 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777428442046526_9872_collage_1777428441941527.png"
-            ],
-            "timestamp": 1777428450
-        },
         {
             "texto": "CJ McCollum (1 assist today) has passed Jack Coleman and Keith Erickson and is now ranked 228th all-time with 217 in playoffs.",
             "foto": [
@@ -2050,6 +2043,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597032496952_6120_collage_1777597032412954.png"
             ],
             "timestamp": 1777597037
+        },
+        {
+            "texto": "📢HOF🏛️ Paul George (1 block today) has passed Bruce Bowen and Magic Johnson and is now ranked 139th all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597134933606_3218_collage_1777597134859636.png"
+            ],
+            "timestamp": 1777597140
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 859,
+    "total_notificaciones_historicas": 860,
     "total_franchise_historicas": 400,
-    "cache_buster": 1777597038
+    "cache_buster": 1777597140
 }
