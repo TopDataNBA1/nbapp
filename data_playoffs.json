@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:40:44",
+    "ultima_actualizacion": "03:42:25",
     "tablas": {
         "pts": [
             {
@@ -173,9 +173,9 @@
                 "Rank": 49,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 10,
-                "Total": 1052,
-                "Diff": "6",
+                "Hoy": 11,
+                "Total": 1053,
+                "Diff": "5",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -504,14 +504,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 212,
+                "Rank": 205,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 69,
-                "Diff": "",
-                "Antece": "Bradley Beal",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 70,
+                "Diff": "1",
+                "Antece": "Pau Gasol",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1164,9 +1164,9 @@
                 "Rank": 7,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 1052,
-                "Diff": "134",
+                "Hoy": 11,
+                "Total": 1053,
+                "Diff": "133",
                 "Antece": "John Havlicek",
                 "game_status": "playing"
             },
@@ -1231,13 +1231,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Derrick White",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "0",
-                "Antece": "Jo Jo White",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "1",
+                "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
             {
@@ -2614,13 +2614,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jrue Holiday (4 rebounds today) has passed Josh Smith and is now ranked 177th all-time with 540 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432349557174_8840_collage_1777432349468184.png"
-            ],
-            "timestamp": 1777432355
-        },
-        {
             "texto": "📢🔝💯 Jrue Holiday (5 assists today) has passed Deron Williams and Jayson Tatum and is now ranked 41st all-time with 631 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777432635925217_7075_collage_1777432635850231.png"
@@ -3312,16 +3305,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599638185245_8479_collage_1777599638092753.png"
             ],
             "timestamp": 1777599644
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (3 steals today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 205th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599740557178_8824_collage_1777599740448211.png"
+            ],
+            "timestamp": 1777599745
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Christian Braun (2 rebounds today) has passed Blair Rasmussen and is now ranked 23rd in Nuggets history with 181 in playoffs.",
-            "foto": [],
-            "timestamp": 1777345135,
-            "team": "DEN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (1 three-pointer today) has passed Patrick Beverley and is now ranked 21st in Timberwolves history with 10 in playoffs.",
             "foto": [],
@@ -4014,9 +4007,16 @@
             "timestamp": 1777599253,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (3 steals today) has passed Jo Jo White and is now ranked 17th in Celtics history with 64 in playoffs.",
+            "foto": [],
+            "timestamp": 1777599745,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 870,
-    "total_franchise_historicas": 402,
-    "cache_buster": 1777599644
+    "total_notificaciones_historicas": 871,
+    "total_franchise_historicas": 403,
+    "cache_buster": 1777599745
 }
