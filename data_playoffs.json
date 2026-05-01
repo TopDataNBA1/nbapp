@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:43:44",
+    "ultima_actualizacion": "05:45:25",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 42,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 25,
-                "Total": 2732,
-                "Diff": "13",
+                "Hoy": 27,
+                "Total": 2734,
+                "Diff": "11",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -1025,7 +1025,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 240,
+                "Rank": 235,
+                "Nombre": "Naz Reid",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "",
+                "Antece": "Lance Stephenson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 241,
                 "Nombre": "Miles McBride",
                 "Team": "NYK",
                 "Hoy": 1,
@@ -1034,17 +1045,6 @@
                 "Antece": "Maxi Kleber",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 241,
-                "Nombre": "Naz Reid",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "",
-                "Antece": "Miles McBride",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "g": [
@@ -1346,9 +1346,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "PTS",
-                "Hoy": 25,
-                "Total": 2732,
-                "Diff": "268",
+                "Hoy": 27,
+                "Total": 2734,
+                "Diff": "266",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1358,7 +1358,7 @@
                 "Stat": "PTS",
                 "Hoy": 8,
                 "Total": 2014,
-                "Diff": "718",
+                "Diff": "720",
                 "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
@@ -1658,9 +1658,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 419,
-                "Diff": "19",
+                "Hoy": 15,
+                "Total": 422,
+                "Diff": "16",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1670,7 +1670,7 @@
                 "Stat": "PTS",
                 "Hoy": 6,
                 "Total": 416,
-                "Diff": "3",
+                "Diff": "6",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1858,9 +1858,9 @@
                 "Rank": 14,
                 "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 60,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 61,
+                "Diff": "0",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -2048,9 +2048,9 @@
                 "Rank": 3,
                 "Nombre": "Naz Reid",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "3",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -2613,13 +2613,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (8 points today) has passed Bobby Jones and Clifford Robinson and is now ranked 140th all-time with 1,455 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515972483321_7584_collage_1777515972408347.png"
-            ],
-            "timestamp": 1777515977
-        },
         {
             "texto": "Deandre Ayton (5 rebounds today) has passed Luke Jackson and is now ranked 198th all-time with 510 in playoffs.",
             "foto": [
@@ -3312,6 +3305,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777606643620854_3787_collage_1777606643563585.png"
             ],
             "timestamp": 1777606648
+        },
+        {
+            "texto": "Naz Reid (1 three-pointer today) has passed Devean George, Maxi Kleber, Terrence Ross and Torrey Craig and is now ranked 235th all-time with 60 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607119903785_9230_collage_1777607119825674.png"
+            ],
+            "timestamp": 1777607124
         }
     ],
     "notificaciones_franchise": [
@@ -4016,7 +4016,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 898,
+    "total_notificaciones_historicas": 899,
     "total_franchise_historicas": 416,
-    "cache_buster": 1777607024
+    "cache_buster": 1777607125
 }
