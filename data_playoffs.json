@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:05:31",
+    "ultima_actualizacion": "05:07:13",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 130,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 1511,
-                "Diff": "8",
+                "Hoy": 7,
+                "Total": 1514,
+                "Diff": "5",
                 "Antece": "Shawn Marion",
                 "Nota": "",
                 "game_status": "playing"
@@ -162,9 +162,9 @@
                 "Rank": 37,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 3,
-                "Total": 1232,
-                "Diff": "12",
+                "Hoy": 4,
+                "Total": 1233,
+                "Diff": "11",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -285,11 +285,11 @@
                 "Rank": 33,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 7,
-                "Total": 766,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 767,
+                "Diff": "",
                 "Antece": "Kareem Abdul-Jabbar",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -797,11 +797,11 @@
                 "Rank": 48,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 173,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 174,
+                "Diff": "",
                 "Antece": "Draymond Green",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1376,9 +1376,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 1232,
-                "Diff": "768",
+                "Hoy": 4,
+                "Total": 1233,
+                "Diff": "767",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1416,9 +1416,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 766,
-                "Diff": "234",
+                "Hoy": 8,
+                "Total": 767,
+                "Diff": "233",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1428,7 +1428,7 @@
                 "Stat": "AST",
                 "Hoy": 3,
                 "Total": 507,
-                "Diff": "259",
+                "Diff": "260",
                 "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
@@ -1678,9 +1678,9 @@
                 "Rank": 10,
                 "Nombre": "Mike Conley",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 340,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 343,
+                "Diff": "14",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -2038,9 +2038,9 @@
                 "Rank": 2,
                 "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "38",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "37",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -2050,7 +2050,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 59,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -2613,13 +2613,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart (3 points today) has passed Ricky Pierce and is now ranked 143rd all-time with 1,450 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777515656218731_2837_collage_1777515656118759.png"
-            ],
-            "timestamp": 1777515661
-        },
         {
             "texto": "📢HOF🏛️ Deandre Ayton (1 rebound today) has passed Hal Greer and Truck Robinson and is now ranked 201st all-time with 506 in playoffs.",
             "foto": [
@@ -3312,6 +3305,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777604726620785_6754_collage_1777604726528813.png"
             ],
             "timestamp": 1777604731
+        },
+        {
+            "texto": "Mike Conley (7 points today) has passed Richard Jefferson and is now ranked 130th all-time with 1,514 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777604828335451_8767_collage_1777604828250490.png"
+            ],
+            "timestamp": 1777604833
         }
     ],
     "notificaciones_franchise": [
@@ -4016,7 +4016,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 893,
+    "total_notificaciones_historicas": 894,
     "total_franchise_historicas": 416,
-    "cache_buster": 1777604731
+    "cache_buster": 1777604833
 }
