@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:12:59",
+    "ultima_actualizacion": "01:14:42",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 194,
+                "Rank": 193,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 1186,
-                "Diff": "",
-                "Antece": "Paul Arizin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1188,
+                "Diff": "4",
+                "Antece": "Rashard Lewis",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -52,11 +52,11 @@
                 "Rank": 154,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 586,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 587,
+                "Diff": "1",
                 "Antece": "John Salley",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -503,13 +503,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Paolo Banchero",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 146,
-                "Diff": "0",
-                "Antece": "Marcin Gortat",
+                "Hoy": 1,
+                "Total": 147,
+                "Diff": "7",
+                "Antece": "Jameer Nelson",
                 "game_status": "playing"
             },
             {
@@ -519,7 +519,7 @@
                 "Hoy": 0,
                 "Total": 142,
                 "Diff": "4",
-                "Antece": "Paolo Banchero",
+                "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
             {
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (6 rebounds today) has passed Michael Porter Jr. and is now ranked 198th all-time with 511 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517227570429_2900_collage_1777517227480410.png"
-            ],
-            "timestamp": 1777517233
-        },
         {
             "texto": "Dorian Finney-Smith (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 142nd all-time with 88 in playoffs.",
             "foto": [
@@ -1648,16 +1641,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777608933625135_9717_collage_1777608933553171.png"
             ],
             "timestamp": 1777608938
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 points today) has passed Paul Arizin and is now ranked 193rd all-time with 1,188 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677277388722_5747_collage_1777677277268758.png"
+            ],
+            "timestamp": 1777677282
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Brunson today surpasses Nat Clifton and Josh Hart and is now ranked 23rd in Knicks history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777421860,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Josh Hart today surpasses Nat Clifton and is now ranked 24th in Knicks history with 47 games in playoffs.",
             "foto": [],
@@ -2350,9 +2343,16 @@
             "timestamp": 1777677179,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Paolo Banchero (1 rebound today) has passed Marcin Gortat and is now ranked 9th in Magic history with 147 in playoffs.",
+            "foto": [],
+            "timestamp": 1777677282,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 902,
-    "total_franchise_historicas": 422,
-    "cache_buster": 1777677179
+    "total_notificaciones_historicas": 903,
+    "total_franchise_historicas": 423,
+    "cache_buster": 1777677282
 }
