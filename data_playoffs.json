@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:18:34",
+    "ultima_actualizacion": "04:20:15",
     "tablas": {
         "pts": [
             {
@@ -195,9 +195,9 @@
                 "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 878,
-                "Diff": "27",
+                "Hoy": 4,
+                "Total": 879,
+                "Diff": "26",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -1656,22 +1656,22 @@
             },
             {
                 "Rank": 6,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 412,
-                "Diff": "18",
+                "Hoy": 6,
+                "Total": 413,
+                "Diff": "17",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
             {
                 "Rank": 7,
-                "Nombre": "Naz Reid",
+                "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 411,
+                "Hoy": 2,
+                "Total": 412,
                 "Diff": "1",
-                "Antece": "Rudy Gobert",
+                "Antece": "Naz Reid",
                 "game_status": "playing"
             },
             {
@@ -1748,9 +1748,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 179,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 180,
+                "Diff": "16",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1760,7 +1760,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 129,
-                "Diff": "50",
+                "Diff": "51",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -2614,13 +2614,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Joe Johnson and is now ranked 57th all-time with 159 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511517601088_6499_collage_1777511517498135.png"
-            ],
-            "timestamp": 1777511522
-        },
-        {
             "texto": "Donovan Mitchell (2 assists today) has passed Chris Childs and Derrick McKey and is now ranked 130th all-time with 320 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511905308764_8486_collage_1777511905234268.png"
@@ -3312,16 +3305,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777601244541589_5839_collage_1777601244480597.png"
             ],
             "timestamp": 1777601249
+        },
+        {
+            "texto": "📢🔝💯 Paul George (4 rebounds today) has passed Paul Millsap and is now ranked 70th all-time with 879 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777602009920342_2277_collage_1777602009838797.png"
+            ],
+            "timestamp": 1777602015
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Julius Randle (1 steal today) has passed Sam Cassell and is now ranked 17th in Timberwolves history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1777351245,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Rudy Gobert (2 steals today) has passed Latrell Sprewell and is now ranked 6th in Timberwolves history with 31 in playoffs.",
             "foto": [],
@@ -4014,9 +4007,16 @@
             "timestamp": 1777601913,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Naz Reid (6 points today) has passed Rudy Gobert and is now ranked 6th in Timberwolves history with 413 in playoffs.",
+            "foto": [],
+            "timestamp": 1777602015,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 882,
-    "total_franchise_historicas": 414,
-    "cache_buster": 1777601914
+    "total_notificaciones_historicas": 883,
+    "total_franchise_historicas": 415,
+    "cache_buster": 1777602015
 }
