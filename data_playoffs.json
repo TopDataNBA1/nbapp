@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:10:50",
+    "ultima_actualizacion": "06:13:57",
     "tablas": {
         "pts": [
             {
@@ -149,11 +149,11 @@
                 "Rank": 229,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 1075,
-                "Diff": "1",
+                "Hoy": 9,
+                "Total": 1076,
+                "Diff": "",
                 "Antece": "Bob Love",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -184,9 +184,9 @@
                 "Rank": 61,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 11,
-                "Total": 951,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 952,
+                "Diff": "2",
                 "Antece": "Tom Heinsohn",
                 "Nota": "",
                 "game_status": "playing"
@@ -1648,9 +1648,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 440,
-                "Diff": "136",
+                "Hoy": 18,
+                "Total": 441,
+                "Diff": "135",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1660,7 +1660,7 @@
                 "Stat": "PTS",
                 "Hoy": 15,
                 "Total": 422,
-                "Diff": "18",
+                "Diff": "19",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1668,9 +1668,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 418,
-                "Diff": "4",
+                "Hoy": 9,
+                "Total": 419,
+                "Diff": "3",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1718,9 +1718,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 399,
-                "Diff": "229",
+                "Hoy": 12,
+                "Total": 400,
+                "Diff": "228",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1886,22 +1886,22 @@
             },
             {
                 "Rank": 3,
-                "Nombre": "Mike Conley",
+                "Nombre": "Jaden McDaniels",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 37,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 38,
+                "Diff": "20",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
             {
                 "Rank": 4,
-                "Nombre": "Jaden McDaniels",
+                "Nombre": "Mike Conley",
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 37,
-                "Diff": "0",
-                "Antece": "Mike Conley",
+                "Diff": "1",
+                "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
@@ -3316,13 +3316,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝3️⃣ Jamal Murray (20 points today) becomes the 2nd player to reach 2,000 points with Nuggets in playoffs.",
-            "foto": [],
-            "timestamp": 1777351453,
-            "team": "DEN",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Ayo Dosunmu (13 points today) has passed Kyle Anderson and is now ranked 22nd in Timberwolves history with 104 in playoffs.",
             "foto": [],
             "timestamp": 1777351645,
@@ -4014,9 +4007,16 @@
             "timestamp": 1777607604,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Jaden McDaniels (2 steals today) has passed Mike Conley and is now ranked 3rd in Timberwolves history with 38 in playoffs.",
+            "foto": [],
+            "timestamp": 1777608837,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 901,
-    "total_franchise_historicas": 417,
-    "cache_buster": 1777608650
+    "total_franchise_historicas": 418,
+    "cache_buster": 1777608837
 }
