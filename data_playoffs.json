@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:49:48",
+    "ultima_actualizacion": "01:51:28",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 82,
+                "Rank": 81,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1902,
-                "Diff": "",
-                "Antece": "Danny Ainge",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1904,
+                "Diff": "3",
+                "Antece": "Horace Grant",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1156,
-                "Diff": "77",
+                "Hoy": 1,
+                "Total": 1157,
+                "Diff": "76",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 797,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 799,
+                "Diff": "10",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 468,
-                "Diff": "91",
+                "Hoy": 4,
+                "Total": 470,
+                "Diff": "89",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -778,9 +778,9 @@
                 "Rank": 19,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 173,
-                "Diff": "16",
+                "Hoy": 4,
+                "Total": 175,
+                "Diff": "14",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -805,13 +805,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 58,
+                "Hoy": 2,
+                "Total": 59,
                 "Diff": "0",
-                "Antece": "Patrick Patterson",
+                "Antece": "Norman Powell",
                 "game_status": "playing"
             },
             {
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (10 rebounds today) has passed Andrew Bogut and Kurt Thomas and is now ranked 196th all-time with 515 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777520714419216_6371_collage_1777520714343239.png"
-            ],
-            "timestamp": 1777520719
-        },
         {
             "texto": "Deandre Ayton (11 rebounds today) has passed Brook Lopez and is now ranked 195th all-time with 516 in playoffs.",
             "foto": [
@@ -1648,16 +1641,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679286918876_7534_collage_1777679286821909.png"
             ],
             "timestamp": 1777679292
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (5 points today) has passed Danny Ainge and is now ranked 81st all-time with 1,904 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679483769382_4721_collage_1777679483674431.png"
+            ],
+            "timestamp": 1777679488
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Joel Embiid (7 assists today) has passed James Harden and is now ranked 17th in 76ers history with 195 in playoffs.",
-            "foto": [],
-            "timestamp": 1777424574,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Sam Hauser (2 three-pointers today) has passed Avery Bradley and is now ranked 14th in Celtics history with 55 in playoffs.",
             "foto": [],
@@ -2350,9 +2343,16 @@
             "timestamp": 1777679292,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (2 assists today) has passed Patrick Patterson and is now ranked 14th in Raptors history with 59 in playoffs.",
+            "foto": [],
+            "timestamp": 1777679488,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 907,
-    "total_franchise_historicas": 428,
-    "cache_buster": 1777679388
+    "total_notificaciones_historicas": 908,
+    "total_franchise_historicas": 429,
+    "cache_buster": 1777679488
 }
