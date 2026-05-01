@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:20:15",
+    "ultima_actualizacion": "04:21:57",
     "tablas": {
         "pts": [
             {
@@ -236,14 +236,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 151,
+                "Rank": 149,
                 "Nombre": "Jonas Valančiūnas",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 592,
-                "Diff": "",
-                "Antece": "Harry Gallatin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 594,
+                "Diff": "8",
+                "Antece": "P.J. Tucker",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1748,9 +1748,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 180,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 181,
+                "Diff": "15",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1760,7 +1760,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 129,
-                "Diff": "51",
+                "Diff": "52",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -2614,13 +2614,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Donovan Mitchell (2 assists today) has passed Chris Childs and Derrick McKey and is now ranked 130th all-time with 320 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777511905308764_8486_collage_1777511905234268.png"
-            ],
-            "timestamp": 1777511910
-        },
-        {
             "texto": "Tobias Harris (1 three-pointer today) has passed Jeff Green and is now ranked 118th all-time with 101 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777512007140674_2076_collage_1777512007048650.png"
@@ -3312,6 +3305,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777602009920342_2277_collage_1777602009838797.png"
             ],
             "timestamp": 1777602015
+        },
+        {
+            "texto": "📢HOF🏛️ Jonas Valančiūnas (2 rebounds today) has passed Harry Gallatin and Jae Crowder and is now ranked 149th all-time with 594 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777602112150353_1300_collage_1777602112077375.png"
+            ],
+            "timestamp": 1777602117
         }
     ],
     "notificaciones_franchise": [
@@ -4016,7 +4016,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 883,
+    "total_notificaciones_historicas": 884,
     "total_franchise_historicas": 415,
-    "cache_buster": 1777602015
+    "cache_buster": 1777602117
 }
