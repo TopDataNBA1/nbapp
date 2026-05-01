@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:27:33",
+    "ultima_actualizacion": "01:29:14",
     "tablas": {
         "pts": [
             {
@@ -189,14 +189,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 57,
+                "Rank": 56,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 160,
-                "Diff": "",
-                "Antece": "CJ McCollum",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 161,
+                "Diff": "1",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -940,22 +940,15 @@
                 "Rank": 20,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 13,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 14,
+                "Diff": "1",
                 "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Austin Reaves (2 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 221st all-time with 63 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777518559239659_8971_collage_1777518559158664.png"
-            ],
-            "timestamp": 1777518564
-        },
         {
             "texto": "Rui Hachimura (1 three-pointer today) has passed Charlie Ward, Jamal Mashburn, Jim Jackson, Miles McBride and Spencer Dinwiddie and is now ranked 239th all-time with 59 in playoffs.",
             "foto": [
@@ -1648,6 +1641,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677856891022_4574_collage_1777677856815308.png"
             ],
             "timestamp": 1777677861
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed CJ McCollum and is now ranked 56th all-time with 161 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777678148594543_2797_collage_1777678148509374.png"
+            ],
+            "timestamp": 1777678154
         }
     ],
     "notificaciones_franchise": [
@@ -2352,7 +2352,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 905,
+    "total_notificaciones_historicas": 906,
     "total_franchise_historicas": 424,
-    "cache_buster": 1777678053
+    "cache_buster": 1777678154
 }
