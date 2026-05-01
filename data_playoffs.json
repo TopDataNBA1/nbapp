@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:53:24",
+    "ultima_actualizacion": "05:55:05",
     "tablas": {
         "pts": [
             {
@@ -282,13 +282,13 @@
         ],
         "ast": [
             {
-                "Rank": 32,
+                "Rank": 31,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 9,
-                "Total": 768,
+                "Hoy": 10,
+                "Total": 769,
                 "Diff": "1",
-                "Antece": "Oscar Robertson",
+                "Antece": "Bill Russell",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -948,13 +948,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 172,
+                "Rank": 169,
                 "Nombre": "Cameron Johnson",
                 "Team": "DEN",
-                "Hoy": 4,
-                "Total": 77,
+                "Hoy": 5,
+                "Total": 78,
                 "Diff": "",
-                "Antece": "Brian Shaw",
+                "Antece": "Bogdan Bogdanović",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1416,9 +1416,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 768,
-                "Diff": "232",
+                "Hoy": 10,
+                "Total": 769,
+                "Diff": "231",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1428,7 +1428,7 @@
                 "Stat": "AST",
                 "Hoy": 4,
                 "Total": 508,
-                "Diff": "260",
+                "Diff": "261",
                 "Antece": "Nikola Jokić",
                 "game_status": "playing"
             },
@@ -2614,13 +2614,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ LeBron James (1 steal today) becomes the 1st player to reach 500 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516463370155_3822_collage_1777516463308139.png"
-            ],
-            "timestamp": 1777516468
-        },
-        {
             "texto": "Austin Reaves (1 three-pointer today) has passed Nikola Mirotić and Obi Toppin and is now ranked 226th all-time with 62 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777516565164680_5822_collage_1777516565081703.png"
@@ -3312,6 +3305,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607501300170_5783_collage_1777607501214421.png"
             ],
             "timestamp": 1777607508
+        },
+        {
+            "texto": "Cameron Johnson (5 three-pointers today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 169th all-time with 78 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607700074859_5756_collage_1777607700009879.png"
+            ],
+            "timestamp": 1777607704
         }
     ],
     "notificaciones_franchise": [
@@ -4016,7 +4016,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 900,
+    "total_notificaciones_historicas": 901,
     "total_franchise_historicas": 417,
-    "cache_buster": 1777607604
+    "cache_buster": 1777607705
 }
