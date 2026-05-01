@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:32:31",
+    "ultima_actualizacion": "03:34:13",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 39,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 13,
-                "Total": 2750,
-                "Diff": "63",
+                "Hoy": 16,
+                "Total": 2753,
+                "Diff": "60",
                 "Antece": "Patrick Ewing",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,14 +192,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 71,
+                "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 877,
-                "Diff": "1",
-                "Antece": "Paul Millsap",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 878,
+                "Diff": "27",
+                "Antece": "Russell Westbrook",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -217,9 +217,9 @@
                 "Rank": 126,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 5,
-                "Total": 660,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 661,
+                "Diff": "4",
                 "Antece": "George Mikan",
                 "Nota": "",
                 "game_status": "playing"
@@ -753,9 +753,9 @@
                 "Rank": 15,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 276,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 277,
+                "Diff": "8",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -1154,9 +1154,9 @@
                 "Rank": 7,
                 "Nombre": "Jaylen Brown",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 2750,
-                "Diff": "93",
+                "Hoy": 16,
+                "Total": 2753,
+                "Diff": "90",
                 "Antece": "Paul Pierce",
                 "game_status": "playing"
             },
@@ -1284,9 +1284,9 @@
                 "Rank": 2,
                 "Nombre": "Jaylen Brown",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 276,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 277,
+                "Diff": "23",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -2482,9 +2482,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 660,
-                "Diff": "10",
+                "Hoy": 6,
+                "Total": 661,
+                "Diff": "9",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -2542,9 +2542,9 @@
                 "Rank": 18,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "3",
                 "Antece": "Derrick Coleman",
                 "game_status": "playing"
             },
@@ -2613,13 +2613,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (6 points today) has passed Bill Sharman and Ricky Pierce and is now ranked 144th all-time with 1,448 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777430188273422_7796_collage_1777430188189464.png"
-            ],
-            "timestamp": 1777430193
-        },
         {
             "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Schröder, James Posey and Nick Anderson and is now ranked 137th all-time with 90 in playoffs.",
             "foto": [
@@ -3312,16 +3305,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599145592797_7449_collage_1777599145499809.png"
             ],
             "timestamp": 1777599151
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Jaylen Brown (2 three-pointers today) has passed Paul Pierce and is now ranked 15th all-time with 277 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599247716983_5725_collage_1777599247625033.png"
+            ],
+            "timestamp": 1777599252
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Mike Conley today surpasses Rudy Gobert and is now ranked 5th in Timberwolves history with 40 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777344739,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Christian Braun (2 rebounds today) has passed Blair Rasmussen and is now ranked 23rd in Nuggets history with 181 in playoffs.",
             "foto": [],
@@ -4014,9 +4007,16 @@
             "timestamp": 1777597443,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (1 block today) has passed Matisse Thybulle and is now ranked 18th in 76ers history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1777599253,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 867,
-    "total_franchise_historicas": 401,
-    "cache_buster": 1777599151
+    "total_notificaciones_historicas": 868,
+    "total_franchise_historicas": 402,
+    "cache_buster": 1777599253
 }
