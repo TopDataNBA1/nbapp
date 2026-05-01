@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:05:34",
+    "ultima_actualizacion": "02:07:16",
     "tablas": {
         "pts": [
             {
@@ -173,11 +173,11 @@
                 "Rank": 235,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 440,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 442,
+                "Diff": "",
                 "Antece": "Darrall Imhoff",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -451,13 +451,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 235,
+                "Rank": 227,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 42,
+                "Hoy": 2,
+                "Total": 43,
                 "Diff": "",
-                "Antece": "Mason Plumlee",
+                "Antece": "Lonnie Shelton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -938,9 +938,9 @@
                 "Rank": 18,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 565,
-                "Diff": "24",
+                "Hoy": 8,
+                "Total": 566,
+                "Diff": "23",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -948,9 +948,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 551,
-                "Diff": "7",
+                "Hoy": 23,
+                "Total": 553,
+                "Diff": "5",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -958,9 +958,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 440,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 442,
+                "Diff": "19",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1008,9 +1008,9 @@
                 "Rank": 13,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 188,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 189,
+                "Diff": "14",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1068,9 +1068,9 @@
                 "Rank": 4,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 42,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 43,
+                "Diff": "12",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1080,7 +1080,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 37,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Payton Pritchard (1 three-pointer today) has passed Brook Lopez, Luguentz Dort and Serge Ibaka and is now ranked 130th all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423734569652_7076_collage_1777423734505530.png"
-            ],
-            "timestamp": 1777423739
-        },
         {
             "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Andrew Nembhard and is now ranked 198th all-time with 70 in playoffs.",
             "foto": [
@@ -2050,6 +2043,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593929270747_8491_collage_1777593929207769.png"
             ],
             "timestamp": 1777593934
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (2 blocks today) has passed Anthony Edwards, Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 227th all-time with 43 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594030630395_9060_collage_1777594030537943.png"
+            ],
+            "timestamp": 1777594036
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 831,
+    "total_notificaciones_historicas": 832,
     "total_franchise_historicas": 394,
-    "cache_buster": 1777593934
+    "cache_buster": 1777594036
 }
