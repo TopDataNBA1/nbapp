@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:56:28",
+    "ultima_actualizacion": "01:58:08",
     "tablas": {
         "pts": [
             {
@@ -25,13 +25,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 192,
+                "Rank": 191,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 8,
-                "Total": 1194,
+                "Hoy": 10,
+                "Total": 1196,
                 "Diff": "",
-                "Antece": "Jim McMillian",
+                "Antece": "JJ Redick",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -284,9 +284,9 @@
                 "Rank": 24,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 284,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 285,
+                "Diff": "0",
                 "Antece": "Campy Russell",
                 "game_status": "playing"
             },
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (2 three-pointers today) has passed Devean George, Maxi Kleber, Terrence Ross and Torrey Craig and is now ranked 236th all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777523353365697_5841_collage_1777523353284676.png"
-            ],
-            "timestamp": 1777523358
-        },
         {
             "texto": "Deandre Ayton (16 rebounds today) has passed Boris Diaw, Clyde Lee and Mel Counts and is now ranked 191st all-time with 521 in playoffs.",
             "foto": [
@@ -1648,6 +1641,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679687226534_2896_collage_1777679687129491.png"
             ],
             "timestamp": 1777679692
+        },
+        {
+            "texto": "Tobias Harris (10 points today) has passed Jim McMillian and is now ranked 191st all-time with 1,196 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679883628581_1192_collage_1777679883526596.png"
+            ],
+            "timestamp": 1777679888
         }
     ],
     "notificaciones_franchise": [
@@ -2352,7 +2352,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 910,
+    "total_notificaciones_historicas": 911,
     "total_franchise_historicas": 431,
-    "cache_buster": 1777679788
+    "cache_buster": 1777679888
 }
