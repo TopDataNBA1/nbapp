@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:21:00",
+    "ultima_actualizacion": "02:22:42",
     "tablas": {
         "pts": [
             {
@@ -72,11 +72,11 @@
                 "Rank": 141,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 7,
-                "Total": 1455,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 1456,
+                "Diff": "2",
                 "Antece": "Marcus Smart",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -227,13 +227,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 105,
+                "Rank": 104,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 363,
+                "Hoy": 1,
+                "Total": 364,
                 "Diff": "1",
-                "Antece": "John Wall",
+                "Antece": "Bob Dandridge",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -328,13 +328,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 217,
+                "Rank": 215,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 67,
+                "Hoy": 1,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Bam Adebayo",
+                "Antece": "Blake Griffin",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -776,9 +776,9 @@
                 "Rank": 14,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 363,
-                "Diff": "32",
+                "Hoy": 1,
+                "Total": 364,
+                "Diff": "31",
                 "Antece": "Al Horford",
                 "game_status": "playing"
             },
@@ -816,9 +816,9 @@
                 "Rank": 18,
                 "Nombre": "Derrick White",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "1",
                 "Antece": "Jo Jo White",
                 "game_status": "playing"
             },
@@ -948,9 +948,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 554,
-                "Diff": "4",
+                "Hoy": 26,
+                "Total": 556,
+                "Diff": "2",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -1351,13 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Gabe Vincent (1 three-pointer today) has passed Patrick Beverley and Rick Fox and is now ranked 146th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777424472512267_9784_collage_1777424472436796.png"
-            ],
-            "timestamp": 1777424477
-        },
         {
             "texto": "Joel Embiid (29 points today) has passed Shawn Kemp and is now ranked 127th all-time with 1,524 in playoffs.",
             "foto": [
@@ -2050,6 +2043,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594855292575_5325_collage_1777594855222599.png"
             ],
             "timestamp": 1777594860
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 215th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594956663700_6288_collage_1777594956580733.png"
+            ],
+            "timestamp": 1777594962
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 843,
+    "total_notificaciones_historicas": 844,
     "total_franchise_historicas": 396,
-    "cache_buster": 1777594860
+    "cache_buster": 1777594962
 }
