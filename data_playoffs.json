@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:22:52",
+    "ultima_actualizacion": "03:30:42",
     "tablas": {
         "pts": [
             {
                 "Rank": 27,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 15,
-                "Total": 3074,
-                "Diff": "14",
+                "Hoy": 17,
+                "Total": 3076,
+                "Diff": "12",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -39,9 +39,9 @@
                 "Rank": 47,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 11,
-                "Total": 2513,
-                "Diff": "13",
+                "Hoy": 14,
+                "Total": 2516,
+                "Diff": "10",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -83,11 +83,11 @@
                 "Rank": 124,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 9,
-                "Total": 1537,
-                "Diff": "2",
+                "Hoy": 11,
+                "Total": 1539,
+                "Diff": "",
                 "Antece": "Dick Barnett",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -742,11 +742,11 @@
                 "Rank": 12,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 293,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 294,
+                "Diff": "",
                 "Antece": "J.R. Smith",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1144,9 +1144,9 @@
                 "Rank": 4,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 3074,
-                "Diff": "108",
+                "Hoy": 17,
+                "Total": 3076,
+                "Diff": "106",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -2462,9 +2462,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 1537,
-                "Diff": "193",
+                "Hoy": 11,
+                "Total": 1539,
+                "Diff": "191",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -2502,9 +2502,9 @@
                 "Rank": 22,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 165,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 166,
+                "Diff": "1",
                 "Antece": "Andre Iguodala",
                 "game_status": "playing"
             },
@@ -2572,9 +2572,9 @@
                 "Rank": 19,
                 "Nombre": "Paul George",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 17,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 18,
+                "Diff": "1",
                 "Antece": "De'Anthony Melton",
                 "game_status": "playing"
             },
@@ -2613,13 +2613,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (5 rebounds today) has passed Curtis Perry and is now ranked 235th all-time with 439 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777429795827512_1360_collage_1777429795724558.png"
-            ],
-            "timestamp": 1777429800
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (14 rebounds today) has passed Harry Gallatin and is now ranked 149th all-time with 593 in playoffs.",
             "foto": [
@@ -3312,6 +3305,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777598568109038_9456_collage_1777598568052070.png"
             ],
             "timestamp": 1777598572
+        },
+        {
+            "texto": "Joel Embiid (11 points today) has passed Rik Smits and is now ranked 124th all-time with 1,539 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599036616393_5096_collage_1777599036522275.png"
+            ],
+            "timestamp": 1777599042
         }
     ],
     "notificaciones_franchise": [
@@ -4016,7 +4016,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 864,
+    "total_notificaciones_historicas": 865,
     "total_franchise_historicas": 401,
-    "cache_buster": 1777598572
+    "cache_buster": 1777599042
 }
