@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:03:49",
+    "ultima_actualizacion": "02:05:34",
     "tablas": {
         "pts": [
             {
@@ -216,14 +216,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 87,
+                "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 395,
-                "Diff": "1",
-                "Antece": "K.C. Jones",
-                "Nota": "A tiro de 1",
+                "Hoy": 7,
+                "Total": 397,
+                "Diff": "17",
+                "Antece": "Damian Lillard",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -541,14 +541,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 95,
+                "Rank": 93,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 117,
-                "Diff": "",
-                "Antece": "Mario Chalmers",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 118,
+                "Diff": "1",
+                "Antece": "Vince Carter",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -948,9 +948,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 548,
-                "Diff": "10",
+                "Hoy": 21,
+                "Total": 551,
+                "Diff": "7",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -968,9 +968,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 301,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 302,
+                "Diff": "15",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -998,9 +998,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 319,
-                "Diff": "73",
+                "Hoy": 7,
+                "Total": 321,
+                "Diff": "71",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1128,9 +1128,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 73,
-                "Diff": "27",
+                "Hoy": 4,
+                "Total": 74,
+                "Diff": "26",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1351,20 +1351,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (3 assists today) has passed Dirk Nowitzki and Horace Grant and is now ranked 105th all-time with 361 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423723920753_4858_collage_1777423723838699.png"
-            ],
-            "timestamp": 1777423728
-        },
-        {
-            "texto": "Tyrese Maxey (2 three-pointers today) has passed Brent Barry and is now ranked 114th all-time with 103 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777423729077630_8856_collage_1777423728980661.png"
-            ],
-            "timestamp": 1777423734
-        },
         {
             "texto": "Payton Pritchard (1 three-pointer today) has passed Brook Lopez, Luguentz Dort and Serge Ibaka and is now ranked 130th all-time with 95 in playoffs.",
             "foto": [
@@ -2050,6 +2036,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593540690017_6732_collage_1777593540624060.png"
             ],
             "timestamp": 1777593545
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (7 assists today) has passed K.C. Jones and is now ranked 86th all-time with 397 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593924292368_1758_collage_1777593924204395.png"
+            ],
+            "timestamp": 1777593929
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (4 three-pointers today) has passed Kenny Smith, Mario Chalmers and Sam Cassell and is now ranked 93rd all-time with 118 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593929270747_8491_collage_1777593929207769.png"
+            ],
+            "timestamp": 1777593934
         }
     ],
     "notificaciones_franchise": [
@@ -2754,7 +2754,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 829,
+    "total_notificaciones_historicas": 831,
     "total_franchise_historicas": 394,
-    "cache_buster": 1777593829
+    "cache_buster": 1777593934
 }
