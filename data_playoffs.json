@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:16:19",
+    "ultima_actualizacion": "01:18:02",
     "tablas": {
         "pts": [
             {
@@ -28,11 +28,11 @@
                 "Rank": 193,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1188,
-                "Diff": "4",
+                "Hoy": 5,
+                "Total": 1191,
+                "Diff": "1",
                 "Antece": "Rashard Lewis",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -211,13 +211,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 119,
+                "Rank": 116,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 101,
+                "Hoy": 1,
+                "Total": 102,
                 "Diff": "",
-                "Antece": "Hedo Türkoğlu",
+                "Antece": "Brent Barry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -496,9 +496,9 @@
                 "Rank": 22,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 161,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 163,
+                "Diff": "5",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -546,9 +546,9 @@
                 "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 81,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 82,
+                "Diff": "6",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -930,9 +930,9 @@
                 "Rank": 16,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 18,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 19,
+                "Diff": "1",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dorian Finney-Smith (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 142nd all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777517607157270_5183_collage_1777517607075404.png"
-            ],
-            "timestamp": 1777517612
-        },
         {
             "texto": "Dorian Finney-Smith (2 three-pointers today) has passed Tim Thomas and is now ranked 139th all-time with 89 in playoffs.",
             "foto": [
@@ -1648,16 +1641,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677277388722_5747_collage_1777677277268758.png"
             ],
             "timestamp": 1777677282
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 116th all-time with 102 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677475511507_5503_collage_1777677475400542.png"
+            ],
+            "timestamp": 1777677482
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Josh Hart today surpasses Nat Clifton and is now ranked 24th in Knicks history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777422056,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Greg Anthony and is now ranked 12th in Knicks history with 34 in playoffs.",
             "foto": [],
@@ -2350,9 +2343,16 @@
             "timestamp": 1777677282,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Paolo Banchero (1 assist today) has passed Dwight Howard and is now ranked 11th in Magic history with 82 in playoffs.",
+            "foto": [],
+            "timestamp": 1777677482,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 903,
-    "total_franchise_historicas": 423,
-    "cache_buster": 1777677379
+    "total_notificaciones_historicas": 904,
+    "total_franchise_historicas": 424,
+    "cache_buster": 1777677482
 }
