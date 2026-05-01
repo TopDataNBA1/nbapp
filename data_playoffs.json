@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:11:22",
+    "ultima_actualizacion": "01:12:59",
     "tablas": {
         "pts": [
             {
@@ -233,14 +233,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 138,
+                "Rank": 135,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 91,
-                "Diff": "1",
-                "Antece": "Tim Hardaway Jr.",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 92,
+                "Diff": "",
+                "Antece": "Dennis Schröder",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -566,9 +566,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 42,
+                "Diff": "7",
                 "Antece": "D.J. Augustin",
                 "game_status": "playing"
             },
@@ -576,9 +576,9 @@
                 "Rank": 24,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Anthony Bowie",
                 "game_status": "playing"
             },
@@ -714,23 +714,23 @@
             },
             {
                 "Rank": 20,
+                "Nombre": "Desmond Bane",
+                "Stat": "3PM",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "0",
+                "Antece": "Evan Fournier",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 21,
                 "Nombre": "Franz Wagner",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 19,
                 "Diff": "1",
-                "Antece": "Evan Fournier",
+                "Antece": "Desmond Bane",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 21,
-                "Nombre": "Desmond Bane",
-                "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "0",
-                "Antece": "Franz Wagner",
-                "game_status": "playing"
             },
             {
                 "Rank": 25,
@@ -754,23 +754,23 @@
             },
             {
                 "Rank": 24,
+                "Nombre": "Wendell Carter Jr.",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "0",
+                "Antece": "Paolo Banchero",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 25,
                 "Nombre": "Jonathan Isaac",
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 17,
                 "Diff": "1",
-                "Antece": "Paolo Banchero",
+                "Antece": "Wendell Carter Jr.",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 25,
-                "Nombre": "Wendell Carter Jr.",
-                "Stat": "G",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "0",
-                "Antece": "Jonathan Isaac",
-                "game_status": "playing"
             }
         ],
         "TOR": [
@@ -1652,27 +1652,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Christian Braun (1 three-pointer today) has passed Jerami Grant and is now ranked 15th in Nuggets history with 32 in playoffs.",
-            "foto": [],
-            "timestamp": 1777352878,
-            "team": "DEN",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Sam Jones and is now ranked 14th in Celtics history with 359 in playoffs.",
-            "foto": [],
-            "timestamp": 1777420527,
-            "team": "BOS",
-            "type": "franchise"
-        },
-        {
-            "texto": "Tyrese Maxey (1 steal today) has passed Hersey Hawkins and is now ranked 22nd in 76ers history with 36 in playoffs.",
-            "foto": [],
-            "timestamp": 1777421200,
-            "team": "PHI",
-            "type": "franchise"
-        },
-        {
             "texto": "Jalen Brunson today surpasses Nat Clifton and Josh Hart and is now ranked 23rd in Knicks history with 47 games in playoffs.",
             "foto": [],
             "timestamp": 1777421860,
@@ -2350,9 +2329,30 @@
             "timestamp": 1777677082,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Suggs (1 assist today) has passed Anthony Johnson and is now ranked 18th in Magic history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1777677179,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Franz Wagner and is now ranked 20th in Magic history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1777677179,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Wendell Carter Jr. today surpasses Jonathan Isaac and is now ranked 24th in Magic history with 18 games in playoffs.",
+            "foto": [],
+            "timestamp": 1777677179,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 902,
-    "total_franchise_historicas": 419,
-    "cache_buster": 1777677082
+    "total_franchise_historicas": 422,
+    "cache_buster": 1777677179
 }
