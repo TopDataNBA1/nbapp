@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:33:18",
+    "ultima_actualizacion": "02:34:53",
     "tablas": {
         "pts": [
             {
@@ -281,13 +281,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 287,
-                "Diff": "0",
-                "Antece": "Kyle Korver",
+                "Hoy": 8,
+                "Total": 288,
+                "Diff": "16",
+                "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
             {
@@ -404,9 +404,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 29,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 30,
+                "Diff": "0",
                 "Antece": "Nate Thurmond",
                 "game_status": "playing"
             },
@@ -636,9 +636,9 @@
                 "Rank": 10,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 15,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 16,
+                "Diff": "2",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -648,7 +648,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 15,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Wendell Carter Jr.",
                 "game_status": "inactive"
             },
@@ -1652,20 +1652,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Paolo Banchero (1 three-pointer today) has passed Darrell Armstrong and Brian Shaw and is now ranked 10th in Magic history with 33 in playoffs.",
-            "foto": [],
-            "timestamp": 1777504849,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Duncan Robinson (1 three-pointer today) has passed Dennis Schröder and is now ranked 22nd in Pistons history with 11 in playoffs.",
-            "foto": [],
-            "timestamp": 1777505224,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Paolo Banchero (3 rebounds today) has passed Wendell Carter Jr. and is now ranked 10th in Magic history with 140 in playoffs.",
             "foto": [],
             "timestamp": 1777505508,
@@ -2350,9 +2336,23 @@
             "timestamp": 1777681998,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (8 points today) has passed Kyle Korver and is now ranked 22nd in Cavaliers history with 288 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682093,
+            "team": "CLE",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Wendell Carter Jr. (1 block today) has passed Jonathan Isaac and Hedo Türkoğlu and is now ranked 10th in Magic history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682093,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 915,
-    "total_franchise_historicas": 440,
-    "cache_buster": 1777681998
+    "total_franchise_historicas": 442,
+    "cache_buster": 1777682093
 }
