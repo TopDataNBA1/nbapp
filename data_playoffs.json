@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:10",
+    "ultima_actualizacion": "02:18:52",
     "tablas": {
         "pts": [
             {
@@ -100,9 +100,9 @@
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 292,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 293,
+                "Diff": "2",
                 "Antece": "Maurice Cheeks",
                 "Nota": "",
                 "game_status": "playing"
@@ -788,9 +788,9 @@
                 "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 79,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 80,
+                "Diff": "7",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (17 rebounds today) has passed Khris Middleton and is now ranked 191st all-time with 522 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777524208453336_7419_collage_1777524208368313.png"
-            ],
-            "timestamp": 1777524214
-        },
         {
             "texto": "📢HOF🏛️ Deandre Ayton (2 blocks today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks, Timofey Mozgov and Tobias Harris and is now ranked 204th all-time with 46 in playoffs.",
             "foto": [
@@ -1648,6 +1641,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679983311718_3654_collage_1777679983202124.png"
             ],
             "timestamp": 1777679988
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ James Harden (1 steal today) has passed Manu Ginóbili and is now ranked 10th all-time with 293 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777681126645473_4900_collage_1777681126559515.png"
+            ],
+            "timestamp": 1777681132
         }
     ],
     "notificaciones_franchise": [
@@ -2352,7 +2352,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 912,
+    "total_notificaciones_historicas": 913,
     "total_franchise_historicas": 436,
-    "cache_buster": 1777681030
+    "cache_buster": 1777681132
 }
