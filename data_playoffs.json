@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:48:57",
+    "ultima_actualizacion": "05:53:48",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 2668,
-                "Diff": "191",
+                "Hoy": 5,
+                "Total": 2669,
+                "Diff": "190",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -137,13 +137,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 184,
+                "Rank": 180,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 13,
-                "Total": 535,
+                "Hoy": 16,
+                "Total": 538,
                 "Diff": "1",
-                "Antece": "Byron Scott",
+                "Antece": "Josh Smith",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -173,11 +173,11 @@
                 "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 490,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 491,
+                "Diff": "1",
                 "Antece": "Chauncey Billups",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -1010,9 +1010,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 546,
-                "Diff": "28",
+                "Hoy": 5,
+                "Total": 547,
+                "Diff": "27",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Derrick White today surpasses Anderson Varejão, Bob Pettit, Brent Barry, Gerald Henderson, Howard Eisley, Kevin Love, Luke Walton, Nazr Mohammed, Shawn Kemp and Vince Carter and now ranked 224th all time with 89 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594650443503_7261_collage_1777594650340520.png"
-            ],
-            "timestamp": 1777594655
-        },
         {
             "texto": "Tyrese Maxey (1 three-pointer today) has passed James Jones and Pat Connaughton and is now ranked 109th all-time with 105 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777693636403245_3465_collage_1777693636336271.png"
             ],
             "timestamp": 1777693641
+        },
+        {
+            "texto": "Deandre Ayton (16 rebounds today) has passed Byron Scott, Gar Heard, Larry Nance, Mark Aguirre and Tom Hawkins and is now ranked 180th all-time with 538 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777694023864893_3811_collage_1777694023790293.png"
+            ],
+            "timestamp": 1777694028
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 940,
+    "total_notificaciones_historicas": 941,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777693737
+    "cache_buster": 1777694028
 }
