@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:16:14",
+    "ultima_actualizacion": "03:22:31",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 4013,
-                "Diff": "32",
+                "Hoy": 12,
+                "Total": 4017,
+                "Diff": "28",
                 "Antece": "Tony Parker",
                 "Nota": "",
                 "game_status": "playing"
@@ -72,11 +72,11 @@
                 "Rank": 189,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 15,
-                "Total": 1201,
-                "Diff": "3",
+                "Hoy": 17,
+                "Total": 1203,
+                "Diff": "1",
                 "Antece": "Anthony Edwards",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -126,13 +126,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 151,
+                "Rank": 150,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 7,
-                "Total": 593,
+                "Hoy": 8,
+                "Total": 594,
                 "Diff": "",
-                "Antece": "Jae Crowder",
+                "Antece": "Jonas Valančiūnas",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -478,9 +478,9 @@
                 "Rank": 4,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 450,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 451,
+                "Diff": "36",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "playing"
@@ -1082,9 +1082,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 478,
-                "Diff": "2",
+                "Hoy": 14,
+                "Total": 479,
+                "Diff": "1",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Jae Crowder and is now ranked 148th all-time with 594 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591478969568_4347_collage_1777591478882600.png"
-            ],
-            "timestamp": 1777591484
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Jaden McDaniels, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 207th all-time with 46 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777684473872491_8583_collage_1777684473784513.png"
             ],
             "timestamp": 1777684478
+        },
+        {
+            "texto": "Tobias Harris (8 rebounds today) has passed Jae Crowder and is now ranked 150th all-time with 594 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777684945748309_3784_collage_1777684945661481.png"
+            ],
+            "timestamp": 1777684951
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 918,
+    "total_notificaciones_historicas": 919,
     "total_franchise_historicas": 450,
-    "cache_buster": 1777684574
+    "cache_buster": 1777684951
 }
