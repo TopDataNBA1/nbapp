@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:58",
+    "ultima_actualizacion": "03:14:38",
     "tablas": {
         "pts": [
             {
@@ -72,11 +72,11 @@
                 "Rank": 189,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 13,
-                "Total": 1199,
-                "Diff": "5",
+                "Hoy": 15,
+                "Total": 1201,
+                "Diff": "3",
                 "Antece": "Anthony Edwards",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -126,13 +126,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 152,
+                "Rank": 151,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 6,
-                "Total": 592,
+                "Hoy": 7,
+                "Total": 593,
                 "Diff": "",
-                "Antece": "Harry Gallatin",
+                "Antece": "Jae Crowder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1252,9 +1252,9 @@
                 "Rank": 10,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 16,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 17,
+                "Diff": "1",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -1264,7 +1264,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 15,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Wendell Carter Jr.",
                 "game_status": "inactive"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 OG Anunoby (2 three-pointers today) has passed Devin Booker, Nick Van Exel and Nicolas Batum and is now ranked 96th all-time with 116 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591192495218_8539_collage_1777591192433505.png"
-            ],
-            "timestamp": 1777591197
-        },
         {
             "texto": "Karl-Anthony Towns (1 rebound today) has passed Jae Crowder and is now ranked 148th all-time with 594 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682674260175_2276_collage_1777682674147415.png"
             ],
             "timestamp": 1777682679
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (7 rebounds today) has passed Harry Gallatin and is now ranked 151st all-time with 593 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777684473872491_8583_collage_1777684473784513.png"
+            ],
+            "timestamp": 1777684478
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 917,
+    "total_notificaciones_historicas": 918,
     "total_franchise_historicas": 450,
-    "cache_buster": 1777684378
+    "cache_buster": 1777684478
 }
