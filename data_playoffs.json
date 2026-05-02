@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:53:12",
+    "ultima_actualizacion": "03:54:55",
     "tablas": {
         "pts": [
             {
@@ -151,11 +151,11 @@
                 "Rank": 189,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 524,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 525,
+                "Diff": "",
                 "Antece": "Blake Griffin",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -776,9 +776,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 150,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 151,
+                "Diff": "9",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -788,7 +788,7 @@
                 "Stat": "REB",
                 "Hoy": 5,
                 "Total": 143,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -968,9 +968,9 @@
                 "Rank": 21,
                 "Nombre": "Jabari Smith Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 28,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 29,
+                "Diff": "0",
                 "Antece": "Chandler Parsons",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 195th all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592668807116_1007_collage_1777592668716145.png"
-            ],
-            "timestamp": 1777592674
-        },
         {
             "texto": "OG Anunoby (3 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 178th all-time with 77 in playoffs.",
             "foto": [
@@ -2264,16 +2257,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686787577661_5556_collage_1777686787518386.png"
             ],
             "timestamp": 1777686792
+        },
+        {
+            "texto": "📢HOF🏛️ Deandre Ayton (3 rebounds today) has passed Isiah Thomas and Marcin Gortat and is now ranked 189th all-time with 525 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686888157082_6056_collage_1777686888078102.png"
+            ],
+            "timestamp": 1777686895
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Anthony Black (1 steal today) has passed Vince Carter and Marcin Gortat and is now ranked 21st in Magic history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1777508279,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Donovan Mitchell (9 points today) has passed Brad Daugherty and is now ranked 7th in Cavaliers history with 784 in playoffs.",
             "foto": [],
@@ -2966,9 +2959,16 @@
             "timestamp": 1777686595,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jabari Smith Jr. (1 three-pointer today) has passed Aaron Brooks and is now ranked 21st in Rockets history with 29 in playoffs.",
+            "foto": [],
+            "timestamp": 1777686895,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 926,
-    "total_franchise_historicas": 456,
-    "cache_buster": 1777686792
+    "total_notificaciones_historicas": 927,
+    "total_franchise_historicas": 457,
+    "cache_buster": 1777686895
 }
