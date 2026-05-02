@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:42:58",
+    "ultima_actualizacion": "02:44:39",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 4011,
-                "Diff": "34",
+                "Hoy": 8,
+                "Total": 4013,
+                "Diff": "32",
                 "Antece": "Tony Parker",
                 "Nota": "",
                 "game_status": "playing"
@@ -41,9 +41,9 @@
                 "Rank": 56,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 972,
-                "Diff": "13",
+                "Hoy": 4,
+                "Total": 974,
+                "Diff": "11",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -132,13 +132,13 @@
         ],
         "blk": [
             {
-                "Rank": 81,
+                "Rank": 80,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 101,
+                "Hoy": 1,
+                "Total": 102,
                 "Diff": "",
-                "Antece": "George Johnson",
+                "Antece": "Chris Bosh",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -798,9 +798,9 @@
                 "Rank": 22,
                 "Nombre": "Scottie Barnes",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 66,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 67,
+                "Diff": "3",
                 "Antece": "Amir Johnson",
                 "game_status": "playing"
             },
@@ -815,23 +815,23 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 19,
+                "Nombre": "Scottie Barnes",
+                "Stat": "BLK",
+                "Hoy": 2,
+                "Total": 11,
+                "Diff": "0",
+                "Antece": "DeMar DeRozan",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 22,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 10,
                 "Diff": "0",
                 "Antece": "Delon Wright",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 23,
-                "Nombre": "Scottie Barnes",
-                "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 10,
-                "Diff": "0",
-                "Antece": "Chris Boucher",
                 "game_status": "playing"
             },
             {
@@ -949,13 +949,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Cameron Johnson, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 184th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591090774303_4365_collage_1777591090706338.png"
-            ],
-            "timestamp": 1777591095
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (2 three-pointers today) has passed Devin Booker, Nick Van Exel and Nicolas Batum and is now ranked 96th all-time with 116 in playoffs.",
             "foto": [
@@ -1648,16 +1641,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682380889533_6460_collage_1777682380795583.png"
             ],
             "timestamp": 1777682386
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 block today) has passed George Johnson and is now ranked 80th all-time with 102 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682674260175_2276_collage_1777682674147415.png"
+            ],
+            "timestamp": 1777682679
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jakob Poeltl (2 rebounds today) has passed Amir Johnson and is now ranked 20th in Raptors history with 72 in playoffs.",
-            "foto": [],
-            "timestamp": 1777506257,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Jakob Poeltl today surpasses Morris Peterson and Dell Curry and is now ranked 19th in Raptors history with 20 games in playoffs.",
             "foto": [],
@@ -2350,9 +2343,16 @@
             "timestamp": 1777682482,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (2 blocks today) has passed Alvin Williams, Delon Wright, Jakob Poeltl and Chris Boucher and is now ranked 19th in Raptors history with 11 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682679,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 916,
-    "total_franchise_historicas": 445,
-    "cache_buster": 1777682578
+    "total_notificaciones_historicas": 917,
+    "total_franchise_historicas": 446,
+    "cache_buster": 1777682679
 }
