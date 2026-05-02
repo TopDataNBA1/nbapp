@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:17:49",
+    "ultima_actualizacion": "05:24:06",
     "tablas": {
         "pts": [
             {
@@ -619,24 +619,24 @@
             },
             {
                 "Rank": 222,
+                "Nombre": "Rui Hachimura",
+                "Team": "LAL",
+                "Hoy": 4,
+                "Total": 64,
+                "Diff": "",
+                "Antece": "Richard Jefferson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 223,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
                 "Hoy": 0,
                 "Total": 63,
                 "Diff": "1",
-                "Antece": "Richard Jefferson",
+                "Antece": "Rui Hachimura",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 226,
-                "Nombre": "Rui Hachimura",
-                "Team": "LAL",
-                "Hoy": 3,
-                "Total": 63,
-                "Diff": "",
-                "Antece": "Rodney Rogers",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1070,9 +1070,9 @@
                 "Rank": 12,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 54,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 55,
+                "Diff": "4",
                 "Antece": "Metta World Peace",
                 "game_status": "playing"
             }
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jayson Tatum (1 assist today) has passed Deron Williams and is now ranked 42nd all-time with 631 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594638980393_3602_collage_1777594638892408.png"
-            ],
-            "timestamp": 1777594644
-        },
         {
             "texto": "📢🔝💯 Jayson Tatum today surpasses Jerome Kersey and Shaun Livingston and now ranked 93rd all time with 127 games in playoffs",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777691767815765_1285_collage_1777691767731792.png"
             ],
             "timestamp": 1777691773
+        },
+        {
+            "texto": "Rui Hachimura (4 three-pointers today) has passed Austin Reaves, Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 222nd all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777692241269998_5253_collage_1777692241189022.png"
+            ],
+            "timestamp": 1777692246
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 938,
+    "total_notificaciones_historicas": 939,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777691869
+    "cache_buster": 1777692246
 }
