@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:52:29",
+    "ultima_actualizacion": "04:54:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 15,
-                "Total": 8415,
-                "Diff": "585",
+                "Hoy": 18,
+                "Total": 8418,
+                "Diff": "582",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -151,9 +151,9 @@
                 "Rank": 186,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 7,
-                "Total": 529,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 530,
+                "Diff": "2",
                 "Antece": "Steven Adams",
                 "Nota": "",
                 "game_status": "playing"
@@ -173,9 +173,9 @@
                 "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 486,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 487,
+                "Diff": "5",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -407,13 +407,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 150,
+                "Rank": 148,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 59,
+                "Hoy": 2,
+                "Total": 61,
                 "Diff": "",
-                "Antece": "Derrick Coleman",
+                "Antece": "Manu Ginóbili",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -467,9 +467,9 @@
                 "Rank": 3,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 488,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 489,
+                "Diff": "11",
                 "Antece": "500",
                 "Nota": "",
                 "game_status": "playing"
@@ -480,7 +480,7 @@
                 "Team": "CLE",
                 "Hoy": 1,
                 "Total": 451,
-                "Diff": "37",
+                "Diff": "38",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "finished"
@@ -1000,9 +1000,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1504,
-                "Diff": "57",
+                "Hoy": 18,
+                "Total": 1507,
+                "Diff": "54",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1050,9 +1050,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 118,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 119,
+                "Diff": "5",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Paul George today surpasses Boris Diaw, Caldwell Jones, John Paxson, Leandro Barbosa and Wes Unseld and now ranked 106th all time with 120 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594525251979_1368_collage_1777594525171025.png"
-            ],
-            "timestamp": 1777594530
-        },
         {
             "texto": "📢HOF🏛️ CJ McCollum (7 points today) has passed Bobby Jones and Clifford Robinson and is now ranked 141st all-time with 1,455 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690344587496_6303_collage_1777690344510521.png"
             ],
             "timestamp": 1777690349
+        },
+        {
+            "texto": "Marcus Smart (2 blocks today) has passed Derrick Coleman and Erick Dampier and is now ranked 148th all-time with 61 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690446666364_3932_collage_1777690446592025.png"
+            ],
+            "timestamp": 1777690451
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 935,
+    "total_notificaciones_historicas": 936,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777690349
+    "cache_buster": 1777690451
 }
