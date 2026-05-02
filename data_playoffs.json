@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:28:55",
+    "ultima_actualizacion": "03:32:09",
     "tablas": {
         "pts": [
             {
@@ -36,14 +36,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 80,
+                "Rank": 77,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 9,
-                "Total": 1908,
-                "Diff": "1",
-                "Antece": "Dwight Howard",
-                "Nota": "A tiro de 1",
+                "Hoy": 11,
+                "Total": 1910,
+                "Diff": "4",
+                "Antece": "Carmelo Anthony",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -72,11 +72,11 @@
                 "Rank": 189,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 17,
-                "Total": 1203,
-                "Diff": "1",
+                "Hoy": 18,
+                "Total": 1204,
+                "Diff": "",
                 "Antece": "Anthony Edwards",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -726,9 +726,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 803,
-                "Diff": "6",
+                "Hoy": 11,
+                "Total": 805,
+                "Diff": "4",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -1079,13 +1079,13 @@
         ],
         "ORL": [
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 480,
-                "Diff": "0",
-                "Antece": "Tracy McGrady",
+                "Hoy": 17,
+                "Total": 482,
+                "Diff": "20",
+                "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
             {
@@ -1182,9 +1182,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 47,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 48,
+                "Diff": "1",
                 "Antece": "D.J. Augustin",
                 "game_status": "playing"
             },
@@ -1424,9 +1424,9 @@
                 "Rank": 11,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 11,
-                "Total": 68,
-                "Diff": "7",
+                "Hoy": 12,
+                "Total": 69,
+                "Diff": "6",
                 "Antece": "Vince Carter",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 181st all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591588143288_8345_collage_1777591588048330.png"
-            ],
-            "timestamp": 1777591593
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (4 assists today) has passed Hal Greer and John Starks and is now ranked 88th all-time with 394 in playoffs.",
             "foto": [
@@ -2264,16 +2257,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777685143021907_4804_collage_1777685142913050.png"
             ],
             "timestamp": 1777685148
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (11 points today) has passed Dwight Howard and is now ranked 77th all-time with 1,910 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777685523649198_8715_collage_1777685523560239.png"
+            ],
+            "timestamp": 1777685528
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Scottie Barnes (3 assists today) has passed Greivis Vásquez and is now ranked 16th in Raptors history with 49 in playoffs.",
-            "foto": [],
-            "timestamp": 1777507694,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (3 assists today) has passed Dennis Scott and is now ranked 12th in Magic history with 77 in playoffs.",
             "foto": [],
@@ -2966,9 +2959,16 @@
             "timestamp": 1777685335,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Paolo Banchero (17 points today) has passed Tracy McGrady and is now ranked 9th in Magic history with 482 in playoffs.",
+            "foto": [],
+            "timestamp": 1777685529,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 920,
-    "total_franchise_historicas": 452,
-    "cache_buster": 1777685335
+    "total_notificaciones_historicas": 921,
+    "total_franchise_historicas": 453,
+    "cache_buster": 1777685529
 }
