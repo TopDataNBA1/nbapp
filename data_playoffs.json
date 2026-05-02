@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:49:01",
+    "ultima_actualizacion": "04:50:42",
     "tablas": {
         "pts": [
             {
@@ -306,14 +306,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 53,
+                "Rank": 52,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 159,
-                "Diff": "",
-                "Antece": "Al Horford",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 160,
+                "Diff": "4",
+                "Antece": "Ray Allen",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1566,13 +1566,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ CJ McCollum (5 points today) has passed Gail Goodrich and Walter Davis and is now ranked 142nd all-time with 1,453 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594411773623_9354_collage_1777594411698628.png"
-            ],
-            "timestamp": 1777594417
-        },
-        {
             "texto": "Karl-Anthony Towns (5 points today) has passed Kiki Vandeweghe and is now ranked 222nd all-time with 1,094 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594513658732_3697_collage_1777594513560765.png"
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690135530651_6407_collage_1777690135444698.png"
             ],
             "timestamp": 1777690141
+        },
+        {
+            "texto": "📢🔝💯 Marcus Smart (2 steals today) has passed Al Horford and is now ranked 52nd all-time with 160 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690237274257_4075_collage_1777690237189303.png"
+            ],
+            "timestamp": 1777690242
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 932,
+    "total_notificaciones_historicas": 933,
     "total_franchise_historicas": 465,
-    "cache_buster": 1777690141
+    "cache_buster": 1777690242
 }
