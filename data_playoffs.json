@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:51:32",
+    "ultima_actualizacion": "03:53:12",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 8402,
-                "Diff": "598",
+                "Hoy": 4,
+                "Total": 8404,
+                "Diff": "596",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -148,13 +148,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 191,
+                "Rank": 189,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 523,
+                "Hoy": 2,
+                "Total": 524,
                 "Diff": "1",
-                "Antece": "Marcin Gortat",
+                "Antece": "Blake Griffin",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -173,9 +173,9 @@
                 "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 484,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 485,
+                "Diff": "7",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -686,13 +686,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 122,
+                "Rank": 118,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 113,
+                "Hoy": 1,
+                "Total": 114,
                 "Diff": "",
-                "Antece": "Jamaal Wilkes",
+                "Antece": "Detlef Schrempf",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1000,9 +1000,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1491,
-                "Diff": "70",
+                "Hoy": 4,
+                "Total": 1493,
+                "Diff": "68",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (5 assists today) has passed Anfernee Hardaway and is now ranked 87th all-time with 395 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592475063485_2788_collage_1777592474972535.png"
-            ],
-            "timestamp": 1777592480
-        },
         {
             "texto": "📢HOF🏛️ Mikal Bridges (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 195th all-time with 48 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686590755202_8584_collage_1777686590673213.png"
             ],
             "timestamp": 1777686595
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart today surpasses Bill Bridges, Bill Laimbeer and Jamaal Wilkes and now ranked 118th all time with 114 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686787577661_5556_collage_1777686787518386.png"
+            ],
+            "timestamp": 1777686792
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 925,
+    "total_notificaciones_historicas": 926,
     "total_franchise_historicas": 456,
-    "cache_buster": 1777686692
+    "cache_buster": 1777686792
 }
