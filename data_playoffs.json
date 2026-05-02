@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:40:01",
+    "ultima_actualizacion": "01:41:47",
     "tablas": {
         "pts": [
             {
@@ -58,13 +58,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 205,
+                "Rank": 203,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1153,
+                "Hoy": 3,
+                "Total": 1156,
                 "Diff": "2",
-                "Antece": "Zach Randolph",
+                "Antece": "Jae Crowder",
                 "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
@@ -96,9 +96,9 @@
                 "Rank": 80,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 803,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 804,
+                "Diff": "3",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -229,13 +229,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 205,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 71,
+                "Hoy": 0,
+                "Total": 70,
                 "Diff": "1",
-                "Antece": "Nick Anderson",
+                "Antece": "Pau Gasol",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -357,11 +357,11 @@
                 "Rank": 34,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 197,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 198,
+                "Diff": "",
                 "Antece": "Al Horford",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -492,9 +492,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 803,
-                "Diff": "27",
+                "Hoy": 2,
+                "Total": 804,
+                "Diff": "26",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -552,7 +552,7 @@
                 "Rank": 17,
                 "Nombre": "Derrick White",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 65,
                 "Diff": "0",
                 "Antece": "Kevin McHale",
@@ -612,9 +612,9 @@
                 "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 191,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 192,
+                "Diff": "8",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -674,9 +674,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 888,
-                "Diff": "40",
+                "Hoy": 2,
+                "Total": 890,
+                "Diff": "38",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -694,9 +694,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 205,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 206,
+                "Diff": "6",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -704,9 +704,9 @@
                 "Rank": 20,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 170,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 171,
+                "Diff": "2",
                 "Antece": "George King",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jaylen Brown (9 points today) has passed Jimmy Butler and is now ranked 40th all-time with 2,746 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777596606424349_8208_collage_1777596606333392.png"
-            ],
-            "timestamp": 1777596611
-        },
         {
             "texto": "CJ McCollum (11 points today) has passed Marcus Smart and is now ranked 140th all-time with 1,459 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777765195248504_9980_collage_1777765195143540.png"
             ],
             "timestamp": 1777765201
+        },
+        {
+            "texto": "Derrick White (3 points today) has passed Zach Randolph and is now ranked 203rd all-time with 1,156 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777765301226088_7704_collage_1777765301092131.png"
+            ],
+            "timestamp": 1777765307
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 950,
+    "total_notificaciones_historicas": 951,
     "total_franchise_historicas": 468,
-    "cache_buster": 1777765201
+    "cache_buster": 1777765307
 }
