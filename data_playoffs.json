@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:55",
+    "ultima_actualizacion": "03:56:38",
     "tablas": {
         "pts": [
             {
@@ -148,14 +148,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 189,
+                "Rank": 188,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 525,
-                "Diff": "",
-                "Antece": "Blake Griffin",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 526,
+                "Diff": "1",
+                "Antece": "Jeff Hornacek",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -186,9 +186,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2138,
-                "Diff": "208",
+                "Hoy": 2,
+                "Total": 2139,
+                "Diff": "207",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -736,9 +736,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 483,
-                "Diff": "76",
+                "Hoy": 19,
+                "Total": 485,
+                "Diff": "74",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -756,9 +756,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 275,
-                "Diff": "30",
+                "Hoy": 11,
+                "Total": 276,
+                "Diff": "29",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1020,9 +1020,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 451,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 452,
+                "Diff": "11",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (3 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 178th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777592770514850_1660_collage_1777592770437271.png"
-            ],
-            "timestamp": 1777592775
-        },
         {
             "texto": "OG Anunoby (4 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 177th all-time with 78 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686888157082_6056_collage_1777686888078102.png"
             ],
             "timestamp": 1777686895
+        },
+        {
+            "texto": "Deandre Ayton (4 rebounds today) has passed Blake Griffin and is now ranked 188th all-time with 526 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686992323253_9167_collage_1777686992235283.png"
+            ],
+            "timestamp": 1777686998
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 927,
+    "total_notificaciones_historicas": 928,
     "total_franchise_historicas": 457,
-    "cache_buster": 1777686895
+    "cache_buster": 1777686998
 }
