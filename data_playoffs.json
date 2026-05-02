@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:07",
+    "ultima_actualizacion": "04:14:14",
     "tablas": {
         "pts": [
             {
@@ -309,11 +309,11 @@
                 "Rank": 53,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 158,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 159,
+                "Diff": "",
                 "Antece": "Al Horford",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -803,13 +803,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 80,
-                "Diff": "0",
-                "Antece": "Larry Hughes",
+                "Hoy": 3,
+                "Total": 81,
+                "Diff": "8",
+                "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
             {
@@ -2268,13 +2268,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Donovan Mitchell (10 points today) has passed Zydrunas Ilgauskas and is now ranked 6th in Cavaliers history with 785 in playoffs.",
-            "foto": [],
-            "timestamp": 1777509992,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "Wendell Carter Jr. (3 blocks today) has passed Bo Outlaw and is now ranked 12th in Magic history with 15 in playoffs.",
             "foto": [],
             "timestamp": 1777510189,
@@ -2966,9 +2959,16 @@
             "timestamp": 1777687770,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (3 assists today) has passed Larry Hughes and is now ranked 15th in Cavaliers history with 81 in playoffs.",
+            "foto": [],
+            "timestamp": 1777688054,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 930,
-    "total_franchise_historicas": 461,
-    "cache_buster": 1777687867
+    "total_franchise_historicas": 462,
+    "cache_buster": 1777688054
 }
