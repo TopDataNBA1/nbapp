@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:39:46",
+    "ultima_actualizacion": "02:41:22",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 81,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 1904,
-                "Diff": "3",
+                "Hoy": 7,
+                "Total": 1906,
+                "Diff": "1",
                 "Antece": "Horace Grant",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 799,
-                "Diff": "10",
+                "Hoy": 7,
+                "Total": 801,
+                "Diff": "8",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -593,13 +593,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Paolo Banchero",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 19,
+                "Hoy": 1,
+                "Total": 20,
                 "Diff": "0",
-                "Antece": "Courtney Lee",
+                "Antece": "JJ Redick",
                 "game_status": "playing"
             },
             {
@@ -808,9 +808,9 @@
                 "Rank": 12,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 65,
-                "Diff": "2",
+                "Hoy": 9,
+                "Total": 66,
+                "Diff": "1",
                 "Antece": "José Calderón",
                 "game_status": "playing"
             },
@@ -838,9 +838,9 @@
                 "Rank": 20,
                 "Nombre": "RJ Barrett",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 14,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 15,
+                "Diff": "0",
                 "Antece": "Greivis Vásquez",
                 "game_status": "playing"
             },
@@ -877,13 +877,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Jalen Duren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "0",
-                "Antece": "Curtis Rowe",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
+                "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             },
             {
@@ -893,7 +893,7 @@
                 "Hoy": 1,
                 "Total": 16,
                 "Diff": "3",
-                "Antece": "Jalen Duren",
+                "Antece": "Curtis Rowe",
                 "game_status": "playing"
             },
             {
@@ -1652,20 +1652,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Goga Bitadze (1 block today) has passed Nikola Vučević and is now ranked 17th in Magic history with 9 in playoffs.",
-            "foto": [],
-            "timestamp": 1777505603,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Goga Bitadze (2 blocks today) has passed Dennis Scott and is now ranked 16th in Magic history with 10 in playoffs.",
-            "foto": [],
-            "timestamp": 1777505884,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Jakob Poeltl (2 rebounds today) has passed Amir Johnson and is now ranked 20th in Raptors history with 72 in playoffs.",
             "foto": [],
             "timestamp": 1777506257,
@@ -2350,9 +2336,23 @@
             "timestamp": 1777682386,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (1 steal today) has passed Courtney Lee and is now ranked 16th in Magic history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682482,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Jalen Duren (1 block today) has passed Curtis Rowe and is now ranked 17th in Pistons history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682482,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 916,
-    "total_franchise_historicas": 443,
-    "cache_buster": 1777682386
+    "total_franchise_historicas": 445,
+    "cache_buster": 1777682482
 }
