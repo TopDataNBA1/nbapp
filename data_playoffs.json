@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:38:05",
+    "ultima_actualizacion": "02:39:46",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 4010,
-                "Diff": "35",
+                "Hoy": 6,
+                "Total": 4011,
+                "Diff": "34",
                 "Antece": "Tony Parker",
                 "Nota": "",
                 "game_status": "playing"
@@ -52,11 +52,11 @@
                 "Rank": 152,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 590,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 591,
+                "Diff": "1",
                 "Antece": "Harry Gallatin",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -192,9 +192,9 @@
                 "Rank": 55,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 162,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 163,
+                "Diff": "3",
                 "Antece": "Michael Porter Jr.",
                 "Nota": "",
                 "game_status": "playing"
@@ -860,9 +860,9 @@
                 "Rank": 16,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 88,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 89,
+                "Diff": "1",
                 "Antece": "George Yardley",
                 "game_status": "playing"
             },
@@ -937,25 +937,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 15,
+                "Hoy": 3,
+                "Total": 16,
                 "Diff": "0",
-                "Antece": "Vinnie Johnson",
+                "Antece": "Terry Mills",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (1 three-pointer today) has passed Mike Bibby and is now ranked 66th all-time with 146 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777590895392810_3812_collage_1777590895296859.png"
-            ],
-            "timestamp": 1777590900
-        },
         {
             "texto": "Nickeil Alexander-Walker (1 three-pointer today) has passed Cameron Johnson, Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 184th all-time with 74 in playoffs.",
             "foto": [
@@ -1648,16 +1641,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777681799930526_6640_collage_1777681799840555.png"
             ],
             "timestamp": 1777681805
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Peja Stojaković and is now ranked 55th all-time with 163 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682380889533_6460_collage_1777682380795583.png"
+            ],
+            "timestamp": 1777682386
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Paolo Banchero (3 rebounds today) has passed Wendell Carter Jr. and is now ranked 10th in Magic history with 140 in playoffs.",
-            "foto": [],
-            "timestamp": 1777505508,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Goga Bitadze (1 block today) has passed Nikola Vučević and is now ranked 17th in Magic history with 9 in playoffs.",
             "foto": [],
@@ -2350,9 +2343,16 @@
             "timestamp": 1777682093,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Duncan Robinson (3 three-pointers today) has passed Vinnie Johnson and is now ranked 19th in Pistons history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1777682386,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 915,
-    "total_franchise_historicas": 442,
-    "cache_buster": 1777682285
+    "total_notificaciones_historicas": 916,
+    "total_franchise_historicas": 443,
+    "cache_buster": 1777682386
 }
