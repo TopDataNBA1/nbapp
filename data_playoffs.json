@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:33:23",
+    "ultima_actualizacion": "05:47:21",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 2667,
-                "Diff": "192",
+                "Hoy": 4,
+                "Total": 2668,
+                "Diff": "191",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -618,13 +618,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 222,
+                "Rank": 217,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 64,
+                "Hoy": 5,
+                "Total": 65,
                 "Diff": "",
-                "Antece": "Richard Jefferson",
+                "Antece": "Malik Beasley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -635,7 +635,7 @@
                 "Hoy": 0,
                 "Total": 63,
                 "Diff": "1",
-                "Antece": "Rui Hachimura",
+                "Antece": "Richard Jefferson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1010,9 +1010,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 545,
-                "Diff": "29",
+                "Hoy": 4,
+                "Total": 546,
+                "Diff": "28",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1070,9 +1070,9 @@
                 "Rank": 12,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 55,
-                "Diff": "4",
+                "Hoy": 5,
+                "Total": 56,
+                "Diff": "3",
                 "Antece": "Metta World Peace",
                 "game_status": "playing"
             }
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jayson Tatum today surpasses Jerome Kersey and Shaun Livingston and now ranked 93rd all time with 127 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594644700491_3940_collage_1777594644618521.png"
-            ],
-            "timestamp": 1777594650
-        },
         {
             "texto": "📢HOF🏛️ Derrick White today surpasses Anderson Varejão, Bob Pettit, Brent Barry, Gerald Henderson, Howard Eisley, Kevin Love, Luke Walton, Nazr Mohammed, Shawn Kemp and Vince Carter and now ranked 224th all time with 89 games in playoffs",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777692241269998_5253_collage_1777692241189022.png"
             ],
             "timestamp": 1777692246
+        },
+        {
+            "texto": "📢HOF🏛️ Rui Hachimura (5 three-pointers today) has passed Charles Barkley, Julius Randle, Reggie Bullock and Richard Jefferson and is now ranked 217th all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777693636403245_3465_collage_1777693636336271.png"
+            ],
+            "timestamp": 1777693641
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 939,
+    "total_notificaciones_historicas": 940,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777692803
+    "cache_buster": 1777693641
 }
