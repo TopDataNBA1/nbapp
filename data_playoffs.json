@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:58:14",
+    "ultima_actualizacion": "03:59:55",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 75,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 20,
-                "Total": 1919,
-                "Diff": "8",
+                "Hoy": 22,
+                "Total": 1921,
+                "Diff": "6",
                 "Antece": "Walt Frazier",
                 "Nota": "",
                 "game_status": "playing"
@@ -241,11 +241,11 @@
                 "Rank": 127,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 321,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 322,
+                "Diff": "1",
                 "Antece": "Andrew Toney",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -726,9 +726,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 814,
-                "Diff": "4",
+                "Hoy": 22,
+                "Total": 816,
+                "Diff": "2",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -736,9 +736,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 485,
-                "Diff": "74",
+                "Hoy": 21,
+                "Total": 487,
+                "Diff": "72",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -796,9 +796,9 @@
                 "Rank": 7,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 136,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 137,
+                "Diff": "0",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -837,8 +837,8 @@
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
                 "Hoy": 0,
-                "Total": 29,
-                "Diff": "1",
+                "Total": 28,
+                "Diff": "2",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -846,9 +846,9 @@
                 "Rank": 17,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 26,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 27,
+                "Diff": "0",
                 "Antece": "Brad Daugherty",
                 "game_status": "playing"
             },
@@ -1424,9 +1424,9 @@
                 "Rank": 11,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 12,
-                "Total": 69,
-                "Diff": "6",
+                "Hoy": 13,
+                "Total": 70,
+                "Diff": "5",
                 "Antece": "Vince Carter",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (4 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 177th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593540690017_6732_collage_1777593540624060.png"
-            ],
-            "timestamp": 1777593545
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (7 assists today) has passed K.C. Jones and is now ranked 86th all-time with 397 in playoffs.",
             "foto": [
@@ -2264,16 +2257,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686992323253_9167_collage_1777686992235283.png"
             ],
             "timestamp": 1777686998
+        },
+        {
+            "texto": "Donovan Mitchell (1 assist today) has passed Marc Gasol and Mario Chalmers and is now ranked 127th all-time with 322 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777687189995871_8102_collage_1777687189921889.png"
+            ],
+            "timestamp": 1777687195
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Scottie Barnes (14 points today) has passed Danny Green and is now ranked 20th in Raptors history with 168 in playoffs.",
-            "foto": [],
-            "timestamp": 1777509234,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Tobias Harris (1 block today) has passed Theo Ratliff and Lindsey Hunter and is now ranked 19th in Pistons history with 16 in playoffs.",
             "foto": [],
@@ -2966,9 +2959,16 @@
             "timestamp": 1777687094,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (1 steal today) has passed Zydrunas Ilgauskas and Tristan Thompson and is now ranked 17th in Cavaliers history with 27 in playoffs.",
+            "foto": [],
+            "timestamp": 1777687195,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 928,
-    "total_franchise_historicas": 458,
-    "cache_buster": 1777687094
+    "total_notificaciones_historicas": 929,
+    "total_franchise_historicas": 459,
+    "cache_buster": 1777687195
 }
