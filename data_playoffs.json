@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:06:25",
+    "ultima_actualizacion": "06:14:15",
     "tablas": {
         "pts": [
             {
@@ -118,11 +118,11 @@
                 "Rank": 95,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 740,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 741,
+                "Diff": "1",
                 "Antece": "Terry Cummings",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -708,14 +708,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 213,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 90,
-                "Diff": "",
-                "Antece": "Cliff Hagan",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 91,
+                "Diff": "1",
+                "Antece": "Slater Martin",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ]
@@ -928,9 +928,9 @@
                 "Rank": 19,
                 "Nombre": "Clint Capela",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 508,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 510,
+                "Diff": "1",
                 "Antece": "Rudy Tomjanovich",
                 "game_status": "playing"
             },
@@ -938,9 +938,9 @@
                 "Rank": 4,
                 "Nombre": "Clint Capela",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 474,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 475,
+                "Diff": "17",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -988,9 +988,9 @@
                 "Rank": 7,
                 "Nombre": "Clint Capela",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "0",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             }
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jaylen Brown today surpasses J.R. Smith, Jeff Hornacek, Richard Jefferson and Tayshaun Prince and now ranked 66th all time with 141 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594855292575_5325_collage_1777594855222599.png"
-            ],
-            "timestamp": 1777594860
-        },
         {
             "texto": "📢HOF🏛️ Derrick White (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 215th all-time with 68 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777694493907832_4305_collage_1777694493843425.png"
             ],
             "timestamp": 1777694498
+        },
+        {
+            "texto": "📢HOF🏛️ Clint Capela today surpasses Avery Johnson, Cliff Hagan, Deron Williams, Rudy Gobert and Steve Smith and now ranked 213th all time with 91 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777695249892544_4402_collage_1777695249817203.png"
+            ],
+            "timestamp": 1777695254
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 942,
+    "total_notificaciones_historicas": 943,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777694785
+    "cache_buster": 1777695255
 }
