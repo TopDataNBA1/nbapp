@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:07:49",
+    "ultima_actualizacion": "04:09:31",
     "tablas": {
         "pts": [
             {
@@ -629,13 +629,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 237,
+                "Rank": 232,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 60,
+                "Hoy": 1,
+                "Total": 61,
                 "Diff": "",
-                "Antece": "Robert Covington",
+                "Antece": "Obi Toppin",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1067,13 +1067,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 51,
+                "Hoy": 1,
+                "Total": 52,
                 "Diff": "0",
-                "Antece": "Eddie Jones",
+                "Antece": "Devean George",
                 "game_status": "playing"
             }
         ],
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (7 assists today) has passed K.C. Jones and is now ranked 86th all-time with 397 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777593924292368_1758_collage_1777593924204395.png"
-            ],
-            "timestamp": 1777593929
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (4 three-pointers today) has passed Kenny Smith, Mario Chalmers and Sam Cassell and is now ranked 93rd all-time with 118 in playoffs.",
             "foto": [
@@ -2264,16 +2257,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777687189995871_8102_collage_1777687189921889.png"
             ],
             "timestamp": 1777687195
+        },
+        {
+            "texto": "Rui Hachimura (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Naz Reid, Robert Covington and Victor Oladipo and is now ranked 232nd all-time with 61 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777687765336949_1028_collage_1777687765250994.png"
+            ],
+            "timestamp": 1777687770
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Max Strus (1 assist today) has passed Terrell Brandon and is now ranked 16th in Cavaliers history with 77 in playoffs.",
-            "foto": [],
-            "timestamp": 1777509705,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Donovan Mitchell (10 points today) has passed Zydrunas Ilgauskas and is now ranked 6th in Cavaliers history with 785 in playoffs.",
             "foto": [],
@@ -2966,9 +2959,16 @@
             "timestamp": 1777687386,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Rui Hachimura (1 three-pointer today) has passed Eddie Jones, Jordan Farmar and Magic Johnson and is now ranked 13th in Lakers history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1777687770,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 929,
-    "total_franchise_historicas": 460,
-    "cache_buster": 1777687669
+    "total_notificaciones_historicas": 930,
+    "total_franchise_historicas": 461,
+    "cache_buster": 1777687771
 }
