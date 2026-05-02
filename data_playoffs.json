@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:15:35",
+    "ultima_actualizacion": "02:17:10",
     "tablas": {
         "pts": [
             {
@@ -798,9 +798,9 @@
                 "Rank": 22,
                 "Nombre": "Scottie Barnes",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "6",
                 "Antece": "Amir Johnson",
                 "game_status": "playing"
             },
@@ -808,9 +808,9 @@
                 "Rank": 12,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 62,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 63,
+                "Diff": "4",
                 "Antece": "José Calderón",
                 "game_status": "playing"
             },
@@ -835,13 +835,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 20,
                 "Nombre": "RJ Barrett",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 13,
-                "Diff": "0",
-                "Antece": "Jason Kapono",
+                "Hoy": 2,
+                "Total": 14,
+                "Diff": "1",
+                "Antece": "Greivis Vásquez",
                 "game_status": "playing"
             },
             {
@@ -1652,20 +1652,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Paolo Banchero (1 assist today) has passed JJ Redick and is now ranked 13th in Magic history with 75 in playoffs.",
-            "foto": [],
-            "timestamp": 1777504371,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Paolo Banchero (1 block today) has passed Franz Wagner and Wendell Carter Jr. and is now ranked 13th in Magic history with 13 in playoffs.",
-            "foto": [],
-            "timestamp": 1777504753,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Wendell Carter Jr. (1 assist today) has passed Courtney Lee and is now ranked 24th in Magic history with 28 in playoffs.",
             "foto": [],
             "timestamp": 1777504849,
@@ -2350,9 +2336,23 @@
             "timestamp": 1777680467,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (1 rebound today) has passed Keon Clark and is now ranked 22nd in Raptors history with 64 in playoffs.",
+            "foto": [],
+            "timestamp": 1777681030,
+            "team": "TOR",
+            "type": "franchise"
+        },
+        {
+            "texto": "RJ Barrett (2 three-pointers today) has passed Alvin Williams, Gary Trent Jr., Anthony Parker, José Calderón and Jason Kapono and is now ranked 20th in Raptors history with 14 in playoffs.",
+            "foto": [],
+            "timestamp": 1777681030,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 912,
-    "total_franchise_historicas": 434,
-    "cache_buster": 1777680935
+    "total_franchise_historicas": 436,
+    "cache_buster": 1777681030
 }
