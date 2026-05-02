@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:11:13",
+    "ultima_actualizacion": "05:12:56",
     "tablas": {
         "pts": [
             {
@@ -173,9 +173,9 @@
                 "Rank": 213,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 487,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 488,
+                "Diff": "4",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -219,9 +219,9 @@
                 "Rank": 57,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 556,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 557,
+                "Diff": "5",
                 "Antece": "Avery Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -629,13 +629,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 230,
+                "Rank": 226,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 62,
+                "Hoy": 3,
+                "Total": 63,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Rodney Rogers",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1070,9 +1070,9 @@
                 "Rank": 12,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 53,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 54,
+                "Diff": "5",
                 "Antece": "Metta World Peace",
                 "game_status": "playing"
             }
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ CJ McCollum (7 points today) has passed Bobby Jones and Clifford Robinson and is now ranked 141st all-time with 1,455 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594627966624_2722_collage_1777594627893649.png"
-            ],
-            "timestamp": 1777594633
-        },
         {
             "texto": "Karl-Anthony Towns (7 points today) has passed Derek Harper and is now ranked 221st all-time with 1,096 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690446666364_3932_collage_1777690446592025.png"
             ],
             "timestamp": 1777690451
+        },
+        {
+            "texto": "Rui Hachimura (3 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 226th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777691568920067_8391_collage_1777691568846090.png"
+            ],
+            "timestamp": 1777691576
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 936,
+    "total_notificaciones_historicas": 937,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777691473
+    "cache_buster": 1777691576
 }
