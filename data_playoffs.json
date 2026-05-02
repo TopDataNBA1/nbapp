@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "05:53:48",
+    "ultima_actualizacion": "06:01:38",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 24,
-                "Total": 8424,
-                "Diff": "576",
+                "Hoy": 26,
+                "Total": 8426,
+                "Diff": "574",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -58,14 +58,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 141,
+                "Rank": 138,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 1459,
-                "Diff": "",
-                "Antece": "CJ McCollum",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1462,
+                "Diff": "6",
+                "Antece": "Vlade Divac",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -500,11 +500,11 @@
                 "Rank": 27,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 219,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 220,
+                "Diff": "1",
                 "Antece": "Jason Terry",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -513,7 +513,7 @@
                 "Team": "CLE",
                 "Hoy": 2,
                 "Total": 217,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Marcus Smart",
                 "Nota": "",
                 "game_status": "finished"
@@ -1000,9 +1000,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1513,
-                "Diff": "48",
+                "Hoy": 26,
+                "Total": 1515,
+                "Diff": "46",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tyrese Maxey (1 three-pointer today) has passed James Jones and Pat Connaughton and is now ranked 109th all-time with 105 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777594849708964_2057_collage_1777594849635888.png"
-            ],
-            "timestamp": 1777594855
-        },
         {
             "texto": "📢🔝💯 Jaylen Brown today surpasses J.R. Smith, Jeff Hornacek, Richard Jefferson and Tayshaun Prince and now ranked 66th all time with 141 games in playoffs",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777694023864893_3811_collage_1777694023790293.png"
             ],
             "timestamp": 1777694028
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (4 points today) has passed Amar'e Stoudemire, CJ McCollum and Jack Sikma and is now ranked 138th all-time with 1,462 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777694493907832_4305_collage_1777694493843425.png"
+            ],
+            "timestamp": 1777694498
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 941,
+    "total_notificaciones_historicas": 942,
     "total_franchise_historicas": 466,
-    "cache_buster": 1777694028
+    "cache_buster": 1777694498
 }
