@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:07",
+    "ultima_actualizacion": "03:25:48",
     "tablas": {
         "pts": [
             {
@@ -36,13 +36,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 81,
+                "Rank": 80,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 1906,
+                "Hoy": 9,
+                "Total": 1908,
                 "Diff": "1",
-                "Antece": "Horace Grant",
+                "Antece": "Dwight Howard",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -726,9 +726,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 801,
-                "Diff": "8",
+                "Hoy": 9,
+                "Total": 803,
+                "Diff": "6",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -1394,9 +1394,9 @@
                 "Rank": 19,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 187,
-                "Diff": "2",
+                "Hoy": 18,
+                "Total": 189,
+                "Diff": "0",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -1536,9 +1536,9 @@
                 "Rank": 14,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 21,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 22,
+                "Diff": "1",
                 "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             },
@@ -1565,13 +1565,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Jaden McDaniels, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 207th all-time with 46 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777591485033684_3106_collage_1777591484933728.png"
-            ],
-            "timestamp": 1777591490
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 181st all-time with 76 in playoffs.",
             "foto": [
@@ -2264,6 +2257,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777684945748309_3784_collage_1777684945661481.png"
             ],
             "timestamp": 1777684951
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (9 points today) has passed Horace Grant and is now ranked 80th all-time with 1,908 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777685143021907_4804_collage_1777685142913050.png"
+            ],
+            "timestamp": 1777685148
         }
     ],
     "notificaciones_franchise": [
@@ -2968,7 +2968,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 919,
+    "total_notificaciones_historicas": 920,
     "total_franchise_historicas": 451,
-    "cache_buster": 1777685047
+    "cache_buster": 1777685148
 }
