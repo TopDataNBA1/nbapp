@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:44:15",
+    "ultima_actualizacion": "22:50:31",
     "tablas": {
         "pts": [
             {
@@ -86,13 +86,13 @@
         ],
         "stl": [
             {
-                "Rank": 238,
+                "Rank": 229,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 65,
+                "Hoy": 1,
+                "Total": 66,
                 "Diff": "",
-                "Antece": "Thaddeus Young",
+                "Antece": "Steve Nash",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -541,9 +541,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 24,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 23,
+                "Diff": "9",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (10 points today) has passed Alvan Adams and Bob Love and is now ranked 227th all-time with 1,077 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777608933625135_9717_collage_1777608933553171.png"
-            ],
-            "timestamp": 1777608938
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (2 points today) has passed Paul Arizin and is now ranked 193rd all-time with 1,188 in playoffs.",
             "foto": [
@@ -1329,6 +1322,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840954262475_3709_collage_1777840954185499.png"
             ],
             "timestamp": 1777840959
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Rudy Gobert, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 229th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777841425665474_9645_collage_1777841425572156.png"
+            ],
+            "timestamp": 1777841431
         }
     ],
     "notificaciones_franchise": [
@@ -2033,7 +2033,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1001,
+    "total_notificaciones_historicas": 1002,
     "total_franchise_historicas": 494,
-    "cache_buster": 1777841055
+    "cache_buster": 1777841431
 }
