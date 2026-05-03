@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:18:37",
+    "ultima_actualizacion": "02:20:17",
     "tablas": {
         "pts": [
             {
@@ -376,13 +376,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 126,
+                "Rank": 125,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 96,
+                "Hoy": 1,
+                "Total": 97,
                 "Diff": "",
-                "Antece": "Derek Harper",
+                "Antece": "Mike Miller",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -622,9 +622,9 @@
                 "Rank": 8,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 96,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 97,
+                "Diff": "3",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (5 rebounds today) has passed Danny Ainge and is now ranked 233rd all-time with 444 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597236069302_7061_collage_1777597235975333.png"
-            ],
-            "timestamp": 1777597241
-        },
         {
             "texto": "Derrick White (2 steals today) has passed Blake Griffin and Luol Deng and is now ranked 212th all-time with 69 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767512332850_2497_collage_1777767512272869.png"
             ],
             "timestamp": 1777767517
+        },
+        {
+            "texto": "Payton Pritchard (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767612555359_7602_collage_1777767612480383.png"
+            ],
+            "timestamp": 1777767617
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 960,
+    "total_notificaciones_historicas": 961,
     "total_franchise_historicas": 470,
-    "cache_buster": 1777767517
+    "cache_buster": 1777767617
 }
