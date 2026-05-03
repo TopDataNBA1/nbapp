@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:15:15",
+    "ultima_actualizacion": "02:18:37",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 200,
+                "Rank": 199,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 13,
-                "Total": 1166,
-                "Diff": "2",
-                "Antece": "Eddie Johnson",
-                "Nota": "A tiro de 2",
+                "Hoy": 16,
+                "Total": 1169,
+                "Diff": "7",
+                "Antece": "Derrick McKey",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -354,14 +354,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 33,
+                "Rank": 31,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 199,
-                "Diff": "1",
-                "Antece": "Scottie Pippen",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 200,
+                "Diff": "7",
+                "Antece": "Jae Crowder",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -612,9 +612,9 @@
                 "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 193,
-                "Diff": "7",
+                "Hoy": 3,
+                "Total": 194,
+                "Diff": "6",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -793,20 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (13 points today) has passed Ray Allen and is now ranked 39th all-time with 2,750 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597032496952_6120_collage_1777597032412954.png"
-            ],
-            "timestamp": 1777597037
-        },
-        {
-            "texto": "📢HOF🏛️ Paul George (1 block today) has passed Bruce Bowen and Magic Johnson and is now ranked 139th all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597134933606_3218_collage_1777597134859636.png"
-            ],
-            "timestamp": 1777597140
-        },
         {
             "texto": "Josh Hart (5 rebounds today) has passed Danny Ainge and is now ranked 233rd all-time with 444 in playoffs.",
             "foto": [
@@ -1492,6 +1478,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767033982048_8884_collage_1777767033916962.png"
             ],
             "timestamp": 1777767038
+        },
+        {
+            "texto": "Derrick White (16 points today) has passed Eddie Johnson and is now ranked 199th all-time with 1,169 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767501029749_7625_collage_1777767500936779.png"
+            ],
+            "timestamp": 1777767506
+        },
+        {
+            "texto": "📢🔝💯 Derrick White (3 three-pointers today) becomes the 31st player to reach 200 in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767512332850_2497_collage_1777767512272869.png"
+            ],
+            "timestamp": 1777767517
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 958,
+    "total_notificaciones_historicas": 960,
     "total_franchise_historicas": 470,
-    "cache_buster": 1777767315
+    "cache_buster": 1777767517
 }
