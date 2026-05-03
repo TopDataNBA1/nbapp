@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:23:23",
+    "ultima_actualizacion": "22:31:11",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
         ],
         "blk": [
             {
-                "Rank": 212,
+                "Rank": 201,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 46,
+                "Hoy": 1,
+                "Total": 47,
                 "Diff": "",
-                "Antece": "Mehmet Okur",
+                "Antece": "Shawn Bradley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -569,22 +569,22 @@
             },
             {
                 "Rank": 20,
-                "Nombre": "Isaiah Stewart",
+                "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 15,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 16,
+                "Diff": "3",
                 "Antece": "Jalen Duren",
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
-                "Nombre": "Tobias Harris",
+                "Rank": 21,
+                "Nombre": "Isaiah Stewart",
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 15,
-                "Diff": "0",
-                "Antece": "Lindsey Hunter",
+                "Diff": "1",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (3 three-pointers today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777605030995325_5368_collage_1777605030909371.png"
-            ],
-            "timestamp": 1777605036
-        },
         {
             "texto": "📢🔝💯 Nikola Jokić (1 block today) has passed Tayshaun Prince and is now ranked 100th all-time with 87 in playoffs.",
             "foto": [
@@ -1329,16 +1322,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777839416756189_9604_collage_1777839416695209.png"
             ],
             "timestamp": 1777839421
+        },
+        {
+            "texto": "Tobias Harris (1 block today) has passed A.C. Green, Evan Mobley, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 201st all-time with 47 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840265614780_3943_collage_1777840265515943.png"
+            ],
+            "timestamp": 1777840270
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Karl-Anthony Towns (2 blocks today) has passed Herb Williams and is now ranked 13th in Knicks history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1777592378,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Mikal Bridges (1 block today) has passed Kenyon Martin and is now ranked 16th in Knicks history with 18 in playoffs.",
             "foto": [],
@@ -2031,9 +2024,16 @@
             "timestamp": 1777839613,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (1 block today) has passed Isaiah Stewart, Theo Ratliff and Lindsey Hunter and is now ranked 20th in Pistons history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1777840270,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 995,
-    "total_franchise_historicas": 489,
-    "cache_buster": 1777839803
+    "total_notificaciones_historicas": 996,
+    "total_franchise_historicas": 490,
+    "cache_buster": 1777840271
 }
