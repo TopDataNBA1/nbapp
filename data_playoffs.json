@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:21:52",
+    "ultima_actualizacion": "02:23:32",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 122,
+                "Rank": 120,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 10,
-                "Total": 1557,
-                "Diff": "",
-                "Antece": "Jerome Kersey",
-                "Nota": "Mismo total",
+                "Hoy": 13,
+                "Total": 1560,
+                "Diff": "6",
+                "Antece": "Anthony Davis",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -664,9 +664,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1557,
-                "Diff": "173",
+                "Hoy": 13,
+                "Total": 1560,
+                "Diff": "170",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (2 steals today) has passed Blake Griffin and Luol Deng and is now ranked 212th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777597433002579_3741_collage_1777597432932602.png"
-            ],
-            "timestamp": 1777597438
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Paul George (3 three-pointers today) has passed Kobe Bryant and is now ranked 12th all-time with 293 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767612555359_7602_collage_1777767612480383.png"
             ],
             "timestamp": 1777767617
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (13 points today) has passed Adrian Dantley and Jerome Kersey and is now ranked 120th all-time with 1,560 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767806643085_7872_collage_1777767806559111.png"
+            ],
+            "timestamp": 1777767812
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 961,
+    "total_notificaciones_historicas": 962,
     "total_franchise_historicas": 470,
-    "cache_buster": 1777767712
+    "cache_buster": 1777767812
 }
