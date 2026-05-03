@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:31",
+    "ultima_actualizacion": "03:28:18",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 199,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 21,
-                "Total": 1174,
-                "Diff": "2",
+                "Hoy": 23,
+                "Total": 1176,
+                "Diff": "",
                 "Antece": "Derrick McKey",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -161,14 +161,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 102,
+                "Rank": 101,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 368,
-                "Diff": "1",
-                "Antece": "Joe Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 369,
+                "Diff": "",
+                "Antece": "George Hill",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -264,13 +264,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 105,
+                "Rank": 102,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 84,
+                "Hoy": 3,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Zydrunas Ilgauskas",
+                "Antece": "Tayshaun Prince",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -512,9 +512,9 @@
                 "Rank": 14,
                 "Nombre": "Jaylen Brown",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 368,
-                "Diff": "27",
+                "Hoy": 4,
+                "Total": 369,
+                "Diff": "26",
                 "Antece": "Al Horford",
                 "game_status": "playing"
             },
@@ -572,9 +572,9 @@
                 "Rank": 10,
                 "Nombre": "Derrick White",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 77,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 78,
+                "Diff": "0",
                 "Antece": "Robert Williams",
                 "game_status": "playing"
             },
@@ -584,7 +584,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 62,
-                "Diff": "15",
+                "Diff": "16",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -632,9 +632,9 @@
                 "Rank": 14,
                 "Nombre": "Sam Hauser",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 58,
-                "Diff": "7",
+                "Hoy": 3,
+                "Total": 59,
+                "Diff": "6",
                 "Antece": "Antoine Walker",
                 "game_status": "playing"
             },
@@ -793,20 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 220th all time with 90 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600050968056_1390_collage_1777600050871091.png"
-            ],
-            "timestamp": 1777600056
-        },
-        {
-            "texto": "📢HOF🏛️ Mike Conley today surpasses Bill Bridges, Bill Laimbeer, Jamaal Wilkes and Marcus Smart and now ranked 118th all time with 114 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600154359661_3093_collage_1777600154291449.png"
-            ],
-            "timestamp": 1777600158
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (2 rebounds today) has passed Buck Williams and is now ranked 62nd all-time with 942 in playoffs.",
             "foto": [
@@ -1492,6 +1478,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770660253365_8182_collage_1777770660194383.png"
             ],
             "timestamp": 1777770664
+        },
+        {
+            "texto": "Jaylen Brown (4 assists today) has passed Tayshaun Prince and is now ranked 101st all-time with 369 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771687832916_6857_collage_1777771687750211.png"
+            ],
+            "timestamp": 1777771693
+        },
+        {
+            "texto": "Derrick White (3 blocks today) has passed Robert Williams and is now ranked 102nd all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771693590355_9232_collage_1777771693492925.png"
+            ],
+            "timestamp": 1777771698
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 973,
+    "total_notificaciones_historicas": 975,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777771411
+    "cache_buster": 1777771698
 }
