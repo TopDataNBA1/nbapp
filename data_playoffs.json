@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:37:52",
+    "ultima_actualizacion": "02:39:32",
     "tablas": {
         "pts": [
             {
@@ -253,13 +253,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 77,
+                "Rank": 73,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 104,
+                "Hoy": 2,
+                "Total": 106,
                 "Diff": "",
-                "Antece": "Amar'e Stoudemire",
+                "Antece": "Joakim Noah",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -278,11 +278,11 @@
                 "Rank": 139,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "1",
+                "Hoy": 0,
+                "Total": 65,
+                "Diff": "2",
                 "Antece": "Theo Ratliff",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -674,9 +674,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 894,
-                "Diff": "34",
+                "Hoy": 8,
+                "Total": 896,
+                "Diff": "32",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -734,9 +734,9 @@
                 "Rank": 5,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 104,
-                "Diff": "29",
+                "Hoy": 2,
+                "Total": 106,
+                "Diff": "27",
                 "Antece": "Bobby Jones",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (13 points today) has passed Dick Barnett and is now ranked 123rd all-time with 1,541 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599138267911_9484_collage_1777599138172959.png"
-            ],
-            "timestamp": 1777599145
-        },
         {
             "texto": "Joel Embiid (5 rebounds today) has passed Joakim Noah and is now ranked 126th all-time with 660 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777768667327399_2965_collage_1777768667256640.png"
             ],
             "timestamp": 1777768672
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Joel Embiid (2 blocks today) has passed Amar'e Stoudemire and Paul Pierce and is now ranked 73rd all-time with 106 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777768767378959_8939_collage_1777768767295968.png"
+            ],
+            "timestamp": 1777768772
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 965,
+    "total_notificaciones_historicas": 966,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777768672
+    "cache_buster": 1777768772
 }
