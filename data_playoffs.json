@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:06:02",
+    "ultima_actualizacion": "00:09:14",
     "tablas": {
         "pts": [
             {
@@ -16,14 +16,14 @@
         ],
         "trb": [
             {
-                "Rank": 148,
+                "Rank": 147,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 8,
-                "Total": 604,
-                "Diff": "",
-                "Antece": "Karl-Anthony Towns",
-                "Nota": "Mismo total",
+                "Hoy": 9,
+                "Total": 605,
+                "Diff": "3",
+                "Antece": "Richard Jefferson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (5 points today) has passed Danny Ainge and is now ranked 81st all-time with 1,904 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679483769382_4721_collage_1777679483674431.png"
-            ],
-            "timestamp": 1777679488
-        },
         {
             "texto": "Desmond Bane (2 three-pointers today) has passed Dennis Schröder, Kirk Hinrich, Mikal Bridges and Tim Hardaway Jr. and is now ranked 134th all-time with 93 in playoffs.",
             "foto": [
@@ -1329,6 +1322,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777845575619731_3074_collage_1777845575527759.png"
             ],
             "timestamp": 1777845580
+        },
+        {
+            "texto": "Tobias Harris (9 rebounds today) has passed Karl-Anthony Towns and is now ranked 147th all-time with 605 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777846149187291_1500_collage_1777846149095931.png"
+            ],
+            "timestamp": 1777846154
         }
     ],
     "notificaciones_franchise": [
@@ -2033,7 +2033,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1007,
+    "total_notificaciones_historicas": 1008,
     "total_franchise_historicas": 503,
-    "cache_buster": 1777845962
+    "cache_buster": 1777846154
 }
