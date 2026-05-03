@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "22:15:14",
+    "ultima_actualizacion": "22:17:02",
     "tablas": {
         "pts": [
             {
-                "Rank": 188,
+                "Rank": 187,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1210,
-                "Diff": "1",
-                "Antece": "Buck Williams",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 1212,
+                "Diff": "2",
+                "Antece": "Allan Houston",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -134,13 +134,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 132,
+                "Rank": 129,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
-                "Total": 94,
+                "Hoy": 1,
+                "Total": 95,
                 "Diff": "",
-                "Antece": "Brook Lopez",
+                "Antece": "Dennis Scott",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -319,9 +319,9 @@
                 "Rank": 17,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 50,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 51,
+                "Diff": "15",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -469,9 +469,9 @@
                 "Rank": 15,
                 "Nombre": "Desmond Bane",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 22,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 23,
+                "Diff": "0",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 15,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 93,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 94,
+                "Diff": "2",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -630,20 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mike Conley (7 points today) has passed Richard Jefferson and is now ranked 130th all-time with 1,514 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777604828335451_8767_collage_1777604828250490.png"
-            ],
-            "timestamp": 1777604833
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Nikola Jokić (9 assists today) has passed Kareem Abdul-Jabbar and is now ranked 32nd all-time with 768 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777605024886652_7628_collage_1777605024803676.png"
-            ],
-            "timestamp": 1777605030
-        },
         {
             "texto": "Cameron Johnson (3 three-pointers today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
             "foto": [
@@ -1329,16 +1315,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775132903615_8816_collage_1777775132825499.png"
             ],
             "timestamp": 1777775137
+        },
+        {
+            "texto": "Tobias Harris (4 points today) has passed Buck Williams and is now ranked 187th all-time with 1,212 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777839411292829_1418_collage_1777839411183091.png"
+            ],
+            "timestamp": 1777839416
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Brook Lopez, Luguentz Dort and Serge Ibaka and is now ranked 129th all-time with 95 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777839416756189_9604_collage_1777839416695209.png"
+            ],
+            "timestamp": 1777839421
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Mitchell Robinson (1 rebound today) has passed Marcus Camby and is now ranked 12th in Knicks history with 300 in playoffs.",
-            "foto": [],
-            "timestamp": 1777592066,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Brunson (3 steals today) has passed Mark Jackson and is now ranked 13th in Knicks history with 42 in playoffs.",
             "foto": [],
@@ -2031,9 +2024,16 @@
             "timestamp": 1777839314,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Ryan Anderson and Terrence Ross and is now ranked 15th in Magic history with 23 in playoffs.",
+            "foto": [],
+            "timestamp": 1777839421,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 993,
-    "total_franchise_historicas": 487,
-    "cache_buster": 1777839314
+    "total_notificaciones_historicas": 995,
+    "total_franchise_historicas": 488,
+    "cache_buster": 1777839422
 }
