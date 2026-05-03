@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:07:19",
+    "ultima_actualizacion": "02:08:59",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 200,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 9,
-                "Total": 1162,
-                "Diff": "1",
-                "Antece": "Marques Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 11,
+                "Total": 1164,
+                "Diff": "4",
+                "Antece": "Eddie Johnson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -674,9 +674,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 892,
-                "Diff": "36",
+                "Hoy": 6,
+                "Total": 894,
+                "Diff": "34",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jayson Tatum (10 rebounds today) has passed Dolph Schayes and is now ranked 49th all-time with 1,052 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777596924301406_9535_collage_1777596924191444.png"
-            ],
-            "timestamp": 1777596929
-        },
         {
             "texto": "Jaylen Brown (2 assists today) has passed John Wall and is now ranked 104th all-time with 365 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777766462716587_5968_collage_1777766462640605.png"
             ],
             "timestamp": 1777766467
+        },
+        {
+            "texto": "Derrick White (11 points today) has passed Marques Johnson and is now ranked 200th all-time with 1,164 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777766933889002_9174_collage_1777766933788034.png"
+            ],
+            "timestamp": 1777766939
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 956,
+    "total_notificaciones_historicas": 957,
     "total_franchise_historicas": 470,
-    "cache_buster": 1777766839
+    "cache_buster": 1777766939
 }
