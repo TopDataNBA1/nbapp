@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:50:39",
+    "ultima_actualizacion": "03:56:52",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 881,
-                "Diff": "24",
+                "Hoy": 3,
+                "Total": 882,
+                "Diff": "23",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -107,9 +107,9 @@
                 "Rank": 118,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 11,
-                "Total": 676,
-                "Diff": "4",
+                "Hoy": 12,
+                "Total": 677,
+                "Diff": "3",
                 "Antece": "Walt Bellamy",
                 "Nota": "",
                 "game_status": "playing"
@@ -286,13 +286,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 143,
+                "Rank": 141,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 63,
+                "Hoy": 3,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Elton Brand",
+                "Antece": "Bruce Bowen",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -582,9 +582,9 @@
                 "Rank": 11,
                 "Nombre": "Jaylen Brown",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "15",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "14",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -674,9 +674,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 910,
-                "Diff": "18",
+                "Hoy": 24,
+                "Total": 912,
+                "Diff": "16",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -684,9 +684,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 676,
-                "Diff": "134",
+                "Hoy": 12,
+                "Total": 677,
+                "Diff": "133",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (1 three-pointer today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 180th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777601244541589_5839_collage_1777601244480597.png"
-            ],
-            "timestamp": 1777601249
-        },
         {
             "texto": "📢🔝💯 Paul George (4 rebounds today) has passed Paul Millsap and is now ranked 70th all-time with 879 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772662755555_3963_collage_1777772662665584.png"
             ],
             "timestamp": 1777772667
+        },
+        {
+            "texto": "Jaylen Brown (3 blocks today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777773407235222_7495_collage_1777773407157837.png"
+            ],
+            "timestamp": 1777773412
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 981,
+    "total_notificaciones_historicas": 982,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777773039
+    "cache_buster": 1777773412
 }
