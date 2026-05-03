@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "22:39:21",
+    "ultima_actualizacion": "22:42:39",
     "tablas": {
         "pts": [
             {
-                "Rank": 186,
+                "Rank": 184,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 14,
-                "Total": 1222,
-                "Diff": "",
-                "Antece": "Bill Bradley",
-                "Nota": "Mismo total",
+                "Hoy": 19,
+                "Total": 1227,
+                "Diff": "11",
+                "Antece": "Blake Griffin",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -19,9 +19,9 @@
                 "Rank": 149,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 599,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 600,
+                "Diff": "2",
                 "Antece": "P.J. Tucker",
                 "Nota": "",
                 "game_status": "playing"
@@ -123,14 +123,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 112,
+                "Rank": 110,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 104,
-                "Diff": "",
-                "Antece": "Pat Connaughton",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 105,
+                "Diff": "2",
+                "Antece": "Tyrese Haliburton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -239,9 +239,9 @@
                 "Rank": 21,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 170,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 172,
+                "Diff": "5",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 14,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 97,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 98,
+                "Diff": "2",
                 "Antece": "Dave Bing",
                 "game_status": "playing"
             },
@@ -611,9 +611,9 @@
                 "Rank": 15,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 21,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 22,
+                "Diff": "1",
                 "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             },
@@ -630,20 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (8 points today) has passed Trevor Ariza and is now ranked 229th all-time with 1,075 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607501300170_5783_collage_1777607501214421.png"
-            ],
-            "timestamp": 1777607508
-        },
-        {
-            "texto": "Cameron Johnson (5 three-pointers today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 169th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607700074859_5756_collage_1777607700009879.png"
-            ],
-            "timestamp": 1777607704
-        },
         {
             "texto": "Rudy Gobert (10 points today) has passed Alvan Adams and Bob Love and is now ranked 227th all-time with 1,077 in playoffs.",
             "foto": [
@@ -1329,6 +1315,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840660538016_9782_collage_1777840660473037.png"
             ],
             "timestamp": 1777840665
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (19 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 184th all-time with 1,227 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840948906189_4080_collage_1777840948826233.png"
+            ],
+            "timestamp": 1777840954
+        },
+        {
+            "texto": "Tobias Harris (2 three-pointers today) has passed James Jones and Pat Connaughton and is now ranked 110th all-time with 105 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840954262475_3709_collage_1777840954185499.png"
+            ],
+            "timestamp": 1777840959
         }
     ],
     "notificaciones_franchise": [
@@ -2033,7 +2033,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 999,
+    "total_notificaciones_historicas": 1001,
     "total_franchise_historicas": 494,
-    "cache_buster": 1777840761
+    "cache_buster": 1777840959
 }
