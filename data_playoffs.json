@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:08:59",
+    "ultima_actualizacion": "02:10:38",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 200,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 11,
-                "Total": 1164,
-                "Diff": "4",
+                "Hoy": 13,
+                "Total": 1166,
+                "Diff": "2",
                 "Antece": "Eddie Johnson",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -172,14 +172,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 178,
+                "Rank": 177,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 259,
-                "Diff": "",
-                "Antece": "Ben Simmons",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 260,
+                "Diff": "2",
+                "Antece": "Mark Aguirre",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -522,9 +522,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 237,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 238,
+                "Diff": "36",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (2 assists today) has passed John Wall and is now ranked 104th all-time with 365 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777596929852337_7208_collage_1777596929769099.png"
-            ],
-            "timestamp": 1777596935
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jaylen Brown (13 points today) has passed Ray Allen and is now ranked 39th all-time with 2,750 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777766933889002_9174_collage_1777766933788034.png"
             ],
             "timestamp": 1777766939
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (1 assist today) has passed Ben Simmons, Jeff Mullins and Jim Pollard and is now ranked 177th all-time with 260 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767033982048_8884_collage_1777767033916962.png"
+            ],
+            "timestamp": 1777767038
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 957,
+    "total_notificaciones_historicas": 958,
     "total_franchise_historicas": 470,
-    "cache_buster": 1777766939
+    "cache_buster": 1777767038
 }
