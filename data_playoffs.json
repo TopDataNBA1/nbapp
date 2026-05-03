@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:42:48",
+    "ultima_actualizacion": "03:44:27",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 198,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 23,
-                "Total": 1176,
-                "Diff": "",
-                "Antece": "Derrick McKey",
-                "Nota": "Mismo total",
+                "Hoy": 26,
+                "Total": 1179,
+                "Diff": "1",
+                "Antece": "Metta World Peace",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -96,9 +96,9 @@
                 "Rank": 79,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 7,
-                "Total": 809,
-                "Diff": "14",
+                "Hoy": 8,
+                "Total": 810,
+                "Diff": "13",
                 "Antece": "Udonis Haslem",
                 "Nota": "",
                 "game_status": "playing"
@@ -357,9 +357,9 @@
                 "Rank": 31,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 4,
-                "Total": 201,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 202,
+                "Diff": "5",
                 "Antece": "Jae Crowder",
                 "Nota": "",
                 "game_status": "playing"
@@ -492,9 +492,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 809,
-                "Diff": "21",
+                "Hoy": 8,
+                "Total": 810,
+                "Diff": "20",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -612,9 +612,9 @@
                 "Rank": 6,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 195,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 196,
+                "Diff": "4",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Desmond Bane and is now ranked 137th all-time with 92 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777601047553499_3402_collage_1777601047471170.png"
-            ],
-            "timestamp": 1777601052
-        },
         {
             "texto": "Cameron Johnson (1 three-pointer today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 180th all-time with 74 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772562759411_3714_collage_1777772562659418.png"
             ],
             "timestamp": 1777772567
+        },
+        {
+            "texto": "Derrick White (26 points today) has passed Derrick McKey and is now ranked 198th all-time with 1,179 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772662755555_3963_collage_1777772662665584.png"
+            ],
+            "timestamp": 1777772667
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 980,
+    "total_notificaciones_historicas": 981,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777772568
+    "cache_buster": 1777772667
 }
