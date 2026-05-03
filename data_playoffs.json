@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:06:03",
+    "ultima_actualizacion": "23:07:44",
     "tablas": {
         "pts": [
             {
@@ -16,13 +16,13 @@
         ],
         "trb": [
             {
-                "Rank": 149,
+                "Rank": 148,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 6,
-                "Total": 602,
+                "Hoy": 8,
+                "Total": 604,
                 "Diff": "",
-                "Antece": "P.J. Tucker",
+                "Antece": "Karl-Anthony Towns",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -289,9 +289,9 @@
                 "Rank": 23,
                 "Nombre": "Jalen Suggs",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 62,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 64,
+                "Diff": "2",
                 "Antece": "Matt Barnes",
                 "game_status": "playing"
             },
@@ -409,9 +409,9 @@
                 "Rank": 14,
                 "Nombre": "Paolo Banchero",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 12,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 13,
+                "Diff": "1",
                 "Antece": "Bo Outlaw",
                 "game_status": "playing"
             },
@@ -421,7 +421,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 12,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Paolo Banchero",
                 "game_status": "inactive"
             },
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 116th all-time with 102 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677475511507_5503_collage_1777677475400542.png"
-            ],
-            "timestamp": 1777677482
-        },
         {
             "texto": "Tobias Harris (3 rebounds today) has passed Alvan Adams and John Salley and is now ranked 152nd all-time with 589 in playoffs.",
             "foto": [
@@ -1329,16 +1322,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777842358592690_5392_collage_1777842358502529.png"
             ],
             "timestamp": 1777842363
+        },
+        {
+            "texto": "Tobias Harris (8 rebounds today) has passed P.J. Tucker and is now ranked 148th all-time with 604 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777842459470463_2541_collage_1777842459372503.png"
+            ],
+            "timestamp": 1777842464
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Joel Embiid today surpasses Aaron McKie and is now ranked 14th in 76ers history with 62 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777594530,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Paul George (1 three-pointer today) has passed P.J. Tucker and Keith Van Horn and is now ranked 23rd in 76ers history with 15 in playoffs.",
             "foto": [],
@@ -2031,9 +2024,16 @@
             "timestamp": 1777840761,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Paolo Banchero (1 block today) has passed Franz Wagner and is now ranked 14th in Magic history with 13 in playoffs.",
+            "foto": [],
+            "timestamp": 1777842464,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1003,
-    "total_franchise_historicas": 494,
-    "cache_buster": 1777842363
+    "total_notificaciones_historicas": 1004,
+    "total_franchise_historicas": 495,
+    "cache_buster": 1777842464
 }
