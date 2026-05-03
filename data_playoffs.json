@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:56:22",
+    "ultima_actualizacion": "02:58:02",
     "tablas": {
         "pts": [
             {
@@ -96,20 +96,20 @@
                 "Rank": 80,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 805,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 806,
+                "Diff": "1",
                 "Antece": "Jimmy Butler",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
                 "Rank": 118,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 5,
-                "Total": 670,
-                "Diff": "10",
+                "Hoy": 6,
+                "Total": 671,
+                "Diff": "9",
                 "Antece": "Walt Bellamy",
                 "Nota": "",
                 "game_status": "playing"
@@ -365,13 +365,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 109,
+                "Rank": 106,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 107,
+                "Hoy": 1,
+                "Total": 108,
                 "Diff": "",
-                "Antece": "Tyrese Haliburton",
+                "Antece": "Toni Kukoč",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -492,9 +492,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 805,
-                "Diff": "25",
+                "Hoy": 4,
+                "Total": 806,
+                "Diff": "24",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -674,9 +674,9 @@
                 "Rank": 15,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 896,
-                "Diff": "32",
+                "Hoy": 13,
+                "Total": 901,
+                "Diff": "27",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -684,9 +684,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 670,
-                "Diff": "140",
+                "Hoy": 6,
+                "Total": 671,
+                "Diff": "139",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -754,9 +754,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 107,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 108,
+                "Diff": "7",
                 "Antece": "Allen Iverson",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (5 rebounds today) has passed Joakim Noah and is now ranked 126th all-time with 660 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777599145592797_7449_collage_1777599145499809.png"
-            ],
-            "timestamp": 1777599151
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Jaylen Brown (2 three-pointers today) has passed Paul Pierce and is now ranked 15th all-time with 277 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777768767378959_8939_collage_1777768767295968.png"
             ],
             "timestamp": 1777768772
+        },
+        {
+            "texto": "Tyrese Maxey (1 three-pointer today) has passed Jamal Crawford and Tyrese Haliburton and is now ranked 106th all-time with 108 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777769876993928_2616_collage_1777769876920412.png"
+            ],
+            "timestamp": 1777769882
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 966,
+    "total_notificaciones_historicas": 967,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777769782
+    "cache_buster": 1777769882
 }
