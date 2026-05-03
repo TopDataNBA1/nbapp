@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "22:34:24",
+    "ultima_actualizacion": "22:36:04",
     "tablas": {
         "pts": [
             {
                 "Rank": 186,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 7,
-                "Total": 1215,
-                "Diff": "7",
+                "Hoy": 8,
+                "Total": 1216,
+                "Diff": "6",
                 "Antece": "Bill Bradley",
                 "Nota": "",
                 "game_status": "playing"
@@ -134,13 +134,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 129,
+                "Rank": 127,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 1,
-                "Total": 95,
+                "Hoy": 2,
+                "Total": 96,
                 "Diff": "",
-                "Antece": "Dennis Scott",
+                "Antece": "Derek Harper",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -299,9 +299,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 89,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 90,
+                "Diff": "4",
                 "Antece": "Rafer Alston",
                 "game_status": "playing"
             },
@@ -466,13 +466,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Desmond Bane",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 23,
-                "Diff": "0",
-                "Antece": "Tracy McGrady",
+                "Hoy": 2,
+                "Total": 24,
+                "Diff": "3",
+                "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
             {
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Cameron Johnson (4 three-pointers today) has passed Allan Houston, Channing Frye and Shai Gilgeous-Alexander and is now ranked 172nd all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777606643620854_3787_collage_1777606643563585.png"
-            ],
-            "timestamp": 1777606648
-        },
         {
             "texto": "Naz Reid (1 three-pointer today) has passed Devean George, Maxi Kleber, Terrence Ross and Torrey Craig and is now ranked 235th all-time with 60 in playoffs.",
             "foto": [
@@ -1329,16 +1322,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840458591887_2769_collage_1777840458502444.png"
             ],
             "timestamp": 1777840464
+        },
+        {
+            "texto": "Desmond Bane (2 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 127th all-time with 96 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840559786277_3092_collage_1777840559723292.png"
+            ],
+            "timestamp": 1777840564
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Mikal Bridges (1 block today) has passed Kenyon Martin and is now ranked 16th in Knicks history with 18 in playoffs.",
-            "foto": [],
-            "timestamp": 1777592674,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Onyeka Okongwu (1 block today) has passed Antoine Carr and is now ranked 10th in Hawks history with 30 in playoffs.",
             "foto": [],
@@ -2031,9 +2024,16 @@
             "timestamp": 1777840270,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Desmond Bane (2 three-pointers today) has passed Tracy McGrady and is now ranked 14th in Magic history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1777840564,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 997,
-    "total_franchise_historicas": 490,
-    "cache_buster": 1777840464
+    "total_notificaciones_historicas": 998,
+    "total_franchise_historicas": 491,
+    "cache_buster": 1777840564
 }
