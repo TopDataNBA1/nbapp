@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:04",
+    "ultima_actualizacion": "03:39:15",
     "tablas": {
         "pts": [
             {
@@ -175,11 +175,11 @@
                 "Rank": 176,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 262,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 263,
+                "Diff": "",
                 "Antece": "Bill Bradley",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -522,9 +522,9 @@
                 "Rank": 19,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 240,
-                "Diff": "34",
+                "Hoy": 4,
+                "Total": 241,
+                "Diff": "33",
                 "Antece": "Tiny Archibald",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (2 rebounds today) has passed Buck Williams and is now ranked 62nd all-time with 942 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600254981225_9130_collage_1777600254876418.png"
-            ],
-            "timestamp": 1777600260
-        },
         {
             "texto": "📢🔝💯 Jamal Murray (2 assists today) has passed Nate McMillan and is now ranked 62nd all-time with 506 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771693590355_9232_collage_1777771693492925.png"
             ],
             "timestamp": 1777771698
+        },
+        {
+            "texto": "Derrick White (4 assists today) has passed Mark Aguirre and is now ranked 176th all-time with 263 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772350469696_7700_collage_1777772350379731.png"
+            ],
+            "timestamp": 1777772355
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 975,
+    "total_notificaciones_historicas": 976,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777772164
+    "cache_buster": 1777772355
 }
