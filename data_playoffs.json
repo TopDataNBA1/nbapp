@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:45:33",
+    "ultima_actualizacion": "21:47:08",
     "tablas": {
         "pts": [
             {
@@ -115,11 +115,11 @@
                 "Rank": 55,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 164,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 165,
+                "Diff": "1",
                 "Antece": "Michael Porter Jr.",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -528,13 +528,13 @@
         ],
         "DET": [
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 90,
-                "Diff": "0",
-                "Antece": "George Yardley",
+                "Hoy": 1,
+                "Total": 91,
+                "Diff": "5",
+                "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
             {
@@ -551,9 +551,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 20,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 21,
+                "Diff": "0",
                 "Antece": "Mehmet Okur",
                 "game_status": "playing"
             },
@@ -591,9 +591,9 @@
                 "Rank": 25,
                 "Nombre": "Cade Cunningham",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 12,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 13,
+                "Diff": "1",
                 "Antece": "Chauncey Billups",
                 "game_status": "playing"
             },
@@ -621,9 +621,9 @@
                 "Rank": 17,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             }
@@ -1333,13 +1333,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Rui Hachimura (1 three-pointer today) has passed Kentavious Caldwell-Pope and is now ranked 16th in Lakers history with 50 in playoffs.",
-            "foto": [],
-            "timestamp": 1777518943,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "LeBron James (2 rebounds today) has passed Anthony Davis and is now ranked 18th in Lakers history with 541 in playoffs.",
             "foto": [],
             "timestamp": 1777522884,
@@ -2031,9 +2024,16 @@
             "timestamp": 1777837533,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Cade Cunningham (1 assist today) has passed George Yardley and is now ranked 15th in Pistons history with 91 in playoffs.",
+            "foto": [],
+            "timestamp": 1777837628,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 993,
-    "total_franchise_historicas": 477,
-    "cache_buster": 1777837533
+    "total_franchise_historicas": 478,
+    "cache_buster": 1777837628
 }
