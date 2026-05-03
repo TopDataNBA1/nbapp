@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:42:22",
+    "ultima_actualizacion": "21:43:57",
     "tablas": {
         "pts": [
             {
@@ -19,9 +19,9 @@
                 "Rank": 149,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 596,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 597,
+                "Diff": "5",
                 "Antece": "P.J. Tucker",
                 "Nota": "",
                 "game_status": "playing"
@@ -286,13 +286,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Jalen Suggs",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "0",
-                "Antece": "JJ Redick",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "5",
+                "Antece": "Matt Barnes",
                 "game_status": "playing"
             },
             {
@@ -359,9 +359,9 @@
                 "Rank": 18,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 18,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 19,
+                "Diff": "0",
                 "Antece": "Courtney Lee",
                 "game_status": "playing"
             },
@@ -551,9 +551,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
                 "Antece": "Mehmet Okur",
                 "game_status": "playing"
             },
@@ -1333,20 +1333,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jakob Poeltl (9 rebounds today) has passed Jerome Williams and is now ranked 19th in Raptors history with 79 in playoffs.",
-            "foto": [],
-            "timestamp": 1777513861,
-            "team": "TOR",
-            "type": "franchise"
-        },
-        {
-            "texto": "Evan Mobley (3 three-pointers today) has passed James Jones and is now ranked 21st in Cavaliers history with 24 in playoffs.",
-            "foto": [],
-            "timestamp": 1777513861,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "LeBron James (1 steal today) has passed Rick Fox and is now ranked 12th in Lakers history with 81 in playoffs.",
             "foto": [],
             "timestamp": 1777516468,
@@ -2031,9 +2017,23 @@
             "timestamp": 1777775137,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Suggs (1 rebound today) has passed JJ Redick and is now ranked 23rd in Magic history with 61 in playoffs.",
+            "foto": [],
+            "timestamp": 1777837437,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Ausar Thompson (1 block today) has passed Curtis Rowe and Jalen Duren and is now ranked 17th in Pistons history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1777837437,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 993,
-    "total_franchise_historicas": 474,
-    "cache_buster": 1777837342
+    "total_franchise_historicas": 476,
+    "cache_buster": 1777837437
 }
