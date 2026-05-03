@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "22:36:04",
+    "ultima_actualizacion": "22:37:45",
     "tablas": {
         "pts": [
             {
                 "Rank": 186,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 8,
-                "Total": 1216,
-                "Diff": "6",
+                "Hoy": 11,
+                "Total": 1219,
+                "Diff": "3",
                 "Antece": "Bill Bradley",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -123,13 +123,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 115,
+                "Rank": 112,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 103,
+                "Hoy": 1,
+                "Total": 104,
                 "Diff": "",
-                "Antece": "Tayshaun Prince",
+                "Antece": "Pat Connaughton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -206,13 +206,13 @@
     "tablas_teams": {
         "ORL": [
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Paolo Banchero",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 501,
-                "Diff": "1",
-                "Antece": "Dennis Scott",
+                "Hoy": 21,
+                "Total": 503,
+                "Diff": "105",
+                "Antece": "Nick Anderson",
                 "game_status": "playing"
             },
             {
@@ -319,9 +319,9 @@
                 "Rank": 17,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 51,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 52,
+                "Diff": "14",
                 "Antece": "Horace Grant",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 15,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 95,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 96,
+                "Diff": "0",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -608,13 +608,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 20,
-                "Diff": "0",
-                "Antece": "Malik Beasley",
+                "Hoy": 1,
+                "Total": 21,
+                "Diff": "2",
+                "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             },
             {
@@ -624,19 +624,12 @@
                 "Hoy": 1,
                 "Total": 18,
                 "Diff": "2",
-                "Antece": "Tobias Harris",
+                "Antece": "Malik Beasley",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (1 three-pointer today) has passed Devean George, Maxi Kleber, Terrence Ross and Torrey Craig and is now ranked 235th all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777607119903785_9230_collage_1777607119825674.png"
-            ],
-            "timestamp": 1777607124
-        },
         {
             "texto": "Rudy Gobert (8 points today) has passed Trevor Ariza and is now ranked 229th all-time with 1,075 in playoffs.",
             "foto": [
@@ -1329,23 +1322,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840559786277_3092_collage_1777840559723292.png"
             ],
             "timestamp": 1777840564
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 112th all-time with 104 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840660538016_9782_collage_1777840660473037.png"
+            ],
+            "timestamp": 1777840665
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Onyeka Okongwu (1 block today) has passed Antoine Carr and is now ranked 10th in Hawks history with 30 in playoffs.",
-            "foto": [],
-            "timestamp": 1777592967,
-            "team": "ATL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Karl-Anthony Towns (4 rebounds today) has passed John Starks and is now ranked 16th in Knicks history with 270 in playoffs.",
-            "foto": [],
-            "timestamp": 1777593348,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Josh Hart (1 three-pointer today) has passed Charlie Ward and is now ranked 7th in Knicks history with 56 in playoffs.",
             "foto": [],
@@ -2031,9 +2017,23 @@
             "timestamp": 1777840564,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Paolo Banchero (21 points today) has passed Dennis Scott and is now ranked 8th in Magic history with 503 in playoffs.",
+            "foto": [],
+            "timestamp": 1777840665,
+            "team": "ORL",
+            "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (1 three-pointer today) has passed Malik Beasley and is now ranked 15th in Pistons history with 21 in playoffs.",
+            "foto": [],
+            "timestamp": 1777840665,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 998,
-    "total_franchise_historicas": 491,
-    "cache_buster": 1777840564
+    "total_notificaciones_historicas": 999,
+    "total_franchise_historicas": 493,
+    "cache_buster": 1777840665
 }
