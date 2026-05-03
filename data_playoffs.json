@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:41:06",
+    "ultima_actualizacion": "03:42:48",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 79,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 6,
-                "Total": 808,
-                "Diff": "15",
+                "Hoy": 7,
+                "Total": 809,
+                "Diff": "14",
                 "Antece": "Udonis Haslem",
                 "Nota": "",
                 "game_status": "playing"
@@ -286,14 +286,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 144,
+                "Rank": 143,
                 "Nombre": "Jaylen Brown",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "1",
-                "Antece": "Rick Mahorn",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 63,
+                "Diff": "",
+                "Antece": "Elton Brand",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -492,9 +492,9 @@
                 "Rank": 12,
                 "Nombre": "Jaylen Brown",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 808,
-                "Diff": "22",
+                "Hoy": 7,
+                "Total": 809,
+                "Diff": "21",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -582,9 +582,9 @@
                 "Rank": 11,
                 "Nombre": "Jaylen Brown",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 63,
+                "Diff": "15",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -793,13 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (1 three-pointer today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 223rd all-time with 63 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600374664845_5727_collage_1777600374583870.png"
-            ],
-            "timestamp": 1777600379
-        },
         {
             "texto": "Tim Hardaway Jr. (1 three-pointer today) has passed Desmond Bane and is now ranked 137th all-time with 92 in playoffs.",
             "foto": [
@@ -1492,6 +1485,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772461758783_3705_collage_1777772461696766.png"
             ],
             "timestamp": 1777772466
+        },
+        {
+            "texto": "Jaylen Brown (2 blocks today) has passed Terry Cummings and is now ranked 143rd all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772562759411_3714_collage_1777772562659418.png"
+            ],
+            "timestamp": 1777772567
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 979,
+    "total_notificaciones_historicas": 980,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777772466
+    "cache_buster": 1777772568
 }
