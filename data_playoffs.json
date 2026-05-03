@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:04:23",
+    "ultima_actualizacion": "23:06:03",
     "tablas": {
         "pts": [
             {
@@ -19,11 +19,11 @@
                 "Rank": 149,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 600,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 602,
+                "Diff": "",
                 "Antece": "P.J. Tucker",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -86,13 +86,13 @@
         ],
         "stl": [
             {
-                "Rank": 229,
+                "Rank": 221,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 66,
+                "Hoy": 2,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Steve Nash",
+                "Antece": "Patrick Beverley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -259,9 +259,9 @@
                 "Rank": 11,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 145,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 146,
+                "Diff": "0",
                 "Antece": "Marcin Gortat",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 14,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 99,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 98,
+                "Diff": "2",
                 "Antece": "Dave Bing",
                 "game_status": "playing"
             },
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 points today) has passed Paul Arizin and is now ranked 193rd all-time with 1,188 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777677277388722_5747_collage_1777677277268758.png"
-            ],
-            "timestamp": 1777677282
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 116th all-time with 102 in playoffs.",
             "foto": [
@@ -1329,6 +1322,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777841425665474_9645_collage_1777841425572156.png"
             ],
             "timestamp": 1777841431
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson, Shai Gilgeous-Alexander and Steve Nash and is now ranked 221st all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777842358592690_5392_collage_1777842358502529.png"
+            ],
+            "timestamp": 1777842363
         }
     ],
     "notificaciones_franchise": [
@@ -2033,7 +2033,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1002,
+    "total_notificaciones_historicas": 1003,
     "total_franchise_historicas": 494,
-    "cache_buster": 1777842263
+    "cache_buster": 1777842363
 }
