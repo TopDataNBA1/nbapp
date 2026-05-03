@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:09:20",
+    "ultima_actualizacion": "03:11:05",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 118,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 24,
-                "Total": 1571,
-                "Diff": "6",
+                "Hoy": 27,
+                "Total": 1574,
+                "Diff": "3",
                 "Antece": "Don Nelson",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -107,9 +107,9 @@
                 "Rank": 118,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 9,
-                "Total": 674,
-                "Diff": "6",
+                "Hoy": 10,
+                "Total": 675,
+                "Diff": "5",
                 "Antece": "Walt Bellamy",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,14 +264,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 108,
+                "Rank": 105,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 83,
-                "Diff": "",
-                "Antece": "Bill Walton",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 84,
+                "Diff": "1",
+                "Antece": "Zydrunas Ilgauskas",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -572,9 +572,9 @@
                 "Rank": 10,
                 "Nombre": "Derrick White",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 76,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 77,
+                "Diff": "1",
                 "Antece": "Robert Williams",
                 "game_status": "playing"
             },
@@ -584,7 +584,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 62,
-                "Diff": "14",
+                "Diff": "15",
                 "Antece": "Derrick White",
                 "game_status": "playing"
             },
@@ -664,9 +664,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1571,
-                "Diff": "159",
+                "Hoy": 27,
+                "Total": 1574,
+                "Diff": "156",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -684,9 +684,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 674,
-                "Diff": "136",
+                "Hoy": 10,
+                "Total": 675,
+                "Diff": "135",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -793,20 +793,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nikola Jokić today becomes the 170th player to reach 100 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600040827519_5813_collage_1777600040766518.png"
-            ],
-            "timestamp": 1777600045
-        },
-        {
-            "texto": "Nikola Jokić today surpasses Gus Williams, Marc Gasol, Mario Chalmers, Patty Mills and Toni Kukoč and now ranked 170th all time with 100 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777600045786922_4539_collage_1777600045712947.png"
-            ],
-            "timestamp": 1777600050
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 220th all time with 90 games in playoffs",
             "foto": [
@@ -1492,6 +1478,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770365781797_3867_collage_1777770365712818.png"
             ],
             "timestamp": 1777770370
+        },
+        {
+            "texto": "Joel Embiid (27 points today) has passed Paul Millsap and is now ranked 118th all-time with 1,574 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770654326362_4393_collage_1777770654237373.png"
+            ],
+            "timestamp": 1777770660
+        },
+        {
+            "texto": "📢HOF🏛️ Derrick White (2 blocks today) has passed Bill Laimbeer, Bill Walton and P.J. Brown and is now ranked 105th all-time with 84 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770660253365_8182_collage_1777770660194383.png"
+            ],
+            "timestamp": 1777770664
         }
     ],
     "notificaciones_franchise": [
@@ -2196,7 +2196,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 971,
+    "total_notificaciones_historicas": 973,
     "total_franchise_historicas": 472,
-    "cache_buster": 1777770560
+    "cache_buster": 1777770665
 }
