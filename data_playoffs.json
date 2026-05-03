@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:51:38",
+    "ultima_actualizacion": "23:53:18",
     "tablas": {
         "pts": [
             {
@@ -134,14 +134,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 127,
+                "Rank": 124,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 2,
-                "Total": 96,
-                "Diff": "",
-                "Antece": "Derek Harper",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 97,
+                "Diff": "1",
+                "Antece": "Payton Pritchard",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -299,9 +299,9 @@
                 "Rank": 10,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 90,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 91,
+                "Diff": "3",
                 "Antece": "Rafer Alston",
                 "game_status": "playing"
             },
@@ -469,9 +469,9 @@
                 "Rank": 14,
                 "Nombre": "Desmond Bane",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 24,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 25,
+                "Diff": "2",
                 "Antece": "Jalen Suggs",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 14,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 99,
-                "Diff": "1",
+                "Hoy": 10,
+                "Total": 100,
+                "Diff": "0",
                 "Antece": "Dave Bing",
                 "game_status": "playing"
             },
@@ -630,13 +630,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed CJ McCollum and is now ranked 56th all-time with 161 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777678148594543_2797_collage_1777678148509374.png"
-            ],
-            "timestamp": 1777678154
-        },
         {
             "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Terry Porter and is now ranked 61st all-time with 152 in playoffs.",
             "foto": [
@@ -1329,6 +1322,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777842652872692_2319_collage_1777842652780722.png"
             ],
             "timestamp": 1777842658
+        },
+        {
+            "texto": "Desmond Bane (3 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 124th all-time with 97 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777845193605885_4680_collage_1777845193533085.png"
+            ],
+            "timestamp": 1777845198
         }
     ],
     "notificaciones_franchise": [
@@ -2033,7 +2033,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1005,
+    "total_notificaciones_historicas": 1006,
     "total_franchise_historicas": 499,
-    "cache_buster": 1777845098
+    "cache_buster": 1777845198
 }
