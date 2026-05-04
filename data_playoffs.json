@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:03:01",
+    "ultima_actualizacion": "04:04:36",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 14,
-                "Total": 4035,
-                "Diff": "10",
+                "Hoy": 15,
+                "Total": 4036,
+                "Diff": "9",
                 "Antece": "Tony Parker",
                 "Nota": "",
                 "game_status": "playing"
@@ -411,13 +411,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 32,
-                "Diff": "0",
-                "Antece": "Kyrie Irving",
+                "Hoy": 3,
+                "Total": 33,
+                "Diff": "1",
+                "Antece": "Kevin Love",
                 "game_status": "playing"
             },
             {
@@ -1712,13 +1712,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jalen Suggs (1 assist today) has passed Anthony Johnson and is now ranked 18th in Magic history with 42 in playoffs.",
-            "foto": [],
-            "timestamp": 1777677179,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Desmond Bane (1 three-pointer today) has passed Franz Wagner and is now ranked 20th in Magic history with 20 in playoffs.",
             "foto": [],
             "timestamp": 1777677179,
@@ -2410,9 +2403,16 @@
             "timestamp": 1777860086,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (3 blocks today) has passed Kyrie Irving and is now ranked 11th in Cavaliers history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1777860276,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1020,
-    "total_franchise_historicas": 519,
-    "cache_buster": 1777860181
+    "total_franchise_historicas": 520,
+    "cache_buster": 1777860276
 }
