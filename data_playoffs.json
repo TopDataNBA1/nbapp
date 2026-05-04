@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:47",
+    "ultima_actualizacion": "03:09:27",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 73,
+                "Rank": 72,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 10,
-                "Total": 1933,
-                "Diff": "1",
-                "Antece": "Draymond Green",
-                "Nota": "A tiro de 1",
+                "Hoy": 12,
+                "Total": 1935,
+                "Diff": "4",
+                "Antece": "Robert Horry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 828,
-                "Diff": "138",
+                "Hoy": 12,
+                "Total": 830,
+                "Diff": "136",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 212,
-                "Diff": "42",
+                "Hoy": 6,
+                "Total": 213,
+                "Diff": "41",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -828,9 +828,9 @@
                 "Rank": 21,
                 "Nombre": "Scottie Barnes",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 73,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 74,
+                "Diff": "4",
                 "Antece": "Jerome Williams",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (1 block today) has passed George Johnson and is now ranked 80th all-time with 102 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682674260175_2276_collage_1777682674147415.png"
-            ],
-            "timestamp": 1777682679
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (7 rebounds today) has passed Harry Gallatin and is now ranked 151st all-time with 593 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777855373020556_2779_collage_1777855372916800.png"
             ],
             "timestamp": 1777855378
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (12 points today) has passed Draymond Green and is now ranked 72nd all-time with 1,935 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777856962278905_5574_collage_1777856962188134.png"
+            ],
+            "timestamp": 1777856967
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1016,
+    "total_notificaciones_historicas": 1017,
     "total_franchise_historicas": 512,
-    "cache_buster": 1777856867
+    "cache_buster": 1777856967
 }
