@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:06:29",
+    "ultima_actualizacion": "02:08:10",
     "tablas": {
         "pts": [
             {
@@ -14,13 +14,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 75,
+                "Rank": 74,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1926,
+                "Hoy": 5,
+                "Total": 1928,
                 "Diff": "1",
-                "Antece": "Walt Frazier",
+                "Antece": "Gus Williams",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 821,
-                "Diff": "145",
+                "Hoy": 5,
+                "Total": 823,
+                "Diff": "143",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 280,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 281,
+                "Diff": "24",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -334,9 +334,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 144,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 145,
+                "Diff": "8",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (10 points today) has passed Jim McMillian and is now ranked 191st all-time with 1,196 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679883628581_1192_collage_1777679883526596.png"
-            ],
-            "timestamp": 1777679888
-        },
         {
             "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Sam Perkins and is now ranked 61st all-time with 153 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853183260573_5567_collage_1777853183171488.png"
             ],
             "timestamp": 1777853188
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (5 points today) has passed Walt Frazier and is now ranked 74th all-time with 1,928 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853284972344_8760_collage_1777853284871627.png"
+            ],
+            "timestamp": 1777853290
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1010,
+    "total_notificaciones_historicas": 1011,
     "total_franchise_historicas": 507,
-    "cache_buster": 1777853189
+    "cache_buster": 1777853290
 }
