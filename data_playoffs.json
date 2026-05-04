@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:13",
+    "ultima_actualizacion": "02:42:58",
     "tablas": {
         "pts": [
             {
@@ -73,14 +73,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 127,
+                "Rank": 126,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 323,
-                "Diff": "",
-                "Antece": "Andrew Toney",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 324,
+                "Diff": "3",
+                "Antece": "Mark Price",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -344,9 +344,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "2",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Peja Stojaković and is now ranked 55th all-time with 163 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777682380889533_6460_collage_1777682380795583.png"
-            ],
-            "timestamp": 1777682386
-        },
         {
             "texto": "📢🔝💯 James Harden (1 block today) has passed George Johnson and is now ranked 80th all-time with 102 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854438950946_1767_collage_1777854438852272.png"
             ],
             "timestamp": 1777854444
+        },
+        {
+            "texto": "Donovan Mitchell (1 assist today) has passed Andrew Toney and is now ranked 126th all-time with 324 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777855373020556_2779_collage_1777855372916800.png"
+            ],
+            "timestamp": 1777855378
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1015,
+    "total_notificaciones_historicas": 1016,
     "total_franchise_historicas": 511,
-    "cache_buster": 1777855093
+    "cache_buster": 1777855378
 }
