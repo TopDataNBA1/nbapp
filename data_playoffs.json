@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:01:44",
+    "ultima_actualizacion": "02:06:29",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 75,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1923,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 1926,
+                "Diff": "1",
                 "Antece": "Walt Frazier",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -181,9 +181,9 @@
                 "Rank": 28,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 217,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 218,
+                "Diff": "3",
                 "Antece": "Marcus Smart",
                 "Nota": "",
                 "game_status": "playing"
@@ -261,13 +261,13 @@
     "tablas_teams": {
         "CLE": [
             {
-                "Rank": 5,
+                "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 818,
-                "Diff": "0",
-                "Antece": "Mark Price",
+                "Hoy": 3,
+                "Total": 821,
+                "Diff": "145",
+                "Antece": "Kevin Love",
                 "game_status": "playing"
             },
             {
@@ -434,9 +434,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "11",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (8 points today) has passed Rashard Lewis and is now ranked 192nd all-time with 1,194 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777679687226534_2896_collage_1777679687129491.png"
-            ],
-            "timestamp": 1777679692
-        },
         {
             "texto": "Tobias Harris (10 points today) has passed Jim McMillian and is now ranked 191st all-time with 1,196 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777851858142518_9001_collage_1777851858048321.png"
             ],
             "timestamp": 1777851864
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (1 three-pointer today) has passed Jamal Murray and is now ranked 28th all-time with 218 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853183260573_5567_collage_1777853183171488.png"
+            ],
+            "timestamp": 1777853188
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Christian Braun (1 block today) has passed Mike Green and is now ranked 21st in Nuggets history with 22 in playoffs.",
-            "foto": [],
-            "timestamp": 1777600270,
-            "team": "DEN",
-            "type": "franchise"
-        },
         {
             "texto": "Julius Randle today surpasses Rasho Nesterović and is now ranked 14th in Timberwolves history with 21 games in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1777852904,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Donovan Mitchell (3 points today) has passed Mark Price and is now ranked 4th in Cavaliers history with 821 in playoffs.",
+            "foto": [],
+            "timestamp": 1777853188,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1009,
-    "total_franchise_historicas": 506,
-    "cache_buster": 1777852904
+    "total_notificaciones_historicas": 1010,
+    "total_franchise_historicas": 507,
+    "cache_buster": 1777853189
 }
