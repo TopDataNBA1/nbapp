@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:20:23",
+    "ultima_actualizacion": "03:22:04",
     "tablas": {
         "pts": [
             {
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 10,
-                "Total": 4031,
-                "Diff": "14",
+                "Hoy": 12,
+                "Total": 4033,
+                "Diff": "12",
                 "Antece": "Tony Parker",
                 "Nota": "",
                 "game_status": "playing"
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 1167,
-                "Diff": "66",
+                "Hoy": 3,
+                "Total": 1168,
+                "Diff": "65",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -100,9 +100,9 @@
                 "Rank": 8,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 296,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 297,
+                "Diff": "3",
                 "Antece": "300",
                 "Nota": "",
                 "game_status": "playing"
@@ -384,9 +384,9 @@
                 "Rank": 14,
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 29,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 30,
+                "Diff": "0",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -885,13 +885,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Ja'Kobe Walter",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 15,
+                "Hoy": 2,
+                "Total": 16,
                 "Diff": "0",
-                "Antece": "Greivis Vásquez",
+                "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
             {
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (7 rebounds today) has passed Harry Gallatin and is now ranked 151st all-time with 593 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777684473872491_8583_collage_1777684473784513.png"
-            ],
-            "timestamp": 1777684478
-        },
         {
             "texto": "Tobias Harris (8 rebounds today) has passed Jae Crowder and is now ranked 150th all-time with 594 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777856962278905_5574_collage_1777856962188134.png"
             ],
             "timestamp": 1777856967
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (3 steals today) has passed Larry Bird and is now ranked 8th all-time with 297 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777857718868028_9822_collage_1777857718787962.png"
+            ],
+            "timestamp": 1777857724
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Naz Reid (6 points today) has passed Rudy Gobert and is now ranked 6th in Timberwolves history with 413 in playoffs.",
-            "foto": [],
-            "timestamp": 1777602015,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Julius Randle (2 three-pointers today) has passed Anthony Peeler and is now ranked 9th in Timberwolves history with 36 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1777857623,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Ja'Kobe Walter (2 three-pointers today) has passed Greivis Vásquez and is now ranked 20th in Raptors history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1777857724,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1017,
-    "total_franchise_historicas": 514,
-    "cache_buster": 1777857623
+    "total_notificaciones_historicas": 1018,
+    "total_franchise_historicas": 515,
+    "cache_buster": 1777857724
 }
