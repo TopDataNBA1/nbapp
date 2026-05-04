@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:40",
+    "ultima_actualizacion": "02:27:24",
     "tablas": {
         "pts": [
             {
@@ -41,9 +41,9 @@
                 "Rank": 56,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 981,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 982,
+                "Diff": "3",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -97,14 +97,14 @@
         ],
         "stl": [
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 295,
-                "Diff": "1",
-                "Antece": "Larry Bird",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 296,
+                "Diff": "4",
+                "Antece": "300",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -451,13 +451,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 33,
-                "Diff": "0",
-                "Antece": "Delonte West",
+                "Hoy": 2,
+                "Total": 34,
+                "Diff": "7",
+                "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
             {
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (2 three-pointers today) has passed Brent Barry and is now ranked 115th all-time with 103 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777681799930526_6640_collage_1777681799840555.png"
-            ],
-            "timestamp": 1777681805
-        },
         {
             "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Peja Stojaković and is now ranked 55th all-time with 163 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854154792777_3079_collage_1777854154693070.png"
             ],
             "timestamp": 1777854159
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (2 steals today) has passed Maurice Cheeks and is now ranked 8th all-time with 296 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854438950946_1767_collage_1777854438852272.png"
+            ],
+            "timestamp": 1777854444
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Rudy Gobert (2 assists today) has passed Anthony Peeler and is now ranked 14th in Timberwolves history with 57 in playoffs.",
-            "foto": [],
-            "timestamp": 1777600763,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Naz Reid (1 steal today) has passed Wally Szczerbiak and is now ranked 10th in Timberwolves history with 23 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1777853856,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Sam Merrill (2 three-pointers today) has passed Delonte West and is now ranked 15th in Cavaliers history with 34 in playoffs.",
+            "foto": [],
+            "timestamp": 1777854444,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1014,
-    "total_franchise_historicas": 510,
-    "cache_buster": 1777854160
+    "total_notificaciones_historicas": 1015,
+    "total_franchise_historicas": 511,
+    "cache_buster": 1777854444
 }
