@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:20:58",
+    "ultima_actualizacion": "02:22:40",
     "tablas": {
         "pts": [
             {
@@ -143,7 +143,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 199,
+                "Nombre": "Evan Mobley",
+                "Team": "CLE",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "",
+                "Antece": "Deandre Ayton",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 202,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 1,
@@ -152,17 +163,6 @@
                 "Antece": "Shawn Bradley",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 206,
-                "Nombre": "Evan Mobley",
-                "Team": "CLE",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "",
-                "Antece": "A.C. Green",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 282,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 283,
+                "Diff": "22",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -404,9 +404,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "6",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -818,9 +818,9 @@
                 "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 86,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 87,
+                "Diff": "0",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (13 points today) has passed Fred Brown and JJ Redick and is now ranked 189th all-time with 1,199 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777681794305287_6664_collage_1777681794225312.png"
-            ],
-            "timestamp": 1777681799
-        },
         {
             "texto": "Tobias Harris (2 three-pointers today) has passed Brent Barry and is now ranked 115th all-time with 103 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854053712023_2007_collage_1777854053615742.png"
             ],
             "timestamp": 1777854058
+        },
+        {
+            "texto": "Evan Mobley (1 block today) has passed A.C. Green, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 199th all-time with 47 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854154792777_3079_collage_1777854154693070.png"
+            ],
+            "timestamp": 1777854159
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1013,
+    "total_notificaciones_historicas": 1014,
     "total_franchise_historicas": 510,
-    "cache_buster": 1777854058
+    "cache_buster": 1777854160
 }
