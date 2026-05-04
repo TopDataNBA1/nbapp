@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:18",
+    "ultima_actualizacion": "02:20:58",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 74,
+                "Rank": 73,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 1928,
-                "Diff": "1",
-                "Antece": "Gus Williams",
-                "Nota": "A tiro de 1",
+                "Hoy": 7,
+                "Total": 1930,
+                "Diff": "4",
+                "Antece": "Draymond Green",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -41,9 +41,9 @@
                 "Rank": 56,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 980,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 981,
+                "Diff": "4",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 823,
-                "Diff": "143",
+                "Hoy": 7,
+                "Total": 825,
+                "Diff": "141",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -798,9 +798,9 @@
                 "Rank": 18,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 204,
-                "Diff": "15",
+                "Hoy": 10,
+                "Total": 206,
+                "Diff": "13",
                 "Antece": "DeMarre Carroll",
                 "game_status": "playing"
             },
@@ -818,9 +818,9 @@
                 "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 85,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 86,
+                "Diff": "1",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ James Harden (1 steal today) has passed Manu Ginóbili and is now ranked 10th all-time with 293 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777681126645473_4900_collage_1777681126559515.png"
-            ],
-            "timestamp": 1777681132
-        },
         {
             "texto": "Tobias Harris (13 points today) has passed Fred Brown and JJ Redick and is now ranked 189th all-time with 1,199 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853952822311_3077_collage_1777853952753034.png"
             ],
             "timestamp": 1777853958
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (7 points today) has passed Gus Williams and is now ranked 73rd all-time with 1,930 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854053712023_2007_collage_1777854053615742.png"
+            ],
+            "timestamp": 1777854058
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1012,
+    "total_notificaciones_historicas": 1013,
     "total_franchise_historicas": 510,
-    "cache_buster": 1777853958
+    "cache_buster": 1777854058
 }
