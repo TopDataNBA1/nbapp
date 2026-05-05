@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:24",
+    "ultima_actualizacion": "03:47:19",
     "tablas": {
         "pts": [
             {
@@ -83,11 +83,11 @@
                 "Rank": 227,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1077,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 1079,
+                "Diff": "2",
                 "Antece": "Dennis Rodman",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -175,9 +175,9 @@
                 "Rank": 39,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 661,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 662,
+                "Diff": "11",
                 "Antece": "Wilt Chamberlain",
                 "Nota": "",
                 "game_status": "playing"
@@ -273,13 +273,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 203,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 72,
+                "Hoy": 0,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Lamar Odom",
+                "Antece": "Maurice Lucas",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -675,13 +675,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 119,
+                "Rank": 117,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 114,
+                "Hoy": 1,
+                "Total": 115,
                 "Diff": "",
-                "Antece": "Marcus Smart",
+                "Antece": "Jae Crowder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -716,7 +716,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 578,
-                "Diff": "25",
+                "Diff": "35",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -744,9 +744,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 420,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 422,
+                "Diff": "0",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -894,9 +894,9 @@
                 "Rank": 3,
                 "Nombre": "Mike Conley",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 183,
-                "Diff": "53",
+                "Hoy": 1,
+                "Total": 184,
+                "Diff": "52",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -906,7 +906,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 99,
-                "Diff": "84",
+                "Diff": "85",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1234,9 +1234,9 @@
                 "Rank": 6,
                 "Nombre": "Mike Conley",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 41,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 42,
+                "Diff": "0",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1396,9 +1396,9 @@
                 "Rank": 20,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 34,
-                "Diff": "0",
+                "Hoy": 0,
+                "Total": 33,
+                "Diff": "1",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -1408,7 +1408,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 32,
-                "Diff": "2",
+                "Diff": "1",
                 "Antece": "Mikal Bridges",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (2 rebounds today) has passed Tony Parker and Walt Frazier and is now ranked 120th all-time with 667 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777765170856479_2541_collage_1777765170756511.png"
-            ],
-            "timestamp": 1777765177
-        },
         {
             "texto": "Derrick White (1 steal today) has passed Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 201st all-time with 71 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945515918278_6261_collage_1777945515765324.png"
             ],
             "timestamp": 1777945524
+        },
+        {
+            "texto": "Mike Conley today surpasses Detlef Schrempf and Marcus Smart and now ranked 117th all time with 115 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945632183183_5224_collage_1777945632025233.png"
+            ],
+            "timestamp": 1777945639
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1045,
+    "total_notificaciones_historicas": 1046,
     "total_franchise_historicas": 540,
-    "cache_buster": 1777945524
+    "cache_buster": 1777945639
 }
