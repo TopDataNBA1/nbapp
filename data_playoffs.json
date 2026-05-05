@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:04:44",
+    "ultima_actualizacion": "05:07:58",
     "tablas": {
         "pts": [
             {
@@ -93,14 +93,14 @@
         ],
         "trb": [
             {
-                "Rank": 58,
+                "Rank": 59,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 10,
-                "Total": 963,
-                "Diff": "2",
-                "Antece": "Serge Ibaka",
-                "Nota": "",
+                "Hoy": 9,
+                "Total": 962,
+                "Diff": "",
+                "Antece": "Dikembe Mutombo",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -284,13 +284,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 217,
+                "Rank": 215,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 68,
+                "Hoy": 4,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Luol Deng",
+                "Antece": "Rashard Lewis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -804,9 +804,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 411,
-                "Diff": "217",
+                "Hoy": 9,
+                "Total": 410,
+                "Diff": "218",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -994,9 +994,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 35,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 36,
+                "Diff": "1",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (3 blocks today) has passed Robert Williams and is now ranked 102nd all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771693590355_9232_collage_1777771693492925.png"
-            ],
-            "timestamp": 1777771698
-        },
         {
             "texto": "Derrick White (4 assists today) has passed Mark Aguirre and is now ranked 176th all-time with 263 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950279323186_3167_collage_1777950279234214.png"
             ],
             "timestamp": 1777950284
+        },
+        {
+            "texto": "Rudy Gobert (4 steals today) has passed Blake Griffin, Luol Deng and Tobias Harris and is now ranked 215th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950472581172_7475_collage_1777950472518200.png"
+            ],
+            "timestamp": 1777950478
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1074,
+    "total_notificaciones_historicas": 1075,
     "total_franchise_historicas": 545,
-    "cache_buster": 1777950284
+    "cache_buster": 1777950478
 }
