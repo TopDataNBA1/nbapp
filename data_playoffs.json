@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:41:10",
+    "ultima_actualizacion": "03:42:58",
     "tablas": {
         "pts": [
             {
@@ -151,11 +151,11 @@
                 "Rank": 229,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 450,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 451,
+                "Diff": "1",
                 "Antece": "Tyrone Hill",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -197,9 +197,9 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 400,
-                "Diff": "14",
+                "Hoy": 3,
+                "Total": 401,
+                "Diff": "13",
                 "Antece": "Damian Lillard",
                 "Nota": "",
                 "game_status": "playing"
@@ -1296,9 +1296,9 @@
                 "Rank": 19,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 572,
-                "Diff": "8",
+                "Hoy": 15,
+                "Total": 574,
+                "Diff": "6",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -1306,9 +1306,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 450,
-                "Diff": "11",
+                "Hoy": 7,
+                "Total": 451,
+                "Diff": "10",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1346,9 +1346,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 324,
-                "Diff": "68",
+                "Hoy": 3,
+                "Total": 325,
+                "Diff": "67",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 42,
+                "Hoy": 2,
+                "Total": 43,
                 "Diff": "0",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Allan Houston",
                 "game_status": "playing"
             },
             {
@@ -1436,9 +1436,9 @@
                 "Rank": 12,
                 "Nombre": "Josh Hart",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 23,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 24,
+                "Diff": "1",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -1448,7 +1448,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 23,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rui Hachimura (5 three-pointers today) has passed Charles Barkley, Julius Randle, Reggie Bullock and Richard Jefferson and is now ranked 217th all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777693636403245_3465_collage_1777693636336271.png"
-            ],
-            "timestamp": 1777693641
-        },
         {
             "texto": "Deandre Ayton (16 rebounds today) has passed Byron Scott, Gar Heard, Larry Nance, Mark Aguirre and Tom Hawkins and is now ranked 180th all-time with 538 in playoffs.",
             "foto": [
@@ -2386,16 +2379,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944320986198_5234_collage_1777944320896244.png"
             ],
             "timestamp": 1777944327
+        },
+        {
+            "texto": "Josh Hart (7 rebounds today) has passed Roy Hibbert and is now ranked 229th all-time with 451 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945370894005_2093_collage_1777945370672077.png"
+            ],
+            "timestamp": 1777945378
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ausar Thompson (1 block today) has passed Isaiah Stewart, Theo Ratliff, Lindsey Hunter and Tobias Harris and is now ranked 19th in Pistons history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1777681805,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (7 points today) has passed Campy Russell and is now ranked 23rd in Cavaliers history with 287 in playoffs.",
             "foto": [],
@@ -3088,9 +3081,16 @@
             "timestamp": 1777945270,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (2 steals today) has passed Latrell Sprewell and is now ranked 12th in Knicks history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1777945378,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1039,
-    "total_franchise_historicas": 538,
-    "cache_buster": 1777945270
+    "total_notificaciones_historicas": 1040,
+    "total_franchise_historicas": 539,
+    "cache_buster": 1777945378
 }
