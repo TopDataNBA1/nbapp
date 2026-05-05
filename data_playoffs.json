@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:46",
+    "ultima_actualizacion": "03:25:27",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 84,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 24,
-                "Total": 1883,
-                "Diff": "4",
+                "Hoy": 27,
+                "Total": 1886,
+                "Diff": "1",
                 "Antece": "Dolph Schayes",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -489,11 +489,11 @@
                 "Rank": 65,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 148,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 149,
+                "Diff": "",
                 "Antece": "Dirk Nowitzki",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1276,9 +1276,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1439,
-                "Diff": "488",
+                "Hoy": 27,
+                "Total": 1442,
+                "Diff": "485",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1466,9 +1466,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 116,
-                "Diff": "59",
+                "Hoy": 3,
+                "Total": 117,
+                "Diff": "58",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (4 three-pointers today) has passed Austin Reaves, Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 222nd all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777692241269998_5253_collage_1777692241189022.png"
-            ],
-            "timestamp": 1777692246
-        },
         {
             "texto": "📢HOF🏛️ Rui Hachimura (5 three-pointers today) has passed Charles Barkley, Julius Randle, Reggie Bullock and Richard Jefferson and is now ranked 217th all-time with 65 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944124643522_8105_collage_1777944124564971.png"
             ],
             "timestamp": 1777944130
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 three-pointers today) has passed Michael Jordan and is now ranked 65th all-time with 149 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944320986198_5234_collage_1777944320896244.png"
+            ],
+            "timestamp": 1777944327
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1038,
+    "total_notificaciones_historicas": 1039,
     "total_franchise_historicas": 537,
-    "cache_buster": 1777944226
+    "cache_buster": 1777944327
 }
