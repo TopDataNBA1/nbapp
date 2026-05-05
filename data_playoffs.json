@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:58:48",
+    "ultima_actualizacion": "06:00:30",
     "tablas": {
         "pts": [
             {
@@ -407,7 +407,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 228,
+                "Rank": 224,
+                "Nombre": "Anthony Edwards",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "1",
+                "Antece": "Sam Lacey",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 229,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -416,17 +427,6 @@
                 "Antece": "Lonnie Shelton",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 231,
-                "Nombre": "Anthony Edwards",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "1",
-                "Antece": "Roy Tarpley",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 236,
@@ -834,9 +834,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 194,
-                "Diff": "14",
+                "Hoy": 9,
+                "Total": 195,
+                "Diff": "13",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -846,7 +846,7 @@
                 "Stat": "REB",
                 "Hoy": 10,
                 "Total": 142,
-                "Diff": "52",
+                "Diff": "53",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1064,9 +1064,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "3",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1076,7 +1076,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 34,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (34 points today) has passed Adrian Dantley, Anthony Davis, Charles Oakley, Don Nelson, Jerome Kersey and Paul Millsap and is now ranked 116th all-time with 1,581 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775078590865_8649_collage_1777775078512747.png"
-            ],
-            "timestamp": 1777775084
-        },
         {
             "texto": "Derrick White (26 points today) has passed Derrick McKey, Eddie Johnson, Jae Crowder, Kyle Korver, Marques Johnson, Maurice Lucas and Zach Randolph and is now ranked 198th all-time with 1,179 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777953523459685_4550_collage_1777953523368920.png"
             ],
             "timestamp": 1777953528
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (1 block today) has passed Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Mason Plumlee, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 224th all-time with 43 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777953624442853_3022_collage_1777953624350663.png"
+            ],
+            "timestamp": 1777953630
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1082,
+    "total_notificaciones_historicas": 1083,
     "total_franchise_historicas": 549,
-    "cache_buster": 1777953528
+    "cache_buster": 1777953630
 }
