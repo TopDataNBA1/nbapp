@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:49",
+    "ultima_actualizacion": "03:17:02",
     "tablas": {
         "pts": [
             {
@@ -216,13 +216,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 239,
+                "Rank": 238,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 211,
+                "Hoy": 2,
+                "Total": 212,
                 "Diff": "",
-                "Antece": "Fred VanVleet",
+                "Antece": "Chet Walker",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1286,9 +1286,9 @@
                 "Rank": 18,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 575,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 577,
+                "Diff": "12",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -1298,7 +1298,7 @@
                 "Stat": "PTS",
                 "Hoy": 13,
                 "Total": 572,
-                "Diff": "3",
+                "Diff": "5",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -1578,9 +1578,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 211,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 212,
+                "Diff": "0",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (1 block today) has passed A.C. Green, Evan Mobley, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur, Tobias Harris and Truck Robinson and is now ranked 198th all-time with 47 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690338997427_6161_collage_1777690338898624.png"
-            ],
-            "timestamp": 1777690344
-        },
         {
             "texto": "Rui Hachimura (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 230th all-time with 62 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777943525044352_6712_collage_1777943524967377.png"
             ],
             "timestamp": 1777943533
+        },
+        {
+            "texto": "Joel Embiid (2 assists today) has passed Fred VanVleet and Latrell Sprewell and is now ranked 238th all-time with 212 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777943816451628_2270_collage_1777943816376652.png"
+            ],
+            "timestamp": 1777943821
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1033,
+    "total_notificaciones_historicas": 1034,
     "total_franchise_historicas": 536,
-    "cache_buster": 1777943629
+    "cache_buster": 1777943822
 }
