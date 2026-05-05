@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:40:49",
+    "ultima_actualizacion": "04:42:39",
     "tablas": {
         "pts": [
             {
@@ -96,11 +96,11 @@
                 "Rank": 59,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 961,
-                "Diff": "1",
+                "Hoy": 9,
+                "Total": 962,
+                "Diff": "",
                 "Antece": "Dikembe Mutombo",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -284,13 +284,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 222,
+                "Rank": 217,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 67,
+                "Hoy": 3,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Patrick Beverley",
+                "Antece": "Luol Deng",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -804,9 +804,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 409,
-                "Diff": "219",
+                "Hoy": 9,
+                "Total": 410,
+                "Diff": "218",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -994,9 +994,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 34,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 35,
+                "Diff": "2",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tyrese Maxey (2 three-pointers today) has passed Donte DiVincenzo, Joe Ingles, Toni Kukoč and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770365781797_3867_collage_1777770365712818.png"
-            ],
-            "timestamp": 1777770370
-        },
         {
             "texto": "Joel Embiid (27 points today) has passed Paul Millsap and is now ranked 118th all-time with 1,574 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948842422278_2982_collage_1777948842179356.png"
             ],
             "timestamp": 1777948849
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert (3 steals today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 217th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948949802830_3938_collage_1777948949567380.png"
+            ],
+            "timestamp": 1777948958
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1070,
+    "total_notificaciones_historicas": 1071,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777948849
+    "cache_buster": 1777948959
 }
