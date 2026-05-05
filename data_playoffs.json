@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:33:08",
+    "ultima_actualizacion": "05:37:58",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 188,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 7,
-                "Total": 1211,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 1214,
+                "Diff": "",
                 "Antece": "Allan Houston",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -175,9 +175,9 @@
                 "Rank": 39,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 665,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 666,
+                "Diff": "7",
                 "Antece": "Wilt Chamberlain",
                 "Nota": "",
                 "game_status": "playing"
@@ -500,11 +500,11 @@
                 "Rank": 69,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 139,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 140,
+                "Diff": "1",
                 "Antece": "Clyde Drexler",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -704,9 +704,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1211,
-                "Diff": "789",
+                "Hoy": 10,
+                "Total": 1214,
+                "Diff": "786",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -894,9 +894,9 @@
                 "Rank": 3,
                 "Nombre": "Mike Conley",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 187,
-                "Diff": "49",
+                "Hoy": 5,
+                "Total": 188,
+                "Diff": "48",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -906,7 +906,7 @@
                 "Stat": "AST",
                 "Hoy": 2,
                 "Total": 101,
-                "Diff": "86",
+                "Diff": "87",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 139,
-                "Diff": "61",
+                "Hoy": 2,
+                "Total": 140,
+                "Diff": "60",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1687,20 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (4 assists today) has passed Mark Aguirre and is now ranked 176th all-time with 263 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772350469696_7700_collage_1777772350379731.png"
-            ],
-            "timestamp": 1777772355
-        },
-        {
-            "texto": "Joel Embiid (32 points today) has passed Don Nelson and is now ranked 117th all-time with 1,579 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777772450680876_3427_collage_1777772450567912.png"
-            ],
-            "timestamp": 1777772456
-        },
         {
             "texto": "📢🔝💯 Jaylen Brown (6 rebounds today) has passed Jimmy Butler and is now ranked 79th all-time with 808 in playoffs.",
             "foto": [
@@ -2386,6 +2372,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950472581172_7475_collage_1777950472518200.png"
             ],
             "timestamp": 1777950478
+        },
+        {
+            "texto": "Anthony Edwards (10 points today) has passed Buck Williams and is now ranked 188th all-time with 1,214 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952267300368_5970_collage_1777952267185188.png"
+            ],
+            "timestamp": 1777952272
+        },
+        {
+            "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Shane Battier and is now ranked 69th all-time with 140 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952272927715_1292_collage_1777952272824741.png"
+            ],
+            "timestamp": 1777952278
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1075,
+    "total_notificaciones_historicas": 1077,
     "total_franchise_historicas": 546,
-    "cache_buster": 1777951988
+    "cache_buster": 1777952278
 }
