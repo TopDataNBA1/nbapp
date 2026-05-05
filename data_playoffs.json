@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:27",
+    "ultima_actualizacion": "04:40:49",
     "tablas": {
         "pts": [
             {
@@ -607,24 +607,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 212,
+                "Nombre": "Landry Shamet",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 66,
+                "Diff": "",
+                "Antece": "Kerry Kittles",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 216,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
                 "Hoy": 1,
                 "Total": 65,
                 "Diff": "",
                 "Antece": "Grant Williams",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 216,
-                "Nombre": "Landry Shamet",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 65,
-                "Diff": "",
-                "Antece": "Julius Randle",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -724,9 +724,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 446,
-                "Diff": "138",
+                "Hoy": 7,
+                "Total": 448,
+                "Diff": "136",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -734,8 +734,8 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 427,
+                "Hoy": 7,
+                "Total": 429,
                 "Diff": "19",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
@@ -746,7 +746,7 @@
                 "Stat": "PTS",
                 "Hoy": 6,
                 "Total": 426,
-                "Diff": "1",
+                "Diff": "3",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -834,9 +834,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 190,
-                "Diff": "13",
+                "Hoy": 5,
+                "Total": 191,
+                "Diff": "12",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -846,7 +846,7 @@
                 "Stat": "REB",
                 "Hoy": 6,
                 "Total": 138,
-                "Diff": "52",
+                "Diff": "53",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1688,13 +1688,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Payton Pritchard (2 three-pointers today) has passed Mark Jackson and Mike Miller and is now ranked 123rd all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770264719074_9260_collage_1777770264639101.png"
-            ],
-            "timestamp": 1777770269
-        },
-        {
             "texto": "Tyrese Maxey (2 three-pointers today) has passed Donte DiVincenzo, Joe Ingles, Toni Kukoč and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777770365781797_3867_collage_1777770365712818.png"
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948344363428_6435_collage_1777948344188483.png"
             ],
             "timestamp": 1777948352
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley, Rui Hachimura and Voshon Lenard and is now ranked 212th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948842422278_2982_collage_1777948842179356.png"
+            ],
+            "timestamp": 1777948849
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1069,
+    "total_notificaciones_historicas": 1070,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777948647
+    "cache_buster": 1777948849
 }
