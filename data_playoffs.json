@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:18:09",
+    "ultima_actualizacion": "01:19:50",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 71,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 1950,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 1952,
+                "Diff": "15",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,11 +28,11 @@
                 "Rank": 183,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1240,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 1244,
+                "Diff": "",
                 "Antece": "Bob Lanier",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 216,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Luol Deng",
+                "Antece": "Rudy Gobert",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 845,
-                "Diff": "121",
+                "Hoy": 7,
+                "Total": 847,
+                "Diff": "119",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -364,9 +364,9 @@
                 "Rank": 18,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 75,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 76,
+                "Diff": "0",
                 "Antece": "Terrell Brandon",
                 "game_status": "playing"
             },
@@ -486,9 +486,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 380,
-                "Diff": "34",
+                "Hoy": 5,
+                "Total": 382,
+                "Diff": "32",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -496,9 +496,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 103,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 104,
+                "Diff": "24",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -513,13 +513,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 20,
+                "Hoy": 1,
+                "Total": 21,
                 "Diff": "0",
-                "Antece": "Eric Money",
+                "Antece": "Chris Ford",
                 "game_status": "playing"
             },
             {
@@ -605,13 +605,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Derrick White (3 blocks today) has passed Bill Laimbeer, Bill Walton, Ervin Johnson, P.J. Brown, Robert Williams and Thurl Bailey and is now ranked 102nd all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775111496746_3445_collage_1777775111402998.png"
-            ],
-            "timestamp": 1777775116
-        },
         {
             "texto": "Jaylen Brown (3 blocks today) has passed Eddie Jones, Elton Brand, Manu Ginóbili, Marcus Smart, Rick Mahorn and Terry Cummings and is now ranked 141st all-time with 64 in playoffs.",
             "foto": [
@@ -1304,16 +1297,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023082956871_3865_collage_1778023082865370.png"
             ],
             "timestamp": 1778023088
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 216th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023185242043_1017_collage_1778023185164153.png"
+            ],
+            "timestamp": 1778023190
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Scottie Barnes (11 assists today) has passed José Calderón and is now ranked 11th in Raptors history with 68 in playoffs.",
-            "foto": [],
-            "timestamp": 1777685047,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Duncan Robinson (4 three-pointers today) has passed Tim Hardaway Jr. and Terry Mills and is now ranked 17th in Pistons history with 17 in playoffs.",
             "foto": [],
@@ -2006,9 +1999,16 @@
             "timestamp": 1778022981,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed Eric Money and Jason Maxiell and is now ranked 22nd in Pistons history with 21 in playoffs.",
+            "foto": [],
+            "timestamp": 1778023190,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1088,
-    "total_franchise_historicas": 550,
-    "cache_buster": 1778023089
+    "total_notificaciones_historicas": 1089,
+    "total_franchise_historicas": 551,
+    "cache_buster": 1778023190
 }
