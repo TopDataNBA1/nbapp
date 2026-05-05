@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:49",
+    "ultima_actualizacion": "04:13:37",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 83,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 32,
-                "Total": 1891,
-                "Diff": "11",
+                "Hoy": 35,
+                "Total": 1894,
+                "Diff": "8",
                 "Antece": "Danny Ainge",
                 "Nota": "",
                 "game_status": "playing"
@@ -630,9 +630,9 @@
             },
             {
                 "Rank": 231,
-                "Nombre": "Naz Reid",
-                "Team": "MIN",
-                "Hoy": 1,
+                "Nombre": "Miles McBride",
+                "Team": "NYK",
+                "Hoy": 2,
                 "Total": 61,
                 "Diff": "1",
                 "Antece": "Latrell Sprewell",
@@ -640,13 +640,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 237,
-                "Nombre": "Miles McBride",
-                "Team": "NYK",
+                "Rank": 232,
+                "Nombre": "Naz Reid",
+                "Team": "MIN",
                 "Hoy": 1,
-                "Total": 60,
+                "Total": 61,
                 "Diff": "",
-                "Antece": "Lance Stephenson",
+                "Antece": "Miles McBride",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1276,9 +1276,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 32,
-                "Total": 1447,
-                "Diff": "480",
+                "Hoy": 35,
+                "Total": 1450,
+                "Diff": "477",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1336,9 +1336,9 @@
                 "Rank": 23,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 191,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 192,
+                "Diff": "5",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1486,9 +1486,9 @@
                 "Rank": 6,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 60,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 61,
+                "Diff": "6",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1498,7 +1498,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 58,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Bob Dandridge and is now ranked 103rd all-time with 366 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777768277973334_8940_collage_1777768277888359.png"
-            ],
-            "timestamp": 1777768282
-        },
         {
             "texto": "Derrick White (1 block today) has passed Ervin Johnson and Thurl Bailey and is now ranked 108th all-time with 83 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946900447174_7437_collage_1777946900195251.png"
             ],
             "timestamp": 1777946908
+        },
+        {
+            "texto": "Miles McBride (2 three-pointers today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 231st all-time with 61 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777947209089846_2268_collage_1777947208888908.png"
+            ],
+            "timestamp": 1777947217
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1062,
+    "total_notificaciones_historicas": 1063,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777947109
+    "cache_buster": 1777947217
 }
