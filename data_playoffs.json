@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:06:32",
+    "ultima_actualizacion": "04:08:28",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 189,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1204,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 1209,
+                "Diff": "2",
                 "Antece": "Buck Williams",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -497,14 +497,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 70,
+                "Rank": 69,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "1",
-                "Antece": "Shane Battier",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "2",
+                "Antece": "Clyde Drexler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -704,9 +704,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1204,
-                "Diff": "796",
+                "Hoy": 5,
+                "Total": 1209,
+                "Diff": "791",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -834,9 +834,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 188,
-                "Diff": "15",
+                "Hoy": 3,
+                "Total": 189,
+                "Diff": "14",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -846,7 +846,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 133,
-                "Diff": "55",
+                "Diff": "56",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1074,9 +1074,9 @@
                 "Rank": 5,
                 "Nombre": "Naz Reid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 33,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 34,
+                "Diff": "8",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "62",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "61",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (13 points today) has passed Adrian Dantley and Jerome Kersey and is now ranked 120th all-time with 1,560 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777767806643085_7872_collage_1777767806559111.png"
-            ],
-            "timestamp": 1777767812
-        },
         {
             "texto": "📢HOF🏛️ Jaylen Brown (1 assist today) has passed Bob Dandridge and is now ranked 103rd all-time with 366 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946782012849_1565_collage_1777946781834906.png"
             ],
             "timestamp": 1777946791
+        },
+        {
+            "texto": "📢🔝💯 Anthony Edwards (1 three-pointer today) has passed Rashard Lewis and is now ranked 69th all-time with 139 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946900447174_7437_collage_1777946900195251.png"
+            ],
+            "timestamp": 1777946908
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1061,
+    "total_notificaciones_historicas": 1062,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777946792
+    "cache_buster": 1777946908
 }
