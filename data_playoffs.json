@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:16:21",
+    "ultima_actualizacion": "01:18:09",
     "tablas": {
         "pts": [
             {
@@ -143,13 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 200,
+                "Rank": 193,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 47,
+                "Hoy": 1,
+                "Total": 48,
                 "Diff": "",
-                "Antece": "Deandre Ayton",
+                "Antece": "Arvydas Sabonis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -200,13 +200,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 54,
+                "Rank": 52,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 166,
+                "Hoy": 1,
+                "Total": 167,
                 "Diff": "1",
-                "Antece": "Trevor Ariza",
+                "Antece": "Bruce Bowen",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -324,9 +324,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 156,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 157,
+                "Diff": "3",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -336,7 +336,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 151,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -404,9 +404,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "5",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -496,9 +496,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 102,
-                "Diff": "26",
+                "Hoy": 1,
+                "Total": 103,
+                "Diff": "25",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -596,29 +596,15 @@
                 "Rank": 17,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "0",
                 "Antece": "Malik Beasley",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Derrick White (4 assists today) has passed Ben Simmons, Jeff Mullins, Jim Pollard and Mark Aguirre and is now ranked 176th all-time with 263 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775100669064_8384_collage_1777775100590933.png"
-            ],
-            "timestamp": 1777775105
-        },
-        {
-            "texto": "📢🔝💯 Joel Embiid (1 block today) has passed Amar'e Stoudemire and is now ranked 75th all-time with 105 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775105622282_3820_collage_1777775105528533.png"
-            ],
-            "timestamp": 1777775111
-        },
         {
             "texto": "📢HOF🏛️ Derrick White (3 blocks today) has passed Bill Laimbeer, Bill Walton, Ervin Johnson, P.J. Brown, Robert Williams and Thurl Bailey and is now ranked 102nd all-time with 85 in playoffs.",
             "foto": [
@@ -1304,6 +1290,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778022878948290_7056_collage_1778022878859239.png"
             ],
             "timestamp": 1778022884
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Danny Schayes, Deandre Ayton, Jaden McDaniels, Jon Koncak, Shawn Bradley, Tobias Harris, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 193rd all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023076954974_5113_collage_1778023076851822.png"
+            ],
+            "timestamp": 1778023082
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed Michael Porter Jr. and is now ranked 52nd all-time with 167 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023082956871_3865_collage_1778023082865370.png"
+            ],
+            "timestamp": 1778023088
         }
     ],
     "notificaciones_franchise": [
@@ -2008,7 +2008,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1086,
+    "total_notificaciones_historicas": 1088,
     "total_franchise_historicas": 550,
-    "cache_buster": 1778022981
+    "cache_buster": 1778023089
 }
