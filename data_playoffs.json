@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:29:16",
+    "ultima_actualizacion": "02:30:58",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 85,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 1864,
-                "Diff": "12",
+                "Hoy": 9,
+                "Total": 1868,
+                "Diff": "8",
                 "Antece": "Hal Greer",
                 "Nota": "",
                 "game_status": "playing"
@@ -107,9 +107,9 @@
                 "Rank": 231,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 445,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 446,
+                "Diff": "2",
                 "Antece": "Wayne Embry",
                 "Nota": "",
                 "game_status": "playing"
@@ -150,13 +150,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 242,
+                "Rank": 239,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 210,
+                "Hoy": 1,
+                "Total": 211,
                 "Diff": "",
-                "Antece": "Jae Crowder",
+                "Antece": "Fred VanVleet",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -440,9 +440,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 1420,
-                "Diff": "507",
+                "Hoy": 9,
+                "Total": 1424,
+                "Diff": "503",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -470,9 +470,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 445,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 446,
+                "Diff": "15",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -742,9 +742,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 210,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 211,
+                "Diff": "1",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -851,13 +851,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (4 rebounds today) has passed Blake Griffin and is now ranked 188th all-time with 526 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777686992323253_9167_collage_1777686992235283.png"
-            ],
-            "timestamp": 1777686998
-        },
         {
             "texto": "Donovan Mitchell (1 assist today) has passed Marc Gasol and Mario Chalmers and is now ranked 127th all-time with 322 in playoffs.",
             "foto": [
@@ -1550,6 +1543,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777940951242937_1167_collage_1777940951181927.png"
             ],
             "timestamp": 1777940956
+        },
+        {
+            "texto": "Joel Embiid (1 assist today) has passed Don Nelson and Jae Crowder and is now ranked 239th all-time with 211 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777941052504282_7263_collage_1777941052426305.png"
+            ],
+            "timestamp": 1777941058
         }
     ],
     "notificaciones_franchise": [
@@ -2254,7 +2254,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1027,
+    "total_notificaciones_historicas": 1028,
     "total_franchise_historicas": 535,
-    "cache_buster": 1777940956
+    "cache_buster": 1777941058
 }
