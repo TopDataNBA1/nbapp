@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:46:26",
+    "ultima_actualizacion": "01:55:51",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1169,
-                "Diff": "64",
+                "Hoy": 2,
+                "Total": 1170,
+                "Diff": "63",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -203,22 +203,22 @@
                 "Rank": 52,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 167,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 168,
+                "Diff": "",
                 "Antece": "Bruce Bowen",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 60,
+                "Rank": 59,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 156,
-                "Diff": "",
-                "Antece": "Jimmy Butler",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 157,
+                "Diff": "1",
+                "Antece": "Joe Johnson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -294,9 +294,9 @@
                 "Rank": 23,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 294,
-                "Diff": "10",
+                "Hoy": 6,
+                "Total": 297,
+                "Diff": "7",
                 "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
@@ -444,9 +444,9 @@
                 "Rank": 7,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "5",
                 "Antece": "Kyle Korver",
                 "game_status": "playing"
             },
@@ -593,32 +593,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 20,
-                "Diff": "0",
-                "Antece": "Malik Beasley",
+                "Hoy": 2,
+                "Total": 21,
+                "Diff": "2",
+                "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (3 blocks today) has passed Eddie Jones, Elton Brand, Manu Ginóbili, Marcus Smart, Rick Mahorn and Terry Cummings and is now ranked 141st all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775116997149_6370_collage_1777775116918606.png"
-            ],
-            "timestamp": 1777775122
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Derrick White (5 three-pointers today) has passed Al Horford, Michael Finley and Scottie Pippen and is now ranked 31st all-time with 202 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775122419144_1373_collage_1777775122356644.png"
-            ],
-            "timestamp": 1777775127
-        },
         {
             "texto": "Tyrese Maxey (2 three-pointers today) has passed Donte DiVincenzo, Jamal Crawford, Joe Ingles, Toni Kukoč, Tyrese Haliburton and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
             "foto": [
@@ -1304,16 +1290,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023185242043_1017_collage_1778023185164153.png"
             ],
             "timestamp": 1778023190
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed Eric Gordon and Trevor Ariza and is now ranked 52nd all-time with 168 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025340636923_7599_collage_1778025340557940.png"
+            ],
+            "timestamp": 1778025345
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Jimmy Butler and is now ranked 59th all-time with 157 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025346176653_2316_collage_1778025346073879.png"
+            ],
+            "timestamp": 1778025351
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Scottie Barnes (20 points today) has passed Terrence Ross and is now ranked 18th in Raptors history with 191 in playoffs.",
-            "foto": [],
-            "timestamp": 1777685928,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (1 steal today) has passed Mike Sanders and is now ranked 14th in Cavaliers history with 29 in playoffs.",
             "foto": [],
@@ -2006,9 +1999,16 @@
             "timestamp": 1778024786,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Duncan Robinson (2 three-pointers today) has passed Malik Beasley and is now ranked 16th in Pistons history with 21 in playoffs.",
+            "foto": [],
+            "timestamp": 1778025351,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1089,
-    "total_franchise_historicas": 553,
-    "cache_buster": 1778024786
+    "total_notificaciones_historicas": 1091,
+    "total_franchise_historicas": 554,
+    "cache_buster": 1778025351
 }
