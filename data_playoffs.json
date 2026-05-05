@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:12:57",
+    "ultima_actualizacion": "01:14:45",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 184,
+                "Rank": 183,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 1238,
-                "Diff": "",
-                "Antece": "Blake Griffin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1240,
+                "Diff": "4",
+                "Antece": "Bob Lanier",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -41,9 +41,9 @@
                 "Rank": 55,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 985,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 986,
+                "Diff": "8",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -605,20 +605,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (12 rebounds today) has passed Alonzo Mourning, Bill Cartwright, Chris Bosh, Darryl Dawkins, DeAndre Jordan, George Mikan, Tony Parker and Walt Frazier and is now ranked 118th all-time with 677 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775090059824_8450_collage_1777775089966076.png"
-            ],
-            "timestamp": 1777775095
-        },
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (4 assists today) has passed Bob Dandridge and Tayshaun Prince and is now ranked 101st all-time with 369 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775095653558_9854_collage_1777775095575442.png"
-            ],
-            "timestamp": 1777775100
-        },
         {
             "texto": "📢HOF🏛️ Derrick White (4 assists today) has passed Ben Simmons, Jeff Mullins, Jim Pollard and Mark Aguirre and is now ranked 176th all-time with 263 in playoffs.",
             "foto": [
@@ -1304,6 +1290,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778022770961029_2904_collage_1778022770839909.png"
             ],
             "timestamp": 1778022776
+        },
+        {
+            "texto": "Tobias Harris (2 points today) has passed Blake Griffin and is now ranked 183rd all-time with 1,240 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778022872642773_9880_collage_1778022872552006.png"
+            ],
+            "timestamp": 1778022878
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 rebound today) has passed Paul Pierce and is now ranked 55th all-time with 986 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778022878948290_7056_collage_1778022878859239.png"
+            ],
+            "timestamp": 1778022884
         }
     ],
     "notificaciones_franchise": [
@@ -2008,7 +2008,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1084,
+    "total_notificaciones_historicas": 1086,
     "total_franchise_historicas": 549,
-    "cache_buster": 1778022777
+    "cache_buster": 1778022885
 }
