@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:43:34",
+    "ultima_actualizacion": "02:45:14",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 116,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 6,
-                "Total": 1587,
-                "Diff": "5",
+                "Hoy": 8,
+                "Total": 1589,
+                "Diff": "3",
                 "Antece": "George Hill",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -231,13 +231,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
+                "Rank": 153,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 56,
+                "Hoy": 1,
+                "Total": 57,
                 "Diff": "",
-                "Antece": "Metta World Peace",
+                "Antece": "Mike Gminski",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -321,14 +321,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 93,
+                "Rank": 90,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 118,
-                "Diff": "1",
-                "Antece": "Vince Carter",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 119,
+                "Diff": "",
+                "Antece": "Norman Powell",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -460,9 +460,9 @@
                 "Rank": 19,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 561,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 564,
+                "Diff": "8",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -480,9 +480,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 303,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 304,
+                "Diff": "13",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -590,9 +590,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 39,
+                "Diff": "4",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -640,9 +640,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 74,
-                "Diff": "26",
+                "Hoy": 1,
+                "Total": 75,
+                "Diff": "25",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -712,9 +712,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 1587,
-                "Diff": "143",
+                "Hoy": 8,
+                "Total": 1589,
+                "Diff": "141",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -851,13 +851,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Naz Reid, Robert Covington and Victor Oladipo and is now ranked 232nd all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777687765336949_1028_collage_1777687765250994.png"
-            ],
-            "timestamp": 1777687770
-        },
         {
             "texto": "Deandre Ayton (6 rebounds today) has passed Jeff Hornacek and is now ranked 186th all-time with 528 in playoffs.",
             "foto": [
@@ -1550,6 +1543,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777941248937157_3415_collage_1777941248852454.png"
             ],
             "timestamp": 1777941254
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777941909477206_4483_collage_1777941909403229.png"
+            ],
+            "timestamp": 1777941914
         }
     ],
     "notificaciones_franchise": [
@@ -2254,7 +2254,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1029,
+    "total_notificaciones_historicas": 1030,
     "total_franchise_historicas": 535,
-    "cache_buster": 1777941814
+    "cache_buster": 1777941914
 }
