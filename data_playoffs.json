@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:24:05",
+    "ultima_actualizacion": "04:30:36",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 130,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1514,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 1517,
+                "Diff": "2",
                 "Antece": "Shawn Marion",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -475,13 +475,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 48,
+                "Rank": 47,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 174,
+                "Hoy": 1,
+                "Total": 175,
                 "Diff": "",
-                "Antece": "Draymond Green",
+                "Antece": "Kevin Love",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -754,9 +754,9 @@
                 "Rank": 10,
                 "Nombre": "Mike Conley",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 343,
-                "Diff": "14",
+                "Hoy": 3,
+                "Total": 346,
+                "Diff": "11",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -954,9 +954,9 @@
                 "Rank": 16,
                 "Nombre": "Naz Reid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 53,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 54,
+                "Diff": "2",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -1124,9 +1124,9 @@
                 "Rank": 2,
                 "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "36",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1136,7 +1136,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 61,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tyrese Maxey (1 three-pointer today) has passed Jamal Crawford and Tyrese Haliburton and is now ranked 106th all-time with 108 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777769876993928_2616_collage_1777769876920412.png"
-            ],
-            "timestamp": 1777769882
-        },
         {
             "texto": "Joel Embiid (21 points today) has passed Anthony Davis and is now ranked 119th all-time with 1,568 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777947837042718_3439_collage_1777947836734590.png"
             ],
             "timestamp": 1777947845
+        },
+        {
+            "texto": "📢🔝💯 Mike Conley (1 three-pointer today) has passed Draymond Green and is now ranked 47th all-time with 175 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948227906842_8412_collage_1777948227538451.png"
+            ],
+            "timestamp": 1777948236
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1066,
+    "total_notificaciones_historicas": 1067,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777947845
+    "cache_buster": 1777948236
 }
