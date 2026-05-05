@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:45",
+    "ultima_actualizacion": "01:16:21",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 71,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1948,
-                "Diff": "19",
+                "Hoy": 5,
+                "Total": 1950,
+                "Diff": "17",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -41,9 +41,9 @@
                 "Rank": 55,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 986,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 987,
+                "Diff": "7",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 843,
-                "Diff": "123",
+                "Hoy": 5,
+                "Total": 845,
+                "Diff": "121",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -483,13 +483,13 @@
         ],
         "DET": [
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 377,
-                "Diff": "2",
-                "Antece": "Walter Dukes",
+                "Hoy": 3,
+                "Total": 380,
+                "Diff": "34",
+                "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
             {
@@ -576,9 +576,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 26,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 27,
+                "Diff": "2",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -588,7 +588,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 25,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -1308,13 +1308,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jalen Suggs (1 steal today) has passed Brian Shaw and is now ranked 18th in Magic history with 18 in playoffs.",
-            "foto": [],
-            "timestamp": 1777684189,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Scottie Barnes (11 assists today) has passed José Calderón and is now ranked 11th in Raptors history with 68 in playoffs.",
             "foto": [],
             "timestamp": 1777685047,
@@ -2006,9 +1999,16 @@
             "timestamp": 1777953333,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (3 points today) has passed Walter Dukes and is now ranked 21st in Pistons history with 380 in playoffs.",
+            "foto": [],
+            "timestamp": 1778022981,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1086,
-    "total_franchise_historicas": 549,
-    "cache_buster": 1778022885
+    "total_franchise_historicas": 550,
+    "cache_buster": 1778022981
 }
