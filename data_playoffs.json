@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:35:24",
+    "ultima_actualizacion": "01:36:59",
     "tablas": {
         "pts": [
             {
@@ -214,11 +214,11 @@
                 "Rank": 60,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 155,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 156,
+                "Diff": "",
                 "Antece": "Jimmy Butler",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -294,9 +294,9 @@
                 "Rank": 23,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 291,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 294,
+                "Diff": "10",
                 "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
@@ -361,13 +361,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 76,
-                "Diff": "0",
-                "Antece": "Terrell Brandon",
+                "Hoy": 2,
+                "Total": 77,
+                "Diff": "3",
+                "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
             {
@@ -444,9 +444,9 @@
                 "Rank": 7,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 65,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 66,
+                "Diff": "6",
                 "Antece": "Kyle Korver",
                 "game_status": "playing"
             },
@@ -486,9 +486,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 385,
-                "Diff": "29",
+                "Hoy": 9,
+                "Total": 386,
+                "Diff": "28",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -1308,13 +1308,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Duncan Robinson (4 three-pointers today) has passed Tim Hardaway Jr. and Terry Mills and is now ranked 17th in Pistons history with 17 in playoffs.",
-            "foto": [],
-            "timestamp": 1777685335,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 📢HOF🏛️ Paolo Banchero (17 points today) has passed Tracy McGrady and is now ranked 9th in Magic history with 482 in playoffs.",
             "foto": [],
             "timestamp": 1777685529,
@@ -2006,9 +1999,16 @@
             "timestamp": 1778023190,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 assists today) has passed Terrell Brandon and is now ranked 17th in Cavaliers history with 77 in playoffs.",
+            "foto": [],
+            "timestamp": 1778024219,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1089,
-    "total_franchise_historicas": 551,
-    "cache_buster": 1778024124
+    "total_franchise_historicas": 552,
+    "cache_buster": 1778024219
 }
