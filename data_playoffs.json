@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:57:08",
+    "ultima_actualizacion": "05:58:48",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 128,
+                "Rank": 127,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 9,
-                "Total": 1523,
-                "Diff": "2",
-                "Antece": "Michael Finley",
-                "Nota": "A tiro de 2",
+                "Hoy": 12,
+                "Total": 1526,
+                "Diff": "10",
+                "Antece": "Dave DeBusschere",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -475,14 +475,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 177,
-                "Diff": "1",
-                "Antece": "Steve Nash",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 178,
+                "Diff": "3",
+                "Antece": "Dan Majerle",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -754,9 +754,9 @@
                 "Rank": 10,
                 "Nombre": "Mike Conley",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 352,
-                "Diff": "5",
+                "Hoy": 12,
+                "Total": 355,
+                "Diff": "2",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -824,9 +824,9 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 207,
-                "Diff": "102",
+                "Hoy": 5,
+                "Total": 208,
+                "Diff": "101",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -836,7 +836,7 @@
                 "Stat": "REB",
                 "Hoy": 8,
                 "Total": 194,
-                "Diff": "13",
+                "Diff": "14",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -944,9 +944,9 @@
                 "Rank": 13,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 63,
+                "Diff": "1",
                 "Antece": "Kyle Anderson",
                 "game_status": "playing"
             },
@@ -1124,9 +1124,9 @@
                 "Rank": 2,
                 "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 66,
-                "Diff": "34",
+                "Hoy": 4,
+                "Total": 67,
+                "Diff": "33",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1136,7 +1136,7 @@
                 "Stat": "3PM",
                 "Hoy": 2,
                 "Total": 62,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (3 blocks today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777773407235222_7495_collage_1777773407157837.png"
-            ],
-            "timestamp": 1777773412
-        },
         {
             "texto": "📢HOF🏛️ Joel Embiid (34 points today) has passed Adrian Dantley, Anthony Davis, Charles Oakley, Don Nelson, Jerome Kersey and Paul Millsap and is now ranked 116th all-time with 1,581 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952860547319_5096_collage_1777952860463346.png"
             ],
             "timestamp": 1777952866
+        },
+        {
+            "texto": "Mike Conley (12 points today) has passed Michael Finley and is now ranked 127th all-time with 1,526 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777953523459685_4550_collage_1777953523368920.png"
+            ],
+            "timestamp": 1777953528
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1081,
+    "total_notificaciones_historicas": 1082,
     "total_franchise_historicas": 549,
-    "cache_buster": 1777953428
+    "cache_buster": 1777953528
 }
