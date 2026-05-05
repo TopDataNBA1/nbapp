@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:55:27",
+    "ultima_actualizacion": "03:57:16",
     "tablas": {
         "pts": [
             {
@@ -295,7 +295,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 231,
+                "Rank": 228,
+                "Nombre": "Rudy Gobert",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 66,
+                "Diff": "",
+                "Antece": "Kyle Anderson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 232,
                 "Nombre": "Donte DiVincenzo",
                 "Team": "MIN",
                 "Hoy": 0,
@@ -304,17 +315,6 @@
                 "Antece": "Andrei Kirilenko",
                 "Nota": "Mismo total",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 236,
-                "Nombre": "Rudy Gobert",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 65,
-                "Diff": "",
-                "Antece": "Kevin McHale",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "blk": [
@@ -991,13 +991,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 6,
+                "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 32,
-                "Diff": "0",
-                "Antece": "Anthony Peeler",
+                "Hoy": 1,
+                "Total": 33,
+                "Diff": "4",
+                "Antece": "Mike Conley",
                 "game_status": "playing"
             },
             {
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (4 rebounds today) has passed Bill Cartwright and DeAndre Jordan and is now ranked 118th all-time with 669 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777766462716587_5968_collage_1777766462640605.png"
-            ],
-            "timestamp": 1777766467
-        },
         {
             "texto": "Derrick White (11 points today) has passed Marques Johnson and is now ranked 200th all-time with 1,164 in playoffs.",
             "foto": [
@@ -2386,16 +2379,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946118681936_9289_collage_1777946118449009.png"
             ],
             "timestamp": 1777946126
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 228th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946227511506_2506_collage_1777946227287577.png"
+            ],
+            "timestamp": 1777946235
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Duncan Robinson (3 three-pointers today) has passed Vinnie Johnson and is now ranked 19th in Pistons history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1777682386,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Paolo Banchero (1 steal today) has passed Courtney Lee and is now ranked 16th in Magic history with 20 in playoffs.",
             "foto": [],
@@ -3088,9 +3081,16 @@
             "timestamp": 1777945897,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Rudy Gobert (1 steal today) has passed Anthony Peeler and is now ranked 5th in Timberwolves history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1777946236,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1055,
-    "total_franchise_historicas": 542,
-    "cache_buster": 1777946127
+    "total_notificaciones_historicas": 1056,
+    "total_franchise_historicas": 543,
+    "cache_buster": 1777946236
 }
