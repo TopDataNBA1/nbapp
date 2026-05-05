@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:03:03",
+    "ultima_actualizacion": "05:04:44",
     "tablas": {
         "pts": [
             {
@@ -93,14 +93,14 @@
         ],
         "trb": [
             {
-                "Rank": 59,
+                "Rank": 58,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 9,
-                "Total": 962,
-                "Diff": "",
-                "Antece": "Dikembe Mutombo",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 963,
+                "Diff": "2",
+                "Antece": "Serge Ibaka",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -714,9 +714,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 584,
-                "Diff": "36",
+                "Hoy": 8,
+                "Total": 586,
+                "Diff": "34",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -726,7 +726,7 @@
                 "Stat": "PTS",
                 "Hoy": 11,
                 "Total": 452,
-                "Diff": "132",
+                "Diff": "134",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -804,9 +804,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 410,
-                "Diff": "218",
+                "Hoy": 10,
+                "Total": 411,
+                "Diff": "217",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -922,22 +922,22 @@
             },
             {
                 "Rank": 11,
-                "Nombre": "Kyle Anderson",
+                "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 65,
+                "Diff": "1",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
             {
                 "Rank": 12,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 64,
-                "Diff": "0",
-                "Antece": "Kyle Anderson",
+                "Diff": "1",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1688,13 +1688,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jaylen Brown (4 assists today) has passed Tayshaun Prince and is now ranked 101st all-time with 369 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771687832916_6857_collage_1777771687750211.png"
-            ],
-            "timestamp": 1777771693
-        },
-        {
             "texto": "Derrick White (3 blocks today) has passed Robert Williams and is now ranked 102nd all-time with 85 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777771693590355_9232_collage_1777771693492925.png"
@@ -2386,16 +2379,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950178131365_1737_collage_1777950178025416.png"
             ],
             "timestamp": 1777950183
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (10 rebounds today) has passed Dikembe Mutombo and is now ranked 58th all-time with 963 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950279323186_3167_collage_1777950279234214.png"
+            ],
+            "timestamp": 1777950284
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Duren (1 block today) has passed Curtis Rowe and is now ranked 17th in Pistons history with 20 in playoffs.",
-            "foto": [],
-            "timestamp": 1777682482,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Scottie Barnes (2 blocks today) has passed Alvin Williams, Delon Wright, Jakob Poeltl and Chris Boucher and is now ranked 19th in Raptors history with 11 in playoffs.",
             "foto": [],
@@ -3088,9 +3081,16 @@
             "timestamp": 1777946672,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Rudy Gobert (2 assists today) has passed Kyle Anderson and is now ranked 11th in Timberwolves history with 65 in playoffs.",
+            "foto": [],
+            "timestamp": 1777950284,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1073,
-    "total_franchise_historicas": 544,
-    "cache_buster": 1777950183
+    "total_notificaciones_historicas": 1074,
+    "total_franchise_historicas": 545,
+    "cache_buster": 1777950284
 }
