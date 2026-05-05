@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:22:17",
+    "ultima_actualizacion": "04:24:05",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 59,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 7,
-                "Total": 960,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 959,
+                "Diff": "3",
                 "Antece": "Dikembe Mutombo",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,24 +284,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 227,
+                "Rank": 222,
+                "Nombre": "Rudy Gobert",
+                "Team": "MIN",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "",
+                "Antece": "Patrick Beverley",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 228,
                 "Nombre": "Kyle Anderson",
                 "Team": "MIN",
                 "Hoy": 0,
                 "Total": 66,
                 "Diff": "",
                 "Antece": "Josh Howard",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 228,
-                "Nombre": "Rudy Gobert",
-                "Team": "MIN",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "",
-                "Antece": "Kyle Anderson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -804,9 +804,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 408,
-                "Diff": "220",
+                "Hoy": 6,
+                "Total": 407,
+                "Diff": "221",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -814,9 +814,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 308,
-                "Diff": "25",
+                "Hoy": 3,
+                "Total": 309,
+                "Diff": "24",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -826,7 +826,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 203,
-                "Diff": "105",
+                "Diff": "106",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -994,9 +994,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 33,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 34,
+                "Diff": "3",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1687,13 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Joel Embiid (2 blocks today) has passed Amar'e Stoudemire and Paul Pierce and is now ranked 73rd all-time with 106 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777768767378959_8939_collage_1777768767295968.png"
-            ],
-            "timestamp": 1777768772
-        },
         {
             "texto": "Tyrese Maxey (1 three-pointer today) has passed Jamal Crawford and Tyrese Haliburton and is now ranked 106th all-time with 108 in playoffs.",
             "foto": [
@@ -2386,6 +2379,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777947328542257_9519_collage_1777947328406303.png"
             ],
             "timestamp": 1777947336
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert (2 steals today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson, Shai Gilgeous-Alexander and Steve Nash and is now ranked 222nd all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777947837042718_3439_collage_1777947836734590.png"
+            ],
+            "timestamp": 1777947845
         }
     ],
     "notificaciones_franchise": [
@@ -3090,7 +3090,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1065,
+    "total_notificaciones_historicas": 1066,
     "total_franchise_historicas": 544,
-    "cache_buster": 1777947737
+    "cache_buster": 1777947845
 }
