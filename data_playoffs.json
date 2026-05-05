@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:11:15",
+    "ultima_actualizacion": "01:12:57",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 71,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1945,
-                "Diff": "22",
+                "Hoy": 3,
+                "Total": 1948,
+                "Diff": "19",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1168,
-                "Diff": "65",
+                "Hoy": 1,
+                "Total": 1169,
+                "Diff": "64",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,11 +192,11 @@
                 "Rank": 28,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 219,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 220,
+                "Diff": "1",
                 "Antece": "Marcus Smart",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -246,14 +246,14 @@
         ],
         "g": [
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 180,
-                "Diff": "",
-                "Antece": "Dennis Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 181,
+                "Diff": "1",
+                "Antece": "John Stockton",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ]
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 840,
-                "Diff": "126",
+                "Hoy": 3,
+                "Total": 843,
+                "Diff": "123",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 287,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 288,
+                "Diff": "17",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -434,9 +434,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 90,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 91,
+                "Diff": "9",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -605,13 +605,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Derrick White (26 points today) has passed Derrick McKey, Eddie Johnson, Jae Crowder, Kyle Korver, Marques Johnson, Maurice Lucas and Zach Randolph and is now ranked 198th all-time with 1,179 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775084372099_7238_collage_1777775084278339.png"
-            ],
-            "timestamp": 1777775089
-        },
         {
             "texto": "📢HOF🏛️ Joel Embiid (12 rebounds today) has passed Alonzo Mourning, Bill Cartwright, Chris Bosh, Darryl Dawkins, DeAndre Jordan, George Mikan, Tony Parker and Walt Frazier and is now ranked 118th all-time with 677 in playoffs.",
             "foto": [
@@ -1304,6 +1297,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777953624442853_3022_collage_1777953624350663.png"
             ],
             "timestamp": 1777953630
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses Dennis Johnson and now ranked 18th all time with 181 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778022770961029_2904_collage_1778022770839909.png"
+            ],
+            "timestamp": 1778022776
         }
     ],
     "notificaciones_franchise": [
@@ -2008,7 +2008,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1083,
+    "total_notificaciones_historicas": 1084,
     "total_franchise_historicas": 549,
-    "cache_buster": 1778022675
+    "cache_buster": 1778022777
 }
