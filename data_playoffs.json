@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:37",
+    "ultima_actualizacion": "03:20:22",
     "tablas": {
         "pts": [
             {
@@ -148,13 +148,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 230,
+                "Rank": 229,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 448,
+                "Hoy": 6,
+                "Total": 450,
                 "Diff": "2",
-                "Antece": "Roy Hibbert",
+                "Antece": "Tyrone Hill",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -552,14 +552,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 137,
+                "Rank": 135,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 92,
-                "Diff": "",
-                "Antece": "Kirk Hinrich",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 93,
+                "Diff": "1",
+                "Antece": "Serge Ibaka",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1306,9 +1306,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 448,
-                "Diff": "13",
+                "Hoy": 6,
+                "Total": 450,
+                "Diff": "11",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1356,9 +1356,9 @@
                 "Rank": 13,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 193,
-                "Diff": "10",
+                "Hoy": 5,
+                "Total": 194,
+                "Diff": "9",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1516,9 +1516,9 @@
                 "Rank": 13,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "1",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1555,13 +1555,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 928,
-                "Diff": "0",
-                "Antece": "Red Kerr",
+                "Hoy": 11,
+                "Total": 929,
+                "Diff": "6",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -1687,20 +1687,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 230th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690344587496_6303_collage_1777690344510521.png"
-            ],
-            "timestamp": 1777690349
-        },
-        {
-            "texto": "Marcus Smart (2 blocks today) has passed Derrick Coleman and Erick Dampier and is now ranked 148th all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777690446666364_3932_collage_1777690446592025.png"
-            ],
-            "timestamp": 1777690451
-        },
         {
             "texto": "Rui Hachimura (3 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 226th all-time with 63 in playoffs.",
             "foto": [
@@ -2386,16 +2372,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777943816451628_2270_collage_1777943816376652.png"
             ],
             "timestamp": 1777943821
+        },
+        {
+            "texto": "Josh Hart (6 rebounds today) has passed Wayne Embry and is now ranked 229th all-time with 450 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944012341687_7246_collage_1777944012253715.png"
+            ],
+            "timestamp": 1777944017
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Schröder, Kirk Hinrich and Tim Hardaway Jr. and is now ranked 135th all-time with 93 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944017544267_1711_collage_1777944017484286.png"
+            ],
+            "timestamp": 1777944022
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 three-pointer today) has passed Larry Hughes and is now ranked 20th in Cavaliers history with 25 in playoffs.",
-            "foto": [],
-            "timestamp": 1777681413,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Ausar Thompson (1 steal today) has passed Eric Money and Jason Maxiell and is now ranked 21st in Pistons history with 21 in playoffs.",
             "foto": [],
@@ -3088,9 +3081,16 @@
             "timestamp": 1777943629,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Tyrese Maxey (11 points today) has passed Red Kerr and is now ranked 14th in 76ers history with 929 in playoffs.",
+            "foto": [],
+            "timestamp": 1777944022,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1034,
-    "total_franchise_historicas": 536,
-    "cache_buster": 1777943917
+    "total_notificaciones_historicas": 1036,
+    "total_franchise_historicas": 537,
+    "cache_buster": 1777944022
 }
