@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:50:41",
+    "ultima_actualizacion": "04:52:21",
     "tablas": {
         "pts": [
             {
@@ -140,11 +140,11 @@
                 "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 496,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 495,
+                "Diff": "2",
                 "Antece": "Andrew Bynum",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -251,14 +251,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 52,
+                "Rank": 51,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 163,
-                "Diff": "1",
-                "Antece": "Ray Allen",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 164,
+                "Diff": "",
+                "Antece": "Dan Majerle",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 210,
+                "Rank": 207,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 67,
+                "Hoy": 3,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Eddie Johnson",
+                "Antece": "Rajon Rondo",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1052,9 +1052,9 @@
                 "Rank": 12,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 58,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 59,
+                "Diff": "0",
                 "Antece": "Metta World Peace",
                 "game_status": "playing"
             }
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Avery Johnson, Cliff Hagan, Deron Williams, Derrick White and Steve Smith and now ranked 217th all time with 91 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945515918278_6261_collage_1777945515765324.png"
-            ],
-            "timestamp": 1777945524
-        },
         {
             "texto": "Mike Conley today surpasses Detlef Schrempf and Marcus Smart and now ranked 117th all time with 115 games in playoffs",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778035551297863_7407_collage_1778035551202892.png"
             ],
             "timestamp": 1778035556
+        },
+        {
+            "texto": "📢HOF🏛️ Rui Hachimura (3 three-pointers today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 207th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778035936743037_9325_collage_1778035936681057.png"
+            ],
+            "timestamp": 1778035941
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1144,
+    "total_notificaciones_historicas": 1145,
     "total_franchise_historicas": 569,
-    "cache_buster": 1778035841
+    "cache_buster": 1778035941
 }
