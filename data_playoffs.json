@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:56:12",
+    "ultima_actualizacion": "02:57:52",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 173,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 1323,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 1324,
+                "Diff": "",
                 "Antece": "Mike Bibby",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -118,11 +118,11 @@
                 "Rank": 178,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 540,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 541,
+                "Diff": "",
                 "Antece": "Danny Green",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -668,9 +668,9 @@
                 "Rank": 22,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 305,
-                "Diff": "13",
+                "Hoy": 16,
+                "Total": 307,
+                "Diff": "11",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -1064,9 +1064,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1241,
-                "Diff": "145",
+                "Hoy": 3,
+                "Total": 1242,
+                "Diff": "144",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder (1 assist today) has passed Andre Miller and David Robinson and is now ranked 160th all-time with 281 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853952822311_3077_collage_1777853952753034.png"
-            ],
-            "timestamp": 1777853958
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (7 points today) has passed Gus Williams and is now ranked 73rd all-time with 1,930 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028870872948_5940_collage_1778028870769695.png"
             ],
             "timestamp": 1778028876
+        },
+        {
+            "texto": "Deandre Ayton (3 rebounds today) has passed Rik Smits and is now ranked 178th all-time with 541 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029067244650_3629_collage_1778029067149659.png"
+            ],
+            "timestamp": 1778029072
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1111,
+    "total_notificaciones_historicas": 1112,
     "total_franchise_historicas": 560,
-    "cache_buster": 1778028972
+    "cache_buster": 1778029072
 }
