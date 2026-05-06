@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:42:32",
+    "ultima_actualizacion": "03:44:14",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 14,
-                "Total": 8442,
-                "Diff": "558",
+                "Hoy": 16,
+                "Total": 8444,
+                "Diff": "556",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -175,11 +175,11 @@
                 "Rank": 57,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 561,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 562,
+                "Diff": "",
                 "Antece": "Avery Johnson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -552,14 +552,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 178,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 74,
-                "Diff": "",
-                "Antece": "Aaron Gordon",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 75,
+                "Diff": "1",
+                "Antece": "Shai Gilgeous-Alexander",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -982,9 +982,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1531,
-                "Diff": "30",
+                "Hoy": 16,
+                "Total": 1533,
+                "Diff": "28",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1264,9 +1264,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 three-pointers today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 153rd all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777943146406784_4799_collage_1777943146335820.png"
-            ],
-            "timestamp": 1777943151
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (10 points today) has passed Rolando Blackman and Tracy McGrady and is now ranked 217th all-time with 1,111 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031648640884_7938_collage_1778031648535920.png"
             ],
             "timestamp": 1778031654
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Nickeil Alexander-Walker and is now ranked 178th all-time with 75 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031848295068_5172_collage_1778031848192104.png"
+            ],
+            "timestamp": 1778031854
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1131,
+    "total_notificaciones_historicas": 1132,
     "total_franchise_historicas": 566,
-    "cache_buster": 1778031752
+    "cache_buster": 1778031854
 }
