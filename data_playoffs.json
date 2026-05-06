@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:11:02",
+    "ultima_actualizacion": "03:12:43",
     "tablas": {
         "pts": [
             {
@@ -28,11 +28,11 @@
                 "Rank": 71,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 17,
-                "Total": 1962,
-                "Diff": "5",
+                "Hoy": 19,
+                "Total": 1964,
+                "Diff": "3",
                 "Antece": "Bob Dandridge",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -164,9 +164,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 1175,
-                "Diff": "58",
+                "Hoy": 8,
+                "Total": 1176,
+                "Diff": "57",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -374,13 +374,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 198,
+                "Rank": 192,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 48,
+                "Hoy": 1,
+                "Total": 49,
                 "Diff": "",
-                "Antece": "Mikal Bridges",
+                "Antece": "Paul Pressey",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -638,9 +638,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 857,
-                "Diff": "109",
+                "Hoy": 19,
+                "Total": 859,
+                "Diff": "107",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -678,9 +678,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 293,
-                "Diff": "12",
+                "Hoy": 8,
+                "Total": 294,
+                "Diff": "11",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 13,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "0",
                 "Antece": "Nick Collison",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (3 steals today) has passed Larry Bird and is now ranked 8th all-time with 297 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777857718868028_9822_collage_1777857718787962.png"
-            ],
-            "timestamp": 1777857724
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (18 points today) has passed Robert Horry and is now ranked 71st all-time with 1,941 in playoffs.",
             "foto": [
@@ -2020,16 +2013,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029666003095_4715_collage_1778029665913795.png"
             ],
             "timestamp": 1778029671
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas, Karl-Anthony Towns, Kyle Lowry and Mikal Bridges and is now ranked 192nd all-time with 49 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029957850784_5306_collage_1778029957760848.png"
+            ],
+            "timestamp": 1778029963
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Donovan Mitchell (2 assists today) has passed Brad Daugherty and is now ranked 6th in Cavaliers history with 138 in playoffs.",
-            "foto": [],
-            "timestamp": 1777688529,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "RJ Barrett (4 three-pointers today) has passed Greivis Vásquez and is now ranked 19th in Raptors history with 16 in playoffs.",
             "foto": [],
@@ -2722,9 +2715,16 @@
             "timestamp": 1778029862,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 block today) has passed Nate McMillan and is now ranked 13th in Thunder history with 44 in playoffs.",
+            "foto": [],
+            "timestamp": 1778029963,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1117,
-    "total_franchise_historicas": 563,
-    "cache_buster": 1778029862
+    "total_notificaciones_historicas": 1118,
+    "total_franchise_historicas": 564,
+    "cache_buster": 1778029963
 }
