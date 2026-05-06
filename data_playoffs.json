@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:57:04",
+    "ultima_actualizacion": "04:58:44",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 2674,
-                "Diff": "185",
+                "Hoy": 4,
+                "Total": 2675,
+                "Diff": "184",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -408,25 +408,25 @@
             },
             {
                 "Rank": 220,
-                "Nombre": "Jarrett Allen",
-                "Team": "CLE",
+                "Nombre": "Isaiah Hartenstein",
+                "Team": "OKC",
                 "Hoy": 1,
                 "Total": 44,
                 "Diff": "1",
                 "Antece": "Timofey Mozgov",
                 "Nota": "A tiro de 1",
-                "game_status": "finished"
+                "game_status": "playing"
             },
             {
-                "Rank": 227,
-                "Nombre": "Isaiah Hartenstein",
-                "Team": "OKC",
-                "Hoy": 0,
-                "Total": 43,
+                "Rank": 221,
+                "Nombre": "Jarrett Allen",
+                "Team": "CLE",
+                "Hoy": 1,
+                "Total": 44,
                 "Diff": "",
-                "Antece": "Daniel Gafford",
+                "Antece": "Isaiah Hartenstein",
                 "Nota": "Mismo total",
-                "game_status": "playing"
+                "game_status": "finished"
             }
         ],
         "fg3": [
@@ -992,9 +992,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 552,
-                "Diff": "22",
+                "Hoy": 4,
+                "Total": 553,
+                "Diff": "21",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 25,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 214,
-                "Diff": "2",
+                "Hoy": 9,
+                "Total": 215,
+                "Diff": "1",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mike Conley today surpasses Detlef Schrempf and Marcus Smart and now ranked 117th all time with 115 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945632183183_5224_collage_1777945632025233.png"
-            ],
-            "timestamp": 1777945639
-        },
         {
             "texto": "Karl-Anthony Towns (12 points today) has passed Kevin Love and is now ranked 216th all-time with 1,113 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778035936743037_9325_collage_1778035936681057.png"
             ],
             "timestamp": 1778035941
+        },
+        {
+            "texto": "Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 220th all-time with 44 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778036319090357_9173_collage_1778036318992218.png"
+            ],
+            "timestamp": 1778036324
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1145,
+    "total_notificaciones_historicas": 1146,
     "total_franchise_historicas": 569,
-    "cache_buster": 1778036224
+    "cache_buster": 1778036324
 }
