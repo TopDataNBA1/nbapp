@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:57:52",
+    "ultima_actualizacion": "02:59:33",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 10,
-                "Total": 8438,
-                "Diff": "562",
+                "Hoy": 12,
+                "Total": 8440,
+                "Diff": "560",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -115,14 +115,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 178,
+                "Rank": 176,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 541,
-                "Diff": "",
-                "Antece": "Danny Green",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 543,
+                "Diff": "3",
+                "Antece": "Bob Cousy",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -982,9 +982,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1527,
-                "Diff": "34",
+                "Hoy": 12,
+                "Total": 1529,
+                "Diff": "32",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1104,9 +1104,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 247,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 248,
+                "Diff": "8",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (7 points today) has passed Gus Williams and is now ranked 73rd all-time with 1,930 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854053712023_2007_collage_1777854053615742.png"
-            ],
-            "timestamp": 1777854058
-        },
         {
             "texto": "Evan Mobley (1 block today) has passed A.C. Green, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 199th all-time with 47 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029067244650_3629_collage_1778029067149659.png"
             ],
             "timestamp": 1778029072
+        },
+        {
+            "texto": "Deandre Ayton (5 rebounds today) has passed Danny Green and Jrue Holiday and is now ranked 176th all-time with 543 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029167954935_5903_collage_1778029167884150.png"
+            ],
+            "timestamp": 1778029173
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1112,
+    "total_notificaciones_historicas": 1113,
     "total_franchise_historicas": 560,
-    "cache_buster": 1778029072
+    "cache_buster": 1778029173
 }
