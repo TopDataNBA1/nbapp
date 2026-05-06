@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:26:46",
+    "ultima_actualizacion": "01:31:34",
     "tablas": {
         "pts": [
             {
@@ -47,13 +47,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 214,
+                "Rank": 212,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 1123,
+                "Hoy": 6,
+                "Total": 1124,
                 "Diff": "",
-                "Antece": "Bradley Beal",
+                "Antece": "Jermaine O'Neal",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -185,13 +185,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 168,
+                "Rank": 173,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 80,
+                "Hoy": 1,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "Larry Hughes",
+                "Antece": "Dale Davis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -481,9 +481,9 @@
                 "Rank": 22,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 520,
-                "Diff": "16",
+                "Hoy": 6,
+                "Total": 521,
+                "Diff": "15",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -551,9 +551,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 57,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 56,
+                "Diff": "7",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -563,7 +563,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 53,
-                "Diff": "4",
+                "Diff": "3",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (4 rebounds today) has passed Antonio McDyess and Walt Bellamy and is now ranked 116th all-time with 681 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946001366604_2224_collage_1777946001160665.png"
-            ],
-            "timestamp": 1777946008
-        },
         {
             "texto": "Karl-Anthony Towns (6 rebounds today) has passed Dan Majerle and is now ranked 142nd all-time with 610 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778110001158646_1759_collage_1778110001063679.png"
             ],
             "timestamp": 1778110006
+        },
+        {
+            "texto": "Karl-Anthony Towns (6 points today) has passed Bradley Beal and is now ranked 212th all-time with 1,124 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778110288921626_9203_collage_1778110288826635.png"
+            ],
+            "timestamp": 1778110294
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1152,
+    "total_notificaciones_historicas": 1153,
     "total_franchise_historicas": 574,
-    "cache_buster": 1778110006
+    "cache_buster": 1778110294
 }
