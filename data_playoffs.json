@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:32:22",
+    "ultima_actualizacion": "02:34:02",
     "tablas": {
         "pts": [
             {
@@ -407,7 +407,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 226,
+                "Rank": 220,
+                "Nombre": "Jarrett Allen",
+                "Team": "CLE",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "1",
+                "Antece": "Timofey Mozgov",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 227,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
                 "Hoy": 0,
@@ -416,17 +427,6 @@
                 "Antece": "Daniel Gafford",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 227,
-                "Nombre": "Jarrett Allen",
-                "Team": "CLE",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "",
-                "Antece": "Isaiah Hartenstein",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -489,9 +489,9 @@
                 "Rank": 51,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 169,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 170,
+                "Diff": "2",
                 "Antece": "Nikola Jokić",
                 "Nota": "",
                 "game_status": "playing"
@@ -788,9 +788,9 @@
                 "Rank": 11,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 33,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 34,
+                "Diff": "0",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -970,9 +970,9 @@
                 "Rank": 16,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 22,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 23,
+                "Diff": "0",
                 "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             }
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (19 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 184th all-time with 1,227 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840948906189_4080_collage_1777840948826233.png"
-            ],
-            "timestamp": 1777840954
-        },
         {
             "texto": "Tobias Harris (2 three-pointers today) has passed James Jones and Pat Connaughton and is now ranked 110th all-time with 105 in playoffs.",
             "foto": [
@@ -2022,6 +2015,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778027441694348_2440_collage_1778027441601198.png"
             ],
             "timestamp": 1778027447
+        },
+        {
+            "texto": "Jarrett Allen (1 block today) has passed Anthony Edwards, Daniel Gafford, Isaiah Hartenstein, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 220th all-time with 44 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778027637168002_9496_collage_1778027637063256.png"
+            ],
+            "timestamp": 1778027642
         }
     ],
     "notificaciones_franchise": [
@@ -2726,7 +2726,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1099,
+    "total_notificaciones_historicas": 1100,
     "total_franchise_historicas": 556,
-    "cache_buster": 1778027542
+    "cache_buster": 1778027642
 }
