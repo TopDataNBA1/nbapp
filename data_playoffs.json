@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:09:28",
+    "ultima_actualizacion": "04:14:13",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 2149,
-                "Diff": "197",
+                "Hoy": 5,
+                "Total": 2150,
+                "Diff": "196",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -172,14 +172,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 57,
+                "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 562,
-                "Diff": "",
-                "Antece": "Avery Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 563,
+                "Diff": "12",
+                "Antece": "Robert Horry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1002,9 +1002,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 462,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 463,
+                "Diff": "0",
                 "Antece": "James Worthy",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 25,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 209,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 210,
+                "Diff": "6",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (12 points today) has passed George Gervin and George Hill and is now ranked 113th all-time with 1,593 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944124643522_8105_collage_1777944124564971.png"
-            ],
-            "timestamp": 1777944130
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 three-pointers today) has passed Michael Jordan and is now ranked 65th all-time with 149 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033363027964_4178_collage_1778033362949989.png"
             ],
             "timestamp": 1778033368
+        },
+        {
+            "texto": "📢🔝💯 Marcus Smart (6 assists today) has passed Avery Johnson and is now ranked 56th all-time with 563 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033647878150_9649_collage_1778033647791676.png"
+            ],
+            "timestamp": 1778033653
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1137,
+    "total_notificaciones_historicas": 1138,
     "total_franchise_historicas": 567,
-    "cache_buster": 1778033368
+    "cache_buster": 1778033653
 }
