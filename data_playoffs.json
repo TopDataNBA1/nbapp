@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:04:28",
+    "ultima_actualizacion": "03:06:04",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 138,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1465,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 1466,
+                "Diff": "2",
                 "Antece": "Vlade Divac",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -698,9 +698,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 157,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 158,
+                "Diff": "2",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -710,7 +710,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 155,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -907,13 +907,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Jalen Duren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "0",
-                "Antece": "Curtis Rowe",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
+                "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             },
             {
@@ -923,7 +923,7 @@
                 "Hoy": 0,
                 "Total": 16,
                 "Diff": "3",
-                "Antece": "Jalen Duren",
+                "Antece": "Curtis Rowe",
                 "game_status": "playing"
             },
             {
@@ -2024,13 +2024,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Rui Hachimura (1 three-pointer today) has passed Eddie Jones, Jordan Farmar and Magic Johnson and is now ranked 13th in Lakers history with 52 in playoffs.",
-            "foto": [],
-            "timestamp": 1777687770,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "Max Strus (3 assists today) has passed Larry Hughes and is now ranked 15th in Cavaliers history with 81 in playoffs.",
             "foto": [],
             "timestamp": 1777688054,
@@ -2722,9 +2715,16 @@
             "timestamp": 1778028876,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Duren (1 block today) has passed Curtis Rowe and is now ranked 18th in Pistons history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1778029564,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1115,
-    "total_franchise_historicas": 560,
-    "cache_buster": 1778029468
+    "total_franchise_historicas": 561,
+    "cache_buster": 1778029564
 }
