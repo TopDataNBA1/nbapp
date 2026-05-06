@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:29:25",
+    "ultima_actualizacion": "03:31:16",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 20,
-                "Total": 4059,
-                "Diff": "88",
+                "Hoy": 22,
+                "Total": 4061,
+                "Diff": "86",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -69,14 +69,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 180,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 16,
-                "Total": 1254,
-                "Diff": "",
-                "Antece": "Andrew Toney",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 1256,
+                "Diff": "4",
+                "Antece": "Wes Unseld",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -698,9 +698,9 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 158,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 159,
+                "Diff": "1",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -710,7 +710,7 @@
                 "Stat": "REB",
                 "Hoy": 5,
                 "Total": 156,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed P.J. Tucker and is now ranked 60th all-time with 155 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777861031092239_1627_collage_1777861030993478.png"
-            ],
-            "timestamp": 1777861036
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (1 rebound today) has passed Bill Walton and Bryon Russell and is now ranked 231st all-time with 445 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778030851278588_2457_collage_1778030851101594.png"
             ],
             "timestamp": 1778030861
+        },
+        {
+            "texto": "Tobias Harris (18 points today) has passed Andrew Toney and is now ranked 180th all-time with 1,256 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031067930701_9337_collage_1778031067454436.png"
+            ],
+            "timestamp": 1778031075
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1120,
+    "total_notificaciones_historicas": 1121,
     "total_franchise_historicas": 565,
-    "cache_buster": 1778030965
+    "cache_buster": 1778031076
 }
