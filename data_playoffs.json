@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:22:30",
+    "ultima_actualizacion": "04:30:17",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 18,
-                "Total": 8446,
-                "Diff": "554",
+                "Hoy": 20,
+                "Total": 8448,
+                "Diff": "552",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 169,
+                "Rank": 166,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 16,
-                "Total": 1337,
-                "Diff": "",
-                "Antece": "Paul Westphal",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 1339,
+                "Diff": "5",
+                "Antece": "Rudy LaRusso",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -982,9 +982,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 1535,
-                "Diff": "26",
+                "Hoy": 20,
+                "Total": 1537,
+                "Diff": "24",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1064,9 +1064,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1255,
-                "Diff": "131",
+                "Hoy": 18,
+                "Total": 1257,
+                "Diff": "129",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 199th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945493602803_5076_collage_1777945493287903.png"
-            ],
-            "timestamp": 1777945499
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Tree Rollins and is now ranked 51st all-time with 135 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033951868523_9521_collage_1778033951794548.png"
             ],
             "timestamp": 1778033959
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (18 points today) has passed Danny Green, Paul Westphal and Steve Smith and is now ranked 166th all-time with 1,339 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034612926116_5381_collage_1778034612859126.png"
+            ],
+            "timestamp": 1778034617
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1141,
+    "total_notificaciones_historicas": 1142,
     "total_franchise_historicas": 569,
-    "cache_buster": 1778034150
+    "cache_buster": 1778034617
 }
