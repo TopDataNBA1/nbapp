@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:34:02",
+    "ultima_actualizacion": "02:36:12",
     "tablas": {
         "pts": [
             {
@@ -407,14 +407,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 220,
+                "Rank": 217,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 44,
-                "Diff": "1",
-                "Antece": "Timofey Mozgov",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 45,
+                "Diff": "",
+                "Antece": "Chris Mullin",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -785,13 +785,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 34,
-                "Diff": "0",
-                "Antece": "Kevin Love",
+                "Hoy": 2,
+                "Total": 35,
+                "Diff": "4",
+                "Antece": "Timofey Mozgov",
                 "game_status": "playing"
             },
             {
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (2 three-pointers today) has passed James Jones and Pat Connaughton and is now ranked 110th all-time with 105 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840954262475_3709_collage_1777840954185499.png"
-            ],
-            "timestamp": 1777840959
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Rudy Gobert, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 229th all-time with 66 in playoffs.",
             "foto": [
@@ -2022,16 +2015,14 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778027637168002_9496_collage_1778027637063256.png"
             ],
             "timestamp": 1778027642
+        },
+        {
+            "texto": "Jarrett Allen (2 blocks today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 217th all-time with 45 in playoffs.",
+            "foto": [],
+            "timestamp": 1778027772
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jabari Smith Jr. (1 three-pointer today) has passed Aaron Brooks and is now ranked 21st in Rockets history with 29 in playoffs.",
-            "foto": [],
-            "timestamp": 1777686895,
-            "team": "HOU",
-            "type": "franchise"
-        },
         {
             "texto": "Scottie Barnes (3 blocks today) has passed Danny Green, Keon Clark and DeMar DeRozan and is now ranked 16th in Raptors history with 12 in playoffs.",
             "foto": [],
@@ -2724,9 +2715,16 @@
             "timestamp": 1778026328,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jarrett Allen (2 blocks today) has passed Kevin Love and is now ranked 10th in Cavaliers history with 35 in playoffs.",
+            "foto": [],
+            "timestamp": 1778027772,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1100,
-    "total_franchise_historicas": 556,
-    "cache_buster": 1778027642
+    "total_notificaciones_historicas": 1101,
+    "total_franchise_historicas": 557,
+    "cache_buster": 1778027772
 }
