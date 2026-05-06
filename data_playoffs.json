@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:12:08",
+    "ultima_actualizacion": "02:13:50",
     "tablas": {
         "pts": [
             {
@@ -104,14 +104,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 144,
+                "Rank": 142,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 610,
-                "Diff": "",
-                "Antece": "Pascal Siakam",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 611,
+                "Diff": "3",
+                "Antece": "LaMarcus Aldridge",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -860,9 +860,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 389,
-                "Diff": "25",
+                "Hoy": 14,
+                "Total": 391,
+                "Diff": "23",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (2 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 127th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840559786277_3092_collage_1777840559723292.png"
-            ],
-            "timestamp": 1777840564
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 112th all-time with 104 in playoffs.",
             "foto": [
@@ -2022,6 +2015,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026323878857_5752_collage_1778026323805153.png"
             ],
             "timestamp": 1778026328
+        },
+        {
+            "texto": "Tobias Harris (6 rebounds today) has passed Karl-Anthony Towns and Pascal Siakam and is now ranked 142nd all-time with 611 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026425248527_6556_collage_1778026425157579.png"
+            ],
+            "timestamp": 1778026430
         }
     ],
     "notificaciones_franchise": [
@@ -2726,7 +2726,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1097,
+    "total_notificaciones_historicas": 1098,
     "total_franchise_historicas": 556,
-    "cache_buster": 1778026328
+    "cache_buster": 1778026430
 }
