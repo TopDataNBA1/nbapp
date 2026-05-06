@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:05:59",
+    "ultima_actualizacion": "04:07:46",
     "tablas": {
         "pts": [
             {
@@ -50,9 +50,9 @@
                 "Rank": 136,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 10,
-                "Total": 1475,
-                "Diff": "12",
+                "Hoy": 12,
+                "Total": 1477,
+                "Diff": "10",
                 "Antece": "Sidney Moncrief",
                 "Nota": "",
                 "game_status": "playing"
@@ -61,11 +61,11 @@
                 "Rank": 170,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 12,
-                "Total": 1333,
-                "Diff": "2",
+                "Hoy": 14,
+                "Total": 1335,
+                "Diff": "",
                 "Antece": "David West",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -115,14 +115,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 176,
+                "Rank": 174,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 8,
-                "Total": 546,
-                "Diff": "",
-                "Antece": "Bob Cousy",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 548,
+                "Diff": "5",
+                "Antece": "Cedric Maxwell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -137,14 +137,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 211,
+                "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 494,
-                "Diff": "",
-                "Antece": "Frank Ramsey",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 495,
+                "Diff": "2",
+                "Antece": "Andrew Bynum",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1064,9 +1064,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1251,
-                "Diff": "135",
+                "Hoy": 14,
+                "Total": 1253,
+                "Diff": "133",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1094,9 +1094,9 @@
                 "Rank": 15,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 312,
-                "Diff": "18",
+                "Hoy": 8,
+                "Total": 313,
+                "Diff": "17",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1323,20 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (6 rebounds today) has passed Wayne Embry and is now ranked 229th all-time with 450 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944012341687_7246_collage_1777944012253715.png"
-            ],
-            "timestamp": 1777944017
-        },
-        {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Schröder, Kirk Hinrich and Tim Hardaway Jr. and is now ranked 135th all-time with 93 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944017544267_1711_collage_1777944017484286.png"
-            ],
-            "timestamp": 1777944022
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (21 points today) has passed Hal Greer and is now ranked 84th all-time with 1,880 in playoffs.",
             "foto": [
@@ -2020,6 +2006,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033058347188_7792_collage_1778033058279211.png"
             ],
             "timestamp": 1778033063
+        },
+        {
+            "texto": "📢HOF🏛️ Deandre Ayton (10 rebounds today) has passed Bob Cousy and Otis Thorpe and is now ranked 174th all-time with 548 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033254995731_9911_collage_1778033254924768.png"
+            ],
+            "timestamp": 1778033261
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (4 rebounds today) has passed Frank Ramsey and is now ranked 209th all-time with 495 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033261578059_7230_collage_1778033261485090.png"
+            ],
+            "timestamp": 1778033266
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1134,
+    "total_notificaciones_historicas": 1136,
     "total_franchise_historicas": 567,
-    "cache_buster": 1778033159
+    "cache_buster": 1778033266
 }
