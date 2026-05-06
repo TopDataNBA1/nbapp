@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:23:11",
+    "ultima_actualizacion": "01:24:53",
     "tablas": {
         "pts": [
             {
                 "Rank": 46,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 5,
-                "Total": 2560,
-                "Diff": "11",
+                "Hoy": 8,
+                "Total": 2563,
+                "Diff": "8",
                 "Antece": "Richard Hamilton",
                 "Nota": "",
                 "game_status": "playing"
@@ -185,13 +185,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
+                "Rank": 173,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 78,
+                "Hoy": 1,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "Gerald Henderson",
+                "Antece": "Dale Davis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -291,9 +291,9 @@
                 "Rank": 11,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 303,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 304,
+                "Diff": "7",
                 "Antece": "Jayson Tatum",
                 "Nota": "",
                 "game_status": "playing"
@@ -551,9 +551,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 55,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 56,
+                "Diff": "7",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -563,7 +563,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 53,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -853,9 +853,9 @@
                 "Rank": 14,
                 "Nombre": "Paul George",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 27,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 28,
+                "Diff": "0",
                 "Antece": "Georges Niang",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Danny Schayes, Deandre Ayton, Evan Mobley, Jon Koncak, Shawn Bradley, Tobias Harris, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 194th all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945759217031_1630_collage_1777945758954394.png"
-            ],
-            "timestamp": 1777945766
-        },
         {
             "texto": "📢HOF🏛️ Joel Embiid (13 points today) has passed Vince Carter and is now ranked 113th all-time with 1,594 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109785771335_6309_collage_1778109785665369.png"
             ],
             "timestamp": 1778109791
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (1 steal today) has passed Damian Lillard, Dave Cowens and Gerald Henderson and is now ranked 173rd all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109888200953_9365_collage_1778109888133976.png"
+            ],
+            "timestamp": 1778109893
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1148,
+    "total_notificaciones_historicas": 1149,
     "total_franchise_historicas": 571,
-    "cache_buster": 1778109791
+    "cache_buster": 1778109893
 }
