@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:02:43",
+    "ultima_actualizacion": "03:04:28",
     "tablas": {
         "pts": [
             {
@@ -69,13 +69,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 181,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 14,
-                "Total": 1252,
+                "Hoy": 16,
+                "Total": 1254,
                 "Diff": "",
-                "Antece": "Brook Lopez",
+                "Antece": "Andrew Toney",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -197,11 +197,11 @@
                 "Rank": 126,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 325,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 326,
+                "Diff": "1",
                 "Antece": "Mark Price",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -533,11 +533,11 @@
                 "Rank": 136,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 92,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 93,
+                "Diff": "1",
                 "Antece": "Serge Ibaka",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -718,9 +718,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 140,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 141,
+                "Diff": "0",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -1323,20 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Evan Mobley (1 block today) has passed A.C. Green, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 199th all-time with 47 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854154792777_3079_collage_1777854154693070.png"
-            ],
-            "timestamp": 1777854159
-        },
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (2 steals today) has passed Maurice Cheeks and is now ranked 8th all-time with 296 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777854438950946_1767_collage_1777854438852272.png"
-            ],
-            "timestamp": 1777854444
-        },
         {
             "texto": "Donovan Mitchell (1 assist today) has passed Andrew Toney and is now ranked 126th all-time with 324 in playoffs.",
             "foto": [
@@ -2020,6 +2006,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029167954935_5903_collage_1778029167884150.png"
             ],
             "timestamp": 1778029173
+        },
+        {
+            "texto": "Tobias Harris (16 points today) has passed Brook Lopez and is now ranked 181st all-time with 1,254 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029457947512_9907_collage_1778029457856569.png"
+            ],
+            "timestamp": 1778029463
+        },
+        {
+            "texto": "Dennis Schröder (1 three-pointer today) has passed Kirk Hinrich and Tim Hardaway Jr. and is now ranked 136th all-time with 93 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029463604882_5996_collage_1778029463532471.png"
+            ],
+            "timestamp": 1778029468
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1113,
+    "total_notificaciones_historicas": 1115,
     "total_franchise_historicas": 560,
-    "cache_buster": 1778029363
+    "cache_buster": 1778029468
 }
