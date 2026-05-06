@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:57:28",
+    "ultima_actualizacion": "02:00:45",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 6,
-                "Total": 1244,
-                "Diff": "",
-                "Antece": "Bob Lanier",
-                "Nota": "Mismo total",
+                "Hoy": 9,
+                "Total": 1247,
+                "Diff": "5",
+                "Antece": "Brook Lopez",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -222,14 +222,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 106,
+                "Rank": 103,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 108,
-                "Diff": "",
-                "Antece": "Joe Ingles",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 109,
+                "Diff": "1",
+                "Antece": "Tim Hardaway",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -496,9 +496,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 103,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 104,
+                "Diff": "24",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -586,9 +586,9 @@
                 "Rank": 14,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 25,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 26,
+                "Diff": "2",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -605,20 +605,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tyrese Maxey (2 three-pointers today) has passed Donte DiVincenzo, Jamal Crawford, Joe Ingles, Toni Kukoč, Tyrese Haliburton and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775127372017_1337_collage_1777775127293894.png"
-            ],
-            "timestamp": 1777775132
-        },
-        {
-            "texto": "Payton Pritchard (2 three-pointers today) has passed Derek Harper, Mark Jackson, Mike Miller and Tyler Herro and is now ranked 123rd all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777775132903615_8816_collage_1777775132825499.png"
-            ],
-            "timestamp": 1777775137
-        },
         {
             "texto": "Tobias Harris (4 points today) has passed Buck Williams and is now ranked 187th all-time with 1,212 in playoffs.",
             "foto": [
@@ -1304,6 +1290,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025346176653_2316_collage_1778025346073879.png"
             ],
             "timestamp": 1778025351
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (9 points today) has passed Bob Lanier and is now ranked 182nd all-time with 1,247 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025634670313_2664_collage_1778025634567733.png"
+            ],
+            "timestamp": 1778025640
+        },
+        {
+            "texto": "Tobias Harris (1 three-pointer today) has passed Donte DiVincenzo, Joe Ingles, Toni Kukoč and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025640412893_6846_collage_1778025640340804.png"
+            ],
+            "timestamp": 1778025645
         }
     ],
     "notificaciones_franchise": [
@@ -2008,7 +2008,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1091,
+    "total_notificaciones_historicas": 1093,
     "total_franchise_historicas": 554,
-    "cache_buster": 1778025448
+    "cache_buster": 1778025645
 }
