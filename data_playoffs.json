@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:13:50",
+    "ultima_actualizacion": "02:30:47",
     "tablas": {
         "pts": [
             {
@@ -164,9 +164,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1171,
-                "Diff": "62",
+                "Hoy": 4,
+                "Total": 1172,
+                "Diff": "61",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -486,14 +486,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 52,
+                "Rank": 51,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 168,
-                "Diff": "",
-                "Antece": "Bruce Bowen",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 170,
+                "Diff": "2",
+                "Antece": "Nikola Jokić",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -648,9 +648,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 513,
-                "Diff": "46",
+                "Hoy": 10,
+                "Total": 515,
+                "Diff": "44",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -870,9 +870,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 104,
-                "Diff": "24",
+                "Hoy": 3,
+                "Total": 105,
+                "Diff": "23",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -970,9 +970,9 @@
                 "Rank": 16,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 21,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 23,
+                "Diff": "0",
                 "Antece": "Jerry Stackhouse",
                 "game_status": "playing"
             }
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (1 three-pointer today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 112th all-time with 104 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840660538016_9782_collage_1777840660473037.png"
-            ],
-            "timestamp": 1777840665
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (19 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 184th all-time with 1,227 in playoffs.",
             "foto": [
@@ -2022,6 +2015,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026425248527_6556_collage_1778026425157579.png"
             ],
             "timestamp": 1778026430
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (4 three-pointers today) has passed Bruce Bowen and is now ranked 51st all-time with 170 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778027441694348_2440_collage_1778027441601198.png"
+            ],
+            "timestamp": 1778027447
         }
     ],
     "notificaciones_franchise": [
@@ -2726,7 +2726,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1098,
+    "total_notificaciones_historicas": 1099,
     "total_franchise_historicas": 556,
-    "cache_buster": 1778026430
+    "cache_buster": 1778027447
 }
