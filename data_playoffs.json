@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:44:22",
+    "ultima_actualizacion": "01:46:04",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 83,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1896,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 1899,
+                "Diff": "3",
                 "Antece": "Danny Ainge",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -310,14 +310,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 65,
+                "Rank": 64,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 149,
-                "Diff": "",
-                "Antece": "Dirk Nowitzki",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 150,
+                "Diff": "1",
+                "Antece": "Terry Porter",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1452,
-                "Diff": "475",
+                "Hoy": 5,
+                "Total": 1455,
+                "Diff": "472",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -651,9 +651,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "58",
+                "Hoy": 1,
+                "Total": 118,
+                "Diff": "57",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 228th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946227511506_2506_collage_1777946227287577.png"
-            ],
-            "timestamp": 1777946235
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (6 points today) has passed Dennis Rodman and is now ranked 226th all-time with 1,083 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778110395982803_8877_collage_1778110395894839.png"
             ],
             "timestamp": 1778110401
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (1 three-pointer today) has passed Dirk Nowitzki and is now ranked 64th all-time with 150 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778111158279864_4731_collage_1778111158184881.png"
+            ],
+            "timestamp": 1778111164
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1155,
+    "total_notificaciones_historicas": 1156,
     "total_franchise_historicas": 575,
-    "cache_buster": 1778111062
+    "cache_buster": 1778111164
 }
