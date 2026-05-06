@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:30:17",
+    "ultima_actualizacion": "04:31:58",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 20,
-                "Total": 8448,
-                "Diff": "552",
+                "Hoy": 22,
+                "Total": 8450,
+                "Diff": "550",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 2671,
-                "Diff": "188",
+                "Hoy": 2,
+                "Total": 2673,
+                "Diff": "186",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -306,13 +306,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 229,
+                "Rank": 223,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 66,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Kyle Anderson",
+                "Antece": "Patrick Beverley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -982,9 +982,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1537,
-                "Diff": "24",
+                "Hoy": 22,
+                "Total": 1539,
+                "Diff": "22",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -992,9 +992,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 549,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 551,
+                "Diff": "23",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1144,9 +1144,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "4",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Tree Rollins and is now ranked 51st all-time with 135 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945500509585_4318_collage_1777945500269665.png"
-            ],
-            "timestamp": 1777945508
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (2 three-pointers today) has passed Norman Powell, Stephen Jackson, Tony Parker and Vince Carter and is now ranked 89th all-time with 120 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034612926116_5381_collage_1778034612859126.png"
             ],
             "timestamp": 1778034617
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson and Steve Nash and is now ranked 223rd all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034713614298_5540_collage_1778034713522311.png"
+            ],
+            "timestamp": 1778034718
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1142,
+    "total_notificaciones_historicas": 1143,
     "total_franchise_historicas": 569,
-    "cache_buster": 1778034617
+    "cache_buster": 1778034718
 }
