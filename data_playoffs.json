@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:13",
+    "ultima_actualizacion": "04:15:54",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 2150,
-                "Diff": "196",
+                "Hoy": 6,
+                "Total": 2151,
+                "Diff": "195",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 214,
+                "Rank": 210,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 66,
+                "Hoy": 2,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Landry Shamet",
+                "Antece": "Eddie Johnson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -999,13 +999,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 463,
-                "Diff": "0",
-                "Antece": "James Worthy",
+                "Hoy": 6,
+                "Total": 464,
+                "Diff": "1",
+                "Antece": "Norm Nixon",
                 "game_status": "playing"
             },
             {
@@ -1052,9 +1052,9 @@
                 "Rank": 12,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 57,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 58,
+                "Diff": "1",
                 "Antece": "Metta World Peace",
                 "game_status": "playing"
             }
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 three-pointers today) has passed Michael Jordan and is now ranked 65th all-time with 149 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777944320986198_5234_collage_1777944320896244.png"
-            ],
-            "timestamp": 1777944327
-        },
         {
             "texto": "Josh Hart (7 rebounds today) has passed Roy Hibbert and is now ranked 229th all-time with 451 in playoffs.",
             "foto": [
@@ -2020,16 +2013,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033647878150_9649_collage_1778033647791676.png"
             ],
             "timestamp": 1778033653
+        },
+        {
+            "texto": "Rui Hachimura (2 three-pointers today) has passed Jordan Poole, Julius Randle, Kerry Kittles and Landry Shamet and is now ranked 210th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033749892572_4711_collage_1778033749824567.png"
+            ],
+            "timestamp": 1778033754
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid today surpasses Allen Iverson and is now ranked 13th in 76ers history with 63 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777765066,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (6 assists today) has passed George King and is now ranked 19th in 76ers history with 174 in playoffs.",
             "foto": [],
@@ -2722,9 +2715,16 @@
             "timestamp": 1778033063,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ LeBron James (6 assists today) has passed James Worthy and is now ranked 9th in Lakers history with 464 in playoffs.",
+            "foto": [],
+            "timestamp": 1778033754,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1138,
-    "total_franchise_historicas": 567,
-    "cache_buster": 1778033653
+    "total_notificaciones_historicas": 1139,
+    "total_franchise_historicas": 568,
+    "cache_buster": 1778033754
 }
