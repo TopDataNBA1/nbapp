@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:49:15",
+    "ultima_actualizacion": "01:50:56",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 83,
+                "Rank": 82,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 1901,
-                "Diff": "1",
-                "Antece": "Danny Ainge",
-                "Nota": "A tiro de 1",
+                "Hoy": 9,
+                "Total": 1903,
+                "Diff": "4",
+                "Antece": "Horace Grant",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1457,
-                "Diff": "470",
+                "Hoy": 9,
+                "Total": 1459,
+                "Diff": "468",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -753,9 +753,9 @@
                 "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 934,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 935,
+                "Diff": "0",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert (6 points today) has passed Dennis Rodman and is now ranked 226th all-time with 1,083 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946338199397_8370_collage_1777946338014455.png"
-            ],
-            "timestamp": 1777946346
-        },
         {
             "texto": "Anthony Edwards (1 assist today) has passed Walt Hazzard and is now ranked 195th all-time with 243 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778111158279864_4731_collage_1778111158184881.png"
             ],
             "timestamp": 1778111164
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (9 points today) has passed Danny Ainge and is now ranked 82nd all-time with 1,903 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778111450362893_8418_collage_1778111450260926.png"
+            ],
+            "timestamp": 1778111456
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1156,
+    "total_notificaciones_historicas": 1157,
     "total_franchise_historicas": 575,
-    "cache_buster": 1778111355
+    "cache_buster": 1778111456
 }
