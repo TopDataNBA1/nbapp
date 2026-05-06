@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:51:18",
+    "ultima_actualizacion": "02:54:36",
     "tablas": {
         "pts": [
             {
@@ -216,13 +216,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 160,
+                "Rank": 159,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 283,
+                "Hoy": 3,
+                "Total": 284,
                 "Diff": "",
-                "Antece": "Charles Oakley",
+                "Antece": "Bobby Jones",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -497,14 +497,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 59,
+                "Rank": 58,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 158,
-                "Diff": "",
-                "Antece": "Joe Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 159,
+                "Diff": "1",
+                "Antece": "CJ McCollum",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -665,13 +665,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 302,
-                "Diff": "2",
-                "Antece": "Larry Hughes",
+                "Hoy": 14,
+                "Total": 305,
+                "Diff": "13",
+                "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
             {
@@ -818,9 +818,9 @@
                 "Rank": 7,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 68,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 69,
+                "Diff": "3",
                 "Antece": "Kyle Korver",
                 "game_status": "playing"
             },
@@ -860,9 +860,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 393,
-                "Diff": "21",
+                "Hoy": 18,
+                "Total": 395,
+                "Diff": "19",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -1323,20 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (1 three-pointer today) has passed Jamal Murray and is now ranked 28th all-time with 218 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853183260573_5567_collage_1777853183171488.png"
-            ],
-            "timestamp": 1777853188
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (5 points today) has passed Walt Frazier and is now ranked 74th all-time with 1,928 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777853284972344_8760_collage_1777853284871627.png"
-            ],
-            "timestamp": 1777853290
-        },
         {
             "texto": "📢HOF🏛️ Dennis Schröder (1 assist today) has passed Andre Miller and David Robinson and is now ranked 160th all-time with 281 in playoffs.",
             "foto": [
@@ -2020,16 +2006,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028672671510_8202_collage_1778028672597931.png"
             ],
             "timestamp": 1778028677
+        },
+        {
+            "texto": "Dennis Schröder (3 assists today) has passed Charles Oakley and is now ranked 159th all-time with 284 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028865058684_9804_collage_1778028864974025.png"
+            ],
+            "timestamp": 1778028870
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (4 three-pointers today) has passed Joe Johnson and is now ranked 58th all-time with 159 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028870872948_5940_collage_1778028870769695.png"
+            ],
+            "timestamp": 1778028876
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (3 three-pointers today) has passed Sasha Pavlović and is now ranked 19th in Cavaliers history with 27 in playoffs.",
-            "foto": [],
-            "timestamp": 1777687386,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Rui Hachimura (1 three-pointer today) has passed Eddie Jones, Jordan Farmar and Magic Johnson and is now ranked 13th in Lakers history with 52 in playoffs.",
             "foto": [],
@@ -2722,9 +2715,16 @@
             "timestamp": 1778028576,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (14 points today) has passed Larry Hughes and is now ranked 22nd in Cavaliers history with 305 in playoffs.",
+            "foto": [],
+            "timestamp": 1778028876,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1109,
-    "total_franchise_historicas": 559,
-    "cache_buster": 1778028678
+    "total_notificaciones_historicas": 1111,
+    "total_franchise_historicas": 560,
+    "cache_buster": 1778028876
 }
