@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:37:23",
+    "ultima_actualizacion": "03:39:06",
     "tablas": {
         "pts": [
             {
@@ -205,13 +205,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 149,
+                "Rank": 147,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 296,
+                "Hoy": 3,
+                "Total": 297,
                 "Diff": "",
-                "Antece": "Detlef Schrempf",
+                "Antece": "Fat Lever",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 18,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 588,
-                "Diff": "22",
+                "Hoy": 18,
+                "Total": 592,
+                "Diff": "18",
                 "Antece": "Ricky Pierce",
                 "game_status": "playing"
             },
@@ -1094,9 +1094,9 @@
                 "Rank": 15,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 309,
-                "Diff": "21",
+                "Hoy": 6,
+                "Total": 311,
+                "Diff": "19",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1124,9 +1124,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 277,
-                "Diff": "63",
+                "Hoy": 3,
+                "Total": 278,
+                "Diff": "62",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (1 three-pointer today) has passed Devean George, Maxi Kleber, Sam Hauser, Terrence Ross and Torrey Craig and is now ranked 236th all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777941248937157_3415_collage_1777941248852454.png"
-            ],
-            "timestamp": 1777941254
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031438492784_6543_collage_1778031438419807.png"
             ],
             "timestamp": 1778031443
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Detlef Schrempf and is now ranked 147th all-time with 297 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031540148711_3870_collage_1778031540021756.png"
+            ],
+            "timestamp": 1778031545
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1128,
+    "total_notificaciones_historicas": 1129,
     "total_franchise_historicas": 565,
-    "cache_buster": 1778031443
+    "cache_buster": 1778031546
 }
