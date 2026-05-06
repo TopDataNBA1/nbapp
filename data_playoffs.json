@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:16:52",
+    "ultima_actualizacion": "01:23:11",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 214,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1118,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 1121,
+                "Diff": "2",
                 "Antece": "Bradley Beal",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 22,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 515,
-                "Diff": "21",
+                "Hoy": 3,
+                "Total": 518,
+                "Diff": "18",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (5 rebounds today) has passed Clifford Ray, John Stockton and Richard Jefferson and is now ranked 144th all-time with 609 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945750979932_1859_collage_1777945750816985.png"
-            ],
-            "timestamp": 1777945758
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Danny Schayes, Deandre Ayton, Evan Mobley, Jon Koncak, Shawn Bradley, Tobias Harris, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 194th all-time with 48 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109406056833_9765_collage_1778109405922865.png"
             ],
             "timestamp": 1778109412
+        },
+        {
+            "texto": "Karl-Anthony Towns (3 points today) has passed Sean Elliott and is now ranked 214th all-time with 1,121 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109785771335_6309_collage_1778109785665369.png"
+            ],
+            "timestamp": 1778109791
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1147,
+    "total_notificaciones_historicas": 1148,
     "total_franchise_historicas": 571,
-    "cache_buster": 1778109412
+    "cache_buster": 1778109791
 }
