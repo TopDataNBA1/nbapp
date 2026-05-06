@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:33:34",
+    "ultima_actualizacion": "04:45:56",
     "tablas": {
         "pts": [
             {
@@ -140,11 +140,11 @@
                 "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 495,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 496,
+                "Diff": "1",
                 "Antece": "Andrew Bynum",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -175,9 +175,9 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 563,
-                "Diff": "12",
+                "Hoy": 7,
+                "Total": 564,
+                "Diff": "11",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -1114,9 +1114,9 @@
                 "Rank": 25,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 210,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 211,
+                "Diff": "5",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (2 three-pointers today) has passed Norman Powell, Stephen Jackson, Tony Parker and Vince Carter and is now ranked 89th all-time with 120 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945508531392_5059_collage_1777945508406162.png"
-            ],
-            "timestamp": 1777945515
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Avery Johnson, Cliff Hagan, Deron Williams, Derrick White and Steve Smith and now ranked 217th all time with 91 games in playoffs",
             "foto": [
@@ -2020,6 +2013,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034713614298_5540_collage_1778034713522311.png"
             ],
             "timestamp": 1778034718
+        },
+        {
+            "texto": "Marcus Smart (5 rebounds today) has passed Nat Clifton and is now ranked 209th all-time with 496 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778035551297863_7407_collage_1778035551202892.png"
+            ],
+            "timestamp": 1778035556
         }
     ],
     "notificaciones_franchise": [
@@ -2724,7 +2724,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1143,
+    "total_notificaciones_historicas": 1144,
     "total_franchise_historicas": 569,
-    "cache_buster": 1778034814
+    "cache_buster": 1778035556
 }
