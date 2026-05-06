@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:10:23",
+    "ultima_actualizacion": "02:12:08",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 4047,
-                "Diff": "100",
+                "Hoy": 9,
+                "Total": 4048,
+                "Diff": "99",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -104,13 +104,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 148,
+                "Rank": 144,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 608,
+                "Hoy": 5,
+                "Total": 610,
                 "Diff": "",
-                "Antece": "Richard Jefferson",
+                "Antece": "Pascal Siakam",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -262,14 +262,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 136,
+                "Rank": 134,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 91,
-                "Diff": "",
-                "Antece": "Deron Williams",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 92,
+                "Diff": "1",
+                "Antece": "Doug Christie",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -745,13 +745,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 45,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "0",
-                "Antece": "Iman Shumpert",
+                "Antece": "Kevin Love",
                 "game_status": "playing"
             },
             {
@@ -860,9 +860,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 388,
-                "Diff": "26",
+                "Hoy": 12,
+                "Total": 389,
+                "Diff": "25",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -1323,20 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (1 block today) has passed A.C. Green, Evan Mobley, Jaden McDaniels, James Edwards, Karl-Anthony Towns, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 201st all-time with 47 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840265614780_3943_collage_1777840265515943.png"
-            ],
-            "timestamp": 1777840270
-        },
-        {
-            "texto": "Tobias Harris (7 points today) has passed Allan Houston and is now ranked 186th all-time with 1,215 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777840458591887_2769_collage_1777840458502444.png"
-            ],
-            "timestamp": 1777840464
-        },
         {
             "texto": "Desmond Bane (2 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 127th all-time with 96 in playoffs.",
             "foto": [
@@ -2022,16 +2008,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026027082426_5838_collage_1778026027011356.png"
             ],
             "timestamp": 1778026032
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (5 rebounds today) has passed Clifford Ray, Dan Majerle, John Stockton and Richard Jefferson and is now ranked 144th all-time with 610 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026318502631_6735_collage_1778026318433525.png"
+            ],
+            "timestamp": 1778026323
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Chris Webber, Deron Williams, Eric Snow and Joe Dumars and is now ranked 134th all-time with 92 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026323878857_5752_collage_1778026323805153.png"
+            ],
+            "timestamp": 1778026328
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Donovan Mitchell (20 points today) has passed J.R. Smith and is now ranked 5th in Cavaliers history with 814 in playoffs.",
-            "foto": [],
-            "timestamp": 1777686595,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jabari Smith Jr. (1 three-pointer today) has passed Aaron Brooks and is now ranked 21st in Rockets history with 29 in playoffs.",
             "foto": [],
@@ -2724,9 +2717,16 @@
             "timestamp": 1778026032,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Donovan Mitchell (1 steal today) has passed Iman Shumpert, Larry Hughes and Hot Rod Williams and is now ranked 8th in Cavaliers history with 46 in playoffs.",
+            "foto": [],
+            "timestamp": 1778026328,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1095,
-    "total_franchise_historicas": 555,
-    "cache_buster": 1778026223
+    "total_notificaciones_historicas": 1097,
+    "total_franchise_historicas": 556,
+    "cache_buster": 1778026328
 }
