@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:36",
+    "ultima_actualizacion": "04:19:20",
     "tablas": {
         "pts": [
             {
@@ -519,13 +519,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 131,
+                "Rank": 128,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 95,
+                "Hoy": 2,
+                "Total": 96,
                 "Diff": "",
-                "Antece": "Jason Richardson",
+                "Antece": "Derek Harper",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1152,23 +1152,23 @@
             },
             {
                 "Rank": 16,
+                "Nombre": "Cason Wallace",
+                "Stat": "STL",
+                "Hoy": 3,
+                "Total": 52,
+                "Diff": "0",
+                "Antece": "Nick Collison",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 17,
                 "Nombre": "Jalen Williams",
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 51,
                 "Diff": "1",
-                "Antece": "Nick Collison",
+                "Antece": "Cason Wallace",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 17,
-                "Nombre": "Cason Wallace",
-                "Stat": "STL",
-                "Hoy": 2,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Jalen Williams",
-                "game_status": "playing"
             },
             {
                 "Rank": 18,
@@ -1177,7 +1177,7 @@
                 "Hoy": 0,
                 "Total": 50,
                 "Diff": "1",
-                "Antece": "Cason Wallace",
+                "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
             {
@@ -1214,9 +1214,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 95,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 96,
+                "Diff": "4",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1226,7 +1226,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 67,
-                "Diff": "28",
+                "Diff": "29",
                 "Antece": "Luguentz Dort",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (3 rebounds today) has passed Lamar Odom and Tom Heinsohn and is now ranked 59th all-time with 956 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777945480478674_4408_collage_1777945480280733.png"
-            ],
-            "timestamp": 1777945492
-        },
         {
             "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 199th all-time with 72 in playoffs.",
             "foto": [
@@ -2020,16 +2013,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033850881179_2287_collage_1778033850791204.png"
             ],
             "timestamp": 1778033856
+        },
+        {
+            "texto": "Luguentz Dort (2 three-pointers today) has passed Dennis Scott, Jason Richardson, Mikal Bridges and Pascal Siakam and is now ranked 128th all-time with 96 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033951868523_9521_collage_1778033951794548.png"
+            ],
+            "timestamp": 1778033959
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (6 assists today) has passed George King and is now ranked 19th in 76ers history with 174 in playoffs.",
-            "foto": [],
-            "timestamp": 1777766087,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Paul George (1 three-pointer today) has passed De'Anthony Melton and is now ranked 18th in 76ers history with 20 in playoffs.",
             "foto": [],
@@ -2722,9 +2715,16 @@
             "timestamp": 1778033754,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (3 steals today) has passed Jalen Williams and is now ranked 16th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1778033959,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1140,
-    "total_franchise_historicas": 568,
-    "cache_buster": 1778033856
+    "total_notificaciones_historicas": 1141,
+    "total_franchise_historicas": 569,
+    "cache_buster": 1778033960
 }
