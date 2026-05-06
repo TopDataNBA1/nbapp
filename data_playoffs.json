@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:25:49",
+    "ultima_actualizacion": "03:27:41",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 18,
-                "Total": 4057,
-                "Diff": "90",
+                "Hoy": 20,
+                "Total": 4059,
+                "Diff": "88",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -341,14 +341,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 118,
+                "Rank": 116,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "1",
-                "Antece": "Raef LaFrentz",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "",
+                "Antece": "Charles Smith",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -870,9 +870,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 108,
-                "Diff": "20",
+                "Hoy": 7,
+                "Total": 109,
+                "Diff": "19",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 18,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 583,
-                "Diff": "27",
+                "Hoy": 14,
+                "Total": 588,
+                "Diff": "22",
                 "Antece": "Ricky Pierce",
                 "game_status": "playing"
             },
@@ -1162,22 +1162,22 @@
             },
             {
                 "Rank": 17,
-                "Nombre": "Alex Caruso",
+                "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
             {
                 "Rank": 18,
-                "Nombre": "Cason Wallace",
+                "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 50,
-                "Diff": "0",
-                "Antece": "Alex Caruso",
+                "Diff": "1",
+                "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
             {
@@ -1194,9 +1194,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "24",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "23",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1244,9 +1244,9 @@
                 "Rank": 12,
                 "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 48,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 49,
+                "Diff": "2",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -1256,7 +1256,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 46,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Danny Schayes, Deandre Ayton, Jon Koncak, Shawn Bradley, Tobias Harris, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 193rd all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777859514137663_7919_collage_1777859514037867.png"
-            ],
-            "timestamp": 1777859519
-        },
         {
             "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed P.J. Tucker and is now ranked 60th all-time with 155 in playoffs.",
             "foto": [
@@ -2020,16 +2013,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778030741129064_3667_collage_1778030740853161.png"
             ],
             "timestamp": 1778030749
+        },
+        {
+            "texto": "Chet Holmgren (1 block today) has passed Oliver Miller, Ron Harper and Tristan Thompson and is now ranked 116th all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778030851278588_2457_collage_1778030851101594.png"
+            ],
+            "timestamp": 1778030861
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "RJ Barrett (4 three-pointers today) has passed Greivis Vásquez and is now ranked 19th in Raptors history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1777688907,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Rui Hachimura (2 three-pointers today) has passed Devean George and is now ranked 12th in Lakers history with 53 in playoffs.",
             "foto": [],
@@ -2722,9 +2715,16 @@
             "timestamp": 1778029963,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (2 steals today) has passed Alex Caruso and is now ranked 17th in Thunder history with 51 in playoffs.",
+            "foto": [],
+            "timestamp": 1778030861,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1119,
-    "total_franchise_historicas": 564,
-    "cache_buster": 1778030749
+    "total_notificaciones_historicas": 1120,
+    "total_franchise_historicas": 565,
+    "cache_buster": 1778030861
 }
