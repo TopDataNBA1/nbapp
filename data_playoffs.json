@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:28:20",
+    "ultima_actualizacion": "03:30:02",
     "tablas": {
         "pts": [
             {
@@ -651,13 +651,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 248,
+                "Rank": 241,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 58,
+                "Hoy": 1,
+                "Total": 59,
                 "Diff": "",
-                "Antece": "Jim Jackson",
+                "Antece": "Devean George",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1307,9 +1307,9 @@
                 "Rank": 19,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 582,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 585,
+                "Diff": "4",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -1517,9 +1517,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 58,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 59,
+                "Diff": "3",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -1619,9 +1619,9 @@
                 "Rank": 19,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 182,
-                "Diff": "12",
+                "Hoy": 6,
+                "Total": 183,
+                "Diff": "11",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -1706,13 +1706,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 21,
                 "Nombre": "Kelly Oubre Jr.",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 16,
-                "Diff": "0",
-                "Antece": "Marco Belinelli",
+                "Hoy": 3,
+                "Total": 17,
+                "Diff": "2",
+                "Antece": "De'Anthony Melton",
                 "game_status": "playing"
             },
             {
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Shane Battier and is now ranked 69th all-time with 140 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952272927715_1292_collage_1777952272824741.png"
-            ],
-            "timestamp": 1777952278
-        },
         {
             "texto": "Anthony Edwards (13 points today) has passed Allan Houston and is now ranked 187th all-time with 1,217 in playoffs.",
             "foto": [
@@ -2437,16 +2430,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117295550047_8016_collage_1778117295468073.png"
             ],
             "timestamp": 1778117300
+        },
+        {
+            "texto": "Josh Hart (1 three-pointer today) has passed Charlie Ward, Jamal Mashburn, Jim Jackson and Spencer Dinwiddie and is now ranked 241st all-time with 59 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117396700182_2982_collage_1778117396627218.png"
+            ],
+            "timestamp": 1778117402
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ausar Thompson (1 steal today) has passed Rick Mahorn and Chris Ford and is now ranked 19th in Pistons history with 22 in playoffs.",
-            "foto": [],
-            "timestamp": 1777839218,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Wendell Carter Jr. (2 points today) has passed Courtney Lee and is now ranked 21st in Magic history with 170 in playoffs.",
             "foto": [],
@@ -3139,9 +3132,16 @@
             "timestamp": 1778115960,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Kelly Oubre Jr. (3 three-pointers today) has passed Matisse Thybulle and Marco Belinelli and is now ranked 21st in 76ers history with 17 in playoffs.",
+            "foto": [],
+            "timestamp": 1778117402,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1176,
-    "total_franchise_historicas": 582,
-    "cache_buster": 1778117300
+    "total_notificaciones_historicas": 1177,
+    "total_franchise_historicas": 583,
+    "cache_buster": 1778117402
 }
