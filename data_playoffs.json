@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:26:40",
+    "ultima_actualizacion": "03:28:20",
     "tablas": {
         "pts": [
             {
@@ -148,14 +148,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 225,
+                "Rank": 222,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 457,
-                "Diff": "",
-                "Antece": "George Yardley",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 458,
+                "Diff": "1",
+                "Antece": "Drew Gooden",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -232,9 +232,9 @@
                 "Rank": 37,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 183,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 184,
+                "Diff": "5",
                 "Antece": "Kareem Abdul-Jabbar",
                 "Nota": "",
                 "game_status": "playing"
@@ -1327,9 +1327,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 457,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 458,
+                "Diff": "3",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (10 points today) has passed Buck Williams and is now ranked 188th all-time with 1,214 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952267300368_5970_collage_1777952267185188.png"
-            ],
-            "timestamp": 1777952272
-        },
         {
             "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Shane Battier and is now ranked 69th all-time with 140 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117004737124_1016_collage_1778117004667147.png"
             ],
             "timestamp": 1778117009
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (6 rebounds today) has passed Antoine Walker and George Yardley and is now ranked 222nd all-time with 458 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117295550047_8016_collage_1778117295468073.png"
+            ],
+            "timestamp": 1778117300
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1175,
+    "total_notificaciones_historicas": 1176,
     "total_franchise_historicas": 582,
-    "cache_buster": 1778117200
+    "cache_buster": 1778117300
 }
