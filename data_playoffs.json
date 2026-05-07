@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:09:43",
+    "ultima_actualizacion": "06:11:24",
     "tablas": {
         "pts": [
             {
@@ -577,11 +577,11 @@
                 "Rank": 159,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 82,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 83,
+                "Diff": "1",
                 "Antece": "Vernon Maxwell",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -805,9 +805,9 @@
                 "Rank": 24,
                 "Nombre": "Kyle Anderson",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 107,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 109,
+                "Diff": "0",
                 "Antece": "Ayo Dosunmu",
                 "game_status": "playing"
             },
@@ -1741,13 +1741,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Antonio Davis and Chris Bosh and is now ranked 78th all-time with 103 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026027082426_5838_collage_1778026027011356.png"
-            ],
-            "timestamp": 1778026032
-        },
-        {
             "texto": "📢HOF🏛️ Tobias Harris (5 rebounds today) has passed Clifford Ray, Dan Majerle, John Stockton and Richard Jefferson and is now ranked 144th all-time with 610 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026318502631_6735_collage_1778026318433525.png"
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778126508219448_2176_collage_1778126508150030.png"
             ],
             "timestamp": 1778126513
+        },
+        {
+            "texto": "Harrison Barnes (2 three-pointers today) has passed Iman Shumpert and is now ranked 159th all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127079025293_9890_collage_1778127078941117.png"
+            ],
+            "timestamp": 1778127084
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1194,
+    "total_notificaciones_historicas": 1195,
     "total_franchise_historicas": 596,
-    "cache_buster": 1778126983
+    "cache_buster": 1778127084
 }
