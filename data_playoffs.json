@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:48:01",
+    "ultima_actualizacion": "02:49:44",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 210,
+                "Rank": 209,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 12,
-                "Total": 1130,
-                "Diff": "2",
-                "Antece": "Mychal Thompson",
-                "Nota": "A tiro de 2",
+                "Hoy": 15,
+                "Total": 1133,
+                "Diff": "8",
+                "Antece": "Vern Mikkelsen",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -131,9 +131,9 @@
                 "Rank": 64,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 500,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 501,
+                "Diff": "4",
                 "Antece": "Nate McMillan",
                 "Nota": "",
                 "game_status": "playing"
@@ -481,9 +481,9 @@
                 "Rank": 22,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 527,
-                "Diff": "9",
+                "Hoy": 15,
+                "Total": 530,
+                "Diff": "6",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Mike Conley (1 three-pointer today) has passed Draymond Green and is now ranked 47th all-time with 175 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948227906842_8412_collage_1777948227538451.png"
-            ],
-            "timestamp": 1777948236
-        },
         {
             "texto": "Mike Conley (6 points today) has passed Shawn Marion and is now ranked 129th all-time with 1,520 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778114876436774_2956_collage_1778114876357813.png"
             ],
             "timestamp": 1778114881
+        },
+        {
+            "texto": "Karl-Anthony Towns (15 points today) has passed Mychal Thompson and is now ranked 209th all-time with 1,133 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778114978239134_2108_collage_1778114978127171.png"
+            ],
+            "timestamp": 1778114983
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1166,
+    "total_notificaciones_historicas": 1167,
     "total_franchise_historicas": 581,
-    "cache_buster": 1778114881
+    "cache_buster": 1778114984
 }
