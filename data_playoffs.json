@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:48",
+    "ultima_actualizacion": "03:23:29",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 78,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 18,
-                "Total": 1912,
-                "Diff": "2",
+                "Hoy": 20,
+                "Total": 1914,
+                "Diff": "",
                 "Antece": "Carmelo Anthony",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -126,14 +126,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 142,
+                "Rank": 140,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 613,
-                "Diff": "1",
-                "Antece": "LaMarcus Aldridge",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 615,
+                "Diff": "4",
+                "Antece": "Tyson Chandler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1287,9 +1287,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 1468,
-                "Diff": "459",
+                "Hoy": 20,
+                "Total": 1470,
+                "Diff": "457",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1347,9 +1347,9 @@
                 "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 286,
-                "Diff": "13",
+                "Hoy": 5,
+                "Total": 288,
+                "Diff": "11",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -1589,9 +1589,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 952,
-                "Diff": "48",
+                "Hoy": 23,
+                "Total": 954,
+                "Diff": "46",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (4 steals today) has passed Blake Griffin, Luol Deng and Tobias Harris and is now ranked 215th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950472581172_7475_collage_1777950472518200.png"
-            ],
-            "timestamp": 1777950478
-        },
         {
             "texto": "Anthony Edwards (10 points today) has passed Buck Williams and is now ranked 188th all-time with 1,214 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778116897746193_4248_collage_1778116897655223.png"
             ],
             "timestamp": 1778116908
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (5 rebounds today) has passed Bobby Jones, LaMarcus Aldridge and Tobias Harris and is now ranked 140th all-time with 615 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117004737124_1016_collage_1778117004667147.png"
+            ],
+            "timestamp": 1778117009
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1174,
+    "total_notificaciones_historicas": 1175,
     "total_franchise_historicas": 582,
-    "cache_buster": 1778116908
+    "cache_buster": 1778117009
 }
