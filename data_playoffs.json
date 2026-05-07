@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:02",
+    "ultima_actualizacion": "03:02:43",
     "tablas": {
         "pts": [
             {
@@ -196,13 +196,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 194,
+                "Rank": 190,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 73,
+                "Hoy": 2,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Lou Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -461,9 +461,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 590,
-                "Diff": "16",
+                "Hoy": 15,
+                "Total": 592,
+                "Diff": "14",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -581,9 +581,9 @@
                 "Rank": 18,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 35,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 36,
+                "Diff": "1",
                 "Antece": "Trent Tucker",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert (3 steals today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 217th all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948949802830_3938_collage_1777948949567380.png"
-            ],
-            "timestamp": 1777948958
-        },
         {
             "texto": "Mike Conley (9 points today) has passed Shawn Kemp and is now ranked 128th all-time with 1,523 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115561791152_5820_collage_1778115561690970.png"
             ],
             "timestamp": 1778115567
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Caron Butler, Chris Bosh, Dominique Wilkins, Latrell Sprewell and Sedale Threatt and is now ranked 190th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115758064561_9501_collage_1778115757975600.png"
+            ],
+            "timestamp": 1778115763
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1170,
+    "total_notificaciones_historicas": 1171,
     "total_franchise_historicas": 581,
-    "cache_buster": 1778115662
+    "cache_buster": 1778115763
 }
