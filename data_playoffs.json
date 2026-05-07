@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:20:02",
+    "ultima_actualizacion": "03:21:48",
     "tablas": {
         "pts": [
             {
@@ -126,14 +126,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 143,
+                "Rank": 142,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 611,
-                "Diff": "2",
-                "Antece": "Tobias Harris",
-                "Nota": "",
+                "Hoy": 3,
+                "Total": 613,
+                "Diff": "1",
+                "Antece": "LaMarcus Aldridge",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -630,25 +630,25 @@
             },
             {
                 "Rank": 231,
+                "Nombre": "Miles McBride",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "",
+                "Antece": "Latrell Sprewell",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 232,
                 "Nombre": "Naz Reid",
                 "Team": "MIN",
                 "Hoy": 0,
                 "Total": 62,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Miles McBride",
                 "Nota": "Mismo total",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 232,
-                "Nombre": "Miles McBride",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "1",
-                "Antece": "Naz Reid",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 248,
@@ -1347,9 +1347,9 @@
                 "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 284,
-                "Diff": "15",
+                "Hoy": 3,
+                "Total": 286,
+                "Diff": "13",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -1507,9 +1507,9 @@
                 "Rank": 6,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "5",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1519,7 +1519,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 58,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (10 rebounds today) has passed Dikembe Mutombo and is now ranked 58th all-time with 963 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950279323186_3167_collage_1777950279234214.png"
-            ],
-            "timestamp": 1777950284
-        },
         {
             "texto": "Rudy Gobert (4 steals today) has passed Blake Griffin, Luol Deng and Tobias Harris and is now ranked 215th all-time with 69 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778116242522752_5289_collage_1778116242454785.png"
             ],
             "timestamp": 1778116247
+        },
+        {
+            "texto": "Miles McBride (1 three-pointer today) has passed Nikola Mirotić and Obi Toppin and is now ranked 231st all-time with 62 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778116897746193_4248_collage_1778116897655223.png"
+            ],
+            "timestamp": 1778116908
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1173,
+    "total_notificaciones_historicas": 1174,
     "total_franchise_historicas": 582,
-    "cache_buster": 1778116802
+    "cache_buster": 1778116908
 }
