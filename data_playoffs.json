@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:16:14",
+    "ultima_actualizacion": "05:17:55",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 225,
+                "Rank": 224,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 1088,
-                "Diff": "",
-                "Antece": "Phil Chenier",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1089,
+                "Diff": "4",
+                "Antece": "Kiki Vandeweghe",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -755,9 +755,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 431,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 432,
+                "Diff": "7",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1741,13 +1741,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Jimmy Butler and is now ranked 59th all-time with 157 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025346176653_2316_collage_1778025346073879.png"
-            ],
-            "timestamp": 1778025351
-        },
-        {
             "texto": "📢HOF🏛️ Tobias Harris (9 points today) has passed Bob Lanier and is now ranked 182nd all-time with 1,247 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025634670313_2664_collage_1778025634567733.png"
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778123672000605_2074_collage_1778123671907469.png"
             ],
             "timestamp": 1778123677
+        },
+        {
+            "texto": "Rudy Gobert (5 points today) has passed Phil Chenier and is now ranked 224th all-time with 1,089 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778123869997548_5104_collage_1778123869891507.png"
+            ],
+            "timestamp": 1778123875
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1190,
+    "total_notificaciones_historicas": 1191,
     "total_franchise_historicas": 593,
-    "cache_buster": 1778123774
+    "cache_buster": 1778123875
 }
