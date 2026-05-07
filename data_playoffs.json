@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:45",
+    "ultima_actualizacion": "02:59:27",
     "tablas": {
         "pts": [
             {
@@ -107,11 +107,11 @@
                 "Rank": 225,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 456,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 457,
+                "Diff": "",
                 "Antece": "George Yardley",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -491,9 +491,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 456,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 457,
+                "Diff": "4",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley, Rui Hachimura and Voshon Lenard and is now ranked 212th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777948842422278_2982_collage_1777948842179356.png"
-            ],
-            "timestamp": 1777948849
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (3 steals today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 217th all-time with 68 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115460372003_9588_collage_1778115460286049.png"
             ],
             "timestamp": 1778115465
+        },
+        {
+            "texto": "Josh Hart (5 rebounds today) has passed Michael Finley and is now ranked 225th all-time with 457 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115561791152_5820_collage_1778115561690970.png"
+            ],
+            "timestamp": 1778115567
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1169,
+    "total_notificaciones_historicas": 1170,
     "total_franchise_historicas": 581,
-    "cache_buster": 1778115465
+    "cache_buster": 1778115567
 }
