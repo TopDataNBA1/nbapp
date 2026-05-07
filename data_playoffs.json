@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:23:12",
+    "ultima_actualizacion": "01:29:29",
     "tablas": {
         "pts": [
             {
@@ -41,9 +41,9 @@
                 "Rank": 54,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 994,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 995,
+                "Diff": "4",
                 "Antece": "Caldwell Jones",
                 "Nota": "",
                 "game_status": "playing"
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 230,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 231,
+                "Diff": "23",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -516,9 +516,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "7",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -625,13 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (2 rebounds today) has passed Josh Smith and is now ranked 178th all-time with 540 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028342732727_5417_collage_1778028342646584.png"
-            ],
-            "timestamp": 1778028348
-        },
         {
             "texto": "Luguentz Dort (1 three-pointer today) has passed Brook Lopez and Serge Ibaka and is now ranked 131st all-time with 95 in playoffs.",
             "foto": [
@@ -1324,6 +1317,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778195716112978_6930_collage_1778195716031486.png"
             ],
             "timestamp": 1778195721
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Julius Erving and is now ranked 54th all-time with 995 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196562930618_3342_collage_1778196562842661.png"
+            ],
+            "timestamp": 1778196568
         }
     ],
     "notificaciones_franchise": [
@@ -2028,7 +2028,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1201,
+    "total_notificaciones_historicas": 1202,
     "total_franchise_historicas": 606,
-    "cache_buster": 1778196192
+    "cache_buster": 1778196569
 }
