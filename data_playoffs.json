@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:50:02",
+    "ultima_actualizacion": "01:51:48",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 143,
+                "Rank": 141,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 614,
-                "Diff": "",
-                "Antece": "LaMarcus Aldridge",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 615,
+                "Diff": "4",
+                "Antece": "Tyson Chandler",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -143,13 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 189,
+                "Rank": 180,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 49,
+                "Hoy": 1,
+                "Total": 50,
                 "Diff": "",
-                "Antece": "Bam Adebayo",
+                "Antece": "Cedric Maxwell",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -414,9 +414,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "3",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -625,20 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 assist today) has passed Pascal Siakam and Rickey Green and is now ranked 149th all-time with 295 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028456487474_2412_collage_1778028456411292.png"
-            ],
-            "timestamp": 1778028461
-        },
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin, Rashard Lewis and Rudy Gobert and is now ranked 209th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028461921163_1381_collage_1778028461826768.png"
-            ],
-            "timestamp": 1778028467
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas, Karl-Anthony Towns, Kyle Lowry, Mikal Bridges and Shai Gilgeous-Alexander and is now ranked 188th all-time with 49 in playoffs.",
             "foto": [
@@ -1324,6 +1310,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197045463695_9917_collage_1778197045354729.png"
             ],
             "timestamp": 1778197051
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 rebounds today) has passed Bobby Jones and LaMarcus Aldridge and is now ranked 141st all-time with 615 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197897256039_5689_collage_1778197897178077.png"
+            ],
+            "timestamp": 1778197902
+        },
+        {
+            "texto": "Evan Mobley (1 block today) has passed Bam Adebayo, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 180th all-time with 50 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197903035990_2440_collage_1778197902958002.png"
+            ],
+            "timestamp": 1778197908
         }
     ],
     "notificaciones_franchise": [
@@ -2028,7 +2028,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1204,
+    "total_notificaciones_historicas": 1206,
     "total_franchise_historicas": 609,
-    "cache_buster": 1778197802
+    "cache_buster": 1778197908
 }
