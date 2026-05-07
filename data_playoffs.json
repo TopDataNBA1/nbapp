@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:13:39",
+    "ultima_actualizacion": "01:15:21",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 209,
+                "Rank": 205,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 70,
+                "Hoy": 1,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Ricky Pierce",
+                "Antece": "Pau Gasol",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -200,14 +200,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 51,
+                "Rank": 50,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 171,
-                "Diff": "1",
-                "Antece": "Nikola Jokić",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 172,
+                "Diff": "",
+                "Antece": "Danny Ainge",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 229,
-                "Diff": "25",
+                "Hoy": 1,
+                "Total": 230,
+                "Diff": "24",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -506,9 +506,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 110,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 111,
+                "Diff": "17",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -523,13 +523,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 22,
+                "Hoy": 1,
+                "Total": 23,
                 "Diff": "0",
-                "Antece": "John Long",
+                "Antece": "Chucky Atkins",
                 "game_status": "playing"
             },
             {
@@ -616,20 +616,15 @@
                 "Rank": 15,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jarrett Allen (2 blocks today) has passed Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 217th all-time with 45 in playoffs.",
-            "foto": [],
-            "timestamp": 1778027772
-        },
         {
             "texto": "Deandre Ayton (2 rebounds today) has passed Josh Smith and is now ranked 178th all-time with 540 in playoffs.",
             "foto": [
@@ -1322,16 +1317,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778195613017425_6419_collage_1778195612911458.png"
             ],
             "timestamp": 1778195619
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed Derrick White, Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 205th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778195716112978_6930_collage_1778195716031486.png"
+            ],
+            "timestamp": 1778195721
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Wendell Carter Jr. (5 rebounds today) has passed Marcin Gortat and is now ranked 10th in Magic history with 147 in playoffs.",
-            "foto": [],
-            "timestamp": 1777845962,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Nate Thurmond and is now ranked 12th in Cavaliers history with 31 in playoffs.",
             "foto": [],
@@ -2024,9 +2019,16 @@
             "timestamp": 1778195619,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed John Long and is now ranked 19th in Pistons history with 23 in playoffs.",
+            "foto": [],
+            "timestamp": 1778195721,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1200,
-    "total_franchise_historicas": 602,
-    "cache_buster": 1778195619
+    "total_notificaciones_historicas": 1201,
+    "total_franchise_historicas": 603,
+    "cache_buster": 1778195721
 }
