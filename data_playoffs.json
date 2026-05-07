@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:58",
+    "ultima_actualizacion": "03:36:38",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 77,
+                "Rank": 76,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 22,
-                "Total": 1916,
-                "Diff": "",
-                "Antece": "Chet Walker",
-                "Nota": "Mismo total",
+                "Hoy": 24,
+                "Total": 1918,
+                "Diff": "9",
+                "Antece": "Walt Frazier",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -126,14 +126,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 139,
+                "Rank": 140,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 619,
-                "Diff": "2",
-                "Antece": "Jack Coleman",
-                "Nota": "",
+                "Hoy": 8,
+                "Total": 618,
+                "Diff": "1",
+                "Antece": "Tyson Chandler",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1287,9 +1287,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1472,
-                "Diff": "455",
+                "Hoy": 24,
+                "Total": 1474,
+                "Diff": "453",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1347,9 +1347,9 @@
                 "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 292,
-                "Diff": "7",
+                "Hoy": 8,
+                "Total": 291,
+                "Diff": "8",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -1357,9 +1357,9 @@
                 "Rank": 23,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 196,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 197,
+                "Diff": "0",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 231st all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777952379829172_8195_collage_1777952379750216.png"
-            ],
-            "timestamp": 1777952385
-        },
         {
             "texto": "📢HOF🏛️ Anthony Edwards (3 assists today) has passed Jack Sikma and is now ranked 194th all-time with 245 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117499966805_7434_collage_1778117499859841.png"
             ],
             "timestamp": 1778117506
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (24 points today) has passed Chet Walker and is now ranked 76th all-time with 1,918 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117793287877_4998_collage_1778117793193900.png"
+            ],
+            "timestamp": 1778117798
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1178,
+    "total_notificaciones_historicas": 1179,
     "total_franchise_historicas": 583,
-    "cache_buster": 1778117698
+    "cache_buster": 1778117798
 }
