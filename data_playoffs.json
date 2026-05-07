@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:15:12",
+    "ultima_actualizacion": "04:21:31",
     "tablas": {
         "pts": [
             {
@@ -374,7 +374,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 198,
+                "Rank": 197,
+                "Nombre": "Jaden McDaniels",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "",
+                "Antece": "Deandre Ayton",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 199,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -385,7 +396,7 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 199,
+                "Rank": 200,
                 "Nombre": "Kyle Lowry",
                 "Team": "PHI",
                 "Hoy": 0,
@@ -394,17 +405,6 @@
                 "Antece": "Karl-Anthony Towns",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 201,
-                "Nombre": "Jaden McDaniels",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "",
-                "Antece": "Danny Schayes",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 226,
@@ -725,9 +725,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 598,
-                "Diff": "25",
+                "Hoy": 6,
+                "Total": 600,
+                "Diff": "23",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -737,7 +737,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 462,
-                "Diff": "136",
+                "Diff": "138",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1055,9 +1055,9 @@
                 "Rank": 2,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "41",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "40",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1067,7 +1067,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 46,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed Michael Porter Jr. and is now ranked 52nd all-time with 167 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778023082956871_3865_collage_1778023082865370.png"
-            ],
-            "timestamp": 1778023088
-        },
         {
             "texto": "Tobias Harris (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 216th all-time with 69 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778120107360337_5419_collage_1778120107274665.png"
             ],
             "timestamp": 1778120112
+        },
+        {
+            "texto": "📢HOF🏛️ Jaden McDaniels (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tobias Harris, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 197th all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778120485459436_8044_collage_1778120485349490.png"
+            ],
+            "timestamp": 1778120491
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1187,
+    "total_notificaciones_historicas": 1188,
     "total_franchise_historicas": 588,
-    "cache_buster": 1778120112
+    "cache_buster": 1778120491
 }
