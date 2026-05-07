@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:31:09",
+    "ultima_actualizacion": "01:32:46",
     "tablas": {
         "pts": [
             {
@@ -321,13 +321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 159,
-                "Diff": "1",
-                "Antece": "Kyrie Irving",
+                "Hoy": 2,
+                "Total": 161,
+                "Diff": "3",
+                "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
             {
@@ -336,8 +336,8 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 156,
-                "Diff": "3",
-                "Antece": "Donovan Mitchell",
+                "Diff": "4",
+                "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
             {
@@ -506,9 +506,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 111,
-                "Diff": "17",
+                "Hoy": 3,
+                "Total": 112,
+                "Diff": "16",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -1328,13 +1328,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Sam Merrill (1 three-pointer today) has passed Donyell Marshall and Matthew Dellavedova and is now ranked 16th in Cavaliers history with 33 in playoffs.",
-            "foto": [],
-            "timestamp": 1777853385,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "RJ Barrett (5 points today) has passed Anthony Parker and is now ranked 23rd in Raptors history with 151 in playoffs.",
             "foto": [],
             "timestamp": 1777853856,
@@ -2026,9 +2019,16 @@
             "timestamp": 1778196669,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (2 rebounds today) has passed Kyrie Irving and is now ranked 17th in Cavaliers history with 161 in playoffs.",
+            "foto": [],
+            "timestamp": 1778196766,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1203,
-    "total_franchise_historicas": 607,
-    "cache_buster": 1778196669
+    "total_franchise_historicas": 608,
+    "cache_buster": 1778196766
 }
