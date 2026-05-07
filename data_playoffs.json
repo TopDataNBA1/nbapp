@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:02:43",
+    "ultima_actualizacion": "03:04:24",
     "tablas": {
         "pts": [
             {
@@ -142,9 +142,9 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 405,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 406,
+                "Diff": "8",
                 "Antece": "Damian Lillard",
                 "Nota": "",
                 "game_status": "playing"
@@ -185,24 +185,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 168,
+                "Rank": 165,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 80,
+                "Hoy": 3,
+                "Total": 81,
                 "Diff": "",
-                "Antece": "Larry Hughes",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 190,
+                "Rank": 194,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 74,
+                "Hoy": 1,
+                "Total": 73,
                 "Diff": "",
-                "Antece": "Lou Williams",
+                "Antece": "Latrell Sprewell",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -461,9 +461,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 592,
-                "Diff": "14",
+                "Hoy": 17,
+                "Total": 594,
+                "Diff": "12",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 329,
-                "Diff": "63",
+                "Hoy": 5,
+                "Total": 330,
+                "Diff": "62",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -551,9 +551,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 57,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 58,
+                "Diff": "5",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -563,7 +563,7 @@
                 "Stat": "STL",
                 "Hoy": 2,
                 "Total": 55,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -581,9 +581,9 @@
                 "Rank": 18,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 36,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "2",
                 "Antece": "Trent Tucker",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mike Conley (9 points today) has passed Shawn Kemp and is now ranked 128th all-time with 1,523 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950172195683_1338_collage_1777950172102924.png"
-            ],
-            "timestamp": 1777950177
-        },
         {
             "texto": "📢🔝💯 Mike Conley (3 three-pointers today) has passed John Starks and is now ranked 44th all-time with 177 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115758064561_9501_collage_1778115757975600.png"
             ],
             "timestamp": 1778115763
+        },
+        {
+            "texto": "OG Anunoby (3 steals today) has passed Gar Heard, Larry Hughes and Tyrone Corbin and is now ranked 165th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115859750147_3665_collage_1778115859681181.png"
+            ],
+            "timestamp": 1778115864
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1171,
+    "total_notificaciones_historicas": 1172,
     "total_franchise_historicas": 581,
-    "cache_buster": 1778115763
+    "cache_buster": 1778115864
 }
