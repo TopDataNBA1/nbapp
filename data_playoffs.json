@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:00:12",
+    "ultima_actualizacion": "06:01:53",
     "tablas": {
         "pts": [
             {
@@ -574,14 +574,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 160,
+                "Rank": 159,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 81,
-                "Diff": "1",
-                "Antece": "Iman Shumpert",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 82,
+                "Diff": "2",
+                "Antece": "Vernon Maxwell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -785,9 +785,9 @@
                 "Rank": 22,
                 "Nombre": "Terrence Shannon Jr.",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 110,
-                "Diff": "5",
+                "Hoy": 12,
+                "Total": 111,
+                "Diff": "4",
                 "Antece": "Fred Hoiberg",
                 "game_status": "playing"
             },
@@ -797,7 +797,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 109,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Terrence Shannon Jr.",
                 "game_status": "playing"
             },
@@ -805,9 +805,9 @@
                 "Rank": 24,
                 "Nombre": "Kyle Anderson",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 102,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 104,
+                "Diff": "5",
                 "Antece": "Ayo Dosunmu",
                 "game_status": "playing"
             },
@@ -885,9 +885,9 @@
                 "Rank": 20,
                 "Nombre": "Kyle Anderson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "0",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -955,9 +955,9 @@
                 "Rank": 13,
                 "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "1",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -1255,9 +1255,9 @@
                 "Rank": 11,
                 "Nombre": "Kyle Anderson",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "1",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (7 points today) has passed Tony Parker and is now ranked 11th all-time with 4,046 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025925202939_9815_collage_1778025925118949.png"
-            ],
-            "timestamp": 1778025931
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Antonio Davis and Chris Bosh and is now ranked 78th all-time with 103 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778125753783971_3184_collage_1778125753722288.png"
             ],
             "timestamp": 1778125758
+        },
+        {
+            "texto": "📢HOF🏛️ Harrison Barnes (1 three-pointer today) has passed Isiah Thomas, Jason Williams, Raja Bell and Royce O'Neale and is now ranked 159th all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778126508219448_2176_collage_1778126508150030.png"
+            ],
+            "timestamp": 1778126513
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1193,
+    "total_notificaciones_historicas": 1194,
     "total_franchise_historicas": 595,
-    "cache_buster": 1778126412
+    "cache_buster": 1778126513
 }
