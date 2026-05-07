@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:24:42",
+    "ultima_actualizacion": "02:26:23",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 81,
+                "Rank": 78,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 15,
-                "Total": 1909,
-                "Diff": "",
-                "Antece": "Dwight Howard",
-                "Nota": "Mismo total",
+                "Hoy": 16,
+                "Total": 1910,
+                "Diff": "4",
+                "Antece": "Carmelo Anthony",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1465,
-                "Diff": "462",
+                "Hoy": 16,
+                "Total": 1466,
+                "Diff": "461",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Julius Randle (1 three-pointer today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 215th all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777947328542257_9519_collage_1777947328406303.png"
-            ],
-            "timestamp": 1777947336
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (2 steals today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson, Shai Gilgeous-Alexander and Steve Nash and is now ranked 222nd all-time with 67 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778113379137225_2849_collage_1778113379051264.png"
             ],
             "timestamp": 1778113384
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (16 points today) has passed Dwight Howard and is now ranked 78th all-time with 1,910 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778113577608992_6718_collage_1778113577518028.png"
+            ],
+            "timestamp": 1778113583
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1164,
+    "total_notificaciones_historicas": 1165,
     "total_franchise_historicas": 580,
-    "cache_buster": 1778113482
+    "cache_buster": 1778113583
 }
