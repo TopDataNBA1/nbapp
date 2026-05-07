@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:39:45",
+    "ultima_actualizacion": "05:42:58",
     "tablas": {
         "pts": [
             {
@@ -96,9 +96,9 @@
                 "Rank": 57,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 9,
-                "Total": 972,
-                "Diff": "13",
+                "Hoy": 10,
+                "Total": 973,
+                "Diff": "12",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -629,13 +629,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 226,
+                "Rank": 221,
                 "Nombre": "Naz Reid",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 63,
+                "Hoy": 2,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Keith Van Horn",
+                "Antece": "Charles Barkley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -745,9 +745,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 439,
-                "Diff": "35",
+                "Hoy": 8,
+                "Total": 442,
+                "Diff": "32",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -757,7 +757,7 @@
                 "Stat": "PTS",
                 "Hoy": 5,
                 "Total": 432,
-                "Diff": "7",
+                "Diff": "10",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -815,9 +815,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 420,
-                "Diff": "208",
+                "Hoy": 10,
+                "Total": 421,
+                "Diff": "207",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1145,9 +1145,9 @@
                 "Rank": 3,
                 "Nombre": "Naz Reid",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 63,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 64,
+                "Diff": "4",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1157,7 +1157,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 57,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (9 points today) has passed Bob Lanier and is now ranked 182nd all-time with 1,247 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778025634670313_2664_collage_1778025634567733.png"
-            ],
-            "timestamp": 1778025640
-        },
         {
             "texto": "Tobias Harris (1 three-pointer today) has passed Donte DiVincenzo, Joe Ingles, Toni Kukoč and Wesley Matthews and is now ranked 103rd all-time with 109 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778123869997548_5104_collage_1778123869891507.png"
             ],
             "timestamp": 1778123875
+        },
+        {
+            "texto": "Naz Reid (2 three-pointers today) has passed Austin Reaves, Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 221st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778125372820487_1896_collage_1778125372725518.png"
+            ],
+            "timestamp": 1778125378
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1191,
+    "total_notificaciones_historicas": 1192,
     "total_franchise_historicas": 594,
-    "cache_buster": 1778125185
+    "cache_buster": 1778125378
 }
