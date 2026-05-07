@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:36",
+    "ultima_actualizacion": "02:21:17",
     "tablas": {
         "pts": [
             {
@@ -104,14 +104,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 227,
+                "Rank": 225,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 455,
-                "Diff": "",
-                "Antece": "Aaron Gordon",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 456,
+                "Diff": "1",
+                "Antece": "George Yardley",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -491,9 +491,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 455,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 456,
+                "Diff": "5",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Anthony Edwards (1 three-pointer today) has passed Rashard Lewis and is now ranked 69th all-time with 139 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777946900447174_7437_collage_1777946900195251.png"
-            ],
-            "timestamp": 1777946908
-        },
         {
             "texto": "Miles McBride (2 three-pointers today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 231st all-time with 61 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778112887706590_3363_collage_1778112887593618.png"
             ],
             "timestamp": 1778112893
+        },
+        {
+            "texto": "Josh Hart (4 rebounds today) has passed Aaron Gordon and is now ranked 225th all-time with 456 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778113271431492_8106_collage_1778113271339516.png"
+            ],
+            "timestamp": 1778113277
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1161,
+    "total_notificaciones_historicas": 1162,
     "total_franchise_historicas": 577,
-    "cache_buster": 1778113176
+    "cache_buster": 1778113277
 }
