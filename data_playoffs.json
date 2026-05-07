@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:19:28",
+    "ultima_actualizacion": "06:21:10",
     "tablas": {
         "pts": [
             {
@@ -519,7 +519,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 103,
+                "Rank": 102,
+                "Nombre": "Joe Ingles",
+                "Team": "MIN",
+                "Hoy": 2,
+                "Total": 110,
+                "Diff": "1",
+                "Antece": "John Stockton",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 104,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
                 "Hoy": 1,
@@ -528,17 +539,6 @@
                 "Antece": "Tim Hardaway",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 104,
-                "Nombre": "Joe Ingles",
-                "Team": "MIN",
-                "Hoy": 1,
-                "Total": 109,
-                "Diff": "1",
-                "Antece": "Tyrese Maxey",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 106,
@@ -923,16 +923,26 @@
             },
             {
                 "Rank": 10,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 67,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 68,
+                "Diff": "2",
                 "Antece": "Sam Cassell",
                 "game_status": "playing"
             },
             {
                 "Rank": 11,
+                "Nombre": "Rudy Gobert",
+                "Stat": "AST",
+                "Hoy": 1,
+                "Total": 67,
+                "Diff": "1",
+                "Antece": "Kyle Anderson",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 12,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
                 "Hoy": 4,
@@ -942,23 +952,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
-                "Nombre": "Kyle Anderson",
-                "Stat": "AST",
-                "Hoy": 3,
-                "Total": 67,
-                "Diff": "0",
-                "Antece": "Jaden McDaniels",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 13,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 66,
                 "Diff": "1",
-                "Antece": "Kyle Anderson",
+                "Antece": "Jaden McDaniels",
                 "game_status": "inactive"
             },
             {
@@ -1741,13 +1741,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (6 rebounds today) has passed Karl-Anthony Towns and Pascal Siakam and is now ranked 142nd all-time with 611 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778026425248527_6556_collage_1778026425157579.png"
-            ],
-            "timestamp": 1778026430
-        },
-        {
             "texto": "📢🔝💯 Duncan Robinson (4 three-pointers today) has passed Bruce Bowen and is now ranked 51st all-time with 170 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778027441694348_2440_collage_1778027441601198.png"
@@ -2437,16 +2430,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127562135446_6409_collage_1778127562035475.png"
             ],
             "timestamp": 1778127568
+        },
+        {
+            "texto": "Joe Ingles (2 three-pointers today) has passed Tobias Harris and is now ranked 102nd all-time with 110 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127664683187_4255_collage_1778127664584024.png"
+            ],
+            "timestamp": 1778127670
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Anthony Black (5 steals today) has passed Courtney Lee and is now ranked 18th in Magic history with 20 in playoffs.",
-            "foto": [],
-            "timestamp": 1777845388,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Cade Cunningham (11 assists today) has passed Dave Bing and is now ranked 13th in Pistons history with 101 in playoffs.",
             "foto": [],
@@ -3139,9 +3132,16 @@
             "timestamp": 1778127568,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Kyle Anderson (4 assists today) has passed Rudy Gobert and is now ranked 10th in Timberwolves history with 68 in playoffs.",
+            "foto": [],
+            "timestamp": 1778127670,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1197,
-    "total_franchise_historicas": 599,
-    "cache_buster": 1778127568
+    "total_notificaciones_historicas": 1198,
+    "total_franchise_historicas": 600,
+    "cache_buster": 1778127670
 }
