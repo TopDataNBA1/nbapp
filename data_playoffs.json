@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:35",
+    "ultima_actualizacion": "03:10:47",
     "tablas": {
         "pts": [
             {
@@ -197,9 +197,9 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 406,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 407,
+                "Diff": "7",
                 "Antece": "Damian Lillard",
                 "Nota": "",
                 "game_status": "playing"
@@ -262,13 +262,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 165,
+                "Rank": 163,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 81,
+                "Hoy": 4,
+                "Total": 82,
                 "Diff": "",
-                "Antece": "Hedo Türkoğlu",
+                "Antece": "Kyle Korver",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -511,11 +511,11 @@
                 "Rank": 88,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 121,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 122,
+                "Diff": "",
                 "Antece": "Jeff Hornacek",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1297,9 +1297,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 594,
-                "Diff": "12",
+                "Hoy": 22,
+                "Total": 599,
+                "Diff": "7",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -1357,9 +1357,9 @@
                 "Rank": 23,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 193,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 195,
+                "Diff": "2",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1367,9 +1367,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 330,
-                "Diff": "62",
+                "Hoy": 6,
+                "Total": 331,
+                "Diff": "61",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1387,9 +1387,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 58,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 59,
+                "Diff": "4",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1399,7 +1399,7 @@
                 "Stat": "STL",
                 "Hoy": 2,
                 "Total": 55,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1497,9 +1497,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 77,
-                "Diff": "23",
+                "Hoy": 2,
+                "Total": 78,
+                "Diff": "22",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1740,13 +1740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Mike Conley (3 three-pointers today) has passed John Starks and is now ranked 44th all-time with 177 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1777950178131365_1737_collage_1777950178025416.png"
-            ],
-            "timestamp": 1777950183
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (10 rebounds today) has passed Dikembe Mutombo and is now ranked 58th all-time with 963 in playoffs.",
             "foto": [
@@ -2437,6 +2430,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115859750147_3665_collage_1778115859681181.png"
             ],
             "timestamp": 1778115864
+        },
+        {
+            "texto": "OG Anunoby (4 steals today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 163rd all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778116242522752_5289_collage_1778116242454785.png"
+            ],
+            "timestamp": 1778116247
         }
     ],
     "notificaciones_franchise": [
@@ -3141,7 +3141,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1172,
+    "total_notificaciones_historicas": 1173,
     "total_franchise_historicas": 582,
-    "cache_buster": 1778116055
+    "cache_buster": 1778116247
 }
