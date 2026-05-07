@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:32:46",
+    "ultima_actualizacion": "01:37:31",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 70,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 1974,
-                "Diff": "26",
+                "Hoy": 8,
+                "Total": 1976,
+                "Diff": "24",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -84,14 +84,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 159,
+                "Rank": 158,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 284,
-                "Diff": "",
-                "Antece": "Bobby Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 285,
+                "Diff": "1",
+                "Antece": "Vlade Divac",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 869,
-                "Diff": "97",
+                "Hoy": 8,
+                "Total": 871,
+                "Diff": "95",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 519,
-                "Diff": "40",
+                "Hoy": 2,
+                "Total": 521,
+                "Diff": "38",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -391,13 +391,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 28,
-                "Diff": "0",
-                "Antece": "Mike Sanders",
+                "Hoy": 2,
+                "Total": 29,
+                "Diff": "1",
+                "Antece": "Larry Nance",
                 "game_status": "playing"
             },
             {
@@ -625,13 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart today surpasses Detlef Schrempf and now ranked 117th all time with 115 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028354217720_5457_collage_1778028354108435.png"
-            ],
-            "timestamp": 1778028359
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 assist today) has passed Pascal Siakam and Rickey Green and is now ranked 149th all-time with 295 in playoffs.",
             "foto": [
@@ -1324,16 +1317,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196664621809_9174_collage_1778196664557845.png"
             ],
             "timestamp": 1778196669
+        },
+        {
+            "texto": "📢HOF🏛️ Dennis Schröder (1 assist today) has passed Bobby Jones and is now ranked 158th all-time with 285 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197045463695_9917_collage_1778197045354729.png"
+            ],
+            "timestamp": 1778197051
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "RJ Barrett (5 points today) has passed Anthony Parker and is now ranked 23rd in Raptors history with 151 in playoffs.",
-            "foto": [],
-            "timestamp": 1777853856,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Jamal Shead (2 assists today) has passed Jonas Valančiūnas and is now ranked 23rd in Raptors history with 30 in playoffs.",
             "foto": [],
@@ -2026,9 +2019,16 @@
             "timestamp": 1778196766,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 steals today) has passed Mike Sanders and is now ranked 15th in Cavaliers history with 29 in playoffs.",
+            "foto": [],
+            "timestamp": 1778197051,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1203,
-    "total_franchise_historicas": 608,
-    "cache_buster": 1778196766
+    "total_notificaciones_historicas": 1204,
+    "total_franchise_historicas": 609,
+    "cache_buster": 1778197051
 }
