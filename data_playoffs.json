@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:29:29",
+    "ultima_actualizacion": "01:31:09",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 205,
+                "Rank": 202,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 71,
+                "Hoy": 2,
+                "Total": 72,
                 "Diff": "",
-                "Antece": "Pau Gasol",
+                "Antece": "Nick Anderson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -523,13 +523,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 23,
-                "Diff": "0",
-                "Antece": "Chucky Atkins",
+                "Hoy": 2,
+                "Total": 24,
+                "Diff": "1",
+                "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
             {
@@ -625,13 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luguentz Dort (1 three-pointer today) has passed Brook Lopez and Serge Ibaka and is now ranked 131st all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028348648290_4571_collage_1778028348571932.png"
-            ],
-            "timestamp": 1778028353
-        },
         {
             "texto": "Marcus Smart today surpasses Detlef Schrempf and now ranked 117th all time with 115 games in playoffs",
             "foto": [
@@ -1324,16 +1317,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196562930618_3342_collage_1778196562842661.png"
             ],
             "timestamp": 1778196568
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 202nd all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196664621809_9174_collage_1778196664557845.png"
+            ],
+            "timestamp": 1778196669
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Donovan Mitchell (3 points today) has passed Mark Price and is now ranked 4th in Cavaliers history with 821 in playoffs.",
-            "foto": [],
-            "timestamp": 1777853188,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Sam Merrill (1 three-pointer today) has passed Donyell Marshall and Matthew Dellavedova and is now ranked 16th in Cavaliers history with 33 in playoffs.",
             "foto": [],
@@ -2026,9 +2019,16 @@
             "timestamp": 1778196096,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (2 steals today) has passed Chucky Atkins and is now ranked 18th in Pistons history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1778196669,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1202,
-    "total_franchise_historicas": 606,
-    "cache_buster": 1778196569
+    "total_notificaciones_historicas": 1203,
+    "total_franchise_historicas": 607,
+    "cache_buster": 1778196669
 }
