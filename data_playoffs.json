@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:56:35",
+    "ultima_actualizacion": "02:58:16",
     "tablas": {
         "pts": [
             {
@@ -165,13 +165,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 221,
+                "Rank": 217,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 44,
+                "Hoy": 1,
+                "Total": 45,
                 "Diff": "",
-                "Antece": "Isaiah Hartenstein",
+                "Antece": "Chris Mullin",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -421,13 +421,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "0",
-                "Antece": "Kevin Love",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "4",
+                "Antece": "Timofey Mozgov",
                 "game_status": "playing"
             },
             {
@@ -496,9 +496,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 411,
-                "Diff": "3",
+                "Hoy": 13,
+                "Total": 413,
+                "Diff": "1",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -625,13 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (1 three-pointer today) has passed Kirk Hinrich and Tim Hardaway Jr. and is now ranked 136th all-time with 93 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029463604882_5996_collage_1778029463532471.png"
-            ],
-            "timestamp": 1778029468
-        },
         {
             "texto": "Shai Gilgeous-Alexander (5 points today) has passed Mike Bibby and is now ranked 172nd all-time with 1,326 in playoffs.",
             "foto": [
@@ -1324,16 +1317,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778201229949597_9785_collage_1778201229863645.png"
             ],
             "timestamp": 1778201235
+        },
+        {
+            "texto": "Jarrett Allen (1 block today) has passed Isaiah Hartenstein, Mason Plumlee, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 217th all-time with 45 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778201891071348_6504_collage_1778201890986375.png"
+            ],
+            "timestamp": 1778201896
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 📢HOF🏛️ Scottie Barnes (5 assists today) has passed Vince Carter and is now ranked 10th in Raptors history with 76 in playoffs.",
-            "foto": [],
-            "timestamp": 1777857623,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Ja'Kobe Walter (2 three-pointers today) has passed Greivis Vásquez and is now ranked 20th in Raptors history with 16 in playoffs.",
             "foto": [],
@@ -2026,9 +2019,16 @@
             "timestamp": 1778201795,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jarrett Allen (1 block today) has passed Kevin Love and is now ranked 10th in Cavaliers history with 35 in playoffs.",
+            "foto": [],
+            "timestamp": 1778201896,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1214,
-    "total_franchise_historicas": 613,
-    "cache_buster": 1778201795
+    "total_notificaciones_historicas": 1215,
+    "total_franchise_historicas": 614,
+    "cache_buster": 1778201896
 }
