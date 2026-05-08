@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:10:44",
+    "ultima_actualizacion": "05:12:26",
     "tablas": {
         "pts": [
             {
@@ -140,11 +140,11 @@
                 "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 496,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 497,
+                "Diff": "",
                 "Antece": "Andrew Bynum",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -352,14 +352,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 148,
+                "Rank": 145,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "",
-                "Antece": "Manu Ginóbili",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "1",
+                "Antece": "Rick Mahorn",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1344,13 +1344,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (18 points today) has passed Danny Green, Paul Westphal and Steve Smith and is now ranked 166th all-time with 1,339 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034612926116_5381_collage_1778034612859126.png"
-            ],
-            "timestamp": 1778034617
-        },
-        {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson and Steve Nash and is now ranked 223rd all-time with 67 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034713614298_5540_collage_1778034713522311.png"
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209839554000_4095_collage_1778209839478021.png"
             ],
             "timestamp": 1778209844
+        },
+        {
+            "texto": "Marcus Smart (1 block today) has passed Eddie Jones and Manu Ginóbili and is now ranked 145th all-time with 62 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209940342134_1778_collage_1778209940267162.png"
+            ],
+            "timestamp": 1778209945
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1241,
+    "total_notificaciones_historicas": 1242,
     "total_franchise_historicas": 626,
-    "cache_buster": 1778209844
+    "cache_buster": 1778209946
 }
