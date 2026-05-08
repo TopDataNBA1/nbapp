@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "01:14:26",
+    "ultima_actualizacion": "01:16:07",
     "tablas": {
         "pts": [
             {
                 "Rank": 45,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 2577,
-                "Diff": "24",
+                "Hoy": 5,
+                "Total": 2579,
+                "Diff": "22",
                 "Antece": "Kevin Garnett",
                 "Nota": "",
                 "game_status": "playing"
@@ -107,9 +107,9 @@
                 "Rank": 221,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 460,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 461,
+                "Diff": "2",
                 "Antece": "Peja Stojaković",
                 "Nota": "",
                 "game_status": "playing"
@@ -150,13 +150,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 238,
+                "Rank": 237,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 212,
+                "Hoy": 2,
+                "Total": 213,
                 "Diff": "",
-                "Antece": "Chet Walker",
+                "Antece": "Calvin Murphy",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -471,9 +471,9 @@
                 "Rank": 19,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 585,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 587,
+                "Diff": "2",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 460,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 461,
+                "Diff": "0",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -770,13 +770,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 212,
-                "Diff": "0",
-                "Antece": "Charles Barkley",
+                "Hoy": 2,
+                "Total": 213,
+                "Diff": "3",
+                "Antece": "Larry Costello",
                 "game_status": "playing"
             },
             {
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (9 points today) has passed Danny Ainge and is now ranked 82nd all-time with 1,903 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778111450362893_8418_collage_1778111450260926.png"
-            ],
-            "timestamp": 1778111456
-        },
         {
             "texto": "Karl-Anthony Towns (9 points today) has passed Archie Clark and is now ranked 210th all-time with 1,127 in playoffs.",
             "foto": [
@@ -1591,16 +1584,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282060617038_9761_collage_1778282060538924.png"
             ],
             "timestamp": 1778282066
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (2 assists today) has passed Chet Walker and is now ranked 237th all-time with 213 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282162289317_9182_collage_1778282162211195.png"
+            ],
+            "timestamp": 1778282167
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (4 rebounds today) has passed Jerry Lucas and is now ranked 15th in Knicks history with 281 in playoffs.",
-            "foto": [],
-            "timestamp": 1777943629,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (11 points today) has passed Red Kerr and is now ranked 14th in 76ers history with 929 in playoffs.",
             "foto": [],
@@ -2293,9 +2286,16 @@
             "timestamp": 1778282066,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (2 assists today) has passed Charles Barkley and is now ranked 15th in 76ers history with 213 in playoffs.",
+            "foto": [],
+            "timestamp": 1778282167,
+            "team": "PHI",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1256,
-    "total_franchise_historicas": 635,
-    "cache_buster": 1778282066
+    "total_notificaciones_historicas": 1257,
+    "total_franchise_historicas": 636,
+    "cache_buster": 1778282167
 }
