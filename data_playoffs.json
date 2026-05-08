@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "05:52:32",
+    "ultima_actualizacion": "05:57:17",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 19,
-                "Total": 8474,
-                "Diff": "526",
+                "Hoy": 21,
+                "Total": 8476,
+                "Diff": "524",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 165,
+                "Rank": 164,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 15,
-                "Total": 1354,
-                "Diff": "",
-                "Antece": "Bill Laimbeer",
-                "Nota": "Mismo total",
+                "Hoy": 17,
+                "Total": 1356,
+                "Diff": "2",
+                "Antece": "Willis Reed",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -1002,9 +1002,9 @@
                 "Rank": 12,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1563,
-                "Diff": "18",
+                "Hoy": 21,
+                "Total": 1565,
+                "Diff": "16",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1272,
-                "Diff": "114",
+                "Hoy": 17,
+                "Total": 1274,
+                "Diff": "112",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1104,9 +1104,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 612,
-                "Diff": "41",
+                "Hoy": 17,
+                "Total": 615,
+                "Diff": "38",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1261,13 +1261,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Detlef Schrempf",
+                "Hoy": 3,
+                "Total": 52,
+                "Diff": "2",
+                "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
             {
@@ -1277,7 +1277,7 @@
                 "Hoy": 0,
                 "Total": 47,
                 "Diff": "4",
-                "Antece": "Chet Holmgren",
+                "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
             {
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (1 rebound today) has passed Tyrone Hill and is now ranked 227th all-time with 453 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109995574458_8403_collage_1778109995454517.png"
-            ],
-            "timestamp": 1778110000
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Alex Caruso, Antoine Walker, Calvin Murphy, Dale Davis and Tom Henderson and is now ranked 168th all-time with 80 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212346675796_5806_collage_1778212346588838.png"
             ],
             "timestamp": 1778212352
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (17 points today) has passed Bill Laimbeer and is now ranked 164th all-time with 1,356 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212631387033_7983_collage_1778212631295048.png"
+            ],
+            "timestamp": 1778212636
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Karl-Anthony Towns (1 block today) has passed Herb Williams and is now ranked 13th in Knicks history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1777940457,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Mikal Bridges and is now ranked 12th in Knicks history with 35 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778212055,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (3 three-pointers today) has passed Detlef Schrempf and is now ranked 11th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1778212636,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1250,
-    "total_franchise_historicas": 631,
-    "cache_buster": 1778212352
+    "total_notificaciones_historicas": 1251,
+    "total_franchise_historicas": 632,
+    "cache_buster": 1778212637
 }
