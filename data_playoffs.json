@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:39:25",
+    "ultima_actualizacion": "01:44:09",
     "tablas": {
         "pts": [
             {
@@ -150,14 +150,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 235,
+                "Rank": 232,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 214,
-                "Diff": "",
-                "Antece": "Jerry Lucas",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 215,
+                "Diff": "1",
+                "Antece": "Keith Erickson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -753,9 +753,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 959,
-                "Diff": "41",
+                "Hoy": 4,
+                "Total": 961,
+                "Diff": "39",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -773,9 +773,9 @@
                 "Rank": 15,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 214,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 215,
+                "Diff": "1",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -803,9 +803,9 @@
                 "Rank": 18,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 42,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 41,
+                "Diff": "6",
                 "Antece": "Henry Bibby",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Patrick Beverley and Rick Fox and is now ranked 149th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778114876436774_2956_collage_1778114876357813.png"
-            ],
-            "timestamp": 1778114881
-        },
         {
             "texto": "Karl-Anthony Towns (15 points today) has passed Mychal Thompson and is now ranked 209th all-time with 1,133 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283560007434_7676_collage_1778283559929314.png"
             ],
             "timestamp": 1778283565
+        },
+        {
+            "texto": "📢HOF🏛️ Joel Embiid (4 assists today) has passed Anthony Mason, Jerry Lucas and Richie Guerin and is now ranked 232nd all-time with 215 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283844129284_9162_collage_1778283844066787.png"
+            ],
+            "timestamp": 1778283849
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1265,
+    "total_notificaciones_historicas": 1266,
     "total_franchise_historicas": 642,
-    "cache_buster": 1778283565
+    "cache_buster": 1778283849
 }
