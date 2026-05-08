@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:04:28",
+    "ultima_actualizacion": "05:10:44",
     "tablas": {
         "pts": [
             {
@@ -519,13 +519,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 128,
+                "Rank": 125,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 96,
+                "Hoy": 1,
+                "Total": 97,
                 "Diff": "",
-                "Antece": "Derek Harper",
+                "Antece": "Desmond Bane",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1134,9 +1134,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 220,
-                "Diff": "12",
+                "Hoy": 7,
+                "Total": 222,
+                "Diff": "10",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1234,9 +1234,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 96,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 97,
+                "Diff": "3",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1246,7 +1246,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 67,
-                "Diff": "29",
+                "Diff": "30",
                 "Antece": "Luguentz Dort",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luguentz Dort (2 three-pointers today) has passed Dennis Scott, Jason Richardson, Mikal Bridges and Pascal Siakam and is now ranked 128th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033951868523_9521_collage_1778033951794548.png"
-            ],
-            "timestamp": 1778033959
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (18 points today) has passed Danny Green, Paul Westphal and Steve Smith and is now ranked 166th all-time with 1,339 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209367483563_8549_collage_1778209367383598.png"
             ],
             "timestamp": 1778209373
+        },
+        {
+            "texto": "Luguentz Dort (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209839554000_4095_collage_1778209839478021.png"
+            ],
+            "timestamp": 1778209844
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1240,
+    "total_notificaciones_historicas": 1241,
     "total_franchise_historicas": 626,
-    "cache_buster": 1778209468
+    "cache_buster": 1778209844
 }
