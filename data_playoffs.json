@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "05:45:54",
+    "ultima_actualizacion": "05:47:35",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 14,
-                "Total": 8469,
-                "Diff": "531",
+                "Hoy": 19,
+                "Total": 8474,
+                "Diff": "526",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -118,11 +118,11 @@
                 "Rank": 167,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 9,
-                "Total": 559,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 560,
+                "Diff": "1",
                 "Antece": "Arnie Risen",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -175,9 +175,9 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 568,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 569,
+                "Diff": "6",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -434,9 +434,9 @@
                 "Rank": 3,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 492,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 493,
+                "Diff": "7",
                 "Antece": "500",
                 "Nota": "",
                 "game_status": "playing"
@@ -447,7 +447,7 @@
                 "Team": "CLE",
                 "Hoy": 0,
                 "Total": 453,
-                "Diff": "39",
+                "Diff": "40",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "finished"
@@ -999,13 +999,13 @@
         ],
         "LAL": [
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1558,
-                "Diff": "3",
-                "Antece": "Pau Gasol",
+                "Hoy": 19,
+                "Total": 1563,
+                "Diff": "18",
+                "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
             {
@@ -1052,9 +1052,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 122,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 123,
+                "Diff": "1",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (3 points today) has passed Sean Elliott and is now ranked 214th all-time with 1,121 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109785771335_6309_collage_1778109785665369.png"
-            ],
-            "timestamp": 1778109791
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (1 steal today) has passed Damian Lillard, Dave Cowens and Gerald Henderson and is now ranked 173rd all-time with 79 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778211286162361_3206_collage_1778211286064389.png"
             ],
             "timestamp": 1778211291
+        },
+        {
+            "texto": "Deandre Ayton (10 rebounds today) has passed Happy Hairston and is now ranked 167th all-time with 560 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212049567464_2021_collage_1778212049474491.png"
+            ],
+            "timestamp": 1778212054
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Brunson today surpasses Connie Simmons and is now ranked 23rd in Knicks history with 49 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777940343,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (1 block today) has passed Herb Williams and is now ranked 13th in Knicks history with 23 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778211291,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ LeBron James (19 points today) has passed Pau Gasol and is now ranked 12th in Lakers history with 1,563 in playoffs.",
+            "foto": [],
+            "timestamp": 1778212055,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1247,
-    "total_franchise_historicas": 630,
-    "cache_buster": 1778211954
+    "total_notificaciones_historicas": 1248,
+    "total_franchise_historicas": 631,
+    "cache_buster": 1778212055
 }
