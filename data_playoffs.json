@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:59:52",
+    "ultima_actualizacion": "03:04:41",
     "tablas": {
         "pts": [
             {
@@ -87,9 +87,9 @@
                 "Rank": 155,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 287,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 288,
+                "Diff": "3",
                 "Antece": "Chris Webber",
                 "Nota": "",
                 "game_status": "playing"
@@ -143,13 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 175,
+                "Rank": 170,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 51,
+                "Hoy": 3,
+                "Total": 52,
                 "Diff": "",
-                "Antece": "Alvin Scott",
+                "Antece": "Dan Majerle",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -414,9 +414,9 @@
                 "Rank": 6,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 51,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 52,
+                "Diff": "1",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -625,20 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (5 points today) has passed Mike Bibby and is now ranked 172nd all-time with 1,326 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029660168821_8240_collage_1778029660075851.png"
-            ],
-            "timestamp": 1778029665
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Vince Carter and is now ranked 149th all-time with 296 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778029666003095_4715_collage_1778029665913795.png"
-            ],
-            "timestamp": 1778029671
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas, Karl-Anthony Towns, Kyle Lowry and Mikal Bridges and is now ranked 192nd all-time with 49 in playoffs.",
             "foto": [
@@ -1324,6 +1310,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778201891071348_6504_collage_1778201890986375.png"
             ],
             "timestamp": 1778201896
+        },
+        {
+            "texto": "Dennis Schröder (4 assists today) has passed Hedo Türkoğlu and is now ranked 155th all-time with 288 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778202270547444_9653_collage_1778202270459487.png"
+            ],
+            "timestamp": 1778202276
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (3 blocks today) has passed Alvin Scott, George Gervin, Kurt Thomas and Nate Thurmond and is now ranked 170th all-time with 52 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778202276663226_6313_collage_1778202276587262.png"
+            ],
+            "timestamp": 1778202281
         }
     ],
     "notificaciones_franchise": [
@@ -2028,7 +2028,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1215,
+    "total_notificaciones_historicas": 1217,
     "total_franchise_historicas": 614,
-    "cache_buster": 1778201992
+    "cache_buster": 1778202281
 }
