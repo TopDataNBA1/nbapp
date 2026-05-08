@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:25:07",
+    "ultima_actualizacion": "04:26:47",
     "tablas": {
         "pts": [
             {
@@ -140,11 +140,11 @@
                 "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 496,
-                "Diff": "1",
+                "Hoy": 0,
+                "Total": 495,
+                "Diff": "2",
                 "Antece": "Andrew Bynum",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -574,13 +574,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 224,
+                "Rank": 221,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 63,
+                "Hoy": 1,
+                "Total": 64,
                 "Diff": "1",
-                "Antece": "Richard Jefferson",
+                "Antece": "Voshon Lenard",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1059,13 +1059,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "0",
-                "Antece": "Sasha Vujačić",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "18",
+                "Antece": "Rick Fox",
                 "game_status": "playing"
             },
             {
@@ -1075,7 +1075,7 @@
                 "Hoy": 2,
                 "Total": 61,
                 "Diff": "2",
-                "Antece": "Austin Reaves",
+                "Antece": "Sasha Vujačić",
                 "game_status": "playing"
             }
         ],
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (4 rebounds today) has passed Frank Ramsey and is now ranked 209th all-time with 495 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033261578059_7230_collage_1778033261485090.png"
-            ],
-            "timestamp": 1778033266
-        },
         {
             "texto": "Rui Hachimura (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley and Voshon Lenard and is now ranked 214th all-time with 66 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206815628346_9378_collage_1778206815553389.png"
             ],
             "timestamp": 1778206821
+        },
+        {
+            "texto": "Austin Reaves (1 three-pointer today) has passed Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 221st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207202218626_6136_collage_1778207202141664.png"
+            ],
+            "timestamp": 1778207207
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (2 steals today) has passed Larry Nance and is now ranked 13th in Cavaliers history with 31 in playoffs.",
-            "foto": [],
-            "timestamp": 1777861131,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Scottie Barnes (9 rebounds today) has passed Jerome Williams and is now ranked 20th in Raptors history with 79 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778206529,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Austin Reaves (1 three-pointer today) has passed Sasha Vujačić and is now ranked 8th in Lakers history with 64 in playoffs.",
+            "foto": [],
+            "timestamp": 1778207207,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1235,
-    "total_franchise_historicas": 624,
-    "cache_buster": 1778207107
+    "total_notificaciones_historicas": 1236,
+    "total_franchise_historicas": 625,
+    "cache_buster": 1778207207
 }
