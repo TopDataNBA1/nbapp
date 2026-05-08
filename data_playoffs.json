@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:25:25",
+    "ultima_actualizacion": "03:28:37",
     "tablas": {
         "pts": [
             {
@@ -69,14 +69,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 179,
+                "Rank": 178,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 19,
-                "Total": 1277,
-                "Diff": "1",
-                "Antece": "Bam Adebayo",
-                "Nota": "A tiro de 1",
+                "Hoy": 21,
+                "Total": 1279,
+                "Diff": "12",
+                "Antece": "Alonzo Mourning",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -96,11 +96,11 @@
                 "Rank": 54,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 998,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 999,
+                "Diff": "",
                 "Antece": "Caldwell Jones",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -688,9 +688,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 237,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 236,
+                "Diff": "18",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (18 points today) has passed Andrew Toney and is now ranked 180th all-time with 1,256 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031067930701_9337_collage_1778031067454436.png"
-            ],
-            "timestamp": 1778031075
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (23 points today) has passed Bob Dandridge and is now ranked 70th all-time with 1,968 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778203046576339_4514_collage_1778203046502371.png"
             ],
             "timestamp": 1778203052
+        },
+        {
+            "texto": "Tobias Harris (21 points today) has passed Bam Adebayo and is now ranked 178th all-time with 1,279 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778203712160035_5671_collage_1778203712063073.png"
+            ],
+            "timestamp": 1778203717
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1220,
+    "total_notificaciones_historicas": 1221,
     "total_franchise_historicas": 619,
-    "cache_buster": 1778203525
+    "cache_buster": 1778203717
 }
