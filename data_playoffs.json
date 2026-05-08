@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:25:10",
+    "ultima_actualizacion": "05:26:50",
     "tablas": {
         "pts": [
             {
@@ -284,14 +284,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 167,
+                "Rank": 165,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "1",
-                "Antece": "Paul Silas",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "",
+                "Antece": "Aaron McKie",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -352,14 +352,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 145,
+                "Rank": 148,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 62,
-                "Diff": "1",
-                "Antece": "Rick Mahorn",
-                "Nota": "A tiro de 1",
+                "Hoy": 0,
+                "Total": 61,
+                "Diff": "",
+                "Antece": "Manu Ginóbili",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1134,9 +1134,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 223,
-                "Diff": "9",
+                "Hoy": 9,
+                "Total": 224,
+                "Diff": "8",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1182,23 +1182,23 @@
             },
             {
                 "Rank": 17,
+                "Nombre": "Alex Caruso",
+                "Stat": "STL",
+                "Hoy": 2,
+                "Total": 52,
+                "Diff": "0",
+                "Antece": "Nick Collison",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 18,
                 "Nombre": "Jalen Williams",
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 51,
                 "Diff": "1",
-                "Antece": "Nick Collison",
+                "Antece": "Alex Caruso",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 18,
-                "Nombre": "Alex Caruso",
-                "Stat": "STL",
-                "Hoy": 1,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Jalen Williams",
-                "game_status": "playing"
             },
             {
                 "Rank": 20,
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rui Hachimura (3 three-pointers today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 207th all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778035936743037_9325_collage_1778035936681057.png"
-            ],
-            "timestamp": 1778035941
-        },
         {
             "texto": "Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 220th all-time with 44 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778210705693556_1091_collage_1778210705628579.png"
             ],
             "timestamp": 1778210710
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Gar Heard, Larry Hughes and Tyrone Corbin and is now ranked 165th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778210806137665_9568_collage_1778210806076684.png"
+            ],
+            "timestamp": 1778210810
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "RJ Barrett (23 points today) has passed Chris Childs and is now ranked 20th in Raptors history with 169 in playoffs.",
-            "foto": [],
-            "timestamp": 1777861509,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Josh Hart (1 steal today) has passed Greg Anthony and is now ranked 7th in Knicks history with 51 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778210423,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Jalen Williams and is now ranked 17th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1778210810,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1244,
-    "total_franchise_historicas": 627,
-    "cache_buster": 1778210710
+    "total_notificaciones_historicas": 1245,
+    "total_franchise_historicas": 628,
+    "cache_buster": 1778210810
 }
