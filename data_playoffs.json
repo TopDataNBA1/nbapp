@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:47:31",
+    "ultima_actualizacion": "03:49:24",
     "tablas": {
         "pts": [
             {
@@ -251,14 +251,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 51,
+                "Rank": 50,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 164,
-                "Diff": "",
-                "Antece": "Dan Majerle",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 165,
+                "Diff": "3",
+                "Antece": "Tim Duncan",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -374,13 +374,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 186,
+                "Rank": 179,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 50,
+                "Hoy": 1,
+                "Total": 51,
                 "Diff": "",
-                "Antece": "Jrue Holiday",
+                "Antece": "Nate Thurmond",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -620,14 +620,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 118,
+                "Rank": 114,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 115,
-                "Diff": "",
-                "Antece": "Jae Crowder",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 116,
+                "Diff": "2",
+                "Antece": "David West",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
@@ -1114,9 +1114,9 @@
                 "Rank": 15,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 317,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 319,
+                "Diff": "11",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1134,9 +1134,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 217,
-                "Diff": "15",
+                "Hoy": 3,
+                "Total": 218,
+                "Diff": "14",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1224,9 +1224,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "3",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -1321,13 +1321,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 45,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "0",
-                "Antece": "Derrick McKey",
+                "Antece": "Michael Cage",
                 "game_status": "playing"
             },
             {
@@ -1337,33 +1337,12 @@
                 "Hoy": 0,
                 "Total": 44,
                 "Diff": "1",
-                "Antece": "Shai Gilgeous-Alexander",
+                "Antece": "Derrick McKey",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (5 points today) has passed Vlade Divac and is now ranked 137th all-time with 1,470 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031187122344_5910_collage_1778031186910419.png"
-            ],
-            "timestamp": 1778031194
-        },
-        {
-            "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (4 three-pointers today) has passed Damian Lillard and is now ranked 25th all-time with 223 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031195512924_5507_collage_1778031195265011.png"
-            ],
-            "timestamp": 1778031204
-        },
-        {
-            "texto": "📢🔝💯 Marcus Smart (1 three-pointer today) has passed Jason Terry and is now ranked 27th all-time with 222 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031205216664_6411_collage_1778031204812805.png"
-            ],
-            "timestamp": 1778031214
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (12 points today) has passed Frank Ramsey and Marc Gasol and is now ranked 170th all-time with 1,333 in playoffs.",
             "foto": [
@@ -2042,16 +2021,30 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204566701453_9028_collage_1778204566610489.png"
             ],
             "timestamp": 1778204572
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Marcus Smart (1 steal today) has passed Dan Majerle and Ray Allen and is now ranked 50th all-time with 165 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204946534063_6673_collage_1778204946458073.png"
+            ],
+            "timestamp": 1778204951
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 179th all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204952281827_4791_collage_1778204952182878.png"
+            ],
+            "timestamp": 1778204958
+        },
+        {
+            "texto": "Marcus Smart today surpasses Jae Crowder and now ranked 114th all time with 116 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204958346455_6957_collage_1778204958253490.png"
+            ],
+            "timestamp": 1778204964
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Max Strus (9 points today) has passed Kyle Korver and is now ranked 23rd in Cavaliers history with 288 in playoffs.",
-            "foto": [],
-            "timestamp": 1777860649,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jamal Shead (5 assists today) has passed Charles Oakley and is now ranked 22nd in Raptors history with 33 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778204000,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander today surpasses Derrick McKey and is now ranked 22nd in Thunder history with 46 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778204964,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1222,
-    "total_franchise_historicas": 620,
-    "cache_buster": 1778204851
+    "total_notificaciones_historicas": 1225,
+    "total_franchise_historicas": 621,
+    "cache_buster": 1778204964
 }
