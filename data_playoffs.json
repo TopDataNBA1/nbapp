@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:50",
+    "ultima_actualizacion": "04:39:31",
     "tablas": {
         "pts": [
             {
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 197,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 70,
+                "Hoy": 3,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Al-Farouq Aminu",
+                "Antece": "Richard Hamilton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1072,9 +1072,9 @@
                 "Rank": 10,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 61,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 62,
+                "Diff": "1",
                 "Antece": "Sasha Vujačić",
                 "game_status": "playing"
             }
@@ -1124,9 +1124,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 250,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 251,
+                "Diff": "5",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Marcus Smart (6 assists today) has passed Avery Johnson and is now ranked 56th all-time with 563 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033647878150_9649_collage_1778033647791676.png"
-            ],
-            "timestamp": 1778033653
-        },
         {
             "texto": "Rui Hachimura (2 three-pointers today) has passed Jordan Poole, Julius Randle, Kerry Kittles and Landry Shamet and is now ranked 210th all-time with 67 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207582501766_4406_collage_1778207582431791.png"
             ],
             "timestamp": 1778207588
+        },
+        {
+            "texto": "Rui Hachimura (3 three-pointers today) has passed Al-Farouq Aminu and Trae Young and is now ranked 197th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207965889153_8876_collage_1778207965816188.png"
+            ],
+            "timestamp": 1778207971
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1237,
+    "total_notificaciones_historicas": 1238,
     "total_franchise_historicas": 626,
-    "cache_buster": 1778207870
+    "cache_buster": 1778207971
 }
