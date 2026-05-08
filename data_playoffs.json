@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:37:45",
+    "ultima_actualizacion": "01:39:25",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 113,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 1597,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 1599,
+                "Diff": "3",
                 "Antece": "Tayshaun Prince",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -142,9 +142,9 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 409,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 411,
+                "Diff": "3",
                 "Antece": "Damian Lillard",
                 "Nota": "",
                 "game_status": "playing"
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 211,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 66,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Kerry Kittles",
+                "Antece": "Eddie Johnson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -501,9 +501,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 308,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 309,
+                "Diff": "8",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 333,
-                "Diff": "59",
+                "Hoy": 4,
+                "Total": 335,
+                "Diff": "57",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1597,
-                "Diff": "133",
+                "Hoy": 4,
+                "Total": 1599,
+                "Diff": "131",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (16 points today) has passed Dwight Howard and is now ranked 78th all-time with 1,910 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778113577608992_6718_collage_1778113577518028.png"
-            ],
-            "timestamp": 1778113583
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Patrick Beverley and Rick Fox and is now ranked 149th all-time with 87 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283269185803_2266_collage_1778283269107689.png"
             ],
             "timestamp": 1778283274
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Austin Reaves, Jordan Poole, Julius Randle and Kerry Kittles and is now ranked 211th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283560007434_7676_collage_1778283559929314.png"
+            ],
+            "timestamp": 1778283565
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1264,
+    "total_notificaciones_historicas": 1265,
     "total_franchise_historicas": 642,
-    "cache_buster": 1778283465
+    "cache_buster": 1778283565
 }
