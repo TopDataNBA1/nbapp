@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:39:31",
+    "ultima_actualizacion": "04:44:16",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 165,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 8,
-                "Total": 1347,
-                "Diff": "7",
+                "Hoy": 11,
+                "Total": 1350,
+                "Diff": "4",
                 "Antece": "Bill Laimbeer",
                 "Nota": "",
                 "game_status": "playing"
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 2155,
-                "Diff": "191",
+                "Hoy": 5,
+                "Total": 2156,
+                "Diff": "190",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -541,7 +541,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 177,
+                "Rank": 175,
+                "Nombre": "Alex Caruso",
+                "Team": "OKC",
+                "Hoy": 1,
+                "Total": 76,
+                "Diff": "1",
+                "Antece": "Terry Rozier",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 178,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
                 "Hoy": 0,
@@ -549,17 +560,6 @@
                 "Diff": "",
                 "Antece": "Channing Frye",
                 "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 178,
-                "Nombre": "Alex Caruso",
-                "Team": "OKC",
-                "Hoy": 0,
-                "Total": 75,
-                "Diff": "1",
-                "Antece": "Shai Gilgeous-Alexander",
-                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1022,9 +1022,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 468,
-                "Diff": "39",
+                "Hoy": 5,
+                "Total": 469,
+                "Diff": "38",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1265,
-                "Diff": "121",
+                "Hoy": 11,
+                "Total": 1268,
+                "Diff": "118",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1284,9 +1284,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "0",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (2 three-pointers today) has passed Jordan Poole, Julius Randle, Kerry Kittles and Landry Shamet and is now ranked 210th all-time with 67 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033749892572_4711_collage_1778033749824567.png"
-            ],
-            "timestamp": 1778033754
-        },
         {
             "texto": "Shai Gilgeous-Alexander (16 points today) has passed David West and is now ranked 169th all-time with 1,337 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207965889153_8876_collage_1778207965816188.png"
             ],
             "timestamp": 1778207971
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778208250516179_6806_collage_1778208250421213.png"
+            ],
+            "timestamp": 1778208256
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1238,
+    "total_notificaciones_historicas": 1239,
     "total_franchise_historicas": 626,
-    "cache_buster": 1778207971
+    "cache_buster": 1778208256
 }
