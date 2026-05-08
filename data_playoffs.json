@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:18:36",
+    "ultima_actualizacion": "02:30:59",
     "tablas": {
         "pts": [
             {
@@ -76,9 +76,9 @@
                 "Rank": 125,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 327,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 328,
+                "Diff": "2",
                 "Antece": "Derrick Rose",
                 "Nota": "",
                 "game_status": "playing"
@@ -281,13 +281,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 325,
-                "Diff": "0",
-                "Antece": "Iman Shumpert",
+                "Hoy": 9,
+                "Total": 327,
+                "Diff": "8",
+                "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
             {
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 296,
+                "Diff": "9",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -344,9 +344,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 142,
-                "Diff": "22",
+                "Hoy": 2,
+                "Total": 143,
+                "Diff": "21",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -625,13 +625,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (3 three-pointers today) has passed Jason Terry and Marcus Smart and is now ranked 26th all-time with 222 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778028672671510_8202_collage_1778028672597931.png"
-            ],
-            "timestamp": 1778028677
-        },
         {
             "texto": "Dennis Schröder (3 assists today) has passed Charles Oakley and is now ranked 159th all-time with 284 in playoffs.",
             "foto": [
@@ -1324,16 +1317,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778199136160704_1207_collage_1778199136076732.png"
             ],
             "timestamp": 1778199141
+        },
+        {
+            "texto": "Donovan Mitchell (2 assists today) has passed Mark Price and is now ranked 125th all-time with 328 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778200253823692_8712_collage_1778200253726723.png"
+            ],
+            "timestamp": 1778200259
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Sam Merrill (2 three-pointers today) has passed Delonte West and is now ranked 15th in Cavaliers history with 34 in playoffs.",
-            "foto": [],
-            "timestamp": 1777854444,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "RJ Barrett (9 points today) has passed T.J. Ford and is now ranked 22nd in Raptors history with 155 in playoffs.",
             "foto": [],
@@ -2026,9 +2019,16 @@
             "timestamp": 1778199141,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (9 points today) has passed Iman Shumpert and is now ranked 19th in Cavaliers history with 327 in playoffs.",
+            "foto": [],
+            "timestamp": 1778200259,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1208,
-    "total_franchise_historicas": 610,
-    "cache_buster": 1778199516
+    "total_notificaciones_historicas": 1209,
+    "total_franchise_historicas": 611,
+    "cache_buster": 1778200259
 }
