@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:15:51",
+    "ultima_actualizacion": "03:17:32",
     "tablas": {
         "pts": [
             {
@@ -104,13 +104,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 141,
+                "Rank": 140,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 5,
-                "Total": 618,
+                "Hoy": 6,
+                "Total": 619,
                 "Diff": "1",
-                "Antece": "Tyson Chandler",
+                "Antece": "Karl-Anthony Towns",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -486,14 +486,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 46,
+                "Rank": 45,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 175,
-                "Diff": "1",
-                "Antece": "John Starks",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 176,
+                "Diff": "2",
+                "Antece": "Steve Nash",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -688,9 +688,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 235,
-                "Diff": "19",
+                "Hoy": 8,
+                "Total": 237,
+                "Diff": "17",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -950,9 +950,9 @@
                 "Rank": 21,
                 "Nombre": "Isaiah Stewart",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 15,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 16,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -978,22 +978,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Tobias Harris",
+                "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 28,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 29,
+                "Diff": "0",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Duncan Robinson",
+                "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 4,
+                "Hoy": 2,
                 "Total": 28,
-                "Diff": "0",
-                "Antece": "Tobias Harris",
+                "Diff": "1",
+                "Antece": "Duncan Robinson",
                 "game_status": "playing"
             }
         ],
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Chet Holmgren (1 block today) has passed Oliver Miller, Ron Harper and Tristan Thompson and is now ranked 116th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778030851278588_2457_collage_1778030851101594.png"
-            ],
-            "timestamp": 1778030861
-        },
         {
             "texto": "Tobias Harris (18 points today) has passed Andrew Toney and is now ranked 180th all-time with 1,256 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778202662978980_2199_collage_1778202662881004.png"
             ],
             "timestamp": 1778202669
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (5 three-pointers today) has passed George Hill and Kevin Love and is now ranked 45th all-time with 176 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778203046576339_4514_collage_1778203046502371.png"
+            ],
+            "timestamp": 1778203052
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (11 points today) has passed Larry Hughes and is now ranked 21st in Cavaliers history with 305 in playoffs.",
-            "foto": [],
-            "timestamp": 1777858288,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus (7 points today) has passed Campy Russell and is now ranked 24th in Cavaliers history with 286 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778202377,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Duncan Robinson (5 three-pointers today) has passed Tobias Harris and is now ranked 14th in Pistons history with 29 in playoffs.",
+            "foto": [],
+            "timestamp": 1778203052,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1219,
-    "total_franchise_historicas": 615,
-    "cache_buster": 1778202951
+    "total_notificaciones_historicas": 1220,
+    "total_franchise_historicas": 616,
+    "cache_buster": 1778203052
 }
