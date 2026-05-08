@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:08:44",
+    "ultima_actualizacion": "04:10:30",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 165,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 1344,
-                "Diff": "",
-                "Antece": "Rudy LaRusso",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 1346,
+                "Diff": "8",
+                "Antece": "Bill Laimbeer",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -175,9 +175,9 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 567,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 566,
+                "Diff": "9",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,13 +284,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 170,
+                "Rank": 167,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 79,
+                "Hoy": 1,
+                "Total": 80,
                 "Diff": "1",
-                "Antece": "Tyrone Corbin",
+                "Antece": "Paul Silas",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 1262,
-                "Diff": "124",
+                "Hoy": 7,
+                "Total": 1264,
+                "Diff": "122",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1194,9 +1194,9 @@
                 "Rank": 18,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -1343,20 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (8 points today) has passed Earl Monroe and is now ranked 136th all-time with 1,473 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031642512989_8717_collage_1778031642363042.png"
-            ],
-            "timestamp": 1778031648
-        },
-        {
-            "texto": "📢🔝💯 Marcus Smart (2 three-pointers today) has passed Damian Lillard and is now ranked 26th all-time with 223 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031648640884_7938_collage_1778031648535920.png"
-            ],
-            "timestamp": 1778031654
-        },
         {
             "texto": "Alex Caruso (1 three-pointer today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Nickeil Alexander-Walker and is now ranked 178th all-time with 75 in playoffs.",
             "foto": [
@@ -2042,6 +2028,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205465326275_4568_collage_1778205465232304.png"
             ],
             "timestamp": 1778205471
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (7 points today) has passed Rudy LaRusso and is now ranked 165th all-time with 1,346 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206219817743_2186_collage_1778206219725782.png"
+            ],
+            "timestamp": 1778206225
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Antoine Walker, Calvin Murphy, Dale Davis and Tom Henderson and is now ranked 167th all-time with 80 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206225458427_8152_collage_1778206225380438.png"
+            ],
+            "timestamp": 1778206230
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1229,
+    "total_notificaciones_historicas": 1231,
     "total_franchise_historicas": 622,
-    "cache_buster": 1778206124
+    "cache_buster": 1778206230
 }
