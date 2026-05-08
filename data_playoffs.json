@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:13:48",
+    "ultima_actualizacion": "04:15:29",
     "tablas": {
         "pts": [
             {
@@ -175,9 +175,9 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 566,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 567,
+                "Diff": "8",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 199,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 69,
+                "Hoy": 2,
+                "Total": 70,
                 "Diff": "",
-                "Antece": "Andrew Nembhard",
+                "Antece": "Al-Farouq Aminu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1069,13 +1069,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 60,
-                "Diff": "0",
-                "Antece": "Nick Van Exel",
+                "Hoy": 2,
+                "Total": 61,
+                "Diff": "2",
+                "Antece": "Austin Reaves",
                 "game_status": "playing"
             }
         ],
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (4 assists today) has passed Archie Clark, Fat Lever and Shaun Livingston and is now ranked 145th all-time with 298 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033053359465_7380_collage_1778033053296499.png"
-            ],
-            "timestamp": 1778033058
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 blocks today) has passed Bam Adebayo, Harvey Catchings, Nenê and Paul Pressey and is now ranked 185th all-time with 50 in playoffs.",
             "foto": [
@@ -2042,16 +2035,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206422740501_1037_collage_1778206422645488.png"
             ],
             "timestamp": 1778206427
+        },
+        {
+            "texto": "Rui Hachimura (2 three-pointers today) has passed Andrew Nembhard and is now ranked 199th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206523744759_3602_collage_1778206523658810.png"
+            ],
+            "timestamp": 1778206529
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Jamal Shead (6 assists today) has passed Chris Bosh and Antonio Davis and is now ranked 20th in Raptors history with 34 in playoffs.",
-            "foto": [],
-            "timestamp": 1777860840,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (2 steals today) has passed Larry Nance and is now ranked 13th in Cavaliers history with 31 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778206326,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Rui Hachimura (2 three-pointers today) has passed Nick Van Exel and is now ranked 10th in Lakers history with 61 in playoffs.",
+            "foto": [],
+            "timestamp": 1778206529,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1232,
-    "total_franchise_historicas": 623,
-    "cache_buster": 1778206428
+    "total_notificaciones_historicas": 1233,
+    "total_franchise_historicas": 624,
+    "cache_buster": 1778206529
 }
