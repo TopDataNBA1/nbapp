@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:47:35",
+    "ultima_actualizacion": "05:50:50",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 165,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 13,
-                "Total": 1352,
-                "Diff": "2",
+                "Hoy": 15,
+                "Total": 1354,
+                "Diff": "",
                 "Antece": "Bill Laimbeer",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 2156,
-                "Diff": "190",
+                "Hoy": 6,
+                "Total": 2157,
+                "Diff": "189",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -574,13 +574,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 211,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 65,
+                "Hoy": 3,
+                "Total": 66,
                 "Diff": "1",
-                "Antece": "Landry Shamet",
+                "Antece": "Eddie Johnson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1022,9 +1022,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 469,
-                "Diff": "38",
+                "Hoy": 6,
+                "Total": 470,
+                "Diff": "37",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1062,9 +1062,9 @@
                 "Rank": 8,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 65,
-                "Diff": "17",
+                "Hoy": 3,
+                "Total": 66,
+                "Diff": "16",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 1270,
-                "Diff": "116",
+                "Hoy": 15,
+                "Total": 1272,
+                "Diff": "114",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (1 steal today) has passed Damian Lillard, Dave Cowens and Gerald Henderson and is now ranked 173rd all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109888200953_9365_collage_1778109888133976.png"
-            ],
-            "timestamp": 1778109893
-        },
         {
             "texto": "Karl-Anthony Towns (1 rebound today) has passed Pascal Siakam and is now ranked 143rd all-time with 611 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212049567464_2021_collage_1778212049474491.png"
             ],
             "timestamp": 1778212054
+        },
+        {
+            "texto": "Austin Reaves (3 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley, Naz Reid and Voshon Lenard and is now ranked 211th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212243313391_4188_collage_1778212243229419.png"
+            ],
+            "timestamp": 1778212250
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1248,
+    "total_notificaciones_historicas": 1249,
     "total_franchise_historicas": 631,
-    "cache_buster": 1778212055
+    "cache_buster": 1778212250
 }
