@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:04",
+    "ultima_actualizacion": "03:57:51",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 2151,
-                "Diff": "195",
+                "Hoy": 1,
+                "Total": 2152,
+                "Diff": "194",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -407,13 +407,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 217,
+                "Rank": 209,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 45,
+                "Hoy": 2,
+                "Total": 46,
                 "Diff": "",
-                "Antece": "Chris Mullin",
+                "Antece": "A.C. Green",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -424,7 +424,7 @@
                 "Hoy": 1,
                 "Total": 45,
                 "Diff": "",
-                "Antece": "Isaiah Hartenstein",
+                "Antece": "Chris Mullin",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             }
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 207,
+                "Rank": 201,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Rajon Rondo",
+                "Antece": "Andrew Nembhard",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1022,9 +1022,9 @@
                 "Rank": 9,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 464,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 465,
+                "Diff": "0",
                 "Antece": "Norm Nixon",
                 "game_status": "playing"
             },
@@ -1069,13 +1069,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 59,
+                "Hoy": 1,
+                "Total": 60,
                 "Diff": "0",
-                "Antece": "Metta World Peace",
+                "Antece": "Nick Van Exel",
                 "game_status": "playing"
             }
         ],
@@ -1343,20 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Chet Holmgren (2 blocks today) has passed Charles Smith, Manute Bol and Raef LaFrentz and is now ranked 115th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031438492784_6543_collage_1778031438419807.png"
-            ],
-            "timestamp": 1778031443
-        },
-        {
-            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Detlef Schrempf and is now ranked 147th all-time with 297 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031540148711_3870_collage_1778031540021756.png"
-            ],
-            "timestamp": 1778031545
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart (8 points today) has passed Earl Monroe and is now ranked 136th all-time with 1,473 in playoffs.",
             "foto": [
@@ -2042,16 +2028,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205075849693_2460_collage_1778205075778714.png"
             ],
             "timestamp": 1778205081
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (2 blocks today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Jarrett Allen, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 209th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205459467991_5642_collage_1778205459368043.png"
+            ],
+            "timestamp": 1778205465
+        },
+        {
+            "texto": "Rui Hachimura (1 three-pointer today) has passed Andrew Wiggins, Derrick Rose, Joel Embiid, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 201st all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205465326275_4568_collage_1778205465232304.png"
+            ],
+            "timestamp": 1778205471
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jamal Shead (5 assists today) has passed Charles Oakley and is now ranked 22nd in Raptors history with 33 in playoffs.",
-            "foto": [],
-            "timestamp": 1777860745,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "RJ Barrett (21 points today) has passed Danny Green and is now ranked 21st in Raptors history with 167 in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778204964,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Rui Hachimura (1 three-pointer today) has passed Metta World Peace and is now ranked 11th in Lakers history with 60 in playoffs.",
+            "foto": [],
+            "timestamp": 1778205471,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1227,
-    "total_franchise_historicas": 621,
-    "cache_buster": 1778205364
+    "total_notificaciones_historicas": 1229,
+    "total_franchise_historicas": 622,
+    "cache_buster": 1778205471
 }
