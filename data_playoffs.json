@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:12:26",
+    "ultima_actualizacion": "05:14:06",
     "tablas": {
         "pts": [
             {
@@ -574,13 +574,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 221,
+                "Rank": 215,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 64,
+                "Hoy": 2,
+                "Total": 65,
                 "Diff": "1",
-                "Antece": "Voshon Lenard",
+                "Antece": "Landry Shamet",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1062,9 +1062,9 @@
                 "Rank": 8,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 64,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 65,
+                "Diff": "17",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1104,9 +1104,9 @@
                 "Rank": 17,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 606,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 608,
+                "Diff": "2",
                 "Antece": "Ricky Pierce",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 20,
                 "Nombre": "Luguentz Dort",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "1",
                 "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson and Steve Nash and is now ranked 223rd all-time with 67 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778034713614298_5540_collage_1778034713522311.png"
-            ],
-            "timestamp": 1778034718
-        },
         {
             "texto": "Marcus Smart (5 rebounds today) has passed Nat Clifton and is now ranked 209th all-time with 496 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209940342134_1778_collage_1778209940267162.png"
             ],
             "timestamp": 1778209945
+        },
+        {
+            "texto": "📢HOF🏛️ Austin Reaves (2 three-pointers today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 215th all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778210041781676_1623_collage_1778210041721656.png"
+            ],
+            "timestamp": 1778210046
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1242,
+    "total_notificaciones_historicas": 1243,
     "total_franchise_historicas": 626,
-    "cache_buster": 1778209946
+    "cache_buster": 1778210046
 }
