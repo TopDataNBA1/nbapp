@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:15:29",
+    "ultima_actualizacion": "04:20:21",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2676,
-                "Diff": "183",
+                "Hoy": 2,
+                "Total": 2677,
+                "Diff": "182",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -115,13 +115,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 174,
+                "Rank": 173,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 553,
+                "Hoy": 4,
+                "Total": 554,
                 "Diff": "",
-                "Antece": "Cedric Maxwell",
+                "Antece": "Clifford Robinson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -341,14 +341,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 113,
+                "Rank": 112,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "",
-                "Antece": "Antonio McDyess",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "1",
+                "Antece": "Thurl Bailey",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1012,9 +1012,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 554,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 555,
+                "Diff": "19",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1214,9 +1214,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "19",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1343,20 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 blocks today) has passed Bam Adebayo, Harvey Catchings, Nenê and Paul Pressey and is now ranked 185th all-time with 50 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033058347188_7792_collage_1778033058279211.png"
-            ],
-            "timestamp": 1778033063
-        },
-        {
-            "texto": "📢HOF🏛️ Deandre Ayton (10 rebounds today) has passed Bob Cousy and Otis Thorpe and is now ranked 174th all-time with 548 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778033254995731_9911_collage_1778033254924768.png"
-            ],
-            "timestamp": 1778033261
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart (4 rebounds today) has passed Frank Ramsey and is now ranked 209th all-time with 495 in playoffs.",
             "foto": [
@@ -2042,6 +2028,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206523744759_3602_collage_1778206523658810.png"
             ],
             "timestamp": 1778206529
+        },
+        {
+            "texto": "Deandre Ayton (4 rebounds today) has passed Cedric Maxwell and is now ranked 173rd all-time with 554 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206809683073_8556_collage_1778206809566115.png"
+            ],
+            "timestamp": 1778206815
+        },
+        {
+            "texto": "📢HOF🏛️ Chet Holmgren (2 blocks today) has passed Antonio McDyess, Jack Sikma and Jerome Kersey and is now ranked 112th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206815628346_9378_collage_1778206815553389.png"
+            ],
+            "timestamp": 1778206821
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1233,
+    "total_notificaciones_historicas": 1235,
     "total_franchise_historicas": 624,
-    "cache_buster": 1778206529
+    "cache_buster": 1778206821
 }
