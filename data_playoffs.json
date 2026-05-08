@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:44:09",
+    "ultima_actualizacion": "01:45:49",
     "tablas": {
         "pts": [
             {
@@ -107,9 +107,9 @@
                 "Rank": 219,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 463,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 464,
+                "Diff": "4",
                 "Antece": "Ervin Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -150,14 +150,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 235,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 4,
-                "Total": 215,
-                "Diff": "1",
-                "Antece": "Keith Erickson",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 214,
+                "Diff": "",
+                "Antece": "Jerry Lucas",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -491,9 +491,9 @@
                 "Rank": 8,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 463,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 464,
+                "Diff": "8",
                 "Antece": "Nat Clifton",
                 "game_status": "playing"
             },
@@ -773,9 +773,9 @@
                 "Rank": 15,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 215,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 214,
+                "Diff": "2",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (15 points today) has passed Mychal Thompson and is now ranked 209th all-time with 1,133 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778114978239134_2108_collage_1778114978127171.png"
-            ],
-            "timestamp": 1778114983
-        },
         {
             "texto": "📢🔝💯 Paul George (19 points today) has passed Richard Hamilton and is now ranked 45th all-time with 2,574 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283844129284_9162_collage_1778283844066787.png"
             ],
             "timestamp": 1778283849
+        },
+        {
+            "texto": "Josh Hart (5 rebounds today) has passed Leroy Ellis and Peja Stojaković and is now ranked 219th all-time with 464 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283944597324_3996_collage_1778283944534828.png"
+            ],
+            "timestamp": 1778283949
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1266,
+    "total_notificaciones_historicas": 1267,
     "total_franchise_historicas": 642,
-    "cache_buster": 1778283849
+    "cache_buster": 1778283949
 }
