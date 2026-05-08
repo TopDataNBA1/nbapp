@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:33:05",
+    "ultima_actualizacion": "05:34:51",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 136,
+                "Rank": 135,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 9,
-                "Total": 1486,
-                "Diff": "1",
-                "Antece": "Sidney Moncrief",
-                "Nota": "A tiro de 1",
+                "Hoy": 12,
+                "Total": 1489,
+                "Diff": "4",
+                "Antece": "J.R. Smith",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -137,14 +137,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 209,
+                "Rank": 208,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 497,
-                "Diff": "",
-                "Antece": "Andrew Bynum",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 498,
+                "Diff": "2",
+                "Antece": "Elden Campbell",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1174,9 +1174,9 @@
                 "Rank": 15,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 52,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 53,
+                "Diff": "3",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -1343,20 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Isaiah Hartenstein (1 block today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 220th all-time with 44 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778036319090357_9173_collage_1778036318992218.png"
-            ],
-            "timestamp": 1778036324
-        },
-        {
-            "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Kentavious Caldwell-Pope and is now ranked 88th all-time with 121 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109406056833_9765_collage_1778109405922865.png"
-            ],
-            "timestamp": 1778109412
-        },
         {
             "texto": "Karl-Anthony Towns (3 points today) has passed Sean Elliott and is now ranked 214th all-time with 1,121 in playoffs.",
             "foto": [
@@ -2042,16 +2028,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778210806137665_9568_collage_1778210806076684.png"
             ],
             "timestamp": 1778210810
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (12 points today) has passed Sidney Moncrief and is now ranked 135th all-time with 1,489 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778211280535889_2029_collage_1778211280438916.png"
+            ],
+            "timestamp": 1778211285
+        },
+        {
+            "texto": "Marcus Smart (3 rebounds today) has passed Andrew Bynum and is now ranked 208th all-time with 498 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778211286162361_3206_collage_1778211286064389.png"
+            ],
+            "timestamp": 1778211291
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Josh Hart today surpasses Connie Simmons and Jalen Brunson and is now ranked 22nd in Knicks history with 49 games in playoffs.",
-            "foto": [],
-            "timestamp": 1777940247,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Brunson today surpasses Connie Simmons and is now ranked 23rd in Knicks history with 49 games in playoffs.",
             "foto": [],
@@ -2744,9 +2737,16 @@
             "timestamp": 1778211090,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (1 steal today) has passed Nick Collison and is now ranked 15th in Thunder history with 53 in playoffs.",
+            "foto": [],
+            "timestamp": 1778211291,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1245,
-    "total_franchise_historicas": 629,
-    "cache_buster": 1778211185
+    "total_notificaciones_historicas": 1247,
+    "total_franchise_historicas": 630,
+    "cache_buster": 1778211291
 }
