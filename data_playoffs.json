@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:50:50",
+    "ultima_actualizacion": "05:52:32",
     "tablas": {
         "pts": [
             {
@@ -306,13 +306,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 223,
+                "Rank": 219,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 67,
+                "Hoy": 1,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Patrick Beverley",
+                "Antece": "Luol Deng",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1164,9 +1164,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 61,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 62,
+                "Diff": "3",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Pascal Siakam and is now ranked 143rd all-time with 611 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778109989347993_3603_collage_1778109989256022.png"
-            ],
-            "timestamp": 1778109995
-        },
         {
             "texto": "Josh Hart (1 rebound today) has passed Tyrone Hill and is now ranked 227th all-time with 453 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212243313391_4188_collage_1778212243229419.png"
             ],
             "timestamp": 1778212250
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 219th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212346675796_5806_collage_1778212346588838.png"
+            ],
+            "timestamp": 1778212352
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1249,
+    "total_notificaciones_historicas": 1250,
     "total_franchise_historicas": 631,
-    "cache_buster": 1778212250
+    "cache_buster": 1778212352
 }
