@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:12:44",
+    "ultima_actualizacion": "01:14:26",
     "tablas": {
         "pts": [
             {
@@ -104,14 +104,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 222,
+                "Rank": 221,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 459,
-                "Diff": "",
-                "Antece": "Drew Gooden",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 460,
+                "Diff": "3",
+                "Antece": "Peja Stojaković",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -166,9 +166,9 @@
                 "Rank": 37,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 184,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 185,
+                "Diff": "4",
                 "Antece": "Kareem Abdul-Jabbar",
                 "Nota": "",
                 "game_status": "playing"
@@ -491,9 +491,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 459,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 460,
+                "Diff": "1",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -708,23 +708,23 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
+                "Nombre": "Josh Hart",
+                "Stat": "G",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "0",
+                "Antece": "Dick McGuire",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 22,
                 "Nombre": "Jalen Brunson",
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 50,
                 "Diff": "0",
                 "Antece": "Herb Williams",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 22,
-                "Nombre": "Josh Hart",
-                "Stat": "G",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "0",
-                "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
             {
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (1 three-pointer today) has passed Dirk Nowitzki and is now ranked 64th all-time with 150 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778111158279864_4731_collage_1778111158184881.png"
-            ],
-            "timestamp": 1778111164
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (9 points today) has passed Danny Ainge and is now ranked 82nd all-time with 1,903 in playoffs.",
             "foto": [
@@ -1591,16 +1584,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778281958855819_8105_collage_1778281958793327.png"
             ],
             "timestamp": 1778281963
+        },
+        {
+            "texto": "Josh Hart (1 rebound today) has passed Drew Gooden and is now ranked 221st all-time with 460 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282060617038_9761_collage_1778282060538924.png"
+            ],
+            "timestamp": 1778282066
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ VJ Edgecombe (1 three-pointer today) has passed Charles Barkley and Robert Covington and is now ranked 22nd in 76ers history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1777940555,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (4 rebounds today) has passed Jerry Lucas and is now ranked 15th in Knicks history with 281 in playoffs.",
             "foto": [],
@@ -2293,9 +2286,16 @@
             "timestamp": 1778281963,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart today surpasses Herb Williams and Jalen Brunson and is now ranked 20th in Knicks history with 51 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778282066,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1255,
-    "total_franchise_historicas": 634,
-    "cache_buster": 1778281964
+    "total_notificaciones_historicas": 1256,
+    "total_franchise_historicas": 635,
+    "cache_buster": 1778282066
 }
