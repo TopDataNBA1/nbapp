@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:12:06",
+    "ultima_actualizacion": "04:13:48",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 8459,
-                "Diff": "541",
+                "Hoy": 6,
+                "Total": 8461,
+                "Diff": "539",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -140,11 +140,11 @@
                 "Rank": 209,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 495,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 496,
+                "Diff": "1",
                 "Antece": "Andrew Bynum",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -1002,9 +1002,9 @@
                 "Rank": 13,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1548,
-                "Diff": "13",
+                "Hoy": 6,
+                "Total": 1550,
+                "Diff": "11",
                 "Antece": "Pau Gasol",
                 "game_status": "playing"
             },
@@ -1343,13 +1343,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Nickeil Alexander-Walker and is now ranked 178th all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778031848295068_5172_collage_1778031848192104.png"
-            ],
-            "timestamp": 1778031854
-        },
         {
             "texto": "Shai Gilgeous-Alexander (4 assists today) has passed Archie Clark, Fat Lever and Shaun Livingston and is now ranked 145th all-time with 298 in playoffs.",
             "foto": [
@@ -2042,6 +2035,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206225458427_8152_collage_1778206225380438.png"
             ],
             "timestamp": 1778206230
+        },
+        {
+            "texto": "Marcus Smart (1 rebound today) has passed Nat Clifton and is now ranked 209th all-time with 496 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206422740501_1037_collage_1778206422645488.png"
+            ],
+            "timestamp": 1778206427
         }
     ],
     "notificaciones_franchise": [
@@ -2746,7 +2746,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1231,
+    "total_notificaciones_historicas": 1232,
     "total_franchise_historicas": 623,
-    "cache_buster": 1778206326
+    "cache_buster": 1778206428
 }
