@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:52:06",
+    "ultima_actualizacion": "22:56:57",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 1183,
-                "Diff": "50",
+                "Hoy": 6,
+                "Total": 1184,
+                "Diff": "49",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -165,13 +165,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 211,
+                "Rank": 203,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 46,
+                "Hoy": 2,
+                "Total": 47,
                 "Diff": "",
-                "Antece": "James Edwards",
+                "Antece": "Danny Schayes",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -211,14 +211,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 58,
+                "Rank": 57,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 160,
-                "Diff": "",
-                "Antece": "CJ McCollum",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 161,
+                "Diff": "1",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -294,9 +294,9 @@
                 "Rank": 22,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 313,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 316,
+                "Diff": "2",
                 "Antece": "Daniel Gibson",
                 "game_status": "playing"
             },
@@ -424,9 +424,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 36,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 37,
+                "Diff": "2",
                 "Antece": "Timofey Mozgov",
                 "game_status": "playing"
             },
@@ -454,9 +454,9 @@
                 "Rank": 7,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "1",
                 "Antece": "Kyle Korver",
                 "game_status": "playing"
             },
@@ -506,9 +506,9 @@
                 "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 438,
-                "Diff": "109",
+                "Hoy": 15,
+                "Total": 440,
+                "Diff": "107",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -526,9 +526,9 @@
                 "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 124,
-                "Diff": "4",
+                "Hoy": 7,
+                "Total": 126,
+                "Diff": "2",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -655,20 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (2 three-pointers today) has passed Andrew Nembhard and is now ranked 199th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206523744759_3602_collage_1778206523658810.png"
-            ],
-            "timestamp": 1778206529
-        },
-        {
-            "texto": "Deandre Ayton (4 rebounds today) has passed Cedric Maxwell and is now ranked 173rd all-time with 554 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206809683073_8556_collage_1778206809566115.png"
-            ],
-            "timestamp": 1778206815
-        },
         {
             "texto": "📢HOF🏛️ Chet Holmgren (2 blocks today) has passed Antonio McDyess, Jack Sikma and Jerome Kersey and is now ranked 112th all-time with 81 in playoffs.",
             "foto": [
@@ -1352,6 +1338,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778359920637169_6316_collage_1778359920560631.png"
             ],
             "timestamp": 1778359926
+        },
+        {
+            "texto": "Jarrett Allen (2 blocks today) has passed A.C. Green, Isaiah Hartenstein, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 203rd all-time with 47 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778360205896908_5634_collage_1778360205788235.png"
+            ],
+            "timestamp": 1778360211
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed CJ McCollum and is now ranked 57th all-time with 161 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778360211810613_7751_collage_1778360211719757.png"
+            ],
+            "timestamp": 1778360217
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1332,
+    "total_notificaciones_historicas": 1334,
     "total_franchise_historicas": 670,
-    "cache_buster": 1778359926
+    "cache_buster": 1778360217
 }
