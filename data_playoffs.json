@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:37:02",
+    "ultima_actualizacion": "23:38:43",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 67,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 30,
-                "Total": 2029,
-                "Diff": "14",
+                "Hoy": 31,
+                "Total": 2030,
+                "Diff": "13",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,11 +28,11 @@
                 "Rank": 177,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 18,
-                "Total": 1297,
-                "Diff": "3",
+                "Hoy": 21,
+                "Total": 1300,
+                "Diff": "",
                 "Antece": "Lou Hudson",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -222,14 +222,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 101,
+                "Rank": 100,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 112,
-                "Diff": "",
-                "Antece": "Bradley Beal",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 113,
+                "Diff": "1",
+                "Antece": "Nicolas Batum",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 30,
-                "Total": 924,
-                "Diff": "42",
+                "Hoy": 31,
+                "Total": 925,
+                "Diff": "41",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -633,13 +633,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 29,
-                "Diff": "0",
-                "Antece": "Mark Aguirre",
+                "Hoy": 2,
+                "Total": 30,
+                "Diff": "2",
+                "Antece": "Duncan Robinson",
                 "game_status": "playing"
             },
             {
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luguentz Dort (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209839554000_4095_collage_1778209839478021.png"
-            ],
-            "timestamp": 1778209844
-        },
         {
             "texto": "Marcus Smart (1 block today) has passed Eddie Jones and Manu Ginóbili and is now ranked 145th all-time with 62 in playoffs.",
             "foto": [
@@ -1352,16 +1345,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362426484552_4787_collage_1778362426422140.png"
             ],
             "timestamp": 1778362431
+        },
+        {
+            "texto": "📢🔝💯 Tobias Harris (2 three-pointers today) has passed Bradley Beal and is now ranked 100th all-time with 113 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362717366681_2174_collage_1778362717278072.png"
+            ],
+            "timestamp": 1778362723
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Paul George (3 three-pointers today) has passed Hersey Hawkins and Georges Niang and is now ranked 12th in 76ers history with 29 in playoffs.",
-            "foto": [],
-            "timestamp": 1778110006,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Josh Hart today surpasses Hubert Davis and is now ranked 22nd in Knicks history with 50 games in playoffs.",
             "foto": [],
@@ -2054,9 +2047,16 @@
             "timestamp": 1778361676,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (2 three-pointers today) has passed Mark Aguirre and is now ranked 14th in Pistons history with 30 in playoffs.",
+            "foto": [],
+            "timestamp": 1778362723,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1340,
-    "total_franchise_historicas": 672,
-    "cache_buster": 1778362622
+    "total_notificaciones_historicas": 1341,
+    "total_franchise_historicas": 673,
+    "cache_buster": 1778362723
 }
