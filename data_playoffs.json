@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:39:10",
+    "ultima_actualizacion": "05:40:50",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 181,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 23,
-                "Total": 1257,
-                "Diff": "3",
+                "Hoy": 25,
+                "Total": 1259,
+                "Diff": "1",
                 "Antece": "Wes Unseld",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -208,11 +208,11 @@
                 "Rank": 190,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 247,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 248,
+                "Diff": "",
                 "Antece": "Andy Phillip",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -715,9 +715,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 1257,
-                "Diff": "743",
+                "Hoy": 25,
+                "Total": 1259,
+                "Diff": "741",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -785,9 +785,9 @@
                 "Rank": 22,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 112,
-                "Diff": "3",
+                "Hoy": 6,
+                "Total": 115,
+                "Diff": "0",
                 "Antece": "Fred Hoiberg",
                 "game_status": "playing"
             },
@@ -797,7 +797,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 111,
-                "Diff": "1",
+                "Diff": "4",
                 "Antece": "Ayo Dosunmu",
                 "game_status": "playing"
             },
@@ -845,9 +845,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 209,
-                "Diff": "7",
+                "Hoy": 8,
+                "Total": 210,
+                "Diff": "6",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -857,7 +857,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 149,
-                "Diff": "60",
+                "Diff": "61",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -895,9 +895,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 247,
-                "Diff": "753",
+                "Hoy": 3,
+                "Total": 248,
+                "Diff": "752",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1182,13 +1182,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 15,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 13,
-                "Diff": "0",
-                "Antece": "Stephon Marbury",
+                "Hoy": 2,
+                "Total": 14,
+                "Diff": "1",
+                "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
             {
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (1 three-pointer today) has passed Marcus Smart and is now ranked 25th all-time with 224 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778201027802935_5698_collage_1778201027716980.png"
-            ],
-            "timestamp": 1778201033
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (2 three-pointers today) has passed Joe Ingles, Tim Hardaway and Tyrese Maxey and is now ranked 102nd all-time with 111 in playoffs.",
             "foto": [
@@ -2447,16 +2440,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778297014118741_5240_collage_1778297014056243.png"
             ],
             "timestamp": 1778297019
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (3 assists today) has passed Dick Barnett and is now ranked 190th all-time with 248 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778298045792969_8975_collage_1778298045699224.png"
+            ],
+            "timestamp": 1778298050
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tobias Harris (2 steals today) has passed Rick Mahorn and Chris Ford and is now ranked 20th in Pistons history with 22 in playoffs.",
-            "foto": [],
-            "timestamp": 1778028473,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Chet Holmgren (5 points today) has passed Hersey Hawkins and is now ranked 18th in Thunder history with 579 in playoffs.",
             "foto": [],
@@ -3149,9 +3142,16 @@
             "timestamp": 1778297114,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Ayo Dosunmu (2 three-pointers today) has passed Terry Porter and Stephon Marbury and is now ranked 15th in Timberwolves history with 14 in playoffs.",
+            "foto": [],
+            "timestamp": 1778298050,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1311,
-    "total_franchise_historicas": 657,
-    "cache_buster": 1778297950
+    "total_notificaciones_historicas": 1312,
+    "total_franchise_historicas": 658,
+    "cache_buster": 1778298050
 }
