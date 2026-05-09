@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:39:43",
+    "ultima_actualizacion": "02:41:24",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 112,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 8,
-                "Total": 1603,
-                "Diff": "5",
+                "Hoy": 10,
+                "Total": 1605,
+                "Diff": "3",
                 "Antece": "Serge Ibaka",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -82,14 +82,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 138,
+                "Rank": 137,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 625,
-                "Diff": "1",
-                "Antece": "Klay Thompson",
-                "Nota": "A tiro de 1",
+                "Hoy": 6,
+                "Total": 626,
+                "Diff": "",
+                "Antece": "Derrick McKey",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -131,9 +131,9 @@
                 "Rank": 64,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 502,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 503,
+                "Diff": "2",
                 "Antece": "Nate McMillan",
                 "Nota": "",
                 "game_status": "playing"
@@ -220,14 +220,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 137,
+                "Rank": 136,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "1",
-                "Antece": "Tom Chambers",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "",
+                "Antece": "Kurt Rambis",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -511,9 +511,9 @@
                 "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 298,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 299,
+                "Diff": "0",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1603,
-                "Diff": "127",
+                "Hoy": 10,
+                "Total": 1605,
+                "Diff": "125",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -753,9 +753,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 965,
-                "Diff": "35",
+                "Hoy": 10,
+                "Total": 967,
+                "Diff": "33",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -783,9 +783,9 @@
                 "Rank": 19,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 187,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 188,
+                "Diff": "6",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (24 points today) has passed Chet Walker and is now ranked 76th all-time with 1,918 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117793287877_4998_collage_1778117793193900.png"
-            ],
-            "timestamp": 1778117798
-        },
         {
             "texto": "Josh Hart (7 rebounds today) has passed Josh Howard and is now ranked 222nd all-time with 459 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287177817258_3743_collage_1778287177723517.png"
             ],
             "timestamp": 1778287183
+        },
+        {
+            "texto": "Paul George (1 block today) has passed Steven Adams and Theo Ratliff and is now ranked 136th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287278865646_4113_collage_1778287278803155.png"
+            ],
+            "timestamp": 1778287284
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1278,
+    "total_notificaciones_historicas": 1279,
     "total_franchise_historicas": 644,
-    "cache_buster": 1778287183
+    "cache_buster": 1778287284
 }
