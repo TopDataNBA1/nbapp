@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:09:56",
+    "ultima_actualizacion": "02:14:40",
     "tablas": {
         "pts": [
             {
@@ -36,14 +36,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 113,
+                "Rank": 112,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 5,
-                "Total": 1600,
-                "Diff": "2",
-                "Antece": "Tayshaun Prince",
-                "Nota": "A tiro de 2",
+                "Hoy": 8,
+                "Total": 1603,
+                "Diff": "5",
+                "Antece": "Serge Ibaka",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -107,11 +107,11 @@
                 "Rank": 219,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 466,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 467,
+                "Diff": "1",
                 "Antece": "Ervin Johnson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -142,11 +142,11 @@
                 "Rank": 86,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 413,
-                "Diff": "1",
+                "Hoy": 7,
+                "Total": 414,
+                "Diff": "",
                 "Antece": "Damian Lillard",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -491,9 +491,9 @@
                 "Rank": 8,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 466,
-                "Diff": "6",
+                "Hoy": 8,
+                "Total": 467,
+                "Diff": "5",
                 "Antece": "Nat Clifton",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 337,
-                "Diff": "55",
+                "Hoy": 7,
+                "Total": 338,
+                "Diff": "54",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 1600,
-                "Diff": "130",
+                "Hoy": 8,
+                "Total": 1603,
+                "Diff": "127",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (5 rebounds today) has passed Bobby Jones, LaMarcus Aldridge and Tobias Harris and is now ranked 140th all-time with 615 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117004737124_1016_collage_1778117004667147.png"
-            ],
-            "timestamp": 1778117009
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (6 rebounds today) has passed Antoine Walker and George Yardley and is now ranked 222nd all-time with 458 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285200164278_5804_collage_1778285200101780.png"
             ],
             "timestamp": 1778285205
+        },
+        {
+            "texto": "Joel Embiid (8 points today) has passed Tayshaun Prince and is now ranked 112th all-time with 1,603 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285674997202_1556_collage_1778285674919085.png"
+            ],
+            "timestamp": 1778285680
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1274,
+    "total_notificaciones_historicas": 1275,
     "total_franchise_historicas": 643,
-    "cache_buster": 1778285396
+    "cache_buster": 1778285680
 }
