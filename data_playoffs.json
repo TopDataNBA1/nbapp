@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:48",
+    "ultima_actualizacion": "02:19:28",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 74,
+                "Rank": 73,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 13,
-                "Total": 1933,
-                "Diff": "1",
-                "Antece": "Draymond Green",
-                "Nota": "A tiro de 1",
+                "Hoy": 15,
+                "Total": 1935,
+                "Diff": "4",
+                "Antece": "Robert Horry",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -74,9 +74,9 @@
                 "Rank": 116,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 682,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 683,
+                "Diff": "3",
                 "Antece": "Antonio Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 1489,
-                "Diff": "438",
+                "Hoy": 15,
+                "Total": 1491,
+                "Diff": "436",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -763,9 +763,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 682,
-                "Diff": "128",
+                "Hoy": 2,
+                "Total": 683,
+                "Diff": "127",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -873,9 +873,9 @@
                 "Rank": 21,
                 "Nombre": "Kelly Oubre Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "1",
                 "Antece": "De'Anthony Melton",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (6 rebounds today) has passed Antoine Walker and George Yardley and is now ranked 222nd all-time with 458 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117295550047_8016_collage_1778117295468073.png"
-            ],
-            "timestamp": 1778117300
-        },
         {
             "texto": "Josh Hart (1 three-pointer today) has passed Charlie Ward, Jamal Mashburn, Jim Jackson and Spencer Dinwiddie and is now ranked 241st all-time with 59 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285674997202_1556_collage_1778285674919085.png"
             ],
             "timestamp": 1778285680
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (15 points today) has passed Draymond Green and is now ranked 73rd all-time with 1,935 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285962969054_8849_collage_1778285962890938.png"
+            ],
+            "timestamp": 1778285968
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1275,
+    "total_notificaciones_historicas": 1276,
     "total_franchise_historicas": 643,
-    "cache_buster": 1778285868
+    "cache_buster": 1778285968
 }
