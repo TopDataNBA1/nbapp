@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:01:36",
+    "ultima_actualizacion": "22:03:18",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 1182,
-                "Diff": "51",
+                "Hoy": 5,
+                "Total": 1183,
+                "Diff": "50",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 202,
+                "Rank": 196,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 72,
+                "Hoy": 1,
+                "Total": 73,
                 "Diff": "",
-                "Antece": "Nick Anderson",
+                "Antece": "Sedale Threatt",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -546,9 +546,9 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "1",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ LeBron James today becomes the 1st player to reach 300 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205075849693_2460_collage_1778205075778714.png"
-            ],
-            "timestamp": 1778205081
-        },
         {
             "texto": "📢HOF🏛️ Isaiah Hartenstein (2 blocks today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Jarrett Allen, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 209th all-time with 46 in playoffs.",
             "foto": [
@@ -1352,6 +1345,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778356891224826_4682_collage_1778356891134111.png"
             ],
             "timestamp": 1778356896
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 steal today) has passed Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê and Nick Anderson and is now ranked 196th all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778356992383294_1035_collage_1778356992288344.png"
+            ],
+            "timestamp": 1778356997
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1326,
+    "total_notificaciones_historicas": 1327,
     "total_franchise_historicas": 670,
-    "cache_buster": 1778356896
+    "cache_buster": 1778356998
 }
