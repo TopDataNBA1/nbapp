@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:04:34",
+    "ultima_actualizacion": "04:06:14",
     "tablas": {
         "pts": [
             {
@@ -629,13 +629,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 220,
+                "Rank": 216,
                 "Nombre": "Naz Reid",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 65,
+                "Hoy": 1,
+                "Total": 66,
                 "Diff": "",
-                "Antece": "Malik Beasley",
+                "Antece": "Kerry Kittles",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -745,9 +745,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 445,
-                "Diff": "29",
+                "Hoy": 3,
+                "Total": 448,
+                "Diff": "26",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -757,7 +757,7 @@
                 "Stat": "PTS",
                 "Hoy": 2,
                 "Total": 434,
-                "Diff": "11",
+                "Diff": "14",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1145,9 +1145,9 @@
                 "Rank": 3,
                 "Nombre": "Naz Reid",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 65,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 66,
+                "Diff": "2",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1157,7 +1157,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 57,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mason Plumlee (2 blocks today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 222nd all-time with 44 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127767587185_6469_collage_1778127767480089.png"
-            ],
-            "timestamp": 1778127772
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (3 points today) has passed Wes Unseld and is now ranked 179th all-time with 1,261 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291709069493_2518_collage_1778291708991369.png"
             ],
             "timestamp": 1778291714
+        },
+        {
+            "texto": "Naz Reid (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley and Voshon Lenard and is now ranked 216th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292369334395_6819_collage_1778292369271895.png"
+            ],
+            "timestamp": 1778292374
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1298,
+    "total_notificaciones_historicas": 1299,
     "total_franchise_historicas": 650,
-    "cache_buster": 1778292274
+    "cache_buster": 1778292374
 }
