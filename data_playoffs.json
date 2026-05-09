@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:55:23",
+    "ultima_actualizacion": "04:57:04",
     "tablas": {
         "pts": [
             {
@@ -58,13 +58,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 17,
-                "Total": 1251,
+                "Hoy": 19,
+                "Total": 1253,
                 "Diff": "1",
-                "Antece": "Brook Lopez",
+                "Antece": "Andrew Toney",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -715,20 +715,20 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1251,
-                "Diff": "749",
+                "Hoy": 19,
+                "Total": 1253,
+                "Diff": "747",
                 "Antece": "2000",
                 "game_status": "playing"
             },
             {
-                "Rank": 4,
+                "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 611,
-                "Diff": "0",
-                "Antece": "Karl-Anthony Towns",
+                "Hoy": 8,
+                "Total": 614,
+                "Diff": "386",
+                "Antece": "1000",
                 "game_status": "playing"
             },
             {
@@ -738,7 +738,7 @@
                 "Hoy": 6,
                 "Total": 480,
                 "Diff": "131",
-                "Antece": "Jaden McDaniels",
+                "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
             {
@@ -835,9 +835,9 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 215,
-                "Diff": "106",
+                "Hoy": 5,
+                "Total": 216,
+                "Diff": "105",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -847,7 +847,7 @@
                 "Stat": "REB",
                 "Hoy": 7,
                 "Total": 209,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -933,22 +933,22 @@
             },
             {
                 "Rank": 11,
-                "Nombre": "Kyle Anderson",
+                "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "0",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
                 "Rank": 12,
-                "Nombre": "Jaden McDaniels",
+                "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 68,
-                "Diff": "0",
-                "Antece": "Kyle Anderson",
+                "Diff": "1",
+                "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
@@ -958,7 +958,7 @@
                 "Hoy": 0,
                 "Total": 66,
                 "Diff": "2",
-                "Antece": "Jaden McDaniels",
+                "Antece": "Kyle Anderson",
                 "game_status": "inactive"
             },
             {
@@ -1155,9 +1155,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 58,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 59,
+                "Diff": "8",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 201st all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778199130318408_1068_collage_1778199130224457.png"
-            ],
-            "timestamp": 1778199135
-        },
         {
             "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed Danny Ainge and Nikola Jokić and is now ranked 49th all-time with 173 in playoffs.",
             "foto": [
@@ -2447,16 +2440,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778295221995102_9351_collage_1778295221932611.png"
             ],
             "timestamp": 1778295227
+        },
+        {
+            "texto": "Anthony Edwards (19 points today) has passed Brook Lopez and is now ranked 182nd all-time with 1,253 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778295418397813_4033_collage_1778295418319687.png"
+            ],
+            "timestamp": 1778295424
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Duncan Robinson (2 three-pointers today) has passed Malik Beasley and is now ranked 16th in Pistons history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1778025351,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Ausar Thompson (1 block today) has passed Mehmet Okur and Vinnie Johnson and is now ranked 15th in Pistons history with 22 in playoffs.",
             "foto": [],
@@ -3149,9 +3142,16 @@
             "timestamp": 1778293810,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Jaden McDaniels (2 assists today) has passed Kyle Anderson and is now ranked 11th in Timberwolves history with 69 in playoffs.",
+            "foto": [],
+            "timestamp": 1778295424,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1306,
-    "total_franchise_historicas": 653,
-    "cache_buster": 1778295323
+    "total_notificaciones_historicas": 1307,
+    "total_franchise_historicas": 654,
+    "cache_buster": 1778295424
 }
