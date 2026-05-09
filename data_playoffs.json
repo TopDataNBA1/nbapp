@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:48:38",
+    "ultima_actualizacion": "22:50:19",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 140,
+                "Rank": 139,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 621,
-                "Diff": "",
-                "Antece": "Jack Coleman",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 623,
+                "Diff": "3",
+                "Antece": "Klay Thompson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 300,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 302,
+                "Diff": "3",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 237,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 238,
+                "Diff": "16",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -516,9 +516,9 @@
                 "Rank": 25,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 157,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 159,
+                "Diff": "1",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (7 points today) has passed Rudy LaRusso and is now ranked 165th all-time with 1,346 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778206219817743_2186_collage_1778206219725782.png"
-            ],
-            "timestamp": 1778206225
-        },
         {
             "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Antoine Walker, Calvin Murphy, Dale Davis and Tom Henderson and is now ranked 167th all-time with 80 in playoffs.",
             "foto": [
@@ -1352,6 +1345,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778358043491081_4186_collage_1778358043417964.png"
             ],
             "timestamp": 1778358048
+        },
+        {
+            "texto": "Tobias Harris (3 rebounds today) has passed Jack Coleman and is now ranked 139th all-time with 623 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778359813496512_9509_collage_1778359813395341.png"
+            ],
+            "timestamp": 1778359819
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1329,
+    "total_notificaciones_historicas": 1330,
     "total_franchise_historicas": 670,
-    "cache_buster": 1778359718
+    "cache_buster": 1778359819
 }
