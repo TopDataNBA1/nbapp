@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:40:50",
+    "ultima_actualizacion": "05:42:32",
     "tablas": {
         "pts": [
             {
@@ -205,14 +205,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 190,
+                "Rank": 188,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 248,
-                "Diff": "",
-                "Antece": "Andy Phillip",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 249,
+                "Diff": "1",
+                "Antece": "Lou Williams",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -782,13 +782,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 115,
-                "Diff": "0",
-                "Antece": "Fred Hoiberg",
+                "Hoy": 8,
+                "Total": 117,
+                "Diff": "2",
+                "Antece": "Rasho Nesterović",
                 "game_status": "playing"
             },
             {
@@ -798,7 +798,7 @@
                 "Hoy": 0,
                 "Total": 111,
                 "Diff": "4",
-                "Antece": "Ayo Dosunmu",
+                "Antece": "Fred Hoiberg",
                 "game_status": "playing"
             },
             {
@@ -895,9 +895,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 248,
-                "Diff": "752",
+                "Hoy": 4,
+                "Total": 249,
+                "Diff": "751",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1731,9 +1731,9 @@
                 "Rank": 14,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 32,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 33,
+                "Diff": "4",
                 "Antece": "Sean Elliott",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 three-pointers today) has passed Joe Ingles, Tim Hardaway and Tyrese Maxey and is now ranked 102nd all-time with 111 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778201033939772_1446_collage_1778201033875819.png"
-            ],
-            "timestamp": 1778201038
-        },
         {
             "texto": "📢HOF🏛️ Dennis Schröder (3 assists today) has passed Guy Rodgers and Vlade Divac and is now ranked 155th all-time with 287 in playoffs.",
             "foto": [
@@ -2447,16 +2440,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778298045792969_8975_collage_1778298045699224.png"
             ],
             "timestamp": 1778298050
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (4 assists today) has passed Andy Phillip and is now ranked 188th all-time with 249 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778298146691106_7432_collage_1778298146581734.png"
+            ],
+            "timestamp": 1778298152
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Chet Holmgren (5 points today) has passed Hersey Hawkins and is now ranked 18th in Thunder history with 579 in playoffs.",
-            "foto": [],
-            "timestamp": 1778028576,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus (14 points today) has passed Larry Hughes and is now ranked 22nd in Cavaliers history with 305 in playoffs.",
             "foto": [],
@@ -3149,9 +3142,16 @@
             "timestamp": 1778298050,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Ayo Dosunmu (8 points today) has passed Fred Hoiberg and is now ranked 21st in Timberwolves history with 117 in playoffs.",
+            "foto": [],
+            "timestamp": 1778298152,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1312,
-    "total_franchise_historicas": 658,
-    "cache_buster": 1778298050
+    "total_notificaciones_historicas": 1313,
+    "total_franchise_historicas": 659,
+    "cache_buster": 1778298152
 }
