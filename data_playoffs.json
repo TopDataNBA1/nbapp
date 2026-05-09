@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:26:14",
+    "ultima_actualizacion": "03:29:29",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 72,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 27,
-                "Total": 1947,
-                "Diff": "20",
+                "Hoy": 29,
+                "Total": 1949,
+                "Diff": "18",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -273,14 +273,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 190,
+                "Rank": 183,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 74,
-                "Diff": "",
-                "Antece": "Lou Williams",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 75,
+                "Diff": "1",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1287,9 +1287,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 27,
-                "Total": 1503,
-                "Diff": "424",
+                "Hoy": 29,
+                "Total": 1505,
+                "Diff": "422",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1417,9 +1417,9 @@
                 "Rank": 18,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 36,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 37,
+                "Diff": "0",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (5 points today) has passed Phil Chenier and is now ranked 224th all-time with 1,089 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778123869997548_5104_collage_1778123869891507.png"
-            ],
-            "timestamp": 1778123875
-        },
         {
             "texto": "Naz Reid (2 three-pointers today) has passed Austin Reaves, Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 221st all-time with 64 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778289968935135_2165_collage_1778289968825744.png"
             ],
             "timestamp": 1778289974
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 183rd all-time with 75 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778290163517000_6294_collage_1778290163423253.png"
+            ],
+            "timestamp": 1778290169
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1290,
+    "total_notificaciones_historicas": 1291,
     "total_franchise_historicas": 648,
-    "cache_buster": 1778289974
+    "cache_buster": 1778290169
 }
