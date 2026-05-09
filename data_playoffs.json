@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:29:02",
+    "ultima_actualizacion": "23:33:51",
     "tablas": {
         "pts": [
             {
@@ -200,14 +200,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 178,
-                "Diff": "1",
-                "Antece": "Mike Conley",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 179,
+                "Diff": "2",
+                "Antece": "Dan Majerle",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 131,
+                "Rank": 129,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 95,
+                "Hoy": 3,
+                "Total": 96,
                 "Diff": "1",
-                "Antece": "Tyler Herro",
+                "Antece": "Mike Miller",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -364,9 +364,9 @@
                 "Rank": 16,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 87,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 88,
+                "Diff": "1",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -626,9 +626,9 @@
                 "Rank": 13,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -655,20 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778208250516179_6806_collage_1778208250421213.png"
-            ],
-            "timestamp": 1778208256
-        },
-        {
-            "texto": "Rui Hachimura (4 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 190th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209367483563_8549_collage_1778209367383598.png"
-            ],
-            "timestamp": 1778209373
-        },
         {
             "texto": "Luguentz Dort (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
             "foto": [
@@ -1352,6 +1338,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361480524952_9492_collage_1778361480435332.png"
             ],
             "timestamp": 1778361485
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Duncan Robinson (3 three-pointers today) has passed Steve Nash and is now ranked 43rd all-time with 179 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362420636509_3885_collage_1778362420550165.png"
+            ],
+            "timestamp": 1778362426
+        },
+        {
+            "texto": "Dennis Schröder (3 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 129th all-time with 96 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362426484552_4787_collage_1778362426422140.png"
+            ],
+            "timestamp": 1778362431
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1338,
+    "total_notificaciones_historicas": 1340,
     "total_franchise_historicas": 672,
-    "cache_buster": 1778362142
+    "cache_buster": 1778362431
 }
