@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:14",
+    "ultima_actualizacion": "04:15:56",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 184,
+                "Rank": 183,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 7,
-                "Total": 1241,
-                "Diff": "3",
-                "Antece": "Bob Lanier",
-                "Nota": "A tiro de 3",
+                "Hoy": 10,
+                "Total": 1244,
+                "Diff": "8",
+                "Antece": "Brook Lopez",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -500,9 +500,9 @@
                 "Rank": 68,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 141,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 142,
+                "Diff": "3",
                 "Antece": "Mike Bibby",
                 "Nota": "",
                 "game_status": "playing"
@@ -715,9 +715,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1241,
-                "Diff": "759",
+                "Hoy": 10,
+                "Total": 1244,
+                "Diff": "756",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -825,9 +825,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 316,
-                "Diff": "23",
+                "Hoy": 5,
+                "Total": 317,
+                "Diff": "22",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -837,7 +837,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 213,
-                "Diff": "103",
+                "Diff": "104",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -935,9 +935,9 @@
                 "Rank": 11,
                 "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "0",
                 "Antece": "Kyle Anderson",
                 "game_status": "playing"
             },
@@ -947,7 +947,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 67,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1125,9 +1125,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 141,
-                "Diff": "59",
+                "Hoy": 1,
+                "Total": 142,
+                "Diff": "58",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Julius Erving and is now ranked 54th all-time with 995 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196562930618_3342_collage_1778196562842661.png"
-            ],
-            "timestamp": 1778196568
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 202nd all-time with 72 in playoffs.",
             "foto": [
@@ -2447,16 +2440,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292849043137_6325_collage_1778292848949390.png"
             ],
             "timestamp": 1778292854
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Anthony Edwards (1 three-pointer today) has passed Clyde Drexler and is now ranked 68th all-time with 142 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292950420490_4960_collage_1778292950342366.png"
+            ],
+            "timestamp": 1778292956
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tobias Harris (1 steal today) has passed Eric Money and Jason Maxiell and is now ranked 22nd in Pistons history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1778023190,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley (2 assists today) has passed Terrell Brandon and is now ranked 17th in Cavaliers history with 77 in playoffs.",
             "foto": [],
@@ -3149,9 +3142,16 @@
             "timestamp": 1778291608,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Rudy Gobert (1 assist today) has passed Jaden McDaniels and is now ranked 11th in Timberwolves history with 68 in playoffs.",
+            "foto": [],
+            "timestamp": 1778292956,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1301,
-    "total_franchise_historicas": 650,
-    "cache_buster": 1778292854
+    "total_notificaciones_historicas": 1302,
+    "total_franchise_historicas": 651,
+    "cache_buster": 1778292956
 }
