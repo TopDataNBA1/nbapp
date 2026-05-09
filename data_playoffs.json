@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:28",
+    "ultima_actualizacion": "02:36:27",
     "tablas": {
         "pts": [
             {
@@ -85,11 +85,11 @@
                 "Rank": 138,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 623,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 625,
+                "Diff": "1",
                 "Antece": "Klay Thompson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -398,13 +398,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 227,
                 "Nombre": "Miles McBride",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 62,
+                "Hoy": 1,
+                "Total": 63,
                 "Diff": "",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Keith Van Horn",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -511,9 +511,9 @@
                 "Rank": 14,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 296,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 298,
+                "Diff": "1",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -671,9 +671,9 @@
                 "Rank": 6,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "4",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -683,7 +683,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 59,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (1 three-pointer today) has passed Charlie Ward, Jamal Mashburn, Jim Jackson and Spencer Dinwiddie and is now ranked 241st all-time with 59 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117396700182_2982_collage_1778117396627218.png"
-            ],
-            "timestamp": 1778117402
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (22 points today) has passed Carmelo Anthony and is now ranked 77th all-time with 1,916 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285962969054_8849_collage_1778285962890938.png"
             ],
             "timestamp": 1778285968
+        },
+        {
+            "texto": "Miles McBride (1 three-pointer today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 227th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778286981380148_2542_collage_1778286981286407.png"
+            ],
+            "timestamp": 1778286987
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1276,
+    "total_notificaciones_historicas": 1277,
     "total_franchise_historicas": 643,
-    "cache_buster": 1778285968
+    "cache_buster": 1778286987
 }
