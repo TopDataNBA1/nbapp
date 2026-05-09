@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:12:33",
+    "ultima_actualizacion": "04:14:14",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 185,
+                "Rank": 184,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 1237,
-                "Diff": "1",
-                "Antece": "Blake Griffin",
-                "Nota": "A tiro de 1",
+                "Hoy": 7,
+                "Total": 1241,
+                "Diff": "3",
+                "Antece": "Bob Lanier",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -715,9 +715,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 1237,
-                "Diff": "763",
+                "Hoy": 7,
+                "Total": 1241,
+                "Diff": "759",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1751,13 +1751,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tobias Harris (1 steal today) has passed Derrick White, Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 205th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778195716112978_6930_collage_1778195716031486.png"
-            ],
-            "timestamp": 1778195721
-        },
-        {
             "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Julius Erving and is now ranked 54th all-time with 995 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196562930618_3342_collage_1778196562842661.png"
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292748478123_5517_collage_1778292748399998.png"
             ],
             "timestamp": 1778292753
+        },
+        {
+            "texto": "Anthony Edwards (7 points today) has passed Blake Griffin and is now ranked 184th all-time with 1,241 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292849043137_6325_collage_1778292848949390.png"
+            ],
+            "timestamp": 1778292854
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1300,
+    "total_notificaciones_historicas": 1301,
     "total_franchise_historicas": 650,
-    "cache_buster": 1778292753
+    "cache_buster": 1778292854
 }
