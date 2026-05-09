@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:02",
+    "ultima_actualizacion": "02:39:43",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 73,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 15,
-                "Total": 1935,
-                "Diff": "4",
+                "Hoy": 18,
+                "Total": 1938,
+                "Diff": "1",
                 "Antece": "Robert Horry",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -104,14 +104,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 219,
+                "Rank": 217,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 468,
-                "Diff": "",
-                "Antece": "Ervin Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 469,
+                "Diff": "8",
+                "Antece": "Vince Carter",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1491,
-                "Diff": "436",
+                "Hoy": 18,
+                "Total": 1494,
+                "Diff": "433",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 8,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 468,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 469,
+                "Diff": "3",
                 "Antece": "Nat Clifton",
                 "game_status": "playing"
             },
@@ -541,9 +541,9 @@
                 "Rank": 13,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 202,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 203,
+                "Diff": "0",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (22 points today) has passed Carmelo Anthony and is now ranked 77th all-time with 1,916 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117499966805_7434_collage_1778117499859841.png"
-            ],
-            "timestamp": 1778117506
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (24 points today) has passed Chet Walker and is now ranked 76th all-time with 1,918 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778286981380148_2542_collage_1778286981286407.png"
             ],
             "timestamp": 1778286987
+        },
+        {
+            "texto": "Josh Hart (10 rebounds today) has passed Ervin Johnson and is now ranked 217th all-time with 469 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287177817258_3743_collage_1778287177723517.png"
+            ],
+            "timestamp": 1778287183
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1277,
+    "total_notificaciones_historicas": 1278,
     "total_franchise_historicas": 644,
-    "cache_buster": 1778287082
+    "cache_buster": 1778287183
 }
