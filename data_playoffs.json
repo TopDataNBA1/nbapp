@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:41:04",
+    "ultima_actualizacion": "04:44:17",
     "tablas": {
         "pts": [
             {
@@ -363,13 +363,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 191,
+                "Rank": 182,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 49,
+                "Hoy": 2,
+                "Total": 50,
                 "Diff": "",
-                "Antece": "Harvey Catchings",
+                "Antece": "Ian Mahinmi",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -380,7 +380,7 @@
                 "Hoy": 1,
                 "Total": 49,
                 "Diff": "",
-                "Antece": "Jaden McDaniels",
+                "Antece": "Harvey Catchings",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             },
@@ -725,9 +725,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 609,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 611,
+                "Diff": "0",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -737,7 +737,7 @@
                 "Stat": "PTS",
                 "Hoy": 6,
                 "Total": 480,
-                "Diff": "129",
+                "Diff": "131",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -845,9 +845,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 207,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 208,
+                "Diff": "7",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -857,7 +857,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 148,
-                "Diff": "59",
+                "Diff": "60",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1055,9 +1055,9 @@
                 "Rank": 2,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "39",
+                "Hoy": 2,
+                "Total": 50,
+                "Diff": "38",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1067,7 +1067,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 47,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder (1 assist today) has passed Bobby Jones and is now ranked 158th all-time with 285 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197045463695_9917_collage_1778197045354729.png"
-            ],
-            "timestamp": 1778197051
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (2 rebounds today) has passed Bobby Jones and LaMarcus Aldridge and is now ranked 141st all-time with 615 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778293051975770_5572_collage_1778293051866383.png"
             ],
             "timestamp": 1778293057
+        },
+        {
+            "texto": "Jaden McDaniels (2 blocks today) has passed Bam Adebayo, Harvey Catchings, Karl-Anthony Towns, Mikal Bridges, Nenê, Paul Pressey and Tobias Harris and is now ranked 182nd all-time with 50 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778294651386071_1705_collage_1778294651276697.png"
+            ],
+            "timestamp": 1778294657
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1303,
+    "total_notificaciones_historicas": 1304,
     "total_franchise_historicas": 653,
-    "cache_buster": 1778294464
+    "cache_buster": 1778294657
 }
