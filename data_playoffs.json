@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:41:06",
+    "ultima_actualizacion": "21:42:46",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 70,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 2006,
-                "Diff": "12",
+                "Hoy": 9,
+                "Total": 2008,
+                "Diff": "10",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -87,11 +87,11 @@
                 "Rank": 155,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 290,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 291,
+                "Diff": "",
                 "Antece": "Chris Webber",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -143,13 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 165,
+                "Rank": 163,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 53,
+                "Hoy": 2,
+                "Total": 54,
                 "Diff": "",
-                "Antece": "Blake Griffin",
+                "Antece": "Billy Paultz",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 901,
-                "Diff": "65",
+                "Hoy": 9,
+                "Total": 903,
+                "Diff": "63",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -411,13 +411,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 6,
+                "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 53,
-                "Diff": "0",
-                "Antece": "Hot Rod Williams",
+                "Hoy": 2,
+                "Total": 54,
+                "Diff": "16",
+                "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
             {
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart today surpasses Jae Crowder and now ranked 114th all time with 116 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204958346455_6957_collage_1778204958253490.png"
-            ],
-            "timestamp": 1778204964
-        },
         {
             "texto": "Isaiah Hartenstein (1 block today) has passed Mason Plumlee, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 217th all-time with 45 in playoffs.",
             "foto": [
@@ -1352,16 +1345,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355660732981_7909_collage_1778355660662867.png"
             ],
             "timestamp": 1778355666
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355761671750_5585_collage_1778355761613064.png"
+            ],
+            "timestamp": 1778355766
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace (3 steals today) has passed Jalen Williams and is now ranked 16th in Thunder history with 52 in playoffs.",
-            "foto": [],
-            "timestamp": 1778033959,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Paul George (1 three-pointer today) has passed Shake Milton and is now ranked 14th in 76ers history with 27 in playoffs.",
             "foto": [],
@@ -2054,9 +2047,16 @@
             "timestamp": 1778355283,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Evan Mobley (2 blocks today) has passed Hot Rod Williams and is now ranked 5th in Cavaliers history with 54 in playoffs.",
+            "foto": [],
+            "timestamp": 1778355766,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1324,
-    "total_franchise_historicas": 668,
-    "cache_buster": 1778355666
+    "total_notificaciones_historicas": 1325,
+    "total_franchise_historicas": 669,
+    "cache_buster": 1778355766
 }
