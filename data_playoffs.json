@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:57:04",
+    "ultima_actualizacion": "05:18:37",
     "tablas": {
         "pts": [
             {
@@ -408,9 +408,9 @@
             },
             {
                 "Rank": 222,
-                "Nombre": "Mason Plumlee",
-                "Team": "SAS",
-                "Hoy": 0,
+                "Nombre": "Anthony Edwards",
+                "Team": "MIN",
+                "Hoy": 1,
                 "Total": 44,
                 "Diff": "1",
                 "Antece": "Timofey Mozgov",
@@ -419,6 +419,17 @@
             },
             {
                 "Rank": 223,
+                "Nombre": "Mason Plumlee",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 44,
+                "Diff": "",
+                "Antece": "Anthony Edwards",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 224,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
                 "Hoy": 1,
@@ -427,17 +438,6 @@
                 "Antece": "Mason Plumlee",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 228,
-                "Nombre": "Anthony Edwards",
-                "Team": "MIN",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "1",
-                "Antece": "Sam Lacey",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 244,
@@ -825,9 +825,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 321,
-                "Diff": "18",
+                "Hoy": 10,
+                "Total": 322,
+                "Diff": "17",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -837,7 +837,7 @@
                 "Stat": "REB",
                 "Hoy": 5,
                 "Total": 216,
-                "Diff": "105",
+                "Diff": "106",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1045,9 +1045,9 @@
                 "Rank": 14,
                 "Nombre": "Julius Randle",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 17,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 18,
+                "Diff": "1",
                 "Antece": "Nickeil Alexander-Walker",
                 "game_status": "playing"
             },
@@ -1075,9 +1075,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "3",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1087,7 +1087,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 35,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed Danny Ainge and Nikola Jokić and is now ranked 49th all-time with 173 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778199136160704_1207_collage_1778199136076732.png"
-            ],
-            "timestamp": 1778199141
-        },
         {
             "texto": "Donovan Mitchell (2 assists today) has passed Mark Price and is now ranked 125th all-time with 328 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778295418397813_4033_collage_1778295418319687.png"
             ],
             "timestamp": 1778295424
+        },
+        {
+            "texto": "Anthony Edwards (1 block today) has passed Daniel Gafford, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 222nd all-time with 44 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778296712463832_4418_collage_1778296712385710.png"
+            ],
+            "timestamp": 1778296717
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1307,
+    "total_notificaciones_historicas": 1308,
     "total_franchise_historicas": 654,
-    "cache_buster": 1778295424
+    "cache_buster": 1778296717
 }
