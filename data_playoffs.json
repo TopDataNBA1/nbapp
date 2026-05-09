@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:01:45",
+    "ultima_actualizacion": "02:04:59",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 75,
+                "Rank": 74,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 1929,
-                "Diff": "",
-                "Antece": "Gus Williams",
-                "Nota": "Mismo total",
+                "Hoy": 11,
+                "Total": 1931,
+                "Diff": "3",
+                "Antece": "Draymond Green",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 1485,
-                "Diff": "442",
+                "Hoy": 11,
+                "Total": 1487,
+                "Diff": "440",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (3 steals today) has passed Gar Heard, Larry Hughes and Tyrone Corbin and is now ranked 165th all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778115859750147_3665_collage_1778115859681181.png"
-            ],
-            "timestamp": 1778115864
-        },
         {
             "texto": "OG Anunoby (4 steals today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 163rd all-time with 82 in playoffs.",
             "foto": [
@@ -1589,6 +1582,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778284899989662_6487_collage_1778284899880308.png"
             ],
             "timestamp": 1778284905
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (11 points today) has passed Gus Williams and is now ranked 74th all-time with 1,931 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778285093522532_8719_collage_1778285093428793.png"
+            ],
+            "timestamp": 1778285099
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1271,
+    "total_notificaciones_historicas": 1272,
     "total_franchise_historicas": 642,
-    "cache_buster": 1778284905
+    "cache_buster": 1778285099
 }
