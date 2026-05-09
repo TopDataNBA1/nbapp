@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:16:12",
+    "ultima_actualizacion": "23:18:05",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
         ],
         "trb": [
             {
-                "Rank": 54,
+                "Rank": 53,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 999,
-                "Diff": "",
-                "Antece": "Caldwell Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1000,
+                "Diff": "2",
+                "Antece": "Clyde Drexler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 537,
-                "Diff": "22",
+                "Hoy": 10,
+                "Total": 538,
+                "Diff": "21",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 9,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 301,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 302,
+                "Diff": "3",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -655,20 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (6 rebounds today) has passed Clifford Robinson and Zydrunas Ilgauskas and is now ranked 171st all-time with 556 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207582501766_4406_collage_1778207582431791.png"
-            ],
-            "timestamp": 1778207588
-        },
-        {
-            "texto": "Rui Hachimura (3 three-pointers today) has passed Al-Farouq Aminu and Trae Young and is now ranked 197th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778207965889153_8876_collage_1778207965816188.png"
-            ],
-            "timestamp": 1778207971
-        },
         {
             "texto": "Alex Caruso (1 three-pointer today) has passed Rafer Alston and is now ranked 175th all-time with 76 in playoffs.",
             "foto": [
@@ -1352,6 +1338,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361367084442_2977_collage_1778361366993248.png"
             ],
             "timestamp": 1778361372
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 rebound today) becomes the 53rd player to reach 1,000 in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361475017868_3368_collage_1778361474955507.png"
+            ],
+            "timestamp": 1778361480
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 rebound today) has passed Caldwell Jones and is now ranked 53rd all-time with 1,000 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361480524952_9492_collage_1778361480435332.png"
+            ],
+            "timestamp": 1778361485
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1336,
+    "total_notificaciones_historicas": 1338,
     "total_franchise_historicas": 671,
-    "cache_buster": 1778361372
+    "cache_buster": 1778361485
 }
