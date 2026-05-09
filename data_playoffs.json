@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:53:28",
+    "ultima_actualizacion": "03:55:14",
     "tablas": {
         "pts": [
             {
@@ -319,14 +319,14 @@
         ],
         "blk": [
             {
-                "Rank": 51,
+                "Rank": 50,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 135,
-                "Diff": "",
-                "Antece": "Karl Malone",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 136,
+                "Diff": "1",
+                "Antece": "Shawn Kemp",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -697,13 +697,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 212,
+                "Rank": 207,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 92,
+                "Hoy": 1,
+                "Total": 93,
                 "Diff": "",
-                "Antece": "Hal Greer",
+                "Antece": "Rashard Lewis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1065,9 +1065,9 @@
                 "Rank": 3,
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "2",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1077,7 +1077,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 43,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1245,9 +1245,9 @@
                 "Rank": 6,
                 "Nombre": "Rudy Gobert",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "0",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1750,20 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mason Plumlee (1 block today) has passed Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 229th all-time with 43 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127562135446_6409_collage_1778127562035475.png"
-            ],
-            "timestamp": 1778127568
-        },
-        {
-            "texto": "Joe Ingles (2 three-pointers today) has passed Tobias Harris and is now ranked 102nd all-time with 110 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778127664683187_4255_collage_1778127664584024.png"
-            ],
-            "timestamp": 1778127670
-        },
         {
             "texto": "Mason Plumlee (2 blocks today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Mitchell Robinson, Nate McMillan and Roy Tarpley and is now ranked 222nd all-time with 44 in playoffs.",
             "foto": [
@@ -2447,6 +2433,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291412533899_1720_collage_1778291412471382.png"
             ],
             "timestamp": 1778291417
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (1 block today) has passed Karl Malone and is now ranked 50th all-time with 136 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291703413287_8970_collage_1778291703319541.png"
+            ],
+            "timestamp": 1778291708
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Hal Greer and Slater Martin and now ranked 207th all time with 93 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291709069493_2518_collage_1778291708991369.png"
+            ],
+            "timestamp": 1778291714
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1296,
+    "total_notificaciones_historicas": 1298,
     "total_franchise_historicas": 650,
-    "cache_buster": 1778291608
+    "cache_buster": 1778291714
 }
