@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:51:53",
+    "ultima_actualizacion": "03:53:28",
     "tablas": {
         "pts": [
             {
@@ -835,9 +835,9 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 212,
-                "Diff": "100",
+                "Hoy": 2,
+                "Total": 213,
+                "Diff": "99",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -847,7 +847,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 202,
-                "Diff": "10",
+                "Diff": "11",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1728,13 +1728,13 @@
         ],
         "SAS": [
             {
-                "Rank": 16,
+                "Rank": 14,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 31,
-                "Diff": "0",
-                "Antece": "George Johnson",
+                "Hoy": 2,
+                "Total": 32,
+                "Diff": "5",
+                "Antece": "Sean Elliott",
                 "game_status": "playing"
             },
             {
@@ -2451,13 +2451,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Cade Cunningham (3 points today) has passed Walter Dukes and is now ranked 21st in Pistons history with 380 in playoffs.",
-            "foto": [],
-            "timestamp": 1778022981,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "Tobias Harris (1 steal today) has passed Eric Money and Jason Maxiell and is now ranked 22nd in Pistons history with 21 in playoffs.",
             "foto": [],
             "timestamp": 1778023190,
@@ -3149,9 +3142,16 @@
             "timestamp": 1778291417,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Tiago Splitter and George Johnson and is now ranked 14th in Spurs history with 32 in playoffs.",
+            "foto": [],
+            "timestamp": 1778291608,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1296,
-    "total_franchise_historicas": 649,
-    "cache_buster": 1778291513
+    "total_franchise_historicas": 650,
+    "cache_buster": 1778291608
 }
