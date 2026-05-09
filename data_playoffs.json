@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:39:25",
+    "ultima_actualizacion": "21:41:06",
     "tablas": {
         "pts": [
             {
@@ -76,11 +76,11 @@
                 "Rank": 125,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 329,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 330,
+                "Diff": "",
                 "Antece": "Derrick Rose",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -233,14 +233,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 135,
+                "Rank": 131,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 94,
-                "Diff": "",
-                "Antece": "Brook Lopez",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 95,
+                "Diff": "1",
+                "Antece": "Tyler Herro",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -344,9 +344,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 144,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 145,
+                "Diff": "19",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 179th all-time with 51 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778204952281827_4791_collage_1778204952182878.png"
-            ],
-            "timestamp": 1778204958
-        },
         {
             "texto": "Marcus Smart today surpasses Jae Crowder and now ranked 114th all time with 116 games in playoffs",
             "foto": [
@@ -1352,6 +1345,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354431513111_5425_collage_1778354431427886.png"
             ],
             "timestamp": 1778354437
+        },
+        {
+            "texto": "Dennis Schröder (2 three-pointers today) has passed Brook Lopez and Serge Ibaka and is now ranked 131st all-time with 95 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355660732981_7909_collage_1778355660662867.png"
+            ],
+            "timestamp": 1778355666
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1323,
+    "total_notificaciones_historicas": 1324,
     "total_franchise_historicas": 668,
-    "cache_buster": 1778355565
+    "cache_buster": 1778355666
 }
