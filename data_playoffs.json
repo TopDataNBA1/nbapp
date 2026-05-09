@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:04:31",
+    "ultima_actualizacion": "06:06:12",
     "tablas": {
         "pts": [
             {
@@ -83,9 +83,9 @@
                 "Rank": 220,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 12,
-                "Total": 1101,
-                "Diff": "8",
+                "Hoy": 13,
+                "Total": 1102,
+                "Diff": "7",
                 "Antece": "Tracy McGrady",
                 "Nota": "",
                 "game_status": "playing"
@@ -319,13 +319,13 @@
         ],
         "blk": [
             {
-                "Rank": 49,
+                "Rank": 48,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 137,
+                "Hoy": 3,
+                "Total": 138,
                 "Diff": "",
-                "Antece": "Elden Campbell",
+                "Antece": "Paul Millsap",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -725,9 +725,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 619,
-                "Diff": "381",
+                "Hoy": 15,
+                "Total": 621,
+                "Diff": "379",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -755,9 +755,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 444,
-                "Diff": "16",
+                "Hoy": 13,
+                "Total": 445,
+                "Diff": "15",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -855,9 +855,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 151,
-                "Diff": "60",
+                "Hoy": 5,
+                "Total": 152,
+                "Diff": "59",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -867,7 +867,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 129,
-                "Diff": "22",
+                "Diff": "23",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1065,9 +1065,9 @@
                 "Rank": 3,
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 48,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 49,
+                "Diff": "0",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1077,7 +1077,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 44,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1731,9 +1731,9 @@
                 "Rank": 14,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 33,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 34,
+                "Diff": "3",
                 "Antece": "Sean Elliott",
                 "game_status": "playing"
             },
@@ -1741,22 +1741,15 @@
                 "Rank": 22,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 21,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 22,
+                "Diff": "0",
                 "Antece": "Terry Porter",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (4 assists today) has passed Hedo Türkoğlu and is now ranked 155th all-time with 288 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778202270547444_9653_collage_1778202270459487.png"
-            ],
-            "timestamp": 1778202276
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (3 blocks today) has passed Alvin Scott, George Gervin, Kurt Thomas and Nate Thurmond and is now ranked 170th all-time with 52 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778299465888908_1893_collage_1778299465795182.png"
             ],
             "timestamp": 1778299471
+        },
+        {
+            "texto": "📢🔝💯 Rudy Gobert (3 blocks today) has passed Elden Campbell and Shawn Kemp and is now ranked 48th all-time with 138 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778299566610041_8899_collage_1778299566547547.png"
+            ],
+            "timestamp": 1778299572
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1315,
+    "total_notificaciones_historicas": 1316,
     "total_franchise_historicas": 661,
-    "cache_buster": 1778299471
+    "cache_buster": 1778299572
 }
