@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:19:08",
+    "ultima_actualizacion": "22:20:48",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 70,
+                "Rank": 68,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 18,
-                "Total": 2017,
-                "Diff": "1",
-                "Antece": "Jamal Murray",
-                "Nota": "A tiro de 1",
+                "Hoy": 20,
+                "Total": 2019,
+                "Diff": "7",
+                "Antece": "Kevin Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 912,
-                "Diff": "54",
+                "Hoy": 20,
+                "Total": 914,
+                "Diff": "52",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 533,
-                "Diff": "26",
+                "Hoy": 6,
+                "Total": 534,
+                "Diff": "25",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -334,9 +334,9 @@
                 "Rank": 18,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 162,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 163,
+                "Diff": "1",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (1 three-pointer today) has passed Andrew Wiggins, Derrick Rose, Joel Embiid, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 201st all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205465326275_4568_collage_1778205465232304.png"
-            ],
-            "timestamp": 1778205471
-        },
         {
             "texto": "Shai Gilgeous-Alexander (7 points today) has passed Rudy LaRusso and is now ranked 165th all-time with 1,346 in playoffs.",
             "foto": [
@@ -1352,6 +1345,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778357375466363_9906_collage_1778357375376596.png"
             ],
             "timestamp": 1778357381
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (20 points today) has passed Bob Cousy and Jamal Murray and is now ranked 68th all-time with 2,019 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778358043491081_4186_collage_1778358043417964.png"
+            ],
+            "timestamp": 1778358048
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1328,
+    "total_notificaciones_historicas": 1329,
     "total_franchise_historicas": 670,
-    "cache_buster": 1778357948
+    "cache_buster": 1778358048
 }
