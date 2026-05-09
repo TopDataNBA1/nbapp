@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:40:19",
+    "ultima_actualizacion": "23:41:59",
     "tablas": {
         "pts": [
             {
@@ -203,11 +203,11 @@
                 "Rank": 43,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 179,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 180,
+                "Diff": "1",
                 "Antece": "Dan Majerle",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -284,9 +284,9 @@
                 "Rank": 18,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 356,
-                "Diff": "25",
+                "Hoy": 18,
+                "Total": 358,
+                "Diff": "23",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 238,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 239,
+                "Diff": "15",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -523,13 +523,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 128,
-                "Diff": "0",
-                "Antece": "Gene Shue",
+                "Hoy": 10,
+                "Total": 129,
+                "Diff": "11",
+                "Antece": "Ben Wallace",
                 "game_status": "playing"
             },
             {
@@ -613,7 +613,17 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 10,
+                "Nombre": "Duncan Robinson",
+                "Stat": "3PM",
+                "Hoy": 4,
+                "Total": 33,
+                "Diff": "7",
+                "Antece": "Clifford Robinson",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 13,
                 "Nombre": "Cade Cunningham",
                 "Stat": "3PM",
                 "Hoy": 1,
@@ -623,23 +633,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
-                "Nombre": "Duncan Robinson",
-                "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 32,
-                "Diff": "0",
-                "Antece": "Cade Cunningham",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 14,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
                 "Hoy": 2,
                 "Total": 30,
                 "Diff": "2",
-                "Antece": "Duncan Robinson",
+                "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
             {
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart (1 block today) has passed Eddie Jones and Manu Ginóbili and is now ranked 145th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778209940342134_1778_collage_1778209940267162.png"
-            ],
-            "timestamp": 1778209945
-        },
         {
             "texto": "📢HOF🏛️ Austin Reaves (2 three-pointers today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 215th all-time with 65 in playoffs.",
             "foto": [
@@ -1352,23 +1345,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362717366681_2174_collage_1778362717278072.png"
             ],
             "timestamp": 1778362723
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (4 three-pointers today) has passed Mike Conley and is now ranked 43rd all-time with 180 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362913920012_7542_collage_1778362913833576.png"
+            ],
+            "timestamp": 1778362919
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Josh Hart today surpasses Hubert Davis and is now ranked 22nd in Knicks history with 50 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778110006,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢HOF🏛️ Kelly Oubre Jr. (2 three-pointers today) has passed Robert Covington and Charles Barkley and is now ranked 23rd in 76ers history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1778110688,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (6 points today) has passed Tobias Harris and is now ranked 13th in 76ers history with 937 in playoffs.",
             "foto": [],
@@ -2054,9 +2040,23 @@
             "timestamp": 1778362723,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (10 assists today) has passed Gene Shue and is now ranked 12th in Pistons history with 129 in playoffs.",
+            "foto": [],
+            "timestamp": 1778362919,
+            "team": "DET",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Duncan Robinson (4 three-pointers today) has passed Chucky Atkins, Jon Barry and Cade Cunningham and is now ranked 10th in Pistons history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1778362919,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1341,
-    "total_franchise_historicas": 673,
-    "cache_buster": 1778362819
+    "total_notificaciones_historicas": 1342,
+    "total_franchise_historicas": 675,
+    "cache_buster": 1778362919
 }
