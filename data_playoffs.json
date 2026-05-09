@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:50:30",
+    "ultima_actualizacion": "04:53:47",
     "tablas": {
         "pts": [
             {
@@ -205,13 +205,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 191,
+                "Rank": 190,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 246,
+                "Hoy": 2,
+                "Total": 247,
                 "Diff": "1",
-                "Antece": "Dick Barnett",
+                "Antece": "Andy Phillip",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -618,24 +618,24 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 214,
+                "Rank": 212,
+                "Nombre": "Naz Reid",
+                "Team": "MIN",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "",
+                "Antece": "Eddie Johnson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 215,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
                 "Hoy": 0,
                 "Total": 66,
                 "Diff": "",
                 "Antece": "Jordan Poole",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 216,
-                "Nombre": "Naz Reid",
-                "Team": "MIN",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "",
-                "Antece": "Kerry Kittles",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -745,9 +745,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 452,
-                "Diff": "28",
+                "Hoy": 10,
+                "Total": 455,
+                "Diff": "25",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -757,7 +757,7 @@
                 "Stat": "PTS",
                 "Hoy": 8,
                 "Total": 440,
-                "Diff": "12",
+                "Diff": "15",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -895,9 +895,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 246,
-                "Diff": "754",
+                "Hoy": 2,
+                "Total": 247,
+                "Diff": "753",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1145,9 +1145,9 @@
                 "Rank": 3,
                 "Nombre": "Naz Reid",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 67,
+                "Diff": "1",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1157,7 +1157,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 58,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1750,20 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 rebounds today) has passed Bobby Jones and LaMarcus Aldridge and is now ranked 141st all-time with 615 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197897256039_5689_collage_1778197897178077.png"
-            ],
-            "timestamp": 1778197902
-        },
-        {
-            "texto": "Evan Mobley (1 block today) has passed Bam Adebayo, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 180th all-time with 50 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778197903035990_2440_collage_1778197902958002.png"
-            ],
-            "timestamp": 1778197908
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 201st all-time with 48 in playoffs.",
             "foto": [
@@ -2447,6 +2433,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778294651386071_1705_collage_1778294651276697.png"
             ],
             "timestamp": 1778294657
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (2 assists today) has passed Jamaal Wilkes, Rick Fox and Sam Perkins and is now ranked 190th all-time with 247 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778295217269910_3200_collage_1778295217207413.png"
+            ],
+            "timestamp": 1778295221
+        },
+        {
+            "texto": "Naz Reid (2 three-pointers today) has passed Austin Reaves, Jordan Poole, Julius Randle and Kerry Kittles and is now ranked 212th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778295221995102_9351_collage_1778295221932611.png"
+            ],
+            "timestamp": 1778295227
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1304,
+    "total_notificaciones_historicas": 1306,
     "total_franchise_historicas": 653,
-    "cache_buster": 1778295030
+    "cache_buster": 1778295227
 }
