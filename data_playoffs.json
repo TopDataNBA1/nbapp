@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:15",
+    "ultima_actualizacion": "02:49:33",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 73,
+                "Rank": 72,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 18,
-                "Total": 1938,
-                "Diff": "1",
-                "Antece": "Robert Horry",
-                "Nota": "A tiro de 1",
+                "Hoy": 20,
+                "Total": 1940,
+                "Diff": "27",
+                "Antece": "Bob Dandridge",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -39,11 +39,11 @@
                 "Rank": 112,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 10,
-                "Total": 1605,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 1607,
+                "Diff": "1",
                 "Antece": "Serge Ibaka",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -150,14 +150,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 4,
-                "Total": 215,
-                "Diff": "1",
-                "Antece": "Keith Erickson",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 216,
+                "Diff": "",
+                "Antece": "Jack Coleman",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -451,9 +451,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 1494,
-                "Diff": "433",
+                "Hoy": 20,
+                "Total": 1496,
+                "Diff": "431",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1605,
-                "Diff": "125",
+                "Hoy": 12,
+                "Total": 1607,
+                "Diff": "123",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -773,9 +773,9 @@
                 "Rank": 15,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 215,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 216,
+                "Diff": "0",
                 "Antece": "Larry Costello",
                 "game_status": "playing"
             },
@@ -892,20 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (10 rebounds today) has passed Tyson Chandler and is now ranked 139th all-time with 620 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778118368743829_6920_collage_1778118368651635.png"
-            ],
-            "timestamp": 1778118374
-        },
-        {
-            "texto": "Rudy Gobert (2 points today) has passed Jeff Mullins and is now ranked 225th all-time with 1,086 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778118660321285_9717_collage_1778118660224230.png"
-            ],
-            "timestamp": 1778118665
-        },
         {
             "texto": "Rudy Gobert today surpasses Clint Capela, Nenê, Nick Collison and Norman Powell and now ranked 212th all time with 92 games in playoffs",
             "foto": [
@@ -1589,6 +1575,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287379623326_6853_collage_1778287379560819.png"
             ],
             "timestamp": 1778287385
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (20 points today) has passed Robert Horry and is now ranked 72nd all-time with 1,940 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287762180563_6159_collage_1778287762086825.png"
+            ],
+            "timestamp": 1778287767
+        },
+        {
+            "texto": "Joel Embiid (5 assists today) has passed Tom Heinsohn and is now ranked 231st all-time with 216 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287767899234_3982_collage_1778287767789850.png"
+            ],
+            "timestamp": 1778287773
         }
     ],
     "notificaciones_franchise": [
@@ -2293,7 +2293,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1280,
+    "total_notificaciones_historicas": 1282,
     "total_franchise_historicas": 645,
-    "cache_buster": 1778287575
+    "cache_buster": 1778287773
 }
