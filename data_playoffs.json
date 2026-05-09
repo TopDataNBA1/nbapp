@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:59:56",
+    "ultima_actualizacion": "22:01:36",
     "tablas": {
         "pts": [
             {
@@ -165,13 +165,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 211,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 45,
+                "Hoy": 1,
+                "Total": 46,
                 "Diff": "",
-                "Antece": "Chris Mullin",
+                "Antece": "James Edwards",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -424,9 +424,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 35,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 36,
+                "Diff": "3",
                 "Antece": "Timofey Mozgov",
                 "game_status": "playing"
             },
@@ -655,13 +655,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Isaiah Hartenstein (1 block today) has passed Mason Plumlee, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 217th all-time with 45 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778205061801853_8123_collage_1778205061723883.png"
-            ],
-            "timestamp": 1778205067
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ LeBron James today becomes the 1st player to reach 300 in playoffs",
             "foto": [
@@ -1352,6 +1345,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355761671750_5585_collage_1778355761613064.png"
             ],
             "timestamp": 1778355766
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 211th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778356891224826_4682_collage_1778356891134111.png"
+            ],
+            "timestamp": 1778356896
         }
     ],
     "notificaciones_franchise": [
@@ -2056,7 +2056,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1325,
+    "total_notificaciones_historicas": 1326,
     "total_franchise_historicas": 670,
-    "cache_buster": 1778356796
+    "cache_buster": 1778356896
 }
