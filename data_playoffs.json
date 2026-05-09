@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:07",
+    "ultima_actualizacion": "03:35:47",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 72,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 29,
-                "Total": 1949,
-                "Diff": "18",
+                "Hoy": 31,
+                "Total": 1951,
+                "Diff": "16",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -107,9 +107,9 @@
                 "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 4,
-                "Total": 895,
-                "Diff": "10",
+                "Hoy": 5,
+                "Total": 896,
+                "Diff": "9",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -520,25 +520,25 @@
             },
             {
                 "Rank": 103,
+                "Nombre": "Tyrese Maxey",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 111,
+                "Diff": "",
+                "Antece": "Tobias Harris",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 104,
                 "Nombre": "Joe Ingles",
                 "Team": "MIN",
                 "Hoy": 0,
                 "Total": 110,
                 "Diff": "1",
-                "Antece": "Tobias Harris",
+                "Antece": "Tyrese Maxey",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 105,
-                "Nombre": "Tyrese Maxey",
-                "Team": "PHI",
-                "Hoy": 0,
-                "Total": 110,
-                "Diff": "",
-                "Antece": "Tim Hardaway",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 106,
@@ -547,7 +547,7 @@
                 "Hoy": 0,
                 "Total": 108,
                 "Diff": "2",
-                "Antece": "Tyrese Maxey",
+                "Antece": "Tim Hardaway",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -1287,9 +1287,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 1505,
-                "Diff": "422",
+                "Hoy": 31,
+                "Total": 1507,
+                "Diff": "420",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1589,9 +1589,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 971,
-                "Diff": "29",
+                "Hoy": 17,
+                "Total": 974,
+                "Diff": "26",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1669,9 +1669,9 @@
                 "Rank": 2,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 110,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 111,
+                "Diff": "4",
                 "Antece": "Allen Iverson",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (2 three-pointers today) has passed Austin Reaves, Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 221st all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778125372820487_1896_collage_1778125372725518.png"
-            ],
-            "timestamp": 1778125378
-        },
         {
             "texto": "📢HOF🏛️ Naz Reid (3 three-pointers today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 219th all-time with 65 in playoffs.",
             "foto": [
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778290163517000_6294_collage_1778290163423253.png"
             ],
             "timestamp": 1778290169
+        },
+        {
+            "texto": "📢HOF🏛️ Tyrese Maxey (1 three-pointer today) has passed Joe Ingles and Tim Hardaway and is now ranked 103rd all-time with 111 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778290542251852_5129_collage_1778290542173747.png"
+            ],
+            "timestamp": 1778290547
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1291,
+    "total_notificaciones_historicas": 1292,
     "total_franchise_historicas": 648,
-    "cache_buster": 1778290447
+    "cache_buster": 1778290547
 }
