@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:41:24",
+    "ultima_actualizacion": "02:43:05",
     "tablas": {
         "pts": [
             {
@@ -50,9 +50,9 @@
                 "Rank": 206,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 1144,
-                "Diff": "11",
+                "Hoy": 7,
+                "Total": 1145,
+                "Diff": "10",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,9 +63,9 @@
                 "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 894,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 895,
+                "Diff": "10",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -82,14 +82,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 137,
+                "Rank": 135,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 626,
-                "Diff": "",
-                "Antece": "Derrick McKey",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 627,
+                "Diff": "4",
+                "Antece": "Jermaine O'Neal",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -481,9 +481,9 @@
                 "Rank": 21,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 541,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 542,
+                "Diff": "16",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -508,13 +508,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 299,
-                "Diff": "0",
-                "Antece": "Marcus Camby",
+                "Hoy": 7,
+                "Total": 300,
+                "Diff": "10",
+                "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
             {
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (7 rebounds today) has passed Josh Howard and is now ranked 222nd all-time with 459 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778117894233988_4643_collage_1778117894142016.png"
-            ],
-            "timestamp": 1778117899
-        },
         {
             "texto": "Karl-Anthony Towns (10 rebounds today) has passed Tyson Chandler and is now ranked 139th all-time with 620 in playoffs.",
             "foto": [
@@ -1589,16 +1582,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287278865646_4113_collage_1778287278803155.png"
             ],
             "timestamp": 1778287284
+        },
+        {
+            "texto": "Karl-Anthony Towns (7 rebounds today) has passed Derrick McKey and Klay Thompson and is now ranked 135th all-time with 627 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287379623326_6853_collage_1778287379560819.png"
+            ],
+            "timestamp": 1778287385
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Rudy Gobert (2 assists today) has passed Kyle Anderson and is now ranked 11th in Timberwolves history with 65 in playoffs.",
-            "foto": [],
-            "timestamp": 1777950284,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Julius Randle (1 steal today) has passed Stephon Marbury and is now ranked 16th in Timberwolves history with 15 in playoffs.",
             "foto": [],
@@ -2291,9 +2284,16 @@
             "timestamp": 1778287082,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Karl-Anthony Towns (7 rebounds today) has passed Marcus Camby and is now ranked 13th in Knicks history with 300 in playoffs.",
+            "foto": [],
+            "timestamp": 1778287385,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1279,
-    "total_franchise_historicas": 644,
-    "cache_buster": 1778287284
+    "total_notificaciones_historicas": 1280,
+    "total_franchise_historicas": 645,
+    "cache_buster": 1778287385
 }
