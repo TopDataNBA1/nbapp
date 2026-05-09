@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:18:37",
+    "ultima_actualizacion": "05:20:18",
     "tablas": {
         "pts": [
             {
@@ -80,14 +80,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 222,
+                "Rank": 221,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 1097,
-                "Diff": "",
-                "Antece": "Boris Diaw",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 1099,
+                "Diff": "1",
+                "Antece": "Bill Cartwright",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -755,9 +755,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 440,
-                "Diff": "15",
+                "Hoy": 10,
+                "Total": 442,
+                "Diff": "13",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1751,13 +1751,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Donovan Mitchell (2 assists today) has passed Mark Price and is now ranked 125th all-time with 328 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778200253823692_8712_collage_1778200253726723.png"
-            ],
-            "timestamp": 1778200259
-        },
-        {
             "texto": "Donovan Mitchell (2 steals today) has passed Doug Christie and is now ranked 129th all-time with 94 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778200545482876_4986_collage_1778200545389939.png"
@@ -2447,6 +2440,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778296712463832_4418_collage_1778296712385710.png"
             ],
             "timestamp": 1778296717
+        },
+        {
+            "texto": "Rudy Gobert (10 points today) has passed Boris Diaw and is now ranked 221st all-time with 1,099 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778296812923870_1885_collage_1778296812830123.png"
+            ],
+            "timestamp": 1778296818
         }
     ],
     "notificaciones_franchise": [
@@ -3151,7 +3151,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1308,
+    "total_notificaciones_historicas": 1309,
     "total_franchise_historicas": 654,
-    "cache_buster": 1778296717
+    "cache_buster": 1778296818
 }
