@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:51:15",
+    "ultima_actualizacion": "02:57:31",
     "tablas": {
         "pts": [
             {
@@ -212,11 +212,11 @@
                 "Rank": 70,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 108,
+                "Diff": "",
                 "Antece": "Clyde Drexler",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -591,9 +591,9 @@
                 "Rank": 21,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 32,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 33,
+                "Diff": "1",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -813,9 +813,9 @@
                 "Rank": 5,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "26",
+                "Hoy": 3,
+                "Total": 108,
+                "Diff": "25",
                 "Antece": "Bobby Jones",
                 "game_status": "playing"
             },
@@ -892,13 +892,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (3 rebounds today) has passed Serge Ibaka and is now ranked 57th all-time with 966 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778118768205482_4791_collage_1778118768117489.png"
-            ],
-            "timestamp": 1778118773
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Mike Conley (1 steal today) has passed Bobby Jones and Kevin Johnson and is now ranked 72nd all-time with 133 in playoffs.",
             "foto": [
@@ -1589,16 +1582,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287869533424_5803_collage_1778287869455319.png"
             ],
             "timestamp": 1778287874
+        },
+        {
+            "texto": "📢🔝💯 Joel Embiid (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778288245742513_8525_collage_1778288245648753.png"
+            ],
+            "timestamp": 1778288251
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Julius Randle (1 steal today) has passed Stephon Marbury and is now ranked 16th in Timberwolves history with 15 in playoffs.",
-            "foto": [],
-            "timestamp": 1777951707,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Jaden McDaniels (1 assist today) has passed Stephon Marbury and is now ranked 13th in Timberwolves history with 62 in playoffs.",
             "foto": [],
@@ -2291,9 +2284,16 @@
             "timestamp": 1778287385,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (1 steal today) has passed Walt Frazier and is now ranked 21st in Knicks history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1778288251,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1283,
-    "total_franchise_historicas": 645,
-    "cache_buster": 1778287875
+    "total_notificaciones_historicas": 1284,
+    "total_franchise_historicas": 646,
+    "cache_buster": 1778288251
 }
