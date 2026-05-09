@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:15:56",
+    "ultima_actualizacion": "04:17:37",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 183,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 10,
-                "Total": 1244,
-                "Diff": "8",
+                "Hoy": 13,
+                "Total": 1247,
+                "Diff": "5",
                 "Antece": "Brook Lopez",
                 "Nota": "",
                 "game_status": "playing"
@@ -96,9 +96,9 @@
                 "Rank": 57,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 974,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 975,
+                "Diff": "10",
                 "Antece": "Paul Pierce",
                 "Nota": "",
                 "game_status": "playing"
@@ -500,9 +500,9 @@
                 "Rank": 68,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 142,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 143,
+                "Diff": "2",
                 "Antece": "Mike Bibby",
                 "Nota": "",
                 "game_status": "playing"
@@ -715,9 +715,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1244,
-                "Diff": "756",
+                "Hoy": 13,
+                "Total": 1247,
+                "Diff": "753",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -815,9 +815,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 422,
-                "Diff": "206",
+                "Hoy": 2,
+                "Total": 423,
+                "Diff": "205",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -923,22 +923,22 @@
             },
             {
                 "Rank": 10,
-                "Nombre": "Kyle Anderson",
+                "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "1",
                 "Antece": "Sam Cassell",
                 "game_status": "playing"
             },
             {
                 "Rank": 11,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 68,
-                "Diff": "0",
-                "Antece": "Kyle Anderson",
+                "Diff": "1",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -948,7 +948,7 @@
                 "Hoy": 0,
                 "Total": 67,
                 "Diff": "1",
-                "Antece": "Rudy Gobert",
+                "Antece": "Kyle Anderson",
                 "game_status": "playing"
             },
             {
@@ -1125,9 +1125,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 142,
-                "Diff": "58",
+                "Hoy": 2,
+                "Total": 143,
+                "Diff": "57",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1750,13 +1750,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Mark Aguirre, Maurice Lucas and Pau Gasol and is now ranked 202nd all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778196664621809_9174_collage_1778196664557845.png"
-            ],
-            "timestamp": 1778196669
-        },
         {
             "texto": "📢HOF🏛️ Dennis Schröder (1 assist today) has passed Bobby Jones and is now ranked 158th all-time with 285 in playoffs.",
             "foto": [
@@ -2447,16 +2440,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292950420490_4960_collage_1778292950342366.png"
             ],
             "timestamp": 1778292956
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (13 points today) has passed Bob Lanier and is now ranked 183rd all-time with 1,247 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778293051975770_5572_collage_1778293051866383.png"
+            ],
+            "timestamp": 1778293057
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (2 assists today) has passed Terrell Brandon and is now ranked 17th in Cavaliers history with 77 in playoffs.",
-            "foto": [],
-            "timestamp": 1778024219,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Ausar Thompson (1 steal today) has passed Chucky Atkins and is now ranked 17th in Pistons history with 24 in playoffs.",
             "foto": [],
@@ -3149,9 +3142,16 @@
             "timestamp": 1778292956,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Rudy Gobert (2 assists today) has passed Kyle Anderson and is now ranked 10th in Timberwolves history with 69 in playoffs.",
+            "foto": [],
+            "timestamp": 1778293057,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1302,
-    "total_franchise_historicas": 651,
-    "cache_buster": 1778292956
+    "total_notificaciones_historicas": 1303,
+    "total_franchise_historicas": 652,
+    "cache_buster": 1778293057
 }
