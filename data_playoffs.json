@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:12:57",
+    "ultima_actualizacion": "22:14:39",
     "tablas": {
         "pts": [
             {
@@ -376,24 +376,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 200,
+                "Rank": 196,
+                "Nombre": "Landry Shamet",
+                "Team": "NYK",
+                "Hoy": 3,
+                "Total": 71,
+                "Diff": "",
+                "Antece": "Jordan Clarkson",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 201,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
                 "Hoy": 2,
                 "Total": 70,
                 "Diff": "",
                 "Antece": "Al-Farouq Aminu",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 201,
-                "Nombre": "Landry Shamet",
-                "Team": "NYK",
-                "Hoy": 2,
-                "Total": 70,
-                "Diff": "",
-                "Antece": "Joel Embiid",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -459,23 +459,23 @@
             },
             {
                 "Rank": 17,
+                "Nombre": "Josh Hart",
+                "Stat": "PTS",
+                "Hoy": 6,
+                "Total": 603,
+                "Diff": "3",
+                "Antece": "Connie Simmons",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 18,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 601,
-                "Diff": "5",
-                "Antece": "Connie Simmons",
+                "Diff": "2",
+                "Antece": "Josh Hart",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 18,
-                "Nombre": "Josh Hart",
-                "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 600,
-                "Diff": "1",
-                "Antece": "OG Anunoby",
-                "game_status": "playing"
             },
             {
                 "Rank": 21,
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (14 points today) has passed Serge Ibaka and is now ranked 111th all-time with 1,609 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778288628670874_8497_collage_1778288628592755.png"
-            ],
-            "timestamp": 1778288634
-        },
         {
             "texto": "📢HOF🏛️ Landry Shamet (2 three-pointers today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 206th all-time with 68 in playoffs.",
             "foto": [
@@ -1611,16 +1604,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443874716278_8781_collage_1778443874654298.png"
             ],
             "timestamp": 1778443881
+        },
+        {
+            "texto": "Landry Shamet (3 three-pointers today) has passed Al-Farouq Aminu, Joel Embiid and Trae Young and is now ranked 196th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778444072571772_5398_collage_1778444072508794.png"
+            ],
+            "timestamp": 1778444079
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 assist today) has passed Larry Hughes and is now ranked 16th in Cavaliers history with 81 in playoffs.",
-            "foto": [],
-            "timestamp": 1778195619,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley today surpasses Drew Gooden and Timofey Mozgov and is now ranked 23rd in Cavaliers history with 34 games in playoffs.",
             "foto": [],
@@ -2313,9 +2306,16 @@
             "timestamp": 1778443977,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart (6 points today) has passed OG Anunoby and is now ranked 17th in Knicks history with 603 in playoffs.",
+            "foto": [],
+            "timestamp": 1778444079,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1384,
-    "total_franchise_historicas": 700,
-    "cache_buster": 1778443977
+    "total_notificaciones_historicas": 1385,
+    "total_franchise_historicas": 701,
+    "cache_buster": 1778444079
 }
