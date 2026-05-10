@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "22:06:36",
+    "ultima_actualizacion": "22:11:21",
     "tablas": {
         "pts": [
             {
                 "Rank": 45,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 2589,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 2591,
+                "Diff": "10",
                 "Antece": "Kevin Garnett",
                 "Nota": "",
                 "game_status": "playing"
@@ -74,9 +74,9 @@
                 "Rank": 115,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 687,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 688,
+                "Diff": "2",
                 "Antece": "Maurice Lucas",
                 "Nota": "",
                 "game_status": "playing"
@@ -433,13 +433,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 100,
+                "Rank": 98,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 124,
+                "Hoy": 1,
+                "Total": 125,
                 "Diff": "",
-                "Antece": "Jason Terry",
+                "Antece": "Dwight Howard",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -773,9 +773,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 687,
-                "Diff": "123",
+                "Hoy": 1,
+                "Total": 688,
+                "Diff": "122",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Joel Embiid (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778288245742513_8525_collage_1778288245648753.png"
-            ],
-            "timestamp": 1778288251
-        },
         {
             "texto": "Joel Embiid (14 points today) has passed Serge Ibaka and is now ranked 111th all-time with 1,609 in playoffs.",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443492615730_4880_collage_1778443492525690.png"
             ],
             "timestamp": 1778443500
+        },
+        {
+            "texto": "📢🔝💯 Paul George today surpasses Bill Cartwright, Jason Terry and Terry Porter and now ranked 98th all time with 125 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443874716278_8781_collage_1778443874654298.png"
+            ],
+            "timestamp": 1778443881
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1383,
+    "total_notificaciones_historicas": 1384,
     "total_franchise_historicas": 699,
-    "cache_buster": 1778443596
+    "cache_buster": 1778443881
 }
