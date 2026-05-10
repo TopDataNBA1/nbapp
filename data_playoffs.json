@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:25:04",
+    "ultima_actualizacion": "23:26:48",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 202,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 1160,
-                "Diff": "3",
+                "Hoy": 15,
+                "Total": 1161,
+                "Diff": "2",
                 "Antece": "Marques Johnson",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -242,13 +242,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 187,
+                "Rank": 178,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 50,
+                "Hoy": 2,
+                "Total": 51,
                 "Diff": "",
-                "Antece": "Jrue Holiday",
+                "Antece": "George Gervin",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -481,9 +481,9 @@
                 "Rank": 21,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 557,
-                "Diff": "1",
+                "Hoy": 15,
+                "Total": 558,
+                "Diff": "0",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -628,13 +628,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 10,
+                "Rank": 8,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 26,
+                "Hoy": 2,
+                "Total": 27,
                 "Diff": "0",
-                "Antece": "Anthony Mason",
+                "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
             {
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (10 points today) has passed Boris Diaw and is now ranked 221st all-time with 1,099 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778296812923870_1885_collage_1778296812830123.png"
-            ],
-            "timestamp": 1778296818
-        },
         {
             "texto": "Anthony Edwards (23 points today) has passed Andrew Toney and is now ranked 181st all-time with 1,257 in playoffs.",
             "foto": [
@@ -1611,16 +1604,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448296543744_7515_collage_1778448296464773.png"
             ],
             "timestamp": 1778448304
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 178th all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448400181590_3763_collage_1778448400074546.png"
+            ],
+            "timestamp": 1778448408
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (2 steals today) has passed Mike Sanders and is now ranked 15th in Cavaliers history with 29 in playoffs.",
-            "foto": [],
-            "timestamp": 1778197051,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Donovan Mitchell (1 assist today) has passed Delonte West and is now ranked 5th in Cavaliers history with 142 in playoffs.",
             "foto": [],
@@ -2313,9 +2306,16 @@
             "timestamp": 1778447921,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Karl-Anthony Towns (2 blocks today) has passed Kurt Thomas and Anthony Mason and is now ranked 8th in Knicks history with 27 in playoffs.",
+            "foto": [],
+            "timestamp": 1778448408,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1408,
-    "total_franchise_historicas": 708,
-    "cache_buster": 1778448304
+    "total_notificaciones_historicas": 1409,
+    "total_franchise_historicas": 709,
+    "cache_buster": 1778448408
 }
