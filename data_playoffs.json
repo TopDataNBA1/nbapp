@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:08:10",
+    "ultima_actualizacion": "04:09:51",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 10,
-                "Total": 8488,
-                "Diff": "512",
+                "Hoy": 12,
+                "Total": 8490,
+                "Diff": "510",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -61,9 +61,9 @@
                 "Rank": 159,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 17,
-                "Total": 1378,
-                "Diff": "9",
+                "Hoy": 19,
+                "Total": 1380,
+                "Diff": "7",
                 "Antece": "Vinnie Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -205,14 +205,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 139,
+                "Rank": 138,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 306,
-                "Diff": "",
-                "Antece": "John Paxson",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 307,
+                "Diff": "4",
+                "Antece": "Baron Davis",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1032,9 +1032,9 @@
                 "Rank": 12,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1577,
-                "Diff": "4",
+                "Hoy": 12,
+                "Total": 1579,
+                "Diff": "2",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1296,
-                "Diff": "90",
+                "Hoy": 19,
+                "Total": 1298,
+                "Diff": "88",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1134,9 +1134,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 634,
-                "Diff": "19",
+                "Hoy": 16,
+                "Total": 636,
+                "Diff": "17",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 227,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 229,
+                "Diff": "3",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 287,
-                "Diff": "53",
+                "Hoy": 5,
+                "Total": 288,
+                "Diff": "52",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (4 assists today) has passed Anthony Mason, Jerry Lucas and Richie Guerin and is now ranked 232nd all-time with 215 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283844129284_9162_collage_1778283844066787.png"
-            ],
-            "timestamp": 1778283849
-        },
         {
             "texto": "Josh Hart (5 rebounds today) has passed Leroy Ellis and Peja Stojaković and is now ranked 219th all-time with 464 in playoffs.",
             "foto": [
@@ -2082,6 +2075,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378884733957_1467_collage_1778378884630582.png"
             ],
             "timestamp": 1778378890
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (5 assists today) has passed John Paxson, Tiny Archibald and Vinnie Johnson and is now ranked 138th all-time with 307 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378986263565_9862_collage_1778378986200505.png"
+            ],
+            "timestamp": 1778378991
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1365,
+    "total_notificaciones_historicas": 1366,
     "total_franchise_historicas": 686,
-    "cache_buster": 1778378890
+    "cache_buster": 1778378991
 }
