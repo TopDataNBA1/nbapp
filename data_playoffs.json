@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:58:10",
+    "ultima_actualizacion": "03:59:52",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 2161,
-                "Diff": "185",
+                "Hoy": 5,
+                "Total": 2162,
+                "Diff": "184",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -205,13 +205,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 145,
+                "Rank": 144,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 304,
+                "Hoy": 3,
+                "Total": 305,
                 "Diff": "",
-                "Antece": "Dan Majerle",
+                "Antece": "Ron Harper",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1052,9 +1052,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 474,
-                "Diff": "33",
+                "Hoy": 5,
+                "Total": 475,
+                "Diff": "32",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 285,
-                "Diff": "55",
+                "Hoy": 3,
+                "Total": 286,
+                "Diff": "54",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (6 points today) has passed Tom Sanders and is now ranked 206th all-time with 1,144 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282745926606_5713_collage_1778282745817239.png"
-            ],
-            "timestamp": 1778282751
-        },
         {
             "texto": "Karl-Anthony Towns (2 rebounds today) has passed Jack Coleman and is now ranked 138th all-time with 622 in playoffs.",
             "foto": [],
@@ -2080,6 +2073,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378284979696_5751_collage_1778378284907358.png"
             ],
             "timestamp": 1778378290
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Dan Majerle and is now ranked 144th all-time with 305 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378386518902_8237_collage_1778378386431473.png"
+            ],
+            "timestamp": 1778378392
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2784,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1359,
+    "total_notificaciones_historicas": 1360,
     "total_franchise_historicas": 686,
-    "cache_buster": 1778378290
+    "cache_buster": 1778378392
 }
