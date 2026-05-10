@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:38:55",
+    "ultima_actualizacion": "22:40:38",
     "tablas": {
         "pts": [
             {
@@ -63,9 +63,9 @@
                 "Rank": 70,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 896,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 897,
+                "Diff": "8",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -128,14 +128,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 64,
+                "Rank": 63,
                 "Nombre": "Paul George",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 505,
-                "Diff": "",
-                "Antece": "Nate McMillan",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 506,
+                "Diff": "2",
+                "Antece": "Jamal Murray",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -501,9 +501,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 316,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 317,
+                "Diff": "0",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -513,7 +513,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 309,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 183rd all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778290163517000_6294_collage_1778290163423253.png"
-            ],
-            "timestamp": 1778290169
-        },
         {
             "texto": "📢HOF🏛️ Tyrese Maxey (1 three-pointer today) has passed Joe Ingles and Tim Hardaway and is now ranked 103rd all-time with 111 in playoffs.",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445336173277_2035_collage_1778445336087307.png"
             ],
             "timestamp": 1778445343
+        },
+        {
+            "texto": "📢🔝💯 Paul George (2 assists today) has passed Nate McMillan and is now ranked 63rd all-time with 506 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445630576473_2392_collage_1778445630465730.png"
+            ],
+            "timestamp": 1778445638
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1390,
+    "total_notificaciones_historicas": 1391,
     "total_franchise_historicas": 705,
-    "cache_buster": 1778445535
+    "cache_buster": 1778445638
 }
