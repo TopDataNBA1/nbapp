@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:46",
+    "ultima_actualizacion": "02:56:27",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 163,
+                "Rank": 162,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 1363,
-                "Diff": "",
-                "Antece": "John Starks",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1365,
+                "Diff": "2",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -341,13 +341,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 112,
+                "Rank": 110,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 81,
+                "Hoy": 1,
+                "Total": 82,
                 "Diff": "1",
-                "Antece": "Thurl Bailey",
+                "Antece": "P.J. Brown",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1281,
-                "Diff": "105",
+                "Hoy": 4,
+                "Total": 1283,
+                "Diff": "103",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 225,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 226,
+                "Diff": "6",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1254,9 +1254,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 81,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 82,
+                "Diff": "18",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Austin Reaves (3 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley, Naz Reid and Voshon Lenard and is now ranked 211th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212243313391_4188_collage_1778212243229419.png"
-            ],
-            "timestamp": 1778212250
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 219th all-time with 68 in playoffs.",
             "foto": [
@@ -2080,6 +2073,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374480895633_9525_collage_1778374480834688.png"
             ],
             "timestamp": 1778374485
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (4 points today) has passed John Starks and is now ranked 162nd all-time with 1,365 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374582111294_6691_collage_1778374582011016.png"
+            ],
+            "timestamp": 1778374587
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2784,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1348,
+    "total_notificaciones_historicas": 1349,
     "total_franchise_historicas": 681,
-    "cache_buster": 1778374486
+    "cache_buster": 1778374587
 }
