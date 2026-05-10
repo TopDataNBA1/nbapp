@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:39",
+    "ultima_actualizacion": "03:20:19",
     "tablas": {
         "pts": [
             {
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 179,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 75,
+                "Hoy": 4,
+                "Total": 76,
                 "Diff": "",
-                "Antece": "Rafer Alston",
+                "Antece": "Channing Frye",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1102,9 +1102,9 @@
                 "Rank": 9,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 66,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 67,
+                "Diff": "0",
                 "Antece": "Austin Reaves",
                 "game_status": "playing"
             }
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Allan Houston and Channing Frye and is now ranked 174th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778213489772064_4931_collage_1778213489702238.png"
-            ],
-            "timestamp": 1778213495
-        },
         {
             "texto": "Joel Embiid (1 assist today) has passed Fred VanVleet and Latrell Sprewell and is now ranked 238th all-time with 212 in playoffs.",
             "foto": [
@@ -2080,6 +2073,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778375627888677_2543_collage_1778375627828137.png"
             ],
             "timestamp": 1778375632
+        },
+        {
+            "texto": "Rui Hachimura (4 three-pointers today) has passed Rafer Alston and is now ranked 179th all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376014167730_2439_collage_1778376014084359.png"
+            ],
+            "timestamp": 1778376019
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2784,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1352,
+    "total_notificaciones_historicas": 1353,
     "total_franchise_historicas": 683,
-    "cache_buster": 1778375919
+    "cache_buster": 1778376019
 }
