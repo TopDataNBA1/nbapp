@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:01:38",
+    "ultima_actualizacion": "04:03:25",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 161,
+                "Rank": 159,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 14,
-                "Total": 1375,
-                "Diff": "",
-                "Antece": "DeMar DeRozan",
-                "Nota": "Mismo total",
+                "Hoy": 17,
+                "Total": 1378,
+                "Diff": "9",
+                "Antece": "Vinnie Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -541,13 +541,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 172,
+                "Rank": 168,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 78,
+                "Hoy": 2,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "Marco Belinelli",
+                "Antece": "Jerry Stackhouse",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1293,
-                "Diff": "93",
+                "Hoy": 17,
+                "Total": 1296,
+                "Diff": "90",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1284,9 +1284,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 69,
-                "Diff": "29",
+                "Hoy": 2,
+                "Total": 70,
+                "Diff": "28",
                 "Antece": "Luguentz Dort",
                 "game_status": "playing"
             },
@@ -1383,20 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 129th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282888476760_2351_collage_1778282888398660.png"
-            ],
-            "timestamp": 1778282893
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Joel Embiid (1 block today) has passed Paul Pierce and is now ranked 73rd all-time with 106 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778283269185803_2266_collage_1778283269107689.png"
-            ],
-            "timestamp": 1778283274
-        },
         {
             "texto": "Landry Shamet (1 three-pointer today) has passed Austin Reaves, Jordan Poole, Julius Randle and Kerry Kittles and is now ranked 211th all-time with 67 in playoffs.",
             "foto": [
@@ -2082,6 +2068,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378493834477_5352_collage_1778378493774501.png"
             ],
             "timestamp": 1778378498
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (17 points today) has passed Darryl Dawkins and DeMar DeRozan and is now ranked 159th all-time with 1,378 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378594579740_5098_collage_1778378594508842.png"
+            ],
+            "timestamp": 1778378600
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 168th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378600258637_7537_collage_1778378600192908.png"
+            ],
+            "timestamp": 1778378605
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1362,
+    "total_notificaciones_historicas": 1364,
     "total_franchise_historicas": 686,
-    "cache_buster": 1778378498
+    "cache_buster": 1778378605
 }
