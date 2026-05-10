@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:06:17",
+    "ultima_actualizacion": "23:08:09",
     "tablas": {
         "pts": [
             {
@@ -36,25 +36,25 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 111,
+                "Rank": 110,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 19,
-                "Total": 1632,
-                "Diff": "2",
-                "Antece": "Jrue Holiday",
-                "Nota": "A tiro de 2",
+                "Hoy": 22,
+                "Total": 1635,
+                "Diff": "15",
+                "Antece": "Khris Middleton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 204,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 1156,
-                "Diff": "2",
+                "Hoy": 12,
+                "Total": 1158,
+                "Diff": "",
                 "Antece": "Jae Crowder",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 21,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 553,
-                "Diff": "5",
+                "Hoy": 12,
+                "Total": 555,
+                "Diff": "3",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -753,9 +753,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1632,
-                "Diff": "98",
+                "Hoy": 22,
+                "Total": 1635,
+                "Diff": "95",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -912,20 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Hal Greer and Slater Martin and now ranked 207th all time with 93 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291709069493_2518_collage_1778291708991369.png"
-            ],
-            "timestamp": 1778291714
-        },
-        {
-            "texto": "Naz Reid (1 three-pointer today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Malik Beasley and Voshon Lenard and is now ranked 216th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778292369334395_6819_collage_1778292369271895.png"
-            ],
-            "timestamp": 1778292374
-        },
         {
             "texto": "Rudy Gobert (6 points today) has passed Derek Harper and Kiki Vandeweghe and is now ranked 222nd all-time with 1,095 in playoffs.",
             "foto": [
@@ -1611,6 +1597,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447169449029_6216_collage_1778447169356943.png"
             ],
             "timestamp": 1778447177
+        },
+        {
+            "texto": "Joel Embiid (22 points today) has passed Jrue Holiday and is now ranked 110th all-time with 1,635 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447272833580_5887_collage_1778447272743622.png"
+            ],
+            "timestamp": 1778447280
+        },
+        {
+            "texto": "Karl-Anthony Towns (12 points today) has passed Kyle Korver and is now ranked 204th all-time with 1,158 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447281158775_6575_collage_1778447281070684.png"
+            ],
+            "timestamp": 1778447289
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1397,
+    "total_notificaciones_historicas": 1399,
     "total_franchise_historicas": 706,
-    "cache_buster": 1778447177
+    "cache_buster": 1778447289
 }
