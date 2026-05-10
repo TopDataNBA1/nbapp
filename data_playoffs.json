@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:04",
+    "ultima_actualizacion": "02:46:46",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 135,
+                "Rank": 134,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 1491,
-                "Diff": "2",
-                "Antece": "J.R. Smith",
-                "Nota": "A tiro de 2",
+                "Hoy": 3,
+                "Total": 1494,
+                "Diff": "",
+                "Antece": "LaMarcus Aldridge",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -467,11 +467,11 @@
                 "Rank": 26,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 224,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 225,
+                "Diff": "",
                 "Antece": "Kyrie Irving",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1134,9 +1134,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 622,
-                "Diff": "31",
+                "Hoy": 4,
+                "Total": 624,
+                "Diff": "29",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1144,9 +1144,9 @@
                 "Rank": 15,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 326,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 327,
+                "Diff": "3",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 224,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 225,
+                "Diff": "7",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (12 points today) has passed Sidney Moncrief and is now ranked 135th all-time with 1,489 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778211280535889_2029_collage_1778211280438916.png"
-            ],
-            "timestamp": 1778211285
-        },
         {
             "texto": "Marcus Smart (3 rebounds today) has passed Andrew Bynum and is now ranked 208th all-time with 498 in playoffs.",
             "foto": [
@@ -2080,6 +2073,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778373899280258_1686_collage_1778373899209102.png"
             ],
             "timestamp": 1778373904
+        },
+        {
+            "texto": "Marcus Smart (3 points today) has passed J.R. Smith and is now ranked 134th all-time with 1,494 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374000390538_6899_collage_1778374000307981.png"
+            ],
+            "timestamp": 1778374006
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2784,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1345,
+    "total_notificaciones_historicas": 1346,
     "total_franchise_historicas": 681,
-    "cache_buster": 1778373904
+    "cache_buster": 1778374006
 }
