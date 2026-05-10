@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:25:59",
+    "ultima_actualizacion": "22:27:42",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 111,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 12,
-                "Total": 1625,
-                "Diff": "9",
+                "Hoy": 14,
+                "Total": 1627,
+                "Diff": "7",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "playing"
@@ -74,9 +74,9 @@
                 "Rank": 114,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 690,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 691,
+                "Diff": "5",
                 "Antece": "Zelmo Beaty",
                 "Nota": "",
                 "game_status": "playing"
@@ -85,11 +85,11 @@
                 "Rank": 134,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 635,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 636,
+                "Diff": "",
                 "Antece": "Anthony Mason",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -511,9 +511,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 308,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 309,
+                "Diff": "7",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -753,9 +753,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1625,
-                "Diff": "105",
+                "Hoy": 14,
+                "Total": 1627,
+                "Diff": "103",
                 "Antece": "Maurice Cheeks",
                 "game_status": "playing"
             },
@@ -773,9 +773,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 690,
-                "Diff": "120",
+                "Hoy": 4,
+                "Total": 691,
+                "Diff": "119",
                 "Antece": "Red Kerr",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (11 rebounds today) has passed Sidney Moncrief and is now ranked 217th all-time with 470 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778289957631192_9357_collage_1778289957537431.png"
-            ],
-            "timestamp": 1778289962
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Deandre Ayton, Jaden McDaniels, Jonas Valančiūnas and Kyle Lowry and is now ranked 191st all-time with 49 in playoffs.",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778444278656507_7178_collage_1778444278582529.png"
             ],
             "timestamp": 1778444285
+        },
+        {
+            "texto": "Joel Embiid (4 rebounds today) has passed Maurice Lucas and is now ranked 114th all-time with 691 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778444854814255_4129_collage_1778444854715282.png"
+            ],
+            "timestamp": 1778444862
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1387,
+    "total_notificaciones_historicas": 1388,
     "total_franchise_historicas": 704,
-    "cache_buster": 1778444759
+    "cache_buster": 1778444862
 }
