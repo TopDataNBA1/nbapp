@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:24:12",
+    "ultima_actualizacion": "04:28:55",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 12,
-                "Total": 8490,
-                "Diff": "510",
+                "Hoy": 14,
+                "Total": 8492,
+                "Diff": "508",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -50,9 +50,9 @@
                 "Rank": 132,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 9,
-                "Total": 1500,
-                "Diff": "11",
+                "Hoy": 10,
+                "Total": 1501,
+                "Diff": "10",
                 "Antece": "Richard Jefferson",
                 "Nota": "",
                 "game_status": "playing"
@@ -385,7 +385,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 196,
+                "Rank": 190,
+                "Nombre": "Deandre Ayton",
+                "Team": "LAL",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "",
+                "Antece": "Bam Adebayo",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 197,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 0,
@@ -394,17 +405,6 @@
                 "Antece": "Paul Pressey",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 199,
-                "Nombre": "Deandre Ayton",
-                "Team": "LAL",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "",
-                "Antece": "Arvydas Sabonis",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 203,
@@ -1032,9 +1032,9 @@
                 "Rank": 12,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1579,
-                "Diff": "2",
+                "Hoy": 14,
+                "Total": 1581,
+                "Diff": "0",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1144,9 +1144,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 333,
-                "Diff": "10",
+                "Hoy": 8,
+                "Total": 334,
+                "Diff": "9",
                 "Antece": "Nate McMillan",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 230,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 231,
+                "Diff": "1",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (9 points today) has passed Walt Frazier and is now ranked 75th all-time with 1,929 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778284888875969_6072_collage_1778284888782222.png"
-            ],
-            "timestamp": 1778284894
-        },
         {
             "texto": "Mitchell Robinson (1 block today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 223rd all-time with 44 in playoffs.",
             "foto": [
@@ -2082,6 +2075,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778379469502292_3837_collage_1778379469428061.png"
             ],
             "timestamp": 1778379474
+        },
+        {
+            "texto": "📢HOF🏛️ Deandre Ayton (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas and Kyle Lowry and is now ranked 190th all-time with 49 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380130833217_7916_collage_1778380130765725.png"
+            ],
+            "timestamp": 1778380135
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1368,
+    "total_notificaciones_historicas": 1369,
     "total_franchise_historicas": 688,
-    "cache_buster": 1778379852
+    "cache_buster": 1778380135
 }
