@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:20:18",
+    "ultima_actualizacion": "23:25:04",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 202,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 12,
-                "Total": 1158,
-                "Diff": "",
-                "Antece": "Jae Crowder",
-                "Nota": "Mismo total",
+                "Hoy": 14,
+                "Total": 1160,
+                "Diff": "3",
+                "Antece": "Marques Johnson",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 21,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 555,
-                "Diff": "3",
+                "Hoy": 14,
+                "Total": 557,
+                "Diff": "1",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (1 block today) has passed Daniel Gafford, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 222nd all-time with 44 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778296712463832_4418_collage_1778296712385710.png"
-            ],
-            "timestamp": 1778296717
-        },
         {
             "texto": "Rudy Gobert (10 points today) has passed Boris Diaw and is now ranked 221st all-time with 1,099 in playoffs.",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447914089475_6699_collage_1778447914010434.png"
             ],
             "timestamp": 1778447921
+        },
+        {
+            "texto": "Karl-Anthony Towns (14 points today) has passed Jae Crowder and Maurice Lucas and is now ranked 202nd all-time with 1,160 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448296543744_7515_collage_1778448296464773.png"
+            ],
+            "timestamp": 1778448304
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1407,
+    "total_notificaciones_historicas": 1408,
     "total_franchise_historicas": 708,
-    "cache_buster": 1778448018
+    "cache_buster": 1778448304
 }
