@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:28:55",
+    "ultima_actualizacion": "04:30:31",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 14,
-                "Total": 8492,
-                "Diff": "508",
+                "Hoy": 16,
+                "Total": 8494,
+                "Diff": "506",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 5,
-                "Total": 2682,
-                "Diff": "177",
+                "Hoy": 6,
+                "Total": 2683,
+                "Diff": "176",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -1029,22 +1029,22 @@
         ],
         "LAL": [
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1581,
-                "Diff": "0",
-                "Antece": "Michael Cooper",
+                "Hoy": 16,
+                "Total": 1583,
+                "Diff": "97",
+                "Antece": "George Mikan",
                 "game_status": "playing"
             },
             {
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 560,
-                "Diff": "14",
+                "Hoy": 6,
+                "Total": 561,
+                "Diff": "13",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -2086,13 +2086,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jaden McDaniels (2 assists today) has passed Kyle Anderson and is now ranked 12th in Timberwolves history with 65 in playoffs.",
-            "foto": [],
-            "timestamp": 1778120592,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Victor Wembanyama (1 block today) has passed Coby Dietrick and Mike Mitchell and is now ranked 17th in Spurs history with 29 in playoffs.",
             "foto": [],
             "timestamp": 1778121528,
@@ -2784,9 +2777,16 @@
             "timestamp": 1778379757,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ LeBron James (16 points today) has passed Michael Cooper and is now ranked 11th in Lakers history with 1,583 in playoffs.",
+            "foto": [],
+            "timestamp": 1778380231,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1369,
-    "total_franchise_historicas": 688,
-    "cache_buster": 1778380135
+    "total_franchise_historicas": 689,
+    "cache_buster": 1778380231
 }
