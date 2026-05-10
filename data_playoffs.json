@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:39:35",
+    "ultima_actualizacion": "03:58:10",
     "tablas": {
         "pts": [
             {
@@ -137,14 +137,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 208,
+                "Rank": 207,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 500,
-                "Diff": "",
-                "Antece": "Elden Campbell",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 501,
+                "Diff": "3",
+                "Antece": "Luka Dončić",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -519,14 +519,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 125,
+                "Rank": 123,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 97,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 98,
+                "Diff": "1",
+                "Antece": "Hersey Hawkins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1274,9 +1274,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 97,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 98,
+                "Diff": "2",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1286,7 +1286,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 69,
-                "Diff": "28",
+                "Diff": "29",
                 "Antece": "Luguentz Dort",
                 "game_status": "playing"
             },
@@ -1383,20 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (4 points today) has passed Derrick Rose and Vern Mikkelsen and is now ranked 206th all-time with 1,142 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282359216630_3473_collage_1778282359138510.png"
-            ],
-            "timestamp": 1778282364
-        },
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Tobias Harris and is now ranked 139th all-time with 621 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282365065540_1489_collage_1778282364971782.png"
-            ],
-            "timestamp": 1778282370
-        },
         {
             "texto": "Karl-Anthony Towns (6 points today) has passed Tom Sanders and is now ranked 206th all-time with 1,144 in playoffs.",
             "foto": [
@@ -2080,6 +2066,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376979135135_1786_collage_1778376979062160.png"
             ],
             "timestamp": 1778376984
+        },
+        {
+            "texto": "Marcus Smart (2 rebounds today) has passed Elden Campbell and is now ranked 207th all-time with 501 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378279558485_1985_collage_1778378279478246.png"
+            ],
+            "timestamp": 1778378284
+        },
+        {
+            "texto": "Luguentz Dort (1 three-pointer today) has passed Desmond Bane, Mark Jackson, Mikal Bridges and Mike Miller and is now ranked 123rd all-time with 98 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378284979696_5751_collage_1778378284907358.png"
+            ],
+            "timestamp": 1778378290
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2784,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1357,
+    "total_notificaciones_historicas": 1359,
     "total_franchise_historicas": 686,
-    "cache_buster": 1778377175
+    "cache_buster": 1778378290
 }
