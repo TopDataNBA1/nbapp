@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:03:17",
+    "ultima_actualizacion": "22:05:00",
     "tablas": {
         "pts": [
             {
@@ -107,9 +107,9 @@
                 "Rank": 217,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 471,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 472,
+                "Diff": "5",
                 "Antece": "Vince Carter",
                 "Nota": "",
                 "game_status": "playing"
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 207,
+                "Rank": 201,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 68,
+                "Hoy": 2,
+                "Total": 70,
                 "Diff": "",
-                "Antece": "Kemba Walker",
+                "Antece": "Joel Embiid",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 8,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 471,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 472,
+                "Diff": "0",
                 "Antece": "Nat Clifton",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (8 assists today) has passed Damian Lillard and is now ranked 85th all-time with 415 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778287869533424_5803_collage_1778287869455319.png"
-            ],
-            "timestamp": 1778287874
-        },
         {
             "texto": "📢🔝💯 Joel Embiid (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442918142938_8001_collage_1778442918055969.png"
             ],
             "timestamp": 1778442926
+        },
+        {
+            "texto": "Landry Shamet (2 three-pointers today) has passed Andrew Nembhard, Andrew Wiggins, Derrick Rose, Kemba Walker, Naz Reid, Paul Millsap and Rajon Rondo and is now ranked 201st all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443492615730_4880_collage_1778443492525690.png"
+            ],
+            "timestamp": 1778443500
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1382,
+    "total_notificaciones_historicas": 1383,
     "total_franchise_historicas": 699,
-    "cache_buster": 1778443397
+    "cache_buster": 1778443500
 }
