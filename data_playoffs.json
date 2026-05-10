@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:41:30",
+    "ultima_actualizacion": "04:43:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 18,
-                "Total": 8496,
-                "Diff": "504",
+                "Hoy": 19,
+                "Total": 8497,
+                "Diff": "503",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -374,13 +374,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 179,
+                "Rank": 175,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 51,
+                "Hoy": 2,
+                "Total": 52,
                 "Diff": "",
-                "Antece": "Nate Thurmond",
+                "Antece": "Nazr Mohammed",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1032,9 +1032,9 @@
                 "Rank": 11,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 1585,
-                "Diff": "95",
+                "Hoy": 19,
+                "Total": 1586,
+                "Diff": "94",
                 "Antece": "George Mikan",
                 "game_status": "playing"
             },
@@ -1264,9 +1264,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 46,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 47,
+                "Diff": "2",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (2 three-pointers today) has passed Terry Porter and is now ranked 62nd all-time with 152 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778284899989662_6487_collage_1778284899880308.png"
-            ],
-            "timestamp": 1778284905
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (11 points today) has passed Gus Williams and is now ranked 74th all-time with 1,931 in playoffs.",
             "foto": [
@@ -2082,6 +2075,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380788831957_2779_collage_1778380788742115.png"
             ],
             "timestamp": 1778380794
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 blocks today) has passed Alvin Scott, Andrew Lang, Cedric Maxwell, George Gervin, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Kurt Thomas, Nate Thurmond, Stephen Curry and Tony Battie and is now ranked 175th all-time with 52 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380985268707_9951_collage_1778380985168001.png"
+            ],
+            "timestamp": 1778380991
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1370,
+    "total_notificaciones_historicas": 1371,
     "total_franchise_historicas": 689,
-    "cache_buster": 1778380890
+    "cache_buster": 1778380991
 }
