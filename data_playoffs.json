@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:07",
+    "ultima_actualizacion": "03:13:53",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 2159,
-                "Diff": "187",
+                "Hoy": 3,
+                "Total": 2160,
+                "Diff": "186",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,14 +284,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 165,
+                "Rank": 160,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 81,
-                "Diff": "",
-                "Antece": "Aaron McKie",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 82,
+                "Diff": "1",
+                "Antece": "Marc Gasol",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -574,13 +574,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 213,
+                "Rank": 210,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 66,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "1",
-                "Antece": "Eddie Johnson",
+                "Antece": "Rajon Rondo",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1052,9 +1052,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 472,
-                "Diff": "35",
+                "Hoy": 3,
+                "Total": 473,
+                "Diff": "34",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1092,9 +1092,9 @@
                 "Rank": 8,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 66,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 67,
+                "Diff": "15",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1104,7 +1104,7 @@
                 "Stat": "3PM",
                 "Hoy": 3,
                 "Total": 66,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Austin Reaves",
                 "game_status": "playing"
             }
@@ -1224,9 +1224,9 @@
                 "Rank": 16,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 52,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 53,
+                "Diff": "0",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -1383,20 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (17 points today) has passed Bill Laimbeer and is now ranked 164th all-time with 1,356 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778212631387033_7983_collage_1778212631295048.png"
-            ],
-            "timestamp": 1778212636
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (20 points today) has passed Willis Reed and is now ranked 163rd all-time with 1,359 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778213484049849_4770_collage_1778213483949058.png"
-            ],
-            "timestamp": 1778213489
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Allan Houston and Channing Frye and is now ranked 174th all-time with 77 in playoffs.",
             "foto": [
@@ -2080,16 +2066,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778375053293223_6025_collage_1778375053208909.png"
             ],
             "timestamp": 1778375058
+        },
+        {
+            "texto": "Alex Caruso (1 steal today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 160th all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778375622882552_6259_collage_1778375622820733.png"
+            ],
+            "timestamp": 1778375627
+        },
+        {
+            "texto": "Austin Reaves (1 three-pointer today) has passed Jordan Poole, Julius Randle and Kerry Kittles and is now ranked 210th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778375627888677_2543_collage_1778375627828137.png"
+            ],
+            "timestamp": 1778375632
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Kelly Oubre Jr. (3 three-pointers today) has passed Matisse Thybulle and Marco Belinelli and is now ranked 21st in 76ers history with 17 in playoffs.",
-            "foto": [],
-            "timestamp": 1778117402,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 43 games in playoffs.",
             "foto": [],
@@ -2782,9 +2775,16 @@
             "timestamp": 1778375058,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (1 steal today) has passed Nick Collison and is now ranked 16th in Thunder history with 53 in playoffs.",
+            "foto": [],
+            "timestamp": 1778375632,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1350,
-    "total_franchise_historicas": 682,
-    "cache_buster": 1778375527
+    "total_notificaciones_historicas": 1352,
+    "total_franchise_historicas": 683,
+    "cache_buster": 1778375633
 }
