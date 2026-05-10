@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:59:52",
+    "ultima_actualizacion": "04:01:38",
     "tablas": {
         "pts": [
             {
@@ -115,14 +115,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 165,
+                "Rank": 164,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 4,
-                "Total": 564,
-                "Diff": "1",
-                "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 565,
+                "Diff": "4",
+                "Antece": "Tom Chambers",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -205,13 +205,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 144,
+                "Rank": 139,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 305,
+                "Hoy": 4,
+                "Total": 306,
                 "Diff": "",
-                "Antece": "Ron Harper",
+                "Antece": "John Paxson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -232,9 +232,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 505,
-                "Diff": "95",
+                "Hoy": 1,
+                "Total": 506,
+                "Diff": "94",
                 "Antece": "600",
                 "Nota": "",
                 "game_status": "playing"
@@ -1062,9 +1062,9 @@
                 "Rank": 10,
                 "Nombre": "LeBron James",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 86,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 87,
+                "Diff": "2",
                 "Antece": "Norm Nixon",
                 "game_status": "playing"
             },
@@ -1134,9 +1134,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 632,
-                "Diff": "21",
+                "Hoy": 14,
+                "Total": 634,
+                "Diff": "19",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1144,9 +1144,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 331,
-                "Diff": "12",
+                "Hoy": 6,
+                "Total": 332,
+                "Diff": "11",
                 "Antece": "Nate McMillan",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 24,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 226,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 227,
+                "Diff": "5",
                 "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 286,
-                "Diff": "54",
+                "Hoy": 4,
+                "Total": 287,
+                "Diff": "53",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1383,18 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 rebounds today) has passed Jack Coleman and is now ranked 138th all-time with 622 in playoffs.",
-            "foto": [],
-            "timestamp": 1778282786
-        },
-        {
-            "texto": "📢HOF🏛️ Joel Embiid (3 assists today) has passed Calvin Murphy and is now ranked 235th all-time with 214 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282882582333_4673_collage_1778282882457343.png"
-            ],
-            "timestamp": 1778282888
-        },
         {
             "texto": "Mikal Bridges (1 three-pointer today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 129th all-time with 96 in playoffs.",
             "foto": [
@@ -2080,6 +2068,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378386518902_8237_collage_1778378386431473.png"
             ],
             "timestamp": 1778378392
+        },
+        {
+            "texto": "Deandre Ayton (5 rebounds today) has passed Kevon Looney and is now ranked 164th all-time with 565 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378487711331_2897_collage_1778378487622975.png"
+            ],
+            "timestamp": 1778378493
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (4 assists today) has passed Cliff Hagan, Kenny Smith and Ron Harper and is now ranked 139th all-time with 306 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378493834477_5352_collage_1778378493774501.png"
+            ],
+            "timestamp": 1778378498
         }
     ],
     "notificaciones_franchise": [
@@ -2784,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1360,
+    "total_notificaciones_historicas": 1362,
     "total_franchise_historicas": 686,
-    "cache_buster": 1778378392
+    "cache_buster": 1778378498
 }
