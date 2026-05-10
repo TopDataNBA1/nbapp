@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:31:34",
+    "ultima_actualizacion": "23:33:24",
     "tablas": {
         "pts": [
             {
@@ -365,7 +365,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 195,
+                "Rank": 190,
+                "Nombre": "Landry Shamet",
+                "Team": "NYK",
+                "Hoy": 4,
+                "Total": 72,
+                "Diff": "1",
+                "Antece": "Sean Elliott",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 196,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -376,35 +387,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 196,
-                "Nombre": "Landry Shamet",
+                "Rank": 198,
+                "Nombre": "Miles McBride",
                 "Team": "NYK",
-                "Hoy": 3,
+                "Hoy": 8,
                 "Total": 71,
                 "Diff": "",
-                "Antece": "Jordan Clarkson",
+                "Antece": "Malcolm Brogdon",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 202,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
                 "Hoy": 2,
                 "Total": 70,
                 "Diff": "",
                 "Antece": "Al-Farouq Aminu",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 202,
-                "Nombre": "Miles McBride",
-                "Team": "NYK",
-                "Hoy": 7,
-                "Total": 70,
-                "Diff": "",
-                "Antece": "Joel Embiid",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -681,9 +681,9 @@
                 "Rank": 4,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 7,
-                "Total": 70,
-                "Diff": "8",
+                "Hoy": 8,
+                "Total": 71,
+                "Diff": "7",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -763,9 +763,9 @@
                 "Rank": 13,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 989,
-                "Diff": "11",
+                "Hoy": 17,
+                "Total": 991,
+                "Diff": "9",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -912,20 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (23 points today) has passed Andrew Toney and is now ranked 181st all-time with 1,257 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778297008193479_9904_collage_1778297008084088.png"
-            ],
-            "timestamp": 1778297013
-        },
-        {
-            "texto": "📢HOF🏛️ Naz Reid (3 three-pointers today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 207th all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778297014118741_5240_collage_1778297014056243.png"
-            ],
-            "timestamp": 1778297019
-        },
         {
             "texto": "📢HOF🏛️ Anthony Edwards (3 assists today) has passed Dick Barnett and is now ranked 190th all-time with 248 in playoffs.",
             "foto": [
@@ -1611,6 +1597,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448400181590_3763_collage_1778448400074546.png"
             ],
             "timestamp": 1778448408
+        },
+        {
+            "texto": "Landry Shamet (4 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 190th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448789773526_2650_collage_1778448789679273.png"
+            ],
+            "timestamp": 1778448797
+        },
+        {
+            "texto": "Miles McBride (8 three-pointers today) has passed Al-Farouq Aminu, Joel Embiid and Trae Young and is now ranked 198th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448797627775_2276_collage_1778448797561575.png"
+            ],
+            "timestamp": 1778448804
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1409,
+    "total_notificaciones_historicas": 1411,
     "total_franchise_historicas": 710,
-    "cache_buster": 1778448694
+    "cache_buster": 1778448804
 }
