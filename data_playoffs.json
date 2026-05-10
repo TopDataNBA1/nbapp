@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:04:33",
+    "ultima_actualizacion": "23:06:17",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 206,
+                "Rank": 204,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 1154,
-                "Diff": "1",
-                "Antece": "Zach Randolph",
-                "Nota": "A tiro de 1",
+                "Hoy": 10,
+                "Total": 1156,
+                "Diff": "2",
+                "Antece": "Jae Crowder",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -481,9 +481,9 @@
                 "Rank": 21,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 551,
-                "Diff": "7",
+                "Hoy": 10,
+                "Total": 553,
+                "Diff": "5",
                 "Antece": "Bernard King",
                 "game_status": "playing"
             },
@@ -912,13 +912,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (1 block today) has passed Karl Malone and is now ranked 50th all-time with 136 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778291703413287_8970_collage_1778291703319541.png"
-            ],
-            "timestamp": 1778291708
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Hal Greer and Slater Martin and now ranked 207th all time with 93 games in playoffs",
             "foto": [
@@ -1611,6 +1604,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778446048425115_6902_collage_1778446048341143.png"
             ],
             "timestamp": 1778446056
+        },
+        {
+            "texto": "Karl-Anthony Towns (10 points today) has passed Zach Randolph and is now ranked 204th all-time with 1,156 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447169449029_6216_collage_1778447169356943.png"
+            ],
+            "timestamp": 1778447177
         }
     ],
     "notificaciones_franchise": [
@@ -2315,7 +2315,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1396,
+    "total_notificaciones_historicas": 1397,
     "total_franchise_historicas": 706,
-    "cache_buster": 1778447073
+    "cache_buster": 1778447177
 }
