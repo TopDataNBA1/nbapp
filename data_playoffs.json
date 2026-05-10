@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:41",
+    "ultima_actualizacion": "04:39:54",
     "tablas": {
         "pts": [
             {
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 2163,
-                "Diff": "183",
+                "Hoy": 7,
+                "Total": 2164,
+                "Diff": "182",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -522,11 +522,11 @@
                 "Rank": 123,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 98,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 99,
+                "Diff": "",
                 "Antece": "Hersey Hawkins",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1052,9 +1052,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 476,
-                "Diff": "31",
+                "Hoy": 7,
+                "Total": 477,
+                "Diff": "30",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1274,9 +1274,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 98,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 99,
+                "Diff": "1",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1286,7 +1286,7 @@
                 "Stat": "3PM",
                 "Hoy": 2,
                 "Total": 70,
-                "Diff": "28",
+                "Diff": "29",
                 "Antece": "Luguentz Dort",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mitchell Robinson (1 block today) has passed Anthony Edwards, Daniel Gafford, Lonnie Shelton, Nate McMillan and Roy Tarpley and is now ranked 223rd all-time with 44 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778284894673119_7248_collage_1778284894579387.png"
-            ],
-            "timestamp": 1778284899
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (2 three-pointers today) has passed Terry Porter and is now ranked 62nd all-time with 152 in playoffs.",
             "foto": [
@@ -2082,6 +2075,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380130833217_7916_collage_1778380130765725.png"
             ],
             "timestamp": 1778380135
+        },
+        {
+            "texto": "Luguentz Dort (2 three-pointers today) has passed Payton Pritchard and is now ranked 123rd all-time with 99 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380788831957_2779_collage_1778380788742115.png"
+            ],
+            "timestamp": 1778380794
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1369,
+    "total_notificaciones_historicas": 1370,
     "total_franchise_historicas": 689,
-    "cache_buster": 1778380601
+    "cache_buster": 1778380794
 }
