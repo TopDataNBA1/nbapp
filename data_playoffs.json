@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:42",
+    "ultima_actualizacion": "04:17:55",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 134,
+                "Rank": 132,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 3,
-                "Total": 1494,
-                "Diff": "",
-                "Antece": "LaMarcus Aldridge",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1496,
+                "Diff": "15",
+                "Antece": "Richard Jefferson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1154,9 +1154,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 254,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 255,
+                "Diff": "1",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Joel Embiid (2 blocks today) has passed Jayson Tatum, Joakim Noah, Mychal Thompson and Roy Hibbert and is now ranked 70th all-time with 107 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778284136947453_1062_collage_1778284136884958.png"
-            ],
-            "timestamp": 1778284142
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (9 points today) has passed Walt Frazier and is now ranked 75th all-time with 1,929 in playoffs.",
             "foto": [
@@ -2082,6 +2075,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778379086859495_8929_collage_1778379086800850.png"
             ],
             "timestamp": 1778379092
+        },
+        {
+            "texto": "📢HOF🏛️ Marcus Smart (5 points today) has passed Chris Webber and LaMarcus Aldridge and is now ranked 132nd all-time with 1,496 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778379469502292_3837_collage_1778379469428061.png"
+            ],
+            "timestamp": 1778379474
         }
     ],
     "notificaciones_franchise": [
@@ -2786,7 +2786,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1367,
+    "total_notificaciones_historicas": 1368,
     "total_franchise_historicas": 687,
-    "cache_buster": 1778379282
+    "cache_buster": 1778379475
 }
