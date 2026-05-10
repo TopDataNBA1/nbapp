@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:33:02",
+    "ultima_actualizacion": "03:34:43",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 161,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 10,
-                "Total": 1371,
-                "Diff": "4",
+                "Hoy": 11,
+                "Total": 1372,
+                "Diff": "3",
                 "Antece": "DeMar DeRozan",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -284,13 +284,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 160,
+                "Rank": 158,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 82,
+                "Hoy": 2,
+                "Total": 83,
                 "Diff": "1",
-                "Antece": "Marc Gasol",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1114,9 +1114,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1289,
-                "Diff": "97",
+                "Hoy": 11,
+                "Total": 1290,
+                "Diff": "96",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1212,22 +1212,22 @@
             },
             {
                 "Rank": 15,
-                "Nombre": "Cason Wallace",
+                "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 53,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 54,
+                "Diff": "2",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
             {
                 "Rank": 16,
-                "Nombre": "Alex Caruso",
+                "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 53,
-                "Diff": "0",
-                "Antece": "Cason Wallace",
+                "Diff": "1",
+                "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
             {
@@ -1383,13 +1383,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (1 rebound today) has passed Drew Gooden and is now ranked 221st all-time with 460 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778282060617038_9761_collage_1778282060538924.png"
-            ],
-            "timestamp": 1778282066
-        },
         {
             "texto": "📢HOF🏛️ Joel Embiid (2 assists today) has passed Chet Walker and is now ranked 237th all-time with 213 in playoffs.",
             "foto": [
@@ -2080,16 +2073,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376307751372_5858_collage_1778376307683453.png"
             ],
             "timestamp": 1778376312
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed B.J. Armstrong, Greg Anthony, Kyle Korver and OG Anunoby and is now ranked 158th all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376877493346_2086_collage_1778376877423365.png"
+            ],
+            "timestamp": 1778376882
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. (4 points today) has passed Kyle Anderson and is now ranked 23rd in Timberwolves history with 103 in playoffs.",
-            "foto": [],
-            "timestamp": 1778118977,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Julius Randle today surpasses Gary Trent and is now ranked 13th in Timberwolves history with 23 games in playoffs.",
             "foto": [],
@@ -2782,9 +2775,16 @@
             "timestamp": 1778376312,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Cason Wallace and is now ranked 15th in Thunder history with 54 in playoffs.",
+            "foto": [],
+            "timestamp": 1778376882,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1355,
-    "total_franchise_historicas": 684,
-    "cache_buster": 1778376782
+    "total_notificaciones_historicas": 1356,
+    "total_franchise_historicas": 685,
+    "cache_buster": 1778376883
 }
