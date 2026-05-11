@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:05",
+    "ultima_actualizacion": "03:48:51",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 179,
+                "Rank": 178,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 24,
-                "Total": 1290,
-                "Diff": "1",
-                "Antece": "Alonzo Mourning",
-                "Nota": "A tiro de 1",
+                "Hoy": 26,
+                "Total": 1292,
+                "Diff": "8",
+                "Antece": "Tobias Harris",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -96,9 +96,9 @@
                 "Rank": 56,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 8,
-                "Total": 988,
-                "Diff": "6",
+                "Hoy": 9,
+                "Total": 989,
+                "Diff": "5",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -726,9 +726,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1290,
-                "Diff": "710",
+                "Hoy": 26,
+                "Total": 1292,
+                "Diff": "708",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -826,9 +826,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 436,
-                "Diff": "192",
+                "Hoy": 9,
+                "Total": 437,
+                "Diff": "191",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -866,9 +866,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 158,
-                "Diff": "61",
+                "Hoy": 7,
+                "Total": 160,
+                "Diff": "59",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -878,7 +878,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 129,
-                "Diff": "29",
+                "Diff": "31",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Dennis Schröder (2 three-pointers today) has passed Brook Lopez and Serge Ibaka and is now ranked 131st all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355660732981_7909_collage_1778355660662867.png"
-            ],
-            "timestamp": 1778355666
-        },
-        {
             "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355761671750_5585_collage_1778355761613064.png"
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778462997660061_1631_collage_1778462997573090.png"
             ],
             "timestamp": 1778463005
+        },
+        {
+            "texto": "📢HOF🏛️ Anthony Edwards (26 points today) has passed Alonzo Mourning and is now ranked 178th all-time with 1,292 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778464123966431_9565_collage_1778464123872455.png"
+            ],
+            "timestamp": 1778464131
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1423,
+    "total_notificaciones_historicas": 1424,
     "total_franchise_historicas": 722,
-    "cache_buster": 1778463845
+    "cache_buster": 1778464131
 }
