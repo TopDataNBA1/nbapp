@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:47:30",
+    "ultima_actualizacion": "03:09:06",
     "tablas": {
         "pts": [
             {
@@ -319,14 +319,14 @@
         ],
         "blk": [
             {
-                "Rank": 48,
+                "Rank": 46,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 138,
-                "Diff": "",
-                "Antece": "Paul Millsap",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 139,
+                "Diff": "1",
+                "Antece": "Marc Gasol",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -866,9 +866,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 157,
-                "Diff": "58",
+                "Hoy": 5,
+                "Total": 158,
+                "Diff": "57",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -878,7 +878,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 129,
-                "Diff": "28",
+                "Diff": "29",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1074,22 +1074,22 @@
             },
             {
                 "Rank": 2,
-                "Nombre": "Jaden McDaniels",
+                "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "39",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "38",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
             {
                 "Rank": 3,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 49,
-                "Diff": "0",
-                "Antece": "Jaden McDaniels",
+                "Diff": "1",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1099,7 +1099,7 @@
                 "Hoy": 0,
                 "Total": 44,
                 "Diff": "5",
-                "Antece": "Rudy Gobert",
+                "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed John Starks and is now ranked 45th all-time with 177 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354034134561_4311_collage_1778354034031365.png"
-            ],
-            "timestamp": 1778354039
-        },
-        {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses John Stockton and now ranked 17th all time with 183 games in playoffs",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354136286121_4181_collage_1778354136196484.png"
@@ -2500,16 +2493,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778460156764790_8419_collage_1778460156674815.png"
             ],
             "timestamp": 1778460164
+        },
+        {
+            "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Kenyon Martin and Paul Millsap and is now ranked 46th all-time with 139 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778461738404081_5511_collage_1778461738333105.png"
+            ],
+            "timestamp": 1778461746
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (18 points today) has passed Drew Gooden and is now ranked 18th in Cavaliers history with 336 in playoffs.",
-            "foto": [],
-            "timestamp": 1778203242,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (2 three-pointers today) has passed Mark Aguirre and is now ranked 12th in Pistons history with 30 in playoffs.",
             "foto": [],
@@ -3202,9 +3195,16 @@
             "timestamp": 1778459782,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Rudy Gobert (1 block today) has passed Jaden McDaniels and is now ranked 2nd in Timberwolves history with 50 in playoffs.",
+            "foto": [],
+            "timestamp": 1778461746,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1419,
-    "total_franchise_historicas": 717,
-    "cache_buster": 1778460450
+    "total_notificaciones_historicas": 1420,
+    "total_franchise_historicas": 718,
+    "cache_buster": 1778461746
 }
