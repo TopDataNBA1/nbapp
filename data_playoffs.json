@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:25:00",
+    "ultima_actualizacion": "03:26:45",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 127,
+                "Rank": 125,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 7,
-                "Total": 1536,
-                "Diff": "",
-                "Antece": "Dave DeBusschere",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 1537,
+                "Diff": "2",
+                "Antece": "Dick Barnett",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -776,9 +776,9 @@
                 "Rank": 9,
                 "Nombre": "Mike Conley",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 365,
-                "Diff": "4",
+                "Hoy": 8,
+                "Total": 366,
+                "Diff": "3",
                 "Antece": "Wally Szczerbiak",
                 "game_status": "playing"
             },
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green and Nazr Mohammed and is now ranked 165th all-time with 53 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354425702166_2381_collage_1778354425602225.png"
-            ],
-            "timestamp": 1778354431
-        },
-        {
             "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (1 three-pointer today) has passed Kyrie Irving and is now ranked 24th all-time with 226 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354431513111_5425_collage_1778354431427886.png"
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778461937184419_2237_collage_1778461937099442.png"
             ],
             "timestamp": 1778461945
+        },
+        {
+            "texto": "📢HOF🏛️ Mike Conley (8 points today) has passed Dave DeBusschere and is now ranked 125th all-time with 1,537 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778462796468710_1362_collage_1778462796364744.png"
+            ],
+            "timestamp": 1778462805
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1421,
+    "total_notificaciones_historicas": 1422,
     "total_franchise_historicas": 719,
-    "cache_buster": 1778462700
+    "cache_buster": 1778462805
 }
