@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:42",
+    "ultima_actualizacion": "03:12:25",
     "tablas": {
         "pts": [
             {
@@ -93,14 +93,14 @@
         ],
         "trb": [
             {
-                "Rank": 57,
+                "Rank": 56,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 5,
-                "Total": 985,
-                "Diff": "",
-                "Antece": "Paul Pierce",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 986,
+                "Diff": "8",
+                "Antece": "Julius Erving",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -826,9 +826,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 433,
-                "Diff": "195",
+                "Hoy": 6,
+                "Total": 434,
+                "Diff": "194",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -936,9 +936,9 @@
                 "Rank": 9,
                 "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 71,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 72,
+                "Diff": "0",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses John Stockton and now ranked 17th all time with 183 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354136286121_4181_collage_1778354136196484.png"
-            ],
-            "timestamp": 1778354142
-        },
-        {
             "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green and Nazr Mohammed and is now ranked 165th all-time with 53 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354425702166_2381_collage_1778354425602225.png"
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778461738404081_5511_collage_1778461738333105.png"
             ],
             "timestamp": 1778461746
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (6 rebounds today) has passed Paul Pierce and is now ranked 56th all-time with 986 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778461937184419_2237_collage_1778461937099442.png"
+            ],
+            "timestamp": 1778461945
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1420,
+    "total_notificaciones_historicas": 1421,
     "total_franchise_historicas": 718,
-    "cache_buster": 1778461842
+    "cache_buster": 1778461945
 }
