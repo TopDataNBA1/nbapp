@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:09:25",
+    "ultima_actualizacion": "02:11:10",
     "tablas": {
         "pts": [
             {
@@ -640,13 +640,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 215,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 66,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Jordan Poole",
+                "Antece": "Eddie Johnson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -746,9 +746,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 488,
-                "Diff": "132",
+                "Hoy": 5,
+                "Total": 491,
+                "Diff": "129",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -758,7 +758,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 466,
-                "Diff": "22",
+                "Diff": "25",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1196,9 +1196,9 @@
                 "Rank": 8,
                 "Nombre": "Julius Randle",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 39,
+                "Diff": "0",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -1801,13 +1801,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (3 blocks today) has passed Elden Campbell and Shawn Kemp and is now ranked 48th all-time with 138 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778299566610041_8899_collage_1778299566547547.png"
-            ],
-            "timestamp": 1778299572
-        },
         {
             "texto": "📢HOF🏛️ Anthony Edwards (5 assists today) has passed Tracy McGrady and is now ranked 186th all-time with 250 in playoffs.",
             "foto": [
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778458157726969_1342_collage_1778458157641001.png"
             ],
             "timestamp": 1778458165
+        },
+        {
+            "texto": "Julius Randle (1 three-pointer today) has passed Jordan Poole and Kerry Kittles and is now ranked 215th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778458261985625_1876_collage_1778458261901400.png"
+            ],
+            "timestamp": 1778458269
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1415,
+    "total_notificaciones_historicas": 1416,
     "total_franchise_historicas": 713,
-    "cache_buster": 1778458165
+    "cache_buster": 1778458270
 }
