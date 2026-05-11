@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:41:01",
+    "ultima_actualizacion": "02:42:44",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 179,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 12,
-                "Total": 1278,
-                "Diff": "13",
+                "Hoy": 14,
+                "Total": 1280,
+                "Diff": "11",
                 "Antece": "Alonzo Mourning",
                 "Nota": "",
                 "game_status": "playing"
@@ -96,11 +96,11 @@
                 "Rank": 57,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 984,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 985,
+                "Diff": "",
                 "Antece": "Paul Pierce",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -726,9 +726,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1278,
-                "Diff": "722",
+                "Hoy": 14,
+                "Total": 1280,
+                "Diff": "720",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -826,9 +826,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 432,
-                "Diff": "196",
+                "Hoy": 5,
+                "Total": 433,
+                "Diff": "195",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -986,9 +986,9 @@
                 "Rank": 23,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 26,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 27,
+                "Diff": "0",
                 "Antece": "Trenton Hassell",
                 "game_status": "playing"
             },
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Anthony Edwards (6 assists today) has passed Clifford Robinson and Lou Williams and is now ranked 186th all-time with 251 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778300420117895_5754_collage_1778300420039774.png"
-            ],
-            "timestamp": 1778300425
-        },
-        {
             "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed John Starks and is now ranked 45th all-time with 177 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778354034134561_4311_collage_1778354034031365.png"
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778459584170391_4150_collage_1778459584094378.png"
             ],
             "timestamp": 1778459591
+        },
+        {
+            "texto": "Anthony Edwards (14 points today) has passed Bam Adebayo and is now ranked 179th all-time with 1,280 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778460156764790_8419_collage_1778460156674815.png"
+            ],
+            "timestamp": 1778460164
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1418,
+    "total_notificaciones_historicas": 1419,
     "total_franchise_historicas": 717,
-    "cache_buster": 1778460061
+    "cache_buster": 1778460164
 }
