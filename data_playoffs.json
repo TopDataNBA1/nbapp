@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:04:33",
+    "ultima_actualizacion": "04:06:15",
     "tablas": {
         "pts": [
             {
@@ -80,13 +80,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 220,
+                "Rank": 218,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 6,
-                "Total": 1108,
+                "Hoy": 9,
+                "Total": 1111,
                 "Diff": "1",
-                "Antece": "Tracy McGrady",
+                "Antece": "Kevin Love",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -96,9 +96,9 @@
                 "Rank": 56,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 11,
-                "Total": 991,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 992,
+                "Diff": "2",
                 "Antece": "Julius Erving",
                 "Nota": "",
                 "game_status": "playing"
@@ -766,9 +766,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 451,
-                "Diff": "25",
+                "Hoy": 9,
+                "Total": 454,
+                "Diff": "22",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -826,9 +826,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 439,
-                "Diff": "189",
+                "Hoy": 12,
+                "Total": 440,
+                "Diff": "188",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -976,9 +976,9 @@
                 "Rank": 14,
                 "Nombre": "Naz Reid",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 62,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 63,
+                "Diff": "3",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -1802,13 +1802,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 163rd all-time with 54 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778355761671750_5585_collage_1778355761613064.png"
-            ],
-            "timestamp": 1778355766
-        },
-        {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 211th all-time with 46 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778356891224826_4682_collage_1778356891134111.png"
@@ -2500,6 +2493,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778464123966431_9565_collage_1778464123872455.png"
             ],
             "timestamp": 1778464131
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert (9 points today) has passed Rolando Blackman and Tracy McGrady and is now ranked 218th all-time with 1,111 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778465168158085_3990_collage_1778465168083073.png"
+            ],
+            "timestamp": 1778465175
         }
     ],
     "notificaciones_franchise": [
@@ -3204,7 +3204,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1424,
+    "total_notificaciones_historicas": 1425,
     "total_franchise_historicas": 724,
-    "cache_buster": 1778465073
+    "cache_buster": 1778465175
 }
