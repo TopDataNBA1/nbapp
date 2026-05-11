@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:25:21",
+    "ultima_actualizacion": "02:33:11",
     "tablas": {
         "pts": [
             {
@@ -205,13 +205,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 186,
+                "Rank": 184,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 251,
+                "Hoy": 1,
+                "Total": 252,
                 "Diff": "1",
-                "Antece": "Sedale Threatt",
+                "Antece": "Dave DeBusschere",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -640,13 +640,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 208,
                 "Nombre": "Julius Randle",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 67,
+                "Hoy": 2,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Eddie Johnson",
+                "Antece": "Derrick Rose",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -746,9 +746,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 491,
-                "Diff": "129",
+                "Hoy": 8,
+                "Total": 494,
+                "Diff": "126",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -758,7 +758,7 @@
                 "Stat": "PTS",
                 "Hoy": 9,
                 "Total": 472,
-                "Diff": "19",
+                "Diff": "22",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -836,9 +836,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 326,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 327,
+                "Diff": "4",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -848,7 +848,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 222,
-                "Diff": "104",
+                "Diff": "105",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -906,9 +906,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 251,
-                "Diff": "749",
+                "Hoy": 1,
+                "Total": 252,
+                "Diff": "748",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1184,23 +1184,23 @@
             },
             {
                 "Rank": 7,
+                "Nombre": "Julius Randle",
+                "Stat": "3PM",
+                "Hoy": 2,
+                "Total": 40,
+                "Diff": "11",
+                "Antece": "Karl-Anthony Towns",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 8,
                 "Nombre": "Donte DiVincenzo",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 39,
-                "Diff": "12",
-                "Antece": "Karl-Anthony Towns",
+                "Diff": "1",
+                "Antece": "Julius Randle",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 8,
-                "Nombre": "Julius Randle",
-                "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 39,
-                "Diff": "0",
-                "Antece": "Donte DiVincenzo",
-                "game_status": "playing"
             },
             {
                 "Rank": 14,
@@ -1801,13 +1801,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (4 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Joel Embiid, Kemba Walker, Landry Shamet, Paul Millsap and Rajon Rondo and is now ranked 202nd all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778300134680246_8338_collage_1778300134586516.png"
-            ],
-            "timestamp": 1778300140
-        },
         {
             "texto": "Anthony Edwards (6 assists today) has passed Clifford Robinson and Lou Williams and is now ranked 186th all-time with 251 in playoffs.",
             "foto": [
@@ -2500,16 +2493,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778458365644305_4364_collage_1778458365556334.png"
             ],
             "timestamp": 1778458373
+        },
+        {
+            "texto": "📢HOF🏛️ Julius Randle (2 three-pointers today) has passed Austin Reaves, Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 208th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778459584170391_4150_collage_1778459584094378.png"
+            ],
+            "timestamp": 1778459591
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donovan Mitchell (6 rebounds today) has passed Craig Ehlo and is now ranked 16th in Cavaliers history with 165 in playoffs.",
-            "foto": [],
-            "timestamp": 1778202377,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Duncan Robinson (5 three-pointers today) has passed Tobias Harris and is now ranked 14th in Pistons history with 29 in playoffs.",
             "foto": [],
@@ -3202,9 +3195,16 @@
             "timestamp": 1778458373,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Julius Randle (2 three-pointers today) has passed Donte DiVincenzo and is now ranked 7th in Timberwolves history with 40 in playoffs.",
+            "foto": [],
+            "timestamp": 1778459591,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1417,
-    "total_franchise_historicas": 714,
-    "cache_buster": 1778459121
+    "total_notificaciones_historicas": 1418,
+    "total_franchise_historicas": 715,
+    "cache_buster": 1778459591
 }
