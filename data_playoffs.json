@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "07:09:51",
+    "ultima_actualizacion": "07:11:36",
     "tablas": {
         "pts": [
             {
@@ -251,14 +251,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 50,
+                "Rank": 49,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 167,
-                "Diff": "1",
-                "Antece": "Tim Duncan",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 168,
+                "Diff": "",
+                "Antece": "Jerome Kersey",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -542,9 +542,9 @@
             },
             {
                 "Rank": 165,
-                "Nombre": "Shai Gilgeous-Alexander",
-                "Team": "OKC",
-                "Hoy": 1,
+                "Nombre": "Rui Hachimura",
+                "Team": "LAL",
+                "Hoy": 4,
                 "Total": 81,
                 "Diff": "",
                 "Antece": "Royce O'Neale",
@@ -552,13 +552,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 167,
-                "Nombre": "Rui Hachimura",
-                "Team": "LAL",
-                "Hoy": 3,
-                "Total": 80,
+                "Rank": 166,
+                "Nombre": "Shai Gilgeous-Alexander",
+                "Team": "OKC",
+                "Hoy": 1,
+                "Total": 81,
                 "Diff": "",
-                "Antece": "Larry Bird",
+                "Antece": "Rui Hachimura",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -569,7 +569,7 @@
                 "Hoy": 3,
                 "Total": 79,
                 "Diff": "1",
-                "Antece": "Rui Hachimura",
+                "Antece": "Larry Bird",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1122,9 +1122,9 @@
                 "Rank": 8,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 71,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 72,
+                "Diff": "10",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1134,7 +1134,7 @@
                 "Stat": "3PM",
                 "Hoy": 3,
                 "Total": 70,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Rui Hachimura",
                 "game_status": "playing"
             }
@@ -1164,9 +1164,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 650,
-                "Diff": "3",
+                "Hoy": 14,
+                "Total": 652,
+                "Diff": "1",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 342,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 343,
+                "Diff": "0",
                 "Antece": "Nate McMillan",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (1 three-pointer today) has passed Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 223rd all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442384012359_2493_collage_1778442383935382.png"
-            ],
-            "timestamp": 1778442391
-        },
         {
             "texto": "📢HOF🏛️ Miles McBride (3 three-pointers today) has passed Caleb Martin, Charles Barkley, D'Angelo Russell, Grant Williams, Malik Beasley, Reggie Bullock, Richard Jefferson and Voshon Lenard and is now ranked 217th all-time with 66 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562584484941_4941_collage_1778562584415976.png"
             ],
             "timestamp": 1778562591
+        },
+        {
+            "texto": "📢HOF🏛️ Rui Hachimura (4 three-pointers today) has passed Larry Bird and is now ranked 165th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562687640401_3501_collage_1778562687561426.png"
+            ],
+            "timestamp": 1778562696
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1474,
+    "total_notificaciones_historicas": 1475,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778562591
+    "cache_buster": 1778562696
 }
