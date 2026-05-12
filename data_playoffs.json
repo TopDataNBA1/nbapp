@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:19:06",
+    "ultima_actualizacion": "06:20:48",
     "tablas": {
         "pts": [
             {
@@ -61,9 +61,9 @@
                 "Rank": 155,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 18,
-                "Total": 1402,
-                "Diff": "5",
+                "Hoy": 19,
+                "Total": 1403,
+                "Diff": "4",
                 "Antece": "Lamar Odom",
                 "Nota": "",
                 "game_status": "playing"
@@ -115,14 +115,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 164,
+                "Rank": 163,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 568,
-                "Diff": "1",
-                "Antece": "Tom Chambers",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 569,
+                "Diff": "5",
+                "Antece": "Michael Cooper",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -175,11 +175,11 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 573,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 574,
+                "Diff": "1",
                 "Antece": "Robert Horry",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -563,13 +563,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 170,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 78,
+                "Hoy": 2,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "Marco Belinelli",
+                "Antece": "Jerry Stackhouse",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1120,22 +1120,22 @@
             },
             {
                 "Rank": 8,
-                "Nombre": "Austin Reaves",
+                "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
                 "Hoy": 2,
-                "Total": 69,
-                "Diff": "13",
+                "Total": 70,
+                "Diff": "12",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Rui Hachimura",
+                "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 1,
+                "Hoy": 2,
                 "Total": 69,
-                "Diff": "0",
-                "Antece": "Austin Reaves",
+                "Diff": "1",
+                "Antece": "Rui Hachimura",
                 "game_status": "playing"
             }
         ],
@@ -1144,9 +1144,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 1320,
-                "Diff": "66",
+                "Hoy": 19,
+                "Total": 1321,
+                "Diff": "65",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (5 points today) has passed Chris Webber and LaMarcus Aldridge and is now ranked 132nd all-time with 1,496 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778379469502292_3837_collage_1778379469428061.png"
-            ],
-            "timestamp": 1778379474
-        },
         {
             "texto": "📢HOF🏛️ Deandre Ayton (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas and Kyle Lowry and is now ranked 190th all-time with 49 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559157323202_1868_collage_1778559157231250.png"
             ],
             "timestamp": 1778559165
+        },
+        {
+            "texto": "Rui Hachimura (2 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 170th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559641097327_7251_collage_1778559641029349.png"
+            ],
+            "timestamp": 1778559648
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1467,
+    "total_notificaciones_historicas": 1468,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778559546
+    "cache_buster": 1778559648
 }
