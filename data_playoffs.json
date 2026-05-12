@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:42:47",
+    "ultima_actualizacion": "05:44:30",
     "tablas": {
         "pts": [
             {
@@ -208,9 +208,9 @@
                 "Rank": 136,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 313,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 314,
+                "Diff": "3",
                 "Antece": "Toni Kukoč",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,13 +284,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 151,
+                "Rank": 150,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 85,
+                "Hoy": 2,
+                "Total": 86,
                 "Diff": "1",
-                "Antece": "Pascal Siakam",
+                "Antece": "Richard Jefferson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1164,9 +1164,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 638,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 640,
+                "Diff": "13",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 294,
-                "Diff": "46",
+                "Hoy": 3,
+                "Total": 295,
+                "Diff": "45",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1241,13 +1241,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 56,
-                "Diff": "0",
-                "Antece": "Sam Perkins",
+                "Hoy": 2,
+                "Total": 57,
+                "Diff": "4",
+                "Antece": "James Harden",
                 "game_status": "playing"
             },
             {
@@ -1257,7 +1257,7 @@
                 "Hoy": 0,
                 "Total": 54,
                 "Diff": "2",
-                "Antece": "Alex Caruso",
+                "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
             {
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 168th all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378600258637_7537_collage_1778378600192908.png"
-            ],
-            "timestamp": 1778378605
-        },
         {
             "texto": "Deandre Ayton (6 rebounds today) has passed Detlef Schrempf and is now ranked 164th all-time with 566 in playoffs.",
             "foto": [
@@ -2112,16 +2105,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778557265286009_3134_collage_1778557265225756.png"
             ],
             "timestamp": 1778557272
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Giannis Antetokounmpo, Kurt Rambis, Matt Barnes and Thabo Sefolosha and is now ranked 150th all-time with 86 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778557462832243_7049_collage_1778557462755285.png"
+            ],
+            "timestamp": 1778557469
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Rudy Gobert (1 assist today) has passed Jaden McDaniels and is now ranked 11th in Timberwolves history with 68 in playoffs.",
-            "foto": [],
-            "timestamp": 1778292956,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Rudy Gobert (2 assists today) has passed Kyle Anderson and is now ranked 10th in Timberwolves history with 69 in playoffs.",
             "foto": [],
@@ -2814,9 +2807,16 @@
             "timestamp": 1778556687,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Sam Perkins and is now ranked 14th in Thunder history with 57 in playoffs.",
+            "foto": [],
+            "timestamp": 1778557469,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1463,
-    "total_franchise_historicas": 750,
-    "cache_buster": 1778557367
+    "total_notificaciones_historicas": 1464,
+    "total_franchise_historicas": 751,
+    "cache_buster": 1778557470
 }
