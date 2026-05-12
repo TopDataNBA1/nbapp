@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:52:56",
+    "ultima_actualizacion": "04:54:41",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 8497,
-                "Diff": "503",
+                "Hoy": 2,
+                "Total": 8499,
+                "Diff": "501",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -140,11 +140,11 @@
                 "Rank": 207,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 502,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 503,
+                "Diff": "1",
                 "Antece": "Luka Dončić",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -519,13 +519,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 121,
+                "Rank": 120,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 100,
+                "Hoy": 2,
+                "Total": 101,
                 "Diff": "",
-                "Antece": "Jeff Green",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -620,14 +620,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 115,
+                "Rank": 114,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 117,
-                "Diff": "1",
-                "Antece": "Mike Conley",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 118,
+                "Diff": "",
+                "Antece": "David West",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ]
@@ -1062,9 +1062,9 @@
                 "Rank": 11,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1586,
-                "Diff": "94",
+                "Hoy": 2,
+                "Total": 1588,
+                "Diff": "92",
                 "Antece": "George Mikan",
                 "game_status": "playing"
             },
@@ -1304,9 +1304,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 100,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 101,
+                "Diff": "1",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -1317,7 +1317,7 @@
                 "Hoy": 0,
                 "Total": 71,
                 "Diff": "29",
-                "Antece": "Luguentz Dort",
+                "Antece": "100",
                 "game_status": "playing"
             },
             {
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (8 points today) has passed Peja Stojaković and is now ranked 161st all-time with 1,369 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376301991232_5453_collage_1778376301904661.png"
-            ],
-            "timestamp": 1778376307
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 172nd all-time with 78 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554368344362_9354_collage_1778554368248764.png"
             ],
             "timestamp": 1778554376
+        },
+        {
+            "texto": "Luguentz Dort (2 three-pointers today) has passed Jeff Green and is now ranked 120th all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554471629619_1520_collage_1778554471544988.png"
+            ],
+            "timestamp": 1778554481
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1453,
+    "total_notificaciones_historicas": 1454,
     "total_franchise_historicas": 748,
-    "cache_buster": 1778554376
+    "cache_buster": 1778554481
 }
