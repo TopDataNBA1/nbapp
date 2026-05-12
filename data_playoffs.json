@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:02:38",
+    "ultima_actualizacion": "05:04:20",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 159,
+                "Rank": 158,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 1386,
-                "Diff": "1",
-                "Antece": "Vinnie Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 1388,
+                "Diff": "",
+                "Antece": "Chris Bosh",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1144,9 +1144,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1304,
-                "Diff": "82",
+                "Hoy": 4,
+                "Total": 1306,
+                "Diff": "80",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (2 steals today) has passed B.J. Armstrong, Greg Anthony, Kyle Korver and OG Anunoby and is now ranked 158th all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376877493346_2086_collage_1778376877423365.png"
-            ],
-            "timestamp": 1778376882
-        },
         {
             "texto": "Alex Caruso (3 steals today) has passed Kentavious Caldwell-Pope and Marc Gasol and is now ranked 155th all-time with 84 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554855560717_7532_collage_1778554855499729.png"
             ],
             "timestamp": 1778554862
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (4 points today) has passed Vinnie Johnson and is now ranked 158th all-time with 1,388 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555053120275_9941_collage_1778555053027304.png"
+            ],
+            "timestamp": 1778555060
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1455,
+    "total_notificaciones_historicas": 1456,
     "total_franchise_historicas": 748,
-    "cache_buster": 1778554958
+    "cache_buster": 1778555060
 }
