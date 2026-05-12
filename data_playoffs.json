@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:30:42",
+    "ultima_actualizacion": "03:32:24",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 67,
+                "Rank": 66,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 2042,
-                "Diff": "1",
-                "Antece": "Jason Kidd",
-                "Nota": "A tiro de 1",
+                "Hoy": 12,
+                "Total": 2046,
+                "Diff": "12",
+                "Antece": "Tom Heinsohn",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 1192,
-                "Diff": "41",
+                "Hoy": 8,
+                "Total": 1193,
+                "Diff": "40",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,9 +192,9 @@
                 "Rank": 24,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 228,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 229,
+                "Diff": "7",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 937,
-                "Diff": "29",
+                "Hoy": 12,
+                "Total": 941,
+                "Diff": "25",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -374,9 +374,9 @@
                 "Rank": 21,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 67,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 68,
+                "Diff": "2",
                 "Antece": "Zydrunas Ilgauskas",
                 "game_status": "playing"
             },
@@ -454,10 +454,10 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 99,
-                "Diff": "1",
-                "Antece": "100",
+                "Hoy": 2,
+                "Total": 100,
+                "Diff": "22",
+                "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
             {
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Duncan Robinson (3 three-pointers today) has passed Steve Nash and is now ranked 43rd all-time with 179 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362420636509_3885_collage_1778362420550165.png"
-            ],
-            "timestamp": 1778362426
-        },
         {
             "texto": "Dennis Schröder (3 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 129th all-time with 96 in playoffs.",
             "foto": [
@@ -1384,16 +1377,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547938575378_1847_collage_1778547938496840.png"
             ],
             "timestamp": 1778547945
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (12 points today) has passed Jason Kidd and is now ranked 66th all-time with 2,046 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778549537050622_5593_collage_1778549536958208.png"
+            ],
+            "timestamp": 1778549544
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Josh Hart (4 rebounds today) has passed Anthony Mason and is now ranked 8th in Knicks history with 463 in playoffs.",
-            "foto": [],
-            "timestamp": 1778282263,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Tyrese Maxey (1 steal today) has passed George Lynch and is now ranked 18th in 76ers history with 41 in playoffs.",
             "foto": [],
@@ -2086,9 +2079,16 @@
             "timestamp": 1778548422,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Donovan Mitchell (2 three-pointers today) becomes the 5th player to reach 100 three-pointers with Cavaliers in playoffs.",
+            "foto": [],
+            "timestamp": 1778549544,
+            "team": "CLE",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1438,
-    "total_franchise_historicas": 737,
-    "cache_buster": 1778549442
+    "total_notificaciones_historicas": 1439,
+    "total_franchise_historicas": 738,
+    "cache_buster": 1778549544
 }
