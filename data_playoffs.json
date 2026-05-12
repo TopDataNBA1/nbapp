@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "07:06:17",
+    "ultima_actualizacion": "07:08:08",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 22,
-                "Total": 8519,
-                "Diff": "481",
+                "Hoy": 24,
+                "Total": 8521,
+                "Diff": "479",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 154,
+                "Rank": 153,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 28,
-                "Total": 1412,
-                "Diff": "",
-                "Antece": "Deron Williams",
-                "Nota": "Mismo total",
+                "Hoy": 33,
+                "Total": 1417,
+                "Diff": "3",
+                "Antece": "Carlos Boozer",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -541,13 +541,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 166,
+                "Rank": 165,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 80,
+                "Hoy": 1,
+                "Total": 81,
                 "Diff": "",
-                "Antece": "Larry Bird",
+                "Antece": "Royce O'Neale",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -558,7 +558,7 @@
                 "Hoy": 3,
                 "Total": 79,
                 "Diff": "1",
-                "Antece": "Shai Gilgeous-Alexander",
+                "Antece": "Larry Bird",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1062,9 +1062,9 @@
                 "Rank": 11,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1608,
-                "Diff": "72",
+                "Hoy": 24,
+                "Total": 1610,
+                "Diff": "70",
                 "Antece": "George Mikan",
                 "game_status": "playing"
             },
@@ -1144,9 +1144,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 28,
-                "Total": 1330,
-                "Diff": "56",
+                "Hoy": 33,
+                "Total": 1335,
+                "Diff": "51",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1314,9 +1314,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 71,
-                "Diff": "29",
+                "Hoy": 1,
+                "Total": 72,
+                "Diff": "28",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1413,20 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (3 three-pointers today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 166th all-time with 80 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778381270249610_2238_collage_1778381270179654.png"
-            ],
-            "timestamp": 1778381275
-        },
-        {
-            "texto": "Josh Hart (1 three-pointer today) has passed Devean George, Maxi Kleber, Sam Hauser, Terrence Ross and Torrey Craig and is now ranked 238th all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442270699293_9554_collage_1778442270611890.png"
-            ],
-            "timestamp": 1778442279
-        },
         {
             "texto": "Karl-Anthony Towns (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Jaden McDaniels, Mikal Bridges, Nenê, Paul Pressey and Tobias Harris and is now ranked 187th all-time with 50 in playoffs.",
             "foto": [
@@ -2112,6 +2098,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778561812049669_1633_collage_1778561811974643.png"
             ],
             "timestamp": 1778561819
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (33 points today) has passed Deron Williams and is now ranked 153rd all-time with 1,417 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562472265609_1682_collage_1778562472180650.png"
+            ],
+            "timestamp": 1778562480
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 three-pointer today) has passed Larry Bird and is now ranked 165th all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562480246482_7184_collage_1778562480167946.png"
+            ],
+            "timestamp": 1778562488
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1471,
+    "total_notificaciones_historicas": 1473,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778562377
+    "cache_buster": 1778562488
 }
