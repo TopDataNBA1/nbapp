@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:50",
+    "ultima_actualizacion": "02:55:45",
     "tablas": {
         "pts": [
             {
@@ -49,13 +49,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 136,
+                "Rank": 135,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 629,
-                "Diff": "2",
-                "Antece": "Jermaine O'Neal",
+                "Hoy": 7,
+                "Total": 632,
+                "Diff": "4",
+                "Antece": "Karl-Anthony Towns",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1188,
-                "Diff": "45",
+                "Hoy": 4,
+                "Total": 1189,
+                "Diff": "44",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -132,14 +132,14 @@
         ],
         "blk": [
             {
-                "Rank": 78,
+                "Rank": 76,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 104,
-                "Diff": "",
-                "Antece": "Amar'e Stoudemire",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 105,
+                "Diff": "1",
+                "Antece": "Roy Hibbert",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -374,9 +374,9 @@
                 "Rank": 22,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 63,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 64,
+                "Diff": "1",
                 "Antece": "Eric Snow",
                 "game_status": "playing"
             },
@@ -474,9 +474,9 @@
                 "Rank": 15,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 37,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 38,
+                "Diff": "3",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -526,9 +526,9 @@
                 "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 457,
-                "Diff": "90",
+                "Hoy": 7,
+                "Total": 459,
+                "Diff": "88",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -546,9 +546,9 @@
                 "Rank": 24,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 165,
-                "Diff": "10",
+                "Hoy": 7,
+                "Total": 168,
+                "Diff": "7",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -685,20 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jarrett Allen (2 blocks today) has passed A.C. Green, Isaiah Hartenstein, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 203rd all-time with 47 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778360205896908_5634_collage_1778360205788235.png"
-            ],
-            "timestamp": 1778360211
-        },
-        {
-            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed CJ McCollum and is now ranked 57th all-time with 161 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778360211810613_7751_collage_1778360211719757.png"
-            ],
-            "timestamp": 1778360217
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ James Harden (1 steal today) becomes the 8th player to reach 300 in playoffs",
             "foto": [
@@ -1384,6 +1370,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778546345958920_1112_collage_1778546345855101.png"
             ],
             "timestamp": 1778546360
+        },
+        {
+            "texto": "Tobias Harris (7 rebounds today) has passed Jermaine O'Neal and is now ranked 135th all-time with 632 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547328310605_9589_collage_1778547328207657.png"
+            ],
+            "timestamp": 1778547336
+        },
+        {
+            "texto": "📢🔝💯 James Harden (1 block today) has passed Amar'e Stoudemire and is now ranked 76th all-time with 105 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547336268142_2779_collage_1778547336172172.png"
+            ],
+            "timestamp": 1778547345
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1432,
+    "total_notificaciones_historicas": 1434,
     "total_franchise_historicas": 734,
-    "cache_buster": 1778547230
+    "cache_buster": 1778547345
 }
