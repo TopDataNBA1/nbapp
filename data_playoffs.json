@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:14:06",
+    "ultima_actualizacion": "05:18:52",
     "tablas": {
         "pts": [
             {
@@ -552,13 +552,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 173,
+                "Rank": 169,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 77,
+                "Hoy": 2,
+                "Total": 78,
                 "Diff": "1",
-                "Antece": "Marco Belinelli",
+                "Antece": "Jerry Stackhouse",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1354,9 +1354,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 48,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 49,
+                "Diff": "2",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Dan Majerle and is now ranked 144th all-time with 305 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378386518902_8237_collage_1778378386431473.png"
-            ],
-            "timestamp": 1778378392
-        },
         {
             "texto": "Deandre Ayton (5 rebounds today) has passed Kevon Looney and is now ranked 164th all-time with 565 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555447181380_5932_collage_1778555447100406.png"
             ],
             "timestamp": 1778555454
+        },
+        {
+            "texto": "Alex Caruso (2 three-pointers today) has passed Brian Shaw, Chuck Person, Rui Hachimura and Terry Rozier and is now ranked 169th all-time with 78 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555925451809_7882_collage_1778555925380832.png"
+            ],
+            "timestamp": 1778555932
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1459,
+    "total_notificaciones_historicas": 1460,
     "total_franchise_historicas": 749,
-    "cache_buster": 1778555646
+    "cache_buster": 1778555932
 }
