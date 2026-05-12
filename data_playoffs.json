@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:55:45",
+    "ultima_actualizacion": "02:57:29",
     "tablas": {
         "pts": [
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 129,
+                "Rank": 125,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 96,
+                "Hoy": 1,
+                "Total": 97,
                 "Diff": "1",
-                "Antece": "Mike Miller",
+                "Antece": "Payton Pritchard",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -526,9 +526,9 @@
                 "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 459,
-                "Diff": "88",
+                "Hoy": 8,
+                "Total": 460,
+                "Diff": "87",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ James Harden (1 steal today) becomes the 8th player to reach 300 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778360418625685_3710_collage_1778360418562853.png"
-            ],
-            "timestamp": 1778360423
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (28 points today) has passed Kevin Johnson and is now ranked 67th all-time with 2,027 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547336268142_2779_collage_1778547336172172.png"
             ],
             "timestamp": 1778547345
+        },
+        {
+            "texto": "Dennis Schröder (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547441764680_1028_collage_1778547441692703.png"
+            ],
+            "timestamp": 1778547448
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1434,
+    "total_notificaciones_historicas": 1435,
     "total_franchise_historicas": 734,
-    "cache_buster": 1778547345
+    "cache_buster": 1778547449
 }
