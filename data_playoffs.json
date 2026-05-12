@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:48:38",
+    "ultima_actualizacion": "03:50:21",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 66,
+                "Rank": 65,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 23,
-                "Total": 2057,
-                "Diff": "1",
-                "Antece": "Tom Heinsohn",
-                "Nota": "A tiro de 1",
+                "Hoy": 25,
+                "Total": 2059,
+                "Diff": "13",
+                "Antece": "Steve Nash",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 952,
-                "Diff": "14",
+                "Hoy": 25,
+                "Total": 954,
+                "Diff": "12",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart today surpasses Mario Elie and Vinnie Johnson and now ranked 114th all time with 117 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778373796394170_9980_collage_1778373796318508.png"
-            ],
-            "timestamp": 1778373802
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 217th all-time with 69 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550414486800_3930_collage_1778550414386749.png"
             ],
             "timestamp": 1778550422
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (25 points today) has passed Tom Heinsohn and is now ranked 65th all-time with 2,059 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550613429291_8591_collage_1778550613322368.png"
+            ],
+            "timestamp": 1778550621
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1443,
+    "total_notificaciones_historicas": 1444,
     "total_franchise_historicas": 739,
-    "cache_buster": 1778550518
+    "cache_buster": 1778550621
 }
