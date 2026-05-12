@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:56:17",
+    "ultima_actualizacion": "05:01:02",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 8499,
-                "Diff": "501",
+                "Hoy": 4,
+                "Total": 8501,
+                "Diff": "499",
                 "Antece": "9000",
                 "Nota": "",
                 "game_status": "playing"
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 2684,
-                "Diff": "175",
+                "Hoy": 2,
+                "Total": 2685,
+                "Diff": "174",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -574,14 +574,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 212,
+                "Rank": 207,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "1",
-                "Antece": "Rajon Rondo",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "",
+                "Antece": "Andrew Wiggins",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1062,9 +1062,9 @@
                 "Rank": 11,
                 "Nombre": "LeBron James",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1588,
-                "Diff": "92",
+                "Hoy": 4,
+                "Total": 1590,
+                "Diff": "90",
                 "Antece": "George Mikan",
                 "game_status": "playing"
             },
@@ -1072,9 +1072,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 562,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 563,
+                "Diff": "11",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1132,9 +1132,9 @@
                 "Rank": 9,
                 "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "0",
                 "Antece": "Rui Hachimura",
                 "game_status": "playing"
             }
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 172nd all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376307751372_5858_collage_1778376307683453.png"
-            ],
-            "timestamp": 1778376312
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed B.J. Armstrong, Greg Anthony, Kyle Korver and OG Anunoby and is now ranked 158th all-time with 83 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554471629619_1520_collage_1778554471544988.png"
             ],
             "timestamp": 1778554481
+        },
+        {
+            "texto": "📢HOF🏛️ Austin Reaves (1 three-pointer today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 207th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554855560717_7532_collage_1778554855499729.png"
+            ],
+            "timestamp": 1778554862
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1454,
+    "total_notificaciones_historicas": 1455,
     "total_franchise_historicas": 748,
-    "cache_buster": 1778554577
+    "cache_buster": 1778554862
 }
