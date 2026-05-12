@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:29",
+    "ultima_actualizacion": "02:59:12",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 202,
+                "Rank": 191,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 72,
+                "Hoy": 2,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Nick Anderson",
+                "Antece": "Lou Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -567,8 +567,8 @@
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
                 "Hoy": 0,
-                "Total": 27,
-                "Diff": "5",
+                "Total": 26,
+                "Diff": "6",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -576,9 +576,9 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 26,
+                "Diff": "0",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (28 points today) has passed Kevin Johnson and is now ranked 67th all-time with 2,027 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361367084442_2977_collage_1778361366993248.png"
-            ],
-            "timestamp": 1778361372
-        },
         {
             "texto": "📢🔝💯 James Harden (1 rebound today) becomes the 53rd player to reach 1,000 in playoffs",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547441764680_1028_collage_1778547441692703.png"
             ],
             "timestamp": 1778547448
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Bob McAdoo, Boris Diaw, Caron Butler, Chris Bosh, DeMar DeRozan, Dominique Wilkins, Lamar Odom, Latrell Sprewell, Nenê, Nick Anderson and Sedale Threatt and is now ranked 191st all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547544729308_3029_collage_1778547544634651.png"
+            ],
+            "timestamp": 1778547552
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1435,
+    "total_notificaciones_historicas": 1436,
     "total_franchise_historicas": 734,
-    "cache_buster": 1778547449
+    "cache_buster": 1778547552
 }
