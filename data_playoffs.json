@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:04:03",
+    "ultima_actualizacion": "03:05:46",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 67,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 2034,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 2035,
+                "Diff": "8",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,9 +28,9 @@
                 "Rank": 175,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 7,
-                "Total": 1307,
-                "Diff": "8",
+                "Hoy": 10,
+                "Total": 1310,
+                "Diff": "5",
                 "Antece": "A.C. Green",
                 "Nota": "",
                 "game_status": "playing"
@@ -222,13 +222,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 100,
+                "Rank": 98,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 114,
+                "Hoy": 2,
+                "Total": 115,
                 "Diff": "",
-                "Antece": "Nicolas Batum",
+                "Antece": "Devin Booker",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 929,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 930,
+                "Diff": "36",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 241,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 242,
+                "Diff": "12",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -536,9 +536,9 @@
                 "Rank": 24,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 372,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 375,
+                "Diff": "1",
                 "Antece": "Corliss Williamson",
                 "game_status": "playing"
             },
@@ -666,9 +666,9 @@
                 "Rank": 14,
                 "Nombre": "Tobias Harris",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Jon Barry",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (1 rebound today) has passed Caldwell Jones and is now ranked 53rd all-time with 1,000 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361480524952_9492_collage_1778361480435332.png"
-            ],
-            "timestamp": 1778361485
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Duncan Robinson (3 three-pointers today) has passed Steve Nash and is now ranked 43rd all-time with 179 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547648326213_3258_collage_1778547648215247.png"
             ],
             "timestamp": 1778547656
+        },
+        {
+            "texto": "📢🔝💯 Tobias Harris (2 three-pointers today) has passed Nick Van Exel and Nicolas Batum and is now ranked 98th all-time with 115 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547938575378_1847_collage_1778547938496840.png"
+            ],
+            "timestamp": 1778547945
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1437,
+    "total_notificaciones_historicas": 1438,
     "total_franchise_historicas": 734,
-    "cache_buster": 1778547843
+    "cache_buster": 1778547946
 }
