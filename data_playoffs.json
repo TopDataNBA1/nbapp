@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:31:40",
+    "ultima_actualizacion": "06:34:54",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 155,
+                "Rank": 154,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 23,
-                "Total": 1407,
-                "Diff": "",
-                "Antece": "Lamar Odom",
-                "Nota": "Mismo total",
+                "Hoy": 25,
+                "Total": 1409,
+                "Diff": "3",
+                "Antece": "Deron Williams",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -1144,9 +1144,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 1325,
-                "Diff": "61",
+                "Hoy": 25,
+                "Total": 1327,
+                "Diff": "59",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Deandre Ayton (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas and Kyle Lowry and is now ranked 190th all-time with 49 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778380130833217_7916_collage_1778380130765725.png"
-            ],
-            "timestamp": 1778380135
-        },
         {
             "texto": "Luguentz Dort (2 three-pointers today) has passed Payton Pritchard and is now ranked 123rd all-time with 99 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559641097327_7251_collage_1778559641029349.png"
             ],
             "timestamp": 1778559648
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (25 points today) has passed Lamar Odom and is now ranked 154th all-time with 1,409 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778560486646904_2633_collage_1778560486547254.png"
+            ],
+            "timestamp": 1778560493
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1468,
+    "total_notificaciones_historicas": 1469,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778560300
+    "cache_buster": 1778560494
 }
