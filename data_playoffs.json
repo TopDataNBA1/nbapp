@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:38:39",
+    "ultima_actualizacion": "03:40:21",
     "tablas": {
         "pts": [
             {
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 15,
-                "Total": 4105,
-                "Diff": "42",
+                "Hoy": 18,
+                "Total": 4108,
+                "Diff": "39",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -143,13 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 157,
+                "Rank": 153,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 56,
+                "Hoy": 3,
+                "Total": 57,
                 "Diff": "",
-                "Antece": "Dave Cowens",
+                "Antece": "Bill Cartwright",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -181,9 +181,9 @@
                 "Rank": 4,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 459,
-                "Diff": "36",
+                "Hoy": 4,
+                "Total": 460,
+                "Diff": "35",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "playing"
@@ -364,9 +364,9 @@
                 "Rank": 15,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 90,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 91,
+                "Diff": "0",
                 "Antece": "Max Strus",
                 "game_status": "playing"
             },
@@ -424,9 +424,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 56,
-                "Diff": "14",
+                "Hoy": 3,
+                "Total": 57,
+                "Diff": "13",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -494,9 +494,9 @@
                 "Rank": 21,
                 "Nombre": "James Harden",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 25,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 26,
+                "Diff": "0",
                 "Antece": "Sasha Pavlović",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (3 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 129th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778362426484552_4787_collage_1778362426422140.png"
-            ],
-            "timestamp": 1778362431
-        },
         {
             "texto": "📢🔝💯 Tobias Harris (2 three-pointers today) has passed Bradley Beal and is now ranked 100th all-time with 113 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778549537050622_5593_collage_1778549536958208.png"
             ],
             "timestamp": 1778549544
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (3 blocks today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550014272374_7681_collage_1778550014194403.png"
+            ],
+            "timestamp": 1778550021
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1439,
+    "total_notificaciones_historicas": 1440,
     "total_franchise_historicas": 738,
-    "cache_buster": 1778549919
+    "cache_buster": 1778550021
 }
