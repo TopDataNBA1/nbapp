@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:11:01",
+    "ultima_actualizacion": "06:12:45",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 2689,
-                "Diff": "170",
+                "Hoy": 7,
+                "Total": 2690,
+                "Diff": "169",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -175,9 +175,9 @@
                 "Rank": 56,
                 "Nombre": "Marcus Smart",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 572,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 573,
+                "Diff": "2",
                 "Antece": "Robert Horry",
                 "Nota": "",
                 "game_status": "playing"
@@ -208,11 +208,11 @@
                 "Rank": 136,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 315,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 316,
+                "Diff": "1",
                 "Antece": "Toni Kukoč",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -306,13 +306,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 217,
+                "Rank": 210,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 69,
+                "Hoy": 1,
+                "Total": 70,
                 "Diff": "",
-                "Antece": "Rudy Gobert",
+                "Antece": "Ricky Pierce",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1072,9 +1072,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 567,
-                "Diff": "7",
+                "Hoy": 7,
+                "Total": 568,
+                "Diff": "6",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 296,
-                "Diff": "44",
+                "Hoy": 5,
+                "Total": 297,
+                "Diff": "43",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1234,9 +1234,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "1",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (5 three-pointers today) has passed Alex Caruso, Allan Houston and Channing Frye and is now ranked 175th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778379086859495_8929_collage_1778379086800850.png"
-            ],
-            "timestamp": 1778379092
-        },
         {
             "texto": "📢HOF🏛️ Marcus Smart (5 points today) has passed Chris Webber and LaMarcus Aldridge and is now ranked 132nd all-time with 1,496 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559054171089_9666_collage_1778559054105097.png"
             ],
             "timestamp": 1778559060
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin, Rashard Lewis and Rudy Gobert and is now ranked 210th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559157323202_1868_collage_1778559157231250.png"
+            ],
+            "timestamp": 1778559165
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1466,
+    "total_notificaciones_historicas": 1467,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778559061
+    "cache_buster": 1778559165
 }
