@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:19",
+    "ultima_actualizacion": "03:47:02",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 66,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 18,
-                "Total": 2052,
-                "Diff": "6",
+                "Hoy": 22,
+                "Total": 2056,
+                "Diff": "2",
                 "Antece": "Tom Heinsohn",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -100,9 +100,9 @@
                 "Rank": 7,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 302,
-                "Diff": "8",
+                "Hoy": 3,
+                "Total": 303,
+                "Diff": "7",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 947,
-                "Diff": "19",
+                "Hoy": 22,
+                "Total": 951,
+                "Diff": "15",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -352,22 +352,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Max Strus",
+                "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 91,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 92,
+                "Diff": "3",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Evan Mobley",
+                "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 3,
+                "Hoy": 0,
                 "Total": 91,
-                "Diff": "0",
-                "Antece": "Max Strus",
+                "Diff": "1",
+                "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
             {
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rui Hachimura (1 three-pointer today) has passed Lindsey Hunter and is now ranked 188th all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778373790797557_3290_collage_1778373790688492.png"
-            ],
-            "timestamp": 1778373796
-        },
         {
             "texto": "Marcus Smart today surpasses Mario Elie and Vinnie Johnson and now ranked 114th all time with 117 games in playoffs",
             "foto": [
@@ -1384,16 +1377,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550216432997_8818_collage_1778550216364019.png"
             ],
             "timestamp": 1778550223
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (3 steals today) has passed Jason Kidd and is now ranked 7th all-time with 303 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550414486800_3930_collage_1778550414386749.png"
+            ],
+            "timestamp": 1778550422
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (1 steal today) has passed George Lynch and is now ranked 18th in 76ers history with 41 in playoffs.",
-            "foto": [],
-            "timestamp": 1778282370,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (6 points today) has passed Carmelo Anthony and is now ranked 18th in Knicks history with 591 in playoffs.",
             "foto": [],
@@ -2086,9 +2079,16 @@
             "timestamp": 1778549544,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Evan Mobley (4 assists today) has passed Max Strus and is now ranked 14th in Cavaliers history with 92 in playoffs.",
+            "foto": [],
+            "timestamp": 1778550422,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1442,
-    "total_franchise_historicas": 738,
-    "cache_buster": 1778550319
+    "total_notificaciones_historicas": 1443,
+    "total_franchise_historicas": 739,
+    "cache_buster": 1778550422
 }
