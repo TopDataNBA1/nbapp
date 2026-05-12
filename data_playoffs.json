@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:22:16",
+    "ultima_actualizacion": "04:24:01",
     "tablas": {
         "pts": [
             {
@@ -69,14 +69,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 175,
+                "Rank": 174,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 14,
-                "Total": 1314,
-                "Diff": "1",
-                "Antece": "A.C. Green",
-                "Nota": "A tiro de 1",
+                "Hoy": 16,
+                "Total": 1316,
+                "Diff": "8",
+                "Antece": "Mike Bibby",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -907,13 +907,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 379,
-                "Diff": "0",
-                "Antece": "Walter Dukes",
+                "Hoy": 16,
+                "Total": 381,
+                "Diff": "33",
+                "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
             {
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (4 points today) has passed John Starks and is now ranked 162nd all-time with 1,365 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374582111294_6691_collage_1778374582011016.png"
-            ],
-            "timestamp": 1778374587
-        },
         {
             "texto": "Rui Hachimura (3 three-pointers today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Nickeil Alexander-Walker and is now ranked 180th all-time with 75 in playoffs.",
             "foto": [
@@ -2112,16 +2105,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778552528630091_4779_collage_1778552528541119.png"
             ],
             "timestamp": 1778552536
+        },
+        {
+            "texto": "Tobias Harris (16 points today) has passed A.C. Green and is now ranked 174th all-time with 1,316 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778552633130746_2042_collage_1778552633001684.png"
+            ],
+            "timestamp": 1778552641
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "VJ Edgecombe (1 three-pointer today) has passed Dario Šarić and is now ranked 18th in 76ers history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1778287082,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "Karl-Anthony Towns (7 rebounds today) has passed Marcus Camby and is now ranked 13th in Knicks history with 300 in playoffs.",
             "foto": [],
@@ -2814,9 +2807,16 @@
             "timestamp": 1778552536,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (16 points today) has passed Walter Dukes and is now ranked 22nd in Pistons history with 381 in playoffs.",
+            "foto": [],
+            "timestamp": 1778552641,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1448,
-    "total_franchise_historicas": 743,
-    "cache_buster": 1778552536
+    "total_notificaciones_historicas": 1449,
+    "total_franchise_historicas": 744,
+    "cache_buster": 1778552641
 }
