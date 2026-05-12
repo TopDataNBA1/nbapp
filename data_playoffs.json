@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:59:12",
+    "ultima_actualizacion": "03:00:56",
     "tablas": {
         "pts": [
             {
@@ -165,13 +165,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 203,
+                "Rank": 200,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 47,
+                "Hoy": 1,
+                "Total": 48,
                 "Diff": "",
-                "Antece": "Danny Schayes",
+                "Antece": "Arvydas Sabonis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -434,9 +434,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 37,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 38,
+                "Diff": "1",
                 "Antece": "Timofey Mozgov",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (1 rebound today) becomes the 53rd player to reach 1,000 in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778361475017868_3368_collage_1778361474955507.png"
-            ],
-            "timestamp": 1778361480
-        },
         {
             "texto": "📢🔝💯 James Harden (1 rebound today) has passed Caldwell Jones and is now ranked 53rd all-time with 1,000 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547544729308_3029_collage_1778547544634651.png"
             ],
             "timestamp": 1778547552
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 200th all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547648326213_3258_collage_1778547648215247.png"
+            ],
+            "timestamp": 1778547656
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1436,
+    "total_notificaciones_historicas": 1437,
     "total_franchise_historicas": 734,
-    "cache_buster": 1778547552
+    "cache_buster": 1778547656
 }
