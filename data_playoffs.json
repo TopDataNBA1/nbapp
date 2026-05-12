@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:18:52",
+    "ultima_actualizacion": "05:20:34",
     "tablas": {
         "pts": [
             {
@@ -552,13 +552,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 169,
+                "Rank": 167,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 78,
+                "Hoy": 3,
+                "Total": 79,
                 "Diff": "1",
-                "Antece": "Jerry Stackhouse",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1354,9 +1354,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 49,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 50,
+                "Diff": "1",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Deandre Ayton (5 rebounds today) has passed Kevon Looney and is now ranked 164th all-time with 565 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378487711331_2897_collage_1778378487622975.png"
-            ],
-            "timestamp": 1778378493
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (4 assists today) has passed Cliff Hagan, Kenny Smith and Ron Harper and is now ranked 139th all-time with 306 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555925451809_7882_collage_1778555925380832.png"
             ],
             "timestamp": 1778555932
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 167th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778556027734833_7699_collage_1778556027667844.png"
+            ],
+            "timestamp": 1778556034
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1460,
+    "total_notificaciones_historicas": 1461,
     "total_franchise_historicas": 749,
-    "cache_buster": 1778555932
+    "cache_buster": 1778556034
 }
