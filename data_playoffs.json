@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:11",
+    "ultima_actualizacion": "04:15:55",
     "tablas": {
         "pts": [
             {
@@ -385,7 +385,18 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 191,
+                "Rank": 189,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "",
+                "Antece": "Stephen Curry",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 192,
                 "Nombre": "Deandre Ayton",
                 "Team": "LAL",
                 "Hoy": 0,
@@ -396,24 +407,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 194,
+                "Rank": 195,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
                 "Hoy": 2,
                 "Total": 49,
                 "Diff": "",
                 "Antece": "Jaden McDaniels",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 198,
-                "Nombre": "Tobias Harris",
-                "Team": "DET",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "",
-                "Antece": "Paul Pressey",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -940,9 +940,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 28,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 27,
+                "Diff": "5",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -952,7 +952,7 @@
                 "Stat": "STL",
                 "Hoy": 2,
                 "Total": 26,
-                "Diff": "2",
+                "Diff": "1",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
@@ -990,9 +990,9 @@
                 "Rank": 20,
                 "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 18,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 19,
+                "Diff": "0",
                 "Antece": "Curtis Rowe",
                 "game_status": "playing"
             },
@@ -1002,7 +1002,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 16,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Deandre Ayton (2 rebounds today) has passed Arnie Risen and is now ranked 166th all-time with 562 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374474935639_6121_collage_1778374474843372.png"
-            ],
-            "timestamp": 1778374480
-        },
         {
             "texto": "Rui Hachimura (2 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 186th all-time with 74 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551568450717_4176_collage_1778551568359765.png"
             ],
             "timestamp": 1778551576
+        },
+        {
+            "texto": "Tobias Harris (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Jaden McDaniels, Mikal Bridges, Nenê and Paul Pressey and is now ranked 189th all-time with 50 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778552147128143_5072_collage_1778552147028175.png"
+            ],
+            "timestamp": 1778552155
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1446,
+    "total_notificaciones_historicas": 1447,
     "total_franchise_historicas": 742,
-    "cache_buster": 1778552051
+    "cache_buster": 1778552155
 }
