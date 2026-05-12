@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:04:20",
+    "ultima_actualizacion": "05:10:54",
     "tablas": {
         "pts": [
             {
@@ -58,14 +58,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
+                "Rank": 157,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 1388,
-                "Diff": "",
-                "Antece": "Chris Bosh",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 1390,
+                "Diff": "10",
+                "Antece": "Devin Booker",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -552,7 +552,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 175,
+                "Rank": 173,
+                "Nombre": "Alex Caruso",
+                "Team": "OKC",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "1",
+                "Antece": "Marco Belinelli",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 176,
                 "Nombre": "Rui Hachimura",
                 "Team": "LAL",
                 "Hoy": 0,
@@ -563,24 +574,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
-                "Nombre": "Alex Caruso",
-                "Team": "OKC",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "1",
-                "Antece": "Terry Rozier",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 207,
+                "Rank": 205,
                 "Nombre": "Austin Reaves",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 68,
+                "Hoy": 2,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Andrew Wiggins",
+                "Antece": "Andrew Nembhard",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1120,22 +1120,22 @@
             },
             {
                 "Rank": 8,
-                "Nombre": "Rui Hachimura",
+                "Nombre": "Austin Reaves",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "13",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Austin Reaves",
+                "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 68,
-                "Diff": "0",
-                "Antece": "Rui Hachimura",
+                "Diff": "1",
+                "Antece": "Austin Reaves",
                 "game_status": "playing"
             }
         ],
@@ -1144,9 +1144,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1306,
-                "Diff": "80",
+                "Hoy": 6,
+                "Total": 1308,
+                "Diff": "78",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -1354,9 +1354,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "3",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -1413,27 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (3 steals today) has passed Kentavious Caldwell-Pope and Marc Gasol and is now ranked 155th all-time with 84 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778376979135135_1786_collage_1778376979062160.png"
-            ],
-            "timestamp": 1778376984
-        },
-        {
-            "texto": "Marcus Smart (2 rebounds today) has passed Elden Campbell and is now ranked 207th all-time with 501 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378279558485_1985_collage_1778378279478246.png"
-            ],
-            "timestamp": 1778378284
-        },
-        {
-            "texto": "Luguentz Dort (1 three-pointer today) has passed Desmond Bane, Mark Jackson, Mikal Bridges and Mike Miller and is now ranked 123rd all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778378284979696_5751_collage_1778378284907358.png"
-            ],
-            "timestamp": 1778378290
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Dan Majerle and is now ranked 144th all-time with 305 in playoffs.",
             "foto": [
@@ -2112,16 +2091,30 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555053120275_9941_collage_1778555053027304.png"
             ],
             "timestamp": 1778555060
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (6 points today) has passed Chris Bosh and is now ranked 157th all-time with 1,390 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555431326800_7591_collage_1778555431246942.png"
+            ],
+            "timestamp": 1778555438
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed Allan Houston and Channing Frye and is now ranked 173rd all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555439150437_9078_collage_1778555439081461.png"
+            ],
+            "timestamp": 1778555446
+        },
+        {
+            "texto": "Austin Reaves (2 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Julius Randle, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 205th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555447181380_5932_collage_1778555447100406.png"
+            ],
+            "timestamp": 1778555454
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Mike Conley today surpasses Rudy Gobert and is now ranked 5th in Timberwolves history with 44 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778291417,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Victor Wembanyama (2 blocks today) has passed Tiago Splitter and George Johnson and is now ranked 14th in Spurs history with 32 in playoffs.",
             "foto": [],
@@ -2814,9 +2807,16 @@
             "timestamp": 1778554166,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Austin Reaves (2 three-pointers today) has passed Rui Hachimura and is now ranked 8th in Lakers history with 69 in playoffs.",
+            "foto": [],
+            "timestamp": 1778555454,
+            "team": "LAL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1456,
-    "total_franchise_historicas": 748,
-    "cache_buster": 1778555060
+    "total_notificaciones_historicas": 1459,
+    "total_franchise_historicas": 749,
+    "cache_buster": 1778555454
 }
