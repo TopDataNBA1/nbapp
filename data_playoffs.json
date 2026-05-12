@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "07:08:08",
+    "ultima_actualizacion": "07:09:51",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 11,
-                "Total": 2694,
-                "Diff": "165",
+                "Hoy": 12,
+                "Total": 2695,
+                "Diff": "164",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -153,9 +153,9 @@
                 "Rank": 2,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 2,
-                "Total": 2167,
-                "Diff": "179",
+                "Hoy": 3,
+                "Total": 2168,
+                "Diff": "178",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -208,11 +208,11 @@
                 "Rank": 134,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 7,
-                "Total": 318,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 319,
+                "Diff": "",
                 "Antece": "Derrick McKey",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -553,24 +553,24 @@
             },
             {
                 "Rank": 167,
+                "Nombre": "Rui Hachimura",
+                "Team": "LAL",
+                "Hoy": 3,
+                "Total": 80,
+                "Diff": "",
+                "Antece": "Larry Bird",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 168,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
                 "Hoy": 3,
                 "Total": 79,
                 "Diff": "1",
-                "Antece": "Larry Bird",
+                "Antece": "Rui Hachimura",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 170,
-                "Nombre": "Rui Hachimura",
-                "Team": "LAL",
-                "Hoy": 2,
-                "Total": 79,
-                "Diff": "",
-                "Antece": "Jerry Stackhouse",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1072,9 +1072,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 572,
-                "Diff": "2",
+                "Hoy": 12,
+                "Total": 573,
+                "Diff": "1",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1082,9 +1082,9 @@
                 "Rank": 8,
                 "Nombre": "LeBron James",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 480,
-                "Diff": "27",
+                "Hoy": 3,
+                "Total": 481,
+                "Diff": "26",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1122,9 +1122,9 @@
                 "Rank": 8,
                 "Nombre": "Rui Hachimura",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 70,
-                "Diff": "12",
+                "Hoy": 3,
+                "Total": 71,
+                "Diff": "11",
                 "Antece": "Rick Fox",
                 "game_status": "playing"
             },
@@ -1134,7 +1134,7 @@
                 "Stat": "3PM",
                 "Hoy": 3,
                 "Total": 70,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Rui Hachimura",
                 "game_status": "playing"
             }
@@ -1164,9 +1164,9 @@
                 "Rank": 16,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 648,
-                "Diff": "5",
+                "Hoy": 12,
+                "Total": 650,
+                "Diff": "3",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 299,
-                "Diff": "41",
+                "Hoy": 8,
+                "Total": 300,
+                "Diff": "40",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1413,13 +1413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Jaden McDaniels, Mikal Bridges, Nenê, Paul Pressey and Tobias Harris and is now ranked 187th all-time with 50 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442375848284_6062_collage_1778442375737322.png"
-            ],
-            "timestamp": 1778442383
-        },
         {
             "texto": "Miles McBride (1 three-pointer today) has passed Ben Gordon, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 223rd all-time with 64 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562480246482_7184_collage_1778562480167946.png"
             ],
             "timestamp": 1778562488
+        },
+        {
+            "texto": "Rui Hachimura (3 three-pointers today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 167th all-time with 80 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562584484941_4941_collage_1778562584415976.png"
+            ],
+            "timestamp": 1778562591
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1473,
+    "total_notificaciones_historicas": 1474,
     "total_franchise_historicas": 751,
-    "cache_buster": 1778562488
+    "cache_buster": 1778562591
 }
