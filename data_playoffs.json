@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:01:29",
+    "ultima_actualizacion": "04:06:16",
     "tablas": {
         "pts": [
             {
@@ -146,11 +146,11 @@
                 "Rank": 151,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 58,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 59,
+                "Diff": "",
                 "Antece": "Derrick Coleman",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -274,9 +274,9 @@
                 "Rank": 12,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 554,
-                "Diff": "5",
+                "Hoy": 15,
+                "Total": 556,
+                "Diff": "3",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 8,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 307,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 308,
+                "Diff": "22",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -352,22 +352,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Evan Mobley",
+                "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 92,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 93,
+                "Diff": "2",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Max Strus",
+                "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 1,
+                "Hoy": 4,
                 "Total": 92,
-                "Diff": "0",
-                "Antece": "Evan Mobley",
+                "Diff": "1",
+                "Antece": "Max Strus",
                 "game_status": "playing"
             },
             {
@@ -424,9 +424,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 4,
-                "Total": 58,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 59,
+                "Diff": "11",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart (3 points today) has passed J.R. Smith and is now ranked 134th all-time with 1,494 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778374000390538_6899_collage_1778374000307981.png"
-            ],
-            "timestamp": 1778374006
-        },
         {
             "texto": "📢HOF🏛️ Deandre Ayton (2 rebounds today) has passed Arnie Risen and is now ranked 166th all-time with 562 in playoffs.",
             "foto": [
@@ -1384,6 +1377,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551090772655_3251_collage_1778551090714635.png"
             ],
             "timestamp": 1778551097
+        },
+        {
+            "texto": "Evan Mobley (5 blocks today) has passed OG Anunoby and is now ranked 151st all-time with 59 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551568450717_4176_collage_1778551568359765.png"
+            ],
+            "timestamp": 1778551576
         }
     ],
     "notificaciones_franchise": [
@@ -2088,7 +2088,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1445,
+    "total_notificaciones_historicas": 1446,
     "total_franchise_historicas": 741,
-    "cache_buster": 1778551289
+    "cache_buster": 1778551576
 }
