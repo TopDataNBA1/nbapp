@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:56:35",
+    "ultima_actualizacion": "03:58:17",
     "tablas": {
         "pts": [
             {
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 18,
-                "Total": 4108,
-                "Diff": "39",
+                "Hoy": 21,
+                "Total": 4111,
+                "Diff": "36",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -143,14 +143,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 153,
+                "Rank": 151,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 57,
-                "Diff": "",
-                "Antece": "Bill Cartwright",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 58,
+                "Diff": "1",
+                "Antece": "Derrick Coleman",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -181,9 +181,9 @@
                 "Rank": 4,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 460,
-                "Diff": "35",
+                "Hoy": 5,
+                "Total": 461,
+                "Diff": "34",
                 "Antece": "LeBron James",
                 "Nota": "",
                 "game_status": "playing"
@@ -200,14 +200,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 44,
+                "Rank": 43,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 180,
-                "Diff": "1",
-                "Antece": "Mike Conley",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 181,
+                "Diff": "",
+                "Antece": "Dan Majerle",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -364,9 +364,9 @@
                 "Rank": 15,
                 "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 91,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 92,
+                "Diff": "0",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -424,9 +424,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 57,
-                "Diff": "13",
+                "Hoy": 4,
+                "Total": 58,
+                "Diff": "12",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -491,13 +491,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "James Harden",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 26,
-                "Diff": "0",
-                "Antece": "Sasha Pavlović",
+                "Hoy": 5,
+                "Total": 27,
+                "Diff": "5",
+                "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
             {
@@ -656,9 +656,9 @@
                 "Rank": 11,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 33,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 34,
+                "Diff": "0",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -685,13 +685,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 217th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778373899280258_1686_collage_1778373899209102.png"
-            ],
-            "timestamp": 1778373904
-        },
         {
             "texto": "Marcus Smart (3 points today) has passed J.R. Smith and is now ranked 134th all-time with 1,494 in playoffs.",
             "foto": [
@@ -1384,16 +1377,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550613429291_8591_collage_1778550613322368.png"
             ],
             "timestamp": 1778550621
+        },
+        {
+            "texto": "📢HOF🏛️ Evan Mobley (4 blocks today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 151st all-time with 58 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551090772655_3251_collage_1778551090714635.png"
+            ],
+            "timestamp": 1778551097
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (6 points today) has passed Carmelo Anthony and is now ranked 18th in Knicks history with 591 in playoffs.",
-            "foto": [],
-            "timestamp": 1778282893,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Mikal Bridges (1 three-pointer today) has passed Trent Tucker and is now ranked 12th in Knicks history with 38 in playoffs.",
             "foto": [],
@@ -2086,9 +2079,16 @@
             "timestamp": 1778550422,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "James Harden (5 three-pointers today) has passed Sasha Pavlović and is now ranked 20th in Cavaliers history with 27 in playoffs.",
+            "foto": [],
+            "timestamp": 1778551097,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1444,
-    "total_franchise_historicas": 739,
-    "cache_buster": 1778550995
+    "total_notificaciones_historicas": 1445,
+    "total_franchise_historicas": 740,
+    "cache_buster": 1778551097
 }
