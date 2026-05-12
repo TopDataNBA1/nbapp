@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:49:26",
+    "ultima_actualizacion": "04:51:12",
     "tablas": {
         "pts": [
             {
@@ -85,9 +85,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 2683,
-                "Diff": "176",
+                "Hoy": 1,
+                "Total": 2684,
+                "Diff": "175",
                 "Antece": "Tim Duncan",
                 "Nota": "",
                 "game_status": "playing"
@@ -205,14 +205,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 138,
+                "Rank": 136,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 311,
-                "Diff": "",
-                "Antece": "Baron Davis",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 312,
+                "Diff": "5",
+                "Antece": "Toni Kukoč",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -601,9 +601,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "LAL",
-                "Hoy": 0,
-                "Total": 301,
-                "Diff": "99",
+                "Hoy": 1,
+                "Total": 302,
+                "Diff": "98",
                 "Antece": "400",
                 "Nota": "",
                 "game_status": "playing"
@@ -1072,9 +1072,9 @@
                 "Rank": 18,
                 "Nombre": "LeBron James",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 561,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 562,
+                "Diff": "12",
                 "Antece": "Michael Cooper",
                 "game_status": "playing"
             },
@@ -1174,9 +1174,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 335,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 336,
+                "Diff": "7",
                 "Antece": "Nate McMillan",
                 "game_status": "playing"
             },
@@ -1184,9 +1184,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 255,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 256,
+                "Diff": "0",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -1194,9 +1194,9 @@
                 "Rank": 23,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 233,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 234,
+                "Diff": "3",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -1204,9 +1204,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 292,
-                "Diff": "48",
+                "Hoy": 1,
+                "Total": 293,
+                "Diff": "47",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -1394,9 +1394,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "2",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -1406,20 +1406,13 @@
                 "Stat": "G",
                 "Hoy": 1,
                 "Total": 47,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Austin Reaves (1 three-pointer today) has passed Jordan Poole, Julius Randle and Kerry Kittles and is now ranked 210th all-time with 67 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-2/1778375627888677_2543_collage_1778375627828137.png"
-            ],
-            "timestamp": 1778375632
-        },
         {
             "texto": "Rui Hachimura (4 three-pointers today) has passed Rafer Alston and is now ranked 179th all-time with 76 in playoffs.",
             "foto": [
@@ -2112,6 +2105,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554159538527_9796_collage_1778554159462462.png"
             ],
             "timestamp": 1778554166
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 assist today) has passed Baron Davis and is now ranked 136th all-time with 312 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554264112317_9556_collage_1778554264028363.png"
+            ],
+            "timestamp": 1778554272
         }
     ],
     "notificaciones_franchise": [
@@ -2816,7 +2816,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1451,
+    "total_notificaciones_historicas": 1452,
     "total_franchise_historicas": 748,
-    "cache_buster": 1778554166
+    "cache_buster": 1778554272
 }
