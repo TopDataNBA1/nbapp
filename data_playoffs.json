@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:49",
+    "ultima_actualizacion": "04:13:31",
     "tablas": {
         "pts": [
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 198,
+                "Rank": 192,
                 "Nombre": "Naz Reid",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 71,
+                "Hoy": 3,
+                "Total": 72,
                 "Diff": "",
-                "Antece": "Malcolm Brogdon",
+                "Antece": "Lindsey Hunter",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -317,9 +317,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 506,
-                "Diff": "97",
+                "Hoy": 9,
+                "Total": 507,
+                "Diff": "96",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -327,9 +327,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 486,
-                "Diff": "20",
+                "Hoy": 11,
+                "Total": 489,
+                "Diff": "18",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -339,7 +339,7 @@
                 "Stat": "PTS",
                 "Hoy": 4,
                 "Total": 460,
-                "Diff": "26",
+                "Diff": "29",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -437,9 +437,9 @@
                 "Rank": 7,
                 "Nombre": "Julius Randle",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 168,
-                "Diff": "56",
+                "Hoy": 8,
+                "Total": 169,
+                "Diff": "55",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -449,7 +449,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 130,
-                "Diff": "38",
+                "Diff": "39",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -617,9 +617,9 @@
                 "Rank": 9,
                 "Nombre": "Naz Reid",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "3",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -735,22 +735,22 @@
             },
             {
                 "Rank": 2,
-                "Nombre": "Mike Conley",
+                "Nombre": "Naz Reid",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "29",
+                "Hoy": 3,
+                "Total": 72,
+                "Diff": "28",
                 "Antece": "100",
                 "game_status": "playing"
             },
             {
                 "Rank": 3,
-                "Nombre": "Naz Reid",
+                "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 2,
+                "Hoy": 1,
                 "Total": 71,
-                "Diff": "0",
-                "Antece": "Mike Conley",
+                "Diff": "1",
+                "Antece": "Naz Reid",
                 "game_status": "playing"
             },
             {
@@ -760,7 +760,7 @@
                 "Hoy": 2,
                 "Total": 62,
                 "Diff": "9",
-                "Antece": "Naz Reid",
+                "Antece": "Mike Conley",
                 "game_status": "playing"
             },
             {
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (6 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 204th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445935695221_8676_collage_1778445935616635.png"
-            ],
-            "timestamp": 1778445943
-        },
         {
             "texto": "Joel Embiid (2 assists today) has passed CJ McCollum and Rolando Blackman and is now ranked 227th all-time with 218 in playoffs.",
             "foto": [
@@ -1627,16 +1620,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637655492569_3959_collage_1778637655384237.png"
             ],
             "timestamp": 1778637663
+        },
+        {
+            "texto": "Naz Reid (3 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 192nd all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778638403707044_5378_collage_1778638403613087.png"
+            ],
+            "timestamp": 1778638411
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cade Cunningham (1 steal today) has passed Jason Maxiell and Eric Money and is now ranked 23rd in Pistons history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1778354142,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Donovan Mitchell today surpasses Drew Gooden and is now ranked 24th in Cavaliers history with 34 games in playoffs.",
             "foto": [],
@@ -2329,9 +2322,16 @@
             "timestamp": 1778636111,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Naz Reid (3 three-pointers today) has passed Mike Conley and is now ranked 2nd in Timberwolves history with 72 in playoffs.",
+            "foto": [],
+            "timestamp": 1778638411,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1493,
-    "total_franchise_historicas": 763,
-    "cache_buster": 1778638309
+    "total_notificaciones_historicas": 1494,
+    "total_franchise_historicas": 764,
+    "cache_buster": 1778638411
 }
