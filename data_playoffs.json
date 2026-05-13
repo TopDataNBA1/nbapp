@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:13:31",
+    "ultima_actualizacion": "04:18:17",
     "tablas": {
         "pts": [
             {
@@ -255,13 +255,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 233,
+                "Rank": 227,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 62,
+                "Hoy": 3,
+                "Total": 63,
                 "Diff": "",
-                "Antece": "Giannis Antetokounmpo",
+                "Antece": "Ben Gordon",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -307,9 +307,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 651,
-                "Diff": "349",
+                "Hoy": 17,
+                "Total": 654,
+                "Diff": "346",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -757,9 +757,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 62,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 63,
+                "Diff": "8",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (2 assists today) has passed CJ McCollum and Rolando Blackman and is now ranked 227th all-time with 218 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778446040534360_8774_collage_1778446040428394.png"
-            ],
-            "timestamp": 1778446048
-        },
         {
             "texto": "Josh Hart (3 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 232nd all-time with 62 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778638403707044_5378_collage_1778638403613087.png"
             ],
             "timestamp": 1778638411
+        },
+        {
+            "texto": "Jaden McDaniels (3 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 227th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778638689926551_1912_collage_1778638689848576.png"
+            ],
+            "timestamp": 1778638697
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1494,
+    "total_notificaciones_historicas": 1495,
     "total_franchise_historicas": 764,
-    "cache_buster": 1778638411
+    "cache_buster": 1778638697
 }
