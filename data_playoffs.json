@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:54",
+    "ultima_actualizacion": "02:54:41",
     "tablas": {
         "pts": [
             {
@@ -255,14 +255,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 237,
+                "Rank": 234,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "",
-                "Antece": "Antawn Jamison",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "1",
+                "Antece": "Latrell Sprewell",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -307,9 +307,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 639,
-                "Diff": "361",
+                "Hoy": 5,
+                "Total": 642,
+                "Diff": "358",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -427,9 +427,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 222,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 223,
+                "Diff": "3",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -439,7 +439,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 161,
-                "Diff": "61",
+                "Diff": "62",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -757,9 +757,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "9",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (3 three-pointers today) has passed Al-Farouq Aminu, Joel Embiid and Trae Young and is now ranked 196th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778444072571772_5398_collage_1778444072508794.png"
-            ],
-            "timestamp": 1778444079
-        },
         {
             "texto": "Karl-Anthony Towns (2 three-pointers today) has passed Gabe Vincent and Tim Thomas and is now ranked 143rd all-time with 89 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632737127454_9051_collage_1778632737044682.png"
             ],
             "timestamp": 1778632745
+        },
+        {
+            "texto": "Jaden McDaniels (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 234th all-time with 61 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778633674355681_5357_collage_1778633674281691.png"
+            ],
+            "timestamp": 1778633681
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1484,
+    "total_notificaciones_historicas": 1485,
     "total_franchise_historicas": 760,
-    "cache_buster": 1778633214
+    "cache_buster": 1778633681
 }
