@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:59:21",
+    "ultima_actualizacion": "04:01:03",
     "tablas": {
         "pts": [
             {
@@ -25,13 +25,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 217,
+                "Rank": 216,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 1115,
+                "Hoy": 4,
+                "Total": 1117,
                 "Diff": "1",
-                "Antece": "Cedric Maxwell",
+                "Antece": "Sean Elliott",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -337,9 +337,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 458,
-                "Diff": "28",
+                "Hoy": 4,
+                "Total": 460,
+                "Diff": "26",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -349,7 +349,7 @@
                 "Stat": "PTS",
                 "Hoy": 5,
                 "Total": 371,
-                "Diff": "87",
+                "Diff": "89",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (2 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 179th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445928144073_9200_collage_1778445928065099.png"
-            ],
-            "timestamp": 1778445935
-        },
         {
             "texto": "Miles McBride (6 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 204th all-time with 69 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637269190500_7861_collage_1778637269098530.png"
             ],
             "timestamp": 1778637277
+        },
+        {
+            "texto": "Rudy Gobert (4 points today) has passed Cedric Maxwell and is now ranked 216th all-time with 1,117 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637655492569_3959_collage_1778637655384237.png"
+            ],
+            "timestamp": 1778637663
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1492,
+    "total_notificaciones_historicas": 1493,
     "total_franchise_historicas": 763,
-    "cache_buster": 1778637561
+    "cache_buster": 1778637663
 }
