@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:48:00",
+    "ultima_actualizacion": "03:52:53",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 174,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 12,
-                "Total": 1314,
-                "Diff": "1",
-                "Antece": "A.C. Green",
-                "Nota": "A tiro de 1",
+                "Hoy": 14,
+                "Total": 1316,
+                "Diff": "8",
+                "Antece": "Mike Bibby",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -86,13 +86,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 210,
+                "Rank": 206,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 70,
+                "Hoy": 2,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Ricky Pierce",
+                "Antece": "Pau Gasol",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -297,9 +297,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1314,
-                "Diff": "686",
+                "Hoy": 14,
+                "Total": 1316,
+                "Diff": "684",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -557,9 +557,9 @@
                 "Rank": 20,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 31,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 32,
+                "Diff": "1",
                 "Antece": "Troy Hudson",
                 "game_status": "playing"
             },
@@ -597,9 +597,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 37,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 38,
+                "Diff": "0",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -928,20 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 three-pointers today) has passed Antawn Jamison, Jaden McDaniels, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 233rd all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445336173277_2035_collage_1778445336087307.png"
-            ],
-            "timestamp": 1778445343
-        },
-        {
-            "texto": "📢🔝💯 Paul George (2 assists today) has passed Nate McMillan and is now ranked 63rd all-time with 506 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778445630576473_2392_collage_1778445630465730.png"
-            ],
-            "timestamp": 1778445638
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (5 assists today) has passed Mike Bibby and Paul Pressey and is now ranked 83rd all-time with 421 in playoffs.",
             "foto": [
@@ -1627,6 +1613,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778636682562069_1860_collage_1778636682476733.png"
             ],
             "timestamp": 1778636691
+        },
+        {
+            "texto": "Anthony Edwards (14 points today) has passed A.C. Green and is now ranked 174th all-time with 1,316 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637157469007_7060_collage_1778637157353039.png"
+            ],
+            "timestamp": 1778637165
+        },
+        {
+            "texto": "Rudy Gobert (2 steals today) has passed Derrick White, Jeff Teague, Johnny Moore, Ricky Pierce and Shai Gilgeous-Alexander and is now ranked 206th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637165806745_8521_collage_1778637165731785.png"
+            ],
+            "timestamp": 1778637173
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1489,
+    "total_notificaciones_historicas": 1491,
     "total_franchise_historicas": 763,
-    "cache_buster": 1778636880
+    "cache_buster": 1778637173
 }
