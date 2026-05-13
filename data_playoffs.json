@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:14:28",
+    "ultima_actualizacion": "02:17:33",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 177,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1302,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1303,
+                "Diff": "1",
                 "Antece": "Anfernee Hardaway",
-                "Nota": "A tiro de 2",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -297,9 +297,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1302,
-                "Diff": "698",
+                "Hoy": 1,
+                "Total": 1303,
+                "Diff": "697",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -317,9 +317,9 @@
                 "Rank": 5,
                 "Nombre": "Julius Randle",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 498,
-                "Diff": "105",
+                "Hoy": 2,
+                "Total": 500,
+                "Diff": "103",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -329,7 +329,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 478,
-                "Diff": "20",
+                "Diff": "22",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -417,9 +417,9 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 224,
-                "Diff": "103",
+                "Hoy": 1,
+                "Total": 225,
+                "Diff": "102",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -429,7 +429,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 220,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -817,20 +817,20 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "50",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "49",
                 "Antece": "100",
                 "game_status": "playing"
             },
             {
-                "Rank": 3,
+                "Rank": 2,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "0",
-                "Antece": "Kevin Garnett",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "3",
+                "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
             {
@@ -840,7 +840,7 @@
                 "Hoy": 0,
                 "Total": 46,
                 "Diff": "1",
-                "Antece": "Jaden McDaniels",
+                "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
             {
@@ -867,9 +867,9 @@
                 "Rank": 11,
                 "Nombre": "Julius Randle",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 25,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 26,
+                "Diff": "0",
                 "Antece": "Anthony Peeler",
                 "game_status": "playing"
             },
@@ -879,7 +879,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 25,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1631,20 +1631,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jaden McDaniels (2 assists today) has passed Kyle Anderson and is now ranked 11th in Timberwolves history with 69 in playoffs.",
-            "foto": [],
-            "timestamp": 1778295424,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
-            "texto": "Ayo Dosunmu (3 points today) has passed Terrence Shannon Jr. and Kyle Anderson and is now ranked 22nd in Timberwolves history with 112 in playoffs.",
-            "foto": [],
-            "timestamp": 1778297114,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Naz Reid (3 assists today) has passed Anthony Peeler and is now ranked 15th in Timberwolves history with 57 in playoffs.",
             "foto": [],
             "timestamp": 1778297114,
@@ -2329,9 +2315,23 @@
             "timestamp": 1778563447,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ 📢HOF🏛️ Jaden McDaniels today surpasses Kevin Garnett and is now ranked 2nd in Timberwolves history with 48 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778631453,
+            "team": "MIN",
+            "type": "franchise"
+        },
+        {
+            "texto": "Julius Randle today surpasses Kyle Anderson and is now ranked 11th in Timberwolves history with 26 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778631453,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1475,
-    "total_franchise_historicas": 753,
-    "cache_buster": 1778631268
+    "total_franchise_historicas": 755,
+    "cache_buster": 1778631453
 }
