@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:33:59",
+    "ultima_actualizacion": "02:35:49",
     "tablas": {
         "pts": [
             {
-                "Rank": 125,
+                "Rank": 124,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 1539,
-                "Diff": "",
-                "Antece": "Dick Barnett",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1542,
+                "Diff": "8",
+                "Antece": "Charles Oakley",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -178,13 +178,13 @@
         ],
         "fg3": [
             {
-                "Rank": 44,
+                "Rank": 42,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 181,
+                "Hoy": 1,
+                "Total": 182,
                 "Diff": "",
-                "Antece": "Duncan Robinson",
+                "Antece": "Luka Dončić",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -344,13 +344,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Mike Conley",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 368,
-                "Diff": "1",
-                "Antece": "Wally Szczerbiak",
+                "Hoy": 5,
+                "Total": 371,
+                "Diff": "87",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -737,9 +737,9 @@
                 "Rank": 2,
                 "Nombre": "Mike Conley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "30",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "29",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -749,7 +749,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 70,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -928,20 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (2 three-pointers today) has passed Andrew Nembhard and Naz Reid and is now ranked 200th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442918142938_8001_collage_1778442918055969.png"
-            ],
-            "timestamp": 1778442926
-        },
-        {
-            "texto": "Landry Shamet (2 three-pointers today) has passed Andrew Nembhard, Andrew Wiggins, Derrick Rose, Kemba Walker, Naz Reid, Paul Millsap and Rajon Rondo and is now ranked 201st all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443492615730_4880_collage_1778443492525690.png"
-            ],
-            "timestamp": 1778443500
-        },
         {
             "texto": "📢🔝💯 Paul George today surpasses Bill Cartwright, Jason Terry and Terry Porter and now ranked 98th all time with 125 games in playoffs",
             "foto": [
@@ -1627,16 +1613,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632335831560_3759_collage_1778632335742389.png"
             ],
             "timestamp": 1778632343
+        },
+        {
+            "texto": "📢HOF🏛️ Mike Conley (5 points today) has passed Dick Barnett and is now ranked 124th all-time with 1,542 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632534747930_9537_collage_1778632534656936.png"
+            ],
+            "timestamp": 1778632542
+        },
+        {
+            "texto": "📢🔝💯 Mike Conley (1 three-pointer today) has passed Dan Majerle and Duncan Robinson and is now ranked 42nd all-time with 182 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632542333535_3783_collage_1778632542260498.png"
+            ],
+            "timestamp": 1778632549
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ayo Dosunmu (8 points today) has passed Fred Hoiberg and is now ranked 21st in Timberwolves history with 117 in playoffs.",
-            "foto": [],
-            "timestamp": 1778298152,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (11 points today) has passed Rasho Nesterović and is now ranked 20th in Timberwolves history with 120 in playoffs.",
             "foto": [],
@@ -2329,9 +2322,16 @@
             "timestamp": 1778632439,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Mike Conley (5 points today) has passed Wally Szczerbiak and is now ranked 8th in Timberwolves history with 371 in playoffs.",
+            "foto": [],
+            "timestamp": 1778632549,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1481,
-    "total_franchise_historicas": 758,
-    "cache_buster": 1778632439
+    "total_notificaciones_historicas": 1483,
+    "total_franchise_historicas": 759,
+    "cache_buster": 1778632549
 }
