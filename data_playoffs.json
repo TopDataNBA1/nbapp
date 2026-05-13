@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:33",
+    "ultima_actualizacion": "02:19:17",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
+                "Rank": 176,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 1303,
-                "Diff": "1",
-                "Antece": "Anfernee Hardaway",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1305,
+                "Diff": "10",
+                "Antece": "A.C. Green",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -297,9 +297,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 1303,
-                "Diff": "697",
+                "Hoy": 3,
+                "Total": 1305,
+                "Diff": "695",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Miles McBride (3 three-pointers today) has passed Caleb Martin, Charles Barkley, D'Angelo Russell, Grant Williams, Malik Beasley, Reggie Bullock, Richard Jefferson and Voshon Lenard and is now ranked 217th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442489401043_2700_collage_1778442489307075.png"
-            ],
-            "timestamp": 1778442497
-        },
         {
             "texto": "Joel Embiid (1 assist today) has passed Jack Coleman and Keith Erickson and is now ranked 229th all-time with 217 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562687640401_3501_collage_1778562687561426.png"
             ],
             "timestamp": 1778562696
+        },
+        {
+            "texto": "Anthony Edwards (3 points today) has passed Anfernee Hardaway and is now ranked 176th all-time with 1,305 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778631549318057_1492_collage_1778631549218040.png"
+            ],
+            "timestamp": 1778631557
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1475,
+    "total_notificaciones_historicas": 1476,
     "total_franchise_historicas": 755,
-    "cache_buster": 1778631453
+    "cache_buster": 1778631557
 }
