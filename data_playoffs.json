@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:19:17",
+    "ultima_actualizacion": "02:22:31",
     "tablas": {
         "pts": [
             {
@@ -28,11 +28,11 @@
                 "Rank": 217,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1113,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 1115,
+                "Diff": "1",
                 "Antece": "Cedric Maxwell",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -41,11 +41,11 @@
                 "Rank": 56,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 993,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 994,
+                "Diff": "",
                 "Antece": "Julius Erving",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -279,13 +279,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 203,
+                "Rank": 199,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 94,
+                "Hoy": 1,
+                "Total": 95,
                 "Diff": "",
-                "Antece": "Moses Malone",
+                "Antece": "Peja Stojaković",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -337,9 +337,9 @@
                 "Rank": 7,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 456,
-                "Diff": "22",
+                "Hoy": 2,
+                "Total": 458,
+                "Diff": "20",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -397,9 +397,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 441,
-                "Diff": "187",
+                "Hoy": 1,
+                "Total": 442,
+                "Diff": "186",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -409,7 +409,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 332,
-                "Diff": "109",
+                "Diff": "110",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -847,9 +847,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -859,7 +859,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 45,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (1 assist today) has passed Jack Coleman and Keith Erickson and is now ranked 229th all-time with 217 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778442780462127_5960_collage_1778442780354148.png"
-            ],
-            "timestamp": 1778442787
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 145th all-time with 88 in playoffs.",
             "foto": [
@@ -1627,16 +1620,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778631549318057_1492_collage_1778631549218040.png"
             ],
             "timestamp": 1778631557
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Bob McAdoo, Matt Bonner, Mike Miller, Moses Malone and Scott Williams and now ranked 199th all time with 95 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778631744149802_9152_collage_1778631744075825.png"
+            ],
+            "timestamp": 1778631751
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Naz Reid (3 assists today) has passed Anthony Peeler and is now ranked 15th in Timberwolves history with 57 in playoffs.",
-            "foto": [],
-            "timestamp": 1778297114,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Ayo Dosunmu (1 three-pointer today) has passed Kevin Garnett, Taurean Prince and D'Angelo Russell and is now ranked 17th in Timberwolves history with 13 in playoffs.",
             "foto": [],
@@ -2329,9 +2322,16 @@
             "timestamp": 1778631453,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 46 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778631751,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1476,
-    "total_franchise_historicas": 755,
-    "cache_buster": 1778631557
+    "total_notificaciones_historicas": 1477,
+    "total_franchise_historicas": 756,
+    "cache_buster": 1778631751
 }
