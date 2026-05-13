@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:35:49",
+    "ultima_actualizacion": "02:39:05",
     "tablas": {
         "pts": [
             {
@@ -54,9 +54,9 @@
                 "Rank": 38,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 673,
-                "Diff": "27",
+                "Hoy": 2,
+                "Total": 674,
+                "Diff": "26",
                 "Antece": "700",
                 "Nota": "",
                 "game_status": "playing"
@@ -487,9 +487,9 @@
                 "Rank": 3,
                 "Nombre": "Mike Conley",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 195,
-                "Diff": "41",
+                "Hoy": 2,
+                "Total": 196,
+                "Diff": "40",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -499,7 +499,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 106,
-                "Diff": "89",
+                "Diff": "90",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Paul George today surpasses Bill Cartwright, Jason Terry and Terry Porter and now ranked 98th all time with 125 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778443874716278_8781_collage_1778443874654298.png"
-            ],
-            "timestamp": 1778443881
-        },
         {
             "texto": "Landry Shamet (3 three-pointers today) has passed Al-Farouq Aminu, Joel Embiid and Trae Young and is now ranked 196th all-time with 71 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632542333535_3783_collage_1778632542260498.png"
             ],
             "timestamp": 1778632549
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Mike Conley (2 assists today) has passed Wilt Chamberlain and is now ranked 38th all-time with 674 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632737127454_9051_collage_1778632737044682.png"
+            ],
+            "timestamp": 1778632745
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1483,
+    "total_notificaciones_historicas": 1484,
     "total_franchise_historicas": 759,
-    "cache_buster": 1778632549
+    "cache_buster": 1778632745
 }
