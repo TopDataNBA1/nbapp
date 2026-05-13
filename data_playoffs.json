@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:47",
+    "ultima_actualizacion": "03:40:01",
     "tablas": {
         "pts": [
             {
@@ -255,14 +255,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 234,
+                "Rank": 233,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 61,
-                "Diff": "1",
-                "Antece": "Latrell Sprewell",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 62,
+                "Diff": "",
+                "Antece": "Giannis Antetokounmpo",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -307,9 +307,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 644,
-                "Diff": "356",
+                "Hoy": 10,
+                "Total": 647,
+                "Diff": "353",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -417,9 +417,9 @@
                 "Rank": 5,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 227,
-                "Diff": "100",
+                "Hoy": 4,
+                "Total": 228,
+                "Diff": "99",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -429,7 +429,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 224,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -497,9 +497,9 @@
                 "Rank": 4,
                 "Nombre": "Julius Randle",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 106,
-                "Diff": "90",
+                "Hoy": 1,
+                "Total": 107,
+                "Diff": "89",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -757,9 +757,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 61,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 62,
+                "Diff": "9",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -928,13 +928,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Joel Embiid (4 rebounds today) has passed Maurice Lucas and is now ranked 114th all-time with 691 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778444854814255_4129_collage_1778444854715282.png"
-            ],
-            "timestamp": 1778444862
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (4 three-pointers today) has passed Jimmy Butler and is now ranked 60th all-time with 157 in playoffs.",
             "foto": [
@@ -1627,6 +1620,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778634906218483_7095_collage_1778634906132512.png"
             ],
             "timestamp": 1778634914
+        },
+        {
+            "texto": "Jaden McDaniels (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 233rd all-time with 62 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778636393565513_3870_collage_1778636393488232.png"
+            ],
+            "timestamp": 1778636401
         }
     ],
     "notificaciones_franchise": [
@@ -2331,7 +2331,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1487,
+    "total_notificaciones_historicas": 1488,
     "total_franchise_historicas": 763,
-    "cache_buster": 1778636207
+    "cache_buster": 1778636401
 }
