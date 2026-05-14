@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:22",
+    "ultima_actualizacion": "04:36:05",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 1199,
-                "Diff": "34",
+                "Hoy": 4,
+                "Total": 1200,
+                "Diff": "33",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -211,13 +211,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 54,
+                "Rank": 53,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 167,
+                "Hoy": 6,
+                "Total": 168,
                 "Diff": "",
-                "Antece": "Eric Gordon",
+                "Antece": "Bruce Bowen",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -294,9 +294,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 342,
-                "Diff": "39",
+                "Hoy": 20,
+                "Total": 345,
+                "Diff": "36",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -374,9 +374,9 @@
                 "Rank": 19,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 74,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 75,
+                "Diff": "1",
                 "Antece": "Terrell Brandon",
                 "game_status": "playing"
             },
@@ -474,9 +474,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 77,
-                "Diff": "23",
+                "Hoy": 6,
+                "Total": 78,
+                "Diff": "22",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -566,9 +566,9 @@
                 "Rank": 11,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 142,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 143,
+                "Diff": "0",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (2 assists today) has passed B.J. Armstrong and Sedale Threatt and is now ranked 183rd all-time with 253 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778462997660061_1631_collage_1778462997573090.png"
-            ],
-            "timestamp": 1778463005
-        },
         {
             "texto": "📢HOF🏛️ Anthony Edwards (26 points today) has passed Alonzo Mourning and is now ranked 178th all-time with 1,292 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726053717955_7454_collage_1778726053610011.png"
             ],
             "timestamp": 1778726062
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (6 three-pointers today) has passed Eric Gordon and Trevor Ariza and is now ranked 53rd all-time with 168 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726157370682_9257_collage_1778726157281737.png"
+            ],
+            "timestamp": 1778726165
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1522,
+    "total_notificaciones_historicas": 1523,
     "total_franchise_historicas": 787,
-    "cache_buster": 1778726062
+    "cache_buster": 1778726165
 }
