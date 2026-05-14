@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:00:43",
+    "ultima_actualizacion": "04:02:26",
     "tablas": {
         "pts": [
             {
@@ -154,24 +154,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 178,
+                "Nombre": "Jarrett Allen",
+                "Team": "CLE",
+                "Hoy": 2,
+                "Total": 51,
+                "Diff": "",
+                "Antece": "George Gervin",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 182,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
                 "Hoy": 1,
                 "Total": 51,
                 "Diff": "",
                 "Antece": "Nate Thurmond",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 186,
-                "Nombre": "Jarrett Allen",
-                "Team": "CLE",
-                "Hoy": 1,
-                "Total": 50,
-                "Diff": "",
-                "Antece": "Jaren Jackson Jr.",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -441,13 +441,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 40,
-                "Diff": "0",
-                "Antece": "Brad Daugherty",
+                "Hoy": 2,
+                "Total": 41,
+                "Diff": "12",
+                "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
             {
@@ -536,9 +536,9 @@
                 "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 27,
-                "Total": 498,
-                "Diff": "49",
+                "Hoy": 29,
+                "Total": 500,
+                "Diff": "47",
                 "Antece": "Gene Shue",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Mike Conley (2 three-pointers today) has passed Duncan Robinson and is now ranked 43rd all-time with 181 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778458365644305_4364_collage_1778458365556334.png"
-            ],
-            "timestamp": 1778458373
-        },
         {
             "texto": "📢HOF🏛️ Julius Randle (2 three-pointers today) has passed Austin Reaves, Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 208th all-time with 68 in playoffs.",
             "foto": [
@@ -1394,16 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778723100208783_7348_collage_1778723100132824.png"
             ],
             "timestamp": 1778723107
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 178th all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724137828363_4402_collage_1778724137729395.png"
+            ],
+            "timestamp": 1778724146
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Alex Caruso (1 steal today) has passed Nick Collison and is now ranked 16th in Thunder history with 53 in playoffs.",
-            "foto": [],
-            "timestamp": 1778375632,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ 📢HOF🏛️ LeBron James (2 three-pointers today) has passed Michael Cooper and is now ranked 3rd in Lakers history with 125 in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778723294,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jarrett Allen (2 blocks today) has passed Brad Daugherty and is now ranked 7th in Cavaliers history with 41 in playoffs.",
+            "foto": [],
+            "timestamp": 1778724146,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1516,
-    "total_franchise_historicas": 782,
-    "cache_buster": 1778724043
+    "total_notificaciones_historicas": 1517,
+    "total_franchise_historicas": 783,
+    "cache_buster": 1778724146
 }
