@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:31:07",
+    "ultima_actualizacion": "04:34:22",
     "tablas": {
         "pts": [
             {
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 25,
-                "Total": 4139,
-                "Diff": "8",
+                "Hoy": 27,
+                "Total": 4141,
+                "Diff": "6",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -49,14 +49,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 133,
+                "Rank": 132,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 637,
-                "Diff": "",
-                "Antece": "Kevin Willis",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 638,
+                "Diff": "7",
+                "Antece": "Bob Lanier",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 252,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 253,
+                "Diff": "1",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -556,9 +556,9 @@
                 "Rank": 24,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 173,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 174,
+                "Diff": "1",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mike Conley (8 points today) has passed Dave DeBusschere and is now ranked 125th all-time with 1,537 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778462796468710_1362_collage_1778462796364744.png"
-            ],
-            "timestamp": 1778462805
-        },
         {
             "texto": "Anthony Edwards (2 assists today) has passed B.J. Armstrong and Sedale Threatt and is now ranked 183rd all-time with 253 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778725391608822_2510_collage_1778725391538871.png"
             ],
             "timestamp": 1778725399
+        },
+        {
+            "texto": "Tobias Harris (5 rebounds today) has passed Kevin Willis and is now ranked 132nd all-time with 638 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726053717955_7454_collage_1778726053610011.png"
+            ],
+            "timestamp": 1778726062
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1521,
+    "total_notificaciones_historicas": 1522,
     "total_franchise_historicas": 787,
-    "cache_buster": 1778725867
+    "cache_buster": 1778726062
 }
