@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:02:26",
+    "ultima_actualizacion": "04:04:09",
     "tablas": {
         "pts": [
             {
@@ -122,11 +122,11 @@
                 "Rank": 184,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 76,
-                "Diff": "",
+                "Hoy": 1,
+                "Total": 75,
+                "Diff": "1",
                 "Antece": "Peja Stojaković",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -211,14 +211,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 55,
+                "Rank": 54,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 166,
-                "Diff": "1",
-                "Antece": "Trevor Ariza",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 167,
+                "Diff": "",
+                "Antece": "Eric Gordon",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -294,9 +294,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 339,
-                "Diff": "42",
+                "Hoy": 17,
+                "Total": 342,
+                "Diff": "39",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 8,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 315,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 316,
+                "Diff": "14",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -354,9 +354,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 99,
-                "Diff": "10",
+                "Hoy": 7,
+                "Total": 100,
+                "Diff": "9",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -474,9 +474,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 76,
-                "Diff": "24",
+                "Hoy": 5,
+                "Total": 77,
+                "Diff": "23",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -484,9 +484,9 @@
                 "Rank": 15,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 39,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 40,
+                "Diff": "1",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -586,9 +586,9 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 28,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 27,
+                "Diff": "4",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Julius Randle (2 three-pointers today) has passed Austin Reaves, Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 208th all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778459584170391_4150_collage_1778459584094378.png"
-            ],
-            "timestamp": 1778459591
-        },
         {
             "texto": "Anthony Edwards (14 points today) has passed Bam Adebayo and is now ranked 179th all-time with 1,280 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724137828363_4402_collage_1778724137729395.png"
             ],
             "timestamp": 1778724146
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (5 three-pointers today) has passed Michael Porter Jr. and is now ranked 54th all-time with 167 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724242326058_1771_collage_1778724242223093.png"
+            ],
+            "timestamp": 1778724249
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1517,
+    "total_notificaciones_historicas": 1518,
     "total_franchise_historicas": 783,
-    "cache_buster": 1778724146
+    "cache_buster": 1778724249
 }
