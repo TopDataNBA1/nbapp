@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:25",
+    "ultima_actualizacion": "02:59:08",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 173,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 8,
-                "Total": 1324,
-                "Diff": "",
-                "Antece": "Mike Bibby",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 1326,
+                "Diff": "5",
+                "Antece": "Marc Gasol",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -546,9 +546,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 389,
-                "Diff": "25",
+                "Hoy": 10,
+                "Total": 391,
+                "Diff": "23",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 178th all-time with 51 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448400181590_3763_collage_1778448400074546.png"
-            ],
-            "timestamp": 1778448408
-        },
         {
             "texto": "Landry Shamet (4 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 190th all-time with 72 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720051181825_4774_collage_1778720051087856.png"
             ],
             "timestamp": 1778720059
+        },
+        {
+            "texto": "Tobias Harris (10 points today) has passed Mike Bibby and is now ranked 173rd all-time with 1,326 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720340311419_8020_collage_1778720340215451.png"
+            ],
+            "timestamp": 1778720348
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1508,
+    "total_notificaciones_historicas": 1509,
     "total_franchise_historicas": 779,
-    "cache_buster": 1778720245
+    "cache_buster": 1778720348
 }
