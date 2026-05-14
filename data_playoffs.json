@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:19:15",
+    "ultima_actualizacion": "02:20:51",
     "tablas": {
         "pts": [
             {
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 4114,
-                "Diff": "33",
+                "Hoy": 2,
+                "Total": 4116,
+                "Diff": "31",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -41,22 +41,22 @@
                 "Rank": 53,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1001,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1002,
+                "Diff": "",
                 "Antece": "Clyde Drexler",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
                 "Rank": 135,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 633,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 635,
+                "Diff": "1",
                 "Antece": "Karl-Anthony Towns",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1196,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 1197,
+                "Diff": "36",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -271,13 +271,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 558,
-                "Diff": "1",
-                "Antece": "Hot Rod Williams",
+                "Hoy": 2,
+                "Total": 560,
+                "Diff": "60",
+                "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
             {
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 245,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 246,
+                "Diff": "8",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -324,9 +324,9 @@
                 "Rank": 14,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 181,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 182,
+                "Diff": "10",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -374,9 +374,9 @@
                 "Rank": 20,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 71,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 72,
+                "Diff": "0",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -556,9 +556,9 @@
                 "Rank": 24,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 169,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 171,
+                "Diff": "4",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -576,9 +576,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 28,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 29,
+                "Diff": "3",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -588,7 +588,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 27,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
             },
@@ -1398,13 +1398,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Tobias Harris (5 rebounds today) has passed Dave DeBusschere and is now ranked 24th in Pistons history with 161 in playoffs.",
-            "foto": [],
-            "timestamp": 1778361676,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "Tobias Harris (2 three-pointers today) has passed Mark Aguirre and is now ranked 14th in Pistons history with 30 in playoffs.",
             "foto": [],
             "timestamp": 1778362723,
@@ -2096,9 +2089,16 @@
             "timestamp": 1778717954,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (2 points today) has passed Hot Rod Williams and is now ranked 11th in Cavaliers history with 560 in playoffs.",
+            "foto": [],
+            "timestamp": 1778718051,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1503,
-    "total_franchise_historicas": 771,
-    "cache_buster": 1778717955
+    "total_franchise_historicas": 772,
+    "cache_buster": 1778718051
 }
