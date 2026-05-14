@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:26",
+    "ultima_actualizacion": "02:25:40",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 63,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 2077,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 2078,
+                "Diff": "14",
                 "Antece": "Jeff Hornacek",
                 "Nota": "",
                 "game_status": "playing"
@@ -264,9 +264,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 972,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 973,
+                "Diff": "27",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (6 three-pointers today) has passed Joe Johnson and is now ranked 59th all-time with 159 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447608094272_5233_collage_1778447607995317.png"
-            ],
-            "timestamp": 1778447615
-        },
         {
             "texto": "Joel Embiid (4 assists today) has passed Bill Bridges, Doug Christie, John Lucas and Sleepy Floyd and is now ranked 222nd all-time with 220 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717946571895_4363_collage_1778717946486906.png"
             ],
             "timestamp": 1778717954
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (1 point today) has passed Moses Malone and is now ranked 63rd all-time with 2,078 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778718331708068_1577_collage_1778718331618110.png"
+            ],
+            "timestamp": 1778718340
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1503,
+    "total_notificaciones_historicas": 1504,
     "total_franchise_historicas": 772,
-    "cache_buster": 1778718146
+    "cache_buster": 1778718340
 }
