@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:33:42",
+    "ultima_actualizacion": "03:35:24",
     "tablas": {
         "pts": [
             {
@@ -49,13 +49,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 135,
+                "Rank": 133,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 636,
+                "Hoy": 4,
+                "Total": 637,
                 "Diff": "",
-                "Antece": "Karl-Anthony Towns",
+                "Antece": "Kevin Willis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -284,9 +284,9 @@
                 "Rank": 18,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 375,
-                "Diff": "6",
+                "Hoy": 10,
+                "Total": 377,
+                "Diff": "4",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -296,7 +296,7 @@
                 "Stat": "PTS",
                 "Hoy": 12,
                 "Total": 337,
-                "Diff": "38",
+                "Diff": "40",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 249,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 250,
+                "Diff": "4",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -354,9 +354,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 97,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 98,
+                "Diff": "11",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -556,9 +556,9 @@
                 "Rank": 24,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 172,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 173,
+                "Diff": "2",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -636,9 +636,9 @@
                 "Rank": 21,
                 "Nombre": "Cade Cunningham",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 16,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 17,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -648,7 +648,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 16,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Anthony Edwards (2 three-pointers today) has passed Mike Bibby and is now ranked 67th all-time with 146 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778457585555944_7751_collage_1778457585457925.png"
-            ],
-            "timestamp": 1778457593
-        },
         {
             "texto": "Mike Conley today surpasses Marcus Smart and now ranked 114th all time with 118 games in playoffs",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721772281940_7313_collage_1778721772196963.png"
             ],
             "timestamp": 1778721779
+        },
+        {
+            "texto": "Tobias Harris (4 rebounds today) has passed Anthony Mason and Karl-Anthony Towns and is now ranked 133rd all-time with 637 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778722516431999_4075_collage_1778722516345047.png"
+            ],
+            "timestamp": 1778722523
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1513,
+    "total_notificaciones_historicas": 1514,
     "total_franchise_historicas": 780,
-    "cache_buster": 1778722422
+    "cache_buster": 1778722524
 }
