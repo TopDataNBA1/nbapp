@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:41:38",
+    "ultima_actualizacion": "03:43:23",
     "tablas": {
         "pts": [
             {
@@ -154,24 +154,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 185,
+                "Rank": 181,
+                "Nombre": "Tobias Harris",
+                "Team": "DET",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "",
+                "Antece": "Nate Thurmond",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 186,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
                 "Hoy": 1,
                 "Total": 50,
                 "Diff": "",
                 "Antece": "Jaren Jackson Jr.",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 190,
-                "Nombre": "Tobias Harris",
-                "Team": "DET",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "",
-                "Antece": "Stephen Curry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -623,13 +623,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "0",
-                "Antece": "Curtis Rowe",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
+                "Antece": "Mehmet Okur",
                 "game_status": "playing"
             },
             {
@@ -639,7 +639,7 @@
                 "Hoy": 1,
                 "Total": 17,
                 "Diff": "2",
-                "Antece": "Tobias Harris",
+                "Antece": "Curtis Rowe",
                 "game_status": "playing"
             },
             {
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mike Conley today surpasses Marcus Smart and now ranked 114th all time with 118 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778458157726969_1342_collage_1778458157641001.png"
-            ],
-            "timestamp": 1778458165
-        },
         {
             "texto": "Julius Randle (1 three-pointer today) has passed Jordan Poole and Kerry Kittles and is now ranked 215th all-time with 67 in playoffs.",
             "foto": [
@@ -1394,16 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778722516431999_4075_collage_1778722516345047.png"
             ],
             "timestamp": 1778722523
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 181st all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778722993540437_3649_collage_1778722993441470.png"
+            ],
+            "timestamp": 1778723003
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Shai Gilgeous-Alexander today surpasses Michael Cage and is now ranked 21st in Thunder history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778373904,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Cason Wallace (2 three-pointers today) has passed Nate McMillan and is now ranked 18th in Thunder history with 38 in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778721403,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Tobias Harris (1 block today) has passed Curtis Rowe and is now ranked 19th in Pistons history with 20 in playoffs.",
+            "foto": [],
+            "timestamp": 1778723003,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1514,
-    "total_franchise_historicas": 780,
-    "cache_buster": 1778722898
+    "total_notificaciones_historicas": 1515,
+    "total_franchise_historicas": 781,
+    "cache_buster": 1778723003
 }
