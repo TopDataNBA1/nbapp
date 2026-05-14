@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:15:00",
+    "ultima_actualizacion": "03:16:43",
     "tablas": {
         "pts": [
             {
@@ -76,9 +76,9 @@
                 "Rank": 120,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 335,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 336,
+                "Diff": "4",
                 "Antece": "Rick Barry",
                 "Nota": "",
                 "game_status": "playing"
@@ -211,13 +211,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 56,
+                "Rank": 55,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 165,
+                "Hoy": 4,
+                "Total": 166,
                 "Diff": "1",
-                "Antece": "Michael Porter Jr.",
+                "Antece": "Trevor Ariza",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -291,13 +291,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 334,
-                "Diff": "1",
-                "Antece": "Drew Gooden",
+                "Hoy": 12,
+                "Total": 337,
+                "Diff": "38",
+                "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
             {
@@ -314,9 +314,9 @@
                 "Rank": 12,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 248,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 249,
+                "Diff": "5",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -344,9 +344,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 150,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 151,
+                "Diff": "13",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -474,9 +474,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 75,
-                "Diff": "25",
+                "Hoy": 4,
+                "Total": 76,
+                "Diff": "24",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (3 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 178th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778449454448711_3914_collage_1778449454383732.png"
-            ],
-            "timestamp": 1778449460
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Antonio Davis, Pascal Siakam, Rashard Lewis, Rudy LaRusso, Sidney Moncrief, Tree Rollins and Walt Frazier and now ranked 203rd all time with 94 games in playoffs",
             "foto": [
@@ -1394,16 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721196779234_8856_collage_1778721196689246.png"
             ],
             "timestamp": 1778721205
+        },
+        {
+            "texto": "Donovan Mitchell (1 assist today) has passed Paul Silas and Robert Reid and is now ranked 120th all-time with 336 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721395513062_9640_collage_1778721395435088.png"
+            ],
+            "timestamp": 1778721402
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Luguentz Dort today surpasses Derrick McKey and is now ranked 23rd in Thunder history with 46 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778373802,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Shai Gilgeous-Alexander today surpasses Michael Cage and is now ranked 21st in Thunder history with 47 games in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778719865,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (12 points today) has passed Drew Gooden and is now ranked 19th in Cavaliers history with 337 in playoffs.",
+            "foto": [],
+            "timestamp": 1778721403,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1511,
-    "total_franchise_historicas": 779,
-    "cache_buster": 1778721300
+    "total_notificaciones_historicas": 1512,
+    "total_franchise_historicas": 780,
+    "cache_buster": 1778721403
 }
