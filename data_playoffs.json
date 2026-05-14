@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:44:14",
+    "ultima_actualizacion": "04:48:59",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 63,
+                "Rank": 62,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 14,
-                "Total": 2091,
-                "Diff": "1",
-                "Antece": "Jeff Hornacek",
-                "Nota": "A tiro de 1",
+                "Hoy": 16,
+                "Total": 2093,
+                "Diff": "5",
+                "Antece": "Pau Gasol",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 986,
-                "Diff": "14",
+                "Hoy": 16,
+                "Total": 988,
+                "Diff": "12",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -281,13 +281,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 381,
-                "Diff": "0",
-                "Antece": "Darius Garland",
+                "Hoy": 16,
+                "Total": 383,
+                "Diff": "23",
+                "Antece": "Mo Williams",
                 "game_status": "playing"
             },
             {
@@ -297,27 +297,27 @@
                 "Hoy": 20,
                 "Total": 345,
                 "Diff": "36",
-                "Antece": "Jarrett Allen",
+                "Antece": "Darius Garland",
                 "game_status": "playing"
             },
             {
                 "Rank": 8,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 317,
-                "Diff": "13",
+                "Hoy": 6,
+                "Total": 318,
+                "Diff": "12",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 254,
-                "Diff": "0",
-                "Antece": "J.R. Smith",
+                "Hoy": 10,
+                "Total": 255,
+                "Diff": "3",
+                "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
             {
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Anthony Edwards (36 points today) has passed Lou Hudson and Tobias Harris and is now ranked 176th all-time with 1,302 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778465271316758_8363_collage_1778465271237810.png"
-            ],
-            "timestamp": 1778465278
-        },
         {
             "texto": "Rudy Gobert (11 points today) has passed Kevin Love and is now ranked 217th all-time with 1,113 in playoffs.",
             "foto": [
@@ -1394,23 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726365284862_1710_collage_1778726365215890.png"
             ],
             "timestamp": 1778726372
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (16 points today) has passed Jeff Hornacek and is now ranked 62nd all-time with 2,093 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726931036662_6093_collage_1778726930945687.png"
+            ],
+            "timestamp": 1778726938
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Jalen Brunson today surpasses Dick McGuire, Charles Smith and Josh Hart and is now ranked 18th in Knicks history with 52 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778442174,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢HOF🏛️ Josh Hart today surpasses Dick McGuire and Charles Smith and is now ranked 19th in Knicks history with 52 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778442279,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Josh Hart (1 assist today) has passed Chris Childs and is now ranked 11th in Knicks history with 205 in playoffs.",
             "foto": [],
@@ -2096,9 +2082,23 @@
             "timestamp": 1778726372,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (16 points today) has passed Darius Garland and is now ranked 17th in Cavaliers history with 383 in playoffs.",
+            "foto": [],
+            "timestamp": 1778726938,
+            "team": "CLE",
+            "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (10 rebounds today) has passed J.R. Smith and is now ranked 11th in Cavaliers history with 255 in playoffs.",
+            "foto": [],
+            "timestamp": 1778726938,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1525,
-    "total_franchise_historicas": 791,
-    "cache_buster": 1778726654
+    "total_notificaciones_historicas": 1526,
+    "total_franchise_historicas": 793,
+    "cache_buster": 1778726939
 }
