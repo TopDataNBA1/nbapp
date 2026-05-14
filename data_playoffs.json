@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:04:09",
+    "ultima_actualizacion": "04:05:53",
     "tablas": {
         "pts": [
             {
@@ -76,21 +76,21 @@
                 "Rank": 120,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 336,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 337,
+                "Diff": "3",
                 "Antece": "Rick Barry",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 150,
+                "Rank": 149,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 295,
+                "Hoy": 5,
+                "Total": 296,
                 "Diff": "1",
-                "Antece": "Detlef Schrempf",
+                "Antece": "Shaun Livingston",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -274,9 +274,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 563,
-                "Diff": "57",
+                "Hoy": 10,
+                "Total": 568,
+                "Diff": "52",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -344,9 +344,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 151,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 152,
+                "Diff": "12",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -491,13 +491,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 32,
+                "Hoy": 1,
+                "Total": 33,
                 "Diff": "0",
-                "Antece": "Donyell Marshall",
+                "Antece": "Delonte West",
                 "game_status": "playing"
             },
             {
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (14 points today) has passed Bam Adebayo and is now ranked 179th all-time with 1,280 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778460156764790_8419_collage_1778460156674815.png"
-            ],
-            "timestamp": 1778460164
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Kenyon Martin and Paul Millsap and is now ranked 46th all-time with 139 in playoffs.",
             "foto": [
@@ -1394,16 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724242326058_1771_collage_1778724242223093.png"
             ],
             "timestamp": 1778724249
+        },
+        {
+            "texto": "📢HOF🏛️ Dennis Schröder (5 assists today) has passed Vince Carter and is now ranked 149th all-time with 296 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724345029258_7374_collage_1778724344929293.png"
+            ],
+            "timestamp": 1778724353
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ 📢HOF🏛️ LeBron James (2 three-pointers today) has passed Michael Cooper and is now ranked 3rd in Lakers history with 125 in playoffs.",
-            "foto": [],
-            "timestamp": 1778376312,
-            "team": "LAL",
-            "type": "franchise"
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed Cason Wallace and is now ranked 15th in Thunder history with 54 in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778724146,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (1 three-pointer today) has passed Donyell Marshall and Matthew Dellavedova and is now ranked 17th in Cavaliers history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1778724353,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1518,
-    "total_franchise_historicas": 783,
-    "cache_buster": 1778724249
+    "total_notificaciones_historicas": 1519,
+    "total_franchise_historicas": 784,
+    "cache_buster": 1778724353
 }
