@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:15:38",
+    "ultima_actualizacion": "02:17:30",
     "tablas": {
         "pts": [
             {
@@ -100,9 +100,9 @@
                 "Rank": 7,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 303,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 304,
+                "Diff": "6",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -119,14 +119,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 191,
+                "Rank": 184,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 74,
-                "Diff": "",
-                "Antece": "Lou Williams",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 75,
+                "Diff": "1",
+                "Antece": "Peja Stojaković",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -249,9 +249,9 @@
                 "Rank": 15,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 184,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 185,
+                "Diff": "5",
                 "Antece": "Magic Johnson",
                 "Nota": "",
                 "game_status": "playing"
@@ -392,22 +392,22 @@
             },
             {
                 "Rank": 13,
-                "Nombre": "Evan Mobley",
+                "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 33,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 34,
+                "Diff": "9",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
             {
                 "Rank": 14,
-                "Nombre": "Jarrett Allen",
+                "Nombre": "Evan Mobley",
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 33,
-                "Diff": "0",
-                "Antece": "Evan Mobley",
+                "Diff": "1",
+                "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
             {
@@ -424,9 +424,9 @@
                 "Rank": 25,
                 "Nombre": "James Harden",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 21,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 22,
+                "Diff": "0",
                 "Antece": "Eric Snow",
                 "game_status": "playing"
             },
@@ -576,9 +576,9 @@
                 "Rank": 17,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 27,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 28,
+                "Diff": "4",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -586,8 +586,8 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 26,
+                "Hoy": 1,
+                "Total": 27,
                 "Diff": "1",
                 "Antece": "Ausar Thompson",
                 "game_status": "playing"
@@ -695,20 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (8 rebounds today) has passed Mark Jackson and Vince Carter and is now ranked 215th all-time with 478 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447392550177_3314_collage_1778447392471198.png"
-            ],
-            "timestamp": 1778447400
-        },
-        {
-            "texto": "Joel Embiid (3 assists today) has passed Larry Costello and is now ranked 225th all-time with 219 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778447496449447_1987_collage_1778447496335992.png"
-            ],
-            "timestamp": 1778447503
-        },
         {
             "texto": "📢HOF🏛️ Tyrese Maxey (1 three-pointer today) has passed John Stockton and is now ranked 102nd all-time with 112 in playoffs.",
             "foto": [
@@ -1394,16 +1380,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778646530351147_3532_collage_1778646530241789.png"
             ],
             "timestamp": 1778646538
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 steal today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 184th all-time with 75 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717833688226_8941_collage_1778717833590271.png"
+            ],
+            "timestamp": 1778717841
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses Robert Parish and now ranked 15th all time with 185 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717842107992_5640_collage_1778717842023020.png"
+            ],
+            "timestamp": 1778717850
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Evan Mobley (2 blocks today) has passed Hot Rod Williams and is now ranked 5th in Cavaliers history with 54 in playoffs.",
-            "foto": [],
-            "timestamp": 1778355766,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (2 steals today) has passed Chris Ford and Rick Mahorn and is now ranked 21st in Pistons history with 22 in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778717738,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Jarrett Allen (1 steal today) has passed Evan Mobley and is now ranked 13th in Cavaliers history with 34 in playoffs.",
+            "foto": [],
+            "timestamp": 1778717850,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1500,
-    "total_franchise_historicas": 768,
-    "cache_buster": 1778717738
+    "total_notificaciones_historicas": 1502,
+    "total_franchise_historicas": 769,
+    "cache_buster": 1778717850
 }
