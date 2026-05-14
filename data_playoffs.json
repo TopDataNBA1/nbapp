@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:11:42",
+    "ultima_actualizacion": "03:13:25",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
         ],
         "trb": [
             {
-                "Rank": 53,
+                "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1002,
-                "Diff": "",
-                "Antece": "Clyde Drexler",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1003,
+                "Diff": "19",
+                "Antece": "Giannis Antetokounmpo",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -214,11 +214,11 @@
                 "Rank": 56,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 164,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 165,
+                "Diff": "1",
                 "Antece": "Michael Porter Jr.",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -294,9 +294,9 @@
                 "Rank": 20,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 331,
-                "Diff": "4",
+                "Hoy": 9,
+                "Total": 334,
+                "Diff": "1",
                 "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
@@ -354,9 +354,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 96,
-                "Diff": "13",
+                "Hoy": 4,
+                "Total": 97,
+                "Diff": "12",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -474,9 +474,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 74,
-                "Diff": "26",
+                "Hoy": 3,
+                "Total": 75,
+                "Diff": "25",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -566,9 +566,9 @@
                 "Rank": 12,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 137,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 138,
+                "Diff": "2",
                 "Antece": "Ben Wallace",
                 "game_status": "playing"
             },
@@ -596,9 +596,9 @@
                 "Rank": 20,
                 "Nombre": "Cade Cunningham",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 22,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 23,
+                "Diff": "0",
                 "Antece": "Chucky Atkins",
                 "game_status": "playing"
             },
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (8 three-pointers today) has passed Al-Farouq Aminu, Joel Embiid and Trae Young and is now ranked 198th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778448797627775_2276_collage_1778448797561575.png"
-            ],
-            "timestamp": 1778448804
-        },
         {
             "texto": "Mikal Bridges (3 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 178th all-time with 78 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720632172402_7700_collage_1778720632082433.png"
             ],
             "timestamp": 1778720639
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Clyde Drexler and is now ranked 52nd all-time with 1,003 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721196779234_8856_collage_1778721196689246.png"
+            ],
+            "timestamp": 1778721205
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1510,
+    "total_notificaciones_historicas": 1511,
     "total_franchise_historicas": 779,
-    "cache_buster": 1778721102
+    "cache_buster": 1778721205
 }
