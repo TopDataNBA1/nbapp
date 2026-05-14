@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:20:05",
+    "ultima_actualizacion": "04:23:19",
     "tablas": {
         "pts": [
             {
@@ -132,13 +132,13 @@
         ],
         "blk": [
             {
-                "Rank": 72,
+                "Rank": 71,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 106,
+                "Hoy": 2,
+                "Total": 107,
                 "Diff": "1",
-                "Antece": "Josh Smith",
+                "Antece": "Joel Embiid",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -593,13 +593,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Cade Cunningham",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 23,
-                "Diff": "0",
-                "Antece": "Chucky Atkins",
+                "Hoy": 2,
+                "Total": 24,
+                "Diff": "3",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (6 rebounds today) has passed Paul Pierce and is now ranked 56th all-time with 986 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778461937184419_2237_collage_1778461937099442.png"
-            ],
-            "timestamp": 1778461945
-        },
         {
             "texto": "📢HOF🏛️ Mike Conley (8 points today) has passed Dave DeBusschere and is now ranked 125th all-time with 1,537 in playoffs.",
             "foto": [
@@ -1394,16 +1387,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724914638869_8845_collage_1778724914546906.png"
             ],
             "timestamp": 1778724921
+        },
+        {
+            "texto": "📢🔝💯 James Harden (2 blocks today) has passed Jayson Tatum, Joakim Noah, Mychal Thompson and Roy Hibbert and is now ranked 71st all-time with 107 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778725391608822_2510_collage_1778725391538871.png"
+            ],
+            "timestamp": 1778725399
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Alex Caruso (2 steals today) has passed Cason Wallace and is now ranked 15th in Thunder history with 54 in playoffs.",
-            "foto": [],
-            "timestamp": 1778376882,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Chet Holmgren (5 rebounds today) has passed John Johnson and is now ranked 14th in Thunder history with 331 in playoffs.",
             "foto": [],
@@ -2096,9 +2089,16 @@
             "timestamp": 1778724353,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Cade Cunningham (2 steals today) has passed Chucky Atkins and is now ranked 19th in Pistons history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1778725399,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1520,
-    "total_franchise_historicas": 784,
-    "cache_buster": 1778725205
+    "total_notificaciones_historicas": 1521,
+    "total_franchise_historicas": 785,
+    "cache_buster": 1778725399
 }
