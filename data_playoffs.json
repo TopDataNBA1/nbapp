@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:30",
+    "ultima_actualizacion": "02:51:05",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 63,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 2081,
-                "Diff": "11",
+                "Hoy": 6,
+                "Total": 2083,
+                "Diff": "9",
                 "Antece": "Jeff Hornacek",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,11 +28,11 @@
                 "Rank": 175,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1318,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 1322,
+                "Diff": "",
                 "Antece": "Anthony Edwards",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -264,9 +264,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 976,
-                "Diff": "24",
+                "Hoy": 6,
+                "Total": 978,
+                "Diff": "22",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -351,13 +351,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 95,
-                "Diff": "0",
-                "Antece": "Hot Rod Williams",
+                "Hoy": 3,
+                "Total": 96,
+                "Diff": "13",
+                "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
             {
@@ -367,7 +367,7 @@
                 "Hoy": 0,
                 "Total": 93,
                 "Diff": "2",
-                "Antece": "Evan Mobley",
+                "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
             {
@@ -546,9 +546,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 383,
-                "Diff": "31",
+                "Hoy": 6,
+                "Total": 387,
+                "Diff": "27",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -566,9 +566,9 @@
                 "Rank": 12,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 136,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 137,
+                "Diff": "3",
                 "Antece": "Ben Wallace",
                 "game_status": "playing"
             },
@@ -1398,13 +1398,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Rui Hachimura (1 three-pointer today) has passed Sasha Vujačić and is now ranked 9th in Lakers history with 64 in playoffs.",
-            "foto": [],
-            "timestamp": 1778373802,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "Luguentz Dort today surpasses Derrick McKey and is now ranked 23rd in Thunder history with 46 games in playoffs.",
             "foto": [],
             "timestamp": 1778373802,
@@ -2096,9 +2089,16 @@
             "timestamp": 1778719584,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (3 assists today) has passed Hot Rod Williams and is now ranked 13th in Cavaliers history with 96 in playoffs.",
+            "foto": [],
+            "timestamp": 1778719865,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1507,
-    "total_franchise_historicas": 778,
-    "cache_buster": 1778719770
+    "total_franchise_historicas": 779,
+    "cache_buster": 1778719865
 }
