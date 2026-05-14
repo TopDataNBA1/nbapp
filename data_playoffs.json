@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:55:11",
+    "ultima_actualizacion": "04:56:55",
     "tablas": {
         "pts": [
             {
                 "Rank": 11,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 27,
-                "Total": 4141,
-                "Diff": "6",
+                "Hoy": 28,
+                "Total": 4142,
+                "Diff": "5",
                 "Antece": "Stephen Curry",
                 "Nota": "",
                 "game_status": "playing"
@@ -41,9 +41,9 @@
                 "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 1007,
-                "Diff": "15",
+                "Hoy": 7,
+                "Total": 1008,
+                "Diff": "14",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -132,14 +132,14 @@
         ],
         "blk": [
             {
-                "Rank": 71,
+                "Rank": 70,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "1",
-                "Antece": "Joel Embiid",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 108,
+                "Diff": "",
+                "Antece": "Clyde Drexler",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -695,13 +695,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (11 points today) has passed Kevin Love and is now ranked 217th all-time with 1,113 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778465278893991_3493_collage_1778465278806915.png"
-            ],
-            "timestamp": 1778465287
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (7 points today) has passed Anfernee Hardaway, Anthony Edwards and Lou Hudson and is now ranked 175th all-time with 1,307 in playoffs.",
             "foto": [
@@ -1394,6 +1387,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726931036662_6093_collage_1778726930945687.png"
             ],
             "timestamp": 1778726938
+        },
+        {
+            "texto": "📢🔝💯 James Harden (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778727407027712_6043_collage_1778727406942892.png"
+            ],
+            "timestamp": 1778727415
         }
     ],
     "notificaciones_franchise": [
@@ -2098,7 +2098,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1526,
+    "total_notificaciones_historicas": 1527,
     "total_franchise_historicas": 794,
-    "cache_buster": 1778727311
+    "cache_buster": 1778727415
 }
