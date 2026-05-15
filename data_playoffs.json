@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:55:52",
+    "ultima_actualizacion": "01:57:27",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1202,
-                "Diff": "31",
+                "Hoy": 1,
+                "Total": 1203,
+                "Diff": "30",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -374,9 +374,9 @@
                 "Rank": 18,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 77,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 78,
+                "Diff": "2",
                 "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
@@ -394,9 +394,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "8",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -406,7 +406,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 34,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -1408,13 +1408,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Josh Hart (6 points today) has passed OG Anunoby and is now ranked 17th in Knicks history with 603 in playoffs.",
-            "foto": [],
-            "timestamp": 1778444079,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "Mikal Bridges (1 steal today) has passed Anthony Mason and Trent Tucker and is now ranked 16th in Knicks history with 38 in playoffs.",
             "foto": [],
             "timestamp": 1778444285,
@@ -2106,9 +2099,16 @@
             "timestamp": 1778889256,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (1 steal today) has passed Jarrett Allen and is now ranked 13th in Cavaliers history with 35 in playoffs.",
+            "foto": [],
+            "timestamp": 1778889447,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1532,
-    "total_franchise_historicas": 800,
-    "cache_buster": 1778889352
+    "total_franchise_historicas": 801,
+    "cache_buster": 1778889447
 }
