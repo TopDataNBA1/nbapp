@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:30:27",
+    "ultima_actualizacion": "01:32:11",
     "tablas": {
         "pts": [
             {
@@ -143,14 +143,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 145,
+                "Rank": 144,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "1",
-                "Antece": "Rick Mahorn",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "",
+                "Antece": "Elton Brand",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -434,9 +434,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 62,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 63,
+                "Diff": "7",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -606,9 +606,9 @@
                 "Rank": 19,
                 "Nombre": "Cade Cunningham",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "2",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Billy Paultz, Jae Crowder, Shane Battier and Wes Unseld and is now ranked 157th all-time with 56 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778546329052142_6818_collage_1778546328982164.png"
-            ],
-            "timestamp": 1778546345
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ James Harden today surpasses Byron Scott and now ranked 15th all time with 184 games in playoffs",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778887819888431_8034_collage_1778887819783464.png"
             ],
             "timestamp": 1778887827
+        },
+        {
+            "texto": "Evan Mobley (1 block today) has passed Terry Cummings and is now ranked 144th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778887923919239_9371_collage_1778887923818485.png"
+            ],
+            "timestamp": 1778887931
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1530,
+    "total_notificaciones_historicas": 1531,
     "total_franchise_historicas": 799,
-    "cache_buster": 1778887827
+    "cache_buster": 1778887931
 }
