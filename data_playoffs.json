@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:35:18",
+    "ultima_actualizacion": "01:37:02",
     "tablas": {
         "pts": [
             {
@@ -200,13 +200,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 44,
+                "Rank": 41,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 181,
+                "Hoy": 1,
+                "Total": 182,
                 "Diff": "",
-                "Antece": "Dan Majerle",
+                "Antece": "Andre Iguodala",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -576,9 +576,9 @@
                 "Rank": 10,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 145,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 146,
+                "Diff": "14",
                 "Antece": "Andy Phillip",
                 "game_status": "playing"
             },
@@ -676,9 +676,9 @@
                 "Rank": 11,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "5",
                 "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
@@ -688,7 +688,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 33,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Duncan Robinson",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ James Harden today surpasses Byron Scott and now ranked 15th all time with 184 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778546345958920_1112_collage_1778546345855101.png"
-            ],
-            "timestamp": 1778546360
-        },
         {
             "texto": "Tobias Harris (7 rebounds today) has passed Jermaine O'Neal and is now ranked 135th all-time with 632 in playoffs.",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778887923919239_9371_collage_1778887923818485.png"
             ],
             "timestamp": 1778887931
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed Dan Majerle and is now ranked 41st all-time with 182 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778888213876606_8080_collage_1778888213788635.png"
+            ],
+            "timestamp": 1778888222
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1531,
+    "total_notificaciones_historicas": 1532,
     "total_franchise_historicas": 799,
-    "cache_buster": 1778888118
+    "cache_buster": 1778888222
 }
