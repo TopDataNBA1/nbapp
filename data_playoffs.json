@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:22:22",
+    "ultima_actualizacion": "01:23:58",
     "tablas": {
         "pts": [
             {
@@ -41,9 +41,9 @@
                 "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 1011,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 1010,
+                "Diff": "12",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -100,9 +100,9 @@
                 "Rank": 7,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 305,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 306,
+                "Diff": "4",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -421,13 +421,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "James Harden",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 23,
+                "Hoy": 2,
+                "Total": 24,
                 "Diff": "0",
-                "Antece": "Darius Garland",
+                "Antece": "Max Strus",
                 "game_status": "playing"
             },
             {
@@ -1408,13 +1408,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Joel Embiid (1 assist today) has passed Larry Costello and is now ranked 14th in 76ers history with 217 in playoffs.",
-            "foto": [],
-            "timestamp": 1778442811,
-            "team": "PHI",
-            "type": "franchise"
-        },
-        {
             "texto": "Jalen Brunson (3 rebounds today) has passed Charlie Ward and is now ranked 24th in Knicks history with 184 in playoffs.",
             "foto": [],
             "timestamp": 1778442926,
@@ -2106,9 +2099,16 @@
             "timestamp": 1778887342,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "James Harden (2 steals today) has passed Darius Garland and is now ranked 22nd in Cavaliers history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1778887438,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1529,
-    "total_franchise_historicas": 796,
-    "cache_buster": 1778887342
+    "total_franchise_historicas": 797,
+    "cache_buster": 1778887438
 }
