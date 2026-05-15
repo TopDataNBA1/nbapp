@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:20:46",
+    "ultima_actualizacion": "01:22:22",
     "tablas": {
         "pts": [
             {
@@ -41,9 +41,9 @@
                 "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1010,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 1011,
+                "Diff": "11",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -100,9 +100,9 @@
                 "Rank": 7,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 304,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 305,
+                "Diff": "5",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -421,13 +421,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "James Harden",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 22,
+                "Hoy": 1,
+                "Total": 23,
                 "Diff": "0",
-                "Antece": "Ron Harper",
+                "Antece": "Darius Garland",
                 "game_status": "playing"
             },
             {
@@ -566,9 +566,9 @@
                 "Rank": 25,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 166,
-                "Diff": "9",
+                "Hoy": 4,
+                "Total": 167,
+                "Diff": "8",
                 "Antece": "Adrian Dantley",
                 "game_status": "playing"
             },
@@ -583,13 +583,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 15,
                 "Nombre": "Ausar Thompson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 32,
-                "Diff": "0",
-                "Antece": "Mark Aguirre",
+                "Hoy": 2,
+                "Total": 33,
+                "Diff": "1",
+                "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
             {
@@ -599,7 +599,7 @@
                 "Hoy": 0,
                 "Total": 27,
                 "Diff": "5",
-                "Antece": "Ausar Thompson",
+                "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
             {
@@ -1408,20 +1408,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Karl-Anthony Towns (1 block today) has passed Marvin Webster and Bill Cartwright and is now ranked 10th in Knicks history with 26 in playoffs.",
-            "foto": [],
-            "timestamp": 1778442391,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "Miles McBride today surpasses Connie Simmons and is now ranked 24th in Knicks history with 49 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778442391,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "Joel Embiid (1 assist today) has passed Larry Costello and is now ranked 14th in 76ers history with 217 in playoffs.",
             "foto": [],
             "timestamp": 1778442811,
@@ -2106,9 +2092,23 @@
             "timestamp": 1778727311,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "James Harden (1 steal today) has passed Ron Harper and Eric Snow and is now ranked 23rd in Cavaliers history with 23 in playoffs.",
+            "foto": [],
+            "timestamp": 1778887342,
+            "team": "CLE",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Ausar Thompson (2 steals today) has passed Adrian Dantley and Mark Aguirre and is now ranked 15th in Pistons history with 33 in playoffs.",
+            "foto": [],
+            "timestamp": 1778887342,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1529,
-    "total_franchise_historicas": 794,
-    "cache_buster": 1778887246
+    "total_franchise_historicas": 796,
+    "cache_buster": 1778887342
 }
