@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:28:44",
+    "ultima_actualizacion": "01:30:27",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 61,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 2103,
-                "Diff": "8",
+                "Hoy": 7,
+                "Total": 2105,
+                "Diff": "6",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -84,14 +84,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 149,
+                "Rank": 147,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 296,
-                "Diff": "1",
-                "Antece": "Shaun Livingston",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 297,
+                "Diff": "",
+                "Antece": "Archie Clark",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -264,19 +264,19 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 998,
-                "Diff": "2",
-                "Antece": "1000",
+                "Hoy": 7,
+                "Total": 1000,
+                "Diff": "243",
+                "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
             {
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 579,
-                "Diff": "41",
+                "Hoy": 5,
+                "Total": 582,
+                "Diff": "38",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -304,9 +304,9 @@
                 "Rank": 8,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 322,
-                "Diff": "8",
+                "Hoy": 3,
+                "Total": 323,
+                "Diff": "7",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -324,9 +324,9 @@
                 "Rank": 14,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 184,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 185,
+                "Diff": "7",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -336,7 +336,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 177,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -494,9 +494,9 @@
                 "Rank": 16,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "5",
                 "Antece": "Sam Merrill",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (1 assist today) has passed Dave Cowens and Gail Goodrich and is now ranked 122nd all-time with 334 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778546311723057_6357_collage_1778546311648061.png"
-            ],
-            "timestamp": 1778546328
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (2 blocks today) has passed Billy Paultz, Jae Crowder, Shane Battier and Wes Unseld and is now ranked 157th all-time with 56 in playoffs.",
             "foto": [
@@ -1404,16 +1397,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778887238637971_7304_collage_1778887238550477.png"
             ],
             "timestamp": 1778887246
+        },
+        {
+            "texto": "Dennis Schröder (1 assist today) has passed Detlef Schrempf and is now ranked 147th all-time with 297 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778887819888431_8034_collage_1778887819783464.png"
+            ],
+            "timestamp": 1778887827
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tyrese Maxey (1 block today) has passed Matisse Thybulle and is now ranked 18th in 76ers history with 20 in playoffs.",
-            "foto": [],
-            "timestamp": 1778442926,
-            "team": "PHI",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Josh Hart (3 rebounds today) has passed Nat Clifton and is now ranked 7th in Knicks history with 473 in playoffs.",
             "foto": [],
@@ -2106,9 +2099,16 @@
             "timestamp": 1778887724,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Donovan Mitchell (7 points today) becomes the 3rd player to reach 1,000 points with Cavaliers in playoffs.",
+            "foto": [],
+            "timestamp": 1778887827,
+            "team": "CLE",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1529,
-    "total_franchise_historicas": 798,
-    "cache_buster": 1778887724
+    "total_notificaciones_historicas": 1530,
+    "total_franchise_historicas": 799,
+    "cache_buster": 1778887827
 }
