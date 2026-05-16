@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:41:25",
+    "ultima_actualizacion": "05:43:07",
     "tablas": {
         "pts": [
             {
@@ -150,14 +150,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 183,
+                "Rank": 181,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 256,
-                "Diff": "1",
-                "Antece": "Paul Seymour",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 257,
+                "Diff": "2",
+                "Antece": "Jim Pollard",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -486,13 +486,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 224,
+                "Rank": 221,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 64,
+                "Hoy": 2,
+                "Total": 65,
                 "Diff": "",
-                "Antece": "Charles Barkley",
+                "Antece": "Grant Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -993,9 +993,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 664,
-                "Diff": "336",
+                "Hoy": 13,
+                "Total": 667,
+                "Diff": "333",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1101,22 +1101,22 @@
             },
             {
                 "Rank": 5,
-                "Nombre": "Jaden McDaniels",
+                "Nombre": "Naz Reid",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 231,
-                "Diff": "96",
+                "Hoy": 7,
+                "Total": 232,
+                "Diff": "95",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
             {
                 "Rank": 6,
-                "Nombre": "Naz Reid",
+                "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 229,
-                "Diff": "2",
-                "Antece": "Jaden McDaniels",
+                "Hoy": 1,
+                "Total": 231,
+                "Diff": "1",
+                "Antece": "Naz Reid",
                 "game_status": "playing"
             },
             {
@@ -1125,8 +1125,8 @@
                 "Stat": "REB",
                 "Hoy": 7,
                 "Total": 178,
-                "Diff": "51",
-                "Antece": "Naz Reid",
+                "Diff": "53",
+                "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
@@ -1163,9 +1163,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 256,
-                "Diff": "744",
+                "Hoy": 2,
+                "Total": 257,
+                "Diff": "743",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1453,9 +1453,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 64,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 65,
+                "Diff": "8",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (3 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 167th all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778556027734833_7699_collage_1778556027667844.png"
-            ],
-            "timestamp": 1778556034
-        },
         {
             "texto": "Marcus Smart (1 block today) has passed Eddie Jones and Manu Ginóbili and is now ranked 145th all-time with 62 in playoffs.",
             "foto": [
@@ -2323,16 +2316,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778902221946538_4378_collage_1778902221865534.png"
             ],
             "timestamp": 1778902229
+        },
+        {
+            "texto": "📢HOF🏛️ Jaden McDaniels (2 three-pointers today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 221st all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778902980279847_5879_collage_1778902980221877.png"
+            ],
+            "timestamp": 1778902987
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ Anthony Edwards (6 rebounds today) has passed Karl-Anthony Towns and is now ranked 3rd in Timberwolves history with 332 in playoffs.",
-            "foto": [],
-            "timestamp": 1778465287,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Evan Mobley (2 rebounds today) has passed Hot Rod Williams and is now ranked 8th in Cavaliers history with 306 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778902229,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Naz Reid (7 rebounds today) has passed Jaden McDaniels and is now ranked 5th in Timberwolves history with 232 in playoffs.",
+            "foto": [],
+            "timestamp": 1778902987,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1560,
-    "total_franchise_historicas": 824,
-    "cache_buster": 1778902885
+    "total_notificaciones_historicas": 1561,
+    "total_franchise_historicas": 825,
+    "cache_buster": 1778902987
 }
