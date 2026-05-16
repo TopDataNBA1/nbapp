@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:56:03",
+    "ultima_actualizacion": "04:57:54",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 167,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 16,
-                "Total": 1338,
-                "Diff": "6",
+                "Hoy": 18,
+                "Total": 1340,
+                "Diff": "4",
                 "Antece": "Rudy LaRusso",
                 "Nota": "",
                 "game_status": "playing"
@@ -297,13 +297,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 195,
+                "Rank": 186,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 49,
+                "Hoy": 1,
+                "Total": 50,
                 "Diff": "",
-                "Antece": "Harvey Catchings",
+                "Antece": "Ian Mahinmi",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -983,9 +983,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1338,
-                "Diff": "662",
+                "Hoy": 18,
+                "Total": 1340,
+                "Diff": "660",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1344,8 +1344,8 @@
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
                 "Hoy": 0,
-                "Total": 52,
-                "Diff": "36",
+                "Total": 51,
+                "Diff": "37",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1353,9 +1353,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1365,7 +1365,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 44,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
@@ -1602,13 +1602,13 @@
         ],
         "SAS": [
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 39,
-                "Diff": "0",
-                "Antece": "LaMarcus Aldridge",
+                "Hoy": 2,
+                "Total": 40,
+                "Diff": "2",
+                "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
             {
@@ -1624,20 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Allan Houston and Channing Frye and is now ranked 173rd all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555439150437_9078_collage_1778555439081461.png"
-            ],
-            "timestamp": 1778555446
-        },
-        {
-            "texto": "Austin Reaves (2 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Julius Randle, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 205th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555447181380_5932_collage_1778555447100406.png"
-            ],
-            "timestamp": 1778555454
-        },
         {
             "texto": "Alex Caruso (2 three-pointers today) has passed Brian Shaw, Chuck Person, Rui Hachimura and Terry Rozier and is now ranked 169th all-time with 78 in playoffs.",
             "foto": [
@@ -2323,16 +2309,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778899872561279_6063_collage_1778899872470696.png"
             ],
             "timestamp": 1778899881
+        },
+        {
+            "texto": "Anthony Edwards (18 points today) has passed Danny Green and Steve Smith and is now ranked 167th all-time with 1,340 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778900258397924_4703_collage_1778900258320075.png"
+            ],
+            "timestamp": 1778900266
+        },
+        {
+            "texto": "Jaden McDaniels (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 186th all-time with 50 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778900266348242_2220_collage_1778900266257290.png"
+            ],
+            "timestamp": 1778900274
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. (2 three-pointers today) has passed Patrick Beverley and is now ranked 22nd in Timberwolves history with 10 in playoffs.",
-            "foto": [],
-            "timestamp": 1778463005,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (3 assists today) has passed Trenton Hassell and is now ranked 22nd in Timberwolves history with 28 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778899468,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed LaMarcus Aldridge and is now ranked 11th in Spurs history with 40 in playoffs.",
+            "foto": [],
+            "timestamp": 1778900274,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1557,
-    "total_franchise_historicas": 821,
-    "cache_buster": 1778900163
+    "total_notificaciones_historicas": 1559,
+    "total_franchise_historicas": 822,
+    "cache_buster": 1778900274
 }
