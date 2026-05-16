@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:19",
+    "ultima_actualizacion": "03:25:01",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 171,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 4,
-                "Total": 1333,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 1335,
+                "Diff": "",
                 "Antece": "David West",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -196,13 +196,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 184,
+                "Rank": 182,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 76,
+                "Hoy": 2,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Peja Stojaković",
+                "Antece": "Steve Smith",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -821,9 +821,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 398,
-                "Diff": "16",
+                "Hoy": 6,
+                "Total": 400,
+                "Diff": "14",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -871,9 +871,9 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 28,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 29,
+                "Diff": "3",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -883,7 +883,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 24,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -1625,13 +1625,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Donovan Mitchell (25 points today) has passed Tom Heinsohn and is now ranked 65th all-time with 2,059 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550613429291_8591_collage_1778550613322368.png"
-            ],
-            "timestamp": 1778550621
-        },
-        {
             "texto": "📢HOF🏛️ Evan Mobley (4 blocks today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 151st all-time with 58 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551090772655_3251_collage_1778551090714635.png"
@@ -2323,6 +2316,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894027625723_7640_collage_1778894027532740.png"
             ],
             "timestamp": 1778894035
+        },
+        {
+            "texto": "Tobias Harris (2 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 182nd all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894694298809_7030_collage_1778894694219853.png"
+            ],
+            "timestamp": 1778894701
         }
     ],
     "notificaciones_franchise": [
@@ -3027,7 +3027,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1543,
+    "total_notificaciones_historicas": 1544,
     "total_franchise_historicas": 809,
-    "cache_buster": 1778894599
+    "cache_buster": 1778894701
 }
