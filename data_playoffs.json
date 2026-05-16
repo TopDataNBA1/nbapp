@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:57:27",
+    "ultima_actualizacion": "02:03:45",
     "tablas": {
         "pts": [
             {
@@ -84,14 +84,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 147,
+                "Rank": 146,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 297,
-                "Diff": "",
-                "Antece": "Archie Clark",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 298,
+                "Diff": "2",
+                "Antece": "300",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -484,9 +484,9 @@
                 "Rank": 15,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 40,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 41,
+                "Diff": "0",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -496,7 +496,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 35,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Sam Merrill",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (7 rebounds today) has passed Jermaine O'Neal and is now ranked 135th all-time with 632 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547328310605_9589_collage_1778547328207657.png"
-            ],
-            "timestamp": 1778547336
-        },
         {
             "texto": "📢🔝💯 James Harden (1 block today) has passed Amar'e Stoudemire and is now ranked 76th all-time with 105 in playoffs.",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778888213876606_8080_collage_1778888213788635.png"
             ],
             "timestamp": 1778888222
+        },
+        {
+            "texto": "Dennis Schröder (2 assists today) has passed Archie Clark, Fat Lever and Shaun Livingston and is now ranked 146th all-time with 298 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778889818130136_6858_collage_1778889818069156.png"
+            ],
+            "timestamp": 1778889824
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1532,
+    "total_notificaciones_historicas": 1533,
     "total_franchise_historicas": 801,
-    "cache_buster": 1778889447
+    "cache_buster": 1778889825
 }
