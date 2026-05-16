@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:26",
+    "ultima_actualizacion": "02:40:09",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 173,
+                "Rank": 171,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 1331,
-                "Diff": "",
-                "Antece": "Marc Gasol",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1333,
+                "Diff": "2",
+                "Antece": "David West",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -274,9 +274,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 586,
-                "Diff": "34",
+                "Hoy": 10,
+                "Total": 587,
+                "Diff": "33",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -546,9 +546,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 396,
-                "Diff": "18",
+                "Hoy": 4,
+                "Total": 398,
+                "Diff": "16",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 200th all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547648326213_3258_collage_1778547648215247.png"
-            ],
-            "timestamp": 1778547656
-        },
         {
             "texto": "📢🔝💯 Tobias Harris (2 three-pointers today) has passed Nick Van Exel and Nicolas Batum and is now ranked 98th all-time with 115 in playoffs.",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778890694803515_7347_collage_1778890694712554.png"
             ],
             "timestamp": 1778890702
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (4 points today) has passed Frank Ramsey and Marc Gasol and is now ranked 171st all-time with 1,333 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778892001755082_8974_collage_1778892001677107.png"
+            ],
+            "timestamp": 1778892009
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1536,
+    "total_notificaciones_historicas": 1537,
     "total_franchise_historicas": 805,
-    "cache_buster": 1778891906
+    "cache_buster": 1778892009
 }
