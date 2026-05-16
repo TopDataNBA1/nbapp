@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:05:33",
+    "ultima_actualizacion": "03:10:19",
     "tablas": {
         "pts": [
             {
@@ -368,9 +368,9 @@
                 "Rank": 39,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 184,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 185,
+                "Diff": "2",
                 "Antece": "Russell Westbrook",
                 "Nota": "",
                 "game_status": "playing"
@@ -851,9 +851,9 @@
                 "Rank": 10,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 150,
-                "Diff": "10",
+                "Hoy": 7,
+                "Total": 151,
+                "Diff": "9",
                 "Antece": "Andy Phillip",
                 "game_status": "playing"
             },
@@ -951,9 +951,9 @@
                 "Rank": 11,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 37,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 38,
+                "Diff": "2",
                 "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
@@ -963,7 +963,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 33,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Duncan Robinson",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (3 blocks today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550014272374_7681_collage_1778550014194403.png"
-            ],
-            "timestamp": 1778550021
-        },
         {
             "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Dwight Howard, Jamal Murray, Mario Elie and Vince Carter and is now ranked 127th all-time with 95 in playoffs.",
             "foto": [
@@ -2323,6 +2316,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893240321925_7226_collage_1778893240258975.png"
             ],
             "timestamp": 1778893247
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (4 three-pointers today) has passed Jrue Holiday and is now ranked 39th all-time with 185 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893811757319_5259_collage_1778893811668348.png"
+            ],
+            "timestamp": 1778893819
         }
     ],
     "notificaciones_franchise": [
@@ -3027,7 +3027,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1539,
+    "total_notificaciones_historicas": 1540,
     "total_franchise_historicas": 807,
-    "cache_buster": 1778893533
+    "cache_buster": 1778893819
 }
