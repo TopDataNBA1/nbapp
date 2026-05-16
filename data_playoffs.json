@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:53:21",
+    "ultima_actualizacion": "03:55:04",
     "tablas": {
         "pts": [
             {
@@ -50,11 +50,11 @@
                 "Rank": 174,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 2,
-                "Total": 1324,
-                "Diff": "7",
+                "Hoy": 6,
+                "Total": 1328,
+                "Diff": "3",
                 "Antece": "Marc Gasol",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -983,9 +983,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1324,
-                "Diff": "676",
+                "Hoy": 6,
+                "Total": 1328,
+                "Diff": "672",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1200,13 +1200,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 72,
+                "Hoy": 2,
+                "Total": 73,
                 "Diff": "0",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
             {
@@ -1253,9 +1253,9 @@
                 "Rank": 2,
                 "Nombre": "Anthony Edwards",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "3",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1265,7 +1265,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 41,
-                "Diff": "18",
+                "Diff": "19",
                 "Antece": "Anthony Edwards",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Evan Mobley (5 blocks today) has passed OG Anunoby and is now ranked 151st all-time with 59 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551568450717_4176_collage_1778551568359765.png"
-            ],
-            "timestamp": 1778551576
-        },
         {
             "texto": "Tobias Harris (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Jaden McDaniels, Mikal Bridges, Nenê and Paul Pressey and is now ranked 189th all-time with 50 in playoffs.",
             "foto": [
@@ -2323,16 +2316,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896201818031_4666_collage_1778896201722074.png"
             ],
             "timestamp": 1778896209
+        },
+        {
+            "texto": "Anthony Edwards (6 points today) has passed Mike Bibby and is now ranked 174th all-time with 1,328 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896495841771_9823_collage_1778896495746801.png"
+            ],
+            "timestamp": 1778896503
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Julius Randle (2 three-pointers today) has passed Donte DiVincenzo and is now ranked 7th in Timberwolves history with 40 in playoffs.",
-            "foto": [],
-            "timestamp": 1778459591,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (1 assist today) has passed Terry Porter and is now ranked 23rd in Timberwolves history with 26 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778896305,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jaden McDaniels (2 assists today) has passed Latrell Sprewell and is now ranked 9th in Timberwolves history with 73 in playoffs.",
+            "foto": [],
+            "timestamp": 1778896503,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1545,
-    "total_franchise_historicas": 814,
-    "cache_buster": 1778896401
+    "total_notificaciones_historicas": 1546,
+    "total_franchise_historicas": 815,
+    "cache_buster": 1778896504
 }
