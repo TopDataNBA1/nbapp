@@ -1,27 +1,27 @@
 {
-    "ultima_actualizacion": "03:12:11",
+    "ultima_actualizacion": "03:13:55",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 16,
-                "Total": 4160,
-                "Diff": "297",
+                "Hoy": 17,
+                "Total": 4161,
+                "Diff": "296",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 61,
+                "Rank": 60,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 13,
-                "Total": 2111,
-                "Diff": "",
-                "Antece": "Allen Iverson",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 2116,
+                "Diff": "30",
+                "Antece": "Derek Fisher",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -357,9 +357,9 @@
                 "Rank": 24,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 233,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 234,
+                "Diff": "2",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -539,9 +539,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 1006,
-                "Diff": "237",
+                "Hoy": 18,
+                "Total": 1011,
+                "Diff": "232",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -739,9 +739,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 104,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 105,
+                "Diff": "17",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -1625,13 +1625,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (3 steals today) has passed Jason Kidd and is now ranked 7th all-time with 303 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550414486800_3930_collage_1778550414386749.png"
-            ],
-            "timestamp": 1778550422
-        },
-        {
             "texto": "📢🔝💯 Donovan Mitchell (25 points today) has passed Tom Heinsohn and is now ranked 65th all-time with 2,059 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550613429291_8591_collage_1778550613322368.png"
@@ -2323,6 +2316,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893923746853_2452_collage_1778893923671440.png"
             ],
             "timestamp": 1778893931
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (18 points today) has passed Allen Iverson and is now ranked 60th all-time with 2,116 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894027625723_7640_collage_1778894027532740.png"
+            ],
+            "timestamp": 1778894035
         }
     ],
     "notificaciones_franchise": [
@@ -3027,7 +3027,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1542,
+    "total_notificaciones_historicas": 1543,
     "total_franchise_historicas": 807,
-    "cache_buster": 1778893931
+    "cache_buster": 1778894035
 }
