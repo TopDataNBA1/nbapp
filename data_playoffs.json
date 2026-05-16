@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:29",
+    "ultima_actualizacion": "04:16:31",
     "tablas": {
         "pts": [
             {
@@ -82,14 +82,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 55,
+                "Rank": 54,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 999,
-                "Diff": "",
-                "Antece": "Caldwell Jones",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1000,
+                "Diff": "2",
+                "Antece": "Clyde Drexler",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1013,9 +1013,9 @@
                 "Rank": 6,
                 "Nombre": "Naz Reid",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 498,
-                "Diff": "20",
+                "Hoy": 10,
+                "Total": 500,
+                "Diff": "18",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1025,7 +1025,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 460,
-                "Diff": "38",
+                "Diff": "40",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1083,9 +1083,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 447,
-                "Diff": "181",
+                "Hoy": 2,
+                "Total": 448,
+                "Diff": "180",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1095,7 +1095,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 335,
-                "Diff": "112",
+                "Diff": "113",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1191,22 +1191,22 @@
             },
             {
                 "Rank": 8,
-                "Nombre": "Rudy Gobert",
+                "Nombre": "Jaden McDaniels",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 73,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 74,
+                "Diff": "2",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Jaden McDaniels",
+                "Nombre": "Rudy Gobert",
                 "Stat": "AST",
-                "Hoy": 2,
+                "Hoy": 0,
                 "Total": 73,
-                "Diff": "0",
-                "Antece": "Rudy Gobert",
+                "Diff": "1",
+                "Antece": "Jaden McDaniels",
                 "game_status": "playing"
             },
             {
@@ -1624,20 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (1 assist today) has passed Baron Davis and is now ranked 136th all-time with 312 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554264112317_9556_collage_1778554264028363.png"
-            ],
-            "timestamp": 1778554272
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Walter Davis and is now ranked 136th all-time with 313 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778554368344362_9354_collage_1778554368248764.png"
-            ],
-            "timestamp": 1778554376
-        },
         {
             "texto": "Luguentz Dort (2 three-pointers today) has passed Jeff Green and is now ranked 120th all-time with 101 in playoffs.",
             "foto": [
@@ -2323,16 +2309,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778897661643767_8543_collage_1778897661563761.png"
             ],
             "timestamp": 1778897669
+        },
+        {
+            "texto": "📢🔝💯 Rudy Gobert (2 rebounds today) becomes the 54th player to reach 1,000 rebounds in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778897775893598_3106_collage_1778897775832575.png"
+            ],
+            "timestamp": 1778897783
+        },
+        {
+            "texto": "📢🔝💯 Rudy Gobert (2 rebounds today) has passed Caldwell Jones and is now ranked 54th all-time with 1,000 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778897783655432_1651_collage_1778897783561160.png"
+            ],
+            "timestamp": 1778897790
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. (5 points today) has passed Rasho Nesterović and is now ranked 21st in Timberwolves history with 121 in playoffs.",
-            "foto": [],
-            "timestamp": 1778462901,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Terrence Shannon Jr. (1 three-pointer today) has passed Jimmy Butler and Bones Hyland and is now ranked 23rd in Timberwolves history with 9 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778897669,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jaden McDaniels (3 assists today) has passed Rudy Gobert and is now ranked 8th in Timberwolves history with 74 in playoffs.",
+            "foto": [],
+            "timestamp": 1778897790,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1551,
-    "total_franchise_historicas": 819,
-    "cache_buster": 1778897669
+    "total_notificaciones_historicas": 1553,
+    "total_franchise_historicas": 820,
+    "cache_buster": 1778897791
 }
