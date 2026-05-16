@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:43:07",
+    "ultima_actualizacion": "05:44:59",
     "tablas": {
         "pts": [
             {
@@ -36,14 +36,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 167,
+                "Rank": 166,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 20,
-                "Total": 1342,
-                "Diff": "2",
-                "Antece": "Rudy LaRusso",
-                "Nota": "A tiro de 2",
+                "Hoy": 23,
+                "Total": 1345,
+                "Diff": "9",
+                "Antece": "Bill Laimbeer",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -120,9 +120,9 @@
                 "Rank": 38,
                 "Nombre": "Mike Conley",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 677,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 678,
+                "Diff": "22",
                 "Antece": "700",
                 "Nota": "",
                 "game_status": "playing"
@@ -401,11 +401,11 @@
                 "Rank": 65,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 149,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 150,
+                "Diff": "1",
                 "Antece": "Terry Porter",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -983,9 +983,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1342,
-                "Diff": "658",
+                "Hoy": 23,
+                "Total": 1345,
+                "Diff": "655",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1173,9 +1173,9 @@
                 "Rank": 3,
                 "Nombre": "Mike Conley",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 199,
-                "Diff": "37",
+                "Hoy": 4,
+                "Total": 200,
+                "Diff": "36",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1185,7 +1185,7 @@
                 "Stat": "AST",
                 "Hoy": 1,
                 "Total": 108,
-                "Diff": "91",
+                "Diff": "92",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1423,9 +1423,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 149,
-                "Diff": "51",
+                "Hoy": 2,
+                "Total": 150,
+                "Diff": "50",
                 "Antece": "200",
                 "game_status": "playing"
             },
@@ -1624,20 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Marcus Smart (1 block today) has passed Eddie Jones and Manu Ginóbili and is now ranked 145th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778557067361243_2857_collage_1778557067289271.png"
-            ],
-            "timestamp": 1778557074
-        },
-        {
-            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Bill Laimbeer, Moses Malone and Rick Fox and is now ranked 151st all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778557265286009_3134_collage_1778557265225756.png"
-            ],
-            "timestamp": 1778557272
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed Giannis Antetokounmpo, Kurt Rambis, Matt Barnes and Thabo Sefolosha and is now ranked 150th all-time with 86 in playoffs.",
             "foto": [
@@ -2323,6 +2309,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778902980279847_5879_collage_1778902980221877.png"
             ],
             "timestamp": 1778902987
+        },
+        {
+            "texto": "Anthony Edwards (23 points today) has passed Rudy LaRusso and is now ranked 166th all-time with 1,345 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778903083504836_9269_collage_1778903083407851.png"
+            ],
+            "timestamp": 1778903090
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Anthony Edwards (2 three-pointers today) has passed Dirk Nowitzki and is now ranked 65th all-time with 150 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778903090976884_2128_collage_1778903090881914.png"
+            ],
+            "timestamp": 1778903099
         }
     ],
     "notificaciones_franchise": [
@@ -3027,7 +3027,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1561,
+    "total_notificaciones_historicas": 1563,
     "total_franchise_historicas": 825,
-    "cache_buster": 1778902987
+    "cache_buster": 1778903099
 }
