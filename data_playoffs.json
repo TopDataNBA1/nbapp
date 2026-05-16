@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:14:57",
+    "ultima_actualizacion": "02:16:39",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 61,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 11,
-                "Total": 2109,
-                "Diff": "2",
+                "Hoy": 13,
+                "Total": 2111,
+                "Diff": "",
                 "Antece": "Allen Iverson",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -108,14 +108,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 127,
+                "Rank": 124,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 95,
-                "Diff": "",
-                "Antece": "Craig Hodges",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 96,
+                "Diff": "1",
+                "Antece": "Jack Sikma",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -264,9 +264,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1004,
-                "Diff": "239",
+                "Hoy": 13,
+                "Total": 1006,
+                "Diff": "237",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -314,9 +314,9 @@
                 "Rank": 11,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 257,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 258,
+                "Diff": "0",
                 "Antece": "Drew Gooden",
                 "game_status": "playing"
             },
@@ -384,9 +384,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "14",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -404,9 +404,9 @@
                 "Rank": 14,
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "1",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (1 three-pointer today) has passed Derek Harper and Tyler Herro and is now ranked 125th all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778547441764680_1028_collage_1778547441692703.png"
-            ],
-            "timestamp": 1778547448
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (2 steals today) has passed Bob McAdoo, Boris Diaw, Caron Butler, Chris Bosh, DeMar DeRozan, Dominique Wilkins, Lamar Odom, Latrell Sprewell, Nenê, Nick Anderson and Sedale Threatt and is now ranked 191st all-time with 74 in playoffs.",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778890297311484_4737_collage_1778890297213534.png"
             ],
             "timestamp": 1778890305
+        },
+        {
+            "texto": "Donovan Mitchell (1 steal today) has passed Craig Hodges, T.R. Dunn and Toni Kukoč and is now ranked 124th all-time with 96 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778890592003509_1324_collage_1778890591930519.png"
+            ],
+            "timestamp": 1778890599
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1534,
+    "total_notificaciones_historicas": 1535,
     "total_franchise_historicas": 804,
-    "cache_buster": 1778890497
+    "cache_buster": 1778890599
 }
