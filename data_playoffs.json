@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:09:56",
+    "ultima_actualizacion": "06:11:40",
     "tablas": {
         "pts": [
             {
@@ -330,13 +330,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 233,
+                "Rank": 229,
                 "Nombre": "Bismack Biyombo",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 42,
+                "Hoy": 2,
+                "Total": 43,
                 "Diff": "1",
-                "Antece": "Roy Tarpley",
+                "Antece": "Sam Lacey",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -1213,9 +1213,9 @@
                 "Rank": 12,
                 "Nombre": "Kyle Anderson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 70,
+                "Diff": "0",
                 "Antece": "Sam Cassell",
                 "game_status": "playing"
             },
@@ -1225,7 +1225,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 66,
-                "Diff": "2",
+                "Diff": "4",
                 "Antece": "Kyle Anderson",
                 "game_status": "inactive"
             },
@@ -1500,13 +1500,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Bones Hyland",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 8,
+                "Hoy": 1,
+                "Total": 9,
                 "Diff": "0",
-                "Antece": "Jimmy Butler",
+                "Antece": "Patrick Beverley",
                 "game_status": "playing"
             },
             {
@@ -1573,9 +1573,9 @@
                 "Rank": 11,
                 "Nombre": "Kyle Anderson",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 26,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 27,
+                "Diff": "0",
                 "Antece": "Julius Randle",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (18 points today) has passed Bailey Howell and Devin Booker and is now ranked 155th all-time with 1,402 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559046852198_9309_collage_1778559046775235.png"
-            ],
-            "timestamp": 1778559053
-        },
         {
             "texto": "Rui Hachimura (1 three-pointer today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 174th all-time with 78 in playoffs.",
             "foto": [
@@ -2323,23 +2316,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778904587792686_7891_collage_1778904587692718.png"
             ],
             "timestamp": 1778904596
+        },
+        {
+            "texto": "📢HOF🏛️ Bismack Biyombo (2 blocks today) has passed Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 229th all-time with 43 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778904692346868_1374_collage_1778904692251912.png"
+            ],
+            "timestamp": 1778904700
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (2 assists today) has passed Jim Cleamons and is now ranked 22nd in Cavaliers history with 62 in playoffs.",
-            "foto": [],
-            "timestamp": 1778546360,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
-            "texto": "Evan Mobley (2 steals today) has passed Larry Nance and is now ranked 14th in Cavaliers history with 32 in playoffs.",
-            "foto": [],
-            "timestamp": 1778546360,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (3 three-pointers today) has passed Larry Hughes, James Jones and Wally Szczerbiak and is now ranked 21st in Cavaliers history with 25 in playoffs.",
             "foto": [],
@@ -3025,9 +3011,23 @@
             "timestamp": 1778903938,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Bones Hyland (1 three-pointer today) has passed Jimmy Butler and is now ranked 24th in Timberwolves history with 9 in playoffs.",
+            "foto": [],
+            "timestamp": 1778904700,
+            "team": "MIN",
+            "type": "franchise"
+        },
+        {
+            "texto": "Kyle Anderson today surpasses Anthony Peeler and is now ranked 11th in Timberwolves history with 27 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778904700,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1564,
-    "total_franchise_historicas": 826,
-    "cache_buster": 1778904596
+    "total_notificaciones_historicas": 1565,
+    "total_franchise_historicas": 828,
+    "cache_buster": 1778904700
 }
