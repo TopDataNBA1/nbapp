@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:25:43",
+    "ultima_actualizacion": "05:30:29",
     "tablas": {
         "pts": [
             {
@@ -486,13 +486,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 227,
+                "Rank": 224,
                 "Nombre": "Jaden McDaniels",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 63,
+                "Hoy": 1,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Ben Gordon",
+                "Antece": "Charles Barkley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -993,9 +993,9 @@
                 "Rank": 3,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 658,
-                "Diff": "342",
+                "Hoy": 7,
+                "Total": 661,
+                "Diff": "339",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Terrence Shannon Jr.",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 139,
-                "Diff": "2",
-                "Antece": "Troy Hudson",
+                "Hoy": 16,
+                "Total": 142,
+                "Diff": "8",
+                "Antece": "Ayo Dosunmu",
                 "game_status": "playing"
             },
             {
@@ -1243,9 +1243,9 @@
                 "Rank": 19,
                 "Nombre": "Ayo Dosunmu",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 38,
-                "Diff": "2",
+                "Hoy": 8,
+                "Total": 40,
+                "Diff": "0",
                 "Antece": "D'Angelo Russell",
                 "game_status": "playing"
             },
@@ -1453,9 +1453,9 @@
                 "Rank": 4,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "9",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (2 three-pointers today) has passed Brian Shaw, Chuck Person, Rui Hachimura and Terry Rozier and is now ranked 169th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778555925451809_7882_collage_1778555925380832.png"
-            ],
-            "timestamp": 1778555932
-        },
         {
             "texto": "Alex Caruso (3 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 167th all-time with 79 in playoffs.",
             "foto": [
@@ -2323,16 +2316,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778900266348242_2220_collage_1778900266257290.png"
             ],
             "timestamp": 1778900274
+        },
+        {
+            "texto": "Jaden McDaniels (1 three-pointer today) has passed Ben Gordon, Josh Hart, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 224th all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778902221946538_4378_collage_1778902221865534.png"
+            ],
+            "timestamp": 1778902229
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Naz Reid (3 assists today) has passed Stephon Marbury and is now ranked 14th in Timberwolves history with 62 in playoffs.",
-            "foto": [],
-            "timestamp": 1778464882,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ Anthony Edwards (6 rebounds today) has passed Karl-Anthony Towns and is now ranked 3rd in Timberwolves history with 332 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778901942,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Terrence Shannon Jr. (16 points today) has passed Troy Hudson and is now ranked 18th in Timberwolves history with 142 in playoffs.",
+            "foto": [],
+            "timestamp": 1778902229,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1559,
-    "total_franchise_historicas": 823,
-    "cache_buster": 1778901943
+    "total_notificaciones_historicas": 1560,
+    "total_franchise_historicas": 824,
+    "cache_buster": 1778902229
 }
