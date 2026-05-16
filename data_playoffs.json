@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:10:19",
+    "ultima_actualizacion": "03:12:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 15,
-                "Total": 4159,
-                "Diff": "298",
+                "Hoy": 16,
+                "Total": 4160,
+                "Diff": "297",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -131,11 +131,11 @@
                 "Rank": 119,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 340,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 341,
+                "Diff": "1",
                 "Antece": "Nick Van Exel",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -264,13 +264,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 144,
+                "Rank": 141,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 63,
+                "Hoy": 2,
+                "Total": 64,
                 "Diff": "",
-                "Antece": "Elton Brand",
+                "Antece": "Bruce Bowen",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -549,9 +549,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 589,
-                "Diff": "31",
+                "Hoy": 15,
+                "Total": 592,
+                "Diff": "28",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -619,9 +619,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 155,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 156,
+                "Diff": "8",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -709,9 +709,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 63,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 64,
+                "Diff": "6",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -769,9 +769,9 @@
                 "Rank": 16,
                 "Nombre": "Evan Mobley",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 35,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 36,
+                "Diff": "5",
                 "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
@@ -1625,20 +1625,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Dwight Howard, Jamal Murray, Mario Elie and Vince Carter and is now ranked 127th all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550209080374_6660_collage_1778550209011396.png"
-            ],
-            "timestamp": 1778550216
-        },
-        {
-            "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas and Kyle Lowry and is now ranked 194th all-time with 49 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550216432997_8818_collage_1778550216364019.png"
-            ],
-            "timestamp": 1778550223
-        },
-        {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (3 steals today) has passed Jason Kidd and is now ranked 7th all-time with 303 in playoffs.",
             "foto": [
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778550414486800_3930_collage_1778550414386749.png"
@@ -2323,6 +2309,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893811757319_5259_collage_1778893811668348.png"
             ],
             "timestamp": 1778893819
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (3 assists today) has passed Rick Barry and is now ranked 119th all-time with 341 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893915403087_6065_collage_1778893915316114.png"
+            ],
+            "timestamp": 1778893923
+        },
+        {
+            "texto": "Evan Mobley (2 blocks today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893923746853_2452_collage_1778893923671440.png"
+            ],
+            "timestamp": 1778893931
         }
     ],
     "notificaciones_franchise": [
@@ -3027,7 +3027,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1540,
+    "total_notificaciones_historicas": 1542,
     "total_franchise_historicas": 807,
-    "cache_buster": 1778893819
+    "cache_buster": 1778893931
 }
