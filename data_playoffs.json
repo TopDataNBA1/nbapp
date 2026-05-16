@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:59:05",
+    "ultima_actualizacion": "03:00:48",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 1204,
-                "Diff": "29",
+                "Hoy": 3,
+                "Total": 1205,
+                "Diff": "28",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -87,9 +87,9 @@
                 "Rank": 146,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 298,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 299,
+                "Diff": "1",
                 "Antece": "300",
                 "Nota": "",
                 "game_status": "playing"
@@ -200,14 +200,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 41,
+                "Rank": 40,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 182,
-                "Diff": "",
-                "Antece": "Andre Iguodala",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 183,
+                "Diff": "1",
+                "Antece": "Jrue Holiday",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -374,9 +374,9 @@
                 "Rank": 18,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 79,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 80,
+                "Diff": "0",
                 "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
@@ -481,13 +481,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 41,
-                "Diff": "0",
-                "Antece": "Craig Ehlo",
+                "Hoy": 2,
+                "Total": 42,
+                "Diff": "4",
+                "Antece": "Channing Frye",
                 "game_status": "playing"
             },
             {
@@ -497,7 +497,7 @@
                 "Hoy": 1,
                 "Total": 35,
                 "Diff": "6",
-                "Antece": "Sam Merrill",
+                "Antece": "Craig Ehlo",
                 "game_status": "playing"
             },
             {
@@ -576,9 +576,9 @@
                 "Rank": 10,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 149,
-                "Diff": "11",
+                "Hoy": 6,
+                "Total": 150,
+                "Diff": "10",
                 "Antece": "Andy Phillip",
                 "game_status": "playing"
             },
@@ -676,9 +676,9 @@
                 "Rank": 11,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 35,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 36,
+                "Diff": "4",
                 "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
@@ -688,7 +688,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 33,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Duncan Robinson",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (12 points today) has passed Jason Kidd and is now ranked 66th all-time with 2,046 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778549537050622_5593_collage_1778549536958208.png"
-            ],
-            "timestamp": 1778549544
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (3 blocks today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
             "foto": [
@@ -1404,16 +1397,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778892759892244_9946_collage_1778892759793270.png"
             ],
             "timestamp": 1778892767
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (2 three-pointers today) has passed Andre Iguodala, Luka Dončić and Mike Conley and is now ranked 40th all-time with 183 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893240321925_7226_collage_1778893240258975.png"
+            ],
+            "timestamp": 1778893247
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Mitchell Robinson (6 rebounds today) has passed Connie Simmons and is now ranked 11th in Knicks history with 318 in playoffs.",
-            "foto": [],
-            "timestamp": 1778447803,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Miles McBride (7 three-pointers today) has passed Allan Houston and is now ranked 4th in Knicks history with 70 in playoffs.",
             "foto": [],
@@ -2106,9 +2099,16 @@
             "timestamp": 1778893049,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Sam Merrill (2 three-pointers today) has passed Craig Ehlo and is now ranked 14th in Cavaliers history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1778893247,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1538,
-    "total_franchise_historicas": 806,
-    "cache_buster": 1778893145
+    "total_notificaciones_historicas": 1539,
+    "total_franchise_historicas": 807,
+    "cache_buster": 1778893248
 }
