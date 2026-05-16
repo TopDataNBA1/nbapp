@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:48:26",
+    "ultima_actualizacion": "03:50:09",
     "tablas": {
         "pts": [
             {
@@ -85,11 +85,11 @@
                 "Rank": 55,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 998,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 999,
+                "Diff": "",
                 "Antece": "Caldwell Jones",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -521,13 +521,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 191,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 95,
+                "Hoy": 1,
+                "Total": 96,
                 "Diff": "",
-                "Antece": "Peja Stojaković",
+                "Antece": "Kyrie Irving",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -1083,9 +1083,9 @@
                 "Rank": 2,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 446,
-                "Diff": "182",
+                "Hoy": 1,
+                "Total": 447,
+                "Diff": "181",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -1095,7 +1095,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 334,
-                "Diff": "112",
+                "Diff": "113",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1543,9 +1543,9 @@
                 "Rank": 5,
                 "Nombre": "Rudy Gobert",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "0",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1555,7 +1555,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 46,
-                "Diff": "0",
+                "Diff": "1",
                 "Antece": "Rudy Gobert",
                 "game_status": "playing"
             },
@@ -1624,13 +1624,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (4 blocks today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 151st all-time with 58 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778551090772655_3251_collage_1778551090714635.png"
-            ],
-            "timestamp": 1778551097
-        },
         {
             "texto": "Evan Mobley (5 blocks today) has passed OG Anunoby and is now ranked 151st all-time with 59 in playoffs.",
             "foto": [
@@ -2323,16 +2316,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894694298809_7030_collage_1778894694219853.png"
             ],
             "timestamp": 1778894701
+        },
+        {
+            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Alonzo Mourning, Bill Bradley, Jason Collins, Mark West, Matt Barnes and Peja Stojaković and now ranked 191st all time with 96 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896201818031_4666_collage_1778896201722074.png"
+            ],
+            "timestamp": 1778896209
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Rudy Gobert (2 assists today) has passed Sam Cassell and is now ranked 9th in Timberwolves history with 71 in playoffs.",
-            "foto": [],
-            "timestamp": 1778458165,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ Mike Conley (2 three-pointers today) has passed Naz Reid and is now ranked 2nd in Timberwolves history with 70 in playoffs.",
             "foto": [],
@@ -3025,9 +3018,16 @@
             "timestamp": 1778895174,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 47 games in playoffs.",
+            "foto": [],
+            "timestamp": 1778896209,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1544,
-    "total_franchise_historicas": 812,
-    "cache_buster": 1778896106
+    "total_notificaciones_historicas": 1545,
+    "total_franchise_historicas": 813,
+    "cache_buster": 1778896209
 }
