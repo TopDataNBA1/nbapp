@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:33",
+    "ultima_actualizacion": "03:47:16",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 170,
+                "Rank": 168,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 3,
-                "Total": 1338,
-                "Diff": "",
-                "Antece": "Steve Smith",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1340,
+                "Diff": "4",
+                "Antece": "Rudy LaRusso",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -567,9 +567,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 403,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 405,
+                "Diff": "9",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (3 points today) has passed Anfernee Hardaway and is now ranked 176th all-time with 1,305 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778631549318057_1492_collage_1778631549218040.png"
-            ],
-            "timestamp": 1778631557
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert today surpasses Bob McAdoo, Matt Bonner, Mike Miller, Moses Malone and Scott Williams and now ranked 199th all time with 95 games in playoffs",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068726382769_7818_collage_1779068726314032.png"
             ],
             "timestamp": 1779068732
+        },
+        {
+            "texto": "Tobias Harris (5 points today) has passed Danny Green and Steve Smith and is now ranked 168th all-time with 1,340 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068828275761_4539_collage_1779068828192450.png"
+            ],
+            "timestamp": 1779068836
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1575,
+    "total_notificaciones_historicas": 1576,
     "total_franchise_historicas": 838,
-    "cache_buster": 1779068733
+    "cache_buster": 1779068836
 }
