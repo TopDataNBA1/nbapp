@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:17:23",
+    "ultima_actualizacion": "03:19:06",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 4172,
-                "Diff": "285",
+                "Hoy": 6,
+                "Total": 4173,
+                "Diff": "284",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 171,
+                "Rank": 170,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 1336,
-                "Diff": "1",
-                "Antece": "Paul Westphal",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1338,
+                "Diff": "",
+                "Antece": "Steve Smith",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -52,11 +52,11 @@
                 "Rank": 131,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 646,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 647,
+                "Diff": "1",
                 "Antece": "Ray Allen",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -405,9 +405,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 37,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 36,
+                "Diff": "7",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -417,7 +417,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 36,
-                "Diff": "1",
+                "Diff": "0",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -432,13 +432,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Max Strus",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 25,
+                "Hoy": 2,
+                "Total": 26,
                 "Diff": "0",
-                "Antece": "Sasha Pavlović",
+                "Antece": "Zydrunas Ilgauskas",
                 "game_status": "playing"
             },
             {
@@ -567,9 +567,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 401,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 403,
+                "Diff": "11",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -577,9 +577,9 @@
                 "Rank": 23,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 182,
-                "Diff": "11",
+                "Hoy": 3,
+                "Total": 183,
+                "Diff": "10",
                 "Antece": "Ray Scott",
                 "game_status": "playing"
             },
@@ -589,7 +589,7 @@
                 "Stat": "REB",
                 "Hoy": 6,
                 "Total": 180,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 three-pointer today) has passed Larry Bird and is now ranked 165th all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562480246482_7184_collage_1778562480167946.png"
-            ],
-            "timestamp": 1778562488
-        },
         {
             "texto": "Rui Hachimura (3 three-pointers today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 167th all-time with 80 in playoffs.",
             "foto": [
@@ -1425,16 +1418,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065722083423_4678_collage_1779065722023679.png"
             ],
             "timestamp": 1779065728
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (3 points today) has passed Paul Westphal and is now ranked 170th all-time with 1,338 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779067137679687_6455_collage_1779067137578321.png"
+            ],
+            "timestamp": 1779067145
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (6 assists today) has passed Eric Snow and is now ranked 21st in Cavaliers history with 66 in playoffs.",
-            "foto": [],
-            "timestamp": 1778548422,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Donovan Mitchell (2 three-pointers today) becomes the 5th player to reach 100 three-pointers with Cavaliers in playoffs.",
             "foto": [],
@@ -2127,9 +2120,16 @@
             "timestamp": 1779066668,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (2 steals today) has passed Sasha Pavlović and is now ranked 21st in Cavaliers history with 26 in playoffs.",
+            "foto": [],
+            "timestamp": 1779067145,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1572,
-    "total_franchise_historicas": 836,
-    "cache_buster": 1779067043
+    "total_notificaciones_historicas": 1573,
+    "total_franchise_historicas": 837,
+    "cache_buster": 1779067146
 }
