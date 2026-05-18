@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:01:32",
+    "ultima_actualizacion": "04:03:16",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 60,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 15,
-                "Total": 2131,
-                "Diff": "15",
+                "Hoy": 17,
+                "Total": 2133,
+                "Diff": "13",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -203,11 +203,11 @@
                 "Rank": 38,
                 "Nombre": "Duncan Robinson",
                 "Team": "DET",
-                "Hoy": 2,
-                "Total": 187,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 188,
+                "Diff": "1",
                 "Antece": "JJ Redick",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -275,9 +275,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1026,
-                "Diff": "217",
+                "Hoy": 17,
+                "Total": 1028,
+                "Diff": "215",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -694,13 +694,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Duncan Robinson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 40,
-                "Diff": "0",
-                "Antece": "Clifford Robinson",
+                "Hoy": 3,
+                "Total": 41,
+                "Diff": "3",
+                "Antece": "Bill Laimbeer",
                 "game_status": "playing"
             },
             {
@@ -710,7 +710,7 @@
                 "Hoy": 0,
                 "Total": 33,
                 "Diff": "7",
-                "Antece": "Duncan Robinson",
+                "Antece": "Clifford Robinson",
                 "game_status": "playing"
             },
             {
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Rudy Gobert (2 rebounds today) has passed Julius Erving and is now ranked 55th all-time with 995 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632216142501_2971_collage_1778632216058528.png"
-            ],
-            "timestamp": 1778632224
-        },
         {
             "texto": "Mike Conley today surpasses David West and Marcus Smart and now ranked 112th all time with 119 games in playoffs",
             "foto": [
@@ -1425,16 +1418,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779069025806107_4928_collage_1779069025710116.png"
             ],
             "timestamp": 1779069033
+        },
+        {
+            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Russell Westbrook and is now ranked 38th all-time with 188 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779069786827481_6418_collage_1779069786738872.png"
+            ],
+            "timestamp": 1779069796
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (5 three-pointers today) has passed Sasha Pavlović and is now ranked 20th in Cavaliers history with 27 in playoffs.",
-            "foto": [],
-            "timestamp": 1778551097,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (11 assists today) has passed Zydrunas Ilgauskas and is now ranked 20th in Cavaliers history with 71 in playoffs.",
             "foto": [],
@@ -2127,9 +2120,16 @@
             "timestamp": 1779069411,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Duncan Robinson (3 three-pointers today) has passed Clifford Robinson and is now ranked 10th in Pistons history with 41 in playoffs.",
+            "foto": [],
+            "timestamp": 1779069796,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1577,
-    "total_franchise_historicas": 839,
-    "cache_buster": 1779069692
+    "total_notificaciones_historicas": 1578,
+    "total_franchise_historicas": 840,
+    "cache_buster": 1779069796
 }
