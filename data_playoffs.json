@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:37",
+    "ultima_actualizacion": "02:28:12",
     "tablas": {
         "pts": [
             {
@@ -65,9 +65,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1206,
-                "Diff": "27",
+                "Hoy": 1,
+                "Total": 1207,
+                "Diff": "26",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -372,22 +372,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 95,
-                "Diff": "0",
-                "Antece": "Hot Rod Williams",
+                "Hoy": 2,
+                "Total": 96,
+                "Diff": "7",
+                "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
             {
                 "Rank": 17,
                 "Nombre": "James Harden",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 81,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 82,
+                "Diff": "7",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -584,13 +584,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Jalen Duren",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 175,
-                "Diff": "0",
-                "Antece": "Adrian Dantley",
+                "Hoy": 2,
+                "Total": 176,
+                "Diff": "6",
+                "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
             {
@@ -1429,20 +1429,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Donovan Mitchell (2 rebounds today) has passed Jim Brewer and is now ranked 14th in Cavaliers history with 177 in playoffs.",
-            "foto": [],
-            "timestamp": 1778547038,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
-            "texto": "Max Strus (2 steals today) has passed Ron Harper and Eric Snow and is now ranked 22nd in Cavaliers history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1778547038,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
             "texto": "Max Strus (1 rebound today) has passed Craig Ehlo and is now ranked 17th in Cavaliers history with 165 in playoffs.",
             "foto": [],
             "timestamp": 1778547230,
@@ -2127,9 +2113,23 @@
             "timestamp": 1779063718,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Jalen Duren (2 rebounds today) has passed Adrian Dantley and is now ranked 24th in Pistons history with 176 in playoffs.",
+            "foto": [],
+            "timestamp": 1779064091,
+            "team": "DET",
+            "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (2 assists today) has passed Hot Rod Williams and is now ranked 14th in Cavaliers history with 96 in playoffs.",
+            "foto": [],
+            "timestamp": 1779064091,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1568,
-    "total_franchise_historicas": 831,
-    "cache_buster": 1779063997
+    "total_franchise_historicas": 833,
+    "cache_buster": 1779064092
 }
