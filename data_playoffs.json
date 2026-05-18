@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:50:20",
+    "ultima_actualizacion": "02:52:02",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 60,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 8,
-                "Total": 2124,
-                "Diff": "22",
+                "Hoy": 9,
+                "Total": 2125,
+                "Diff": "21",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -154,13 +154,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 172,
+                "Rank": 167,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 52,
+                "Hoy": 1,
+                "Total": 53,
                 "Diff": "",
-                "Antece": "Hassan Whiteside",
+                "Antece": "Jamaal Wilkes",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -275,9 +275,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1019,
-                "Diff": "224",
+                "Hoy": 9,
+                "Total": 1020,
+                "Diff": "223",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -335,9 +335,9 @@
                 "Rank": 14,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 191,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 192,
+                "Diff": "0",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -347,7 +347,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 185,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -455,9 +455,9 @@
                 "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 42,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 43,
+                "Diff": "10",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Austin Reaves (3 three-pointers today) has passed Andrew Nembhard and Naz Reid and is now ranked 201st all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778561812049669_1633_collage_1778561811974643.png"
-            ],
-            "timestamp": 1778561819
-        },
         {
             "texto": "Shai Gilgeous-Alexander (33 points today) has passed Deron Williams and is now ranked 153rd all-time with 1,417 in playoffs.",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065317417900_8310_collage_1779065317342327.png"
             ],
             "timestamp": 1779065324
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Shai Gilgeous-Alexander and is now ranked 167th all-time with 53 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065514621148_2112_collage_1779065514520729.png"
+            ],
+            "timestamp": 1779065522
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1570,
+    "total_notificaciones_historicas": 1571,
     "total_franchise_historicas": 834,
-    "cache_buster": 1779065420
+    "cache_buster": 1779065522
 }
