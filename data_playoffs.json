@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:20:08",
+    "ultima_actualizacion": "02:21:59",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 172,
+                "Rank": 171,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 1335,
-                "Diff": "",
-                "Antece": "David West",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1336,
+                "Diff": "1",
+                "Antece": "Paul Westphal",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -49,14 +49,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 132,
+                "Rank": 131,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 1,
-                "Total": 645,
-                "Diff": "",
-                "Antece": "Bob Lanier",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 646,
+                "Diff": "2",
+                "Antece": "Ray Allen",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -325,9 +325,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 263,
-                "Diff": "42",
+                "Hoy": 1,
+                "Total": 264,
+                "Diff": "41",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -345,9 +345,9 @@
                 "Rank": 15,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 185,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 186,
+                "Diff": "3",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -567,9 +567,9 @@
                 "Rank": 22,
                 "Nombre": "Tobias Harris",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 400,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 401,
+                "Diff": "13",
                 "Antece": "Lindsey Hunter",
                 "game_status": "playing"
             },
@@ -577,9 +577,9 @@
                 "Rank": 23,
                 "Nombre": "Tobias Harris",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 181,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 182,
+                "Diff": "11",
                 "Antece": "Ray Scott",
                 "game_status": "playing"
             },
@@ -714,32 +714,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Daniss Jenkins",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 15,
+                "Hoy": 2,
+                "Total": 16,
                 "Diff": "0",
-                "Antece": "Vinnie Johnson",
+                "Antece": "Terry Mills",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin, Rashard Lewis and Rudy Gobert and is now ranked 210th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559157323202_1868_collage_1778559157231250.png"
-            ],
-            "timestamp": 1778559165
-        },
-        {
-            "texto": "Rui Hachimura (2 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 170th all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778559641097327_7251_collage_1778559641029349.png"
-            ],
-            "timestamp": 1778559648
-        },
         {
             "texto": "Shai Gilgeous-Alexander (25 points today) has passed Lamar Odom and is now ranked 154th all-time with 1,409 in playoffs.",
             "foto": [
@@ -1425,16 +1411,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779063410425611_7555_collage_1779063410327407.png"
             ],
             "timestamp": 1779063418
+        },
+        {
+            "texto": "Tobias Harris (1 point today) has passed David West and is now ranked 171st all-time with 1,336 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779063702641932_5351_collage_1779063702544083.png"
+            ],
+            "timestamp": 1779063710
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (2 rebounds today) has passed Bob Lanier and is now ranked 131st all-time with 646 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779063710698090_2749_collage_1779063710592220.png"
+            ],
+            "timestamp": 1779063718
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley today surpasses Mike Sanders and Richard Jefferson and is now ranked 21st in Cavaliers history with 36 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778546360,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Donovan Mitchell (2 rebounds today) has passed Jim Brewer and is now ranked 14th in Cavaliers history with 177 in playoffs.",
             "foto": [],
@@ -2127,9 +2120,16 @@
             "timestamp": 1779063315,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Daniss Jenkins (2 three-pointers today) has passed Vinnie Johnson and is now ranked 20th in Pistons history with 16 in playoffs.",
+            "foto": [],
+            "timestamp": 1779063718,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1566,
-    "total_franchise_historicas": 830,
-    "cache_buster": 1779063608
+    "total_notificaciones_historicas": 1568,
+    "total_franchise_historicas": 831,
+    "cache_buster": 1779063719
 }
