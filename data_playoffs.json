@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:42:20",
+    "ultima_actualizacion": "03:45:33",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 179,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 77,
+                "Hoy": 1,
+                "Total": 78,
                 "Diff": "",
-                "Antece": "Steve Smith",
+                "Antece": "Mikal Bridges",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -365,9 +365,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 108,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 107,
+                "Diff": "2",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -377,7 +377,7 @@
                 "Stat": "AST",
                 "Hoy": 2,
                 "Total": 96,
-                "Diff": "12",
+                "Diff": "11",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -617,9 +617,9 @@
                 "Rank": 18,
                 "Nombre": "Tobias Harris",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 29,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 30,
+                "Diff": "2",
                 "Antece": "Mark Aguirre",
                 "game_status": "playing"
             },
@@ -629,7 +629,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 25,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Tobias Harris",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rui Hachimura (4 three-pointers today) has passed Larry Bird and is now ranked 165th all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562687640401_3501_collage_1778562687561426.png"
-            ],
-            "timestamp": 1778562696
-        },
         {
             "texto": "Anthony Edwards (3 points today) has passed Anfernee Hardaway and is now ranked 176th all-time with 1,305 in playoffs.",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068343026589_2607_collage_1779068342948977.png"
             ],
             "timestamp": 1779068350
+        },
+        {
+            "texto": "Tobias Harris (1 steal today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 179th all-time with 78 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068726382769_7818_collage_1779068726314032.png"
+            ],
+            "timestamp": 1779068732
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1574,
+    "total_notificaciones_historicas": 1575,
     "total_franchise_historicas": 838,
-    "cache_buster": 1779068540
+    "cache_buster": 1779068733
 }
