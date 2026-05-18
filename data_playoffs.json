@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:09:32",
+    "ultima_actualizacion": "04:15:49",
     "tablas": {
         "pts": [
             {
@@ -165,13 +165,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 177,
                 "Nombre": "Tobias Harris",
                 "Team": "DET",
-                "Hoy": 0,
-                "Total": 51,
+                "Hoy": 1,
+                "Total": 52,
                 "Diff": "",
-                "Antece": "Nate Thurmond",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -405,9 +405,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 37,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 38,
+                "Diff": "5",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -417,7 +417,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 36,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -657,9 +657,9 @@
                 "Rank": 19,
                 "Nombre": "Tobias Harris",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 20,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 21,
+                "Diff": "0",
                 "Antece": "Vinnie Johnson",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mike Conley today surpasses David West and Marcus Smart and now ranked 112th all time with 119 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632224697128_9977_collage_1778632224628163.png"
-            ],
-            "timestamp": 1778632232
-        },
         {
             "texto": "Mike Conley (2 points today) has passed Rik Smits and is now ranked 125th all-time with 1,539 in playoffs.",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779069786827481_6418_collage_1779069786738872.png"
             ],
             "timestamp": 1779069796
+        },
+        {
+            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Alvin Scott, George Gervin, Karl-Anthony Towns, Kurt Thomas and Nate Thurmond and is now ranked 177th all-time with 52 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779070541306591_8593_collage_1779070541223880.png"
+            ],
+            "timestamp": 1779070549
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1578,
+    "total_notificaciones_historicas": 1579,
     "total_franchise_historicas": 842,
-    "cache_buster": 1779070172
+    "cache_buster": 1779070549
 }
