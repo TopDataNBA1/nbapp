@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:37",
+    "ultima_actualizacion": "02:55:29",
     "tablas": {
         "pts": [
             {
@@ -41,9 +41,9 @@
                 "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1017,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 1018,
+                "Diff": "4",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -87,10 +87,10 @@
                 "Rank": 146,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 299,
-                "Diff": "1",
-                "Antece": "300",
+                "Hoy": 1,
+                "Total": 300,
+                "Diff": "4",
+                "Antece": "Dan Majerle",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -495,9 +495,9 @@
                 "Rank": 14,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 44,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 45,
+                "Diff": "1",
                 "Antece": "Channing Frye",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (33 points today) has passed Deron Williams and is now ranked 153rd all-time with 1,417 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778562472265609_1682_collage_1778562472180650.png"
-            ],
-            "timestamp": 1778562480
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 three-pointer today) has passed Larry Bird and is now ranked 165th all-time with 81 in playoffs.",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065514621148_2112_collage_1779065514520729.png"
             ],
             "timestamp": 1779065522
+        },
+        {
+            "texto": "Dennis Schröder (1 assist today) becomes the 146th player to reach 300 assists in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065722083423_4678_collage_1779065722023679.png"
+            ],
+            "timestamp": 1779065728
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1571,
+    "total_notificaciones_historicas": 1572,
     "total_franchise_historicas": 834,
-    "cache_buster": 1779065617
+    "cache_buster": 1779065729
 }
