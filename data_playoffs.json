@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:39:07",
+    "ultima_actualizacion": "02:40:50",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 60,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 2116,
-                "Diff": "30",
+                "Hoy": 6,
+                "Total": 2122,
+                "Diff": "24",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -189,13 +189,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 234,
+                "Hoy": 2,
+                "Total": 236,
                 "Diff": "2",
-                "Antece": "Jason Kidd",
+                "Antece": "Kyle Lowry",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -257,13 +257,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 243,
+                "Rank": 234,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 87,
+                "Hoy": 1,
+                "Total": 88,
                 "Diff": "",
-                "Antece": "Cory Joseph",
+                "Antece": "Brent Barry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -275,9 +275,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1011,
-                "Diff": "232",
+                "Hoy": 6,
+                "Total": 1017,
+                "Diff": "226",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -335,9 +335,9 @@
                 "Rank": 14,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 189,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 190,
+                "Diff": "2",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -347,7 +347,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 185,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -365,9 +365,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 104,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 105,
+                "Diff": "4",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -377,7 +377,7 @@
                 "Stat": "AST",
                 "Hoy": 2,
                 "Total": 96,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -475,9 +475,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 107,
+                "Diff": "15",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -726,13 +726,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (25 points today) has passed Lamar Odom and is now ranked 154th all-time with 1,409 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778560486646904_2633_collage_1778560486547254.png"
-            ],
-            "timestamp": 1778560493
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (7 assists today) has passed Sidney Moncrief and Toni Kukoč and is now ranked 134th all-time with 318 in playoffs.",
             "foto": [
@@ -1425,6 +1418,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779063710698090_2749_collage_1779063710592220.png"
             ],
             "timestamp": 1779063718
+        },
+        {
+            "texto": "Dennis Schröder today surpasses Alton Lister, Cory Joseph, Jeff Teague, Keith Erickson, Luc Longley and Reggie Jackson and now ranked 234th all time with 88 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779064842651975_5183_collage_1779064842573366.png"
+            ],
+            "timestamp": 1779064850
         }
     ],
     "notificaciones_franchise": [
@@ -2129,7 +2129,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1568,
+    "total_notificaciones_historicas": 1569,
     "total_franchise_historicas": 833,
-    "cache_buster": 1779064747
+    "cache_buster": 1779064850
 }
