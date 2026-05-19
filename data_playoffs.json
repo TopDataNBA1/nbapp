@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:00:07",
+    "ultima_actualizacion": "03:03:21",
     "tablas": {
         "pts": [
             {
@@ -40,14 +40,14 @@
         ],
         "ast": [
             {
-                "Rank": 130,
+                "Rank": 128,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 321,
-                "Diff": "",
-                "Antece": "Mario Chalmers",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 322,
+                "Diff": "1",
+                "Antece": "Andrew Toney",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 302,
-                "Diff": "38",
+                "Hoy": 3,
+                "Total": 303,
+                "Diff": "37",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -426,13 +426,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Cason Wallace",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 41,
+                "Hoy": 1,
+                "Total": 42,
                 "Diff": "0",
-                "Antece": "Serge Ibaka",
+                "Antece": "Dale Ellis",
                 "game_status": "playing"
             },
             {
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaden McDaniels (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 233rd all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778636393565513_3870_collage_1778636393488232.png"
-            ],
-            "timestamp": 1778636401
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 210th all-time with 70 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152208524320_8560_collage_1779152208435326.png"
             ],
             "timestamp": 1779152217
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Marc Gasol and Mario Chalmers and is now ranked 128th all-time with 322 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152593813115_6696_collage_1779152593737604.png"
+            ],
+            "timestamp": 1779152601
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cade Cunningham (1 steal today) has passed Rick Mahorn and Chris Ford and is now ranked 21st in Pistons history with 22 in playoffs.",
-            "foto": [],
-            "timestamp": 1778553208,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Luguentz Dort (1 three-pointer today) becomes the 5th player to reach 100 three-pointers with Thunder in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779152217,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (1 three-pointer today) has passed Serge Ibaka and Thabo Sefolosha and is now ranked 16th in Thunder history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1779152601,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1587,
-    "total_franchise_historicas": 845,
-    "cache_buster": 1779152407
+    "total_notificaciones_historicas": 1588,
+    "total_franchise_historicas": 846,
+    "cache_buster": 1779152601
 }
