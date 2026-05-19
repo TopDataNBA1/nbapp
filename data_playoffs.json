@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:13:20",
+    "ultima_actualizacion": "05:16:35",
     "tablas": {
         "pts": [
             {
@@ -43,11 +43,11 @@
                 "Rank": 126,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 9,
-                "Total": 328,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 329,
+                "Diff": "1",
                 "Antece": "Derrick Rose",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -145,14 +145,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 152,
+                "Rank": 148,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 7,
-                "Total": 86,
-                "Diff": "1",
-                "Antece": "Seth Curry",
-                "Nota": "A tiro de 1",
+                "Hoy": 8,
+                "Total": 87,
+                "Diff": "",
+                "Antece": "Aaron Nesmith",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 309,
-                "Diff": "31",
+                "Hoy": 10,
+                "Total": 310,
+                "Diff": "30",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -389,9 +389,9 @@
                 "Rank": 9,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 7,
-                "Total": 57,
-                "Diff": "4",
+                "Hoy": 8,
+                "Total": 58,
+                "Diff": "3",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -401,7 +401,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 54,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (10 points today) has passed Mike Bibby and is now ranked 173rd all-time with 1,326 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720340311419_8020_collage_1778720340215451.png"
-            ],
-            "timestamp": 1778720348
-        },
         {
             "texto": "📢HOF🏛️ Dennis Schröder (3 assists today) has passed Alex English and is now ranked 151st all-time with 294 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160392900539_7815_collage_1779160392830341.png"
             ],
             "timestamp": 1779160400
+        },
+        {
+            "texto": "Alex Caruso (8 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160587724446_7510_collage_1779160587649934.png"
+            ],
+            "timestamp": 1779160595
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1608,
+    "total_notificaciones_historicas": 1609,
     "total_franchise_historicas": 856,
-    "cache_buster": 1779160400
+    "cache_buster": 1779160595
 }
