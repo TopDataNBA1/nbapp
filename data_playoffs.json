@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:18:59",
+    "ultima_actualizacion": "03:20:52",
     "tablas": {
         "pts": [
             {
@@ -40,14 +40,14 @@
         ],
         "ast": [
             {
-                "Rank": 128,
+                "Rank": 127,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 323,
-                "Diff": "",
-                "Antece": "Andrew Toney",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 324,
+                "Diff": "3",
+                "Antece": "Mark Price",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -159,11 +159,11 @@
                 "Rank": 160,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 82,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 83,
+                "Diff": "1",
                 "Antece": "Vernon Maxwell",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 304,
-                "Diff": "36",
+                "Hoy": 5,
+                "Total": 305,
+                "Diff": "35",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 11,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 53,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 54,
+                "Diff": "0",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -411,7 +411,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 52,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
@@ -520,20 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (14 points today) has passed A.C. Green and is now ranked 174th all-time with 1,316 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637157469007_7060_collage_1778637157353039.png"
-            ],
-            "timestamp": 1778637165
-        },
-        {
-            "texto": "Rudy Gobert (2 steals today) has passed Derrick White, Jeff Teague, Johnny Moore, Ricky Pierce and Shai Gilgeous-Alexander and is now ranked 206th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637165806745_8521_collage_1778637165731785.png"
-            ],
-            "timestamp": 1778637173
-        },
         {
             "texto": "Anthony Edwards (16 points today) has passed Tobias Harris and is now ranked 174th all-time with 1,318 in playoffs.",
             "foto": [
@@ -1219,6 +1205,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153528510722_3210_collage_1779153528426603.png"
             ],
             "timestamp": 1779153539
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (5 assists today) has passed Andrew Toney and is now ranked 127th all-time with 324 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153635180640_7888_collage_1779153635076135.png"
+            ],
+            "timestamp": 1779153643
+        },
+        {
+            "texto": "Alex Caruso (4 three-pointers today) has passed Iman Shumpert and is now ranked 160th all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153644177963_8700_collage_1779153644091396.png"
+            ],
+            "timestamp": 1779153652
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1589,
+    "total_notificaciones_historicas": 1591,
     "total_franchise_historicas": 847,
-    "cache_buster": 1779153539
+    "cache_buster": 1779153652
 }
