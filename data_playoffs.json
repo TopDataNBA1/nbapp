@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:20:32",
+    "ultima_actualizacion": "04:22:06",
     "tablas": {
         "pts": [
             {
@@ -43,9 +43,9 @@
                 "Rank": 127,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 324,
-                "Diff": "3",
+                "Hoy": 6,
+                "Total": 325,
+                "Diff": "2",
                 "Antece": "Mark Price",
                 "Nota": "",
                 "game_status": "playing"
@@ -146,9 +146,9 @@
             },
             {
                 "Rank": 155,
-                "Nombre": "Harrison Barnes",
-                "Team": "SAS",
-                "Hoy": 0,
+                "Nombre": "Alex Caruso",
+                "Team": "OKC",
+                "Hoy": 5,
                 "Total": 84,
                 "Diff": "1",
                 "Antece": "Myles Turner",
@@ -156,14 +156,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 160,
-                "Nombre": "Alex Caruso",
-                "Team": "OKC",
-                "Hoy": 4,
-                "Total": 83,
-                "Diff": "1",
-                "Antece": "Vernon Maxwell",
-                "Nota": "A tiro de 1",
+                "Rank": 156,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 0,
+                "Total": 84,
+                "Diff": "",
+                "Antece": "Alex Caruso",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -172,9 +172,9 @@
                 "Team": "OKC",
                 "Hoy": 2,
                 "Total": 83,
-                "Diff": "",
-                "Antece": "Alex Caruso",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Vernon Maxwell",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 305,
-                "Diff": "35",
+                "Hoy": 6,
+                "Total": 306,
+                "Diff": "34",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -387,22 +387,22 @@
             },
             {
                 "Rank": 9,
-                "Nombre": "Jalen Williams",
+                "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 55,
+                "Diff": "6",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
-                "Nombre": "Alex Caruso",
+                "Rank": 10,
+                "Nombre": "Jalen Williams",
                 "Stat": "3PM",
-                "Hoy": 4,
+                "Hoy": 0,
                 "Total": 54,
-                "Diff": "0",
-                "Antece": "Derek Fisher",
+                "Diff": "1",
+                "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
             {
@@ -412,7 +412,7 @@
                 "Hoy": 2,
                 "Total": 54,
                 "Diff": "0",
-                "Antece": "Alex Caruso",
+                "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
             {
@@ -1223,13 +1223,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Chet Holmgren (16 points today) has passed John Johnson and is now ranked 15th in Thunder history with 654 in playoffs.",
-            "foto": [],
-            "timestamp": 1778562978,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
             "texto": "Chet Holmgren (9 rebounds today) has passed Nate McMillan and is now ranked 13th in Thunder history with 344 in playoffs.",
             "foto": [],
             "timestamp": 1778563447,
@@ -1921,9 +1914,16 @@
             "timestamp": 1779156304,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Alex Caruso (5 three-pointers today) has passed Jalen Williams and Derek Fisher and is now ranked 9th in Thunder history with 55 in playoffs.",
+            "foto": [],
+            "timestamp": 1779157326,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1598,
-    "total_franchise_historicas": 851,
-    "cache_buster": 1779157232
+    "total_franchise_historicas": 852,
+    "cache_buster": 1779157326
 }
