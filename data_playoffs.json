@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:50:17",
+    "ultima_actualizacion": "02:55:04",
     "tablas": {
         "pts": [
             {
-                "Rank": 153,
+                "Rank": 152,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 1419,
-                "Diff": "1",
-                "Antece": "Carlos Boozer",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 1421,
+                "Diff": "2",
+                "Antece": "Dominique Wilkins",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1337,
-                "Diff": "49",
+                "Hoy": 2,
+                "Total": 1339,
+                "Diff": "47",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -249,9 +249,9 @@
                 "Rank": 20,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 256,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 257,
+                "Diff": "4",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaden McDaniels (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 234th all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778633674355681_5357_collage_1778633674281691.png"
-            ],
-            "timestamp": 1778633681
-        },
         {
             "texto": "📢HOF🏛️ Anthony Edwards (1 assist today) has passed Dave DeBusschere and is now ranked 183rd all-time with 254 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151809453713_6798_collage_1779151809358743.png"
             ],
             "timestamp": 1779151817
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 points today) has passed Carlos Boozer and is now ranked 152nd all-time with 1,421 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152096314816_6815_collage_1779152096220085.png"
+            ],
+            "timestamp": 1779152104
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Tobias Harris (16 points today) has passed Walter Dukes and is now ranked 22nd in Pistons history with 381 in playoffs.",
-            "foto": [],
-            "timestamp": 1778552641,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus (4 rebounds today) has passed Timofey Mozgov and is now ranked 16th in Cavaliers history with 168 in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779151129,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 rebound today) has passed Michael Cage and is now ranked 20th in Thunder history with 257 in playoffs.",
+            "foto": [],
+            "timestamp": 1779152104,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1584,
-    "total_franchise_historicas": 843,
-    "cache_buster": 1779151817
+    "total_notificaciones_historicas": 1585,
+    "total_franchise_historicas": 844,
+    "cache_buster": 1779152104
 }
