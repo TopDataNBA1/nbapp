@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:19:53",
+    "ultima_actualizacion": "05:27:41",
     "tablas": {
         "pts": [
             {
@@ -88,13 +88,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 169,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 52,
+                "Hoy": 1,
+                "Total": 53,
                 "Diff": "",
-                "Antece": "Nazr Mohammed",
+                "Antece": "Kyrie Irving",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -359,9 +359,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "1",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Clyde Drexler and is now ranked 52nd all-time with 1,003 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721196779234_8856_collage_1778721196689246.png"
-            ],
-            "timestamp": 1778721205
-        },
         {
             "texto": "Donovan Mitchell (1 assist today) has passed Paul Silas and Robert Reid and is now ranked 120th all-time with 336 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160785099987_9475_collage_1779160785012475.png"
             ],
             "timestamp": 1779160793
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 169th all-time with 53 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161253249467_8666_collage_1779161253150191.png"
+            ],
+            "timestamp": 1779161261
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1610,
+    "total_notificaciones_historicas": 1611,
     "total_franchise_historicas": 856,
-    "cache_buster": 1779160793
+    "cache_buster": 1779161261
 }
