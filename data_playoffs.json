@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:33:16",
+    "ultima_actualizacion": "04:42:35",
     "tablas": {
         "pts": [
             {
-                "Rank": 151,
+                "Rank": 150,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 12,
-                "Total": 1431,
-                "Diff": "1",
-                "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 1",
+                "Hoy": 14,
+                "Total": 1433,
+                "Diff": "8",
+                "Antece": "Kenyon Martin",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 1349,
-                "Diff": "37",
+                "Hoy": 14,
+                "Total": 1351,
+                "Diff": "35",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -478,13 +478,13 @@
         ],
         "SAS": [
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 42,
-                "Diff": "0",
-                "Antece": "Artis Gilmore",
+                "Hoy": 2,
+                "Total": 43,
+                "Diff": "9",
+                "Antece": "Mike Green",
                 "game_status": "playing"
             },
             {
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (1 steal today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 184th all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717833688226_8941_collage_1778717833590271.png"
-            ],
-            "timestamp": 1778717841
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses Robert Parish and now ranked 15th all time with 185 games in playoffs",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779157988395376_5149_collage_1779157988305224.png"
             ],
             "timestamp": 1779157996
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (14 points today) has passed Detlef Schrempf and is now ranked 150th all-time with 1,433 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779158547608219_3715_collage_1779158547497954.png"
+            ],
+            "timestamp": 1779158555
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ 📢HOF🏛️ Jaden McDaniels today surpasses Kevin Garnett and is now ranked 2nd in Timberwolves history with 48 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778631453,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Julius Randle today surpasses Kyle Anderson and is now ranked 11th in Timberwolves history with 26 games in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779157422,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Victor Wembanyama (2 blocks today) has passed Artis Gilmore and is now ranked 10th in Spurs history with 43 in playoffs.",
+            "foto": [],
+            "timestamp": 1779158555,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1600,
-    "total_franchise_historicas": 853,
-    "cache_buster": 1779157996
+    "total_notificaciones_historicas": 1601,
+    "total_franchise_historicas": 854,
+    "cache_buster": 1779158555
 }
