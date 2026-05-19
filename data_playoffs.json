@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:40",
+    "ultima_actualizacion": "03:18:59",
     "tablas": {
         "pts": [
             {
@@ -43,11 +43,11 @@
                 "Rank": 128,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 322,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 323,
+                "Diff": "",
                 "Antece": "Andrew Toney",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -156,14 +156,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 161,
+                "Rank": 160,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 81,
-                "Diff": "1",
-                "Antece": "Iman Shumpert",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 82,
+                "Diff": "2",
+                "Antece": "Vernon Maxwell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 303,
-                "Diff": "37",
+                "Hoy": 4,
+                "Total": 304,
+                "Diff": "36",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -397,22 +397,22 @@
             },
             {
                 "Rank": 11,
-                "Nombre": "Chet Holmgren",
+                "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 52,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 53,
+                "Diff": "1",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
             {
                 "Rank": 12,
-                "Nombre": "Alex Caruso",
+                "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
-                "Hoy": 2,
+                "Hoy": 0,
                 "Total": 52,
-                "Diff": "0",
-                "Antece": "Chet Holmgren",
+                "Diff": "1",
+                "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
             {
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 210th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778636682562069_1860_collage_1778636682476733.png"
-            ],
-            "timestamp": 1778636691
-        },
         {
             "texto": "Anthony Edwards (14 points today) has passed A.C. Green and is now ranked 174th all-time with 1,316 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152593813115_6696_collage_1779152593737604.png"
             ],
             "timestamp": 1779152601
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (3 three-pointers today) has passed Isiah Thomas, Jason Williams, Raja Bell, Royce O'Neale, Rui Hachimura and Shai Gilgeous-Alexander and is now ranked 160th all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153528510722_3210_collage_1779153528426603.png"
+            ],
+            "timestamp": 1779153539
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Luguentz Dort (1 three-pointer today) becomes the 5th player to reach 100 three-pointers with Thunder in playoffs.",
-            "foto": [],
-            "timestamp": 1778554166,
-            "team": "OKC",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Luguentz Dort today surpasses Michael Cage and is now ranked 22nd in Thunder history with 47 games in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779152601,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Chet Holmgren and is now ranked 11th in Thunder history with 53 in playoffs.",
+            "foto": [],
+            "timestamp": 1779153539,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1588,
-    "total_franchise_historicas": 846,
-    "cache_buster": 1779153160
+    "total_notificaciones_historicas": 1589,
+    "total_franchise_historicas": 847,
+    "cache_buster": 1779153539
 }
