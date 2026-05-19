@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:42:08",
+    "ultima_actualizacion": "02:43:59",
     "tablas": {
         "pts": [
             {
@@ -40,13 +40,13 @@
         ],
         "ast": [
             {
-                "Rank": 134,
+                "Rank": 131,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 319,
+                "Hoy": 1,
+                "Total": 320,
                 "Diff": "",
-                "Antece": "Derrick McKey",
+                "Antece": "Alvan Adams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -167,13 +167,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 168,
+                "Rank": 167,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 79,
+                "Hoy": 1,
+                "Total": 80,
                 "Diff": "1",
-                "Antece": "Larry Bird",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 300,
-                "Diff": "40",
+                "Hoy": 1,
+                "Total": 301,
+                "Diff": "39",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -419,9 +419,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
@@ -491,9 +491,9 @@
                 "Rank": 21,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 28,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 29,
+                "Diff": "0",
                 "Antece": "Antonio Daniels",
                 "game_status": "playing"
             },
@@ -503,7 +503,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 23,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Julian Champagnie",
                 "game_status": "playing"
             },
@@ -520,20 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mike Conley (5 points today) has passed Dick Barnett and is now ranked 124th all-time with 1,542 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632534747930_9537_collage_1778632534656936.png"
-            ],
-            "timestamp": 1778632542
-        },
-        {
-            "texto": "📢🔝💯 Mike Conley (1 three-pointer today) has passed Dan Majerle and Duncan Robinson and is now ranked 42nd all-time with 182 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632542333535_3783_collage_1778632542260498.png"
-            ],
-            "timestamp": 1778632549
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Mike Conley (2 assists today) has passed Wilt Chamberlain and is now ranked 38th all-time with 674 in playoffs.",
             "foto": [
@@ -1219,6 +1205,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151225723608_6710_collage_1779151225645645.png"
             ],
             "timestamp": 1779151233
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 assist today) has passed Chris Childs and Derrick McKey and is now ranked 131st all-time with 320 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151423347784_5993_collage_1779151423269234.png"
+            ],
+            "timestamp": 1779151430
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 167th all-time with 80 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151431091304_5607_collage_1779151431016329.png"
+            ],
+            "timestamp": 1779151439
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1581,
+    "total_notificaciones_historicas": 1583,
     "total_franchise_historicas": 843,
-    "cache_buster": 1779151328
+    "cache_buster": 1779151439
 }
