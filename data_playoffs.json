@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:20:52",
+    "ultima_actualizacion": "03:22:36",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 210,
+                "Rank": 204,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 46,
+                "Hoy": 1,
+                "Total": 47,
                 "Diff": "",
-                "Antece": "A.C. Green",
+                "Antece": "Danny Schayes",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (16 points today) has passed Tobias Harris and is now ranked 174th all-time with 1,318 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637269190500_7861_collage_1778637269098530.png"
-            ],
-            "timestamp": 1778637277
-        },
         {
             "texto": "Rudy Gobert (4 points today) has passed Cedric Maxwell and is now ranked 216th all-time with 1,117 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153644177963_8700_collage_1779153644091396.png"
             ],
             "timestamp": 1779153652
+        },
+        {
+            "texto": "Isaiah Hartenstein (1 block today) has passed A.C. Green, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 204th all-time with 47 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153748456158_3716_collage_1779153748359572.png"
+            ],
+            "timestamp": 1779153756
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1591,
+    "total_notificaciones_historicas": 1592,
     "total_franchise_historicas": 847,
-    "cache_buster": 1779153652
+    "cache_buster": 1779153756
 }
