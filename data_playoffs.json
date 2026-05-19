@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:18:10",
+    "ultima_actualizacion": "05:19:53",
     "tablas": {
         "pts": [
             {
-                "Rank": 150,
+                "Rank": 148,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 22,
-                "Total": 1441,
-                "Diff": "",
-                "Antece": "Kenyon Martin",
-                "Nota": "Mismo total",
+                "Hoy": 24,
+                "Total": 1443,
+                "Diff": "3",
+                "Antece": "Bill Sharman",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1359,
-                "Diff": "27",
+                "Hoy": 24,
+                "Total": 1361,
+                "Diff": "25",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder (3 assists today) has passed Alex English and is now ranked 151st all-time with 294 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720632172402_7700_collage_1778720632082433.png"
-            ],
-            "timestamp": 1778720639
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ James Harden (2 rebounds today) has passed Clyde Drexler and is now ranked 52nd all-time with 1,003 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160587724446_7510_collage_1779160587649934.png"
             ],
             "timestamp": 1779160595
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (24 points today) has passed Dan Majerle and Kenyon Martin and is now ranked 148th all-time with 1,443 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160785099987_9475_collage_1779160785012475.png"
+            ],
+            "timestamp": 1779160793
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1609,
+    "total_notificaciones_historicas": 1610,
     "total_franchise_historicas": 856,
-    "cache_buster": 1779160690
+    "cache_buster": 1779160793
 }
