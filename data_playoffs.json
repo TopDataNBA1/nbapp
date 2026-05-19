@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:43:59",
+    "ultima_actualizacion": "02:50:17",
     "tablas": {
         "pts": [
             {
@@ -53,13 +53,13 @@
         ],
         "stl": [
             {
-                "Rank": 150,
+                "Rank": 148,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 86,
+                "Hoy": 1,
+                "Total": 87,
                 "Diff": "1",
-                "Antece": "Richard Jefferson",
+                "Antece": "Walter Davis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -309,9 +309,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 57,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 58,
+                "Diff": "0",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Mike Conley (2 assists today) has passed Wilt Chamberlain and is now ranked 38th all-time with 674 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632737127454_9051_collage_1778632737044682.png"
-            ],
-            "timestamp": 1778632745
-        },
         {
             "texto": "Jaden McDaniels (1 three-pointer today) has passed Antawn Jamison, Jon Barry, Lance Stephenson, Robert Covington and Victor Oladipo and is now ranked 234th all-time with 61 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151431091304_5607_collage_1779151431016329.png"
             ],
             "timestamp": 1779151439
+        },
+        {
+            "texto": "Alex Caruso (1 steal today) has passed Pascal Siakam and is now ranked 148th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151809453713_6798_collage_1779151809358743.png"
+            ],
+            "timestamp": 1779151817
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1583,
+    "total_notificaciones_historicas": 1584,
     "total_franchise_historicas": 843,
-    "cache_buster": 1779151439
+    "cache_buster": 1779151817
 }
