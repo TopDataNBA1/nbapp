@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:48:48",
+    "ultima_actualizacion": "04:52:02",
     "tablas": {
         "pts": [
             {
@@ -43,11 +43,11 @@
                 "Rank": 127,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 7,
-                "Total": 326,
-                "Diff": "1",
+                "Hoy": 8,
+                "Total": 327,
+                "Diff": "",
                 "Antece": "Mark Price",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -77,14 +77,14 @@
         ],
         "blk": [
             {
-                "Rank": 110,
+                "Rank": 109,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 82,
-                "Diff": "1",
-                "Antece": "P.J. Brown",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 83,
+                "Diff": "",
+                "Antece": "Bill Walton",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 307,
-                "Diff": "33",
+                "Hoy": 8,
+                "Total": 308,
+                "Diff": "32",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -349,9 +349,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 82,
-                "Diff": "18",
+                "Hoy": 1,
+                "Total": 83,
+                "Diff": "17",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses Robert Parish and now ranked 15th all time with 185 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717842107992_5640_collage_1778717842023020.png"
-            ],
-            "timestamp": 1778717850
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Paul Pierce and is now ranked 72nd all-time with 106 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779158547608219_3715_collage_1779158547497954.png"
             ],
             "timestamp": 1779158555
+        },
+        {
+            "texto": "Chet Holmgren (1 block today) has passed Ervin Johnson and Thurl Bailey and is now ranked 109th all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159114304645_6987_collage_1779159114210733.png"
+            ],
+            "timestamp": 1779159122
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1601,
+    "total_notificaciones_historicas": 1602,
     "total_franchise_historicas": 854,
-    "cache_buster": 1779158928
+    "cache_buster": 1779159122
 }
