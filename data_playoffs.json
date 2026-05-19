@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:57:13",
+    "ultima_actualizacion": "03:58:56",
     "tablas": {
         "pts": [
             {
@@ -134,13 +134,13 @@
         ],
         "fg3": [
             {
-                "Rank": 120,
+                "Rank": 117,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 101,
+                "Hoy": 1,
+                "Total": 102,
                 "Diff": "",
-                "Antece": "Hedo Türkoğlu",
+                "Antece": "Brent Barry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -279,9 +279,9 @@
                 "Rank": 10,
                 "Nombre": "Jalen Williams",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 177,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 178,
+                "Diff": "15",
                 "Antece": "Fred Brown",
                 "game_status": "playing"
             },
@@ -369,9 +369,9 @@
                 "Rank": 5,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 101,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 102,
+                "Diff": "0",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (20 points today) has passed A.C. Green, Anfernee Hardaway and Tobias Harris and is now ranked 174th all-time with 1,322 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778646506549846_2147_collage_1778646506487346.png"
-            ],
-            "timestamp": 1778646513
-        },
         {
             "texto": "📢HOF🏛️ Rudy Gobert (2 steals today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, Derrick White, George Gervin, Jeff Teague, Johnny Moore, Rashard Lewis, Ricky Pierce and Shai Gilgeous-Alexander and is now ranked 206th all-time with 71 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779155825167084_9957_collage_1779155825091148.png"
             ],
             "timestamp": 1779155832
+        },
+        {
+            "texto": "📢HOF🏛️ Luguentz Dort (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 117th all-time with 102 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779155928810351_9617_collage_1779155928736252.png"
+            ],
+            "timestamp": 1779155936
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1596,
+    "total_notificaciones_historicas": 1597,
     "total_franchise_historicas": 850,
-    "cache_buster": 1779155833
+    "cache_buster": 1779155936
 }
