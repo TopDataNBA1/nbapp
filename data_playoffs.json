@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:28:19",
+    "ultima_actualizacion": "04:31:33",
     "tablas": {
         "pts": [
             {
                 "Rank": 151,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 10,
-                "Total": 1429,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 1431,
+                "Diff": "1",
                 "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -43,11 +43,11 @@
                 "Rank": 127,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 6,
-                "Total": 325,
-                "Diff": "2",
+                "Hoy": 7,
+                "Total": 326,
+                "Diff": "1",
                 "Antece": "Mark Price",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -145,13 +145,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 155,
+                "Rank": 154,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 84,
+                "Hoy": 6,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Myles Turner",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -161,9 +161,9 @@
                 "Team": "SAS",
                 "Hoy": 0,
                 "Total": 84,
-                "Diff": "",
-                "Antece": "Alex Caruso",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Myles Turner",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -209,9 +209,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 1347,
-                "Diff": "39",
+                "Hoy": 12,
+                "Total": 1349,
+                "Diff": "37",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 306,
-                "Diff": "34",
+                "Hoy": 7,
+                "Total": 307,
+                "Diff": "33",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -389,9 +389,9 @@
                 "Rank": 9,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 5,
-                "Total": 55,
-                "Diff": "6",
+                "Hoy": 6,
+                "Total": 56,
+                "Diff": "5",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -401,7 +401,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 54,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (3 three-pointers today) has passed Al-Farouq Aminu, Andrew Nembhard, Austin Reaves, Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Joel Embiid, Jordan Clarkson, Malcolm Brogdon, Miles McBride, Richard Hamilton, Shawn Marion and Trae Young and is now ranked 192nd all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778646522299898_8734_collage_1778646522190523.png"
-            ],
-            "timestamp": 1778646530
-        },
         {
             "texto": "Jaden McDaniels (3 three-pointers today) has passed Antawn Jamison, Giannis Antetokounmpo, Jon Barry, Lance Stephenson, Latrell Sprewell, Nikola Mirotić, Obi Toppin, Robert Covington and Victor Oladipo and is now ranked 227th all-time with 63 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779157224289486_8529_collage_1779157224202365.png"
             ],
             "timestamp": 1779157231
+        },
+        {
+            "texto": "Alex Caruso (6 three-pointers today) has passed Harrison Barnes, Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 154th all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779157885634965_7336_collage_1779157885551267.png"
+            ],
+            "timestamp": 1779157892
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1598,
+    "total_notificaciones_historicas": 1599,
     "total_franchise_historicas": 853,
-    "cache_buster": 1779157699
+    "cache_buster": 1779157893
 }
