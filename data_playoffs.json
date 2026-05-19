@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:38:16",
+    "ultima_actualizacion": "03:50:36",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 207,
+                "Rank": 203,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 71,
+                "Hoy": 2,
+                "Total": 72,
                 "Diff": "",
-                "Antece": "Rudy Gobert",
+                "Antece": "Nick Anderson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -296,13 +296,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "0",
-                "Antece": "Jack Sikma",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "7",
+                "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
             {
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (3 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 192nd all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778638403707044_5378_collage_1778638403613087.png"
-            ],
-            "timestamp": 1778638411
-        },
         {
             "texto": "Jaden McDaniels (3 three-pointers today) has passed Giannis Antetokounmpo and Latrell Sprewell and is now ranked 227th all-time with 63 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153851754309_7712_collage_1779153851659798.png"
             ],
             "timestamp": 1779153862
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 203rd all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779155429568085_2995_collage_1779155429497111.png"
+            ],
+            "timestamp": 1779155436
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Luguentz Dort today surpasses Michael Cage and is now ranked 22nd in Thunder history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778554166,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Austin Reaves (2 three-pointers today) has passed Rui Hachimura and is now ranked 8th in Lakers history with 69 in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779153539,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Jack Sikma and is now ranked 11th in Thunder history with 66 in playoffs.",
+            "foto": [],
+            "timestamp": 1779155436,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1593,
-    "total_franchise_historicas": 847,
-    "cache_buster": 1779154696
+    "total_notificaciones_historicas": 1594,
+    "total_franchise_historicas": 848,
+    "cache_buster": 1779155436
 }
