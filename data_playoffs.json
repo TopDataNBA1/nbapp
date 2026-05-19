@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:49",
+    "ultima_actualizacion": "02:40:33",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 211,
+                "Rank": 207,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 70,
+                "Hoy": 1,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Ricky Pierce",
+                "Antece": "Rudy Gobert",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -299,9 +299,9 @@
                 "Rank": 12,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "0",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -459,9 +459,9 @@
                 "Rank": 21,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "1",
                 "Antece": "Derek Fisher",
                 "game_status": "playing"
             },
@@ -471,7 +471,7 @@
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 47,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             }
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (1 three-pointer today) has passed Andrew Nembhard and is now ranked 204th all-time with 70 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778632335831560_3759_collage_1778632335742389.png"
-            ],
-            "timestamp": 1778632343
-        },
         {
             "texto": "📢HOF🏛️ Mike Conley (5 points today) has passed Dick Barnett and is now ranked 124th all-time with 1,542 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779071667194436_8279_collage_1779071667126191.png"
             ],
             "timestamp": 1779071674
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed Derrick White, Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 207th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779151225723608_6710_collage_1779151225645645.png"
+            ],
+            "timestamp": 1779151233
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1580,
+    "total_notificaciones_historicas": 1581,
     "total_franchise_historicas": 843,
-    "cache_buster": 1779151129
+    "cache_buster": 1779151233
 }
