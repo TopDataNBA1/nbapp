@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:55:04",
+    "ultima_actualizacion": "02:56:57",
     "tablas": {
         "pts": [
             {
@@ -40,13 +40,13 @@
         ],
         "ast": [
             {
-                "Rank": 131,
+                "Rank": 130,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 320,
+                "Hoy": 2,
+                "Total": 321,
                 "Diff": "",
-                "Antece": "Alvan Adams",
+                "Antece": "Mario Chalmers",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -156,7 +156,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 161,
+                "Nombre": "Alex Caruso",
+                "Team": "OKC",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "1",
+                "Antece": "Iman Shumpert",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 167,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
                 "Hoy": 0,
@@ -164,17 +175,6 @@
                 "Diff": "",
                 "Antece": "Rui Hachimura",
                 "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 167,
-                "Nombre": "Alex Caruso",
-                "Team": "OKC",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "1",
-                "Antece": "Shai Gilgeous-Alexander",
-                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -239,9 +239,9 @@
                 "Rank": 13,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 345,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 346,
+                "Diff": "1",
                 "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 301,
-                "Diff": "39",
+                "Hoy": 2,
+                "Total": 302,
+                "Diff": "38",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -406,23 +406,23 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
+                "Nombre": "Alex Caruso",
+                "Stat": "3PM",
+                "Hoy": 2,
+                "Total": 52,
+                "Diff": "0",
+                "Antece": "Chet Holmgren",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 14,
                 "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 51,
                 "Diff": "0",
                 "Antece": "Detlef Schrempf",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 14,
-                "Nombre": "Alex Caruso",
-                "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -469,9 +469,9 @@
                 "Rank": 22,
                 "Nombre": "Luguentz Dort",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "1",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             }
@@ -520,20 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Anthony Edwards (1 assist today) has passed Dave DeBusschere and is now ranked 183rd all-time with 254 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778634707957541_1847_collage_1778634707852480.png"
-            ],
-            "timestamp": 1778634715
-        },
-        {
-            "texto": "Naz Reid (2 three-pointers today) has passed Al-Farouq Aminu, Austin Reaves, Joel Embiid, Miles McBride and Trae Young and is now ranked 198th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778634906218483_7095_collage_1778634906132512.png"
-            ],
-            "timestamp": 1778634914
-        },
         {
             "texto": "Jaden McDaniels (2 three-pointers today) has passed Nikola Mirotić and Obi Toppin and is now ranked 233rd all-time with 62 in playoffs.",
             "foto": [
@@ -1219,16 +1205,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152096314816_6815_collage_1779152096220085.png"
             ],
             "timestamp": 1779152104
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 assists today) has passed Alvan Adams and Tyrese Haliburton and is now ranked 130th all-time with 321 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152200647331_5828_collage_1779152200572437.png"
+            ],
+            "timestamp": 1779152208
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (2 three-pointers today) has passed Larry Bird and is now ranked 161st all-time with 81 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152208524320_8560_collage_1779152208435326.png"
+            ],
+            "timestamp": 1779152217
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Max Strus (4 rebounds today) has passed Timofey Mozgov and is now ranked 16th in Cavaliers history with 168 in playoffs.",
-            "foto": [],
-            "timestamp": 1778553113,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (1 steal today) has passed Rick Mahorn and Chris Ford and is now ranked 21st in Pistons history with 22 in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779152104,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 three-pointers today) has passed Detlef Schrempf and Isaiah Joe and is now ranked 12th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1779152217,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1585,
-    "total_franchise_historicas": 844,
-    "cache_buster": 1779152104
+    "total_notificaciones_historicas": 1587,
+    "total_franchise_historicas": 845,
+    "cache_buster": 1779152217
 }
