@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:06:49",
+    "ultima_actualizacion": "05:08:31",
     "tablas": {
         "pts": [
             {
@@ -77,14 +77,14 @@
         ],
         "blk": [
             {
-                "Rank": 109,
+                "Rank": 106,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 83,
-                "Diff": "",
-                "Antece": "Bill Walton",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 84,
+                "Diff": "1",
+                "Antece": "Zydrunas Ilgauskas",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -349,9 +349,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 83,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 84,
+                "Diff": "16",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jarrett Allen (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Jaden McDaniels, Mikal Bridges, Nenê and Paul Pressey and is now ranked 185th all-time with 50 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778718737680526_5943_collage_1778718737578548.png"
-            ],
-            "timestamp": 1778718745
-        },
         {
             "texto": "Tobias Harris (8 points today) has passed Anthony Edwards and is now ranked 174th all-time with 1,324 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159446181059_5467_collage_1779159446080038.png"
             ],
             "timestamp": 1779159454
+        },
+        {
+            "texto": "📢HOF🏛️ Chet Holmgren (2 blocks today) has passed Bill Laimbeer, Bill Walton and P.J. Brown and is now ranked 106th all-time with 84 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160104457264_3105_collage_1779160104392986.png"
+            ],
+            "timestamp": 1779160111
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1606,
+    "total_notificaciones_historicas": 1607,
     "total_franchise_historicas": 855,
-    "cache_buster": 1779160009
+    "cache_buster": 1779160111
 }
