@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:32:22",
+    "ultima_actualizacion": "05:37:19",
     "tablas": {
         "pts": [
             {
@@ -40,14 +40,14 @@
         ],
         "ast": [
             {
-                "Rank": 126,
+                "Rank": 125,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 11,
-                "Total": 330,
-                "Diff": "",
-                "Antece": "Derrick Rose",
-                "Nota": "Mismo total",
+                "Hoy": 12,
+                "Total": 331,
+                "Diff": "2",
+                "Antece": "Gail Goodrich",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -219,9 +219,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Williams",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 743,
-                "Diff": "47",
+                "Hoy": 26,
+                "Total": 746,
+                "Diff": "44",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -269,9 +269,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 11,
-                "Total": 311,
-                "Diff": "29",
+                "Hoy": 12,
+                "Total": 312,
+                "Diff": "28",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 10,
                 "Nombre": "Jalen Williams",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 55,
+                "Diff": "3",
                 "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (1 assist today) has passed Paul Silas and Robert Reid and is now ranked 120th all-time with 336 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721395513062_9640_collage_1778721395435088.png"
-            ],
-            "timestamp": 1778721402
-        },
         {
             "texto": "Evan Mobley (1 block today) has passed Derrick Coleman and is now ranked 150th all-time with 60 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161253249467_8666_collage_1779161253150191.png"
             ],
             "timestamp": 1779161261
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (12 assists today) has passed Derrick Rose and is now ranked 125th all-time with 331 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161820100322_2574_collage_1779161820004963.png"
+            ],
+            "timestamp": 1779161838
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Mike Conley (5 points today) has passed Wally Szczerbiak and is now ranked 8th in Timberwolves history with 371 in playoffs.",
-            "foto": [],
-            "timestamp": 1778632549,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (4 points today) has passed Stephon Marbury and is now ranked 19th in Timberwolves history with 134 in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779161542,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jalen Williams (1 three-pointer today) has passed Derek Fisher and is now ranked 10th in Thunder history with 55 in playoffs.",
+            "foto": [],
+            "timestamp": 1779161839,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1611,
-    "total_franchise_historicas": 858,
-    "cache_buster": 1779161542
+    "total_notificaciones_historicas": 1612,
+    "total_franchise_historicas": 859,
+    "cache_buster": 1779161839
 }
