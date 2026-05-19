@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:22:36",
+    "ultima_actualizacion": "03:24:22",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 201,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 47,
+                "Hoy": 2,
+                "Total": 48,
                 "Diff": "",
-                "Antece": "Danny Schayes",
+                "Antece": "Arvydas Sabonis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -239,9 +239,9 @@
                 "Rank": 13,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 346,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 347,
+                "Diff": "0",
                 "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Rudy Gobert (4 points today) has passed Cedric Maxwell and is now ranked 216th all-time with 1,117 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778637655492569_3959_collage_1778637655384237.png"
-            ],
-            "timestamp": 1778637663
-        },
         {
             "texto": "Naz Reid (3 three-pointers today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Jordan Clarkson, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 192nd all-time with 72 in playoffs.",
             "foto": [
@@ -1219,6 +1212,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153748456158_3716_collage_1779153748359572.png"
             ],
             "timestamp": 1779153756
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (2 blocks today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 201st all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153851754309_7712_collage_1779153851659798.png"
+            ],
+            "timestamp": 1779153862
         }
     ],
     "notificaciones_franchise": [
@@ -1923,7 +1923,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1592,
+    "total_notificaciones_historicas": 1593,
     "total_franchise_historicas": 847,
-    "cache_buster": 1779153756
+    "cache_buster": 1779153862
 }
