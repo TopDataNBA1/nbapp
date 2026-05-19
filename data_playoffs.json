@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:52:02",
+    "ultima_actualizacion": "04:53:46",
     "tablas": {
         "pts": [
             {
                 "Rank": 150,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 16,
-                "Total": 1435,
-                "Diff": "6",
+                "Hoy": 18,
+                "Total": 1437,
+                "Diff": "4",
                 "Antece": "Kenyon Martin",
                 "Nota": "",
                 "game_status": "playing"
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 192,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 73,
+                "Hoy": 4,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Sedale Threatt",
+                "Antece": "Lou Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -209,9 +209,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1353,
-                "Diff": "33",
+                "Hoy": 18,
+                "Total": 1355,
+                "Diff": "31",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -299,9 +299,9 @@
                 "Rank": 11,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 67,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 68,
+                "Diff": "5",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -499,34 +499,27 @@
             },
             {
                 "Rank": 22,
-                "Nombre": "Stephon Castle",
+                "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 23,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 24,
+                "Diff": "5",
                 "Antece": "Antonio Daniels",
                 "game_status": "playing"
             },
             {
                 "Rank": 23,
-                "Nombre": "Devin Vassell",
+                "Nombre": "Stephon Castle",
                 "Stat": "3PM",
-                "Hoy": 2,
+                "Hoy": 1,
                 "Total": 23,
-                "Diff": "0",
-                "Antece": "Stephon Castle",
+                "Diff": "1",
+                "Antece": "Devin Vassell",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Paul Pierce and is now ranked 72nd all-time with 106 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778717946571895_4363_collage_1778717946486906.png"
-            ],
-            "timestamp": 1778717954
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (1 point today) has passed Moses Malone and is now ranked 63rd all-time with 2,078 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159114304645_6987_collage_1779159114210733.png"
             ],
             "timestamp": 1779159122
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (4 steals today) has passed Caron Butler, Chris Bosh, Dominique Wilkins, Latrell Sprewell and Sedale Threatt and is now ranked 192nd all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159217653970_4169_collage_1779159217569307.png"
+            ],
+            "timestamp": 1779159225
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Julius Randle today surpasses Kyle Anderson and is now ranked 11th in Timberwolves history with 26 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778631453,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 46 games in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779158555,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Devin Vassell (3 three-pointers today) has passed Stephon Castle and is now ranked 22nd in Spurs history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1779159225,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1602,
-    "total_franchise_historicas": 854,
-    "cache_buster": 1779159122
+    "total_notificaciones_historicas": 1603,
+    "total_franchise_historicas": 855,
+    "cache_buster": 1779159226
 }
