@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:11:38",
+    "ultima_actualizacion": "05:13:20",
     "tablas": {
         "pts": [
             {
@@ -53,13 +53,13 @@
         ],
         "stl": [
             {
-                "Rank": 148,
+                "Rank": 144,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 87,
+                "Hoy": 2,
+                "Total": 88,
                 "Diff": "1",
-                "Antece": "Walter Davis",
+                "Antece": "Paul Westphal",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -239,9 +239,9 @@
                 "Rank": 11,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 352,
-                "Diff": "8",
+                "Hoy": 7,
+                "Total": 351,
+                "Diff": "9",
                 "Antece": "Paul Silas",
                 "game_status": "playing"
             },
@@ -306,13 +306,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 58,
-                "Diff": "0",
-                "Antece": "James Harden",
+                "Hoy": 2,
+                "Total": 59,
+                "Diff": "6",
+                "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
             {
@@ -520,13 +520,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (8 points today) has passed Anthony Edwards and is now ranked 174th all-time with 1,324 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778720051181825_4774_collage_1778720051087856.png"
-            ],
-            "timestamp": 1778720059
-        },
         {
             "texto": "Tobias Harris (10 points today) has passed Mike Bibby and is now ranked 173rd all-time with 1,326 in playoffs.",
             "foto": [
@@ -1219,16 +1212,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160104457264_3105_collage_1779160104392986.png"
             ],
             "timestamp": 1779160111
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Kerry Kittles and Richard Jefferson and is now ranked 144th all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160392900539_7815_collage_1779160392830341.png"
+            ],
+            "timestamp": 1779160400
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 46 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778631751,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Julian Champagnie (1 three-pointer today) has passed Terry Porter and is now ranked 21st in Spurs history with 23 in playoffs.",
             "foto": [],
@@ -1921,9 +1914,16 @@
             "timestamp": 1779159225,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed James Harden and is now ranked 13th in Thunder history with 59 in playoffs.",
+            "foto": [],
+            "timestamp": 1779160400,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1607,
-    "total_franchise_historicas": 855,
-    "cache_buster": 1779160298
+    "total_notificaciones_historicas": 1608,
+    "total_franchise_historicas": 856,
+    "cache_buster": 1779160400
 }
