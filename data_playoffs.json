@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:24:14",
+    "ultima_actualizacion": "02:26:05",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
         ],
         "trb": [
             {
-                "Rank": 52,
+                "Rank": 51,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1022,
-                "Diff": "",
-                "Antece": "Giannis Antetokounmpo",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1023,
+                "Diff": "28",
+                "Antece": "Dolph Schayes",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -209,13 +209,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 167,
+                "Rank": 165,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 53,
+                "Hoy": 1,
+                "Total": 54,
                 "Diff": "",
-                "Antece": "Jamaal Wilkes",
+                "Antece": "Jae Crowder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -598,9 +598,9 @@
                 "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 43,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 44,
+                "Diff": "9",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1009,20 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 178th all-time with 51 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724137828363_4402_collage_1778724137729395.png"
-            ],
-            "timestamp": 1778724146
-        },
-        {
-            "texto": "📢🔝💯 Max Strus (5 three-pointers today) has passed Michael Porter Jr. and is now ranked 54th all-time with 167 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724242326058_1771_collage_1778724242223093.png"
-            ],
-            "timestamp": 1778724249
-        },
         {
             "texto": "📢HOF🏛️ Dennis Schröder (5 assists today) has passed Vince Carter and is now ranked 149th all-time with 296 in playoffs.",
             "foto": [
@@ -1708,6 +1694,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236551153680_2212_collage_1779236551065241.png"
             ],
             "timestamp": 1779236559
+        },
+        {
+            "texto": "📢🔝💯 James Harden (2 rebounds today) has passed Giannis Antetokounmpo and is now ranked 51st all-time with 1,023 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236749438243_3337_collage_1779236749346828.png"
+            ],
+            "timestamp": 1779236757
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Blake Griffin, Jamaal Wilkes, Kyrie Irving and Shai Gilgeous-Alexander and is now ranked 165th all-time with 54 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236758218726_5068_collage_1779236758151542.png"
+            ],
+            "timestamp": 1779236765
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1616,
+    "total_notificaciones_historicas": 1618,
     "total_franchise_historicas": 861,
-    "cache_buster": 1779236654
+    "cache_buster": 1779236765
 }
