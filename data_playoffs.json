@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:23:01",
+    "ultima_actualizacion": "04:24:47",
     "tablas": {
         "pts": [
             {
@@ -187,14 +187,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 137,
+                "Rank": 135,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 67,
-                "Diff": "1",
-                "Antece": "Tom Chambers",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 68,
+                "Diff": "2",
+                "Antece": "Marcin Gortat",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -588,9 +588,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 67,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 68,
+                "Diff": "2",
                 "Antece": "Tristan Thompson",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (6 points today) has passed Mike Bibby and is now ranked 174th all-time with 1,328 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896495841771_9823_collage_1778896495746801.png"
-            ],
-            "timestamp": 1778896503
-        },
         {
             "texto": "📢🔝💯 Rudy Gobert (1 block today) has passed Marc Gasol and is now ranked 45th all-time with 141 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243774003917_5693_collage_1779243773877942.png"
             ],
             "timestamp": 1779243781
+        },
+        {
+            "texto": "Evan Mobley (2 blocks today) has passed Paul George, Steven Adams and Theo Ratliff and is now ranked 135th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243879477298_3213_collage_1779243879388486.png"
+            ],
+            "timestamp": 1779243886
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1645,
+    "total_notificaciones_historicas": 1646,
     "total_franchise_historicas": 879,
-    "cache_buster": 1779243781
+    "cache_buster": 1779243887
 }
