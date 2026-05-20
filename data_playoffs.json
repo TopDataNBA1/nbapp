@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:19:28",
+    "ultima_actualizacion": "04:21:03",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 11,
-                "Total": 4187,
-                "Diff": "270",
+                "Hoy": 12,
+                "Total": 4188,
+                "Diff": "269",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 21,
-                "Total": 1996,
-                "Diff": "4",
+                "Hoy": 23,
+                "Total": 1998,
+                "Diff": "2",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,11 +63,11 @@
                 "Rank": 133,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 644,
-                "Diff": "1",
+                "Hoy": 9,
+                "Total": 645,
+                "Diff": "",
                 "Antece": "Bob Lanier",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 1552,
-                "Diff": "375",
+                "Hoy": 23,
+                "Total": 1554,
+                "Diff": "373",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -757,13 +757,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 317,
-                "Diff": "0",
-                "Antece": "Connie Simmons",
+                "Hoy": 9,
+                "Total": 318,
+                "Diff": "6",
+                "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
             {
@@ -1712,13 +1712,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Isaiah Stewart (1 block today) has passed Lindsey Hunter and Theo Ratliff and is now ranked 22nd in Pistons history with 16 in playoffs.",
-            "foto": [],
-            "timestamp": 1778719584,
-            "team": "DET",
-            "type": "franchise"
-        },
-        {
             "texto": "Evan Mobley (3 assists today) has passed Hot Rod Williams and is now ranked 13th in Cavaliers history with 96 in playoffs.",
             "foto": [],
             "timestamp": 1778719865,
@@ -2410,9 +2403,16 @@
             "timestamp": 1779243268,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Karl-Anthony Towns (9 rebounds today) has passed Connie Simmons and is now ranked 12th in Knicks history with 318 in playoffs.",
+            "foto": [],
+            "timestamp": 1779243663,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1642,
-    "total_franchise_historicas": 877,
-    "cache_buster": 1779243568
+    "total_franchise_historicas": 878,
+    "cache_buster": 1779243663
 }
