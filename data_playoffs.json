@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:31:00",
+    "ultima_actualizacion": "03:32:42",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 201,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1165,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 1168,
+                "Diff": "",
                 "Antece": "Eddie Johnson",
-                "Nota": "A tiro de 3",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -63,9 +63,9 @@
                 "Rank": 133,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 640,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 641,
+                "Diff": "4",
                 "Antece": "Bob Lanier",
                 "Nota": "",
                 "game_status": "playing"
@@ -332,13 +332,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 143,
+                "Rank": 140,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "",
-                "Antece": "James Posey",
+                "Antece": "Craig Hodges",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -730,9 +730,9 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 562,
-                "Diff": "27",
+                "Hoy": 5,
+                "Total": 565,
+                "Diff": "24",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -760,9 +760,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 313,
-                "Diff": "4",
+                "Hoy": 5,
+                "Total": 314,
+                "Diff": "3",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -950,9 +950,9 @@
                 "Rank": 11,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 40,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 41,
+                "Diff": "4",
                 "Antece": "Donte DiVincenzo",
                 "game_status": "playing"
             },
@@ -962,7 +962,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 39,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Bruce Bowen and is now ranked 52nd all-time with 169 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778890297311484_4737_collage_1778890297213534.png"
-            ],
-            "timestamp": 1778890305
-        },
         {
             "texto": "Donovan Mitchell (1 steal today) has passed Craig Hodges, T.R. Dunn and Toni Kukoč and is now ranked 124th all-time with 96 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240646754873_4358_collage_1779240646690771.png"
             ],
             "timestamp": 1779240660
+        },
+        {
+            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Dorian Finney-Smith, James Posey and Nick Anderson and is now ranked 140th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240755873630_3162_collage_1779240755802007.png"
+            ],
+            "timestamp": 1779240762
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1633,
+    "total_notificaciones_historicas": 1634,
     "total_franchise_historicas": 874,
-    "cache_buster": 1779240660
+    "cache_buster": 1779240762
 }
