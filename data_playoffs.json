@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:35",
+    "ultima_actualizacion": "03:31:00",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 58,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 16,
-                "Total": 2158,
-                "Diff": "36",
+                "Hoy": 18,
+                "Total": 2160,
+                "Diff": "34",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,9 +63,9 @@
                 "Rank": 133,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 639,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 640,
+                "Diff": "5",
                 "Antece": "Bob Lanier",
                 "Nota": "",
                 "game_status": "playing"
@@ -141,14 +141,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 117,
+                "Rank": 115,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 100,
-                "Diff": "",
-                "Antece": "Carmelo Anthony",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 101,
+                "Diff": "1",
+                "Antece": "Jae Crowder",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -418,9 +418,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1053,
-                "Diff": "190",
+                "Hoy": 18,
+                "Total": 1055,
+                "Diff": "188",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -538,9 +538,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 54,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 55,
+                "Diff": "9",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -760,9 +760,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 312,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 313,
+                "Diff": "4",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -780,9 +780,9 @@
                 "Rank": 24,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 185,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 186,
+                "Diff": "11",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (2 assists today) has passed Archie Clark, Fat Lever and Shaun Livingston and is now ranked 146th all-time with 298 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778889818130136_6858_collage_1778889818069156.png"
-            ],
-            "timestamp": 1778889824
-        },
         {
             "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Bruce Bowen and is now ranked 52nd all-time with 169 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240088206171_3003_collage_1779240088135637.png"
             ],
             "timestamp": 1779240095
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (4 steals today) has passed A.C. Green, Carmelo Anthony and Michael Finley and is now ranked 115th all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240646754873_4358_collage_1779240646690771.png"
+            ],
+            "timestamp": 1779240660
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1632,
+    "total_notificaciones_historicas": 1633,
     "total_franchise_historicas": 874,
-    "cache_buster": 1779240095
+    "cache_buster": 1779240660
 }
