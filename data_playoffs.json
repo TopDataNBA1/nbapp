@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:20:54",
+    "ultima_actualizacion": "02:22:39",
     "tablas": {
         "pts": [
             {
@@ -52,22 +52,22 @@
                 "Rank": 52,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 1021,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1022,
+                "Diff": "",
                 "Antece": "Giannis Antetokounmpo",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 135,
+                "Rank": 133,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 636,
-                "Diff": "",
-                "Antece": "Anthony Mason",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 637,
+                "Diff": "8",
+                "Antece": "Bob Lanier",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -760,9 +760,9 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 309,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 310,
+                "Diff": "7",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (4 assists today) has passed Pascal Siakam and Rickey Green and is now ranked 150th all-time with 295 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778723100208783_7348_collage_1778723100132824.png"
-            ],
-            "timestamp": 1778723107
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 178th all-time with 51 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236446297804_9012_collage_1779236446208528.png"
             ],
             "timestamp": 1779236454
+        },
+        {
+            "texto": "Karl-Anthony Towns (1 rebound today) has passed Anthony Mason and is now ranked 133rd all-time with 637 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236551153680_2212_collage_1779236551065241.png"
+            ],
+            "timestamp": 1779236559
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1615,
+    "total_notificaciones_historicas": 1616,
     "total_franchise_historicas": 861,
-    "cache_buster": 1779236454
+    "cache_buster": 1779236559
 }
