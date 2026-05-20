@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:19:53",
+    "ultima_actualizacion": "03:21:35",
     "tablas": {
         "pts": [
             {
@@ -152,13 +152,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 164,
+                "Rank": 161,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 82,
+                "Hoy": 1,
+                "Total": 83,
                 "Diff": "",
-                "Antece": "Kyle Korver",
+                "Antece": "Marc Gasol",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -810,9 +810,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 59,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 60,
+                "Diff": "3",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -820,9 +820,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 59,
-                "Diff": "0",
+                "Hoy": 0,
+                "Total": 58,
+                "Diff": "2",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (1 three-pointer today) has passed Dan Majerle and is now ranked 41st all-time with 182 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778888213876606_8080_collage_1778888213788635.png"
-            ],
-            "timestamp": 1778888222
-        },
         {
             "texto": "Dennis Schröder (2 assists today) has passed Archie Clark, Fat Lever and Shaun Livingston and is now ranked 146th all-time with 298 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779239705475115_8968_collage_1779239705381537.png"
             ],
             "timestamp": 1779239713
+        },
+        {
+            "texto": "OG Anunoby (1 steal today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240088206171_3003_collage_1779240088135637.png"
+            ],
+            "timestamp": 1779240095
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1631,
+    "total_notificaciones_historicas": 1632,
     "total_franchise_historicas": 874,
-    "cache_buster": 1779239993
+    "cache_buster": 1779240095
 }
