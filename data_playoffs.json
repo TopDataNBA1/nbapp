@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:27:49",
+    "ultima_actualizacion": "02:29:45",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 1979,
-                "Diff": "21",
+                "Hoy": 5,
+                "Total": 1980,
+                "Diff": "20",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -310,13 +310,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 125,
+                "Rank": 124,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 97,
+                "Hoy": 1,
+                "Total": 98,
                 "Diff": "1",
-                "Antece": "Payton Pritchard",
+                "Antece": "Hersey Hawkins",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -400,13 +400,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 234,
+                "Rank": 226,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 88,
+                "Hoy": 1,
+                "Total": 89,
                 "Diff": "",
-                "Antece": "Brent Barry",
+                "Antece": "Dave Cowens",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -518,9 +518,9 @@
                 "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 96,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 97,
+                "Diff": "12",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -685,13 +685,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 23,
                 "Nombre": "Max Strus",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 35,
-                "Diff": "0",
-                "Antece": "Richard Jefferson",
+                "Hoy": 1,
+                "Total": 36,
+                "Diff": "2",
+                "Antece": "Mo Williams",
                 "game_status": "playing"
             }
         ],
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1535,
-                "Diff": "392",
+                "Hoy": 5,
+                "Total": 1536,
+                "Diff": "391",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1009,20 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Evan Mobley (2 blocks today) has passed Erick Dampier and is now ranked 147th all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724914638869_8845_collage_1778724914546906.png"
-            ],
-            "timestamp": 1778724921
-        },
-        {
-            "texto": "📢🔝💯 James Harden (2 blocks today) has passed Jayson Tatum, Joakim Noah, Mychal Thompson and Roy Hibbert and is now ranked 71st all-time with 107 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778725391608822_2510_collage_1778725391538871.png"
-            ],
-            "timestamp": 1778725399
-        },
         {
             "texto": "Tobias Harris (5 rebounds today) has passed Kevin Willis and is now ranked 132nd all-time with 638 in playoffs.",
             "foto": [
@@ -1708,16 +1694,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236861395097_7591_collage_1779236861284445.png"
             ],
             "timestamp": 1779236869
+        },
+        {
+            "texto": "Dennis Schröder (1 three-pointer today) has passed Desmond Bane, Mark Jackson, Mikal Bridges and Mike Miller and is now ranked 124th all-time with 98 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236965475747_6826_collage_1779236965400496.png"
+            ],
+            "timestamp": 1779236972
+        },
+        {
+            "texto": "📢HOF🏛️ Dennis Schröder today surpasses Anderson Varejão, Bob Pettit, Brent Barry, Gerald Henderson, Howard Eisley, Kevin Love, Luke Walton, Nazr Mohammed, Shawn Kemp and Vince Carter and now ranked 226th all time with 89 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236973289199_1398_collage_1779236973183783.png"
+            ],
+            "timestamp": 1779236985
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ayo Dosunmu (12 points today) has passed Troy Hudson and is now ranked 17th in Timberwolves history with 142 in playoffs.",
-            "foto": [],
-            "timestamp": 1778636111,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ Naz Reid (3 three-pointers today) has passed Mike Conley and is now ranked 2nd in Timberwolves history with 72 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1779236869,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus today surpasses Mike Sanders and Richard Jefferson and is now ranked 23rd in Cavaliers history with 36 games in playoffs.",
+            "foto": [],
+            "timestamp": 1779236985,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1619,
-    "total_franchise_historicas": 862,
-    "cache_buster": 1779236869
+    "total_notificaciones_historicas": 1621,
+    "total_franchise_historicas": 863,
+    "cache_buster": 1779236985
 }
