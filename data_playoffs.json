@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:03",
+    "ultima_actualizacion": "02:58:46",
     "tablas": {
         "pts": [
             {
@@ -98,9 +98,9 @@
                 "Rank": 83,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 422,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 423,
+                "Diff": "2",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -299,13 +299,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 88,
+                "Rank": 86,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 122,
+                "Hoy": 1,
+                "Total": 123,
                 "Diff": "",
-                "Antece": "Jeff Hornacek",
+                "Antece": "Allen Iverson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -720,9 +720,9 @@
                 "Rank": 18,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 601,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 604,
+                "Diff": "2",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -790,9 +790,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 346,
-                "Diff": "46",
+                "Hoy": 1,
+                "Total": 347,
+                "Diff": "45",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -920,9 +920,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 78,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 79,
+                "Diff": "21",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -932,7 +932,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 70,
-                "Diff": "8",
+                "Diff": "9",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778727407027712_6043_collage_1778727406942892.png"
-            ],
-            "timestamp": 1778727415
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ James Harden (5 points today) has passed Stephen Curry and is now ranked 10th all-time with 4,149 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779238059571914_1365_collage_1779238059461049.png"
             ],
             "timestamp": 1779238067
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Antoine Walker and Jeff Hornacek and is now ranked 86th all-time with 123 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779238718146372_4916_collage_1779238718067743.png"
+            ],
+            "timestamp": 1779238725
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1626,
+    "total_notificaciones_historicas": 1627,
     "total_franchise_historicas": 869,
-    "cache_buster": 1779238623
+    "cache_buster": 1779238726
 }
