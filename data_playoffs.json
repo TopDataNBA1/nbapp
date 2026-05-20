@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:51:47",
+    "ultima_actualizacion": "04:55:01",
     "tablas": {
         "pts": [
             {
@@ -163,13 +163,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 170,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 79,
+                "Hoy": 2,
+                "Total": 80,
                 "Diff": "",
-                "Antece": "Dale Davis",
+                "Antece": "Larry Hughes",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -720,9 +720,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 609,
-                "Diff": "18",
+                "Hoy": 9,
+                "Total": 610,
+                "Diff": "17",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -837,13 +837,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 41,
+                "Hoy": 2,
+                "Total": 42,
                 "Diff": "0",
-                "Antece": "Mark Jackson",
+                "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
             {
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Edwards (18 points today) has passed Danny Green and Steve Smith and is now ranked 167th all-time with 1,340 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778900258397924_4703_collage_1778900258320075.png"
-            ],
-            "timestamp": 1778900266
-        },
         {
             "texto": "Jaden McDaniels (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 186th all-time with 50 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779245499666003_7930_collage_1779245499585174.png"
             ],
             "timestamp": 1779245507
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Antoine Walker, Calvin Murphy, Dale Davis and Tom Henderson and is now ranked 170th all-time with 80 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779245694574101_5668_collage_1779245694496508.png"
+            ],
+            "timestamp": 1779245701
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (1 three-pointer today) has passed Donyell Marshall and Matthew Dellavedova and is now ranked 17th in Cavaliers history with 33 in playoffs.",
-            "foto": [],
-            "timestamp": 1778724353,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Cade Cunningham (2 steals today) has passed Chucky Atkins and is now ranked 19th in Pistons history with 24 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1779245283,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (2 steals today) has passed Mark Jackson and is now ranked 14th in Knicks history with 42 in playoffs.",
+            "foto": [],
+            "timestamp": 1779245701,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1657,
-    "total_franchise_historicas": 883,
-    "cache_buster": 1779245507
+    "total_notificaciones_historicas": 1658,
+    "total_franchise_historicas": 884,
+    "cache_buster": 1779245701
 }
