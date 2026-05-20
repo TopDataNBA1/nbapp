@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:50:03",
+    "ultima_actualizacion": "04:51:47",
     "tablas": {
         "pts": [
             {
@@ -277,14 +277,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 51,
+                "Rank": 50,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 172,
-                "Diff": "",
-                "Antece": "Danny Ainge",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 173,
+                "Diff": "1",
+                "Antece": "Draymond Green",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -448,9 +448,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 365,
-                "Diff": "16",
+                "Hoy": 8,
+                "Total": 368,
+                "Diff": "13",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -628,9 +628,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 82,
-                "Diff": "18",
+                "Hoy": 2,
+                "Total": 83,
+                "Diff": "17",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Anthony Edwards (1 three-pointer today) has passed Michael Jordan and is now ranked 65th all-time with 149 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778899872561279_6063_collage_1778899872470696.png"
-            ],
-            "timestamp": 1778899881
-        },
         {
             "texto": "Anthony Edwards (18 points today) has passed Danny Green and Steve Smith and is now ranked 167th all-time with 1,340 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779245395186257_5868_collage_1779245395104283.png"
             ],
             "timestamp": 1779245402
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Danny Ainge and Nikola Jokić and is now ranked 50th all-time with 173 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779245499666003_7930_collage_1779245499585174.png"
+            ],
+            "timestamp": 1779245507
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1656,
+    "total_notificaciones_historicas": 1657,
     "total_franchise_historicas": 883,
-    "cache_buster": 1779245403
+    "cache_buster": 1779245507
 }
