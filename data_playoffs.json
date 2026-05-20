@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:21:03",
+    "ultima_actualizacion": "04:23:01",
     "tablas": {
         "pts": [
             {
@@ -60,14 +60,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 133,
+                "Rank": 132,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 645,
-                "Diff": "",
-                "Antece": "Bob Lanier",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 646,
+                "Diff": "2",
+                "Antece": "Ray Allen",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -176,14 +176,14 @@
         ],
         "blk": [
             {
-                "Rank": 70,
+                "Rank": 68,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 108,
-                "Diff": "",
-                "Antece": "Clyde Drexler",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 109,
+                "Diff": "1",
+                "Antece": "Giannis Antetokounmpo",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -343,7 +343,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 191,
+                "Rank": 190,
+                "Nombre": "Landry Shamet",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 73,
+                "Diff": "",
+                "Antece": "Jeff Teague",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 192,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
                 "Hoy": 1,
@@ -351,17 +362,6 @@
                 "Diff": "1",
                 "Antece": "Sean Elliott",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 192,
-                "Nombre": "Landry Shamet",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 72,
-                "Diff": "",
-                "Antece": "Jordan Clarkson",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -760,9 +760,9 @@
                 "Rank": 12,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 318,
-                "Diff": "6",
+                "Hoy": 10,
+                "Total": 319,
+                "Diff": "5",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -967,13 +967,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 17,
+                "Hoy": 1,
+                "Total": 18,
                 "Diff": "0",
-                "Antece": "Latrell Sprewell",
+                "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
             {
@@ -1009,27 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (18 points today) has passed Allen Iverson and is now ranked 60th all-time with 2,116 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894027625723_7640_collage_1778894027532740.png"
-            ],
-            "timestamp": 1778894035
-        },
-        {
-            "texto": "Tobias Harris (2 steals today) has passed Anthony Davis and Peja Stojaković and is now ranked 182nd all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778894694298809_7030_collage_1778894694219853.png"
-            ],
-            "timestamp": 1778894701
-        },
-        {
-            "texto": "📢HOF🏛️ Rudy Gobert today surpasses Alonzo Mourning, Bill Bradley, Jason Collins, Mark West, Matt Barnes and Peja Stojaković and now ranked 191st all time with 96 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896201818031_4666_collage_1778896201722074.png"
-            ],
-            "timestamp": 1778896209
-        },
         {
             "texto": "Anthony Edwards (6 points today) has passed Mike Bibby and is now ranked 174th all-time with 1,328 in playoffs.",
             "foto": [
@@ -1708,16 +1687,30 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243552880243_8350_collage_1779243552782201.png"
             ],
             "timestamp": 1779243567
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (10 rebounds today) has passed Bob Lanier and is now ranked 132nd all-time with 646 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243758178211_7763_collage_1779243758075553.png"
+            ],
+            "timestamp": 1779243765
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ James Harden (1 block today) has passed Charles Barkley, Clyde Drexler and Joel Embiid and is now ranked 68th all-time with 109 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243765965629_3789_collage_1779243765896781.png"
+            ],
+            "timestamp": 1779243773
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Lindsey Hunter and is now ranked 190th all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243774003917_5693_collage_1779243773877942.png"
+            ],
+            "timestamp": 1779243781
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (3 assists today) has passed Hot Rod Williams and is now ranked 13th in Cavaliers history with 96 in playoffs.",
-            "foto": [],
-            "timestamp": 1778719865,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus (12 points today) has passed Drew Gooden and is now ranked 19th in Cavaliers history with 337 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1779243663,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Latrell Sprewell and is now ranked 24th in Knicks history with 18 in playoffs.",
+            "foto": [],
+            "timestamp": 1779243781,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1642,
-    "total_franchise_historicas": 878,
-    "cache_buster": 1779243663
+    "total_notificaciones_historicas": 1645,
+    "total_franchise_historicas": 879,
+    "cache_buster": 1779243781
 }
