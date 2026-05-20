@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:17:12",
+    "ultima_actualizacion": "02:18:59",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 60,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 2142,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 2145,
+                "Diff": "1",
                 "Antece": "Derek Fisher",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -269,11 +269,11 @@
                 "Rank": 23,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 236,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 237,
+                "Diff": "1",
                 "Antece": "Kyle Lowry",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -418,9 +418,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1037,
-                "Diff": "206",
+                "Hoy": 3,
+                "Total": 1040,
+                "Diff": "203",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -548,9 +548,9 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 39,
+                "Diff": "4",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -560,7 +560,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 36,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Evan Mobley",
                 "game_status": "playing"
             },
@@ -618,9 +618,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 107,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 108,
+                "Diff": "14",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Evan Mobley (1 block today) has passed Derrick Coleman and is now ranked 150th all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778721772281940_7313_collage_1778721772196963.png"
-            ],
-            "timestamp": 1778721779
-        },
         {
             "texto": "Tobias Harris (4 rebounds today) has passed Anthony Mason and Karl-Anthony Towns and is now ranked 133rd all-time with 637 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161820100322_2574_collage_1779161820004963.png"
             ],
             "timestamp": 1779161838
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Donovan Mitchell (1 three-pointer today) has passed Jason Kidd and is now ranked 23rd all-time with 237 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236327778270_2717_collage_1779236327680942.png"
+            ],
+            "timestamp": 1779236339
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1612,
+    "total_notificaciones_historicas": 1613,
     "total_franchise_historicas": 860,
-    "cache_buster": 1779236232
+    "cache_buster": 1779236339
 }
