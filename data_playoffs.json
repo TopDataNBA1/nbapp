@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:05",
+    "ultima_actualizacion": "02:27:49",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1977,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 1979,
+                "Diff": "21",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,9 +63,9 @@
                 "Rank": 133,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 637,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 638,
+                "Diff": "7",
                 "Antece": "Bob Lanier",
                 "Nota": "",
                 "game_status": "playing"
@@ -468,9 +468,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 271,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 272,
+                "Diff": "33",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1533,
-                "Diff": "394",
+                "Hoy": 4,
+                "Total": 1535,
+                "Diff": "392",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -710,9 +710,9 @@
                 "Rank": 16,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 614,
-                "Diff": "28",
+                "Hoy": 2,
+                "Total": 616,
+                "Diff": "26",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -760,20 +760,20 @@
                 "Rank": 13,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 310,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 311,
+                "Diff": "6",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 197,
-                "Diff": "0",
-                "Antece": "Charles Smith",
+                "Hoy": 1,
+                "Total": 198,
+                "Diff": "1",
+                "Antece": "Ernie Vandeweghe",
                 "game_status": "playing"
             },
             {
@@ -783,7 +783,7 @@
                 "Hoy": 0,
                 "Total": 185,
                 "Diff": "12",
-                "Antece": "OG Anunoby",
+                "Antece": "Charles Smith",
                 "game_status": "playing"
             },
             {
@@ -990,9 +990,9 @@
                 "Rank": 19,
                 "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 52,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 53,
+                "Diff": "0",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder (5 assists today) has passed Vince Carter and is now ranked 149th all-time with 296 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778724345029258_7374_collage_1778724344929293.png"
-            ],
-            "timestamp": 1778724353
-        },
         {
             "texto": "Evan Mobley (2 blocks today) has passed Erick Dampier and is now ranked 147th all-time with 61 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236758218726_5068_collage_1779236758151542.png"
             ],
             "timestamp": 1779236765
+        },
+        {
+            "texto": "Karl-Anthony Towns (2 rebounds today) has passed Kevin Willis and is now ranked 133rd all-time with 638 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236861395097_7591_collage_1779236861284445.png"
+            ],
+            "timestamp": 1779236869
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ayo Dosunmu (2 assists today) has passed Jeff Teague and Patrick Beverley and is now ranked 20th in Timberwolves history with 30 in playoffs.",
-            "foto": [],
-            "timestamp": 1778634914,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (12 points today) has passed Troy Hudson and is now ranked 17th in Timberwolves history with 142 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1779236454,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "OG Anunoby (1 rebound today) has passed Charles Smith and is now ranked 22nd in Knicks history with 198 in playoffs.",
+            "foto": [],
+            "timestamp": 1779236869,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1618,
-    "total_franchise_historicas": 861,
-    "cache_buster": 1779236765
+    "total_notificaciones_historicas": 1619,
+    "total_franchise_historicas": 862,
+    "cache_buster": 1779236869
 }
