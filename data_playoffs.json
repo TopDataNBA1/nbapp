@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:20",
+    "ultima_actualizacion": "02:46:04",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 59,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 2149,
-                "Diff": "6",
+                "Hoy": 9,
+                "Total": 2151,
+                "Diff": "4",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -71,14 +71,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 215,
+                "Rank": 214,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 482,
-                "Diff": "",
-                "Antece": "Greg Ostertag",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 483,
+                "Diff": "9",
+                "Antece": "Chauncey Billups",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -418,9 +418,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1044,
-                "Diff": "199",
+                "Hoy": 9,
+                "Total": 1046,
+                "Diff": "197",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -478,9 +478,9 @@
                 "Rank": 13,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 196,
-                "Diff": "58",
+                "Hoy": 3,
+                "Total": 197,
+                "Diff": "57",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -740,9 +740,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 482,
-                "Diff": "40",
+                "Hoy": 4,
+                "Total": 483,
+                "Diff": "39",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Evan Mobley (3 blocks today) has passed Eddie Jones, Manu Ginóbili and Marcus Smart and is now ranked 145th all-time with 62 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726365284862_1710_collage_1778726365215890.png"
-            ],
-            "timestamp": 1778726372
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (16 points today) has passed Jeff Hornacek and is now ranked 62nd all-time with 2,093 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237569667867_1600_collage_1779237569568107.png"
             ],
             "timestamp": 1779237578
+        },
+        {
+            "texto": "Josh Hart (4 rebounds today) has passed Greg Ostertag and is now ranked 214th all-time with 483 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237956072251_8770_collage_1779237955972813.png"
+            ],
+            "timestamp": 1779237964
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1624,
+    "total_notificaciones_historicas": 1625,
     "total_franchise_historicas": 868,
-    "cache_buster": 1779237860
+    "cache_buster": 1779237964
 }
