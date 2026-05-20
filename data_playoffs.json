@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:04",
+    "ultima_actualizacion": "02:47:48",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 201,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1163,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 1165,
+                "Diff": "3",
                 "Antece": "Eddie Johnson",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -74,9 +74,9 @@
                 "Rank": 214,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 483,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 484,
+                "Diff": "8",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -425,13 +425,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 11,
+                "Rank": 10,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 617,
-                "Diff": "3",
-                "Antece": "Tristan Thompson",
+                "Hoy": 5,
+                "Total": 621,
+                "Diff": "72",
+                "Antece": "Larry Nance",
                 "game_status": "playing"
             },
             {
@@ -710,9 +710,9 @@
                 "Rank": 16,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 616,
-                "Diff": "26",
+                "Hoy": 6,
+                "Total": 620,
+                "Diff": "22",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -730,9 +730,9 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 560,
-                "Diff": "29",
+                "Hoy": 2,
+                "Total": 562,
+                "Diff": "27",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -740,9 +740,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 483,
-                "Diff": "39",
+                "Hoy": 5,
+                "Total": 484,
+                "Diff": "38",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -800,9 +800,9 @@
                 "Rank": 11,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 206,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 208,
+                "Diff": "2",
                 "Antece": "Charles Oakley",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (16 points today) has passed Jeff Hornacek and is now ranked 62nd all-time with 2,093 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726931036662_6093_collage_1778726930945687.png"
-            ],
-            "timestamp": 1778726938
-        },
         {
             "texto": "📢🔝💯 James Harden (3 blocks today) has passed Josh Smith and is now ranked 70th all-time with 108 in playoffs.",
             "foto": [
@@ -1708,16 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237956072251_8770_collage_1779237955972813.png"
             ],
             "timestamp": 1779237964
+        },
+        {
+            "texto": "Karl-Anthony Towns (2 points today) has passed Marques Johnson and is now ranked 201st all-time with 1,165 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779238059571914_1365_collage_1779238059461049.png"
+            ],
+            "timestamp": 1779238067
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (1 steal today) has passed Evan Mobley and is now ranked 13th in Cavaliers history with 34 in playoffs.",
-            "foto": [],
-            "timestamp": 1778717850,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley (1 assist today) has passed Max Strus and is now ranked 14th in Cavaliers history with 94 in playoffs.",
             "foto": [],
@@ -2410,9 +2403,16 @@
             "timestamp": 1779237860,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Evan Mobley (5 points today) has passed Tristan Thompson and is now ranked 10th in Cavaliers history with 621 in playoffs.",
+            "foto": [],
+            "timestamp": 1779238067,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1625,
-    "total_franchise_historicas": 868,
-    "cache_buster": 1779237964
+    "total_notificaciones_historicas": 1626,
+    "total_franchise_historicas": 869,
+    "cache_buster": 1779238068
 }
