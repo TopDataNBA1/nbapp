@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:32:56",
+    "ultima_actualizacion": "02:36:10",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 1983,
-                "Diff": "17",
+                "Hoy": 10,
+                "Total": 1985,
+                "Diff": "15",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -163,13 +163,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 178,
+                "Rank": 174,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 78,
+                "Hoy": 1,
+                "Total": 79,
                 "Diff": "",
-                "Antece": "Gerald Henderson",
+                "Antece": "Dale Davis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -568,9 +568,9 @@
                 "Rank": 17,
                 "Nombre": "Max Strus",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 27,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 28,
+                "Diff": "0",
                 "Antece": "Mike Sanders",
                 "game_status": "playing"
             },
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1539,
-                "Diff": "388",
+                "Hoy": 10,
+                "Total": 1541,
+                "Diff": "386",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -750,9 +750,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 319,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 320,
+                "Diff": "13",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -800,9 +800,9 @@
                 "Rank": 11,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 205,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 206,
+                "Diff": "4",
                 "Antece": "Charles Oakley",
                 "game_status": "playing"
             },
@@ -840,9 +840,9 @@
                 "Rank": 15,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 40,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 41,
+                "Diff": "0",
                 "Antece": "Mark Jackson",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (5 rebounds today) has passed Kevin Willis and is now ranked 132nd all-time with 638 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778726053717955_7454_collage_1778726053610011.png"
-            ],
-            "timestamp": 1778726062
-        },
         {
             "texto": "📢🔝💯 Max Strus (6 three-pointers today) has passed Eric Gordon and Trevor Ariza and is now ranked 53rd all-time with 168 in playoffs.",
             "foto": [
@@ -1708,23 +1701,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236973289199_1398_collage_1779236973183783.png"
             ],
             "timestamp": 1779236985
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Damian Lillard, Dave Cowens, Gerald Henderson and Tobias Harris and is now ranked 174th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237362555453_2432_collage_1779237362484108.png"
+            ],
+            "timestamp": 1779237370
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Victor Wembanyama (3 blocks today) has passed Billy Paultz and Sean Elliott and is now ranked 12th in Spurs history with 38 in playoffs.",
-            "foto": [],
-            "timestamp": 1778638792,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝🔟 Jaden McDaniels (2 assists today) has passed Sam Cassell and is now ranked 10th in Timberwolves history with 71 in playoffs.",
-            "foto": [],
-            "timestamp": 1778639626,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (16 points today) has passed Troy Hudson, Trenton Hassell and Stephon Marbury and is now ranked 17th in Timberwolves history with 146 in playoffs.",
             "foto": [],
@@ -2410,9 +2396,23 @@
             "timestamp": 1779237081,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (1 steal today) has passed Gerald Wilkins and is now ranked 15th in Knicks history with 41 in playoffs.",
+            "foto": [],
+            "timestamp": 1779237370,
+            "team": "NYK",
+            "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (1 steal today) has passed Brad Daugherty and is now ranked 17th in Cavaliers history with 28 in playoffs.",
+            "foto": [],
+            "timestamp": 1779237370,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1621,
-    "total_franchise_historicas": 864,
-    "cache_buster": 1779237176
+    "total_notificaciones_historicas": 1622,
+    "total_franchise_historicas": 866,
+    "cache_buster": 1779237370
 }
