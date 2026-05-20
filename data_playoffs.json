@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:00",
+    "ultima_actualizacion": "03:55:43",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 16,
-                "Total": 1991,
-                "Diff": "9",
+                "Hoy": 17,
+                "Total": 1992,
+                "Diff": "8",
                 "Antece": "2000",
                 "Nota": "",
                 "game_status": "playing"
@@ -117,13 +117,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 146,
+                "Rank": 143,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 304,
+                "Hoy": 3,
+                "Total": 305,
                 "Diff": "",
-                "Antece": "Dan Majerle",
+                "Antece": "Cliff Hagan",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -638,9 +638,9 @@
                 "Rank": 12,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 49,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 50,
+                "Diff": "5",
                 "Antece": "Mo Williams",
                 "game_status": "playing"
             },
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1547,
-                "Diff": "380",
+                "Hoy": 17,
+                "Total": 1548,
+                "Diff": "379",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (3 assists today) has passed Rick Barry and is now ranked 119th all-time with 341 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778893915403087_6065_collage_1778893915316114.png"
-            ],
-            "timestamp": 1778893923
-        },
         {
             "texto": "Evan Mobley (2 blocks today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779242031997327_9038_collage_1779242031902771.png"
             ],
             "timestamp": 1779242040
+        },
+        {
+            "texto": "Dennis Schröder (3 assists today) has passed Dan Majerle and is now ranked 143rd all-time with 305 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779242135529985_1224_collage_1779242135402702.png"
+            ],
+            "timestamp": 1779242143
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1640,
+    "total_notificaciones_historicas": 1641,
     "total_franchise_historicas": 876,
-    "cache_buster": 1779242040
+    "cache_buster": 1779242143
 }
