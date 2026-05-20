@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:32:42",
+    "ultima_actualizacion": "03:37:35",
     "tablas": {
         "pts": [
             {
@@ -141,24 +141,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 115,
+                "Rank": 114,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 101,
-                "Diff": "1",
-                "Antece": "Jae Crowder",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 102,
+                "Diff": "",
+                "Antece": "Avery Johnson",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 161,
+                "Rank": 158,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 83,
+                "Hoy": 2,
+                "Total": 84,
                 "Diff": "",
-                "Antece": "Marc Gasol",
+                "Antece": "Moses Malone",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -538,9 +538,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 4,
-                "Total": 55,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 56,
+                "Diff": "8",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -810,9 +810,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 60,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 61,
+                "Diff": "2",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -822,7 +822,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 58,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (1 steal today) has passed Craig Hodges, T.R. Dunn and Toni Kukoč and is now ranked 124th all-time with 96 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778890592003509_1324_collage_1778890591930519.png"
-            ],
-            "timestamp": 1778890599
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Alvin Scott, George Gervin, Karl-Anthony Towns, Kurt Thomas, Nate Thurmond and Tobias Harris and is now ranked 172nd all-time with 52 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240755873630_3162_collage_1779240755802007.png"
             ],
             "timestamp": 1779240762
+        },
+        {
+            "texto": "OG Anunoby (2 steals today) has passed Kentavious Caldwell-Pope and Marc Gasol and is now ranked 158th all-time with 84 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779241040423719_5658_collage_1779241040345128.png"
+            ],
+            "timestamp": 1779241055
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1634,
+    "total_notificaciones_historicas": 1635,
     "total_franchise_historicas": 874,
-    "cache_buster": 1779240762
+    "cache_buster": 1779241055
 }
