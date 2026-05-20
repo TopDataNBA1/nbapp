@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:30:01",
+    "ultima_actualizacion": "04:31:44",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 29,
-                "Total": 2004,
-                "Diff": "14",
+                "Hoy": 34,
+                "Total": 2009,
+                "Diff": "9",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -60,13 +60,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 131,
+                "Rank": 130,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 12,
-                "Total": 648,
+                "Hoy": 13,
+                "Total": 649,
                 "Diff": "1",
-                "Antece": "Tobias Harris",
+                "Antece": "Zach Randolph",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -291,11 +291,11 @@
                 "Rank": 59,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 159,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 160,
+                "Diff": "",
                 "Antece": "CJ McCollum",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -700,9 +700,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 29,
-                "Total": 1560,
-                "Diff": "367",
+                "Hoy": 34,
+                "Total": 1565,
+                "Diff": "362",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -760,9 +760,9 @@
                 "Rank": 12,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 12,
-                "Total": 321,
-                "Diff": "3",
+                "Hoy": 13,
+                "Total": 322,
+                "Diff": "2",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -910,9 +910,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 127,
-                "Diff": "48",
+                "Hoy": 1,
+                "Total": 128,
+                "Diff": "47",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1009,13 +1009,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Naz Reid (1 three-pointer today) has passed Landry Shamet and Lindsey Hunter and is now ranked 189th all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778896982029246_7533_collage_1778896981949606.png"
-            ],
-            "timestamp": 1778896989
-        },
         {
             "texto": "Naz Reid (2 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 186th all-time with 74 in playoffs.",
             "foto": [
@@ -1708,6 +1701,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779244098935363_1007_collage_1779244098865223.png"
             ],
             "timestamp": 1779244105
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (13 rebounds today) has passed Ray Allen and is now ranked 130th all-time with 649 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779244296212360_7016_collage_1779244296124165.png"
+            ],
+            "timestamp": 1779244304
         }
     ],
     "notificaciones_franchise": [
@@ -2412,7 +2412,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1647,
+    "total_notificaciones_historicas": 1648,
     "total_franchise_historicas": 879,
-    "cache_buster": 1779244201
+    "cache_buster": 1779244304
 }
