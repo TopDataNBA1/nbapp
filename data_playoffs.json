@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:50:32",
+    "ultima_actualizacion": "02:55:18",
     "tablas": {
         "pts": [
             {
@@ -156,13 +156,13 @@
         ],
         "fg3": [
             {
-                "Rank": 117,
+                "Rank": 115,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 102,
+                "Hoy": 1,
+                "Total": 103,
                 "Diff": "",
-                "Antece": "Brent Barry",
+                "Antece": "Dwyane Wade",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -401,9 +401,9 @@
                 "Rank": 4,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 102,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 103,
+                "Diff": "1",
                 "Antece": "Gary Payton",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaden McDaniels (1 three-pointer today) has passed Ben Gordon, Josh Hart, Keith Van Horn, Rodney Rogers, Sasha Vujačić and Vladimir Radmanović and is now ranked 224th all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778902221946538_4378_collage_1778902221865534.png"
-            ],
-            "timestamp": 1778902229
-        },
         {
             "texto": "📢HOF🏛️ Jaden McDaniels (2 three-pointers today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 221st all-time with 65 in playoffs.",
             "foto": [
@@ -1251,16 +1244,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779324158155467_3965_collage_1779324158053552.png"
             ],
             "timestamp": 1779324165
+        },
+        {
+            "texto": "Luguentz Dort (1 three-pointer today) has passed Brent Barry and is now ranked 115th all-time with 103 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779324909755115_3247_collage_1779324909667125.png"
+            ],
+            "timestamp": 1779324918
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Daniss Jenkins (2 three-pointers today) has passed Dennis Schröder and is now ranked 23rd in Pistons history with 11 in playoffs.",
-            "foto": [],
-            "timestamp": 1778725681,
-            "team": "DET",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Cade Cunningham (9 assists today) has passed Lindsey Hunter and is now ranked 10th in Pistons history with 144 in playoffs.",
             "foto": [],
@@ -1953,9 +1946,16 @@
             "timestamp": 1779324632,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Luguentz Dort (1 three-pointer today) has passed Sam Perkins and is now ranked 4th in Thunder history with 103 in playoffs.",
+            "foto": [],
+            "timestamp": 1779324918,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1659,
-    "total_franchise_historicas": 886,
-    "cache_buster": 1779324632
+    "total_notificaciones_historicas": 1660,
+    "total_franchise_historicas": 887,
+    "cache_buster": 1779324918
 }
