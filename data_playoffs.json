@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:59:07",
+    "ultima_actualizacion": "05:03:52",
     "tablas": {
         "pts": [
             {
-                "Rank": 138,
+                "Rank": 137,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 28,
-                "Total": 1471,
-                "Diff": "",
-                "Antece": "Earl Monroe",
-                "Nota": "Mismo total",
+                "Hoy": 30,
+                "Total": 1473,
+                "Diff": "14",
+                "Antece": "Sidney Moncrief",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -231,9 +231,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 28,
-                "Total": 1389,
-                "Diff": "215",
+                "Hoy": 30,
+                "Total": 1391,
+                "Diff": "213",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -281,9 +281,9 @@
                 "Rank": 21,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 12,
-                "Total": 257,
-                "Diff": "4",
+                "Hoy": 13,
+                "Total": 258,
+                "Diff": "3",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -318,13 +318,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 78,
-                "Diff": "0",
-                "Antece": "Thabo Sefolosha",
+                "Hoy": 4,
+                "Total": 79,
+                "Diff": "1",
+                "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
             {
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Alvin Scott, George Gervin, Karl-Anthony Towns, Kurt Thomas and Nate Thurmond and is now ranked 177th all-time with 52 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779070541306591_8593_collage_1779070541223880.png"
-            ],
-            "timestamp": 1779070549
-        },
         {
             "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Bruce Bowen, Jaylen Brown and Magic Johnson and is now ranked 140th all-time with 65 in playoffs.",
             "foto": [
@@ -1251,16 +1244,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779331960510557_8635_collage_1779331960419545.png"
             ],
             "timestamp": 1779331968
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (30 points today) has passed Earl Monroe and is now ranked 137th all-time with 1,473 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779332624944141_3929_collage_1779332624837603.png"
+            ],
+            "timestamp": 1779332632
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Max Strus (1 rebound today) has passed Jim Brewer and is now ranked 15th in Cavaliers history with 177 in playoffs.",
-            "foto": [],
-            "timestamp": 1778887724,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ Donovan Mitchell (7 points today) becomes the 3rd player to reach 1,000 points with Cavaliers in playoffs.",
             "foto": [],
@@ -1953,9 +1946,16 @@
             "timestamp": 1779332346,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (4 assists today) has passed Thabo Sefolosha and is now ranked 22nd in Thunder history with 79 in playoffs.",
+            "foto": [],
+            "timestamp": 1779332632,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1678,
-    "total_franchise_historicas": 897,
-    "cache_buster": 1779332347
+    "total_notificaciones_historicas": 1679,
+    "total_franchise_historicas": 898,
+    "cache_buster": 1779332632
 }
