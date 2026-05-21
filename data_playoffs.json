@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:19:55",
+    "ultima_actualizacion": "03:23:09",
     "tablas": {
         "pts": [
             {
@@ -121,7 +121,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 223,
+                "Rank": 222,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "",
+                "Antece": "Timofey Mozgov",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 224,
                 "Nombre": "Mason Plumlee",
                 "Team": "SAS",
                 "Hoy": 0,
@@ -132,24 +143,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 229,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "",
-                "Antece": "Sam Lacey",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 230,
                 "Nombre": "Bismack Biyombo",
                 "Team": "SAS",
                 "Hoy": 0,
                 "Total": 43,
                 "Diff": "1",
-                "Antece": "Victor Wembanyama",
+                "Antece": "Sam Lacey",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -281,9 +281,9 @@
                 "Rank": 22,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 248,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 249,
+                "Diff": "7",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -321,9 +321,9 @@
                 "Rank": 25,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 77,
-                "Diff": "0",
+                "Hoy": 1,
+                "Total": 76,
+                "Diff": "1",
                 "Antece": "Sedale Threatt",
                 "game_status": "playing"
             },
@@ -513,9 +513,9 @@
                 "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "7",
                 "Antece": "Mike Green",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (2 rebounds today) has passed Bob Lanier and is now ranked 131st all-time with 646 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779063710698090_2749_collage_1779063710592220.png"
-            ],
-            "timestamp": 1779063718
-        },
         {
             "texto": "Dennis Schröder today surpasses Alton Lister, Cory Joseph, Jeff Teague, Keith Erickson, Luc Longley and Reggie Jackson and now ranked 234th all time with 88 games in playoffs",
             "foto": [
@@ -1251,6 +1244,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779326384893187_6418_collage_1779326384819229.png"
             ],
             "timestamp": 1779326395
+        },
+        {
+            "texto": "Victor Wembanyama (1 block today) has passed Anthony Edwards, Mason Plumlee, Mitchell Robinson, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 222nd all-time with 45 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779326581715613_3905_collage_1779326581620785.png"
+            ],
+            "timestamp": 1779326589
         }
     ],
     "notificaciones_franchise": [
@@ -1955,7 +1955,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1667,
+    "total_notificaciones_historicas": 1668,
     "total_franchise_historicas": 890,
-    "cache_buster": 1779326395
+    "cache_buster": 1779326589
 }
