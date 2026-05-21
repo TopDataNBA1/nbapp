@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:30:53",
+    "ultima_actualizacion": "04:35:37",
     "tablas": {
         "pts": [
             {
@@ -178,13 +178,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 156,
+                "Rank": 155,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 84,
+                "Hoy": 1,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Myles Turner",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (5 rebounds today) has passed Ray Allen and is now ranked 130th all-time with 649 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779069025806107_4928_collage_1779069025710116.png"
-            ],
-            "timestamp": 1779069033
-        },
         {
             "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Russell Westbrook and is now ranked 38th all-time with 188 in playoffs.",
             "foto": [
@@ -1251,6 +1244,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329899306250_4985_collage_1779329899232274.png"
             ],
             "timestamp": 1779329906
+        },
+        {
+            "texto": "Harrison Barnes (1 three-pointer today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 155th all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779330930198280_5802_collage_1779330930128188.png"
+            ],
+            "timestamp": 1779330937
         }
     ],
     "notificaciones_franchise": [
@@ -1955,7 +1955,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1676,
+    "total_notificaciones_historicas": 1677,
     "total_franchise_historicas": 893,
-    "cache_buster": 1779330653
+    "cache_buster": 1779330937
 }
