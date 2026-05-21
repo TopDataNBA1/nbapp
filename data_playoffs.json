@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:11:57",
+    "ultima_actualizacion": "04:13:41",
     "tablas": {
         "pts": [
             {
@@ -99,14 +99,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 161,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 54,
-                "Diff": "",
-                "Antece": "Jarrett Allen",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 55,
+                "Diff": "1",
+                "Antece": "Pascal Siakam",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -388,13 +388,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 10,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "0",
-                "Antece": "Derrick McKey",
+                "Hoy": 2,
+                "Total": 50,
+                "Diff": "5",
+                "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
             {
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (1 steal today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 179th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068726382769_7818_collage_1779068726314032.png"
-            ],
-            "timestamp": 1779068732
-        },
         {
             "texto": "Tobias Harris (5 points today) has passed Danny Green and Steve Smith and is now ranked 168th all-time with 1,340 in playoffs.",
             "foto": [
@@ -1251,16 +1244,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329510250859_9470_collage_1779329510181811.png"
             ],
             "timestamp": 1779329517
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 blocks today) has passed Billy Paultz, Jae Crowder and Jarrett Allen and is now ranked 161st all-time with 55 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329614044587_6565_collage_1779329613984007.png"
+            ],
+            "timestamp": 1779329621
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (16 points today) has passed Darius Garland and is now ranked 17th in Cavaliers history with 383 in playoffs.",
-            "foto": [],
-            "timestamp": 1778726938,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (10 rebounds today) has passed J.R. Smith and is now ranked 11th in Cavaliers history with 255 in playoffs.",
             "foto": [],
@@ -1953,9 +1946,16 @@
             "timestamp": 1779329517,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Shai Gilgeous-Alexander (2 blocks today) has passed Kendrick Perkins and Derrick McKey and is now ranked 10th in Thunder history with 50 in playoffs.",
+            "foto": [],
+            "timestamp": 1779329621,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1674,
-    "total_franchise_historicas": 891,
-    "cache_buster": 1779329517
+    "total_notificaciones_historicas": 1675,
+    "total_franchise_historicas": 892,
+    "cache_buster": 1779329621
 }
