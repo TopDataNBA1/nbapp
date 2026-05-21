@@ -1,15 +1,15 @@
 {
-    "ultima_actualizacion": "04:10:05",
+    "ultima_actualizacion": "04:11:57",
     "tablas": {
         "pts": [
             {
-                "Rank": 142,
+                "Rank": 141,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 15,
-                "Total": 1458,
+                "Hoy": 17,
+                "Total": 1460,
                 "Diff": "1",
-                "Antece": "CJ McCollum",
+                "Antece": "Jack Sikma",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -167,14 +167,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 142,
+                "Rank": 139,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 89,
-                "Diff": "1",
-                "Antece": "Mario Elie",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 90,
+                "Diff": "2",
+                "Antece": "Tim Hardaway Jr.",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -231,9 +231,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1376,
-                "Diff": "10",
+                "Hoy": 17,
+                "Total": 1378,
+                "Diff": "8",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -268,13 +268,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 261,
-                "Diff": "0",
-                "Antece": "Gus Williams",
+                "Hoy": 3,
+                "Total": 262,
+                "Diff": "7",
+                "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
             {
@@ -421,9 +421,9 @@
                 "Rank": 9,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 60,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 61,
+                "Diff": "0",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -433,7 +433,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 55,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Alex Caruso",
                 "game_status": "playing"
             },
@@ -552,20 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Tobias Harris (3 points today) has passed Paul Westphal and is now ranked 170th all-time with 1,338 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779067137679687_6455_collage_1779067137578321.png"
-            ],
-            "timestamp": 1779067145
-        },
-        {
-            "texto": "Donovan Mitchell (1 steal today) has passed Joe Johnson and Khris Middleton and is now ranked 122nd all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068343026589_2607_collage_1779068342948977.png"
-            ],
-            "timestamp": 1779068350
-        },
         {
             "texto": "Tobias Harris (1 steal today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 179th all-time with 78 in playoffs.",
             "foto": [
@@ -1251,16 +1237,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329397648659_6429_collage_1779329397576961.png"
             ],
             "timestamp": 1779329405
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (17 points today) has passed CJ McCollum and is now ranked 141st all-time with 1,460 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329501417346_9509_collage_1779329501322377.png"
+            ],
+            "timestamp": 1779329510
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Dorian Finney-Smith, James Posey and Nick Anderson and is now ranked 139th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329510250859_9470_collage_1779329510181811.png"
+            ],
+            "timestamp": 1779329517
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (2 three-pointers today) has passed Delonte West and is now ranked 16th in Cavaliers history with 34 in playoffs.",
-            "foto": [],
-            "timestamp": 1778726372,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (16 points today) has passed Darius Garland and is now ranked 17th in Cavaliers history with 383 in playoffs.",
             "foto": [],
@@ -1953,9 +1946,16 @@
             "timestamp": 1779326288,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 rebounds today) has passed Gus Williams and is now ranked 19th in Thunder history with 262 in playoffs.",
+            "foto": [],
+            "timestamp": 1779329517,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1672,
-    "total_franchise_historicas": 890,
-    "cache_buster": 1779329405
+    "total_notificaciones_historicas": 1674,
+    "total_franchise_historicas": 891,
+    "cache_buster": 1779329517
 }
