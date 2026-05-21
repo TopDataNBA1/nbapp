@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:35:47",
+    "ultima_actualizacion": "03:39:01",
     "tablas": {
         "pts": [
             {
@@ -121,13 +121,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 209,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 46,
+                "Hoy": 3,
+                "Total": 47,
                 "Diff": "",
-                "Antece": "Truck Robinson",
+                "Antece": "Tracy McGrady",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -513,9 +513,9 @@
                 "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 46,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 47,
+                "Diff": "5",
                 "Antece": "Mike Green",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (4 assists today) has passed Johnny Moore and Lionel Hollins and is now ranked 116th all-time with 345 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779065317417900_8310_collage_1779065317342327.png"
-            ],
-            "timestamp": 1779065324
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Shai Gilgeous-Alexander and is now ranked 167th all-time with 53 in playoffs.",
             "foto": [
@@ -1251,6 +1244,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779327339437208_1793_collage_1779327339345253.png"
             ],
             "timestamp": 1779327347
+        },
+        {
+            "texto": "Victor Wembanyama (3 blocks today) has passed A.C. Green, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 209th all-time with 47 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779327533538093_9908_collage_1779327533442659.png"
+            ],
+            "timestamp": 1779327541
         }
     ],
     "notificaciones_franchise": [
@@ -1955,7 +1955,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1669,
+    "total_notificaciones_historicas": 1670,
     "total_franchise_historicas": 890,
-    "cache_buster": 1779327347
+    "cache_buster": 1779327541
 }
