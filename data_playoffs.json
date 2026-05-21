@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "03:12:58",
+    "ultima_actualizacion": "03:14:41",
     "tablas": {
         "pts": [
             {
-                "Rank": 147,
+                "Rank": 144,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 1447,
-                "Diff": "",
-                "Antece": "Ricky Pierce",
-                "Nota": "Mismo total",
+                "Hoy": 9,
+                "Total": 1452,
+                "Diff": "1",
+                "Antece": "Clifford Robinson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -78,11 +78,11 @@
                 "Rank": 185,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 76,
-                "Diff": "",
+                "Hoy": 0,
+                "Total": 75,
+                "Diff": "1",
                 "Antece": "Peja Stojaković",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -231,9 +231,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1365,
-                "Diff": "21",
+                "Hoy": 9,
+                "Total": 1370,
+                "Diff": "16",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -331,9 +331,9 @@
                 "Rank": 11,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 70,
-                "Diff": "3",
+                "Hoy": 0,
+                "Total": 69,
+                "Diff": "4",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Bismack Biyombo (2 blocks today) has passed Charles Oakley, Derrick Favors, Felton Spencer, James Donaldson, Nicolas Batum, Patrick Beverley, Rashard Lewis, Russell Westbrook, Will Perdue and Yao Ming and is now ranked 229th all-time with 43 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1778904692346868_1374_collage_1778904692251912.png"
-            ],
-            "timestamp": 1778904700
-        },
         {
             "texto": "Donovan Mitchell (2 assists today) has passed Nick Van Exel and is now ranked 118th all-time with 343 in playoffs.",
             "foto": [
@@ -1251,6 +1244,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779325967022869_9866_collage_1779325966943895.png"
             ],
             "timestamp": 1779325978
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (9 points today) has passed Gail Goodrich, Ricky Pierce and Walter Davis and is now ranked 144th all-time with 1,452 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779326074140398_8354_collage_1779326074073421.png"
+            ],
+            "timestamp": 1779326081
         }
     ],
     "notificaciones_franchise": [
@@ -1955,7 +1955,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1664,
+    "total_notificaciones_historicas": 1665,
     "total_franchise_historicas": 889,
-    "cache_buster": 1779325978
+    "cache_buster": 1779326081
 }
