@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:13:41",
+    "ultima_actualizacion": "04:18:26",
     "tablas": {
         "pts": [
             {
-                "Rank": 141,
+                "Rank": 139,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 17,
-                "Total": 1460,
-                "Diff": "1",
-                "Antece": "Jack Sikma",
-                "Nota": "A tiro de 1",
+                "Hoy": 20,
+                "Total": 1463,
+                "Diff": "5",
+                "Antece": "Vlade Divac",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -231,9 +231,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1378,
-                "Diff": "8",
+                "Hoy": 20,
+                "Total": 1381,
+                "Diff": "5",
                 "Antece": "Shawn Kemp",
                 "game_status": "playing"
             },
@@ -251,9 +251,9 @@
                 "Rank": 15,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 667,
-                "Diff": "29",
+                "Hoy": 7,
+                "Total": 669,
+                "Diff": "27",
                 "Antece": "Dale Ellis",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Tobias Harris (5 points today) has passed Danny Green and Steve Smith and is now ranked 168th all-time with 1,340 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779068828275761_4539_collage_1779068828192450.png"
-            ],
-            "timestamp": 1779068836
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (5 rebounds today) has passed Ray Allen and is now ranked 130th all-time with 649 in playoffs.",
             "foto": [
@@ -1251,6 +1244,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329614044587_6565_collage_1779329613984007.png"
             ],
             "timestamp": 1779329621
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (20 points today) has passed Amar'e Stoudemire and Jack Sikma and is now ranked 139th all-time with 1,463 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779329899306250_4985_collage_1779329899232274.png"
+            ],
+            "timestamp": 1779329906
         }
     ],
     "notificaciones_franchise": [
@@ -1955,7 +1955,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1675,
+    "total_notificaciones_historicas": 1676,
     "total_franchise_historicas": 892,
-    "cache_buster": 1779329621
+    "cache_buster": 1779329906
 }
