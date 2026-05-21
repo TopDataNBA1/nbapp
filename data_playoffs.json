@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:48:03",
+    "ultima_actualizacion": "04:52:48",
     "tablas": {
         "pts": [
             {
-                "Rank": 139,
+                "Rank": 138,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 24,
-                "Total": 1467,
-                "Diff": "1",
-                "Antece": "Vlade Divac",
-                "Nota": "A tiro de 1",
+                "Hoy": 26,
+                "Total": 1469,
+                "Diff": "2",
+                "Antece": "Earl Monroe",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -228,13 +228,13 @@
     "tablas_teams": {
         "OKC": [
             {
-                "Rank": 6,
+                "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 1385,
-                "Diff": "1",
-                "Antece": "Shawn Kemp",
+                "Hoy": 26,
+                "Total": 1387,
+                "Diff": "217",
+                "Antece": "Gus Williams",
                 "game_status": "playing"
             },
             {
@@ -281,9 +281,9 @@
                 "Rank": 22,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 252,
-                "Diff": "4",
+                "Hoy": 8,
+                "Total": 253,
+                "Diff": "3",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             },
@@ -552,13 +552,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Duncan Robinson (3 three-pointers today) has passed Russell Westbrook and is now ranked 38th all-time with 188 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779069786827481_6418_collage_1779069786738872.png"
-            ],
-            "timestamp": 1779069796
-        },
         {
             "texto": "📢HOF🏛️ Tobias Harris (1 block today) has passed Alvin Scott, George Gervin, Karl-Anthony Towns, Kurt Thomas and Nate Thurmond and is now ranked 177th all-time with 52 in playoffs.",
             "foto": [
@@ -1251,16 +1244,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779330930198280_5802_collage_1779330930128188.png"
             ],
             "timestamp": 1779330937
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (26 points today) has passed Vlade Divac and is now ranked 138th all-time with 1,469 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779331960510557_8635_collage_1779331960419545.png"
+            ],
+            "timestamp": 1779331968
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (1 steal today) has passed Ron Harper and Eric Snow and is now ranked 23rd in Cavaliers history with 23 in playoffs.",
-            "foto": [],
-            "timestamp": 1778887342,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Ausar Thompson (2 steals today) has passed Adrian Dantley and Mark Aguirre and is now ranked 15th in Pistons history with 33 in playoffs.",
             "foto": [],
@@ -1953,9 +1946,16 @@
             "timestamp": 1779331683,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Shai Gilgeous-Alexander (26 points today) has passed Shawn Kemp and is now ranked 5th in Thunder history with 1,387 in playoffs.",
+            "foto": [],
+            "timestamp": 1779331968,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1677,
-    "total_franchise_historicas": 894,
-    "cache_buster": 1779331683
+    "total_notificaciones_historicas": 1678,
+    "total_franchise_historicas": 895,
+    "cache_buster": 1779331968
 }
