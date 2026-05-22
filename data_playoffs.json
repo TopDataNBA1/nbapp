@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:22",
+    "ultima_actualizacion": "03:03:07",
     "tablas": {
         "pts": [
             {
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 225,
+                "Rank": 222,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 64,
+                "Hoy": 1,
+                "Total": 65,
                 "Diff": "",
-                "Antece": "Charles Barkley",
+                "Antece": "Jaden McDaniels",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -751,9 +751,9 @@
                 "Rank": 16,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 631,
-                "Diff": "11",
+                "Hoy": 7,
+                "Total": 634,
+                "Diff": "8",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -763,7 +763,7 @@
                 "Stat": "PTS",
                 "Hoy": 6,
                 "Total": 620,
-                "Diff": "11",
+                "Diff": "14",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -801,9 +801,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 327,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 328,
+                "Diff": "0",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -981,9 +981,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "2",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (7 points today) has passed Dominique Wilkins and is now ranked 151st all-time with 1,426 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779155816896311_4469_collage_1779155816807183.png"
-            ],
-            "timestamp": 1779155824
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 three-pointer today) has passed Isiah Thomas, Jason Williams, Raja Bell, Royce O'Neale and Rui Hachimura and is now ranked 162nd all-time with 82 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411484226779_3965_collage_1779411484132731.png"
             ],
             "timestamp": 1779411491
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (1 three-pointer today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 222nd all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411776851268_6033_collage_1779411776790230.png"
+            ],
+            "timestamp": 1779411787
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1694,
+    "total_notificaciones_historicas": 1695,
     "total_franchise_historicas": 910,
-    "cache_buster": 1779411682
+    "cache_buster": 1779411787
 }
