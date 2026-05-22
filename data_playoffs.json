@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:08:31",
+    "ultima_actualizacion": "04:11:45",
     "tablas": {
         "pts": [
             {
@@ -98,9 +98,9 @@
                 "Rank": 78,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 439,
-                "Diff": "7",
+                "Hoy": 12,
+                "Total": 440,
+                "Diff": "6",
                 "Antece": "Giannis Antetokounmpo",
                 "Nota": "",
                 "game_status": "playing"
@@ -120,11 +120,11 @@
                 "Rank": 139,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 309,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 310,
+                "Diff": "1",
                 "Antece": "Baron Davis",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -310,13 +310,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 85,
+                "Rank": 83,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 124,
+                "Hoy": 2,
+                "Total": 125,
                 "Diff": "",
-                "Antece": "Michael Cooper",
+                "Antece": "Mookie Blaylock",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -761,9 +761,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 623,
-                "Diff": "19",
+                "Hoy": 12,
+                "Total": 626,
+                "Diff": "16",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 11,
-                "Total": 363,
-                "Diff": "29",
+                "Hoy": 12,
+                "Total": 364,
+                "Diff": "28",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -961,9 +961,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "19",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -973,7 +973,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 71,
-                "Diff": "9",
+                "Diff": "10",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Anthony Mason and is now ranked 133rd all-time with 637 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236551153680_2212_collage_1779236551065241.png"
-            ],
-            "timestamp": 1779236559
-        },
         {
             "texto": "📢🔝💯 James Harden (2 rebounds today) has passed Giannis Antetokounmpo and is now ranked 51st all-time with 1,023 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779415049883032_5289_collage_1779415049792062.png"
             ],
             "timestamp": 1779415058
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (2 three-pointers today) has passed Eddie Jones and Michael Cooper and is now ranked 83rd all-time with 125 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779415897070587_5514_collage_1779415896973632.png"
+            ],
+            "timestamp": 1779415905
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1715,
+    "total_notificaciones_historicas": 1716,
     "total_franchise_historicas": 917,
-    "cache_buster": 1779415711
+    "cache_buster": 1779415905
 }
