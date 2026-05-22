@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:38:49",
+    "ultima_actualizacion": "03:40:32",
     "tablas": {
         "pts": [
             {
@@ -63,11 +63,11 @@
                 "Rank": 128,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 658,
-                "Diff": "1",
+                "Hoy": 10,
+                "Total": 659,
+                "Diff": "",
                 "Antece": "Joakim Noah",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -98,9 +98,9 @@
                 "Rank": 79,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 434,
-                "Diff": "4",
+                "Hoy": 7,
+                "Total": 435,
+                "Diff": "3",
                 "Antece": "Pau Gasol",
                 "Nota": "",
                 "game_status": "playing"
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 217,
+                "Rank": 216,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 66,
+                "Hoy": 3,
+                "Total": 67,
                 "Diff": "",
-                "Antece": "Jordan Poole",
+                "Antece": "Eddie Johnson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -748,13 +748,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 641,
-                "Diff": "1",
-                "Antece": "Anthony Mason",
+                "Hoy": 17,
+                "Total": 644,
+                "Diff": "32",
+                "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
             {
@@ -763,8 +763,8 @@
                 "Stat": "PTS",
                 "Hoy": 9,
                 "Total": 623,
-                "Diff": "18",
-                "Antece": "Josh Hart",
+                "Diff": "19",
+                "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
             {
@@ -791,9 +791,9 @@
                 "Rank": 11,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 331,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 332,
+                "Diff": "1",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -803,7 +803,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 328,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 358,
-                "Diff": "34",
+                "Hoy": 7,
+                "Total": 359,
+                "Diff": "33",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -981,9 +981,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 66,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 67,
+                "Diff": "0",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (7 three-pointers today) has passed Myles Turner and is now ranked 152nd all-time with 86 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159446181059_5467_collage_1779159446080038.png"
-            ],
-            "timestamp": 1779159454
-        },
         {
             "texto": "📢HOF🏛️ Chet Holmgren (2 blocks today) has passed Bill Laimbeer, Bill Walton and P.J. Brown and is now ranked 106th all-time with 84 in playoffs.",
             "foto": [
@@ -1747,16 +1740,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413640512242_5515_collage_1779413640425277.png"
             ],
             "timestamp": 1779413647
+        },
+        {
+            "texto": "Josh Hart (3 three-pointers today) has passed Jordan Poole and Kerry Kittles and is now ranked 216th all-time with 67 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414024260262_4714_collage_1779414024186272.png"
+            ],
+            "timestamp": 1779414032
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Rudy Gobert today surpasses Mike Conley and is now ranked 5th in Timberwolves history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778896209,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Julius Randle today surpasses Kyle Anderson and Anthony Peeler and is now ranked 10th in Timberwolves history with 27 games in playoffs.",
             "foto": [],
@@ -2449,9 +2442,16 @@
             "timestamp": 1779412180,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart (17 points today) has passed Anthony Mason and is now ranked 15th in Knicks history with 644 in playoffs.",
+            "foto": [],
+            "timestamp": 1779414032,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1705,
-    "total_franchise_historicas": 912,
-    "cache_buster": 1779413929
+    "total_notificaciones_historicas": 1706,
+    "total_franchise_historicas": 913,
+    "cache_buster": 1779414032
 }
