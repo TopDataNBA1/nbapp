@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:50:29",
+    "ultima_actualizacion": "03:52:12",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 58,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 9,
-                "Total": 2180,
-                "Diff": "14",
+                "Hoy": 11,
+                "Total": 2182,
+                "Diff": "12",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -39,11 +39,11 @@
                 "Rank": 194,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 13,
-                "Total": 1189,
-                "Diff": "3",
+                "Hoy": 15,
+                "Total": 1191,
+                "Diff": "1",
                 "Antece": "Rashard Lewis",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -128,13 +128,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 238,
+                "Rank": 236,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 213,
+                "Hoy": 5,
+                "Total": 214,
                 "Diff": "",
-                "Antece": "Calvin Murphy",
+                "Antece": "Jerry Lucas",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -429,9 +429,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 1075,
-                "Diff": "168",
+                "Hoy": 11,
+                "Total": 1077,
+                "Diff": "166",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -771,9 +771,9 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 586,
-                "Diff": "3",
+                "Hoy": 15,
+                "Total": 588,
+                "Diff": "1",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -841,9 +841,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 213,
-                "Diff": "21",
+                "Hoy": 5,
+                "Total": 214,
+                "Diff": "20",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 169th all-time with 53 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161253249467_8666_collage_1779161253150191.png"
-            ],
-            "timestamp": 1779161261
-        },
         {
             "texto": "Shai Gilgeous-Alexander (12 assists today) has passed Derrick Rose and is now ranked 125th all-time with 331 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414621192522_8335_collage_1779414621110518.png"
             ],
             "timestamp": 1779414629
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (5 assists today) has passed Calvin Murphy and is now ranked 236th all-time with 214 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414724504994_3402_collage_1779414724379964.png"
+            ],
+            "timestamp": 1779414732
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1710,
+    "total_notificaciones_historicas": 1711,
     "total_franchise_historicas": 915,
-    "cache_buster": 1779414629
+    "cache_buster": 1779414732
 }
