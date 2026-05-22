@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:40:32",
+    "ultima_actualizacion": "03:42:16",
     "tablas": {
         "pts": [
             {
@@ -60,14 +60,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 128,
+                "Rank": 127,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 659,
-                "Diff": "",
-                "Antece": "Joakim Noah",
-                "Nota": "Mismo total",
+                "Hoy": 11,
+                "Total": 660,
+                "Diff": "5",
+                "Antece": "George Mikan",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -506,13 +506,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 192,
-                "Diff": "0",
-                "Antece": "Iman Shumpert",
+                "Hoy": 4,
+                "Total": 193,
+                "Diff": "9",
+                "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
             {
@@ -791,9 +791,9 @@
                 "Rank": 11,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 332,
-                "Diff": "1",
+                "Hoy": 11,
+                "Total": 333,
+                "Diff": "0",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -803,7 +803,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 328,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -821,9 +821,9 @@
                 "Rank": 24,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 190,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 191,
+                "Diff": "6",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Chet Holmgren (2 blocks today) has passed Bill Laimbeer, Bill Walton and P.J. Brown and is now ranked 106th all-time with 84 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160104457264_3105_collage_1779160104392986.png"
-            ],
-            "timestamp": 1779160111
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed Kerry Kittles and Richard Jefferson and is now ranked 144th all-time with 88 in playoffs.",
             "foto": [
@@ -1747,16 +1740,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414024260262_4714_collage_1779414024186272.png"
             ],
             "timestamp": 1779414032
+        },
+        {
+            "texto": "Karl-Anthony Towns (11 rebounds today) has passed Joakim Noah and is now ranked 127th all-time with 660 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414127916931_1704_collage_1779414127825960.png"
+            ],
+            "timestamp": 1779414136
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Julius Randle today surpasses Kyle Anderson and Anthony Peeler and is now ranked 10th in Timberwolves history with 27 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778896305,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Jaden McDaniels (2 assists today) has passed Latrell Sprewell and is now ranked 9th in Timberwolves history with 73 in playoffs.",
             "foto": [],
@@ -2449,9 +2442,16 @@
             "timestamp": 1779414032,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Max Strus (4 rebounds today) has passed Iman Shumpert and is now ranked 14th in Cavaliers history with 193 in playoffs.",
+            "foto": [],
+            "timestamp": 1779414136,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1706,
-    "total_franchise_historicas": 913,
-    "cache_buster": 1779414032
+    "total_notificaciones_historicas": 1707,
+    "total_franchise_historicas": 914,
+    "cache_buster": 1779414136
 }
