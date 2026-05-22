@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:55:53",
+    "ultima_actualizacion": "03:57:38",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 58,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 16,
-                "Total": 2187,
-                "Diff": "7",
+                "Hoy": 18,
+                "Total": 2189,
+                "Diff": "5",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -95,14 +95,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 79,
+                "Rank": 78,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 437,
-                "Diff": "1",
-                "Antece": "Pau Gasol",
-                "Nota": "A tiro de 1",
+                "Hoy": 11,
+                "Total": 439,
+                "Diff": "7",
+                "Antece": "Giannis Antetokounmpo",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -429,9 +429,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 1082,
-                "Diff": "161",
+                "Hoy": 18,
+                "Total": 1084,
+                "Diff": "159",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 361,
-                "Diff": "31",
+                "Hoy": 11,
+                "Total": 363,
+                "Diff": "29",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Elvin Hayes and Jack Sikma and is now ranked 119th all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236446297804_9012_collage_1779236446208528.png"
-            ],
-            "timestamp": 1779236454
-        },
         {
             "texto": "Karl-Anthony Towns (1 rebound today) has passed Anthony Mason and is now ranked 133rd all-time with 637 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414946205011_3346_collage_1779414946131035.png"
             ],
             "timestamp": 1779414953
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (11 assists today) has passed Pau Gasol and is now ranked 78th all-time with 439 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779415049883032_5289_collage_1779415049792062.png"
+            ],
+            "timestamp": 1779415058
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1714,
+    "total_notificaciones_historicas": 1715,
     "total_franchise_historicas": 917,
-    "cache_buster": 1779414953
+    "cache_buster": 1779415058
 }
