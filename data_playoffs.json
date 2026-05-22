@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:56:29",
+    "ultima_actualizacion": "02:58:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 4194,
-                "Diff": "263",
+                "Hoy": 5,
+                "Total": 4196,
+                "Diff": "261",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -95,14 +95,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 81,
+                "Rank": 79,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 430,
-                "Diff": "1",
-                "Antece": "Tom Henderson",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 432,
+                "Diff": "6",
+                "Antece": "Pau Gasol",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -469,9 +469,9 @@
                 "Rank": 24,
                 "Nombre": "James Harden",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 299,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 301,
+                "Diff": "3",
                 "Antece": "Larry Hughes",
                 "game_status": "playing"
             },
@@ -761,9 +761,9 @@
                 "Rank": 17,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 616,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 618,
+                "Diff": "13",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -801,9 +801,9 @@
                 "Rank": 12,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 325,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 327,
+                "Diff": "1",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -811,9 +811,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 202,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 203,
+                "Diff": "27",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 354,
-                "Diff": "38",
+                "Hoy": 4,
+                "Total": 356,
+                "Diff": "36",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 203rd all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779155429568085_2995_collage_1779155429497111.png"
-            ],
-            "timestamp": 1779155436
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (7 points today) has passed Dominique Wilkins and is now ranked 151st all-time with 1,426 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411286685367_5179_collage_1779411286601395.png"
             ],
             "timestamp": 1779411294
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (4 assists today) has passed Tom Henderson and is now ranked 79th all-time with 432 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411484226779_3965_collage_1779411484132731.png"
+            ],
+            "timestamp": 1779411491
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1693,
+    "total_notificaciones_historicas": 1694,
     "total_franchise_historicas": 909,
-    "cache_buster": 1779411389
+    "cache_buster": 1779411491
 }
