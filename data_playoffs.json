@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:11",
+    "ultima_actualizacion": "02:54:54",
     "tablas": {
         "pts": [
             {
@@ -63,11 +63,11 @@
                 "Rank": 129,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 654,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 655,
+                "Diff": "",
                 "Antece": "David West",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -253,13 +253,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 225,
+                "Rank": 222,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 44,
+                "Hoy": 1,
+                "Total": 45,
                 "Diff": "",
-                "Antece": "Mason Plumlee",
+                "Antece": "Maurice Cheeks",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -791,9 +791,9 @@
                 "Rank": 11,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 327,
-                "Diff": "6",
+                "Hoy": 6,
+                "Total": 328,
+                "Diff": "5",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -803,7 +803,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 325,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -901,9 +901,9 @@
                 "Rank": 4,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "10",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -913,7 +913,7 @@
                 "Stat": "BLK",
                 "Hoy": 3,
                 "Total": 43,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (2 blocks today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 201st all-time with 48 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153851754309_7712_collage_1779153851659798.png"
-            ],
-            "timestamp": 1779153862
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 203rd all-time with 72 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410713534961_1409_collage_1779410713463976.png"
             ],
             "timestamp": 1779410720
+        },
+        {
+            "texto": "Mitchell Robinson (1 block today) has passed Anthony Edwards, Mason Plumlee, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 222nd all-time with 45 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411286685367_5179_collage_1779411286601395.png"
+            ],
+            "timestamp": 1779411294
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1692,
+    "total_notificaciones_historicas": 1693,
     "total_franchise_historicas": 909,
-    "cache_buster": 1779411191
+    "cache_buster": 1779411294
 }
