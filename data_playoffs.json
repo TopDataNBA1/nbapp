@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:13:20",
+    "ultima_actualizacion": "04:15:09",
     "tablas": {
         "pts": [
             {
@@ -144,9 +144,9 @@
                 "Rank": 6,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 310,
-                "Diff": "28",
+                "Hoy": 2,
+                "Total": 311,
+                "Diff": "27",
                 "Antece": "John Stockton",
                 "Nota": "",
                 "game_status": "playing"
@@ -596,13 +596,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "James Harden",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 28,
+                "Hoy": 2,
+                "Total": 29,
                 "Diff": "0",
-                "Antece": "Mike Sanders",
+                "Antece": "Max Strus",
                 "game_status": "playing"
             },
             {
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 James Harden (2 rebounds today) has passed Giannis Antetokounmpo and is now ranked 51st all-time with 1,023 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779236749438243_3337_collage_1779236749346828.png"
-            ],
-            "timestamp": 1779236757
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Blake Griffin, Jamaal Wilkes, Kyrie Irving and Shai Gilgeous-Alexander and is now ranked 165th all-time with 54 in playoffs.",
             "foto": [
@@ -1747,16 +1740,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779415897070587_5514_collage_1779415896973632.png"
             ],
             "timestamp": 1779415905
+        },
+        {
+            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden (2 steals today) has passed Kobe Bryant and is now ranked 6th all-time with 311 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779416095013847_8769_collage_1779416094929874.png"
+            ],
+            "timestamp": 1779416108
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. today surpasses Mark Madsen and is now ranked 21st in Timberwolves history with 18 games in playoffs.",
-            "foto": [],
-            "timestamp": 1778897093,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Mike Conley (1 steal today) has passed Rudy Gobert and is now ranked 4th in Timberwolves history with 39 in playoffs.",
             "foto": [],
@@ -2449,9 +2442,16 @@
             "timestamp": 1779414953,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "James Harden (2 steals today) has passed Mike Sanders and is now ranked 17th in Cavaliers history with 29 in playoffs.",
+            "foto": [],
+            "timestamp": 1779416108,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1716,
-    "total_franchise_historicas": 917,
-    "cache_buster": 1779416000
+    "total_notificaciones_historicas": 1717,
+    "total_franchise_historicas": 918,
+    "cache_buster": 1779416109
 }
