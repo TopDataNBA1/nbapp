@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:52:12",
+    "ultima_actualizacion": "03:54:02",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 58,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 11,
-                "Total": 2182,
-                "Diff": "12",
+                "Hoy": 14,
+                "Total": 2185,
+                "Diff": "9",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -198,13 +198,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 133,
+                "Rank": 129,
                 "Nombre": "Evan Mobley",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 70,
+                "Hoy": 2,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Clifford Ray",
+                "Antece": "Artis Gilmore",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -280,9 +280,9 @@
                 "Rank": 22,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 241,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 242,
+                "Diff": "2",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -429,9 +429,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1077,
-                "Diff": "166",
+                "Hoy": 14,
+                "Total": 1080,
+                "Diff": "163",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -479,9 +479,9 @@
                 "Rank": 7,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 356,
-                "Diff": "49",
+                "Hoy": 5,
+                "Total": 357,
+                "Diff": "48",
                 "Antece": "Anderson Varejão",
                 "game_status": "playing"
             },
@@ -606,13 +606,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 5,
+                "Rank": 4,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 70,
-                "Diff": "0",
-                "Antece": "Tristan Thompson",
+                "Hoy": 2,
+                "Total": 71,
+                "Diff": "11",
+                "Antece": "Zydrunas Ilgauskas",
                 "game_status": "playing"
             },
             {
@@ -649,9 +649,9 @@
                 "Rank": 5,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 112,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 113,
+                "Diff": "9",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (12 assists today) has passed Derrick Rose and is now ranked 125th all-time with 331 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779161820100322_2574_collage_1779161820004963.png"
-            ],
-            "timestamp": 1779161838
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ Donovan Mitchell (1 three-pointer today) has passed Jason Kidd and is now ranked 23rd all-time with 237 in playoffs.",
             "foto": [
@@ -1747,16 +1740,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414724504994_3402_collage_1779414724379964.png"
             ],
             "timestamp": 1779414732
+        },
+        {
+            "texto": "Evan Mobley (2 blocks today) has passed Brendan Haywood, Buck Williams, Clifford Ray, Hot Rod Williams and Marcin Gortat and is now ranked 129th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414827828273_7082_collage_1779414827746313.png"
+            ],
+            "timestamp": 1779414842
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Ayo Dosunmu (2 assists today) has passed Troy Hudson and is now ranked 19th in Timberwolves history with 34 in playoffs.",
-            "foto": [],
-            "timestamp": 1778896989,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝3️⃣ 📢HOF🏛️ Naz Reid today surpasses Kevin Garnett and is now ranked 3rd in Timberwolves history with 48 games in playoffs.",
             "foto": [],
@@ -2449,9 +2442,16 @@
             "timestamp": 1779414239,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Evan Mobley (2 blocks today) has passed Tristan Thompson and is now ranked 4th in Cavaliers history with 71 in playoffs.",
+            "foto": [],
+            "timestamp": 1779414842,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1711,
-    "total_franchise_historicas": 915,
-    "cache_buster": 1779414732
+    "total_notificaciones_historicas": 1712,
+    "total_franchise_historicas": 916,
+    "cache_buster": 1779414842
 }
