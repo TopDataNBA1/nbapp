@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:32:16",
+    "ultima_actualizacion": "03:34:07",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 70,
+                "Rank": 69,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 2018,
-                "Diff": "",
-                "Antece": "Bob Cousy",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 2020,
+                "Diff": "6",
+                "Antece": "Kevin Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -52,9 +52,9 @@
                 "Rank": 51,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 1029,
-                "Diff": "22",
+                "Hoy": 5,
+                "Total": 1030,
+                "Diff": "21",
                 "Antece": "Dolph Schayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -128,13 +128,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 239,
+                "Rank": 238,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 212,
+                "Hoy": 4,
+                "Total": 213,
                 "Diff": "",
-                "Antece": "Chet Walker",
+                "Antece": "Calvin Murphy",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -529,9 +529,9 @@
                 "Rank": 11,
                 "Nombre": "Evan Mobley",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 114,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 115,
+                "Diff": "1",
                 "Antece": "Kevin Love",
                 "game_status": "playing"
             },
@@ -741,9 +741,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 1574,
-                "Diff": "353",
+                "Hoy": 7,
+                "Total": 1576,
+                "Diff": "351",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -841,9 +841,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 212,
-                "Diff": "22",
+                "Hoy": 4,
+                "Total": 213,
+                "Diff": "21",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -871,9 +871,9 @@
                 "Rank": 9,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "2",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -1050,20 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (9 assists today) has passed Mark Price and is now ranked 126th all-time with 328 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159429329645_4716_collage_1779159429232149.png"
-            ],
-            "timestamp": 1779159437
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (5 steals today) has passed Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich and Lou Williams and is now ranked 185th all-time with 75 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779159437579850_5448_collage_1779159437480951.png"
-            ],
-            "timestamp": 1779159445
-        },
         {
             "texto": "Alex Caruso (7 three-pointers today) has passed Myles Turner and is now ranked 152nd all-time with 86 in playoffs.",
             "foto": [
@@ -1747,6 +1733,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413527560638_6907_collage_1779413527471619.png"
             ],
             "timestamp": 1779413536
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (7 points today) has passed Bob Cousy and Jamal Murray and is now ranked 69th all-time with 2,020 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413632017742_1381_collage_1779413631941760.png"
+            ],
+            "timestamp": 1779413640
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (4 assists today) has passed Chet Walker and is now ranked 238th all-time with 213 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413640512242_5515_collage_1779413640425277.png"
+            ],
+            "timestamp": 1779413647
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1703,
+    "total_notificaciones_historicas": 1705,
     "total_franchise_historicas": 912,
-    "cache_buster": 1779413536
+    "cache_buster": 1779413647
 }
