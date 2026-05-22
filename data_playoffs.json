@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:25:22",
+    "ultima_actualizacion": "02:27:14",
     "tablas": {
         "pts": [
             {
@@ -63,9 +63,9 @@
                 "Rank": 129,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 650,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 651,
+                "Diff": "4",
                 "Antece": "David West",
                 "Nota": "",
                 "game_status": "playing"
@@ -209,13 +209,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 151,
+                "Rank": 150,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 60,
+                "Hoy": 3,
+                "Total": 61,
                 "Diff": "",
-                "Antece": "Erick Dampier",
+                "Antece": "Marcus Smart",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -509,9 +509,9 @@
                 "Rank": 15,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 189,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 190,
+                "Diff": "2",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -729,9 +729,9 @@
                 "Rank": 23,
                 "Nombre": "Max Strus",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 36,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 37,
+                "Diff": "1",
                 "Antece": "Mo Williams",
                 "game_status": "playing"
             }
@@ -801,9 +801,9 @@
                 "Rank": 12,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 323,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 324,
+                "Diff": "0",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -911,9 +911,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 42,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 43,
+                "Diff": "1",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -923,7 +923,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 28,
-                "Diff": "14",
+                "Diff": "15",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1050,20 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 assists today) has passed Alvan Adams and Tyrese Haliburton and is now ranked 130th all-time with 321 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152200647331_5828_collage_1779152200572437.png"
-            ],
-            "timestamp": 1779152208
-        },
-        {
-            "texto": "📢HOF🏛️ Alex Caruso (2 three-pointers today) has passed Larry Bird and is now ranked 161st all-time with 81 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152208524320_8560_collage_1779152208435326.png"
-            ],
-            "timestamp": 1779152217
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Marc Gasol and Mario Chalmers and is now ranked 128th all-time with 322 in playoffs.",
             "foto": [
@@ -1749,6 +1735,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409514350701_1593_collage_1779409514258731.png"
             ],
             "timestamp": 1779409522
+        },
+        {
+            "texto": "Karl-Anthony Towns (2 rebounds today) has passed Zach Randolph and is now ranked 129th all-time with 651 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409617810059_2290_collage_1779409617713081.png"
+            ],
+            "timestamp": 1779409626
+        },
+        {
+            "texto": "OG Anunoby (3 blocks today) has passed Erick Dampier and is now ranked 150th all-time with 61 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409626407350_8466_collage_1779409626300326.png"
+            ],
+            "timestamp": 1779409634
         }
     ],
     "notificaciones_franchise": [
@@ -2453,7 +2453,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1685,
+    "total_notificaciones_historicas": 1687,
     "total_franchise_historicas": 904,
-    "cache_buster": 1779409522
+    "cache_buster": 1779409634
 }
