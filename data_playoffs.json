@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:43",
+    "ultima_actualizacion": "03:50:29",
     "tablas": {
         "pts": [
             {
@@ -74,9 +74,9 @@
                 "Rank": 214,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 487,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 488,
+                "Diff": "4",
                 "Antece": "Chauncey Billups",
                 "Nota": "",
                 "game_status": "playing"
@@ -98,11 +98,11 @@
                 "Rank": 79,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 436,
-                "Diff": "2",
+                "Hoy": 9,
+                "Total": 437,
+                "Diff": "1",
                 "Antece": "Pau Gasol",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 209,
+                "Rank": 207,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 68,
+                "Hoy": 5,
+                "Total": 69,
                 "Diff": "",
-                "Antece": "Derrick Rose",
+                "Antece": "Andrew Nembhard",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -751,9 +751,9 @@
                 "Rank": 15,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 648,
-                "Diff": "28",
+                "Hoy": 24,
+                "Total": 651,
+                "Diff": "25",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -781,9 +781,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 487,
-                "Diff": "35",
+                "Hoy": 2,
+                "Total": 488,
+                "Diff": "34",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 360,
-                "Diff": "32",
+                "Hoy": 9,
+                "Total": 361,
+                "Diff": "31",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -861,9 +861,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 60,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 61,
+                "Diff": "0",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -981,9 +981,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 68,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 69,
+                "Diff": "0",
                 "Antece": "Allan Houston",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (24 points today) has passed Dan Majerle and Kenyon Martin and is now ranked 148th all-time with 1,443 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160785099987_9475_collage_1779160785012475.png"
-            ],
-            "timestamp": 1779160793
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 169th all-time with 53 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414335740956_3967_collage_1779414335677971.png"
             ],
             "timestamp": 1779414343
+        },
+        {
+            "texto": "Josh Hart (5 three-pointers today) has passed Andrew Wiggins, Derrick Rose, Julius Randle, Kemba Walker, Paul Millsap and Rajon Rondo and is now ranked 207th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414621192522_8335_collage_1779414621110518.png"
+            ],
+            "timestamp": 1779414629
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1709,
+    "total_notificaciones_historicas": 1710,
     "total_franchise_historicas": 915,
-    "cache_buster": 1779414343
+    "cache_buster": 1779414629
 }
