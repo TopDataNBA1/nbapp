@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:35:39",
+    "ultima_actualizacion": "02:37:22",
     "tablas": {
         "pts": [
             {
@@ -376,13 +376,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 199,
                 "Nombre": "Miles McBride",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 70,
+                "Hoy": 1,
+                "Total": 71,
                 "Diff": "",
-                "Antece": "Joel Embiid",
+                "Antece": "Malcolm Brogdon",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -509,9 +509,9 @@
                 "Rank": 15,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 189,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 190,
+                "Diff": "2",
                 "Antece": "Iman Shumpert",
                 "game_status": "playing"
             },
@@ -539,9 +539,9 @@
                 "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 98,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 99,
+                "Diff": "10",
                 "Antece": "Matthew Dellavedova",
                 "game_status": "playing"
             },
@@ -971,9 +971,9 @@
                 "Rank": 4,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "8",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (4 three-pointers today) has passed Iman Shumpert and is now ranked 160th all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153644177963_8700_collage_1779153644091396.png"
-            ],
-            "timestamp": 1779153652
-        },
         {
             "texto": "Isaiah Hartenstein (1 block today) has passed A.C. Green, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 204th all-time with 47 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410131487846_3349_collage_1779410131399860.png"
             ],
             "timestamp": 1779410139
+        },
+        {
+            "texto": "Miles McBride (1 three-pointer today) has passed Al-Farouq Aminu, Austin Reaves, Joel Embiid and Trae Young and is now ranked 199th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410235097828_6007_collage_1779410235024851.png"
+            ],
+            "timestamp": 1779410242
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1690,
+    "total_notificaciones_historicas": 1691,
     "total_franchise_historicas": 907,
-    "cache_buster": 1779410139
+    "cache_buster": 1779410242
 }
