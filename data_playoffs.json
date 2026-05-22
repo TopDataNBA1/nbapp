@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:08",
+    "ultima_actualizacion": "02:25:22",
     "tablas": {
         "pts": [
             {
@@ -209,13 +209,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 152,
+                "Rank": 151,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 59,
+                "Hoy": 2,
+                "Total": 60,
                 "Diff": "",
-                "Antece": "Derrick Coleman",
+                "Antece": "Erick Dampier",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -911,9 +911,9 @@
                 "Rank": 5,
                 "Nombre": "OG Anunoby",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 41,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 42,
+                "Diff": "2",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -923,7 +923,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 28,
-                "Diff": "13",
+                "Diff": "14",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -931,9 +931,9 @@
                 "Rank": 11,
                 "Nombre": "Josh Hart",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 26,
-                "Diff": "0",
+                "Hoy": 0,
+                "Total": 25,
+                "Diff": "1",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 points today) has passed Carlos Boozer and is now ranked 152nd all-time with 1,421 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779152096314816_6815_collage_1779152096220085.png"
-            ],
-            "timestamp": 1779152104
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 assists today) has passed Alvan Adams and Tyrese Haliburton and is now ranked 130th all-time with 321 in playoffs.",
             "foto": [
@@ -1749,6 +1742,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409224845419_4608_collage_1779409224750445.png"
             ],
             "timestamp": 1779409232
+        },
+        {
+            "texto": "OG Anunoby (2 blocks today) has passed Derrick Coleman and is now ranked 151st all-time with 60 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409514350701_1593_collage_1779409514258731.png"
+            ],
+            "timestamp": 1779409522
         }
     ],
     "notificaciones_franchise": [
@@ -2453,7 +2453,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1684,
+    "total_notificaciones_historicas": 1685,
     "total_franchise_historicas": 904,
-    "cache_buster": 1779409328
+    "cache_buster": 1779409522
 }
