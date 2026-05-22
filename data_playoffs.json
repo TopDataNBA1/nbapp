@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:33:56",
+    "ultima_actualizacion": "02:35:39",
     "tablas": {
         "pts": [
             {
@@ -120,9 +120,9 @@
                 "Rank": 139,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 307,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 308,
+                "Diff": "3",
                 "Antece": "Baron Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -411,13 +411,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 226,
+                "Rank": 220,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "",
-                "Antece": "Dave Cowens",
+                "Antece": "Cliff Hagan",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -439,9 +439,9 @@
                 "Rank": 10,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 639,
-                "Diff": "54",
+                "Hoy": 10,
+                "Total": 641,
+                "Diff": "52",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -499,9 +499,9 @@
                 "Rank": 13,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 199,
-                "Diff": "55",
+                "Hoy": 1,
+                "Total": 200,
+                "Diff": "54",
                 "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (5 assists today) has passed Andrew Toney and is now ranked 127th all-time with 324 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779153635180640_7888_collage_1779153635076135.png"
-            ],
-            "timestamp": 1779153643
-        },
         {
             "texto": "Alex Caruso (4 three-pointers today) has passed Iman Shumpert and is now ranked 160th all-time with 83 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409745696674_5127_collage_1779409745616681.png"
             ],
             "timestamp": 1779409753
+        },
+        {
+            "texto": "📢HOF🏛️ Dennis Schröder today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 220th all time with 90 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410131487846_3349_collage_1779410131399860.png"
+            ],
+            "timestamp": 1779410139
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1689,
+    "total_notificaciones_historicas": 1690,
     "total_franchise_historicas": 907,
-    "cache_buster": 1779410036
+    "cache_buster": 1779410139
 }
