@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:42:16",
+    "ultima_actualizacion": "03:43:59",
     "tablas": {
         "pts": [
             {
@@ -98,9 +98,9 @@
                 "Rank": 79,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 435,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 436,
+                "Diff": "2",
                 "Antece": "Pau Gasol",
                 "Nota": "",
                 "game_status": "playing"
@@ -387,13 +387,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 209,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 67,
+                "Hoy": 4,
+                "Total": 68,
                 "Diff": "",
-                "Antece": "Eddie Johnson",
+                "Antece": "Derrick Rose",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -509,9 +509,9 @@
                 "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 193,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 192,
+                "Diff": "10",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -751,9 +751,9 @@
                 "Rank": 15,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 644,
-                "Diff": "32",
+                "Hoy": 21,
+                "Total": 648,
+                "Diff": "28",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -831,9 +831,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 359,
-                "Diff": "33",
+                "Hoy": 8,
+                "Total": 360,
+                "Diff": "32",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -978,13 +978,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 67,
-                "Diff": "0",
-                "Antece": "Derek Harper",
+                "Hoy": 4,
+                "Total": 68,
+                "Diff": "1",
+                "Antece": "Allan Houston",
                 "game_status": "playing"
             },
             {
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (2 steals today) has passed Kerry Kittles and Richard Jefferson and is now ranked 144th all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160392900539_7815_collage_1779160392830341.png"
-            ],
-            "timestamp": 1779160400
-        },
         {
             "texto": "Alex Caruso (8 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
             "foto": [
@@ -1747,16 +1740,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414127916931_1704_collage_1779414127825960.png"
             ],
             "timestamp": 1779414136
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (4 three-pointers today) has passed Chris Mullin, Dillon Brooks and Eddie Johnson and is now ranked 209th all-time with 68 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414232816682_2267_collage_1779414232755540.png"
+            ],
+            "timestamp": 1779414239
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Jaden McDaniels (2 assists today) has passed Latrell Sprewell and is now ranked 9th in Timberwolves history with 73 in playoffs.",
-            "foto": [],
-            "timestamp": 1778896503,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Ayo Dosunmu (2 assists today) has passed Troy Hudson and is now ranked 19th in Timberwolves history with 34 in playoffs.",
             "foto": [],
@@ -2449,9 +2442,16 @@
             "timestamp": 1779414136,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Josh Hart (4 three-pointers today) has passed Derek Harper and is now ranked 6th in Knicks history with 68 in playoffs.",
+            "foto": [],
+            "timestamp": 1779414239,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1707,
-    "total_franchise_historicas": 914,
-    "cache_buster": 1779414136
+    "total_notificaciones_historicas": 1708,
+    "total_franchise_historicas": 915,
+    "cache_buster": 1779414239
 }
