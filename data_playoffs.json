@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:43:59",
+    "ultima_actualizacion": "03:45:43",
     "tablas": {
         "pts": [
             {
@@ -220,14 +220,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 161,
+                "Rank": 158,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 55,
-                "Diff": "1",
-                "Antece": "Pascal Siakam",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 56,
+                "Diff": "",
+                "Antece": "Dave Cowens",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -291,11 +291,11 @@
                 "Rank": 50,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 173,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 174,
+                "Diff": "",
                 "Antece": "Draymond Green",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -449,9 +449,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 440,
-                "Diff": "119",
+                "Hoy": 13,
+                "Total": 442,
+                "Diff": "117",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -459,9 +459,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 368,
-                "Diff": "13",
+                "Hoy": 3,
+                "Total": 371,
+                "Diff": "10",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -489,9 +489,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 285,
-                "Diff": "20",
+                "Hoy": 9,
+                "Total": 286,
+                "Diff": "19",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -509,9 +509,9 @@
                 "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 192,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 193,
+                "Diff": "9",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -619,9 +619,9 @@
                 "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 45,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 46,
+                "Diff": "7",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -659,9 +659,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 83,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 84,
+                "Diff": "16",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1050,13 +1050,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (8 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779160587724446_7510_collage_1779160587649934.png"
-            ],
-            "timestamp": 1779160595
-        },
         {
             "texto": "Shai Gilgeous-Alexander (24 points today) has passed Dan Majerle and Kenyon Martin and is now ranked 148th all-time with 1,443 in playoffs.",
             "foto": [
@@ -1747,6 +1740,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414232816682_2267_collage_1779414232755540.png"
             ],
             "timestamp": 1779414239
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Shai Gilgeous-Alexander, Shane Battier and Wes Unseld and is now ranked 158th all-time with 56 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779414335740956_3967_collage_1779414335677971.png"
+            ],
+            "timestamp": 1779414343
         }
     ],
     "notificaciones_franchise": [
@@ -2451,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1708,
+    "total_notificaciones_historicas": 1709,
     "total_franchise_historicas": 915,
-    "cache_buster": 1779414239
+    "cache_buster": 1779414343
 }
