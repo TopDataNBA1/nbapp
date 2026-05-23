@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:55:36",
+    "ultima_actualizacion": "02:57:19",
     "tablas": {
         "pts": [
             {
@@ -88,13 +88,13 @@
         ],
         "blk": [
             {
-                "Rank": 106,
+                "Rank": 102,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 84,
+                "Hoy": 1,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Zydrunas Ilgauskas",
+                "Antece": "Tayshaun Prince",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -318,13 +318,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 80,
-                "Diff": "0",
-                "Antece": "Lonnie Shelton",
+                "Hoy": 2,
+                "Total": 81,
+                "Diff": "5",
+                "Antece": "Reggie Jackson",
                 "game_status": "playing"
             },
             {
@@ -381,9 +381,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 84,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 85,
+                "Diff": "15",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -513,9 +513,9 @@
                 "Rank": 25,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 88,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 89,
+                "Diff": "0",
                 "Antece": "Tiago Splitter",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (16 points today) has passed Gary Payton and is now ranked 58th all-time with 2,158 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779239671279181_6369_collage_1779239671189194.png"
-            ],
-            "timestamp": 1779239678
-        },
         {
             "texto": "Donovan Mitchell (3 steals today) becomes the 117th player to reach 100 steals in playoffs",
             "foto": [
@@ -1259,16 +1252,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497728901064_5156_collage_1779497728809825.png"
             ],
             "timestamp": 1779497736
+        },
+        {
+            "texto": "Chet Holmgren (1 block today) has passed Robert Williams and is now ranked 102nd all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497831875442_2098_collage_1779497831775265.png"
+            ],
+            "timestamp": 1779497839
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. (13 points today) has passed Trenton Hassell and is now ranked 19th in Timberwolves history with 139 in playoffs.",
-            "foto": [],
-            "timestamp": 1778901942,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Terrence Shannon Jr. (16 points today) has passed Troy Hudson and is now ranked 18th in Timberwolves history with 142 in playoffs.",
             "foto": [],
@@ -1961,9 +1954,16 @@
             "timestamp": 1779497355,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (2 assists today) has passed Lonnie Shelton and is now ranked 21st in Thunder history with 81 in playoffs.",
+            "foto": [],
+            "timestamp": 1779497839,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1727,
-    "total_franchise_historicas": 922,
-    "cache_buster": 1779497736
+    "total_notificaciones_historicas": 1728,
+    "total_franchise_historicas": 923,
+    "cache_buster": 1779497839
 }
