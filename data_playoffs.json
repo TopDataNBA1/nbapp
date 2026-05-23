@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:54",
+    "ultima_actualizacion": "02:55:36",
     "tablas": {
         "pts": [
             {
@@ -51,14 +51,14 @@
         ],
         "ast": [
             {
-                "Rank": 120,
+                "Rank": 119,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 342,
-                "Diff": "",
-                "Antece": "Nick Van Exel",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 343,
+                "Diff": "1",
+                "Antece": "Lionel Hollins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -301,9 +301,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 323,
-                "Diff": "17",
+                "Hoy": 3,
+                "Total": 324,
+                "Diff": "16",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -481,9 +481,9 @@
                 "Rank": 24,
                 "Nombre": "Jaylin Williams",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 29,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 30,
+                "Diff": "1",
                 "Antece": "Ray Allen",
                 "game_status": "playing"
             },
@@ -513,9 +513,9 @@
                 "Rank": 25,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 87,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 88,
+                "Diff": "1",
                 "Antece": "Tiago Splitter",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Antoine Walker and Jeff Hornacek and is now ranked 86th all-time with 123 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779238718146372_4916_collage_1779238718067743.png"
-            ],
-            "timestamp": 1779238725
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Donovan Mitchell (16 points today) has passed Gary Payton and is now ranked 58th all-time with 2,158 in playoffs.",
             "foto": [
@@ -1259,6 +1252,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497347429854_6190_collage_1779497347345950.png"
             ],
             "timestamp": 1779497355
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Nick Van Exel and is now ranked 119th all-time with 343 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497728901064_5156_collage_1779497728809825.png"
+            ],
+            "timestamp": 1779497736
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1726,
+    "total_notificaciones_historicas": 1727,
     "total_franchise_historicas": 922,
-    "cache_buster": 1779497634
+    "cache_buster": 1779497736
 }
