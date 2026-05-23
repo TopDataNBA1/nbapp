@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:19:22",
+    "ultima_actualizacion": "04:22:36",
     "tablas": {
         "pts": [
             {
@@ -64,14 +64,14 @@
         ],
         "stl": [
             {
-                "Rank": 139,
+                "Rank": 135,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 90,
-                "Diff": "1",
-                "Antece": "Joe Dumars",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 91,
+                "Diff": "2",
+                "Antece": "Doug Christie",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -351,9 +351,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 61,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 62,
+                "Diff": "0",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -371,9 +371,9 @@
                 "Rank": 19,
                 "Nombre": "Luguentz Dort",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "3",
+                "Hoy": 0,
+                "Total": 48,
+                "Diff": "4",
                 "Antece": "Nick Collison",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (3 three-pointers today) has passed Kyle Lowry and is now ranked 22nd all-time with 239 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779239705475115_8968_collage_1779239705381537.png"
-            ],
-            "timestamp": 1779239713
-        },
         {
             "texto": "OG Anunoby (1 steal today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
             "foto": [
@@ -1259,6 +1252,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779500351650677_3999_collage_1779500351557196.png"
             ],
             "timestamp": 1779500359
+        },
+        {
+            "texto": "Alex Caruso (2 steals today) has passed Buck Williams and is now ranked 135th all-time with 91 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779502948413275_6694_collage_1779502948306778.png"
+            ],
+            "timestamp": 1779502956
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1730,
+    "total_notificaciones_historicas": 1731,
     "total_franchise_historicas": 931,
-    "cache_buster": 1779502762
+    "cache_buster": 1779502956
 }
