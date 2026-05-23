@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:14:13",
+    "ultima_actualizacion": "03:16:00",
     "tablas": {
         "pts": [
             {
@@ -51,14 +51,14 @@
         ],
         "ast": [
             {
-                "Rank": 119,
+                "Rank": 117,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 344,
-                "Diff": "",
-                "Antece": "Lionel Hollins",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 346,
+                "Diff": "4",
+                "Antece": "Dick McGuire",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -301,9 +301,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 325,
-                "Diff": "15",
+                "Hoy": 6,
+                "Total": 327,
+                "Diff": "13",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -481,9 +481,9 @@
                 "Rank": 24,
                 "Nombre": "Jaylin Williams",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 30,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 31,
+                "Diff": "0",
                 "Antece": "Ray Allen",
                 "game_status": "playing"
             },
@@ -510,13 +510,13 @@
         ],
         "SAS": [
             {
-                "Rank": 25,
+                "Rank": 23,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 89,
+                "Hoy": 4,
+                "Total": 90,
                 "Diff": "0",
-                "Antece": "Tiago Splitter",
+                "Antece": "Larry Kenon",
                 "game_status": "playing"
             },
             {
@@ -553,22 +553,15 @@
                 "Rank": 23,
                 "Nombre": "Stephon Castle",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "4",
                 "Antece": "Antonio Daniels",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (3 steals today) becomes the 117th player to reach 100 steals in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779239689645552_5707_collage_1779239689580432.png"
-            ],
-            "timestamp": 1779239696
-        },
         {
             "texto": "Donovan Mitchell (3 steals today) has passed Shawn Kemp and is now ranked 117th all-time with 100 in playoffs.",
             "foto": [
@@ -1259,16 +1252,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497831875442_2098_collage_1779497831775265.png"
             ],
             "timestamp": 1779497839
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (6 assists today) has passed Johnny Moore and Lionel Hollins and is now ranked 117th all-time with 346 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779498947973589_8241_collage_1779498947898990.png"
+            ],
+            "timestamp": 1779498960
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Terrence Shannon Jr. (16 points today) has passed Troy Hudson and is now ranked 18th in Timberwolves history with 142 in playoffs.",
-            "foto": [],
-            "timestamp": 1778902229,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Naz Reid (7 rebounds today) has passed Jaden McDaniels and is now ranked 5th in Timberwolves history with 232 in playoffs.",
             "foto": [],
@@ -1961,9 +1954,16 @@
             "timestamp": 1779497839,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Stephon Castle (4 assists today) has passed Stephen Jackson and Tiago Splitter and is now ranked 23rd in Spurs history with 90 in playoffs.",
+            "foto": [],
+            "timestamp": 1779498960,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1728,
-    "total_franchise_historicas": 923,
-    "cache_buster": 1779498853
+    "total_notificaciones_historicas": 1729,
+    "total_franchise_historicas": 924,
+    "cache_buster": 1779498960
 }
