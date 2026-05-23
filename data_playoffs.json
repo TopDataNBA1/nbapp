@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:32:12",
+    "ultima_actualizacion": "04:40:02",
     "tablas": {
         "pts": [
             {
@@ -54,11 +54,11 @@
                 "Rank": 117,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 9,
-                "Total": 349,
-                "Diff": "1",
+                "Hoy": 10,
+                "Total": 350,
+                "Diff": "",
                 "Antece": "Dick McGuire",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -167,13 +167,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 138,
+                "Rank": 137,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 92,
+                "Hoy": 3,
+                "Total": 93,
                 "Diff": "1",
-                "Antece": "Karl-Anthony Towns",
+                "Antece": "Serge Ibaka",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -281,9 +281,9 @@
                 "Rank": 20,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 262,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 263,
+                "Diff": "1",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -301,9 +301,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 9,
-                "Total": 330,
-                "Diff": "10",
+                "Hoy": 10,
+                "Total": 331,
+                "Diff": "9",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -421,9 +421,9 @@
                 "Rank": 8,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 63,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 64,
+                "Diff": "2",
                 "Antece": "Hersey Hawkins",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Dorian Finney-Smith, James Posey and Nick Anderson and is now ranked 140th all-time with 90 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240755873630_3162_collage_1779240755802007.png"
-            ],
-            "timestamp": 1779240762
-        },
         {
             "texto": "OG Anunoby (2 steals today) has passed Kentavious Caldwell-Pope and Marc Gasol and is now ranked 158th all-time with 84 in playoffs.",
             "foto": [
@@ -1259,6 +1252,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779503525104613_5133_collage_1779503525032903.png"
             ],
             "timestamp": 1779503532
+        },
+        {
+            "texto": "Alex Caruso (3 three-pointers today) has passed Kirk Hinrich and Tim Hardaway Jr. and is now ranked 137th all-time with 93 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779503993030764_7570_collage_1779503992958818.png"
+            ],
+            "timestamp": 1779504002
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1733,
+    "total_notificaciones_historicas": 1734,
     "total_franchise_historicas": 931,
-    "cache_buster": 1779503532
+    "cache_buster": 1779504002
 }
