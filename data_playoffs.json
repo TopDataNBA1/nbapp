@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:00:24",
+    "ultima_actualizacion": "05:03:38",
     "tablas": {
         "pts": [
             {
-                "Rank": 135,
+                "Rank": 133,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 21,
-                "Total": 1494,
-                "Diff": "",
-                "Antece": "LaMarcus Aldridge",
-                "Nota": "Mismo total",
+                "Hoy": 24,
+                "Total": 1497,
+                "Diff": "9",
+                "Antece": "Marcus Smart",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -231,9 +231,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 1412,
-                "Diff": "192",
+                "Hoy": 24,
+                "Total": 1415,
+                "Diff": "189",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (7 points today) has passed Eddie Johnson and is now ranked 200th all-time with 1,170 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779241150366227_1755_collage_1779241150262431.png"
-            ],
-            "timestamp": 1779241158
-        },
         {
             "texto": "📢HOF🏛️ Donovan Mitchell (2 assists today) has passed Dick McGuire and is now ranked 114th all-time with 351 in playoffs.",
             "foto": [
@@ -1259,6 +1252,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779504380534304_5719_collage_1779504380447860.png"
             ],
             "timestamp": 1779504389
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (24 points today) has passed Chris Webber and LaMarcus Aldridge and is now ranked 133rd all-time with 1,497 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779505410350568_8054_collage_1779505410275364.png"
+            ],
+            "timestamp": 1779505418
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1735,
+    "total_notificaciones_historicas": 1736,
     "total_franchise_historicas": 931,
-    "cache_buster": 1779505224
+    "cache_buster": 1779505418
 }
