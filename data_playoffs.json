@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:28:51",
+    "ultima_actualizacion": "04:32:12",
     "tablas": {
         "pts": [
             {
                 "Rank": 136,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 14,
-                "Total": 1487,
-                "Diff": "6",
+                "Hoy": 17,
+                "Total": 1490,
+                "Diff": "3",
                 "Antece": "J.R. Smith",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -189,13 +189,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 159,
+                "Rank": 157,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 84,
+                "Hoy": 2,
+                "Total": 85,
                 "Diff": "",
-                "Antece": "Mickaël Piétrus",
+                "Antece": "Myles Turner",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -231,9 +231,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 1405,
-                "Diff": "199",
+                "Hoy": 17,
+                "Total": 1408,
+                "Diff": "196",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -411,9 +411,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 75,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 76,
+                "Diff": "24",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -562,20 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (1 steal today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240088206171_3003_collage_1779240088135637.png"
-            ],
-            "timestamp": 1779240095
-        },
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (4 steals today) has passed A.C. Green, Carmelo Anthony and Michael Finley and is now ranked 115th all-time with 101 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779240646754873_4358_collage_1779240646690771.png"
-            ],
-            "timestamp": 1779240660
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Dorian Finney-Smith, James Posey and Nick Anderson and is now ranked 140th all-time with 90 in playoffs.",
             "foto": [
@@ -1259,6 +1245,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779502948413275_6694_collage_1779502948306778.png"
             ],
             "timestamp": 1779502956
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (17 points today) has passed Sidney Moncrief and is now ranked 136th all-time with 1,490 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779503516842863_8297_collage_1779503516747797.png"
+            ],
+            "timestamp": 1779503524
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 157th all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779503525104613_5133_collage_1779503525032903.png"
+            ],
+            "timestamp": 1779503532
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1731,
+    "total_notificaciones_historicas": 1733,
     "total_franchise_historicas": 931,
-    "cache_buster": 1779503331
+    "cache_buster": 1779503532
 }
