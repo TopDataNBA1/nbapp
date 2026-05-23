@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:32",
+    "ultima_actualizacion": "02:47:23",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
         ],
         "stl": [
             {
-                "Rank": 140,
+                "Rank": 139,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "1",
-                "Antece": "Buck Williams",
+                "Antece": "Joe Dumars",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -110,24 +110,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 201,
+                "Rank": 199,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "",
+                "Antece": "Paul Pressey",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 202,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
                 "Hoy": 0,
                 "Total": 48,
                 "Diff": "",
                 "Antece": "Arvydas Sabonis",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 204,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "",
-                "Antece": "Kyle Lowry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -281,9 +281,9 @@
                 "Rank": 21,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 258,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 259,
+                "Diff": "2",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -351,9 +351,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 60,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 61,
+                "Diff": "0",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -501,9 +501,9 @@
                 "Rank": 22,
                 "Nombre": "Luguentz Dort",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "0",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             }
@@ -523,9 +523,9 @@
                 "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "3",
                 "Antece": "Mike Green",
                 "game_status": "playing"
             },
@@ -562,20 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (2 steals today) has passed P.J. Tucker, Stephen Jackson and Terry Cummings and is now ranked 118th all-time with 99 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237561393876_6046_collage_1779237561331249.png"
-            ],
-            "timestamp": 1779237569
-        },
-        {
-            "texto": "Jordan Clarkson (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 191st all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779237569667867_1600_collage_1779237569568107.png"
-            ],
-            "timestamp": 1779237578
-        },
         {
             "texto": "Josh Hart (4 rebounds today) has passed Greg Ostertag and is now ranked 214th all-time with 483 in playoffs.",
             "foto": [
@@ -1259,6 +1245,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779417006064177_3518_collage_1779417005973198.png"
             ],
             "timestamp": 1779417014
+        },
+        {
+            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Fat Lever, Luka Dončić, Norm Nixon and Paul Westphal and is now ranked 139th all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497228266953_1549_collage_1779497228189003.png"
+            ],
+            "timestamp": 1779497235
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Isaiah Hartenstein, Jonas Valančiūnas and Kyle Lowry and is now ranked 199th all-time with 49 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497235821686_4465_collage_1779497235743085.png"
+            ],
+            "timestamp": 1779497243
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1722,
+    "total_notificaciones_historicas": 1724,
     "total_franchise_historicas": 920,
-    "cache_buster": 1779497132
+    "cache_buster": 1779497243
 }
