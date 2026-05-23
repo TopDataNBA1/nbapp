@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:33:03",
+    "ultima_actualizacion": "03:39:19",
     "tablas": {
         "pts": [
             {
@@ -110,13 +110,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 193,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 49,
+                "Hoy": 2,
+                "Total": 50,
                 "Diff": "",
-                "Antece": "Paul Pressey",
+                "Antece": "Tony Battie",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -523,9 +523,9 @@
                 "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 50,
+                "Diff": "2",
                 "Antece": "Mike Green",
                 "game_status": "playing"
             },
@@ -562,13 +562,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (3 steals today) has passed Shawn Kemp and is now ranked 117th all-time with 100 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779239696904580_6700_collage_1779239696805396.png"
-            ],
-            "timestamp": 1779239705
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (3 three-pointers today) has passed Kyle Lowry and is now ranked 22nd all-time with 239 in playoffs.",
             "foto": [
@@ -1259,6 +1252,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779498947973589_8241_collage_1779498947898990.png"
             ],
             "timestamp": 1779498960
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 193rd all-time with 50 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779500351650677_3999_collage_1779500351557196.png"
+            ],
+            "timestamp": 1779500359
         }
     ],
     "notificaciones_franchise": [
@@ -1963,7 +1963,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1729,
+    "total_notificaciones_historicas": 1730,
     "total_franchise_historicas": 927,
-    "cache_buster": 1779499983
+    "cache_buster": 1779500359
 }
