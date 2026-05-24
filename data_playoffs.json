@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:00:52",
+    "ultima_actualizacion": "04:02:35",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 67,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 17,
-                "Total": 2049,
-                "Diff": "9",
+                "Hoy": 19,
+                "Total": 2051,
+                "Diff": "7",
                 "Antece": "Tom Heinsohn",
                 "Nota": "",
                 "game_status": "playing"
@@ -117,14 +117,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 138,
+                "Rank": 137,
                 "Nombre": "Dennis Schröder",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 311,
-                "Diff": "1",
-                "Antece": "Walter Davis",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 312,
+                "Diff": "5",
+                "Antece": "Toni Kukoč",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -679,9 +679,9 @@
                 "Rank": 12,
                 "Nombre": "Sam Merrill",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "4",
                 "Antece": "Mo Williams",
                 "game_status": "playing"
             },
@@ -751,9 +751,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 17,
-                "Total": 1605,
-                "Diff": "322",
+                "Hoy": 19,
+                "Total": 1607,
+                "Diff": "320",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (2 blocks today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Maurice Cheeks and Timofey Mozgov and is now ranked 216th all-time with 46 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779327339437208_1793_collage_1779327339345253.png"
-            ],
-            "timestamp": 1779327347
-        },
         {
             "texto": "Victor Wembanyama (3 blocks today) has passed A.C. Green, James Edwards, Luol Deng, Maurice Lucas, Mehmet Okur and Truck Robinson and is now ranked 209th all-time with 47 in playoffs.",
             "foto": [
@@ -1727,6 +1720,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587854329055_7302_collage_1779587854237084.png"
             ],
             "timestamp": 1779587866
+        },
+        {
+            "texto": "Dennis Schröder (2 assists today) has passed Baron Davis and is now ranked 137th all-time with 312 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779588146867837_3033_collage_1779588146781846.png"
+            ],
+            "timestamp": 1779588154
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1768,
+    "total_notificaciones_historicas": 1769,
     "total_franchise_historicas": 948,
-    "cache_buster": 1779588052
+    "cache_buster": 1779588155
 }
