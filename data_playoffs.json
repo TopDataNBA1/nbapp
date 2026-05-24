@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:26:16",
+    "ultima_actualizacion": "02:28:06",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 4209,
-                "Diff": "248",
+                "Hoy": 2,
+                "Total": 4211,
+                "Diff": "246",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -39,9 +39,9 @@
                 "Rank": 190,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 1197,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 1199,
+                "Diff": "12",
                 "Antece": "Buck Williams",
                 "Nota": "",
                 "game_status": "playing"
@@ -469,9 +469,9 @@
                 "Rank": 23,
                 "Nombre": "James Harden",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 314,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 316,
+                "Diff": "2",
                 "Antece": "Daniel Gibson",
                 "game_status": "playing"
             },
@@ -781,9 +781,9 @@
                 "Rank": 19,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 594,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 596,
+                "Diff": "10",
                 "Antece": "Connie Simmons",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (25 points today) becomes the 71st player to reach 2,000 points in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779244098935363_1007_collage_1779244098865223.png"
-            ],
-            "timestamp": 1779244105
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (13 rebounds today) has passed Ray Allen and is now ranked 130th all-time with 649 in playoffs.",
             "foto": [
@@ -1745,6 +1738,11 @@
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 167th all-time with 53 in playoffs.",
             "foto": [],
             "timestamp": 1779582376
+        },
+        {
+            "texto": "Karl-Anthony Towns (5 points today) has passed Fred Brown, JJ Redick and Jim McMillian and is now ranked 190th all-time with 1,199 in playoffs.",
+            "foto": [],
+            "timestamp": 1779582486
         }
     ],
     "notificaciones_franchise": [
@@ -2449,7 +2447,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1746,
+    "total_notificaciones_historicas": 1747,
     "total_franchise_historicas": 935,
-    "cache_buster": 1779582376
+    "cache_buster": 1779582486
 }
