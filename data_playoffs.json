@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:37:46",
+    "ultima_actualizacion": "04:39:43",
     "tablas": {
         "pts": [
             {
@@ -74,9 +74,9 @@
                 "Rank": 209,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 497,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 498,
+                "Diff": "2",
                 "Antece": "Elden Campbell",
                 "Nota": "",
                 "game_status": "playing"
@@ -106,14 +106,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 108,
+                "Rank": 110,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 5,
-                "Total": 358,
-                "Diff": "2",
-                "Antece": "Horace Grant",
-                "Nota": "",
+                "Hoy": 4,
+                "Total": 357,
+                "Diff": "1",
+                "Antece": "Sam Jones",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -152,14 +152,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 110,
+                "Rank": 105,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 105,
-                "Diff": "1",
-                "Antece": "Sidney Moncrief",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 106,
+                "Diff": "2",
+                "Antece": "Bruce Bowen",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -479,9 +479,9 @@
                 "Rank": 7,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 363,
-                "Diff": "42",
+                "Hoy": 6,
+                "Total": 364,
+                "Diff": "41",
                 "Antece": "Anderson Varejão",
                 "game_status": "playing"
             },
@@ -529,9 +529,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 173,
-                "Diff": "70",
+                "Hoy": 4,
+                "Total": 172,
+                "Diff": "71",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -569,9 +569,9 @@
                 "Rank": 6,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 59,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 60,
+                "Diff": "4",
                 "Antece": "Mark Price",
                 "game_status": "playing"
             },
@@ -791,9 +791,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 497,
-                "Diff": "25",
+                "Hoy": 8,
+                "Total": 498,
+                "Diff": "24",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -881,9 +881,9 @@
                 "Rank": 9,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 47,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 48,
+                "Diff": "2",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -1060,20 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (1 assist today) has passed Larry Siegfried and is now ranked 243rd all-time with 210 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409224845419_4608_collage_1779409224750445.png"
-            ],
-            "timestamp": 1779409232
-        },
-        {
-            "texto": "OG Anunoby (2 blocks today) has passed Derrick Coleman and is now ranked 151st all-time with 60 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409514350701_1593_collage_1779409514258731.png"
-            ],
-            "timestamp": 1779409522
-        },
         {
             "texto": "Karl-Anthony Towns (2 rebounds today) has passed Zach Randolph and is now ranked 129th all-time with 651 in playoffs.",
             "foto": [
@@ -1727,6 +1713,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590258532210_4312_collage_1779590258424884.png"
             ],
             "timestamp": 1779590266
+        },
+        {
+            "texto": "Josh Hart (8 rebounds today) has passed Andrew Bynum and is now ranked 209th all-time with 498 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590361328968_7402_collage_1779590361230883.png"
+            ],
+            "timestamp": 1779590369
+        },
+        {
+            "texto": "Donovan Mitchell (3 steals today) has passed Charlie Ward, Eddie Jones and Sam Cassell and is now ranked 105th all-time with 106 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590369217085_6878_collage_1779590369154110.png"
+            ],
+            "timestamp": 1779590383
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1783,
+    "total_notificaciones_historicas": 1785,
     "total_franchise_historicas": 954,
-    "cache_buster": 1779590266
+    "cache_buster": 1779590383
 }
