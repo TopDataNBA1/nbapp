@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:25:56",
+    "ultima_actualizacion": "04:27:41",
     "tablas": {
         "pts": [
             {
@@ -98,11 +98,11 @@
                 "Rank": 77,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 447,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 448,
+                "Diff": "1",
                 "Antece": "Ray Allen",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -354,13 +354,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 171,
+                "Rank": 169,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 78,
+                "Hoy": 4,
+                "Total": 79,
                 "Diff": "1",
-                "Antece": "Jerry Stackhouse",
+                "Antece": "Larry Bird",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -821,9 +821,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 209,
-                "Diff": "21",
+                "Hoy": 4,
+                "Total": 210,
+                "Diff": "20",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -841,9 +841,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 371,
-                "Diff": "21",
+                "Hoy": 6,
+                "Total": 372,
+                "Diff": "20",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -1018,13 +1018,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 23,
-                "Diff": "0",
-                "Antece": "J.R. Smith",
+                "Hoy": 4,
+                "Total": 24,
+                "Diff": "4",
+                "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
             {
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (30 points today) has passed Earl Monroe and is now ranked 137th all-time with 1,473 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779332624944141_3929_collage_1779332624837603.png"
-            ],
-            "timestamp": 1779332632
-        },
         {
             "texto": "Karl-Anthony Towns (3 points today) has passed Derrick McKey and is now ranked 199th all-time with 1,179 in playoffs.",
             "foto": [
@@ -1727,16 +1720,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779589547269032_8835_collage_1779589547173070.png"
             ],
             "timestamp": 1779589555
+        },
+        {
+            "texto": "Landry Shamet (4 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 169th all-time with 79 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779589654101761_1992_collage_1779589654033789.png"
+            ],
+            "timestamp": 1779589661
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Julian Champagnie (2 three-pointers today) has passed Antonio Daniels and is now ranked 20th in Spurs history with 30 in playoffs.",
-            "foto": [],
-            "timestamp": 1779156304,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Alex Caruso (5 three-pointers today) has passed Jalen Williams and Derek Fisher and is now ranked 9th in Thunder history with 55 in playoffs.",
             "foto": [],
@@ -2429,9 +2422,16 @@
             "timestamp": 1779589555,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Landry Shamet (4 three-pointers today) has passed J.R. Smith and is now ranked 20th in Knicks history with 24 in playoffs.",
+            "foto": [],
+            "timestamp": 1779589661,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1778,
-    "total_franchise_historicas": 950,
-    "cache_buster": 1779589556
+    "total_notificaciones_historicas": 1779,
+    "total_franchise_historicas": 951,
+    "cache_buster": 1779589661
 }
