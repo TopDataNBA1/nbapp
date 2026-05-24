@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:16",
+    "ultima_actualizacion": "02:39:46",
     "tablas": {
         "pts": [
             {
@@ -106,14 +106,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 113,
+                "Rank": 112,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 353,
-                "Diff": "1",
-                "Antece": "Slater Martin",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 354,
+                "Diff": "3",
+                "Antece": "Reggie Miller",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -288,14 +288,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 50,
+                "Rank": 47,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 174,
-                "Diff": "",
-                "Antece": "Draymond Green",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 175,
+                "Diff": "1",
+                "Antece": "John Starks",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -459,9 +459,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 373,
-                "Diff": "8",
+                "Hoy": 3,
+                "Total": 376,
+                "Diff": "5",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -529,9 +529,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 168,
-                "Diff": "75",
+                "Hoy": 1,
+                "Total": 169,
+                "Diff": "74",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -669,9 +669,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 84,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 85,
+                "Diff": "15",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -1060,20 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (4 assists today) has passed Allen Iverson and is now ranked 82nd all-time with 426 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779244778842485_3815_collage_1779244778748974.png"
-            ],
-            "timestamp": 1779244787
-        },
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Alvin Scott, George Gervin, Kurt Thomas and Nate Thurmond and is now ranked 175th all-time with 52 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779244787346120_9490_collage_1779244787268184.png"
-            ],
-            "timestamp": 1779244794
-        },
         {
             "texto": "Mikal Bridges (2 three-pointers today) has passed Dennis Schröder and Payton Pritchard and is now ranked 124th all-time with 99 in playoffs.",
             "foto": [
@@ -1739,6 +1725,16 @@
             "texto": "Landry Shamet (1 three-pointer today) has passed Naz Reid and Rafer Alston and is now ranked 178th all-time with 76 in playoffs.",
             "foto": [],
             "timestamp": 1779583096
+        },
+        {
+            "texto": "📢HOF🏛️ Donovan Mitchell (1 assist today) has passed Paul Westphal and is now ranked 112th all-time with 354 in playoffs.",
+            "foto": [],
+            "timestamp": 1779583171
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Draymond Green and is now ranked 47th all-time with 175 in playoffs.",
+            "foto": [],
+            "timestamp": 1779583186
         }
     ],
     "notificaciones_franchise": [
@@ -2443,7 +2439,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1749,
+    "total_notificaciones_historicas": 1751,
     "total_franchise_historicas": 937,
-    "cache_buster": 1779583096
+    "cache_buster": 1779583186
 }
