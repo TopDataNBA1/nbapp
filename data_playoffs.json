@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:02",
+    "ultima_actualizacion": "04:37:46",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 67,
+                "Rank": 66,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 25,
-                "Total": 2057,
-                "Diff": "1",
-                "Antece": "Tom Heinsohn",
-                "Nota": "A tiro de 1",
+                "Hoy": 27,
+                "Total": 2059,
+                "Diff": "13",
+                "Antece": "Steve Nash",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -751,9 +751,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 25,
-                "Total": 1613,
-                "Diff": "314",
+                "Hoy": 27,
+                "Total": 1615,
+                "Diff": "312",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (1 rebound today) has passed Tobias Harris and is now ranked 129th all-time with 650 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409210182621_2411_collage_1779409210089649.png"
-            ],
-            "timestamp": 1779409224
-        },
         {
             "texto": "Josh Hart (1 assist today) has passed Larry Siegfried and is now ranked 243rd all-time with 210 in playoffs.",
             "foto": [
@@ -1727,6 +1720,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590155183314_8131_collage_1779590155123356.png"
             ],
             "timestamp": 1779590162
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (27 points today) has passed Tom Heinsohn and is now ranked 66th all-time with 2,059 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590258532210_4312_collage_1779590258424884.png"
+            ],
+            "timestamp": 1779590266
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1782,
+    "total_notificaciones_historicas": 1783,
     "total_franchise_historicas": 954,
-    "cache_buster": 1779590162
+    "cache_buster": 1779590266
 }
