@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:49:25",
+    "ultima_actualizacion": "03:51:15",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 67,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 2043,
-                "Diff": "15",
+                "Hoy": 12,
+                "Total": 2044,
+                "Diff": "14",
                 "Antece": "Tom Heinsohn",
                 "Nota": "",
                 "game_status": "playing"
@@ -109,11 +109,11 @@
                 "Rank": 112,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 355,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 356,
+                "Diff": "1",
                 "Antece": "Reggie Miller",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -288,14 +288,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 47,
+                "Rank": 46,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 175,
-                "Diff": "1",
-                "Antece": "John Starks",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 176,
+                "Diff": "2",
+                "Antece": "Steve Nash",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -459,9 +459,9 @@
                 "Rank": 19,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 376,
-                "Diff": "5",
+                "Hoy": 6,
+                "Total": 379,
+                "Diff": "2",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -529,9 +529,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 170,
-                "Diff": "73",
+                "Hoy": 3,
+                "Total": 171,
+                "Diff": "72",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -669,9 +669,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 85,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 86,
+                "Diff": "14",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -751,9 +751,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1599,
-                "Diff": "328",
+                "Hoy": 12,
+                "Total": 1600,
+                "Diff": "327",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -1060,20 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (5 assists today) has passed Paul Silas and Robert Reid and is now ranked 121st all-time with 336 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779326271316972_6644_collage_1779326271241001.png"
-            ],
-            "timestamp": 1779326288
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (11 points today) has passed Bobby Jones and Clifford Robinson and is now ranked 142nd all-time with 1,454 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779326384893187_6418_collage_1779326384819229.png"
-            ],
-            "timestamp": 1779326395
-        },
         {
             "texto": "Victor Wembanyama (1 block today) has passed Anthony Edwards, Mason Plumlee, Mitchell Robinson, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 222nd all-time with 45 in playoffs.",
             "foto": [
@@ -1727,6 +1713,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587262235762_5647_collage_1779587262156789.png"
             ],
             "timestamp": 1779587269
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (12 points today) has passed Jason Kidd and is now ranked 67th all-time with 2,044 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587459331654_7274_collage_1779587459234685.png"
+            ],
+            "timestamp": 1779587467
+        },
+        {
+            "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Draymond Green, George Hill and Kevin Love and is now ranked 46th all-time with 176 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587467672075_3816_collage_1779587467606026.png"
+            ],
+            "timestamp": 1779587475
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1765,
+    "total_notificaciones_historicas": 1767,
     "total_franchise_historicas": 948,
-    "cache_buster": 1779587365
+    "cache_buster": 1779587475
 }
