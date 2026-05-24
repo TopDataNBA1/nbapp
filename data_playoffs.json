@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:47:37",
+    "ultima_actualizacion": "04:49:20",
     "tablas": {
         "pts": [
             {
@@ -163,7 +163,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 158,
+                "Rank": 156,
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 3,
+                "Total": 84,
+                "Diff": "1",
+                "Antece": "Thabo Sefolosha",
+                "Nota": "A tiro de 1",
+                "game_status": "finished"
+            },
+            {
+                "Rank": 159,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
                 "Hoy": 0,
@@ -171,17 +182,6 @@
                 "Diff": "",
                 "Antece": "Moses Malone",
                 "Nota": "Mismo total",
-                "game_status": "finished"
-            },
-            {
-                "Rank": 160,
-                "Nombre": "Mikal Bridges",
-                "Team": "NYK",
-                "Hoy": 2,
-                "Total": 83,
-                "Diff": "1",
-                "Antece": "Rick Fox",
-                "Nota": "A tiro de 1",
                 "game_status": "finished"
             }
         ],
@@ -891,9 +891,9 @@
                 "Rank": 12,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "Chris Childs",
                 "game_status": "finished"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (2 rebounds today) has passed Zach Randolph and is now ranked 129th all-time with 651 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409617810059_2290_collage_1779409617713081.png"
-            ],
-            "timestamp": 1779409626
-        },
         {
             "texto": "OG Anunoby (3 blocks today) has passed Erick Dampier and is now ranked 150th all-time with 61 in playoffs.",
             "foto": [
@@ -1727,6 +1720,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590369217085_6878_collage_1779590369154110.png"
             ],
             "timestamp": 1779590383
+        },
+        {
+            "texto": "Mikal Bridges (3 steals today) has passed Aaron McKie, B.J. Armstrong, Greg Anthony, Hedo Türkoğlu, Kentavious Caldwell-Pope, Kyle Korver, Marc Gasol and Paul Silas and is now ranked 156th all-time with 84 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590951871750_1091_collage_1779590951773056.png"
+            ],
+            "timestamp": 1779590960
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1785,
+    "total_notificaciones_historicas": 1786,
     "total_franchise_historicas": 954,
-    "cache_buster": 1779590857
+    "cache_buster": 1779590960
 }
