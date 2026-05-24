@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:30",
+    "ultima_actualizacion": "02:24:22",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 68,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 2034,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 2035,
+                "Diff": "8",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -52,9 +52,9 @@
                 "Rank": 51,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1032,
-                "Diff": "19",
+                "Hoy": 2,
+                "Total": 1033,
+                "Diff": "18",
                 "Antece": "Dolph Schayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -242,14 +242,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 183,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "",
-                "Antece": "Harvey Catchings",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "1",
+                "Antece": "Nate Thurmond",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -439,9 +439,9 @@
                 "Rank": 10,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 645,
-                "Diff": "48",
+                "Hoy": 2,
+                "Total": 647,
+                "Diff": "46",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -479,9 +479,9 @@
                 "Rank": 7,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 358,
-                "Diff": "47",
+                "Hoy": 1,
+                "Total": 359,
+                "Diff": "46",
                 "Antece": "Anderson Varejão",
                 "game_status": "playing"
             },
@@ -751,9 +751,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 1590,
-                "Diff": "337",
+                "Hoy": 3,
+                "Total": 1591,
+                "Diff": "336",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -951,9 +951,9 @@
                 "Rank": 16,
                 "Nombre": "Mikal Bridges",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 19,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 20,
+                "Diff": "1",
                 "Antece": "Tyson Chandler",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (1 three-pointer today) has passed Lindsey Hunter and is now ranked 190th all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779243774003917_5693_collage_1779243773877942.png"
-            ],
-            "timestamp": 1779243781
-        },
         {
             "texto": "Evan Mobley (2 blocks today) has passed Paul George, Steven Adams and Theo Ratliff and is now ranked 135th all-time with 68 in playoffs.",
             "foto": [
@@ -1749,6 +1742,11 @@
             "texto": "Josh Hart (1 assist today) has passed Jack Coleman and Keith Erickson and is now ranked 229th all-time with 217 in playoffs.",
             "foto": [],
             "timestamp": 1779581856
+        },
+        {
+            "texto": "Mikal Bridges (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Nenê and Paul Pressey and is now ranked 183rd all-time with 50 in playoffs.",
+            "foto": [],
+            "timestamp": 1779582262
         }
     ],
     "notificaciones_franchise": [
@@ -2453,7 +2451,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1744,
+    "total_notificaciones_historicas": 1745,
     "total_franchise_historicas": 935,
-    "cache_buster": 1779582150
+    "cache_buster": 1779582262
 }
