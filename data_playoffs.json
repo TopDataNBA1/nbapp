@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:41:17",
+    "ultima_actualizacion": "03:43:01",
     "tablas": {
         "pts": [
             {
@@ -52,9 +52,9 @@
                 "Rank": 51,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 1035,
-                "Diff": "16",
+                "Hoy": 5,
+                "Total": 1036,
+                "Diff": "15",
                 "Antece": "Dolph Schayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -63,11 +63,11 @@
                 "Rank": 121,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 666,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 667,
+                "Diff": "1",
                 "Antece": "DeAndre Jordan",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -439,9 +439,9 @@
                 "Rank": 10,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 655,
-                "Diff": "38",
+                "Hoy": 12,
+                "Total": 657,
+                "Diff": "36",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -519,9 +519,9 @@
                 "Rank": 23,
                 "Nombre": "Dean Wade",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 115,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 116,
+                "Diff": "2",
                 "Antece": "Nate Thurmond",
                 "game_status": "playing"
             },
@@ -801,9 +801,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 339,
-                "Diff": "122",
+                "Hoy": 5,
+                "Total": 340,
+                "Diff": "121",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -1060,13 +1060,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Leandro Barbosa and Seth Curry and is now ranked 145th all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779325967022869_9866_collage_1779325966943895.png"
-            ],
-            "timestamp": 1779325978
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (9 points today) has passed Gail Goodrich, Ricky Pierce and Walter Davis and is now ranked 144th all-time with 1,452 in playoffs.",
             "foto": [
@@ -1727,6 +1720,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779586869313936_9892_collage_1779586869218979.png"
             ],
             "timestamp": 1779586877
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (5 rebounds today) has passed Tony Parker and Walt Frazier and is now ranked 121st all-time with 667 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779586973433147_1720_collage_1779586973352173.png"
+            ],
+            "timestamp": 1779586981
         }
     ],
     "notificaciones_franchise": [
@@ -2431,7 +2431,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1763,
+    "total_notificaciones_historicas": 1764,
     "total_franchise_historicas": 948,
-    "cache_buster": 1779586877
+    "cache_buster": 1779586981
 }
