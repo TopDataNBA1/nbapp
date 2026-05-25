@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:27:07",
+    "ultima_actualizacion": "02:28:49",
     "tablas": {
         "pts": [
             {
@@ -88,14 +88,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 162,
+                "Rank": 153,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 56,
-                "Diff": "",
-                "Antece": "Pascal Siakam",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 57,
+                "Diff": "2",
+                "Antece": "Derrick Coleman",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -390,9 +390,9 @@
                 "Rank": 10,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "3",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 220th all time with 90 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410131487846_3349_collage_1779410131399860.png"
-            ],
-            "timestamp": 1779410139
-        },
         {
             "texto": "Miles McBride (1 three-pointer today) has passed Al-Farouq Aminu, Austin Reaves, Joel Embiid and Trae Young and is now ranked 199th all-time with 71 in playoffs.",
             "foto": [
@@ -1250,6 +1243,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668264936623_4525_collage_1779668264836531.png"
             ],
             "timestamp": 1779668272
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Dan Roundfield, Dave Cowens, Jarrett Allen, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668921565619_9551_collage_1779668921480212.png"
+            ],
+            "timestamp": 1779668929
         }
     ],
     "notificaciones_franchise": [
@@ -1954,7 +1954,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1789,
+    "total_notificaciones_historicas": 1790,
     "total_franchise_historicas": 955,
-    "cache_buster": 1779668827
+    "cache_buster": 1779668929
 }
