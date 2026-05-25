@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:51:17",
+    "ultima_actualizacion": "02:53:13",
     "tablas": {
         "pts": [
             {
@@ -19,11 +19,11 @@
                 "Rank": 243,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 424,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 425,
+                "Diff": "1",
                 "Antece": "Anderson Varejão",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 241,
+                "Rank": 231,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 64,
+                "Hoy": 1,
+                "Total": 65,
                 "Diff": "1",
-                "Antece": "Vinnie Johnson",
+                "Antece": "Steve Nash",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -260,9 +260,9 @@
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 270,
-                "Diff": "19",
+                "Hoy": 5,
+                "Total": 271,
+                "Diff": "18",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "0",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -352,7 +352,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 62,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -581,20 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 assists today) has passed Don Nelson and Jae Crowder and is now ranked 240th all-time with 211 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779412163712557_5082_collage_1779412163628166.png"
-            ],
-            "timestamp": 1779412171
-        },
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ OG Anunoby (1 three-pointer today) has passed Allen Iverson and is now ranked 85th all-time with 124 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779412171513658_3167_collage_1779412171417558.png"
-            ],
-            "timestamp": 1779412180
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (5 assists today) has passed Kawhi Leonard and is now ranked 79th all-time with 433 in playoffs.",
             "foto": [
@@ -1250,6 +1236,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670270302745_2120_collage_1779670270220435.png"
             ],
             "timestamp": 1779670277
+        },
+        {
+            "texto": "Isaiah Hartenstein (5 rebounds today) has passed George Hill and J.R. Smith and is now ranked 243rd all-time with 425 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670373451355_9762_collage_1779670373379541.png"
+            ],
+            "timestamp": 1779670385
+        },
+        {
+            "texto": "Cason Wallace (1 steal today) has passed John Wall, Mark Price, Nick Van Exel and Quinn Buckner and is now ranked 231st all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670385674042_8684_collage_1779670385598226.png"
+            ],
+            "timestamp": 1779670392
         }
     ],
     "notificaciones_franchise": [
@@ -1954,7 +1954,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1795,
+    "total_notificaciones_historicas": 1797,
     "total_franchise_historicas": 958,
-    "cache_buster": 1779670277
+    "cache_buster": 1779670393
 }
