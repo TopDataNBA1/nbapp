@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:14:17",
+    "ultima_actualizacion": "02:16:08",
     "tablas": {
         "pts": [
             {
@@ -29,14 +29,14 @@
         ],
         "ast": [
             {
-                "Rank": 114,
+                "Rank": 113,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 353,
-                "Diff": "1",
-                "Antece": "Slater Martin",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 354,
+                "Diff": "3",
+                "Antece": "Reggie Miller",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -99,14 +99,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 194,
+                "Rank": 179,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "",
-                "Antece": "Tony Battie",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "1",
+                "Antece": "Tobias Harris",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -290,9 +290,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 334,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 335,
+                "Diff": "5",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -500,9 +500,9 @@
                 "Rank": 21,
                 "Nombre": "Luguentz Dort",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "1",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -510,9 +510,9 @@
                 "Rank": 25,
                 "Nombre": "Cason Wallace",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 44,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 45,
+                "Diff": "0",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             }
@@ -532,9 +532,9 @@
                 "Rank": 10,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "1",
                 "Antece": "Mike Green",
                 "game_status": "playing"
             },
@@ -581,18 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (3 blocks today) has passed Erick Dampier and is now ranked 150th all-time with 61 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779409626407350_8466_collage_1779409626300326.png"
-            ],
-            "timestamp": 1779409634
-        },
-        {
-            "texto": "Karl-Anthony Towns (5 points today) has passed Derrick White and Metta World Peace and is now ranked 197th all-time with 1,181 in playoffs.",
-            "foto": [],
-            "timestamp": 1779409745
-        },
         {
             "texto": "OG Anunoby (1 steal today) has passed Kentavious Caldwell-Pope and Marc Gasol and is now ranked 158th all-time with 84 in playoffs.",
             "foto": [
@@ -1248,16 +1236,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590951871750_1091_collage_1779590951773056.png"
             ],
             "timestamp": 1779590960
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Paul Westphal and is now ranked 113th all-time with 354 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668151794752_6905_collage_1779668151695214.png"
+            ],
+            "timestamp": 1779668159
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Andrew Lang, Cedric Maxwell, Ian Mahinmi, Jaden McDaniels, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Stephen Curry and Tony Battie and is now ranked 179th all-time with 51 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668160288047_9644_collage_1779668160190434.png"
+            ],
+            "timestamp": 1779668168
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Devin Vassell (3 three-pointers today) has passed Stephon Castle and is now ranked 22nd in Spurs history with 24 in playoffs.",
-            "foto": [],
-            "timestamp": 1779159225,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed James Harden and is now ranked 13th in Thunder history with 59 in playoffs.",
             "foto": [],
@@ -1950,9 +1945,16 @@
             "timestamp": 1779590162,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Luguentz Dort today surpasses Derek Fisher and is now ranked 21st in Thunder history with 51 games in playoffs.",
+            "foto": [],
+            "timestamp": 1779668168,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1786,
-    "total_franchise_historicas": 954,
-    "cache_buster": 1779668057
+    "total_notificaciones_historicas": 1788,
+    "total_franchise_historicas": 955,
+    "cache_buster": 1779668168
 }
