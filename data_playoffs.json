@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:05:07",
+    "ultima_actualizacion": "04:06:48",
     "tablas": {
         "pts": [
             {
@@ -53,13 +53,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 176,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 77,
+                "Hoy": 2,
+                "Total": 78,
                 "Diff": "1",
-                "Antece": "Tobias Harris",
+                "Antece": "Tom Henderson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -330,9 +330,9 @@
                 "Rank": 11,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 72,
+                "Diff": "1",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -342,7 +342,7 @@
                 "Stat": "STL",
                 "Hoy": 2,
                 "Total": 66,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (7 points today) has passed Bob Cousy and Jamal Murray and is now ranked 69th all-time with 2,020 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413632017742_1381_collage_1779413631941760.png"
-            ],
-            "timestamp": 1779413640
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (4 assists today) has passed Chet Walker and is now ranked 238th all-time with 213 in playoffs.",
             "foto": [
@@ -1250,6 +1243,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779674141747084_1809_collage_1779674141665376.png"
             ],
             "timestamp": 1779674149
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 176th all-time with 78 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779674801429803_5841_collage_1779674801353476.png"
+            ],
+            "timestamp": 1779674808
         }
     ],
     "notificaciones_franchise": [
@@ -1954,7 +1954,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1803,
+    "total_notificaciones_historicas": 1804,
     "total_franchise_historicas": 962,
-    "cache_buster": 1779674707
+    "cache_buster": 1779674808
 }
