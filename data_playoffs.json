@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:43",
+    "ultima_actualizacion": "03:47:58",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 171,
+                "Rank": 167,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 52,
+                "Hoy": 3,
+                "Total": 53,
                 "Diff": "1",
-                "Antece": "Kyrie Irving",
+                "Antece": "Jae Crowder",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -522,20 +522,20 @@
                 "Rank": 22,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 96,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 97,
+                "Diff": "7",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
             {
-                "Rank": 10,
+                "Rank": 9,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 52,
-                "Diff": "0",
-                "Antece": "Mike Green",
+                "Hoy": 3,
+                "Total": 53,
+                "Diff": "2",
+                "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
             {
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (3 assists today) has passed Fred VanVleet and Latrell Sprewell and is now ranked 239th all-time with 212 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413520046640_3564_collage_1779413519969646.png"
-            ],
-            "timestamp": 1779413527
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (1 three-pointer today) has passed CJ McCollum and is now ranked 58th all-time with 161 in playoffs.",
             "foto": [
@@ -1250,16 +1243,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779673474743517_9177_collage_1779673474650524.png"
             ],
             "timestamp": 1779673483
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (3 blocks today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 167th all-time with 53 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779673669515497_9477_collage_1779673669415672.png"
+            ],
+            "timestamp": 1779673677
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "OG Anunoby (1 rebound today) has passed Charles Smith and is now ranked 22nd in Knicks history with 198 in playoffs.",
-            "foto": [],
-            "timestamp": 1779236869,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus today surpasses Mike Sanders and Richard Jefferson and is now ranked 23rd in Cavaliers history with 36 games in playoffs.",
             "foto": [],
@@ -1952,9 +1945,16 @@
             "timestamp": 1779671725,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Victor Wembanyama (3 blocks today) has passed Mike Green and is now ranked 9th in Spurs history with 53 in playoffs.",
+            "foto": [],
+            "timestamp": 1779673677,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1801,
-    "total_franchise_historicas": 961,
-    "cache_buster": 1779673483
+    "total_notificaciones_historicas": 1802,
+    "total_franchise_historicas": 962,
+    "cache_buster": 1779673678
 }
