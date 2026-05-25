@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:08:55",
+    "ultima_actualizacion": "03:10:39",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 231,
+                "Rank": 226,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 65,
+                "Hoy": 2,
+                "Total": 66,
                 "Diff": "1",
-                "Antece": "Steve Nash",
+                "Antece": "Wesley Matthews",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -317,13 +317,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 80,
-                "Diff": "0",
-                "Antece": "Lonnie Shelton",
+                "Hoy": 1,
+                "Total": 81,
+                "Diff": "3",
+                "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
             {
@@ -337,13 +337,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "0",
-                "Antece": "Jack Sikma",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "5",
+                "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
             {
@@ -353,7 +353,7 @@
                 "Hoy": 0,
                 "Total": 62,
                 "Diff": "3",
-                "Antece": "Cason Wallace",
+                "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
             {
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 three-pointers today) has passed Caleb Martin, D'Angelo Russell, Grant Williams, Jaden McDaniels, Malik Beasley and Voshon Lenard and is now ranked 217th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779412285920884_1321_collage_1779412285835909.png"
-            ],
-            "timestamp": 1779412301
-        },
         {
             "texto": "Karl-Anthony Towns (7 rebounds today) has passed David West and is now ranked 128th all-time with 656 in playoffs.",
             "foto": [
@@ -1250,23 +1243,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670951499484_9907_collage_1779670951405032.png"
             ],
             "timestamp": 1779670963
+        },
+        {
+            "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Josh Hart, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 226th all-time with 66 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779671429896874_2828_collage_1779671429797777.png"
+            ],
+            "timestamp": 1779671439
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Jalen Williams (1 three-pointer today) has passed Derek Fisher and is now ranked 10th in Thunder history with 55 in playoffs.",
-            "foto": [],
-            "timestamp": 1779161839,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
-            "texto": "Donovan Mitchell today surpasses Delonte West and Mo Williams and is now ranked 20th in Cavaliers history with 39 games in playoffs.",
-            "foto": [],
-            "timestamp": 1779236232,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Brunson today surpasses Josh Hart and is now ranked 18th in Knicks history with 53 games in playoffs.",
             "foto": [],
@@ -1952,9 +1938,23 @@
             "timestamp": 1779670277,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Hartenstein (1 assist today) has passed Lonnie Shelton and is now ranked 22nd in Thunder history with 81 in playoffs.",
+            "foto": [],
+            "timestamp": 1779671439,
+            "team": "OKC",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Jack Sikma and is now ranked 12th in Thunder history with 66 in playoffs.",
+            "foto": [],
+            "timestamp": 1779671439,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1798,
-    "total_franchise_historicas": 958,
-    "cache_buster": 1779671335
+    "total_notificaciones_historicas": 1799,
+    "total_franchise_historicas": 960,
+    "cache_buster": 1779671439
 }
