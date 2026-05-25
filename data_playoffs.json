@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:32:03",
+    "ultima_actualizacion": "02:35:17",
     "tablas": {
         "pts": [
             {
@@ -16,13 +16,13 @@
         ],
         "trb": [
             {
-                "Rank": 246,
+                "Rank": 245,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 422,
+                "Hoy": 3,
+                "Total": 423,
                 "Diff": "1",
-                "Antece": "Marvin Webster",
+                "Antece": "J.R. Smith",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -260,9 +260,9 @@
                 "Rank": 19,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 268,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 269,
+                "Diff": "0",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -272,7 +272,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 265,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (12 points today) has passed Bill Bridges, Mark Jackson and Paul Arizin and is now ranked 194th all-time with 1,188 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410713534961_1409_collage_1779410713463976.png"
-            ],
-            "timestamp": 1779410720
-        },
         {
             "texto": "Mitchell Robinson (1 block today) has passed Anthony Edwards, Mason Plumlee, Nick Collison, Randy Breuer, Richard Jefferson and Sam Lacey and is now ranked 222nd all-time with 45 in playoffs.",
             "foto": [
@@ -1250,6 +1243,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779669115862205_3704_collage_1779669115787207.png"
             ],
             "timestamp": 1779669123
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (3 rebounds today) has passed Mark West and Steve Nash and is now ranked 245th all-time with 423 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779669310061923_9917_collage_1779669309974679.png"
+            ],
+            "timestamp": 1779669317
         }
     ],
     "notificaciones_franchise": [
@@ -1954,7 +1954,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1791,
+    "total_notificaciones_historicas": 1792,
     "total_franchise_historicas": 955,
-    "cache_buster": 1779669123
+    "cache_buster": 1779669317
 }
