@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:39",
+    "ultima_actualizacion": "03:15:25",
     "tablas": {
         "pts": [
             {
@@ -29,14 +29,14 @@
         ],
         "ast": [
             {
-                "Rank": 110,
+                "Rank": 108,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 357,
-                "Diff": "1",
-                "Antece": "Sam Jones",
-                "Nota": "A tiro de 1",
+                "Hoy": 6,
+                "Total": 358,
+                "Diff": "2",
+                "Antece": "Horace Grant",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -237,22 +237,22 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 695,
-                "Diff": "1",
-                "Antece": "Dale Ellis",
+                "Hoy": 8,
+                "Total": 697,
+                "Diff": "53",
+                "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
             {
                 "Rank": 10,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 364,
-                "Diff": "6",
+                "Hoy": 6,
+                "Total": 365,
+                "Diff": "5",
                 "Antece": "Kendrick Perkins",
                 "game_status": "playing"
             },
@@ -290,9 +290,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 338,
-                "Diff": "2",
+                "Hoy": 6,
+                "Total": 339,
+                "Diff": "1",
                 "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (7 rebounds today) has passed David West and is now ranked 128th all-time with 656 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779413408127537_9519_collage_1779413408032567.png"
-            ],
-            "timestamp": 1779413415
-        },
         {
             "texto": "Jarrett Allen (1 block today) has passed Billy Paultz and Jae Crowder and is now ranked 161st all-time with 55 in playoffs.",
             "foto": [
@@ -1250,16 +1243,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779671429896874_2828_collage_1779671429797777.png"
             ],
             "timestamp": 1779671439
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (6 assists today) has passed Donovan Mitchell, Mookie Blaylock and Reggie Miller and is now ranked 108th all-time with 358 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779671717887515_7457_collage_1779671717824938.png"
+            ],
+            "timestamp": 1779671725
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Brunson today surpasses Josh Hart and is now ranked 18th in Knicks history with 53 games in playoffs.",
-            "foto": [],
-            "timestamp": 1779236454,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "OG Anunoby (1 rebound today) has passed Charles Smith and is now ranked 22nd in Knicks history with 198 in playoffs.",
             "foto": [],
@@ -1952,9 +1945,16 @@
             "timestamp": 1779671439,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (8 points today) has passed Dale Ellis and is now ranked 14th in Thunder history with 697 in playoffs.",
+            "foto": [],
+            "timestamp": 1779671725,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1799,
-    "total_franchise_historicas": 960,
-    "cache_buster": 1779671439
+    "total_notificaciones_historicas": 1800,
+    "total_franchise_historicas": 961,
+    "cache_buster": 1779671725
 }
