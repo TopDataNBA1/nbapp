@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:28:49",
+    "ultima_actualizacion": "02:32:03",
     "tablas": {
         "pts": [
             {
@@ -53,14 +53,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 185,
+                "Rank": 180,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "",
-                "Antece": "Peja Stojaković",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "1",
+                "Antece": "Tobias Harris",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -88,14 +88,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 153,
+                "Rank": 162,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 57,
-                "Diff": "2",
-                "Antece": "Derrick Coleman",
-                "Nota": "",
+                "Hoy": 0,
+                "Total": 56,
+                "Diff": "",
+                "Antece": "Pascal Siakam",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -330,9 +330,9 @@
                 "Rank": 11,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 70,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 71,
+                "Diff": "2",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -390,7 +390,7 @@
                 "Rank": 10,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 52,
                 "Diff": "3",
                 "Antece": "Sam Perkins",
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (1 three-pointer today) has passed Al-Farouq Aminu, Austin Reaves, Joel Embiid and Trae Young and is now ranked 199th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779410235097828_6007_collage_1779410235024851.png"
-            ],
-            "timestamp": 1779410242
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (12 points today) has passed Bill Bridges, Mark Jackson and Paul Arizin and is now ranked 194th all-time with 1,188 in playoffs.",
             "foto": [
@@ -1250,6 +1243,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668921565619_9551_collage_1779668921480212.png"
             ],
             "timestamp": 1779668929
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 steal today) has passed Anthony Davis and Peja Stojaković and is now ranked 180th all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779669115862205_3704_collage_1779669115787207.png"
+            ],
+            "timestamp": 1779669123
         }
     ],
     "notificaciones_franchise": [
@@ -1954,7 +1954,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1790,
+    "total_notificaciones_historicas": 1791,
     "total_franchise_historicas": 955,
-    "cache_buster": 1779668929
+    "cache_buster": 1779669123
 }
