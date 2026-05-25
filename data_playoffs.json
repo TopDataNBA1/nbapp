@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:34",
+    "ultima_actualizacion": "02:51:17",
     "tablas": {
         "pts": [
             {
@@ -16,14 +16,14 @@
         ],
         "trb": [
             {
-                "Rank": 245,
+                "Rank": 243,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 423,
-                "Diff": "1",
-                "Antece": "J.R. Smith",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 424,
+                "Diff": "2",
+                "Antece": "Anderson Varejão",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -257,13 +257,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 269,
-                "Diff": "0",
-                "Antece": "Dennis Johnson",
+                "Hoy": 4,
+                "Total": 270,
+                "Diff": "19",
+                "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
             {
@@ -273,7 +273,7 @@
                 "Hoy": 1,
                 "Total": 266,
                 "Diff": "3",
-                "Antece": "Isaiah Hartenstein",
+                "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
             {
@@ -581,13 +581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (1 three-pointer today) has passed Charles Barkley, Reggie Bullock and Richard Jefferson and is now ranked 222nd all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779411776851268_6033_collage_1779411776790230.png"
-            ],
-            "timestamp": 1779411787
-        },
         {
             "texto": "Josh Hart (2 assists today) has passed Don Nelson and Jae Crowder and is now ranked 240th all-time with 211 in playoffs.",
             "foto": [
@@ -1250,16 +1243,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670167317987_1660_collage_1779670167249200.png"
             ],
             "timestamp": 1779670174
+        },
+        {
+            "texto": "Isaiah Hartenstein (4 rebounds today) has passed Marvin Webster and is now ranked 243rd all-time with 424 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670270302745_2120_collage_1779670270220435.png"
+            ],
+            "timestamp": 1779670277
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace (2 three-pointers today) has passed Dale Ellis and is now ranked 15th in Thunder history with 43 in playoffs.",
-            "foto": [],
-            "timestamp": 1779161542,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Jalen Williams (1 three-pointer today) has passed Derek Fisher and is now ranked 10th in Thunder history with 55 in playoffs.",
             "foto": [],
@@ -1952,9 +1945,16 @@
             "timestamp": 1779669601,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Isaiah Hartenstein (4 rebounds today) has passed Dennis Johnson and is now ranked 18th in Thunder history with 270 in playoffs.",
+            "foto": [],
+            "timestamp": 1779670277,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1794,
-    "total_franchise_historicas": 957,
-    "cache_buster": 1779670174
+    "total_notificaciones_historicas": 1795,
+    "total_franchise_historicas": 958,
+    "cache_buster": 1779670277
 }
