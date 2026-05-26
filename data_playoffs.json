@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:46",
+    "ultima_actualizacion": "02:59:39",
     "tablas": {
         "pts": [
             {
@@ -302,9 +302,9 @@
                 "Rank": 45,
                 "Nombre": "Max Strus",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 178,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 179,
+                "Diff": "2",
                 "Antece": "Dan Majerle",
                 "Nota": "",
                 "game_status": "playing"
@@ -365,14 +365,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 163,
+                "Rank": 162,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 81,
-                "Diff": "1",
-                "Antece": "Iman Shumpert",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 82,
+                "Diff": "2",
+                "Antece": "Vernon Maxwell",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -470,9 +470,9 @@
                 "Rank": 18,
                 "Nombre": "Max Strus",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 386,
-                "Diff": "20",
+                "Hoy": 5,
+                "Total": 391,
+                "Diff": "15",
                 "Antece": "Mo Williams",
                 "game_status": "playing"
             },
@@ -680,9 +680,9 @@
                 "Rank": 6,
                 "Nombre": "Max Strus",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "11",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -822,9 +822,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 336,
-                "Diff": "16",
+                "Hoy": 6,
+                "Total": 337,
+                "Diff": "15",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -1042,9 +1042,9 @@
                 "Rank": 20,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 26,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 27,
+                "Diff": "1",
                 "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
@@ -1081,20 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Nick Van Exel and is now ranked 119th all-time with 343 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497728901064_5156_collage_1779497728809825.png"
-            ],
-            "timestamp": 1779497736
-        },
-        {
-            "texto": "Chet Holmgren (1 block today) has passed Robert Williams and is now ranked 102nd all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497831875442_2098_collage_1779497831775265.png"
-            ],
-            "timestamp": 1779497839
-        },
         {
             "texto": "Shai Gilgeous-Alexander (6 assists today) has passed Johnny Moore and Lionel Hollins and is now ranked 117th all-time with 346 in playoffs.",
             "foto": [
@@ -1750,6 +1736,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756962529533_7559_collage_1779756962430179.png"
             ],
             "timestamp": 1779756971
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Max Strus (1 three-pointer today) has passed Steve Nash and is now ranked 45th all-time with 179 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779757161785909_1137_collage_1779757161688476.png"
+            ],
+            "timestamp": 1779757171
+        },
+        {
+            "texto": "📢HOF🏛️ Landry Shamet (3 three-pointers today) has passed Isiah Thomas, Jason Williams, Raja Bell, Royce O'Neale and Rui Hachimura and is now ranked 162nd all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779757171933851_6579_collage_1779757171855640.png"
+            ],
+            "timestamp": 1779757179
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1826,
+    "total_notificaciones_historicas": 1828,
     "total_franchise_historicas": 974,
-    "cache_buster": 1779757066
+    "cache_buster": 1779757179
 }
