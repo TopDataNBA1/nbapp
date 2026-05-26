@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:00",
+    "ultima_actualizacion": "03:32:24",
     "tablas": {
         "pts": [
             {
@@ -71,13 +71,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 208,
+                "Rank": 204,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 503,
+                "Hoy": 6,
+                "Total": 505,
                 "Diff": "1",
-                "Antece": "Marcus Smart",
+                "Antece": "Richard Hamilton",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -490,9 +490,9 @@
                 "Rank": 7,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 367,
-                "Diff": "38",
+                "Hoy": 4,
+                "Total": 368,
+                "Diff": "37",
                 "Antece": "Anderson Varejão",
                 "game_status": "playing"
             },
@@ -802,9 +802,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 503,
-                "Diff": "19",
+                "Hoy": 6,
+                "Total": 505,
+                "Diff": "17",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (2 blocks today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 193rd all-time with 50 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779500351650677_3999_collage_1779500351557196.png"
-            ],
-            "timestamp": 1779500359
-        },
         {
             "texto": "Alex Caruso (2 steals today) has passed Buck Williams and is now ranked 135th all-time with 91 in playoffs.",
             "foto": [
@@ -1750,6 +1743,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779758118888705_6237_collage_1779758118828508.png"
             ],
             "timestamp": 1779758125
+        },
+        {
+            "texto": "Josh Hart (6 rebounds today) has passed Luka Dončić and Marcus Smart and is now ranked 204th all-time with 505 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759136593048_4273_collage_1779759136518551.png"
+            ],
+            "timestamp": 1779759144
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1829,
+    "total_notificaciones_historicas": 1830,
     "total_franchise_historicas": 974,
-    "cache_buster": 1779758220
+    "cache_buster": 1779759144
 }
