@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:58:23",
+    "ultima_actualizacion": "04:00:09",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 54,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 26,
-                "Total": 2246,
-                "Diff": "15",
+                "Hoy": 28,
+                "Total": 2248,
+                "Diff": "13",
                 "Antece": "Isiah Thomas",
                 "Nota": "",
                 "game_status": "playing"
@@ -174,14 +174,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
+                "Rank": 153,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 84,
-                "Diff": "",
-                "Antece": "Bill Laimbeer",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 85,
+                "Diff": "1",
+                "Antece": "Pascal Siakam",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -440,9 +440,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 26,
-                "Total": 1141,
-                "Diff": "102",
+                "Hoy": 28,
+                "Total": 1143,
+                "Diff": "100",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -822,9 +822,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 339,
-                "Diff": "17",
+                "Hoy": 9,
+                "Total": 340,
+                "Diff": "16",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -899,13 +899,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 10,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "0",
-                "Antece": "Chris Childs",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "1",
+                "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
             {
@@ -1081,11 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (5 points today) has passed Fred Brown, JJ Redick and Jim McMillian and is now ranked 190th all-time with 1,199 in playoffs.",
-            "foto": [],
-            "timestamp": 1779582486
-        },
         {
             "texto": "Mikal Bridges (2 steals today) has passed Aaron McKie, B.J. Armstrong, Greg Anthony, Hedo Türkoğlu, Kyle Korver and Paul Silas and is now ranked 160th all-time with 83 in playoffs.",
             "foto": [],
@@ -1762,16 +1757,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760600276474_6721_collage_1779760600187977.png"
             ],
             "timestamp": 1779760608
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Bill Laimbeer, Moses Malone and Rick Fox and is now ranked 153rd all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760798928355_7346_collage_1779760798866260.png"
+            ],
+            "timestamp": 1779760809
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (3 assists today) has passed J.R. Smith and is now ranked 16th in Cavaliers history with 90 in playoffs.",
-            "foto": [],
-            "timestamp": 1779241373,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (1 steal today) has passed Tristan Thompson and Zydrunas Ilgauskas and is now ranked 19th in Cavaliers history with 27 in playoffs.",
             "foto": [],
@@ -2464,9 +2459,16 @@
             "timestamp": 1779760703,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Mikal Bridges (1 steal today) has passed Larry Johnson and Chris Childs and is now ranked 10th in Knicks history with 47 in playoffs.",
+            "foto": [],
+            "timestamp": 1779760809,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1846,
-    "total_franchise_historicas": 975,
-    "cache_buster": 1779760703
+    "total_notificaciones_historicas": 1847,
+    "total_franchise_historicas": 976,
+    "cache_buster": 1779760809
 }
