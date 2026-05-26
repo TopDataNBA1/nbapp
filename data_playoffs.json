@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:13",
+    "ultima_actualizacion": "04:19:30",
     "tablas": {
         "pts": [
             {
@@ -387,7 +387,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 193,
+                "Rank": 190,
+                "Nombre": "Jordan Clarkson",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 73,
+                "Diff": "1",
+                "Antece": "Nickeil Alexander-Walker",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 194,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
                 "Hoy": 1,
@@ -395,17 +406,6 @@
                 "Diff": "1",
                 "Antece": "Sean Elliott",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 194,
-                "Nombre": "Jordan Clarkson",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 72,
-                "Diff": "",
-                "Antece": "Josh Hart",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -1081,11 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Max Strus (1 three-pointer today) has passed Draymond Green and is now ranked 47th all-time with 175 in playoffs.",
-            "foto": [],
-            "timestamp": 1779583186
-        },
         {
             "texto": "Miles McBride (1 three-pointer today) has passed Austin Rivers, Dale Ellis, Damon Jones, Glen Rice, Malcolm Brogdon, Richard Hamilton and Shawn Marion and is now ranked 192nd all-time with 72 in playoffs.",
             "foto": [],
@@ -1770,6 +1765,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779761297087306_7237_collage_1779761296997972.png"
             ],
             "timestamp": 1779761305
+        },
+        {
+            "texto": "Jordan Clarkson (1 three-pointer today) has passed Lindsey Hunter and is now ranked 190th all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779761959139176_7298_collage_1779761959021867.png"
+            ],
+            "timestamp": 1779761970
         }
     ],
     "notificaciones_franchise": [
@@ -2474,7 +2476,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1850,
+    "total_notificaciones_historicas": 1851,
     "total_franchise_historicas": 977,
-    "cache_buster": 1779761773
+    "cache_buster": 1779761970
 }
