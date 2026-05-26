@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:51:51",
+    "ultima_actualizacion": "03:55:05",
     "tablas": {
         "pts": [
             {
@@ -74,11 +74,11 @@
                 "Rank": 200,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 508,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 509,
+                "Diff": "1",
                 "Antece": "Michael Porter Jr.",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -198,13 +198,13 @@
         ],
         "blk": [
             {
-                "Rank": 68,
+                "Rank": 66,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 109,
+                "Hoy": 1,
+                "Total": 110,
                 "Diff": "1",
-                "Antece": "Giannis Antetokounmpo",
+                "Antece": "Clint Capela",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -802,9 +802,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 508,
-                "Diff": "14",
+                "Hoy": 10,
+                "Total": 509,
+                "Diff": "13",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -1081,11 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 block today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Nenê and Paul Pressey and is now ranked 183rd all-time with 50 in playoffs.",
-            "foto": [],
-            "timestamp": 1779582262
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 167th all-time with 53 in playoffs.",
             "foto": [],
@@ -1758,6 +1753,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760207424383_7674_collage_1779760207324931.png"
             ],
             "timestamp": 1779760215
+        },
+        {
+            "texto": "Josh Hart (10 rebounds today) has passed Luke Jackson and is now ranked 200th all-time with 509 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760497199051_5333_collage_1779760497098624.png"
+            ],
+            "timestamp": 1779760504
         }
     ],
     "notificaciones_franchise": [
@@ -2462,7 +2464,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1844,
+    "total_notificaciones_historicas": 1845,
     "total_franchise_historicas": 974,
-    "cache_buster": 1779760311
+    "cache_buster": 1779760505
 }
