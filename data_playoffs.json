@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:03",
+    "ultima_actualizacion": "03:37:46",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 54,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 20,
-                "Total": 2240,
-                "Diff": "21",
+                "Hoy": 23,
+                "Total": 2243,
+                "Diff": "18",
                 "Antece": "Isiah Thomas",
                 "Nota": "",
                 "game_status": "playing"
@@ -440,9 +440,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1135,
-                "Diff": "108",
+                "Hoy": 23,
+                "Total": 1138,
+                "Diff": "105",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (3 three-pointers today) has passed Kirk Hinrich and Tim Hardaway Jr. and is now ranked 137th all-time with 93 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779503993030764_7570_collage_1779503992958818.png"
-            ],
-            "timestamp": 1779504002
-        },
         {
             "texto": "Shai Gilgeous-Alexander (21 points today) has passed J.R. Smith and is now ranked 135th all-time with 1,494 in playoffs.",
             "foto": [
@@ -1750,6 +1743,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759356116712_3701_collage_1779759356037435.png"
             ],
             "timestamp": 1779759363
+        },
+        {
+            "texto": "📢🔝💯 Donovan Mitchell (23 points today) has passed Bob Pettit and is now ranked 54th all-time with 2,243 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759458761299_7956_collage_1779759458661139.png"
+            ],
+            "timestamp": 1779759466
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1833,
+    "total_notificaciones_historicas": 1834,
     "total_franchise_historicas": 974,
-    "cache_buster": 1779759363
+    "cache_buster": 1779759466
 }
