@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:44",
+    "ultima_actualizacion": "03:15:25",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 55,
+                "Rank": 54,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 19,
-                "Total": 2239,
-                "Diff": "1",
-                "Antece": "Bob Pettit",
-                "Nota": "A tiro de 1",
+                "Hoy": 20,
+                "Total": 2240,
+                "Diff": "21",
+                "Antece": "Isiah Thomas",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -234,11 +234,11 @@
                 "Rank": 153,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 57,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 58,
+                "Diff": "1",
                 "Antece": "Derrick Coleman",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -440,9 +440,9 @@
                 "Rank": 3,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1134,
-                "Diff": "109",
+                "Hoy": 20,
+                "Total": 1135,
+                "Diff": "108",
                 "Antece": "Kyrie Irving",
                 "game_status": "playing"
             },
@@ -500,9 +500,9 @@
                 "Rank": 10,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 295,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 296,
+                "Diff": "9",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -520,9 +520,9 @@
                 "Rank": 14,
                 "Nombre": "Max Strus",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 201,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 202,
+                "Diff": "5",
                 "Antece": "Donovan Mitchell",
                 "game_status": "playing"
             },
@@ -640,9 +640,9 @@
                 "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 47,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 48,
+                "Diff": "5",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (6 assists today) has passed Johnny Moore and Lionel Hollins and is now ranked 117th all-time with 346 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779498947973589_8241_collage_1779498947898990.png"
-            ],
-            "timestamp": 1779498960
-        },
         {
             "texto": "Victor Wembanyama (2 blocks today) has passed Bam Adebayo, Deandre Ayton, Harvey Catchings, Mikal Bridges, Nenê and Paul Pressey and is now ranked 193rd all-time with 50 in playoffs.",
             "foto": [
@@ -1750,6 +1743,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779757171933851_6579_collage_1779757171855640.png"
             ],
             "timestamp": 1779757179
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (2 blocks today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 153rd all-time with 58 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779758118888705_6237_collage_1779758118828508.png"
+            ],
+            "timestamp": 1779758125
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1828,
+    "total_notificaciones_historicas": 1829,
     "total_franchise_historicas": 974,
-    "cache_buster": 1779758024
+    "cache_buster": 1779758125
 }
