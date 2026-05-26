@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:26",
+    "ultima_actualizacion": "02:56:11",
     "tablas": {
         "pts": [
             {
@@ -264,14 +264,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 223,
+                "Rank": 211,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "",
-                "Antece": "Maurice Cheeks",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "1",
+                "Antece": "Vince Carter",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -822,9 +822,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 336,
-                "Diff": "16",
+                "Hoy": 6,
+                "Total": 337,
+                "Diff": "15",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -932,9 +932,9 @@
                 "Rank": 4,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "9",
                 "Antece": "Charles Smith",
                 "game_status": "playing"
             },
@@ -944,7 +944,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 43,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Craig Hodges and Mario Elie and is now ranked 140th all-time with 91 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497347429854_6190_collage_1779497347345950.png"
-            ],
-            "timestamp": 1779497355
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Nick Van Exel and is now ranked 119th all-time with 343 in playoffs.",
             "foto": [
@@ -1750,6 +1743,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756858593394_5981_collage_1779756858496045.png"
             ],
             "timestamp": 1779756866
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Mason Plumlee, Maurice Cheeks and Timofey Mozgov and is now ranked 211th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756962529533_7559_collage_1779756962430179.png"
+            ],
+            "timestamp": 1779756971
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1825,
+    "total_notificaciones_historicas": 1826,
     "total_franchise_historicas": 973,
-    "cache_buster": 1779756866
+    "cache_buster": 1779756971
 }
