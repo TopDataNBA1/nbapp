@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:26",
+    "ultima_actualizacion": "02:57:46",
     "tablas": {
         "pts": [
             {
@@ -28,11 +28,11 @@
                 "Rank": 66,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 2069,
-                "Diff": "3",
+                "Hoy": 8,
+                "Total": 2070,
+                "Diff": "2",
                 "Antece": "Steve Nash",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -762,9 +762,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 1625,
-                "Diff": "302",
+                "Hoy": 8,
+                "Total": 1626,
+                "Diff": "301",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -839,13 +839,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 197,
-                "Diff": "0",
-                "Antece": "Charles Smith",
+                "Hoy": 2,
+                "Total": 198,
+                "Diff": "1",
+                "Antece": "Ernie Vandeweghe",
                 "game_status": "playing"
             },
             {
@@ -912,9 +912,9 @@
                 "Rank": 19,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 35,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 36,
+                "Diff": "1",
                 "Antece": "Trent Tucker",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Craig Hodges and Mario Elie and is now ranked 140th all-time with 91 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497347429854_6190_collage_1779497347345950.png"
-            ],
-            "timestamp": 1779497355
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 assists today) has passed Nick Van Exel and is now ranked 119th all-time with 343 in playoffs.",
             "foto": [
@@ -1750,16 +1743,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756858593394_5981_collage_1779756858496045.png"
             ],
             "timestamp": 1779756866
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Mason Plumlee, Maurice Cheeks and Timofey Mozgov and is now ranked 211th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756962529533_7559_collage_1779756962430179.png"
+            ],
+            "timestamp": 1779756971
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (2 assists today) has passed Larry Nance and is now ranked 11th in Cavaliers history with 111 in playoffs.",
-            "foto": [],
-            "timestamp": 1779239713,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen (4 points today) has passed Craig Ehlo and is now ranked 13th in Cavaliers history with 423 in playoffs.",
             "foto": [],
@@ -2452,9 +2445,16 @@
             "timestamp": 1779756866,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (2 rebounds today) has passed Charles Smith and is now ranked 23rd in Knicks history with 198 in playoffs.",
+            "foto": [],
+            "timestamp": 1779757066,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1825,
-    "total_franchise_historicas": 973,
-    "cache_buster": 1779756866
+    "total_notificaciones_historicas": 1826,
+    "total_franchise_historicas": 974,
+    "cache_buster": 1779757066
 }
