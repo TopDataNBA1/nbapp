@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:51:01",
+    "ultima_actualizacion": "02:52:43",
     "tablas": {
         "pts": [
             {
                 "Rank": 10,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 4232,
-                "Diff": "225",
+                "Hoy": 7,
+                "Total": 4235,
+                "Diff": "222",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -231,14 +231,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
+                "Rank": 153,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 56,
-                "Diff": "",
-                "Antece": "Dave Cowens",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 57,
+                "Diff": "2",
+                "Antece": "Derrick Coleman",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -480,9 +480,9 @@
                 "Rank": 20,
                 "Nombre": "James Harden",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 337,
-                "Diff": "44",
+                "Hoy": 7,
+                "Total": 340,
+                "Diff": "41",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -590,9 +590,9 @@
                 "Rank": 13,
                 "Nombre": "Jarrett Allen",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 39,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 40,
+                "Diff": "3",
                 "Antece": "Delonte West",
                 "game_status": "playing"
             },
@@ -602,7 +602,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 38,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jarrett Allen",
                 "game_status": "playing"
             },
@@ -640,9 +640,9 @@
                 "Rank": 7,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "6",
                 "Antece": "Hot Rod Williams",
                 "game_status": "playing"
             },
@@ -1081,13 +1081,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Isaiah Hartenstein, Jonas Valančiūnas and Kyle Lowry and is now ranked 199th all-time with 49 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779497235821686_4465_collage_1779497235743085.png"
-            ],
-            "timestamp": 1779497243
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Rick Barry and is now ranked 120th all-time with 342 in playoffs.",
             "foto": [
@@ -1750,6 +1743,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756375528414_9228_collage_1779756375461228.png"
             ],
             "timestamp": 1779756382
+        },
+        {
+            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace, Pascal Siakam and Shai Gilgeous-Alexander and is now ranked 153rd all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756755635710_8285_collage_1779756755549670.png"
+            ],
+            "timestamp": 1779756763
         }
     ],
     "notificaciones_franchise": [
@@ -2454,7 +2454,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1823,
+    "total_notificaciones_historicas": 1824,
     "total_franchise_historicas": 972,
-    "cache_buster": 1779756661
+    "cache_buster": 1779756763
 }
