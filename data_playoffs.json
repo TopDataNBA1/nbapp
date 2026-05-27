@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:58:10",
+    "ultima_actualizacion": "02:59:53",
     "tablas": {
         "pts": [
             {
-                "Rank": 131,
+                "Rank": 130,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 1518,
-                "Diff": "1",
-                "Antece": "Shawn Marion",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 1520,
+                "Diff": "2",
+                "Antece": "Shawn Kemp",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1436,
-                "Diff": "168",
+                "Hoy": 2,
+                "Total": 1438,
+                "Diff": "166",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Mookie Blaylock and is now ranked 80th all-time with 126 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779584672162665_4163_collage_1779584672072693.png"
-            ],
-            "timestamp": 1779584685
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (4 rebounds today) has passed Alonzo Mourning, Chris Bosh, Darryl Dawkins and George Mikan and is now ranked 121st all-time with 666 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843386719498_6780_collage_1779843386637527.png"
             ],
             "timestamp": 1779843394
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 points today) has passed Shawn Marion and is now ranked 130th all-time with 1,520 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843584976690_2961_collage_1779843584872725.png"
+            ],
+            "timestamp": 1779843592
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1856,
+    "total_notificaciones_historicas": 1857,
     "total_franchise_historicas": 986,
-    "cache_buster": 1779843490
+    "cache_buster": 1779843593
 }
