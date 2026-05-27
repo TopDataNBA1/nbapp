@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:55",
+    "ultima_actualizacion": "04:19:37",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 163,
+                "Rank": 158,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 55,
+                "Hoy": 3,
+                "Total": 56,
                 "Diff": "1",
-                "Antece": "Pascal Siakam",
+                "Antece": "Ralph Sampson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -518,13 +518,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 55,
-                "Diff": "0",
-                "Antece": "Kawhi Leonard",
+                "Hoy": 3,
+                "Total": 56,
+                "Diff": "2",
+                "Antece": "Bruce Bowen",
                 "game_status": "playing"
             },
             {
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 three-pointers today) has passed Al-Farouq Aminu, Andrew Nembhard, Austin Reaves, Joel Embiid and Trae Young and is now ranked 195th all-time with 71 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779588841497817_1941_collage_1779588841410856.png"
-            ],
-            "timestamp": 1779588851
-        },
         {
             "texto": "📢HOF🏛️ Mikal Bridges (2 blocks today) has passed Andrew Lang, Bam Adebayo, Cedric Maxwell, Deandre Ayton, Harvey Catchings, Ian Mahinmi, Jaden McDaniels, Jaren Jackson Jr., Jeff Green, John Stockton, Jrue Holiday, Nenê, Paul Pressey, Stephen Curry, Tony Battie and Victor Wembanyama and is now ranked 179th all-time with 51 in playoffs.",
             "foto": [
@@ -1269,16 +1262,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847799480221_5430_collage_1779847799410243.png"
             ],
             "timestamp": 1779847807
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (3 blocks today) has passed Karl-Anthony Towns, Shane Battier and Wes Unseld and is now ranked 158th all-time with 56 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779848369804889_4905_collage_1779848369743909.png"
+            ],
+            "timestamp": 1779848377
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace (2 steals today) has passed James Harden and is now ranked 14th in Thunder history with 59 in playoffs.",
-            "foto": [],
-            "timestamp": 1779326288,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 rebounds today) has passed Gus Williams and is now ranked 19th in Thunder history with 262 in playoffs.",
             "foto": [],
@@ -1971,9 +1964,16 @@
             "timestamp": 1779848179,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Victor Wembanyama (3 blocks today) has passed Kawhi Leonard and is now ranked 8th in Spurs history with 56 in playoffs.",
+            "foto": [],
+            "timestamp": 1779848377,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1872,
-    "total_franchise_historicas": 989,
-    "cache_buster": 1779848275
+    "total_notificaciones_historicas": 1873,
+    "total_franchise_historicas": 990,
+    "cache_buster": 1779848377
 }
