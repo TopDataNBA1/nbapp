@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:33:31",
+    "ultima_actualizacion": "03:35:13",
     "tablas": {
         "pts": [
             {
@@ -110,13 +110,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 200,
+                "Rank": 195,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 48,
+                "Hoy": 1,
+                "Total": 49,
                 "Diff": "1",
-                "Antece": "Paul Pressey",
+                "Antece": "Tony Battie",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -145,14 +145,14 @@
         ],
         "fg3": [
             {
-                "Rank": 113,
+                "Rank": 111,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 103,
-                "Diff": "1",
-                "Antece": "Pat Connaughton",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 104,
+                "Diff": "3",
+                "Antece": "Tyrese Haliburton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -296,13 +296,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 86,
-                "Diff": "0",
-                "Antece": "Reggie Jackson",
+                "Hoy": 3,
+                "Total": 87,
+                "Diff": "2",
+                "Antece": "Xavier McDaniel",
                 "game_status": "playing"
             },
             {
@@ -312,7 +312,7 @@
                 "Hoy": 1,
                 "Total": 84,
                 "Diff": "2",
-                "Antece": "Cason Wallace",
+                "Antece": "Reggie Jackson",
                 "game_status": "playing"
             },
             {
@@ -389,9 +389,9 @@
                 "Rank": 4,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 103,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 104,
+                "Diff": "0",
                 "Antece": "Gary Payton",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (7 rebounds today) has passed Bill Cartwright and DeAndre Jordan and is now ranked 119th all-time with 669 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587262235762_5647_collage_1779587262156789.png"
-            ],
-            "timestamp": 1779587269
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (12 points today) has passed Jason Kidd and is now ranked 67th all-time with 2,044 in playoffs.",
             "foto": [
@@ -1269,16 +1262,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845507911687_7493_collage_1779845507821711.png"
             ],
             "timestamp": 1779845515
+        },
+        {
+            "texto": "📢HOF🏛️ Luguentz Dort (1 three-pointer today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 111th all-time with 104 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845705832052_7645_collage_1779845705769071.png"
+            ],
+            "timestamp": 1779845713
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Chet Holmgren (1 three-pointer today) has passed Derek Fisher and is now ranked 11th in Thunder history with 55 in playoffs.",
-            "foto": [],
-            "timestamp": 1779325384,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Julian Champagnie (1 three-pointer today) has passed Vinny Del Negro and is now ranked 19th in Spurs history with 32 in playoffs.",
             "foto": [],
@@ -1971,9 +1964,16 @@
             "timestamp": 1779844367,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (3 assists today) has passed Reggie Jackson and is now ranked 20th in Thunder history with 87 in playoffs.",
+            "foto": [],
+            "timestamp": 1779845713,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1864,
-    "total_franchise_historicas": 987,
-    "cache_buster": 1779845611
+    "total_notificaciones_historicas": 1865,
+    "total_franchise_historicas": 988,
+    "cache_buster": 1779845713
 }
