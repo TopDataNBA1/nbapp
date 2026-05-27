@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:51",
+    "ultima_actualizacion": "03:25:39",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 168,
+                "Rank": 166,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 53,
+                "Hoy": 1,
+                "Total": 54,
                 "Diff": "1",
-                "Antece": "Jae Crowder",
+                "Antece": "Wes Unseld",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -521,9 +521,9 @@
                 "Rank": 9,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 53,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 54,
+                "Diff": "1",
                 "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Blake Griffin, Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jamaal Wilkes, Jason Kidd, Kyrie Irving, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 165th all-time with 54 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779586869313936_9892_collage_1779586869218979.png"
-            ],
-            "timestamp": 1779586877
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (5 rebounds today) has passed Tony Parker and Walt Frazier and is now ranked 121st all-time with 667 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779844660254959_7597_collage_1779844660166272.png"
             ],
             "timestamp": 1779844671
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 166th all-time with 54 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845131843222_6595_collage_1779845131783244.png"
+            ],
+            "timestamp": 1779845139
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1862,
+    "total_notificaciones_historicas": 1863,
     "total_franchise_historicas": 987,
-    "cache_buster": 1779844671
+    "cache_buster": 1779845139
 }
