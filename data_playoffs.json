@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:16:05",
+    "ultima_actualizacion": "03:17:51",
     "tablas": {
         "pts": [
             {
@@ -42,13 +42,13 @@
         ],
         "stl": [
             {
-                "Rank": 134,
+                "Rank": 130,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 93,
+                "Hoy": 3,
+                "Total": 94,
                 "Diff": "1",
-                "Antece": "Vince Carter",
+                "Antece": "Toni Kukoč",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 220,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 67,
                 "Diff": "1",
-                "Antece": "Rashard Lewis",
+                "Antece": "Luol Deng",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -329,9 +329,9 @@
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 68,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 67,
+                "Diff": "6",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -339,9 +339,9 @@
                 "Rank": 14,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 64,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 65,
+                "Diff": "0",
                 "Antece": "Jack Sikma",
                 "game_status": "playing"
             },
@@ -531,9 +531,9 @@
                 "Rank": 18,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 37,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 38,
+                "Diff": "0",
                 "Antece": "Boris Diaw",
                 "game_status": "playing"
             },
@@ -543,7 +543,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 35,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Julian Champagnie",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (17 points today) has passed Kyrie Irving and is now ranked 56th all-time with 2,214 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779586860893303_6029_collage_1779586860809331.png"
-            ],
-            "timestamp": 1779586868
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Blake Griffin, Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jamaal Wilkes, Jason Kidd, Kyrie Irving, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 165th all-time with 54 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779844553651153_1437_collage_1779844553557198.png"
             ],
             "timestamp": 1779844564
+        },
+        {
+            "texto": "Alex Caruso (3 steals today) has passed Doug Christie and is now ranked 130th all-time with 94 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779844660254959_7597_collage_1779844660166272.png"
+            ],
+            "timestamp": 1779844671
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1861,
+    "total_notificaciones_historicas": 1862,
     "total_franchise_historicas": 987,
-    "cache_buster": 1779844565
+    "cache_buster": 1779844671
 }
