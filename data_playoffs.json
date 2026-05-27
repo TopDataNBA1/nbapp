@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:43",
+    "ultima_actualizacion": "02:56:34",
     "tablas": {
         "pts": [
             {
@@ -19,9 +19,9 @@
                 "Rank": 241,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 427,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 428,
+                "Diff": "4",
                 "Antece": "Walter Dukes",
                 "Nota": "",
                 "game_status": "playing"
@@ -32,9 +32,9 @@
                 "Rank": 106,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 360,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 361,
+                "Diff": "3",
                 "Antece": "John Wall",
                 "Nota": "",
                 "game_status": "playing"
@@ -249,9 +249,9 @@
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 273,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 274,
+                "Diff": "15",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -261,7 +261,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 270,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 341,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 342,
+                "Diff": "23",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -499,9 +499,9 @@
                 "Rank": 24,
                 "Nombre": "Cason Wallace",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "Michael Cage",
                 "game_status": "playing"
             }
@@ -570,18 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Dennis Schröder today surpasses Avery Johnson, Cliff Hagan, Deron Williams, Derrick White and Steve Smith and now ranked 214th all time with 91 games in playoffs",
-            "foto": [],
-            "timestamp": 1779583529
-        },
-        {
-            "texto": "Josh Hart (3 assists today) has passed CJ McCollum, Jack Coleman, Keith Erickson, Larry Costello and Rolando Blackman and is now ranked 224th all-time with 219 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779584664483308_2859_collage_1779584664397938.png"
-            ],
-            "timestamp": 1779584671
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Mookie Blaylock and is now ranked 80th all-time with 126 in playoffs.",
             "foto": [
@@ -1267,16 +1255,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779842998164458_4960_collage_1779842998076503.png"
             ],
             "timestamp": 1779843005
+        },
+        {
+            "texto": "Isaiah Hartenstein (1 rebound today) has passed Marques Johnson and is now ranked 241st all-time with 428 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843378457769_8987_collage_1779843378352804.png"
+            ],
+            "timestamp": 1779843386
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Dirk Nowitzki and Horace Grant and is now ranked 106th all-time with 361 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843386719498_6780_collage_1779843386637527.png"
+            ],
+            "timestamp": 1779843394
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Williams (1 steal today) has passed Nick Collison and is now ranked 17th in Thunder history with 53 in playoffs.",
-            "foto": [],
-            "timestamp": 1779324632,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Luguentz Dort (1 three-pointer today) has passed Sam Perkins and is now ranked 4th in Thunder history with 103 in playoffs.",
             "foto": [],
@@ -1969,9 +1964,16 @@
             "timestamp": 1779843283,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace today surpasses Derrick McKey and is now ranked 24th in Thunder history with 46 games in playoffs.",
+            "foto": [],
+            "timestamp": 1779843394,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1854,
-    "total_franchise_historicas": 985,
-    "cache_buster": 1779843283
+    "total_notificaciones_historicas": 1856,
+    "total_franchise_historicas": 986,
+    "cache_buster": 1779843394
 }
