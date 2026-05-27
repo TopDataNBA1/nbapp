@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:59:24",
+    "ultima_actualizacion": "05:04:09",
     "tablas": {
         "pts": [
             {
@@ -19,9 +19,9 @@
                 "Rank": 236,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 12,
-                "Total": 439,
-                "Diff": "3",
+                "Hoy": 13,
+                "Total": 440,
+                "Diff": "2",
                 "Antece": "Darrall Imhoff",
                 "Nota": "",
                 "game_status": "playing"
@@ -29,13 +29,13 @@
         ],
         "ast": [
             {
-                "Rank": 104,
+                "Rank": 103,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 8,
-                "Total": 367,
+                "Hoy": 9,
+                "Total": 368,
                 "Diff": "1",
-                "Antece": "Tayshaun Prince",
+                "Antece": "Joe Johnson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -156,13 +156,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 131,
+                "Rank": 127,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 96,
+                "Hoy": 4,
+                "Total": 97,
                 "Diff": "1",
-                "Antece": "Mike Miller",
+                "Antece": "Payton Pritchard",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -249,9 +249,9 @@
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 12,
-                "Total": 285,
-                "Diff": "4",
+                "Hoy": 13,
+                "Total": 286,
+                "Diff": "3",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -261,7 +261,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 270,
-                "Diff": "15",
+                "Diff": "16",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 348,
-                "Diff": "17",
+                "Hoy": 9,
+                "Total": 349,
+                "Diff": "16",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -409,9 +409,9 @@
                 "Rank": 7,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 67,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 68,
+                "Diff": "10",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (3 three-pointers today) has passed Chris Paul and is now ranked 21st all-time with 245 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779589757268125_5005_collage_1779589757183165.png"
-            ],
-            "timestamp": 1779589773
-        },
         {
             "texto": "📢HOF🏛️ Donovan Mitchell (5 assists today) has passed Mookie Blaylock and Reggie Miller and is now ranked 108th all-time with 358 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779850756375987_7328_collage_1779850756297013.png"
             ],
             "timestamp": 1779850763
+        },
+        {
+            "texto": "Alex Caruso (4 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 127th all-time with 97 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779851041527456_6217_collage_1779851041456622.png"
+            ],
+            "timestamp": 1779851049
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1879,
+    "total_notificaciones_historicas": 1880,
     "total_franchise_historicas": 993,
-    "cache_buster": 1779850764
+    "cache_buster": 1779851049
 }
