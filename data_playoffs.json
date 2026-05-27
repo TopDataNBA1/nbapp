@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:49:41",
+    "ultima_actualizacion": "04:08:15",
     "tablas": {
         "pts": [
             {
@@ -16,13 +16,13 @@
         ],
         "trb": [
             {
-                "Rank": 241,
+                "Rank": 239,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 4,
-                "Total": 431,
+                "Hoy": 5,
+                "Total": 432,
                 "Diff": "1",
-                "Antece": "Walter Dukes",
+                "Antece": "Rashard Lewis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -88,24 +88,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 157,
+                "Rank": 154,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 56,
+                "Hoy": 1,
+                "Total": 57,
                 "Diff": "1",
-                "Antece": "Ralph Sampson",
+                "Antece": "Jarrett Allen",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 163,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 54,
+                "Hoy": 2,
+                "Total": 55,
                 "Diff": "1",
-                "Antece": "Wes Unseld",
+                "Antece": "Pascal Siakam",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -239,9 +239,9 @@
                 "Rank": 9,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 374,
-                "Diff": "1",
+                "Hoy": 7,
+                "Total": 375,
+                "Diff": "0",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -249,9 +249,9 @@
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 277,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 278,
+                "Diff": "11",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -261,7 +261,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 270,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -379,9 +379,9 @@
                 "Rank": 10,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "3",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -521,9 +521,9 @@
                 "Rank": 9,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 54,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 55,
+                "Diff": "0",
                 "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
@@ -570,20 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dennis Schröder (2 assists today) has passed Baron Davis and is now ranked 137th all-time with 312 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779588146867837_3033_collage_1779588146781846.png"
-            ],
-            "timestamp": 1779588154
-        },
-        {
-            "texto": "📢HOF🏛️ Josh Hart (5 rebounds today) has passed Frank Ramsey and is now ranked 210th all-time with 495 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779588712585026_2053_collage_1779588712493065.png"
-            ],
-            "timestamp": 1779588727
-        },
         {
             "texto": "Josh Hart (6 rebounds today) has passed Nat Clifton and is now ranked 210th all-time with 496 in playoffs.",
             "foto": [
@@ -1269,6 +1255,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779846573369809_9139_collage_1779846573269842.png"
             ],
             "timestamp": 1779846581
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 154th all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847679822765_7136_collage_1779847679749788.png"
+            ],
+            "timestamp": 1779847687
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 163rd all-time with 55 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847687776867_2206_collage_1779847687703872.png"
+            ],
+            "timestamp": 1779847695
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1868,
+    "total_notificaciones_historicas": 1870,
     "total_franchise_historicas": 988,
-    "cache_buster": 1779846581
+    "cache_buster": 1779847695
 }
