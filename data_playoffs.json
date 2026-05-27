@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:29:28",
+    "ultima_actualizacion": "04:31:11",
     "tablas": {
         "pts": [
             {
@@ -29,14 +29,14 @@
         ],
         "ast": [
             {
-                "Rank": 105,
+                "Rank": 104,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 5,
-                "Total": 364,
-                "Diff": "1",
-                "Antece": "Bob Dandridge",
-                "Nota": "A tiro de 1",
+                "Hoy": 6,
+                "Total": 365,
+                "Diff": "3",
+                "Antece": "Tayshaun Prince",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 345,
-                "Diff": "20",
+                "Hoy": 6,
+                "Total": 346,
+                "Diff": "19",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -541,9 +541,9 @@
                 "Rank": 19,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 36,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 37,
+                "Diff": "1",
                 "Antece": "Julian Champagnie",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Max Strus (3 three-pointers today) has passed John Starks and is now ranked 46th all-time with 177 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779589536540946_2644_collage_1779589536429957.png"
-            ],
-            "timestamp": 1779589546
-        },
         {
             "texto": "Landry Shamet (3 three-pointers today) has passed Allan Houston, Brian Shaw, Channing Frye, Chuck Person, Naz Reid, Rafer Alston and Terry Rozier and is now ranked 171st all-time with 78 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779848865141002_4211_collage_1779848865069025.png"
             ],
             "timestamp": 1779848873
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (6 assists today) has passed John Wall and is now ranked 104th all-time with 365 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779849062743482_3750_collage_1779849062662527.png"
+            ],
+            "timestamp": 1779849071
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1876,
+    "total_notificaciones_historicas": 1877,
     "total_franchise_historicas": 992,
-    "cache_buster": 1779848968
+    "cache_buster": 1779849071
 }
