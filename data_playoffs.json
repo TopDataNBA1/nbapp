@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:35:13",
+    "ultima_actualizacion": "03:36:57",
     "tablas": {
         "pts": [
             {
                 "Rank": 128,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 11,
-                "Total": 1529,
-                "Diff": "7",
+                "Hoy": 13,
+                "Total": 1531,
+                "Diff": "5",
                 "Antece": "Dave DeBusschere",
                 "Nota": "",
                 "game_status": "playing"
@@ -77,13 +77,13 @@
         ],
         "blk": [
             {
-                "Rank": 102,
+                "Rank": 101,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 85,
+                "Hoy": 1,
+                "Total": 86,
                 "Diff": "1",
-                "Antece": "Tayshaun Prince",
+                "Antece": "Nikola Jokić",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1447,
-                "Diff": "157",
+                "Hoy": 13,
+                "Total": 1449,
+                "Diff": "155",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -369,9 +369,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 85,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 86,
+                "Diff": "14",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (12 points today) has passed Jason Kidd and is now ranked 67th all-time with 2,044 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779587459331654_7274_collage_1779587459234685.png"
-            ],
-            "timestamp": 1779587467
-        },
         {
             "texto": "📢🔝💯 Max Strus (2 three-pointers today) has passed Draymond Green, George Hill and Kevin Love and is now ranked 46th all-time with 176 in playoffs.",
             "foto": [
@@ -1269,6 +1262,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845705832052_7645_collage_1779845705769071.png"
             ],
             "timestamp": 1779845713
+        },
+        {
+            "texto": "Chet Holmgren (1 block today) has passed Derrick White, Klay Thompson, Tyson Chandler and Zydrunas Ilgauskas and is now ranked 101st all-time with 86 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845809462888_1578_collage_1779845809396909.png"
+            ],
+            "timestamp": 1779845817
         }
     ],
     "notificaciones_franchise": [
@@ -1973,7 +1973,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1865,
+    "total_notificaciones_historicas": 1866,
     "total_franchise_historicas": 988,
-    "cache_buster": 1779845713
+    "cache_buster": 1779845817
 }
