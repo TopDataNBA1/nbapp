@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:46:40",
+    "ultima_actualizacion": "04:48:23",
     "tablas": {
         "pts": [
             {
@@ -16,14 +16,14 @@
         ],
         "trb": [
             {
-                "Rank": 237,
+                "Rank": 236,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 9,
-                "Total": 436,
-                "Diff": "1",
-                "Antece": "Curtis Perry",
-                "Nota": "A tiro de 1",
+                "Hoy": 11,
+                "Total": 438,
+                "Diff": "4",
+                "Antece": "Darrall Imhoff",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 220,
+                "Rank": 218,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 67,
+                "Hoy": 2,
+                "Total": 68,
                 "Diff": "1",
-                "Antece": "Luol Deng",
+                "Antece": "Rashard Lewis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -236,22 +236,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 375,
-                "Diff": "0",
-                "Antece": "Sam Perkins",
+                "Hoy": 8,
+                "Total": 376,
+                "Diff": "36",
+                "Antece": "Gary Payton",
                 "game_status": "playing"
             },
             {
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 282,
-                "Diff": "7",
+                "Hoy": 11,
+                "Total": 284,
+                "Diff": "5",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -261,7 +261,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 270,
-                "Diff": "12",
+                "Diff": "14",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -329,9 +329,9 @@
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 67,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 68,
+                "Diff": "5",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -570,13 +570,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (3 three-pointers today) has passed Allan Houston, Brian Shaw, Channing Frye, Chuck Person, Naz Reid, Rafer Alston and Terry Rozier and is now ranked 171st all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779589547269032_8835_collage_1779589547173070.png"
-            ],
-            "timestamp": 1779589555
-        },
         {
             "texto": "Landry Shamet (4 three-pointers today) has passed Bogdan Bogdanović, Cameron Johnson, David Wesley and Marco Belinelli and is now ranked 169th all-time with 79 in playoffs.",
             "foto": [
@@ -1269,16 +1262,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779849062743482_3750_collage_1779849062662527.png"
             ],
             "timestamp": 1779849071
+        },
+        {
+            "texto": "Isaiah Hartenstein (11 rebounds today) has passed Curtis Perry and is now ranked 236th all-time with 438 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779850095511042_8138_collage_1779850095420985.png"
+            ],
+            "timestamp": 1779850103
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace (4 steals today) has passed Alex Caruso and is now ranked 13th in Thunder history with 61 in playoffs.",
-            "foto": [],
-            "timestamp": 1779330372,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Cason Wallace (3 assists today) has passed Ricky Pierce and Sedale Threatt and is now ranked 23rd in Thunder history with 78 in playoffs.",
             "foto": [],
@@ -1971,9 +1964,16 @@
             "timestamp": 1779848768,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Chet Holmgren (8 rebounds today) has passed Sam Perkins and is now ranked 8th in Thunder history with 376 in playoffs.",
+            "foto": [],
+            "timestamp": 1779850103,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1877,
-    "total_franchise_historicas": 992,
-    "cache_buster": 1779850000
+    "total_notificaciones_historicas": 1878,
+    "total_franchise_historicas": 993,
+    "cache_buster": 1779850103
 }
