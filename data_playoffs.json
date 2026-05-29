@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:23:50",
+    "ultima_actualizacion": "04:27:13",
     "tablas": {
         "pts": [
             {
@@ -77,24 +77,24 @@
         ],
         "blk": [
             {
-                "Rank": 99,
+                "Rank": 97,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 87,
-                "Diff": "1",
-                "Antece": "Derrick McKey",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 88,
+                "Diff": "2",
+                "Antece": "Rik Smits",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 153,
+                "Rank": 152,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 58,
+                "Hoy": 3,
+                "Total": 59,
                 "Diff": "1",
-                "Antece": "Derrick Coleman",
+                "Antece": "Erick Dampier",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -229,9 +229,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 723,
-                "Diff": "28",
+                "Hoy": 10,
+                "Total": 725,
+                "Diff": "26",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -389,9 +389,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 87,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 88,
+                "Diff": "12",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -548,13 +548,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 58,
-                "Diff": "0",
-                "Antece": "Bruce Bowen",
+                "Hoy": 3,
+                "Total": 59,
+                "Diff": "1",
+                "Antece": "Robert Horry",
                 "game_status": "playing"
             },
             {
@@ -600,20 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (3 blocks today) has passed Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed and Tobias Harris and is now ranked 167th all-time with 53 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779673669515497_9477_collage_1779673669415672.png"
-            ],
-            "timestamp": 1779673677
-        },
-        {
-            "texto": "Shai Gilgeous-Alexander (14 points today) has passed Richard Jefferson and is now ranked 131st all-time with 1,513 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779674141747084_1809_collage_1779674141665376.png"
-            ],
-            "timestamp": 1779674149
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 176th all-time with 78 in playoffs.",
             "foto": [
@@ -1299,16 +1285,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021422543414_8147_collage_1780021422464427.png"
             ],
             "timestamp": 1780021430
+        },
+        {
+            "texto": "📢🔝💯 Chet Holmgren (2 blocks today) has passed Andrei Kirilenko and Nikola Jokić and is now ranked 97th all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021617033327_9739_collage_1780021616959354.png"
+            ],
+            "timestamp": 1780021624
+        },
+        {
+            "texto": "Victor Wembanyama (3 blocks today) has passed Jarrett Allen and is now ranked 152nd all-time with 59 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021625020267_1138_collage_1780021624924296.png"
+            ],
+            "timestamp": 1780021633
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Dean Wade (1 three-pointer today) has passed James Jones and is now ranked 23rd in Cavaliers history with 24 in playoffs.",
-            "foto": [],
-            "timestamp": 1779409753,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Miles McBride today surpasses Herb Williams and is now ranked 22nd in Knicks history with 51 games in playoffs.",
             "foto": [],
@@ -2001,9 +1994,16 @@
             "timestamp": 1780021021,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Victor Wembanyama (3 blocks today) has passed Bruce Bowen and is now ranked 7th in Spurs history with 59 in playoffs.",
+            "foto": [],
+            "timestamp": 1780021633,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1901,
-    "total_franchise_historicas": 1005,
-    "cache_buster": 1780021430
+    "total_notificaciones_historicas": 1903,
+    "total_franchise_historicas": 1006,
+    "cache_buster": 1780021633
 }
