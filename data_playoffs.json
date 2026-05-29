@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:02",
+    "ultima_actualizacion": "03:17:47",
     "tablas": {
         "pts": [
             {
@@ -77,13 +77,13 @@
         ],
         "blk": [
             {
-                "Rank": 101,
+                "Rank": 99,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 86,
+                "Hoy": 1,
+                "Total": 87,
                 "Diff": "1",
-                "Antece": "Nikola Jokić",
+                "Antece": "Derrick McKey",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -229,9 +229,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 719,
-                "Diff": "32",
+                "Hoy": 6,
+                "Total": 721,
+                "Diff": "30",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -239,9 +239,9 @@
                 "Rank": 8,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 384,
-                "Diff": "28",
+                "Hoy": 6,
+                "Total": 385,
+                "Diff": "27",
                 "Antece": "Gary Payton",
                 "game_status": "playing"
             },
@@ -389,9 +389,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 86,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 87,
+                "Diff": "13",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -466,13 +466,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Cason Wallace",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "0",
-                "Antece": "Detlef Schrempf",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "2",
+                "Antece": "Isaiah Joe",
                 "game_status": "playing"
             },
             {
@@ -600,13 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (1 block today) has passed Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas and Kyle Lowry and is now ranked 195th all-time with 49 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670167317987_1660_collage_1779670167249200.png"
-            ],
-            "timestamp": 1779670174
-        },
         {
             "texto": "Isaiah Hartenstein (4 rebounds today) has passed Marvin Webster and is now ranked 243rd all-time with 424 in playoffs.",
             "foto": [
@@ -1299,16 +1292,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780016514945111_3316_collage_1780016514868127.png"
             ],
             "timestamp": 1780016522
+        },
+        {
+            "texto": "📢🔝💯 Chet Holmgren (1 block today) has passed Tayshaun Prince and is now ranked 99th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780017459164957_1752_collage_1780017459076985.png"
+            ],
+            "timestamp": 1780017467
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley today surpasses James Jones, Craig Ehlo, Kyle Korver and Matthew Dellavedova and is now ranked 15th in Cavaliers history with 41 games in playoffs.",
-            "foto": [],
-            "timestamp": 1779409019,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart today surpasses Larry Johnson and Earl Monroe and is now ranked 17th in Knicks history with 54 games in playoffs.",
             "foto": [],
@@ -2001,9 +1994,16 @@
             "timestamp": 1780016992,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace (1 three-pointer today) has passed Detlef Schrempf and is now ranked 14th in Thunder history with 52 in playoffs.",
+            "foto": [],
+            "timestamp": 1780017467,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1893,
-    "total_franchise_historicas": 1001,
-    "cache_buster": 1780017182
+    "total_notificaciones_historicas": 1894,
+    "total_franchise_historicas": 1002,
+    "cache_buster": 1780017467
 }
