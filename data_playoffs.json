@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:20:24",
+    "ultima_actualizacion": "04:22:07",
     "tablas": {
         "pts": [
             {
@@ -42,13 +42,13 @@
         ],
         "stl": [
             {
-                "Rank": 127,
+                "Rank": 130,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 95,
+                "Hoy": 0,
+                "Total": 94,
                 "Diff": "1",
-                "Antece": "Khris Middleton",
+                "Antece": "Toni Kukoč",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 198,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 71,
+                "Hoy": 4,
+                "Total": 72,
                 "Diff": "1",
-                "Antece": "Nick Anderson",
+                "Antece": "Sedale Threatt",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -339,9 +339,9 @@
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 71,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 72,
+                "Diff": "1",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -349,9 +349,9 @@
                 "Rank": 13,
                 "Nombre": "Alex Caruso",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 66,
-                "Diff": "5",
+                "Hoy": 0,
+                "Total": 65,
+                "Diff": "7",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -600,13 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (6 assists today) has passed Donovan Mitchell, Mookie Blaylock and Reggie Miller and is now ranked 108th all-time with 358 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779671717887515_7457_collage_1779671717824938.png"
-            ],
-            "timestamp": 1779671725
-        },
         {
             "texto": "Isaiah Hartenstein (7 rebounds today) has passed Anderson Varejão and is now ranked 241st all-time with 427 in playoffs.",
             "foto": [
@@ -1299,6 +1292,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021117565785_5613_collage_1780021117491809.png"
             ],
             "timestamp": 1780021129
+        },
+        {
+            "texto": "📢HOF🏛️ Cason Wallace (4 steals today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 198th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021319196439_2029_collage_1780021319122475.png"
+            ],
+            "timestamp": 1780021326
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2003,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1899,
+    "total_notificaciones_historicas": 1900,
     "total_franchise_historicas": 1005,
-    "cache_buster": 1780021224
+    "cache_buster": 1780021327
 }
