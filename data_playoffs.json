@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:52:04",
+    "ultima_actualizacion": "02:53:48",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 212,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 68,
+                "Hoy": 1,
+                "Total": 69,
                 "Diff": "1",
-                "Antece": "Rashard Lewis",
+                "Antece": "Ricky Pierce",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -339,9 +339,9 @@
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 69,
+                "Diff": "4",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -529,9 +529,9 @@
                 "Rank": 24,
                 "Nombre": "Cason Wallace",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "0",
                 "Antece": "Chet Holmgren",
                 "game_status": "playing"
             }
@@ -600,13 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Dan Roundfield, Dave Cowens, Jarrett Allen, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 153rd all-time with 57 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779668921565619_9551_collage_1779668921480212.png"
-            ],
-            "timestamp": 1779668929
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 steal today) has passed Anthony Davis and Peja Stojaković and is now ranked 180th all-time with 77 in playoffs.",
             "foto": [
@@ -1299,16 +1292,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780015726715669_3529_collage_1780015726639692.png"
             ],
             "timestamp": 1780015735
+        },
+        {
+            "texto": "Cason Wallace (1 steal today) has passed Blake Griffin and Luol Deng and is now ranked 212th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780016020083217_2903_collage_1780016020001243.png"
+            ],
+            "timestamp": 1780016028
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Mikal Bridges and is now ranked 11th in Knicks history with 42 in playoffs.",
-            "foto": [],
-            "timestamp": 1779408921,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Jalen Brunson today surpasses Larry Johnson, Earl Monroe and Josh Hart and is now ranked 16th in Knicks history with 54 games in playoffs.",
             "foto": [],
@@ -2001,9 +1994,16 @@
             "timestamp": 1780015924,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Cason Wallace today surpasses Michael Cage and is now ranked 24th in Thunder history with 47 games in playoffs.",
+            "foto": [],
+            "timestamp": 1780016028,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1889,
-    "total_franchise_historicas": 999,
-    "cache_buster": 1780015924
+    "total_notificaciones_historicas": 1890,
+    "total_franchise_historicas": 1000,
+    "cache_buster": 1780016028
 }
