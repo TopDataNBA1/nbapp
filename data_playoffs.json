@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:13",
+    "ultima_actualizacion": "02:40:07",
     "tablas": {
         "pts": [
             {
@@ -16,13 +16,13 @@
         ],
         "trb": [
             {
-                "Rank": 235,
+                "Rank": 234,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 442,
+                "Hoy": 1,
+                "Total": 443,
                 "Diff": "1",
-                "Antece": "Danny Ainge",
+                "Antece": "Bryon Russell",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -89,9 +89,9 @@
             },
             {
                 "Rank": 154,
-                "Nombre": "Shai Gilgeous-Alexander",
-                "Team": "OKC",
-                "Hoy": 0,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 1,
                 "Total": 57,
                 "Diff": "1",
                 "Antece": "Jarrett Allen",
@@ -99,14 +99,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
+                "Rank": 155,
+                "Nombre": "Shai Gilgeous-Alexander",
+                "Team": "OKC",
                 "Hoy": 0,
-                "Total": 56,
-                "Diff": "1",
-                "Antece": "Ralph Sampson",
-                "Nota": "A tiro de 1",
+                "Total": 57,
+                "Diff": "",
+                "Antece": "Victor Wembanyama",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -249,9 +249,9 @@
                 "Rank": 18,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 288,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 289,
+                "Diff": "0",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -261,7 +261,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 271,
-                "Diff": "17",
+                "Diff": "18",
                 "Antece": "Isaiah Hartenstein",
                 "game_status": "playing"
             },
@@ -541,9 +541,9 @@
                 "Rank": 20,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 107,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 108,
+                "Diff": "8",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -551,9 +551,9 @@
                 "Rank": 8,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 56,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 57,
+                "Diff": "1",
                 "Antece": "Bruce Bowen",
                 "game_status": "playing"
             },
@@ -591,29 +591,15 @@
                 "Rank": 24,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 24,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 25,
+                "Diff": "4",
                 "Antece": "Stephon Castle",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Evan Mobley (1 block today) has passed Alvan Adams, Artis Gilmore and Jimmy Butler and is now ranked 125th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590155183314_8131_collage_1779590155123356.png"
-            ],
-            "timestamp": 1779590162
-        },
-        {
-            "texto": "📢🔝💯 Jalen Brunson (27 points today) has passed Tom Heinsohn and is now ranked 66th all-time with 2,059 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779590258532210_4312_collage_1779590258424884.png"
-            ],
-            "timestamp": 1779590266
-        },
         {
             "texto": "Josh Hart (8 rebounds today) has passed Andrew Bynum and is now ranked 209th all-time with 498 in playoffs.",
             "foto": [
@@ -1299,6 +1285,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779851333992119_1904_collage_1779851333908527.png"
             ],
             "timestamp": 1779851343
+        },
+        {
+            "texto": "Isaiah Hartenstein (1 rebound today) has passed Darrall Imhoff and is now ranked 234th all-time with 443 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780015188773584_7739_collage_1780015188673616.png"
+            ],
+            "timestamp": 1780015196
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 154th all-time with 57 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780015196789780_2871_collage_1780015196713781.png"
+            ],
+            "timestamp": 1780015206
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2003,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1881,
+    "total_notificaciones_historicas": 1883,
     "total_franchise_historicas": 994,
-    "cache_buster": 1780015093
+    "cache_buster": 1780015207
 }
