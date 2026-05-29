@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:28:37",
+    "ultima_actualizacion": "03:30:19",
     "tablas": {
         "pts": [
             {
@@ -32,11 +32,11 @@
                 "Rank": 100,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 370,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 371,
+                "Diff": "1",
                 "Antece": "Lenny Wilkens",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -156,13 +156,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 127,
+                "Rank": 126,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 97,
+                "Hoy": 1,
+                "Total": 98,
                 "Diff": "1",
-                "Antece": "Payton Pritchard",
+                "Antece": "Hersey Hawkins",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 351,
-                "Diff": "14",
+                "Hoy": 3,
+                "Total": 352,
+                "Diff": "13",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -429,9 +429,9 @@
                 "Rank": 7,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 68,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 69,
+                "Diff": "9",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -600,13 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Isaiah Hartenstein (4 rebounds today) has passed Marvin Webster and is now ranked 243rd all-time with 424 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670270302745_2120_collage_1779670270220435.png"
-            ],
-            "timestamp": 1779670277
-        },
         {
             "texto": "Isaiah Hartenstein (5 rebounds today) has passed George Hill and J.R. Smith and is now ranked 243rd all-time with 425 in playoffs.",
             "foto": [
@@ -1299,6 +1292,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780017459164957_1752_collage_1780017459076985.png"
             ],
             "timestamp": 1780017467
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed Desmond Bane, Karl-Anthony Towns, Mark Jackson and Mike Miller and is now ranked 126th all-time with 98 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018212355852_6933_collage_1780018212285874.png"
+            ],
+            "timestamp": 1780018219
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2003,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1894,
+    "total_notificaciones_historicas": 1895,
     "total_franchise_historicas": 1003,
-    "cache_buster": 1780018117
+    "cache_buster": 1780018219
 }
