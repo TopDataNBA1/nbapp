@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:27:13",
+    "ultima_actualizacion": "04:32:00",
     "tablas": {
         "pts": [
             {
@@ -178,13 +178,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 156,
+                "Rank": 154,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 85,
+                "Hoy": 1,
+                "Total": 86,
                 "Diff": "1",
-                "Antece": "Rick Fox",
+                "Antece": "Seth Curry",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -541,9 +541,9 @@
                 "Rank": 20,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 112,
-                "Diff": "4",
+                "Hoy": 8,
+                "Total": 113,
+                "Diff": "3",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -600,13 +600,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Craig Ehlo, Shane Battier and Steve Smith and is now ranked 176th all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779674801429803_5841_collage_1779674801353476.png"
-            ],
-            "timestamp": 1779674808
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (7 assists today) has passed Jeff Teague and Sam Jones and is now ranked 108th all-time with 359 in playoffs.",
             "foto": [
@@ -1299,6 +1292,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021625020267_1138_collage_1780021624924296.png"
             ],
             "timestamp": 1780021633
+        },
+        {
+            "texto": "Harrison Barnes (1 three-pointer today) has passed Myles Turner and is now ranked 154th all-time with 86 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021912277173_3081_collage_1780021912187210.png"
+            ],
+            "timestamp": 1780021920
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2003,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1903,
+    "total_notificaciones_historicas": 1904,
     "total_franchise_historicas": 1006,
-    "cache_buster": 1780021633
+    "cache_buster": 1780021920
 }
