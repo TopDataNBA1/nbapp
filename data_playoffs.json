@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "03:30:19",
+    "ultima_actualizacion": "03:32:04",
     "tablas": {
         "pts": [
             {
-                "Rank": 123,
+                "Rank": 121,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 6,
-                "Total": 1556,
-                "Diff": "1",
-                "Antece": "Jerome Kersey",
-                "Nota": "A tiro de 1",
+                "Hoy": 8,
+                "Total": 1558,
+                "Diff": "8",
+                "Antece": "Anthony Davis",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 1474,
-                "Diff": "130",
+                "Hoy": 8,
+                "Total": 1476,
+                "Diff": "128",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -591,22 +591,15 @@
                 "Rank": 24,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 26,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 27,
+                "Diff": "2",
                 "Antece": "Stephon Castle",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Isaiah Hartenstein (5 rebounds today) has passed George Hill and J.R. Smith and is now ranked 243rd all-time with 425 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779670373451355_9762_collage_1779670373379541.png"
-            ],
-            "timestamp": 1779670385
-        },
         {
             "texto": "Cason Wallace (1 steal today) has passed John Wall, Mark Price, Nick Van Exel and Quinn Buckner and is now ranked 231st all-time with 65 in playoffs.",
             "foto": [
@@ -1299,6 +1292,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018212355852_6933_collage_1780018212285874.png"
             ],
             "timestamp": 1780018219
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (8 points today) has passed Jerome Kersey and is now ranked 121st all-time with 1,558 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018316081582_2136_collage_1780018315981613.png"
+            ],
+            "timestamp": 1780018324
         }
     ],
     "notificaciones_franchise": [
@@ -2003,7 +2003,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1895,
+    "total_notificaciones_historicas": 1896,
     "total_franchise_historicas": 1003,
-    "cache_buster": 1780018219
+    "cache_buster": 1780018324
 }
