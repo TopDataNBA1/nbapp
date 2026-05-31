@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "02:18:58",
+    "ultima_actualizacion": "02:20:43",
     "tablas": {
         "pts": [
             {
-                "Rank": 121,
+                "Rank": 120,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 1565,
-                "Diff": "1",
-                "Antece": "Anthony Davis",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 1567,
+                "Diff": "4",
+                "Antece": "Paul Millsap",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 1483,
-                "Diff": "121",
+                "Hoy": 2,
+                "Total": 1485,
+                "Diff": "119",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -506,13 +506,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "0",
-                "Antece": "Paul Silas",
+                "Hoy": 1,
+                "Total": 55,
+                "Diff": "4",
+                "Antece": "Steven Adams",
                 "game_status": "playing"
             },
             {
@@ -558,13 +558,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 90,
-                "Diff": "0",
-                "Antece": "Larry Kenon",
+                "Hoy": 1,
+                "Total": 91,
+                "Diff": "13",
+                "Antece": "Robert Horry",
                 "game_status": "playing"
             },
             {
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 assists today) has passed Anthony Johnson, Craig Ehlo and Paul Millsap and is now ranked 218th all-time with 223 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779754883925287_2196_collage_1779754883847687.png"
-            ],
-            "timestamp": 1779754891
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Brook Lopez and Serge Ibaka and is now ranked 132nd all-time with 95 in playoffs.",
             "foto": [
@@ -1319,23 +1312,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780040289190143_5834_collage_1780040289127652.png"
             ],
             "timestamp": 1780040296
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 points today) has passed Anthony Davis and is now ranked 120th all-time with 1,567 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780186834061165_3766_collage_1780186833961200.png"
+            ],
+            "timestamp": 1780186843
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Josh Hart (2 assists today) has passed Charles Oakley and is now ranked 10th in Knicks history with 211 in playoffs.",
-            "foto": [],
-            "timestamp": 1779412180,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
-            "texto": "Josh Hart (17 points today) has passed Anthony Mason and is now ranked 15th in Knicks history with 644 in playoffs.",
-            "foto": [],
-            "timestamp": 1779414032,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Max Strus (4 rebounds today) has passed Iman Shumpert and is now ranked 14th in Cavaliers history with 193 in playoffs.",
             "foto": [],
@@ -2021,9 +2007,23 @@
             "timestamp": 1780186738,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "De'Aaron Fox (1 assist today) has passed Larry Kenon and is now ranked 23rd in Spurs history with 91 in playoffs.",
+            "foto": [],
+            "timestamp": 1780186843,
+            "team": "SAS",
+            "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander today surpasses Paul Silas, Wally Walker and Dennis Johnson and is now ranked 16th in Thunder history with 55 games in playoffs.",
+            "foto": [],
+            "timestamp": 1780186843,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1912,
-    "total_franchise_historicas": 1011,
-    "cache_buster": 1780186738
+    "total_notificaciones_historicas": 1913,
+    "total_franchise_historicas": 1013,
+    "cache_buster": 1780186843
 }
