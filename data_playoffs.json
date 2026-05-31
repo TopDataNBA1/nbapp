@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:14:50",
+    "ultima_actualizacion": "03:16:32",
     "tablas": {
         "pts": [
             {
@@ -32,9 +32,9 @@
                 "Rank": 96,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 375,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 377,
+                "Diff": "5",
                 "Antece": "Tim Hardaway",
                 "Nota": "",
                 "game_status": "playing"
@@ -148,11 +148,11 @@
                 "Rank": 111,
                 "Nombre": "Luguentz Dort",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "1",
                 "Antece": "Tyrese Haliburton",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -259,9 +259,9 @@
                 "Rank": 19,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 274,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 276,
+                "Diff": "13",
                 "Antece": "Marvin Webster",
                 "game_status": "playing"
             },
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 356,
-                "Diff": "9",
+                "Hoy": 5,
+                "Total": 358,
+                "Diff": "7",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -379,9 +379,9 @@
                 "Rank": 24,
                 "Nombre": "Chet Holmgren",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 38,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 39,
+                "Diff": "0",
                 "Antece": "John Johnson",
                 "game_status": "playing"
             },
@@ -409,9 +409,9 @@
                 "Rank": 3,
                 "Nombre": "Luguentz Dort",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "35",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "34",
                 "Antece": "Russell Westbrook",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (2 three-pointers today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 183rd all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756375528414_9228_collage_1779756375461228.png"
-            ],
-            "timestamp": 1779756382
-        },
         {
             "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace, Pascal Siakam and Shai Gilgeous-Alexander and is now ranked 153rd all-time with 57 in playoffs.",
             "foto": [
@@ -1319,16 +1312,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189894964224_9149_collage_1780189894841572.png"
             ],
             "timestamp": 1780189903
+        },
+        {
+            "texto": "📢🔝💯 Shai Gilgeous-Alexander (5 assists today) has passed Brian Shaw and Jason Terry and is now ranked 96th all-time with 377 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780190184518063_1354_collage_1780190184435091.png"
+            ],
+            "timestamp": 1780190192
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Evan Mobley (2 blocks today) has passed Tristan Thompson and is now ranked 4th in Cavaliers history with 71 in playoffs.",
-            "foto": [],
-            "timestamp": 1779414842,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (18 points today) has passed Carmelo Anthony and is now ranked 19th in Knicks history with 591 in playoffs.",
             "foto": [],
@@ -2021,9 +2014,16 @@
             "timestamp": 1780187327,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Chet Holmgren (1 steal today) has passed Detlef Schrempf and is now ranked 24th in Thunder history with 39 in playoffs.",
+            "foto": [],
+            "timestamp": 1780190192,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1922,
-    "total_franchise_historicas": 1015,
-    "cache_buster": 1780190090
+    "total_notificaciones_historicas": 1923,
+    "total_franchise_historicas": 1016,
+    "cache_buster": 1780190192
 }
