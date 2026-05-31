@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:36:46",
+    "ultima_actualizacion": "02:46:05",
     "tablas": {
         "pts": [
             {
@@ -19,11 +19,11 @@
                 "Rank": 230,
                 "Nombre": "Isaiah Hartenstein",
                 "Team": "OKC",
-                "Hoy": 3,
-                "Total": 450,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 451,
+                "Diff": "1",
                 "Antece": "Tyrone Hill",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -249,9 +249,9 @@
                 "Rank": 17,
                 "Nombre": "Isaiah Hartenstein",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 296,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 297,
+                "Diff": "0",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -299,9 +299,9 @@
                 "Rank": 19,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 91,
-                "Diff": "22",
+                "Hoy": 2,
+                "Total": 92,
+                "Diff": "21",
                 "Antece": "Slick Watts",
                 "game_status": "playing"
             },
@@ -311,7 +311,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 90,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -499,9 +499,9 @@
                 "Rank": 25,
                 "Nombre": "Jared McCain",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 25,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 26,
+                "Diff": "5",
                 "Antece": "Ray Allen",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (8 points today) has passed Allan Houston and is now ranked 188th all-time with 1,215 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779755294521077_2578_collage_1779755294432964.png"
-            ],
-            "timestamp": 1779755302
-        },
         {
             "texto": "Karl-Anthony Towns (2 three-pointers today) has passed Dennis Scott, Jason Richardson and Pascal Siakam and is now ranked 130th all-time with 96 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780187423361742_2186_collage_1780187423266627.png"
             ],
             "timestamp": 1780187431
+        },
+        {
+            "texto": "Isaiah Hartenstein (4 rebounds today) has passed Roy Hibbert and is now ranked 230th all-time with 451 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780188356959090_4088_collage_1780188356870120.png"
+            ],
+            "timestamp": 1780188365
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1916,
+    "total_notificaciones_historicas": 1917,
     "total_franchise_historicas": 1015,
-    "cache_buster": 1780187806
+    "cache_buster": 1780188365
 }
