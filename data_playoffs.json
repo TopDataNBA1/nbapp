@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "03:00:23",
+    "ultima_actualizacion": "03:02:07",
     "tablas": {
         "pts": [
             {
                 "Rank": 119,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 8,
-                "Total": 1573,
-                "Diff": "4",
+                "Hoy": 11,
+                "Total": 1576,
+                "Diff": "1",
                 "Antece": "Don Nelson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -167,7 +167,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 148,
+                "Rank": 146,
+                "Nombre": "Shai Gilgeous-Alexander",
+                "Team": "OKC",
+                "Hoy": 1,
+                "Total": 88,
+                "Diff": "1",
+                "Antece": "Nick Anderson",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 149,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
                 "Hoy": 0,
@@ -175,17 +186,6 @@
                 "Diff": "1",
                 "Antece": "Tim Thomas",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 149,
-                "Nombre": "Shai Gilgeous-Alexander",
-                "Team": "OKC",
-                "Hoy": 0,
-                "Total": 87,
-                "Diff": "",
-                "Antece": "Harrison Barnes",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 1491,
-                "Diff": "113",
+                "Hoy": 11,
+                "Total": 1494,
+                "Diff": "110",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -299,9 +299,9 @@
                 "Rank": 19,
                 "Nombre": "Cason Wallace",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 93,
-                "Diff": "20",
+                "Hoy": 4,
+                "Total": 94,
+                "Diff": "19",
                 "Antece": "Slick Watts",
                 "game_status": "playing"
             },
@@ -311,7 +311,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 90,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -419,9 +419,9 @@
                 "Rank": 6,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 78,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 79,
+                "Diff": "21",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -431,7 +431,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 69,
-                "Diff": "9",
+                "Diff": "10",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (1 three-pointer today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 168th all-time with 80 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779755697782245_1067_collage_1779755697709612.png"
-            ],
-            "timestamp": 1779755706
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (5 assists today) has passed Maurice Lucas and Nate Thurmond and is now ranked 216th all-time with 226 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189215615244_3472_collage_1780189215535272.png"
             ],
             "timestamp": 1780189223
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Harrison Barnes, Leandro Barbosa and Seth Curry and is now ranked 146th all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189319271138_3420_collage_1780189319186977.png"
+            ],
+            "timestamp": 1780189327
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1919,
+    "total_notificaciones_historicas": 1920,
     "total_franchise_historicas": 1015,
-    "cache_buster": 1780189223
+    "cache_buster": 1780189327
 }
