@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "03:02:07",
+    "ultima_actualizacion": "03:06:54",
     "tablas": {
         "pts": [
             {
-                "Rank": 119,
+                "Rank": 118,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 11,
-                "Total": 1576,
-                "Diff": "1",
-                "Antece": "Don Nelson",
-                "Nota": "A tiro de 1",
+                "Hoy": 13,
+                "Total": 1578,
+                "Diff": "3",
+                "Antece": "Michael Cooper",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             }
         ],
@@ -209,9 +209,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1494,
-                "Diff": "110",
+                "Hoy": 13,
+                "Total": 1496,
+                "Diff": "108",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -239,9 +239,9 @@
                 "Rank": 8,
                 "Nombre": "Chet Holmgren",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 391,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 392,
+                "Diff": "20",
                 "Antece": "Gary Payton",
                 "game_status": "playing"
             },
@@ -519,9 +519,9 @@
                 "Rank": 20,
                 "Nombre": "Luguentz Dort",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 53,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 54,
+                "Diff": "0",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (5 assists today) has passed Maurice Lucas and Nate Thurmond and is now ranked 216th all-time with 226 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756359076322_5150_collage_1779756358996051.png"
-            ],
-            "timestamp": 1779756366
-        },
         {
             "texto": "📢HOF🏛️ Landry Shamet (2 three-pointers today) has passed Larry Bird and is now ranked 163rd all-time with 81 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189319271138_3420_collage_1780189319186977.png"
             ],
             "timestamp": 1780189327
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (13 points today) has passed Don Nelson and is now ranked 118th all-time with 1,578 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189605209586_6722_collage_1780189605082648.png"
+            ],
+            "timestamp": 1780189613
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1920,
+    "total_notificaciones_historicas": 1921,
     "total_franchise_historicas": 1015,
-    "cache_buster": 1780189327
+    "cache_buster": 1780189614
 }
