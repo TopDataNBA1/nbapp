@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:45:53",
+    "ultima_actualizacion": "04:47:36",
     "tablas": {
         "pts": [
             {
@@ -53,13 +53,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 163,
+                "Rank": 161,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 82,
+                "Hoy": 3,
+                "Total": 83,
                 "Diff": "1",
-                "Antece": "Marc Gasol",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -329,9 +329,9 @@
                 "Rank": 8,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 76,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 77,
+                "Diff": "1",
                 "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
@@ -369,9 +369,9 @@
                 "Rank": 19,
                 "Nombre": "Luguentz Dort",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "0",
                 "Antece": "Nick Collison",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (11 rebounds today) has passed Antonio McDyess and Walt Bellamy and is now ranked 117th all-time with 681 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759356116712_3701_collage_1779759356037435.png"
-            ],
-            "timestamp": 1779759363
-        },
         {
             "texto": "📢🔝💯 Donovan Mitchell (23 points today) has passed Bob Pettit and is now ranked 54th all-time with 2,243 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195450544879_6856_collage_1780195450451924.png"
             ],
             "timestamp": 1780195458
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (3 steals today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195649088830_6431_collage_1780195649011772.png"
+            ],
+            "timestamp": 1780195656
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1932,
+    "total_notificaciones_historicas": 1933,
     "total_franchise_historicas": 1026,
-    "cache_buster": 1780195553
+    "cache_buster": 1780195656
 }
