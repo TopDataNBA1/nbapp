@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:09:53",
+    "ultima_actualizacion": "04:19:03",
     "tablas": {
         "pts": [
             {
@@ -319,9 +319,9 @@
                 "Rank": 23,
                 "Nombre": "Alex Caruso",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 80,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 81,
+                "Diff": "5",
                 "Antece": "Reggie Jackson",
                 "game_status": "playing"
             },
@@ -437,16 +437,26 @@
             },
             {
                 "Rank": 10,
+                "Nombre": "Cason Wallace",
+                "Stat": "3PM",
+                "Hoy": 2,
+                "Total": 56,
+                "Diff": "5",
+                "Antece": "James Harden",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 11,
                 "Nombre": "Jalen Williams",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 55,
-                "Diff": "6",
-                "Antece": "James Harden",
+                "Diff": "1",
+                "Antece": "Cason Wallace",
                 "game_status": "inactive"
             },
             {
-                "Rank": 11,
+                "Rank": 12,
                 "Nombre": "Isaiah Joe",
                 "Stat": "3PM",
                 "Hoy": 0,
@@ -456,23 +466,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 13,
                 "Nombre": "Chet Holmgren",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 55,
                 "Diff": "0",
                 "Antece": "Isaiah Joe",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 13,
-                "Nombre": "Cason Wallace",
-                "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 55,
-                "Diff": "0",
-                "Antece": "Chet Holmgren",
                 "game_status": "playing"
             },
             {
@@ -561,9 +561,9 @@
                 "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 93,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 94,
+                "Diff": "10",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -1323,13 +1323,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Cason Wallace (2 assists today) has passed Lonnie Shelton and is now ranked 21st in Thunder history with 81 in playoffs.",
-            "foto": [],
-            "timestamp": 1779497839,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
             "texto": "Stephon Castle (4 assists today) has passed Stephen Jackson and Tiago Splitter and is now ranked 23rd in Spurs history with 90 in playoffs.",
             "foto": [],
             "timestamp": 1779498960,
@@ -2021,9 +2014,16 @@
             "timestamp": 1780192732,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Cason Wallace (2 three-pointers today) has passed Jalen Williams, Isaiah Joe and Chet Holmgren and is now ranked 10th in Thunder history with 56 in playoffs.",
+            "foto": [],
+            "timestamp": 1780193943,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1929,
-    "total_franchise_historicas": 1022,
-    "cache_buster": 1780193393
+    "total_franchise_historicas": 1023,
+    "cache_buster": 1780193943
 }
