@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:08",
+    "ultima_actualizacion": "04:37:51",
     "tablas": {
         "pts": [
             {
@@ -53,24 +53,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 166,
+                "Rank": 163,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 81,
+                "Hoy": 2,
+                "Total": 82,
                 "Diff": "1",
-                "Antece": "Kyle Korver",
+                "Antece": "Marc Gasol",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
-                "Rank": 198,
+                "Rank": 204,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 72,
+                "Hoy": 0,
+                "Total": 71,
                 "Diff": "1",
-                "Antece": "Sedale Threatt",
+                "Antece": "Nick Anderson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -326,22 +326,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 75,
-                "Diff": "0",
-                "Antece": "Hersey Hawkins",
+                "Hoy": 2,
+                "Total": 76,
+                "Diff": "2",
+                "Antece": "Dennis Johnson",
                 "game_status": "playing"
             },
             {
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 72,
-                "Diff": "1",
+                "Hoy": 0,
+                "Total": 71,
+                "Diff": "2",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -351,7 +351,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 66,
-                "Diff": "6",
+                "Diff": "5",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (7 rebounds today) has passed Hal Greer and Truck Robinson and is now ranked 201st all-time with 506 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759239217828_8073_collage_1779759239140360.png"
-            ],
-            "timestamp": 1779759246
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 226th all-time with 66 in playoffs.",
             "foto": [
@@ -1319,16 +1312,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780194961012617_8554_collage_1780194960929625.png"
             ],
             "timestamp": 1780194968
+        },
+        {
+            "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 163rd all-time with 82 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195064027432_8246_collage_1780195063962451.png"
+            ],
+            "timestamp": 1780195071
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Stephon Castle (5 assists today) has passed Larry Kenon and is now ranked 22nd in Spurs history with 91 in playoffs.",
-            "foto": [],
-            "timestamp": 1779499516,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "Devin Vassell (3 three-pointers today) has passed Danny Ferry and Julian Champagnie and is now ranked 18th in Spurs history with 33 in playoffs.",
             "foto": [],
@@ -2021,9 +2014,16 @@
             "timestamp": 1780194221,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Shai Gilgeous-Alexander (2 steals today) has passed Hersey Hawkins and is now ranked 8th in Thunder history with 76 in playoffs.",
+            "foto": [],
+            "timestamp": 1780195071,
+            "team": "OKC",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1930,
-    "total_franchise_historicas": 1024,
-    "cache_buster": 1780194968
+    "total_notificaciones_historicas": 1931,
+    "total_franchise_historicas": 1025,
+    "cache_buster": 1780195071
 }
