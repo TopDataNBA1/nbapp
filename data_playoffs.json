@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:38:24",
+    "ultima_actualizacion": "03:40:08",
     "tablas": {
         "pts": [
             {
@@ -156,13 +156,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 126,
+                "Rank": 123,
                 "Nombre": "Alex Caruso",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 98,
+                "Hoy": 1,
+                "Total": 99,
                 "Diff": "1",
-                "Antece": "Hersey Hawkins",
+                "Antece": "Jeff Green",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -429,9 +429,9 @@
                 "Rank": 7,
                 "Nombre": "Alex Caruso",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 69,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 70,
+                "Diff": "10",
                 "Antece": "Shai Gilgeous-Alexander",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Max Strus (1 three-pointer today) has passed Steve Nash and is now ranked 45th all-time with 179 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779757161785909_1137_collage_1779757161688476.png"
-            ],
-            "timestamp": 1779757171
-        },
         {
             "texto": "📢HOF🏛️ Landry Shamet (3 three-pointers today) has passed Isiah Thomas, Jason Williams, Raja Bell, Royce O'Neale and Rui Hachimura and is now ranked 162nd all-time with 82 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780191496699374_7833_collage_1780191496625337.png"
             ],
             "timestamp": 1780191504
+        },
+        {
+            "texto": "Alex Caruso (1 three-pointer today) has passed Payton Pritchard and is now ranked 123rd all-time with 99 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780191600388100_9574_collage_1780191600295890.png"
+            ],
+            "timestamp": 1780191608
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1926,
+    "total_notificaciones_historicas": 1927,
     "total_franchise_historicas": 1017,
-    "cache_buster": 1780191504
+    "cache_buster": 1780191608
 }
