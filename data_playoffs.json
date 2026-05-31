@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:42:35",
+    "ultima_actualizacion": "04:44:18",
     "tablas": {
         "pts": [
             {
@@ -64,13 +64,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 204,
+                "Rank": 193,
                 "Nombre": "Cason Wallace",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 71,
+                "Hoy": 2,
+                "Total": 73,
                 "Diff": "1",
-                "Antece": "Nick Anderson",
+                "Antece": "Lou Williams",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -339,9 +339,9 @@
                 "Rank": 12,
                 "Nombre": "Cason Wallace",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 71,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 73,
+                "Diff": "0",
                 "Antece": "Thabo Sefolosha",
                 "game_status": "playing"
             },
@@ -351,7 +351,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 66,
-                "Diff": "5",
+                "Diff": "7",
                 "Antece": "Cason Wallace",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Andrei Kirilenko, Donte DiVincenzo, Jamal Crawford, James Posey, John Paxson, Kevin McHale, Steve Mix, Thaddeus Young and Vinnie Johnson and is now ranked 226th all-time with 66 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759246914255_6763_collage_1779759246807879.png"
-            ],
-            "timestamp": 1779759260
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (11 rebounds today) has passed Antonio McDyess and Walt Bellamy and is now ranked 117th all-time with 681 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195064027432_8246_collage_1780195063962451.png"
             ],
             "timestamp": 1780195071
+        },
+        {
+            "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê and Nick Anderson and is now ranked 193rd all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195450544879_6856_collage_1780195450451924.png"
+            ],
+            "timestamp": 1780195458
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1931,
+    "total_notificaciones_historicas": 1932,
     "total_franchise_historicas": 1025,
-    "cache_buster": 1780195355
+    "cache_buster": 1780195458
 }
