@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:28:47",
+    "ultima_actualizacion": "02:30:31",
     "tablas": {
         "pts": [
             {
@@ -32,11 +32,11 @@
                 "Rank": 98,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 1,
-                "Total": 373,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 374,
+                "Diff": "1",
                 "Antece": "Jason Terry",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -279,9 +279,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 354,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 355,
+                "Diff": "10",
                 "Antece": "Gus Williams",
                 "game_status": "playing"
             },
@@ -499,9 +499,9 @@
                 "Rank": 25,
                 "Nombre": "Jared McCain",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 24,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 25,
+                "Diff": "6",
                 "Antece": "Ray Allen",
                 "game_status": "playing"
             },
@@ -591,9 +591,9 @@
                 "Rank": 17,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 41,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 42,
+                "Diff": "0",
                 "Antece": "Devin Vassell",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ 📢HOF🏛️ James Harden today surpasses Magic Johnson and now ranked 14th all time with 191 games in playoffs",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779755004608321_6923_collage_1779755004513586.png"
-            ],
-            "timestamp": 1779755013
-        },
         {
             "texto": "Karl-Anthony Towns (8 points today) has passed Allan Houston and is now ranked 188th all-time with 1,215 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780187042484844_8492_collage_1780187042392674.png"
             ],
             "timestamp": 1780187049
+        },
+        {
+            "texto": "📢🔝💯 Shai Gilgeous-Alexander (2 assists today) has passed Eric Snow and is now ranked 98th all-time with 374 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780187423361742_2186_collage_1780187423266627.png"
+            ],
+            "timestamp": 1780187431
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1915,
+    "total_notificaciones_historicas": 1916,
     "total_franchise_historicas": 1015,
-    "cache_buster": 1780187327
+    "cache_buster": 1780187431
 }
