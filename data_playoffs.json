@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:19:03",
+    "ultima_actualizacion": "04:23:41",
     "tablas": {
         "pts": [
             {
@@ -319,9 +319,9 @@
                 "Rank": 23,
                 "Nombre": "Alex Caruso",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 81,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 82,
+                "Diff": "4",
                 "Antece": "Reggie Jackson",
                 "game_status": "playing"
             },
@@ -439,9 +439,9 @@
                 "Rank": 10,
                 "Nombre": "Cason Wallace",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 56,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 57,
+                "Diff": "4",
                 "Antece": "James Harden",
                 "game_status": "playing"
             },
@@ -451,7 +451,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 55,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Cason Wallace",
                 "game_status": "inactive"
             },
@@ -598,23 +598,23 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
+                "Nombre": "Victor Wembanyama",
+                "Stat": "3PM",
+                "Hoy": 3,
+                "Total": 30,
+                "Diff": "1",
+                "Antece": "Vinny Del Negro",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 24,
                 "Nombre": "Stephon Castle",
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 29,
                 "Diff": "0",
                 "Antece": "Antonio Daniels",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 24,
-                "Nombre": "Victor Wembanyama",
-                "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 29,
-                "Diff": "0",
-                "Antece": "Stephon Castle",
                 "game_status": "playing"
             }
         ]
@@ -1323,13 +1323,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Stephon Castle (4 assists today) has passed Stephen Jackson and Tiago Splitter and is now ranked 23rd in Spurs history with 90 in playoffs.",
-            "foto": [],
-            "timestamp": 1779498960,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
             "texto": "Stephon Castle (5 assists today) has passed Larry Kenon and is now ranked 22nd in Spurs history with 91 in playoffs.",
             "foto": [],
             "timestamp": 1779499516,
@@ -2021,9 +2014,16 @@
             "timestamp": 1780193943,
             "team": "OKC",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (3 three-pointers today) has passed Antonio Daniels and Stephon Castle and is now ranked 22nd in Spurs history with 30 in playoffs.",
+            "foto": [],
+            "timestamp": 1780194221,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1929,
-    "total_franchise_historicas": 1023,
-    "cache_buster": 1780193943
+    "total_franchise_historicas": 1024,
+    "cache_buster": 1780194221
 }
