@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:16:32",
+    "ultima_actualizacion": "03:18:15",
     "tablas": {
         "pts": [
             {
@@ -99,13 +99,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 155,
+                "Rank": 154,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 57,
+                "Hoy": 1,
+                "Total": 58,
                 "Diff": "1",
-                "Antece": "Jarrett Allen",
+                "Antece": "Derrick Coleman",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -229,9 +229,9 @@
                 "Rank": 14,
                 "Nombre": "Chet Holmgren",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 727,
-                "Diff": "24",
+                "Hoy": 4,
+                "Total": 729,
+                "Diff": "22",
                 "Antece": "Jalen Williams",
                 "game_status": "playing"
             },
@@ -319,9 +319,9 @@
                 "Rank": 24,
                 "Nombre": "Alex Caruso",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 80,
-                "Diff": "0",
+                "Hoy": 1,
+                "Total": 79,
+                "Diff": "1",
                 "Antece": "Lonnie Shelton",
                 "game_status": "playing"
             },
@@ -399,9 +399,9 @@
                 "Rank": 10,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 52,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 53,
+                "Diff": "2",
                 "Antece": "Sam Perkins",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jarrett Allen (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace, Pascal Siakam and Shai Gilgeous-Alexander and is now ranked 153rd all-time with 57 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779756755635710_8285_collage_1779756755549670.png"
-            ],
-            "timestamp": 1779756763
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Metta World Peace and is now ranked 79th all-time with 129 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780190184518063_1354_collage_1780190184435091.png"
             ],
             "timestamp": 1780190192
+        },
+        {
+            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 154th all-time with 58 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780190288124688_9858_collage_1780190288062447.png"
+            ],
+            "timestamp": 1780190295
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1923,
+    "total_notificaciones_historicas": 1924,
     "total_franchise_historicas": 1016,
-    "cache_buster": 1780190192
+    "cache_buster": 1780190295
 }
