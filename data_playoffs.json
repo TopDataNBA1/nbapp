@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:07",
+    "ultima_actualizacion": "03:00:23",
     "tablas": {
         "pts": [
             {
@@ -80,11 +80,11 @@
                 "Rank": 97,
                 "Nombre": "Chet Holmgren",
                 "Team": "OKC",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "1",
                 "Antece": "Rik Smits",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -389,9 +389,9 @@
                 "Rank": 4,
                 "Nombre": "Chet Holmgren",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 88,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 89,
+                "Diff": "11",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -561,9 +561,9 @@
                 "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 92,
-                "Diff": "12",
+                "Hoy": 3,
+                "Total": 93,
+                "Diff": "11",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -620,13 +620,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (1 three-pointer today) has passed Jordan Clarkson and Lindsey Hunter and is now ranked 189th all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779755594589909_1289_collage_1779755594496386.png"
-            ],
-            "timestamp": 1779755602
-        },
         {
             "texto": "Landry Shamet (1 three-pointer today) has passed DeMarre Carroll and Jerry Stackhouse and is now ranked 168th all-time with 80 in playoffs.",
             "foto": [
@@ -1319,6 +1312,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780188554583424_5588_collage_1780188554495453.png"
             ],
             "timestamp": 1780188563
+        },
+        {
+            "texto": "📢🔝💯 Chet Holmgren (1 block today) has passed Andre Iguodala and Derrick McKey and is now ranked 97th all-time with 89 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780189215615244_3472_collage_1780189215535272.png"
+            ],
+            "timestamp": 1780189223
         }
     ],
     "notificaciones_franchise": [
@@ -2023,7 +2023,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1918,
+    "total_notificaciones_historicas": 1919,
     "total_franchise_historicas": 1015,
-    "cache_buster": 1780188847
+    "cache_buster": 1780189223
 }
