@@ -944,6 +944,9 @@
                         });
                         tablesDiv.appendChild(card);
                     }
+                })
+                .catch(() => {
+                    document.getElementById('tables').innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No data available yet. Waiting for tonight\'s action...</div>';
                 });
         }
 
