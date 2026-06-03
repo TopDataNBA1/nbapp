@@ -486,6 +486,7 @@
     <!-- SELECTOR PLAYOFFS / REGULAR SEASON -->
     <div style="display:flex;justify-content:center;gap:10px;margin:10px 0 4px;">
         <button id="btn-season-playoffs" class="main-tab-btn active" onclick="switchSeason('playoffs')" style="font-size:0.85em;padding:6px 18px;">🏆 Playoffs</button>
+        <button id="btn-season-finals" class="main-tab-btn" onclick="switchSeason('finals')" style="font-size:0.85em;padding:6px 18px;">🥇 NBA Finals</button>
         <button id="btn-season-regular" class="main-tab-btn" onclick="switchSeason('regular')" style="font-size:0.85em;padding:6px 18px;">📅 Regular Season</button>
     </div>
 
@@ -698,11 +699,19 @@
                 currentDataFile = 'data_playoffs.json';
                 currentHistoricoFile = 'notificaciones_historicas_playoffs.json';
                 document.getElementById('btn-season-playoffs').classList.add('active');
+                document.getElementById('btn-season-finals').classList.remove('active');
+                document.getElementById('btn-season-regular').classList.remove('active');
+            } else if (season === 'finals') {
+                currentDataFile = 'data_finals.json';
+                currentHistoricoFile = 'notificaciones_historicas_finals.json';
+                document.getElementById('btn-season-playoffs').classList.remove('active');
+                document.getElementById('btn-season-finals').classList.add('active');
                 document.getElementById('btn-season-regular').classList.remove('active');
             } else {
                 currentDataFile = 'data.json';
                 currentHistoricoFile = 'notificaciones_historicas.json';
                 document.getElementById('btn-season-playoffs').classList.remove('active');
+                document.getElementById('btn-season-finals').classList.remove('active');
                 document.getElementById('btn-season-regular').classList.add('active');
             }
             // Resetear timestamp de so per evitar l'estruendo
@@ -756,7 +765,10 @@
 
         const statNamesBase = {pts:"NBA All-Time Points",trb:"NBA All-Time Rebounds",ast:"NBA All-Time Assists",stl:"NBA All-Time Steals",blk:"NBA All-Time Blocks",fg3:"NBA All-Time Three-Pointers",g:"NBA All-Time Games Played"};
         function getStatNames() {
-            const suffix = currentSeason === 'playoffs' ? ' (Playoffs)' : ' (Regular Season)';
+            let suffix;
+            if (currentSeason === 'playoffs') suffix = ' (Playoffs)';
+            else if (currentSeason === 'finals') suffix = ' (NBA Finals)';
+            else suffix = ' (Regular Season)';
             const result = {};
             for (const [k,v] of Object.entries(statNamesBase)) result[k] = v + suffix;
             return result;
