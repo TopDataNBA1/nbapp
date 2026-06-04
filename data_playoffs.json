@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:01:59",
+    "ultima_actualizacion": "05:03:43",
     "tablas": {
         "pts": [
             {
@@ -41,11 +41,11 @@
                 "Rank": 192,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 521,
-                "Diff": "3",
+                "Hoy": 13,
+                "Total": 523,
+                "Diff": "1",
                 "Antece": "Marcin Gortat",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -345,13 +345,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 521,
-                "Diff": "1",
-                "Antece": "Harry Gallatin",
+                "Hoy": 13,
+                "Total": 523,
+                "Diff": "143",
+                "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
             {
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (19 points today) has passed Dave DeBusschere and is now ranked 126th all-time with 1,537 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779846573369809_9139_collage_1779846573269842.png"
-            ],
-            "timestamp": 1779846581
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 154th all-time with 57 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541833840994_3592_collage_1780541833753040.png"
             ],
             "timestamp": 1780541841
+        },
+        {
+            "texto": "Josh Hart (13 rebounds today) has passed Khris Middleton and is now ranked 192nd all-time with 523 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542214590245_2473_collage_1780542214499134.png"
+            ],
+            "timestamp": 1780542223
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Josh Hart (3 steals today) has passed Derek Harper and is now ranked 5th in Knicks history with 64 in playoffs.",
-            "foto": [],
-            "timestamp": 1779586763,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley (1 three-pointer today) has passed Craig Ehlo and is now ranked 15th in Cavaliers history with 42 in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780541841,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Josh Hart (13 rebounds today) has passed Harry Gallatin and is now ranked 6th in Knicks history with 523 in playoffs.",
+            "foto": [],
+            "timestamp": 1780542223,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1967,
-    "total_franchise_historicas": 1045,
-    "cache_buster": 1780542119
+    "total_notificaciones_historicas": 1968,
+    "total_franchise_historicas": 1046,
+    "cache_buster": 1780542223
 }
