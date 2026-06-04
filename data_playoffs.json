@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:55:38",
+    "ultima_actualizacion": "04:57:21",
     "tablas": {
         "pts": [
             {
@@ -97,13 +97,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 213,
+                "Rank": 209,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 69,
+                "Hoy": 3,
+                "Total": 70,
                 "Diff": "1",
-                "Antece": "Ricky Pierce",
+                "Antece": "Rudy Gobert",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -418,9 +418,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 69,
-                "Diff": "31",
+                "Hoy": 3,
+                "Total": 70,
+                "Diff": "30",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -430,7 +430,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 64,
-                "Diff": "5",
+                "Diff": "6",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -677,13 +677,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 31,
+                "Hoy": 2,
+                "Total": 32,
                 "Diff": "0",
-                "Antece": "Vinny Del Negro",
+                "Antece": "Danny Ferry",
                 "game_status": "playing"
             },
             {
@@ -693,7 +693,7 @@
                 "Hoy": 1,
                 "Total": 30,
                 "Diff": "1",
-                "Antece": "Victor Wembanyama",
+                "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
             {
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (2 three-pointers today) has passed Brook Lopez and Serge Ibaka and is now ranked 133rd all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779846192719954_4727_collage_1779846192648767.png"
-            ],
-            "timestamp": 1779846200
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (19 points today) has passed Dave DeBusschere and is now ranked 126th all-time with 1,537 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541730689329_4500_collage_1780541730599309.png"
             ],
             "timestamp": 1780541738
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (3 steals today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 209th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541833840994_3592_collage_1780541833753040.png"
+            ],
+            "timestamp": 1780541841
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "OG Anunoby (16 points today) has passed Anthony Mason and is now ranked 16th in Knicks history with 644 in playoffs.",
-            "foto": [],
-            "timestamp": 1779586763,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Josh Hart (3 steals today) has passed Derek Harper and is now ranked 5th in Knicks history with 64 in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780540961,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (2 three-pointers today) has passed Vinny Del Negro and is now ranked 21st in Spurs history with 32 in playoffs.",
+            "foto": [],
+            "timestamp": 1780541841,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1966,
-    "total_franchise_historicas": 1044,
-    "cache_buster": 1780541738
+    "total_notificaciones_historicas": 1967,
+    "total_franchise_historicas": 1045,
+    "cache_buster": 1780541841
 }
