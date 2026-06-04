@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:43:09",
+    "ultima_actualizacion": "03:44:51",
     "tablas": {
         "pts": [
             {
@@ -30,11 +30,11 @@
                 "Rank": 116,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 688,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 689,
+                "Diff": "1",
                 "Antece": "Maurice Lucas",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -110,13 +110,13 @@
         ],
         "blk": [
             {
-                "Rank": 146,
+                "Rank": 144,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 62,
+                "Hoy": 3,
+                "Total": 63,
                 "Diff": "1",
-                "Antece": "Rick Mahorn",
+                "Antece": "Magic Johnson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -358,9 +358,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 361,
-                "Diff": "100",
+                "Hoy": 5,
+                "Total": 362,
+                "Diff": "99",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -370,7 +370,7 @@
                 "Stat": "REB",
                 "Hoy": 5,
                 "Total": 346,
-                "Diff": "15",
+                "Diff": "16",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -640,9 +640,9 @@
                 "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 98,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 99,
+                "Diff": "5",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -650,9 +650,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 62,
-                "Diff": "19",
+                "Hoy": 3,
+                "Total": 63,
+                "Diff": "18",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -660,9 +660,9 @@
                 "Rank": 13,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 50,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 51,
+                "Diff": "1",
                 "Antece": "Chuck Person",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (17 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 186th all-time with 1,224 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779761182015764_2885_collage_1779761181935790.png"
-            ],
-            "timestamp": 1779761189
-        },
         {
             "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Dennis Rodman, Lindsey Hunter, Rick Barry, Robert Reid and Sidney Moncrief and is now ranked 105th all-time with 107 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780537192111635_4868_collage_1780537192039721.png"
             ],
             "timestamp": 1780537199
+        },
+        {
+            "texto": "Victor Wembanyama (3 blocks today) has passed Terry Cummings and is now ranked 144th all-time with 63 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780537484032320_5976_collage_1780537483933560.png"
+            ],
+            "timestamp": 1780537491
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1947,
+    "total_notificaciones_historicas": 1948,
     "total_franchise_historicas": 1039,
-    "cache_buster": 1780537389
+    "cache_buster": 1780537491
 }
