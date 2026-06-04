@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:51:21",
+    "ultima_actualizacion": "02:54:37",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 186,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1228,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 1230,
+                "Diff": "8",
                 "Antece": "Blake Griffin",
                 "Nota": "",
                 "game_status": "playing"
@@ -62,13 +62,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 214,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 228,
+                "Hoy": 2,
+                "Total": 229,
                 "Diff": "1",
-                "Antece": "Michael Finley",
+                "Antece": "Antonio Daniels",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -76,9 +76,9 @@
         "stl": [
             {
                 "Rank": 151,
-                "Nombre": "OG Anunoby",
+                "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
+                "Hoy": 2,
                 "Total": 86,
                 "Diff": "1",
                 "Antece": "Richard Jefferson",
@@ -86,14 +86,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 153,
-                "Nombre": "Mikal Bridges",
+                "Rank": 152,
+                "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 85,
-                "Diff": "1",
-                "Antece": "Pascal Siakam",
-                "Nota": "A tiro de 1",
+                "Hoy": 0,
+                "Total": 86,
+                "Diff": "",
+                "Antece": "Mikal Bridges",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -338,9 +338,9 @@
                 "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 625,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 627,
+                "Diff": "15",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -408,9 +408,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 228,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 229,
+                "Diff": "5",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -448,9 +448,9 @@
                 "Rank": 10,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 47,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 48,
+                "Diff": "0",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (1 three-pointer today) has passed Jeff Green and is now ranked 118th all-time with 101 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759584797440_1435_collage_1779759584711871.png"
-            ],
-            "timestamp": 1779759592
-        },
         {
             "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 127th all-time with 97 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534176571121_4223_collage_1780534176471117.png"
             ],
             "timestamp": 1780534185
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Bill Laimbeer, Giannis Antetokounmpo, Kurt Rambis, Matt Barnes, Moses Malone, Rick Fox and Thabo Sefolosha and is now ranked 151st all-time with 86 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534467791339_1180_collage_1780534467672383.png"
+            ],
+            "timestamp": 1780534477
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1937,
+    "total_notificaciones_historicas": 1938,
     "total_franchise_historicas": 1031,
-    "cache_buster": 1780534281
+    "cache_buster": 1780534477
 }
