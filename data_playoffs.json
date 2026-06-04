@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:24",
+    "ultima_actualizacion": "03:09:10",
     "tablas": {
         "pts": [
             {
@@ -290,13 +290,13 @@
         ],
         "g": [
             {
-                "Rank": 224,
+                "Rank": 219,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "1",
-                "Antece": "Steve Smith",
+                "Antece": "Norman Powell",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Bill Laimbeer, Giannis Antetokounmpo, Kurt Rambis, Matt Barnes, Mikal Bridges, Moses Malone, Rick Fox and Thabo Sefolosha and is now ranked 151st all-time with 86 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759891660527_9141_collage_1779759891565088.png"
-            ],
-            "timestamp": 1779759900
-        },
         {
             "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (5 three-pointers today) has passed Kawhi Leonard and is now ranked 20th all-time with 250 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534954955299_7978_collage_1780534954825344.png"
             ],
             "timestamp": 1780534964
+        },
+        {
+            "texto": "📢HOF🏛️ Harrison Barnes today surpasses Brook Lopez, Chris Bosh, Dave Cowens, Eddie Johnson, Greg Ostertag, Kevon Looney, Lou Williams and Steve Mix and now ranked 219th all time with 90 games in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535341374346_2659_collage_1780535341217394.png"
+            ],
+            "timestamp": 1780535350
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1940,
+    "total_notificaciones_historicas": 1941,
     "total_franchise_historicas": 1033,
-    "cache_buster": 1780535244
+    "cache_buster": 1780535350
 }
