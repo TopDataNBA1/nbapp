@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "05:06:50",
+    "ultima_actualizacion": "05:08:32",
     "tablas": {
         "pts": [
             {
                 "Rank": 62,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 28,
-                "Total": 2105,
-                "Diff": "6",
+                "Hoy": 30,
+                "Total": 2107,
+                "Diff": "4",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -97,13 +97,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 209,
+                "Rank": 205,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 70,
+                "Hoy": 4,
+                "Total": 71,
                 "Diff": "1",
-                "Antece": "Rudy Gobert",
+                "Antece": "Nick Anderson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 28,
-                "Total": 1661,
-                "Diff": "266",
+                "Hoy": 30,
+                "Total": 1663,
+                "Diff": "264",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -418,9 +418,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 70,
-                "Diff": "30",
+                "Hoy": 4,
+                "Total": 71,
+                "Diff": "29",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -430,7 +430,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 64,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 154th all-time with 57 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847679822765_7136_collage_1779847679749788.png"
-            ],
-            "timestamp": 1779847687
-        },
         {
             "texto": "Victor Wembanyama (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 163rd all-time with 55 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542214590245_2473_collage_1780542214499134.png"
             ],
             "timestamp": 1780542223
+        },
+        {
+            "texto": "Josh Hart (4 steals today) has passed Derrick White, Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 205th all-time with 71 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542504913551_2508_collage_1780542504837296.png"
+            ],
+            "timestamp": 1780542512
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1968,
+    "total_notificaciones_historicas": 1969,
     "total_franchise_historicas": 1046,
-    "cache_buster": 1780542410
+    "cache_buster": 1780542512
 }
