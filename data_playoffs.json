@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:37",
+    "ultima_actualizacion": "02:56:21",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 196,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 514,
-                "Diff": "1",
-                "Antece": "Brook Lopez",
-                "Nota": "A tiro de 1",
+                "Hoy": 5,
+                "Total": 515,
+                "Diff": "4",
+                "Antece": "Mel Counts",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -348,9 +348,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 514,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 515,
+                "Diff": "7",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 127th all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759593109380_3379_collage_1779759593027938.png"
-            ],
-            "timestamp": 1779759600
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (5 assists today) has passed Jo Jo White and is now ranked 74th all-time with 453 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534467791339_1180_collage_1780534467672383.png"
             ],
             "timestamp": 1780534477
+        },
+        {
+            "texto": "Josh Hart (5 rebounds today) has passed Andrew Bogut and Kurt Thomas and is now ranked 196th all-time with 515 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534573037007_5390_collage_1780534572943039.png"
+            ],
+            "timestamp": 1780534581
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1938,
+    "total_notificaciones_historicas": 1939,
     "total_franchise_historicas": 1031,
-    "cache_buster": 1780534477
+    "cache_buster": 1780534581
 }
