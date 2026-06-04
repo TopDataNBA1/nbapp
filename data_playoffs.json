@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:50:52",
+    "ultima_actualizacion": "04:55:38",
     "tablas": {
         "pts": [
             {
                 "Rank": 62,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 23,
-                "Total": 2100,
-                "Diff": "11",
+                "Hoy": 25,
+                "Total": 2102,
+                "Diff": "9",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -38,14 +38,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 193,
+                "Rank": 192,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 520,
-                "Diff": "1",
-                "Antece": "Khris Middleton",
-                "Nota": "A tiro de 1",
+                "Hoy": 11,
+                "Total": 521,
+                "Diff": "3",
+                "Antece": "Marcin Gortat",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 1656,
-                "Diff": "271",
+                "Hoy": 25,
+                "Total": 1658,
+                "Diff": "269",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -348,9 +348,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 520,
-                "Diff": "2",
+                "Hoy": 11,
+                "Total": 521,
+                "Diff": "1",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Chet Holmgren (1 block today) has passed Derrick White, Klay Thompson, Tyson Chandler and Zydrunas Ilgauskas and is now ranked 101st all-time with 86 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845809462888_1578_collage_1779845809396909.png"
-            ],
-            "timestamp": 1779845817
-        },
         {
             "texto": "Alex Caruso (2 three-pointers today) has passed Brook Lopez and Serge Ibaka and is now ranked 133rd all-time with 95 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541444927094_5600_collage_1780541444853328.png"
             ],
             "timestamp": 1780541452
+        },
+        {
+            "texto": "Josh Hart (11 rebounds today) has passed Boris Diaw and is now ranked 192nd all-time with 521 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541730689329_4500_collage_1780541730599309.png"
+            ],
+            "timestamp": 1780541738
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1965,
+    "total_notificaciones_historicas": 1966,
     "total_franchise_historicas": 1044,
-    "cache_buster": 1780541452
+    "cache_buster": 1780541738
 }
