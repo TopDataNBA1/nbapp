@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:57",
+    "ultima_actualizacion": "03:02:44",
     "tablas": {
         "pts": [
             {
@@ -54,9 +54,9 @@
                 "Rank": 74,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 453,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 454,
+                "Diff": "4",
                 "Antece": "Hakeem Olajuwon",
                 "Nota": "",
                 "game_status": "playing"
@@ -244,13 +244,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 162,
+                "Rank": 158,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 83,
+                "Hoy": 1,
+                "Total": 84,
                 "Diff": "1",
-                "Antece": "Vernon Maxwell",
+                "Antece": "Myles Turner",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -368,9 +368,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 341,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 342,
+                "Diff": "16",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -398,9 +398,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 377,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 378,
+                "Diff": "14",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -585,13 +585,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 18,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 28,
-                "Diff": "0",
-                "Antece": "RJ Barrett",
+                "Hoy": 1,
+                "Total": 29,
+                "Diff": "1",
+                "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
             {
@@ -640,9 +640,9 @@
                 "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 95,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 97,
+                "Diff": "7",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -660,9 +660,9 @@
                 "Rank": 15,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 46,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 47,
+                "Diff": "2",
                 "Antece": "Matt Bonner",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (5 assists today) has passed Jo Jo White and is now ranked 74th all-time with 453 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779759883176058_5617_collage_1779759883061019.png"
-            ],
-            "timestamp": 1779759891
-        },
         {
             "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Bill Laimbeer, Giannis Antetokounmpo, Kurt Rambis, Matt Barnes, Mikal Bridges, Moses Malone, Rick Fox and Thabo Sefolosha and is now ranked 151st all-time with 86 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534573037007_5390_collage_1780534572943039.png"
             ],
             "timestamp": 1780534581
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (1 assist today) has passed Wes Unseld and is now ranked 74th all-time with 454 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534954955299_7978_collage_1780534954825344.png"
+            ],
+            "timestamp": 1780534964
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Isaiah Hartenstein (8 rebounds today) has passed Shai Gilgeous-Alexander and is now ranked 19th in Thunder history with 266 in playoffs.",
-            "foto": [],
-            "timestamp": 1779506268,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Mikal Bridges (1 steal today) has passed Allan Houston and is now ranked 12th in Knicks history with 44 in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780534185,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Julius Randle and RJ Barrett and is now ranked 18th in Knicks history with 29 in playoffs.",
+            "foto": [],
+            "timestamp": 1780534964,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1939,
-    "total_franchise_historicas": 1031,
-    "cache_buster": 1780534677
+    "total_notificaciones_historicas": 1940,
+    "total_franchise_historicas": 1032,
+    "cache_buster": 1780534964
 }
