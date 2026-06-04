@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:19:31",
+    "ultima_actualizacion": "04:21:21",
     "tablas": {
         "pts": [
             {
                 "Rank": 64,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 2088,
-                "Diff": "4",
+                "Hoy": 13,
+                "Total": 2090,
+                "Diff": "2",
                 "Antece": "Jeff Hornacek",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -62,13 +62,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 212,
+                "Rank": 211,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 231,
+                "Hoy": 5,
+                "Total": 232,
                 "Diff": "1",
-                "Antece": "DeMar DeRozan",
+                "Antece": "Jerome Kersey",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -132,13 +132,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 164,
+                "Rank": 159,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 55,
+                "Hoy": 1,
+                "Total": 56,
                 "Diff": "1",
-                "Antece": "Pascal Siakam",
+                "Antece": "Ralph Sampson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 1644,
-                "Diff": "283",
+                "Hoy": 13,
+                "Total": 1646,
+                "Diff": "281",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -408,9 +408,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 231,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 232,
+                "Diff": "2",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -498,9 +498,9 @@
                 "Rank": 6,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "12",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -709,20 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Chris Webber, Deron Williams, Eric Snow and Joe Dumars and is now ranked 135th all-time with 92 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779842998164458_4960_collage_1779842998076503.png"
-            ],
-            "timestamp": 1779843005
-        },
-        {
-            "texto": "Isaiah Hartenstein (1 rebound today) has passed Marques Johnson and is now ranked 241st all-time with 428 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843378457769_8987_collage_1779843378352804.png"
-            ],
-            "timestamp": 1779843386
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 assists today) has passed Dirk Nowitzki and Horace Grant and is now ranked 106th all-time with 361 in playoffs.",
             "foto": [
@@ -1408,6 +1394,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539562806084_2547_collage_1780539562719669.png"
             ],
             "timestamp": 1780539570
+        },
+        {
+            "texto": "Josh Hart (5 assists today) has passed Henry Bibby and is now ranked 211th all-time with 232 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539666619021_3349_collage_1780539666519719.png"
+            ],
+            "timestamp": 1780539673
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Shane Battier and Wes Unseld and is now ranked 159th all-time with 56 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539673653096_6717_collage_1780539673571859.png"
+            ],
+            "timestamp": 1780539681
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1953,
+    "total_notificaciones_historicas": 1955,
     "total_franchise_historicas": 1039,
-    "cache_buster": 1780539571
+    "cache_buster": 1780539681
 }
