@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:10:08",
+    "ultima_actualizacion": "05:14:52",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 190,
+                "Rank": 189,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 524,
-                "Diff": "1",
-                "Antece": "Blake Griffin",
-                "Nota": "A tiro de 1",
+                "Hoy": 15,
+                "Total": 525,
+                "Diff": "2",
+                "Antece": "Jeff Hornacek",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -318,9 +318,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 681,
-                "Diff": "84",
+                "Hoy": 17,
+                "Total": 683,
+                "Diff": "82",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -348,9 +348,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 14,
-                "Total": 524,
-                "Diff": "142",
+                "Hoy": 15,
+                "Total": 525,
+                "Diff": "141",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (2 blocks today) has passed Billy Paultz and Jae Crowder and is now ranked 163rd all-time with 55 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847687776867_2206_collage_1779847687703872.png"
-            ],
-            "timestamp": 1779847695
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (22 points today) has passed Dick Barnett and Rik Smits and is now ranked 125th all-time with 1,540 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542504913551_2508_collage_1780542504837296.png"
             ],
             "timestamp": 1780542512
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (15 rebounds today) has passed Isiah Thomas and Marcin Gortat and is now ranked 189th all-time with 525 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542884894487_4475_collage_1780542884818102.png"
+            ],
+            "timestamp": 1780542892
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1969,
+    "total_notificaciones_historicas": 1970,
     "total_franchise_historicas": 1046,
-    "cache_buster": 1780542608
+    "cache_buster": 1780542892
 }
