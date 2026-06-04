@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:28:08",
+    "ultima_actualizacion": "04:29:51",
     "tablas": {
         "pts": [
             {
                 "Rank": 63,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 15,
-                "Total": 2092,
-                "Diff": "6",
+                "Hoy": 17,
+                "Total": 2094,
+                "Diff": "4",
                 "Antece": "Pau Gasol",
                 "Nota": "",
                 "game_status": "playing"
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 1648,
-                "Diff": "279",
+                "Hoy": 17,
+                "Total": 1650,
+                "Diff": "277",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -640,9 +640,9 @@
                 "Rank": 23,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 99,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 100,
+                "Diff": "4",
                 "Antece": "Robert Horry",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Cason Wallace (1 steal today) has passed Brian Shaw, Don Chaney, Josh Howard, Kyle Anderson and Steve Nash and is now ranked 220th all-time with 67 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779843790758852_1666_collage_1779843790675881.png"
-            ],
-            "timestamp": 1779843798
-        },
         {
             "texto": "Shai Gilgeous-Alexander (1 three-pointer today) has passed Harrison Barnes and Myles Turner and is now ranked 153rd all-time with 86 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539984624624_9501_collage_1780539984533741.png"
             ],
             "timestamp": 1780539993
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (17 points today) has passed Jeff Hornacek and Moses Malone and is now ranked 63rd all-time with 2,094 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780540182784371_9176_collage_1780540182706229.png"
+            ],
+            "timestamp": 1780540191
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (1 steal today) has passed Evan Mobley and is now ranked 13th in Cavaliers history with 39 in playoffs.",
-            "foto": [],
-            "timestamp": 1779584208,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (6 points today) has passed Daniel Gibson and is now ranked 22nd in Cavaliers history with 320 in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780539888,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "De'Aaron Fox (5 assists today) becomes the 23rd player to reach 100 assists with Spurs in playoffs.",
+            "foto": [],
+            "timestamp": 1780540191,
+            "team": "SAS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1958,
-    "total_franchise_historicas": 1040,
-    "cache_buster": 1780540088
+    "total_notificaciones_historicas": 1959,
+    "total_franchise_historicas": 1041,
+    "cache_buster": 1780540191
 }
