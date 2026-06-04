@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:52",
+    "ultima_actualizacion": "03:17:47",
     "tablas": {
         "pts": [
             {
@@ -30,9 +30,9 @@
                 "Rank": 116,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 686,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 687,
+                "Diff": "3",
                 "Antece": "Maurice Lucas",
                 "Nota": "",
                 "game_status": "playing"
@@ -255,13 +255,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 179,
                 "Nombre": "Miles McBride",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 75,
+                "Hoy": 1,
+                "Total": 76,
                 "Diff": "1",
-                "Antece": "Channing Frye",
+                "Antece": "Terry Rozier",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -358,9 +358,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 359,
-                "Diff": "102",
+                "Hoy": 3,
+                "Total": 360,
+                "Diff": "101",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -370,7 +370,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 342,
-                "Diff": "17",
+                "Diff": "18",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -548,9 +548,9 @@
                 "Rank": 4,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 75,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 76,
+                "Diff": "10",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -560,7 +560,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 72,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -709,20 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (13 points today) has passed Steve Nash and is now ranked 65th all-time with 2,075 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760195615780_3478_collage_1779760195516527.png"
-            ],
-            "timestamp": 1779760207
-        },
-        {
-            "texto": "📢🔝💯 Jalen Brunson (2 three-pointers today) has passed Peja Stojaković and is now ranked 57th all-time with 163 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760207424383_7674_collage_1779760207324931.png"
-            ],
-            "timestamp": 1779760215
-        },
         {
             "texto": "Josh Hart (10 rebounds today) has passed Luke Jackson and is now ranked 200th all-time with 509 in playoffs.",
             "foto": [
@@ -1408,6 +1394,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535562255828_9633_collage_1780535562158858.png"
             ],
             "timestamp": 1780535569
+        },
+        {
+            "texto": "Karl-Anthony Towns (3 rebounds today) has passed Antonio Davis and is now ranked 116th all-time with 687 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535850643271_3864_collage_1780535850542783.png"
+            ],
+            "timestamp": 1780535858
+        },
+        {
+            "texto": "Miles McBride (1 three-pointer today) has passed Naz Reid and Rafer Alston and is now ranked 179th all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535858813720_7004_collage_1780535858727939.png"
+            ],
+            "timestamp": 1780535867
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1942,
+    "total_notificaciones_historicas": 1944,
     "total_franchise_historicas": 1034,
-    "cache_buster": 1780535572
+    "cache_buster": 1780535867
 }
