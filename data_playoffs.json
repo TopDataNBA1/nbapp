@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:49:01",
+    "ultima_actualizacion": "04:50:52",
     "tablas": {
         "pts": [
             {
                 "Rank": 62,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 21,
-                "Total": 2098,
-                "Diff": "13",
+                "Hoy": 23,
+                "Total": 2100,
+                "Diff": "11",
                 "Antece": "Allen Iverson",
                 "Nota": "",
                 "game_status": "playing"
@@ -97,13 +97,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 219,
+                "Rank": 213,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 68,
+                "Hoy": 2,
+                "Total": 69,
                 "Diff": "1",
-                "Antece": "Rashard Lewis",
+                "Antece": "Ricky Pierce",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 21,
-                "Total": 1654,
-                "Diff": "273",
+                "Hoy": 23,
+                "Total": 1656,
+                "Diff": "271",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -418,9 +418,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 68,
-                "Diff": "32",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "31",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -430,7 +430,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 64,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -709,20 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (9 points today) has passed Michael Finley and is now ranked 128th all-time with 1,527 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845507911687_7493_collage_1779845507821711.png"
-            ],
-            "timestamp": 1779845515
-        },
-        {
-            "texto": "📢HOF🏛️ Luguentz Dort (1 three-pointer today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 111th all-time with 104 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845705832052_7645_collage_1779845705769071.png"
-            ],
-            "timestamp": 1779845713
-        },
         {
             "texto": "Chet Holmgren (1 block today) has passed Derrick White, Klay Thompson, Tyson Chandler and Zydrunas Ilgauskas and is now ranked 101st all-time with 86 in playoffs.",
             "foto": [
@@ -1408,6 +1394,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541334448555_6119_collage_1780541334355212.png"
             ],
             "timestamp": 1780541341
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (23 points today) has passed Pau Gasol and is now ranked 62nd all-time with 2,100 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541436409349_1957_collage_1780541436324750.png"
+            ],
+            "timestamp": 1780541444
+        },
+        {
+            "texto": "Josh Hart (2 steals today) has passed Blake Griffin and Luol Deng and is now ranked 213th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541444927094_5600_collage_1780541444853328.png"
+            ],
+            "timestamp": 1780541452
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1963,
+    "total_notificaciones_historicas": 1965,
     "total_franchise_historicas": 1044,
-    "cache_buster": 1780541341
+    "cache_buster": 1780541452
 }
