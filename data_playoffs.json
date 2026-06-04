@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:33:18",
+    "ultima_actualizacion": "04:41:06",
     "tablas": {
         "pts": [
             {
@@ -30,11 +30,11 @@
                 "Rank": 114,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 694,
-                "Diff": "2",
+                "Hoy": 11,
+                "Total": 695,
+                "Diff": "1",
                 "Antece": "Zelmo Beaty",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -203,9 +203,9 @@
                 "Rank": 76,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 130,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 131,
+                "Diff": "3",
                 "Antece": "Byron Scott",
                 "Nota": "",
                 "game_status": "playing"
@@ -316,22 +316,22 @@
             },
             {
                 "Rank": 15,
-                "Nombre": "Josh Hart",
+                "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 674,
-                "Diff": "2",
+                "Hoy": 10,
+                "Total": 676,
+                "Diff": "0",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
             {
                 "Rank": 16,
-                "Nombre": "OG Anunoby",
+                "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 671,
-                "Diff": "3",
-                "Antece": "Josh Hart",
+                "Hoy": 3,
+                "Total": 674,
+                "Diff": "2",
+                "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
             {
@@ -358,9 +358,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 367,
-                "Diff": "94",
+                "Hoy": 11,
+                "Total": 368,
+                "Diff": "93",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -370,7 +370,7 @@
                 "Stat": "REB",
                 "Hoy": 6,
                 "Total": 347,
-                "Diff": "20",
+                "Diff": "21",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -538,9 +538,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 86,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 87,
+                "Diff": "13",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -550,7 +550,7 @@
                 "Stat": "3PM",
                 "Hoy": 2,
                 "Total": 77,
-                "Diff": "9",
+                "Diff": "10",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (3 steals today) has passed Doug Christie and is now ranked 130th all-time with 94 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779844660254959_7597_collage_1779844660166272.png"
-            ],
-            "timestamp": 1779844671
-        },
         {
             "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 166th all-time with 54 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780540390655146_3981_collage_1780540390574975.png"
             ],
             "timestamp": 1780540398
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (2 three-pointers today) has passed Fred VanVleet, Marcus Morris and Reggie Jackson and is now ranked 76th all-time with 131 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780540859159785_9956_collage_1780540859099956.png"
+            ],
+            "timestamp": 1780540866
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "James Harden (6 points today) has passed Daniel Gibson and is now ranked 22nd in Cavaliers history with 320 in playoffs.",
-            "foto": [],
-            "timestamp": 1779584396,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (13 points today) has passed Iman Shumpert and is now ranked 21st in Cavaliers history with 327 in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780540191,
             "team": "SAS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "OG Anunoby (10 points today) has passed Josh Hart and is now ranked 15th in Knicks history with 676 in playoffs.",
+            "foto": [],
+            "timestamp": 1780540866,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1961,
-    "total_franchise_historicas": 1041,
-    "cache_buster": 1780540398
+    "total_notificaciones_historicas": 1962,
+    "total_franchise_historicas": 1042,
+    "cache_buster": 1780540866
 }
