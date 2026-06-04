@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:12:18",
+    "ultima_actualizacion": "03:12:52",
     "tablas": {
         "pts": [
             {
@@ -425,13 +425,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 6,
+                "Rank": 7,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 63,
-                "Diff": "4",
-                "Antece": "Josh Hart",
+                "Diff": "0",
+                "Antece": "Derek Harper",
                 "game_status": "playing"
             },
             {
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝2️⃣5️⃣ Donovan Mitchell (5 three-pointers today) has passed Kawhi Leonard and is now ranked 20th all-time with 250 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760090451520_2893_collage_1779760090366871.png"
-            ],
-            "timestamp": 1779760100
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (13 points today) has passed Steve Nash and is now ranked 65th all-time with 2,075 in playoffs.",
             "foto": [
@@ -1408,16 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535341374346_2659_collage_1780535341217394.png"
             ],
             "timestamp": 1780535350
+        },
+        {
+            "texto": "Josh Hart (5 rebounds today) has passed Andrew Bogut, Kurt Thomas and Michael Porter Jr. and is now ranked 196th all-time with 515 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535562255828_9633_collage_1780535562158858.png"
+            ],
+            "timestamp": 1780535569
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donovan Mitchell today surpasses Craig Ehlo, James Jones, Kyle Korver and Matthew Dellavedova and is now ranked 16th in Cavaliers history with 41 games in playoffs.",
-            "foto": [],
-            "timestamp": 1779581856,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley today surpasses Brad Daugherty and Larry Nance and is now ranked 13th in Cavaliers history with 42 games in playoffs.",
             "foto": [],
@@ -2110,9 +2103,16 @@
             "timestamp": 1780535243,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Mikal Bridges (2 steals today) has passed Larry Johnson and Chris Childs and is now ranked 10th in Knicks history with 48 in playoffs.",
+            "foto": [],
+            "timestamp": 1780535569,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1941,
-    "total_franchise_historicas": 1033,
-    "cache_buster": 1780535538
+    "total_notificaciones_historicas": 1942,
+    "total_franchise_historicas": 1034,
+    "cache_buster": 1780535572
 }
