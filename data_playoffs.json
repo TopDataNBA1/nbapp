@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:38:17",
+    "ultima_actualizacion": "03:39:59",
     "tablas": {
         "pts": [
             {
@@ -54,9 +54,9 @@
                 "Rank": 74,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 454,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 455,
+                "Diff": "3",
                 "Antece": "Hakeem Olajuwon",
                 "Nota": "",
                 "game_status": "playing"
@@ -244,13 +244,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 158,
+                "Rank": 157,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 84,
+                "Hoy": 2,
+                "Total": 85,
                 "Diff": "1",
-                "Antece": "Myles Turner",
+                "Antece": "Rick Fox",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -398,9 +398,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 378,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 379,
+                "Diff": "13",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -588,9 +588,9 @@
                 "Rank": 18,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 29,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 30,
+                "Diff": "0",
                 "Antece": "Carmelo Anthony",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Bill Laimbeer, Moses Malone and Rick Fox and is now ranked 153rd all-time with 85 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760798928355_7346_collage_1779760798866260.png"
-            ],
-            "timestamp": 1779760809
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (17 points today) has passed Bill Bradley and Latrell Sprewell and is now ranked 186th all-time with 1,224 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780536527724289_1010_collage_1780536527649263.png"
             ],
             "timestamp": 1780536535
+        },
+        {
+            "texto": "Landry Shamet (2 three-pointers today) has passed Matt Barnes, Mickaël Piétrus, Steve Kerr and Vernon Maxwell and is now ranked 157th all-time with 85 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780537192111635_4868_collage_1780537192039721.png"
+            ],
+            "timestamp": 1780537199
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1946,
+    "total_notificaciones_historicas": 1947,
     "total_franchise_historicas": 1038,
-    "cache_buster": 1780537097
+    "cache_buster": 1780537199
 }
