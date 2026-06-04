@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:47:19",
+    "ultima_actualizacion": "04:49:01",
     "tablas": {
         "pts": [
             {
-                "Rank": 63,
+                "Rank": 62,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 19,
-                "Total": 2096,
-                "Diff": "2",
-                "Antece": "Pau Gasol",
-                "Nota": "A tiro de 2",
+                "Hoy": 21,
+                "Total": 2098,
+                "Diff": "13",
+                "Antece": "Allen Iverson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -38,13 +38,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 194,
+                "Rank": 193,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 519,
+                "Hoy": 10,
+                "Total": 520,
                 "Diff": "1",
-                "Antece": "Boris Diaw",
+                "Antece": "Khris Middleton",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -308,9 +308,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1652,
-                "Diff": "275",
+                "Hoy": 21,
+                "Total": 1654,
+                "Diff": "273",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -348,9 +348,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 519,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 520,
+                "Diff": "2",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Blake Griffin, Jamaal Wilkes and Kyrie Irving and is now ranked 166th all-time with 54 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779845131843222_6595_collage_1779845131783244.png"
-            ],
-            "timestamp": 1779845139
-        },
         {
             "texto": "Shai Gilgeous-Alexander (9 points today) has passed Michael Finley and is now ranked 128th all-time with 1,527 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780540859159785_9956_collage_1780540859099956.png"
             ],
             "timestamp": 1780540866
+        },
+        {
+            "texto": "Josh Hart (10 rebounds today) has passed Clyde Lee and Mel Counts and is now ranked 193rd all-time with 520 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541334448555_6119_collage_1780541334355212.png"
+            ],
+            "timestamp": 1780541341
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1962,
+    "total_notificaciones_historicas": 1963,
     "total_franchise_historicas": 1044,
-    "cache_buster": 1780541239
+    "cache_buster": 1780541341
 }
