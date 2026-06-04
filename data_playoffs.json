@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:39",
+    "ultima_actualizacion": "04:19:31",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 186,
+                "Rank": 185,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 1236,
-                "Diff": "2",
-                "Antece": "Blake Griffin",
-                "Nota": "A tiro de 2",
+                "Hoy": 13,
+                "Total": 1239,
+                "Diff": "5",
+                "Antece": "Bob Lanier",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -41,9 +41,9 @@
                 "Rank": 196,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 515,
-                "Diff": "4",
+                "Hoy": 6,
+                "Total": 516,
+                "Diff": "3",
                 "Antece": "Mel Counts",
                 "Nota": "",
                 "game_status": "playing"
@@ -338,9 +338,9 @@
                 "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 633,
-                "Diff": "9",
+                "Hoy": 13,
+                "Total": 636,
+                "Diff": "6",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -348,9 +348,9 @@
                 "Rank": 7,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 515,
-                "Diff": "7",
+                "Hoy": 6,
+                "Total": 516,
+                "Diff": "6",
                 "Antece": "Harry Gallatin",
                 "game_status": "playing"
             },
@@ -709,20 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (1 steal today) has passed Damian Lillard, Dave Cowens, Gerald Henderson and Tobias Harris and is now ranked 172nd all-time with 79 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779842322598540_3109_collage_1779842322524530.png"
-            ],
-            "timestamp": 1779842330
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (2 steals today) has passed Antoine Walker, Calvin Murphy, Dale Davis and Tom Henderson and is now ranked 169th all-time with 80 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779842426888260_2124_collage_1779842426813303.png"
-            ],
-            "timestamp": 1779842434
-        },
         {
             "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Chris Webber, Deron Williams, Eric Snow and Joe Dumars and is now ranked 135th all-time with 92 in playoffs.",
             "foto": [
@@ -1408,6 +1394,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539357262553_9699_collage_1780539357200458.png"
             ],
             "timestamp": 1780539364
+        },
+        {
+            "texto": "Karl-Anthony Towns (13 points today) has passed Blake Griffin and is now ranked 185th all-time with 1,239 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539554401253_4957_collage_1780539554315596.png"
+            ],
+            "timestamp": 1780539562
+        },
+        {
+            "texto": "Josh Hart (6 rebounds today) has passed Brook Lopez and is now ranked 196th all-time with 516 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539562806084_2547_collage_1780539562719669.png"
+            ],
+            "timestamp": 1780539570
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1951,
+    "total_notificaciones_historicas": 1953,
     "total_franchise_historicas": 1039,
-    "cache_buster": 1780539459
+    "cache_buster": 1780539571
 }
