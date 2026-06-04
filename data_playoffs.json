@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:03:12",
+    "ultima_actualizacion": "04:07:58",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 186,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 1234,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 1236,
+                "Diff": "2",
                 "Antece": "Blake Griffin",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -62,13 +62,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 213,
+                "Rank": 212,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 230,
+                "Hoy": 4,
+                "Total": 231,
                 "Diff": "1",
-                "Antece": "Henry Bibby",
+                "Antece": "DeMar DeRozan",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -338,9 +338,9 @@
                 "Rank": 18,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 631,
-                "Diff": "11",
+                "Hoy": 10,
+                "Total": 633,
+                "Diff": "9",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -408,9 +408,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 230,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 231,
+                "Diff": "3",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (1 steal today) has passed Dennis Rodman, Lindsey Hunter, Rick Barry, Robert Reid and Sidney Moncrief and is now ranked 105th all-time with 107 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779761284645149_6932_collage_1779761284554368.png"
-            ],
-            "timestamp": 1779761296
-        },
         {
             "texto": "Miles McBride (3 three-pointers today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams and Nickeil Alexander-Walker and is now ranked 181st all-time with 75 in playoffs.",
             "foto": [
@@ -1408,6 +1401,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780537484032320_5976_collage_1780537483933560.png"
             ],
             "timestamp": 1780537491
+        },
+        {
+            "texto": "Josh Hart (4 assists today) has passed Antonio Daniels and is now ranked 212th all-time with 231 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780538869980171_1461_collage_1780538869891377.png"
+            ],
+            "timestamp": 1780538878
         }
     ],
     "notificaciones_franchise": [
@@ -2112,7 +2112,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1948,
+    "total_notificaciones_historicas": 1949,
     "total_franchise_historicas": 1039,
-    "cache_buster": 1780538592
+    "cache_buster": 1780538878
 }
