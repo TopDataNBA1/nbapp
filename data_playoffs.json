@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:22:39",
+    "ultima_actualizacion": "03:28:55",
     "tablas": {
         "pts": [
             {
@@ -62,13 +62,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 214,
+                "Rank": 213,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 229,
+                "Hoy": 3,
+                "Total": 230,
                 "Diff": "1",
-                "Antece": "Antonio Daniels",
+                "Antece": "Henry Bibby",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -385,13 +385,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 199,
-                "Diff": "0",
-                "Antece": "Ernie Vandeweghe",
+                "Hoy": 2,
+                "Total": 200,
+                "Diff": "20",
+                "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
             {
@@ -408,9 +408,9 @@
                 "Rank": 10,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 229,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 230,
+                "Diff": "4",
                 "Antece": "Dave DeBusschere",
                 "game_status": "playing"
             },
@@ -709,13 +709,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (4 three-pointers today) has passed Iman Shumpert and is now ranked 162nd all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779760600276474_6721_collage_1779760600187977.png"
-            ],
-            "timestamp": 1779760608
-        },
         {
             "texto": "📢HOF🏛️ Mikal Bridges (1 steal today) has passed Bill Laimbeer, Moses Malone and Rick Fox and is now ranked 153rd all-time with 85 in playoffs.",
             "foto": [
@@ -1408,23 +1401,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780535963250710_5896_collage_1780535963168443.png"
             ],
             "timestamp": 1780535971
+        },
+        {
+            "texto": "Josh Hart (3 assists today) has passed Gerald Henderson and Michael Finley and is now ranked 213th all-time with 230 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780536527724289_1010_collage_1780536527649263.png"
+            ],
+            "timestamp": 1780536535
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Karl-Anthony Towns (9 points today) becomes the 19th player to reach 600 points with Knicks in playoffs.",
-            "foto": [],
-            "timestamp": 1779582972,
-            "team": "NYK",
-            "type": "franchise_milestone"
-        },
-        {
-            "texto": "Landry Shamet (1 three-pointer today) has passed Alec Burks and is now ranked 22nd in Knicks history with 21 in playoffs.",
-            "foto": [],
-            "timestamp": 1779583096,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "📢HOF🏛️ Miles McBride today surpasses Charles Smith and Dick McGuire and is now ranked 20th in Knicks history with 52 games in playoffs.",
             "foto": [],
@@ -2110,9 +2096,23 @@
             "timestamp": 1780535971,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (2 rebounds today) has passed Ernie Vandeweghe and is now ranked 22nd in Knicks history with 200 in playoffs.",
+            "foto": [],
+            "timestamp": 1780536535,
+            "team": "NYK",
+            "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (2 rebounds today) becomes the 22nd player to reach 200 rebounds with Knicks in playoffs.",
+            "foto": [],
+            "timestamp": 1780536535,
+            "team": "NYK",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1945,
-    "total_franchise_historicas": 1035,
-    "cache_buster": 1780536159
+    "total_notificaciones_historicas": 1946,
+    "total_franchise_historicas": 1037,
+    "cache_buster": 1780536535
 }
