@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:49:39",
+    "ultima_actualizacion": "04:55:57",
     "tablas": {
         "pts": [
             {
                 "Rank": 61,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 13,
-                "Total": 2120,
-                "Diff": "26",
+                "Hoy": 15,
+                "Total": 2122,
+                "Diff": "24",
                 "Antece": "Derek Fisher",
                 "Nota": "",
                 "game_status": "playing"
@@ -86,13 +86,13 @@
         ],
         "stl": [
             {
-                "Rank": 145,
+                "Rank": 141,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 88,
+                "Hoy": 2,
+                "Total": 89,
                 "Diff": "1",
-                "Antece": "Paul Westphal",
+                "Antece": "Buck Williams",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -319,9 +319,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 1676,
-                "Diff": "251",
+                "Hoy": 15,
+                "Total": 1678,
+                "Diff": "249",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -439,9 +439,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 65,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 66,
+                "Diff": "6",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (3 blocks today) has passed Bill Cartwright, Dan Roundfield, Dave Cowens, Jarrett Allen, Kyle Korver, Metta World Peace, Mike Gminski, Pascal Siakam, Ralph Sampson and Shai Gilgeous-Alexander and is now ranked 152nd all-time with 59 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780040280560898_4712_collage_1780040280467137.png"
-            ],
-            "timestamp": 1780040289
-        },
         {
             "texto": "Harrison Barnes (2 three-pointers today) has passed Myles Turner, Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714171938684_7742_collage_1780714171864716.png"
             ],
             "timestamp": 1780714179
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Alvan Adams, Charles Johnson, Tim Hardaway and Walter Davis and is now ranked 141st all-time with 89 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714549974443_2455_collage_1780714549902469.png"
+            ],
+            "timestamp": 1780714557
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2010,
+    "total_notificaciones_historicas": 2011,
     "total_franchise_historicas": 1064,
-    "cache_buster": 1780714179
+    "cache_buster": 1780714557
 }
