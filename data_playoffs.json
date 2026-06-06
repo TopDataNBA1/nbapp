@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:18:47",
+    "ultima_actualizacion": "04:23:44",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 247,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 11,
-                "Total": 1015,
-                "Diff": "10",
+                "Hoy": 14,
+                "Total": 1018,
+                "Diff": "7",
                 "Antece": "Robert Reid",
                 "Nota": "",
                 "game_status": "playing"
@@ -225,11 +225,11 @@
                 "Rank": 112,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 104,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 105,
+                "Diff": "1",
                 "Antece": "Luguentz Dort",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -589,9 +589,9 @@
                 "Rank": 10,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 46,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 47,
+                "Diff": "4",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -740,20 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (3 blocks today) has passed Jarrett Allen and is now ranked 152nd all-time with 59 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021625020267_1138_collage_1780021624924296.png"
-            ],
-            "timestamp": 1780021633
-        },
-        {
-            "texto": "Harrison Barnes (1 three-pointer today) has passed Myles Turner and is now ranked 154th all-time with 86 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021912277173_3081_collage_1780021912187210.png"
-            ],
-            "timestamp": 1780021920
-        },
         {
             "texto": "Harrison Barnes (2 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
             "foto": [
@@ -1439,6 +1425,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712318652318_6488_collage_1780712318553355.png"
             ],
             "timestamp": 1780712327
+        },
+        {
+            "texto": "Mikal Bridges (14 points today) has passed Lou Williams and is now ranked 247th all-time with 1,018 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712607129134_3457_collage_1780712607041228.png"
+            ],
+            "timestamp": 1780712615
+        },
+        {
+            "texto": "Mikal Bridges (4 three-pointers today) has passed James Jones and Pat Connaughton and is now ranked 112th all-time with 105 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712616117724_3391_collage_1780712616042755.png"
+            ],
+            "timestamp": 1780712624
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2002,
+    "total_notificaciones_historicas": 2004,
     "total_franchise_historicas": 1059,
-    "cache_buster": 1780712327
+    "cache_buster": 1780712624
 }
