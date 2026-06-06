@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:44:29",
+    "ultima_actualizacion": "04:46:13",
     "tablas": {
         "pts": [
             {
@@ -244,13 +244,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 149,
+                "Rank": 147,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 87,
+                "Hoy": 2,
+                "Total": 88,
                 "Diff": "1",
-                "Antece": "Tim Thomas",
+                "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -260,9 +260,9 @@
                 "Team": "SAS",
                 "Hoy": 0,
                 "Total": 87,
-                "Diff": "",
-                "Antece": "Landry Shamet",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Tim Thomas",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -599,9 +599,9 @@
                 "Rank": 15,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 32,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 33,
+                "Diff": "0",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -661,9 +661,9 @@
                 "Rank": 17,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 126,
-                "Diff": "11",
+                "Hoy": 4,
+                "Total": 127,
+                "Diff": "10",
                 "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
@@ -711,9 +711,9 @@
                 "Rank": 20,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 33,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 34,
+                "Diff": "4",
                 "Antece": "Boris Diaw",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Shai Gilgeous-Alexander (4 assists today) has passed George Hill, Jaylen Brown, Joe Johnson and Tayshaun Prince and is now ranked 99th all-time with 372 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780040252330751_1259_collage_1780040252252630.png"
-            ],
-            "timestamp": 1780040260
-        },
         {
             "texto": "📢HOF🏛️ Cason Wallace (3 steals today) has passed Adrian Dantley, Anderson Varejão, Blake Griffin, Bob Dandridge, Bradley Beal, Derrick White, George Gervin, Jeff Teague, Johnny Moore, Luol Deng, Rashard Lewis and Ricky Pierce and is now ranked 204th all-time with 71 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713860997823_2532_collage_1780713860898860.png"
             ],
             "timestamp": 1780713869
+        },
+        {
+            "texto": "Landry Shamet (2 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Harrison Barnes, Leandro Barbosa and Seth Curry and is now ranked 147th all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713964765377_2187_collage_1780713964683406.png"
+            ],
+            "timestamp": 1780713973
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2007,
+    "total_notificaciones_historicas": 2008,
     "total_franchise_historicas": 1063,
-    "cache_buster": 1780713869
+    "cache_buster": 1780713973
 }
