@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:28:38",
+    "ultima_actualizacion": "04:30:21",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 247,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 1018,
-                "Diff": "7",
+                "Hoy": 16,
+                "Total": 1020,
+                "Diff": "5",
                 "Antece": "Robert Reid",
                 "Nota": "",
                 "game_status": "playing"
@@ -65,9 +65,9 @@
                 "Rank": 73,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 458,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 459,
+                "Diff": "4",
                 "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
@@ -399,9 +399,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 203,
-                "Diff": "23",
+                "Hoy": 3,
+                "Total": 204,
+                "Diff": "22",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -409,9 +409,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 382,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 383,
+                "Diff": "9",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -469,9 +469,9 @@
                 "Rank": 19,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 36,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 37,
+                "Diff": "0",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -718,13 +718,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Stephon Castle",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 31,
+                "Hoy": 2,
+                "Total": 32,
                 "Diff": "0",
-                "Antece": "Vinny Del Negro",
+                "Antece": "Victor Wembanyama",
                 "game_status": "playing"
             },
             {
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (15 points today) has passed Adrian Dantley, Charles Oakley and Jerome Kersey and is now ranked 121st all-time with 1,565 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780040234985907_1456_collage_1780040234923407.png"
-            ],
-            "timestamp": 1780040242
-        },
         {
             "texto": "📢HOF🏛️ Isaiah Hartenstein (5 rebounds today) has passed Bill Walton, Bryon Russell, Danny Ainge and Darrall Imhoff and is now ranked 232nd all-time with 447 in playoffs.",
             "foto": [
@@ -1439,16 +1432,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712719906802_7614_collage_1780712719831830.png"
             ],
             "timestamp": 1780712727
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (4 assists today) has passed Hakeem Olajuwon and is now ranked 73rd all-time with 459 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713013073825_2695_collage_1780713012974862.png"
+            ],
+            "timestamp": 1780713021
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Victor Wembanyama (3 blocks today) has passed Mike Green and is now ranked 9th in Spurs history with 53 in playoffs.",
-            "foto": [],
-            "timestamp": 1779673677,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "Victor Wembanyama (3 three-pointers today) has passed Terry Porter and is now ranked 24th in Spurs history with 23 in playoffs.",
             "foto": [],
@@ -2141,9 +2134,16 @@
             "timestamp": 1780712727,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Stephon Castle (2 three-pointers today) has passed Vinny Del Negro and is now ranked 22nd in Spurs history with 32 in playoffs.",
+            "foto": [],
+            "timestamp": 1780713021,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2005,
-    "total_franchise_historicas": 1061,
-    "cache_buster": 1780712918
+    "total_notificaciones_historicas": 2006,
+    "total_franchise_historicas": 1062,
+    "cache_buster": 1780713021
 }
