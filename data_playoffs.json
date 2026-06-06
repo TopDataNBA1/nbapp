@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:47:57",
+    "ultima_actualizacion": "03:49:40",
     "tablas": {
         "pts": [
             {
@@ -124,9 +124,9 @@
                 "Rank": 141,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 64,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 65,
+                "Diff": "2",
                 "Antece": "Theo Ratliff",
                 "Nota": "",
                 "game_status": "playing"
@@ -399,9 +399,9 @@
                 "Rank": 22,
                 "Nombre": "Jalen Brunson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 202,
-                "Diff": "24",
+                "Hoy": 2,
+                "Total": 203,
+                "Diff": "23",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -651,9 +651,9 @@
                 "Rank": 25,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 199,
-                "Diff": "8",
+                "Hoy": 5,
+                "Total": 200,
+                "Diff": "7",
                 "Antece": "Coby Dietrick",
                 "game_status": "playing"
             },
@@ -681,9 +681,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 64,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 65,
+                "Diff": "16",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Chet Holmgren (1 block today) has passed Tayshaun Prince and is now ranked 99th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780017459164957_1752_collage_1780017459076985.png"
-            ],
-            "timestamp": 1780017467
-        },
         {
             "texto": "Alex Caruso (1 three-pointer today) has passed Desmond Bane, Karl-Anthony Towns, Mark Jackson and Mike Miller and is now ranked 126th all-time with 98 in playoffs.",
             "foto": [
@@ -1439,16 +1432,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710373554902_7694_collage_1780710373494918.png"
             ],
             "timestamp": 1780710381
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (2 blocks today) has passed Bruce Bowen, Jaylen Brown and Magic Johnson and is now ranked 141st all-time with 65 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710572388740_4865_collage_1780710572321789.png"
+            ],
+            "timestamp": 1780710580
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Chet Holmgren (2 rebounds today) has passed Paul Silas and is now ranked 10th in Thunder history with 361 in playoffs.",
-            "foto": [],
-            "timestamp": 1779669601,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Devin Vassell (2 three-pointers today) has passed Julian Champagnie and is now ranked 18th in Spurs history with 35 in playoffs.",
             "foto": [],
@@ -2141,9 +2134,16 @@
             "timestamp": 1780710477,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (5 rebounds today) becomes the 25th player to reach 200 rebounds with Spurs in playoffs.",
+            "foto": [],
+            "timestamp": 1780710580,
+            "team": "SAS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1993,
-    "total_franchise_historicas": 1055,
-    "cache_buster": 1780710477
+    "total_notificaciones_historicas": 1994,
+    "total_franchise_historicas": 1056,
+    "cache_buster": 1780710580
 }
