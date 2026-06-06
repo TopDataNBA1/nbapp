@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:30",
+    "ultima_actualizacion": "03:46:21",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 250,
+                "Rank": 248,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 1010,
-                "Diff": "1",
-                "Antece": "Dale Ellis",
-                "Nota": "A tiro de 1",
+                "Hoy": 9,
+                "Total": 1013,
+                "Diff": "2",
+                "Antece": "Lou Williams",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -222,14 +222,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 114,
+                "Rank": 112,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 103,
-                "Diff": "1",
-                "Antece": "Pat Connaughton",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 104,
+                "Diff": "2",
+                "Antece": "Luguentz Dort",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -586,13 +586,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 12,
+                "Rank": 10,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 45,
-                "Diff": "0",
-                "Antece": "Larry Johnson",
+                "Hoy": 3,
+                "Total": 46,
+                "Diff": "4",
+                "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
             {
@@ -740,20 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Shai Gilgeous-Alexander (2 assists today) has passed George Hill, Jaylen Brown and Joe Johnson and is now ranked 100th all-time with 370 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780016412114462_6209_collage_1780016412048483.png"
-            ],
-            "timestamp": 1780016419
-        },
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (3 rebounds today) has passed Bill Walton and Bryon Russell and is now ranked 232nd all-time with 445 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780016514945111_3316_collage_1780016514868127.png"
-            ],
-            "timestamp": 1780016522
-        },
         {
             "texto": "📢🔝💯 Chet Holmgren (1 block today) has passed Tayshaun Prince and is now ranked 99th all-time with 87 in playoffs.",
             "foto": [
@@ -1439,16 +1425,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709890276893_2522_collage_1780709890187936.png"
             ],
             "timestamp": 1780709899
+        },
+        {
+            "texto": "Mikal Bridges (9 points today) has passed Dale Ellis and is now ranked 248th all-time with 1,013 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710364778506_8176_collage_1780710364687548.png"
+            ],
+            "timestamp": 1780710373
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (3 three-pointers today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 112th all-time with 104 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710373554902_7694_collage_1780710373494918.png"
+            ],
+            "timestamp": 1780710381
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Evan Mobley (2 assists today) has passed Kevin Love and is now ranked 10th in Cavaliers history with 117 in playoffs.",
-            "foto": [],
-            "timestamp": 1779590162,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Luguentz Dort today surpasses Derek Fisher and is now ranked 21st in Thunder history with 51 games in playoffs.",
             "foto": [],
@@ -2141,9 +2134,16 @@
             "timestamp": 1780709899,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Mikal Bridges (3 three-pointers today) has passed Donte DiVincenzo and Larry Johnson and is now ranked 10th in Knicks history with 46 in playoffs.",
+            "foto": [],
+            "timestamp": 1780710381,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1991,
-    "total_franchise_historicas": 1053,
-    "cache_buster": 1780710270
+    "total_notificaciones_historicas": 1993,
+    "total_franchise_historicas": 1054,
+    "cache_buster": 1780710381
 }
