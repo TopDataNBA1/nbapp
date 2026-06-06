@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:07",
+    "ultima_actualizacion": "02:46:50",
     "tablas": {
         "pts": [
             {
@@ -38,14 +38,14 @@
         ],
         "trb": [
             {
-                "Rank": 112,
+                "Rank": 111,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 696,
-                "Diff": "1",
-                "Antece": "Bailey Howell",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 697,
+                "Diff": "3",
+                "Antece": "P.J. Brown",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -369,9 +369,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 369,
-                "Diff": "92",
+                "Hoy": 1,
+                "Total": 370,
+                "Diff": "91",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -381,7 +381,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 347,
-                "Diff": "22",
+                "Diff": "23",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -651,9 +651,9 @@
                 "Rank": 25,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 195,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 196,
+                "Diff": "11",
                 "Antece": "Coby Dietrick",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (22 points today) has passed Dick Barnett and Rik Smits and is now ranked 125th all-time with 1,540 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779847791758924_2008_collage_1779847791682948.png"
-            ],
-            "timestamp": 1779847799
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780542884894487_4475_collage_1780542884818102.png"
             ],
             "timestamp": 1780542892
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 rebound today) has passed Chris Webber and Zelmo Beaty and is now ranked 111th all-time with 697 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780706802677506_8553_collage_1780706802599588.png"
+            ],
+            "timestamp": 1780706810
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1970,
+    "total_notificaciones_historicas": 1971,
     "total_franchise_historicas": 1047,
-    "cache_buster": 1780706707
+    "cache_buster": 1780706810
 }
