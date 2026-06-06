@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:03",
+    "ultima_actualizacion": "03:26:03",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 182,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 1254,
-                "Diff": "6",
+                "Hoy": 12,
+                "Total": 1256,
+                "Diff": "4",
                 "Antece": "Wes Unseld",
                 "Nota": "",
                 "game_status": "playing"
@@ -86,13 +86,13 @@
         ],
         "stl": [
             {
-                "Rank": 149,
+                "Rank": 145,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 87,
+                "Hoy": 1,
+                "Total": 88,
                 "Diff": "1",
-                "Antece": "Walter Davis",
+                "Antece": "Paul Westphal",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -121,14 +121,14 @@
         ],
         "blk": [
             {
-                "Rank": 144,
+                "Rank": 141,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "1",
-                "Antece": "Magic Johnson",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "3",
+                "Antece": "Theo Ratliff",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -349,9 +349,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 651,
-                "Diff": "23",
+                "Hoy": 12,
+                "Total": 653,
+                "Diff": "21",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -439,9 +439,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 64,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 65,
+                "Diff": "6",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -681,9 +681,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 63,
-                "Diff": "18",
+                "Hoy": 1,
+                "Total": 64,
+                "Diff": "17",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -740,27 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (4 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 127th all-time with 97 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779851041527456_6217_collage_1779851041456622.png"
-            ],
-            "timestamp": 1779851049
-        },
-        {
-            "texto": "Shai Gilgeous-Alexander (32 points today) has passed Mike Conley and is now ranked 123rd all-time with 1,550 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779851333992119_1904_collage_1779851333908527.png"
-            ],
-            "timestamp": 1779851343
-        },
-        {
-            "texto": "Isaiah Hartenstein (1 rebound today) has passed Darrall Imhoff and is now ranked 234th all-time with 443 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780015188773584_7739_collage_1780015188673616.png"
-            ],
-            "timestamp": 1780015196
-        },
         {
             "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 154th all-time with 57 in playoffs.",
             "foto": [
@@ -1439,6 +1418,27 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709034542569_5639_collage_1780709034452615.png"
             ],
             "timestamp": 1780709043
+        },
+        {
+            "texto": "Karl-Anthony Towns (12 points today) has passed Andrew Toney and is now ranked 182nd all-time with 1,256 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709138605854_5217_collage_1780709138498906.png"
+            ],
+            "timestamp": 1780709147
+        },
+        {
+            "texto": "OG Anunoby (1 steal today) has passed Kerry Kittles and Richard Jefferson and is now ranked 145th all-time with 88 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709147276573_8002_collage_1780709147200141.png"
+            ],
+            "timestamp": 1780709154
+        },
+        {
+            "texto": "Victor Wembanyama (1 block today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709155087134_3390_collage_1780709155004165.png"
+            ],
+            "timestamp": 1780709163
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1979,
+    "total_notificaciones_historicas": 1982,
     "total_franchise_historicas": 1052,
-    "cache_buster": 1780709043
+    "cache_buster": 1780709163
 }
