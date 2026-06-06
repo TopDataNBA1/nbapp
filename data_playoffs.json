@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:23:44",
+    "ultima_actualizacion": "04:25:28",
     "tablas": {
         "pts": [
             {
@@ -62,14 +62,14 @@
         ],
         "ast": [
             {
-                "Rank": 74,
+                "Rank": 73,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 457,
-                "Diff": "1",
-                "Antece": "Hakeem Olajuwon",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 458,
+                "Diff": "5",
+                "Antece": "James Worthy",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -245,9 +245,9 @@
             },
             {
                 "Rank": 149,
-                "Nombre": "Harrison Barnes",
-                "Team": "SAS",
-                "Hoy": 0,
+                "Nombre": "Landry Shamet",
+                "Team": "NYK",
+                "Hoy": 1,
                 "Total": 87,
                 "Diff": "1",
                 "Antece": "Tim Thomas",
@@ -255,14 +255,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 155,
-                "Nombre": "Landry Shamet",
-                "Team": "NYK",
+                "Rank": 150,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
                 "Hoy": 0,
-                "Total": 86,
-                "Diff": "1",
-                "Antece": "Seth Curry",
-                "Nota": "A tiro de 1",
+                "Total": 87,
+                "Diff": "",
+                "Antece": "Landry Shamet",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -409,9 +409,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 381,
-                "Diff": "11",
+                "Hoy": 3,
+                "Total": 382,
+                "Diff": "10",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -596,13 +596,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "0",
-                "Antece": "Hubert Davis",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "1",
+                "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
             {
@@ -658,13 +658,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 125,
-                "Diff": "0",
-                "Antece": "Mark Olberding",
+                "Hoy": 3,
+                "Total": 126,
+                "Diff": "11",
+                "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
             {
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Harrison Barnes (2 three-pointers today) has passed Patrick Beverley and Rick Fox and is now ranked 148th all-time with 87 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780022383887810_5231_collage_1780022383816826.png"
-            ],
-            "timestamp": 1780022391
-        },
         {
             "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (15 points today) has passed Adrian Dantley, Charles Oakley and Jerome Kersey and is now ranked 121st all-time with 1,565 in playoffs.",
             "foto": [
@@ -1439,23 +1432,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712616117724_3391_collage_1780712616042755.png"
             ],
             "timestamp": 1780712624
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Patrick Beverley and Rick Fox and is now ranked 149th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712719906802_7614_collage_1780712719831830.png"
+            ],
+            "timestamp": 1780712727
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Jack Sikma and is now ranked 12th in Thunder history with 66 in playoffs.",
-            "foto": [],
-            "timestamp": 1779671439,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
-            "texto": "Chet Holmgren (8 points today) has passed Dale Ellis and is now ranked 14th in Thunder history with 697 in playoffs.",
-            "foto": [],
-            "timestamp": 1779671725,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Victor Wembanyama (3 blocks today) has passed Mike Green and is now ranked 9th in Spurs history with 53 in playoffs.",
             "foto": [],
@@ -2141,9 +2127,23 @@
             "timestamp": 1780712205,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Stephon Castle (3 assists today) has passed Mark Olberding and is now ranked 17th in Spurs history with 126 in playoffs.",
+            "foto": [],
+            "timestamp": 1780712727,
+            "team": "SAS",
+            "type": "franchise"
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Hubert Davis and Chris Childs and is now ranked 15th in Knicks history with 32 in playoffs.",
+            "foto": [],
+            "timestamp": 1780712727,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2004,
-    "total_franchise_historicas": 1059,
-    "cache_buster": 1780712624
+    "total_notificaciones_historicas": 2005,
+    "total_franchise_historicas": 1061,
+    "cache_buster": 1780712728
 }
