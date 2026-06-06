@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:02",
+    "ultima_actualizacion": "03:58:12",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 181,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 1258,
-                "Diff": "2",
-                "Antece": "Wes Unseld",
-                "Nota": "A tiro de 2",
+                "Hoy": 17,
+                "Total": 1261,
+                "Diff": "17",
+                "Antece": "Bam Adebayo",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -233,13 +233,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 123,
+                "Rank": 122,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 99,
+                "Hoy": 3,
+                "Total": 100,
                 "Diff": "1",
-                "Antece": "Jeff Green",
+                "Antece": "Hedo Türkoğlu",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -349,9 +349,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 655,
-                "Diff": "19",
+                "Hoy": 17,
+                "Total": 658,
+                "Diff": "16",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -579,9 +579,9 @@
                 "Rank": 9,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 50,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 51,
+                "Diff": "4",
                 "Antece": "Charlie Ward",
                 "game_status": "playing"
             },
@@ -591,7 +591,7 @@
                 "Stat": "3PM",
                 "Hoy": 3,
                 "Total": 46,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -740,27 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (8 points today) has passed Jerome Kersey and is now ranked 121st all-time with 1,558 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018316081582_2136_collage_1780018315981613.png"
-            ],
-            "timestamp": 1780018324
-        },
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (10 points today) has passed Adrian Dantley and is now ranked 121st all-time with 1,560 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018510366043_2604_collage_1780018510278073.png"
-            ],
-            "timestamp": 1780018519
-        },
-        {
-            "texto": "📢HOF🏛️ Alex Caruso (1 steal today) has passed Dwight Howard, Jamal Murray, Mario Elie and Vince Carter and is now ranked 127th all-time with 95 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780021012862878_9959_collage_1780021012791918.png"
-            ],
-            "timestamp": 1780021021
-        },
         {
             "texto": "Cason Wallace (3 steals today) has passed Derrick White, Jeff Teague, Johnny Moore and Ricky Pierce and is now ranked 204th all-time with 71 in playoffs.",
             "foto": [
@@ -1439,6 +1418,27 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710952894034_5063_collage_1780710952797829.png"
             ],
             "timestamp": 1780710961
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (17 points today) has passed Wes Unseld and is now ranked 181st all-time with 1,261 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780711057228848_3902_collage_1780711057139886.png"
+            ],
+            "timestamp": 1780711066
+        },
+        {
+            "texto": "Karl-Anthony Towns (3 three-pointers today) becomes the 122nd player to reach 100 three-pointers in playoffs",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780711076987939_1965_collage_1780711076918934.png"
+            ],
+            "timestamp": 1780711084
+        },
+        {
+            "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Alex Caruso, Baron Davis, Dennis Schröder and Hersey Hawkins and is now ranked 122nd all-time with 100 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780711084811055_5797_collage_1780711084744000.png"
+            ],
+            "timestamp": 1780711092
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1995,
+    "total_notificaciones_historicas": 1998,
     "total_franchise_historicas": 1056,
-    "cache_buster": 1780710962
+    "cache_buster": 1780711092
 }
