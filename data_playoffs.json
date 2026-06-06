@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:08:40",
+    "ultima_actualizacion": "05:10:23",
     "tablas": {
         "pts": [
             {
@@ -97,13 +97,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 152,
+                "Rank": 150,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 86,
+                "Hoy": 1,
+                "Total": 87,
                 "Diff": "1",
-                "Antece": "Richard Jefferson",
+                "Antece": "Walter Davis",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -459,9 +459,9 @@
                 "Rank": 10,
                 "Nombre": "Mikal Bridges",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 48,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 49,
+                "Diff": "1",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -651,9 +651,9 @@
                 "Rank": 25,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 202,
-                "Diff": "5",
+                "Hoy": 8,
+                "Total": 203,
+                "Diff": "4",
                 "Antece": "Coby Dietrick",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Shai Gilgeous-Alexander (1 assist today) has passed Lenny Wilkens and is now ranked 98th all-time with 373 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780186939479792_1028_collage_1780186939381828.png"
-            ],
-            "timestamp": 1780186947
-        },
         {
             "texto": "Isaiah Hartenstein (2 rebounds today) has passed Wayne Embry and is now ranked 231st all-time with 449 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714660525266_8516_collage_1780714660458277.png"
             ],
             "timestamp": 1780714667
+        },
+        {
+            "texto": "Mikal Bridges (1 steal today) has passed Pascal Siakam and is now ranked 150th all-time with 87 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780715415053800_4648_collage_1780715414960821.png"
+            ],
+            "timestamp": 1780715423
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2013,
+    "total_notificaciones_historicas": 2014,
     "total_franchise_historicas": 1064,
-    "cache_buster": 1780715320
+    "cache_buster": 1780715423
 }
