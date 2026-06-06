@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:18",
+    "ultima_actualizacion": "02:55:01",
     "tablas": {
         "pts": [
             {
@@ -52,11 +52,11 @@
                 "Rank": 189,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 525,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 526,
+                "Diff": "1",
                 "Antece": "Jeff Hornacek",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -359,9 +359,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 525,
-                "Diff": "141",
+                "Hoy": 1,
+                "Total": 526,
+                "Diff": "140",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -619,9 +619,9 @@
                 "Rank": 15,
                 "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 57,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 58,
+                "Diff": "0",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Victor Wembanyama (3 blocks today) has passed Karl-Anthony Towns, Shane Battier and Wes Unseld and is now ranked 158th all-time with 56 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779848369804889_4905_collage_1779848369743909.png"
-            ],
-            "timestamp": 1779848377
-        },
         {
             "texto": "Isaiah Hartenstein (6 rebounds today) has passed Tree Rollins and Walter Dukes and is now ranked 238th all-time with 433 in playoffs.",
             "foto": [
@@ -1439,16 +1432,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780706905426385_9128_collage_1780706905324436.png"
             ],
             "timestamp": 1780706913
+        },
+        {
+            "texto": "Josh Hart (1 rebound today) has passed Blake Griffin and is now ranked 189th all-time with 526 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780707293029998_4740_collage_1780707292945369.png"
+            ],
+            "timestamp": 1780707301
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Max Strus (9 points today) has passed Darius Garland and is now ranked 18th in Cavaliers history with 382 in playoffs.",
-            "foto": [],
-            "timestamp": 1779589555,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Landry Shamet (3 three-pointers today) has passed Mark Jackson and is now ranked 21st in Knicks history with 23 in playoffs.",
             "foto": [],
@@ -2141,9 +2134,16 @@
             "timestamp": 1780707009,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart today surpasses Harry Gallatin and is now ranked 15th in Knicks history with 58 games in playoffs.",
+            "foto": [],
+            "timestamp": 1780707301,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1972,
-    "total_franchise_historicas": 1048,
-    "cache_buster": 1780707198
+    "total_notificaciones_historicas": 1973,
+    "total_franchise_historicas": 1049,
+    "cache_buster": 1780707301
 }
