@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:39:43",
+    "ultima_actualizacion": "04:44:29",
     "tablas": {
         "pts": [
             {
@@ -165,7 +165,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 217,
+                "Rank": 211,
+                "Nombre": "Mitchell Robinson",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "1",
+                "Antece": "Vince Carter",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 218,
                 "Nombre": "Mason Plumlee",
                 "Team": "SAS",
                 "Hoy": 0,
@@ -173,17 +184,6 @@
                 "Diff": "1",
                 "Antece": "Truck Robinson",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 218,
-                "Nombre": "Mitchell Robinson",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "",
-                "Antece": "Mason Plumlee",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -379,9 +379,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 348,
-                "Diff": "30",
+                "Hoy": 2,
+                "Total": 349,
+                "Diff": "29",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -499,9 +499,9 @@
                 "Rank": 5,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 45,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 46,
+                "Diff": "0",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -511,7 +511,7 @@
                 "Stat": "BLK",
                 "Hoy": 1,
                 "Total": 33,
-                "Diff": "12",
+                "Diff": "13",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Isaiah Hartenstein (5 rebounds today) has passed Bill Walton, Bryon Russell, Danny Ainge and Darrall Imhoff and is now ranked 232nd all-time with 447 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780040242785078_7155_collage_1780040242706958.png"
-            ],
-            "timestamp": 1780040252
-        },
         {
             "texto": "📢🔝💯 Shai Gilgeous-Alexander (4 assists today) has passed George Hill, Jaylen Brown, Joe Johnson and Tayshaun Prince and is now ranked 99th all-time with 372 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713013073825_2695_collage_1780713012974862.png"
             ],
             "timestamp": 1780713021
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (1 block today) has passed Andrew Wiggins, Brian Grant, Chris Mullin, Marques Johnson, Mason Plumlee, Maurice Cheeks and Timofey Mozgov and is now ranked 211th all-time with 46 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713860997823_2532_collage_1780713860898860.png"
+            ],
+            "timestamp": 1780713869
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2006,
+    "total_notificaciones_historicas": 2007,
     "total_franchise_historicas": 1063,
-    "cache_buster": 1780713583
+    "cache_buster": 1780713869
 }
