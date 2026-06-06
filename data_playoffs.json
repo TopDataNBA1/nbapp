@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:22:18",
+    "ultima_actualizacion": "03:24:03",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 1252,
-                "Diff": "2",
-                "Antece": "Andrew Toney",
-                "Nota": "A tiro de 2",
+                "Hoy": 10,
+                "Total": 1254,
+                "Diff": "6",
+                "Antece": "Wes Unseld",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -349,9 +349,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 649,
-                "Diff": "25",
+                "Hoy": 10,
+                "Total": 651,
+                "Diff": "23",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (8 assists today) has passed Bob Dandridge and is now ranked 104th all-time with 367 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1779850756375987_7328_collage_1779850756297013.png"
-            ],
-            "timestamp": 1779850763
-        },
         {
             "texto": "Alex Caruso (4 three-pointers today) has passed Derek Harper and Tyler Herro and is now ranked 127th all-time with 97 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780708929943322_7823_collage_1780708929854386.png"
             ],
             "timestamp": 1780708938
+        },
+        {
+            "texto": "Karl-Anthony Towns (10 points today) has passed Brook Lopez and is now ranked 182nd all-time with 1,254 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709034542569_5639_collage_1780709034452615.png"
+            ],
+            "timestamp": 1780709043
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1978,
+    "total_notificaciones_historicas": 1979,
     "total_franchise_historicas": 1052,
-    "cache_buster": 1780708938
+    "cache_buster": 1780709043
 }
