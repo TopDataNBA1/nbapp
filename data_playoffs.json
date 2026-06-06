@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:18",
+    "ultima_actualizacion": "03:56:02",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 248,
+                "Rank": 247,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 1013,
-                "Diff": "2",
-                "Antece": "Lou Williams",
-                "Nota": "A tiro de 2",
+                "Hoy": 11,
+                "Total": 1015,
+                "Diff": "10",
+                "Antece": "Robert Reid",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -449,9 +449,9 @@
                 "Rank": 9,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 49,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 50,
+                "Diff": "0",
                 "Antece": "Greg Anthony",
                 "game_status": "playing"
             },
@@ -461,7 +461,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 48,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -740,13 +740,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Alex Caruso (1 three-pointer today) has passed Desmond Bane, Karl-Anthony Towns, Mark Jackson and Mike Miller and is now ranked 126th all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780018212355852_6933_collage_1780018212285874.png"
-            ],
-            "timestamp": 1780018219
-        },
         {
             "texto": "Shai Gilgeous-Alexander (8 points today) has passed Jerome Kersey and is now ranked 121st all-time with 1,558 in playoffs.",
             "foto": [
@@ -1439,6 +1432,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710572388740_4865_collage_1780710572321789.png"
             ],
             "timestamp": 1780710580
+        },
+        {
+            "texto": "Mikal Bridges (11 points today) has passed Ron Harper and is now ranked 247th all-time with 1,015 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710952894034_5063_collage_1780710952797829.png"
+            ],
+            "timestamp": 1780710961
         }
     ],
     "notificaciones_franchise": [
@@ -2143,7 +2143,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1994,
+    "total_notificaciones_historicas": 1995,
     "total_franchise_historicas": 1056,
-    "cache_buster": 1780710858
+    "cache_buster": 1780710962
 }
