@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:02:23",
+    "ultima_actualizacion": "03:04:06",
     "tablas": {
         "pts": [
             {
@@ -154,13 +154,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 156,
+                "Rank": 154,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 57,
+                "Hoy": 1,
+                "Total": 58,
                 "Diff": "",
-                "Antece": "Bill Cartwright, Mike Gminski,",
+                "Antece": "Jarrett Allen, Shai Gilgeous-A",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -530,9 +530,9 @@
                 "Rank": 6,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 33,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 34,
+                "Diff": "12",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Cason Wallace (1 steal today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 198th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780194961012617_8554_collage_1780194960929625.png"
-            ],
-            "timestamp": 1780194968
-        },
         {
             "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 163rd all-time with 82 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780966935400360_3067_collage_1780966935300392.png"
             ],
             "timestamp": 1780966943
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 154th all-time with 58 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780967039205908_5107_collage_1780967039144939.png"
+            ],
+            "timestamp": 1780967046
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2029,
+    "total_notificaciones_historicas": 2030,
     "total_franchise_historicas": 1073,
-    "cache_buster": 1780966943
+    "cache_buster": 1780967046
 }
