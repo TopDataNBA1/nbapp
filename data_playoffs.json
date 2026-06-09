@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:55:43",
+    "ultima_actualizacion": "04:57:26",
     "tablas": {
         "pts": [
             {
                 "Rank": 60,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 20,
-                "Total": 2147,
-                "Diff": "8",
+                "Hoy": 22,
+                "Total": 2149,
+                "Diff": "6",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -154,24 +154,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 152,
+                "Rank": 153,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 60,
+                "Hoy": 2,
+                "Total": 59,
                 "Diff": "",
-                "Antece": "Erick Dampier",
+                "Antece": "Derrick Coleman",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 172,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 51,
+                "Hoy": 1,
+                "Total": 52,
                 "Diff": "",
-                "Antece": "Alvin Scott, George Gervin, Kurt Thomas, Nate Thurmond",
+                "Antece": "Boris Diaw, Clemon Johnson, Dan Majerle, Hassan Whiteside, Jason Kidd, Mike Green, Nazr Mohammed, Tobias Harris",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -330,9 +330,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 1703,
-                "Diff": "224",
+                "Hoy": 22,
+                "Total": 1705,
+                "Diff": "222",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -530,9 +530,9 @@
                 "Rank": 6,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 36,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 35,
+                "Diff": "11",
                 "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
@@ -550,9 +550,9 @@
                 "Rank": 15,
                 "Nombre": "Mikal Bridges",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 21,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 22,
+                "Diff": "0",
                 "Antece": "Herb Williams",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (10 rebounds today) has passed Joel Embiid and is now ranked 114th all-time with 694 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539984624624_9501_collage_1780539984533741.png"
-            ],
-            "timestamp": 1780539993
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (17 points today) has passed Jeff Hornacek and Moses Malone and is now ranked 63rd all-time with 2,094 in playoffs.",
             "foto": [
@@ -1470,16 +1463,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780973269222768_5775_collage_1780973269128817.png"
             ],
             "timestamp": 1780973277
+        },
+        {
+            "texto": "📢HOF🏛️ Mikal Bridges (1 block today) has passed Alvin Scott, George Gervin, Kurt Thomas and Nate Thurmond and is now ranked 172nd all-time with 52 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780973838332894_3677_collage_1780973838255936.png"
+            ],
+            "timestamp": 1780973845
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Shai Gilgeous-Alexander (1 assist today) has passed Kevin Durant and is now ranked 5th in Thunder history with 341 in playoffs.",
-            "foto": [],
-            "timestamp": 1779842531,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Julian Champagnie (2 three-pointers today) has passed Devin Vassell and is now ranked 18th in Spurs history with 36 in playoffs.",
             "foto": [],
@@ -2172,9 +2165,16 @@
             "timestamp": 1780972495,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Mikal Bridges (1 block today) has passed Tyson Chandler and is now ranked 15th in Knicks history with 22 in playoffs.",
+            "foto": [],
+            "timestamp": 1780973846,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2057,
-    "total_franchise_historicas": 1082,
-    "cache_buster": 1780973743
+    "total_notificaciones_historicas": 2058,
+    "total_franchise_historicas": 1083,
+    "cache_buster": 1780973846
 }
