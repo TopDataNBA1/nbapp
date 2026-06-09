@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:15:57",
+    "ultima_actualizacion": "04:17:41",
     "tablas": {
         "pts": [
             {
                 "Rank": 60,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 19,
-                "Total": 2146,
-                "Diff": "",
-                "Antece": "Derek Fisher",
-                "Nota": "Mismo total",
+                "Hoy": 20,
+                "Total": 2147,
+                "Diff": "8",
+                "Antece": "Gary Payton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -330,9 +330,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 1702,
-                "Diff": "225",
+                "Hoy": 20,
+                "Total": 1703,
+                "Diff": "224",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -669,22 +669,22 @@
         ],
         "SAS": [
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 464,
-                "Diff": "1",
-                "Antece": "Johnny Moore",
+                "Hoy": 17,
+                "Total": 466,
+                "Diff": "25",
+                "Antece": "Boris Diaw",
                 "game_status": "playing"
             },
             {
                 "Rank": 24,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 208,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 209,
+                "Diff": "1",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -702,9 +702,9 @@
                 "Rank": 21,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 111,
-                "Diff": "5",
+                "Hoy": 7,
+                "Total": 112,
+                "Diff": "4",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -732,9 +732,9 @@
                 "Rank": 16,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 48,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 49,
+                "Diff": "0",
                 "Antece": "Jaren Jackson",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Karl-Anthony Towns (13 points today) has passed Blake Griffin and is now ranked 185th all-time with 1,239 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539554401253_4957_collage_1780539554315596.png"
-            ],
-            "timestamp": 1780539562
-        },
         {
             "texto": "Josh Hart (6 rebounds today) has passed Brook Lopez and is now ranked 196th all-time with 516 in playoffs.",
             "foto": [
@@ -1470,16 +1463,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971349677331_4798_collage_1780971349600355.png"
             ],
             "timestamp": 1780971357
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (20 points today) has passed Derek Fisher and is now ranked 60th all-time with 2,147 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971452826962_6067_collage_1780971452728859.png"
+            ],
+            "timestamp": 1780971461
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Chet Holmgren (3 rebounds today) has passed Kendrick Perkins and is now ranked 9th in Thunder history with 371 in playoffs.",
-            "foto": [],
-            "timestamp": 1779842434,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Stephon Castle (1 assist today) becomes the 22nd player to reach 100 assists with Spurs in playoffs.",
             "foto": [],
@@ -2172,9 +2165,16 @@
             "timestamp": 1780970865,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (17 points today) has passed Johnny Moore and is now ranked 21st in Spurs history with 466 in playoffs.",
+            "foto": [],
+            "timestamp": 1780971461,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2051,
-    "total_franchise_historicas": 1079,
-    "cache_buster": 1780971357
+    "total_notificaciones_historicas": 2052,
+    "total_franchise_historicas": 1080,
+    "cache_buster": 1780971461
 }
