@@ -198,17 +198,17 @@
         /* Teams: stat-card y stat-header con mismo estilo que global pero letra más pequeña */
         .stat-card{background:rgba(20,20,40,0.97);border-radius:8px;overflow:hidden;margin:10px 0;box-shadow:0 4px 12px rgba(0,0,0,0.6);}
         .stat-header{margin:0;padding:8px;font-family:'Orbitron',sans-serif;font-size:0.95em;background:#ff4655;color:white;text-align:center;}
-        table{width:100%;border-collapse:collapse;font-size:0.84em;table-layout:fixed;}
-        th,td{padding:5px 4px;border-bottom:1px solid #333;word-break:break-word;white-space:normal;overflow-wrap:break-word;vertical-align:top;}
+        table{width:100%;border-collapse:collapse;font-size:0.84em;}
+        th,td{padding:5px 4px;border-bottom:1px solid #333;vertical-align:top;white-space:nowrap;}
         th{background:#1a1a2e;position:sticky;top:0;font-size:0.88em;}
-        .rank{color:#ffaa00;text-align:center;font-weight:bold;width:6%;}
-        .player{text-align:left;font-weight:500;width:18%;}
-        .team{text-align:center;width:6%;}
-        .number,.today,.diff{text-align:right;}
-        .today{font-weight:bold;width:7%;}
-        .total{text-align:right;width:9%;}
-        .diff{color:#ffaa00;width:7%;}
-        .aheadof{width:47%;}
+        .rank{color:#ffaa00;text-align:center;font-weight:bold;}
+        .team{text-align:center;}
+        .today{font-weight:bold;text-align:right;}
+        .total{text-align:right;}
+        .number{text-align:right;}
+        .diff{color:#ffaa00;text-align:right;}
+        .player{text-align:left;font-weight:500;}
+        .aheadof{white-space:normal;width:99%;}
         .diff-blink{color:#ffaa00!important;font-weight:900;animation:blink 1.6s infinite;}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
         .leyenda{text-align:center;padding:10px;background:rgba(255,70,85,0.15);border:1px solid #ff4655;border-radius:8px;font-size:0.9em;margin:10px 0;}
