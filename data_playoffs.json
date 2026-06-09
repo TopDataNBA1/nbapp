@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:23:03",
+    "ultima_actualizacion": "05:24:52",
     "tablas": {
         "pts": [
             {
@@ -73,13 +73,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 198,
+                "Rank": 197,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 241,
+                "Hoy": 5,
+                "Total": 242,
                 "Diff": "",
-                "Antece": "Bob Pettit, Reggie Jackson, Richard Jefferson",
+                "Antece": "Walt Hazzard",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -222,13 +222,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 74,
+                "Rank": 72,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 136,
+                "Hoy": 3,
+                "Total": 137,
                 "Diff": "",
-                "Antece": "Steve Smith",
+                "Antece": "Deron Williams, Gary Payton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 25,
-                "Total": 725,
-                "Diff": "40",
+                "Hoy": 28,
+                "Total": 728,
+                "Diff": "37",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -352,7 +352,7 @@
                 "Stat": "PTS",
                 "Hoy": 16,
                 "Total": 690,
-                "Diff": "35",
+                "Diff": "38",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -440,9 +440,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 241,
-                "Diff": "22",
+                "Hoy": 5,
+                "Total": 242,
+                "Diff": "21",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -570,9 +570,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 92,
-                "Diff": "8",
+                "Hoy": 3,
+                "Total": 93,
+                "Diff": "7",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -582,7 +582,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 78,
-                "Diff": "14",
+                "Diff": "15",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -771,20 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (23 points today) has passed Pau Gasol and is now ranked 62nd all-time with 2,100 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541436409349_1957_collage_1780541436324750.png"
-            ],
-            "timestamp": 1780541444
-        },
-        {
-            "texto": "Josh Hart (2 steals today) has passed Blake Griffin and Luol Deng and is now ranked 213th all-time with 69 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541444927094_5600_collage_1780541444853328.png"
-            ],
-            "timestamp": 1780541452
-        },
         {
             "texto": "Josh Hart (11 rebounds today) has passed Boris Diaw and is now ranked 192nd all-time with 521 in playoffs.",
             "foto": [
@@ -1470,6 +1456,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975279576477_4324_collage_1780975279489519.png"
             ],
             "timestamp": 1780975288
+        },
+        {
+            "texto": "Josh Hart (5 assists today) has passed Bob Pettit, Reggie Jackson and Richard Jefferson and is now ranked 197th all-time with 242 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975478110726_7938_collage_1780975478046758.png"
+            ],
+            "timestamp": 1780975485
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (3 three-pointers today) has passed Byron Scott and Steve Smith and is now ranked 72nd all-time with 137 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975485480081_5328_collage_1780975485399907.png"
+            ],
+            "timestamp": 1780975492
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2063,
+    "total_notificaciones_historicas": 2065,
     "total_franchise_historicas": 1083,
-    "cache_buster": 1780975383
+    "cache_buster": 1780975492
 }
