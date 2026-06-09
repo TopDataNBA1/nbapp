@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:30",
+    "ultima_actualizacion": "02:46:05",
     "tablas": {
         "pts": [
             {
@@ -41,22 +41,22 @@
                 "Rank": 108,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 709,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 710,
+                "Diff": "1",
                 "Antece": "Bob McAdoo",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
-                "Rank": 187,
+                "Rank": 186,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 531,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 532,
+                "Diff": "",
                 "Antece": "Steven Adams",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -380,9 +380,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 531,
-                "Diff": "135",
+                "Hoy": 1,
+                "Total": 532,
+                "Diff": "134",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -390,9 +390,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 382,
-                "Diff": "79",
+                "Hoy": 1,
+                "Total": 383,
+                "Diff": "78",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -402,7 +402,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 350,
-                "Diff": "32",
+                "Diff": "33",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -628,22 +628,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Jalen Brunson",
+                "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 58,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 59,
+                "Diff": "1",
                 "Antece": "Allan Houston",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Josh Hart",
+                "Nombre": "Jalen Brunson",
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 58,
-                "Diff": "0",
-                "Antece": "Jalen Brunson",
+                "Diff": "1",
+                "Antece": "Josh Hart",
                 "game_status": "playing"
             },
             {
@@ -672,9 +672,9 @@
                 "Rank": 23,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 449,
-                "Diff": "9",
+                "Hoy": 2,
+                "Total": 451,
+                "Diff": "7",
                 "Antece": "Cincy Powell",
                 "game_status": "playing"
             },
@@ -682,9 +682,9 @@
                 "Rank": 25,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 204,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 205,
+                "Diff": "2",
                 "Antece": "Coby Dietrick",
                 "game_status": "playing"
             },
@@ -702,9 +702,9 @@
                 "Rank": 21,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 105,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 106,
+                "Diff": "10",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -1474,13 +1474,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Karl-Anthony Towns (1 three-pointer today) has passed Donte DiVincenzo and Larry Johnson and is now ranked 9th in Knicks history with 46 in playoffs.",
-            "foto": [],
-            "timestamp": 1779754899,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "James Harden (5 points today) has passed Drew Gooden and is now ranked 20th in Cavaliers history with 338 in playoffs.",
             "foto": [],
             "timestamp": 1779755499,
@@ -2172,9 +2165,16 @@
             "timestamp": 1780720701,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart today surpasses Jalen Brunson and is now ranked 14th in Knicks history with 59 games in playoffs.",
+            "foto": [],
+            "timestamp": 1780965964,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2025,
-    "total_franchise_historicas": 1069,
-    "cache_buster": 1780965870
+    "total_franchise_historicas": 1070,
+    "cache_buster": 1780965965
 }
