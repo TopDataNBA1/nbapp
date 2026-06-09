@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:55",
+    "ultima_actualizacion": "04:36:38",
     "tablas": {
         "pts": [
             {
@@ -255,13 +255,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 143,
+                "Rank": 141,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 89,
+                "Hoy": 1,
+                "Total": 90,
                 "Diff": "",
-                "Antece": "Dorian Finney-Smith, James Posey, Nick Anderson, Shai Gilgeous-Alexander",
+                "Antece": "Craig Hodges, Mario Elie",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -620,9 +620,9 @@
                 "Rank": 14,
                 "Nombre": "Landry Shamet",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "2",
                 "Antece": "Trent Tucker",
                 "game_status": "playing"
             },
@@ -722,9 +722,9 @@
                 "Rank": 12,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 55,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 56,
+                "Diff": "8",
                 "Antece": "Stephen Jackson",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (5 assists today) has passed Henry Bibby and is now ranked 211th all-time with 232 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539666619021_3349_collage_1780539666519719.png"
-            ],
-            "timestamp": 1780539673
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Shane Battier and Wes Unseld and is now ranked 159th all-time with 56 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971557051100_2213_collage_1780971556977133.png"
             ],
             "timestamp": 1780971564
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Dorian Finney-Smith, James Posey, Nick Anderson and Shai Gilgeous-Alexander and is now ranked 141st all-time with 90 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972590567375_6777_collage_1780972590496397.png"
+            ],
+            "timestamp": 1780972597
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2053,
+    "total_notificaciones_historicas": 2054,
     "total_franchise_historicas": 1082,
-    "cache_buster": 1780972495
+    "cache_buster": 1780972598
 }
