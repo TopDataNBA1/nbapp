@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:25",
+    "ultima_actualizacion": "03:23:07",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 181,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1267,
-                "Diff": "11",
+                "Hoy": 3,
+                "Total": 1268,
+                "Diff": "10",
                 "Antece": "Bam Adebayo",
                 "Nota": "",
                 "game_status": "playing"
@@ -294,18 +294,18 @@
                 "Hoy": 2,
                 "Total": 74,
                 "Diff": "",
-                "Antece": "Aaron Gordon, Danilo Gallinari",
+                "Antece": "Jordan Clarkson, Aaron Gordon,",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
-                "Rank": 191,
+                "Rank": 185,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 73,
+                "Hoy": 1,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Jameer Nelson, Jeff Teague, Se",
+                "Antece": "Josh Hart, Aaron Gordon, Danil",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -360,9 +360,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 664,
-                "Diff": "12",
+                "Hoy": 3,
+                "Total": 665,
+                "Diff": "11",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê and Nick Anderson and is now ranked 193rd all-time with 73 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195450544879_6856_collage_1780195450451924.png"
-            ],
-            "timestamp": 1780195458
-        },
         {
             "texto": "Shai Gilgeous-Alexander (3 steals today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780967516382853_7327_collage_1780967516307863.png"
             ],
             "timestamp": 1780967523
+        },
+        {
+            "texto": "Jordan Clarkson (1 three-pointer today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 185th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780968180460261_9579_collage_1780968180390282.png"
+            ],
+            "timestamp": 1780968187
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2031,
+    "total_notificaciones_historicas": 2032,
     "total_franchise_historicas": 1074,
-    "cache_buster": 1780968085
+    "cache_buster": 1780968187
 }
