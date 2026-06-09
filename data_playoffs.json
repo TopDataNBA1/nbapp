@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:36:38",
+    "ultima_actualizacion": "04:38:21",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 181,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 1274,
-                "Diff": "4",
+                "Hoy": 11,
+                "Total": 1276,
+                "Diff": "2",
                 "Antece": "Bam Adebayo",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -38,14 +38,14 @@
         ],
         "trb": [
             {
-                "Rank": 106,
+                "Rank": 105,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 714,
-                "Diff": "1",
+                "Hoy": 6,
+                "Total": 715,
+                "Diff": "",
                 "Antece": "Bam Adebayo",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -299,13 +299,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 185,
+                "Rank": 183,
                 "Nombre": "Jordan Clarkson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 74,
+                "Hoy": 2,
+                "Total": 75,
                 "Diff": "",
-                "Antece": "Aaron Gordon, Danilo Gallinari, Gerald Green, Lou Williams, Mo Williams, Nickeil Alexander-Walker",
+                "Antece": "Naz Reid, Rafer Alston",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -360,9 +360,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 671,
-                "Diff": "5",
+                "Hoy": 11,
+                "Total": 673,
+                "Diff": "3",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -390,9 +390,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 387,
-                "Diff": "74",
+                "Hoy": 6,
+                "Total": 388,
+                "Diff": "73",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -402,7 +402,7 @@
                 "Stat": "REB",
                 "Hoy": 3,
                 "Total": 353,
-                "Diff": "34",
+                "Diff": "35",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Shane Battier and Wes Unseld and is now ranked 159th all-time with 56 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539673653096_6717_collage_1780539673571859.png"
-            ],
-            "timestamp": 1780539681
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 219th all-time with 68 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972590567375_6777_collage_1780972590496397.png"
             ],
             "timestamp": 1780972597
+        },
+        {
+            "texto": "Jordan Clarkson (2 three-pointers today) has passed Aaron Gordon, Danilo Gallinari, Gerald Green, Jameer Nelson, Jeff Teague, Lou Williams, Mo Williams, Nickeil Alexander-Walker and Sean Elliott and is now ranked 183rd all-time with 75 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972693076364_8807_collage_1780972692987393.png"
+            ],
+            "timestamp": 1780972701
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2054,
+    "total_notificaciones_historicas": 2055,
     "total_franchise_historicas": 1082,
-    "cache_buster": 1780972598
+    "cache_buster": 1780972701
 }
