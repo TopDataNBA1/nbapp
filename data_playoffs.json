@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:03",
+    "ultima_actualizacion": "03:45:55",
     "tablas": {
         "pts": [
             {
@@ -38,13 +38,13 @@
         ],
         "trb": [
             {
-                "Rank": 107,
+                "Rank": 106,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 711,
+                "Hoy": 3,
+                "Total": 712,
                 "Diff": "",
-                "Antece": "Bob McAdoo",
+                "Antece": "Marcus Camby",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -76,11 +76,11 @@
                 "Rank": 201,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 238,
-                "Diff": "",
-                "Antece": "Blake Griffin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 239,
+                "Diff": "2",
+                "Antece": "Richard Jefferson, Bob Pettit,",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 715,
-                "Diff": "50",
+                "Hoy": 17,
+                "Total": 717,
+                "Diff": "48",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -352,7 +352,7 @@
                 "Stat": "PTS",
                 "Hoy": 10,
                 "Total": 684,
-                "Diff": "31",
+                "Diff": "33",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -390,9 +390,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 384,
-                "Diff": "77",
+                "Hoy": 3,
+                "Total": 385,
+                "Diff": "76",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -402,7 +402,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 351,
-                "Diff": "33",
+                "Diff": "34",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -440,9 +440,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 238,
-                "Diff": "25",
+                "Hoy": 2,
+                "Total": 239,
+                "Diff": "24",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -672,9 +672,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 463,
-                "Diff": "2",
+                "Hoy": 15,
+                "Total": 464,
+                "Diff": "1",
                 "Antece": "Johnny Moore",
                 "game_status": "playing"
             },
@@ -771,20 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (2 steals today) has passed Bill Laimbeer, Giannis Antetokounmpo, Kurt Rambis, Matt Barnes, Moses Malone, Rick Fox and Thabo Sefolosha and is now ranked 151st all-time with 86 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534467791339_1180_collage_1780534467672383.png"
-            ],
-            "timestamp": 1780534477
-        },
-        {
-            "texto": "Josh Hart (5 rebounds today) has passed Andrew Bogut and Kurt Thomas and is now ranked 196th all-time with 515 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780534573037007_5390_collage_1780534572943039.png"
-            ],
-            "timestamp": 1780534581
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (1 assist today) has passed Wes Unseld and is now ranked 74th all-time with 454 in playoffs.",
             "foto": [
@@ -1470,6 +1456,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780969151190317_1667_collage_1780969151109341.png"
             ],
             "timestamp": 1780969159
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (3 rebounds today) has passed Bob McAdoo and is now ranked 106th all-time with 712 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780969538433143_5078_collage_1780969538325195.png"
+            ],
+            "timestamp": 1780969547
+        },
+        {
+            "texto": "Josh Hart (2 assists today) has passed Blake Griffin and is now ranked 201st all-time with 239 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780969547275144_3382_collage_1780969547187171.png"
+            ],
+            "timestamp": 1780969555
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2037,
+    "total_notificaciones_historicas": 2039,
     "total_franchise_historicas": 1078,
-    "cache_buster": 1780969443
+    "cache_buster": 1780969555
 }
