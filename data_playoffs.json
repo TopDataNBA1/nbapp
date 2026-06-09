@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:00:40",
+    "ultima_actualizacion": "03:02:23",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 181,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1265,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 1267,
+                "Diff": "11",
                 "Antece": "Bam Adebayo",
                 "Nota": "",
                 "game_status": "playing"
@@ -52,11 +52,11 @@
                 "Rank": 186,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 532,
-                "Diff": "",
-                "Antece": "Steven Adams",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 534,
+                "Diff": "1",
+                "Antece": "Larry Nance",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -350,9 +350,9 @@
                 "Rank": 14,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 680,
-                "Diff": "24",
+                "Hoy": 8,
+                "Total": 682,
+                "Diff": "22",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -360,9 +360,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 662,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 664,
+                "Diff": "12",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -380,9 +380,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 532,
-                "Diff": "134",
+                "Hoy": 3,
+                "Total": 534,
+                "Diff": "132",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Shai Gilgeous-Alexander (29 points today) has passed George Gervin, George Hill and Vince Carter and is now ranked 114th all-time with 1,594 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780192919401771_7429_collage_1780192919333793.png"
-            ],
-            "timestamp": 1780192926
-        },
         {
             "texto": "📢HOF🏛️ Cason Wallace (1 steal today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 198th all-time with 72 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780966362638105_4437_collage_1780966362566127.png"
             ],
             "timestamp": 1780966370
+        },
+        {
+            "texto": "Josh Hart (3 rebounds today) has passed Steven Adams and is now ranked 186th all-time with 534 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780966935400360_3067_collage_1780966935300392.png"
+            ],
+            "timestamp": 1780966943
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2028,
+    "total_notificaciones_historicas": 2029,
     "total_franchise_historicas": 1073,
-    "cache_buster": 1780966840
+    "cache_buster": 1780966943
 }
