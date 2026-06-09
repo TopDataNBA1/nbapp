@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:17:41",
+    "ultima_actualizacion": "04:19:25",
     "tablas": {
         "pts": [
             {
@@ -62,14 +62,14 @@
         ],
         "ast": [
             {
-                "Rank": 72,
+                "Rank": 71,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 464,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 465,
+                "Diff": "",
                 "Antece": "Norm Nixon",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -288,13 +288,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 180,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 75,
+                "Hoy": 4,
+                "Total": 76,
                 "Diff": "",
-                "Antece": "Naz Reid, Rafer Alston",
+                "Antece": "Allan Houston, Channing Frye",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 19,
-                "Total": 719,
-                "Diff": "46",
+                "Hoy": 21,
+                "Total": 721,
+                "Diff": "44",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -350,9 +350,9 @@
                 "Rank": 14,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 687,
-                "Diff": "32",
+                "Hoy": 16,
+                "Total": 690,
+                "Diff": "31",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -407,13 +407,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 21,
+                "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 230,
-                "Diff": "0",
-                "Antece": "Dick McGuire",
+                "Hoy": 4,
+                "Total": 231,
+                "Diff": "31",
+                "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
             {
@@ -423,16 +423,16 @@
                 "Hoy": 2,
                 "Total": 208,
                 "Diff": "22",
-                "Antece": "OG Anunoby",
+                "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
             {
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 388,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 389,
+                "Diff": "3",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -590,9 +590,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 75,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 76,
+                "Diff": "2",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (6 rebounds today) has passed Brook Lopez and is now ranked 196th all-time with 516 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539562806084_2547_collage_1780539562719669.png"
-            ],
-            "timestamp": 1780539570
-        },
         {
             "texto": "Josh Hart (5 assists today) has passed Henry Bibby and is now ranked 211th all-time with 232 in playoffs.",
             "foto": [
@@ -1470,16 +1463,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971452826962_6067_collage_1780971452728859.png"
             ],
             "timestamp": 1780971461
+        },
+        {
+            "texto": "Josh Hart (4 three-pointers today) has passed Naz Reid and Rafer Alston and is now ranked 180th all-time with 76 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971557051100_2213_collage_1780971556977133.png"
+            ],
+            "timestamp": 1780971564
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Stephon Castle (1 assist today) becomes the 22nd player to reach 100 assists with Spurs in playoffs.",
-            "foto": [],
-            "timestamp": 1779842434,
-            "team": "SAS",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "📢🔝🔟 Shai Gilgeous-Alexander (2 steals today) has passed Thabo Sefolosha and is now ranked 10th in Thunder history with 74 in playoffs.",
             "foto": [],
@@ -2172,9 +2165,16 @@
             "timestamp": 1780971461,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (4 rebounds today) has passed Dick McGuire and is now ranked 20th in Knicks history with 231 in playoffs.",
+            "foto": [],
+            "timestamp": 1780971564,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2052,
-    "total_franchise_historicas": 1080,
-    "cache_buster": 1780971461
+    "total_notificaciones_historicas": 2053,
+    "total_franchise_historicas": 1081,
+    "cache_buster": 1780971565
 }
