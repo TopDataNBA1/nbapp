@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:19:44",
+    "ultima_actualizacion": "05:21:28",
     "tablas": {
         "pts": [
             {
@@ -49,13 +49,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 179,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 539,
+                "Hoy": 9,
+                "Total": 540,
                 "Diff": "",
-                "Antece": "Josh Smith",
+                "Antece": "Rik Smits",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 724,
-                "Diff": "41",
+                "Hoy": 25,
+                "Total": 725,
+                "Diff": "40",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -352,7 +352,7 @@
                 "Stat": "PTS",
                 "Hoy": 16,
                 "Total": 690,
-                "Diff": "34",
+                "Diff": "35",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -380,9 +380,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 539,
-                "Diff": "127",
+                "Hoy": 9,
+                "Total": 540,
+                "Diff": "126",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (10 rebounds today) has passed Clyde Lee and Mel Counts and is now ranked 193rd all-time with 520 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780541334448555_6119_collage_1780541334355212.png"
-            ],
-            "timestamp": 1780541341
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (23 points today) has passed Pau Gasol and is now ranked 62nd all-time with 2,100 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975175928247_9717_collage_1780975175843288.png"
             ],
             "timestamp": 1780975184
+        },
+        {
+            "texto": "Josh Hart (9 rebounds today) has passed Josh Smith and is now ranked 179th all-time with 540 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975279576477_4324_collage_1780975279489519.png"
+            ],
+            "timestamp": 1780975288
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2062,
+    "total_notificaciones_historicas": 2063,
     "total_franchise_historicas": 1083,
-    "cache_buster": 1780975184
+    "cache_buster": 1780975288
 }
