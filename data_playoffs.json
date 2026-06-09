@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:38:21",
+    "ultima_actualizacion": "04:40:05",
     "tablas": {
         "pts": [
             {
@@ -25,13 +25,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 247,
+                "Rank": 246,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1024,
+                "Hoy": 2,
+                "Total": 1026,
                 "Diff": "1",
-                "Antece": "Robert Reid",
+                "Antece": "Norm Nixon",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
@@ -370,9 +370,9 @@
                 "Rank": 23,
                 "Nombre": "Mikal Bridges",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 513,
-                "Diff": "23",
+                "Hoy": 2,
+                "Total": 515,
+                "Diff": "21",
                 "Antece": "Carl Braun",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Bam Adebayo, George Lynch, P.J. Brown, Patrick Beverley, Wes Unseld and Wesley Matthews and is now ranked 219th all-time with 68 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780539872015650_4431_collage_1780539871929592.png"
-            ],
-            "timestamp": 1780539880
-        },
         {
             "texto": "Landry Shamet (3 three-pointers today) has passed Myles Turner and is now ranked 155th all-time with 86 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972693076364_8807_collage_1780972692987393.png"
             ],
             "timestamp": 1780972701
+        },
+        {
+            "texto": "Mikal Bridges (2 points today) has passed Robert Reid and is now ranked 246th all-time with 1,026 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972796678939_2360_collage_1780972796568974.png"
+            ],
+            "timestamp": 1780972805
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2055,
+    "total_notificaciones_historicas": 2056,
     "total_franchise_historicas": 1082,
-    "cache_buster": 1780972701
+    "cache_buster": 1780972805
 }
