@@ -204,6 +204,7 @@
         .rank{color:#ffaa00;text-align:center;font-weight:bold;width:8%;}
         .player{text-align:left;font-weight:500;}
         .aheadof{white-space:normal !important;overflow-wrap:break-word;}
+        .player{text-align:left;font-weight:500;}
         .number,.today,.diff{text-align:right;}
         .today{font-weight:bold;width:9%;}
         .diff{color:#ffaa00;width:10%;}
@@ -945,6 +946,13 @@
                         });
                         tablesDiv.appendChild(card);
                     }
+                    // Ajustar amplada columna player a la paraula més llarga
+                    document.querySelectorAll('.player').forEach(td => {
+                        const words = td.textContent.trim().split(/\s+/);
+                        const longest = words.reduce((a,b) => a.length > b.length ? a : b, '');
+                        td.style.width = (longest.length * 0.6) + 'em';
+                        td.style.whiteSpace = 'nowrap';
+                    });
                 })
                 .catch(() => {
                     document.getElementById('tables').innerHTML = '<div style="text-align:center;color:#888;padding:50px;">No data available yet. Waiting for tonight\'s action...</div>';
