@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:21",
+    "ultima_actualizacion": "03:12:04",
     "tablas": {
         "pts": [
             {
@@ -135,11 +135,11 @@
                 "Rank": 136,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 68,
-                "Diff": "",
-                "Antece": "Kurt Rambis, Tom Chambers",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "1",
+                "Antece": "Marcin Gortat, Brendan Haywood",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -400,9 +400,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 350,
-                "Diff": "34",
+                "Hoy": 1,
+                "Total": 351,
+                "Diff": "33",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -410,9 +410,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 227,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 228,
+                "Diff": "2",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -422,7 +422,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 207,
-                "Diff": "20",
+                "Diff": "21",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -660,9 +660,9 @@
                 "Rank": 23,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 50,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 51,
+                "Diff": "0",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             }
@@ -682,9 +682,9 @@
                 "Rank": 25,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 205,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 206,
+                "Diff": "1",
                 "Antece": "Coby Dietrick",
                 "game_status": "playing"
             },
@@ -712,9 +712,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 68,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 69,
+                "Diff": "12",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (2 steals today) has passed Aaron McKie, Hedo Türkoğlu and Paul Silas and is now ranked 163rd all-time with 82 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195064027432_8246_collage_1780195063962451.png"
-            ],
-            "timestamp": 1780195071
-        },
         {
             "texto": "📢HOF🏛️ Cason Wallace (2 steals today) has passed Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê and Nick Anderson and is now ranked 193rd all-time with 73 in playoffs.",
             "foto": [
@@ -1470,16 +1463,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780967039205908_5107_collage_1780967039144939.png"
             ],
             "timestamp": 1780967046
+        },
+        {
+            "texto": "Victor Wembanyama (2 blocks today) has passed Kurt Rambis and Tom Chambers and is now ranked 136th all-time with 69 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780967516382853_7327_collage_1780967516307863.png"
+            ],
+            "timestamp": 1780967523
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jalen Brunson (2 rebounds today) has passed Charles Smith and is now ranked 23rd in Knicks history with 198 in playoffs.",
-            "foto": [],
-            "timestamp": 1779757066,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "James Harden (1 steal today) has passed Max Strus and Larry Nance and is now ranked 15th in Cavaliers history with 31 in playoffs.",
             "foto": [],
@@ -2172,9 +2165,16 @@
             "timestamp": 1780966370,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Mitchell Robinson today surpasses Herb Williams and is now ranked 23rd in Knicks history with 51 games in playoffs.",
+            "foto": [],
+            "timestamp": 1780967524,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2030,
-    "total_franchise_historicas": 1073,
-    "cache_buster": 1780967421
+    "total_notificaciones_historicas": 2031,
+    "total_franchise_historicas": 1074,
+    "cache_buster": 1780967524
 }
