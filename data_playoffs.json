@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:07",
+    "ultima_actualizacion": "03:24:51",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 181,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 1268,
-                "Diff": "10",
+                "Hoy": 5,
+                "Total": 1270,
+                "Diff": "8",
                 "Antece": "Bam Adebayo",
                 "Nota": "",
                 "game_status": "playing"
@@ -225,11 +225,11 @@
                 "Rank": 75,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 134,
-                "Diff": "",
-                "Antece": "Byron Scott",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 135,
+                "Diff": "1",
+                "Antece": "Steve Smith",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -340,9 +340,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 709,
-                "Diff": "56",
+                "Hoy": 12,
+                "Total": 712,
+                "Diff": "53",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -352,7 +352,7 @@
                 "Stat": "PTS",
                 "Hoy": 8,
                 "Total": 682,
-                "Diff": "27",
+                "Diff": "30",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -360,9 +360,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 665,
-                "Diff": "11",
+                "Hoy": 5,
+                "Total": 667,
+                "Diff": "9",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -410,9 +410,9 @@
                 "Rank": 21,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 228,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 229,
+                "Diff": "1",
                 "Antece": "Dick McGuire",
                 "game_status": "playing"
             },
@@ -422,7 +422,7 @@
                 "Stat": "REB",
                 "Hoy": 1,
                 "Total": 207,
-                "Diff": "21",
+                "Diff": "22",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -500,9 +500,9 @@
                 "Rank": 23,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 31,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 32,
+                "Diff": "0",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -570,9 +570,9 @@
                 "Rank": 3,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 90,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 91,
+                "Diff": "9",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -582,7 +582,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 78,
-                "Diff": "12",
+                "Diff": "13",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Shai Gilgeous-Alexander (3 steals today) has passed B.J. Armstrong, Greg Anthony and Kyle Korver and is now ranked 161st all-time with 83 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780195649088830_6431_collage_1780195649011772.png"
-            ],
-            "timestamp": 1780195656
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (3 points today) has passed Moses Malone and is now ranked 64th all-time with 2,080 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780968180460261_9579_collage_1780968180390282.png"
             ],
             "timestamp": 1780968187
+        },
+        {
+            "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Byron Scott and is now ranked 75th all-time with 135 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780968283097426_8108_collage_1780968282986863.png"
+            ],
+            "timestamp": 1780968291
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2032,
+    "total_notificaciones_historicas": 2033,
     "total_franchise_historicas": 1074,
-    "cache_buster": 1780968187
+    "cache_buster": 1780968291
 }
