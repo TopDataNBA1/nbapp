@@ -203,7 +203,7 @@
         th{background:#1a1a2e;position:sticky;top:0;font-size:0.88em;}
         .rank{color:#ffaa00;text-align:center;font-weight:bold;width:8%;}
         .player{text-align:left;font-weight:500;}
-        .aheadof{white-space:normal;}
+        .aheadof{white-space:normal !important;overflow-wrap:break-word;}
         .number,.today,.diff{text-align:right;}
         .today{font-weight:bold;width:9%;}
         .diff{color:#ffaa00;width:10%;}
@@ -940,7 +940,7 @@
                                 <td class="today" style="${todayStyle}">${hoy}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
                                 <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
-                                <td>${row.Antece||'-'}</td>`;
+                                <td class="aheadof">${row.Antece||'-'}</td>`;
                             tbody.appendChild(tr);
                         });
                         tablesDiv.appendChild(card);
@@ -1395,7 +1395,7 @@
                                 <td class="today" style="${todayStyle}">${hoy}</td>
                                 <td class="number"><strong>${Number(row.Total).toLocaleString()}</strong></td>
                                 <td class="diff number${mustBlink?' diff-blink':''}">${diff}</td>
-                                <td>${row.Antece||'-'}</td>`;
+                                <td class="aheadof">${row.Antece||'-'}</td>`;
                             tbody.appendChild(tr);
                         });
                         
