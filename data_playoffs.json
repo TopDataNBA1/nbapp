@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:14:47",
+    "ultima_actualizacion": "05:18:00",
     "tablas": {
         "pts": [
             {
                 "Rank": 60,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 26,
-                "Total": 2153,
-                "Diff": "2",
+                "Hoy": 27,
+                "Total": 2154,
+                "Diff": "1",
                 "Antece": "Gary Payton",
-                "Nota": "A tiro de 2",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -38,13 +38,13 @@
         ],
         "trb": [
             {
-                "Rank": 105,
+                "Rank": 103,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 715,
+                "Hoy": 8,
+                "Total": 717,
                 "Diff": "",
-                "Antece": "Bam Adebayo",
+                "Antece": "Jerome Kersey, Jerry Lucas",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -330,9 +330,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 26,
-                "Total": 1709,
-                "Diff": "218",
+                "Hoy": 27,
+                "Total": 1710,
+                "Diff": "217",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -390,9 +390,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 388,
-                "Diff": "73",
+                "Hoy": 8,
+                "Total": 390,
+                "Diff": "71",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -402,7 +402,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 354,
-                "Diff": "34",
+                "Diff": "36",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -771,13 +771,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (2 three-pointers today) has passed Allan Houston and Channing Frye and is now ranked 176th all-time with 77 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780540390655146_3981_collage_1780540390574975.png"
-            ],
-            "timestamp": 1780540398
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (2 three-pointers today) has passed Fred VanVleet, Marcus Morris and Reggie Jackson and is now ranked 76th all-time with 131 in playoffs.",
             "foto": [
@@ -1470,6 +1463,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780974317470404_2457_collage_1780974317391447.png"
             ],
             "timestamp": 1780974325
+        },
+        {
+            "texto": "Karl-Anthony Towns (8 rebounds today) has passed Bam Adebayo and is now ranked 103rd all-time with 717 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975072688336_7088_collage_1780975072600379.png"
+            ],
+            "timestamp": 1780975080
         }
     ],
     "notificaciones_franchise": [
@@ -2174,7 +2174,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2060,
+    "total_notificaciones_historicas": 2061,
     "total_franchise_historicas": 1083,
-    "cache_buster": 1780974887
+    "cache_buster": 1780975080
 }
