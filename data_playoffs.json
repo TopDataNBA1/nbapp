@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:14",
+    "ultima_actualizacion": "03:36:06",
     "tablas": {
         "pts": [
             {
@@ -63,11 +63,11 @@
                 "Rank": 177,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 542,
-                "Diff": "",
-                "Antece": "Jrue Holiday",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 543,
+                "Diff": "3",
+                "Antece": "Bob Cousy",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -84,13 +84,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 196,
+                "Rank": 195,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 243,
+                "Hoy": 2,
+                "Total": 244,
                 "Diff": "",
-                "Antece": "Trae Young",
+                "Antece": "Jack Sikma",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 542,
-                "Diff": "124",
+                "Hoy": 3,
+                "Total": 543,
+                "Diff": "123",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -451,9 +451,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 243,
-                "Diff": "20",
+                "Hoy": 2,
+                "Total": 244,
+                "Diff": "19",
                 "Antece": "Bill Bradley, Charlie Ward",
                 "game_status": "playing"
             },
@@ -703,9 +703,9 @@
                 "Rank": 17,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 134,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 135,
+                "Diff": "2",
                 "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
@@ -782,20 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 199th all-time with 72 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709275603422_9559_collage_1780709275524483.png"
-            ],
-            "timestamp": 1780709283
-        },
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (1 three-pointer today) has passed Anfernee Hardaway, Carmelo Anthony and Hedo Türkoğlu and is now ranked 117th all-time with 102 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709471108997_5067_collage_1780709471043033.png"
-            ],
-            "timestamp": 1780709478
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 156th all-time with 57 in playoffs.",
             "foto": [
@@ -1481,6 +1467,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141540368788_9996_collage_1781141540292820.png"
             ],
             "timestamp": 1781141547
+        },
+        {
+            "texto": "Josh Hart (3 rebounds today) has passed Jrue Holiday and is now ranked 177th all-time with 543 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141749400217_6202_collage_1781141749312240.png"
+            ],
+            "timestamp": 1781141757
+        },
+        {
+            "texto": "Josh Hart (2 assists today) has passed Trae Young and is now ranked 195th all-time with 244 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141757885090_8275_collage_1781141757796778.png"
+            ],
+            "timestamp": 1781141766
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2084,
+    "total_notificaciones_historicas": 2086,
     "total_franchise_historicas": 1091,
-    "cache_buster": 1781141654
+    "cache_buster": 1781141766
 }
