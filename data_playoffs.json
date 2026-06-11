@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:10:01",
+    "ultima_actualizacion": "03:11:44",
     "tablas": {
         "pts": [
             {
@@ -25,24 +25,24 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 241,
+                "Rank": 240,
+                "Nombre": "OG Anunoby",
+                "Team": "NYK",
+                "Hoy": 7,
+                "Total": 1033,
+                "Diff": "4",
+                "Antece": "Eddie Jones",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 242,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
                 "Hoy": 5,
                 "Total": 1031,
                 "Diff": "",
-                "Antece": "OG Anunoby, Lenny Wilkens",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 242,
-                "Nombre": "OG Anunoby",
-                "Team": "NYK",
-                "Hoy": 5,
-                "Total": 1031,
-                "Diff": "",
-                "Antece": "Mikal Bridges, Lenny Wilkens",
+                "Antece": "Lenny Wilkens",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -351,9 +351,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 733,
-                "Diff": "32",
+                "Hoy": 7,
+                "Total": 735,
+                "Diff": "30",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -363,7 +363,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 693,
-                "Diff": "40",
+                "Diff": "42",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (1 steal today) has passed Kerry Kittles and Richard Jefferson and is now ranked 145th all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709147276573_8002_collage_1780709147200141.png"
-            ],
-            "timestamp": 1780709154
-        },
         {
             "texto": "Victor Wembanyama (1 block today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781140098358247_8353_collage_1781140098260042.png"
             ],
             "timestamp": 1781140106
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (7 points today) has passed Lenny Wilkens and Nick Van Exel and is now ranked 240th all-time with 1,033 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781140296292441_4945_collage_1781140296205469.png"
+            ],
+            "timestamp": 1781140304
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2080,
+    "total_notificaciones_historicas": 2081,
     "total_franchise_historicas": 1089,
-    "cache_buster": 1781140201
+    "cache_buster": 1781140304
 }
