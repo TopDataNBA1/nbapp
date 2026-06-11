@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:24",
+    "ultima_actualizacion": "02:51:10",
     "tablas": {
         "pts": [
             {
@@ -60,13 +60,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 179,
+                "Rank": 177,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 540,
+                "Hoy": 2,
+                "Total": 542,
                 "Diff": "",
-                "Antece": "Rik Smits",
+                "Antece": "Jrue Holiday",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 540,
-                "Diff": "126",
+                "Hoy": 2,
+                "Total": 542,
+                "Diff": "124",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -683,9 +683,9 @@
                 "Rank": 21,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 481,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 483,
+                "Diff": "8",
                 "Antece": "Boris Diaw",
                 "game_status": "playing"
             },
@@ -693,9 +693,9 @@
                 "Rank": 23,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 212,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 213,
+                "Diff": "11",
                 "Antece": "Mike Mitchell",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (5 points today) has passed Allen Iverson and is now ranked 61st all-time with 2,112 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780706905426385_9128_collage_1780706905324436.png"
-            ],
-            "timestamp": 1780706913
-        },
         {
             "texto": "Josh Hart (1 rebound today) has passed Blake Griffin and is now ranked 189th all-time with 526 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781138776228545_2146_collage_1781138776132708.png"
             ],
             "timestamp": 1781138783
+        },
+        {
+            "texto": "Josh Hart (2 rebounds today) has passed Danny Green and Rik Smits and is now ranked 177th all-time with 542 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781139062676609_4176_collage_1781139062601632.png"
+            ],
+            "timestamp": 1781139070
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2071,
+    "total_notificaciones_historicas": 2072,
     "total_franchise_historicas": 1087,
-    "cache_buster": 1781138784
+    "cache_buster": 1781139070
 }
