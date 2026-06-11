@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:41",
+    "ultima_actualizacion": "02:46:24",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 181,
+                "Rank": 180,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1276,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1278,
+                "Diff": "",
                 "Antece": "Bam Adebayo",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -84,13 +84,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 196,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 242,
+                "Hoy": 1,
+                "Total": 243,
                 "Diff": "",
-                "Antece": "Walt Hazzard",
+                "Antece": "Trae Young",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -371,9 +371,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 673,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 675,
+                "Diff": "1",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -451,9 +451,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 242,
-                "Diff": "21",
+                "Hoy": 1,
+                "Total": 243,
+                "Diff": "20",
                 "Antece": "Bill Bradley, Charlie Ward",
                 "game_status": "playing"
             },
@@ -639,22 +639,22 @@
             },
             {
                 "Rank": 14,
-                "Nombre": "Jalen Brunson",
+                "Nombre": "Josh Hart",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 59,
+                "Hoy": 1,
+                "Total": 60,
                 "Diff": "0",
-                "Antece": "Josh Hart",
+                "Antece": "Allan Houston",
                 "game_status": "playing"
             },
             {
                 "Rank": 15,
-                "Nombre": "Josh Hart",
+                "Nombre": "Jalen Brunson",
                 "Stat": "G",
                 "Hoy": 0,
                 "Total": 59,
-                "Diff": "0",
-                "Antece": "Jalen Brunson",
+                "Diff": "1",
+                "Antece": "Josh Hart, Allan Houston",
                 "game_status": "playing"
             },
             {
@@ -703,9 +703,9 @@
                 "Rank": 17,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 132,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 133,
+                "Diff": "4",
                 "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
@@ -743,10 +743,10 @@
                 "Rank": 14,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 49,
-                "Diff": "0",
-                "Antece": "Matt Bonner, Jaren Jackson",
+                "Hoy": 1,
+                "Total": 50,
+                "Diff": "2",
+                "Antece": "Chuck Person",
                 "game_status": "playing"
             },
             {
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 rebound today) has passed Chris Webber and Zelmo Beaty and is now ranked 111th all-time with 697 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780706802677506_8553_collage_1780706802599588.png"
-            ],
-            "timestamp": 1780706810
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (5 points today) has passed Allen Iverson and is now ranked 61st all-time with 2,112 in playoffs.",
             "foto": [
@@ -1481,23 +1474,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780977386239885_2645_collage_1780977386146139.png"
             ],
             "timestamp": 1780977394
+        },
+        {
+            "texto": "Josh Hart (1 assist today) has passed Walt Hazzard and is now ranked 196th all-time with 243 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781138776228545_2146_collage_1781138776132708.png"
+            ],
+            "timestamp": 1781138783
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace today surpasses Derrick McKey and is now ranked 24th in Thunder history with 46 games in playoffs.",
-            "foto": [],
-            "timestamp": 1779843394,
-            "team": "OKC",
-            "type": "franchise"
-        },
-        {
-            "texto": "Jaylin Williams (1 three-pointer today) has passed Paul George and Reggie Jackson and is now ranked 20th in Thunder history with 35 in playoffs.",
-            "foto": [],
-            "timestamp": 1779844367,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Cason Wallace (3 assists today) has passed Reggie Jackson and is now ranked 20th in Thunder history with 87 in playoffs.",
             "foto": [],
@@ -2183,9 +2169,23 @@
             "timestamp": 1780977394,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Devin Vassell (1 three-pointer today) has passed Matt Bonner and Jaren Jackson and is now ranked 14th in Spurs history with 50 in playoffs.",
+            "foto": [],
+            "timestamp": 1781138783,
+            "team": "SAS",
+            "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart today surpasses Jalen Brunson and is now ranked 14th in Knicks history with 60 games in playoffs.",
+            "foto": [],
+            "timestamp": 1781138783,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2070,
-    "total_franchise_historicas": 1085,
-    "cache_buster": 1781138681
+    "total_notificaciones_historicas": 2071,
+    "total_franchise_historicas": 1087,
+    "cache_buster": 1781138784
 }
