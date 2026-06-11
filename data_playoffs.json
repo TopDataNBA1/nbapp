@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:11:44",
+    "ultima_actualizacion": "03:13:28",
     "tablas": {
         "pts": [
             {
@@ -17,11 +17,11 @@
                 "Rank": 180,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 1278,
-                "Diff": "",
-                "Antece": "Bam Adebayo",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 1279,
+                "Diff": "12",
+                "Antece": "Alonzo Mourning",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -371,9 +371,9 @@
                 "Rank": 17,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 675,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 676,
+                "Diff": "0",
                 "Antece": "Larry Johnson",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (1 block today) has passed Elton Brand and Rick Mahorn and is now ranked 141st all-time with 64 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709155087134_3390_collage_1780709155004165.png"
-            ],
-            "timestamp": 1780709163
-        },
         {
             "texto": "Karl-Anthony Towns (5 rebounds today) has passed P.J. Brown and is now ranked 110th all-time with 701 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781140296292441_4945_collage_1781140296205469.png"
             ],
             "timestamp": 1781140304
+        },
+        {
+            "texto": "Karl-Anthony Towns (3 points today) has passed Bam Adebayo and is now ranked 180th all-time with 1,279 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781140399668769_3615_collage_1781140399581798.png"
+            ],
+            "timestamp": 1781140408
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2081,
+    "total_notificaciones_historicas": 2082,
     "total_franchise_historicas": 1089,
-    "cache_buster": 1781140304
+    "cache_buster": 1781140408
 }
