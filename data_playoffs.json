@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:36:06",
+    "ultima_actualizacion": "03:37:50",
     "tablas": {
         "pts": [
             {
@@ -52,11 +52,11 @@
                 "Rank": 100,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 719,
-                "Diff": "",
-                "Antece": "Don Nelson",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 720,
+                "Diff": "10",
+                "Antece": "Chris Paul",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 392,
-                "Diff": "69",
+                "Hoy": 3,
+                "Total": 393,
+                "Diff": "68",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 358,
-                "Diff": "34",
+                "Diff": "35",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Dan Roundfield, Dave Cowens, Kyle Korver, Metta World Peace and Pascal Siakam and is now ranked 156th all-time with 57 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709573914358_2219_collage_1780709573837417.png"
-            ],
-            "timestamp": 1780709581
-        },
         {
             "texto": "Josh Hart (3 rebounds today) has passed Jeff Hornacek and is now ranked 187th all-time with 528 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141757885090_8275_collage_1781141757796778.png"
             ],
             "timestamp": 1781141766
+        },
+        {
+            "texto": "📢🔝💯 Karl-Anthony Towns (3 rebounds today) has passed Don Nelson and is now ranked 100th all-time with 720 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141862322333_9959_collage_1781141862206506.png"
+            ],
+            "timestamp": 1781141870
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2086,
+    "total_notificaciones_historicas": 2087,
     "total_franchise_historicas": 1091,
-    "cache_buster": 1781141766
+    "cache_buster": 1781141870
 }
