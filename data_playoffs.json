@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:30:45",
+    "ultima_actualizacion": "03:32:27",
     "tablas": {
         "pts": [
             {
                 "Rank": 59,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 2163,
-                "Diff": "31",
+                "Hoy": 6,
+                "Total": 2165,
+                "Diff": "29",
                 "Antece": "Elvin Hayes",
                 "Nota": "",
                 "game_status": "playing"
@@ -17,9 +17,9 @@
                 "Rank": 180,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 1279,
-                "Diff": "12",
+                "Hoy": 6,
+                "Total": 1282,
+                "Diff": "9",
                 "Antece": "Alonzo Mourning",
                 "Nota": "",
                 "game_status": "playing"
@@ -49,13 +49,13 @@
         ],
         "trb": [
             {
-                "Rank": 103,
+                "Rank": 100,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 717,
+                "Hoy": 2,
+                "Total": 719,
                 "Diff": "",
-                "Antece": "Jerome Kersey, Jerry Lucas",
+                "Antece": "Don Nelson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 1719,
-                "Diff": "208",
+                "Hoy": 6,
+                "Total": 1721,
+                "Diff": "206",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -368,13 +368,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 15,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 676,
-                "Diff": "0",
-                "Antece": "Larry Johnson",
+                "Hoy": 6,
+                "Total": 679,
+                "Diff": "14",
+                "Antece": "Josh Hart",
                 "game_status": "playing"
             },
             {
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 390,
-                "Diff": "71",
+                "Hoy": 2,
+                "Total": 392,
+                "Diff": "69",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 4,
                 "Total": 358,
-                "Diff": "32",
+                "Diff": "34",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -713,9 +713,9 @@
                 "Rank": 21,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 114,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 115,
+                "Diff": "1",
                 "Antece": "Danny Green",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (1 assist today) has passed Damon Stoudamire, Howard Eisley and Jerome Kersey and is now ranked 204th all-time with 234 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709268019536_2529_collage_1780709267933563.png"
-            ],
-            "timestamp": 1780709275
-        },
         {
             "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Mark Aguirre, Maurice Lucas, Pau Gasol and Rudy Gobert and is now ranked 199th all-time with 72 in playoffs.",
             "foto": [
@@ -1481,16 +1474,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141156146984_5453_collage_1781141156050480.png"
             ],
             "timestamp": 1781141164
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Karl-Anthony Towns (2 rebounds today) has passed Jamaal Wilkes, Jerome Kersey, Jerry Lucas and Sam Jones and is now ranked 100th all-time with 719 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781141540368788_9996_collage_1781141540292820.png"
+            ],
+            "timestamp": 1781141547
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Stephon Castle (6 assists today) has passed Brent Barry and Robert Horry and is now ranked 20th in Spurs history with 105 in playoffs.",
-            "foto": [],
-            "timestamp": 1779848472,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Alex Caruso (3 three-pointers today) has passed Hersey Hawkins and is now ranked 7th in Thunder history with 67 in playoffs.",
             "foto": [],
@@ -2183,9 +2176,16 @@
             "timestamp": 1781140595,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Karl-Anthony Towns (6 points today) has passed Harry Gallatin and Larry Johnson and is now ranked 15th in Knicks history with 679 in playoffs.",
+            "foto": [],
+            "timestamp": 1781141547,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2083,
-    "total_franchise_historicas": 1090,
-    "cache_buster": 1781141445
+    "total_notificaciones_historicas": 2084,
+    "total_franchise_historicas": 1091,
+    "cache_buster": 1781141547
 }
