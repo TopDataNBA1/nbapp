@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:48:46",
+    "ultima_actualizacion": "03:50:29",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 240,
+                "Rank": 238,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 10,
-                "Total": 1036,
-                "Diff": "1",
-                "Antece": "Eddie Jones",
-                "Nota": "A tiro de 1",
+                "Hoy": 12,
+                "Total": 1038,
+                "Diff": "",
+                "Antece": "Bryon Russell",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -63,9 +63,9 @@
                 "Rank": 177,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 543,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 544,
+                "Diff": "2",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -351,9 +351,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 738,
-                "Diff": "27",
+                "Hoy": 12,
+                "Total": 740,
+                "Diff": "25",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -363,7 +363,7 @@
                 "Stat": "PTS",
                 "Hoy": 3,
                 "Total": 693,
-                "Diff": "45",
+                "Diff": "47",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 543,
-                "Diff": "123",
+                "Hoy": 4,
+                "Total": 544,
+                "Diff": "122",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Josh Hart (2 assists today) has passed Greg Anthony, Metta World Peace, Norm Van Lier and Robert Parish and is now ranked 203rd all-time with 235 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780709874422677_3404_collage_1780709874350467.png"
-            ],
-            "timestamp": 1780709881
-        },
         {
             "texto": "OG Anunoby (1 block today) has passed Terry Cummings and is now ranked 145th all-time with 63 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781142239941801_2686_collage_1781142239859826.png"
             ],
             "timestamp": 1781142248
+        },
+        {
+            "texto": "OG Anunoby (12 points today) has passed Eddie Jones and is now ranked 238th all-time with 1,038 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781142621028135_5691_collage_1781142620938181.png"
+            ],
+            "timestamp": 1781142628
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2088,
+    "total_notificaciones_historicas": 2089,
     "total_franchise_historicas": 1092,
-    "cache_buster": 1781142526
+    "cache_buster": 1781142629
 }
