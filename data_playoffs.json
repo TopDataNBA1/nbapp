@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:00:27",
+    "ultima_actualizacion": "04:02:23",
     "tablas": {
         "pts": [
             {
@@ -143,13 +143,13 @@
         ],
         "blk": [
             {
-                "Rank": 128,
+                "Rank": 125,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 1,
-                "Total": 71,
+                "Hoy": 2,
+                "Total": 72,
                 "Diff": "",
-                "Antece": "Alvan Adams, Artis Gilmore, Jimmy Butler",
+                "Antece": "Evan Mobley, Joel Anthony, Taj Gibson",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -723,9 +723,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 71,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 72,
+                "Diff": "9",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Mikal Bridges (3 three-pointers today) has passed Bojan Bogdanović, Dwyane Wade and Tayshaun Prince and is now ranked 112th all-time with 104 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710373554902_7694_collage_1780710373494918.png"
-            ],
-            "timestamp": 1780710381
-        },
         {
             "texto": "📢HOF🏛️ Victor Wembanyama (2 blocks today) has passed Bruce Bowen, Jaylen Brown and Magic Johnson and is now ranked 141st all-time with 65 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781143120180367_8448_collage_1781143120096427.png"
             ],
             "timestamp": 1781143131
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (2 blocks today) has passed Alvan Adams, Artis Gilmore and Jimmy Butler and is now ranked 125th all-time with 72 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781143322649126_1597_collage_1781143322591156.png"
+            ],
+            "timestamp": 1781143329
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2092,
+    "total_notificaciones_historicas": 2093,
     "total_franchise_historicas": 1093,
-    "cache_buster": 1781143227
+    "cache_buster": 1781143343
 }
