@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:42:27",
+    "ultima_actualizacion": "04:44:10",
     "tablas": {
         "pts": [
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 199,
+                "Rank": 193,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 72,
+                "Hoy": 1,
+                "Total": 73,
                 "Diff": "",
-                "Antece": "Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê, Nick Anderson",
+                "Antece": "Caron Butler, Cason Wallace, Chris Bosh, Dominique Wilkins, Latrell Sprewell, Sedale Threatt",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -461,9 +461,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 72,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 73,
+                "Diff": "27",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -473,7 +473,7 @@
                 "Stat": "STL",
                 "Hoy": 0,
                 "Total": 66,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -511,10 +511,10 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 35,
-                "Diff": "2",
-                "Antece": "Anthony Mason, Mitchell Robinson, Trent Tucker",
+                "Hoy": 0,
+                "Total": 34,
+                "Diff": "0",
+                "Antece": "Marcus Camby, Charles Smith",
                 "game_status": "playing"
             },
             {
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (2 three-pointers today) has passed Michael Porter Jr. and is now ranked 54th all-time with 167 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712318652318_6488_collage_1780712318553355.png"
-            ],
-            "timestamp": 1780712327
-        },
         {
             "texto": "Mikal Bridges (14 points today) has passed Lou Williams and is now ranked 247th all-time with 1,018 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781145363058798_3996_collage_1781145362984846.png"
             ],
             "timestamp": 1781145370
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (1 steal today) has passed Bob McAdoo, Boris Diaw, DeMar DeRozan, Lamar Odom, Nenê and Nick Anderson and is now ranked 193rd all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781145842121406_5896_collage_1781145842035036.png"
+            ],
+            "timestamp": 1781145850
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2101,
+    "total_notificaciones_historicas": 2102,
     "total_franchise_historicas": 1096,
-    "cache_buster": 1781145747
+    "cache_buster": 1781145850
 }
