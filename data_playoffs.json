@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:57:39",
+    "ultima_actualizacion": "02:59:34",
     "tablas": {
         "pts": [
             {
@@ -25,13 +25,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 244,
+                "Rank": 241,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 1029,
+                "Hoy": 5,
+                "Total": 1031,
                 "Diff": "",
-                "Antece": "Dan Issel",
+                "Antece": "Lenny Wilkens",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -76,11 +76,11 @@
                 "Rank": 70,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 467,
-                "Diff": "",
-                "Antece": "Richard Hamilton",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 468,
+                "Diff": "1",
+                "Antece": "Gus Williams",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -351,9 +351,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 731,
-                "Diff": "34",
+                "Hoy": 5,
+                "Total": 733,
+                "Diff": "32",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -361,8 +361,8 @@
                 "Rank": 14,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 690,
+                "Hoy": 2,
+                "Total": 692,
                 "Diff": "41",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
@@ -411,9 +411,9 @@
                 "Rank": 11,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 356,
-                "Diff": "34",
+                "Hoy": 3,
+                "Total": 357,
+                "Diff": "33",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -441,9 +441,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 391,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 392,
+                "Diff": "0",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -782,20 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (3 points today) has passed Bob Lanier and is now ranked 184th all-time with 1,247 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780707682297759_4283_collage_1780707682193793.png"
-            ],
-            "timestamp": 1780707690
-        },
-        {
-            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Desmond Bane, Mark Jackson and Mike Miller and is now ranked 127th all-time with 98 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780707690265335_3025_collage_1780707690197358.png"
-            ],
-            "timestamp": 1780707697
-        },
         {
             "texto": "Karl-Anthony Towns (4 rebounds today) becomes the 110th player to reach 700 rebounds in playoffs",
             "foto": [
@@ -1481,6 +1467,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781139451555557_4469_collage_1781139451483566.png"
             ],
             "timestamp": 1781139459
+        },
+        {
+            "texto": "📢HOF🏛️ OG Anunoby (5 points today) has passed Antoine Walker, Dan Issel and James Edwards and is now ranked 241st all-time with 1,031 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781139555924683_9769_collage_1781139555856707.png"
+            ],
+            "timestamp": 1781139566
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (2 assists today) has passed Richard Hamilton and is now ranked 70th all-time with 468 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781139566335461_8764_collage_1781139566242492.png"
+            ],
+            "timestamp": 1781139574
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2074,
+    "total_notificaciones_historicas": 2076,
     "total_franchise_historicas": 1088,
-    "cache_buster": 1781139459
+    "cache_buster": 1781139574
 }
