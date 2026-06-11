@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:34:20",
+    "ultima_actualizacion": "04:36:11",
     "tablas": {
         "pts": [
             {
@@ -76,11 +76,11 @@
                 "Rank": 69,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 469,
-                "Diff": "",
-                "Antece": "Gus Williams",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 470,
+                "Diff": "1",
+                "Antece": "Kyrie Irving, Kevin Garnett",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -299,13 +299,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 177,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 76,
+                "Hoy": 1,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Allan Houston, Channing Frye",
+                "Antece": "Brian Shaw, Chuck Person, Terry Rozier",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -361,9 +361,9 @@
                 "Rank": 14,
                 "Nombre": "Josh Hart",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 693,
-                "Diff": "57",
+                "Hoy": 6,
+                "Total": 696,
+                "Diff": "54",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -373,7 +373,7 @@
                 "Stat": "PTS",
                 "Hoy": 8,
                 "Total": 681,
-                "Diff": "12",
+                "Diff": "15",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -441,9 +441,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 393,
-                "Diff": "206",
+                "Hoy": 4,
+                "Total": 394,
+                "Diff": "205",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -511,10 +511,10 @@
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 34,
-                "Diff": "0",
-                "Antece": "Marcus Camby, Charles Smith",
+                "Hoy": 1,
+                "Total": 35,
+                "Diff": "2",
+                "Antece": "Anthony Mason, Mitchell Robinson, Trent Tucker",
                 "game_status": "playing"
             },
             {
@@ -601,9 +601,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 76,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 77,
+                "Diff": "1",
                 "Antece": "Miles McBride",
                 "game_status": "playing"
             },
@@ -782,20 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (5 rebounds today) has passed Trevor Ariza and is now ranked 187th all-time with 530 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712301629900_3072_collage_1780712301539949.png"
-            ],
-            "timestamp": 1780712310
-        },
-        {
-            "texto": "📢HOF🏛️ Josh Hart (3 assists today) has passed Bob Lanier and is now ranked 203rd all-time with 236 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712310519400_8667_collage_1780712310410443.png"
-            ],
-            "timestamp": 1780712318
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (2 three-pointers today) has passed Michael Porter Jr. and is now ranked 54th all-time with 167 in playoffs.",
             "foto": [
@@ -1481,16 +1467,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781145156956572_3588_collage_1781145156882612.png"
             ],
             "timestamp": 1781145165
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (4 assists today) has passed Gus Williams and is now ranked 69th all-time with 470 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781145354711738_5367_collage_1781145354611895.png"
+            ],
+            "timestamp": 1781145362
+        },
+        {
+            "texto": "Josh Hart (1 three-pointer today) has passed Allan Houston and Channing Frye and is now ranked 177th all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781145363058798_3996_collage_1781145362984846.png"
+            ],
+            "timestamp": 1781145370
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Luguentz Dort today surpasses Detlef Schrempf and is now ranked 20th in Thunder history with 53 games in playoffs.",
-            "foto": [],
-            "timestamp": 1780015410,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Isaiah Hartenstein (2 rebounds today) has passed Marvin Webster and is now ranked 17th in Thunder history with 290 in playoffs.",
             "foto": [],
@@ -2183,9 +2176,16 @@
             "timestamp": 1781144472,
             "team": "SAS",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Karl-Anthony Towns (1 steal today) has passed Marcus Camby and Charles Smith and is now ranked 20th in Knicks history with 35 in playoffs.",
+            "foto": [],
+            "timestamp": 1781145370,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2099,
-    "total_franchise_historicas": 1095,
-    "cache_buster": 1781145260
+    "total_notificaciones_historicas": 2101,
+    "total_franchise_historicas": 1096,
+    "cache_buster": 1781145371
 }
