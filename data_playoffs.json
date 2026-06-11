@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:08:18",
+    "ultima_actualizacion": "05:10:01",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 180,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 8,
-                "Total": 1284,
-                "Diff": "7",
+                "Hoy": 11,
+                "Total": 1287,
+                "Diff": "4",
                 "Antece": "Alonzo Mourning",
                 "Nota": "",
                 "game_status": "playing"
@@ -255,13 +255,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 122,
+                "Rank": 119,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 100,
+                "Hoy": 1,
+                "Total": 101,
                 "Diff": "",
-                "Antece": "Jeff Green",
+                "Antece": "Anfernee Hardaway, Carmelo Anthony, Hedo Türkoğlu",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -371,9 +371,9 @@
                 "Rank": 15,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 681,
-                "Diff": "15",
+                "Hoy": 11,
+                "Total": 684,
+                "Diff": "12",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -611,9 +611,9 @@
                 "Rank": 9,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 51,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 52,
+                "Diff": "3",
                 "Antece": "Charlie Ward",
                 "game_status": "playing"
             },
@@ -623,7 +623,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 48,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Landry Shamet (2 three-pointers today) has passed Aaron Nesmith, Clifford Robinson, Goran Dragić, Harrison Barnes, Leandro Barbosa and Seth Curry and is now ranked 147th all-time with 88 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780713964765377_2187_collage_1780713964683406.png"
-            ],
-            "timestamp": 1780713973
-        },
         {
             "texto": "Karl-Anthony Towns (11 rebounds today) has passed Anthony Davis and is now ranked 108th all-time with 707 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781147102643394_6319_collage_1781147102545447.png"
             ],
             "timestamp": 1781147110
+        },
+        {
+            "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Jeff Green and is now ranked 119th all-time with 101 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781147392670577_7540_collage_1781147392586593.png"
+            ],
+            "timestamp": 1781147401
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2107,
+    "total_notificaciones_historicas": 2108,
     "total_franchise_historicas": 1098,
-    "cache_buster": 1781147298
+    "cache_buster": 1781147401
 }
