@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:19:23",
+    "ultima_actualizacion": "04:21:23",
     "tablas": {
         "pts": [
             {
@@ -60,13 +60,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 175,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 6,
-                "Total": 546,
+                "Hoy": 7,
+                "Total": 547,
                 "Diff": "",
-                "Antece": "Bob Cousy",
+                "Antece": "Otis Thorpe",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -143,13 +143,13 @@
         ],
         "blk": [
             {
-                "Rank": 125,
+                "Rank": 124,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 2,
-                "Total": 72,
+                "Hoy": 3,
+                "Total": 73,
                 "Diff": "",
-                "Antece": "Evan Mobley, Joel Anthony, Taj Gibson",
+                "Antece": "Luc Longley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 546,
-                "Diff": "120",
+                "Hoy": 7,
+                "Total": 547,
+                "Diff": "119",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -680,13 +680,13 @@
         ],
         "SAS": [
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 497,
+                "Hoy": 19,
+                "Total": 500,
                 "Diff": "2",
-                "Antece": "Mark Olberding",
+                "Antece": "Malik Rose",
                 "game_status": "playing"
             },
             {
@@ -703,9 +703,9 @@
                 "Rank": 17,
                 "Nombre": "Stephon Castle",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 135,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 136,
+                "Diff": "1",
                 "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
@@ -723,9 +723,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 2,
-                "Total": 72,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 73,
+                "Diff": "8",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -753,10 +753,10 @@
                 "Rank": 20,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 37,
-                "Diff": "1",
-                "Antece": "Boris Diaw, Marco Belinelli",
+                "Hoy": 2,
+                "Total": 38,
+                "Diff": "0",
+                "Antece": "Marco Belinelli, Boris Diaw",
                 "game_status": "playing"
             },
             {
@@ -765,8 +765,8 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 35,
-                "Diff": "2",
-                "Antece": "Victor Wembanyama",
+                "Diff": "3",
+                "Antece": "Victor Wembanyama, Marco Belinelli, Boris Diaw",
                 "game_status": "playing"
             },
             {
@@ -782,20 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (11 points today) has passed Ron Harper and is now ranked 247th all-time with 1,015 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780710952894034_5063_collage_1780710952797829.png"
-            ],
-            "timestamp": 1780710961
-        },
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (17 points today) has passed Wes Unseld and is now ranked 181st all-time with 1,261 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780711057228848_3902_collage_1780711057139886.png"
-            ],
-            "timestamp": 1780711066
-        },
         {
             "texto": "Karl-Anthony Towns (3 three-pointers today) becomes the 122nd player to reach 100 three-pointers in playoffs",
             "foto": [
@@ -1481,23 +1467,23 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781144355061635_2648_collage_1781144354966666.png"
             ],
             "timestamp": 1781144362
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (7 rebounds today) has passed Bob Cousy and is now ranked 175th all-time with 547 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781144457930498_1224_collage_1781144457843001.png"
+            ],
+            "timestamp": 1781144465
+        },
+        {
+            "texto": "Victor Wembanyama (3 blocks today) has passed Evan Mobley, Joel Anthony and Taj Gibson and is now ranked 124th all-time with 73 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781144465552884_7335_collage_1781144465487912.png"
+            ],
+            "timestamp": 1781144472
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Julian Champagnie (1 three-pointer today) has passed Marco Belinelli and Boris Diaw and is now ranked 16th in Spurs history with 39 in playoffs.",
-            "foto": [],
-            "timestamp": 1780015093,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢🔝3️⃣ 📢HOF🏛️ Luguentz Dort (1 three-pointer today) has passed Gary Payton and is now ranked 3rd in Thunder history with 105 in playoffs.",
-            "foto": [],
-            "timestamp": 1780015410,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Luguentz Dort today surpasses Detlef Schrempf and is now ranked 20th in Thunder history with 53 games in playoffs.",
             "foto": [],
@@ -2183,9 +2169,23 @@
             "timestamp": 1781142836,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (19 points today) has passed Mark Olberding and is now ranked 19th in Spurs history with 500 in playoffs.",
+            "foto": [],
+            "timestamp": 1781144472,
+            "team": "SAS",
+            "type": "franchise"
+        },
+        {
+            "texto": "Victor Wembanyama (19 points today) becomes the 19th player to reach 500 points with Spurs in playoffs.",
+            "foto": [],
+            "timestamp": 1781144472,
+            "team": "SAS",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2094,
-    "total_franchise_historicas": 1093,
-    "cache_buster": 1781144363
+    "total_notificaciones_historicas": 2096,
+    "total_franchise_historicas": 1095,
+    "cache_buster": 1781144483
 }
