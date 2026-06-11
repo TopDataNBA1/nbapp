@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:19:47",
+    "ultima_actualizacion": "05:21:38",
     "tablas": {
         "pts": [
             {
                 "Rank": 59,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 31,
-                "Total": 2190,
-                "Diff": "4",
+                "Hoy": 34,
+                "Total": 2193,
+                "Diff": "1",
                 "Antece": "Elvin Hayes",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -119,13 +119,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 193,
+                "Rank": 186,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 73,
+                "Hoy": 2,
+                "Total": 74,
                 "Diff": "",
-                "Antece": "Caron Butler, Cason Wallace, Chris Bosh, Dominique Wilkins, Latrell Sprewell, Sedale Threatt",
+                "Antece": "Cedric Maxwell, Chris Mullin, David West, Fred Brown, Josh Smith, Kirk Hinrich, Lou Williams",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -225,11 +225,11 @@
                 "Rank": 51,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 2,
-                "Total": 172,
-                "Diff": "",
-                "Antece": "Danny Ainge, Nikola Jokić",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 173,
+                "Diff": "1",
+                "Antece": "Draymond Green",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 31,
-                "Total": 1746,
-                "Diff": "181",
+                "Hoy": 34,
+                "Total": 1749,
+                "Diff": "178",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -461,9 +461,9 @@
                 "Rank": 5,
                 "Nombre": "Josh Hart",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 73,
-                "Diff": "27",
+                "Hoy": 2,
+                "Total": 74,
+                "Diff": "26",
                 "Antece": "100",
                 "game_status": "playing"
             },
@@ -473,7 +473,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 67,
-                "Diff": "6",
+                "Diff": "7",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -571,9 +571,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 140,
-                "Diff": "35",
+                "Hoy": 3,
+                "Total": 141,
+                "Diff": "34",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -583,7 +583,7 @@
                 "Stat": "3PM",
                 "Hoy": 7,
                 "Total": 100,
-                "Diff": "40",
+                "Diff": "41",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -782,20 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (2 steals today) has passed Alvan Adams, Charles Johnson, Tim Hardaway and Walter Davis and is now ranked 141st all-time with 89 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714549974443_2455_collage_1780714549902469.png"
-            ],
-            "timestamp": 1780714557
-        },
-        {
-            "texto": "Karl-Anthony Towns (12 rebounds today) has passed Larry Foust and is now ranked 108th all-time with 708 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714652816141_1314_collage_1780714652722511.png"
-            ],
-            "timestamp": 1780714660
-        },
         {
             "texto": "Miles McBride (1 three-pointer today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 172nd all-time with 78 in playoffs.",
             "foto": [
@@ -1481,6 +1467,20 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781147504786204_7476_collage_1781147504717230.png"
             ],
             "timestamp": 1781147512
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (2 steals today) has passed Caron Butler, Cason Wallace, Chris Bosh, Dominique Wilkins, Latrell Sprewell and Sedale Threatt and is now ranked 186th all-time with 74 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781148081840027_4629_collage_1781148081749060.png"
+            ],
+            "timestamp": 1781148090
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (3 three-pointers today) has passed Danny Ainge and Nikola Jokić and is now ranked 51st all-time with 173 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781148090886785_6057_collage_1781148090806834.png"
+            ],
+            "timestamp": 1781148098
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2110,
+    "total_notificaciones_historicas": 2112,
     "total_franchise_historicas": 1099,
-    "cache_buster": 1781147987
+    "cache_buster": 1781148098
 }
