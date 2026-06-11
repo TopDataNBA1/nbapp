@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:50:35",
+    "ultima_actualizacion": "04:55:20",
     "tablas": {
         "pts": [
             {
@@ -187,13 +187,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 205,
+                "Rank": 201,
                 "Nombre": "Mitchell Robinson",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 47,
+                "Hoy": 2,
+                "Total": 48,
                 "Diff": "",
-                "Antece": "Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady, Vince Carter",
+                "Antece": "Anfernee Hardaway, Arvydas Sabonis, Jonas Valančiūnas, Kyle Lowry",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -523,17 +523,17 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 48,
-                "Diff": "7",
-                "Antece": "Charles Smith",
+                "Diff": "0",
+                "Antece": "Mitchell Robinson",
                 "game_status": "playing"
             },
             {
                 "Rank": 5,
                 "Nombre": "Mitchell Robinson",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 47,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 48,
+                "Diff": "0",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -543,8 +543,8 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 35,
-                "Diff": "12",
-                "Antece": "Mitchell Robinson",
+                "Diff": "13",
+                "Antece": "Mitchell Robinson, OG Anunoby",
                 "game_status": "playing"
             },
             {
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (4 three-pointers today) has passed James Jones and Pat Connaughton and is now ranked 112th all-time with 105 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780712616117724_3391_collage_1780712616042755.png"
-            ],
-            "timestamp": 1780712624
-        },
         {
             "texto": "Landry Shamet (1 three-pointer today) has passed Patrick Beverley and Rick Fox and is now ranked 149th all-time with 87 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781146131516162_1490_collage_1781146131432195.png"
             ],
             "timestamp": 1781146140
+        },
+        {
+            "texto": "📢HOF🏛️ Mitchell Robinson (2 blocks today) has passed Danny Schayes, Jon Koncak, Shawn Bradley, Tony Allen, Tracy McGrady and Vince Carter and is now ranked 201st all-time with 48 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781146512722804_1666_collage_1781146512629853.png"
+            ],
+            "timestamp": 1781146520
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2103,
+    "total_notificaciones_historicas": 2104,
     "total_franchise_historicas": 1096,
-    "cache_buster": 1781146235
+    "cache_buster": 1781146520
 }
