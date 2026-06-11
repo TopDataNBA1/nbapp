@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:21:38",
+    "ultima_actualizacion": "05:23:22",
     "tablas": {
         "pts": [
             {
-                "Rank": 59,
+                "Rank": 58,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 34,
-                "Total": 2193,
-                "Diff": "1",
-                "Antece": "Elvin Hayes",
-                "Nota": "A tiro de 1",
+                "Hoy": 36,
+                "Total": 2195,
+                "Diff": "16",
+                "Antece": "Kyrie Irving",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -52,9 +52,9 @@
                 "Rank": 100,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 726,
-                "Diff": "4",
+                "Hoy": 10,
+                "Total": 727,
+                "Diff": "3",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 34,
-                "Total": 1749,
-                "Diff": "178",
+                "Hoy": 36,
+                "Total": 1751,
+                "Diff": "176",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 399,
-                "Diff": "62",
+                "Hoy": 10,
+                "Total": 400,
+                "Diff": "61",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 5,
                 "Total": 359,
-                "Diff": "40",
+                "Diff": "41",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles McBride (1 three-pointer today) has passed Brian Shaw, Chuck Person and Terry Rozier and is now ranked 172nd all-time with 78 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780714660525266_8516_collage_1780714660458277.png"
-            ],
-            "timestamp": 1780714667
-        },
         {
             "texto": "Mikal Bridges (1 steal today) has passed Pascal Siakam and is now ranked 150th all-time with 87 in playoffs.",
             "foto": [
@@ -1481,16 +1474,16 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781148090886785_6057_collage_1781148090806834.png"
             ],
             "timestamp": 1781148098
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (36 points today) has passed Elvin Hayes and is now ranked 58th all-time with 2,195 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781148194206946_6600_collage_1781148194115968.png"
+            ],
+            "timestamp": 1781148202
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Cason Wallace today surpasses Michael Cage and is now ranked 24th in Thunder history with 47 games in playoffs.",
-            "foto": [],
-            "timestamp": 1780016028,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Cason Wallace (1 assist today) has passed Xavier McDaniel and is now ranked 19th in Thunder history with 90 in playoffs.",
             "foto": [],
@@ -2183,9 +2176,16 @@
             "timestamp": 1781147797,
             "team": "NYK",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Karl-Anthony Towns (10 rebounds today) becomes the 10th player to reach 400 rebounds with Knicks in playoffs.",
+            "foto": [],
+            "timestamp": 1781148202,
+            "team": "NYK",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2112,
-    "total_franchise_historicas": 1099,
-    "cache_buster": 1781148098
+    "total_notificaciones_historicas": 2113,
+    "total_franchise_historicas": 1100,
+    "cache_buster": 1781148202
 }
