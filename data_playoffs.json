@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:00:18",
+    "ultima_actualizacion": "03:02:01",
     "tablas": {
         "pts": [
             {
@@ -97,13 +97,13 @@
         ],
         "stl": [
             {
-                "Rank": 140,
+                "Rank": 136,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 90,
+                "Hoy": 1,
+                "Total": 91,
                 "Diff": "",
-                "Antece": "Buck Williams",
+                "Antece": "Chris Webber, Deron Williams, Eric Snow, Joe Dumars",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -471,9 +471,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 67,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 68,
+                "Diff": "6",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 154th all-time with 58 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780967039205908_5107_collage_1780967039144939.png"
-            ],
-            "timestamp": 1780967046
-        },
         {
             "texto": "Victor Wembanyama (2 blocks today) has passed Kurt Rambis and Tom Chambers and is now ranked 136th all-time with 69 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398809991428_4999_collage_1781398809901445.png"
             ],
             "timestamp": 1781398818
+        },
+        {
+            "texto": "OG Anunoby (1 steal today) has passed Buck Williams and is now ranked 136th all-time with 91 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398913851203_1008_collage_1781398913737192.png"
+            ],
+            "timestamp": 1781398921
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2129,
+    "total_notificaciones_historicas": 2130,
     "total_franchise_historicas": 1105,
-    "cache_buster": 1781398818
+    "cache_buster": 1781398921
 }
