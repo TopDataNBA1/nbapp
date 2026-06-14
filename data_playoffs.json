@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:52",
+    "ultima_actualizacion": "03:27:07",
     "tablas": {
         "pts": [
             {
@@ -130,13 +130,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 214,
+                "Rank": 210,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 69,
+                "Hoy": 1,
+                "Total": 70,
                 "Diff": "",
-                "Antece": "Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin, Rashard Lewis",
+                "Antece": "Derrick White, Jeff Teague, Johnny Moore, Ricky Pierce",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -481,9 +481,9 @@
                 "Rank": 8,
                 "Nombre": "Jalen Brunson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 56,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 57,
+                "Diff": "6",
                 "Antece": "Derek Harper",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (1 three-pointer today) has passed Eric Gordon and Trevor Ariza and is now ranked 53rd all-time with 168 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780969151190317_1667_collage_1780969151109341.png"
-            ],
-            "timestamp": 1780969159
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (3 rebounds today) has passed Bob McAdoo and is now ranked 106th all-time with 712 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781400129423539_7341_collage_1781400129334586.png"
             ],
             "timestamp": 1781400137
+        },
+        {
+            "texto": "📢HOF🏛️ Jalen Brunson (1 steal today) has passed Adrian Dantley, Anderson Varejão, Bob Dandridge, Bradley Beal, George Gervin and Rashard Lewis and is now ranked 210th all-time with 70 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781400419387529_1308_collage_1781400419298561.png"
+            ],
+            "timestamp": 1781400427
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2136,
+    "total_notificaciones_historicas": 2137,
     "total_franchise_historicas": 1107,
-    "cache_buster": 1781400232
+    "cache_buster": 1781400427
 }
