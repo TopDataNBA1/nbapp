@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "05:06:37",
+    "ultima_actualizacion": "05:08:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 56,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 38,
-                "Total": 2233,
-                "Diff": "7",
+                "Hoy": 40,
+                "Total": 2235,
+                "Diff": "5",
                 "Antece": "Bob Pettit",
                 "Nota": "",
                 "game_status": "playing"
@@ -97,13 +97,13 @@
         ],
         "stl": [
             {
-                "Rank": 131,
+                "Rank": 135,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 94,
+                "Hoy": 3,
+                "Total": 93,
                 "Diff": "",
-                "Antece": "Dwight Howard, Jamal Murray, Mario Elie, Vince Carter",
+                "Antece": "Doug Christie",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 38,
-                "Total": 1789,
-                "Diff": "138",
+                "Hoy": 40,
+                "Total": 1791,
+                "Diff": "136",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -421,9 +421,9 @@
                 "Rank": 20,
                 "Nombre": "OG Anunoby",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 241,
-                "Diff": "21",
+                "Hoy": 6,
+                "Total": 242,
+                "Diff": "20",
                 "Antece": "Kurt Thomas",
                 "game_status": "playing"
             },
@@ -471,9 +471,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 4,
-                "Total": 71,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 70,
+                "Diff": "4",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -504,17 +504,17 @@
                 "Hoy": 0,
                 "Total": 37,
                 "Diff": "0",
-                "Antece": "Trent Tucker, Anthony Mason",
+                "Antece": "Trent Tucker, Anthony Mason, Karl-Anthony Towns",
                 "game_status": "playing"
             },
             {
                 "Rank": 20,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 36,
-                "Diff": "1",
-                "Antece": "Anthony Mason, Mitchell Robinson, Trent Tucker",
+                "Hoy": 3,
+                "Total": 37,
+                "Diff": "0",
+                "Antece": "Mitchell Robinson, Trent Tucker, Anthony Mason",
                 "game_status": "playing"
             },
             {
@@ -710,13 +710,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "De'Aaron Fox",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 125,
-                "Diff": "0",
-                "Antece": "Mark Olberding",
+                "Hoy": 6,
+                "Total": 126,
+                "Diff": "11",
+                "Antece": "Vinny Del Negro",
                 "game_status": "playing"
             },
             {
@@ -1485,13 +1485,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Stephon Castle (3 assists today) has passed Danny Green and is now ranked 19th in Spurs history with 117 in playoffs.",
-            "foto": [],
-            "timestamp": 1780191393,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Shai Gilgeous-Alexander (1 steal today) has passed Fred Brown and is now ranked 9th in Thunder history with 75 in playoffs.",
             "foto": [],
             "timestamp": 1780191710,
@@ -2183,9 +2176,16 @@
             "timestamp": 1781405141,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "De'Aaron Fox (6 assists today) has passed Mark Olberding and is now ranked 18th in Spurs history with 126 in playoffs.",
+            "foto": [],
+            "timestamp": 1781406491,
+            "team": "SAS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2159,
-    "total_franchise_historicas": 1116,
-    "cache_buster": 1781406397
+    "total_franchise_historicas": 1117,
+    "cache_buster": 1781406491
 }
