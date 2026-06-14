@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "05:16:18",
+    "ultima_actualizacion": "05:18:00",
     "tablas": {
         "pts": [
             {
-                "Rank": 56,
+                "Rank": 55,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 43,
-                "Total": 2238,
-                "Diff": "2",
+                "Hoy": 45,
+                "Total": 2240,
+                "Diff": "",
                 "Antece": "Bob Pettit",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -60,13 +60,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 169,
+                "Rank": 168,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 9,
-                "Total": 557,
+                "Hoy": 11,
+                "Total": 559,
                 "Diff": "",
-                "Antece": "Carmelo Anthony, Clyde Lovellette, Mark Eaton",
+                "Antece": "Happy Hairston",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 43,
-                "Total": 1794,
-                "Diff": "133",
+                "Hoy": 45,
+                "Total": 1796,
+                "Diff": "131",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 9,
-                "Total": 557,
-                "Diff": "109",
+                "Hoy": 11,
+                "Total": 559,
+                "Diff": "107",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (29 points today) has passed Gary Payton and is now ranked 59th all-time with 2,156 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780975175928247_9717_collage_1780975175843288.png"
-            ],
-            "timestamp": 1780975184
-        },
         {
             "texto": "Josh Hart (9 rebounds today) has passed Josh Smith and is now ranked 179th all-time with 540 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781406875296537_4327_collage_1781406875215578.png"
             ],
             "timestamp": 1781406882
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (11 rebounds today) has passed Carmelo Anthony, Clyde Lovellette and Mark Eaton and is now ranked 168th all-time with 559 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781407072889113_9215_collage_1781407072821121.png"
+            ],
+            "timestamp": 1781407080
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2161,
+    "total_notificaciones_historicas": 2162,
     "total_franchise_historicas": 1117,
-    "cache_buster": 1781406978
+    "cache_buster": 1781407080
 }
