@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "04:57:14",
+    "ultima_actualizacion": "05:01:59",
     "tablas": {
         "pts": [
             {
                 "Rank": 56,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 34,
-                "Total": 2229,
-                "Diff": "11",
+                "Hoy": 36,
+                "Total": 2231,
+                "Diff": "9",
                 "Antece": "Bob Pettit",
                 "Nota": "",
                 "game_status": "playing"
@@ -97,13 +97,13 @@
         ],
         "stl": [
             {
-                "Rank": 135,
+                "Rank": 131,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 93,
+                "Hoy": 4,
+                "Total": 94,
                 "Diff": "",
-                "Antece": "Doug Christie",
+                "Antece": "Dwight Howard, Jamal Murray, Mario Elie, Vince Carter",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 34,
-                "Total": 1785,
-                "Diff": "142",
+                "Hoy": 36,
+                "Total": 1787,
+                "Diff": "140",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -471,9 +471,9 @@
                 "Rank": 6,
                 "Nombre": "OG Anunoby",
                 "Stat": "STL",
-                "Hoy": 3,
-                "Total": 70,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 71,
+                "Diff": "3",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -693,9 +693,9 @@
                 "Rank": 21,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 12,
-                "Total": 237,
-                "Diff": "12",
+                "Hoy": 13,
+                "Total": 238,
+                "Diff": "11",
                 "Antece": "Mark Olberding",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (7 rebounds today) has passed Gar Heard, Mark Aguirre and Tom Hawkins and is now ranked 181st all-time with 538 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780974309989037_6555_collage_1780974309913079.png"
-            ],
-            "timestamp": 1780974317
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jalen Brunson (5 assists today) has passed James Worthy and Norm Nixon and is now ranked 71st all-time with 466 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781405256133464_4122_collage_1781405256059489.png"
             ],
             "timestamp": 1781405263
+        },
+        {
+            "texto": "OG Anunoby (4 steals today) has passed Doug Christie and is now ranked 131st all-time with 94 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781406111777080_3638_collage_1781406111681126.png"
+            ],
+            "timestamp": 1781406119
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2158,
+    "total_notificaciones_historicas": 2159,
     "total_franchise_historicas": 1116,
-    "cache_buster": 1781405834
+    "cache_buster": 1781406119
 }
