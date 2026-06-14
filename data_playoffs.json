@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:54:00",
+    "ultima_actualizacion": "03:00:18",
     "tablas": {
         "pts": [
             {
@@ -52,11 +52,11 @@
                 "Rank": 99,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 730,
-                "Diff": "",
-                "Antece": "Chris Paul",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 731,
+                "Diff": "1",
+                "Antece": "Tayshaun Prince",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 403,
-                "Diff": "58",
+                "Hoy": 4,
+                "Total": 404,
+                "Diff": "57",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 359,
-                "Diff": "44",
+                "Diff": "45",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (3 rebounds today) has passed Steven Adams and is now ranked 186th all-time with 534 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780966935400360_3067_collage_1780966935300392.png"
-            ],
-            "timestamp": 1780966943
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (1 block today) has passed Bill Cartwright, Mike Gminski and Ralph Sampson and is now ranked 154th all-time with 58 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398325800436_8630_collage_1781398325703475.png"
             ],
             "timestamp": 1781398334
+        },
+        {
+            "texto": "📢🔝💯 Karl-Anthony Towns (4 rebounds today) has passed Chris Paul and is now ranked 99th all-time with 731 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398809991428_4999_collage_1781398809901445.png"
+            ],
+            "timestamp": 1781398818
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2128,
+    "total_notificaciones_historicas": 2129,
     "total_franchise_historicas": 1105,
-    "cache_buster": 1781398440
+    "cache_buster": 1781398818
 }
