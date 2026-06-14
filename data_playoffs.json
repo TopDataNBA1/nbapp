@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:14:51",
+    "ultima_actualizacion": "04:16:34",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 234,
+                "Rank": 233,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 1064,
-                "Diff": "",
-                "Antece": "Toni Kukoč",
-                "Nota": "Mismo total",
+                "Hoy": 7,
+                "Total": 1066,
+                "Diff": "4",
+                "Antece": "Larry Nance",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -351,9 +351,9 @@
                 "Rank": 12,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 766,
-                "Diff": "32",
+                "Hoy": 7,
+                "Total": 768,
+                "Diff": "30",
                 "Antece": "Latrell Sprewell",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (6 rebounds today) has passed Byron Scott and is now ranked 181st all-time with 537 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971341714482_4398_collage_1780971341610516.png"
-            ],
-            "timestamp": 1780971349
-        },
         {
             "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Bill Cartwright, Jarrett Allen, Mike Gminski, Ralph Sampson and Shai Gilgeous-Alexander and is now ranked 153rd all-time with 59 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403283340456_1362_collage_1781403283243520.png"
             ],
             "timestamp": 1781403290
+        },
+        {
+            "texto": "OG Anunoby (7 points today) has passed Josh Smith and Toni Kukoč and is now ranked 233rd all-time with 1,066 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403386236192_9448_collage_1781403386147237.png"
+            ],
+            "timestamp": 1781403393
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2149,
+    "total_notificaciones_historicas": 2150,
     "total_franchise_historicas": 1112,
-    "cache_buster": 1781403291
+    "cache_buster": 1781403394
 }
