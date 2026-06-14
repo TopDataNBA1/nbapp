@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:16:34",
+    "ultima_actualizacion": "04:18:17",
     "tablas": {
         "pts": [
             {
@@ -84,13 +84,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 190,
+                "Rank": 189,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 248,
+                "Hoy": 1,
+                "Total": 249,
                 "Diff": "",
-                "Antece": "Andy Phillip",
+                "Antece": "Tracy McGrady",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -451,9 +451,9 @@
                 "Rank": 9,
                 "Nombre": "Josh Hart",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 248,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 249,
+                "Diff": "14",
                 "Antece": "Charlie Ward, Bill Bradley",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (2 blocks today) has passed Bill Cartwright, Jarrett Allen, Mike Gminski, Ralph Sampson and Shai Gilgeous-Alexander and is now ranked 153rd all-time with 59 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971349677331_4798_collage_1780971349600355.png"
-            ],
-            "timestamp": 1780971357
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (20 points today) has passed Derek Fisher and is now ranked 60th all-time with 2,147 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403386236192_9448_collage_1781403386147237.png"
             ],
             "timestamp": 1781403393
+        },
+        {
+            "texto": "📢HOF🏛️ Josh Hart (1 assist today) has passed Andy Phillip and is now ranked 189th all-time with 249 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403489252994_4713_collage_1781403489144032.png"
+            ],
+            "timestamp": 1781403496
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2150,
+    "total_notificaciones_historicas": 2151,
     "total_franchise_historicas": 1112,
-    "cache_buster": 1781403394
+    "cache_buster": 1781403497
 }
