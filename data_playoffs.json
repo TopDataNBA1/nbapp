@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:11:43",
+    "ultima_actualizacion": "03:16:48",
     "tablas": {
         "pts": [
             {
@@ -49,14 +49,14 @@
         ],
         "trb": [
             {
-                "Rank": 99,
+                "Rank": 98,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 731,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 732,
+                "Diff": "",
                 "Antece": "Tayshaun Prince",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -143,13 +143,13 @@
         ],
         "blk": [
             {
-                "Rank": 119,
+                "Rank": 116,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 76,
+                "Hoy": 4,
+                "Total": 77,
                 "Diff": "",
-                "Antece": "Oliver Miller, Ron Harper, Tristan Thompson",
+                "Antece": "Charles Smith, Manute Bol, Raef LaFrentz",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 404,
-                "Diff": "57",
+                "Hoy": 5,
+                "Total": 405,
+                "Diff": "56",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 361,
-                "Diff": "43",
+                "Diff": "44",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -693,9 +693,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 229,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 230,
+                "Diff": "6",
                 "Antece": "Cincy Powell",
                 "game_status": "playing"
             },
@@ -723,9 +723,9 @@
                 "Rank": 5,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 76,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 77,
+                "Diff": "4",
                 "Antece": "George Gervin",
                 "game_status": "playing"
             },
@@ -733,9 +733,9 @@
                 "Rank": 12,
                 "Nombre": "Julian Champagnie",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 58,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 59,
+                "Diff": "5",
                 "Antece": "Stephen Jackson",
                 "game_status": "playing"
             },
@@ -745,7 +745,7 @@
                 "Stat": "3PM",
                 "Hoy": 0,
                 "Total": 54,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Julian Champagnie",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jordan Clarkson (1 three-pointer today) has passed Jameer Nelson, Jeff Teague and Sean Elliott and is now ranked 185th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780968180460261_9579_collage_1780968180390282.png"
-            ],
-            "timestamp": 1780968187
-        },
         {
             "texto": "📢🔝💯 OG Anunoby (1 three-pointer today) has passed Byron Scott and is now ranked 75th all-time with 135 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781399389424319_7797_collage_1781399389335051.png"
             ],
             "timestamp": 1781399397
+        },
+        {
+            "texto": "Victor Wembanyama (4 blocks today) has passed Oliver Miller, Ron Harper and Tristan Thompson and is now ranked 116th all-time with 77 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781399781637772_4551_collage_1781399781574797.png"
+            ],
+            "timestamp": 1781399789
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2131,
+    "total_notificaciones_historicas": 2132,
     "total_franchise_historicas": 1106,
-    "cache_buster": 1781399503
+    "cache_buster": 1781399808
 }
