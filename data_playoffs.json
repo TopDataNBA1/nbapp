@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:50:29",
+    "ultima_actualizacion": "02:52:14",
     "tablas": {
         "pts": [
             {
@@ -28,11 +28,11 @@
                 "Rank": 235,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1060,
-                "Diff": "",
-                "Antece": "Jamal Crawford",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1061,
+                "Diff": "3",
+                "Antece": "Toni Kukoč",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -351,9 +351,9 @@
                 "Rank": 13,
                 "Nombre": "OG Anunoby",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 762,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 763,
+                "Diff": "2",
                 "Antece": "Earl Monroe",
                 "game_status": "playing"
             },
@@ -363,7 +363,7 @@
                 "Stat": "PTS",
                 "Hoy": 0,
                 "Total": 696,
-                "Diff": "66",
+                "Diff": "67",
                 "Antece": "OG Anunoby",
                 "game_status": "playing"
             },
@@ -683,9 +683,9 @@
                 "Rank": 18,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 507,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 509,
+                "Diff": "6",
                 "Antece": "Michael Finley",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Josh Hart (2 three-pointers today) has passed Jameer Nelson, Jeff Teague, Jordan Clarkson and Sean Elliott and is now ranked 184th all-time with 74 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780966362638105_4437_collage_1780966362566127.png"
-            ],
-            "timestamp": 1780966370
-        },
         {
             "texto": "Josh Hart (3 rebounds today) has passed Steven Adams and is now ranked 186th all-time with 534 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398210796678_1287_collage_1781398210719691.png"
             ],
             "timestamp": 1781398218
+        },
+        {
+            "texto": "OG Anunoby (2 points today) has passed Jamal Crawford and is now ranked 235th all-time with 1,061 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781398325800436_8630_collage_1781398325703475.png"
+            ],
+            "timestamp": 1781398334
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2127,
+    "total_notificaciones_historicas": 2128,
     "total_franchise_historicas": 1104,
-    "cache_buster": 1781398229
+    "cache_buster": 1781398334
 }
