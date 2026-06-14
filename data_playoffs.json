@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:39:20",
+    "ultima_actualizacion": "04:44:06",
     "tablas": {
         "pts": [
             {
@@ -63,11 +63,11 @@
                 "Rank": 172,
                 "Nombre": "Josh Hart",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 555,
-                "Diff": "",
-                "Antece": "Zydrunas Ilgauskas",
-                "Nota": "Mismo total",
+                "Hoy": 8,
+                "Total": 556,
+                "Diff": "1",
+                "Antece": "Mark Eaton, Carmelo Anthony, Clyde Lovellette",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -391,9 +391,9 @@
                 "Rank": 6,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 555,
-                "Diff": "111",
+                "Hoy": 8,
+                "Total": 556,
+                "Diff": "110",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Mikal Bridges (2 points today) has passed Robert Reid and is now ranked 246th all-time with 1,026 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780972796678939_2360_collage_1780972796568974.png"
-            ],
-            "timestamp": 1780972805
-        },
         {
             "texto": "Karl-Anthony Towns (3 blocks today) has passed Derrick Coleman and is now ranked 152nd all-time with 60 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781404561868641_9922_collage_1781404561789674.png"
             ],
             "timestamp": 1781404569
+        },
+        {
+            "texto": "Josh Hart (8 rebounds today) has passed Zydrunas Ilgauskas and is now ranked 172nd all-time with 556 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781405038425635_8272_collage_1781405038332375.png"
+            ],
+            "timestamp": 1781405046
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2155,
+    "total_notificaciones_historicas": 2156,
     "total_franchise_historicas": 1115,
-    "cache_buster": 1781404760
+    "cache_buster": 1781405046
 }
