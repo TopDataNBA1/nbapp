@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:20:34",
+    "ultima_actualizacion": "03:22:17",
     "tablas": {
         "pts": [
             {
@@ -14,14 +14,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 180,
+                "Rank": 179,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1289,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1291,
+                "Diff": "",
                 "Antece": "Alonzo Mourning",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -52,11 +52,11 @@
                 "Rank": 98,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 732,
-                "Diff": "",
-                "Antece": "Tayshaun Prince",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 733,
+                "Diff": "1",
+                "Antece": "Kevin Love",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -371,9 +371,9 @@
                 "Rank": 15,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 686,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 688,
+                "Diff": "8",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -401,9 +401,9 @@
                 "Rank": 10,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 405,
-                "Diff": "56",
+                "Hoy": 6,
+                "Total": 406,
+                "Diff": "55",
                 "Antece": "Anthony Mason",
                 "game_status": "playing"
             },
@@ -413,7 +413,7 @@
                 "Stat": "REB",
                 "Hoy": 2,
                 "Total": 361,
-                "Diff": "44",
+                "Diff": "45",
                 "Antece": "Karl-Anthony Towns",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ OG Anunoby (1 block today) has passed Bruce Bowen, Jaylen Brown and Magic Johnson and is now ranked 142nd all-time with 65 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780969143336385_1402_collage_1780969143270419.png"
-            ],
-            "timestamp": 1780969150
-        },
         {
             "texto": "📢🔝💯 Jalen Brunson (1 three-pointer today) has passed Eric Gordon and Trevor Ariza and is now ranked 53rd all-time with 168 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781399920183040_6202_collage_1781399920088072.png"
             ],
             "timestamp": 1781399927
+        },
+        {
+            "texto": "📢🔝💯 Karl-Anthony Towns (6 rebounds today) has passed Tayshaun Prince and is now ranked 98th all-time with 733 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781400129423539_7341_collage_1781400129334586.png"
+            ],
+            "timestamp": 1781400137
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2135,
+    "total_notificaciones_historicas": 2136,
     "total_franchise_historicas": 1106,
-    "cache_buster": 1781400034
+    "cache_buster": 1781400137
 }
