@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "04:18:17",
+    "ultima_actualizacion": "04:20:11",
     "tablas": {
         "pts": [
             {
                 "Rank": 57,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 22,
-                "Total": 2217,
-                "Diff": "4",
+                "Hoy": 25,
+                "Total": 2220,
+                "Diff": "1",
                 "Antece": "David Robinson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -225,11 +225,11 @@
                 "Rank": 47,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 176,
-                "Diff": "",
-                "Antece": "John Starks",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 177,
+                "Diff": "1",
+                "Antece": "Steve Nash",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -341,9 +341,9 @@
                 "Rank": 3,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 1773,
-                "Diff": "154",
+                "Hoy": 25,
+                "Total": 1776,
+                "Diff": "151",
                 "Antece": "Walt Frazier",
                 "game_status": "playing"
             },
@@ -571,9 +571,9 @@
                 "Rank": 2,
                 "Nombre": "Jalen Brunson",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 144,
-                "Diff": "31",
+                "Hoy": 4,
+                "Total": 145,
+                "Diff": "30",
                 "Antece": "John Starks",
                 "game_status": "playing"
             },
@@ -583,7 +583,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 101,
-                "Diff": "43",
+                "Diff": "44",
                 "Antece": "Jalen Brunson",
                 "game_status": "playing"
             },
@@ -683,9 +683,9 @@
                 "Rank": 17,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 519,
-                "Diff": "24",
+                "Hoy": 16,
+                "Total": 521,
+                "Diff": "22",
                 "Antece": "Terry Cummings",
                 "game_status": "playing"
             },
@@ -693,9 +693,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 235,
-                "Diff": "1",
+                "Hoy": 11,
+                "Total": 236,
+                "Diff": "0",
                 "Antece": "Cincy Powell",
                 "game_status": "playing"
             },
@@ -743,9 +743,9 @@
                 "Rank": 13,
                 "Nombre": "Devin Vassell",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 54,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 55,
+                "Diff": "6",
                 "Antece": "Julian Champagnie",
                 "game_status": "playing"
             },
@@ -782,13 +782,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jalen Brunson (20 points today) has passed Derek Fisher and is now ranked 60th all-time with 2,147 in playoffs.",
-            "foto": [
-                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1780971452826962_6067_collage_1780971452728859.png"
-            ],
-            "timestamp": 1780971461
-        },
         {
             "texto": "Josh Hart (4 three-pointers today) has passed Naz Reid and Rafer Alston and is now ranked 180th all-time with 76 in playoffs.",
             "foto": [
@@ -1481,6 +1474,13 @@
                 "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403489252994_4713_collage_1781403489144032.png"
             ],
             "timestamp": 1781403496
+        },
+        {
+            "texto": "📢🔝💯 Jalen Brunson (4 three-pointers today) has passed John Starks and is now ranked 47th all-time with 177 in playoffs.",
+            "foto": [
+                "https://github.com/TopDataNBA1/nbapp/releases/download/collages-3/1781403592147393_5784_collage_1781403592037682.png"
+            ],
+            "timestamp": 1781403600
         }
     ],
     "notificaciones_franchise": [
@@ -2185,7 +2185,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2151,
+    "total_notificaciones_historicas": 2152,
     "total_franchise_historicas": 1112,
-    "cache_buster": 1781403497
+    "cache_buster": 1781403611
 }
