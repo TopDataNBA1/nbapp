@@ -486,9 +486,9 @@
 
     <!-- SELECTOR PLAYOFFS / REGULAR SEASON -->
     <div style="display:flex;justify-content:center;gap:10px;margin:10px 0 4px;">
-        <button id="btn-season-playoffs" class="main-tab-btn active" onclick="switchSeason('playoffs')" style="font-size:0.85em;padding:6px 18px;">🏆 Playoffs</button>
+        <button id="btn-season-regular" class="main-tab-btn active" onclick="switchSeason('regular')" style="font-size:0.85em;padding:6px 18px;">📅 Regular Season</button>
+        <button id="btn-season-playoffs" class="main-tab-btn" onclick="switchSeason('playoffs')" style="font-size:0.85em;padding:6px 18px;">🏆 Playoffs</button>
         <button id="btn-season-finals" class="main-tab-btn" onclick="switchSeason('finals')" style="font-size:0.85em;padding:6px 18px;">🥇 NBA Finals</button>
-        <button id="btn-season-regular" class="main-tab-btn" onclick="switchSeason('regular')" style="font-size:0.85em;padding:6px 18px;">📅 Regular Season</button>
     </div>
 
     <!-- PESTAÑAS PRINCIPALES: GLOBAL / TEAMS / TOP -->
@@ -690,7 +690,7 @@
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // === SEASON MODE (Playoffs / Regular Season) ===
         let lastTimestamp = null; // àmbit global per poder resetejar des de switchSeason
-        let currentSeason = 'playoffs';
+        let currentSeason = 'regular';
         let currentDataFile = 'data_playoffs.json';
         let currentHistoricoFile = 'notificaciones_historicas_playoffs.json';
 
