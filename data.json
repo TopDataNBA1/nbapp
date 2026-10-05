@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:58:28",
+    "ultima_actualizacion": "04:13:25",
     "tablas": {
         "pts": [
             {
@@ -47,6 +47,17 @@
                 "Antece": "Mickey Johnson",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 227,
+                "Nombre": "Jusuf Nurkić",
+                "Team": "UTA",
+                "Hoy": 5,
+                "Total": 5649,
+                "Diff": "5",
+                "Antece": "Ray Felix",
+                "Nota": "",
+                "game_status": "playing"
             }
         ],
         "blk": [
@@ -71,6 +82,28 @@
                 "Antece": "Chris Kaman",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 147,
+                "Nombre": "Jaren Jackson Jr.",
+                "Team": "UTA",
+                "Hoy": 0,
+                "Total": 846,
+                "Diff": "2",
+                "Antece": "Donyell Marshall",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 203,
+                "Nombre": "Jusuf Nurkić",
+                "Team": "UTA",
+                "Hoy": 1,
+                "Total": 670,
+                "Diff": "",
+                "Antece": "George Gervin",
+                "Nota": "Mismo total",
+                "game_status": "playing"
             }
         ],
         "fg3": [
@@ -82,6 +115,17 @@
                 "Total": 4250,
                 "Diff": "50",
                 "Antece": "4300",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 94,
+                "Nombre": "Lauri Markkanen",
+                "Team": "UTA",
+                "Hoy": 3,
+                "Total": 1260,
+                "Diff": "2",
+                "Antece": "D.J. Augustin",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -364,6 +408,58 @@
                 "Total": 950,
                 "Diff": "50",
                 "Antece": "1000",
+                "game_status": "playing"
+            }
+        ],
+        "UTA": [
+            {
+                "Rank": 24,
+                "Nombre": "Lauri Markkanen",
+                "Stat": "PTS",
+                "Hoy": 17,
+                "Total": 5001,
+                "Diff": "93",
+                "Antece": "Joe Ingles",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 19,
+                "Nombre": "Keyonte George",
+                "Stat": "AST",
+                "Hoy": 3,
+                "Total": 1044,
+                "Diff": "68",
+                "Antece": "Jim McElroy",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "Isaiah Collier",
+                "Stat": "AST",
+                "Hoy": 4,
+                "Total": 873,
+                "Diff": "46",
+                "Antece": "Mehmet Okur",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Lauri Markkanen",
+                "Stat": "3PM",
+                "Hoy": 3,
+                "Total": 631,
+                "Diff": "58",
+                "Antece": "Gordon Hayward",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 13,
+                "Nombre": "Keyonte George",
+                "Stat": "3PM",
+                "Hoy": 1,
+                "Total": 456,
+                "Diff": "24",
+                "Antece": "Mike Conley",
                 "game_status": "playing"
             }
         ]
@@ -1015,20 +1111,6 @@
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner today surpasses Cole Anthony and is now ranked 21st in Magic history with 321 games.",
-            "foto": [],
-            "timestamp": 1775263302,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Jalen Suggs (3 assists today) has passed Markelle Fultz and is now ranked 18th in Magic history with 973.",
-            "foto": [],
-            "timestamp": 1775263499,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 📢HOF🏛️ Jayson Tatum (2 steals today) has passed Dennis Johnson and is now ranked 10th in Celtics history with 655.",
             "foto": [],
@@ -1714,9 +1796,23 @@
             "timestamp": 1776312100,
             "team": "PHI",
             "type": "franchise"
+        },
+        {
+            "texto": "Lauri Markkanen (17 points today) becomes the 24th player to reach 5,000 points with Jazz.",
+            "foto": [],
+            "timestamp": 1791166405,
+            "team": "UTA",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Isaiah Collier (4 assists today) has passed Trey Burke and Bryon Russell and is now ranked 23rd in Jazz history with 873.",
+            "foto": [],
+            "timestamp": 1791166405,
+            "team": "UTA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1904,
-    "total_franchise_historicas": 584,
-    "cache_buster": 1791165508
+    "total_franchise_historicas": 586,
+    "cache_buster": 1791166405
 }
