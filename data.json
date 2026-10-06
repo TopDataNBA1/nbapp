@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:18:37",
+    "ultima_actualizacion": "04:20:16",
     "tablas": {
         "pts": [
             {
@@ -61,11 +61,11 @@
                 "Rank": 190,
                 "Nombre": "Zach LaVine",
                 "Team": "SAC",
-                "Hoy": 2,
-                "Total": 14340,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 14342,
+                "Diff": "1",
                 "Antece": "Al Jefferson",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -140,9 +140,9 @@
                 "Rank": 118,
                 "Nombre": "Domantas Sabonis",
                 "Team": "SAC",
-                "Hoy": 1,
-                "Total": 7097,
-                "Diff": "13",
+                "Hoy": 0,
+                "Total": 7096,
+                "Diff": "14",
                 "Antece": "Olden Polynice",
                 "Nota": "",
                 "game_status": "playing"
@@ -361,14 +361,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 132,
+                "Rank": 131,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
-                "Hoy": 2,
-                "Total": 1140,
-                "Diff": "1",
-                "Antece": "Kevin Martin",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1141,
+                "Diff": "7",
+                "Antece": "Steve Smith",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -586,9 +586,9 @@
                 "Rank": 111,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 1,
-                "Total": 4231,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 4232,
+                "Diff": "13",
                 "Antece": "Kirk Hinrich",
                 "Nota": "",
                 "game_status": "playing"
@@ -1225,7 +1225,7 @@
                 "Rank": 14,
                 "Nombre": "Domantas Sabonis",
                 "Stat": "REB",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 3467,
                 "Diff": "25",
                 "Antece": "Maurice Stokes",
@@ -1370,13 +1370,13 @@
         ],
         "MIL": [
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 305,
-                "Diff": "0",
-                "Antece": "Grayson Allen",
+                "Hoy": 3,
+                "Total": 306,
+                "Diff": "13",
+                "Antece": "Eric Bledsoe",
                 "game_status": "playing"
             }
         ]
@@ -2085,13 +2085,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "LaMelo Ball (6 rebounds today) has passed Nicolas Batum and is now ranked 17th in Hornets history with 1,706.",
-            "foto": [],
-            "timestamp": 1775264880,
-            "team": "CHA",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Wendell Carter Jr. (1 rebound today) has passed Aaron Gordon and is now ranked 6th in Magic history with 2,754.",
             "foto": [],
             "timestamp": 1775265568,
@@ -2783,9 +2776,16 @@
             "timestamp": 1791245704,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Gary Trent Jr. (3 three-pointers today) has passed Grayson Allen and is now ranked 19th in Bucks history with 306.",
+            "foto": [],
+            "timestamp": 1791253215,
+            "team": "MIL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 1919,
-    "total_franchise_historicas": 587,
-    "cache_buster": 1791253117
+    "total_franchise_historicas": 588,
+    "cache_buster": 1791253216
 }
