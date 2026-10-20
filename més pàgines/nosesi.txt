@@ -1,0 +1,25 @@
+const delay = ms => new Promise(r => setTimeout(r, ms));
+const results = {};
+let done = 0;
+for (const p of PLAYERS) {
+  try {
+    const r = await fetch(`https://stats.nba.com/stats/playercareerstats?PlayerID=${p.id}&PerMode=Totals&LeagueID=00`, {headers:{'Referer':'https://www.nba.com'}});
+    const d = await r.json();
+    const rows = d.resultSets[0].rowSet;
+    const seasons = {};
+    for (const row of rows) {
+      const yr = parseInt(row[1].split('-')[0]);
+      const team = row[4];
+      if (team !== 'TOT') seasons[yr] = team;
+    }
+    results[p.id] = {name: p.name, seasons};
+  } catch(e) {
+    results[p.id] = {name: p.name, seasons: {}, error: true};
+  }
+  done++;
+  if (done % 50 === 0) console.log(`${done}/${PLAYERS.length}`);
+  await delay(120);
+}
+console.log("FET:", JSON.stringify(results).substring(0, 100));
+copy(JSON.stringify(results));
+console.log("Copiat al portapapers!");
