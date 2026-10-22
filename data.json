@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:03:46",
+    "ultima_actualizacion": "03:05:30",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 61,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 24,
-                "Total": 19409,
-                "Diff": "10",
+                "Hoy": 29,
+                "Total": 19414,
+                "Diff": "5",
                 "Antece": "Jamal Crawford",
                 "Nota": "",
                 "game_status": "playing"
@@ -184,9 +184,9 @@
                 "Rank": 68,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 9,
-                "Total": 8646,
-                "Diff": "63",
+                "Hoy": 10,
+                "Total": 8647,
+                "Diff": "62",
                 "Antece": "Leroy Ellis",
                 "Nota": "",
                 "game_status": "playing"
@@ -518,9 +518,9 @@
                 "Rank": 82,
                 "Nombre": "Anthony Edwards",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 1318,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 1319,
+                "Diff": "6",
                 "Antece": "Ryan Anderson",
                 "Nota": "",
                 "game_status": "playing"
@@ -817,9 +817,9 @@
                 "Rank": 79,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 6,
-                "Total": 4874,
-                "Diff": "15",
+                "Hoy": 7,
+                "Total": 4875,
+                "Diff": "14",
                 "Antece": "Doc Rivers",
                 "Nota": "",
                 "game_status": "playing"
@@ -1250,9 +1250,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 10878,
-                "Diff": "122",
+                "Hoy": 27,
+                "Total": 10881,
+                "Diff": "119",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -1300,9 +1300,9 @@
                 "Rank": 14,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 1842,
-                "Diff": "81",
+                "Hoy": 7,
+                "Total": 1843,
+                "Diff": "80",
                 "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
@@ -1370,9 +1370,9 @@
                 "Rank": 1,
                 "Nombre": "Anthony Edwards",
                 "Stat": "3PM",
-                "Hoy": 4,
-                "Total": 1318,
-                "Diff": "82",
+                "Hoy": 5,
+                "Total": 1319,
+                "Diff": "81",
                 "Antece": "1400",
                 "game_status": "playing"
             },
@@ -1539,13 +1539,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Zion Williamson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 280,
-                "Diff": "0",
-                "Antece": "Baron Davis",
+                "Hoy": 2,
+                "Total": 281,
+                "Diff": "19",
+                "Antece": "300",
                 "game_status": "playing"
             },
             {
@@ -2414,13 +2414,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Mikal Bridges (2 three-pointers today) has passed Gary Payton and is now ranked 135th all-time with 1,133.",
-            "foto": [
-                "collages/1775871491828337_collage_1775871491738388.png"
-            ],
-            "timestamp": 1775871491
-        },
-        {
             "texto": "Taurean Prince (6 three-pointers today) has passed Isaiah Thomas and Michael Redd and is now ranked 167th all-time with 1,046.",
             "foto": [
                 "collages/1775871700828031_collage_1775871700741059.png"
@@ -3112,16 +3105,16 @@
                 "collages/1792630713717131_collage_1792630713623371.png"
             ],
             "timestamp": 1792630713
+        },
+        {
+            "texto": "📢🔝💯 Anthony Davis (10 rebounds today) has passed Michael Cage and is now ranked 68th all-time with 8,647.",
+            "foto": [
+                "collages/1792631130685291_collage_1792631130575917.png"
+            ],
+            "timestamp": 1792631130
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Dwight Powell (2 rebounds today) has passed Erick Dampier and is now ranked 8th in Mavericks history with 3,212.",
-            "foto": [],
-            "timestamp": 1775265863,
-            "team": "DAL",
-            "type": "franchise"
-        },
         {
             "texto": "Daniel Gafford (2 blocks today) has passed Mark Aguirre and is now ranked 20th in Mavericks history with 225.",
             "foto": [],
@@ -3814,9 +3807,16 @@
             "timestamp": 1792630607,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Zion Williamson (2 steals today) has passed Baron Davis and is now ranked 8th in Pelicans history with 281.",
+            "foto": [],
+            "timestamp": 1792631130,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1929,
-    "total_franchise_historicas": 589,
-    "cache_buster": 1792631026
+    "total_notificaciones_historicas": 1930,
+    "total_franchise_historicas": 590,
+    "cache_buster": 1792631130
 }
