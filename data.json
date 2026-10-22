@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "02:55:03",
+    "ultima_actualizacion": "02:56:47",
     "tablas": {
         "pts": [
             {
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 5,
-                "Total": 32602,
-                "Diff": "398",
+                "Hoy": 7,
+                "Total": 32604,
+                "Diff": "396",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -28,9 +28,9 @@
                 "Rank": 61,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 18,
-                "Total": 19403,
-                "Diff": "16",
+                "Hoy": 19,
+                "Total": 19404,
+                "Diff": "15",
                 "Antece": "Jamal Crawford",
                 "Nota": "",
                 "game_status": "playing"
@@ -195,9 +195,9 @@
                 "Rank": 74,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 8255,
-                "Diff": "154",
+                "Hoy": 3,
+                "Total": 8257,
+                "Diff": "152",
                 "Antece": "P.J. Brown",
                 "Nota": "",
                 "game_status": "playing"
@@ -883,9 +883,9 @@
                 "Rank": 223,
                 "Nombre": "Fred VanVleet",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 3122,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 3123,
+                "Diff": "2",
                 "Antece": "Richard Hamilton",
                 "Nota": "",
                 "game_status": "playing"
@@ -902,14 +902,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
                 "Nombre": "Marcus Smart",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 3080,
-                "Diff": "",
-                "Antece": "Darnell Valentine",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3081,
+                "Diff": "2",
+                "Antece": "Phil Ford",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1146,9 +1146,9 @@
                 "Rank": 9,
                 "Nombre": "Jabari Smith Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 533,
-                "Diff": "24",
+                "Hoy": 1,
+                "Total": 534,
+                "Diff": "23",
                 "Antece": "Matt Bullard",
                 "game_status": "playing"
             },
@@ -1550,22 +1550,22 @@
             },
             {
                 "Rank": 8,
-                "Nombre": "Herbert Jones",
+                "Nombre": "Yves Missi",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 200,
-                "Diff": "35",
+                "Hoy": 2,
+                "Total": 201,
+                "Diff": "34",
                 "Antece": "Jamaal Magloire",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
-                "Nombre": "Yves Missi",
+                "Nombre": "Herbert Jones",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 200,
-                "Diff": "0",
-                "Antece": "Herbert Jones",
+                "Diff": "1",
+                "Antece": "Yves Missi",
                 "game_status": "playing"
             },
             {
@@ -2414,13 +2414,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Taurean Prince (4 three-pointers today) has passed Richard Jefferson and is now ranked 169th all-time with 1,044.",
-            "foto": [
-                "collages/1775871073865542_collage_1775871073769591.png"
-            ],
-            "timestamp": 1775871073
-        },
-        {
             "texto": "Payton Pritchard (5 three-pointers today) has passed Bobby Portis and is now ranked 241st all-time with 873.",
             "foto": [
                 "collages/1775871386420996_collage_1775871386318078.png"
@@ -3112,16 +3105,16 @@
                 "collages/1792629983310441_collage_1792629983216692.png"
             ],
             "timestamp": 1792629983
+        },
+        {
+            "texto": "Marcus Smart (1 assist today) has passed Darnell Valentine and is now ranked 231st all-time with 3,081.",
+            "foto": [
+                "collages/1792630607794654_collage_1792630607700909.png"
+            ],
+            "timestamp": 1792630607
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Wendell Carter Jr. (1 rebound today) has passed Aaron Gordon and is now ranked 6th in Magic history with 2,754.",
-            "foto": [],
-            "timestamp": 1775265568,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Dwight Powell (2 rebounds today) has passed Erick Dampier and is now ranked 8th in Mavericks history with 3,212.",
             "foto": [],
@@ -3814,9 +3807,16 @@
             "timestamp": 1792630399,
             "team": "NOH",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Yves Missi (2 blocks today) has passed Herbert Jones and is now ranked 8th in Pelicans history with 201.",
+            "foto": [],
+            "timestamp": 1792630607,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1927,
-    "total_franchise_historicas": 588,
-    "cache_buster": 1792630503
+    "total_notificaciones_historicas": 1928,
+    "total_franchise_historicas": 589,
+    "cache_buster": 1792630607
 }
