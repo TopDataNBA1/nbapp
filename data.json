@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:39:24",
+    "ultima_actualizacion": "02:41:10",
     "tablas": {
         "pts": [
             {
@@ -239,9 +239,9 @@
                 "Rank": 214,
                 "Nombre": "Bam Adebayo",
                 "Team": "MIA",
-                "Hoy": 1,
-                "Total": 5757,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 5758,
+                "Diff": "7",
                 "Antece": "Reggie Evans",
                 "Nota": "",
                 "game_status": "playing"
@@ -680,14 +680,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 178,
+                "Rank": 176,
                 "Nombre": "Michael Porter Jr.",
                 "Team": "BKN",
-                "Hoy": 1,
-                "Total": 1020,
-                "Diff": "",
-                "Antece": "Luke Kennard",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1021,
+                "Diff": "5",
+                "Antece": "Joe Harris",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -894,11 +894,11 @@
                 "Rank": 226,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 4,
-                "Total": 3112,
-                "Diff": "2",
+                "Hoy": 5,
+                "Total": 3113,
+                "Diff": "1",
                 "Antece": "Quinn Buckner",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1188,9 +1188,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 10395,
-                "Diff": "105",
+                "Hoy": 6,
+                "Total": 10397,
+                "Diff": "103",
                 "Antece": "10500",
                 "game_status": "playing"
             },
@@ -1198,9 +1198,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 5757,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 5758,
+                "Diff": "33",
                 "Antece": "Udonis Haslem",
                 "game_status": "playing"
             },
@@ -1290,9 +1290,9 @@
                 "Rank": 8,
                 "Nombre": "Anthony Edwards",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2322,
-                "Diff": "142",
+                "Hoy": 4,
+                "Total": 2323,
+                "Diff": "141",
                 "Antece": "Naz Reid",
                 "game_status": "playing"
             },
@@ -1310,9 +1310,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1826,
-                "Diff": "147",
+                "Hoy": 1,
+                "Total": 1827,
+                "Diff": "146",
                 "Antece": "Pooh Richardson",
                 "game_status": "playing"
             },
@@ -2145,13 +2145,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Isaiah Collier",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 869,
-                "Diff": "0",
-                "Antece": "Bryon Russell",
+                "Hoy": 1,
+                "Total": 870,
+                "Diff": "2",
+                "Antece": "Trey Burke",
                 "game_status": "playing"
             },
             {
@@ -2413,13 +2413,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Bam Adebayo (11 rebounds today) has passed Tom Boerwinkle and is now ranked 216th all-time with 5,746.",
-            "foto": [
-                "collages/1775870431324963_collage_1775870431122029.png"
-            ],
-            "timestamp": 1775870431
-        },
         {
             "texto": "De'Aaron Fox (1 three-pointer today) has passed Anthony Peeler and is now ranked 212th all-time with 941.",
             "foto": [
@@ -3112,6 +3105,13 @@
                 "collages/1792629564185572_collage_1792629564091810.png"
             ],
             "timestamp": 1792629564
+        },
+        {
+            "texto": "Michael Porter Jr. (2 three-pointers today) has passed Luke Kennard and is now ranked 176th all-time with 1,021.",
+            "foto": [
+                "collages/1792629669966536_collage_1792629669872787.png"
+            ],
+            "timestamp": 1792629669
         }
     ],
     "notificaciones_franchise": [
@@ -3800,9 +3800,16 @@
             "timestamp": 1792629355,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Collier (1 assist today) has passed Bryon Russell and is now ranked 24th in Jazz history with 870.",
+            "foto": [],
+            "timestamp": 1792629670,
+            "team": "UTA",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 1925,
-    "total_franchise_historicas": 586,
-    "cache_buster": 1792629564
+    "total_notificaciones_historicas": 1926,
+    "total_franchise_historicas": 587,
+    "cache_buster": 1792629670
 }
