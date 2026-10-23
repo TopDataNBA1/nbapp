@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:02:49",
+    "ultima_actualizacion": "04:04:25",
     "tablas": {
         "pts": [
             {
@@ -374,14 +374,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 238,
+                "Rank": 237,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 3044,
-                "Diff": "",
-                "Antece": "Ish Smith",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3045,
+                "Diff": "10",
+                "Antece": "Blake Griffin",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -431,14 +431,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 170,
+                "Rank": 168,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 1041,
-                "Diff": "",
-                "Antece": "Nenê",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1042,
+                "Diff": "2",
+                "Antece": "Darwin Cook",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -667,9 +667,9 @@
                 "Rank": 4,
                 "Nombre": "Jamal Murray",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 3044,
-                "Diff": "456",
+                "Hoy": 1,
+                "Total": 3045,
+                "Diff": "455",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -677,9 +677,9 @@
                 "Rank": 3,
                 "Nombre": "Nikola Jokić",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 1041,
-                "Diff": "29",
+                "Hoy": 1,
+                "Total": 1042,
+                "Diff": "28",
                 "Antece": "T.R. Dunn",
                 "game_status": "playing"
             },
@@ -1000,20 +1000,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday today surpasses P.J. Brown and now ranked 95th all time with 1,090 games",
-            "foto": [
-                "collages/1776041055940409_collage_1776041055798455.png"
-            ],
-            "timestamp": 1776041055
-        },
-        {
-            "texto": "Stephen Curry today surpasses Bill Laimbeer and Caldwell Jones and now ranked 112th all time with 1,069 games",
-            "foto": [
-                "collages/1776041056236315_collage_1776041056124351.png"
-            ],
-            "timestamp": 1776041056
-        },
         {
             "texto": "Taj Gibson today surpasses Jermaine O'Neal and now ranked 146th all time with 1,012 games",
             "foto": [
@@ -1699,6 +1685,20 @@
                 "collages/1792720588814525_collage_1792720588752032.png"
             ],
             "timestamp": 1792720588
+        },
+        {
+            "texto": "Jamal Murray (1 assist today) has passed Ish Smith and is now ranked 237th all-time with 3,045.",
+            "foto": [
+                "collages/1792721065463802_collage_1792721065370059.png"
+            ],
+            "timestamp": 1792721065
+        },
+        {
+            "texto": "📢HOF🏛️ Nikola Jokić (1 steal today) has passed James Worthy and Nenê and is now ranked 168th all-time with 1,042.",
+            "foto": [
+                "collages/1792721065651293_collage_1792721065573173.png"
+            ],
+            "timestamp": 1792721065
         }
     ],
     "notificaciones_franchise": [
@@ -2403,7 +2403,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1967,
+    "total_notificaciones_historicas": 1969,
     "total_franchise_historicas": 599,
-    "cache_buster": 1792720969
+    "cache_buster": 1792721065
 }
