@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:51",
+    "ultima_actualizacion": "03:56:28",
     "tablas": {
         "pts": [
             {
@@ -309,10 +309,10 @@
                 "Rank": 228,
                 "Nombre": "Cameron Johnson",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "900",
+                "Hoy": 1,
+                "Total": 900,
+                "Diff": "2",
+                "Antece": "Donyell Marshall",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -627,9 +627,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 11530,
-                "Diff": "462",
+                "Hoy": 4,
+                "Total": 11532,
+                "Diff": "460",
                 "Antece": "David Thompson",
                 "game_status": "playing"
             },
@@ -647,9 +647,9 @@
                 "Rank": 22,
                 "Nombre": "Jamal Murray",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2350,
-                "Diff": "52",
+                "Hoy": 3,
+                "Total": 2351,
+                "Diff": "51",
                 "Antece": "Will Barton",
                 "game_status": "playing"
             },
@@ -789,9 +789,9 @@
                 "Rank": 19,
                 "Nombre": "Jalen Williams",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1105,
-                "Diff": "95",
+                "Hoy": 1,
+                "Total": 1106,
+                "Diff": "94",
                 "Antece": "Josh Giddey",
                 "game_status": "playing"
             },
@@ -1000,13 +1000,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Desmond Bane (1 three-pointer today) has passed Scottie Pippen and is now ranked 193rd all-time with 979.",
-            "foto": [
-                "collages/1776040427127580_collage_1776040427026613.png"
-            ],
-            "timestamp": 1776040427
-        },
         {
             "texto": "📢🔝💯 Jrue Holiday today surpasses P.J. Brown and now ranked 95th all time with 1,090 games",
             "foto": [
@@ -1699,6 +1692,13 @@
                 "collages/1792718307271141_collage_1792718307177390.png"
             ],
             "timestamp": 1792718307
+        },
+        {
+            "texto": "Cameron Johnson (1 three-pointer today) becomes the 228th player to reach 900",
+            "foto": [
+                "collages/1792720588814525_collage_1792720588752032.png"
+            ],
+            "timestamp": 1792720588
         }
     ],
     "notificaciones_franchise": [
@@ -2403,7 +2403,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 1966,
+    "total_notificaciones_historicas": 1967,
     "total_franchise_historicas": 599,
-    "cache_buster": 1792720491
+    "cache_buster": 1792720588
 }
