@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:54",
+    "ultima_actualizacion": "02:46:38",
     "tablas": {
         "pts": [
             {
@@ -581,14 +581,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 132,
+                "Rank": 131,
                 "Nombre": "Royce O'Neale",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 1141,
-                "Diff": "",
-                "Antece": "Kevin Martin",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1142,
+                "Diff": "6",
+                "Antece": "Steve Smith",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -598,7 +598,7 @@
                 "Hoy": 0,
                 "Total": 1138,
                 "Diff": "3",
-                "Antece": "Royce O'Neale",
+                "Antece": "Kevin Martin",
                 "Nota": "",
                 "game_status": "finished"
             },
@@ -2073,9 +2073,9 @@
                 "Rank": 8,
                 "Nombre": "Tyrese Haliburton",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 2264,
-                "Diff": "15",
+                "Hoy": 6,
+                "Total": 2265,
+                "Diff": "14",
                 "Antece": "Freddie Lewis",
                 "game_status": "playing"
             },
@@ -2262,13 +2262,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (1 block today) has passed Tom Chambers and is now ranked 223rd all-time with 628.",
-            "foto": [
-                "collages/1792549559505994_collage_1792549559411657.png"
-            ],
-            "timestamp": 1792549559
-        },
         {
             "texto": "Victor Wembanyama (4 blocks today) has passed DeSagana Diop and is now ranked 222nd all-time with 631.",
             "foto": [
@@ -2961,6 +2954,13 @@
                 "collages/1792802242766590_collage_1792802242614576.png"
             ],
             "timestamp": 1792802242
+        },
+        {
+            "texto": "Royce O'Neale (2 three-pointers today) has passed Kevin Martin and is now ranked 131st all-time with 1,142.",
+            "foto": [
+                "collages/1792802798721266_collage_1792802798631295.png"
+            ],
+            "timestamp": 1792802798
         }
     ],
     "notificaciones_franchise": [
@@ -3665,7 +3665,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2005,
+    "total_notificaciones_historicas": 2006,
     "total_franchise_historicas": 602,
-    "cache_buster": 1792802754
+    "cache_buster": 1792802798
 }
