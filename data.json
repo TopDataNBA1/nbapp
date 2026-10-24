@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:29:40",
+    "ultima_actualizacion": "02:30:25",
     "tablas": {
         "pts": [
             {
@@ -714,8 +714,8 @@
             },
             {
                 "Rank": 192,
-                "Nombre": "LaMelo Ball",
-                "Team": "MIN",
+                "Nombre": "Desmond Bane",
+                "Team": "ORL",
                 "Hoy": 1,
                 "Total": 983,
                 "Diff": "5",
@@ -725,13 +725,13 @@
             },
             {
                 "Rank": 193,
-                "Nombre": "Desmond Bane",
-                "Team": "ORL",
-                "Hoy": 0,
-                "Total": 982,
-                "Diff": "1",
-                "Antece": "LaMelo Ball",
-                "Nota": "A tiro de 1",
+                "Nombre": "LaMelo Ball",
+                "Team": "MIN",
+                "Hoy": 1,
+                "Total": 983,
+                "Diff": "",
+                "Antece": "Desmond Bane",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1555,9 +1555,9 @@
                 "Rank": 25,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 3393,
-                "Diff": "40",
+                "Hoy": 11,
+                "Total": 3395,
+                "Diff": "38",
                 "Antece": "Terry Catledge",
                 "game_status": "playing"
             },
@@ -1575,9 +1575,9 @@
                 "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2792,
-                "Diff": "208",
+                "Hoy": 5,
+                "Total": 2793,
+                "Diff": "207",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1625,9 +1625,9 @@
                 "Rank": 14,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1181,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 1182,
+                "Diff": "2",
                 "Antece": "D.J. Augustin",
                 "game_status": "playing"
             },
@@ -2125,9 +2125,9 @@
                 "Rank": 25,
                 "Nombre": "Dyson Daniels",
                 "Stat": "STL",
-                "Hoy": 4,
-                "Total": 382,
-                "Diff": "3",
+                "Hoy": 5,
+                "Total": 383,
+                "Diff": "2",
                 "Antece": "Marvin Williams",
                 "game_status": "playing"
             },
@@ -2262,13 +2262,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Karl-Anthony Towns (19 points today) has passed Joe Dumars and is now ranked 122nd all-time with 16,403.",
-            "foto": [
-                "collages/1792547252338595_collage_1792547252246891.png"
-            ],
-            "timestamp": 1792547252
-        },
         {
             "texto": "Karl-Anthony Towns (3 three-pointers today) has passed Jae Crowder and is now ranked 106th all-time with 1,233.",
             "foto": [
@@ -2961,6 +2954,13 @@
                 "collages/1792801550004225_collage_1792801549888263.png"
             ],
             "timestamp": 1792801550
+        },
+        {
+            "texto": "Desmond Bane (1 three-pointer today) has passed Matt Barnes and is now ranked 192nd all-time with 983.",
+            "foto": [
+                "collages/1792801824821695_collage_1792801824722814.png"
+            ],
+            "timestamp": 1792801824
         }
     ],
     "notificaciones_franchise": [
@@ -3665,7 +3665,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2003,
+    "total_notificaciones_historicas": 2004,
     "total_franchise_historicas": 601,
-    "cache_buster": 1792801780
+    "cache_buster": 1792801825
 }
