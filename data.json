@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:24:15",
+    "ultima_actualizacion": "05:26:32",
     "tablas": {
         "pts": [
             {
@@ -557,13 +557,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 119,
+                "Rank": 120,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 932,
+                "Hoy": 0,
+                "Total": 931,
                 "Diff": "",
-                "Antece": "Chris Bosh",
+                "Antece": "Chris Kaman",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1641,13 +1641,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 147,
+                "Rank": 146,
                 "Nombre": "Marcus Smart",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1082,
+                "Hoy": 1,
+                "Total": 1083,
                 "Diff": "",
-                "Antece": "Kevin Johnson",
+                "Antece": "Josh Smith",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -2061,7 +2061,7 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "BLK",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 931,
                 "Diff": "69",
                 "Antece": "1000",
@@ -2549,9 +2549,9 @@
                 "Rank": 17,
                 "Nombre": "Herbert Jones",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1105,
-                "Diff": "27",
+                "Hoy": 1,
+                "Total": 1106,
+                "Diff": "26",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -3963,13 +3963,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Michael Porter Jr. (4 three-pointers today) has passed OG Anunoby and is now ranked 176th all-time with 1,023.",
-            "foto": [
-                "collages/1792631548644618_collage_1792631548550856.png"
-            ],
-            "timestamp": 1792631548
-        },
-        {
             "texto": "Norman Powell (2 three-pointers today) has passed Marco Belinelli and is now ranked 111th all-time with 1,217.",
             "foto": [
                 "collages/1792631757810249_collage_1792631757716505.png"
@@ -4661,6 +4654,13 @@
                 "collages/1792812254867121_collage_1792812254768460.png"
             ],
             "timestamp": 1792812254
+        },
+        {
+            "texto": "Marcus Smart (1 steal today) has passed Kevin Johnson and is now ranked 146th all-time with 1,083.",
+            "foto": [
+                "collages/1792812392265829_collage_1792812392166266.png"
+            ],
+            "timestamp": 1792812392
         }
     ],
     "notificaciones_franchise": [
@@ -5365,7 +5365,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2030,
+    "total_notificaciones_historicas": 2031,
     "total_franchise_historicas": 609,
-    "cache_buster": 1792812255
+    "cache_buster": 1792812392
 }
