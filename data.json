@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:42:50",
+    "ultima_actualizacion": "02:43:36",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 74,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 13,
-                "Total": 18461,
-                "Diff": "117",
+                "Hoy": 15,
+                "Total": 18463,
+                "Diff": "115",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -714,24 +714,24 @@
             },
             {
                 "Rank": 192,
-                "Nombre": "Desmond Bane",
-                "Team": "ORL",
-                "Hoy": 1,
-                "Total": 983,
-                "Diff": "5",
+                "Nombre": "LaMelo Ball",
+                "Team": "MIN",
+                "Hoy": 2,
+                "Total": 984,
+                "Diff": "4",
                 "Antece": "Leandro Barbosa",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 193,
-                "Nombre": "LaMelo Ball",
-                "Team": "MIN",
+                "Nombre": "Desmond Bane",
+                "Team": "ORL",
                 "Hoy": 1,
                 "Total": 983,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "LaMelo Ball",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1311,9 +1311,9 @@
                 "Rank": 4,
                 "Nombre": "Anthony Edwards",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1828,
-                "Diff": "145",
+                "Hoy": 3,
+                "Total": 1829,
+                "Diff": "144",
                 "Antece": "Pooh Richardson",
                 "game_status": "playing"
             },
@@ -1914,13 +1914,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 7,
+                "Rank": 6,
                 "Nombre": "Scottie Barnes",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 384,
-                "Diff": "0",
-                "Antece": "Chris Boucher",
+                "Hoy": 2,
+                "Total": 385,
+                "Diff": "15",
+                "Antece": "400",
                 "game_status": "playing"
             },
             {
@@ -2965,13 +2965,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "LaMelo Ball today becomes the 20th player to reach 300 games with Hornets.",
-            "foto": [],
-            "timestamp": 1775430761,
-            "team": "CHA",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Paolo Banchero (1 block today) has passed Kyle O'Quinn and is now ranked 19th in Magic history with 154.",
             "foto": [],
             "timestamp": 1775430962,
@@ -3663,9 +3656,16 @@
             "timestamp": 1792799033,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Scottie Barnes (2 blocks today) has passed Chris Boucher and is now ranked 6th in Raptors history with 385.",
+            "foto": [],
+            "timestamp": 1792802616,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2005,
-    "total_franchise_historicas": 601,
-    "cache_buster": 1792802570
+    "total_franchise_historicas": 602,
+    "cache_buster": 1792802616
 }
