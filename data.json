@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:57",
+    "ultima_actualizacion": "03:02:43",
     "tablas": {
         "pts": [
             {
@@ -149,11 +149,11 @@
                 "Rank": 196,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 18,
-                "Total": 14163,
-                "Diff": "4",
+                "Hoy": 22,
+                "Total": 14167,
+                "Diff": "",
                 "Antece": "Eric Gordon",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -228,9 +228,9 @@
                 "Rank": 63,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 2,
-                "Total": 8890,
-                "Diff": "84",
+                "Hoy": 3,
+                "Total": 8891,
+                "Diff": "83",
                 "Antece": "Larry Bird",
                 "Nota": "",
                 "game_status": "playing"
@@ -584,9 +584,9 @@
                 "Rank": 47,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 1594,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 1595,
+                "Diff": "5",
                 "Antece": "1600",
                 "Nota": "",
                 "game_status": "playing"
@@ -1012,14 +1012,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 79,
+                "Rank": 78,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 8,
-                "Total": 4889,
-                "Diff": "",
-                "Antece": "Doc Rivers",
-                "Nota": "Mismo total",
+                "Hoy": 9,
+                "Total": 4890,
+                "Diff": "3",
+                "Antece": "Nate McMillan",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1331,9 +1331,9 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 14150,
-                "Diff": "350",
+                "Hoy": 22,
+                "Total": 14154,
+                "Diff": "346",
                 "Antece": "14500",
                 "game_status": "playing"
             },
@@ -1401,9 +1401,9 @@
                 "Rank": 2,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 1594,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 1595,
+                "Diff": "5",
                 "Antece": "1600",
                 "game_status": "playing"
             },
@@ -1699,7 +1699,7 @@
                 "Stat": "REB",
                 "Hoy": 6,
                 "Total": 1842,
-                "Diff": "84",
+                "Diff": "85",
                 "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
@@ -1717,9 +1717,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 589,
-                "Diff": "11",
+                "Hoy": 3,
+                "Total": 590,
+                "Diff": "10",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -1869,9 +1869,9 @@
                 "Rank": 14,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 396,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 397,
+                "Diff": "3",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2051,9 +2051,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 388,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 389,
+                "Diff": "11",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2781,13 +2781,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tyler Herro (1 three-pointer today) has passed Kelly Oubre Jr. and is now ranked 158th all-time with 1,069.",
-            "foto": [
-                "collages/1792625397357472_collage_1792625397279360.png"
-            ],
-            "timestamp": 1792625397
-        },
-        {
             "texto": "LaMelo Ball (1 three-pointer today) has passed Al Harrington and is now ranked 194th all-time with 978.",
             "foto": [
                 "collages/1792626324810493_collage_1792626324701119.png"
@@ -3479,6 +3472,13 @@
                 "collages/1792803580419302_collage_1792803580286377.png"
             ],
             "timestamp": 1792803580
+        },
+        {
+            "texto": "📢🔝💯 Trae Young (9 assists today) has passed Doc Rivers and is now ranked 78th all-time with 4,890.",
+            "foto": [
+                "collages/1792803763647104_collage_1792803763498153.png"
+            ],
+            "timestamp": 1792803763
         }
     ],
     "notificaciones_franchise": [
@@ -4183,7 +4183,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2010,
+    "total_notificaciones_historicas": 2011,
     "total_franchise_historicas": 603,
-    "cache_buster": 1792803717
+    "cache_buster": 1792803763
 }
