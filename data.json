@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:01:07",
+    "ultima_actualizacion": "01:01:50",
     "tablas": {
         "pts": [
             {
@@ -362,25 +362,25 @@
             },
             {
                 "Rank": 177,
-                "Nombre": "Michael Porter Jr.",
-                "Team": "BKN",
-                "Hoy": 0,
+                "Nombre": "Grayson Allen",
+                "Team": "CHA",
+                "Hoy": 2,
                 "Total": 1024,
                 "Diff": "2",
                 "Antece": "Joe Harris",
                 "Nota": "",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
                 "Rank": 178,
-                "Nombre": "Grayson Allen",
-                "Team": "CHA",
-                "Hoy": 1,
-                "Total": 1023,
-                "Diff": "1",
-                "Antece": "Michael Porter Jr.",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "Nombre": "Michael Porter Jr.",
+                "Team": "BKN",
+                "Hoy": 0,
+                "Total": 1024,
+                "Diff": "",
+                "Antece": "Grayson Allen",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
             },
             {
                 "Rank": 205,
@@ -856,13 +856,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Fred VanVleet (5 assists today) has passed Richard Hamilton and is now ranked 222nd all-time with 3,126.",
-            "foto": [
-                "collages/1792634421217019_collage_1792634421123271.png"
-            ],
-            "timestamp": 1792634421
-        },
         {
             "texto": "📢🔝💯 Kawhi Leonard (2 three-pointers today) has passed Dan Majerle and is now ranked 74th all-time with 1,361.",
             "foto": [
@@ -1555,6 +1548,13 @@
                 "collages/1792880288877952_collage_1792880288778378.png"
             ],
             "timestamp": 1792880288
+        },
+        {
+            "texto": "Grayson Allen (2 three-pointers today) has passed OG Anunoby and is now ranked 177th all-time with 1,024.",
+            "foto": [
+                "collages/1792882910461744_collage_1792882910337798.png"
+            ],
+            "timestamp": 1792882910
         }
     ],
     "notificaciones_franchise": [
@@ -2259,7 +2259,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2036,
+    "total_notificaciones_historicas": 2037,
     "total_franchise_historicas": 612,
-    "cache_buster": 1792882867
+    "cache_buster": 1792882910
 }
