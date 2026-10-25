@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:01:36",
+    "ultima_actualizacion": "02:02:56",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 29358,
-                "Diff": "642",
+                "Hoy": 4,
+                "Total": 29359,
+                "Diff": "641",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -135,14 +135,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 220,
+                "Rank": 219,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 13516,
-                "Diff": "",
-                "Antece": "Dave Cowens",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 13517,
+                "Diff": "32",
+                "Antece": "Khris Middleton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1627,13 +1627,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Marcus Smart (1 steal today) has passed Dwight Howard and Michael Adams and is now ranked 147th all-time with 1,082.",
-            "foto": [
-                "collages/1792635887545076_collage_1792635887466955.png"
-            ],
-            "timestamp": 1792635887
-        },
-        {
             "texto": "Marcus Smart (2 three-pointers today) has passed Coby White and is now ranked 145th all-time with 1,101.",
             "foto": [
                 "collages/1792635993107425_collage_1792635993013681.png"
@@ -2325,6 +2318,13 @@
                 "collages/1792886316402590_collage_1792886316304623.png"
             ],
             "timestamp": 1792886316
+        },
+        {
+            "texto": "📢HOF🏛️ Jaylen Brown (3 points today) has passed Dave Cowens and is now ranked 219th all-time with 13,517.",
+            "foto": [
+                "collages/1792886575949641_collage_1792886575840691.png"
+            ],
+            "timestamp": 1792886575
         }
     ],
     "notificaciones_franchise": [
@@ -3029,7 +3029,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2042,
+    "total_notificaciones_historicas": 2043,
     "total_franchise_historicas": 612,
-    "cache_buster": 1792886496
+    "cache_buster": 1792886576
 }
