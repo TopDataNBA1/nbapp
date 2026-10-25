@@ -693,6 +693,8 @@
         let currentSeason = 'regular';
         let currentDataFile = 'data.json';
         let currentHistoricoFile = 'notificaciones_historicas.json';
+        const RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
+        function rawUrl(file) { return RAW_BASE + file + '?t=' + Date.now(); }
 
         function switchSeason(season) {
             currentSeason = season;
@@ -850,7 +852,7 @@
             const {cest, est} = getTimes();
             document.getElementById('clock-line').textContent = `${est} ET • ${cest} CEST`;
 
-            fetch(currentDataFile + '?v=' + new Date().getTime())
+            fetch(rawUrl(currentDataFile))
                 .then(r => r.ok ? r.json() : Promise.reject())
                 .then(data => {
                     const tablesDiv = document.getElementById('tables');
@@ -1105,7 +1107,7 @@
             const list = document.getElementById('moves-list');
             if (!list) return;
 
-            fetch(currentDataFile + '?v=' + new Date().getTime())
+            fetch(rawUrl(currentDataFile))
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones || []).reverse();
@@ -1197,7 +1199,7 @@
             const list = document.getElementById('teams-moves-list');
             if (!list) return;
 
-            fetch(currentDataFile + '?v=' + new Date().getTime())
+            fetch(rawUrl(currentDataFile))
                 .then(r => r.json())
                 .then(data => {
                     const notis = (data.notificaciones_franchise || []).reverse();
@@ -1257,7 +1259,7 @@
             const tablesDiv = document.getElementById('teams-tables');
             if (!tablesDiv) return;
 
-            fetch(currentDataFile + '?v=' + new Date().getTime())
+            fetch(rawUrl(currentDataFile))
                 .then(r => r.json())
                 .then(data => {
                     const teamsData = data.tablas_teams || {};
@@ -1448,7 +1450,7 @@
     async function checkLatestMoves() {
         console.log("CHECK ejecutado");
         try {
-            const response = await fetch(currentDataFile + "?cache=" + Date.now());
+            const response = await fetch(rawUrl(currentDataFile));
             const data = await response.json();
 
             const notis = data.notificaciones;
@@ -1868,7 +1870,7 @@ let playerTeamsMap = null;
 async function loadTopMovesData() {
     if (topMovesData) return topMovesData;
     try {
-        const response = await fetch(currentHistoricoFile + '?t=' + Date.now());
+        const response = await fetch(rawUrl(currentHistoricoFile));
         topMovesData = await response.json();
         return topMovesData;
     } catch (e) {
@@ -1880,7 +1882,7 @@ async function loadTopMovesData() {
 async function loadPlayerTeams() {
     if (playerTeamsMap) return playerTeamsMap;
     try {
-        const response = await fetch(currentDataFile + '?t=' + Date.now());
+        const response = await fetch(rawUrl(currentDataFile));
         const data = await response.json();
         playerTeamsMap = {};
         // Recórrer totes les taules per obtenir jugador -> equip
