@@ -1121,7 +1121,8 @@
 
                     list.innerHTML = notis.map(n => {
                         const texto = n.texto || "";
-                        const fotos = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+                        const fotosRaw = Array.isArray(n.foto) ? n.foto : (n.foto ? [n.foto] : []);
+                        const fotos = fotosRaw.map(f => f && !f.startsWith('http') ? RAW_BASE + f : f);
                         const cuando = n.timestamp ? timeAgo(n.timestamp) : "";
 
                         // SIN FOTOS → solo texto
