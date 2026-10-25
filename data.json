@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:43:20",
+    "ultima_actualizacion": "22:44:36",
     "tablas": {
         "pts": [
             {
@@ -89,9 +89,9 @@
                 "Rank": 92,
                 "Nombre": "Lauri Markkanen",
                 "Team": "UTA",
-                "Hoy": 1,
-                "Total": 1263,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 1264,
+                "Diff": "7",
                 "Antece": "Bogdan Bogdanović",
                 "Nota": "",
                 "game_status": "playing"
@@ -374,9 +374,9 @@
                 "Rank": 24,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 4993,
-                "Diff": "7",
+                "Hoy": 12,
+                "Total": 4996,
+                "Diff": "4",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -391,22 +391,22 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Isaiah Collier",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 872,
-                "Diff": "0",
-                "Antece": "Trey Burke",
+                "Hoy": 4,
+                "Total": 873,
+                "Diff": "46",
+                "Antece": "Mehmet Okur",
                 "game_status": "playing"
             },
             {
                 "Rank": 6,
                 "Nombre": "Lauri Markkanen",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 629,
-                "Diff": "60",
+                "Hoy": 2,
+                "Total": 630,
+                "Diff": "59",
                 "Antece": "Gordon Hayward",
                 "game_status": "playing"
             },
@@ -517,13 +517,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Karl-Anthony Towns (6 rebounds today) has passed Larry Foust and is now ranked 81st all-time with 8,043.",
-            "foto": [
-                "collages/1792799817767294_collage_1792799817641340.png"
-            ],
-            "timestamp": 1792799817
-        },
         {
             "texto": "Grayson Allen (2 three-pointers today) has passed Dillon Brooks and Luke Kennard and is now ranked 179th all-time with 1,021.",
             "foto": [
@@ -1216,16 +1209,16 @@
                 "collages/1792964332728139_collage_1792964332627555.png"
             ],
             "timestamp": 1792964332
+        },
+        {
+            "texto": "📢🔝💯 Lauri Markkanen (2 three-pointers today) has passed Robert Covington and is now ranked 92nd all-time with 1,264.",
+            "foto": [
+                "collages/1792964676794713_collage_1792964676689933.png"
+            ],
+            "timestamp": 1792964676
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Jarrett Allen (2 blocks today) has passed Roy Hinson and is now ranked 8th in Cavaliers history with 431.",
-            "foto": [],
-            "timestamp": 1775525588,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Toumani Camara (8 three-pointers today) has passed Martell Webster and is now ranked 14th in Trail Blazers history with 404.",
             "foto": [],
@@ -1918,9 +1911,16 @@
             "timestamp": 1792964166,
             "team": "UTA",
             "type": "franchise"
+        },
+        {
+            "texto": "Isaiah Collier (4 assists today) has passed Trey Burke and is now ranked 23rd in Jazz history with 873.",
+            "foto": [],
+            "timestamp": 1792964676,
+            "team": "UTA",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2080,
-    "total_franchise_historicas": 619,
-    "cache_buster": 1792964600
+    "total_notificaciones_historicas": 2081,
+    "total_franchise_historicas": 620,
+    "cache_buster": 1792964676
 }
