@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:08:17",
+    "ultima_actualizacion": "03:08:59",
     "tablas": {
         "pts": [
             {
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 13,
-                "Total": 32660,
-                "Diff": "340",
+                "Hoy": 16,
+                "Total": 32663,
+                "Diff": "337",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -94,9 +94,9 @@
                 "Rank": 112,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 3,
-                "Total": 16873,
-                "Diff": "87",
+                "Hoy": 5,
+                "Total": 16875,
+                "Diff": "85",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -507,9 +507,9 @@
                 "Rank": 10,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 2,
-                "Total": 2383,
-                "Diff": "17",
+                "Hoy": 3,
+                "Total": 2384,
+                "Diff": "16",
                 "Antece": "2400",
                 "Nota": "",
                 "game_status": "playing"
@@ -1160,11 +1160,11 @@
                 "Rank": 168,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 1042,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1044,
+                "Diff": "",
                 "Antece": "Darwin Cook",
-                "Nota": "",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1469,9 +1469,9 @@
                 "Rank": 3,
                 "Nombre": "Nikola Jokić",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 1041,
-                "Diff": "29",
+                "Hoy": 2,
+                "Total": 1043,
+                "Diff": "27",
                 "Antece": "T.R. Dunn",
                 "game_status": "playing"
             },
@@ -1673,9 +1673,9 @@
                 "Rank": 13,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1610,
-                "Diff": "89",
+                "Hoy": 6,
+                "Total": 1611,
+                "Diff": "88",
                 "Antece": "Tracy McGrady",
                 "game_status": "playing"
             },
@@ -1924,13 +1924,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Zion Williamson",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 280,
-                "Diff": "0",
-                "Antece": "Baron Davis",
+                "Hoy": 2,
+                "Total": 281,
+                "Diff": "19",
+                "Antece": "300",
                 "game_status": "playing"
             },
             {
@@ -3167,13 +3167,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Onyeka Okongwu (2 three-pointers today) has passed DeMarre Carroll and is now ranked 24th in Hawks history with 218.",
-            "foto": [],
-            "timestamp": 1775523285,
-            "team": "ATL",
-            "type": "franchise"
-        },
-        {
             "texto": "📢HOF🏛️ Jalen Duren (8 rebounds today) has passed Dave Bing and is now ranked 19th in Pistons history with 2,829.",
             "foto": [],
             "timestamp": 1775525204,
@@ -3865,9 +3858,16 @@
             "timestamp": 1792890498,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Zion Williamson (2 steals today) has passed Baron Davis and is now ranked 8th in Pelicans history with 281.",
+            "foto": [],
+            "timestamp": 1792894139,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2063,
-    "total_franchise_historicas": 616,
-    "cache_buster": 1792894097
+    "total_franchise_historicas": 617,
+    "cache_buster": 1792894139
 }
