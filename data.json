@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:07:36",
+    "ultima_actualizacion": "02:08:18",
     "tablas": {
         "pts": [
             {
@@ -171,11 +171,11 @@
                 "Rank": 250,
                 "Nombre": "De'Aaron Fox",
                 "Team": "SAS",
-                "Hoy": 10,
-                "Total": 12778,
-                "Diff": "3",
+                "Hoy": 12,
+                "Total": 12780,
+                "Diff": "1",
                 "Antece": "Lamar Odom",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -1195,10 +1195,10 @@
                 "Rank": 13,
                 "Nombre": "Evan Mobley",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 6,
+                "Total": 3000,
+                "Diff": "57",
+                "Antece": "Bingo Smith",
                 "game_status": "playing"
             },
             {
@@ -2881,13 +2881,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jalen Suggs (3 steals today) has passed Elfrid Payton and is now ranked 13th in Magic history with 384.",
-            "foto": [],
-            "timestamp": 1775522128,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
             "texto": "Onyeka Okongwu (2 three-pointers today) has passed DeMarre Carroll and is now ranked 24th in Hawks history with 218.",
             "foto": [],
             "timestamp": 1775523285,
@@ -3579,9 +3572,16 @@
             "timestamp": 1792890414,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Evan Mobley (6 rebounds today) becomes the 13th player to reach 3,000 rebounds with Cavaliers.",
+            "foto": [],
+            "timestamp": 1792890498,
+            "team": "CLE",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2049,
-    "total_franchise_historicas": 615,
-    "cache_buster": 1792890456
+    "total_franchise_historicas": 616,
+    "cache_buster": 1792890498
 }
