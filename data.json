@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:15:49",
+    "ultima_actualizacion": "02:16:48",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 60,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 2,
-                "Total": 19430,
-                "Diff": "30",
+                "Hoy": 4,
+                "Total": 19432,
+                "Diff": "28",
                 "Antece": "Terry Cummings",
                 "Nota": "",
                 "game_status": "playing"
@@ -72,9 +72,9 @@
                 "Rank": 157,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 15310,
-                "Diff": "14",
+                "Hoy": 8,
+                "Total": 15312,
+                "Diff": "12",
                 "Antece": "Sam Perkins",
                 "Nota": "",
                 "game_status": "playing"
@@ -672,11 +672,11 @@
                 "Rank": 221,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 921,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 922,
+                "Diff": "1",
                 "Antece": "Darrell Armstrong",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -957,9 +957,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 7044,
-                "Diff": "213",
+                "Hoy": 8,
+                "Total": 7046,
+                "Diff": "211",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -1017,10 +1017,10 @@
                 "Rank": 18,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 399,
-                "Diff": "1",
-                "Antece": "400",
+                "Hoy": 1,
+                "Total": 400,
+                "Diff": "8",
+                "Antece": "Phil Hubbard",
                 "game_status": "playing"
             },
             {
@@ -1273,9 +1273,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 5,
-                "Total": 8187,
-                "Diff": "313",
+                "Hoy": 8,
+                "Total": 8190,
+                "Diff": "310",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -1343,9 +1343,9 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 917,
-                "Diff": "83",
+                "Hoy": 2,
+                "Total": 918,
+                "Diff": "82",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -2329,13 +2329,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Alperen Şengün (17 points today) becomes the 17th player to reach 6,000 points with Rockets.",
-            "foto": [],
-            "timestamp": 1775446848,
-            "team": "HOU",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Alperen Şengün (22 points today) has passed Vernon Maxwell and is now ranked 16th in Rockets history with 6,005.",
             "foto": [],
             "timestamp": 1775449992,
@@ -3027,9 +3020,16 @@
             "timestamp": 1792816370,
             "team": "HOU",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (1 steal today) becomes the 18th player to reach 400 steals with Cavaliers.",
+            "foto": [],
+            "timestamp": 1792887408,
+            "team": "CLE",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2046,
-    "total_franchise_historicas": 612,
-    "cache_buster": 1792887349
+    "total_franchise_historicas": 613,
+    "cache_buster": 1792887408
 }
