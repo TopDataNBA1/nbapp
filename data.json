@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:08:59",
+    "ultima_actualizacion": "03:09:41",
     "tablas": {
         "pts": [
             {
@@ -114,25 +114,25 @@
             },
             {
                 "Rank": 159,
+                "Nombre": "Julius Randle",
+                "Team": "BKN",
+                "Hoy": 21,
+                "Total": 15238,
+                "Diff": "53",
+                "Antece": "John Drew",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 160,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
                 "Hoy": 4,
                 "Total": 15237,
-                "Diff": "54",
-                "Antece": "John Drew",
-                "Nota": "",
-                "game_status": "finished"
-            },
-            {
-                "Rank": 160,
-                "Nombre": "Julius Randle",
-                "Team": "BKN",
-                "Hoy": 19,
-                "Total": 15236,
                 "Diff": "1",
-                "Antece": "Andrew Wiggins",
+                "Antece": "Julius Randle",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "finished"
             },
             {
                 "Rank": 177,
@@ -228,9 +228,9 @@
                 "Rank": 68,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 4,
-                "Total": 8662,
-                "Diff": "47",
+                "Hoy": 5,
+                "Total": 8663,
+                "Diff": "46",
                 "Antece": "Leroy Ellis",
                 "Nota": "",
                 "game_status": "playing"
@@ -606,11 +606,11 @@
                 "Rank": 70,
                 "Nombre": "Jamal Murray",
                 "Team": "DEN",
-                "Hoy": 3,
-                "Total": 1394,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 1395,
+                "Diff": "",
                 "Antece": "Brent Barry",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1419,9 +1419,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 11544,
-                "Diff": "448",
+                "Hoy": 19,
+                "Total": 11547,
+                "Diff": "445",
                 "Antece": "David Thompson",
                 "game_status": "playing"
             },
@@ -1499,9 +1499,9 @@
                 "Rank": 1,
                 "Nombre": "Jamal Murray",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 1394,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 1395,
+                "Diff": "5",
                 "Antece": "1400",
                 "game_status": "playing"
             },
@@ -1633,9 +1633,9 @@
                 "Rank": 16,
                 "Nombre": "Alperen Şengün",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 6057,
-                "Diff": "116",
+                "Hoy": 10,
+                "Total": 6059,
+                "Diff": "114",
                 "Antece": "Jalen Green",
                 "game_status": "playing"
             },
@@ -2465,13 +2465,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Kentavious Caldwell-Pope today surpasses Dick Snyder and Nate Thurmond and now ranked 195th all time with 965 games",
-            "foto": [
-                "collages/1792714619773475_collage_1792714619695351.png"
-            ],
-            "timestamp": 1792714619
-        },
-        {
             "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Andrew Wiggins and is now ranked 88th all-time with 1,287.",
             "foto": [
                 "collages/1792715740085523_collage_1792715739991762.png"
@@ -3163,6 +3156,13 @@
                 "collages/1792894054788510_collage_1792894054666554.png"
             ],
             "timestamp": 1792894054
+        },
+        {
+            "texto": "Julius Randle (21 points today) has passed Andrew Wiggins and is now ranked 159th all-time with 15,238.",
+            "foto": [
+                "collages/1792894181709692_collage_1792894181605270.png"
+            ],
+            "timestamp": 1792894181
         }
     ],
     "notificaciones_franchise": [
@@ -3867,7 +3867,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2063,
+    "total_notificaciones_historicas": 2064,
     "total_franchise_historicas": 617,
-    "cache_buster": 1792894139
+    "cache_buster": 1792894181
 }
