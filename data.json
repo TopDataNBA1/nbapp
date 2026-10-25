@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:24:10",
+    "ultima_actualizacion": "02:26:54",
     "tablas": {
         "pts": [
             {
@@ -138,9 +138,9 @@
                 "Rank": 219,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 8,
-                "Total": 13522,
-                "Diff": "27",
+                "Hoy": 11,
+                "Total": 13525,
+                "Diff": "24",
                 "Antece": "Khris Middleton",
                 "Nota": "",
                 "game_status": "playing"
@@ -494,24 +494,24 @@
             },
             {
                 "Rank": 88,
-                "Nombre": "Andrew Wiggins",
-                "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1287,
-                "Diff": "10",
+                "Nombre": "Jaylen Brown",
+                "Team": "PHI",
+                "Hoy": 1,
+                "Total": 1288,
+                "Diff": "9",
                 "Antece": "Terry Porter",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 89,
-                "Nombre": "Jaylen Brown",
-                "Team": "PHI",
+                "Nombre": "Andrew Wiggins",
+                "Team": "MIA",
                 "Hoy": 0,
                 "Total": 1287,
-                "Diff": "",
-                "Antece": "Andrew Wiggins",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Jaylen Brown",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1385,9 +1385,9 @@
                 "Rank": 22,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 5216,
-                "Diff": "81",
+                "Hoy": 6,
+                "Total": 5218,
+                "Diff": "79",
                 "Antece": "Billy Paultz",
                 "game_status": "playing"
             },
@@ -1626,13 +1626,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jrue Holiday (2 points today) has passed Jack Sikma and is now ranked 104th all-time with 17,289.",
-            "foto": [
-                "collages/1792636520701013_collage_1792636520607280.png"
-            ],
-            "timestamp": 1792636520
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Al Horford today surpasses Patrick Ewing and Terry Cummings and now ranked 58th all time with 1,184 games",
             "foto": [
@@ -2325,6 +2318,13 @@
                 "collages/1792887760709809_collage_1792887760610842.png"
             ],
             "timestamp": 1792887760
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Andrew Wiggins and is now ranked 88th all-time with 1,288.",
+            "foto": [
+                "collages/1792888014188622_collage_1792888014068663.png"
+            ],
+            "timestamp": 1792888014
         }
     ],
     "notificaciones_franchise": [
@@ -3029,7 +3029,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2047,
+    "total_notificaciones_historicas": 2048,
     "total_franchise_historicas": 613,
-    "cache_buster": 1792887850
+    "cache_buster": 1792888014
 }
