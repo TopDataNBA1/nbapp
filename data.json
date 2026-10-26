@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:44:49",
+    "ultima_actualizacion": "00:45:34",
     "tablas": {
         "pts": [
             {
@@ -50,9 +50,9 @@
                 "Rank": 74,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 18472,
-                "Diff": "106",
+                "Hoy": 2,
+                "Total": 18474,
+                "Diff": "104",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -105,9 +105,9 @@
                 "Rank": 160,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 15237,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 15239,
+                "Diff": "11",
                 "Antece": "Julius Randle",
                 "Nota": "",
                 "game_status": "playing"
@@ -625,14 +625,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 191,
+                "Rank": 190,
                 "Nombre": "LaMelo Ball",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 988,
-                "Diff": "",
-                "Antece": "Jerry Stackhouse",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 989,
+                "Diff": "1",
+                "Antece": "Joe Dumars",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1105,9 +1105,9 @@
                 "Rank": 5,
                 "Nombre": "Evan Mobley",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 532,
-                "Diff": "68",
+                "Hoy": 1,
+                "Total": 533,
+                "Diff": "67",
                 "Antece": "600",
                 "game_status": "playing"
             },
@@ -1371,7 +1371,7 @@
                 "Stat": "G",
                 "Hoy": 1,
                 "Total": 440,
-                "Diff": "2",
+                "Diff": "3",
                 "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
@@ -1694,13 +1694,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Matt Barnes and is now ranked 193rd all-time with 983.",
-            "foto": [
-                "collages/1792803441302431_collage_1792803441193442.png"
-            ],
-            "timestamp": 1792803441
-        },
         {
             "texto": "Jalen Brunson (2 three-pointers today) has passed Alec Burks and is now ranked 197th all-time with 976.",
             "foto": [
@@ -2393,6 +2386,13 @@
                 "collages/1793058288965185_collage_1793058288884241.png"
             ],
             "timestamp": 1793058288
+        },
+        {
+            "texto": "LaMelo Ball (1 three-pointer today) has passed Jerry Stackhouse and Leandro Barbosa and is now ranked 190th all-time with 989.",
+            "foto": [
+                "collages/1793058334070093_collage_1793058333995125.png"
+            ],
+            "timestamp": 1793058334
         }
     ],
     "notificaciones_franchise": [
@@ -3097,7 +3097,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2108,
+    "total_notificaciones_historicas": 2109,
     "total_franchise_historicas": 627,
-    "cache_buster": 1793058289
+    "cache_buster": 1793058334
 }
