@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:49:26",
+    "ultima_actualizacion": "01:50:43",
     "tablas": {
         "pts": [
             {
@@ -28,9 +28,9 @@
                 "Rank": 93,
                 "Nombre": "Nikola Vučević",
                 "Team": "ORL",
-                "Hoy": 3,
-                "Total": 17687,
-                "Diff": "13",
+                "Hoy": 5,
+                "Total": 17689,
+                "Diff": "11",
                 "Antece": "Shawn Marion",
                 "Nota": "",
                 "game_status": "playing"
@@ -582,24 +582,24 @@
             },
             {
                 "Rank": 192,
-                "Nombre": "Desmond Bane",
-                "Team": "ORL",
+                "Nombre": "LaMelo Ball",
+                "Team": "MIN",
                 "Hoy": 3,
-                "Total": 986,
-                "Diff": "2",
+                "Total": 987,
+                "Diff": "1",
                 "Antece": "Leandro Barbosa",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
                 "Rank": 193,
-                "Nombre": "LaMelo Ball",
-                "Team": "MIN",
-                "Hoy": 2,
+                "Nombre": "Desmond Bane",
+                "Team": "ORL",
+                "Hoy": 3,
                 "Total": 986,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "LaMelo Ball",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -750,14 +750,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 135,
+                "Rank": 134,
                 "Nombre": "Kentavious Caldwell-Pope",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 1104,
-                "Diff": "1",
-                "Antece": "Sam Perkins",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1105,
+                "Diff": "4",
+                "Antece": "Stephen Jackson",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -875,9 +875,9 @@
                 "Rank": 14,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 1840,
-                "Diff": "82",
+                "Hoy": 5,
+                "Total": 1841,
+                "Diff": "81",
                 "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
@@ -1221,9 +1221,9 @@
                 "Rank": 3,
                 "Nombre": "Nikola Vučević",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 10426,
-                "Diff": "74",
+                "Hoy": 5,
+                "Total": 10428,
+                "Diff": "72",
                 "Antece": "10500",
                 "game_status": "playing"
             },
@@ -1483,9 +1483,9 @@
                 "Rank": 19,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 422,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 421,
+                "Diff": "4",
                 "Antece": "Jrue Holiday",
                 "game_status": "playing"
             },
@@ -1906,13 +1906,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Paul George today surpasses Goran Dragić and Rickey Green and now ranked 217th all time with 947 games",
-            "foto": [
-                "collages/1792801306959923_collage_1792801306838963.png"
-            ],
-            "timestamp": 1792801307
-        },
         {
             "texto": "Giannis Antetokounmpo (1 steal today) has passed Michael Finley and is now ranked 187th all-time with 997.",
             "foto": [
@@ -2605,6 +2598,13 @@
                 "collages/1792975333230027_collage_1792975333127898.png"
             ],
             "timestamp": 1792975333
+        },
+        {
+            "texto": "📢HOF🏛️ Kentavious Caldwell-Pope (1 steal today) has passed Rick Barry and is now ranked 134th all-time with 1,105.",
+            "foto": [
+                "collages/1792975843372540_collage_1792975843273941.png"
+            ],
+            "timestamp": 1792975843
         }
     ],
     "notificaciones_franchise": [
@@ -3309,7 +3309,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2100,
+    "total_notificaciones_historicas": 2101,
     "total_franchise_historicas": 626,
-    "cache_buster": 1792975766
+    "cache_buster": 1792975843
 }
