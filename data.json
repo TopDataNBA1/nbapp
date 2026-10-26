@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:30:30",
+    "ultima_actualizacion": "01:31:12",
     "tablas": {
         "pts": [
             {
@@ -78,6 +78,17 @@
                 "Antece": "Andrew Wiggins",
                 "Nota": "",
                 "game_status": "finished"
+            },
+            {
+                "Rank": 189,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 14388,
+                "Diff": "11",
+                "Antece": "Jo Jo White",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 218,
@@ -168,6 +179,17 @@
                 "Antece": "Lamar Odom",
                 "Nota": "",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 115,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 7133,
+                "Diff": "4",
+                "Antece": "Alonzo Mourning",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 120,
@@ -282,6 +304,17 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 167,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 786,
+                "Diff": "1",
+                "Antece": "Joel Embiid",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 226,
                 "Nombre": "Ivica Zubac",
                 "Team": "IND",
@@ -315,6 +348,17 @@
                 "Antece": "Kemba Walker",
                 "Nota": "",
                 "game_status": "finished"
+            },
+            {
+                "Rank": 43,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1638,
+                "Diff": "9",
+                "Antece": "Luka Dončić",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 48,
@@ -449,6 +493,17 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 153,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 1080,
+                "Diff": "1",
+                "Antece": "Tracy McGrady",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 159,
                 "Nombre": "Kelly Oubre Jr.",
                 "Team": "IND",
@@ -458,6 +513,17 @@
                 "Antece": "Derek Harper",
                 "Nota": "Mismo total",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 161,
+                "Nombre": "Malik Monk",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1062,
+                "Diff": "4",
+                "Antece": "George Hill",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 166,
@@ -614,6 +680,17 @@
                 "Antece": "Vern Fleming",
                 "Nota": "",
                 "game_status": "finished"
+            },
+            {
+                "Rank": 204,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 3258,
+                "Diff": "12",
+                "Antece": "J.J. Barea",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 223,
@@ -920,9 +997,9 @@
                 "Rank": 17,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 7477,
-                "Diff": "23",
+                "Hoy": 17,
+                "Total": 7479,
+                "Diff": "21",
                 "Antece": "7500",
                 "game_status": "playing"
             },
@@ -1667,6 +1744,38 @@
                 "game_status": "finished"
             }
         ],
+        "SAC": [
+            {
+                "Rank": 14,
+                "Nombre": "Domantas Sabonis",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 3466,
+                "Diff": "26",
+                "Antece": "Maurice Stokes",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 13,
+                "Nombre": "Domantas Sabonis",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1834,
+                "Diff": "27",
+                "Antece": "Jack Twyman",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Malik Monk",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 554,
+                "Diff": "20",
+                "Antece": "Keegan Murray",
+                "game_status": "not_started"
+            }
+        ],
         "DET": [
             {
                 "Rank": 9,
@@ -1781,6 +1890,18 @@
                 "Diff": "0",
                 "Antece": "Jordan Farmar",
                 "game_status": "finished"
+            }
+        ],
+        "MEM": [
+            {
+                "Rank": 15,
+                "Nombre": "Jaylen Wells",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 267,
+                "Diff": "26",
+                "Antece": "Tyus Jones",
+                "game_status": "not_started"
             }
         ]
     },
@@ -3190,5 +3311,5 @@
     ],
     "total_notificaciones_historicas": 2097,
     "total_franchise_historicas": 626,
-    "cache_buster": 1792974630
+    "cache_buster": 1792974672
 }
