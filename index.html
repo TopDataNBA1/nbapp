@@ -91,9 +91,19 @@
             filter:drop-shadow(0 0 6px #ff4655);
         }
 
-        .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
+        .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+        .status-left{display:flex;flex-direction:column;gap:2px;}
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
+
+        /* MORE DROPDOWN */
+        .more-dropdown{position:relative;flex-shrink:0;}
+        .more-btn{padding:8px 24px;font-family:'Orbitron',sans-serif;font-size:0.95em;color:#e0e0e0;background:rgba(255,255,255,0.05);border:2px solid rgba(255,70,85,0.3);border-radius:20px;cursor:pointer;transition:0.3s;}
+        .more-btn:hover{background:rgba(255,70,85,0.2);border-color:#ff4655;}
+        .more-menu{display:none;position:absolute;right:0;top:calc(100% + 6px);background:#1a1a2e;border:2px solid #ff4655;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.6);min-width:200px;z-index:999;}
+        .more-menu.open{display:block;}
+        .more-menu a{display:block;padding:11px 18px;font-family:'Orbitron',sans-serif;font-size:0.8em;color:#e0e0e0;text-decoration:none;transition:0.2s;white-space:nowrap;}
+        .more-menu a:hover{background:rgba(255,70,85,0.25);color:#ff4655;}
 
         /* MAIN TABS (Global / Franchise) */
         .main-tabs{max-width:900px;margin:10px auto 5px;display:flex;gap:8px;justify-content:center;}
@@ -480,8 +490,18 @@
     </div>           
 
     <div class="status-bar">
-        <div class="status-line1">ONLINE - Last update:</div>
-        <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
+        <div class="status-left">
+            <div class="status-line1">ONLINE - Last update:</div>
+            <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
+        </div>
+        <div class="more-dropdown">
+            <button class="more-btn" onclick="toggleMore(event)">More ▾</button>
+            <div class="more-menu" id="more-menu">
+                <a href="tabla_global__7_.html" target="_blank">Global Top 250 per team</a>
+                <a href="tabla_franchise__7_.html" target="_blank">Franchise Top 25 per team</a>
+                <a href="nba_timeline_v4__1_.html" target="_blank">Players timeline</a>
+            </div>
+        </div>
     </div>
 
     <!-- SELECTOR PLAYOFFS / REGULAR SEASON -->
@@ -497,6 +517,7 @@
         <button class="main-tab-btn" onclick="openMainTab('teams')">🏀 Teams</button>
         <button class="main-tab-btn" onclick="openMainTab('topmoves')">🏆 Top</button>
     </div>
+    <div style="text-align:center;color:#888;font-size:0.82em;margin:2px 0 6px;font-style:italic;">data at the start of this season</div>
 
     <!-- ==================== GLOBAL ==================== -->
     <div id="global" class="main-tab-content active">
@@ -728,6 +749,15 @@
             const activeTab = document.querySelector('.main-tab-content.active');
             if (activeTab) openMainTab(activeTab.id);
         }
+
+        // === MORE DROPDOWN ===
+        function toggleMore(e) {
+            e.stopPropagation();
+            document.getElementById('more-menu').classList.toggle('open');
+        }
+        document.addEventListener('click', function() {
+            document.getElementById('more-menu').classList.remove('open');
+        });
 
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
