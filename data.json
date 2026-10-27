@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:00:23",
+    "ultima_actualizacion": "01:01:07",
     "tablas": {
         "pts": [
             {
@@ -25,14 +25,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 60,
+                "Rank": 59,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 12,
-                "Total": 19459,
-                "Diff": "1",
-                "Antece": "Terry Cummings",
-                "Nota": "A tiro de 1",
+                "Hoy": 14,
+                "Total": 19461,
+                "Diff": "12",
+                "Antece": "Tony Parker",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -933,9 +933,9 @@
                 "Rank": 14,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 2331,
-                "Diff": "91",
+                "Hoy": 4,
+                "Total": 2332,
+                "Diff": "90",
                 "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
@@ -953,9 +953,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 661,
-                "Diff": "10",
+                "Hoy": 1,
+                "Total": 662,
+                "Diff": "9",
                 "Antece": "Danny Ainge",
                 "game_status": "playing"
             },
@@ -1695,13 +1695,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Giannis Antetokounmpo (3 assists today) has passed Randy Smith and is now ranked 95th all-time with 4,488.",
-            "foto": [
-                "collages/1792804176213537_collage_1792804176106059.png"
-            ],
-            "timestamp": 1792804176
-        },
-        {
             "texto": "📢🔝💯 Andrew Wiggins (1 three-pointer today) has passed Jaylen Brown and is now ranked 88th all-time with 1,287.",
             "foto": [
                 "collages/1792804176422868_collage_1792804176329541.png"
@@ -2393,6 +2386,13 @@
                 "collages/1793059223082012_collage_1793059222981066.png"
             ],
             "timestamp": 1793059223
+        },
+        {
+            "texto": "📢🔝💯 Anthony Davis (14 points today) has passed Terry Cummings and is now ranked 59th all-time with 19,461.",
+            "foto": [
+                "collages/1793059266964480_collage_1793059266852527.png"
+            ],
+            "timestamp": 1793059266
         }
     ],
     "notificaciones_franchise": [
@@ -3097,7 +3097,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2112,
+    "total_notificaciones_historicas": 2113,
     "total_franchise_historicas": 627,
-    "cache_buster": 1793059223
+    "cache_buster": 1793059267
 }
