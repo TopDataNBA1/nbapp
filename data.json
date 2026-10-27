@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:37",
+    "ultima_actualizacion": "02:27:20",
     "tablas": {
         "pts": [
             {
@@ -373,11 +373,11 @@
                 "Rank": 170,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 3,
-                "Total": 757,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 756,
+                "Diff": "2",
                 "Antece": "Oliver Miller",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -927,9 +927,9 @@
                 "Rank": 102,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 2,
-                "Total": 4371,
-                "Diff": "31",
+                "Hoy": 3,
+                "Total": 4372,
+                "Diff": "30",
                 "Antece": "Calvin Murphy",
                 "Nota": "",
                 "game_status": "playing"
@@ -1346,9 +1346,9 @@
                 "Rank": 8,
                 "Nombre": "Jarrett Allen",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 434,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 433,
+                "Diff": "17",
                 "Antece": "Jim Chones",
                 "game_status": "playing"
             },
@@ -1390,7 +1390,7 @@
                 "Stat": "PTS",
                 "Hoy": 13,
                 "Total": 6062,
-                "Diff": "121",
+                "Diff": "122",
                 "Antece": "Jalen Green",
                 "game_status": "playing"
             },
@@ -1967,13 +1967,13 @@
         ],
         "DAL": [
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Kyrie Irving",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 652,
-                "Diff": "0",
-                "Antece": "Deron Williams",
+                "Hoy": 3,
+                "Total": 653,
+                "Diff": "8",
+                "Antece": "Tim Hardaway Jr.",
                 "game_status": "playing"
             },
             {
@@ -2886,13 +2886,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Clint Capela today surpasses Rodney McCray and is now ranked 18th in Rockets history with 406 games.",
-            "foto": [],
-            "timestamp": 1775618912,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
             "texto": "Luguentz Dort (8 points today) becomes the 24th player to reach 5,000 points with Thunder.",
             "foto": [],
             "timestamp": 1775621173,
@@ -3584,9 +3577,16 @@
             "timestamp": 1793064045,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Kyrie Irving (3 assists today) has passed Deron Williams and is now ranked 23rd in Mavericks history with 653.",
+            "foto": [],
+            "timestamp": 1793064440,
+            "team": "DAL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2130,
-    "total_franchise_historicas": 631,
-    "cache_buster": 1793064397
+    "total_franchise_historicas": 632,
+    "cache_buster": 1793064440
 }
