@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:11",
+    "ultima_actualizacion": "02:22:54",
     "tablas": {
         "pts": [
             {
@@ -94,9 +94,9 @@
                 "Rank": 112,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 6,
-                "Total": 16893,
-                "Diff": "67",
+                "Hoy": 9,
+                "Total": 16896,
+                "Diff": "64",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -496,9 +496,9 @@
                 "Rank": 16,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 2187,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 2188,
+                "Diff": "12",
                 "Antece": "2200",
                 "Nota": "",
                 "game_status": "playing"
@@ -606,9 +606,9 @@
                 "Rank": 83,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 0,
-                "Total": 1312,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 1313,
+                "Diff": "12",
                 "Antece": "Ryan Anderson",
                 "Nota": "",
                 "game_status": "playing"
@@ -813,24 +813,24 @@
             },
             {
                 "Rank": 234,
+                "Nombre": "Payton Pritchard",
+                "Team": "BOS",
+                "Hoy": 7,
+                "Total": 883,
+                "Diff": "",
+                "Antece": "Jared Dudley",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 235,
                 "Nombre": "Miles Bridges",
                 "Team": "PHX",
                 "Hoy": 0,
                 "Total": 882,
                 "Diff": "1",
-                "Antece": "Jared Dudley",
+                "Antece": "Payton Pritchard",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 235,
-                "Nombre": "Payton Pritchard",
-                "Team": "BOS",
-                "Hoy": 6,
-                "Total": 882,
-                "Diff": "",
-                "Antece": "Miles Bridges",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -861,9 +861,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 7,
-                "Total": 8892,
-                "Diff": "74",
+                "Hoy": 8,
+                "Total": 8893,
+                "Diff": "73",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -1224,9 +1224,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 6,
-                "Total": 879,
-                "Diff": "21",
+                "Hoy": 7,
+                "Total": 880,
+                "Diff": "20",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1236,7 +1236,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 854,
-                "Diff": "25",
+                "Diff": "26",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1286,9 +1286,9 @@
                 "Rank": 20,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 5602,
-                "Diff": "41",
+                "Hoy": 13,
+                "Total": 5605,
+                "Diff": "38",
                 "Antece": "Danny Ferry",
                 "game_status": "playing"
             },
@@ -1582,9 +1582,9 @@
                 "Rank": 3,
                 "Nombre": "Anthony Edwards",
                 "Stat": "PTS",
-                "Hoy": 32,
-                "Total": 10886,
-                "Diff": "114",
+                "Hoy": 36,
+                "Total": 10890,
+                "Diff": "110",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -2183,13 +2183,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Domantas Sabonis (9 rebounds today) has passed Kevin McHale and is now ranked 115th all-time with 7,123.",
-            "foto": [
-                "collages/1792811366472453_collage_1792811366371219.png"
-            ],
-            "timestamp": 1792811366
-        },
         {
             "texto": "Fred VanVleet (5 assists today) has passed Tom Henderson and is now ranked 221st all-time with 3,137.",
             "foto": [
@@ -2882,6 +2875,13 @@
                 "collages/1793063920427509_collage_1793063920333764.png"
             ],
             "timestamp": 1793063920
+        },
+        {
+            "texto": "Payton Pritchard (7 three-pointers today) has passed Miles Bridges and is now ranked 234th all-time with 883.",
+            "foto": [
+                "collages/1793064174326640_collage_1793064174226621.png"
+            ],
+            "timestamp": 1793064174
         }
     ],
     "notificaciones_franchise": [
@@ -3586,7 +3586,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2127,
+    "total_notificaciones_historicas": 2128,
     "total_franchise_historicas": 631,
-    "cache_buster": 1793064131
+    "cache_buster": 1793064174
 }
