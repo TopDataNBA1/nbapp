@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:04",
+    "ultima_actualizacion": "02:49:47",
     "tablas": {
         "pts": [
             {
@@ -149,9 +149,9 @@
                 "Rank": 155,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 24,
-                "Total": 15350,
-                "Diff": "8",
+                "Hoy": 26,
+                "Total": 15352,
+                "Diff": "6",
                 "Antece": "Dick Barnett",
                 "Nota": "",
                 "game_status": "playing"
@@ -977,7 +977,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 232,
+                "Rank": 231,
+                "Nombre": "Miles Bridges",
+                "Team": "PHX",
+                "Hoy": 2,
+                "Total": 884,
+                "Diff": "1",
+                "Antece": "Dāvis Bertāns",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 233,
                 "Nombre": "Georges Niang",
                 "Team": "GSW",
                 "Hoy": 0,
@@ -988,24 +999,13 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 234,
-                "Nombre": "Miles Bridges",
-                "Team": "PHX",
-                "Hoy": 1,
-                "Total": 883,
-                "Diff": "",
-                "Antece": "Jared Dudley",
-                "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
                 "Rank": 235,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
                 "Hoy": 7,
                 "Total": 883,
                 "Diff": "",
-                "Antece": "Miles Bridges",
+                "Antece": "Jared Dudley",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1618,9 +1618,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 7062,
-                "Diff": "195",
+                "Hoy": 26,
+                "Total": 7064,
+                "Diff": "193",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -2830,13 +2830,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Julius Randle (1 three-pointer today) has passed Gerald Green and Tim Thomas and is now ranked 204th all-time with 963.",
-            "foto": [
-                "collages/1792885800657489_collage_1792885800318865.png"
-            ],
-            "timestamp": 1792885800
-        },
-        {
             "texto": "Giannis Antetokounmpo (2 steals today) becomes the 185th player to reach 1,000",
             "foto": [
                 "collages/1792885962593426_collage_1792885962282986.png"
@@ -3528,6 +3521,13 @@
                 "collages/1793065744275415_collage_1793065744197294.png"
             ],
             "timestamp": 1793065744
+        },
+        {
+            "texto": "Miles Bridges (2 three-pointers today) has passed Ersan İlyasova, Georges Niang and Jared Dudley and is now ranked 231st all-time with 884.",
+            "foto": [
+                "collages/1793065787707423_collage_1793065787644930.png"
+            ],
+            "timestamp": 1793065787
         }
     ],
     "notificaciones_franchise": [
@@ -4232,7 +4232,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2138,
+    "total_notificaciones_historicas": 2139,
     "total_franchise_historicas": 633,
-    "cache_buster": 1793065744
+    "cache_buster": 1793065787
 }
