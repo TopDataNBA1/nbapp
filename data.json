@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:30:24",
+    "ultima_actualizacion": "01:31:06",
     "tablas": {
         "pts": [
             {
@@ -348,6 +348,28 @@
                 "game_status": "not_started"
             },
             {
+                "Rank": 144,
+                "Nombre": "Jaren Jackson Jr.",
+                "Team": "UTA",
+                "Hoy": 0,
+                "Total": 851,
+                "Diff": "11",
+                "Antece": "Gar Heard",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 166,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 788,
+                "Diff": "1",
+                "Antece": "Charles Smith",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 171,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
@@ -614,6 +636,17 @@
                 "game_status": "not_started"
             },
             {
+                "Rank": 92,
+                "Nombre": "Lauri Markkanen",
+                "Team": "UTA",
+                "Hoy": 0,
+                "Total": 1267,
+                "Diff": "4",
+                "Antece": "Bogdan Bogdanović",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 109,
                 "Nombre": "Norman Powell",
                 "Team": "CHI",
@@ -678,6 +711,17 @@
                 "Antece": "Gary Payton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 152,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 1081,
+                "Diff": "",
+                "Antece": "Andre Iguodala",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
             },
             {
                 "Rank": 156,
@@ -1859,6 +1903,68 @@
                 "game_status": "playing"
             }
         ],
+        "UTA": [
+            {
+                "Rank": 24,
+                "Nombre": "Lauri Markkanen",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 4984,
+                "Diff": "16",
+                "Antece": "5000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 19,
+                "Nombre": "Keyonte George",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1041,
+                "Diff": "71",
+                "Antece": "Jim McElroy",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Isaiah Collier",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 869,
+                "Diff": "0",
+                "Antece": "Bryon Russell",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 6,
+                "Nombre": "Lauri Markkanen",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 628,
+                "Diff": "61",
+                "Antece": "Gordon Hayward",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 13,
+                "Nombre": "Keyonte George",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 455,
+                "Diff": "25",
+                "Antece": "Mike Conley",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 17,
+                "Nombre": "Brice Sensabaugh",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 353,
+                "Diff": "47",
+                "Antece": "400",
+                "game_status": "not_started"
+            }
+        ],
         "DAL": [
             {
                 "Rank": 24,
@@ -2032,9 +2138,9 @@
                 "Rank": 23,
                 "Nombre": "Matas Buzelis",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 269,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 270,
+                "Diff": "14",
                 "Antece": "Justin Holiday",
                 "game_status": "playing"
             }
@@ -2049,6 +2155,18 @@
                 "Diff": "1",
                 "Antece": "Nicolas Batum",
                 "game_status": "playing"
+            }
+        ],
+        "MEM": [
+            {
+                "Rank": 15,
+                "Nombre": "Jaylen Wells",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 267,
+                "Diff": "26",
+                "Antece": "Tyus Jones",
+                "game_status": "not_started"
             }
         ],
         "MIL": [
@@ -2768,13 +2886,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Bub Carrington (2 three-pointers today) has passed Deni Avdija and is now ranked 15th in Wizards history with 293.",
-            "foto": [],
-            "timestamp": 1775610350,
-            "team": "WAS",
-            "type": "franchise"
-        },
-        {
             "texto": "Jakob Poeltl (6 rebounds today) has passed Chris Boucher and is now ranked 11th in Raptors history with 2,084.",
             "foto": [],
             "timestamp": 1775612820,
@@ -3466,9 +3577,16 @@
             "timestamp": 1793058080,
             "team": "CLE",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Matas Buzelis (1 three-pointer today) has passed Mike Dunleavy and is now ranked 23rd in Bulls history with 270.",
+            "foto": [],
+            "timestamp": 1793061066,
+            "team": "CHI",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2116,
-    "total_franchise_historicas": 627,
-    "cache_buster": 1793061024
+    "total_franchise_historicas": 628,
+    "cache_buster": 1793061066
 }
