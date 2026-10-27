@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:04:30",
+    "ultima_actualizacion": "02:05:16",
     "tablas": {
         "pts": [
             {
@@ -39,11 +39,11 @@
                 "Rank": 59,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 21,
-                "Total": 19468,
-                "Diff": "5",
+                "Hoy": 23,
+                "Total": 19470,
+                "Diff": "3",
                 "Antece": "Tony Parker",
-                "Nota": "",
+                "Nota": "A tiro de 3",
                 "game_status": "playing"
             },
             {
@@ -228,9 +228,9 @@
                 "Rank": 103,
                 "Nombre": "Clint Capela",
                 "Team": "HOU",
-                "Hoy": 1,
-                "Total": 7337,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 7338,
+                "Diff": "14",
                 "Antece": "Larry Nance",
                 "Nota": "",
                 "game_status": "playing"
@@ -650,11 +650,11 @@
                 "Rank": 109,
                 "Nombre": "Norman Powell",
                 "Team": "CHI",
-                "Hoy": 3,
-                "Total": 1225,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 1226,
+                "Diff": "",
                 "Antece": "Hersey Hawkins",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -823,14 +823,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 239,
+                "Rank": 237,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 878,
-                "Diff": "",
-                "Antece": "Bobby Portis",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 879,
+                "Diff": "1",
+                "Antece": "P.J. Tucker",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1224,9 +1224,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 875,
-                "Diff": "25",
+                "Hoy": 3,
+                "Total": 876,
+                "Diff": "24",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1236,7 +1236,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 854,
-                "Diff": "21",
+                "Diff": "22",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1398,9 +1398,9 @@
                 "Rank": 9,
                 "Nombre": "Clint Capela",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3589,
-                "Diff": "117",
+                "Hoy": 2,
+                "Total": 3590,
+                "Diff": "116",
                 "Antece": "Robert Reid",
                 "game_status": "playing"
             },
@@ -2184,13 +2184,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Giannis Antetokounmpo (2 steals today) has passed Michael Finley and Paul Pressey and is now ranked 187th all-time with 998.",
-            "foto": [
-                "collages/1792808832592129_collage_1792808832516852.png"
-            ],
-            "timestamp": 1792808832
-        },
-        {
             "texto": "Victor Wembanyama (1 block today) has passed Andre Iguodala and is now ranked 220th all-time with 634.",
             "foto": [
                 "collages/1792808832780414_collage_1792808832684414.png"
@@ -2882,6 +2875,13 @@
                 "collages/1793063070223962_collage_1793063070083355.png"
             ],
             "timestamp": 1793063070
+        },
+        {
+            "texto": "Payton Pritchard (3 three-pointers today) has passed Bobby Portis and is now ranked 237th all-time with 879.",
+            "foto": [
+                "collages/1793063116003264_collage_1793063115909517.png"
+            ],
+            "timestamp": 1793063116
         }
     ],
     "notificaciones_franchise": [
@@ -3586,7 +3586,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2118,
+    "total_notificaciones_historicas": 2119,
     "total_franchise_historicas": 628,
-    "cache_buster": 1793063070
+    "cache_buster": 1793063116
 }
