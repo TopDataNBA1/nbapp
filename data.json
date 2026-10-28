@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:16:36",
+    "ultima_actualizacion": "00:17:46",
     "tablas": {
         "pts": [
             {
@@ -105,9 +105,9 @@
                 "Rank": 216,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 13609,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 13611,
+                "Diff": "12",
                 "Antece": "Orlando Woolridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -138,9 +138,9 @@
                 "Rank": 240,
                 "Nombre": "Pascal Siakam",
                 "Team": "IND",
-                "Hoy": 2,
-                "Total": 12906,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 12908,
+                "Diff": "6",
                 "Antece": "Kendall Gill",
                 "Nota": "",
                 "game_status": "playing"
@@ -619,9 +619,9 @@
                 "Rank": 4,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 12033,
-                "Diff": "58",
+                "Hoy": 1,
+                "Total": 12034,
+                "Diff": "57",
                 "Antece": "Jason Kidd",
                 "Nota": "",
                 "game_status": "playing"
@@ -958,9 +958,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 10440,
-                "Diff": "60",
+                "Hoy": 3,
+                "Total": 10441,
+                "Diff": "59",
                 "Antece": "10500",
                 "game_status": "playing"
             },
@@ -1212,9 +1212,9 @@
                 "Rank": 7,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 13609,
-                "Diff": "17",
+                "Hoy": 2,
+                "Total": 13611,
+                "Diff": "15",
                 "Antece": "Billy Cunningham",
                 "game_status": "playing"
             },
@@ -1312,9 +1312,9 @@
                 "Rank": 20,
                 "Nombre": "Joel Embiid",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 493,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 494,
+                "Diff": "6",
                 "Antece": "500",
                 "game_status": "playing"
             }
@@ -1535,13 +1535,13 @@
         ],
         "IND": [
             {
-                "Rank": 19,
+                "Rank": 18,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1402,
-                "Diff": "0",
-                "Antece": "Herb Williams",
+                "Hoy": 2,
+                "Total": 1403,
+                "Diff": "16",
+                "Antece": "Paul George",
                 "game_status": "playing"
             },
             {
@@ -2376,13 +2376,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Patrick Williams (1 block today) has passed Kirk Hinrich and is now ranked 22nd in Bulls history with 215.",
-            "foto": [],
-            "timestamp": 1775777717,
-            "team": "CHI",
-            "type": "franchise"
-        },
-        {
             "texto": "Bub Carrington (3 three-pointers today) has passed Martell Webster and is now ranked 14th in Wizards history with 296.",
             "foto": [],
             "timestamp": 1775778964,
@@ -3074,9 +3067,16 @@
             "timestamp": 1793161544,
             "team": "LAL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Andrew Nembhard (2 assists today) has passed Herb Williams and is now ranked 18th in Pacers history with 1,403.",
+            "foto": [],
+            "timestamp": 1793229466,
+            "team": "IND",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2174,
-    "total_franchise_historicas": 639,
-    "cache_buster": 1793229396
+    "total_franchise_historicas": 640,
+    "cache_buster": 1793229466
 }
