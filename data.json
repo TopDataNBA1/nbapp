@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "00:47:54",
+    "ultima_actualizacion": "00:49:10",
     "tablas": {
         "pts": [
             {
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 43504,
-                "Diff": "496",
+                "Hoy": 5,
+                "Total": 43507,
+                "Diff": "493",
                 "Antece": "44000",
                 "Nota": "",
                 "game_status": "playing"
@@ -116,9 +116,9 @@
                 "Rank": 119,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 16493,
-                "Diff": "92",
+                "Hoy": 4,
+                "Total": 16497,
+                "Diff": "88",
                 "Antece": "Kawhi Leonard",
                 "Nota": "",
                 "game_status": "playing"
@@ -294,9 +294,9 @@
                 "Rank": 119,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 1,
-                "Total": 7054,
-                "Diff": "56",
+                "Hoy": 2,
+                "Total": 7055,
+                "Diff": "55",
                 "Antece": "Olden Polynice",
                 "Nota": "",
                 "game_status": "playing"
@@ -518,9 +518,9 @@
                 "Rank": 6,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 2639,
-                "Diff": "61",
+                "Hoy": 1,
+                "Total": 2640,
+                "Diff": "60",
                 "Antece": "2700",
                 "Nota": "",
                 "game_status": "playing"
@@ -879,25 +879,25 @@
             },
             {
                 "Rank": 188,
+                "Nombre": "Desmond Bane",
+                "Team": "ORL",
+                "Hoy": 3,
+                "Total": 992,
+                "Diff": "4",
+                "Antece": "Rafer Alston",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 189,
                 "Nombre": "LaMelo Ball",
                 "Team": "MIN",
                 "Hoy": 0,
                 "Total": 991,
-                "Diff": "5",
-                "Antece": "Rafer Alston",
-                "Nota": "",
-                "game_status": "not_started"
-            },
-            {
-                "Rank": 190,
-                "Nombre": "Desmond Bane",
-                "Team": "ORL",
-                "Hoy": 1,
-                "Total": 990,
                 "Diff": "1",
-                "Antece": "Stephon Marbury",
+                "Antece": "Desmond Bane",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
+                "game_status": "not_started"
             },
             {
                 "Rank": 194,
@@ -1037,9 +1037,9 @@
                 "Rank": 182,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 3518,
-                "Diff": "7",
+                "Hoy": 3,
+                "Total": 3519,
+                "Diff": "6",
                 "Antece": "Ricky Sobers",
                 "Nota": "",
                 "game_status": "playing"
@@ -1911,9 +1911,9 @@
                 "Rank": 13,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1204,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 1205,
+                "Diff": "18",
                 "Antece": "Cole Anthony",
                 "game_status": "playing"
             },
@@ -2043,9 +2043,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 8327,
-                "Diff": "173",
+                "Hoy": 5,
+                "Total": 8329,
+                "Diff": "171",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -2359,9 +2359,9 @@
                 "Rank": 9,
                 "Nombre": "Cade Cunningham",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 2203,
-                "Diff": "53",
+                "Hoy": 1,
+                "Total": 2204,
+                "Diff": "52",
                 "Antece": "Bob Lanier",
                 "game_status": "playing"
             },
@@ -2506,13 +2506,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (23 points today) has passed Shawn Kemp and is now ranked 155th all-time with 15,349.",
-            "foto": [
-                "collages/1793065575169168_collage_1793065575044160.png"
-            ],
-            "timestamp": 1793065575
-        },
         {
             "texto": "Tyrese Haliburton (3 three-pointers today) has passed Immanuel Quickley and is now ranked 247th all-time with 865.",
             "foto": [
@@ -3205,6 +3198,13 @@
                 "collages/1793403997985391_collage_1793403997877796.png"
             ],
             "timestamp": 1793403998
+        },
+        {
+            "texto": "📢HOF🏛️ Desmond Bane (3 three-pointers today) has passed Joe Dumars, LaMelo Ball and Stephon Marbury and is now ranked 188th all-time with 992.",
+            "foto": [
+                "collages/1793404150729746_collage_1793404150662633.png"
+            ],
+            "timestamp": 1793404150
         }
     ],
     "notificaciones_franchise": [
@@ -3909,7 +3909,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2235,
+    "total_notificaciones_historicas": 2236,
     "total_franchise_historicas": 654,
-    "cache_buster": 1793404074
+    "cache_buster": 1793404150
 }
