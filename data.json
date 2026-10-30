@@ -1,14 +1,14 @@
 {
-    "ultima_actualizacion": "03:18:05",
+    "ultima_actualizacion": "03:19:16",
     "tablas": {
         "pts": [
             {
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 21,
-                "Total": 29423,
-                "Diff": "577",
+                "Hoy": 23,
+                "Total": 29425,
+                "Diff": "575",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -50,22 +50,22 @@
                 "Rank": 153,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 15,
-                "Total": 15386,
-                "Diff": "25",
+                "Hoy": 17,
+                "Total": 15388,
+                "Diff": "23",
                 "Antece": "Sam Jones",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
-                "Rank": 187,
+                "Rank": 186,
                 "Nombre": "Zach LaVine",
                 "Team": "SAC",
-                "Hoy": 16,
-                "Total": 14463,
-                "Diff": "",
-                "Antece": "Rod Strickland",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 14465,
+                "Diff": "2",
+                "Antece": "Ricky Pierce",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             }
         ],
@@ -107,9 +107,9 @@
                 "Rank": 215,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 6,
-                "Total": 5757,
-                "Diff": "8",
+                "Hoy": 7,
+                "Total": 5758,
+                "Diff": "7",
                 "Antece": "Reggie Evans",
                 "Nota": "",
                 "game_status": "playing"
@@ -396,9 +396,9 @@
                 "Rank": 12,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 15,
-                "Total": 7133,
-                "Diff": "124",
+                "Hoy": 17,
+                "Total": 7135,
+                "Diff": "122",
                 "Antece": "Larry Nance",
                 "game_status": "playing"
             },
@@ -426,9 +426,9 @@
                 "Rank": 8,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 3889,
-                "Diff": "111",
+                "Hoy": 7,
+                "Total": 3890,
+                "Diff": "110",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -945,13 +945,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Mike Conley (1 steal today) has passed Gus Williams and is now ranked 29th all-time with 1,639.",
-            "foto": [
-                "collages/1793064779169735_collage_1793064779075991.png"
-            ],
-            "timestamp": 1793064779
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Mike Conley today surpasses Pau Gasol and now ranked 44th all time with 1,227 games",
             "foto": [
@@ -1644,6 +1637,13 @@
                 "collages/1793324510410590_collage_1793324510314617.png"
             ],
             "timestamp": 1793324510
+        },
+        {
+            "texto": "Zach LaVine (18 points today) has passed Rod Strickland and is now ranked 186th all-time with 14,465.",
+            "foto": [
+                "collages/1793326756099749_collage_1793326755998783.png"
+            ],
+            "timestamp": 1793326756
         }
     ],
     "notificaciones_franchise": [
@@ -2348,7 +2348,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2231,
+    "total_notificaciones_historicas": 2232,
     "total_franchise_historicas": 653,
-    "cache_buster": 1793326685
+    "cache_buster": 1793326756
 }
