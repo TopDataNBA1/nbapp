@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:52:44",
+    "ultima_actualizacion": "01:54:00",
     "tablas": {
         "pts": [
             {
@@ -835,9 +835,9 @@
             },
             {
                 "Rank": 176,
-                "Nombre": "Grayson Allen",
-                "Team": "CHA",
-                "Hoy": 1,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 2,
                 "Total": 1031,
                 "Diff": "1",
                 "Antece": "Doug McDermott",
@@ -846,13 +846,13 @@
             },
             {
                 "Rank": 177,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
+                "Nombre": "Grayson Allen",
+                "Team": "CHA",
                 "Hoy": 1,
-                "Total": 1030,
-                "Diff": "1",
-                "Antece": "Grayson Allen",
-                "Nota": "A tiro de 1",
+                "Total": 1031,
+                "Diff": "",
+                "Antece": "Darius Garland",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -861,9 +861,9 @@
                 "Team": "NYK",
                 "Hoy": 1,
                 "Total": 1030,
-                "Diff": "",
-                "Antece": "Darius Garland",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Grayson Allen",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2507,13 +2507,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Fred VanVleet (5 assists today) has passed Gerald Henderson and is now ranked 220th all-time with 3,142.",
-            "foto": [
-                "collages/1793069631518431_collage_1793069631409038.png"
-            ],
-            "timestamp": 1793069631
-        },
-        {
             "texto": "📢HOF🏛️ Jamal Murray (6 assists today) has passed Hakeem Olajuwon and is now ranked 235th all-time with 3,059.",
             "foto": [
                 "collages/1793069960632054_collage_1793069960516725.png"
@@ -3205,6 +3198,13 @@
                 "collages/1793407449170091_collage_1793407449065295.png"
             ],
             "timestamp": 1793407449
+        },
+        {
+            "texto": "Darius Garland (2 three-pointers today) has passed OG Anunoby and is now ranked 176th all-time with 1,031.",
+            "foto": [
+                "collages/1793408040784206_collage_1793408040676315.png"
+            ],
+            "timestamp": 1793408040
         }
     ],
     "notificaciones_franchise": [
@@ -3909,7 +3909,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2248,
+    "total_notificaciones_historicas": 2249,
     "total_franchise_historicas": 659,
-    "cache_buster": 1793407964
+    "cache_buster": 1793408040
 }
