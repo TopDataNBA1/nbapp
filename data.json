@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:00:07",
+    "ultima_actualizacion": "02:01:23",
     "tablas": {
         "pts": [
             {
@@ -834,14 +834,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 173,
                 "Nombre": "Michael Porter Jr.",
                 "Team": "BKN",
-                "Hoy": 1,
-                "Total": 1035,
-                "Diff": "",
-                "Antece": "James Posey",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1036,
+                "Diff": "1",
+                "Antece": "Steve Blake",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1658,9 +1658,9 @@
                 "Rank": 10,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 4956,
-                "Diff": "44",
+                "Hoy": 11,
+                "Total": 4958,
+                "Diff": "42",
                 "Antece": "5000",
                 "game_status": "playing"
             },
@@ -2518,13 +2518,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Jamal Murray (8 assists today) has passed Dick Van Arsdale and is now ranked 234th all-time with 3,061.",
-            "foto": [
-                "collages/1793073613647917_collage_1793073613522900.png"
-            ],
-            "timestamp": 1793073613
-        },
-        {
             "texto": "Georges Niang (3 three-pointers today) has passed Dāvis Bertāns and is now ranked 230th all-time with 886.",
             "foto": [
                 "collages/1793073816931020_collage_1793073816837259.png"
@@ -3216,6 +3209,13 @@
                 "collages/1793408111102172_collage_1793408111007266.png"
             ],
             "timestamp": 1793408111
+        },
+        {
+            "texto": "Michael Porter Jr. (2 three-pointers today) has passed James Posey and is now ranked 173rd all-time with 1,036.",
+            "foto": [
+                "collages/1793408483742188_collage_1793408483643753.png"
+            ],
+            "timestamp": 1793408483
         }
     ],
     "notificaciones_franchise": [
@@ -3920,7 +3920,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2250,
+    "total_notificaciones_historicas": 2251,
     "total_franchise_historicas": 660,
-    "cache_buster": 1793408407
+    "cache_buster": 1793408483
 }
