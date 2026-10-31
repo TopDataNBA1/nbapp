@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:13:49",
+    "ultima_actualizacion": "23:14:55",
     "tablas": {
         "pts": [
             {
@@ -537,13 +537,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 219,
+                "Rank": 218,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 931,
+                "Hoy": 1,
+                "Total": 932,
                 "Diff": "",
-                "Antece": "Nikola Jokić",
+                "Antece": "Kelly Olynyk",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -649,9 +649,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 8328,
-                "Diff": "172",
+                "Hoy": 7,
+                "Total": 8331,
+                "Diff": "169",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -679,9 +679,9 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 928,
-                "Diff": "72",
+                "Hoy": 1,
+                "Total": 929,
+                "Diff": "71",
                 "Antece": "1000",
                 "game_status": "playing"
             }
@@ -862,25 +862,18 @@
         ],
         "CHA": [
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Brandon Miller",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 507,
-                "Diff": "1",
-                "Antece": "Glen Rice",
+                "Hoy": 2,
+                "Total": 509,
+                "Diff": "27",
+                "Antece": "P.J. Washington",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Pascal Siakam (12 points today) has passed Kendall Gill and is now ranked 239th all-time with 12,916.",
-            "foto": [
-                "collages/1793233296454956_collage_1793233296361209.png"
-            ],
-            "timestamp": 1793233296
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Anthony Davis (12 points today) has passed Dwight Howard and is now ranked 57th all-time with 19,488.",
             "foto": [
@@ -1573,6 +1566,13 @@
                 "collages/1793479938711862_collage_1793479938577906.png"
             ],
             "timestamp": 1793479938
+        },
+        {
+            "texto": "Tyrese Maxey (1 three-pointer today) has passed Nikola Jokić and is now ranked 218th all-time with 932.",
+            "foto": [
+                "collages/1793484895470318_collage_1793484895340360.png"
+            ],
+            "timestamp": 1793484895
         }
     ],
     "notificaciones_franchise": [
@@ -2277,7 +2277,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2284,
+    "total_notificaciones_historicas": 2285,
     "total_franchise_historicas": 663,
-    "cache_buster": 1793484829
+    "cache_buster": 1793484895
 }
