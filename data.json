@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:26:58",
+    "ultima_actualizacion": "23:30:57",
     "tablas": {
         "pts": [
             {
@@ -537,14 +537,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 218,
+                "Rank": 217,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 932,
-                "Diff": "",
-                "Antece": "Kelly Olynyk",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 933,
+                "Diff": "1",
+                "Antece": "Chucky Atkins",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -649,9 +649,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 8333,
-                "Diff": "167",
+                "Hoy": 12,
+                "Total": 8336,
+                "Diff": "164",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -679,9 +679,9 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 929,
-                "Diff": "71",
+                "Hoy": 2,
+                "Total": 930,
+                "Diff": "70",
                 "Antece": "1000",
                 "game_status": "playing"
             }
@@ -874,13 +874,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Anthony Davis (12 points today) has passed Dwight Howard and is now ranked 57th all-time with 19,488.",
-            "foto": [
-                "collages/1793233532165958_collage_1793233532072195.png"
-            ],
-            "timestamp": 1793233532
-        },
         {
             "texto": "Karl-Anthony Towns (1 three-pointer today) has passed Damon Stoudamire and is now ranked 104th all-time with 1,237.",
             "foto": [
@@ -1573,6 +1566,13 @@
                 "collages/1793484895470318_collage_1793484895340360.png"
             ],
             "timestamp": 1793484895
+        },
+        {
+            "texto": "Tyrese Maxey (2 three-pointers today) has passed Kelly Olynyk and is now ranked 217th all-time with 933.",
+            "foto": [
+                "collages/1793485857678011_collage_1793485857552051.png"
+            ],
+            "timestamp": 1793485857
         }
     ],
     "notificaciones_franchise": [
@@ -2277,7 +2277,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2285,
+    "total_notificaciones_historicas": 2286,
     "total_franchise_historicas": 663,
-    "cache_buster": 1793485618
+    "cache_buster": 1793485857
 }
