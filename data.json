@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:57:43",
+    "ultima_actualizacion": "01:58:59",
     "tablas": {
         "pts": [
             {
@@ -239,9 +239,9 @@
                 "Rank": 63,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 5,
-                "Total": 8943,
-                "Diff": "31",
+                "Hoy": 6,
+                "Total": 8944,
+                "Diff": "30",
                 "Antece": "Larry Bird",
                 "Nota": "",
                 "game_status": "playing"
@@ -487,6 +487,17 @@
                 "Total": 663,
                 "Diff": "5",
                 "Antece": "Bill Cartwright",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 226,
+                "Nombre": "Ivica Zubac",
+                "Team": "IND",
+                "Hoy": 0,
+                "Total": 618,
+                "Diff": "6",
+                "Antece": "James Worthy",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1015,9 +1026,9 @@
                 "Rank": 98,
                 "Nombre": "Dennis Schröder",
                 "Team": "CHA",
-                "Hoy": 4,
-                "Total": 4465,
-                "Diff": "16",
+                "Hoy": 5,
+                "Total": 4466,
+                "Diff": "15",
                 "Antece": "Brevin Knight",
                 "Nota": "",
                 "game_status": "playing"
@@ -2494,13 +2505,13 @@
         ],
         "CHA": [
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Brandon Miller",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 508,
-                "Diff": "0",
-                "Antece": "Glen Rice",
+                "Hoy": 2,
+                "Total": 509,
+                "Diff": "28",
+                "Antece": "P.J. Washington",
                 "game_status": "playing"
             }
         ]
@@ -3209,13 +3220,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Mike Conley (1 three-pointer today) has passed Malik Beasley and is now ranked 9th in Timberwolves history with 418.",
-            "foto": [],
-            "timestamp": 1775877823,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "Mike Conley (3 assists today) has passed Jeff Teague and is now ranked 12th in Timberwolves history with 1,044.",
             "foto": [],
             "timestamp": 1775878130,
@@ -3907,9 +3911,16 @@
             "timestamp": 1793407669,
             "team": "IND",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Brandon Miller (2 three-pointers today) has passed Glen Rice and is now ranked 8th in Hornets history with 509.",
+            "foto": [],
+            "timestamp": 1793408339,
+            "team": "CHA",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2250,
-    "total_franchise_historicas": 659,
-    "cache_buster": 1793408263
+    "total_franchise_historicas": 660,
+    "cache_buster": 1793408339
 }
