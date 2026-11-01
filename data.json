@@ -1,16 +1,16 @@
 {
-    "ultima_actualizacion": "23:48:45",
+    "ultima_actualizacion": "23:49:51",
     "tablas": {
         "pts": [
             {
                 "Rank": 61,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 12,
-                "Total": 19457,
-                "Diff": "3",
+                "Hoy": 14,
+                "Total": 19459,
+                "Diff": "1",
                 "Antece": "Terry Cummings",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -39,9 +39,9 @@
                 "Rank": 158,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 5,
-                "Total": 15294,
-                "Diff": "30",
+                "Hoy": 6,
+                "Total": 15295,
+                "Diff": "29",
                 "Antece": "Sam Perkins",
                 "Nota": "",
                 "game_status": "playing"
@@ -197,9 +197,9 @@
             },
             {
                 "Rank": 186,
-                "Nombre": "Nikola Vučević",
+                "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 0,
+                "Hoy": 5,
                 "Total": 1000,
                 "Diff": "2",
                 "Antece": "Danny Ainge",
@@ -208,13 +208,13 @@
             },
             {
                 "Rank": 187,
-                "Nombre": "Desmond Bane",
+                "Nombre": "Nikola Vučević",
                 "Team": "ORL",
-                "Hoy": 4,
-                "Total": 999,
-                "Diff": "1",
-                "Antece": "Nikola Vučević",
-                "Nota": "A tiro de 1",
+                "Hoy": 0,
+                "Total": 1000,
+                "Diff": "",
+                "Antece": "Desmond Bane",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -524,9 +524,9 @@
                 "Rank": 15,
                 "Nombre": "Franz Wagner",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 1619,
-                "Diff": "26",
+                "Hoy": 6,
+                "Total": 1620,
+                "Diff": "25",
                 "Antece": "Darrell Armstrong",
                 "game_status": "playing"
             },
@@ -544,9 +544,9 @@
                 "Rank": 13,
                 "Nombre": "Franz Wagner",
                 "Stat": "AST",
-                "Hoy": 10,
-                "Total": 1214,
-                "Diff": "9",
+                "Hoy": 11,
+                "Total": 1215,
+                "Diff": "8",
                 "Antece": "Cole Anthony",
                 "game_status": "playing"
             },
@@ -705,13 +705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ De'Aaron Fox (12 points today) has passed Paul Westphal and is now ranked 245th all-time with 12,810.",
-            "foto": [
-                "collages/1793241106485815_collage_1793241106389865.png"
-            ],
-            "timestamp": 1793241106
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Brook Lopez today surpasses Patrick Ewing and Terry Cummings and now ranked 59th all time with 1,184 games",
             "foto": [
@@ -1404,6 +1397,13 @@
                 "collages/1793571895360457_collage_1793571895254490.png"
             ],
             "timestamp": 1793571895
+        },
+        {
+            "texto": "Desmond Bane (5 three-pointers today) becomes the 186th player to reach 1,000",
+            "foto": [
+                "collages/1793573391382766_collage_1793573391314785.png"
+            ],
+            "timestamp": 1793573391
         }
     ],
     "notificaciones_franchise": [
@@ -2108,7 +2108,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2320,
+    "total_notificaciones_historicas": 2321,
     "total_franchise_historicas": 666,
-    "cache_buster": 1793573325
+    "cache_buster": 1793573391
 }
