@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "21:42:11",
+    "ultima_actualizacion": "21:43:24",
     "tablas": {
         "pts": [
             {
@@ -63,9 +63,9 @@
                 "Rank": 202,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 5910,
-                "Diff": "30",
+                "Hoy": 1,
+                "Total": 5911,
+                "Diff": "29",
                 "Antece": "Vern Mikkelsen",
                 "Nota": "",
                 "game_status": "playing"
@@ -246,14 +246,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 216,
+                "Rank": 214,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 950,
-                "Diff": "",
-                "Antece": "Bailey Howell",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 951,
+                "Diff": "2",
+                "Antece": "Alton Lister",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
@@ -314,9 +314,9 @@
                 "Rank": 10,
                 "Nombre": "Jayson Tatum",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 388,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 389,
+                "Diff": "5",
                 "Antece": "Kevin Garnett",
                 "game_status": "playing"
             },
@@ -374,9 +374,9 @@
                 "Rank": 20,
                 "Nombre": "Jayson Tatum",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 605,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 606,
+                "Diff": "1",
                 "Antece": "Cedric Maxwell",
                 "game_status": "playing"
             }
@@ -575,13 +575,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Draymond Green (2 blocks today) has passed Sam Perkins and is now ranked 116th all-time with 934.",
-            "foto": [
-                "collages/1793237876344867_collage_1793237876224885.png"
-            ],
-            "timestamp": 1793237876
-        },
         {
             "texto": "📢HOF🏛️ Joel Embiid (19 points today) has passed Billy Cunningham and is now ranked 214th all-time with 13,628.",
             "foto": [
@@ -1274,6 +1267,13 @@
                 "collages/1793499777270573_collage_1793499777149552.png"
             ],
             "timestamp": 1793499777
+        },
+        {
+            "texto": "📢HOF🏛️ Paul George today surpasses Bailey Howell and now ranked 214th all time with 951 games",
+            "foto": [
+                "collages/1793565804780572_collage_1793565804669599.png"
+            ],
+            "timestamp": 1793565804
         }
     ],
     "notificaciones_franchise": [
@@ -1978,7 +1978,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2309,
+    "total_notificaciones_historicas": 2310,
     "total_franchise_historicas": 666,
-    "cache_buster": 1793565731
+    "cache_buster": 1793565804
 }
