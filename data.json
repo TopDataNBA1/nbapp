@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:15",
+    "ultima_actualizacion": "03:22:36",
     "tablas": {
         "pts": [
             {
@@ -494,9 +494,9 @@
                 "Rank": 66,
                 "Nombre": "Andre Drummond",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1200,
-                "Diff": "26",
+                "Hoy": 1,
+                "Total": 1201,
+                "Diff": "25",
                 "Antece": "Harvey Catchings",
                 "Nota": "",
                 "game_status": "playing"
@@ -1087,7 +1087,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 171,
+                "Rank": 170,
+                "Nombre": "Michael Porter Jr.",
+                "Team": "BKN",
+                "Hoy": 3,
+                "Total": 1042,
+                "Diff": "2",
+                "Antece": "Isaiah Thomas",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 172,
                 "Nombre": "Grayson Allen",
                 "Team": "CHA",
                 "Hoy": 3,
@@ -1095,17 +1106,6 @@
                 "Diff": "1",
                 "Antece": "Richard Jefferson",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 172,
-                "Nombre": "Michael Porter Jr.",
-                "Team": "BKN",
-                "Hoy": 2,
-                "Total": 1041,
-                "Diff": "",
-                "Antece": "Grayson Allen",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1790,9 +1790,9 @@
                 "Rank": 24,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1590,
-                "Diff": "80",
+                "Hoy": 1,
+                "Total": 1591,
+                "Diff": "79",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -2186,9 +2186,9 @@
                 "Rank": 20,
                 "Nombre": "Jabari Smith Jr.",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2146,
-                "Diff": "89",
+                "Hoy": 5,
+                "Total": 2147,
+                "Diff": "88",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -3396,9 +3396,9 @@
                 "Rank": 25,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 2666,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 2667,
+                "Diff": "16",
                 "Antece": "Jim Washington",
                 "game_status": "playing"
             },
@@ -3663,13 +3663,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "LaMelo Ball (6 three-pointers today) has passed Rafer Alston and is now ranked 187th all-time with 997.",
-            "foto": [
-                "collages/1793412474125416_collage_1793412474020554.png"
-            ],
-            "timestamp": 1793412474
-        },
         {
             "texto": "Clint Capela (7 rebounds today) has passed Larry Nance and is now ranked 102nd all-time with 7,353.",
             "foto": [
@@ -4362,6 +4355,13 @@
                 "collages/1793672319201805_collage_1793672319127623.png"
             ],
             "timestamp": 1793672319
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Andre Drummond (1 block today) has passed Chris Webber and is now ranked 66th all-time with 1,201.",
+            "foto": [
+                "collages/1793672556123238_collage_1793672556016623.png"
+            ],
+            "timestamp": 1793672556
         }
     ],
     "notificaciones_franchise": [
@@ -5066,7 +5066,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2361,
+    "total_notificaciones_historicas": 2362,
     "total_franchise_historicas": 679,
-    "cache_buster": 1793672475
+    "cache_buster": 1793672556
 }
