@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:45:17",
+    "ultima_actualizacion": "02:46:39",
     "tablas": {
         "pts": [
             {
@@ -17,9 +17,9 @@
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 32751,
-                "Diff": "249",
+                "Hoy": 2,
+                "Total": 32753,
+                "Diff": "247",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -848,9 +848,9 @@
                 "Rank": 70,
                 "Nombre": "Fred VanVleet",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1398,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1399,
+                "Diff": "1",
                 "Antece": "1400",
                 "Nota": "",
                 "game_status": "playing"
@@ -1665,13 +1665,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 50,
+                "Rank": 49,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1208,
+                "Hoy": 1,
+                "Total": 1209,
                 "Diff": "",
-                "Antece": "Juwan Howard",
+                "Antece": "Dale Ellis",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -2253,13 +2253,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 17,
+                "Rank": 16,
                 "Nombre": "Fred VanVleet",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 395,
-                "Diff": "0",
-                "Antece": "P.J. Tucker",
+                "Hoy": 1,
+                "Total": 396,
+                "Diff": "4",
+                "Antece": "400",
                 "game_status": "playing"
             },
             {
@@ -2420,9 +2420,9 @@
                 "Rank": 7,
                 "Nombre": "Zion Williamson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 1790,
-                "Diff": "161",
+                "Hoy": 3,
+                "Total": 1791,
+                "Diff": "160",
                 "Antece": "Chris Paul",
                 "game_status": "playing"
             },
@@ -2714,9 +2714,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 2562,
-                "Diff": "215",
+                "Hoy": 6,
+                "Total": 2563,
+                "Diff": "214",
                 "Antece": "Lenny Wilkens",
                 "game_status": "playing"
             },
@@ -3212,9 +3212,9 @@
                 "Rank": 22,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 5275,
-                "Diff": "22",
+                "Hoy": 3,
+                "Total": 5278,
+                "Diff": "19",
                 "Antece": "Billy Paultz",
                 "game_status": "playing"
             },
@@ -3663,13 +3663,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Giannis Antetokounmpo (1 block today) has passed Andrew Bogut and is now ranked 89th all-time with 1,092.",
-            "foto": [
-                "collages/1793408111102172_collage_1793408111007266.png"
-            ],
-            "timestamp": 1793408111
-        },
         {
             "texto": "Michael Porter Jr. (2 three-pointers today) has passed James Posey and is now ranked 173rd all-time with 1,036.",
             "foto": [
@@ -4362,16 +4355,16 @@
                 "collages/1793670000158424_collage_1793670000059460.png"
             ],
             "timestamp": 1793670000
+        },
+        {
+            "texto": "📢🔝💯 Kevin Durant today surpasses Juwan Howard and now ranked 49th all time with 1,209 games",
+            "foto": [
+                "collages/1793670399377769_collage_1793670399271804.png"
+            ],
+            "timestamp": 1793670399
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ Nikola Jokić (15 points today) becomes the 2nd player to reach 18,000 points with Nuggets.",
-            "foto": [],
-            "timestamp": 1776043856,
-            "team": "DEN",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "📢🔝🔟 Dwight Powell (6 rebounds today) has passed Mark Aguirre and is now ranked 7th in Mavericks history with 3,245.",
             "foto": [],
@@ -5064,9 +5057,16 @@
             "timestamp": 1793669927,
             "team": "CHA",
             "type": "franchise"
+        },
+        {
+            "texto": "Fred VanVleet (1 three-pointer today) has passed P.J. Tucker and is now ranked 16th in Rockets history with 396.",
+            "foto": [],
+            "timestamp": 1793670399,
+            "team": "HOU",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2349,
-    "total_franchise_historicas": 675,
-    "cache_buster": 1793670317
+    "total_notificaciones_historicas": 2350,
+    "total_franchise_historicas": 676,
+    "cache_buster": 1793670399
 }
