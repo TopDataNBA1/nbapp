@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:37:00",
+    "ultima_actualizacion": "01:38:20",
     "tablas": {
         "pts": [
             {
@@ -88,6 +88,17 @@
                 "Diff": "15",
                 "Antece": "Sam Perkins",
                 "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 184,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 14479,
+                "Diff": "1",
+                "Antece": "Jeff Green",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
             },
             {
@@ -221,6 +232,17 @@
                 "Total": 8106,
                 "Diff": "18",
                 "Antece": "Chris Webber",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 112,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 7191,
+                "Diff": "41",
+                "Antece": "Derrick Coleman",
                 "Nota": "",
                 "game_status": "not_started"
             },
@@ -392,6 +414,17 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 205,
+                "Nombre": "Daniel Gafford",
+                "Team": "DAL",
+                "Hoy": 0,
+                "Total": 665,
+                "Diff": "3",
+                "Antece": "Bill Cartwright",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 226,
                 "Nombre": "Ivica Zubac",
                 "Team": "IND",
@@ -458,6 +491,17 @@
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 43,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1647,
+                "Diff": "20",
+                "Antece": "Luka Dončić",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 48,
@@ -669,6 +713,17 @@
                 "game_status": "not_started"
             },
             {
+                "Rank": 161,
+                "Nombre": "Malik Monk",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 1063,
+                "Diff": "3",
+                "Antece": "George Hill",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 165,
                 "Nombre": "Taurean Prince",
                 "Team": "DET",
@@ -865,6 +920,17 @@
                 "Total": 3318,
                 "Diff": "1",
                 "Antece": "World B. Free",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 202,
+                "Nombre": "Domantas Sabonis",
+                "Team": "SAC",
+                "Hoy": 0,
+                "Total": 3284,
+                "Diff": "1",
+                "Antece": "John Johnson",
                 "Nota": "A tiro de 1",
                 "game_status": "not_started"
             },
@@ -1594,9 +1660,9 @@
                 "Rank": 20,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2294,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 2295,
+                "Diff": "4",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -2027,6 +2093,38 @@
                 "game_status": "not_started"
             }
         ],
+        "SAC": [
+            {
+                "Rank": 12,
+                "Nombre": "Domantas Sabonis",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 3547,
+                "Diff": "165",
+                "Antece": "Jack Coleman",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 12,
+                "Nombre": "Domantas Sabonis",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1870,
+                "Diff": "130",
+                "Antece": "2000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Malik Monk",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 555,
+                "Diff": "19",
+                "Antece": "Keegan Murray",
+                "game_status": "not_started"
+            }
+        ],
         "DET": [
             {
                 "Rank": 9,
@@ -2130,6 +2228,18 @@
                 "Total": 276,
                 "Diff": "8",
                 "Antece": "Justin Holiday",
+                "game_status": "not_started"
+            }
+        ],
+        "DAL": [
+            {
+                "Rank": 16,
+                "Nombre": "Daniel Gafford",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 237,
+                "Diff": "19",
+                "Antece": "Josh Howard",
                 "game_status": "not_started"
             }
         ],
@@ -3608,5 +3718,5 @@
     ],
     "total_notificaciones_historicas": 2330,
     "total_franchise_historicas": 669,
-    "cache_buster": 1793666220
+    "cache_buster": 1793666300
 }
