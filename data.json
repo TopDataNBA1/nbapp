@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:32:43",
+    "ultima_actualizacion": "01:35:08",
     "tablas": {
         "pts": [
             {
@@ -47,14 +47,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 112,
+                "Rank": 111,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 8,
-                "Total": 16960,
-                "Diff": "",
-                "Antece": "Bob Cousy",
-                "Nota": "Mismo total",
+                "Hoy": 10,
+                "Total": 16962,
+                "Diff": "38",
+                "Antece": "17000",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1581,9 +1581,9 @@
                 "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1887,
-                "Diff": "78",
+                "Hoy": 1,
+                "Total": 1888,
+                "Diff": "77",
                 "Antece": "Andrew Toney",
                 "game_status": "playing"
             },
@@ -1601,7 +1601,7 @@
                 "Rank": 17,
                 "Nombre": "Joel Embiid",
                 "Stat": "STL",
-                "Hoy": 1,
+                "Hoy": 0,
                 "Total": 436,
                 "Diff": "28",
                 "Antece": "Ben Simmons",
@@ -2020,13 +2020,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jerami Grant (1 block today) has passed Charles Smith and Joel Embiid and is now ranked 165th all-time with 790.",
-            "foto": [
-                "collages/1793493132919797_collage_1793493132804834.png"
-            ],
-            "timestamp": 1793493132
-        },
         {
             "texto": "Tyler Herro (2 three-pointers today) has passed Rasheed Wallace and is now ranked 149th all-time with 1,087.",
             "foto": [
@@ -2719,6 +2712,13 @@
                 "collages/1793838281369943_collage_1793838281270309.png"
             ],
             "timestamp": 1793838281
+        },
+        {
+            "texto": "📢HOF🏛️ CJ McCollum (10 points today) has passed Bob Cousy and is now ranked 111th all-time with 16,962.",
+            "foto": [
+                "collages/1793838908322099_collage_1793838908242168.png"
+            ],
+            "timestamp": 1793838908
         }
     ],
     "notificaciones_franchise": [
@@ -3423,7 +3423,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2400,
+    "total_notificaciones_historicas": 2401,
     "total_franchise_historicas": 682,
-    "cache_buster": 1793838764
+    "cache_buster": 1793838908
 }
