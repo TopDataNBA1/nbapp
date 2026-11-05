@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:22:57",
+    "ultima_actualizacion": "02:24:08",
     "tablas": {
         "pts": [
             {
@@ -116,9 +116,9 @@
                 "Rank": 213,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 11,
-                "Total": 13666,
-                "Diff": "124",
+                "Hoy": 12,
+                "Total": 13667,
+                "Diff": "123",
                 "Antece": "Bill Laimbeer",
                 "Nota": "",
                 "game_status": "playing"
@@ -127,9 +127,9 @@
                 "Rank": 215,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 21,
-                "Total": 13639,
-                "Diff": "8",
+                "Hoy": 22,
+                "Total": 13640,
+                "Diff": "7",
                 "Antece": "Peja Stojaković",
                 "Nota": "",
                 "game_status": "playing"
@@ -736,24 +736,24 @@
             },
             {
                 "Rank": 134,
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 1,
+                "Total": 1141,
+                "Diff": "",
+                "Antece": "Kevin Martin",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 135,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 0,
                 "Total": 1140,
                 "Diff": "1",
-                "Antece": "Kevin Martin",
+                "Antece": "Mikal Bridges",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 135,
-                "Nombre": "Mikal Bridges",
-                "Team": "NYK",
-                "Hoy": 0,
-                "Total": 1140,
-                "Diff": "",
-                "Antece": "Gary Trent Jr.",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -763,7 +763,7 @@
                 "Hoy": 0,
                 "Total": 1137,
                 "Diff": "3",
-                "Antece": "Mikal Bridges",
+                "Antece": "Gary Trent Jr.",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -1901,9 +1901,9 @@
                 "Rank": 19,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 325,
-                "Diff": "24",
+                "Hoy": 1,
+                "Total": 326,
+                "Diff": "23",
                 "Antece": "Stephon Marbury",
                 "game_status": "playing"
             }
@@ -1923,9 +1923,9 @@
                 "Rank": 20,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2294,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 2295,
+                "Diff": "4",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -2005,9 +2005,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 11,
-                "Total": 13641,
-                "Diff": "359",
+                "Hoy": 12,
+                "Total": 13642,
+                "Diff": "358",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -2055,7 +2055,7 @@
                 "Rank": 17,
                 "Nombre": "Joel Embiid",
                 "Stat": "STL",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 436,
                 "Diff": "28",
                 "Antece": "Ben Simmons",
@@ -2127,9 +2127,9 @@
                 "Rank": 19,
                 "Nombre": "Keyonte George",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1075,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 1076,
+                "Diff": "36",
                 "Antece": "Jim McElroy",
                 "game_status": "playing"
             },
@@ -2179,9 +2179,9 @@
                 "Rank": 25,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 2664,
-                "Diff": "19",
+                "Hoy": 5,
+                "Total": 2665,
+                "Diff": "18",
                 "Antece": "Jim Washington",
                 "game_status": "playing"
             },
@@ -2474,13 +2474,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (3 points today) has passed John Drew and is now ranked 158th all-time with 15,292.",
-            "foto": [
-                "collages/1793571895118536_collage_1793571895009582.png"
-            ],
-            "timestamp": 1793571895
-        },
         {
             "texto": "Julius Randle (1 three-pointer today) has passed Spencer Dinwiddie and is now ranked 203rd all-time with 968.",
             "foto": [
@@ -3173,6 +3166,13 @@
                 "collages/1793841316823755_collage_1793841316724180.png"
             ],
             "timestamp": 1793841316
+        },
+        {
+            "texto": "Mikal Bridges (1 three-pointer today) has passed Gary Trent Jr. and is now ranked 134th all-time with 1,141.",
+            "foto": [
+                "collages/1793841848490592_collage_1793841848397964.png"
+            ],
+            "timestamp": 1793841848
         }
     ],
     "notificaciones_franchise": [
@@ -3877,7 +3877,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2418,
+    "total_notificaciones_historicas": 2419,
     "total_franchise_historicas": 684,
-    "cache_buster": 1793841777
+    "cache_buster": 1793841848
 }
