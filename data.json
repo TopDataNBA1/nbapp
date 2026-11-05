@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:23:20",
+    "ultima_actualizacion": "01:24:41",
     "tablas": {
         "pts": [
             {
@@ -39,9 +39,9 @@
                 "Rank": 112,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 16952,
-                "Diff": "8",
+                "Hoy": 2,
+                "Total": 16954,
+                "Diff": "6",
                 "Antece": "Bob Cousy",
                 "Nota": "",
                 "game_status": "playing"
@@ -140,9 +140,9 @@
                 "Rank": 68,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 2,
-                "Total": 8703,
-                "Diff": "6",
+                "Hoy": 3,
+                "Total": 8704,
+                "Diff": "5",
                 "Antece": "Leroy Ellis",
                 "Nota": "",
                 "game_status": "playing"
@@ -696,9 +696,9 @@
                 "Rank": 196,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 3330,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 3331,
+                "Diff": "8",
                 "Antece": "Allen Leavell",
                 "Nota": "",
                 "game_status": "playing"
@@ -1065,9 +1065,9 @@
                 "Rank": 25,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2660,
-                "Diff": "23",
+                "Hoy": 1,
+                "Total": 2661,
+                "Diff": "22",
                 "Antece": "Jim Washington",
                 "game_status": "playing"
             },
@@ -1085,30 +1085,20 @@
                 "Rank": 11,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 411,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 412,
+                "Diff": "13",
                 "Antece": "Kevin Willis",
                 "game_status": "playing"
             },
             {
                 "Rank": 20,
-                "Nombre": "Jalen Johnson",
-                "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 275,
-                "Diff": "7",
-                "Antece": "Jamal Crawford",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 21,
                 "Nombre": "Nickeil Alexander-Walker",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 275,
-                "Diff": "0",
-                "Antece": "Jalen Johnson",
+                "Hoy": 3,
+                "Total": 276,
+                "Diff": "6",
+                "Antece": "Jamal Crawford",
                 "game_status": "playing"
             },
             {
@@ -1306,13 +1296,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Grayson Allen (7 three-pointers today) has passed Steve Blake and is now ranked 172nd all-time with 1,038.",
-            "foto": [
-                "collages/1793492509987779_collage_1793492509879813.png"
-            ],
-            "timestamp": 1793492510
-        },
         {
             "texto": "Jerami Grant (1 block today) has passed Charles Smith and Joel Embiid and is now ranked 165th all-time with 790.",
             "foto": [
@@ -2005,16 +1988,16 @@
                 "collages/1793682937005869_collage_1793682936882875.png"
             ],
             "timestamp": 1793682937
+        },
+        {
+            "texto": "CJ McCollum (1 assist today) has passed Jamaal Tinsley and is now ranked 196th all-time with 3,331.",
+            "foto": [
+                "collages/1793838281369943_collage_1793838281270309.png"
+            ],
+            "timestamp": 1793838281
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Nicolas Batum (1 block today) has passed Kawhi Leonard and is now ranked 24th in Clippers history with 186.",
-            "foto": [],
-            "timestamp": 1776047854,
-            "team": "LAC",
-            "type": "franchise"
-        },
         {
             "texto": "📢🔝🔟 Anthony Edwards today surpasses Andrew Wiggins and is now ranked 7th in Timberwolves history with 443 games.",
             "foto": [],
@@ -2707,9 +2690,16 @@
             "timestamp": 1793673465,
             "team": "ATL",
             "type": "franchise"
+        },
+        {
+            "texto": "Nickeil Alexander-Walker (3 three-pointers today) has passed Jalen Johnson and is now ranked 20th in Hawks history with 276.",
+            "foto": [],
+            "timestamp": 1793838281,
+            "team": "ATL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2399,
-    "total_franchise_historicas": 681,
-    "cache_buster": 1793838200
+    "total_notificaciones_historicas": 2400,
+    "total_franchise_historicas": 682,
+    "cache_buster": 1793838281
 }
