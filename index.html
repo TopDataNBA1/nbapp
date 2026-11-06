@@ -91,9 +91,19 @@
             filter:drop-shadow(0 0 6px #ff4655);
         }
 
-        .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;text-align:center;}
+        .status-bar{padding:8px 20px;background:rgba(0,0,0,0.7);font-size:1.1em;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+        .status-left{display:flex;flex-direction:column;gap:2px;}
         .status-line1{color:#55ff55;}
         .status-line2{color:#ffaa00;font-weight:600;}
+
+        /* MORE DROPDOWN */
+        .more-dropdown{position:relative;flex-shrink:0;}
+        .more-btn{padding:8px 24px;font-family:'Orbitron',sans-serif;font-size:0.95em;color:#e0e0e0;background:rgba(255,255,255,0.05);border:2px solid rgba(255,70,85,0.3);border-radius:20px;cursor:pointer;transition:0.3s;}
+        .more-btn:hover{background:rgba(255,70,85,0.2);border-color:#ff4655;}
+        .more-menu{display:none;position:absolute;right:0;top:calc(100% + 6px);background:#1a1a2e;border:2px solid #ff4655;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.6);min-width:200px;z-index:999;}
+        .more-menu.open{display:block;}
+        .more-menu a{display:block;padding:11px 18px;font-family:'Orbitron',sans-serif;font-size:0.8em;color:#e0e0e0;text-decoration:none;transition:0.2s;white-space:nowrap;}
+        .more-menu a:hover{background:rgba(255,70,85,0.25);color:#ff4655;}
 
         /* MAIN TABS (Global / Franchise) */
         .main-tabs{max-width:900px;margin:10px auto 5px;display:flex;gap:8px;justify-content:center;}
@@ -480,8 +490,18 @@
     </div>           
 
     <div class="status-bar">
-        <div class="status-line1">ONLINE - Last update:</div>
-        <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
+        <div class="status-left">
+            <div class="status-line1">ONLINE - Last update:</div>
+            <div class="status-line2" id="clock-line">--:--:-- ET • --:--:-- CEST</div>
+        </div>
+        <div class="more-dropdown">
+            <button class="more-btn" onclick="toggleMore(event)">More ▾</button>
+            <div class="more-menu" id="more-menu">
+                <a href="tabla_global__7_.html">Global Top 250 per team</a>
+                <a href="tabla_franchise__7_.html">Franchise Top 25 per team</a>
+
+            </div>
+        </div>
     </div>
 
     <!-- SELECTOR PLAYOFFS / REGULAR SEASON -->
@@ -693,7 +713,7 @@
         let currentSeason = 'regular';
         let currentDataFile = 'data.json';
         let currentHistoricoFile = 'notificaciones_historicas.json';
-        const RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
+        var RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
         function rawUrl(file) { return RAW_BASE + file + '?t=' + Date.now(); }
 
         function switchSeason(season) {
@@ -728,6 +748,15 @@
             const activeTab = document.querySelector('.main-tab-content.active');
             if (activeTab) openMainTab(activeTab.id);
         }
+
+        // === MORE DROPDOWN ===
+        function toggleMore(e) {
+            e.stopPropagation();
+            document.getElementById('more-menu').classList.toggle('open');
+        }
+        document.addEventListener('click', function() {
+            document.getElementById('more-menu').classList.remove('open');
+        });
 
         // === MAIN TABS (Global / Teams) ===
         function openMainTab(tabName) {
@@ -869,6 +898,13 @@
 
                     for (const [stat, tabla] of sortedStats) {
                         if (!tabla.length) continue;
+
+                        // Ocultar categoria si cap jugador té game_status actiu avui
+                        const hasActiveToday = tabla.some(row => {
+                            const gs = String(row.game_status || '').toLowerCase();
+                            return gs === 'playing' || gs === 'not_started' || gs === 'finished';
+                        });
+                        if (!hasActiveToday) continue;
 
                         let filtered = tabla.filter(row => {
                             const rank = row.Rank;
@@ -1867,6 +1903,7 @@ function disableNotifications(){
 // === TOP MOVES ===
 let topMovesData = null;
 let playerTeamsMap = null;
+let jornadaIniciCache = null; // Unix timestamp (s) del primer partit del dia — llegit de data.json
 
 async function loadTopMovesData() {
     if (topMovesData) return topMovesData;
@@ -1893,6 +1930,10 @@ async function loadPlayerTeams() {
                     playerTeamsMap[row.Nombre] = row.Team;
                 }
             }
+        }
+        // Guardar jornada_inici si ve informat
+        if (data.jornada_inici != null) {
+            jornadaIniciCache = data.jornada_inici;
         }
         return playerTeamsMap;
     } catch (e) {
@@ -1937,44 +1978,57 @@ function extractPlayerName(text) {
     return 'Unknown';
 }
 
-function filterByPeriod(notifications, period) {
-    // Obtenir l'hora actual en ET
-    const now = new Date();
-    const etFormatter = new Intl.DateTimeFormat('en-US', {
-        timeZone: 'America/New_York',
-        year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
-    });
-    const etParts = etFormatter.formatToParts(now);
-    const etYear = parseInt(etParts.find(p => p.type === 'year').value);
-    const etMonth = parseInt(etParts.find(p => p.type === 'month').value) - 1;
-    const etDay = parseInt(etParts.find(p => p.type === 'day').value);
-    
-    // Inici del dia actual en ET (convertit a timestamp UTC)
-    const todayET = new Date(Date.UTC(etYear, etMonth, etDay, 5, 0, 0)); // 00:00 ET = 05:00 UTC
-    
-    // Inici de la setmana (dilluns) en ET
-    const dayOfWeek = new Date(now.toLocaleString('en-US', {timeZone: 'America/New_York'})).getDay();
-    const daysToMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
-    const weekStartET = new Date(todayET.getTime() - daysToMonday * 24 * 60 * 60 * 1000);
-    
-    // Inici del mes en ET
-    const monthStartET = new Date(Date.UTC(etYear, etMonth, 1, 5, 0, 0));
-    
-    // Inici de la temporada (octubre 2025)
-    const seasonStart = new Date(Date.UTC(2025, 9, 1, 4, 0, 0)); // Oct 1, 2025 00:00 ET
-    
-    return notifications.filter(n => {
-        const notifTimestamp = n.timestamp * 1000;
-        
-        switch(period) {
-            case 'today': return notifTimestamp >= todayET.getTime();
-            case 'week': return notifTimestamp >= weekStartET.getTime();
-            case 'month': return notifTimestamp >= monthStartET.getTime();
-            case 'season': return notifTimestamp >= seasonStart.getTime();
-            default: return true;
-        }
-    });
+function filterByPeriod(notifications, period, jornadaInici) {
+    // jornadaInici: Unix timestamp (seconds) del primer partit del dia actual,
+    // escrit pel Python a data.json. Si és null (cap partit ha començat avui),
+    // "today" no mostrarà res, que és el comportament correcte.
+
+    // Inici de la temporada actual
+    const SEASON_START_MS = new Date(Date.UTC(2026, 9, 20, 4, 0, 0)).getTime(); // 20/10/2026 00:00 ET
+
+    if (period === 'today') {
+        if (!jornadaInici) return [];
+        const todayStartMs = jornadaInici * 1000;
+        return notifications.filter(n => n.timestamp * 1000 >= todayStartMs);
+    }
+
+    if (period === 'week') {
+        // Dilluns a les 00:00 ET de la setmana actual.
+        // "Avui" en temps ET el derivem de jornadaInici si existeix,
+        // sinó usem l'hora actual.
+        const refMs = jornadaInici ? jornadaInici * 1000 : Date.now();
+        const refDate = new Date(refMs);
+        // Convertim a ET (UTC-5 en hivern / UTC-4 en estiu)
+        // Usem un offset fix -5h per evitar dependre de l'API Intl en dispositius vells
+        const ET_OFFSET_MS = 5 * 60 * 60 * 1000; // -5h (hivern ET; acceptable per a aquest ús)
+        const refET = new Date(refMs - ET_OFFSET_MS);
+        // Dia de la setmana: 0=diumenge, 1=dilluns ... 6=dissabte
+        const dow = refET.getUTCDay();
+        // Dies fins al dilluns anterior (o avui si ja és dilluns)
+        const daysToMonday = (dow === 0) ? 6 : dow - 1;
+        const mondayET = new Date(Date.UTC(
+            refET.getUTCFullYear(), refET.getUTCMonth(), refET.getUTCDate() - daysToMonday
+        )); // Dilluns a les 00:00 UTC (aproximat, les 05:00 CET)
+        // Passem a hora real ET: dilluns 00:00 ET = dilluns 05:00 UTC (hivern)
+        const mondayStartMs = mondayET.getTime() + ET_OFFSET_MS;
+        return notifications.filter(n => n.timestamp * 1000 >= mondayStartMs);
+    }
+
+    if (period === 'month') {
+        // Dia 1 del mes actual a les 00:00 ET
+        const refMs = jornadaInici ? jornadaInici * 1000 : Date.now();
+        const ET_OFFSET_MS = 5 * 60 * 60 * 1000;
+        const refET = new Date(refMs - ET_OFFSET_MS);
+        const firstET = new Date(Date.UTC(refET.getUTCFullYear(), refET.getUTCMonth(), 1));
+        const monthStartMs = firstET.getTime() + ET_OFFSET_MS;
+        return notifications.filter(n => n.timestamp * 1000 >= monthStartMs);
+    }
+
+    if (period === 'season') {
+        return notifications.filter(n => n.timestamp * 1000 >= SEASON_START_MS);
+    }
+
+    return notifications;
 }
 
 async function updateTopMoves() {
@@ -2004,25 +2058,9 @@ async function updateTopMoves() {
         allNotifications = allNotifications.concat(franchiseNotifs);
     }
     
-    // Filtrar per període
-    // Per "today": si no hi ha notificacions d'avui, mostrar l'última jornada
-    let filteredByPeriod = filterByPeriod(allNotifications, period);
-    
-    if (period === 'today' && filteredByPeriod.length === 0 && allNotifications.length > 0) {
-        // Trobar la data de l'última notificació i mostrar totes d'aquell dia
-        const lastTimestamp = Math.max(...allNotifications.map(n => n.timestamp));
-        const lastDate = new Date(lastTimestamp * 1000);
-        const lastDateET = new Date(lastDate.toLocaleString('en-US', {timeZone: 'America/New_York'}));
-        const lastDayStart = new Date(lastDateET.getFullYear(), lastDateET.getMonth(), lastDateET.getDate());
-        const lastDayStartUTC = new Date(Date.UTC(lastDayStart.getFullYear(), lastDayStart.getMonth(), lastDayStart.getDate(), 5, 0, 0));
-        const lastDayEndUTC = new Date(lastDayStartUTC.getTime() + 24 * 60 * 60 * 1000);
-        
-        filteredByPeriod = allNotifications.filter(n => {
-            const ts = n.timestamp * 1000;
-            return ts >= lastDayStartUTC.getTime() && ts < lastDayEndUTC.getTime();
-        });
-    }
-    
+    // Filtrar per període (jornadaIniciCache llegit de data.json via loadPlayerTeams)
+    let filteredByPeriod = filterByPeriod(allNotifications, period, jornadaIniciCache);
+
     allNotifications = filteredByPeriod;
     
     // Filtrar per estadística
@@ -2089,11 +2127,12 @@ async function updateTopMoves() {
         const notifDate = new Date(n.timestamp * 1000);
         const dateStr = notifDate.toLocaleDateString('en-US', {month:'short', day:'numeric', timeZone:'America/New_York'});
         
-        // Collages: mostrar com a imatge normal amb tamany limitat (igual que Latest Moves)
-        const photoHtml = n.foto && n.foto.length > 0 
+        // Collages: convertir ruta relativa a URL absoluta (igual que Latest Moves)
+        const fotosTop = (n.foto || []).map(f => f && !f.startsWith('http') ? RAW_BASE + f : f).filter(Boolean);
+        const photoHtml = fotosTop.length > 0
             ? `<div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px;">
-                ${n.foto.map(f => `<img src="${f}" style="max-width:300px;max-height:300px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.5);" loading="lazy" onerror="this.style.display='none'">`).join('')}
-               </div>` 
+                ${fotosTop.map(f => `<img src="${f}" style="max-width:300px;max-height:300px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.5);" loading="lazy" onerror="this.style.display='none'">`).join('')}
+               </div>`
             : '';
         
         return `
@@ -2101,7 +2140,7 @@ async function updateTopMoves() {
                 <div style="position:absolute;top:10px;left:10px;font-size:1.5em;">${medal}</div>
                 <div style="position:absolute;top:10px;right:10px;font-size:1.2em;">${statEmoji}</div>
                 ${photoHtml}
-                <div class="move-text" style="margin-top:${n.foto && n.foto.length > 0 ? '0' : '25px'};">
+                <div class="move-text" style="margin-top:${fotosTop.length > 0 ? '0' : '25px'};">
                     ${n.texto.replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>')}
                 </div>
                 <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
