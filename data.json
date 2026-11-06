@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:33:15",
+    "ultima_actualizacion": "04:34:17",
     "jornada_inici": 1793932322,
     "tablas": {
         "pts": [
@@ -266,11 +266,11 @@
                 "Rank": 177,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 3,
-                "Total": 1033,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 1034,
+                "Diff": "1",
                 "Antece": "James Posey",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -307,14 +307,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 230,
+                "Rank": 229,
                 "Nombre": "Georges Niang",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 892,
-                "Diff": "1",
-                "Antece": "Will Barton",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 893,
+                "Diff": "7",
+                "Antece": "900",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -323,8 +323,8 @@
                 "Team": "PHX",
                 "Hoy": 1,
                 "Total": 890,
-                "Diff": "2",
-                "Antece": "Georges Niang",
+                "Diff": "3",
+                "Antece": "Will Barton",
                 "Nota": "",
                 "game_status": "playing"
             }
@@ -627,9 +627,9 @@
                 "Rank": 13,
                 "Nombre": "Brandin Podziemski",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 363,
-                "Diff": "37",
+                "Hoy": 1,
+                "Total": 364,
+                "Diff": "36",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -992,13 +992,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Fred VanVleet (8 assists today) has passed Fred Brown and Slater Martin and is now ranked 216th all-time with 3,161.",
-            "foto": [
-                "collages/1793677891178737_collage_1793677891087788.png"
-            ],
-            "timestamp": 1793677891
-        },
         {
             "texto": "📢HOF🏛️ Brook Lopez (2 rebounds today) has passed Spencer Haywood and is now ranked 121st all-time with 7,039.",
             "foto": [
@@ -1691,16 +1684,16 @@
                 "collages/1793935764884427_collage_1793935764786299.png"
             ],
             "timestamp": 1793935764
+        },
+        {
+            "texto": "Dillon Brooks (4 three-pointers today) has passed OG Anunoby and is now ranked 177th all-time with 1,034.",
+            "foto": [
+                "collages/1793936057220506_collage_1793936057124539.png"
+            ],
+            "timestamp": 1793936057
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (5 assists today) has passed D.J. Augustin and is now ranked 13th in Magic history with 1,185.",
-            "foto": [],
-            "timestamp": 1792634074,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Lauri Markkanen (16 points today) becomes the 24th player to reach 5,000 points with Jazz.",
             "foto": [],
@@ -2393,9 +2386,16 @@
             "timestamp": 1793933822,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Brandin Podziemski (1 three-pointer today) has passed Mike Dunleavy and is now ranked 13th in Warriors history with 364.",
+            "foto": [],
+            "timestamp": 1793936057,
+            "team": "GSW",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2490,
-    "total_franchise_historicas": 692,
-    "cache_buster": 1793935995
+    "total_notificaciones_historicas": 2491,
+    "total_franchise_historicas": 693,
+    "cache_buster": 1793936057
 }
