@@ -713,7 +713,7 @@
         let currentSeason = 'regular';
         let currentDataFile = 'data.json';
         let currentHistoricoFile = 'notificaciones_historicas.json';
-        const RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
+        var RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
         function rawUrl(file) { return RAW_BASE + file + '?t=' + Date.now(); }
 
         function switchSeason(season) {
