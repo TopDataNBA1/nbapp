@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:51",
+    "ultima_actualizacion": "02:46:00",
     "jornada_inici": 1794012435,
     "tablas": {
         "pts": [
@@ -117,11 +117,11 @@
                 "Rank": 215,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 8,
-                "Total": 13656,
-                "Diff": "5",
+                "Hoy": 11,
+                "Total": 13659,
+                "Diff": "2",
                 "Antece": "Shai Gilgeous-Alexander",
-                "Nota": "",
+                "Nota": "A tiro de 2",
                 "game_status": "playing"
             },
             {
@@ -185,9 +185,9 @@
                 "Rank": 202,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 4,
-                "Total": 5923,
-                "Diff": "17",
+                "Hoy": 5,
+                "Total": 5924,
+                "Diff": "16",
                 "Antece": "Vern Mikkelsen",
                 "Nota": "",
                 "game_status": "playing"
@@ -431,9 +431,9 @@
                 "Rank": 83,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 2,
-                "Total": 1321,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 1322,
+                "Diff": "3",
                 "Antece": "Ryan Anderson",
                 "Nota": "",
                 "game_status": "playing"
@@ -442,9 +442,9 @@
                 "Rank": 86,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 1300,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 1301,
+                "Diff": "3",
                 "Antece": "Mike Dunleavy",
                 "Nota": "",
                 "game_status": "playing"
@@ -1024,9 +1024,9 @@
                 "Rank": 19,
                 "Nombre": "Evan Mobley",
                 "Stat": "PTS",
-                "Hoy": 12,
-                "Total": 5695,
-                "Diff": "34",
+                "Hoy": 15,
+                "Total": 5698,
+                "Diff": "31",
                 "Antece": "Jim Chones",
                 "game_status": "playing"
             },
@@ -1044,9 +1044,9 @@
                 "Rank": 16,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "AST",
-                "Hoy": 6,
-                "Total": 1416,
-                "Diff": "25",
+                "Hoy": 7,
+                "Total": 1417,
+                "Diff": "24",
                 "Antece": "Brevin Knight",
                 "game_status": "playing"
             },
@@ -1156,9 +1156,9 @@
                 "Rank": 6,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 384,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 385,
+                "Diff": "15",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -1671,13 +1671,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 231,
-                "Diff": "0",
-                "Antece": "Jerome Williams",
+                "Hoy": 3,
+                "Total": 232,
+                "Diff": "20",
+                "Antece": "Anthony Parker",
                 "game_status": "playing"
             },
             {
@@ -1947,13 +1947,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Karl-Anthony Towns (3 rebounds today) has passed Chris Webber and is now ranked 77th all-time with 8,125.",
-            "foto": [
-                "collages/1793840716113142_collage_1793840716007734.png"
-            ],
-            "timestamp": 1793840716
-        },
         {
             "texto": "📢🔝💯 Karl-Anthony Towns (4 rebounds today) has passed Larry Smith and is now ranked 77th all-time with 8,126.",
             "foto": [
@@ -2646,16 +2639,16 @@
                 "collages/1794015519846297_collage_1794015519765866.png"
             ],
             "timestamp": 1794015519
+        },
+        {
+            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Marcus Morris and is now ranked 86th all-time with 1,301.",
+            "foto": [
+                "collages/1794015959761677_collage_1794015959642726.png"
+            ],
+            "timestamp": 1794015959
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Luka Dončić (5 three-pointers today) has passed Lamar Odom and is now ranked 17th in Lakers history with 361.",
-            "foto": [],
-            "timestamp": 1792641090,
-            "team": "LAL",
-            "type": "franchise"
-        },
         {
             "texto": "Donovan Mitchell (1 steal today) becomes the 18th player to reach 400 steals with Cavaliers.",
             "foto": [],
@@ -3348,9 +3341,16 @@
             "timestamp": 1794014715,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Jakob Poeltl (3 steals today) has passed Jerome Williams and is now ranked 19th in Raptors history with 232.",
+            "foto": [],
+            "timestamp": 1794015959,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2512,
-    "total_franchise_historicas": 696,
-    "cache_buster": 1794015891
+    "total_notificaciones_historicas": 2513,
+    "total_franchise_historicas": 697,
+    "cache_buster": 1794015960
 }
