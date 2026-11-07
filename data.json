@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:57:05",
+    "ultima_actualizacion": "01:58:14",
     "jornada_inici": 1794012435,
     "tablas": {
         "pts": [
@@ -95,9 +95,9 @@
                 "Rank": 213,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 13681,
-                "Diff": "109",
+                "Hoy": 2,
+                "Total": 13683,
+                "Diff": "107",
                 "Antece": "Bill Laimbeer",
                 "Nota": "",
                 "game_status": "playing"
@@ -108,7 +108,7 @@
                 "Team": "OKC",
                 "Hoy": 0,
                 "Total": 13652,
-                "Diff": "29",
+                "Diff": "31",
                 "Antece": "Joel Embiid",
                 "Nota": "",
                 "game_status": "not_started"
@@ -272,14 +272,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 167,
+                "Rank": 166,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 789,
-                "Diff": "",
-                "Antece": "Charles Smith",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 790,
+                "Diff": "1",
+                "Antece": "Jon Koncak",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -664,9 +664,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 8925,
-                "Diff": "41",
+                "Hoy": 3,
+                "Total": 8926,
+                "Diff": "40",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -686,9 +686,9 @@
                 "Rank": 77,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 5,
-                "Total": 4949,
-                "Diff": "51",
+                "Hoy": 6,
+                "Total": 4950,
+                "Diff": "50",
                 "Antece": "5000",
                 "Nota": "",
                 "game_status": "playing"
@@ -1502,9 +1502,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 13630,
-                "Diff": "370",
+                "Hoy": 2,
+                "Total": 13632,
+                "Diff": "368",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -1572,9 +1572,9 @@
                 "Rank": 4,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 788,
-                "Diff": "12",
+                "Hoy": 1,
+                "Total": 789,
+                "Diff": "11",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -1828,9 +1828,9 @@
                 "Rank": 23,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 227,
-                "Diff": "40",
+                "Hoy": 1,
+                "Total": 228,
+                "Diff": "39",
                 "Antece": "Josh Smith",
                 "game_status": "playing"
             }
@@ -1947,13 +1947,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Jaylen Brown (10 points today) has passed Billy Cunningham and is now ranked 215th all-time with 13,628.",
-            "foto": [
-                "collages/1793839378970668_collage_1793839378859335.png"
-            ],
-            "timestamp": 1793839378
-        },
         {
             "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Terry Porter and is now ranked 87th all-time with 1,298.",
             "foto": [
@@ -2646,6 +2639,13 @@
                 "collages/1794013024889036_collage_1794013024802076.png"
             ],
             "timestamp": 1794013024
+        },
+        {
+            "texto": "Joel Embiid (1 block today) has passed Charles Smith and is now ranked 166th all-time with 790.",
+            "foto": [
+                "collages/1794013094458983_collage_1794013094337022.png"
+            ],
+            "timestamp": 1794013094
         }
     ],
     "notificaciones_franchise": [
@@ -3350,7 +3350,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2502,
+    "total_notificaciones_historicas": 2503,
     "total_franchise_historicas": 693,
-    "cache_buster": 1794013025
+    "cache_buster": 1794013094
 }
