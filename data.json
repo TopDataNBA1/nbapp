@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:13:11",
+    "ultima_actualizacion": "02:14:26",
     "jornada_inici": 1794012435,
     "tablas": {
         "pts": [
@@ -163,9 +163,9 @@
                 "Rank": 36,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 1,
-                "Total": 10668,
-                "Diff": "60",
+                "Hoy": 2,
+                "Total": 10669,
+                "Diff": "59",
                 "Antece": "Nikola Vučević",
                 "Nota": "",
                 "game_status": "playing"
@@ -305,14 +305,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 205,
+                "Rank": 203,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 668,
-                "Diff": "",
-                "Antece": "Bill Cartwright",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 669,
+                "Diff": "1",
+                "Antece": "George Gervin",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ],
@@ -571,14 +571,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 184,
+                "Rank": 183,
                 "Nombre": "LaMelo Ball",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1007,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1008,
+                "Diff": "1",
+                "Antece": "Morris Peterson",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1116,9 +1116,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3515,
-                "Diff": "485",
+                "Hoy": 2,
+                "Total": 3516,
+                "Diff": "484",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1258,9 +1258,9 @@
                 "Rank": 5,
                 "Nombre": "Zion Williamson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1130,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 1131,
+                "Diff": "8",
                 "Antece": "Tyreke Evans",
                 "game_status": "playing"
             },
@@ -1308,9 +1308,9 @@
                 "Rank": 8,
                 "Nombre": "Zion Williamson",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 296,
+                "Diff": "4",
                 "Antece": "300",
                 "game_status": "playing"
             },
@@ -1850,9 +1850,9 @@
                 "Rank": 16,
                 "Nombre": "Daniel Gafford",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 237,
-                "Diff": "19",
+                "Hoy": 1,
+                "Total": 238,
+                "Diff": "18",
                 "Antece": "Josh Howard",
                 "game_status": "playing"
             },
@@ -1947,20 +1947,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Myles Turner (1 three-pointer today) has passed Rasual Butler and is now ranked 225th all-time with 912.",
-            "foto": [
-                "collages/1793839778195861_collage_1793839778092200.png"
-            ],
-            "timestamp": 1793839778
-        },
-        {
-            "texto": "📢HOF🏛️ Kentavious Caldwell-Pope today surpasses Dick Barnett, Kevin McHale and Raymond Felton and now ranked 188th all time with 972 games",
-            "foto": [
-                "collages/1793840003636224_collage_1793840003563982.png"
-            ],
-            "timestamp": 1793840003
-        },
         {
             "texto": "Jalen Brunson (2 three-pointers today) has passed Stephon Marbury and is now ranked 190th all-time with 992.",
             "foto": [
@@ -2646,6 +2632,20 @@
                 "collages/1794013473403799_collage_1794013473308761.png"
             ],
             "timestamp": 1794013473
+        },
+        {
+            "texto": "Daniel Gafford (1 block today) has passed Bill Cartwright and is now ranked 203rd all-time with 669.",
+            "foto": [
+                "collages/1794014066232354_collage_1794014066135627.png"
+            ],
+            "timestamp": 1794014066
+        },
+        {
+            "texto": "LaMelo Ball (1 three-pointer today) has passed Desmond Bane and is now ranked 183rd all-time with 1,008.",
+            "foto": [
+                "collages/1794014066419403_collage_1794014066329751.png"
+            ],
+            "timestamp": 1794014066
         }
     ],
     "notificaciones_franchise": [
@@ -3350,7 +3350,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2507,
+    "total_notificaciones_historicas": 2509,
     "total_franchise_historicas": 695,
-    "cache_buster": 1794013991
+    "cache_buster": 1794014066
 }
