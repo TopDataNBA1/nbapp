@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:05:48",
+    "ultima_actualizacion": "01:09:17",
     "jornada_inici": 1794066857,
     "tablas": {
         "pts": [
@@ -48,14 +48,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 237,
+                "Rank": 235,
                 "Nombre": "Pascal Siakam",
                 "Team": "IND",
-                "Hoy": 16,
-                "Total": 12996,
-                "Diff": "",
-                "Antece": "Josh Smith",
-                "Nota": "Mismo total",
+                "Hoy": 18,
+                "Total": 12998,
+                "Diff": "2",
+                "Antece": "13000",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -268,9 +268,9 @@
                 "Rank": 213,
                 "Nombre": "Tyus Jones",
                 "Team": "DEN",
-                "Hoy": 3,
-                "Total": 3196,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 3197,
+                "Diff": "5",
                 "Antece": "Rafer Alston",
                 "Nota": "",
                 "game_status": "playing"
@@ -636,13 +636,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Myles Turner (4 three-pointers today) has passed Brandon Jennings and is now ranked 224th all-time with 915.",
-            "foto": [
-                "collages/1793844500206241_collage_1793844500106458.png"
-            ],
-            "timestamp": 1793844500
-        },
         {
             "texto": "Jaylen Brown (30 points today) has passed Peja Stojaković and is now ranked 214th all-time with 13,648.",
             "foto": [
@@ -1335,6 +1328,13 @@
                 "collages/1794095542060744_collage_1794095541944799.png"
             ],
             "timestamp": 1794095542
+        },
+        {
+            "texto": "Pascal Siakam (18 points today) has passed Horace Grant and Josh Smith and is now ranked 235th all-time with 12,998.",
+            "foto": [
+                "collages/1794096557604016_collage_1794096557501063.png"
+            ],
+            "timestamp": 1794096557
         }
     ],
     "notificaciones_franchise": [
@@ -2039,7 +2039,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2535,
+    "total_notificaciones_historicas": 2536,
     "total_franchise_historicas": 703,
-    "cache_buster": 1794096348
+    "cache_buster": 1794096557
 }
