@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:18",
+    "ultima_actualizacion": "03:57:32",
     "jornada_inici": 1794066857,
     "tablas": {
         "pts": [
@@ -128,9 +128,9 @@
                 "Rank": 152,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 16,
-                "Total": 15491,
-                "Diff": "39",
+                "Hoy": 19,
+                "Total": 15494,
+                "Diff": "36",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -541,9 +541,9 @@
                 "Rank": 28,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 1867,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 1868,
+                "Diff": "2",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -618,9 +618,9 @@
                 "Rank": 70,
                 "Nombre": "Fred VanVleet",
                 "Team": "HOU",
-                "Hoy": 2,
-                "Total": 1406,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 1407,
+                "Diff": "15",
                 "Antece": "Jamal Murray",
                 "Nota": "",
                 "game_status": "playing"
@@ -1172,9 +1172,9 @@
                 "Rank": 90,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 2,
-                "Total": 1244,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 1243,
+                "Diff": "5",
                 "Antece": "Grant Hill",
                 "Nota": "",
                 "game_status": "playing"
@@ -1362,13 +1362,13 @@
     "tablas_teams": {
         "CLE": [
             {
-                "Rank": 12,
+                "Rank": 11,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 7257,
-                "Diff": "0",
-                "Antece": "Larry Nance",
+                "Hoy": 19,
+                "Total": 7260,
+                "Diff": "240",
+                "Antece": "7500",
                 "game_status": "playing"
             },
             {
@@ -1425,9 +1425,9 @@
                 "Rank": 4,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 909,
-                "Diff": "47",
+                "Hoy": 2,
+                "Total": 910,
+                "Diff": "46",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             }
@@ -1841,9 +1841,9 @@
                 "Rank": 16,
                 "Nombre": "Fred VanVleet",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 406,
-                "Diff": "56",
+                "Hoy": 3,
+                "Total": 407,
+                "Diff": "55",
                 "Antece": "Aaron Brooks",
                 "game_status": "playing"
             },
@@ -3421,13 +3421,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Donovan Mitchell (1 steal today) becomes the 18th player to reach 400 steals with Cavaliers.",
-            "foto": [],
-            "timestamp": 1792887408,
-            "team": "CLE",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "Alperen Şengün (1 steal today) has passed Rudy Tomjanovich and is now ranked 21st in Rockets history with 375.",
             "foto": [],
             "timestamp": 1792889706,
@@ -4119,9 +4112,16 @@
             "timestamp": 1794106578,
             "team": "CLE",
             "type": "franchise"
+        },
+        {
+            "texto": "Donovan Mitchell (19 points today) has passed Larry Nance and is now ranked 11th in Cavaliers history with 7,260.",
+            "foto": [],
+            "timestamp": 1794106652,
+            "team": "CLE",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2557,
-    "total_franchise_historicas": 712,
-    "cache_buster": 1794106578
+    "total_franchise_historicas": 713,
+    "cache_buster": 1794106652
 }
