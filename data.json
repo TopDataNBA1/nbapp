@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:52:17",
+    "ultima_actualizacion": "02:53:30",
     "jornada_inici": 1794066857,
     "tablas": {
         "pts": [
@@ -1454,10 +1454,10 @@
                 "Rank": 8,
                 "Nombre": "Stephen Curry",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 4999,
-                "Diff": "1",
-                "Antece": "5000",
+                "Hoy": 1,
+                "Total": 5000,
+                "Diff": "500",
+                "Antece": "5500",
                 "game_status": "playing"
             },
             {
@@ -1902,9 +1902,9 @@
                 "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2863,
-                "Diff": "137",
+                "Hoy": 1,
+                "Total": 2864,
+                "Diff": "136",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -2039,13 +2039,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 350,
-                "Diff": "0",
-                "Antece": "Anthony Bowie",
+                "Hoy": 1,
+                "Total": 351,
+                "Diff": "9",
+                "Antece": "Bo Outlaw",
                 "game_status": "playing"
             },
             {
@@ -3012,20 +3012,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Isaiah Collier (1 assist today) has passed Bryon Russell and is now ranked 24th in Jazz history with 870.",
-            "foto": [],
-            "timestamp": 1792807320,
-            "team": "UTA",
-            "type": "franchise"
-        },
-        {
-            "texto": "Toumani Camara (1 three-pointer today) has passed Shaedon Sharpe and is now ranked 13th in Trail Blazers history with 413.",
-            "foto": [],
-            "timestamp": 1792808252,
-            "team": "POR",
-            "type": "franchise"
-        },
-        {
             "texto": "Isaiah Collier (4 assists today) has passed Trey Burke and is now ranked 23rd in Jazz history with 873.",
             "foto": [],
             "timestamp": 1792808432,
@@ -3710,9 +3696,23 @@
             "timestamp": 1794102347,
             "team": "GSW",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢🔝🔟 Stephen Curry (1 rebound today) becomes the 8th player to reach 5,000 rebounds with Warriors.",
+            "foto": [],
+            "timestamp": 1794102810,
+            "team": "GSW",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Wendell Carter Jr. today surpasses Anthony Bowie and is now ranked 17th in Magic history with 351 games.",
+            "foto": [],
+            "timestamp": 1794102810,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2545,
-    "total_franchise_historicas": 706,
-    "cache_buster": 1794102737
+    "total_franchise_historicas": 708,
+    "cache_buster": 1794102810
 }
