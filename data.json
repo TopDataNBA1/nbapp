@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:01:21",
+    "ultima_actualizacion": "02:04:14",
     "jornada_inici": 1794066857,
     "tablas": {
         "pts": [
@@ -672,14 +672,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 196,
+                "Rank": 195,
                 "Nombre": "CJ McCollum",
                 "Team": "ATL",
-                "Hoy": 0,
-                "Total": 3339,
-                "Diff": "",
-                "Antece": "Allen Leavell",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 3340,
+                "Diff": "24",
+                "Antece": "Mike Newlin",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1832,13 +1832,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Devin Booker (6 points today) has passed Brook Lopez and is now ranked 82nd all-time with 18,241.",
-            "foto": [
-                "collages/1793845286380559_collage_1793845286280916.png"
-            ],
-            "timestamp": 1793845286
-        },
-        {
             "texto": "Jalen Brunson (4 assists today) has passed Doug Christie and is now ranked 249th all-time with 2,993.",
             "foto": [
                 "collages/1793845440453449_collage_1793845440348873.png"
@@ -2530,6 +2523,13 @@
                 "collages/1794099680983065_collage_1794099680871106.png"
             ],
             "timestamp": 1794099681
+        },
+        {
+            "texto": "CJ McCollum (1 assist today) has passed Allen Leavell and is now ranked 195th all-time with 3,340.",
+            "foto": [
+                "collages/1794099854063984_collage_1794099853958023.png"
+            ],
+            "timestamp": 1794099854
         }
     ],
     "notificaciones_franchise": [
@@ -3234,7 +3234,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2538,
+    "total_notificaciones_historicas": 2539,
     "total_franchise_historicas": 703,
-    "cache_buster": 1794099681
+    "cache_buster": 1794099854
 }
