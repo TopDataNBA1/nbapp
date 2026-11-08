@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:24:55",
+    "ultima_actualizacion": "22:26:08",
     "jornada_inici": 1794170961,
     "tablas": {
         "pts": [
@@ -18,9 +18,9 @@
                 "Rank": 214,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 6,
-                "Total": 13693,
-                "Diff": "17",
+                "Hoy": 8,
+                "Total": 13695,
+                "Diff": "15",
                 "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "",
                 "game_status": "playing"
@@ -31,7 +31,7 @@
                 "Team": "PHI",
                 "Hoy": 12,
                 "Total": 13680,
-                "Diff": "13",
+                "Diff": "15",
                 "Antece": "Joel Embiid",
                 "Nota": "",
                 "game_status": "playing"
@@ -153,14 +153,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 213,
+                "Rank": 212,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 941,
-                "Diff": "",
-                "Antece": "Damon Jones",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 942,
+                "Diff": "6",
+                "Antece": "Dorian Finney-Smith",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -232,9 +232,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 13693,
-                "Diff": "307",
+                "Hoy": 8,
+                "Total": 13695,
+                "Diff": "305",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -242,9 +242,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 8459,
-                "Diff": "41",
+                "Hoy": 11,
+                "Total": 8462,
+                "Diff": "38",
                 "Antece": "8500",
                 "game_status": "playing"
             },
@@ -262,9 +262,9 @@
                 "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1918,
-                "Diff": "47",
+                "Hoy": 2,
+                "Total": 1919,
+                "Diff": "46",
                 "Antece": "Andrew Toney",
                 "game_status": "playing"
             },
@@ -272,9 +272,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1840,
-                "Diff": "39",
+                "Hoy": 1,
+                "Total": 1841,
+                "Diff": "38",
                 "Antece": "Wilt Chamberlain",
                 "game_status": "playing"
             },
@@ -312,9 +312,9 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 941,
-                "Diff": "59",
+                "Hoy": 1,
+                "Total": 942,
+                "Diff": "58",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -373,13 +373,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Brook Lopez (5 rebounds today) has passed Kobe Bryant and is now ranked 120th all-time with 7,048.",
-            "foto": [
-                "collages/1793854581818826_collage_1793854581721978.png"
-            ],
-            "timestamp": 1793854581
-        },
         {
             "texto": "Luka Dončić (7 assists today) has passed Vern Fleming and is now ranked 107th all-time with 4,294.",
             "foto": [
@@ -1072,6 +1065,13 @@
                 "collages/1794171763922532_collage_1794171763824616.png"
             ],
             "timestamp": 1794171763
+        },
+        {
+            "texto": "Tyrese Maxey (1 three-pointer today) has passed Damon Jones and is now ranked 212th all-time with 942.",
+            "foto": [
+                "collages/1794173168526956_collage_1794173168411287.png"
+            ],
+            "timestamp": 1794173168
         }
     ],
     "notificaciones_franchise": [
@@ -1776,7 +1776,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2571,
+    "total_notificaciones_historicas": 2572,
     "total_franchise_historicas": 714,
-    "cache_buster": 1794173095
+    "cache_buster": 1794173168
 }
