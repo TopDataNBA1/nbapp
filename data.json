@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:29:49",
+    "ultima_actualizacion": "23:32:10",
     "jornada_inici": 1794170961,
     "tablas": {
         "pts": [
@@ -131,6 +131,17 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 64,
+                "Nombre": "Duncan Robinson",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1457,
+                "Diff": "20",
+                "Antece": "Khris Middleton",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 85,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
@@ -151,6 +162,28 @@
                 "Antece": "Kyle Kuzma",
                 "Nota": "",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 138,
+                "Nombre": "Kevin Huerter",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1135,
+                "Diff": "2",
+                "Antece": "Anfernee Simons",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 166,
+                "Nombre": "Taurean Prince",
+                "Team": "DET",
+                "Hoy": 0,
+                "Total": 1050,
+                "Diff": "",
+                "Antece": "Michael Porter Jr.",
+                "Nota": "Mismo total",
+                "game_status": "not_started"
             },
             {
                 "Rank": 212,
@@ -227,6 +260,58 @@
         ]
     },
     "tablas_teams": {
+        "DET": [
+            {
+                "Rank": 24,
+                "Nombre": "Cade Cunningham",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 6311,
+                "Diff": "180",
+                "Antece": "Rodney Stuckey",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Cade Cunningham",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 2225,
+                "Diff": "31",
+                "Antece": "Bob Lanier",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "Cade Cunningham",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 188,
+                "Diff": "12",
+                "Antece": "200",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Cade Cunningham",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 542,
+                "Diff": "39",
+                "Antece": "Rasheed Wallace",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 25,
+                "Nombre": "Duncan Robinson",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 255,
+                "Diff": "5",
+                "Antece": "Luke Kennard",
+                "game_status": "not_started"
+            }
+        ],
         "PHI": [
             {
                 "Rank": 6,
@@ -337,6 +422,28 @@
                 "Diff": "1",
                 "Antece": "500",
                 "game_status": "playing"
+            }
+        ],
+        "LAL": [
+            {
+                "Rank": 18,
+                "Nombre": "Austin Reaves",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1523,
+                "Diff": "70",
+                "Antece": "Shaquille O'Neal",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Austin Reaves",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 633,
+                "Diff": "67",
+                "Antece": "700",
+                "game_status": "not_started"
             }
         ],
         "CHI": [
@@ -1778,5 +1885,5 @@
     ],
     "total_notificaciones_historicas": 2572,
     "total_franchise_historicas": 714,
-    "cache_buster": 1794176989
+    "cache_buster": 1794177130
 }
