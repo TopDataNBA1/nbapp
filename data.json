@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:13:24",
+    "ultima_actualizacion": "03:14:38",
     "jornada_inici": 1794170961,
     "tablas": {
         "pts": [
@@ -207,9 +207,9 @@
                 "Rank": 120,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 7051,
-                "Diff": "39",
+                "Hoy": 1,
+                "Total": 7052,
+                "Diff": "38",
                 "Antece": "Julius Randle",
                 "Nota": "",
                 "game_status": "playing"
@@ -896,14 +896,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 222,
+                "Rank": 220,
                 "Nombre": "Klay Thompson",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 943,
-                "Diff": "",
-                "Antece": "Chuck Person",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 944,
+                "Diff": "2",
+                "Antece": "Rickey Green",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
@@ -1402,10 +1402,10 @@
                 "Rank": 24,
                 "Nombre": "Karlo Matković",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 99,
-                "Diff": "1",
-                "Antece": "100",
+                "Hoy": 1,
+                "Total": 100,
+                "Diff": "4",
+                "Antece": "CJ McCollum",
                 "game_status": "playing"
             },
             {
@@ -1745,13 +1745,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Devin Booker (6 points today) has passed Brook Lopez and is now ranked 82nd all-time with 18,241.",
-            "foto": [
-                "collages/1793931275488448_collage_1793931275388457.png"
-            ],
-            "timestamp": 1793931275
-        },
         {
             "texto": "Desmond Bane (1 three-pointer today) has passed Kristaps Porziņģis and is now ranked 184th all-time with 1,005.",
             "foto": [
@@ -2444,16 +2437,16 @@
                 "collages/1794189629702015_collage_1794189629568606.png"
             ],
             "timestamp": 1794189629
+        },
+        {
+            "texto": "Klay Thompson today surpasses Brian Shaw and Chuck Person and now ranked 220th all time with 944 games",
+            "foto": [
+                "collages/1794190478528309_collage_1794190478444225.png"
+            ],
+            "timestamp": 1794190478
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Jarrett Allen (15 points today) has passed Terrell Brandon and is now ranked 16th in Cavaliers history with 5,794.",
-            "foto": [],
-            "timestamp": 1792890414,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Evan Mobley (6 rebounds today) becomes the 13th player to reach 3,000 rebounds with Cavaliers.",
             "foto": [],
@@ -3146,9 +3139,16 @@
             "timestamp": 1794109545,
             "team": "PHO",
             "type": "franchise"
+        },
+        {
+            "texto": "Karlo Matković (1 block today) becomes the 24th player to reach 100 blocks with Pelicans.",
+            "foto": [],
+            "timestamp": 1794190478,
+            "team": "NOH",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2583,
-    "total_franchise_historicas": 714,
-    "cache_buster": 1794190404
+    "total_notificaciones_historicas": 2584,
+    "total_franchise_historicas": 715,
+    "cache_buster": 1794190478
 }
