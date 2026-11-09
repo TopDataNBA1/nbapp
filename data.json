@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:23:30",
+    "ultima_actualizacion": "03:24:35",
     "jornada_inici": 1794170961,
     "tablas": {
         "pts": [
@@ -95,9 +95,9 @@
                 "Rank": 160,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 15291,
-                "Diff": "33",
+                "Hoy": 3,
+                "Total": 15294,
+                "Diff": "30",
                 "Antece": "Sam Perkins",
                 "Nota": "",
                 "game_status": "playing"
@@ -505,14 +505,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 89,
+                "Rank": 88,
                 "Nombre": "Andrew Wiggins",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1296,
-                "Diff": "1",
-                "Antece": "Terry Porter",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1297,
+                "Diff": "3",
+                "Antece": "Marcus Morris",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -708,9 +708,9 @@
                 "Rank": 26,
                 "Nombre": "Mike Conley",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 6783,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 6784,
+                "Diff": "14",
                 "Antece": "Jrue Holiday",
                 "Nota": "",
                 "game_status": "playing"
@@ -1282,20 +1282,20 @@
                 "Rank": 7,
                 "Nombre": "Zion Williamson",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1817,
-                "Diff": "134",
+                "Hoy": 1,
+                "Total": 1818,
+                "Diff": "133",
                 "Antece": "Chris Paul",
                 "game_status": "playing"
             },
             {
-                "Rank": 13,
+                "Rank": 12,
                 "Nombre": "Trey Murphy III",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1389,
-                "Diff": "0",
-                "Antece": "Al-Farouq Aminu",
+                "Hoy": 1,
+                "Total": 1390,
+                "Diff": "110",
+                "Antece": "1500",
                 "game_status": "playing"
             },
             {
@@ -1745,13 +1745,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Desmond Bane (1 three-pointer today) has passed Kristaps Porziņģis and is now ranked 184th all-time with 1,005.",
-            "foto": [
-                "collages/1793931275689386_collage_1793931275594431.png"
-            ],
-            "timestamp": 1793931275
-        },
         {
             "texto": "📢HOF🏛️ Draymond Green today surpasses Adrian Dantley and Dan Majerle and now ranked 209th all time with 956 games",
             "foto": [
@@ -2444,16 +2437,16 @@
                 "collages/1794190478528309_collage_1794190478444225.png"
             ],
             "timestamp": 1794190478
+        },
+        {
+            "texto": "Andrew Wiggins (3 points today) has passed John Drew and is now ranked 160th all-time with 15,294.",
+            "foto": [
+                "collages/1794191075680116_collage_1794191075581062.png"
+            ],
+            "timestamp": 1794191075
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (6 rebounds today) becomes the 13th player to reach 3,000 rebounds with Cavaliers.",
-            "foto": [],
-            "timestamp": 1792890498,
-            "team": "CLE",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "📢🔝🔟 Zion Williamson (2 steals today) has passed Baron Davis and is now ranked 8th in Pelicans history with 281.",
             "foto": [],
@@ -3146,9 +3139,16 @@
             "timestamp": 1794190478,
             "team": "NOH",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Trey Murphy III (1 rebound today) has passed Al-Farouq Aminu and is now ranked 12th in Pelicans history with 1,390.",
+            "foto": [],
+            "timestamp": 1794191075,
+            "team": "NOH",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2584,
-    "total_franchise_historicas": 715,
-    "cache_buster": 1794191010
+    "total_notificaciones_historicas": 2585,
+    "total_franchise_historicas": 716,
+    "cache_buster": 1794191075
 }
