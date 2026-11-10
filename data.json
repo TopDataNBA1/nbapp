@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:37:36",
+    "ultima_actualizacion": "01:01:29",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -115,6 +115,28 @@
                 "Diff": "43",
                 "Antece": "1900",
                 "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 163,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 793,
+                "Diff": "1",
+                "Antece": "Clarence Weatherspoon",
+                "Nota": "A tiro de 1",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 164,
+                "Nombre": "Jakob Poeltl",
+                "Team": "TOR",
+                "Hoy": 0,
+                "Total": 792,
+                "Diff": "1",
+                "Antece": "Jerami Grant",
+                "Nota": "A tiro de 1",
                 "game_status": "not_started"
             },
             {
@@ -248,6 +270,17 @@
                 "Total": 1102,
                 "Diff": "2",
                 "Antece": "Randy Foye",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 149,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 0,
+                "Total": 1091,
+                "Diff": "3",
+                "Antece": "Mo Williams",
                 "Nota": "",
                 "game_status": "not_started"
             },
@@ -567,6 +600,98 @@
                 "game_status": "not_started"
             }
         ],
+        "TOR": [
+            {
+                "Rank": 23,
+                "Nombre": "RJ Barrett",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 3211,
+                "Diff": "32",
+                "Antece": "Serge Ibaka",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 24,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 2995,
+                "Diff": "5",
+                "Antece": "3000",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 9,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 2139,
+                "Diff": "361",
+                "Antece": "2500",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 15,
+                "Nombre": "Jamal Shead",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 819,
+                "Diff": "89",
+                "Antece": "T.J. Ford",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "RJ Barrett",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 668,
+                "Diff": "17",
+                "Antece": "Charles Oakley",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 19,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "STL",
+                "Hoy": 0,
+                "Total": 233,
+                "Diff": "19",
+                "Antece": "Anthony Parker",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 10,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 336,
+                "Diff": "24",
+                "Antece": "Marcus Camby",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "RJ Barrett",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 264,
+                "Diff": "3",
+                "Antece": "Dee Brown",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 18,
+                "Nombre": "Jakob Poeltl",
+                "Stat": "G",
+                "Hoy": 0,
+                "Total": 322,
+                "Diff": "27",
+                "Antece": "Norman Powell",
+                "game_status": "not_started"
+            }
+        ],
         "ATL": [
             {
                 "Rank": 24,
@@ -670,6 +795,28 @@
                 "Total": 408,
                 "Diff": "12",
                 "Antece": "Metta World Peace",
+                "game_status": "not_started"
+            }
+        ],
+        "MEM": [
+            {
+                "Rank": 15,
+                "Nombre": "Jaylen Wells",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 282,
+                "Diff": "11",
+                "Antece": "Tyus Jones",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 23,
+                "Nombre": "Cam Spencer",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 181,
+                "Diff": "9",
+                "Antece": "Courtney Lee",
                 "game_status": "not_started"
             }
         ]
@@ -2080,5 +2227,5 @@
     ],
     "total_notificaciones_historicas": 2595,
     "total_franchise_historicas": 719,
-    "cache_buster": 1794267456
+    "cache_buster": 1794268889
 }
