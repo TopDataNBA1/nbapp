@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:24",
+    "ultima_actualizacion": "03:18:35",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -59,14 +59,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 82,
+                "Rank": 81,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 4,
-                "Total": 18326,
-                "Diff": "1",
-                "Antece": "Dave Bing",
-                "Nota": "A tiro de 1",
+                "Hoy": 7,
+                "Total": 18329,
+                "Diff": "7",
+                "Antece": "Glen Rice",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -464,9 +464,9 @@
                 "Rank": 52,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 1561,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 1562,
+                "Diff": "15",
                 "Antece": "Danny Green",
                 "Nota": "",
                 "game_status": "playing"
@@ -1515,9 +1515,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 18326,
-                "Diff": "174",
+                "Hoy": 7,
+                "Total": 18329,
+                "Diff": "171",
                 "Antece": "18500",
                 "game_status": "playing"
             },
@@ -1555,9 +1555,9 @@
                 "Rank": 23,
                 "Nombre": "Devin Booker",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 210,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 211,
+                "Diff": "1",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -1565,9 +1565,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 1561,
-                "Diff": "39",
+                "Hoy": 1,
+                "Total": 1562,
+                "Diff": "38",
                 "Antece": "1600",
                 "game_status": "playing"
             },
@@ -1791,9 +1791,9 @@
                 "Rank": 24,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 2715,
-                "Diff": "26",
+                "Hoy": 8,
+                "Total": 2716,
+                "Diff": "25",
                 "Antece": "Lenny Wilkens",
                 "game_status": "playing"
             },
@@ -2020,13 +2020,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "James Harden (4 rebounds today) has passed Tyrone Hill and is now ranked 133rd all-time with 6,855.",
-            "foto": [
-                "collages/1794015073781272_collage_1794015073660632.png"
-            ],
-            "timestamp": 1794015073
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Paul George (2 steals today) has passed Dwyane Wade and Eddie Jones and is now ranked 33rd all-time with 1,621.",
             "foto": [
@@ -2719,16 +2712,16 @@
                 "collages/1794277044708389_collage_1794277044604838.png"
             ],
             "timestamp": 1794277044
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (7 points today) has passed Dave Bing and is now ranked 81st all-time with 18,329.",
+            "foto": [
+                "collages/1794277115413122_collage_1794277115309277.png"
+            ],
+            "timestamp": 1794277115
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Anthony Edwards today surpasses Andrew Wiggins and is now ranked 7th in Timberwolves history with 443 games.",
-            "foto": [],
-            "timestamp": 1792970263,
-            "team": "MIN",
-            "type": "franchise"
-        },
         {
             "texto": "Luka Dončić (8 three-pointers today) has passed Sasha Vujačić and is now ranked 16th in Lakers history with 364.",
             "foto": [],
@@ -3421,9 +3414,16 @@
             "timestamp": 1794275282,
             "team": "DAL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢HOF🏛️ Devin Booker (1 block today) has passed Grant Hill and is now ranked 23rd in Suns history with 211.",
+            "foto": [],
+            "timestamp": 1794277115,
+            "team": "PHO",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2610,
-    "total_franchise_historicas": 722,
-    "cache_buster": 1794277044
+    "total_notificaciones_historicas": 2611,
+    "total_franchise_historicas": 723,
+    "cache_buster": 1794277115
 }
