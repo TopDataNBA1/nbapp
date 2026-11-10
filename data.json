@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:55:23",
+    "ultima_actualizacion": "04:57:38",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -427,25 +427,25 @@
             },
             {
                 "Rank": 202,
+                "Nombre": "Victor Wembanyama",
+                "Team": "SAS",
+                "Hoy": 8,
+                "Total": 674,
+                "Diff": "1",
+                "Antece": "Dennis Johnson",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 203,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
                 "Hoy": 0,
                 "Total": 673,
-                "Diff": "2",
-                "Antece": "Dennis Johnson",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Victor Wembanyama",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 203,
-                "Nombre": "Victor Wembanyama",
-                "Team": "SAS",
-                "Hoy": 7,
-                "Total": 673,
-                "Diff": "",
-                "Antece": "Daniel Gafford",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 226,
@@ -884,9 +884,9 @@
                 "Rank": 38,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 8,
-                "Total": 6161,
-                "Diff": "77",
+                "Hoy": 9,
+                "Total": 6162,
+                "Diff": "76",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "finished"
@@ -983,9 +983,9 @@
                 "Rank": 152,
                 "Nombre": "De'Aaron Fox",
                 "Team": "SAS",
-                "Hoy": 5,
-                "Total": 3771,
-                "Diff": "8",
+                "Hoy": 6,
+                "Total": 3772,
+                "Diff": "7",
                 "Antece": "Ray Williams",
                 "Nota": "",
                 "game_status": "playing"
@@ -1451,9 +1451,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 8,
-                "Total": 6161,
-                "Diff": "339",
+                "Hoy": 9,
+                "Total": 6162,
+                "Diff": "338",
                 "Antece": "6500",
                 "game_status": "finished"
             },
@@ -2113,9 +2113,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 7,
-                "Total": 673,
-                "Diff": "27",
+                "Hoy": 8,
+                "Total": 674,
+                "Diff": "26",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -2496,13 +2496,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday (9 points today) has passed Steve Nash and is now ranked 100th all-time with 17,390.",
-            "foto": [
-                "collages/1794030169477774_collage_1794030169350814.png"
-            ],
-            "timestamp": 1794030169
-        },
         {
             "texto": "📢HOF🏛️ Luka Dončić (47 points today) has passed Tim Hardaway and is now ranked 154th all-time with 15,376.",
             "foto": [
@@ -3195,6 +3188,13 @@
                 "collages/1794282818163533_collage_1794282818057453.png"
             ],
             "timestamp": 1794282818
+        },
+        {
+            "texto": "Victor Wembanyama (8 blocks today) has passed Daniel Gafford and is now ranked 202nd all-time with 674.",
+            "foto": [
+                "collages/1794283058146270_collage_1794283058054883.png"
+            ],
+            "timestamp": 1794283058
         }
     ],
     "notificaciones_franchise": [
@@ -3899,7 +3899,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2629,
+    "total_notificaciones_historicas": 2630,
     "total_franchise_historicas": 726,
-    "cache_buster": 1794282923
+    "cache_buster": 1794283058
 }
