@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:30:04",
+    "ultima_actualizacion": "05:31:19",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -40,11 +40,11 @@
                 "Rank": 17,
                 "Nombre": "Stephen Curry",
                 "Team": "GSW",
-                "Hoy": 14,
-                "Total": 26792,
-                "Diff": "1",
+                "Hoy": 15,
+                "Total": 26793,
+                "Diff": "",
                 "Antece": "DeMar DeRozan",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -429,11 +429,11 @@
                 "Rank": 202,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 8,
-                "Total": 674,
-                "Diff": "1",
+                "Hoy": 9,
+                "Total": 675,
+                "Diff": "",
                 "Antece": "Dennis Johnson",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "finished"
             },
             {
@@ -442,9 +442,9 @@
                 "Team": "DAL",
                 "Hoy": 0,
                 "Total": 673,
-                "Diff": "1",
+                "Diff": "2",
                 "Antece": "Victor Wembanyama",
-                "Nota": "A tiro de 1",
+                "Nota": "",
                 "game_status": "finished"
             },
             {
@@ -994,11 +994,11 @@
                 "Rank": 155,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 3,
-                "Total": 3759,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 3760,
+                "Diff": "1",
                 "Antece": "D.J. Augustin",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1615,9 +1615,9 @@
                 "Rank": 1,
                 "Nombre": "Stephen Curry",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 26792,
-                "Diff": "208",
+                "Hoy": 15,
+                "Total": 26793,
+                "Diff": "207",
                 "Antece": "27000",
                 "game_status": "playing"
             },
@@ -1735,9 +1735,9 @@
                 "Rank": 13,
                 "Nombre": "Brandin Podziemski",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 381,
-                "Diff": "19",
+                "Hoy": 4,
+                "Total": 382,
+                "Diff": "18",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2113,9 +2113,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 8,
-                "Total": 674,
-                "Diff": "26",
+                "Hoy": 9,
+                "Total": 675,
+                "Diff": "25",
                 "Antece": "Artis Gilmore",
                 "game_status": "finished"
             },
@@ -2496,13 +2496,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Luka Dončić (47 points today) has passed Tim Hardaway and is now ranked 154th all-time with 15,376.",
-            "foto": [
-                "collages/1794030169769679_collage_1794030169623728.png"
-            ],
-            "timestamp": 1794030169
-        },
         {
             "texto": "Harrison Barnes (13 points today) has passed Purvis Short and is now ranked 175th all-time with 14,608.",
             "foto": [
@@ -3195,6 +3188,13 @@
                 "collages/1794283058146270_collage_1794283058054883.png"
             ],
             "timestamp": 1794283058
+        },
+        {
+            "texto": "📢HOF🏛️ Al Horford (4 assists today) has passed Andy Phillip and is now ranked 155th all-time with 3,760.",
+            "foto": [
+                "collages/1794285079510200_collage_1794285079392253.png"
+            ],
+            "timestamp": 1794285079
         }
     ],
     "notificaciones_franchise": [
@@ -3899,7 +3899,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2630,
+    "total_notificaciones_historicas": 2631,
     "total_franchise_historicas": 726,
-    "cache_buster": 1794285004
+    "cache_buster": 1794285079
 }
