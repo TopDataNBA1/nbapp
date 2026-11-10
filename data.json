@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:54",
+    "ultima_actualizacion": "02:48:02",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -7,9 +7,9 @@
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 5,
-                "Total": 32810,
-                "Diff": "190",
+                "Hoy": 7,
+                "Total": 32812,
+                "Diff": "188",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -51,9 +51,9 @@
                 "Rank": 73,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 4,
-                "Total": 18608,
-                "Diff": "179",
+                "Hoy": 7,
+                "Total": 18611,
+                "Diff": "176",
                 "Antece": "Bob McAdoo",
                 "Nota": "",
                 "game_status": "playing"
@@ -106,9 +106,9 @@
                 "Rank": 154,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 24,
-                "Total": 15406,
-                "Diff": "5",
+                "Hoy": 25,
+                "Total": 15407,
+                "Diff": "4",
                 "Antece": "Sam Jones",
                 "Nota": "",
                 "game_status": "playing"
@@ -420,9 +420,9 @@
                 "Rank": 26,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 1900,
-                "Diff": "30",
+                "Hoy": 2,
+                "Total": 1901,
+                "Diff": "29",
                 "Antece": "J.R. Smith",
                 "Nota": "",
                 "game_status": "playing"
@@ -434,7 +434,7 @@
                 "Hoy": 1,
                 "Total": 1872,
                 "Diff": "28",
-                "Antece": "Kyrie Irving",
+                "Antece": "1900",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -684,11 +684,11 @@
                 "Rank": 227,
                 "Nombre": "Cameron Johnson",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 909,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 910,
+                "Diff": "1",
                 "Antece": "Rasual Butler",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -741,9 +741,9 @@
                 "Rank": 38,
                 "Nombre": "Nikola Jokić",
                 "Team": "DEN",
-                "Hoy": 1,
-                "Total": 6154,
-                "Diff": "84",
+                "Hoy": 2,
+                "Total": 6155,
+                "Diff": "83",
                 "Antece": "Jerry West",
                 "Nota": "",
                 "game_status": "playing"
@@ -818,11 +818,11 @@
                 "Rank": 147,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 2,
-                "Total": 3832,
-                "Diff": "1",
+                "Hoy": 3,
+                "Total": 3833,
+                "Diff": "",
                 "Antece": "Detlef Schrempf",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1209,9 +1209,9 @@
                 "Rank": 1,
                 "Nombre": "Nikola Jokić",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 6154,
-                "Diff": "346",
+                "Hoy": 2,
+                "Total": 6155,
+                "Diff": "345",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1321,9 +1321,9 @@
                 "Rank": 24,
                 "Nombre": "Cade Cunningham",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 6338,
-                "Diff": "153",
+                "Hoy": 14,
+                "Total": 6339,
+                "Diff": "152",
                 "Antece": "Rodney Stuckey",
                 "game_status": "playing"
             },
@@ -1873,10 +1873,10 @@
                 "Rank": 15,
                 "Nombre": "Kyrie Irving",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 399,
-                "Diff": "1",
-                "Antece": "400",
+                "Hoy": 2,
+                "Total": 400,
+                "Diff": "18",
+                "Antece": "Klay Thompson",
                 "game_status": "playing"
             }
         ],
@@ -1885,9 +1885,9 @@
                 "Rank": 6,
                 "Nombre": "T.J. McConnell",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 2370,
-                "Diff": "130",
+                "Hoy": 3,
+                "Total": 2371,
+                "Diff": "129",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -2723,13 +2723,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Luka Dončić (5 three-pointers today) has passed Lamar Odom and is now ranked 17th in Lakers history with 361.",
-            "foto": [],
-            "timestamp": 1792969265,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Anthony Edwards today surpasses Andrew Wiggins and is now ranked 7th in Timberwolves history with 443 games.",
             "foto": [],
             "timestamp": 1792970263,
@@ -3421,9 +3414,16 @@
             "timestamp": 1794273205,
             "team": "TOR",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Kyrie Irving (2 three-pointers today) becomes the 15th player to reach 400 three-pointers with Mavericks.",
+            "foto": [],
+            "timestamp": 1794275282,
+            "team": "DAL",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2605,
-    "total_franchise_historicas": 721,
-    "cache_buster": 1794275214
+    "total_franchise_historicas": 722,
+    "cache_buster": 1794275282
 }
