@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:10:49",
+    "ultima_actualizacion": "02:13:25",
     "jornada_inici": 1794266436,
     "tablas": {
         "pts": [
@@ -51,9 +51,9 @@
                 "Rank": 73,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 18604,
-                "Diff": "183",
+                "Hoy": 3,
+                "Total": 18607,
+                "Diff": "180",
                 "Antece": "Bob McAdoo",
                 "Nota": "",
                 "game_status": "playing"
@@ -251,24 +251,24 @@
             },
             {
                 "Rank": 163,
+                "Nombre": "Jerami Grant",
+                "Team": "MEM",
+                "Hoy": 1,
+                "Total": 794,
+                "Diff": "",
+                "Antece": "Clarence Weatherspoon",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 164,
                 "Nombre": "Jakob Poeltl",
                 "Team": "TOR",
                 "Hoy": 1,
                 "Total": 793,
                 "Diff": "1",
-                "Antece": "Clarence Weatherspoon",
+                "Antece": "Jerami Grant",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 164,
-                "Nombre": "Jerami Grant",
-                "Team": "MEM",
-                "Hoy": 0,
-                "Total": 793,
-                "Diff": "",
-                "Antece": "Jakob Poeltl",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -376,10 +376,10 @@
                 "Rank": 26,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 1899,
-                "Diff": "1",
-                "Antece": "1900",
+                "Hoy": 1,
+                "Total": 1900,
+                "Diff": "30",
+                "Antece": "J.R. Smith",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -389,7 +389,7 @@
                 "Team": "CLE",
                 "Hoy": 1,
                 "Total": 1872,
-                "Diff": "27",
+                "Diff": "28",
                 "Antece": "Kyrie Irving",
                 "Nota": "",
                 "game_status": "playing"
@@ -1371,19 +1371,19 @@
                 "Rank": 24,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 6,
+                "Total": 3001,
+                "Diff": "214",
+                "Antece": "RJ Barrett",
                 "game_status": "playing"
             },
             {
                 "Rank": 9,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2140,
-                "Diff": "360",
+                "Hoy": 2,
+                "Total": 2141,
+                "Diff": "359",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1535,9 +1535,9 @@
                 "Rank": 15,
                 "Nombre": "Kyrie Irving",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 398,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 399,
+                "Diff": "1",
                 "Antece": "400",
                 "game_status": "playing"
             }
@@ -1557,9 +1557,9 @@
                 "Rank": 17,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1440,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 1441,
+                "Diff": "5",
                 "Antece": "Detlef Schrempf",
                 "game_status": "playing"
             },
@@ -1577,9 +1577,9 @@
                 "Rank": 11,
                 "Nombre": "Aaron Nesmith",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 458,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 459,
+                "Diff": "6",
                 "Antece": "C.J. Miles",
                 "game_status": "playing"
             },
@@ -1682,13 +1682,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Royce O'Neale (1 three-pointer today) has passed Steve Smith and is now ranked 130th all-time with 1,149.",
-            "foto": [
-                "collages/1794013024889036_collage_1794013024802076.png"
-            ],
-            "timestamp": 1794013024
-        },
         {
             "texto": "Joel Embiid (1 block today) has passed Charles Smith and is now ranked 166th all-time with 790.",
             "foto": [
@@ -2381,16 +2374,16 @@
                 "collages/1794272612012691_collage_1794272611904711.png"
             ],
             "timestamp": 1794272612
+        },
+        {
+            "texto": "📢🔝💯 Kyrie Irving (1 three-pointer today) becomes the 26th player to reach 1,900",
+            "foto": [
+                "collages/1794273205020467_collage_1794273204951491.png"
+            ],
+            "timestamp": 1794273205
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Lauri Markkanen (16 points today) becomes the 24th player to reach 5,000 points with Jazz.",
-            "foto": [],
-            "timestamp": 1792966442,
-            "team": "UTA",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Luka Dončić (5 three-pointers today) has passed Lamar Odom and is now ranked 17th in Lakers history with 361.",
             "foto": [],
@@ -3083,9 +3076,16 @@
             "timestamp": 1794272390,
             "team": "DET",
             "type": "franchise"
+        },
+        {
+            "texto": "Jakob Poeltl (6 points today) becomes the 24th player to reach 3,000 points with Raptors.",
+            "foto": [],
+            "timestamp": 1794273205,
+            "team": "TOR",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2601,
-    "total_franchise_historicas": 720,
-    "cache_buster": 1794273049
+    "total_notificaciones_historicas": 2602,
+    "total_franchise_historicas": 721,
+    "cache_buster": 1794273205
 }
