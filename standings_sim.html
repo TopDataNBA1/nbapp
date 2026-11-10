@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NBA Standings Simulator</title>
+<style>
+  :root {
+    --bg: #2d3f5c;
+    --bg2: #3a5070;
+    --bg3: #445f82;
+    --border: #5a7aa0;
+    --text: #e2e8f0;
+    --text2: #94a3b8;
+    --accent: #3b82f6;
+    --accent2: #60a5fa;
+    --win: #22c55e;
+    --lose: #ef4444;
+    --gold: #f59e0b;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+
+  header {
+    padding: 18px 24px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 16px;
+  }
+  header h1 { font-size: 1.1rem; font-weight: 700; letter-spacing: .03em; }
+  header .sub { font-size: .8rem; color: var(--text2); }
+  .dot-live { width:8px; height:8px; border-radius:50%; background:var(--win); animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  .tabs {
+    display: flex; gap: 4px; padding: 14px 24px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .tab {
+    padding: 7px 20px; border-radius: var(--radius) var(--radius) 0 0;
+    background: var(--bg2); border: 1px solid var(--border); border-bottom: none;
+    color: var(--text2); cursor: pointer; font-size: .85rem; font-weight: 600;
+    transition: all .15s;
+  }
+  .tab.active { background: var(--bg3); color: var(--text); border-color: var(--border); }
+
+  .content { padding: 20px 24px; }
+
+  /* ── LOADING ── */
+  .loading { text-align:center; padding:60px; color:var(--text2); font-size:.9rem; }
+  .spinner { width:32px; height:32px; border:3px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin .8s linear infinite; margin:0 auto 16px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+
+  /* ── GRUPS ── */
+  .grup-wrap { margin-bottom: 32px; }
+  .grup-title {
+    font-size: .75rem; font-weight: 700; letter-spacing: .1em;
+    color: var(--text2); text-transform: uppercase;
+    margin-bottom: 12px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── TAULA DE SIMULACIÓ ── */
+  .sim-table-wrap { overflow-x: auto; }
+  .sim-table {
+    border-collapse: collapse;
+    min-width: 100%;
+    font-size: .82rem;
+  }
+  .sim-table th {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    padding: 8px 10px;
+    text-align: center;
+    color: var(--text2);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .sim-table th.rank-col {
+    background: var(--bg);
+    min-width: 48px;
+    text-align: left;
+    padding-left: 12px;
+  }
+  .sim-table td {
+    border: 1px solid var(--border);
+    padding: 6px 8px;
+    text-align: center;
+    vertical-align: middle;
+    background: var(--bg2);
+  }
+  .sim-table td.rank-col {
+    background: var(--bg3);
+    text-align: left;
+    padding-left: 12px;
+    white-space: nowrap;
+  }
+  .sim-table tr:hover td { filter: brightness(1.08); }
+
+  /* Col·lumnes de partits (header) */
+  .col-current { background: var(--bg3) !important; }
+
+  /* Header de partits: una icona per columna (l'equip que guanya en aquell escenari) */
+  .game-winner-header {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 2px; padding: 4px 2px;
+  }
+  .game-winner-header img { width: 24px; height: 24px; object-fit: contain; }
+  .game-winner-sep { width: 100%; height: 1px; background: var(--border); margin: 2px 0; }
+
+  /* Cel·la d'equip: logo + W-L, sense abreviatura */
+  .team-cell { display:flex; flex-direction:column; align-items:center; gap:3px; justify-content:center; min-width:52px; padding: 2px 0; }
+  .team-cell img { width:28px; height:28px; object-fit:contain; }
+  .team-cell .tc-rec { font-size:.72rem; color:var(--text2); font-weight:600; }
+
+  /* Rank col: logo de l'equip actual (sense badge) */
+  .rank-col-inner { display:flex; align-items:center; gap:8px; }
+  .rank-num { font-weight:700; font-size:.95rem; min-width:18px; text-align:right; }
+  .rank-logo { width:26px; height:26px; object-fit:contain; }
+
+  /* Destacar canvis — verd cian ben diferenciat del roig */
+  .cell-up   { background: rgba(0,210,180,.40) !important; }
+  .cell-down { background: rgba(230,30,30,.48) !important; }
+  .cell-same { background: var(--bg2) !important; }
+  .cell-tie  { background: var(--bg2) !important; }
+
+  /* Dividers playoffs/play-in a la taula simulador */
+  .sim-row-playin-border td { border-top: 2px dashed var(--gold) !important; }
+  .sim-row-out-border td   { border-top: 2px solid var(--accent) !important; }
+
+  /* ── LLEGENDA ── */
+  .llegenda {
+    display:flex; gap:16px; flex-wrap:wrap;
+    margin-bottom:16px; font-size:.75rem; color:var(--text2);
+  }
+  .llegenda-item { display:flex; align-items:center; gap:5px; }
+  .llegenda-sq { width:12px; height:12px; border-radius:2px; }
+
+  /* ── STANDINGS ACTUAL (pestanya) ── */
+  .standings-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  @media(max-width:700px){ .standings-grid{grid-template-columns:1fr;} }
+  .conf-title { font-size:.8rem; font-weight:700; color:var(--accent2); letter-spacing:.06em; text-transform:uppercase; margin-bottom:8px; }
+  .st-table { width:100%; border-collapse:collapse; font-size:.82rem; }
+  .st-table th { background:var(--bg3); border:1px solid var(--border); padding:6px 8px; color:var(--text2); font-weight:600; text-align:center; }
+  .st-table td { border:1px solid var(--border); padding:5px 8px; background:var(--bg2); text-align:center; }
+  .st-table td:first-child { text-align:left; }
+  .st-team-cell { display:flex; align-items:center; gap:8px; }
+  .st-table img { width:22px; height:22px; object-fit:contain; }
+  .playoff-row td { background: rgba(59,130,246,.06) !important; }
+  .playin-row td { background: rgba(245,158,11,.05) !important; }
+  .divider-row td { border-top: 2px solid var(--accent) !important; }
+  .divider-row-playin td { border-top: 2px dashed var(--gold) !important; }
+
+  .error-box {
+    background:#2a1a1a; border:1px solid #ef4444; border-radius:var(--radius);
+    padding:16px 20px; color:#fca5a5; font-size:.85rem; margin:20px 0;
+  }
+  .server-hint { font-size:.75rem; color:var(--text2); margin-top:8px; font-family:monospace; }
+  .btn-retry {
+    margin-top:12px; padding:7px 16px; background:var(--accent); color:#fff;
+    border:none; border-radius:6px; cursor:pointer; font-size:.82rem; font-weight:600;
+  }
+  .btn-retry:hover { background:var(--accent2); }
+
+  .refresh-info { font-size:.72rem; color:var(--text2); margin-top:4px; }
+  .btn-refresh {
+    padding:5px 12px; background:var(--bg3); color:var(--text2);
+    border:1px solid var(--border); border-radius:6px; cursor:pointer;
+    font-size:.78rem; margin-left:12px;
+  }
+  .btn-refresh:hover { color:var(--text); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="dot-live" id="liveDot" style="background:var(--text2)"></div>
+  <div>
+    <h1>NBA Standings Simulator</h1>
+    <div class="sub" id="lastUpdate">Loading…</div>
+  </div>
+  <button class="btn-refresh" onclick="loadAll()">↻ Refresh</button>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('sim')">Simulator</div>
+  <div class="tab" onclick="showTab('standings')">Standings</div>
+</div>
+
+<div class="content">
+  <div id="tabSim">
+    <div id="simContent"><div class="loading"><div class="spinner"></div>Connectant amb el servidor...</div></div>
+  </div>
+  <div id="tabStandings" style="display:none">
+    <div id="standingsContent"><div class="loading"><div class="spinner"></div></div></div>
+  </div>
+</div>
+
+<script>
+const SERVER = 'http://localhost:8765';
+let _standings = null;
+let _games = null;
+let _h2h = {}; // matriu H2H: _h2h[abbrA][abbrB] = victòries d'A contra B
+
+// ── ORDENACIÓ PER HORA ───────────────────────────────────────────────────
+// Converteix "1:30 pm ET", "10:00 am ET", etc. a minuts des de mitjanit
+function parseGameTime(g) {
+  const s = g.scheduled_time || g.status_text || '';
+  const m = s.match(/(\d+):(\d+)\s*(am|pm)/i);
+  if (!m) return 9999;
+  let h = parseInt(m[1]), min = parseInt(m[2]);
+  const pm = m[3].toLowerCase() === 'pm';
+  if (pm && h !== 12) h += 12;
+  if (!pm && h === 12) h = 0;
+  return h * 60 + min;
+}
+
+// ── TABS ──────────────────────────────────────────────────────────────────
+function showTab(tab) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['sim','standings'][i] === tab));
+  document.getElementById('tabSim').style.display = tab === 'sim' ? '' : 'none';
+  document.getElementById('tabStandings').style.display = tab === 'standings' ? '' : 'none';
+}
+
+// ── DADES DE PROVA (s'usen si el servidor no respon) ─────────────────────
+function getMockData() {
+  const logo = id => `https://cdn.nba.com/logos/nba/${id}/global/L/logo.svg`;
+  const T = (abbr, w, l, conf, div, id, cw, cl, dw, dl) =>
+    ({abbr, w, l, pct: w/(w+l), conf, division: div, logo: logo(id),
+      name: abbr, conf_w: cw, conf_l: cl, div_w: dw, div_l: dl});
+  return {
+    standings: {
+      East: [
+        T('PHI',9,2,'East','Atlantic',1610612755, 7,2,3,0),
+        T('BOS',8,2,'East','Atlantic',1610612738, 6,2,3,0),
+        T('ATL',7,4,'East','Southeast',1610612737, 5,3,2,2),
+        T('DET',6,3,'East','Central',1610612765, 4,2,2,1),
+        T('NYK',5,4,'East','Atlantic',1610612752, 4,3,1,2),
+        T('TOR',5,4,'East','Atlantic',1610612761, 3,4,1,2),
+        T('CLE',5,5,'East','Central',1610612739, 4,4,2,2),
+        T('WAS',4,6,'East','Southeast',1610612764, 3,5,1,3),
+        T('MIA',4,6,'East','Southeast',1610612748, 3,5,1,3),
+        T('CHA',3,7,'East','Southeast',1610612766, 2,6,1,3),
+        T('IND',3,7,'East','Central',1610612754, 2,6,1,3),
+        T('ORL',2,7,'East','Southeast',1610612753, 2,6,1,3),
+        T('BKN',2,8,'East','Atlantic',1610612751, 1,7,0,4),
+        T('CHI',1,8,'East','Central',1610612741, 1,7,0,4),
+        T('MIL',1,9,'East','Central',1610612749, 1,8,0,4),
+      ],
+      West: [
+        T('LAL',9,2,'West','Pacific',1610612747, 7,1,3,0),
+        T('SAS',8,2,'West','Southwest',1610612759, 6,2,3,0),
+        T('OKC',8,2,'West','Northwest',1610612760, 6,2,3,0),
+        T('MIN',8,3,'West','Northwest',1610612750, 6,2,2,1),
+        T('HOU',7,3,'West','Southwest',1610612745, 5,3,2,1),
+        T('GSW',7,3,'West','Pacific',1610612744, 5,3,2,1),
+        T('POR',6,3,'West','Northwest',1610612757, 4,3,2,1),
+        T('MEM',6,3,'West','Southwest',1610612763, 4,3,2,1),
+        T('DAL',6,4,'West','Southwest',1610612742, 4,4,2,2),
+        T('DEN',5,3,'West','Northwest',1610612743, 4,3,2,1),
+        T('NOP',4,6,'West','Southwest',1610612740, 3,5,1,3),
+        T('PHX',3,5,'West','Pacific',1610612756, 2,4,1,2),
+        T('LAC',2,7,'West','Pacific',1610612746, 2,6,1,3),
+        T('UTA',1,9,'West','Northwest',1610612762, 1,8,0,4),
+        T('SAC',1,9,'West','Pacific',1610612758, 1,8,0,4),
+      ]
+    },
+    // Partits d'avui: MIL@NYK 1:30, BOS@PHI 2:00, LAC@PHX 3:00, MIA@UTA 3:00, ORL@SAC 4:00, OKC@POR 5:00
+    games: [
+      {game_id:'g1', status:1, status_text:'1:30 pm ET', scheduled_time:'1:30 pm ET',
+       home_abbr:'NYK', away_abbr:'MIL', home_score:0, away_score:0,
+       home_logo:logo(1610612752), away_logo:logo(1610612749),
+       home_w:5, home_l:4, away_w:1, away_l:9},
+      {game_id:'g2', status:1, status_text:'2:00 pm ET', scheduled_time:'2:00 pm ET',
+       home_abbr:'PHI', away_abbr:'BOS', home_score:0, away_score:0,
+       home_logo:logo(1610612755), away_logo:logo(1610612738),
+       home_w:9, home_l:2, away_w:8, away_l:2},
+      {game_id:'g3', status:1, status_text:'3:00 pm ET', scheduled_time:'3:00 pm ET',
+       home_abbr:'PHX', away_abbr:'LAC', home_score:0, away_score:0,
+       home_logo:logo(1610612756), away_logo:logo(1610612746),
+       home_w:3, home_l:5, away_w:2, away_l:7},
+      {game_id:'g4', status:1, status_text:'3:00 pm ET', scheduled_time:'3:00 pm ET',
+       home_abbr:'UTA', away_abbr:'MIA', home_score:0, away_score:0,
+       home_logo:logo(1610612762), away_logo:logo(1610612748),
+       home_w:1, home_l:9, away_w:4, away_l:6},
+      {game_id:'g5', status:1, status_text:'4:00 pm ET', scheduled_time:'4:00 pm ET',
+       home_abbr:'SAC', away_abbr:'ORL', home_score:0, away_score:0,
+       home_logo:logo(1610612758), away_logo:logo(1610612753),
+       home_w:1, home_l:9, away_w:2, away_l:7},
+      {game_id:'g6', status:1, status_text:'5:00 pm ET', scheduled_time:'5:00 pm ET',
+       home_abbr:'POR', away_abbr:'OKC', home_score:0, away_score:0,
+       home_logo:logo(1610612757), away_logo:logo(1610612760),
+       home_w:6, home_l:3, away_w:8, away_l:2},
+    ],
+    h2h: {}
+  };
+}
+
+// ── LOAD ──────────────────────────────────────────────────────────────────
+async function loadAll() {
+  try {
+    const r = await fetch(`${SERVER}/all`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    _standings = data.standings;
+    _games = data.games;
+    _h2h = data.h2h || {};
+    // Re-ordenar standings amb els nostres criteris de desempat (el servidor usa l'ordre NBA)
+    ['East','West'].forEach(conf => {
+      _standings[conf] = sortStandings(_standings[conf], _h2h).map((t, i) => ({...t, rank: i+1}));
+    });
+    document.getElementById('liveDot').style.background = 'var(--win)';
+    document.getElementById('lastUpdate').textContent =
+      `Updated ${new Date().toLocaleTimeString('en')}`;
+    renderSim();
+    renderStandings();
+  } catch(e) {
+    showError(e);
+  }
+}
+
+function showError(e) {
+  document.getElementById('liveDot').style.background = 'var(--lose)';
+  document.getElementById('simContent').innerHTML = `
+    <div class="error-box">
+      <strong>Cannot connect to local server.</strong><br>
+      ${e.message}
+      <div class="server-hint">Run: python standings_server.py</div>
+      <button class="btn-retry" onclick="loadAll()">Retry</button>
+    </div>`;
+}
+
+// ── TIEBREAK ─────────────────────────────────────────────────────────────
+// Criteris NBA de desempat:
+// 1. W-L pct
+// 2. H2H round-robin entre el grup empatat (si no hi ha cicle)
+// 3. W-L dins la divisió (si tots son de la mateixa divisió)
+// 4. W-L dins la conferència
+// 5. Last 10
+// 6. Streak
+
+// H2H entre dos equips concrets (usant matriu + partits d'avui aplicats)
+function h2hWins(abbrA, abbrB, h2hMatrix) {
+  return (h2hMatrix[abbrA] && h2hMatrix[abbrA][abbrB]) || 0;
+}
+
+// Calcula pct per a un criteri, retorna null si no hi ha partits (no desempata)
+function pct(w, l) {
+  return (w + l) > 0 ? w / (w + l) : null;
+}
+
+// Comparació simple de dos equips, sense H2H (per als criteris 3-6)
+function tiebreakSimple(a, b) {
+  const aDiv = pct(a.div_w, a.div_l), bDiv = pct(b.div_w, b.div_l);
+  if (aDiv !== null && bDiv !== null && Math.abs(aDiv - bDiv) > 0.001) return bDiv - aDiv;
+  const aConf = pct(a.conf_w, a.conf_l), bConf = pct(b.conf_w, b.conf_l);
+  if (aConf !== null && bConf !== null && Math.abs(aConf - bConf) > 0.001) return bConf - aConf;
+  const parseL10 = s => { const p = (s||'0-0').split('-'); const w=parseInt(p[0]),l=parseInt(p[1]); return (w+l)>0?w/(w+l):null; };
+  const aL10 = parseL10(a.l10), bL10 = parseL10(b.l10);
+  if (aL10 !== null && bL10 !== null && Math.abs(aL10 - bL10) > 0.001) return bL10 - aL10;
+  const streakVal = s => s && s.startsWith('W') ? parseInt(s.slice(1)||'0') : -(parseInt((s||'L0').slice(1)));
+  return streakVal(b.streak) - streakVal(a.streak);
+}
+
+// Aplica criteris 3-6 (sense H2H) a un grup d'equips empatats
+function sortByNonH2H(group) {
+  const divs = new Set(group.map(t => t.division));
+  const sameDivision = divs.size === 1 && [...divs][0] !== '';
+  return [...group].sort((a, b) => {
+    if (sameDivision) {
+      const aDiv = pct(a.div_w, a.div_l), bDiv = pct(b.div_w, b.div_l);
+      if (aDiv !== null && bDiv !== null && Math.abs(aDiv - bDiv) > 0.001) return bDiv - aDiv;
+    }
+    return tiebreakSimple(a, b);
+  });
+}
+
+// Ordena un grup d'equips empatats a W-L pct aplicant el round-robin H2H.
+// Quan hi ha subgrups empatats dins el round-robin, resol recursivament cada subgrup.
+// Si un subgrup de 2 no es pot resoldre per H2H (cicle impossible en 2), passa a criteris 3-6.
+function sortByH2H(group, h2hMatrix) {
+  if (group.length === 1) return group;
+
+  if (group.length === 2) {
+    const [a, b] = group;
+    const wA = h2hWins(a.abbr, b.abbr, h2hMatrix);
+    const wB = h2hWins(b.abbr, a.abbr, h2hMatrix);
+    if (wA === wB) return null; // no resol → criteri següent
+    return wA > wB ? [a, b] : [b, a];
+  }
+
+  // 3+ equips: calcular % de victòries H2H dins el grup
+  // Compta tots els partits jugats contra qualsevol dels altres equips del grup
+  // Si algun equip no ha jugat cap partit contra cap del grup → H2H no aplicable
+  const h2hW = {}, h2hL = {};
+  group.forEach(t => { h2hW[t.abbr] = 0; h2hL[t.abbr] = 0; });
+  for (let i = 0; i < group.length; i++) {
+    for (let j = i + 1; j < group.length; j++) {
+      const wIJ = h2hWins(group[i].abbr, group[j].abbr, h2hMatrix);
+      const wJI = h2hWins(group[j].abbr, group[i].abbr, h2hMatrix);
+      h2hW[group[i].abbr] += wIJ;
+      h2hL[group[i].abbr] += wJI;
+      h2hW[group[j].abbr] += wJI;
+      h2hL[group[j].abbr] += wIJ;
+    }
+  }
+  // Si algun equip té 0 partits jugats dins el grup → no es pot calcular el % → H2H no aplicable
+  for (const t of group) {
+    if (h2hW[t.abbr] + h2hL[t.abbr] === 0) return null;
+  }
+  // Percentatge H2H de cada equip dins el grup
+  const h2hPct = {};
+  group.forEach(t => {
+    const total = h2hW[t.abbr] + h2hL[t.abbr];
+    h2hPct[t.abbr] = total > 0 ? h2hW[t.abbr] / total : 0;
+  });
+
+  // Ordenar per h2hPct i identificar subgrups empatats
+  const sorted = [...group].sort((a, b) => h2hPct[b.abbr] - h2hPct[a.abbr]);
+  // Reuse h2hScore as alias for pct comparison
+  const h2hScore = h2hPct;
+
+  // Recórrer i resoldre cada subgrup empatat recursivament
+  const result = [];
+  let i = 0;
+  while (i < sorted.length) {
+    let j = i + 1;
+    while (j < sorted.length && Math.abs(h2hScore[sorted[j].abbr] - h2hScore[sorted[i].abbr]) < 0.0001) j++;
+    const subgroup = sorted.slice(i, j);
+    if (subgroup.length === 1) {
+      result.push(subgroup[0]);
+    } else {
+      // Subgrup empatat: intentar resolució H2H recursiva entre ells
+      // Si el subgrup té la mateixa mida que el grup original → cicle → criteri 3-6
+      if (subgroup.length === group.length) return null;
+      const subSorted = sortByH2H(subgroup, h2hMatrix);
+      if (subSorted) {
+        result.push(...subSorted);
+      } else {
+        result.push(...sortByNonH2H(subgroup));
+      }
+    }
+    i = j;
+  }
+  return result;
+}
+
+// Ordena una llista d'equips aplicant tots els criteris de desempat NBA
+function sortStandings(teams, h2hMatrix) {
+  const mat = h2hMatrix || _h2h;
+  // Ordenar per W-L pct; empat real = mateixa W i mateixa L (evita errors de float)
+  const byPct = [...teams].sort((a, b) => b.pct - a.pct);
+
+  const result = [];
+  let i = 0;
+  while (i < byPct.length) {
+    let j = i + 1;
+    while (j < byPct.length && byPct[j].w === byPct[i].w && byPct[j].l === byPct[i].l) j++;
+    const group = byPct.slice(i, j);
+
+    if (group.length === 1) {
+      result.push(group[0]);
+    } else {
+      const h2hOrdered = sortByH2H(group, mat);
+      if (h2hOrdered) {
+        result.push(...h2hOrdered);
+      } else {
+        result.push(...sortByNonH2H(group));
+      }
+    }
+    i = j;
+  }
+  return result;
+}
+
+// ── SIMULAR CLASSIFICACIÓ ────────────────────────────────────────────────
+function applyScenario(standings, games, scenario) {
+  // Clonar standings
+  const byAbbr = {};
+  ['East','West'].forEach(conf => {
+    standings[conf].forEach(t => { byAbbr[t.abbr] = {...t}; });
+  });
+
+  // Clonar matriu H2H per poder-la modificar sense afectar _h2h global
+  const h2hLocal = {};
+  Object.keys(_h2h).forEach(a => {
+    h2hLocal[a] = {..._h2h[a]};
+  });
+
+  // Aplicar resultats del scenario {game_idx: 'home'|'away'}
+  games.forEach((g, idx) => {
+    const result = scenario[idx]; // 'home' guanya, 'away' guanya, undefined = no jugat/live
+    if (result === undefined) return;
+    const winner = result === 'home' ? g.home_abbr : g.away_abbr;
+    const loser  = result === 'home' ? g.away_abbr : g.home_abbr;
+    const tw = byAbbr[winner], tl = byAbbr[loser];
+    if (tw) { tw.w++; tw.pct = tw.w / (tw.w + tw.l); }
+    if (tl) { tl.l++; tl.pct = tl.w  / (tl.w  + tl.l); }
+
+    if (tw && tl) {
+      // Matriu H2H: afegir victòria del guanyador contra el perdedor
+      if (!h2hLocal[winner]) h2hLocal[winner] = {};
+      h2hLocal[winner][loser] = (h2hLocal[winner][loser] || 0) + 1;
+
+      if (tw.conf === tl.conf) {
+        // Conferència
+        tw.conf_w = (tw.conf_w || 0) + 1;
+        tl.conf_l = (tl.conf_l || 0) + 1;
+        // Divisió (ara tenim tw.division des del servidor)
+        if (tw.division && tw.division === tl.division) {
+          tw.div_w = (tw.div_w || 0) + 1;
+          tl.div_l = (tl.div_l || 0) + 1;
+        }
+      }
+    }
+  });
+
+  // Reordenar cada conferència usant la matriu H2H local (amb partits d'avui aplicats)
+  const result = {};
+  ['East','West'].forEach(conf => {
+    const teams = standings[conf].map(t => byAbbr[t.abbr]);
+    result[conf] = sortStandings(teams, h2hLocal).map((t,i) => ({...t, rank: i+1}));
+  });
+  return result;
+}
+
+// ── DETECTAR GRUPS ────────────────────────────────────────────────────────
+// Dos equips formen grup si, en alguna combinació de resultats dels partits d'avui,
+// el seu rang relatiu canvia.
+function detectGroups(standings, games) {
+  const groups = {East: [], West: []};
+
+  ['East','West'].forEach(conf => {
+    const base = standings[conf];
+    const n = games.length;
+    const total = Math.pow(2, n);
+    // Per cada equip, rang mínim i màxim possible
+    const minRank = {}, maxRank = {};
+    base.forEach(t => { minRank[t.abbr] = t.rank; maxRank[t.abbr] = t.rank; });
+
+    for (let mask = 0; mask < total; mask++) {
+      const scenario = {};
+      games.forEach((g, idx) => { scenario[idx] = (mask >> idx) & 1 ? 'home' : 'away'; });
+      const sim = applyScenario(standings, games, scenario);
+      sim[conf].forEach(t => {
+        if (t.rank < minRank[t.abbr]) minRank[t.abbr] = t.rank;
+        if (t.rank > maxRank[t.abbr]) maxRank[t.abbr] = t.rank;
+      });
+    }
+
+    // Equips que poden canviar de rang
+    const mobile = base.filter(t => minRank[t.abbr] !== maxRank[t.abbr]);
+
+    // Agrupar per solapament de rangs possibles (propagació transitiva)
+    if (mobile.length === 0) { groups[conf] = []; return; }
+
+    const usedAbrs = new Set();
+    const grps = [];
+    mobile.forEach(t => {
+      if (usedAbrs.has(t.abbr)) return;
+      const grp = [t];
+      usedAbrs.add(t.abbr);
+      let changed = true;
+      while (changed) {
+        changed = false;
+        mobile.forEach(t2 => {
+          if (usedAbrs.has(t2.abbr)) return;
+          const overlaps = grp.some(g =>
+            minRank[t2.abbr] <= maxRank[g.abbr] && maxRank[t2.abbr] >= minRank[g.abbr]
+          );
+          if (overlaps) { grp.push(t2); usedAbrs.add(t2.abbr); changed = true; }
+        });
+      }
+      // Jocs implicats en aquest grup
+      const grpAbbrs = new Set(grp.map(t => t.abbr));
+      const implGames = games.filter(g => grpAbbrs.has(g.home_abbr) || grpAbbrs.has(g.away_abbr));
+      if (implGames.length > 0) grps.push({ teams: grp, games: implGames, minRank, maxRank });
+    });
+    groups[conf] = grps;
+  });
+
+  return groups;
+}
+
+// ── RENDER SIMULADOR ─────────────────────────────────────────────────────
+function renderSim() {
+  if (!_standings || !_games) return;
+
+  // Partits finalitzats: resultat fix
+  // Partits no iniciats (status=1) o en curs (status=2): simulem
+  const finishedGames = _games.filter(g => g.status === 3);
+  const activeGames   = _games.filter(g => g.status < 3);
+
+  // Aplicar finalitzats per obtenir la classificació base real
+  const finishedScGlobal = {};
+  finishedGames.forEach((g, fi) => {
+    finishedScGlobal[fi] = g.home_score > g.away_score ? 'home' : 'away';
+  });
+  const standingsWithFinished = finishedGames.length > 0
+    ? applyScenario(_standings, finishedGames, finishedScGlobal)
+    : _standings;
+
+  // detectGroups sobre la base real (amb finalitzats) i només els partits actius
+  const groups = detectGroups(standingsWithFinished, activeGames.length > 0 ? activeGames : []);
+
+
+  let html = '';
+
+  // Si no hi ha partits avui
+  if (_games.length === 0) {
+    html = '<div class="loading" style="color:var(--text2)">No games scheduled today.</div>';
+    document.getElementById('simContent').innerHTML = html;
+    return;
+  }
+
+  html += `
+  <div class="llegenda">
+    <div class="llegenda-item"><div class="llegenda-sq" style="background:rgba(0,210,180,.40)"></div> Move up</div>
+    <div class="llegenda-item"><div class="llegenda-sq" style="background:rgba(230,30,30,.48)"></div> Move down</div>
+    <div class="llegenda-item"><div class="llegenda-sq" style="background:var(--bg2);border:1px solid var(--border)"></div> No change</div>
+  </div>`;
+
+  ['East','West'].forEach(conf => {
+    const grps = groups[conf];
+    if (!grps || grps.length === 0) {
+      html += `<div class="grup-wrap"><div class="grup-title">${conf}ern Conference</div>
+        <div style="color:var(--text2);font-size:.82rem;padding:8px 0">No position changes possible today.</div></div>`;
+      return;
+    }
+
+    html += `<div style="font-size:.8rem;font-weight:700;color:var(--accent2);letter-spacing:.06em;text-transform:uppercase;margin:0 0 16px">${conf}ern Conference</div>`;
+
+    grps.forEach((grp, gi) => {
+      const {teams, games: grpGames, minRank, maxRank} = grp;
+      const nGames = grpGames.length;
+      const nScenarios = Math.pow(2, nGames);
+
+      // Ordenar partits per hora (status_text conté hora ET)
+      // Ordenar per hora programada; dins la mateixa hora, local primer (home) per convenció
+      const sortedGames = [...grpGames].sort((a, b) => parseGameTime(a) - parseGameTime(b));
+      // Generar tots els escenaris — l'ordre de columnes deriva DIRECTAMENT del header.
+      // El header construeix la columna col (0-indexed) com:
+      //   per cada joc idx (0=primer/més antic), W = nScenarios / 2^(idx+1)
+      //   el resultat del joc idx a la columna col = away si floor(col/W)%2===0, home si ===1
+      // Usem exactament aquesta fórmula per garantir coherència header↔dades.
+      const scenarios = [];
+      for (let col = 0; col < nScenarios; col++) {
+        const sc = {};
+        sortedGames.forEach((g, idx) => {
+          const W = nScenarios / Math.pow(2, idx + 1);
+          sc[idx] = Math.floor(col / W) % 2 === 0 ? 'away' : 'home';
+        });
+        const sim = applyScenario(standingsWithFinished, sortedGames, sc);
+        scenarios.push({col, sc, sim});
+      }
+
+      const minR = Math.min(...teams.map(t => minRank[t.abbr]));
+      const maxR = Math.max(...teams.map(t => maxRank[t.abbr]));
+      const rankRange = Array.from({length: maxR - minR + 1}, (_, i) => minR + i);
+
+      // colActual = standings base real (amb finalitzats ja aplicats)
+      const colActual = rankRange.map(rank => standingsWithFinished[conf].find(t => t.rank === rank) || null);
+      const cols = scenarios.map(({sim}) =>
+        rankRange.map(rank => sim[conf].find(t => t.rank === rank) || null)
+      );
+
+      // Agrupar partits per hora per construir header de 2 nivells
+      const timeGroups = [];
+      sortedGames.forEach((g, idx) => {
+        const time = g.scheduled_time || g.status_text || '';
+        const last = timeGroups[timeGroups.length - 1];
+        if (last && last.time === time) { last.games.push({g, idx}); }
+        else { timeGroups.push({time, games: [{g, idx}]}); }
+      });
+
+      // Columnes per escenari: quants per grup de temps
+      // Cada grup de temps de N partits → 2^N columnes
+      // Necessitem el colspan de cada time-group per escenari
+      const timeGroupCols = timeGroups.map(tg => Math.pow(2, tg.games.length));
+
+      html += `<div class="grup-wrap">`;
+      html += `<div class="grup-title">Group ${gi+1} — Positions ${minR}–${maxR}</div>`;
+      html += `<div class="sim-table-wrap"><table class="sim-table">`;
+
+      // HEADER — estructura:
+      // Fila 1: "Current" (rowspan=nGames+1) | per cada timeGroup: cel·la d'hora (colspan=2^N partits del grup)
+      // Fila 2..N: per cada partit dins cada timeGroup: els dos logos (colspan=2^partits restants del grup)
+      // Última fila del header: per cada escenari (columna): logo del guanyador de cada partit (1 icona per escenari)
+      //
+      // Però per simplicitat i llegibilitat, fem:
+      // Fila 1: hora ET per cada timeGroup (colspan total de columnes del grup) | Current (rowspan total header)
+      // Fila 2: per cada partit, els 2 logos (colspan = 2^(partits restants en el grup))
+      // Fila 3 (guanyadors): per cada escenari, logo del guanyador de cada partit
+
+      // ── HEADER DEL SIMULADOR ────────────────────────────────────────────────
+      //
+      // Per N partits → 2^N escenaris (columnes)
+      //
+      // Cada partit i (0-indexed) desplega el seu arbre binari:
+      //   - L'equip visitant (away) ocupa les primeres  nScenarios/2^(i+1) columnes del seu bloc
+      //   - L'equip local   (home) ocupa les següents  nScenarios/2^(i+1) columnes del seu bloc
+      //   - Això es repeteix 2^i vegades (un bloc per cada combinació dels partits anteriors)
+      //
+      // Exemple 3 partits (8 escenaris):
+      //   Fila partit 0: [away×4][home×4]                    = 2 cel·les, colspan 4 cada una
+      //   Fila partit 1: [away×2][home×2][away×2][home×2]    = 4 cel·les, colspan 2 cada una
+      //   Fila partit 2: [a][h][a][h][a][h][a][h]            = 8 cel·les, colspan 1 cada una
+      //
+      // Cel·les d'hora: si un grup horari té 2 partits consecutius (idx 0 i 1),
+      //   la cel·la d'hora per al partit 0 s'ha de repetir 2^0=1 vegada amb colspan=4
+      //   la cel·la d'hora per al partit 1 s'ha de repetir 2^1=2 vegades amb colspan=2
+      //   → no es pot fusionar en una sola cel·la d'hora per al grup
+      //   → cada FILA del header és independent, i la cel·la d'hora apareix a la seva fila
+      //
+      // Estructura final: nGames files de header, més 1 fila per Current (rowspan=nGames)
+      //   Cada fila i correspon al partit i:
+      //     - Cel·la "hora" (si és diferent de la fila anterior) amb colspan = width_cel·la_del_partit
+      //       repetida 2^i / (si és igual a la fila anterior, rowspan++)  ← massa complex
+      //     - Alternativament: fila d'hora separada a dalt, colspan = suma dels blocs del grup
+      //       Però els blocs no estan agrupats horàriament en columnes contigues (sí que ho estan!)
+      //       Els partits s'ordenen per hora → els del mateix grup SÍ estan junts → colspan = sum
+      //       Hora grup G (partits globalIdx g0..g1):
+      //         colspan = sum_{i=g0}^{g1} [ 2^i × (nScenarios/2^(i+1)) × 2 ]
+      //                 = sum_{i=g0}^{g1} [ nScenarios / 2^i × 2^i ]  ← no, és més simple:
+      //         Cada bloc del partit i té width = nScenarios/2^(i+1), i n'hi ha 2^i blocs
+      //         → les columnes totals del partit i = 2^i × nScenarios/2^(i+1) × 2 = nScenarios
+      //         Espera... les columnes totals de QUALSEVOL partit sempre = nScenarios. Clar.
+      //         → la fila d'hora no pot tenir colspan diferent per grup perquè tots els partits
+      //            usen les mateixes nScenarios columnes (però repartides diferent)
+      //
+      // SOLUCIÓ REAL: una fila per hora a dalt (fila 0), amb colspan = nScenarios (tota la fila)
+      //   si hi ha 1 sola hora, o bé si es vol separar per hores, mostrar l'hora COM A ETIQUETA
+      //   dins de cada fila del partit (a l'esquerra de la fila).
+      //
+      // IMPLEMENTACIÓ SIMPLIFICADA (fidel a l'exemple):
+      //   • Fila 0 (hores): 1 cel·la per hora, colspan = total columnes d'aquella hora
+      //     Tots els partits d'una hora contribueixen amb nScenarios columnes? NO.
+      //     Els partits d'una hora formen un sub-arbre. El colspan de la fila d'hora =
+      //     la suma de colspans de CADA UNA de les aparicions de cada partit del grup.
+      //     Aparicions del partit i: 2^i vegades, cadascuna de width = nScenarios/2^(i+1) × 2
+      //     Total columnes del partit i = 2^i × nScenarios/2^(i+1) = nScenarios/2 ← sempre igual!
+      //     Llavors colspan hora = sum per cada partit del grup de (nScenarios/2)? No, perquè
+      //     les aparicions dels partits del grup no estan totes juntes.
+      //
+      // CONCLUSIÓ: el layout exacte de la imatge és simplement:
+      //   • Una fila per CADA PARTIT (nGames files)
+      //   • Cada fila del partit i té 2^(i+1) cel·les de width nScenarios/2^(i+1):
+      //     [away_logo, away_logo, ..., home_logo, home_logo, ...] alternant blocs
+      //   • La columna "Current" fa rowspan = nGames
+      //   • Per indicar l'hora: afegim una fila addicional a dalt amb les hores agrupades
+      //     on la cel·la d'hora per al grup G (partits g0..g1) té colspan =
+      //     la suma de totes les cel·les que pertanyen als partits g0..g1 en la seva fila
+      //     Però com que les files de cada partit s'entrecreuen, NO es pot posar l'hora
+      //     en una sola fila. Per tant: l'hora va dins de CADA FILA del seu primer partit.
+      //     Pràcticament: les hores es mostren com a etiqueta a l'esquerra de la cel·la away.
+      //
+      // IMPLEMENTACIÓ FINAL (simple i correcta):
+      //   - Cap fila d'hora separada
+      //   - Per cada fila de partit i, mostrar l'hora com a text petit dins la primera cel·la
+      //     (la cel·la away del primer bloc), si l'hora és diferent al partit anterior
+      //   - Columna "Current" amb rowspan = nGames
+
+      // HEADER
+      // — Partits finalitzats: fila única, colspan=nScenarios+1 (tota l'amplada)
+      //   Mostra: hora | escudo guanyador ▲ | escudo perdedor ▼
+      // — Partits no finalitzats: una fila per partit, arbre binari
+      //   Col 1: hora/quart | Col 2..N: [away×W][home×W] repetit 2^i cops
+      html += `<thead>`;
+
+      // Partits finalitzats rellevants per a aquest grup
+      const grpTeamAbbrs = new Set(teams.map(t => t.abbr));
+      const grpFinished = finishedGames.filter(g =>
+        grpTeamAbbrs.has(g.home_abbr) || grpTeamAbbrs.has(g.away_abbr)
+      );
+      grpFinished.forEach(g => {
+        const homeWon = g.home_score > g.away_score;
+        const winnerLogo = homeWon ? g.home_logo : g.away_logo;
+        const loserLogo  = homeWon ? g.away_logo : g.home_logo;
+        const winnerAbbr = homeWon ? g.home_abbr : g.away_abbr;
+        const loserAbbr  = homeWon ? g.away_abbr : g.home_abbr;
+        const timeLabel  = g.scheduled_time || g.status_text || 'Final';
+        html += `<tr>`;
+        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
+        html += `<th colspan="${nScenarios}" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
+        html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;">`;
+        html += `<img src="${winnerLogo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${winnerAbbr}">`;
+        html += `<span style="font-size:.85rem;color:rgba(0,210,180,.9);font-weight:700;">▲</span>`;
+        html += `</div>`;
+        html += `<div style="display:flex;align-items:center;gap:5px;">`;
+        html += `<img src="${loserLogo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${loserAbbr}">`;
+        html += `<span style="font-size:.85rem;color:rgba(230,30,30,.9);font-weight:700;">▼</span>`;
+        html += `</div>`;
+        html += `</div></th>`;
+        html += `</tr>`;
+      });
+
+      // Partits no finalitzats: arbre binari
+      sortedGames.forEach((g, i) => {
+        const W = nScenarios / Math.pow(2, i + 1);
+        const repeats = Math.pow(2, i);
+        const timeLabel = g.scheduled_time || g.status_text || '';
+        html += `<tr>`;
+        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text);">${timeLabel}</th>`;
+        for (let r = 0; r < repeats; r++) {
+          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;">`;
+          html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.away_abbr}">`;
+          html += `</th>`;
+          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;">`;
+          html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.home_abbr}">`;
+          html += `</th>`;
+        }
+        html += `</tr>`;
+      });
+      html += `</thead><tbody>`;
+
+      // FILES — amb colspan per cel·les iguals consecutives i dividers
+      rankRange.forEach((rank, ri) => {
+        const baseTeam = colActual[ri];
+
+        // Determinar classe de fila (divider)
+        let rowClass = '';
+        if (rank === 7) rowClass = 'sim-row-playin-border';
+        if (rank === 11) rowClass = 'sim-row-out-border';
+
+        html += `<tr class="${rowClass}">`;
+
+        // Columna actual: número + logo + W-L en groc
+        html += `<td class="rank-col col-current">`;
+        if (baseTeam) {
+          html += `<div class="rank-col-inner">`;
+          html += `<span class="rank-num">${rank}</span>`;
+          html += `<img class="rank-logo" src="${baseTeam.logo}" onerror="this.style.opacity='.3'">`;
+          html += `<span style="font-size:.95rem;color:var(--gold);font-weight:700;">${baseTeam.w}-${baseTeam.l}</span>`;
+          html += `</div>`;
+        }
+        html += `</td>`;
+
+        // Columnes escenaris — amb colspan per consecutives iguals
+        let si = 0;
+        while (si < scenarios.length) {
+          const t = cols[si][ri];
+          const baseT = colActual[ri];
+
+          // Comptar quantes columnes consecutives tenen el mateix equip
+          let span = 1;
+          while (si + span < scenarios.length && cols[si + span][ri]?.abbr === t?.abbr && cols[si + span][ri]?.w === t?.w && cols[si + span][ri]?.l === t?.l) span++;
+
+          // Color: l'equip t ha pujat o baixat respecte al seu rang base?
+          let cellClass = 'cell-same';
+          if (t && baseT) {
+            if (t.abbr !== baseT.abbr) {
+              // t ocupa ara aquesta posició però no era aquí a la base
+              // Busquem el rang original de t per saber si ha pujat o baixat
+              const tBase = standingsWithFinished[conf].find(e => e.abbr === t.abbr);
+              const origRank = tBase ? tBase.rank : t.rank;
+              cellClass = t.rank < origRank ? 'cell-up' : 'cell-down';
+            }
+          }
+
+          html += `<td class="${cellClass}" colspan="${span}">`;
+          if (t) {
+            html += `<div class="team-cell">`;
+            html += `<img src="${t.logo}" onerror="this.style.opacity='.3'">`;
+            html += `<span class="tc-rec">${t.w}-${t.l}</span>`;
+            html += `</div>`;
+          }
+          html += `</td>`;
+          si += span;
+        }
+        html += `</tr>`;
+      });
+
+      html += `</tbody></table></div></div>`;
+    });
+  });
+
+  document.getElementById('simContent').innerHTML = html;
+}
+
+// ── DEBUG tiebreak ────────────────────────────────────────────────────────
+function debugTiebreak(abbrA, abbrB) {
+  const all = [...(_standings?.East||[]), ...(_standings?.West||[])];
+  const a = all.find(t=>t.abbr===abbrA), b = all.find(t=>t.abbr===abbrB);
+  if (!a||!b) { console.log('Equip no trobat'); return; }
+  console.log(`${abbrA}: pct=${a.pct} div=${a.div_w}-${a.div_l}(${a.division}) conf=${a.conf_w}-${a.conf_l}`);
+  console.log(`${abbrB}: pct=${b.pct} div=${b.div_w}-${b.div_l}(${b.division}) conf=${b.conf_w}-${b.conf_l}`);
+  console.log(`H2H ${abbrA}→${abbrB}: ${h2hWins(abbrA,abbrB,_h2h)} | ${abbrB}→${abbrA}: ${h2hWins(abbrB,abbrA,_h2h)}`);
+  const h2hRes = sortByH2H([a,b], _h2h);
+  console.log('sortByH2H result:', h2hRes ? h2hRes.map(t=>t.abbr) : 'null (no resol)');
+  if (!h2hRes) {
+    console.log('sameDivision:', a.division === b.division && a.division !== '');
+    const aDiv = pct(a.div_w,a.div_l), bDiv = pct(b.div_w,b.div_l);
+    console.log(`div pct: ${abbrA}=${aDiv?.toFixed(3)} ${abbrB}=${bDiv?.toFixed(3)}`);
+  }
+}
+// Crida: debugTiebreak('WAS','CHA') a la consola
+// Debug grup: debugGroup(['GSW','HOU','SAS','MIN'])
+function debugGroup(abbrs) {
+  const all = [...(_standings?.East||[]), ...(_standings?.West||[])];
+  const group = abbrs.map(a => all.find(t => t.abbr === a)).filter(Boolean);
+  if (group.length !== abbrs.length) { console.log('Algun equip no trobat'); return; }
+  console.log('=== H2H dins el grup ===');
+  for (let i = 0; i < group.length; i++) {
+    for (let j = 0; j < group.length; j++) {
+      if (i === j) continue;
+      console.log(`  ${group[i].abbr} vs ${group[j].abbr}: ${h2hWins(group[i].abbr, group[j].abbr, _h2h)} W`);
+    }
+  }
+  console.log('=== % H2H dins el grup ===');
+  const h2hW = {}, h2hL = {};
+  group.forEach(t => { h2hW[t.abbr] = 0; h2hL[t.abbr] = 0; });
+  for (let i = 0; i < group.length; i++) {
+    for (let j = i + 1; j < group.length; j++) {
+      const wIJ = h2hWins(group[i].abbr, group[j].abbr, _h2h);
+      const wJI = h2hWins(group[j].abbr, group[i].abbr, _h2h);
+      h2hW[group[i].abbr] += wIJ; h2hL[group[i].abbr] += wJI;
+      h2hW[group[j].abbr] += wJI; h2hL[group[j].abbr] += wIJ;
+    }
+  }
+  group.forEach(t => {
+    const total = h2hW[t.abbr] + h2hL[t.abbr];
+    console.log(`  ${t.abbr}: ${h2hW[t.abbr]}W-${h2hL[t.abbr]}L = ${total > 0 ? (h2hW[t.abbr]/total*100).toFixed(1) : 'N/A'}%`);
+  });
+  console.log('=== sortByH2H result ===', sortByH2H(group, _h2h)?.map(t => t.abbr) || 'null');
+}
+
+// ── RENDER STANDINGS ──────────────────────────────────────────────────────
+function renderStandings() {
+  if (!_standings) return;
+  let html = '<div class="standings-grid">';
+  ['East','West'].forEach(conf => {
+    html += `<div>
+      <div class="conf-title">${conf}ern Conference</div>
+      <table class="st-table">
+        <thead><tr>
+          <th>#</th><th style="text-align:left">Equip</th>
+          <th>W-L</th><th>Div</th><th>Conf</th>
+        </tr></thead><tbody>`;
+    _standings[conf].forEach((t, i) => {
+      let rowClass = '';
+      if (t.rank === 7) rowClass = 'divider-row-playin';
+      if (t.rank === 11) rowClass = 'divider-row';
+      const cls = t.rank <= 6 ? 'playoff-row' : t.rank <= 10 ? 'playin-row' : '';
+      html += `<tr class="${cls} ${rowClass}">
+        <td>${t.rank}</td>
+        <td><div class="st-team-cell">
+          <img src="${t.logo}" onerror="this.style.display='none'">
+          <span>${t.name}</span>
+        </div></td>
+        <td>${t.w}-${t.l}</td>
+        <td>${({'Atlantic':'AT','Central':'CE','Southeast':'SE','Northwest':'NW','Pacific':'PA','Southwest':'SW'})[t.division]||''} ${t.div_w}-${t.div_l}</td>
+        <td>${t.conf_w}-${t.conf_l}</td>
+      </tr>`;
+    });
+    html += '</tbody></table></div>';
+  });
+  html += '</div>';
+  document.getElementById('standingsContent').innerHTML = html;
+}
+
+// ── RENDER MORE (Standings Live) ─────────────────────────────────────────
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+loadAll();
+// Auto-refresh cada 5 minuts
+setInterval(loadAll, 5 * 60 * 1000);
+</script>
+</body>
+</html>
