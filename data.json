@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:33:39",
+    "ultima_actualizacion": "05:34:53",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -172,11 +172,11 @@
                 "Rank": 214,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 8,
-                "Total": 13718,
-                "Diff": "3",
+                "Hoy": 10,
+                "Total": 13720,
+                "Diff": "1",
                 "Antece": "Joel Embiid",
-                "Nota": "A tiro de 3",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -185,7 +185,7 @@
                 "Team": "PHI",
                 "Hoy": 13,
                 "Total": 13710,
-                "Diff": "8",
+                "Diff": "10",
                 "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "",
                 "game_status": "finished"
@@ -706,9 +706,9 @@
                 "Rank": 183,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 2,
-                "Total": 1009,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 1010,
+                "Diff": "4",
                 "Antece": "LaMelo Ball",
                 "Nota": "",
                 "game_status": "playing"
@@ -826,14 +826,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 92,
+                "Rank": 91,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 3,
-                "Total": 4540,
-                "Diff": "1",
-                "Antece": "Jamal Crawford",
-                "Nota": "A tiro de 1",
+                "Hoy": 4,
+                "Total": 4541,
+                "Diff": "44",
+                "Antece": "Jeff Teague",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1325,9 +1325,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 12829,
-                "Diff": "171",
+                "Hoy": 10,
+                "Total": 12831,
+                "Diff": "169",
                 "Antece": "13000",
                 "game_status": "playing"
             },
@@ -1537,9 +1537,9 @@
                 "Rank": 11,
                 "Nombre": "Goga Bitadze",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 249,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 250,
+                "Diff": "27",
                 "Antece": "Aaron Gordon",
                 "game_status": "playing"
             },
@@ -1549,7 +1549,7 @@
                 "Stat": "BLK",
                 "Hoy": 0,
                 "Total": 218,
-                "Diff": "31",
+                "Diff": "32",
                 "Antece": "Goga Bitadze",
                 "game_status": "playing"
             },
@@ -1977,9 +1977,9 @@
                 "Rank": 23,
                 "Nombre": "Isaiah Collier",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 913,
-                "Diff": "6",
+                "Hoy": 4,
+                "Total": 914,
+                "Diff": "5",
                 "Antece": "Mehmet Okur",
                 "game_status": "playing"
             },
@@ -2008,20 +2008,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Donovan Mitchell (5 three-pointers today) has passed Chris Paul and is now ranked 27th all-time with 1,871.",
-            "foto": [
-                "collages/1794107416189009_collage_1794107416091371.png"
-            ],
-            "timestamp": 1794107416
-        },
-        {
-            "texto": "Julius Randle (8 assists today) has passed Spencer Dinwiddie and is now ranked 219th all-time with 3,154.",
-            "foto": [
-                "collages/1794107486539763_collage_1794107486440542.png"
-            ],
-            "timestamp": 1794107486
-        },
         {
             "texto": "Georges Niang (3 three-pointers today) has passed Miles Bridges and is now ranked 229th all-time with 897.",
             "foto": [
@@ -2707,6 +2693,20 @@
                 "collages/1794371298954919_collage_1794371298873945.png"
             ],
             "timestamp": 1794371298
+        },
+        {
+            "texto": "📢🔝💯 📢HOF🏛️ Giannis Antetokounmpo (4 assists today) has passed Hal Greer and is now ranked 91st all-time with 4,541.",
+            "foto": [
+                "collages/1794371693099044_collage_1794371693001060.png"
+            ],
+            "timestamp": 1794371693
+        },
+        {
+            "texto": "Desmond Bane (3 three-pointers today) has passed Morris Peterson and is now ranked 183rd all-time with 1,010.",
+            "foto": [
+                "collages/1794371693393946_collage_1794371693271987.png"
+            ],
+            "timestamp": 1794371693
         }
     ],
     "notificaciones_franchise": [
@@ -3411,7 +3411,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2659,
+    "total_notificaciones_historicas": 2661,
     "total_franchise_historicas": 730,
-    "cache_buster": 1794371619
+    "cache_buster": 1794371693
 }
