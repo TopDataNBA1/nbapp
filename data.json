@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:10",
+    "ultima_actualizacion": "03:55:14",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -640,11 +640,11 @@
                 "Rank": 177,
                 "Nombre": "Luke Kennard",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 1037,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 1038,
+                "Diff": "",
                 "Antece": "Dillon Brooks",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -763,9 +763,9 @@
                 "Rank": 132,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 3952,
-                "Diff": "5",
+                "Hoy": 2,
+                "Total": 3953,
+                "Diff": "4",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -1102,9 +1102,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 10578,
-                "Diff": "422",
+                "Hoy": 3,
+                "Total": 10579,
+                "Diff": "421",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -1560,9 +1560,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3952,
-                "Diff": "48",
+                "Hoy": 2,
+                "Total": 3953,
+                "Diff": "47",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1705,20 +1705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (2 three-pointers today) has passed James Posey and is now ranked 176th all-time with 1,036.",
-            "foto": [
-                "collages/1794103744228890_collage_1794103744129716.png"
-            ],
-            "timestamp": 1794103744
-        },
-        {
-            "texto": "Jalen Brunson (4 assists today) has passed Marc Gasol and is now ranked 247th all-time with 2,997.",
-            "foto": [
-                "collages/1794103810629597_collage_1794103810535882.png"
-            ],
-            "timestamp": 1794103810
-        },
         {
             "texto": "Julius Randle (6 assists today) has passed Brandon Jennings and is now ranked 220th all-time with 3,152.",
             "foto": [
@@ -2404,6 +2390,20 @@
                 "collages/1794364187973111_collage_1794364187873383.png"
             ],
             "timestamp": 1794364187
+        },
+        {
+            "texto": "Devin Booker (2 assists today) has passed Jarrett Jack and is now ranked 132nd all-time with 3,953.",
+            "foto": [
+                "collages/1794365714288967_collage_1794365714195484.png"
+            ],
+            "timestamp": 1794365714
+        },
+        {
+            "texto": "Luke Kennard (2 three-pointers today) has passed Steve Blake and is now ranked 177th all-time with 1,038.",
+            "foto": [
+                "collages/1794365714553611_collage_1794365714460544.png"
+            ],
+            "timestamp": 1794365714
         }
     ],
     "notificaciones_franchise": [
@@ -3108,7 +3108,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2649,
+    "total_notificaciones_historicas": 2651,
     "total_franchise_historicas": 729,
-    "cache_buster": 1794365650
+    "cache_buster": 1794365714
 }
