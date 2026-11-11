@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:27:22",
+    "ultima_actualizacion": "04:29:01",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -703,14 +703,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 230,
+                "Rank": 229,
                 "Nombre": "Miles Bridges",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 898,
-                "Diff": "",
-                "Antece": "Georges Niang",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 899,
+                "Diff": "1",
+                "Antece": "900",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -720,7 +720,7 @@
                 "Hoy": 4,
                 "Total": 898,
                 "Diff": "",
-                "Antece": "Miles Bridges",
+                "Antece": "Georges Niang",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             }
@@ -763,9 +763,9 @@
                 "Rank": 132,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 3,
-                "Total": 3954,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 3955,
+                "Diff": "2",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -1560,9 +1560,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 3954,
-                "Diff": "46",
+                "Hoy": 4,
+                "Total": 3955,
+                "Diff": "45",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1705,13 +1705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Luke Kennard (1 three-pointer today) has passed Doug McDermott and is now ranked 179th all-time with 1,033.",
-            "foto": [
-                "collages/1794105343796907_collage_1794105343703338.png"
-            ],
-            "timestamp": 1794105343
-        },
         {
             "texto": "Al Horford (3 assists today) has passed Sam Lacey and is now ranked 156th all-time with 3,755.",
             "foto": [
@@ -2404,6 +2397,13 @@
                 "collages/1794367499131118_collage_1794367499035566.png"
             ],
             "timestamp": 1794367499
+        },
+        {
+            "texto": "Miles Bridges (2 three-pointers today) has passed Georges Niang and is now ranked 229th all-time with 899.",
+            "foto": [
+                "collages/1794367741436654_collage_1794367741337279.png"
+            ],
+            "timestamp": 1794367741
         }
     ],
     "notificaciones_franchise": [
@@ -3108,7 +3108,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2655,
+    "total_notificaciones_historicas": 2656,
     "total_franchise_historicas": 729,
-    "cache_buster": 1794367642
+    "cache_buster": 1794367741
 }
