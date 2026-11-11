@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:58:56",
+    "ultima_actualizacion": "04:01:16",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -29,9 +29,9 @@
                 "Rank": 57,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 22,
-                "Total": 19544,
-                "Diff": "47",
+                "Hoy": 25,
+                "Total": 19547,
+                "Diff": "44",
                 "Antece": "Clifford Robinson",
                 "Nota": "",
                 "game_status": "playing"
@@ -409,9 +409,9 @@
                 "Rank": 8,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 2483,
-                "Diff": "17",
+                "Hoy": 4,
+                "Total": 2484,
+                "Diff": "16",
                 "Antece": "2500",
                 "Nota": "",
                 "game_status": "playing"
@@ -704,24 +704,24 @@
             },
             {
                 "Rank": 230,
+                "Nombre": "Payton Pritchard",
+                "Team": "BOS",
+                "Hoy": 4,
+                "Total": 898,
+                "Diff": "",
+                "Antece": "Georges Niang",
+                "Nota": "Mismo total",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 231,
                 "Nombre": "Miles Bridges",
                 "Team": "PHX",
                 "Hoy": 0,
                 "Total": 897,
                 "Diff": "1",
-                "Antece": "Georges Niang",
+                "Antece": "Payton Pritchard",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 231,
-                "Nombre": "Payton Pritchard",
-                "Team": "BOS",
-                "Hoy": 3,
-                "Total": 897,
-                "Diff": "",
-                "Antece": "Miles Bridges",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -1060,9 +1060,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 897,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 898,
+                "Diff": "2",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1072,7 +1072,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 871,
-                "Diff": "26",
+                "Diff": "27",
                 "Antece": "Payton Pritchard",
                 "game_status": "playing"
             },
@@ -1705,13 +1705,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Julius Randle (6 assists today) has passed Brandon Jennings and is now ranked 220th all-time with 3,152.",
-            "foto": [
-                "collages/1794104024045664_collage_1794104023946026.png"
-            ],
-            "timestamp": 1794104024
-        },
         {
             "texto": "Marcus Smart (1 three-pointer today) has passed Gordon Hayward and is now ranked 142nd all-time with 1,112.",
             "foto": [
@@ -2404,6 +2397,13 @@
                 "collages/1794365714553611_collage_1794365714460544.png"
             ],
             "timestamp": 1794365714
+        },
+        {
+            "texto": "Payton Pritchard (4 three-pointers today) has passed Miles Bridges and is now ranked 230th all-time with 898.",
+            "foto": [
+                "collages/1794366075950482_collage_1794366075851819.png"
+            ],
+            "timestamp": 1794366075
         }
     ],
     "notificaciones_franchise": [
@@ -3108,7 +3108,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2651,
+    "total_notificaciones_historicas": 2652,
     "total_franchise_historicas": 729,
-    "cache_buster": 1794365936
+    "cache_buster": 1794366076
 }
