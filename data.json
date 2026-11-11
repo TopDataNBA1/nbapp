@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:29:26",
+    "ultima_actualizacion": "02:30:30",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -62,11 +62,11 @@
                 "Rank": 214,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 13708,
-                "Diff": "2",
+                "Hoy": 4,
+                "Total": 13709,
+                "Diff": "1",
                 "Antece": "Shai Gilgeous-Alexander",
-                "Nota": "A tiro de 2",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -75,7 +75,7 @@
                 "Team": "PHI",
                 "Hoy": 4,
                 "Total": 13701,
-                "Diff": "7",
+                "Diff": "8",
                 "Antece": "Joel Embiid",
                 "Nota": "",
                 "game_status": "playing"
@@ -351,13 +351,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 176,
+                "Rank": 175,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1038,
+                "Hoy": 2,
+                "Total": 1039,
                 "Diff": "",
-                "Antece": "Dillon Brooks",
+                "Antece": "Nick Young",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -444,9 +444,9 @@
                 "Rank": 246,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 3002,
-                "Diff": "4",
+                "Hoy": 1,
+                "Total": 3003,
+                "Diff": "3",
                 "Antece": "Lionel Hollins",
                 "Nota": "",
                 "game_status": "playing"
@@ -705,9 +705,9 @@
                 "Rank": 15,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1968,
-                "Diff": "32",
+                "Hoy": 1,
+                "Total": 1969,
+                "Diff": "31",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -735,9 +735,9 @@
                 "Rank": 15,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 387,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 388,
+                "Diff": "12",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -757,9 +757,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 13708,
-                "Diff": "292",
+                "Hoy": 4,
+                "Total": 13709,
+                "Diff": "291",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -878,13 +878,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "OG Anunoby (1 three-pointer today) has passed Dillon Brooks and is now ranked 177th all-time with 1,035.",
-            "foto": [
-                "collages/1794101138927358_collage_1794101138815395.png"
-            ],
-            "timestamp": 1794101138
-        },
         {
             "texto": "Shai Gilgeous-Alexander (10 points today) has passed Joel Embiid and is now ranked 213th all-time with 13,690.",
             "foto": [
@@ -1577,6 +1570,13 @@
                 "collages/1794360178840890_collage_1794360178736204.png"
             ],
             "timestamp": 1794360178
+        },
+        {
+            "texto": "OG Anunoby (2 three-pointers today) has passed Dillon Brooks and is now ranked 175th all-time with 1,039.",
+            "foto": [
+                "collages/1794360629961057_collage_1794360629867521.png"
+            ],
+            "timestamp": 1794360629
         }
     ],
     "notificaciones_franchise": [
@@ -2281,7 +2281,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2641,
+    "total_notificaciones_historicas": 2642,
     "total_franchise_historicas": 727,
-    "cache_buster": 1794360566
+    "cache_buster": 1794360630
 }
