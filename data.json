@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:45:05",
+    "ultima_actualizacion": "03:46:18",
     "jornada_inici": 1794342793,
     "tablas": {
         "pts": [
@@ -571,13 +571,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 136,
+                "Rank": 135,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1140,
+                "Hoy": 1,
+                "Total": 1141,
                 "Diff": "1",
-                "Antece": "Kevin Martin",
+                "Antece": "Mikal Bridges",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -1102,9 +1102,9 @@
                 "Rank": 2,
                 "Nombre": "Bam Adebayo",
                 "Stat": "PTS",
-                "Hoy": 1,
-                "Total": 10577,
-                "Diff": "423",
+                "Hoy": 2,
+                "Total": 10578,
+                "Diff": "422",
                 "Antece": "11000",
                 "game_status": "playing"
             },
@@ -1693,13 +1693,13 @@
         ],
         "MIL": [
             {
-                "Rank": 20,
+                "Rank": 19,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 305,
-                "Diff": "0",
-                "Antece": "Grayson Allen",
+                "Hoy": 1,
+                "Total": 306,
+                "Diff": "13",
+                "Antece": "Eric Bledsoe",
                 "game_status": "playing"
             }
         ]
@@ -2408,13 +2408,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Matas Buzelis (1 three-pointer today) has passed Mike Dunleavy and is now ranked 23rd in Bulls history with 270.",
-            "foto": [],
-            "timestamp": 1793061066,
-            "team": "CHI",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Brandon Miller (5 three-pointers today) has passed Nicolas Batum and is now ranked 9th in Hornets history with 497.",
             "foto": [],
             "timestamp": 1793063201,
@@ -3106,9 +3099,16 @@
             "timestamp": 1794359762,
             "team": "PHI",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Gary Trent Jr. (1 three-pointer today) has passed Grayson Allen and is now ranked 19th in Bucks history with 306.",
+            "foto": [],
+            "timestamp": 1794365177,
+            "team": "MIL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2649,
-    "total_franchise_historicas": 727,
-    "cache_buster": 1794365105
+    "total_franchise_historicas": 728,
+    "cache_buster": 1794365178
 }
