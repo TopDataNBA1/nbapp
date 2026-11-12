@@ -929,70 +929,69 @@ function renderSim() {
       );
       if (grpFinished.length === 0) return; // cap partit finalitzat
 
-      // rankRange del grup: cobreix tots els rangs possibles (minRank/maxRank de groupsAll)
-      // Però limitem als rangs que realment apareixen en Before o After per no afegir files buides
-      const minRposs = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
-      const maxRposs = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
       const before = _standings[conf] || [];
       const after  = standingsWithFinished[conf] || [];
-      // Rangs que apareixen en before o after dins del rang possible
-      const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i)
-        .filter(r => before.some(t => t.rank === r && grpAbbrs.has(t.abbr)) ||
-                     after.some(t => t.rank === r && grpAbbrs.has(t.abbr)));
+      // rankRange: rangs ocupats pels equips del grup en Before o After, sense més
+      const grpRanks = new Set();
+      before.forEach(t => { if (grpAbbrs.has(t.abbr)) grpRanks.add(t.rank); });
+      after.forEach(t => { if (grpAbbrs.has(t.abbr)) grpRanks.add(t.rank); });
+      const minRposs = Math.min(...grpRanks);
+      const maxRposs = Math.max(...grpRanks);
+      const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i);
 
       html += `<div class="grup-wrap">`;
-      html += `<div class="grup-title">Group — Positions ${minRposs}–${maxRposs}</div>`;
+      html += `<div class="grup-title">Positions ${minRposs}–${maxRposs}</div>`;
       html += `<div class="sim-table-wrap"><table class="sim-table"><thead>`;
 
-      // Fila de cada partit finalitzat (visitant primer, local després, amb marcador — sense fletxes)
+      // Fila de cada partit finalitzat — igual que al simulador actiu
       grpFinished.forEach(g => {
-        const timeLabel = g.scheduled_time || 'Final';
+        const timeLabel = g.status_text || 'Final';
         html += `<tr>`;
-        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
-        html += `<th colspan="2" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
-        html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
+        html += `<th class="rank-col col-current" style="text-align:center;padding:3px 2px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
+        html += `<th style="padding:3px 2px;text-align:center;background:var(--bg3);">`;
         html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.away_score}</span>`;
-        html += `</div>`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
+        html += `</th>`;
+        html += `<th style="padding:3px 2px;text-align:center;background:var(--bg3);">`;
         html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.home_score}</span>`;
-        html += `</div>`;
-        html += `</div></th>`;
+        html += `</th>`;
         html += `</tr>`;
       });
-
-      // Capçalera Before / After
-      html += `<tr>`;
-      html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;font-size:.72rem;font-weight:700;color:var(--text2);">#</th>`;
-      html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">Before</th>`;
-      html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">After</th>`;
-      html += `</tr>`;
       html += `</thead><tbody>`;
 
+      // FILES — idèntiques al simulador actiu: columna actual + 1 columna resultat real
       rankRange.forEach(rank => {
         const tBefore = before.find(t => t.rank === rank) || null;
         const tAfter  = after.find(t => t.rank === rank) || null;
-        const changed = tBefore?.abbr !== tAfter?.abbr;
-        html += `<tr>`;
-        html += `<td class="rank-col col-current" style="text-align:center;font-size:.75rem;font-weight:700;color:var(--text2);">${rank}</td>`;
 
-        html += `<td class="cell-same" style="text-align:center;">`;
+        let rowClass = '';
+        if (rank === 7) rowClass = 'sim-row-playin-border';
+        if (rank === 11) rowClass = 'sim-row-out-border';
+
+        html += `<tr class="${rowClass}">`;
+
+        // Columna esquerra: rang + logo + W-L en groc (igual que col-current del simulador)
+        html += `<td class="rank-col col-current">`;
         if (tBefore) {
-          html += `<div class="team-cell"><img src="${tBefore.logo}" onerror="this.style.opacity='.3'">`;
-          html += `<span class="tc-rec">${tBefore.w}-${tBefore.l}</span></div>`;
+          html += `<div class="rank-col-inner">`;
+          html += `<span class="rank-num">${rank}</span>`;
+          html += `<img class="rank-logo" src="${tBefore.logo}" onerror="this.style.opacity='.3'">`;
+          html += `<span style="font-size:.95rem;color:var(--gold);font-weight:700;">${tBefore.w}-${tBefore.l}</span>`;
+          html += `</div>`;
         }
         html += `</td>`;
 
-        const afterCls = changed && tAfter ? (() => {
+        // Columna resultat real: logo + W-L amb fletxa si ha canviat de posició
+        const changed = tAfter && tBefore && tAfter.abbr !== tBefore.abbr;
+        const cellCls = changed ? (() => {
           const origRank = before.find(t => t.abbr === tAfter.abbr)?.rank ?? rank;
           return rank < origRank ? 'cell-up' : 'cell-down';
         })() : 'cell-same';
-        html += `<td class="${afterCls}" style="text-align:center;">`;
+        html += `<td class="${cellCls}" colspan="2">`;
         if (tAfter) {
-          html += `<div class="team-cell"><img src="${tAfter.logo}" onerror="this.style.opacity='.3'">`;
-          html += `<span class="tc-rec">${tAfter.w}-${tAfter.l}</span></div>`;
+          html += `<div class="team-cell">`;
+          html += `<img src="${tAfter.logo}" onerror="this.style.opacity='.3'">`;
+          html += `<span class="tc-rec">${tAfter.w}-${tAfter.l}</span>`;
+          html += `</div>`;
         }
         html += `</td>`;
         html += `</tr>`;
