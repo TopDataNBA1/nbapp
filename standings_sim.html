@@ -931,15 +931,17 @@ function renderSim() {
 
       const before = _standings[conf] || [];
       const after  = standingsWithFinished[conf] || [];
-      // grp.minRank i grp.maxRank contenen TOTS els equips de la conf (inclòs ATL no jugador)
-      // El rang del grup és el mínim de tots els minRank i el màxim de tots els maxRank
-      const allRankVals = Object.values(grp.minRank).concat(Object.values(grp.maxRank));
-      // Però volem només el rang que ocupa el grup: mínim minRank i màxim maxRank
-      // dels equips que realment canvien de rang dins el grup (els mòbils)
-      // grp.minRank[X] < grp.maxRank[X] => X és mòbil
-      const mobileAbbrs = Object.keys(grp.minRank).filter(a => grp.minRank[a] !== grp.maxRank[a]);
-      const minRposs = Math.min(...mobileAbbrs.map(a => grp.minRank[a]));
-      const maxRposs = Math.max(...mobileAbbrs.map(a => grp.maxRank[a]));
+      // Rang mínim i màxim dels equips del grup (grp.teams) en before i after
+      // Inclou equips desplaçats (ATL) perquè mirem before i after, no qui jugava
+      const rangsSet = new Set();
+      grp.teams.forEach(t => {
+        const tb = before.find(x => x.abbr === t.abbr);
+        const ta = after.find(x => x.abbr === t.abbr);
+        if (tb) rangsSet.add(tb.rank);
+        if (ta) rangsSet.add(ta.rank);
+      });
+      const minRposs = Math.min(...rangsSet);
+      const maxRposs = Math.max(...rangsSet);
       const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i);
 
       html += `<div class="grup-wrap">`;
