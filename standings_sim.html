@@ -780,21 +780,18 @@ function renderSim() {
         grpTeamAbbrs.has(g.home_abbr) || grpTeamAbbrs.has(g.away_abbr)
       );
       grpFinished.forEach(g => {
-        const awayWon = g.away_score > g.home_score;
         const timeLabel = g.scheduled_time || g.status_text || 'Final';
         html += `<tr>`;
         html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
         html += `<th colspan="${nScenarios}" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
         html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;${awayWon?'background:rgba(255,210,0,.55)':''}">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
         html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.away_score}</span>`;
-        html += `<span style="font-size:.85rem;color:var(--text);font-weight:700;">${awayWon?'▲':'▼'}</span>`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.away_score}</span>`;
         html += `</div>`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;${!awayWon?'background:rgba(255,210,0,.55)':''}">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
         html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.home_score}</span>`;
-        html += `<span style="font-size:.85rem;color:var(--text);font-weight:700;">${awayWon?'▼':'▲'}</span>`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.home_score}</span>`;
         html += `</div>`;
         html += `</div></th>`;
         html += `</tr>`;
@@ -932,39 +929,35 @@ function renderSim() {
       );
       if (grpFinished.length === 0) return; // cap partit finalitzat
 
-      // rankRange del grup (el mateix que tindria l'arbre binari)
-      const minR = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
-      const maxR = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
-      const rankRange = Array.from({length: maxR - minR + 1}, (_, i) => minR + i);
-
+      // rankRange del grup: cobreix tots els rangs possibles (minRank/maxRank de groupsAll)
+      // Però limitem als rangs que realment apareixen en Before o After per no afegir files buides
+      const minRposs = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
+      const maxRposs = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
       const before = _standings[conf] || [];
       const after  = standingsWithFinished[conf] || [];
+      // Rangs que apareixen en before o after dins del rang possible
+      const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i)
+        .filter(r => before.some(t => t.rank === r && grpAbbrs.has(t.abbr)) ||
+                     after.some(t => t.rank === r && grpAbbrs.has(t.abbr)));
 
       html += `<div class="grup-wrap">`;
       html += `<div class="grup-title">Group — Positions ${minR}–${maxR}</div>`;
       html += `<div class="sim-table-wrap"><table class="sim-table"><thead>`;
 
-      // Fila de cada partit finalitzat (visitant primer, local després, amb marcador)
+      // Fila de cada partit finalitzat (visitant primer, local després, amb marcador — sense fletxes)
       grpFinished.forEach(g => {
-        const awayWon = g.away_score > g.home_score;
         const timeLabel = g.scheduled_time || 'Final';
-        const awayArrow = awayWon ? '▲' : '▼';
-        const homeArrow = awayWon ? '▼' : '▲';
-        const awayColor = awayWon ? 'rgba(0,210,180,.9)' : 'rgba(230,30,30,.9)';
-        const homeColor = awayWon ? 'rgba(230,30,30,.9)' : 'rgba(0,210,180,.9)';
         html += `<tr>`;
         html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
         html += `<th colspan="2" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
         html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
         html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.away_score}</span>`;
-        html += `<span style="font-size:.85rem;color:${awayColor};font-weight:700;">${awayArrow}</span>`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.away_score}</span>`;
         html += `</div>`;
-        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;background:var(--bg3);">`;
         html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
-        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.home_score}</span>`;
-        html += `<span style="font-size:.85rem;color:${homeColor};font-weight:700;">${homeArrow}</span>`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text)">${g.home_score}</span>`;
         html += `</div>`;
         html += `</div></th>`;
         html += `</tr>`;
