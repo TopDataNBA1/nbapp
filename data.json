@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:46:36",
+    "ultima_actualizacion": "02:47:43",
     "jornada_inici": 1794428437,
     "tablas": {
         "pts": [
@@ -7,9 +7,9 @@
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 21,
-                "Total": 29528,
-                "Diff": "472",
+                "Hoy": 22,
+                "Total": 29529,
+                "Diff": "471",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -393,14 +393,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 202,
+                "Rank": 200,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 675,
-                "Diff": "",
-                "Antece": "Dennis Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 676,
+                "Diff": "5",
+                "Antece": "Gerald Wallace",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1687,13 +1687,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Miles McBride",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 414,
-                "Diff": "0",
-                "Antece": "Nate Robinson",
+                "Hoy": 4,
+                "Total": 415,
+                "Diff": "28",
+                "Antece": "J.R. Smith",
                 "game_status": "playing"
             },
             {
@@ -1954,9 +1954,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2128,
-                "Diff": "62",
+                "Hoy": 1,
+                "Total": 2129,
+                "Diff": "61",
                 "Antece": "Dennis Rodman",
                 "game_status": "playing"
             },
@@ -1974,9 +1974,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 675,
-                "Diff": "25",
+                "Hoy": 1,
+                "Total": 676,
+                "Diff": "24",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -2411,13 +2411,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Andrew Wiggins (2 three-pointers today) has passed Terry Porter and is now ranked 88th all-time with 1,298.",
-            "foto": [
-                "collages/1794191873597175_collage_1794191873507997.png"
-            ],
-            "timestamp": 1794191873
-        },
         {
             "texto": "Payton Pritchard (4 three-pointers today) has passed Will Barton and is now ranked 231st all-time with 894.",
             "foto": [
@@ -3110,16 +3103,16 @@
                 "collages/1794447917883701_collage_1794447917776496.png"
             ],
             "timestamp": 1794447917
+        },
+        {
+            "texto": "📢HOF🏛️ Victor Wembanyama (1 block today) has passed Christian Laettner and Dennis Johnson and is now ranked 200th all-time with 676.",
+            "foto": [
+                "collages/1794448063394323_collage_1794448063314366.png"
+            ],
+            "timestamp": 1794448063
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Josh Hart (5 steals today) has passed Bill Cartwright and is now ranked 23rd in Knicks history with 314.",
-            "foto": [],
-            "timestamp": 1793153245,
-            "team": "NYK",
-            "type": "franchise"
-        },
         {
             "texto": "Josh Hart (2 three-pointers today) becomes the 24th player to reach 300 three-pointers with Knicks.",
             "foto": [],
@@ -3812,9 +3805,16 @@
             "timestamp": 1794447707,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Miles McBride (4 three-pointers today) has passed Nate Robinson and is now ranked 13th in Knicks history with 415.",
+            "foto": [],
+            "timestamp": 1794448063,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2687,
-    "total_franchise_historicas": 736,
-    "cache_buster": 1794447996
+    "total_notificaciones_historicas": 2688,
+    "total_franchise_historicas": 737,
+    "cache_buster": 1794448063
 }
