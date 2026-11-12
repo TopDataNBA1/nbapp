@@ -798,6 +798,28 @@ function renderSim() {
         html += `</tr>`;
       });
 
+      // Columnes "actives": les que coincideixen amb el resultat actual de cada partit
+      // Per a cada joc idx, el guanyador actual és 'away' si away_score > home_score,
+      // 'home' si home_score > away_score, o null si empat / no iniciat
+      // Una columna col és activa si, per a tots els jocs amb resultat definit,
+      // la fórmula de la columna coincideix amb el guanyador actual.
+      const activeColSet = new Set();
+      for (let col = 0; col < nScenarios; col++) {
+        let matches = true;
+        sortedGames.forEach((g, idx) => {
+          const hasScore = g.status === 2 || g.status === 3;
+          if (!hasScore) return; // sense resultat: no filtra
+          const W = nScenarios / Math.pow(2, idx + 1);
+          const colWinner = Math.floor(col / W) % 2 === 0 ? 'away' : 'home';
+          const actualWinner = g.away_score > g.home_score ? 'away'
+                             : g.home_score > g.away_score ? 'home'
+                             : null; // empat
+          if (actualWinner !== null && colWinner !== actualWinner) matches = false;
+        });
+        if (matches) activeColSet.add(col);
+      }
+      const anyActive = activeColSet.size < nScenarios; // si tots actius, no hi ha res que destacar
+
       // Partits no finalitzats: arbre binari
       sortedGames.forEach((g, i) => {
         const W = nScenarios / Math.pow(2, i + 1);
@@ -807,11 +829,15 @@ function renderSim() {
         html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text);background:var(--bg3);">${timeLabel}</th>`;
         const isLive = g.status === 2;
         const isFinal = g.status === 3;
-        const awayWinning = g.away_score > g.home_score;
-        const homeWinning = g.home_score > g.away_score;
         for (let r = 0; r < repeats; r++) {
-          const awayCls = awayWinning ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
-          const homeCls = homeWinning ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
+          // Rang de columnes d'aquesta cel·la away i home
+          const awayColStart = r * 2 * W;
+          const homeColStart = r * 2 * W + W;
+          // Cel·la activa si almenys una de les seves columnes és activa
+          const awayActive = anyActive && [...Array(W)].some((_, k) => activeColSet.has(awayColStart + k));
+          const homeActive = anyActive && [...Array(W)].some((_, k) => activeColSet.has(homeColStart + k));
+          const awayCls = awayActive ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
+          const homeCls = homeActive ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
           const awayBg = awayCls ? '' : 'background:var(--bg3);';
           const homeBg = homeCls ? '' : 'background:var(--bg3);';
           html += `<th colspan="${W}" class="${awayCls}" style="padding:3px 2px;text-align:center;${awayBg}">`;
