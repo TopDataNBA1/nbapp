@@ -603,7 +603,11 @@ function renderSim() {
     ? applyScenario(_standings, finishedGames, finishedScGlobal)
     : _standings;
 
-  // detectGroups sobre la base real (amb finalitzats) i només els partits actius
+  // detectGroups: usem TOTS els partits sobre _standings originals per calcular rankRange correcte
+  // Això ens dona els grups amb el rang que tenien quan els partits encara no havien acabat
+  const allTodayGames = [...finishedGames, ...activeGames];
+  const groupsAll  = detectGroups(_standings, allTodayGames.length > 0 ? allTodayGames : []);
+  // Per al render dels partits actius (arbre binari) seguim usant standingsWithFinished + activeGames
   const groups = detectGroups(standingsWithFinished, activeGames.length > 0 ? activeGames : []);
 
 
@@ -778,25 +782,19 @@ function renderSim() {
       grpFinished.forEach(g => {
         const awayWon = g.away_score > g.home_score;
         const timeLabel = g.scheduled_time || g.status_text || 'Final';
-        const awayArrow = awayWon ? '▲' : '▼';
-        const homeArrow = awayWon ? '▼' : '▲';
-        const awayColor = awayWon ? 'rgba(0,210,180,.9)' : 'rgba(230,30,30,.9)';
-        const homeColor = awayWon ? 'rgba(230,30,30,.9)' : 'rgba(0,210,180,.9)';
-        const awayCls   = awayWon ? 'winning-final' : '';
-        const homeCls   = awayWon ? '' : 'winning-final';
         html += `<tr>`;
         html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
         html += `<th colspan="${nScenarios}" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
         html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
-        html += `<div class="${awayCls}" style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;${awayWon?'background:rgba(255,210,0,.55)':''}">`;
         html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
         html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.away_score}</span>`;
-        html += `<span style="font-size:.85rem;color:${awayColor};font-weight:700;">${awayArrow}</span>`;
+        html += `<span style="font-size:.85rem;color:var(--text);font-weight:700;">${awayWon?'▲':'▼'}</span>`;
         html += `</div>`;
-        html += `<div class="${homeCls}" style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;${!awayWon?'background:rgba(255,210,0,.55)':''}">`;
         html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
         html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.home_score}</span>`;
-        html += `<span style="font-size:.85rem;color:${homeColor};font-weight:700;">${homeArrow}</span>`;
+        html += `<span style="font-size:.85rem;color:var(--text);font-weight:700;">${awayWon?'▼':'▲'}</span>`;
         html += `</div>`;
         html += `</div></th>`;
         html += `</tr>`;
@@ -917,122 +915,98 @@ function renderSim() {
   });
 
   // ── GRUPS AMB TOTS ELS PARTITS FINALITZATS ───────────────────────────────
-  // detectGroups no els inclou (activeGames buit → cap grup)
-  // Mostrem una taula Before/After per cada grup de partits finalitzats que han canviat posicions
+  // Usem groupsAll (calculat sobre _standings + allTodayGames) per obtenir el rankRange correcte.
+  // Només mostrem els grups on TOTS els partits del grup han finalitzat i NO s'han mostrat ja.
   ['East','West'].forEach(conf => {
-    // Partits finalitzats que impliquen equips d'aquesta conferència
-    const confFinished = finishedGames.filter(g => {
-      const homeConf = (_standings[conf]||[]).find(t => t.abbr === g.home_abbr);
-      const awayConf = (_standings[conf]||[]).find(t => t.abbr === g.away_abbr);
-      return homeConf || awayConf;
-    });
-    if (confFinished.length === 0) return;
+    (groupsAll[conf]||[]).forEach(grp => {
+      // Comprovem si aquest grup ja s'ha mostrat a dalt (té partits actius)
+      const grpAbbrs = new Set(grp.teams.map(t => t.abbr));
+      const hasActive = (groups[conf]||[]).some(ag =>
+        ag.teams.some(t => grpAbbrs.has(t.abbr))
+      );
+      if (hasActive) return; // ja renderitzat com a arbre binari
 
-    // Comprova si ja s'han mostrat en algun grup actiu (evitar duplicats)
-    const alreadyShown = new Set();
-    (groups[conf]||[]).forEach(grp => {
-      const grpTeamAbbrs = new Set(grp.teams.map(t => t.abbr));
-      finishedGames.forEach(g => {
-        if (grpTeamAbbrs.has(g.home_abbr) || grpTeamAbbrs.has(g.away_abbr)) alreadyShown.add(g.game_id);
+      // Partits d'aquest grup
+      const grpFinished = finishedGames.filter(g =>
+        grpAbbrs.has(g.home_abbr) || grpAbbrs.has(g.away_abbr)
+      );
+      if (grpFinished.length === 0) return; // cap partit finalitzat
+
+      // rankRange del grup (el mateix que tindria l'arbre binari)
+      const minR = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
+      const maxR = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
+      const rankRange = Array.from({length: maxR - minR + 1}, (_, i) => minR + i);
+
+      const before = _standings[conf] || [];
+      const after  = standingsWithFinished[conf] || [];
+
+      html += `<div class="grup-wrap">`;
+      html += `<div class="grup-title">Group — Positions ${minR}–${maxR}</div>`;
+      html += `<div class="sim-table-wrap"><table class="sim-table"><thead>`;
+
+      // Fila de cada partit finalitzat (visitant primer, local després, amb marcador)
+      grpFinished.forEach(g => {
+        const awayWon = g.away_score > g.home_score;
+        const timeLabel = g.scheduled_time || 'Final';
+        const awayArrow = awayWon ? '▲' : '▼';
+        const homeArrow = awayWon ? '▼' : '▲';
+        const awayColor = awayWon ? 'rgba(0,210,180,.9)' : 'rgba(230,30,30,.9)';
+        const homeColor = awayWon ? 'rgba(230,30,30,.9)' : 'rgba(0,210,180,.9)';
+        html += `<tr>`;
+        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
+        html += `<th colspan="2" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
+        html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.away_score}</span>`;
+        html += `<span style="font-size:.85rem;color:${awayColor};font-weight:700;">${awayArrow}</span>`;
+        html += `</div>`;
+        html += `<div style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
+        html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.home_score}</span>`;
+        html += `<span style="font-size:.85rem;color:${homeColor};font-weight:700;">${homeArrow}</span>`;
+        html += `</div>`;
+        html += `</div></th>`;
+        html += `</tr>`;
       });
-    });
 
-    const newFinished = confFinished.filter(g => !alreadyShown.has(g.game_id));
-    if (newFinished.length === 0) return;
-
-    // Detectar equips afectats i rangs Before/After
-    const affectedAbbrs = new Set();
-    newFinished.forEach(g => { affectedAbbrs.add(g.home_abbr); affectedAbbrs.add(g.away_abbr); });
-
-    // Trobar el rang Before (_standings) i After (standingsWithFinished) dels equips implicats
-    const before = _standings[conf] || [];
-    const after  = standingsWithFinished[conf] || [];
-
-    // Rang mínim i màxim dels afectats per definir el rankRange
-    let minR = Infinity, maxR = -Infinity;
-    affectedAbbrs.forEach(abbr => {
-      const b = before.find(t => t.abbr === abbr);
-      const a = after.find(t => t.abbr === abbr);
-      if (b) { minR = Math.min(minR, b.rank); maxR = Math.max(maxR, b.rank); }
-      if (a) { minR = Math.min(minR, a.rank); maxR = Math.max(maxR, a.rank); }
-    });
-    if (!isFinite(minR)) return;
-    const rankRange = Array.from({length: maxR - minR + 1}, (_, i) => minR + i);
-
-    html += `<div class="grup-wrap">`;
-    html += `<div class="grup-title">${conf}ern Conference — Positions ${minR}–${maxR} (Final)</div>`;
-    html += `<div class="sim-table-wrap"><table class="sim-table"><thead>`;
-
-    // Fila de partits finalitzats
-    newFinished.forEach(g => {
-      const awayWon = g.away_score > g.home_score;
-      const timeLabel = g.scheduled_time || 'Final';
-      const awayArrow = awayWon ? '▲' : '▼';
-      const homeArrow = awayWon ? '▼' : '▲';
-      const awayColor = awayWon ? 'rgba(0,210,180,.9)' : 'rgba(230,30,30,.9)';
-      const homeColor = awayWon ? 'rgba(230,30,30,.9)' : 'rgba(0,210,180,.9)';
-      const awayCls   = awayWon ? 'winning-final' : '';
-      const homeCls   = awayWon ? '' : 'winning-final';
+      // Capçalera Before / After
       html += `<tr>`;
-      html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
-      html += `<th colspan="2" style="padding:4px 6px;text-align:center;background:var(--bg3);">`;
-      html += `<div style="display:flex;align-items:center;justify-content:center;gap:14px;">`;
-      html += `<div class="${awayCls}" style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
-      html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
-      html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.away_score}</span>`;
-      html += `<span style="font-size:.85rem;color:${awayColor};font-weight:700;">${awayArrow}</span>`;
-      html += `</div>`;
-      html += `<div class="${homeCls}" style="display:flex;align-items:center;gap:5px;padding:2px 6px;border-radius:4px;">`;
-      html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
-      html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2)">${g.home_score}</span>`;
-      html += `<span style="font-size:.85rem;color:${homeColor};font-weight:700;">${homeArrow}</span>`;
-      html += `</div>`;
-      html += `</div></th>`;
+      html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;font-size:.72rem;font-weight:700;color:var(--text2);">#</th>`;
+      html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">Before</th>`;
+      html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">After</th>`;
       html += `</tr>`;
+      html += `</thead><tbody>`;
+
+      rankRange.forEach(rank => {
+        const tBefore = before.find(t => t.rank === rank) || null;
+        const tAfter  = after.find(t => t.rank === rank) || null;
+        const changed = tBefore?.abbr !== tAfter?.abbr;
+        html += `<tr>`;
+        html += `<td class="rank-col col-current" style="text-align:center;font-size:.75rem;font-weight:700;color:var(--text2);">${rank}</td>`;
+
+        html += `<td class="cell-same" style="text-align:center;">`;
+        if (tBefore) {
+          html += `<div class="team-cell"><img src="${tBefore.logo}" onerror="this.style.opacity='.3'">`;
+          html += `<span class="tc-rec">${tBefore.w}-${tBefore.l}</span></div>`;
+        }
+        html += `</td>`;
+
+        const afterCls = changed && tAfter ? (() => {
+          const origRank = before.find(t => t.abbr === tAfter.abbr)?.rank ?? rank;
+          return rank < origRank ? 'cell-up' : 'cell-down';
+        })() : 'cell-same';
+        html += `<td class="${afterCls}" style="text-align:center;">`;
+        if (tAfter) {
+          html += `<div class="team-cell"><img src="${tAfter.logo}" onerror="this.style.opacity='.3'">`;
+          html += `<span class="tc-rec">${tAfter.w}-${tAfter.l}</span></div>`;
+        }
+        html += `</td>`;
+        html += `</tr>`;
+      });
+
+      html += `</tbody></table></div></div>`;
     });
-
-    // Capçalera Before / After
-    html += `<tr>`;
-    html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;font-size:.72rem;font-weight:700;color:var(--text2);">#</th>`;
-    html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">Before</th>`;
-    html += `<th style="padding:4px 8px;text-align:center;font-size:.72rem;font-weight:700;color:var(--text2);background:var(--bg2);">After</th>`;
-    html += `</tr>`;
-    html += `</thead><tbody>`;
-
-    rankRange.forEach(rank => {
-      const tBefore = before.find(t => t.rank === rank) || null;
-      const tAfter  = after.find(t => t.rank === rank) || null;
-      const changed = tBefore?.abbr !== tAfter?.abbr;
-      html += `<tr>`;
-      html += `<td class="rank-col col-current" style="text-align:center;font-size:.75rem;font-weight:700;color:var(--text2);">${rank}</td>`;
-
-      // Before
-      html += `<td class="cell-same" style="text-align:center;">`;
-      if (tBefore) {
-        html += `<div class="team-cell">`;
-        html += `<img src="${tBefore.logo}" onerror="this.style.opacity='.3'">`;
-        html += `<span class="tc-rec">${tBefore.w}-${tBefore.l}</span>`;
-        html += `</div>`;
-      }
-      html += `</td>`;
-
-      // After — color si ha canviat
-      const afterCls = changed && tAfter ? (() => {
-        const origRank = before.find(t => t.abbr === tAfter.abbr)?.rank ?? rank;
-        return rank < origRank ? 'cell-up' : 'cell-down';
-      })() : 'cell-same';
-      html += `<td class="${afterCls}" style="text-align:center;">`;
-      if (tAfter) {
-        html += `<div class="team-cell">`;
-        html += `<img src="${tAfter.logo}" onerror="this.style.opacity='.3'">`;
-        html += `<span class="tc-rec">${tAfter.w}-${tAfter.l}</span>`;
-        html += `</div>`;
-      }
-      html += `</td>`;
-      html += `</tr>`;
-    });
-
-    html += `</tbody></table></div></div>`;
   });
 
   document.getElementById('simContent').innerHTML = html;
