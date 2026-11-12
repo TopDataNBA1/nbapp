@@ -931,34 +931,32 @@ function renderSim() {
 
       const before = _standings[conf] || [];
       const after  = standingsWithFinished[conf] || [];
-      // rankRange: rangs ocupats pels equips del grup en Before o After, sense més
-      const grpRanks = new Set();
-      before.forEach(t => { if (grpAbbrs.has(t.abbr)) grpRanks.add(t.rank); });
-      after.forEach(t => { if (grpAbbrs.has(t.abbr)) grpRanks.add(t.rank); });
-      const minRposs = Math.min(...grpRanks);
-      const maxRposs = Math.max(...grpRanks);
+      // rankRange: rang mínim i màxim possible del grup (igual que als grups actius)
+      const minRposs = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
+      const maxRposs = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
       const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i);
 
       html += `<div class="grup-wrap">`;
       html += `<div class="grup-title">Positions ${minRposs}–${maxRposs}</div>`;
       html += `<div class="sim-table-wrap"><table class="sim-table"><thead>`;
 
-      // Fila de cada partit finalitzat — igual que al simulador actiu
+      // Fila de cada partit finalitzat — 2 cel·les: rank-col + 1 cel·la amb tots dos equips
       grpFinished.forEach(g => {
         const timeLabel = g.status_text || 'Final';
         html += `<tr>`;
         html += `<th class="rank-col col-current" style="text-align:center;padding:3px 2px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text2);">${timeLabel}</th>`;
         html += `<th style="padding:3px 2px;text-align:center;background:var(--bg3);">`;
+        html += `<div style="display:flex;align-items:center;justify-content:center;gap:8px;">`;
         html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.away_abbr}">`;
-        html += `</th>`;
-        html += `<th style="padding:3px 2px;text-align:center;background:var(--bg3);">`;
+        html += `<span style="font-size:.8rem;font-weight:700;color:var(--text2);">${g.away_score}–${g.home_score}</span>`;
         html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.opacity='.3'" title="${g.home_abbr}">`;
+        html += `</div>`;
         html += `</th>`;
         html += `</tr>`;
       });
       html += `</thead><tbody>`;
 
-      // FILES — idèntiques al simulador actiu: columna actual + 1 columna resultat real
+      // FILES — 2 cel·les: columna actual + 1 columna resultat real
       rankRange.forEach(rank => {
         const tBefore = before.find(t => t.rank === rank) || null;
         const tAfter  = after.find(t => t.rank === rank) || null;
@@ -969,7 +967,7 @@ function renderSim() {
 
         html += `<tr class="${rowClass}">`;
 
-        // Columna esquerra: rang + logo + W-L en groc (igual que col-current del simulador)
+        // Columna esquerra: rang + logo + W-L en groc
         html += `<td class="rank-col col-current">`;
         if (tBefore) {
           html += `<div class="rank-col-inner">`;
@@ -986,7 +984,7 @@ function renderSim() {
           const origRank = before.find(t => t.abbr === tAfter.abbr)?.rank ?? rank;
           return rank < origRank ? 'cell-up' : 'cell-down';
         })() : 'cell-same';
-        html += `<td class="${cellCls}" colspan="2">`;
+        html += `<td class="${cellCls}">`;
         if (tAfter) {
           html += `<div class="team-cell">`;
           html += `<img src="${tAfter.logo}" onerror="this.style.opacity='.3'">`;
