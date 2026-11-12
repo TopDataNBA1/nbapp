@@ -31,6 +31,9 @@
   header .sub { font-size: .8rem; color: var(--text2); }
   .dot-live { width:8px; height:8px; border-radius:50%; background:var(--win); animation: pulse 1.5s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+  @keyframes winning-pulse { 0%,100%{background:rgba(255,210,0,.7)} 50%{background:rgba(255,210,0,.15)} }
+  .winning-live { animation: winning-pulse 1.2s ease-in-out infinite; }
+  .winning-final { background:rgba(255,210,0,.55) !important; }
 
   .tabs {
     display: flex; gap: 4px; padding: 14px 24px 0;
@@ -803,15 +806,18 @@ function renderSim() {
         html += `<tr>`;
         html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text);background:var(--bg3);">${timeLabel}</th>`;
         const isLive = g.status === 2;
-        const awayWinning = isLive && g.away_score > g.home_score;
-        const homeWinning = isLive && g.home_score > g.away_score;
+        const isFinal = g.status === 3;
+        const awayWinning = g.away_score > g.home_score;
+        const homeWinning = g.home_score > g.away_score;
         for (let r = 0; r < repeats; r++) {
-          const awayBg = awayWinning ? 'background:rgba(255,210,0,.25);' : 'background:var(--bg3);';
-          const homeBg = homeWinning ? 'background:rgba(255,210,0,.25);' : 'background:var(--bg3);';
-          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;${awayBg}">`;
+          const awayCls = awayWinning ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
+          const homeCls = homeWinning ? (isLive ? 'winning-live' : isFinal ? 'winning-final' : '') : '';
+          const awayBg = awayCls ? '' : 'background:var(--bg3);';
+          const homeBg = homeCls ? '' : 'background:var(--bg3);';
+          html += `<th colspan="${W}" class="${awayCls}" style="padding:3px 2px;text-align:center;${awayBg}">`;
           html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.away_abbr}">`;
           html += `</th>`;
-          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;${homeBg}">`;
+          html += `<th colspan="${W}" class="${homeCls}" style="padding:3px 2px;text-align:center;${homeBg}">`;
           html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.home_abbr}">`;
           html += `</th>`;
         }
