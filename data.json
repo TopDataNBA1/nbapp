@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:12:02",
+    "ultima_actualizacion": "05:14:26",
     "jornada_inici": 1794428437,
     "tablas": {
         "pts": [
@@ -273,9 +273,9 @@
                 "Rank": 55,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 2,
-                "Total": 9200,
-                "Diff": "126",
+                "Hoy": 1,
+                "Total": 9199,
+                "Diff": "127",
                 "Antece": "Vlade Divac",
                 "Nota": "",
                 "game_status": "playing"
@@ -361,9 +361,9 @@
                 "Rank": 160,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 3,
-                "Total": 6509,
-                "Diff": "4",
+                "Hoy": 4,
+                "Total": 6510,
+                "Diff": "3",
                 "Antece": "Serge Ibaka",
                 "Nota": "",
                 "game_status": "playing"
@@ -948,9 +948,9 @@
                 "Rank": 182,
                 "Nombre": "Desmond Bane",
                 "Team": "ORL",
-                "Hoy": 5,
-                "Total": 1016,
-                "Diff": "10",
+                "Hoy": 6,
+                "Total": 1017,
+                "Diff": "9",
                 "Antece": "Joe Harris",
                 "Nota": "",
                 "game_status": "playing"
@@ -2002,9 +2002,9 @@
                 "Rank": 3,
                 "Nombre": "Draymond Green",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 6510,
-                "Diff": "490",
+                "Hoy": 4,
+                "Total": 6511,
+                "Diff": "489",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -2612,10 +2612,10 @@
                 "Rank": 11,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 28,
-                "Total": 6499,
-                "Diff": "1",
-                "Antece": "6500",
+                "Hoy": 30,
+                "Total": 6501,
+                "Diff": "102",
+                "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
             {
@@ -3394,13 +3394,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢HOF🏛️ Luka Dončić (30 points today) has passed Sam Jones and is now ranked 153rd all-time with 15,412.",
-            "foto": [
-                "collages/1794276817524817_collage_1794276817431069.png"
-            ],
-            "timestamp": 1794276817
-        },
-        {
             "texto": "De'Aaron Fox (6 points today) has passed Wayman Tisdale and is now ranked 242nd all-time with 12,879.",
             "foto": [
                 "collages/1794277044502309_collage_1794277044387591.png"
@@ -4092,16 +4085,16 @@
                 "collages/1794456288077225_collage_1794456287966600.png"
             ],
             "timestamp": 1794456288
+        },
+        {
+            "texto": "Draymond Green (4 rebounds today) has passed Herb Williams and is now ranked 160th all-time with 6,510.",
+            "foto": [
+                "collages/1794456866052737_collage_1794456865948272.png"
+            ],
+            "timestamp": 1794456866
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝3️⃣ Bam Adebayo (7 rebounds today) has passed Udonis Haslem and is now ranked 1st in Heat history with 5,792.",
-            "foto": [],
-            "timestamp": 1793236519,
-            "team": "MIA",
-            "type": "franchise"
-        },
         {
             "texto": "Jalen Brunson (4 assists today) has passed Gerald Wilkins and is now ranked 15th in Knicks history with 1,940.",
             "foto": [],
@@ -4794,9 +4787,16 @@
             "timestamp": 1794455087,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Franz Wagner (30 points today) becomes the 11th player to reach 6,500 points with Magic.",
+            "foto": [],
+            "timestamp": 1794456866,
+            "team": "ORL",
+            "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2707,
-    "total_franchise_historicas": 743,
-    "cache_buster": 1794456722
+    "total_notificaciones_historicas": 2708,
+    "total_franchise_historicas": 744,
+    "cache_buster": 1794456866
 }
