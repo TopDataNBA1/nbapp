@@ -931,9 +931,15 @@ function renderSim() {
 
       const before = _standings[conf] || [];
       const after  = standingsWithFinished[conf] || [];
-      // rankRange: rang mínim i màxim possible del grup (igual que als grups actius)
-      const minRposs = Math.min(...grp.teams.map(t => grp.minRank[t.abbr]));
-      const maxRposs = Math.max(...grp.teams.map(t => grp.maxRank[t.abbr]));
+      // grp.minRank i grp.maxRank contenen TOTS els equips de la conf (inclòs ATL no jugador)
+      // El rang del grup és el mínim de tots els minRank i el màxim de tots els maxRank
+      const allRankVals = Object.values(grp.minRank).concat(Object.values(grp.maxRank));
+      // Però volem només el rang que ocupa el grup: mínim minRank i màxim maxRank
+      // dels equips que realment canvien de rang dins el grup (els mòbils)
+      // grp.minRank[X] < grp.maxRank[X] => X és mòbil
+      const mobileAbbrs = Object.keys(grp.minRank).filter(a => grp.minRank[a] !== grp.maxRank[a]);
+      const minRposs = Math.min(...mobileAbbrs.map(a => grp.minRank[a]));
+      const maxRposs = Math.max(...mobileAbbrs.map(a => grp.maxRank[a]));
       const rankRange = Array.from({length: maxRposs - minRposs + 1}, (_, i) => minRposs + i);
 
       html += `<div class="grup-wrap">`;
