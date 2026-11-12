@@ -801,12 +801,17 @@ function renderSim() {
         const repeats = Math.pow(2, i);
         const timeLabel = g.scheduled_time || g.status_text || '';
         html += `<tr>`;
-        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text);">${timeLabel}</th>`;
+        html += `<th class="rank-col col-current" style="text-align:center;padding:4px 6px;white-space:nowrap;font-size:.72rem;font-weight:700;color:var(--text);background:var(--bg3);">${timeLabel}</th>`;
+        const isLive = g.status === 2;
+        const awayWinning = isLive && g.away_score > g.home_score;
+        const homeWinning = isLive && g.home_score > g.away_score;
         for (let r = 0; r < repeats; r++) {
-          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;">`;
+          const awayBg = awayWinning ? 'background:rgba(255,210,0,.25);' : 'background:var(--bg3);';
+          const homeBg = homeWinning ? 'background:rgba(255,210,0,.25);' : 'background:var(--bg3);';
+          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;${awayBg}">`;
           html += `<img src="${g.away_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.away_abbr}">`;
           html += `</th>`;
-          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;">`;
+          html += `<th colspan="${W}" style="padding:3px 2px;text-align:center;${homeBg}">`;
           html += `<img src="${g.home_logo}" style="width:26px;height:26px;object-fit:contain;" onerror="this.style.display='none'" title="${g.home_abbr}">`;
           html += `</th>`;
         }
