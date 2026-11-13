@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:04",
+    "ultima_actualizacion": "02:46:23",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -340,14 +340,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 134,
+                "Rank": 133,
                 "Nombre": "Anfernee Simons",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 1142,
-                "Diff": "1",
-                "Antece": "Gary Trent Jr.",
-                "Nota": "A tiro de 1",
+                "Hoy": 3,
+                "Total": 1143,
+                "Diff": "4",
+                "Antece": "Kyle Kuzma",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -356,9 +356,9 @@
                 "Team": "CHA",
                 "Hoy": 0,
                 "Total": 1142,
-                "Diff": "",
-                "Antece": "Anfernee Simons",
-                "Nota": "Mismo total",
+                "Diff": "1",
+                "Antece": "Gary Trent Jr.",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
             {
@@ -977,9 +977,9 @@
                 "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1930,
-                "Diff": "35",
+                "Hoy": 3,
+                "Total": 1931,
+                "Diff": "34",
                 "Antece": "Andrew Toney",
                 "game_status": "playing"
             },
@@ -1384,13 +1384,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "De'Aaron Fox (12 points today) has passed Derrick Coleman and is now ranked 241st all-time with 12,885.",
-            "foto": [
-                "collages/1794279569969817_collage_1794279569876716.png"
-            ],
-            "timestamp": 1794279569
-        },
         {
             "texto": "Nikola Jokić (2 blocks today) becomes the 234th player to reach 600",
             "foto": [
@@ -2083,6 +2076,13 @@
                 "collages/1794533930553272_collage_1794533930424315.png"
             ],
             "timestamp": 1794533930
+        },
+        {
+            "texto": "Anfernee Simons (3 three-pointers today) has passed Dennis Schröder and Mikal Bridges and is now ranked 133rd all-time with 1,143.",
+            "foto": [
+                "collages/1794534383643805_collage_1794534383546842.png"
+            ],
+            "timestamp": 1794534383
         }
     ],
     "notificaciones_franchise": [
@@ -2787,7 +2787,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2717,
+    "total_notificaciones_historicas": 2718,
     "total_franchise_historicas": 746,
-    "cache_buster": 1794534244
+    "cache_buster": 1794534383
 }
