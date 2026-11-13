@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:44:14",
+    "ultima_actualizacion": "01:45:55",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -51,9 +51,9 @@
                 "Rank": 214,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 13724,
-                "Diff": "43",
+                "Hoy": 5,
+                "Total": 13726,
+                "Diff": "41",
                 "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "",
                 "game_status": "playing"
@@ -62,8 +62,8 @@
                 "Rank": 215,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 13712,
+                "Hoy": 4,
+                "Total": 13714,
                 "Diff": "12",
                 "Antece": "Joel Embiid",
                 "Nota": "",
@@ -274,14 +274,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 81,
+                "Rank": 80,
                 "Nombre": "Trae Young",
                 "Team": "WAS",
-                "Hoy": 1,
-                "Total": 1329,
-                "Diff": "",
-                "Antece": "Terrence Ross",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1330,
+                "Diff": "2",
+                "Antece": "Baron Davis",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -772,9 +772,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 13724,
-                "Diff": "276",
+                "Hoy": 5,
+                "Total": 13726,
+                "Diff": "274",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -1127,13 +1127,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Victor Wembanyama (3 blocks today) has passed Bill Cartwright and is now ranked 205th all-time with 669.",
-            "foto": [
-                "collages/1794278879158549_collage_1794278879059082.png"
-            ],
-            "timestamp": 1794278879
-        },
         {
             "texto": "Victor Wembanyama (4 blocks today) has passed Jusuf Nurkić and is now ranked 204th all-time with 670.",
             "foto": [
@@ -1826,6 +1819,13 @@
                 "collages/1794530654615895_collage_1794530654501963.png"
             ],
             "timestamp": 1794530654
+        },
+        {
+            "texto": "📢🔝💯 Trae Young (2 three-pointers today) has passed Terrence Ross and is now ranked 80th all-time with 1,330.",
+            "foto": [
+                "collages/1794530755224043_collage_1794530755116117.png"
+            ],
+            "timestamp": 1794530755
         }
     ],
     "notificaciones_franchise": [
@@ -2530,7 +2530,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2714,
+    "total_notificaciones_historicas": 2715,
     "total_franchise_historicas": 745,
-    "cache_buster": 1794530654
+    "cache_buster": 1794530755
 }
