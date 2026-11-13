@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:01",
+    "ultima_actualizacion": "03:18:19",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -376,22 +376,22 @@
                 "Rank": 146,
                 "Nombre": "Coby White",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 1102,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1103,
+                "Diff": "1",
                 "Antece": "Randy Foye",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
                 "Rank": 166,
                 "Nombre": "Grayson Allen",
                 "Team": "CHA",
-                "Hoy": 1,
-                "Total": 1053,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 1054,
+                "Diff": "1",
                 "Antece": "Nick Anderson",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -400,16 +400,16 @@
                 "Team": "DET",
                 "Hoy": 0,
                 "Total": 1050,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Grayson Allen",
                 "Nota": "",
                 "game_status": "playing"
             },
             {
                 "Rank": 175,
-                "Nombre": "Luke Kennard",
+                "Nombre": "Dillon Brooks",
                 "Team": "PHX",
-                "Hoy": 0,
+                "Hoy": 1,
                 "Total": 1039,
                 "Diff": "3",
                 "Antece": "Richard Jefferson",
@@ -417,14 +417,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 177,
-                "Nombre": "Dillon Brooks",
+                "Rank": 176,
+                "Nombre": "Luke Kennard",
                 "Team": "PHX",
                 "Hoy": 0,
-                "Total": 1038,
-                "Diff": "1",
-                "Antece": "Nick Young",
-                "Nota": "A tiro de 1",
+                "Total": 1039,
+                "Diff": "",
+                "Antece": "Dillon Brooks",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -532,9 +532,9 @@
                 "Rank": 131,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 3957,
-                "Diff": "23",
+                "Hoy": 2,
+                "Total": 3958,
+                "Diff": "22",
                 "Antece": "John Bagley",
                 "Nota": "",
                 "game_status": "playing"
@@ -807,7 +807,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 2338,
-                "Diff": "123",
+                "Diff": "124",
                 "Antece": "Naz Reid",
                 "game_status": "inactive"
             },
@@ -1079,9 +1079,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3957,
-                "Diff": "43",
+                "Hoy": 2,
+                "Total": 3958,
+                "Diff": "42",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1384,13 +1384,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Stephen Curry today surpasses Jeff Hornacek and Lenny Wilkens and now ranked 104th all time with 1,078 games",
-            "foto": [
-                "collages/1794280389786708_collage_1794280389669864.png"
-            ],
-            "timestamp": 1794280389
-        },
         {
             "texto": "Draymond Green today surpasses Donyell Marshall, James Donaldson, Rajon Rondo and Sleepy Floyd and now ranked 205th all time with 958 games",
             "foto": [
@@ -2083,6 +2076,13 @@
                 "collages/1794536221290437_collage_1794536221162518.png"
             ],
             "timestamp": 1794536221
+        },
+        {
+            "texto": "Devin Booker (2 assists today) has passed Jimmy Butler and is now ranked 131st all-time with 3,958.",
+            "foto": [
+                "collages/1794536298668349_collage_1794536298499177.png"
+            ],
+            "timestamp": 1794536298
         }
     ],
     "notificaciones_franchise": [
@@ -2787,7 +2787,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2721,
+    "total_notificaciones_historicas": 2722,
     "total_franchise_historicas": 746,
-    "cache_buster": 1794536221
+    "cache_buster": 1794536299
 }
