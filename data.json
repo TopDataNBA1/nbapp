@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:21:53",
+    "ultima_actualizacion": "03:23:00",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -40,9 +40,9 @@
                 "Rank": 79,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 3,
-                "Total": 18374,
-                "Diff": "7",
+                "Hoy": 5,
+                "Total": 18376,
+                "Diff": "5",
                 "Antece": "Tracy McGrady",
                 "Nota": "",
                 "game_status": "playing"
@@ -62,9 +62,9 @@
                 "Rank": 214,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 18,
-                "Total": 13739,
-                "Diff": "28",
+                "Hoy": 20,
+                "Total": 13741,
+                "Diff": "26",
                 "Antece": "Shai Gilgeous-Alexander",
                 "Nota": "",
                 "game_status": "playing"
@@ -75,7 +75,7 @@
                 "Team": "PHI",
                 "Hoy": 18,
                 "Total": 13728,
-                "Diff": "11",
+                "Diff": "13",
                 "Antece": "Joel Embiid",
                 "Nota": "",
                 "game_status": "playing"
@@ -428,14 +428,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "LaMelo Ball",
                 "Team": "MIN",
-                "Hoy": 4,
-                "Total": 1018,
-                "Diff": "",
-                "Antece": "Desmond Bane",
-                "Nota": "Mismo total",
+                "Hoy": 5,
+                "Total": 1019,
+                "Diff": "7",
+                "Antece": "Joe Harris",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -815,9 +815,9 @@
                 "Rank": 14,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 1906,
-                "Diff": "16",
+                "Hoy": 5,
+                "Total": 1908,
+                "Diff": "14",
                 "Antece": "Andrew Wiggins",
                 "game_status": "playing"
             },
@@ -947,9 +947,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 18,
-                "Total": 13739,
-                "Diff": "261",
+                "Hoy": 20,
+                "Total": 13741,
+                "Diff": "259",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -977,9 +977,9 @@
                 "Rank": 14,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 1935,
-                "Diff": "30",
+                "Hoy": 8,
+                "Total": 1936,
+                "Diff": "29",
                 "Antece": "Andrew Toney",
                 "game_status": "playing"
             },
@@ -1059,9 +1059,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 18374,
-                "Diff": "126",
+                "Hoy": 5,
+                "Total": 18376,
+                "Diff": "124",
                 "Antece": "18500",
                 "game_status": "playing"
             },
@@ -1069,9 +1069,9 @@
                 "Rank": 9,
                 "Nombre": "Devin Booker",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 2993,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 2994,
+                "Diff": "6",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1384,13 +1384,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jamal Murray (2 assists today) has passed Clifford Robinson and is now ranked 229th all-time with 3,095.",
-            "foto": [
-                "collages/1794281228845888_collage_1794281228730346.png"
-            ],
-            "timestamp": 1794281228
-        },
         {
             "texto": "Dillon Brooks (1 three-pointer today) has passed OG Anunoby and Steve Blake and is now ranked 175th all-time with 1,038.",
             "foto": [
@@ -2083,6 +2076,13 @@
                 "collages/1794536512777934_collage_1794536512642979.png"
             ],
             "timestamp": 1794536512
+        },
+        {
+            "texto": "LaMelo Ball (5 three-pointers today) has passed Desmond Bane and is now ranked 182nd all-time with 1,019.",
+            "foto": [
+                "collages/1794536580603992_collage_1794536580481033.png"
+            ],
+            "timestamp": 1794536580
         }
     ],
     "notificaciones_franchise": [
@@ -2787,7 +2787,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2723,
+    "total_notificaciones_historicas": 2724,
     "total_franchise_historicas": 746,
-    "cache_buster": 1794536513
+    "cache_buster": 1794536580
 }
