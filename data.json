@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:40:50",
+    "ultima_actualizacion": "01:44:14",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -176,9 +176,9 @@
                 "Rank": 165,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 791,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 792,
+                "Diff": "2",
                 "Antece": "Jerami Grant",
                 "Nota": "",
                 "game_status": "playing"
@@ -307,13 +307,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 136,
+                "Rank": 134,
                 "Nombre": "Anfernee Simons",
                 "Team": "PHI",
-                "Hoy": 1,
-                "Total": 1141,
+                "Hoy": 2,
+                "Total": 1142,
                 "Diff": "1",
-                "Antece": "Mikal Bridges",
+                "Antece": "Gary Trent Jr.",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -842,9 +842,9 @@
                 "Rank": 4,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 791,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 792,
+                "Diff": "8",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -1127,20 +1127,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Kelly Oubre Jr. (1 three-pointer today) has passed Lindsey Hunter and is now ranked 157th all-time with 1,076.",
-            "foto": [
-                "collages/1794277855355971_collage_1794277855235677.png"
-            ],
-            "timestamp": 1794277855
-        },
-        {
-            "texto": "📢🔝💯 Devin Booker (15 points today) has passed Glen Rice and is now ranked 80th all-time with 18,337.",
-            "foto": [
-                "collages/1794278158221580_collage_1794278158121921.png"
-            ],
-            "timestamp": 1794278158
-        },
         {
             "texto": "Victor Wembanyama (3 blocks today) has passed Bill Cartwright and is now ranked 205th all-time with 669.",
             "foto": [
@@ -1826,6 +1812,20 @@
                 "collages/1794530450224571_collage_1794530450124865.png"
             ],
             "timestamp": 1794530450
+        },
+        {
+            "texto": "Joel Embiid (1 block today) has passed Jon Koncak and is now ranked 165th all-time with 792.",
+            "foto": [
+                "collages/1794530654399957_collage_1794530654287513.png"
+            ],
+            "timestamp": 1794530654
+        },
+        {
+            "texto": "Anfernee Simons (2 three-pointers today) has passed Kevin Martin and is now ranked 134th all-time with 1,142.",
+            "foto": [
+                "collages/1794530654615895_collage_1794530654501963.png"
+            ],
+            "timestamp": 1794530654
         }
     ],
     "notificaciones_franchise": [
@@ -2530,7 +2530,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2712,
+    "total_notificaciones_historicas": 2714,
     "total_franchise_historicas": 745,
-    "cache_buster": 1794530450
+    "cache_buster": 1794530654
 }
