@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:24:06",
+    "ultima_actualizacion": "03:25:10",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -472,14 +472,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 250,
+                "Rank": 249,
                 "Nombre": "Jalen Green",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 859,
-                "Diff": "",
-                "Antece": "Avery Bradley",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 860,
+                "Diff": "5",
+                "Antece": "Eric Piatkowski",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -532,9 +532,9 @@
                 "Rank": 131,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 2,
-                "Total": 3958,
-                "Diff": "22",
+                "Hoy": 3,
+                "Total": 3959,
+                "Diff": "21",
                 "Antece": "John Bagley",
                 "Nota": "",
                 "game_status": "playing"
@@ -1079,9 +1079,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 3958,
-                "Diff": "42",
+                "Hoy": 3,
+                "Total": 3959,
+                "Diff": "41",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1384,13 +1384,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dillon Brooks (1 three-pointer today) has passed OG Anunoby and Steve Blake and is now ranked 175th all-time with 1,038.",
-            "foto": [
-                "collages/1794281298517157_collage_1794281298438534.png"
-            ],
-            "timestamp": 1794281298
-        },
         {
             "texto": "📢HOF🏛️ Kyrie Irving (4 assists today) has passed Calvin Murphy and is now ranked 101st all-time with 4,403.",
             "foto": [
@@ -2083,6 +2076,13 @@
                 "collages/1794536580603992_collage_1794536580481033.png"
             ],
             "timestamp": 1794536580
+        },
+        {
+            "texto": "Jalen Green (1 three-pointer today) has passed Avery Bradley and is now ranked 249th all-time with 860.",
+            "foto": [
+                "collages/1794536710265511_collage_1794536710106564.png"
+            ],
+            "timestamp": 1794536710
         }
     ],
     "notificaciones_franchise": [
@@ -2787,7 +2787,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2724,
+    "total_notificaciones_historicas": 2725,
     "total_franchise_historicas": 746,
-    "cache_buster": 1794536646
+    "cache_buster": 1794536710
 }
