@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:32",
+    "ultima_actualizacion": "03:02:45",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -518,14 +518,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 101,
+                "Rank": 100,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 2,
-                "Total": 4405,
-                "Diff": "",
-                "Antece": "Goran Dragić",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 4406,
+                "Diff": "1",
+                "Antece": "Terrell Brandon",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -785,9 +785,9 @@
                 "Rank": 18,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3773,
-                "Diff": "162",
+                "Hoy": 2,
+                "Total": 3775,
+                "Diff": "160",
                 "Antece": "Gorgui Dieng",
                 "game_status": "playing"
             },
@@ -1151,9 +1151,9 @@
                 "Rank": 22,
                 "Nombre": "RJ Barrett",
                 "Stat": "PTS",
-                "Hoy": 27,
-                "Total": 3269,
-                "Diff": "163",
+                "Hoy": 29,
+                "Total": 3271,
+                "Diff": "161",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -1323,9 +1323,9 @@
                 "Rank": 22,
                 "Nombre": "Kyrie Irving",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 691,
-                "Diff": "16",
+                "Hoy": 3,
+                "Total": 692,
+                "Diff": "15",
                 "Antece": "Jamal Mashburn",
                 "game_status": "playing"
             },
@@ -1384,13 +1384,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Marcus Smart (1 steal today) has passed Moses Malone and is now ranked 140th all-time with 1,090.",
-            "foto": [
-                "collages/1794280104209900_collage_1794280104100512.png"
-            ],
-            "timestamp": 1794280104
-        },
         {
             "texto": "📢HOF🏛️ Victor Wembanyama (5 blocks today) has passed George Gervin and is now ranked 203rd all-time with 671.",
             "foto": [
@@ -2083,6 +2076,13 @@
                 "collages/1794534740848600_collage_1794534740645668.png"
             ],
             "timestamp": 1794534740
+        },
+        {
+            "texto": "📢🔝💯 Kyrie Irving (3 assists today) has passed Goran Dragić and is now ranked 100th all-time with 4,406.",
+            "foto": [
+                "collages/1794535365438490_collage_1794535365267547.png"
+            ],
+            "timestamp": 1794535365
         }
     ],
     "notificaciones_franchise": [
@@ -2787,7 +2787,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2719,
+    "total_notificaciones_historicas": 2720,
     "total_franchise_historicas": 746,
-    "cache_buster": 1794535292
+    "cache_buster": 1794535365
 }
