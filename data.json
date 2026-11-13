@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:17:44",
+    "ultima_actualizacion": "01:18:52",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -266,11 +266,11 @@
                 "Rank": 212,
                 "Nombre": "Tyrese Maxey",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 947,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 948,
+                "Diff": "",
                 "Antece": "Dorian Finney-Smith",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -490,9 +490,9 @@
                 "Rank": 12,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 8504,
-                "Diff": "496",
+                "Hoy": 5,
+                "Total": 8507,
+                "Diff": "493",
                 "Antece": "9000",
                 "game_status": "playing"
             },
@@ -520,9 +520,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1846,
-                "Diff": "33",
+                "Hoy": 1,
+                "Total": 1847,
+                "Diff": "32",
                 "Antece": "Wilt Chamberlain",
                 "game_status": "playing"
             },
@@ -560,9 +560,9 @@
                 "Rank": 1,
                 "Nombre": "Tyrese Maxey",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 947,
-                "Diff": "53",
+                "Hoy": 1,
+                "Total": 948,
+                "Diff": "52",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -599,13 +599,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "RJ Barrett",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3242,
-                "Diff": "1",
-                "Antece": "Serge Ibaka",
+                "Hoy": 2,
+                "Total": 3244,
+                "Diff": "188",
+                "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
             {
@@ -614,8 +614,8 @@
                 "Stat": "PTS",
                 "Hoy": 2,
                 "Total": 3021,
-                "Diff": "221",
-                "Antece": "RJ Barrett",
+                "Diff": "222",
+                "Antece": "Serge Ibaka",
                 "game_status": "playing"
             },
             {
@@ -1506,13 +1506,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jalen Brunson (4 assists today) has passed Gerald Wilkins and is now ranked 15th in Knicks history with 1,940.",
-            "foto": [],
-            "timestamp": 1793237569,
-            "team": "NYK",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 📢HOF🏛️ Joel Embiid (19 points today) has passed Billy Cunningham and is now ranked 6th in 76ers history with 13,628.",
             "foto": [],
             "timestamp": 1793237957,
@@ -2204,9 +2197,16 @@
             "timestamp": 1794456866,
             "team": "ORL",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "RJ Barrett (2 points today) has passed Serge Ibaka and is now ranked 22nd in Raptors history with 3,244.",
+            "foto": [],
+            "timestamp": 1794529132,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2710,
-    "total_franchise_historicas": 744,
-    "cache_buster": 1794529064
+    "total_franchise_historicas": 745,
+    "cache_buster": 1794529132
 }
