@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:54:31",
+    "ultima_actualizacion": "01:55:47",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -62,9 +62,9 @@
                 "Rank": 118,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 12,
-                "Total": 16626,
-                "Diff": "32",
+                "Hoy": 14,
+                "Total": 16628,
+                "Diff": "30",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -152,9 +152,9 @@
                 "Rank": 76,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 8178,
-                "Diff": "14",
+                "Hoy": 5,
+                "Total": 8179,
+                "Diff": "13",
                 "Antece": "Carlos Boozer",
                 "Nota": "",
                 "game_status": "playing"
@@ -718,14 +718,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 242,
+                "Rank": 241,
                 "Nombre": "T.J. McConnell",
                 "Team": "IND",
-                "Hoy": 0,
-                "Total": 907,
-                "Diff": "",
-                "Antece": "Gerald Wilkins",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 908,
+                "Diff": "2",
+                "Antece": "World B. Free",
+                "Nota": "",
                 "game_status": "playing"
             }
         ],
@@ -1311,9 +1311,9 @@
                 "Rank": 11,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 14,
-                "Total": 6523,
-                "Diff": "80",
+                "Hoy": 16,
+                "Total": 6525,
+                "Diff": "78",
                 "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
@@ -1735,9 +1735,9 @@
                 "Rank": 10,
                 "Nombre": "T.J. McConnell",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 507,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 508,
+                "Diff": "4",
                 "Antece": "Derrick McKey",
                 "game_status": "playing"
             },
@@ -1870,13 +1870,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Al Horford (2 steals today) becomes the 244th player to reach 900",
-            "foto": [
-                "collages/1794285432976689_collage_1794285432906658.png"
-            ],
-            "timestamp": 1794285432
-        },
         {
             "texto": "📢HOF🏛️ Al Horford (2 steals today) has passed Steve Nash and is now ranked 244th all-time with 900.",
             "foto": [
@@ -2569,16 +2562,16 @@
                 "collages/1794615425239631_collage_1794615425129684.png"
             ],
             "timestamp": 1794615425
+        },
+        {
+            "texto": "T.J. McConnell (1 steal today) has passed Gerald Wilkins and is now ranked 241st all-time with 908.",
+            "foto": [
+                "collages/1794617747125282_collage_1794617747014813.png"
+            ],
+            "timestamp": 1794617747
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 Jalen Brunson (4 three-pointers today) becomes the 4th player to reach 700 three-pointers with Knicks.",
-            "foto": [],
-            "timestamp": 1793240365,
-            "team": "NYK",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Victor Wembanyama (4 three-pointers today) becomes the 16th player to reach 400 three-pointers with Spurs.",
             "foto": [],
@@ -3271,9 +3264,16 @@
             "timestamp": 1794532094,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 T.J. McConnell (1 steal today) has passed Jeff Foster and is now ranked 10th in Pacers history with 508.",
+            "foto": [],
+            "timestamp": 1794617747,
+            "team": "IND",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2731,
-    "total_franchise_historicas": 746,
-    "cache_buster": 1794617671
+    "total_notificaciones_historicas": 2732,
+    "total_franchise_historicas": 747,
+    "cache_buster": 1794617747
 }
