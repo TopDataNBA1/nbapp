@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:53:12",
+    "ultima_actualizacion": "02:54:27",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -18,9 +18,9 @@
                 "Rank": 9,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 29539,
-                "Diff": "461",
+                "Hoy": 2,
+                "Total": 29541,
+                "Diff": "459",
                 "Antece": "30000",
                 "Nota": "",
                 "game_status": "playing"
@@ -196,9 +196,9 @@
                 "Rank": 133,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 6866,
-                "Diff": "25",
+                "Hoy": 3,
+                "Total": 6867,
+                "Diff": "24",
                 "Antece": "Antoine Walker",
                 "Nota": "",
                 "game_status": "playing"
@@ -1370,10 +1370,10 @@
                 "Rank": 14,
                 "Nombre": "Herbert Jones",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 2999,
-                "Diff": "1",
-                "Antece": "3000",
+                "Hoy": 4,
+                "Total": 3001,
+                "Diff": "134",
+                "Antece": "Peja Stojaković",
                 "game_status": "playing"
             },
             {
@@ -1420,9 +1420,9 @@
                 "Rank": 4,
                 "Nombre": "Zion Williamson",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1149,
-                "Diff": "351",
+                "Hoy": 2,
+                "Total": 1150,
+                "Diff": "350",
                 "Antece": "1500",
                 "game_status": "playing"
             },
@@ -1579,13 +1579,13 @@
         ],
         "NYK": [
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 23,
-                "Total": 7771,
-                "Diff": "0",
-                "Antece": "Harry Gallatin",
+                "Hoy": 24,
+                "Total": 7772,
+                "Diff": "228",
+                "Antece": "8000",
                 "game_status": "playing"
             },
             {
@@ -1704,9 +1704,9 @@
                 "Rank": 18,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 4354,
-                "Diff": "73",
+                "Hoy": 7,
+                "Total": 4357,
+                "Diff": "70",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -1734,9 +1734,9 @@
                 "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 5,
-                "Total": 2897,
-                "Diff": "103",
+                "Hoy": 6,
+                "Total": 2898,
+                "Diff": "102",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1964,9 +1964,9 @@
                 "Rank": 24,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 341,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 342,
+                "Diff": "4",
                 "Antece": "Gary Harris",
                 "game_status": "playing"
             },
@@ -3008,20 +3008,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Karlo Matković (1 block today) has passed DeMarcus Cousins and is now ranked 24th in Pelicans history with 96.",
-            "foto": [],
-            "timestamp": 1793319649,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
-            "texto": "📢HOF🏛️ Domantas Sabonis (7 rebounds today) has passed Vlade Divac and is now ranked 12th in Kings history with 3,539.",
-            "foto": [],
-            "timestamp": 1793320572,
-            "team": "SAC",
-            "type": "franchise"
-        },
-        {
             "texto": "Onyeka Okongwu (3 three-pointers today) has passed Vít Krejčí and is now ranked 23rd in Hawks history with 225.",
             "foto": [],
             "timestamp": 1793323478,
@@ -3706,9 +3692,23 @@
             "timestamp": 1794621057,
             "team": "UTA",
             "type": "franchise"
+        },
+        {
+            "texto": "Herbert Jones (4 points today) becomes the 14th player to reach 3,000 points with Pelicans.",
+            "foto": [],
+            "timestamp": 1794621267,
+            "team": "NOH",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "📢HOF🏛️ Jalen Brunson (24 points today) has passed Harry Gallatin and is now ranked 15th in Knicks history with 7,772.",
+            "foto": [],
+            "timestamp": 1794621267,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2744,
-    "total_franchise_historicas": 749,
-    "cache_buster": 1794621192
+    "total_franchise_historicas": 751,
+    "cache_buster": 1794621267
 }
