@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:47:59",
+    "ultima_actualizacion": "06:50:25",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -1044,7 +1044,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 170,
+                "Rank": 169,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 3,
+                "Total": 1046,
+                "Diff": "3",
+                "Antece": "Channing Frye",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 171,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
                 "Hoy": 2,
@@ -1053,17 +1064,6 @@
                 "Antece": "Marvin Williams",
                 "Nota": "Mismo total",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 171,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
-                "Hoy": 2,
-                "Total": 1045,
-                "Diff": "1",
-                "Antece": "OG Anunoby",
-                "Nota": "A tiro de 1",
-                "game_status": "playing"
             },
             {
                 "Rank": 182,
@@ -1743,7 +1743,7 @@
                 "Stat": "3PM",
                 "Hoy": 5,
                 "Total": 921,
-                "Diff": "37",
+                "Diff": "38",
                 "Antece": "Darius Garland",
                 "game_status": "finished"
             },
@@ -2483,9 +2483,9 @@
                 "Rank": 7,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 2598,
-                "Diff": "179",
+                "Hoy": 5,
+                "Total": 2599,
+                "Diff": "178",
                 "Antece": "Lenny Wilkens",
                 "game_status": "playing"
             },
@@ -3543,13 +3543,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 📢HOF🏛️ Anthony Davis (2 rebounds today) has passed Jason Kidd and is now ranked 66th all-time with 8,726.",
-            "foto": [
-                "collages/1794443119070882_collage_1794443118954546.png"
-            ],
-            "timestamp": 1794443119
-        },
-        {
             "texto": "Andre Drummond today surpasses J.R. Smith and Shane Battier and now ranked 181st all time with 978 games",
             "foto": [
                 "collages/1794443272608684_collage_1794443272501190.png"
@@ -4241,6 +4234,13 @@
                 "collages/1794633591698876_collage_1794633591589409.png"
             ],
             "timestamp": 1794633591
+        },
+        {
+            "texto": "Darius Garland (3 three-pointers today) has passed Michael Redd and is now ranked 169th all-time with 1,046.",
+            "foto": [
+                "collages/1794635425278997_collage_1794635425166384.png"
+            ],
+            "timestamp": 1794635425
         }
     ],
     "notificaciones_franchise": [
@@ -4945,7 +4945,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2768,
+    "total_notificaciones_historicas": 2769,
     "total_franchise_historicas": 758,
-    "cache_buster": 1794635279
+    "cache_buster": 1794635425
 }
