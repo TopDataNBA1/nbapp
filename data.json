@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:44:38",
+    "ultima_actualizacion": "01:45:42",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -565,9 +565,9 @@
                 "Rank": 68,
                 "Nombre": "DeMar DeRozan",
                 "Team": "DEN",
-                "Hoy": 0,
-                "Total": 5212,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 5213,
+                "Diff": "4",
                 "Antece": "Norm Van Lier",
                 "Nota": "",
                 "game_status": "playing"
@@ -587,9 +587,9 @@
                 "Rank": 99,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 4407,
-                "Diff": "74",
+                "Hoy": 1,
+                "Total": 4408,
+                "Diff": "73",
                 "Antece": "Brevin Knight",
                 "Nota": "",
                 "game_status": "playing"
@@ -1561,9 +1561,9 @@
                 "Rank": 22,
                 "Nombre": "Kyrie Irving",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 693,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 694,
+                "Diff": "13",
                 "Antece": "Jamal Mashburn",
                 "game_status": "playing"
             },
@@ -1640,16 +1640,6 @@
                 "Diff": "0",
                 "Antece": "Tyus Jones",
                 "game_status": "not_started"
-            },
-            {
-                "Rank": 23,
-                "Nombre": "Cam Spencer",
-                "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 188,
-                "Diff": "2",
-                "Antece": "Courtney Lee",
-                "game_status": "not_started"
             }
         ],
         "NJN": [
@@ -1666,13 +1656,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (8 points today) has passed Bob Dandridge and is now ranked 151st all-time with 15,531.",
-            "foto": [
-                "collages/1794444866796424_collage_1794444866671483.png"
-            ],
-            "timestamp": 1794444866
-        },
         {
             "texto": "📢🔝💯 Karl-Anthony Towns (2 three-pointers today) has passed C.J. Miles and Shane Battier and is now ranked 98th all-time with 1,251.",
             "foto": [
@@ -2365,6 +2348,13 @@
                 "collages/1794703405153509_collage_1794703405053788.png"
             ],
             "timestamp": 1794703405
+        },
+        {
+            "texto": "📢🔝💯 Kyrie Irving (1 assist today) has passed Terrell Brandon and is now ranked 99th all-time with 4,408.",
+            "foto": [
+                "collages/1794703542455366_collage_1794703542351260.png"
+            ],
+            "timestamp": 1794703542
         }
     ],
     "notificaciones_franchise": [
@@ -3069,7 +3059,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2772,
+    "total_notificaciones_historicas": 2773,
     "total_franchise_historicas": 758,
-    "cache_buster": 1794703478
+    "cache_buster": 1794703542
 }
