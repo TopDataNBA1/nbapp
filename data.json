@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:40:05",
+    "ultima_actualizacion": "00:43:14",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -363,9 +363,9 @@
                 "Rank": 14,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 2157,
-                "Diff": "43",
+                "Hoy": 1,
+                "Total": 2158,
+                "Diff": "42",
                 "Antece": "2200",
                 "Nota": "",
                 "game_status": "playing"
@@ -893,11 +893,11 @@
                 "Rank": 170,
                 "Nombre": "OG Anunoby",
                 "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1047,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 1048,
+                "Diff": "",
                 "Antece": "Darius Garland",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -967,13 +967,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 231,
+                "Rank": 230,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 900,
+                "Hoy": 1,
+                "Total": 901,
                 "Diff": "",
-                "Antece": "Georges Niang",
+                "Antece": "Miles Bridges",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             },
@@ -1533,9 +1533,9 @@
                 "Rank": 6,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 900,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 901,
+                "Diff": "10",
                 "Antece": "Marcus Smart",
                 "game_status": "playing"
             },
@@ -1546,7 +1546,7 @@
                 "Hoy": 3,
                 "Total": 877,
                 "Diff": "23",
-                "Antece": "Payton Pritchard",
+                "Antece": "900",
                 "game_status": "playing"
             },
             {
@@ -1809,9 +1809,9 @@
                 "Rank": 15,
                 "Nombre": "OG Anunoby",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 396,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 397,
+                "Diff": "3",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2177,9 +2177,9 @@
                 "Rank": 22,
                 "Nombre": "RJ Barrett",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3273,
-                "Diff": "159",
+                "Hoy": 2,
+                "Total": 3275,
+                "Diff": "157",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -2596,13 +2596,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday (1 steal today) has passed Jeff Hornacek and is now ranked 47th all-time with 1,537.",
-            "foto": [
-                "collages/1794456288077225_collage_1794456287966600.png"
-            ],
-            "timestamp": 1794456288
-        },
         {
             "texto": "Draymond Green (4 rebounds today) has passed Herb Williams and is now ranked 160th all-time with 6,510.",
             "foto": [
@@ -3295,6 +3288,13 @@
                 "collages/1794785858469276_collage_1794785858366314.png"
             ],
             "timestamp": 1794785858
+        },
+        {
+            "texto": "Payton Pritchard (1 three-pointer today) has passed Georges Niang and is now ranked 230th all-time with 901.",
+            "foto": [
+                "collages/1794786194608339_collage_1794786194507371.png"
+            ],
+            "timestamp": 1794786194
         }
     ],
     "notificaciones_franchise": [
@@ -3999,7 +3999,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2806,
+    "total_notificaciones_historicas": 2807,
     "total_franchise_historicas": 771,
-    "cache_buster": 1794786005
+    "cache_buster": 1794786194
 }
