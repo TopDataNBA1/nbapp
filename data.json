@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "23:59:14",
+    "ultima_actualizacion": "00:00:21",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -662,9 +662,9 @@
                 "Rank": 144,
                 "Nombre": "Coby White",
                 "Team": "CHA",
-                "Hoy": 0,
-                "Total": 1104,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 1105,
+                "Diff": "6",
                 "Antece": "Gordon Hayward",
                 "Nota": "",
                 "game_status": "playing"
@@ -728,11 +728,11 @@
                 "Rank": 176,
                 "Nombre": "Luke Kennard",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 1039,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 1040,
+                "Diff": "1",
                 "Antece": "Dillon Brooks",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -873,9 +873,9 @@
                 "Rank": 107,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 6,
-                "Total": 4320,
-                "Diff": "19",
+                "Hoy": 7,
+                "Total": 4321,
+                "Diff": "18",
                 "Antece": "Jay Humphries",
                 "Nota": "",
                 "game_status": "playing"
@@ -1571,13 +1571,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Collin Gillespie",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 295,
-                "Diff": "0",
-                "Antece": "Clifford Robinson",
+                "Hoy": 3,
+                "Total": 296,
+                "Diff": "1",
+                "Antece": "P.J. Tucker",
                 "game_status": "playing"
             },
             {
@@ -1616,9 +1616,9 @@
                 "Rank": 18,
                 "Nombre": "Keldon Johnson",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2505,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 2506,
+                "Diff": "5",
                 "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
@@ -1920,9 +1920,9 @@
                 "Rank": 17,
                 "Nombre": "Keyonte George",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1123,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 1124,
+                "Diff": "0",
                 "Antece": "Thurl Bailey",
                 "game_status": "playing"
             },
@@ -2125,20 +2125,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "De'Aaron Fox (8 assists today) has passed Ray Williams and is now ranked 151st all-time with 3,780.",
-            "foto": [
-                "collages/1794451612161513_collage_1794451611562739.png"
-            ],
-            "timestamp": 1794451612
-        },
-        {
-            "texto": "📢🔝💯 Nikola Jokić (10 rebounds today) has passed Johnny Green and is now ranked 57th all-time with 9,084.",
-            "foto": [
-                "collages/1794451885844708_collage_1794451885723225.png"
-            ],
-            "timestamp": 1794451885
-        },
         {
             "texto": "Cameron Johnson (4 three-pointers today) has passed Brandon Jennings and is now ranked 225th all-time with 915.",
             "foto": [
@@ -2824,16 +2810,23 @@
                 "collages/1794782058980032_collage_1794782058671135.png"
             ],
             "timestamp": 1794782059
+        },
+        {
+            "texto": "Coby White (1 three-pointer today) has passed Latrell Sprewell and Randy Foye and is now ranked 144th all-time with 1,105.",
+            "foto": [
+                "collages/1794783621352231_collage_1794783621256711.png"
+            ],
+            "timestamp": 1794783621
+        },
+        {
+            "texto": "Luke Kennard (1 three-pointer today) has passed Nick Young and is now ranked 176th all-time with 1,040.",
+            "foto": [
+                "collages/1794783621533027_collage_1794783621434077.png"
+            ],
+            "timestamp": 1794783621
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Kenrich Williams (2 three-pointers today) has passed James Harden and is now ranked 18th in Thunder history with 321.",
-            "foto": [],
-            "timestamp": 1793665836,
-            "team": "OKC",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (1 steal today) has passed Scott Skiles and is now ranked 16th in Magic history with 333.",
             "foto": [],
@@ -3526,9 +3519,16 @@
             "timestamp": 1794783351,
             "team": "LAL",
             "type": "franchise"
+        },
+        {
+            "texto": "Collin Gillespie (3 three-pointers today) has passed Clifford Robinson and is now ranked 22nd in Suns history with 296.",
+            "foto": [],
+            "timestamp": 1794783621,
+            "team": "PHO",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2797,
-    "total_franchise_historicas": 768,
-    "cache_buster": 1794783554
+    "total_notificaciones_historicas": 2799,
+    "total_franchise_historicas": 769,
+    "cache_buster": 1794783621
 }
