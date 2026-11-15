@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:58:21",
+    "ultima_actualizacion": "01:59:34",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -587,9 +587,9 @@
                 "Rank": 99,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 2,
-                "Total": 4409,
-                "Diff": "72",
+                "Hoy": 3,
+                "Total": 4410,
+                "Diff": "71",
                 "Antece": "Brevin Knight",
                 "Nota": "",
                 "game_status": "playing"
@@ -674,14 +674,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 172,
+                "Rank": 171,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 0,
-                "Total": 1033,
-                "Diff": "",
-                "Antece": "A.C. Green",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1034,
+                "Diff": "7",
+                "Antece": "Nenê",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -766,6 +766,16 @@
                 "game_status": "playing"
             },
             {
+                "Rank": 17,
+                "Nombre": "Evan Mobley",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 5795,
+                "Diff": "122",
+                "Antece": "Jarrett Allen",
+                "game_status": "inactive"
+            },
+            {
                 "Rank": 8,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
@@ -774,6 +784,16 @@
                 "Diff": "50",
                 "Antece": "4000",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 12,
+                "Nombre": "Evan Mobley",
+                "Stat": "REB",
+                "Hoy": 0,
+                "Total": 3082,
+                "Diff": "418",
+                "Antece": "3500",
+                "game_status": "inactive"
             },
             {
                 "Rank": 15,
@@ -793,6 +813,16 @@
                 "Total": 415,
                 "Diff": "3",
                 "Antece": "Austin Carr",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Evan Mobley",
+                "Stat": "BLK",
+                "Hoy": 0,
+                "Total": 545,
+                "Diff": "55",
+                "Antece": "600",
                 "game_status": "inactive"
             },
             {
@@ -1561,9 +1591,9 @@
                 "Rank": 22,
                 "Nombre": "Kyrie Irving",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 695,
-                "Diff": "12",
+                "Hoy": 3,
+                "Total": 696,
+                "Diff": "11",
                 "Antece": "Jamal Mashburn",
                 "game_status": "playing"
             },
@@ -1629,7 +1659,7 @@
                 "Total": 119,
                 "Diff": "2",
                 "Antece": "JaMychal Green",
-                "game_status": "inactive"
+                "game_status": "not_started"
             },
             {
                 "Rank": 15,
@@ -1666,13 +1696,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Karl-Anthony Towns (2 three-pointers today) has passed C.J. Miles and Shane Battier and is now ranked 98th all-time with 1,251.",
-            "foto": [
-                "collages/1794444945966435_collage_1794444945830485.png"
-            ],
-            "timestamp": 1794444946
-        },
         {
             "texto": "Payton Pritchard (2 three-pointers today) becomes the 229th player to reach 900",
             "foto": [
@@ -2365,6 +2388,13 @@
                 "collages/1794703542455366_collage_1794703542351260.png"
             ],
             "timestamp": 1794703542
+        },
+        {
+            "texto": "📢HOF🏛️ Kyrie Irving (1 steal today) has passed A.C. Green and Michael Cooper and is now ranked 171st all-time with 1,034.",
+            "foto": [
+                "collages/1794704374047758_collage_1794704373927816.png"
+            ],
+            "timestamp": 1794704374
         }
     ],
     "notificaciones_franchise": [
@@ -3069,7 +3099,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2773,
+    "total_notificaciones_historicas": 2774,
     "total_franchise_historicas": 758,
-    "cache_buster": 1794704301
+    "cache_buster": 1794704374
 }
