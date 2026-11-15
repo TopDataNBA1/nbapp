@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:02",
+    "ultima_actualizacion": "03:02:06",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -1633,9 +1633,9 @@
                 "Rank": 9,
                 "Nombre": "Patrick Williams",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 439,
-                "Diff": "54",
+                "Hoy": 1,
+                "Total": 440,
+                "Diff": "53",
                 "Antece": "Lauri Markkanen",
                 "game_status": "playing"
             },
@@ -1684,13 +1684,13 @@
         ],
         "NJN": [
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Noah Clowney",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 236,
-                "Diff": "0",
-                "Antece": "Lucious Harris",
+                "Hoy": 1,
+                "Total": 237,
+                "Diff": "14",
+                "Antece": "DeMarre Carroll",
                 "game_status": "playing"
             }
         ]
@@ -2399,13 +2399,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Kyshawn George (4 three-pointers today) has passed Markieff Morris and is now ranked 21st in Wizards history with 221.",
-            "foto": [],
-            "timestamp": 1793409508,
-            "team": "WAS",
-            "type": "franchise"
-        },
-        {
             "texto": "Franz Wagner (1 steal today) has passed Scott Skiles and is now ranked 16th in Magic history with 333.",
             "foto": [],
             "timestamp": 1793411145,
@@ -3097,9 +3090,16 @@
             "timestamp": 1794706397,
             "team": "NOH",
             "type": "franchise"
+        },
+        {
+            "texto": "Noah Clowney (1 three-pointer today) has passed Lucious Harris and is now ranked 23rd in Nets history with 237.",
+            "foto": [],
+            "timestamp": 1794708126,
+            "team": "NJN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2777,
-    "total_franchise_historicas": 760,
-    "cache_buster": 1794708062
+    "total_franchise_historicas": 761,
+    "cache_buster": 1794708126
 }
