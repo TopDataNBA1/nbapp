@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "22:17:29",
+    "ultima_actualizacion": "22:18:46",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -362,14 +362,14 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 231,
+                "Rank": 230,
                 "Nombre": "Miles Bridges",
                 "Team": "PHX",
-                "Hoy": 0,
-                "Total": 899,
-                "Diff": "1",
-                "Antece": "Payton Pritchard",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 900,
+                "Diff": "",
+                "Antece": "Georges Niang",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -433,9 +433,9 @@
                 "Rank": 131,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 3964,
-                "Diff": "16",
+                "Hoy": 2,
+                "Total": 3965,
+                "Diff": "15",
                 "Antece": "John Bagley",
                 "Nota": "",
                 "game_status": "playing"
@@ -726,9 +726,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 3964,
-                "Diff": "36",
+                "Hoy": 2,
+                "Total": 3965,
+                "Diff": "35",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -909,13 +909,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢HOF🏛️ Julius Randle (3 assists today) has passed Fred Brown and Slater Martin and is now ranked 217th all-time with 3,161.",
-            "foto": [
-                "collages/1794449899620686_collage_1794449899300820.png"
-            ],
-            "timestamp": 1794449899
-        },
         {
             "texto": "OG Anunoby (2 three-pointers today) has passed Darius Garland and is now ranked 172nd all-time with 1,044.",
             "foto": [
@@ -1608,6 +1601,13 @@
                 "collages/1794774388914141_collage_1794774388805894.png"
             ],
             "timestamp": 1794774388
+        },
+        {
+            "texto": "Miles Bridges (1 three-pointer today) becomes the 230th player to reach 900",
+            "foto": [
+                "collages/1794777526433480_collage_1794777526366406.png"
+            ],
+            "timestamp": 1794777526
         }
     ],
     "notificaciones_franchise": [
@@ -2312,7 +2312,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2793,
+    "total_notificaciones_historicas": 2794,
     "total_franchise_historicas": 766,
-    "cache_buster": 1794777449
+    "cache_buster": 1794777526
 }
