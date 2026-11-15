@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:19:10",
+    "ultima_actualizacion": "00:21:26",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -371,14 +371,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 197,
+                "Rank": 196,
                 "Nombre": "Victor Wembanyama",
                 "Team": "SAS",
-                "Hoy": 3,
-                "Total": 685,
-                "Diff": "",
-                "Antece": "Kelvin Cato",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 686,
+                "Diff": "4",
+                "Antece": "James Harden",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1626,9 +1626,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 8,
-                "Total": 2157,
-                "Diff": "33",
+                "Hoy": 9,
+                "Total": 2158,
+                "Diff": "32",
                 "Antece": "Dennis Rodman",
                 "game_status": "playing"
             },
@@ -1656,9 +1656,9 @@
                 "Rank": 6,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "BLK",
-                "Hoy": 3,
-                "Total": 685,
-                "Diff": "15",
+                "Hoy": 4,
+                "Total": 686,
+                "Diff": "14",
                 "Antece": "Artis Gilmore",
                 "game_status": "playing"
             },
@@ -1728,9 +1728,9 @@
                 "Rank": 8,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 7,
-                "Total": 6399,
-                "Diff": "99",
+                "Hoy": 10,
+                "Total": 6402,
+                "Diff": "96",
                 "Antece": "Morris Peterson",
                 "game_status": "playing"
             },
@@ -1808,9 +1808,9 @@
                 "Rank": 18,
                 "Nombre": "RJ Barrett",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 683,
-                "Diff": "2",
+                "Hoy": 2,
+                "Total": 684,
+                "Diff": "1",
                 "Antece": "Charles Oakley",
                 "game_status": "playing"
             },
@@ -1865,13 +1865,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 16,
+                "Rank": 15,
                 "Nombre": "Scottie Barnes",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 371,
-                "Diff": "0",
-                "Antece": "Chris Boucher",
+                "Hoy": 2,
+                "Total": 372,
+                "Diff": "2",
+                "Antece": "Damon Stoudamire",
                 "game_status": "playing"
             },
             {
@@ -2125,13 +2125,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Gary Trent Jr. (2 three-pointers today) has passed Dennis Schröder and Mikal Bridges and is now ranked 133rd all-time with 1,143.",
-            "foto": [
-                "collages/1794454123283913_collage_1794454123198321.png"
-            ],
-            "timestamp": 1794454123
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Jrue Holiday today surpasses Dennis Johnson and now ranked 90th all time with 1,101 games",
             "foto": [
@@ -2824,16 +2817,16 @@
                 "collages/1794784361750194_collage_1794784361667224.png"
             ],
             "timestamp": 1794784361
+        },
+        {
+            "texto": "Victor Wembanyama (4 blocks today) has passed Kelvin Cato and is now ranked 196th all-time with 686.",
+            "foto": [
+                "collages/1794784886550984_collage_1794784886430023.png"
+            ],
+            "timestamp": 1794784886
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Rudy Gobert today becomes the 17th player to reach 300 games with Timberwolves.",
-            "foto": [],
-            "timestamp": 1793668424,
-            "team": "MIN",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Trey Murphy III (1 assist today) has passed Eric Gordon and is now ranked 14th in Pelicans history with 727.",
             "foto": [],
@@ -3526,9 +3519,16 @@
             "timestamp": 1794784217,
             "team": "PHO",
             "type": "franchise"
+        },
+        {
+            "texto": "Scottie Barnes (2 three-pointers today) has passed Chris Boucher and is now ranked 15th in Raptors history with 372.",
+            "foto": [],
+            "timestamp": 1794784886,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2801,
-    "total_franchise_historicas": 770,
-    "cache_buster": 1794784750
+    "total_notificaciones_historicas": 2802,
+    "total_franchise_historicas": 771,
+    "cache_buster": 1794784886
 }
