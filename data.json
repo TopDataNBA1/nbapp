@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "00:28:42",
+    "ultima_actualizacion": "00:30:11",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -714,7 +714,18 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 175,
+                "Rank": 174,
+                "Nombre": "Luke Kennard",
+                "Team": "PHX",
+                "Hoy": 3,
+                "Total": 1042,
+                "Diff": "2",
+                "Antece": "Isaiah Thomas",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 176,
                 "Nombre": "Dillon Brooks",
                 "Team": "PHX",
                 "Hoy": 0,
@@ -722,17 +733,6 @@
                 "Diff": "1",
                 "Antece": "Richard Jefferson",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 176,
-                "Nombre": "Luke Kennard",
-                "Team": "PHX",
-                "Hoy": 2,
-                "Total": 1041,
-                "Diff": "",
-                "Antece": "Dillon Brooks",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -873,9 +873,9 @@
                 "Rank": 107,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 7,
-                "Total": 4321,
-                "Diff": "18",
+                "Hoy": 8,
+                "Total": 4322,
+                "Diff": "17",
                 "Antece": "Jay Humphries",
                 "Nota": "",
                 "game_status": "playing"
@@ -1606,9 +1606,9 @@
                 "Rank": 21,
                 "Nombre": "Devin Vassell",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 5340,
-                "Diff": "160",
+                "Hoy": 4,
+                "Total": 5342,
+                "Diff": "158",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -1616,9 +1616,9 @@
                 "Rank": 18,
                 "Nombre": "Keldon Johnson",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2506,
-                "Diff": "5",
+                "Hoy": 3,
+                "Total": 2507,
+                "Diff": "4",
                 "Antece": "Kawhi Leonard",
                 "game_status": "playing"
             },
@@ -2125,13 +2125,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Draymond Green (3 rebounds today) has passed Willie Naulls and is now ranked 160th all-time with 6,509.",
-            "foto": [
-                "collages/1794455995597916_collage_1794455995504430.png"
-            ],
-            "timestamp": 1794455995
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Damian Lillard (3 assists today) has passed John Havlicek and is now ranked 41st all-time with 6,115.",
             "foto": [
@@ -2824,6 +2817,13 @@
                 "collages/1794785322584128_collage_1794785322463167.png"
             ],
             "timestamp": 1794785322
+        },
+        {
+            "texto": "Luke Kennard (3 three-pointers today) has passed Dillon Brooks and is now ranked 174th all-time with 1,042.",
+            "foto": [
+                "collages/1794785411241572_collage_1794785411135607.png"
+            ],
+            "timestamp": 1794785411
         }
     ],
     "notificaciones_franchise": [
@@ -3528,7 +3528,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2804,
+    "total_notificaciones_historicas": 2805,
     "total_franchise_historicas": 771,
-    "cache_buster": 1794785322
+    "cache_buster": 1794785411
 }
