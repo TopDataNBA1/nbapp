@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:29:17",
+    "ultima_actualizacion": "01:30:37",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -484,10 +484,10 @@
                 "Rank": 191,
                 "Nombre": "Mitchell Robinson",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 698,
-                "Diff": "2",
-                "Antece": "700",
+                "Hoy": 2,
+                "Total": 700,
+                "Diff": "3",
+                "Antece": "Mason Plumlee",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -783,11 +783,11 @@
                 "Rank": 119,
                 "Nombre": "Derrick White",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 1177,
-                "Diff": "1",
+                "Hoy": 4,
+                "Total": 1178,
+                "Diff": "",
                 "Antece": "Deron Williams",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1123,14 +1123,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 177,
+                "Rank": 175,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 5,
-                "Total": 3545,
-                "Diff": "",
-                "Antece": "Eric Bledsoe",
-                "Nota": "Mismo total",
+                "Hoy": 6,
+                "Total": 3546,
+                "Diff": "8",
+                "Antece": "Lamar Odom",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1463,9 +1463,9 @@
                 "Rank": 12,
                 "Nombre": "Jayson Tatum",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 4524,
-                "Diff": "257",
+                "Hoy": 5,
+                "Total": 4525,
+                "Diff": "256",
                 "Antece": "Bob Cousy",
                 "game_status": "playing"
             },
@@ -1543,9 +1543,9 @@
                 "Rank": 7,
                 "Nombre": "Derrick White",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 877,
-                "Diff": "23",
+                "Hoy": 4,
+                "Total": 878,
+                "Diff": "22",
                 "Antece": "900",
                 "game_status": "playing"
             },
@@ -1749,9 +1749,9 @@
                 "Rank": 15,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 7789,
-                "Diff": "211",
+                "Hoy": 10,
+                "Total": 7791,
+                "Diff": "209",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -2065,9 +2065,9 @@
                 "Rank": 22,
                 "Nombre": "Victor Wembanyama",
                 "Stat": "REB",
-                "Hoy": 11,
-                "Total": 2160,
-                "Diff": "30",
+                "Hoy": 10,
+                "Total": 2159,
+                "Diff": "31",
                 "Antece": "Dennis Rodman",
                 "game_status": "finished"
             },
@@ -2596,20 +2596,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anfernee Simons (2 three-pointers today) has passed Kevin Martin and is now ranked 134th all-time with 1,142.",
-            "foto": [
-                "collages/1794530654615895_collage_1794530654501963.png"
-            ],
-            "timestamp": 1794530654
-        },
-        {
-            "texto": "📢🔝💯 Trae Young (2 three-pointers today) has passed Terrence Ross and is now ranked 80th all-time with 1,330.",
-            "foto": [
-                "collages/1794530755224043_collage_1794530755116117.png"
-            ],
-            "timestamp": 1794530755
-        },
         {
             "texto": "Immanuel Quickley (2 three-pointers today) has passed P.J. Tucker and is now ranked 238th all-time with 881.",
             "foto": [
@@ -3295,6 +3281,20 @@
                 "collages/1794788676099022_collage_1794788675965469.png"
             ],
             "timestamp": 1794788676
+        },
+        {
+            "texto": "Paul George (6 assists today) has passed Darren Collison and Eric Bledsoe and is now ranked 175th all-time with 3,546.",
+            "foto": [
+                "collages/1794789033278179_collage_1794789033185207.png"
+            ],
+            "timestamp": 1794789033
+        },
+        {
+            "texto": "Mitchell Robinson (2 blocks today) becomes the 191st player to reach 700",
+            "foto": [
+                "collages/1794789037159672_collage_1794789037077700.png"
+            ],
+            "timestamp": 1794789037
         }
     ],
     "notificaciones_franchise": [
@@ -3999,7 +3999,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2813,
+    "total_notificaciones_historicas": 2815,
     "total_franchise_historicas": 773,
-    "cache_buster": 1794788957
+    "cache_buster": 1794789037
 }
