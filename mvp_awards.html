@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Top Data NBA — MVP & Awards</title>
+<title>Top Data NBA — My Favorites</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -106,16 +106,44 @@ table.mvp-table td.zero { color: #2a3a50; }
 }
 
 /* Dual rows (global + franchise) */
-.row-global td { background: #0b111c !important; }
-.row-franchise td { background: #0c1522 !important; }
-.row-global:hover td, .row-franchise:hover td { background: #101e30 !important; }
-.row-label {
-    font-size: 0.65em; color: #888;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 0.05em; white-space: nowrap;
+.row-global td, .row-global-cell { background: #0b111c !important; color: #e0e0e0; }
+.row-franchise td, .row-franchise-cell { background: #0c1724 !important; color: #9ab0c8; }
+.row-top td { border-top: 1px solid #1a2a3a !important; border-bottom: none !important; }
+.row-bot td { border-top: none !important; border-bottom: 2px solid #1e2e42 !important; }
+.row-global:hover td, .row-global:hover ~ .row-franchise td,
+.row-franchise:hover td, .row-franchise:hover td { background: #101e30 !important; }
+
+/* Legend */
+.mvp-legend {
+    display: flex; align-items: center; gap: 7px;
+    font-size: 0.78em; color: #ccc;
+    padding: 10px 4px 14px;
+    flex-wrap: wrap;
 }
-.row-label.gl { color: #f0b429; }
-.row-label.fr { color: #55aaff; }
+.legend-dot {
+    width: 12px; height: 12px; border-radius: 2px; display: inline-block;
+}
+.legend-dot.gl { background: #0b111c; border: 1.5px solid #e0e0e0; }
+.legend-dot.fr { background: #0c1724; border: 1.5px solid #9ab0c8; }
+
+/* Awards inner tabs */
+.awards-tabs-row {
+    display: flex; gap: 0;
+    border-bottom: 1.5px solid #1e1e3a;
+    background: #09090f;
+    margin-bottom: 16px;
+}
+.awards-tab-btn {
+    flex: 1; padding: 10px 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(0.65em, 2.2vw, 0.85em);
+    background: none; border: none; cursor: pointer;
+    color: #666; border-bottom: 2px solid transparent;
+    transition: 0.2s; letter-spacing: 0.03em;
+}
+.awards-tab-btn.active { color: #f0b429; border-bottom-color: #f0b429; }
+.awards-inner-panel { display: none; }
+.awards-inner-panel.active { display: block; }
 
 /* AWARDS */
 .awards-grid {
@@ -191,7 +219,7 @@ table.mvp-table td.zero { color: #2a3a50; }
 
 <div class="topbar">
     <a href="index.html" class="back-btn">← Back</a>
-    <div class="topbar-title">MVP & AWARDS</div>
+    <div class="topbar-title">MY FAVORITES</div>
     <div style="width:70px"></div>
 </div>
 
@@ -223,12 +251,12 @@ const CAT_LABELS = { P:'PTS', '3':'3PT', R:'REB', A:'AST', S:'STL', B:'BLK' };
 
 // Extract player + category from notification text
 const CAT_MAP = [
-    { re: /\bpoint/, cat: 'P' },
-    { re: /\bthree-pointer|\bthree pointer|\bthree-point|\b3-pointer/, cat: '3' },
-    { re: /\brebound/, cat: 'R' },
-    { re: /\bassist/, cat: 'A' },
-    { re: /\bsteal/, cat: 'S' },
-    { re: /\bblock/, cat: 'B' },
+    { re: /\bthree-pointer|\bthree pointer|\bthree-point|\b3-pointer/i, cat: '3' },
+    { re: /\bpoints?\b/i, cat: 'P' },
+    { re: /\brebound/i, cat: 'R' },
+    { re: /\bassist/i, cat: 'A' },
+    { re: /\bsteal/i, cat: 'S' },
+    { re: /\bblock/i, cat: 'B' },
 ];
 
 function parseNotif(texto) {
@@ -268,6 +296,14 @@ function photoEl(name, cls, w, h) {
 }
 
 // ─── TABS ─────────────────────────────────────────────────────────────────────
+function switchAwardsTab(tab, btn) {
+    document.querySelectorAll('.awards-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.awards-inner-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    const panel = document.getElementById('awards-panel-' + tab);
+    if (panel) panel.classList.add('active');
+}
+
 function switchTab(tab) {
     document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', (tab==='mvp'&&i===0)||(tab==='awards'&&i===1)));
     document.getElementById('tab-mvp').classList.toggle('active', tab==='mvp');
@@ -305,10 +341,9 @@ function buildMVP(data) {
     for (const n of notifs) {
         const { name, cat } = parseNotif(n.texto || '');
         if (!name) continue;
-        if (!globalMap[name]) globalMap[name] = { N:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
-        globalMap[name].N++;
+        if (!globalMap[name]) globalMap[name] = { Ng:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        globalMap[name].Ng++;
         if (cat) globalMap[name][cat]++;
-        // Approximate game count by date
         const d = new Date(n.timestamp * 1000);
         globalMap[name].G.add(d.toISOString().slice(0,10));
     }
@@ -318,75 +353,93 @@ function buildMVP(data) {
     for (const n of notifsF) {
         const { name, cat } = parseNotif(n.texto || '');
         if (!name) continue;
-        if (!franchMap[name]) franchMap[name] = { N:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
-        franchMap[name].N++;
+        if (!franchMap[name]) franchMap[name] = { Nf:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        franchMap[name].Nf++;
         if (cat) franchMap[name][cat]++;
         const d = new Date(n.timestamp * 1000);
         franchMap[name].G.add(d.toISOString().slice(0,10));
     }
 
-    // Sort by N desc
-    const globalList = Object.entries(globalMap).map(([name,s]) => ({ name, ...s, G: s.G.size }))
-        .sort((a,b) => b.N - a.N);
-    const franchList = Object.entries(franchMap).map(([name,s]) => ({ name, ...s, G: s.G.size }))
-        .sort((a,b) => b.N - a.N);
+    // Merge all players, sort by total N desc
+    const allNames = new Set([...Object.keys(globalMap), ...Object.keys(franchMap)]);
+    const merged = [];
+    for (const name of allNames) {
+        const g = globalMap[name] || { Ng:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        const f = franchMap[name] || { Nf:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        const G = new Set([...g.G, ...f.G]);
+        merged.push({
+            name,
+            N: (g.Ng||0) + (f.Nf||0),
+            Ng: g.Ng||0, Nf: f.Nf||0,
+            gRow: { P:g.P,'3':g['3'],R:g.R,A:g.A,S:g.S,B:g.B },
+            fRow: { P:f.P,'3':f['3'],R:f.R,A:f.A,S:f.S,B:f.B },
+            G: G.size
+        });
+    }
+    merged.sort((a,b) => b.N - a.N);
 
     const container = document.getElementById('tab-mvp');
     container.innerHTML = '';
 
-    function buildTable(list, labelCls, labelText) {
-        const section = document.createElement('div');
-        const lbl = document.createElement('div');
-        lbl.className = 'mvp-section-label';
-        lbl.textContent = labelText;
-        section.appendChild(lbl);
+    // Legend
+    const legend = document.createElement('div');
+    legend.className = 'mvp-legend';
+    legend.innerHTML = `
+        <span class="legend-dot gl"></span><span>Global</span>
+        <span class="legend-dot fr"></span><span>Franchise</span>
+        <span style="color:#888;font-size:0.8em;margin-left:12px">· N = total notifications (global + franchise)</span>
+    `;
+    container.appendChild(legend);
 
-        const wrap = document.createElement('div');
-        wrap.className = 'mvp-table-wrap';
-        const tbl = document.createElement('table');
-        tbl.className = 'mvp-table';
+    const wrap = document.createElement('div');
+    wrap.className = 'mvp-table-wrap';
+    const tbl = document.createElement('table');
+    tbl.className = 'mvp-table';
 
-        // Header
-        tbl.innerHTML = `<thead><tr>
-            <th class="th-name" style="text-align:left;padding-left:36px">Player</th>
-            <th title="Notifications">N</th>
-            ${CATS.map(c=>`<th title="${CAT_LABELS[c]}">${CAT_LABELS[c]}</th>`).join('')}
-            <th title="Games">G</th>
-        </tr></thead>`;
+    tbl.innerHTML = `<thead><tr>
+        <th class="th-name">Player</th>
+        <th title="Total notifications" class="th-n">N</th>
+        ${CATS.map(c=>`<th title="${CAT_LABELS[c]}">${CAT_LABELS[c]}</th>`).join('')}
+        <th title="Games">G</th>
+    </tr></thead>`;
 
-        const tbody = document.createElement('tbody');
-        list.forEach((p, i) => {
-            const tr = document.createElement('tr');
-            tr.className = labelCls === 'gl' ? 'row-global' : 'row-franchise';
-            tr.innerHTML = `
-                <td class="td-name">
-                    <div style="display:flex;align-items:center;gap:8px">
-                        <span style="color:#888;font-size:0.75em;width:22px;text-align:right;flex-shrink:0">${i+1}</span>
-                        <span class="row-label ${labelCls}" style="display:none"></span>
-                        <span>${p.name}</span>
-                    </div>
-                </td>
-                <td class="td-n">${p.N}</td>
-                ${CATS.map(c => `<td class="${p[c]===0?'zero':''}">${p[c]||''}</td>`).join('')}
-                <td class="td-g">${p.G}</td>
-            `;
-            tbody.appendChild(tr);
-        });
+    const tbody = document.createElement('tbody');
 
-        if (list.length === 0) {
-            const tr = document.createElement('tr');
-            tr.innerHTML = `<td colspan="${2+CATS.length+1}" style="color:#4a6a8a;text-align:center;padding:14px">No data</td>`;
-            tbody.appendChild(tr);
-        }
+    merged.forEach((p, i) => {
+        // Global row
+        const trG = document.createElement('tr');
+        trG.className = 'row-global row-top';
+        trG.innerHTML = `
+            <td class="td-name" rowspan="2" style="vertical-align:middle">
+                <div style="display:flex;align-items:center;gap:8px">
+                    <span class="td-rank">${i+1}</span>
+                    <span>${p.name}</span>
+                </div>
+            </td>
+            <td class="td-n" rowspan="2" style="vertical-align:middle">${p.N}</td>
+            ${CATS.map(c => `<td class="${p.gRow[c]===0?'zero':''} row-global-cell">${p.gRow[c]||''}</td>`).join('')}
+            <td class="td-g" rowspan="2" style="vertical-align:middle">${p.G}</td>
+        `;
+        tbody.appendChild(trG);
 
-        tbl.appendChild(tbody);
-        wrap.appendChild(tbl);
-        section.appendChild(wrap);
-        return section;
+        // Franchise row
+        const trF = document.createElement('tr');
+        trF.className = 'row-franchise row-bot';
+        trF.innerHTML = `
+            ${CATS.map(c => `<td class="${p.fRow[c]===0?'zero':''} row-franchise-cell">${p.fRow[c]||''}</td>`).join('')}
+        `;
+        tbody.appendChild(trF);
+    });
+
+    if (merged.length === 0) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td colspan="${2+CATS.length+1}" style="color:#4a6a8a;text-align:center;padding:14px">No data</td>`;
+        tbody.appendChild(tr);
     }
 
-    container.appendChild(buildTable(globalList, 'gl', '🌍 Global'));
-    container.appendChild(buildTable(franchList, 'fr', '🏟️ Franchise'));
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    container.appendChild(wrap);
 }
 
 // ─── AWARDS ───────────────────────────────────────────────────────────────────
@@ -526,52 +579,43 @@ function buildAwards(data) {
     const container = document.getElementById('tab-awards');
     container.innerHTML = '';
 
-    // WEEKLY AWARDS
-    if (weeks.length > 0) {
-        const wlbl = document.createElement('div');
-        wlbl.className = 'awards-period-label';
-        wlbl.textContent = '📅 Weekly Best Scorer (Points notifications)';
-        container.appendChild(wlbl);
+    // Inner tabs
+    const tabsRow = document.createElement('div');
+    tabsRow.className = 'awards-tabs-row';
+    tabsRow.innerHTML = `
+        <button class="awards-tab-btn active" onclick="switchAwardsTab('weekly',this)">📅 Players of the Week</button>
+        <button class="awards-tab-btn" onclick="switchAwardsTab('monthly',this)">📆 Players of the Month</button>
+    `;
+    container.appendChild(tabsRow);
 
-        for (const wk of weeks) {
-            const { east, west } = getBestByConf(weekPts[wk]);
+    function buildAwardsPeriods(periods, ptsMap, formatFn, panelId) {
+        const panel = document.createElement('div');
+        panel.className = 'awards-inner-panel' + (panelId === 'weekly' ? ' active' : '');
+        panel.id = 'awards-panel-' + panelId;
+
+        if (periods.length === 0) {
+            panel.innerHTML = '<div class="empty-award">No data.</div>';
+            return panel;
+        }
+
+        for (const key of periods) {
+            const { east, west } = getBestByConf(ptsMap[key]);
             const plbl = document.createElement('div');
             plbl.style.cssText = 'font-size:0.75em;color:#aaa;margin:12px 0 6px;padding-left:2px';
-            plbl.textContent = formatWeek(wk);
-            container.appendChild(plbl);
+            plbl.textContent = formatFn(key);
+            panel.appendChild(plbl);
             const grid = document.createElement('div');
             grid.className = 'awards-grid';
-            grid.appendChild(awardCard(east, 'east', 'EAST', wk));
-            grid.appendChild(awardCard(west, 'west', 'WEST', wk));
-            container.appendChild(grid);
+            // West left, East right
+            grid.appendChild(awardCard(west, 'west', 'WEST', key));
+            grid.appendChild(awardCard(east, 'east', 'EAST', key));
+            panel.appendChild(grid);
         }
+        return panel;
     }
 
-    // MONTHLY AWARDS
-    if (months.length > 0) {
-        const mlbl = document.createElement('div');
-        mlbl.className = 'awards-period-label';
-        mlbl.style.marginTop = '28px';
-        mlbl.textContent = '📆 Monthly Best Scorer (Points notifications)';
-        container.appendChild(mlbl);
-
-        for (const mk of months) {
-            const { east, west } = getBestByConf(monthPts[mk]);
-            const plbl = document.createElement('div');
-            plbl.style.cssText = 'font-size:0.75em;color:#aaa;margin:12px 0 6px;padding-left:2px';
-            plbl.textContent = formatMonth(mk);
-            container.appendChild(plbl);
-            const grid = document.createElement('div');
-            grid.className = 'awards-grid';
-            grid.appendChild(awardCard(east, 'east', 'EAST', mk));
-            grid.appendChild(awardCard(west, 'west', 'WEST', mk));
-            container.appendChild(grid);
-        }
-    }
-
-    if (weeks.length === 0 && months.length === 0) {
-        container.innerHTML = '<div class="empty-award">No points notifications found.</div>';
-    }
+    container.appendChild(buildAwardsPeriods(weeks, weekPts, formatWeek, 'weekly'));
+    container.appendChild(buildAwardsPeriods(months, monthPts, formatMonth, 'monthly'));
 
     document.getElementById('awards-loading').remove();
 }
