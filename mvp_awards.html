@@ -287,9 +287,11 @@ fetch('data.json?v=' + Date.now())
     });
 
 // ─── MVP ──────────────────────────────────────────────────────────────────────
+const SEASON_START = 1761004800; // 2026-10-20 00:00:00 UTC
+
 function buildMVP(data) {
-    const notifs = data.notificaciones || [];
-    const notifsF = data.notificaciones_franchise || [];
+    const notifs = (data.notificaciones || []).filter(n => (n.timestamp || 0) >= SEASON_START);
+    const notifsF = (data.notificaciones_franchise || []).filter(n => (n.timestamp || 0) >= SEASON_START);
 
     // Aggregate global
     const globalMap = {};
@@ -397,8 +399,8 @@ function getMonthKey(ts) {
 }
 
 function buildAwards(data) {
-    const notifs = data.notificaciones || [];
-    const notifsF = data.notificaciones_franchise || [];
+    const notifs = (data.notificaciones || []).filter(n => (n.timestamp || 0) >= SEASON_START);
+    const notifsF = (data.notificaciones_franchise || []).filter(n => (n.timestamp || 0) >= SEASON_START);
 
     // For Awards, we use FRANCHISE notifs (have team → conference)
     // and GLOBAL pts notifs (no team, but we can infer from tablas_teams)
