@@ -13,8 +13,13 @@ body { font-family: 'Roboto', sans-serif; background: #0f0f1b; color: #e0e0e0; m
 .topbar {
     display: flex; align-items: center; justify-content: space-between;
     padding: 10px 16px;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.95);
     border-bottom: 3px solid #ff4655;
+    position: sticky; top: 0; z-index: 100;
+}
+.tabs-row {
+    position: sticky; top: 48px; z-index: 90;
+    background: #0a0a16;
 }
 .topbar-title {
     font-family: 'Orbitron', sans-serif;
@@ -38,7 +43,6 @@ body { font-family: 'Roboto', sans-serif; background: #0f0f1b; color: #e0e0e0; m
 .tabs-row {
     display: flex; gap: 0;
     border-bottom: 2px solid #1e1e3a;
-    background: #0a0a16;
 }
 .tab-btn {
     flex: 1; padding: 12px 10px;
@@ -72,7 +76,7 @@ table.mvp-table {
 table.mvp-table thead th {
     background: #0d1b2e; color: #f0b429;
     padding: 9px 7px; font-size: 0.78em;
-    position: sticky; top: 0; z-index: 10;
+    position: sticky; top: 92px; z-index: 10;
     border-bottom: 2px solid #1e3050;
     text-align: center; white-space: nowrap;
 }
@@ -110,8 +114,9 @@ table.mvp-table td.zero { color: #2a3a50; }
 .row-franchise td, .row-franchise-cell { background: #0c1724 !important; color: #9ab0c8; }
 .row-top td { border-top: 1px solid #1a2a3a !important; border-bottom: none !important; }
 .row-bot td { border-top: none !important; border-bottom: 2px solid #1e2e42 !important; }
-.row-global:hover td, .row-global:hover ~ .row-franchise td,
-.row-franchise:hover td, .row-franchise:hover td { background: #101e30 !important; }
+/* G and N cells span 2 rows — need explicit bg since they sit on row-global */
+td.td-n, td.td-g { background: #0a1018 !important; color: #fff; vertical-align: middle; }
+td.td-g { color: #aaa !important; }
 
 /* Legend */
 .mvp-legend {
@@ -120,18 +125,18 @@ table.mvp-table td.zero { color: #2a3a50; }
     padding: 10px 4px 14px;
     flex-wrap: wrap;
 }
-.legend-dot {
-    width: 12px; height: 12px; border-radius: 2px; display: inline-block;
-}
-.legend-dot.gl { background: #0b111c; border: 1.5px solid #e0e0e0; }
-.legend-dot.fr { background: #0c1724; border: 1.5px solid #9ab0c8; }
+.legend-gl { color: #e0e0e0; font-weight: 600; }
+.legend-fr { color: #9ab0c8; font-weight: 600; }
 
-/* Awards inner tabs */
+/* Awards sticky header */
+.awards-sticky-header {
+    position: sticky; top: 92px; z-index: 20;
+    background: #09090f;
+    border-bottom: 1.5px solid #1e1e3a;
+}
 .awards-tabs-row {
     display: flex; gap: 0;
-    border-bottom: 1.5px solid #1e1e3a;
-    background: #09090f;
-    margin-bottom: 16px;
+    border-bottom: 1px solid #161620;
 }
 .awards-tab-btn {
     flex: 1; padding: 10px 8px;
@@ -142,8 +147,36 @@ table.mvp-table td.zero { color: #2a3a50; }
     transition: 0.2s; letter-spacing: 0.03em;
 }
 .awards-tab-btn.active { color: #f0b429; border-bottom-color: #f0b429; }
+.awards-conf-header {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 10px; padding: 6px 10px;
+}
+.awards-conf-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.72em; letter-spacing: 0.08em;
+    text-align: center; padding: 5px 0;
+    border-radius: 4px;
+}
+.awards-conf-label.west { background: #1f0d12; color: #ff8899; border: 1px solid #701a22; }
+.awards-conf-label.east { background: #0d1f38; color: #7dc4ff; border: 1px solid #1a4070; }
+
 .awards-inner-panel { display: none; }
 .awards-inner-panel.active { display: block; }
+
+.awards-period-row-label {
+    font-size: 0.75em; color: #aaa;
+    padding: 12px 10px 4px; letter-spacing: 0.03em;
+}
+
+/* Award rows */
+.award-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px;
+    border-bottom: 1px solid #12192a;
+}
+.award-row.west { background: #100810; }
+.award-row.east { background: #080f1c; }
+.award-row:last-child { border-bottom: none; }
 
 /* AWARDS */
 .awards-grid {
@@ -344,7 +377,7 @@ function buildMVP(data) {
         if (!globalMap[name]) globalMap[name] = { Ng:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
         globalMap[name].Ng++;
         if (cat) globalMap[name][cat]++;
-        const d = new Date(n.timestamp * 1000);
+        const d = new Date((n.timestamp - 5*3600) * 1000);
         globalMap[name].G.add(d.toISOString().slice(0,10));
     }
 
@@ -356,7 +389,7 @@ function buildMVP(data) {
         if (!franchMap[name]) franchMap[name] = { Nf:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
         franchMap[name].Nf++;
         if (cat) franchMap[name][cat]++;
-        const d = new Date(n.timestamp * 1000);
+        const d = new Date((n.timestamp - 5*3600) * 1000);
         franchMap[name].G.add(d.toISOString().slice(0,10));
     }
 
@@ -385,9 +418,11 @@ function buildMVP(data) {
     const legend = document.createElement('div');
     legend.className = 'mvp-legend';
     legend.innerHTML = `
-        <span class="legend-dot gl"></span><span>Global</span>
-        <span class="legend-dot fr"></span><span>Franchise</span>
-        <span style="color:#888;font-size:0.8em;margin-left:12px">· N = total notifications (global + franchise)</span>
+        <span class="legend-gl">Global</span>
+        <span style="color:#555">·</span>
+        <span class="legend-fr">Franchise</span>
+        <span style="color:#555;margin-left:10px">|</span>
+        <span style="color:#888;font-size:0.8em;margin-left:6px">N = total (global + franchise) · G = game days</span>
     `;
     container.appendChild(legend);
 
@@ -478,47 +513,48 @@ function buildAwards(data) {
         }
     }
 
-    // Accumulate pts per player per week and per month
-    // Using franchise notifs (have team) + global pts notifs with team lookup
-    // We'll use ALL notifications but only count points category
-    const weekPts  = {}; // { weekKey: { player: { pts, team, name } } }
-    const monthPts = {}; // { monthKey: { player: { pts, team, name } } }
+    // Accumulate ALL notifications per player per week and per month
+    const weekMap  = {}; // { weekKey: { playerName: { n, team, name, photo } } }
+    const monthMap = {}; // { monthKey: { playerName: { n, team, name, photo } } }
 
-    function addPts(name, team, ts) {
+    function addNotif(name, team, photo, ts) {
         if (!name || !team) return;
         const wk = getWeekStart(ts);
         const mk = getMonthKey(ts);
-        if (!weekPts[wk]) weekPts[wk] = {};
-        if (!weekPts[wk][name]) weekPts[wk][name] = { pts: 0, team, name };
-        weekPts[wk][name].pts++;
-
-        if (!monthPts[mk]) monthPts[mk] = {};
-        if (!monthPts[mk][name]) monthPts[mk][name] = { pts: 0, team, name };
-        monthPts[mk][name].pts++;
+        if (!weekMap[wk]) weekMap[wk] = {};
+        if (!weekMap[wk][name]) weekMap[wk][name] = { n: 0, team, name, photo };
+        weekMap[wk][name].n++;
+        if (!monthMap[mk]) monthMap[mk] = {};
+        if (!monthMap[mk][name]) monthMap[mk][name] = { n: 0, team, name, photo };
+        monthMap[mk][name].n++;
     }
 
-    // Global notifications: only 'P' category, look up team
+    // Global: look up team from tablas
     for (const n of notifs) {
-        const { name, cat } = parseNotif(n.texto || '');
-        if (!name || cat !== 'P') continue;
+        const { name } = parseNotif(n.texto || '');
+        if (!name) continue;
         const team = playerTeam[name];
-        addPts(name, team, n.timestamp);
+        addNotif(name, team, n.foto || null, n.timestamp);
     }
 
-    // Franchise notifications: only 'P' category, use team field
+    // Franchise: team is in the notification
     for (const n of notifsF) {
-        const { name, cat } = parseNotif(n.texto || '');
-        if (!name || cat !== 'P') continue;
-        addPts(name, n.team, n.timestamp);
+        const { name } = parseNotif(n.texto || '');
+        if (!name) continue;
+        addNotif(name, n.team, n.foto || null, n.timestamp);
     }
+
+    // Rename for downstream
+    const weekPts = weekMap;
+    const monthPts = monthMap;
 
     // For each period, find best East + best West
     function getBestByConf(bucket) {
         let eastBest = null, westBest = null;
         for (const [name, info] of Object.entries(bucket)) {
             const conf = EAST_TEAMS.has(info.team) ? 'E' : WEST_TEAMS.has(info.team) ? 'W' : null;
-            if (conf === 'E' && (!eastBest || info.pts > eastBest.pts)) eastBest = info;
-            if (conf === 'W' && (!westBest || info.pts > westBest.pts)) westBest = info;
+            if (conf === 'E' && (!eastBest || info.n > eastBest.n)) eastBest = info;
+            if (conf === 'W' && (!westBest || info.n > westBest.n)) westBest = info;
         }
         return { east: eastBest, west: westBest };
     }
@@ -538,55 +574,47 @@ function buildAwards(data) {
         return new Date(y, m-1).toLocaleDateString('en-US', {month:'long',year:'numeric'});
     }
 
-    function awardCard(info, confCls, confLabel, period) {
-        const card = document.createElement('div');
-        card.className = 'award-card';
-        const hdr = document.createElement('div');
-        hdr.className = `award-card-header ${confCls}`;
-        hdr.innerHTML = `<span class="conf-badge">${confLabel}</span> BEST SCORER`;
-        card.appendChild(hdr);
-
+    function awardRow(info, confCls) {
+        const row = document.createElement('div');
+        row.className = `award-row ${confCls}`;
         if (!info) {
-            const empty = document.createElement('div');
-            empty.className = 'empty-award';
-            empty.textContent = 'No data';
-            card.appendChild(empty);
-            return card;
+            row.innerHTML = `<div class="empty-award">No data</div>`;
+            return row;
         }
-
-        const entry = document.createElement('div');
-        entry.className = 'award-entry';
         const photo = photoEl(info.name, 'award-player-photo');
-        entry.appendChild(photo);
-
+        row.appendChild(photo);
         const infoDiv = document.createElement('div');
         infoDiv.className = 'award-info';
-        infoDiv.innerHTML = `
-            <div class="award-name">${info.name}</div>
-            <div class="award-team">${info.team || '—'}</div>
-        `;
-        entry.appendChild(infoDiv);
-
-        const ptsDiv = document.createElement('div');
-        ptsDiv.className = 'award-pts';
-        ptsDiv.innerHTML = `${info.pts}<span class="award-pts-label">notifs</span>`;
-        entry.appendChild(ptsDiv);
-
-        card.appendChild(entry);
-        return card;
+        infoDiv.innerHTML = `<div class="award-name">${info.name}</div><div class="award-team">${info.team || '—'}</div>`;
+        row.appendChild(infoDiv);
+        const nDiv = document.createElement('div');
+        nDiv.className = 'award-pts';
+        nDiv.innerHTML = `${info.n}<span class="award-pts-label">notifs</span>`;
+        row.appendChild(nDiv);
+        return row;
     }
 
     const container = document.getElementById('tab-awards');
     container.innerHTML = '';
 
-    // Inner tabs
+    // Inner tabs (sticky)
+    const stickyWrap = document.createElement('div');
+    stickyWrap.className = 'awards-sticky-header';
+
     const tabsRow = document.createElement('div');
     tabsRow.className = 'awards-tabs-row';
     tabsRow.innerHTML = `
         <button class="awards-tab-btn active" onclick="switchAwardsTab('weekly',this)">📅 Players of the Week</button>
         <button class="awards-tab-btn" onclick="switchAwardsTab('monthly',this)">📆 Players of the Month</button>
     `;
-    container.appendChild(tabsRow);
+    stickyWrap.appendChild(tabsRow);
+
+    // Fixed WEST / EAST column headers
+    const confHeader = document.createElement('div');
+    confHeader.className = 'awards-conf-header';
+    confHeader.innerHTML = `<div class="awards-conf-label west">🌊 WEST</div><div class="awards-conf-label east">⚡ EAST</div>`;
+    stickyWrap.appendChild(confHeader);
+    container.appendChild(stickyWrap);
 
     function buildAwardsPeriods(periods, ptsMap, formatFn, panelId) {
         const panel = document.createElement('div');
@@ -600,15 +628,15 @@ function buildAwards(data) {
 
         for (const key of periods) {
             const { east, west } = getBestByConf(ptsMap[key]);
-            const plbl = document.createElement('div');
-            plbl.style.cssText = 'font-size:0.75em;color:#aaa;margin:12px 0 6px;padding-left:2px';
-            plbl.textContent = formatFn(key);
-            panel.appendChild(plbl);
+            const periodLbl = document.createElement('div');
+            periodLbl.className = 'awards-period-row-label';
+            periodLbl.textContent = formatFn(key);
+            panel.appendChild(periodLbl);
+
             const grid = document.createElement('div');
             grid.className = 'awards-grid';
-            // West left, East right
-            grid.appendChild(awardCard(west, 'west', 'WEST', key));
-            grid.appendChild(awardCard(east, 'east', 'EAST', key));
+            grid.appendChild(awardRow(west, 'west'));
+            grid.appendChild(awardRow(east, 'east'));
             panel.appendChild(grid);
         }
         return panel;
