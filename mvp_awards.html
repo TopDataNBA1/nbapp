@@ -275,16 +275,23 @@ function switchTab(tab) {
 }
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
-fetch('data.json?v=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
-        buildMVP(data);
-        buildAwards(data);
-    })
-    .catch(err => {
-        document.getElementById('mvp-loading').innerHTML = '<div class="error">Error loading data.json</div>';
-        document.getElementById('awards-loading').innerHTML = '<div class="error">Error loading data.json</div>';
-    });
+Promise.all([
+    fetch('notificaciones_historicas.json?v=' + Date.now()).then(r => r.json()),
+    fetch('data.json?v=' + Date.now()).then(r => r.json())
+]).then(([hist, data]) => {
+    // Merge: use full history for notifications, data.json for tables/lookup
+    const merged = {
+        notificaciones: hist.global || [],
+        notificaciones_franchise: hist.franchise || [],
+        tablas: data.tablas,
+        tablas_teams: data.tablas_teams
+    };
+    buildMVP(merged);
+    buildAwards(merged);
+}).catch(err => {
+    document.getElementById('mvp-loading').innerHTML = '<div class="error">Error loading data</div>';
+    document.getElementById('awards-loading').innerHTML = '<div class="error">Error loading data</div>';
+});
 
 // ─── MVP ──────────────────────────────────────────────────────────────────────
 const SEASON_START = 1761004800; // 2026-10-20 00:00:00 UTC
