@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:05:24",
+    "ultima_actualizacion": "02:06:40",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -117,9 +117,9 @@
                 "Rank": 118,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 14,
-                "Total": 16651,
-                "Diff": "7",
+                "Hoy": 16,
+                "Total": 16653,
+                "Diff": "5",
                 "Antece": "Jimmy Butler",
                 "Nota": "",
                 "game_status": "playing"
@@ -130,7 +130,7 @@
                 "Team": "TOR",
                 "Hoy": 0,
                 "Total": 16585,
-                "Diff": "66",
+                "Diff": "68",
                 "Antece": "Karl-Anthony Towns",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1067,25 +1067,25 @@
             },
             {
                 "Rank": 235,
-                "Nombre": "Luguentz Dort",
-                "Team": "ATL",
-                "Hoy": 0,
+                "Nombre": "Immanuel Quickley",
+                "Team": "TOR",
+                "Hoy": 2,
                 "Total": 884,
                 "Diff": "1",
                 "Antece": "Dāvis Bertāns",
                 "Nota": "A tiro de 1",
-                "game_status": "not_started"
+                "game_status": "playing"
             },
             {
-                "Rank": 237,
-                "Nombre": "Immanuel Quickley",
-                "Team": "TOR",
-                "Hoy": 1,
-                "Total": 883,
+                "Rank": 236,
+                "Nombre": "Luguentz Dort",
+                "Team": "ATL",
+                "Hoy": 0,
+                "Total": 884,
                 "Diff": "",
-                "Antece": "Ersan İlyasova",
+                "Antece": "Immanuel Quickley",
                 "Nota": "Mismo total",
-                "game_status": "playing"
+                "game_status": "not_started"
             },
             {
                 "Rank": 246,
@@ -2338,9 +2338,9 @@
                 "Rank": 5,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1885,
-                "Diff": "115",
+                "Hoy": 3,
+                "Total": 1886,
+                "Diff": "114",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -2418,9 +2418,9 @@
                 "Rank": 13,
                 "Nombre": "Immanuel Quickley",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 396,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 397,
+                "Diff": "3",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2791,13 +2791,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anfernee Simons (3 three-pointers today) has passed Dennis Schröder and Mikal Bridges and is now ranked 133rd all-time with 1,143.",
-            "foto": [
-                "collages/1794534383643805_collage_1794534383546842.png"
-            ],
-            "timestamp": 1794534383
-        },
         {
             "texto": "Anfernee Simons (4 three-pointers today) has passed Gary Trent Jr. and is now ranked 133rd all-time with 1,144.",
             "foto": [
@@ -3490,6 +3483,13 @@
                 "collages/1794790046983424_collage_1794790046875458.png"
             ],
             "timestamp": 1794790047
+        },
+        {
+            "texto": "Immanuel Quickley (2 three-pointers today) has passed Ersan İlyasova and Jared Dudley and is now ranked 235th all-time with 884.",
+            "foto": [
+                "collages/1794791200017895_collage_1794791199931105.png"
+            ],
+            "timestamp": 1794791200
         }
     ],
     "notificaciones_franchise": [
@@ -4194,7 +4194,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2817,
+    "total_notificaciones_historicas": 2818,
     "total_franchise_historicas": 774,
-    "cache_buster": 1794791124
+    "cache_buster": 1794791200
 }
