@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:47:46",
+    "ultima_actualizacion": "03:51:14",
     "jornada_inici": 1794526644,
     "tablas": {
         "pts": [
@@ -328,9 +328,9 @@
                 "Rank": 110,
                 "Nombre": "Domantas Sabonis",
                 "Team": "SAC",
-                "Hoy": 6,
-                "Total": 7247,
-                "Diff": "14",
+                "Hoy": 7,
+                "Total": 7248,
+                "Diff": "13",
                 "Antece": "Jermaine O'Neal",
                 "Nota": "",
                 "game_status": "playing"
@@ -913,25 +913,25 @@
             },
             {
                 "Rank": 133,
+                "Nombre": "Gary Trent Jr.",
+                "Team": "MIL",
+                "Hoy": 4,
+                "Total": 1147,
+                "Diff": "1",
+                "Antece": "Steve Smith",
+                "Nota": "A tiro de 1",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 134,
                 "Nombre": "Anfernee Simons",
                 "Team": "PHI",
                 "Hoy": 1,
                 "Total": 1146,
-                "Diff": "2",
-                "Antece": "Steve Smith",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Gary Trent Jr.",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
-            },
-            {
-                "Rank": 134,
-                "Nombre": "Gary Trent Jr.",
-                "Team": "MIL",
-                "Hoy": 3,
-                "Total": 1146,
-                "Diff": "",
-                "Antece": "Anfernee Simons",
-                "Nota": "Mismo total",
-                "game_status": "playing"
             },
             {
                 "Rank": 135,
@@ -940,7 +940,7 @@
                 "Hoy": 0,
                 "Total": 1144,
                 "Diff": "2",
-                "Antece": "Gary Trent Jr.",
+                "Antece": "Anfernee Simons",
                 "Nota": "",
                 "game_status": "finished"
             },
@@ -2824,9 +2824,9 @@
                 "Rank": 12,
                 "Nombre": "Domantas Sabonis",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 3617,
-                "Diff": "95",
+                "Hoy": 7,
+                "Total": 3618,
+                "Diff": "94",
                 "Antece": "Jack Coleman",
                 "game_status": "playing"
             },
@@ -3064,22 +3064,15 @@
                 "Rank": 19,
                 "Nombre": "Gary Trent Jr.",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 311,
-                "Diff": "8",
+                "Hoy": 4,
+                "Total": 312,
+                "Diff": "7",
                 "Antece": "Eric Bledsoe",
                 "game_status": "playing"
             }
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Dillon Brooks (2 three-pointers today) has passed Luke Kennard and Nick Young and is now ranked 175th all-time with 1,040.",
-            "foto": [
-                "collages/1794540953252073_collage_1794540953149106.png"
-            ],
-            "timestamp": 1794540953
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Devin Booker (25 points today) has passed Rick Barry and is now ranked 77th all-time with 18,396.",
             "foto": [
@@ -3772,6 +3765,13 @@
                 "collages/1794795979726708_collage_1794795979633890.png"
             ],
             "timestamp": 1794795979
+        },
+        {
+            "texto": "Gary Trent Jr. (4 three-pointers today) has passed Anfernee Simons and is now ranked 133rd all-time with 1,147.",
+            "foto": [
+                "collages/1794797474437713_collage_1794797474335765.png"
+            ],
+            "timestamp": 1794797474
         }
     ],
     "notificaciones_franchise": [
@@ -4476,7 +4476,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2827,
+    "total_notificaciones_historicas": 2828,
     "total_franchise_historicas": 775,
-    "cache_buster": 1794797266
+    "cache_buster": 1794797474
 }
