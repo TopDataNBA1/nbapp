@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Data NBA — MVP & Awards</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Roboto', sans-serif; background: #0f0f1b; color: #e0e0e0; min-height: 100vh; }
+
+/* TOPBAR */
+.topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px;
+    background: rgba(0,0,0,0.9);
+    border-bottom: 3px solid #ff4655;
+}
+.topbar-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(0.9em, 3.5vw, 1.5em);
+    color: #ff4655;
+    text-shadow: 0 0 10px #ff4655;
+}
+.back-btn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em;
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 6px 14px;
+    border: 1.5px solid #ff4655;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.back-btn:hover { background: rgba(255,70,85,0.2); color: #ff4655; }
+
+/* TABS */
+.tabs-row {
+    display: flex; gap: 0;
+    border-bottom: 2px solid #1e1e3a;
+    background: #0a0a16;
+}
+.tab-btn {
+    flex: 1; padding: 12px 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(0.7em, 2.5vw, 0.95em);
+    background: none; border: none; cursor: pointer;
+    color: #888; border-bottom: 3px solid transparent;
+    transition: 0.2s; letter-spacing: 0.03em;
+}
+.tab-btn.active { color: #ff4655; border-bottom-color: #ff4655; }
+.tab-btn:hover:not(.active) { color: #ccc; background: rgba(255,255,255,0.03); }
+
+.tab-panel { display: none; padding: 16px 12px; }
+.tab-panel.active { display: block; }
+
+/* MVP TABLE */
+.mvp-section-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.72em;
+    color: #ff4655;
+    letter-spacing: 0.08em;
+    margin: 18px 0 8px;
+    text-transform: uppercase;
+}
+.mvp-section-label:first-child { margin-top: 0; }
+
+.mvp-table-wrap { overflow-x: auto; border-radius: 8px; box-shadow: 0 4px 20px #000a; }
+table.mvp-table {
+    border-collapse: collapse; width: 100%; min-width: 420px;
+}
+table.mvp-table thead th {
+    background: #0d1b2e; color: #f0b429;
+    padding: 9px 7px; font-size: 0.78em;
+    position: sticky; top: 0; z-index: 10;
+    border-bottom: 2px solid #1e3050;
+    text-align: center; white-space: nowrap;
+}
+table.mvp-table thead th.th-name { text-align: left; padding-left: 10px; min-width: 140px; }
+table.mvp-table tbody td {
+    border: 1px solid #121d2c; padding: 5px 7px;
+    background: #0b111c; font-size: 0.82em;
+    text-align: center; vertical-align: middle;
+}
+table.mvp-table tbody tr:nth-child(even) td { background: #0c1320; }
+table.mvp-table tbody tr:hover td { background: #101e30 !important; }
+table.mvp-table td.td-name { text-align: left; padding-left: 10px; }
+table.mvp-table td.td-rank { color: #888; font-size: 0.75em; width: 28px; }
+table.mvp-table td.td-n { font-weight: 700; color: #ff4655; }
+table.mvp-table td.td-g { color: #aaa; }
+table.mvp-table td.zero { color: #2a3a50; }
+
+.player-photo {
+    width: 32px; height: 48px;
+    object-fit: cover; object-position: top center;
+    border-radius: 4px; border: 1px solid #1e3050;
+    vertical-align: middle;
+}
+.photo-cell { width: 40px; padding: 3px !important; text-align: center !important; }
+.no-photo {
+    width: 32px; height: 48px;
+    background: #1a2535; border: 1px dashed #2a3a50;
+    border-radius: 4px; display: inline-flex;
+    align-items: center; justify-content: center;
+    font-size: 0.6em; color: #4a6a8a;
+}
+
+/* Dual rows (global + franchise) */
+.row-global td { background: #0b111c !important; }
+.row-franchise td { background: #0c1522 !important; }
+.row-global:hover td, .row-franchise:hover td { background: #101e30 !important; }
+.row-label {
+    font-size: 0.65em; color: #888;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.05em; white-space: nowrap;
+}
+.row-label.gl { color: #f0b429; }
+.row-label.fr { color: #55aaff; }
+
+/* AWARDS */
+.awards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+@media (max-width: 540px) {
+    .awards-grid { grid-template-columns: 1fr; }
+}
+.award-card {
+    background: #0d111e;
+    border: 1.5px solid #1e1e3a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.award-card-header {
+    padding: 8px 12px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.72em;
+    letter-spacing: 0.06em;
+    display: flex; align-items: center; gap: 8px;
+}
+.award-card-header.east { background: #0d1f38; color: #55aaff; border-bottom: 2px solid #1a4070; }
+.award-card-header.west { background: #1f0d12; color: #ff4655; border-bottom: 2px solid #701a22; }
+.award-card-header .conf-badge {
+    font-size: 0.8em; padding: 2px 7px; border-radius: 4px; font-weight: 700;
+}
+.award-card-header.east .conf-badge { background: #1a4070; color: #7dc4ff; }
+.award-card-header.west .conf-badge { background: #701a22; color: #ff8899; }
+
+.award-entry {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #12192a;
+}
+.award-entry:last-child { border-bottom: none; }
+.award-player-photo {
+    width: 38px; height: 56px;
+    object-fit: cover; object-position: top center;
+    border-radius: 4px; border: 1px solid #1e3050; flex-shrink: 0;
+}
+.award-no-photo {
+    width: 38px; height: 56px;
+    background: #1a2535; border: 1px dashed #2a3a50;
+    border-radius: 4px; display: flex;
+    align-items: center; justify-content: center;
+    font-size: 0.6em; color: #4a6a8a; flex-shrink: 0;
+}
+.award-info { flex: 1; min-width: 0; }
+.award-name { font-size: 0.88em; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.award-team { font-size: 0.72em; color: #888; margin-top: 1px; }
+.award-pts { font-family: 'Orbitron', sans-serif; font-size: 1em; color: #f0b429; font-weight: 700; text-align: right; white-space: nowrap; }
+.award-pts-label { font-size: 0.6em; color: #888; display: block; text-align: right; }
+.empty-award { padding: 14px 12px; color: #4a6a8a; font-size: 0.8em; text-align: center; }
+
+.awards-period-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em; color: #f0b429;
+    letter-spacing: 0.08em;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+}
+.awards-period-label:first-child { margin-top: 0; }
+
+.loading { text-align: center; padding: 40px; color: #888; font-size: 0.9em; }
+.error { text-align: center; padding: 20px; color: #ff6677; font-size: 0.85em; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+    <a href="index.html" class="back-btn">← Back</a>
+    <div class="topbar-title">MVP & AWARDS</div>
+    <div style="width:70px"></div>
+</div>
+
+<div class="tabs-row">
+    <button class="tab-btn active" onclick="switchTab('mvp')">🏀 M.V.P.</button>
+    <button class="tab-btn" onclick="switchTab('awards')">🏆 Awards</button>
+</div>
+
+<div id="tab-mvp" class="tab-panel active">
+    <div class="loading" id="mvp-loading">Loading data…</div>
+</div>
+
+<div id="tab-awards" class="tab-panel">
+    <div class="loading" id="awards-loading">Loading data…</div>
+</div>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+const DATA_URL = 'data.json?v=' + Date.now();
+const PHOTOS_BASE = 'photos/';
+
+// NBA conferences (current + historical abbrevs used in franchise data)
+const EAST_TEAMS = new Set(['ATL','BOS','BRK','NJN','CHA','CHO','CHI','CLE','DET','IND','MIA','MIL','NYK','ORL','PHI','TOR','WAS']);
+const WEST_TEAMS = new Set(['DAL','DEN','GSW','HOU','LAC','LAL','MEM','VAN','MIN','NOH','NOK','NOP','OKC','SEA','PHO','POR','SAC','SAS','UTA']);
+
+// Categories
+const CATS = ['P','3','R','A','S','B'];
+const CAT_LABELS = { P:'PTS', '3':'3PT', R:'REB', A:'AST', S:'STL', B:'BLK' };
+
+// Extract player + category from notification text
+const CAT_MAP = [
+    { re: /\bpoint/, cat: 'P' },
+    { re: /\bthree-pointer|\bthree pointer|\bthree-point|\b3-pointer/, cat: '3' },
+    { re: /\brebound/, cat: 'R' },
+    { re: /\bassist/, cat: 'A' },
+    { re: /\bsteal/, cat: 'S' },
+    { re: /\bblock/, cat: 'B' },
+];
+
+function parseNotif(texto) {
+    // Strip leading emojis/spaces
+    const clean = texto.replace(/^[\u{1F000}-\u{1FFFF}☀-⟿\s]+/u, '').trim();
+    const m = clean.match(/^(.+?)\s+\(\d+\s+([\w-]+)/);
+    if (!m) return { name: null, cat: null };
+    const name = m[1].trim();
+    const word = m[2].toLowerCase();
+    let cat = null;
+    for (const { re, cat: c } of CAT_MAP) {
+        if (re.test(word)) { cat = c; break; }
+    }
+    return { name, cat };
+}
+
+function photoUrl(name) {
+    // Normalize name to filename: lowercase, spaces→underscores, strip accents/special
+    const norm = name.normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-zA-Z0-9 ]/g, '').trim()
+        .replace(/\s+/g, '_').toLowerCase();
+    return PHOTOS_BASE + norm + '.jpg';
+}
+
+function photoEl(name, cls, w, h) {
+    const img = document.createElement('img');
+    img.src = photoUrl(name);
+    img.alt = name;
+    img.className = cls;
+    img.onerror = function() {
+        const div = document.createElement('div');
+        div.className = cls.replace('player-photo','no-photo').replace('award-player-photo','award-no-photo');
+        div.textContent = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+        this.replaceWith(div);
+    };
+    return img;
+}
+
+// ─── TABS ─────────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+    document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', (tab==='mvp'&&i===0)||(tab==='awards'&&i===1)));
+    document.getElementById('tab-mvp').classList.toggle('active', tab==='mvp');
+    document.getElementById('tab-awards').classList.toggle('active', tab==='awards');
+}
+
+// ─── MAIN ─────────────────────────────────────────────────────────────────────
+fetch('data.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+        buildMVP(data);
+        buildAwards(data);
+    })
+    .catch(err => {
+        document.getElementById('mvp-loading').innerHTML = '<div class="error">Error loading data.json</div>';
+        document.getElementById('awards-loading').innerHTML = '<div class="error">Error loading data.json</div>';
+    });
+
+// ─── MVP ──────────────────────────────────────────────────────────────────────
+function buildMVP(data) {
+    const notifs = data.notificaciones || [];
+    const notifsF = data.notificaciones_franchise || [];
+
+    // Aggregate global
+    const globalMap = {};
+    for (const n of notifs) {
+        const { name, cat } = parseNotif(n.texto || '');
+        if (!name) continue;
+        if (!globalMap[name]) globalMap[name] = { N:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        globalMap[name].N++;
+        if (cat) globalMap[name][cat]++;
+        // Approximate game count by date
+        const d = new Date(n.timestamp * 1000);
+        globalMap[name].G.add(d.toISOString().slice(0,10));
+    }
+
+    // Aggregate franchise
+    const franchMap = {};
+    for (const n of notifsF) {
+        const { name, cat } = parseNotif(n.texto || '');
+        if (!name) continue;
+        if (!franchMap[name]) franchMap[name] = { N:0, P:0,'3':0,R:0,A:0,S:0,B:0,G:new Set() };
+        franchMap[name].N++;
+        if (cat) franchMap[name][cat]++;
+        const d = new Date(n.timestamp * 1000);
+        franchMap[name].G.add(d.toISOString().slice(0,10));
+    }
+
+    // Sort by N desc
+    const globalList = Object.entries(globalMap).map(([name,s]) => ({ name, ...s, G: s.G.size }))
+        .sort((a,b) => b.N - a.N);
+    const franchList = Object.entries(franchMap).map(([name,s]) => ({ name, ...s, G: s.G.size }))
+        .sort((a,b) => b.N - a.N);
+
+    const container = document.getElementById('tab-mvp');
+    container.innerHTML = '';
+
+    function buildTable(list, labelCls, labelText) {
+        const section = document.createElement('div');
+        const lbl = document.createElement('div');
+        lbl.className = 'mvp-section-label';
+        lbl.textContent = labelText;
+        section.appendChild(lbl);
+
+        const wrap = document.createElement('div');
+        wrap.className = 'mvp-table-wrap';
+        const tbl = document.createElement('table');
+        tbl.className = 'mvp-table';
+
+        // Header
+        tbl.innerHTML = `<thead><tr>
+            <th class="th-name" style="text-align:left;padding-left:36px">Player</th>
+            <th title="Notifications">N</th>
+            ${CATS.map(c=>`<th title="${CAT_LABELS[c]}">${CAT_LABELS[c]}</th>`).join('')}
+            <th title="Games">G</th>
+        </tr></thead>`;
+
+        const tbody = document.createElement('tbody');
+        list.forEach((p, i) => {
+            const tr = document.createElement('tr');
+            tr.className = labelCls === 'gl' ? 'row-global' : 'row-franchise';
+            tr.innerHTML = `
+                <td class="td-name">
+                    <div style="display:flex;align-items:center;gap:8px">
+                        <span style="color:#888;font-size:0.75em;width:22px;text-align:right;flex-shrink:0">${i+1}</span>
+                        <span class="row-label ${labelCls}" style="display:none"></span>
+                        <span>${p.name}</span>
+                    </div>
+                </td>
+                <td class="td-n">${p.N}</td>
+                ${CATS.map(c => `<td class="${p[c]===0?'zero':''}">${p[c]||''}</td>`).join('')}
+                <td class="td-g">${p.G}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        if (list.length === 0) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td colspan="${2+CATS.length+1}" style="color:#4a6a8a;text-align:center;padding:14px">No data</td>`;
+            tbody.appendChild(tr);
+        }
+
+        tbl.appendChild(tbody);
+        wrap.appendChild(tbl);
+        section.appendChild(wrap);
+        return section;
+    }
+
+    container.appendChild(buildTable(globalList, 'gl', '🌍 Global'));
+    container.appendChild(buildTable(franchList, 'fr', '🏟️ Franchise'));
+}
+
+// ─── AWARDS ───────────────────────────────────────────────────────────────────
+// Get week boundaries (Mon–Sun) in ET (UTC-5 approx)
+function getWeekStart(ts) {
+    const d = new Date((ts - 5*3600) * 1000);
+    const day = d.getUTCDay(); // 0=Sun
+    const diff = day === 0 ? 6 : day - 1; // days since Monday
+    const mon = new Date(d);
+    mon.setUTCDate(d.getUTCDate() - diff);
+    return mon.toISOString().slice(0,10);
+}
+
+function getMonthKey(ts) {
+    const d = new Date((ts - 5*3600) * 1000);
+    return `${d.getUTCFullYear()}-${String(d.getUTCMonth()+1).padStart(2,'0')}`;
+}
+
+function buildAwards(data) {
+    const notifs = data.notificaciones || [];
+    const notifsF = data.notificaciones_franchise || [];
+
+    // For Awards, we use FRANCHISE notifs (have team → conference)
+    // and GLOBAL pts notifs (no team, but we can infer from tablas_teams)
+    // Build a player→team lookup from tablas_teams
+    const playerTeam = {};
+    for (const [team, rows] of Object.entries(data.tablas_teams || {})) {
+        for (const row of rows) {
+            if (row.Nombre) playerTeam[row.Nombre] = team;
+        }
+    }
+    // Also from tablas (global ranking has Team field)
+    for (const [cat, rows] of Object.entries(data.tablas || {})) {
+        for (const row of rows) {
+            if (row.Nombre && row.Team) playerTeam[row.Nombre] = row.Team;
+        }
+    }
+
+    // Accumulate pts per player per week and per month
+    // Using franchise notifs (have team) + global pts notifs with team lookup
+    // We'll use ALL notifications but only count points category
+    const weekPts  = {}; // { weekKey: { player: { pts, team, name } } }
+    const monthPts = {}; // { monthKey: { player: { pts, team, name } } }
+
+    function addPts(name, team, ts) {
+        if (!name || !team) return;
+        const wk = getWeekStart(ts);
+        const mk = getMonthKey(ts);
+        if (!weekPts[wk]) weekPts[wk] = {};
+        if (!weekPts[wk][name]) weekPts[wk][name] = { pts: 0, team, name };
+        weekPts[wk][name].pts++;
+
+        if (!monthPts[mk]) monthPts[mk] = {};
+        if (!monthPts[mk][name]) monthPts[mk][name] = { pts: 0, team, name };
+        monthPts[mk][name].pts++;
+    }
+
+    // Global notifications: only 'P' category, look up team
+    for (const n of notifs) {
+        const { name, cat } = parseNotif(n.texto || '');
+        if (!name || cat !== 'P') continue;
+        const team = playerTeam[name];
+        addPts(name, team, n.timestamp);
+    }
+
+    // Franchise notifications: only 'P' category, use team field
+    for (const n of notifsF) {
+        const { name, cat } = parseNotif(n.texto || '');
+        if (!name || cat !== 'P') continue;
+        addPts(name, n.team, n.timestamp);
+    }
+
+    // For each period, find best East + best West
+    function getBestByConf(bucket) {
+        let eastBest = null, westBest = null;
+        for (const [name, info] of Object.entries(bucket)) {
+            const conf = EAST_TEAMS.has(info.team) ? 'E' : WEST_TEAMS.has(info.team) ? 'W' : null;
+            if (conf === 'E' && (!eastBest || info.pts > eastBest.pts)) eastBest = info;
+            if (conf === 'W' && (!westBest || info.pts > westBest.pts)) westBest = info;
+        }
+        return { east: eastBest, west: westBest };
+    }
+
+    // Sort periods
+    const weeks  = Object.keys(weekPts).sort().reverse();
+    const months = Object.keys(monthPts).sort().reverse();
+
+    function formatWeek(wk) {
+        const d = new Date(wk + 'T00:00:00Z');
+        const sun = new Date(d); sun.setUTCDate(d.getUTCDate() + 6);
+        const fmt = d2 => d2.toLocaleDateString('en-US', {month:'short',day:'numeric',timeZone:'UTC'});
+        return `Week ${fmt(d)} – ${fmt(sun)}`;
+    }
+    function formatMonth(mk) {
+        const [y, m] = mk.split('-');
+        return new Date(y, m-1).toLocaleDateString('en-US', {month:'long',year:'numeric'});
+    }
+
+    function awardCard(info, confCls, confLabel, period) {
+        const card = document.createElement('div');
+        card.className = 'award-card';
+        const hdr = document.createElement('div');
+        hdr.className = `award-card-header ${confCls}`;
+        hdr.innerHTML = `<span class="conf-badge">${confLabel}</span> BEST SCORER`;
+        card.appendChild(hdr);
+
+        if (!info) {
+            const empty = document.createElement('div');
+            empty.className = 'empty-award';
+            empty.textContent = 'No data';
+            card.appendChild(empty);
+            return card;
+        }
+
+        const entry = document.createElement('div');
+        entry.className = 'award-entry';
+        const photo = photoEl(info.name, 'award-player-photo');
+        entry.appendChild(photo);
+
+        const infoDiv = document.createElement('div');
+        infoDiv.className = 'award-info';
+        infoDiv.innerHTML = `
+            <div class="award-name">${info.name}</div>
+            <div class="award-team">${info.team || '—'}</div>
+        `;
+        entry.appendChild(infoDiv);
+
+        const ptsDiv = document.createElement('div');
+        ptsDiv.className = 'award-pts';
+        ptsDiv.innerHTML = `${info.pts}<span class="award-pts-label">notifs</span>`;
+        entry.appendChild(ptsDiv);
+
+        card.appendChild(entry);
+        return card;
+    }
+
+    const container = document.getElementById('tab-awards');
+    container.innerHTML = '';
+
+    // WEEKLY AWARDS
+    if (weeks.length > 0) {
+        const wlbl = document.createElement('div');
+        wlbl.className = 'awards-period-label';
+        wlbl.textContent = '📅 Weekly Best Scorer (Points notifications)';
+        container.appendChild(wlbl);
+
+        for (const wk of weeks) {
+            const { east, west } = getBestByConf(weekPts[wk]);
+            const plbl = document.createElement('div');
+            plbl.style.cssText = 'font-size:0.75em;color:#aaa;margin:12px 0 6px;padding-left:2px';
+            plbl.textContent = formatWeek(wk);
+            container.appendChild(plbl);
+            const grid = document.createElement('div');
+            grid.className = 'awards-grid';
+            grid.appendChild(awardCard(east, 'east', 'EAST', wk));
+            grid.appendChild(awardCard(west, 'west', 'WEST', wk));
+            container.appendChild(grid);
+        }
+    }
+
+    // MONTHLY AWARDS
+    if (months.length > 0) {
+        const mlbl = document.createElement('div');
+        mlbl.className = 'awards-period-label';
+        mlbl.style.marginTop = '28px';
+        mlbl.textContent = '📆 Monthly Best Scorer (Points notifications)';
+        container.appendChild(mlbl);
+
+        for (const mk of months) {
+            const { east, west } = getBestByConf(monthPts[mk]);
+            const plbl = document.createElement('div');
+            plbl.style.cssText = 'font-size:0.75em;color:#aaa;margin:12px 0 6px;padding-left:2px';
+            plbl.textContent = formatMonth(mk);
+            container.appendChild(plbl);
+            const grid = document.createElement('div');
+            grid.className = 'awards-grid';
+            grid.appendChild(awardCard(east, 'east', 'EAST', mk));
+            grid.appendChild(awardCard(west, 'west', 'WEST', mk));
+            container.appendChild(grid);
+        }
+    }
+
+    if (weeks.length === 0 && months.length === 0) {
+        container.innerHTML = '<div class="empty-award">No points notifications found.</div>';
+    }
+
+    document.getElementById('awards-loading').remove();
+}
+</script>
+</body>
+</html>
