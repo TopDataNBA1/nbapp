@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:55:51",
+    "ultima_actualizacion": "04:57:03",
     "jornada_inici": 1794963077,
     "tablas": {
         "pts": [
@@ -495,25 +495,25 @@
             },
             {
                 "Rank": 167,
-                "Nombre": "Taurean Prince",
-                "Team": "DET",
-                "Hoy": 0,
+                "Nombre": "Darius Garland",
+                "Team": "LAC",
+                "Hoy": 1,
                 "Total": 1050,
                 "Diff": "5",
                 "Antece": "Nick Anderson",
                 "Nota": "",
-                "game_status": "inactive"
+                "game_status": "playing"
             },
             {
-                "Rank": 169,
-                "Nombre": "Darius Garland",
-                "Team": "LAC",
+                "Rank": 168,
+                "Nombre": "Taurean Prince",
+                "Team": "DET",
                 "Hoy": 0,
-                "Total": 1049,
+                "Total": 1050,
                 "Diff": "",
-                "Antece": "Channing Frye",
+                "Antece": "Darius Garland",
                 "Nota": "Mismo total",
-                "game_status": "playing"
+                "game_status": "inactive"
             },
             {
                 "Rank": 170,
@@ -522,7 +522,7 @@
                 "Hoy": 1,
                 "Total": 1049,
                 "Diff": "",
-                "Antece": "Darius Garland",
+                "Antece": "Channing Frye",
                 "Nota": "Mismo total",
                 "game_status": "finished"
             },
@@ -1605,9 +1605,9 @@
                 "Rank": 16,
                 "Nombre": "Keyonte George",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1129,
-                "Diff": "99",
+                "Hoy": 3,
+                "Total": 1130,
+                "Diff": "98",
                 "Antece": "Mike Conley",
                 "game_status": "playing"
             },
@@ -1686,13 +1686,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jamal Murray (9 assists today) has passed Foots Walker and is now ranked 227th all-time with 3,112.",
-            "foto": [
-                "collages/1794709889390365_collage_1794709889274317.png"
-            ],
-            "timestamp": 1794709889
-        },
         {
             "texto": "Julius Randle (3 three-pointers today) has passed Mark Price and Walt Williams and is now ranked 198th all-time with 977.",
             "foto": [
@@ -2385,6 +2378,13 @@
                 "collages/1794971962687464_collage_1794971962593708.png"
             ],
             "timestamp": 1794971962
+        },
+        {
+            "texto": "Darius Garland (1 three-pointer today) has passed Channing Frye and is now ranked 167th all-time with 1,050.",
+            "foto": [
+                "collages/1794974223755243_collage_1794974223645857.png"
+            ],
+            "timestamp": 1794974223
         }
     ],
     "notificaciones_franchise": [
@@ -3099,7 +3099,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2896,
+    "total_notificaciones_historicas": 2897,
     "total_franchise_historicas": 791,
-    "cache_buster": 1794974151
+    "cache_buster": 1794974223
 }
