@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:29:55",
+    "ultima_actualizacion": "04:31:07",
     "jornada_inici": 1794963077,
     "tablas": {
         "pts": [
@@ -79,6 +79,17 @@
                 "Antece": "Tiny Archibald",
                 "Nota": "",
                 "game_status": "inactive"
+            },
+            {
+                "Rank": 153,
+                "Nombre": "Luka Dončić",
+                "Team": "LAL",
+                "Hoy": 0,
+                "Total": 15489,
+                "Diff": "41",
+                "Antece": "Bob Dandridge",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 175,
@@ -296,6 +307,17 @@
                 "game_status": "inactive"
             },
             {
+                "Rank": 40,
+                "Nombre": "Luka Dončić",
+                "Team": "LAL",
+                "Hoy": 0,
+                "Total": 1697,
+                "Diff": "3",
+                "Antece": "1700",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 49,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
@@ -406,6 +428,17 @@
                 "game_status": "inactive"
             },
             {
+                "Rank": 126,
+                "Nombre": "Royce O'Neale",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1155,
+                "Diff": "6",
+                "Antece": "Donte DiVincenzo",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 135,
                 "Nombre": "Mikal Bridges",
                 "Team": "NYK",
@@ -417,6 +450,17 @@
                 "game_status": "finished"
             },
             {
+                "Rank": 136,
+                "Nombre": "Dennis Schröder",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1142,
+                "Diff": "4",
+                "Antece": "Mikal Bridges",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
                 "Rank": 137,
                 "Nombre": "Kevin Huerter",
                 "Team": "DET",
@@ -426,6 +470,28 @@
                 "Antece": "Dennis Schröder",
                 "Nota": "Mismo total",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 144,
+                "Nombre": "Coby White",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1106,
+                "Diff": "5",
+                "Antece": "Gordon Hayward",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 165,
+                "Nombre": "Grayson Allen",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 1058,
+                "Diff": "1",
+                "Antece": "Allen Iverson",
+                "Nota": "A tiro de 1",
+                "game_status": "inactive"
             },
             {
                 "Rank": 167,
@@ -527,6 +593,28 @@
                 "Antece": "Scottie Pippen",
                 "Nota": "",
                 "game_status": "playing"
+            },
+            {
+                "Rank": 97,
+                "Nombre": "Dennis Schröder",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 4482,
+                "Diff": "5",
+                "Antece": "Randy Smith",
+                "Nota": "",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 107,
+                "Nombre": "Luka Dončić",
+                "Team": "LAL",
+                "Hoy": 0,
+                "Total": 4323,
+                "Diff": "16",
+                "Antece": "Jay Humphries",
+                "Nota": "",
+                "game_status": "not_started"
             },
             {
                 "Rank": 151,
@@ -663,10 +751,53 @@
                 "Antece": "Al Harrington",
                 "Nota": "Mismo total",
                 "game_status": "finished"
+            },
+            {
+                "Rank": 244,
+                "Nombre": "Dennis Schröder",
+                "Team": "CHA",
+                "Hoy": 0,
+                "Total": 921,
+                "Diff": "2",
+                "Antece": "Mark Aguirre",
+                "Nota": "",
+                "game_status": "not_started"
             }
         ]
     },
     "tablas_teams": {
+        "CHA": [
+            {
+                "Rank": 25,
+                "Nombre": "Brandon Miller",
+                "Stat": "PTS",
+                "Hoy": 0,
+                "Total": 3369,
+                "Diff": "10",
+                "Antece": "Kelly Tripucka",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 8,
+                "Nombre": "Brandon Miller",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 520,
+                "Diff": "16",
+                "Antece": "P.J. Washington",
+                "game_status": "not_started"
+            },
+            {
+                "Rank": 21,
+                "Nombre": "Kon Knueppel",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 273,
+                "Diff": "7",
+                "Antece": "Baron Davis",
+                "game_status": "inactive"
+            }
+        ],
         "DET": [
             {
                 "Rank": 24,
@@ -1518,6 +1649,38 @@
                 "Total": 372,
                 "Diff": "28",
                 "Antece": "400",
+                "game_status": "not_started"
+            }
+        ],
+        "LAL": [
+            {
+                "Rank": 18,
+                "Nombre": "Austin Reaves",
+                "Stat": "AST",
+                "Hoy": 0,
+                "Total": 1532,
+                "Diff": "61",
+                "Antece": "Shaquille O'Neal",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 5,
+                "Nombre": "Austin Reaves",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 638,
+                "Diff": "62",
+                "Antece": "700",
+                "game_status": "inactive"
+            },
+            {
+                "Rank": 14,
+                "Nombre": "Luka Dončić",
+                "Stat": "3PM",
+                "Hoy": 0,
+                "Total": 421,
+                "Diff": "7",
+                "Antece": "Michael Cooper",
                 "game_status": "not_started"
             }
         ]
@@ -2936,5 +3099,5 @@
     ],
     "total_notificaciones_historicas": 2896,
     "total_franchise_historicas": 790,
-    "cache_buster": 1794972595
+    "cache_buster": 1794972667
 }
