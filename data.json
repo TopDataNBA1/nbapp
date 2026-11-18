@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:15:03",
+    "ultima_actualizacion": "03:16:06",
     "jornada_inici": 1794963077,
     "tablas": {
         "pts": [
@@ -86,9 +86,9 @@
                 "Rank": 26,
                 "Nombre": "Andre Drummond",
                 "Team": "NYK",
-                "Hoy": 5,
-                "Total": 11615,
-                "Diff": "286",
+                "Hoy": 7,
+                "Total": 11617,
+                "Diff": "284",
                 "Antece": "Kevin Willis",
                 "Nota": "",
                 "game_status": "playing"
@@ -400,9 +400,9 @@
                 "Rank": 40,
                 "Nombre": "Damian Lillard",
                 "Team": "POR",
-                "Hoy": 4,
-                "Total": 6129,
-                "Diff": "6",
+                "Hoy": 5,
+                "Total": 6130,
+                "Diff": "5",
                 "Antece": "Scottie Pippen",
                 "Nota": "",
                 "game_status": "playing"
@@ -422,11 +422,11 @@
                 "Rank": 241,
                 "Nombre": "Jalen Brunson",
                 "Team": "NYK",
-                "Hoy": 4,
-                "Total": 3033,
-                "Diff": "1",
+                "Hoy": 5,
+                "Total": 3034,
+                "Diff": "",
                 "Antece": "Elfrid Payton",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             }
         ],
@@ -792,10 +792,10 @@
                 "Rank": 15,
                 "Nombre": "Jalen Brunson",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 1999,
-                "Diff": "1",
-                "Antece": "2000",
+                "Hoy": 5,
+                "Total": 2000,
+                "Diff": "4",
+                "Antece": "Stephon Marbury",
                 "game_status": "playing"
             },
             {
@@ -884,9 +884,9 @@
                 "Rank": 2,
                 "Nombre": "Damian Lillard",
                 "Stat": "AST",
-                "Hoy": 4,
-                "Total": 5211,
-                "Diff": "108",
+                "Hoy": 5,
+                "Total": 5212,
+                "Diff": "107",
                 "Antece": "Terry Porter",
                 "game_status": "playing"
             },
@@ -934,9 +934,9 @@
                 "Rank": 12,
                 "Nombre": "Toumani Camara",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 446,
-                "Diff": "18",
+                "Hoy": 1,
+                "Total": 447,
+                "Diff": "17",
                 "Antece": "Clyde Drexler",
                 "game_status": "playing"
             },
@@ -1158,9 +1158,9 @@
                 "Rank": 9,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2168,
-                "Diff": "332",
+                "Hoy": 5,
+                "Total": 2170,
+                "Diff": "330",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -2010,13 +2010,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Fred VanVleet (1 three-pointer today) has passed P.J. Tucker and is now ranked 16th in Rockets history with 396.",
-            "foto": [],
-            "timestamp": 1793842924,
-            "team": "HOU",
-            "type": "franchise"
-        },
-        {
             "texto": "Rudy Gobert today becomes the 17th player to reach 300 games with Timberwolves.",
             "foto": [],
             "timestamp": 1793842924,
@@ -2708,9 +2701,18 @@
             "timestamp": 1794962746,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Brunson (5 assists today) becomes the 15th player to reach 2,000 assists with Knicks.",
+            "foto": [
+                "collages/1794968166414438_collage_1794968166351943.png"
+            ],
+            "timestamp": 1794968166,
+            "team": "NYK",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2894,
-    "total_franchise_historicas": 786,
-    "cache_buster": 1794968103
+    "total_franchise_historicas": 787,
+    "cache_buster": 1794968166
 }
