@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:33:58",
+    "ultima_actualizacion": "03:35:03",
     "jornada_inici": 1794963077,
     "tablas": {
         "pts": [
@@ -7,9 +7,9 @@
                 "Rank": 37,
                 "Nombre": "Damian Lillard",
                 "Team": "POR",
-                "Hoy": 13,
-                "Total": 22867,
-                "Diff": "133",
+                "Hoy": 16,
+                "Total": 22870,
+                "Diff": "130",
                 "Antece": "23000",
                 "Nota": "",
                 "game_status": "playing"
@@ -154,9 +154,9 @@
                 "Rank": 154,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 817,
-                "Diff": "11",
+                "Hoy": 1,
+                "Total": 818,
+                "Diff": "10",
                 "Antece": "Marvin Webster",
                 "Nota": "",
                 "game_status": "playing"
@@ -189,9 +189,9 @@
                 "Rank": 5,
                 "Nombre": "Damian Lillard",
                 "Team": "POR",
-                "Hoy": 3,
-                "Total": 2846,
-                "Diff": "54",
+                "Hoy": 4,
+                "Total": 2847,
+                "Diff": "53",
                 "Antece": "2900",
                 "Nota": "",
                 "game_status": "playing"
@@ -376,9 +376,9 @@
                 "Rank": 234,
                 "Nombre": "Immanuel Quickley",
                 "Team": "TOR",
-                "Hoy": 1,
-                "Total": 886,
-                "Diff": "4",
+                "Hoy": 2,
+                "Total": 887,
+                "Diff": "3",
                 "Antece": "Bobby Portis",
                 "Nota": "",
                 "game_status": "playing"
@@ -864,9 +864,9 @@
                 "Rank": 1,
                 "Nombre": "Damian Lillard",
                 "Stat": "PTS",
-                "Hoy": 13,
-                "Total": 19645,
-                "Diff": "355",
+                "Hoy": 16,
+                "Total": 19648,
+                "Diff": "352",
                 "Antece": "20000",
                 "game_status": "playing"
             },
@@ -874,9 +874,9 @@
                 "Rank": 12,
                 "Nombre": "Damian Lillard",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 3293,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 3294,
+                "Diff": "33",
                 "Antece": "Kevin Duckworth",
                 "game_status": "playing"
             },
@@ -924,9 +924,9 @@
                 "Rank": 1,
                 "Nombre": "Damian Lillard",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 2429,
-                "Diff": "71",
+                "Hoy": 4,
+                "Total": 2430,
+                "Diff": "70",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -1148,9 +1148,9 @@
                 "Rank": 8,
                 "Nombre": "Scottie Barnes",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 2737,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 2738,
+                "Diff": "1",
                 "Antece": "DeMar DeRozan",
                 "game_status": "playing"
             },
@@ -1168,9 +1168,9 @@
                 "Rank": 5,
                 "Nombre": "Scottie Barnes",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1888,
-                "Diff": "112",
+                "Hoy": 2,
+                "Total": 1889,
+                "Diff": "111",
                 "Antece": "2000",
                 "game_status": "playing"
             },
@@ -1258,10 +1258,10 @@
                 "Rank": 13,
                 "Nombre": "Immanuel Quickley",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 399,
-                "Diff": "1",
-                "Antece": "400",
+                "Hoy": 2,
+                "Total": 400,
+                "Diff": "31",
+                "Antece": "Doug Christie",
                 "game_status": "playing"
             },
             {
@@ -1270,7 +1270,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 375,
-                "Diff": "24",
+                "Diff": "25",
                 "Antece": "Immanuel Quickley",
                 "game_status": "playing"
             },
@@ -2010,13 +2010,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Keldon Johnson (3 rebounds today) has passed Malik Rose and is now ranked 18th in Spurs history with 2,461.",
-            "foto": [],
-            "timestamp": 1793848244,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝3️⃣ Rudy Gobert (3 blocks today) has passed Gorgui Dieng and is now ranked 3rd in Timberwolves history with 490.",
             "foto": [],
             "timestamp": 1793848543,
@@ -2712,9 +2705,18 @@
             "timestamp": 1794969092,
             "team": "SAS",
             "type": "franchise"
+        },
+        {
+            "texto": "Immanuel Quickley (2 three-pointers today) becomes the 13th player to reach 400 three-pointers with Raptors.",
+            "foto": [
+                "collages/1794969303208516_collage_1794969303130392.png"
+            ],
+            "timestamp": 1794969303,
+            "team": "TOR",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2895,
-    "total_franchise_historicas": 788,
-    "cache_buster": 1794969238
+    "total_franchise_historicas": 789,
+    "cache_buster": 1794969303
 }
