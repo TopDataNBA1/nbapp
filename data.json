@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:02:05",
+    "ultima_actualizacion": "06:06:49",
     "jornada_inici": 1795064415,
     "tablas": {
         "pts": [
@@ -106,9 +106,9 @@
                 "Rank": 75,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 22,
-                "Total": 18460,
-                "Diff": "118",
+                "Hoy": 26,
+                "Total": 18464,
+                "Diff": "114",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -249,9 +249,9 @@
                 "Rank": 183,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 22,
-                "Total": 14499,
-                "Diff": "14",
+                "Hoy": 24,
+                "Total": 14501,
+                "Diff": "12",
                 "Antece": "Blake Griffin",
                 "Nota": "",
                 "game_status": "playing"
@@ -2146,10 +2146,10 @@
                 "Rank": 9,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 14499,
-                "Diff": "1",
-                "Antece": "14500",
+                "Hoy": 24,
+                "Total": 14501,
+                "Diff": "21",
+                "Antece": "Bill Russell",
                 "game_status": "playing"
             },
             {
@@ -2163,13 +2163,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 14,
+                "Rank": 13,
                 "Nombre": "Jayson Tatum",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 2422,
-                "Diff": "0",
-                "Antece": "Danny Ainge",
+                "Hoy": 3,
+                "Total": 2423,
+                "Diff": "77",
+                "Antece": "2500",
                 "game_status": "playing"
             },
             {
@@ -3838,9 +3838,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 22,
-                "Total": 18460,
-                "Diff": "40",
+                "Hoy": 26,
+                "Total": 18464,
+                "Diff": "36",
                 "Antece": "18500",
                 "game_status": "playing"
             },
@@ -5284,20 +5284,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Donovan Mitchell (2 steals today) has passed Phil Hubbard and is now ranked 17th in Cavaliers history with 409.",
-            "foto": [],
-            "timestamp": 1794020738,
-            "team": "CLE",
-            "type": "franchise"
-        },
-        {
-            "texto": "Keldon Johnson (3 rebounds today) has passed Malik Rose and is now ranked 18th in Spurs history with 2,461.",
-            "foto": [],
-            "timestamp": 1794025280,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
             "texto": "📢HOF🏛️ Pascal Siakam (1 three-pointer today) has passed Roger Brown and is now ranked 23rd in Pacers history with 281.",
             "foto": [],
             "timestamp": 1794089823,
@@ -6012,9 +5998,27 @@
             "timestamp": 1795056319,
             "team": "ATL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jayson Tatum (24 points today) becomes the 9th player to reach 14,500 points with Celtics.",
+            "foto": [
+                "collages/1795064809266562_collage_1795064809188428.png"
+            ],
+            "timestamp": 1795064809,
+            "team": "BOS",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Jayson Tatum (3 assists today) has passed Danny Ainge and is now ranked 13th in Celtics history with 2,423.",
+            "foto": [
+                "collages/1795064809438418_collage_1795064809344684.png"
+            ],
+            "timestamp": 1795064809,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2958,
-    "total_franchise_historicas": 801,
-    "cache_buster": 1795064525
+    "total_franchise_historicas": 803,
+    "cache_buster": 1795064809
 }
