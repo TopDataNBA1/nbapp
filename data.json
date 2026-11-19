@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:44:01",
+    "ultima_actualizacion": "03:45:19",
     "jornada_inici": 1794978011,
     "tablas": {
         "pts": [
@@ -62,9 +62,9 @@
                 "Rank": 39,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 20,
-                "Total": 21947,
-                "Diff": "53",
+                "Hoy": 22,
+                "Total": 21949,
+                "Diff": "51",
                 "Antece": "22000",
                 "Nota": "",
                 "game_status": "playing"
@@ -95,9 +95,9 @@
                 "Rank": 73,
                 "Nombre": "Kyrie Irving",
                 "Team": "DAL",
-                "Hoy": 15,
-                "Total": 18698,
-                "Diff": "89",
+                "Hoy": 17,
+                "Total": 18700,
+                "Diff": "87",
                 "Antece": "Bob McAdoo",
                 "Nota": "",
                 "game_status": "playing"
@@ -383,9 +383,9 @@
                 "Rank": 65,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 12,
-                "Total": 8776,
-                "Diff": "58",
+                "Hoy": 13,
+                "Total": 8777,
+                "Diff": "57",
                 "Antece": "Shawn Kemp",
                 "Nota": "",
                 "game_status": "playing"
@@ -649,9 +649,9 @@
                 "Rank": 115,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 941,
-                "Diff": "6",
+                "Hoy": 2,
+                "Total": 942,
+                "Diff": "5",
                 "Antece": "Scottie Pippen",
                 "Nota": "",
                 "game_status": "playing"
@@ -1950,14 +1950,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 183,
+                "Rank": 182,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 1007,
-                "Diff": "",
-                "Antece": "Avery Johnson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1008,
+                "Diff": "9",
+                "Antece": "Johnny Moore",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2704,9 +2704,9 @@
                 "Rank": 2,
                 "Nombre": "Draymond Green",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 941,
-                "Diff": "59",
+                "Hoy": 2,
+                "Total": 942,
+                "Diff": "58",
                 "Antece": "1000",
                 "game_status": "playing"
             },
@@ -4171,13 +4171,13 @@
         ],
         "ATL": [
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 2741,
-                "Diff": "0",
-                "Antece": "Lenny Wilkens",
+                "Hoy": 8,
+                "Total": 2742,
+                "Diff": "164",
+                "Antece": "John Collins",
                 "game_status": "playing"
             },
             {
@@ -4581,13 +4581,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Immanuel Quickley (2 three-pointers today) has passed Ersan İlyasova and Jared Dudley and is now ranked 235th all-time with 884.",
-            "foto": [
-                "collages/1794791200017895_collage_1794791199931105.png"
-            ],
-            "timestamp": 1794791200
-        },
         {
             "texto": "Immanuel Quickley (3 three-pointers today) has passed Luguentz Dort and is now ranked 235th all-time with 885.",
             "foto": [
@@ -5280,16 +5273,16 @@
                 "collages/1795055425486394_collage_1795055425377031.png"
             ],
             "timestamp": 1795055425
+        },
+        {
+            "texto": "Giannis Antetokounmpo (1 steal today) has passed Avery Johnson and is now ranked 182nd all-time with 1,008.",
+            "foto": [
+                "collages/1795056318953827_collage_1795056318860089.png"
+            ],
+            "timestamp": 1795056318
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Herbert Jones (4 rebounds today) has passed Josh Hart and is now ranked 16th in Pelicans history with 1,121.",
-            "foto": [],
-            "timestamp": 1794020661,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "Donovan Mitchell (2 steals today) has passed Phil Hubbard and is now ranked 17th in Cavaliers history with 409.",
             "foto": [],
@@ -6010,9 +6003,18 @@
             "timestamp": 1795055878,
             "team": "CHI",
             "type": "franchise"
+        },
+        {
+            "texto": "📢HOF🏛️ Onyeka Okongwu (8 rebounds today) has passed Lenny Wilkens and is now ranked 23rd in Hawks history with 2,742.",
+            "foto": [
+                "collages/1795056319219434_collage_1795056319110065.png"
+            ],
+            "timestamp": 1795056319,
+            "team": "ATL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2933,
-    "total_franchise_historicas": 800,
-    "cache_buster": 1795056241
+    "total_notificaciones_historicas": 2934,
+    "total_franchise_historicas": 801,
+    "cache_buster": 1795056319
 }
