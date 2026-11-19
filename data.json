@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:55",
+    "ultima_actualizacion": "03:19:13",
     "jornada_inici": 1794978011,
     "tablas": {
         "pts": [
@@ -3021,9 +3021,9 @@
                 "Rank": 19,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 2329,
-                "Diff": "171",
+                "Hoy": 2,
+                "Total": 2330,
+                "Diff": "170",
                 "Antece": "2500",
                 "game_status": "playing"
             },
@@ -3043,7 +3043,7 @@
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 1115,
-                "Diff": "90",
+                "Diff": "91",
                 "Antece": "Josh Giddey",
                 "game_status": "inactive"
             },
@@ -3858,13 +3858,13 @@
         ],
         "CHI": [
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Josh Giddey",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 1112,
-                "Diff": "0",
-                "Antece": "Dave Corzine",
+                "Hoy": 6,
+                "Total": 1113,
+                "Diff": "59",
+                "Antece": "DeMar DeRozan",
                 "game_status": "playing"
             },
             {
@@ -4825,13 +4825,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Jakob Poeltl (3 steals today) has passed Jerome Williams and is now ranked 19th in Raptors history with 232.",
-            "foto": [],
-            "timestamp": 1794015959,
-            "team": "TOR",
-            "type": "franchise"
-        },
-        {
             "texto": "Kyshawn George (4 three-pointers today) has passed Markieff Morris and is now ranked 21st in Wizards history with 221.",
             "foto": [],
             "timestamp": 1794017007,
@@ -5547,9 +5540,18 @@
             "timestamp": 1795053852,
             "team": "MEM",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Giddey (6 assists today) has passed Dave Corzine and is now ranked 24th in Bulls history with 1,113.",
+            "foto": [
+                "collages/1795054753094387_collage_1795054752985022.png"
+            ],
+            "timestamp": 1795054753,
+            "team": "CHI",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2930,
-    "total_franchise_historicas": 798,
-    "cache_buster": 1795054675
+    "total_franchise_historicas": 799,
+    "cache_buster": 1795054753
 }
