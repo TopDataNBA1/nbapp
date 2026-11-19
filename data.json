@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:57:55",
+    "ultima_actualizacion": "04:59:12",
     "jornada_inici": 1794978011,
     "tablas": {
         "pts": [
@@ -1487,11 +1487,11 @@
                 "Rank": 249,
                 "Nombre": "Jalen Green",
                 "Team": "PHX",
-                "Hoy": 1,
-                "Total": 864,
-                "Diff": "1",
+                "Hoy": 2,
+                "Total": 865,
+                "Diff": "",
                 "Antece": "Eric Piatkowski",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1500,9 +1500,9 @@
                 "Team": "ATL",
                 "Hoy": 3,
                 "Total": 864,
-                "Diff": "",
+                "Diff": "1",
                 "Antece": "Jalen Green",
-                "Nota": "Mismo total",
+                "Nota": "A tiro de 1",
                 "game_status": "finished"
             }
         ],
@@ -1643,9 +1643,9 @@
                 "Rank": 130,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 2,
-                "Total": 3980,
-                "Diff": "10",
+                "Hoy": 3,
+                "Total": 3981,
+                "Diff": "9",
                 "Antece": "Mo Williams",
                 "Nota": "",
                 "game_status": "playing"
@@ -3858,9 +3858,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 3980,
-                "Diff": "20",
+                "Hoy": 3,
+                "Total": 3981,
+                "Diff": "19",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -4582,13 +4582,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Klay Thompson today surpasses Goran Dragić and Rickey Green and now ranked 218th all time with 947 games",
-            "foto": [
-                "collages/1794876357006794_collage_1794876356918399.png"
-            ],
-            "timestamp": 1794876357
-        },
-        {
             "texto": "Jerami Grant (1 three-pointer today) becomes the 148th player to reach 1,100",
             "foto": [
                 "collages/1794876795418938_collage_1794876795338125.png"
@@ -5280,6 +5273,13 @@
                 "collages/1795060605547731_collage_1795060605469615.png"
             ],
             "timestamp": 1795060605
+        },
+        {
+            "texto": "Devin Booker (3 assists today) has passed John Bagley and is now ranked 130th all-time with 3,981.",
+            "foto": [
+                "collages/1795060752689008_collage_1795060752579648.png"
+            ],
+            "timestamp": 1795060752
         }
     ],
     "notificaciones_franchise": [
@@ -6014,7 +6014,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2948,
+    "total_notificaciones_historicas": 2949,
     "total_franchise_historicas": 801,
-    "cache_buster": 1795060675
+    "cache_buster": 1795060752
 }
