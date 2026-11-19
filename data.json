@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:16:50",
+    "ultima_actualizacion": "01:18:07",
     "jornada_inici": 1794978011,
     "tablas": {
         "pts": [
@@ -95,9 +95,9 @@
                 "Rank": 145,
                 "Nombre": "Donovan Mitchell",
                 "Team": "CLE",
-                "Hoy": 4,
-                "Total": 15614,
-                "Diff": "21",
+                "Hoy": 8,
+                "Total": 15618,
+                "Diff": "17",
                 "Antece": "Sam Cassell",
                 "Nota": "",
                 "game_status": "playing"
@@ -251,9 +251,9 @@
                 "Rank": 133,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 0,
-                "Total": 6874,
-                "Diff": "17",
+                "Hoy": 1,
+                "Total": 6875,
+                "Diff": "16",
                 "Antece": "Antoine Walker",
                 "Nota": "",
                 "game_status": "playing"
@@ -281,14 +281,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 210,
+                "Rank": 209,
                 "Nombre": "Jarrett Allen",
                 "Team": "CLE",
-                "Hoy": 2,
-                "Total": 5822,
-                "Diff": "",
-                "Antece": "Enes Freedom",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 5823,
+                "Diff": "5",
+                "Antece": "Nenê",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -840,9 +840,9 @@
                 "Rank": 12,
                 "Nombre": "James Harden",
                 "Team": "CLE",
-                "Hoy": 1,
-                "Total": 8959,
-                "Diff": "7",
+                "Hoy": 2,
+                "Total": 8960,
+                "Diff": "6",
                 "Antece": "Gary Payton",
                 "Nota": "",
                 "game_status": "playing"
@@ -1145,9 +1145,9 @@
                 "Rank": 11,
                 "Nombre": "Donovan Mitchell",
                 "Stat": "PTS",
-                "Hoy": 4,
-                "Total": 7380,
-                "Diff": "120",
+                "Hoy": 8,
+                "Total": 7384,
+                "Diff": "116",
                 "Antece": "7500",
                 "game_status": "playing"
             },
@@ -1175,9 +1175,9 @@
                 "Rank": 8,
                 "Nombre": "Jarrett Allen",
                 "Stat": "REB",
-                "Hoy": 2,
-                "Total": 3966,
-                "Diff": "34",
+                "Hoy": 3,
+                "Total": 3967,
+                "Diff": "33",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1491,9 +1491,9 @@
                 "Rank": 11,
                 "Nombre": "Franz Wagner",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 6565,
-                "Diff": "38",
+                "Hoy": 2,
+                "Total": 6567,
+                "Diff": "36",
                 "Antece": "Dennis Scott",
                 "game_status": "playing"
             },
@@ -1608,13 +1608,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 18,
+                "Rank": 17,
                 "Nombre": "Jalen Suggs",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1034,
-                "Diff": "0",
-                "Antece": "Dennis Scott",
+                "Hoy": 1,
+                "Total": 1035,
+                "Diff": "26",
+                "Antece": "Brian Shaw",
                 "game_status": "playing"
             },
             {
@@ -1631,9 +1631,9 @@
                 "Rank": 13,
                 "Nombre": "Jalen Suggs",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 394,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 395,
+                "Diff": "5",
                 "Antece": "400",
                 "game_status": "playing"
             },
@@ -2357,13 +2357,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝💯 Jaylen Brown (1 three-pointer today) has passed Allan Houston and is now ranked 84th all-time with 1,306.",
-            "foto": [
-                "collages/1794766448387882_collage_1794766448177950.png"
-            ],
-            "timestamp": 1794766448
-        },
-        {
             "texto": "Tyrese Maxey (1 three-pointer today) has passed Dorian Finney-Smith and is now ranked 211th all-time with 949.",
             "foto": [
                 "collages/1794766608513637_collage_1794766608227730.png"
@@ -3055,16 +3048,16 @@
                 "collages/1795047251369943_collage_1795047251291824.png"
             ],
             "timestamp": 1795047251
+        },
+        {
+            "texto": "Jarrett Allen (3 rebounds today) has passed Enes Freedom and is now ranked 209th all-time with 5,823.",
+            "foto": [
+                "collages/1795047487386301_collage_1795047487292559.png"
+            ],
+            "timestamp": 1795047487
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Victor Wembanyama (20 rebounds today) has passed Dave Greenwood and is now ranked 24th in Spurs history with 2,074.",
-            "foto": [],
-            "timestamp": 1793854889,
-            "team": "SAS",
-            "type": "franchise"
-        },
         {
             "texto": "Franz Wagner (1 steal today) has passed Scott Skiles and is now ranked 16th in Magic history with 333.",
             "foto": [],
@@ -3769,9 +3762,18 @@
             "timestamp": 1794976084,
             "team": "CHA",
             "type": "franchise"
+        },
+        {
+            "texto": "Jalen Suggs (1 assist today) has passed Dennis Scott and is now ranked 17th in Magic history with 1,035.",
+            "foto": [
+                "collages/1795047487667527_collage_1795047487558163.png"
+            ],
+            "timestamp": 1795047487,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 2903,
-    "total_franchise_historicas": 792,
-    "cache_buster": 1795047410
+    "total_notificaciones_historicas": 2904,
+    "total_franchise_historicas": 793,
+    "cache_buster": 1795047487
 }
