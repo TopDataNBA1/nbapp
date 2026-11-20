@@ -639,7 +639,7 @@
             <!-- Filtres Top Moves -->
             <div class="filters-top" style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0;">
                 <!-- Període -->
-                <select id="top-period" class="team-select" onchange="updateTopMoves()">
+                <select id="top-period" class="team-select" onchange="topMovesData=null;playerTeamsMap=null;updateTopMoves()">
                     <option value="today" selected>Today</option>
                     <option value="week">This Week</option>
                     <option value="month">This Month</option>
@@ -2040,26 +2040,41 @@ async function updateTopMoves() {
         return;
     }
     
-    // Carregar mapa jugador -> equip
+    // Carregar mapa jugador -> equip (també omple jornadaIniciCache)
     const playerTeams = await loadPlayerTeams();
-    
+
+    // Carregar notificacions actuals de data.json per complementar l'històric
+    // (les notificacions d'avui poden no estar encara a notificaciones_historicas.json)
+    let liveGlobal = [];
+    let liveFranchise = [];
+    try {
+        const liveResp = await fetch(rawUrl(currentDataFile));
+        const liveData = await liveResp.json();
+        liveGlobal = (liveData.notificaciones || []).map(n => ({...n, source: 'global'}));
+        liveFranchise = (liveData.notificaciones_franchise || []).map(n => ({...n, source: 'franchise'}));
+    } catch(e) { /* si falla, seguim amb l'històric */ }
+
     const period = document.getElementById('top-period').value;
     const type = document.getElementById('top-type').value;
     const stat = document.getElementById('top-stat').value;
     const team = document.getElementById('top-team').value;
-    
+
     let allNotifications = [];
-    
-    // Afegir notificacions segons tipus
+
+    // Afegir notificacions: combinar live (data.json) + històric, deduplicar per timestamp
     if (type === 'global') {
-        const globalNotifs = (data.global || []).map(n => ({...n, source: 'global'}));
-        allNotifications = allNotifications.concat(globalNotifs);
+        const historicNotifs = (data.global || []).map(n => ({...n, source: 'global'}));
+        const seenTs = new Set(liveGlobal.map(n => n.timestamp));
+        const historicUniq = historicNotifs.filter(n => !seenTs.has(n.timestamp));
+        allNotifications = allNotifications.concat(liveGlobal).concat(historicUniq);
     }
     if (type === 'franchise') {
-        const franchiseNotifs = (data.franchise || []).map(n => ({...n, source: 'franchise'}));
-        allNotifications = allNotifications.concat(franchiseNotifs);
+        const historicNotifs = (data.franchise || []).map(n => ({...n, source: 'franchise'}));
+        const seenTs = new Set(liveFranchise.map(n => n.timestamp));
+        const historicUniq = historicNotifs.filter(n => !seenTs.has(n.timestamp));
+        allNotifications = allNotifications.concat(liveFranchise).concat(historicUniq);
     }
-    
+
     // Filtrar per període (jornadaIniciCache llegit de data.json via loadPlayerTeams)
     let filteredByPeriod = filterByPeriod(allNotifications, period, jornadaIniciCache);
 
