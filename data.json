@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:26:12",
+    "ultima_actualizacion": "02:27:24",
     "jornada_inici": 1795064415,
     "tablas": {
         "pts": [
@@ -642,9 +642,9 @@
                 "Rank": 154,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 3767,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 3768,
+                "Diff": "2",
                 "Antece": "Derrick Rose",
                 "Nota": "",
                 "game_status": "playing"
@@ -742,14 +742,14 @@
         ],
         "g": [
             {
-                "Rank": 56,
+                "Rank": 55,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 0,
-                "Total": 1195,
-                "Diff": "1",
-                "Antece": "Dikembe Mutombo",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1196,
+                "Diff": "3",
+                "Antece": "Eddie Johnson",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -758,9 +758,9 @@
                 "Team": "LAC",
                 "Hoy": 1,
                 "Total": 1194,
-                "Diff": "1",
-                "Antece": "Al Horford",
-                "Nota": "A tiro de 1",
+                "Diff": "2",
+                "Antece": "Dikembe Mutombo",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1269,13 +1269,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Josh Hart",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 306,
-                "Diff": "0",
-                "Antece": "Quentin Grimes",
+                "Hoy": 2,
+                "Total": 307,
+                "Diff": "10",
+                "Antece": "Hubert Davis",
                 "game_status": "playing"
             }
         ],
@@ -2282,13 +2282,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢HOF🏛️ Pascal Siakam (1 three-pointer today) has passed Roger Brown and is now ranked 23rd in Pacers history with 281.",
-            "foto": [],
-            "timestamp": 1794089823,
-            "team": "IND",
-            "type": "franchise"
-        },
-        {
             "texto": "T.J. McConnell today surpasses Paul George and is now ranked 24th in Pacers history with 449 games.",
             "foto": [],
             "timestamp": 1794090554,
@@ -3014,9 +3007,18 @@
             "timestamp": 1795064809,
             "team": "BOS",
             "type": "franchise"
+        },
+        {
+            "texto": "Josh Hart (2 three-pointers today) has passed Quentin Grimes and is now ranked 21st in Knicks history with 307.",
+            "foto": [
+                "collages/1795138044154327_collage_1795138044062711.png"
+            ],
+            "timestamp": 1795138044,
+            "team": "NYK",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 2963,
-    "total_franchise_historicas": 803,
-    "cache_buster": 1795137972
+    "total_franchise_historicas": 804,
+    "cache_buster": 1795138044
 }
