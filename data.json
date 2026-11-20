@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:08",
+    "ultima_actualizacion": "03:35:10",
     "jornada_inici": 1795064415,
     "tablas": {
         "pts": [
@@ -464,9 +464,9 @@
                 "Rank": 145,
                 "Nombre": "Tyler Herro",
                 "Team": "MIL",
-                "Hoy": 2,
-                "Total": 1105,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 1106,
+                "Diff": "2",
                 "Antece": "Coby White",
                 "Nota": "",
                 "game_status": "playing"
@@ -1192,9 +1192,9 @@
                 "Rank": 15,
                 "Nombre": "Jalen Brunson",
                 "Stat": "PTS",
-                "Hoy": 16,
-                "Total": 7856,
-                "Diff": "144",
+                "Hoy": 18,
+                "Total": 7858,
+                "Diff": "142",
                 "Antece": "8000",
                 "game_status": "playing"
             },
@@ -1548,19 +1548,19 @@
                 "Rank": 13,
                 "Nombre": "Jaylen Wells",
                 "Stat": "3PM",
-                "Hoy": 2,
-                "Total": 299,
+                "Hoy": 3,
+                "Total": 300,
                 "Diff": "1",
-                "Antece": "300",
+                "Antece": "Marc Gasol",
                 "game_status": "playing"
             },
             {
                 "Rank": 22,
                 "Nombre": "Cam Spencer",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 197,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 198,
+                "Diff": "2",
                 "Antece": "Mike Bibby",
                 "game_status": "playing"
             }
@@ -2281,13 +2281,6 @@
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Donovan Mitchell (1 steal today) has passed Bobby Phills and is now ranked 16th in Cavaliers history with 411.",
-            "foto": [],
-            "timestamp": 1794100635,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Dyson Daniels (2 steals today) has passed Steve Hawes and is now ranked 21st in Hawks history with 406.",
             "foto": [],
@@ -3018,9 +3011,18 @@
             "timestamp": 1795141973,
             "team": "NYK",
             "type": "franchise"
+        },
+        {
+            "texto": "Jaylen Wells (3 three-pointers today) becomes the 13th player to reach 300 three-pointers with Grizzlies.",
+            "foto": [
+                "collages/1795142110526522_collage_1795142110458896.png"
+            ],
+            "timestamp": 1795142110,
+            "team": "MEM",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 2968,
-    "total_franchise_historicas": 805,
-    "cache_buster": 1795142048
+    "total_franchise_historicas": 806,
+    "cache_buster": 1795142110
 }
