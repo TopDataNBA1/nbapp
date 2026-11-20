@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:10:25",
+    "ultima_actualizacion": "04:11:27",
     "jornada_inici": 1795064415,
     "tablas": {
         "pts": [
@@ -439,7 +439,18 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 134,
+                "Rank": 133,
+                "Nombre": "Mikal Bridges",
+                "Team": "NYK",
+                "Hoy": 2,
+                "Total": 1148,
+                "Diff": "2",
+                "Antece": "Wesley Person",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 135,
                 "Nombre": "Gary Trent Jr.",
                 "Team": "MIL",
                 "Hoy": 0,
@@ -447,17 +458,6 @@
                 "Diff": "1",
                 "Antece": "Steve Smith",
                 "Nota": "A tiro de 1",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 135,
-                "Nombre": "Mikal Bridges",
-                "Team": "NYK",
-                "Hoy": 1,
-                "Total": 1147,
-                "Diff": "",
-                "Antece": "Gary Trent Jr.",
-                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -1262,9 +1262,9 @@
                 "Rank": 19,
                 "Nombre": "Mikal Bridges",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 334,
-                "Diff": "15",
+                "Hoy": 2,
+                "Total": 335,
+                "Diff": "14",
                 "Antece": "Stephon Marbury",
                 "game_status": "playing"
             },
@@ -1294,9 +1294,9 @@
                 "Rank": 12,
                 "Nombre": "Damian Lillard",
                 "Stat": "REB",
-                "Hoy": 4,
-                "Total": 3299,
-                "Diff": "28",
+                "Hoy": 5,
+                "Total": 3300,
+                "Diff": "27",
                 "Antece": "Kevin Duckworth",
                 "game_status": "playing"
             },
@@ -1579,13 +1579,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Miles Bridges (1 three-pointer today) becomes the 231st player to reach 900",
-            "foto": [
-                "collages/1794887256178138_collage_1794887256091165.png"
-            ],
-            "timestamp": 1794887256
-        },
         {
             "texto": "Jamal Murray (3 assists today) has passed Quinn Buckner and is now ranked 226th all-time with 3,115.",
             "foto": [
@@ -2278,6 +2271,13 @@
                 "collages/1795144160819512_collage_1795144160723540.png"
             ],
             "timestamp": 1795144160
+        },
+        {
+            "texto": "Mikal Bridges (2 three-pointers today) has passed Gary Trent Jr. and is now ranked 133rd all-time with 1,148.",
+            "foto": [
+                "collages/1795144287312379_collage_1795144287221220.png"
+            ],
+            "timestamp": 1795144287
         }
     ],
     "notificaciones_franchise": [
@@ -3024,7 +3024,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 2971,
+    "total_notificaciones_historicas": 2972,
     "total_franchise_historicas": 807,
-    "cache_buster": 1795144225
+    "cache_buster": 1795144287
 }
