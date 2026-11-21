@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:18:04",
+    "ultima_actualizacion": "19:21:56",
     "jornada_inici": 1795237256,
     "tablas": {
         "pts": [
@@ -15,14 +15,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 213,
+                "Rank": 212,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 13804,
-                "Diff": "",
-                "Antece": "Deron Williams",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 13806,
+                "Diff": "52",
+                "Antece": "Chuck Person",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -112,9 +112,9 @@
                 "Rank": 45,
                 "Nombre": "Kentavious Caldwell-Pope",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 1610,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 1611,
+                "Diff": "19",
                 "Antece": "Jayson Tatum",
                 "Nota": "",
                 "game_status": "playing"
@@ -247,14 +247,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 180,
                 "Nombre": "Kentavious Caldwell-Pope",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 979,
-                "Diff": "",
-                "Antece": "Isiah Thomas",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 980,
+                "Diff": "1",
+                "Antece": "Al Harrington",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             }
         ]
@@ -265,9 +265,9 @@
                 "Rank": 6,
                 "Nombre": "Joel Embiid",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 13804,
-                "Diff": "196",
+                "Hoy": 2,
+                "Total": 13806,
+                "Diff": "194",
                 "Antece": "14000",
                 "game_status": "playing"
             },
@@ -396,20 +396,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "T.J. McConnell (5 assists today) has passed Monta Ellis and is now ranked 145th all-time with 3,857.",
-            "foto": [
-                "collages/1795053398421840_collage_1795053398328101.png"
-            ],
-            "timestamp": 1795053398
-        },
-        {
-            "texto": "📢HOF🏛️ Donovan Mitchell (3 assists today) has passed Bob Lanier and is now ranked 245th all-time with 3,008.",
-            "foto": [
-                "collages/1795053622055925_collage_1795053621962202.png"
-            ],
-            "timestamp": 1795053622
-        },
         {
             "texto": "Andrew Wiggins (5 points today) has passed Shawn Kemp and is now ranked 158th all-time with 15,350.",
             "foto": [
@@ -1095,6 +1081,20 @@
                 "collages/1795285083835813_collage_1795285083736220.png"
             ],
             "timestamp": 1795285083
+        },
+        {
+            "texto": "Joel Embiid (2 points today) has passed Deron Williams and is now ranked 212th all-time with 13,806.",
+            "foto": [
+                "collages/1795285315975089_collage_1795285315867525.png"
+            ],
+            "timestamp": 1795285316
+        },
+        {
+            "texto": "📢HOF🏛️ Kentavious Caldwell-Pope today surpasses Isiah Thomas and now ranked 180th all time with 980 games",
+            "foto": [
+                "collages/1795285316235770_collage_1795285316131336.png"
+            ],
+            "timestamp": 1795285316
         }
     ],
     "notificaciones_franchise": [
@@ -1861,7 +1861,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3023,
+    "total_notificaciones_historicas": 3025,
     "total_franchise_historicas": 817,
-    "cache_buster": 1795285084
+    "cache_buster": 1795285316
 }
