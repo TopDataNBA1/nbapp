@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:11:03",
+    "ultima_actualizacion": "19:12:15",
     "jornada_inici": 1795237256,
     "tablas": {
         "pts": [
@@ -7,9 +7,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 43628,
-                "Diff": "372",
+                "Hoy": 2,
+                "Total": 43630,
+                "Diff": "370",
                 "Antece": "44000",
                 "Nota": "",
                 "game_status": "playing"
@@ -42,9 +42,9 @@
                 "Rank": 23,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 12177,
-                "Diff": "28",
+                "Hoy": 1,
+                "Total": 12178,
+                "Diff": "27",
                 "Antece": "Charles Oakley",
                 "Nota": "",
                 "game_status": "playing"
@@ -85,13 +85,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 163,
+                "Rank": 160,
                 "Nombre": "Joel Embiid",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 797,
+                "Hoy": 1,
+                "Total": 798,
                 "Diff": "",
-                "Antece": "Jerami Grant",
+                "Antece": "Jakob Poeltl",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -239,9 +239,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 1634,
-                "Diff": "66",
+                "Hoy": 1,
+                "Total": 1635,
+                "Diff": "65",
                 "Antece": "1700",
                 "Nota": "",
                 "game_status": "playing"
@@ -305,9 +305,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1857,
-                "Diff": "22",
+                "Hoy": 1,
+                "Total": 1858,
+                "Diff": "21",
                 "Antece": "Wilt Chamberlain",
                 "game_status": "playing"
             },
@@ -335,9 +335,9 @@
                 "Rank": 4,
                 "Nombre": "Joel Embiid",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 797,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 798,
+                "Diff": "2",
                 "Antece": "800",
                 "game_status": "playing"
             },
@@ -365,9 +365,9 @@
                 "Rank": 20,
                 "Nombre": "Joel Embiid",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 503,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 504,
+                "Diff": "12",
                 "Antece": "Thaddeus Young",
                 "game_status": "playing"
             }
@@ -396,13 +396,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Draymond Green today surpasses Brad Davis and Lamar Odom and now ranked 202nd all time with 962 games",
-            "foto": [
-                "collages/1795053150203213_collage_1795053150125097.png"
-            ],
-            "timestamp": 1795053150
-        },
         {
             "texto": "Donovan Mitchell (2 assists today) has passed Lionel Hollins and is now ranked 246th all-time with 3,007.",
             "foto": [
@@ -1095,6 +1088,13 @@
                 "collages/1795236929285183_collage_1795236929139237.png"
             ],
             "timestamp": 1795236929
+        },
+        {
+            "texto": "Joel Embiid (1 block today) has passed Jerami Grant and is now ranked 160th all-time with 798.",
+            "foto": [
+                "collages/1795284735277288_collage_1795284735174486.png"
+            ],
+            "timestamp": 1795284735
         }
     ],
     "notificaciones_franchise": [
@@ -1861,7 +1861,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3020,
+    "total_notificaciones_historicas": 3021,
     "total_franchise_historicas": 817,
-    "cache_buster": 1795284663
+    "cache_buster": 1795284735
 }
