@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "19:15:46",
+    "ultima_actualizacion": "19:16:50",
     "jornada_inici": 1795237256,
     "tablas": {
         "pts": [
@@ -7,9 +7,9 @@
                 "Rank": 1,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 2,
-                "Total": 43630,
-                "Diff": "370",
+                "Hoy": 4,
+                "Total": 43632,
+                "Diff": "368",
                 "Antece": "44000",
                 "Nota": "",
                 "game_status": "playing"
@@ -131,14 +131,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 129,
+                "Rank": 127,
                 "Nombre": "Kyle Kuzma",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1153,
-                "Diff": "",
-                "Antece": "Jameer Nelson",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1154,
+                "Diff": "5",
+                "Antece": "Royce O'Neale",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -148,7 +148,7 @@
                 "Hoy": 0,
                 "Total": 1150,
                 "Diff": "3",
-                "Antece": "Kyle Kuzma",
+                "Antece": "Jameer Nelson",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -305,9 +305,9 @@
                 "Rank": 16,
                 "Nombre": "Joel Embiid",
                 "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1858,
-                "Diff": "21",
+                "Hoy": 2,
+                "Total": 1859,
+                "Diff": "20",
                 "Antece": "Wilt Chamberlain",
                 "game_status": "playing"
             },
@@ -396,13 +396,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Donovan Mitchell (2 assists today) has passed Lionel Hollins and is now ranked 246th all-time with 3,007.",
-            "foto": [
-                "collages/1795053308234691_collage_1795053308125327.png"
-            ],
-            "timestamp": 1795053308
-        },
         {
             "texto": "📢🔝💯 Draymond Green (1 steal today) has passed Terry Cummings and is now ranked 87th all-time with 1,256.",
             "foto": [
@@ -1095,6 +1088,13 @@
                 "collages/1795284735277288_collage_1795284735174486.png"
             ],
             "timestamp": 1795284735
+        },
+        {
+            "texto": "Kyle Kuzma (1 three-pointer today) has passed Jameer Nelson and is now ranked 127th all-time with 1,154.",
+            "foto": [
+                "collages/1795285010148551_collage_1795285010038699.png"
+            ],
+            "timestamp": 1795285010
         }
     ],
     "notificaciones_franchise": [
@@ -1861,7 +1861,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3021,
+    "total_notificaciones_historicas": 3022,
     "total_franchise_historicas": 817,
-    "cache_buster": 1795284946
+    "cache_buster": 1795285010
 }
