@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:16:35",
+    "ultima_actualizacion": "02:17:47",
     "jornada_inici": 1795237256,
     "tablas": {
         "pts": [
@@ -174,9 +174,9 @@
                 "Rank": 36,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 10735,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 10736,
+                "Diff": "5",
                 "Antece": "Nikola Vučević",
                 "Nota": "",
                 "game_status": "playing"
@@ -196,9 +196,9 @@
                 "Rank": 120,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 2,
-                "Total": 7085,
-                "Diff": "19",
+                "Hoy": 3,
+                "Total": 7086,
+                "Diff": "18",
                 "Antece": "Julius Randle",
                 "Nota": "",
                 "game_status": "playing"
@@ -582,14 +582,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 167,
+                "Rank": 166,
                 "Nombre": "Darius Garland",
                 "Team": "LAC",
-                "Hoy": 0,
-                "Total": 1054,
-                "Diff": "1",
-                "Antece": "Nick Anderson",
-                "Nota": "A tiro de 1",
+                "Hoy": 1,
+                "Total": 1055,
+                "Diff": "3",
+                "Antece": "Grayson Allen",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -598,8 +598,8 @@
                 "Team": "NYK",
                 "Hoy": 0,
                 "Total": 1050,
-                "Diff": "4",
-                "Antece": "Darius Garland",
+                "Diff": "5",
+                "Antece": "Nick Anderson",
                 "Nota": "",
                 "game_status": "inactive"
             },
@@ -896,13 +896,13 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 249,
+                "Rank": 248,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 920,
+                "Hoy": 1,
+                "Total": 921,
                 "Diff": "",
-                "Antece": "Larry Nance",
+                "Antece": "Richard Hamilton",
                 "Nota": "Mismo total",
                 "game_status": "playing"
             }
@@ -934,9 +934,9 @@
                 "Rank": 18,
                 "Nombre": "Rudy Gobert",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3810,
-                "Diff": "125",
+                "Hoy": 2,
+                "Total": 3812,
+                "Diff": "123",
                 "Antece": "Gorgui Dieng",
                 "game_status": "playing"
             },
@@ -944,9 +944,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 3616,
-                "Diff": "384",
+                "Hoy": 1,
+                "Total": 3617,
+                "Diff": "383",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -1084,9 +1084,9 @@
                 "Rank": 17,
                 "Nombre": "Rudy Gobert",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 309,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 310,
+                "Diff": "6",
                 "Antece": "Rasho Nesterović",
                 "game_status": "playing"
             }
@@ -1900,13 +1900,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Luguentz Dort (2 three-pointers today) has passed Dāvis Bertāns and is now ranked 235th all-time with 886.",
-            "foto": [
-                "collages/1795055425486394_collage_1795055425377031.png"
-            ],
-            "timestamp": 1795055425
-        },
-        {
             "texto": "Giannis Antetokounmpo (1 steal today) has passed Avery Johnson and is now ranked 182nd all-time with 1,008.",
             "foto": [
                 "collages/1795056318953827_collage_1795056318860089.png"
@@ -2598,6 +2591,13 @@
                 "collages/1795308860728467_collage_1795308860628754.png"
             ],
             "timestamp": 1795308860
+        },
+        {
+            "texto": "Rudy Gobert today surpasses Larry Nance and now ranked 248th all time with 921 games",
+            "foto": [
+                "collages/1795310267707507_collage_1795310267611774.png"
+            ],
+            "timestamp": 1795310267
         }
     ],
     "notificaciones_franchise": [
@@ -3364,7 +3364,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3032,
+    "total_notificaciones_historicas": 3033,
     "total_franchise_historicas": 817,
-    "cache_buster": 1795310195
+    "cache_buster": 1795310267
 }
