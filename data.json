@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:44:26",
+    "ultima_actualizacion": "02:46:44",
     "jornada_inici": 1795237256,
     "tablas": {
         "pts": [
@@ -242,9 +242,9 @@
                 "Rank": 24,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1856,
-                "Diff": "9",
+                "Hoy": 1,
+                "Total": 1857,
+                "Diff": "8",
                 "Antece": "Anthony Davis",
                 "Nota": "",
                 "game_status": "playing"
@@ -964,9 +964,9 @@
                 "Rank": 12,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 1933,
-                "Diff": "37",
+                "Hoy": 2,
+                "Total": 1934,
+                "Diff": "36",
                 "Antece": "Tom Gugliotta",
                 "game_status": "playing"
             },
@@ -1004,10 +1004,10 @@
                 "Rank": 3,
                 "Nombre": "Rudy Gobert",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 499,
-                "Diff": "1",
-                "Antece": "500",
+                "Hoy": 1,
+                "Total": 500,
+                "Diff": "100",
+                "Antece": "600",
                 "game_status": "playing"
             },
             {
@@ -2602,13 +2602,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Herbert Jones today surpasses Brandon Ingram and is now ranked 7th in Pelicans history with 306 games.",
-            "foto": [],
-            "timestamp": 1794191517,
-            "team": "NOH",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Trey Murphy III (19 points today) becomes the 7th player to reach 5,000 points with Pelicans.",
             "foto": [],
             "timestamp": 1794196519,
@@ -3366,9 +3359,18 @@
             "timestamp": 1795310846,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Rudy Gobert (1 block today) becomes the 3rd player to reach 500 blocks with Timberwolves.",
+            "foto": [
+                "collages/1795312004309078_collage_1795312004245413.png"
+            ],
+            "timestamp": 1795312004,
+            "team": "MIN",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 3034,
-    "total_franchise_historicas": 819,
-    "cache_buster": 1795311866
+    "total_franchise_historicas": 820,
+    "cache_buster": 1795312004
 }
