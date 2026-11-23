@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:33:56",
+    "ultima_actualizacion": "01:35:09",
     "jornada_inici": 1795323649,
     "tablas": {
         "pts": [
@@ -1570,9 +1570,9 @@
                 "Rank": 24,
                 "Nombre": "Jalen Suggs",
                 "Stat": "PTS",
-                "Hoy": 0,
-                "Total": 3449,
-                "Diff": "51",
+                "Hoy": 2,
+                "Total": 3451,
+                "Diff": "49",
                 "Antece": "3500",
                 "game_status": "playing"
             },
@@ -1922,9 +1922,9 @@
                 "Rank": 17,
                 "Nombre": "Brice Sensabaugh",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 386,
-                "Diff": "14",
+                "Hoy": 2,
+                "Total": 387,
+                "Diff": "13",
                 "Antece": "400",
                 "game_status": "playing"
             }
@@ -2202,10 +2202,10 @@
                 "Rank": 25,
                 "Nombre": "Bilal Coulibaly",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 199,
-                "Diff": "1",
-                "Antece": "200",
+                "Hoy": 2,
+                "Total": 200,
+                "Diff": "8",
+                "Antece": "Mitch Richmond",
                 "game_status": "playing"
             }
         ]
@@ -2913,13 +2913,6 @@
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢HOF🏛️ Devin Booker (1 block today) has passed Grant Hill and is now ranked 23rd in Suns history with 211.",
-            "foto": [],
-            "timestamp": 1794277115,
-            "team": "PHO",
-            "type": "franchise"
-        },
         {
             "texto": "Andrew Nembhard (7 assists today) has passed Detlef Schrempf and is now ranked 16th in Pacers history with 1,447.",
             "foto": [],
@@ -3688,9 +3681,18 @@
             "timestamp": 1795393082,
             "team": "CHI",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Bilal Coulibaly (2 three-pointers today) becomes the 25th player to reach 200 three-pointers with Wizards.",
+            "foto": [
+                "collages/1795394109847668_collage_1795394109781919.png"
+            ],
+            "timestamp": 1795394109,
+            "team": "WAS",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 3052,
-    "total_franchise_historicas": 824,
-    "cache_buster": 1795394036
+    "total_franchise_historicas": 825,
+    "cache_buster": 1795394109
 }
