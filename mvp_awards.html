@@ -291,12 +291,14 @@ function fetchJson(file) {
 
 // ── Sticky thead top dinàmic ──────────────────────────────────────────────────
 function updateStickyTop() {
-    const topbar   = document.querySelector('.topbar');
-    const tabsRow  = document.querySelector('.tabs-row');
+    const topbar  = document.querySelector('.topbar');
+    const tabsRow = document.querySelector('.tabs-row');
     const h = (topbar ? topbar.offsetHeight : 48) + (tabsRow ? tabsRow.offsetHeight : 45);
     document.documentElement.style.setProperty('--thead-top', h + 'px');
 }
-window.addEventListener('load', updateStickyTop);
+// Executar immediatament, en load, i 500ms després (quan les fonts de Google ja han carregat)
+updateStickyTop();
+window.addEventListener('load', () => { updateStickyTop(); setTimeout(updateStickyTop, 500); });
 window.addEventListener('resize', updateStickyTop);
 
 // NBA conferences (current + historical abbrevs used in franchise data)
@@ -332,25 +334,15 @@ function parseNotif(texto) {
 }
 
 function photoUrl(name) {
-    // Normalize name to filename: lowercase, spaces→underscores, strip accents/special
-    const norm = name.normalize('NFD').replace(/[̀-ͯ]/g, '')
-        .replace(/[^a-zA-Z0-9 ]/g, '').trim()
-        .replace(/\s+/g, '_').toLowerCase();
-    return PHOTOS_BASE + norm + '.jpg';
+    // Format igual que download_photos.py: strip non-alpha, Title Case, spaces→guions, lowercase
+    const norm = name.replace(/[^a-zA-Z ]/g, '').trim()
+        .replace(/\s+/g, '-').toLowerCase();
+    return PHOTOS_BASE + norm + '.png';
 }
 
-// photoSrc: usa el camp foto de la notificació si existeix, sinó construeix des del nom
-function resolvePhoto(name, fotoField) {
-    if (fotoField) {
-        const f = Array.isArray(fotoField) ? fotoField[0] : fotoField;
-        if (f) return f.startsWith('http') ? f : RAW_BASE + f;
-    }
-    return photoUrl(name);
-}
-
-function photoEl(name, cls, fotoField) {
+function photoEl(name, cls) {
     const img = document.createElement('img');
-    img.src = resolvePhoto(name, fotoField);
+    img.src = photoUrl(name);
     img.alt = name;
     img.className = cls;
     img.onerror = function() {
@@ -617,7 +609,7 @@ function buildAwards(data) {
             row.innerHTML = `<div class="empty-award">No data</div>`;
             return row;
         }
-        const photo = photoEl(info.name, 'award-player-photo', info.photo);
+        const photo = photoEl(info.name, 'award-player-photo');
         row.appendChild(photo);
         const infoDiv = document.createElement('div');
         infoDiv.className = 'award-info';
