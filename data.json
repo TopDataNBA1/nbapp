@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:34:57",
+    "ultima_actualizacion": "03:36:10",
     "jornada_inici": 1795323649,
     "tablas": {
         "pts": [
@@ -158,14 +158,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 182,
+                "Rank": 181,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 20,
-                "Total": 14521,
-                "Diff": "1",
-                "Antece": "Bill Russell",
-                "Nota": "A tiro de 1",
+                "Hoy": 23,
+                "Total": 14524,
+                "Diff": "12",
+                "Antece": "Paul Millsap",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -618,9 +618,9 @@
                 "Rank": 44,
                 "Nombre": "Jayson Tatum",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 1633,
-                "Diff": "37",
+                "Hoy": 4,
+                "Total": 1634,
+                "Diff": "36",
                 "Antece": "Zach LaVine",
                 "Nota": "",
                 "game_status": "playing"
@@ -939,9 +939,9 @@
                 "Rank": 26,
                 "Nombre": "Mike Conley",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 6785,
-                "Diff": "34",
+                "Hoy": 2,
+                "Total": 6786,
+                "Diff": "33",
                 "Antece": "Deron Williams",
                 "Nota": "",
                 "game_status": "playing"
@@ -952,7 +952,7 @@
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 6782,
-                "Diff": "3",
+                "Diff": "4",
                 "Antece": "Mike Conley",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1373,13 +1373,13 @@
     "tablas_teams": {
         "BOS": [
             {
-                "Rank": 9,
+                "Rank": 8,
                 "Nombre": "Jayson Tatum",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 14521,
-                "Diff": "1",
-                "Antece": "Bill Russell",
+                "Hoy": 23,
+                "Total": 14524,
+                "Diff": "476",
+                "Antece": "15000",
                 "game_status": "playing"
             },
             {
@@ -1446,9 +1446,9 @@
                 "Rank": 2,
                 "Nombre": "Jayson Tatum",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 1633,
-                "Diff": "67",
+                "Hoy": 4,
+                "Total": 1634,
+                "Diff": "66",
                 "Antece": "1700",
                 "game_status": "playing"
             },
@@ -2564,7 +2564,7 @@
                 "Stat": "AST",
                 "Hoy": 7,
                 "Total": 1161,
-                "Diff": "68",
+                "Diff": "69",
                 "Antece": "Mike Conley",
                 "game_status": "finished"
             },
@@ -2891,13 +2891,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jalen Brunson (5 assists today) has passed Nikola Vučević and is now ranked 239th all-time with 3,039.",
-            "foto": [
-                "collages/1795141973318950_collage_1795141973226977.png"
-            ],
-            "timestamp": 1795141973
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Al Horford (1 block today) has passed Bob McAdoo and is now ranked 50th all-time with 1,364.",
             "foto": [
@@ -3590,16 +3583,16 @@
                 "collages/1795401017707733_collage_1795401017606586.png"
             ],
             "timestamp": 1795401017
+        },
+        {
+            "texto": "📢HOF🏛️ Jayson Tatum (23 points today) has passed Bill Russell and is now ranked 181st all-time with 14,524.",
+            "foto": [
+                "collages/1795401370400883_collage_1795401370296932.png"
+            ],
+            "timestamp": 1795401370
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Franz Wagner (4 rebounds today) has passed Darrell Armstrong and is now ranked 14th in Magic history with 1,646.",
-            "foto": [],
-            "timestamp": 1794370133,
-            "team": "ORL",
-            "type": "franchise"
-        },
         {
             "texto": "Jarrett Allen today becomes the 22nd player to reach 400 games with Cavaliers.",
             "foto": [],
@@ -4382,9 +4375,18 @@
             "timestamp": 1795398762,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 📢HOF🏛️ Jayson Tatum (23 points today) has passed Bill Russell and is now ranked 8th in Celtics history with 14,524.",
+            "foto": [
+                "collages/1795401370703566_collage_1795401370585886.png"
+            ],
+            "timestamp": 1795401370,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3067,
-    "total_franchise_historicas": 831,
-    "cache_buster": 1795401297
+    "total_notificaciones_historicas": 3068,
+    "total_franchise_historicas": 832,
+    "cache_buster": 1795401370
 }
