@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:50:58",
+    "ultima_actualizacion": "01:52:12",
     "jornada_inici": 1795323649,
     "tablas": {
         "pts": [
@@ -990,9 +990,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 11885,
-                "Diff": "107",
+                "Hoy": 10,
+                "Total": 11886,
+                "Diff": "106",
                 "Antece": "David Thompson",
                 "game_status": "playing"
             },
@@ -1638,23 +1638,23 @@
             },
             {
                 "Rank": 10,
+                "Nombre": "Franz Wagner",
+                "Stat": "AST",
+                "Hoy": 2,
+                "Total": 1308,
+                "Diff": "192",
+                "Antece": "1500",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 11,
                 "Nombre": "Paolo Banchero",
                 "Stat": "AST",
                 "Hoy": 0,
                 "Total": 1307,
-                "Diff": "193",
-                "Antece": "1500",
+                "Diff": "1",
+                "Antece": "Franz Wagner",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 11,
-                "Nombre": "Franz Wagner",
-                "Stat": "AST",
-                "Hoy": 1,
-                "Total": 1307,
-                "Diff": "0",
-                "Antece": "Paolo Banchero",
-                "game_status": "playing"
             },
             {
                 "Rank": 17,
@@ -2914,13 +2914,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Victor Wembanyama (7 rebounds today) has passed Swen Nater and is now ranked 22nd in Spurs history with 2,124.",
-            "foto": [],
-            "timestamp": 1794281583,
-            "team": "SAS",
-            "type": "franchise"
-        },
-        {
             "texto": "Joel Embiid today becomes the 20th player to reach 500 games with 76ers.",
             "foto": [],
             "timestamp": 1794359762,
@@ -3694,9 +3687,18 @@
             "timestamp": 1795394981,
             "team": "DEN",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Franz Wagner (2 assists today) has passed Paolo Banchero and is now ranked 10th in Magic history with 1,308.",
+            "foto": [
+                "collages/1795395132039177_collage_1795395131945323.png"
+            ],
+            "timestamp": 1795395132,
+            "team": "ORL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3056,
-    "total_franchise_historicas": 827,
-    "cache_buster": 1795395058
+    "total_franchise_historicas": 828,
+    "cache_buster": 1795395132
 }
