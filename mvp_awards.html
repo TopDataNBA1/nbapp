@@ -43,6 +43,7 @@ body { font-family: 'Roboto', sans-serif; background: #0f0f1b; color: #e0e0e0; m
 .tabs-row {
     display: flex; gap: 0;
     border-bottom: 2px solid #1e1e3a;
+    /* position:sticky i top ja definits al bloc anterior */
 }
 .tab-btn {
     flex: 1; padding: 12px 10px;
@@ -76,7 +77,7 @@ table.mvp-table {
 table.mvp-table thead th {
     background: #0d1b2e; color: #f0b429;
     padding: 9px 7px; font-size: 0.78em;
-    position: sticky; top: 92px; z-index: 10;
+    position: sticky; top: var(--thead-top, 93px); z-index: 10;
     border-bottom: 2px solid #1e3050;
     text-align: center; white-space: nowrap;
 }
@@ -114,9 +115,9 @@ table.mvp-table td.zero { color: #2a3a50; }
 .row-franchise td, .row-franchise-cell { background: #0c1724 !important; color: #9ab0c8; }
 .row-top td { border-top: 1px solid #1a2a3a !important; border-bottom: none !important; }
 .row-bot td { border-top: none !important; border-bottom: 2px solid #1e2e42 !important; }
-/* G and N cells span 2 rows — need explicit bg since they sit on row-global */
-td.td-n, td.td-g { background: #0a1018 !important; color: #fff; vertical-align: middle; }
-td.td-g { color: #aaa !important; }
+/* G and N cells span 2 rows */
+td.td-n { color: #ff4655; font-weight: 700; vertical-align: middle; }
+td.td-g { color: #aaa; vertical-align: middle; }
 
 /* Legend */
 .mvp-legend {
@@ -130,7 +131,7 @@ td.td-g { color: #aaa !important; }
 
 /* Awards sticky header */
 .awards-sticky-header {
-    position: sticky; top: 92px; z-index: 20;
+    position: sticky; top: var(--thead-top, 93px); z-index: 20;
     background: #09090f;
     border-bottom: 1.5px solid #1e1e3a;
 }
@@ -271,8 +272,32 @@ td.td-g { color: #aaa !important; }
 
 <script>
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const DATA_URL = 'data.json?v=' + Date.now();
-const PHOTOS_BASE = 'photos/';
+const REPO_OWNER = 'TopDataNBA1';
+const REPO_NAME  = 'nbapp';
+const BRANCH     = 'main';
+const CONTENTS_API = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/`;
+const RAW_BASE   = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/`;
+const PHOTOS_BASE = RAW_BASE + 'photos/';
+
+// data.json via Contents API (sense caché); historics via raw (canvien poc)
+function fetchJson(file) {
+    const isLive = /^data(_playoffs|_finals)?\.json$/.test(file);
+    const url = isLive
+        ? CONTENTS_API + file
+        : RAW_BASE + file + '?t=' + Date.now();
+    const opts = isLive ? { headers: { Accept: 'application/vnd.github.raw+json' }, cache: 'no-store' } : {};
+    return fetch(url, opts).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+}
+
+// ── Sticky thead top dinàmic ──────────────────────────────────────────────────
+function updateStickyTop() {
+    const topbar   = document.querySelector('.topbar');
+    const tabsRow  = document.querySelector('.tabs-row');
+    const h = (topbar ? topbar.offsetHeight : 48) + (tabsRow ? tabsRow.offsetHeight : 45);
+    document.documentElement.style.setProperty('--thead-top', h + 'px');
+}
+window.addEventListener('load', updateStickyTop);
+window.addEventListener('resize', updateStickyTop);
 
 // NBA conferences (current + historical abbrevs used in franchise data)
 const EAST_TEAMS = new Set(['ATL','BOS','BRK','NJN','CHA','CHO','CHI','CLE','DET','IND','MIA','MIL','NYK','ORL','PHI','TOR','WAS']);
@@ -314,9 +339,18 @@ function photoUrl(name) {
     return PHOTOS_BASE + norm + '.jpg';
 }
 
-function photoEl(name, cls, w, h) {
+// photoSrc: usa el camp foto de la notificació si existeix, sinó construeix des del nom
+function resolvePhoto(name, fotoField) {
+    if (fotoField) {
+        const f = Array.isArray(fotoField) ? fotoField[0] : fotoField;
+        if (f) return f.startsWith('http') ? f : RAW_BASE + f;
+    }
+    return photoUrl(name);
+}
+
+function photoEl(name, cls, fotoField) {
     const img = document.createElement('img');
-    img.src = photoUrl(name);
+    img.src = resolvePhoto(name, fotoField);
     img.alt = name;
     img.className = cls;
     img.onerror = function() {
@@ -345,8 +379,8 @@ function switchTab(tab) {
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 Promise.all([
-    fetch('notificaciones_historicas.json?v=' + Date.now()).then(r => r.json()),
-    fetch('data.json?v=' + Date.now()).then(r => r.json())
+    fetchJson('notificaciones_historicas.json'),
+    fetchJson('data.json')
 ]).then(([hist, data]) => {
     // Merge: use full history for notifications, data.json for tables/lookup
     const merged = {
@@ -522,11 +556,13 @@ function buildAwards(data) {
         const wk = getWeekStart(ts);
         const mk = getMonthKey(ts);
         if (!weekMap[wk]) weekMap[wk] = {};
-        if (!weekMap[wk][name]) weekMap[wk][name] = { n: 0, team, name, photo };
+        if (!weekMap[wk][name]) weekMap[wk][name] = { n: 0, team, name, photo: null };
         weekMap[wk][name].n++;
+        if (photo && !weekMap[wk][name].photo) weekMap[wk][name].photo = photo;
         if (!monthMap[mk]) monthMap[mk] = {};
-        if (!monthMap[mk][name]) monthMap[mk][name] = { n: 0, team, name, photo };
+        if (!monthMap[mk][name]) monthMap[mk][name] = { n: 0, team, name, photo: null };
         monthMap[mk][name].n++;
+        if (photo && !monthMap[mk][name].photo) monthMap[mk][name].photo = photo;
     }
 
     // Global: look up team from tablas
@@ -581,7 +617,7 @@ function buildAwards(data) {
             row.innerHTML = `<div class="empty-award">No data</div>`;
             return row;
         }
-        const photo = photoEl(info.name, 'award-player-photo');
+        const photo = photoEl(info.name, 'award-player-photo', info.photo);
         row.appendChild(photo);
         const infoDiv = document.createElement('div');
         infoDiv.className = 'award-info';
@@ -646,6 +682,8 @@ function buildAwards(data) {
     container.appendChild(buildAwardsPeriods(months, monthPts, formatMonth, 'monthly'));
 
     document.getElementById('awards-loading').remove();
+    // Recalcular sticky top ara que el contingut ja és al DOM
+    updateStickyTop();
 }
 </script>
 </body>
