@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:30:49",
+    "ultima_actualizacion": "02:32:02",
     "jornada_inici": 1795323649,
     "tablas": {
         "pts": [
@@ -194,9 +194,9 @@
                 "Rank": 232,
                 "Nombre": "Pascal Siakam",
                 "Team": "IND",
-                "Hoy": 0,
-                "Total": 13155,
-                "Diff": "43",
+                "Hoy": 6,
+                "Total": 13161,
+                "Diff": "37",
                 "Antece": "Corey Maggette",
                 "Nota": "",
                 "game_status": "playing"
@@ -273,9 +273,9 @@
                 "Rank": 65,
                 "Nombre": "Anthony Davis",
                 "Team": "WAS",
-                "Hoy": 5,
-                "Total": 8794,
-                "Diff": "40",
+                "Hoy": 6,
+                "Total": 8795,
+                "Diff": "39",
                 "Antece": "Shawn Kemp",
                 "Nota": "",
                 "game_status": "playing"
@@ -1508,9 +1508,9 @@
                 "Rank": 6,
                 "Nombre": "Jamal Murray",
                 "Stat": "PTS",
-                "Hoy": 24,
-                "Total": 11900,
-                "Diff": "92",
+                "Hoy": 26,
+                "Total": 11902,
+                "Diff": "90",
                 "Antece": "David Thompson",
                 "game_status": "playing"
             },
@@ -1588,9 +1588,9 @@
                 "Rank": 23,
                 "Nombre": "Jamal Murray",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 240,
-                "Diff": "13",
+                "Hoy": 2,
+                "Total": 241,
+                "Diff": "12",
                 "Antece": "Peyton Watson",
                 "game_status": "playing"
             },
@@ -2270,9 +2270,9 @@
                 "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2922,
-                "Diff": "78",
+                "Hoy": 4,
+                "Total": 2923,
+                "Diff": "77",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -2827,13 +2827,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 22,
+                "Rank": 21,
                 "Nombre": "Pascal Siakam",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 295,
-                "Diff": "0",
-                "Antece": "Brandon Rush",
+                "Hoy": 2,
+                "Total": 297,
+                "Diff": "3",
+                "Antece": "300",
                 "game_status": "playing"
             },
             {
@@ -3593,13 +3593,6 @@
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Joel Embiid today becomes the 20th player to reach 500 games with 76ers.",
-            "foto": [],
-            "timestamp": 1794359762,
-            "team": "PHI",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Gary Trent Jr. (1 three-pointer today) has passed Grayson Allen and is now ranked 19th in Bucks history with 306.",
             "foto": [],
@@ -4376,9 +4369,18 @@
             "timestamp": 1795395132,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "Pascal Siakam (2 three-pointers today) has passed Brandon Rush and is now ranked 21st in Pacers history with 297.",
+            "foto": [
+                "collages/1795397522787387_collage_1795397522680576.png"
+            ],
+            "timestamp": 1795397522,
+            "team": "IND",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3060,
-    "total_franchise_historicas": 828,
-    "cache_buster": 1795397449
+    "total_franchise_historicas": 829,
+    "cache_buster": 1795397522
 }
