@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:56:46",
+    "ultima_actualizacion": "03:57:59",
     "jornada_inici": 1795323649,
     "tablas": {
         "pts": [
@@ -115,9 +115,9 @@
             },
             {
                 "Rank": 115,
-                "Nombre": "Mike Conley",
-                "Team": "BOS",
-                "Hoy": 6,
+                "Nombre": "Karl-Anthony Towns",
+                "Team": "NYK",
+                "Hoy": 30,
                 "Total": 16733,
                 "Diff": "51",
                 "Antece": "Buck Williams",
@@ -126,13 +126,13 @@
             },
             {
                 "Rank": 116,
-                "Nombre": "Karl-Anthony Towns",
-                "Team": "NYK",
-                "Hoy": 26,
-                "Total": 16729,
-                "Diff": "4",
-                "Antece": "Mike Conley",
-                "Nota": "",
+                "Nombre": "Mike Conley",
+                "Team": "BOS",
+                "Hoy": 6,
+                "Total": 16733,
+                "Diff": "",
+                "Antece": "Karl-Anthony Towns",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -706,9 +706,9 @@
                 "Rank": 93,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 3,
-                "Total": 1263,
-                "Diff": "20",
+                "Hoy": 4,
+                "Total": 1264,
+                "Diff": "19",
                 "Antece": "Mookie Blaylock",
                 "Nota": "",
                 "game_status": "playing"
@@ -939,9 +939,9 @@
                 "Rank": 26,
                 "Nombre": "Mike Conley",
                 "Team": "BOS",
-                "Hoy": 2,
-                "Total": 6786,
-                "Diff": "33",
+                "Hoy": 3,
+                "Total": 6787,
+                "Diff": "32",
                 "Antece": "Deron Williams",
                 "Nota": "",
                 "game_status": "playing"
@@ -952,7 +952,7 @@
                 "Team": "GSW",
                 "Hoy": 0,
                 "Total": 6782,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Mike Conley",
                 "Nota": "",
                 "game_status": "inactive"
@@ -1128,9 +1128,9 @@
                 "Rank": 29,
                 "Nombre": "Mike Conley",
                 "Team": "BOS",
-                "Hoy": 0,
-                "Total": 1640,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 1641,
+                "Diff": "7",
                 "Antece": "Charles Barkley",
                 "Nota": "",
                 "game_status": "playing"
@@ -1406,9 +1406,9 @@
                 "Rank": 24,
                 "Nombre": "Derrick White",
                 "Stat": "AST",
-                "Hoy": 3,
-                "Total": 1643,
-                "Diff": "27",
+                "Hoy": 4,
+                "Total": 1644,
+                "Diff": "26",
                 "Antece": "Kevin McHale",
                 "game_status": "playing"
             },
@@ -1976,9 +1976,9 @@
                 "Rank": 24,
                 "Nombre": "Josh Hart",
                 "Stat": "REB",
-                "Hoy": 10,
-                "Total": 2159,
-                "Diff": "195",
+                "Hoy": 11,
+                "Total": 2160,
+                "Diff": "194",
                 "Antece": "Bill Bradley",
                 "game_status": "playing"
             },
@@ -2056,9 +2056,9 @@
                 "Rank": 25,
                 "Nombre": "Karl-Anthony Towns",
                 "Stat": "3PM",
-                "Hoy": 3,
-                "Total": 288,
-                "Diff": "12",
+                "Hoy": 4,
+                "Total": 289,
+                "Diff": "11",
                 "Antece": "Al Harrington",
                 "game_status": "playing"
             }
@@ -2564,7 +2564,7 @@
                 "Stat": "AST",
                 "Hoy": 7,
                 "Total": 1161,
-                "Diff": "69",
+                "Diff": "70",
                 "Antece": "Mike Conley",
                 "game_status": "finished"
             },
@@ -2891,13 +2891,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Al Horford (1 block today) has passed Bob McAdoo and is now ranked 50th all-time with 1,364.",
-            "foto": [
-                "collages/1795142717216900_collage_1795142717126939.png"
-            ],
-            "timestamp": 1795142717
-        },
         {
             "texto": "📢HOF🏛️ Harrison Barnes (9 points today) has passed Jamaal Wilkes and Jason Richardson and is now ranked 173rd all-time with 14,647.",
             "foto": [
@@ -3590,6 +3583,13 @@
                 "collages/1795401370400883_collage_1795401370296932.png"
             ],
             "timestamp": 1795401370
+        },
+        {
+            "texto": "📢🔝💯 Karl-Anthony Towns (4 three-pointers today) has passed Robert Covington and is now ranked 93rd all-time with 1,264.",
+            "foto": [
+                "collages/1795402679536449_collage_1795402679432465.png"
+            ],
+            "timestamp": 1795402679
         }
     ],
     "notificaciones_franchise": [
@@ -4386,7 +4386,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3068,
+    "total_notificaciones_historicas": 3069,
     "total_franchise_historicas": 832,
-    "cache_buster": 1795402606
+    "cache_buster": 1795402679
 }
