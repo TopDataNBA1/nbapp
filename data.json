@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:12:17",
+    "ultima_actualizacion": "01:13:37",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -81,14 +81,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 215,
+                "Rank": 214,
                 "Nombre": "Jaylen Brown",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 13790,
-                "Diff": "",
-                "Antece": "Bill Laimbeer",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 13792,
+                "Diff": "12",
+                "Antece": "Deron Williams",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -532,11 +532,11 @@
                 "Rank": 40,
                 "Nombre": "Damian Lillard",
                 "Team": "POR",
-                "Hoy": 0,
-                "Total": 6133,
-                "Diff": "2",
+                "Hoy": 1,
+                "Total": 6134,
+                "Diff": "1",
                 "Antece": "Scottie Pippen",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1182,9 +1182,9 @@
                 "Rank": 2,
                 "Nombre": "Damian Lillard",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 5215,
-                "Diff": "104",
+                "Hoy": 1,
+                "Total": 5216,
+                "Diff": "103",
                 "Antece": "Terry Porter",
                 "game_status": "playing"
             },
@@ -1272,9 +1272,9 @@
                 "Rank": 3,
                 "Nombre": "Damian Lillard",
                 "Stat": "G",
-                "Hoy": 0,
-                "Total": 785,
-                "Diff": "15",
+                "Hoy": 1,
+                "Total": 786,
+                "Diff": "14",
                 "Antece": "800",
                 "game_status": "playing"
             }
@@ -1631,13 +1631,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Brook Lopez (4 three-pointers today) has passed Jeff Green and is now ranked 113th all-time with 1,214.",
-            "foto": [
-                "collages/1795144160819512_collage_1795144160723540.png"
-            ],
-            "timestamp": 1795144160
-        },
         {
             "texto": "Mikal Bridges (2 three-pointers today) has passed Gary Trent Jr. and is now ranked 133rd all-time with 1,148.",
             "foto": [
@@ -2330,6 +2323,13 @@
                 "collages/1795479137617191_collage_1795479137513976.png"
             ],
             "timestamp": 1795479137
+        },
+        {
+            "texto": "Jaylen Brown (2 points today) has passed Bill Laimbeer and is now ranked 214th all-time with 13,792.",
+            "foto": [
+                "collages/1795479217413480_collage_1795479217310584.png"
+            ],
+            "timestamp": 1795479217
         }
     ],
     "notificaciones_franchise": [
@@ -3128,7 +3128,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3070,
+    "total_notificaciones_historicas": 3071,
     "total_franchise_historicas": 833,
-    "cache_buster": 1795479137
+    "cache_buster": 1795479217
 }
