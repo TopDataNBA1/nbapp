@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:01:43",
+    "ultima_actualizacion": "03:02:55",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -374,9 +374,9 @@
                 "Rank": 158,
                 "Nombre": "Jakob Poeltl",
                 "Team": "TOR",
-                "Hoy": 0,
-                "Total": 800,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 801,
+                "Diff": "6",
                 "Antece": "Tracy McGrady",
                 "Nota": "",
                 "game_status": "playing"
@@ -750,9 +750,9 @@
                 "Rank": 144,
                 "Nombre": "Coby White",
                 "Team": "CHA",
-                "Hoy": 3,
-                "Total": 1111,
-                "Diff": "5",
+                "Hoy": 4,
+                "Total": 1112,
+                "Diff": "4",
                 "Antece": "Tyler Herro",
                 "Nota": "",
                 "game_status": "playing"
@@ -772,9 +772,9 @@
                 "Rank": 151,
                 "Nombre": "Kelly Oubre Jr.",
                 "Team": "IND",
-                "Hoy": 2,
-                "Total": 1086,
-                "Diff": "4",
+                "Hoy": 3,
+                "Total": 1087,
+                "Diff": "3",
                 "Antece": "Dana Barros",
                 "Nota": "",
                 "game_status": "playing"
@@ -1431,9 +1431,9 @@
                 "Rank": 15,
                 "Nombre": "Alperen Şengün",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 6383,
-                "Diff": "117",
+                "Hoy": 5,
+                "Total": 6385,
+                "Diff": "115",
                 "Antece": "6500",
                 "game_status": "playing"
             },
@@ -1471,9 +1471,9 @@
                 "Rank": 12,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1710,
-                "Diff": "20",
+                "Hoy": 1,
+                "Total": 1711,
+                "Diff": "19",
                 "Antece": "Vernon Maxwell",
                 "game_status": "playing"
             },
@@ -1650,13 +1650,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 8,
+                "Rank": 7,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 436,
-                "Diff": "0",
-                "Antece": "Andrew Wiggins",
+                "Hoy": 2,
+                "Total": 437,
+                "Diff": "12",
+                "Antece": "Sam Mitchell",
                 "game_status": "playing"
             },
             {
@@ -2585,9 +2585,9 @@
                 "Rank": 10,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 344,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 345,
+                "Diff": "15",
                 "Antece": "Marcus Camby",
                 "game_status": "playing"
             },
@@ -2844,20 +2844,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Immanuel Quickley (1 three-pointer today) has passed Bobby Portis and is now ranked 233rd all-time with 892.",
-            "foto": [
-                "collages/1795223790707039_collage_1795223790628922.png"
-            ],
-            "timestamp": 1795223790
-        },
-        {
-            "texto": "Donovan Mitchell (5 points today) has passed Antoine Walker and is now ranked 143rd all-time with 15,649.",
-            "foto": [
-                "collages/1795223943975066_collage_1795223943871501.png"
-            ],
-            "timestamp": 1795223944
-        },
         {
             "texto": "Nickeil Alexander-Walker (2 three-pointers today) has passed Anthony Tolliver and Eric Piatkowski and is now ranked 247th all-time with 866.",
             "foto": [
@@ -3543,16 +3529,23 @@
                 "collages/1795485401672414_collage_1795485401553454.png"
             ],
             "timestamp": 1795485401
+        },
+        {
+            "texto": "Coby White (4 three-pointers today) has passed Gordon Hayward and is now ranked 144th all-time with 1,112.",
+            "foto": [
+                "collages/1795485774720088_collage_1795485774596129.png"
+            ],
+            "timestamp": 1795485775
+        },
+        {
+            "texto": "Kelly Oubre Jr. (3 three-pointers today) has passed Rasheed Wallace and is now ranked 151st all-time with 1,087.",
+            "foto": [
+                "collages/1795485775468022_collage_1795485775366339.png"
+            ],
+            "timestamp": 1795485775
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Evan Mobley (10 points today) has passed Terrell Brandon and is now ranked 17th in Cavaliers history with 5,795.",
-            "foto": [],
-            "timestamp": 1794450545,
-            "team": "CLE",
-            "type": "franchise"
-        },
         {
             "texto": "Keldon Johnson (6 rebounds today) becomes the 18th player to reach 2,500 rebounds with Spurs.",
             "foto": [],
@@ -4355,9 +4348,18 @@
             "timestamp": 1795485019,
             "team": "CHA",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Jaden McDaniels (2 steals today) has passed Andrew Wiggins and is now ranked 7th in Timberwolves history with 437.",
+            "foto": [
+                "collages/1795485775717432_collage_1795485775603638.png"
+            ],
+            "timestamp": 1795485775,
+            "team": "MIN",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3085,
-    "total_franchise_historicas": 841,
-    "cache_buster": 1795485703
+    "total_notificaciones_historicas": 3087,
+    "total_franchise_historicas": 842,
+    "cache_buster": 1795485775
 }
