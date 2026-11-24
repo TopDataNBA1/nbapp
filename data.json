@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:17:46",
+    "ultima_actualizacion": "03:19:02",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -174,9 +174,9 @@
                 "Rank": 23,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 7,
-                "Total": 12190,
-                "Diff": "15",
+                "Hoy": 6,
+                "Total": 12189,
+                "Diff": "16",
                 "Antece": "Charles Oakley",
                 "Nota": "",
                 "game_status": "playing"
@@ -750,9 +750,9 @@
                 "Rank": 144,
                 "Nombre": "Coby White",
                 "Team": "CHA",
-                "Hoy": 4,
-                "Total": 1112,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 1113,
+                "Diff": "4",
                 "Antece": "Tyler Herro",
                 "Nota": "",
                 "game_status": "playing"
@@ -2778,13 +2778,13 @@
         ],
         "MEM": [
             {
-                "Rank": 24,
+                "Rank": 23,
                 "Nombre": "Zach Edey",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 121,
+                "Hoy": 2,
+                "Total": 122,
                 "Diff": "0",
-                "Antece": "JaMychal Green",
+                "Antece": "Tony Massenburg",
                 "game_status": "playing"
             },
             {
@@ -3546,13 +3546,6 @@
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Keldon Johnson (6 rebounds today) becomes the 18th player to reach 2,500 rebounds with Spurs.",
-            "foto": [],
-            "timestamp": 1794451965,
-            "team": "SAS",
-            "type": "franchise_milestone"
-        },
         {
             "texto": "Noah Clowney (2 three-pointers today) has passed Mirza Teletović and is now ranked 24th in Nets history with 236.",
             "foto": [],
@@ -4357,9 +4350,18 @@
             "timestamp": 1795485775,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Zach Edey (2 blocks today) has passed JaMychal Green and is now ranked 23rd in Grizzlies history with 122.",
+            "foto": [
+                "collages/1795486742142422_collage_1795486742043404.png"
+            ],
+            "timestamp": 1795486742,
+            "team": "MEM",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3088,
-    "total_franchise_historicas": 842,
-    "cache_buster": 1795486666
+    "total_franchise_historicas": 843,
+    "cache_buster": 1795486742
 }
