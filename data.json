@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "06:15:53",
+    "ultima_actualizacion": "06:20:30",
     "jornada_inici": 1795496454,
     "tablas": {
         "pts": [
@@ -147,7 +147,18 @@
                 "game_status": "finished"
             },
             {
-                "Rank": 173,
+                "Rank": 172,
+                "Nombre": "Zach LaVine",
+                "Team": "SAC",
+                "Hoy": 18,
+                "Total": 14663,
+                "Diff": "13",
+                "Antece": "Richie Guerin",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 174,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
                 "Hoy": 9,
@@ -155,17 +166,6 @@
                 "Diff": "",
                 "Antece": "Dan Issel",
                 "Nota": "Mismo total",
-                "game_status": "playing"
-            },
-            {
-                "Rank": 174,
-                "Nombre": "Zach LaVine",
-                "Team": "SAC",
-                "Hoy": 13,
-                "Total": 14658,
-                "Diff": "1",
-                "Antece": "Harrison Barnes",
-                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -706,9 +706,9 @@
                 "Rank": 42,
                 "Nombre": "Zach LaVine",
                 "Team": "SAC",
-                "Hoy": 1,
-                "Total": 1673,
-                "Diff": "12",
+                "Hoy": 2,
+                "Total": 1674,
+                "Diff": "11",
                 "Antece": "Steve Nash",
                 "Nota": "",
                 "game_status": "playing"
@@ -2730,9 +2730,9 @@
                 "Rank": 11,
                 "Nombre": "Keldon Johnson",
                 "Stat": "PTS",
-                "Hoy": 10,
-                "Total": 7001,
-                "Diff": "324",
+                "Hoy": 12,
+                "Total": 7003,
+                "Diff": "322",
                 "Antece": "LaMarcus Aldridge",
                 "game_status": "playing"
             },
@@ -3176,9 +3176,9 @@
                 "Rank": 25,
                 "Nombre": "Zach LaVine",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 243,
-                "Diff": "11",
+                "Hoy": 2,
+                "Total": 244,
+                "Diff": "10",
                 "Antece": "Nemanja Bjelica",
                 "game_status": "playing"
             }
@@ -3417,13 +3417,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Nic Claxton (2 blocks today) has passed Kevin Kunnert and is now ranked 227th all-time with 617.",
-            "foto": [
-                "collages/1795229576144859_collage_1795229576016902.png"
-            ],
-            "timestamp": 1795229576
-        },
         {
             "texto": "Desmond Bane (6 three-pointers today) has passed Steve Blake and is now ranked 178th all-time with 1,038.",
             "foto": [
@@ -4116,6 +4109,13 @@
                 "collages/1795495506826951_collage_1795495506720806.png"
             ],
             "timestamp": 1795495506
+        },
+        {
+            "texto": "📢HOF🏛️ Zach LaVine (18 points today) has passed Dan Issel and Harrison Barnes and is now ranked 172nd all-time with 14,663.",
+            "foto": [
+                "collages/1795497629875986_collage_1795497629798399.png"
+            ],
+            "timestamp": 1795497629
         }
     ],
     "notificaciones_franchise": [
@@ -4954,7 +4954,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 3103,
+    "total_notificaciones_historicas": 3104,
     "total_franchise_historicas": 853,
-    "cache_buster": 1795497353
+    "cache_buster": 1795497630
 }
