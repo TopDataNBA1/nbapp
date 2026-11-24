@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:10:56",
+    "ultima_actualizacion": "05:24:44",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -150,11 +150,11 @@
                 "Rank": 173,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 7,
-                "Total": 14657,
-                "Diff": "2",
+                "Hoy": 9,
+                "Total": 14659,
+                "Diff": "",
                 "Antece": "Dan Issel",
-                "Nota": "A tiro de 2",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -163,7 +163,7 @@
                 "Team": "SAC",
                 "Hoy": 6,
                 "Total": 14651,
-                "Diff": "6",
+                "Diff": "8",
                 "Antece": "Harrison Barnes",
                 "Nota": "",
                 "game_status": "playing"
@@ -2770,10 +2770,10 @@
                 "Rank": 25,
                 "Nombre": "Devin Vassell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 999,
-                "Diff": "1",
-                "Antece": "1000",
+                "Hoy": 1,
+                "Total": 1000,
+                "Diff": "76",
+                "Antece": "Billy Paultz",
                 "game_status": "playing"
             },
             {
@@ -4120,13 +4120,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Herbert Jones (4 points today) becomes the 14th player to reach 3,000 points with Pelicans.",
-            "foto": [],
-            "timestamp": 1794621267,
-            "team": "NOH",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "📢HOF🏛️ Jalen Brunson (24 points today) has passed Harry Gallatin and is now ranked 15th in Knicks history with 7,772.",
             "foto": [],
             "timestamp": 1794621267,
@@ -4948,9 +4941,18 @@
             "timestamp": 1795488453,
             "team": "IND",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Devin Vassell (1 assist today) becomes the 25th player to reach 1,000 assists with Spurs.",
+            "foto": [
+                "collages/1795494284083915_collage_1795494284014227.png"
+            ],
+            "timestamp": 1795494284,
+            "team": "SAS",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 3100,
-    "total_franchise_historicas": 851,
-    "cache_buster": 1795493456
+    "total_franchise_historicas": 852,
+    "cache_buster": 1795494284
 }
