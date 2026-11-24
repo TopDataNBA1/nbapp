@@ -716,20 +716,8 @@
         let currentDataFile = 'data.json';
         let currentHistoricoFile = 'notificaciones_historicas.json';
         var RAW_BASE = 'https://raw.githubusercontent.com/TopDataNBA1/nbapp/main/';
-        var CONTENTS_API_BASE = 'https://api.github.com/repos/TopDataNBA1/nbapp/contents/';
-        // data.json es llegeix via Contents API (sense caché, actualització quasi-immediata).
-        // La resta de fitxers (historics, collages) continuen via raw (canvien poc).
         async function fetchFileContent(file) {
-            const isDataJson = file === 'data.json' || file === 'data_playoffs.json' || file === 'data_finals.json';
-            if (isDataJson) {
-                const resp = await fetch(CONTENTS_API_BASE + file, {
-                    headers: { 'Accept': 'application/vnd.github.raw+json' },
-                    cache: 'no-store'
-                });
-                return resp;
-            } else {
-                return fetch(RAW_BASE + file + '?t=' + Date.now());
-            }
+            return fetch(RAW_BASE + file + '?t=' + Date.now());
         }
         function rawUrl(file) { return RAW_BASE + file + '?t=' + Date.now(); }
 
