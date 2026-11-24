@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:54:58",
+    "ultima_actualizacion": "03:56:07",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -18,9 +18,9 @@
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 10,
-                "Total": 32964,
-                "Diff": "36",
+                "Hoy": 12,
+                "Total": 32966,
+                "Diff": "34",
                 "Antece": "33000",
                 "Nota": "",
                 "game_status": "playing"
@@ -1000,14 +1000,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 165,
+                "Rank": 164,
                 "Nombre": "Darius Garland",
                 "Team": "LAC",
-                "Hoy": 3,
-                "Total": 1059,
-                "Diff": "",
-                "Antece": "Allen Iverson",
-                "Nota": "Mismo total",
+                "Hoy": 4,
+                "Total": 1060,
+                "Diff": "2",
+                "Antece": "Al Horford",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -1017,7 +1017,7 @@
                 "Hoy": 0,
                 "Total": 1058,
                 "Diff": "1",
-                "Antece": "Darius Garland",
+                "Antece": "Allen Iverson",
                 "Nota": "A tiro de 1",
                 "game_status": "inactive"
             },
@@ -1676,7 +1676,7 @@
                 "Stat": "3PM",
                 "Hoy": 1,
                 "Total": 928,
-                "Diff": "31",
+                "Diff": "32",
                 "Antece": "Darius Garland",
                 "game_status": "playing"
             },
@@ -1746,9 +1746,9 @@
                 "Rank": 12,
                 "Nombre": "Alperen Şengün",
                 "Stat": "AST",
-                "Hoy": 2,
-                "Total": 1712,
-                "Diff": "18",
+                "Hoy": 3,
+                "Total": 1713,
+                "Diff": "17",
                 "Antece": "Vernon Maxwell",
                 "game_status": "playing"
             },
@@ -3418,13 +3418,6 @@
     },
     "notificaciones": [
         {
-            "texto": "📢🔝2️⃣5️⃣ Buddy Hield (2 three-pointers today) has passed Jamal Crawford and is now ranked 13th all-time with 2,222.",
-            "foto": [
-                "collages/1795226314611470_collage_1795226314515715.png"
-            ],
-            "timestamp": 1795226314
-        },
-        {
             "texto": "Immanuel Quickley (3 three-pointers today) has passed Will Barton and is now ranked 232nd all-time with 894.",
             "foto": [
                 "collages/1795226314794935_collage_1795226314690763.png"
@@ -4116,6 +4109,13 @@
                 "collages/1795488898694268_collage_1795488898589485.png"
             ],
             "timestamp": 1795488898
+        },
+        {
+            "texto": "📢HOF🏛️ Darius Garland (4 three-pointers today) has passed Allen Iverson and is now ranked 164th all-time with 1,060.",
+            "foto": [
+                "collages/1795488967138580_collage_1795488967030111.png"
+            ],
+            "timestamp": 1795488967
         }
     ],
     "notificaciones_franchise": [
@@ -4950,7 +4950,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 3092,
+    "total_notificaciones_historicas": 3093,
     "total_franchise_historicas": 851,
-    "cache_buster": 1795488898
+    "cache_buster": 1795488967
 }
