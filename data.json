@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:32:45",
+    "ultima_actualizacion": "03:34:01",
     "jornada_inici": 1795479107,
     "tablas": {
         "pts": [
@@ -51,9 +51,9 @@
                 "Rank": 75,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 9,
-                "Total": 18499,
-                "Diff": "79",
+                "Hoy": 11,
+                "Total": 18501,
+                "Diff": "77",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -128,9 +128,9 @@
                 "Rank": 154,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 21,
-                "Total": 15521,
-                "Diff": "9",
+                "Hoy": 24,
+                "Total": 15524,
+                "Diff": "6",
                 "Antece": "Bob Dandridge",
                 "Nota": "",
                 "game_status": "playing"
@@ -363,9 +363,9 @@
                 "Rank": 52,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 0,
-                "Total": 1360,
-                "Diff": "3",
+                "Hoy": 1,
+                "Total": 1361,
+                "Diff": "2",
                 "Antece": "Bob McAdoo",
                 "Nota": "",
                 "game_status": "playing"
@@ -915,9 +915,9 @@
                 "Rank": 195,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 0,
-                "Total": 983,
-                "Diff": "5",
+                "Hoy": 1,
+                "Total": 984,
+                "Diff": "4",
                 "Antece": "Leandro Barbosa",
                 "Nota": "",
                 "game_status": "playing"
@@ -1872,9 +1872,9 @@
                 "Rank": 12,
                 "Nombre": "Trey Murphy III",
                 "Stat": "REB",
-                "Hoy": 7,
-                "Total": 1407,
-                "Diff": "93",
+                "Hoy": 6,
+                "Total": 1406,
+                "Diff": "94",
                 "Antece": "1500",
                 "game_status": "playing"
             },
@@ -1882,9 +1882,9 @@
                 "Rank": 16,
                 "Nombre": "Herbert Jones",
                 "Stat": "REB",
-                "Hoy": 0,
-                "Total": 1154,
-                "Diff": "198",
+                "Hoy": 1,
+                "Total": 1155,
+                "Diff": "197",
                 "Antece": "Ryan Anderson",
                 "game_status": "playing"
             },
@@ -2328,10 +2328,10 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 9,
-                "Total": 18499,
-                "Diff": "1",
-                "Antece": "18500",
+                "Hoy": 11,
+                "Total": 18501,
+                "Diff": "499",
+                "Antece": "19000",
                 "game_status": "playing"
             },
             {
@@ -2888,9 +2888,9 @@
                 "Rank": 16,
                 "Nombre": "Andrew Nembhard",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 341,
-                "Diff": "35",
+                "Hoy": 1,
+                "Total": 342,
+                "Diff": "34",
                 "Antece": "Austin Croshere",
                 "game_status": "playing"
             },
@@ -3718,20 +3718,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Franz Wagner (2 three-pointers today) has passed Aaron Gordon and is now ranked 12th in Magic history with 485.",
-            "foto": [],
-            "timestamp": 1794455087,
-            "team": "ORL",
-            "type": "franchise"
-        },
-        {
-            "texto": "Franz Wagner (30 points today) becomes the 11th player to reach 6,500 points with Magic.",
-            "foto": [],
-            "timestamp": 1794456866,
-            "team": "ORL",
-            "type": "franchise_milestone"
-        },
-        {
             "texto": "RJ Barrett (2 points today) has passed Serge Ibaka and is now ranked 22nd in Raptors history with 3,244.",
             "foto": [],
             "timestamp": 1794529132,
@@ -4532,9 +4518,27 @@
             "timestamp": 1795487486,
             "team": "PHO",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝3️⃣ Devin Booker (11 points today) becomes the 1st player to reach 18,500 points with Suns.",
+            "foto": [
+                "collages/1795487641461430_collage_1795487641400138.png"
+            ],
+            "timestamp": 1795487641,
+            "team": "PHO",
+            "type": "franchise_milestone"
+        },
+        {
+            "texto": "Andrew Nembhard (1 three-pointer today) has passed Doug McDermott and is now ranked 16th in Pacers history with 342.",
+            "foto": [
+                "collages/1795487641618115_collage_1795487641524309.png"
+            ],
+            "timestamp": 1795487641,
+            "team": "IND",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3089,
-    "total_franchise_historicas": 844,
-    "cache_buster": 1795487565
+    "total_franchise_historicas": 846,
+    "cache_buster": 1795487641
 }
