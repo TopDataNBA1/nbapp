@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:49:47",
+    "ultima_actualizacion": "02:50:49",
     "jornada_inici": 1795496454,
     "tablas": {
         "pts": [
@@ -277,9 +277,9 @@
                 "Rank": 227,
                 "Nombre": "Payton Pritchard",
                 "Team": "BOS",
-                "Hoy": 1,
-                "Total": 911,
-                "Diff": "3",
+                "Hoy": 2,
+                "Total": 912,
+                "Diff": "2",
                 "Antece": "Brandon Jennings",
                 "Nota": "",
                 "game_status": "playing"
@@ -312,9 +312,9 @@
                 "Rank": 173,
                 "Nombre": "Paul George",
                 "Team": "BOS",
-                "Hoy": 3,
-                "Total": 3558,
-                "Diff": "5",
+                "Hoy": 5,
+                "Total": 3560,
+                "Diff": "3",
                 "Antece": "Pete Maravich",
                 "Nota": "",
                 "game_status": "playing"
@@ -507,13 +507,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 6,
+                "Rank": 5,
                 "Nombre": "Payton Pritchard",
                 "Stat": "3PM",
-                "Hoy": 1,
-                "Total": 911,
-                "Diff": "0",
-                "Antece": "Marcus Smart",
+                "Hoy": 2,
+                "Total": 912,
+                "Diff": "25",
+                "Antece": "Antoine Walker",
                 "game_status": "playing"
             },
             {
@@ -654,9 +654,9 @@
                 "Rank": 18,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "PTS",
-                "Hoy": 6,
-                "Total": 4410,
-                "Diff": "17",
+                "Hoy": 7,
+                "Total": 4411,
+                "Diff": "16",
                 "Antece": "Terrence Ross",
                 "game_status": "playing"
             },
@@ -684,9 +684,9 @@
                 "Rank": 6,
                 "Nombre": "Wendell Carter Jr.",
                 "Stat": "REB",
-                "Hoy": 12,
-                "Total": 2937,
-                "Diff": "63",
+                "Hoy": 13,
+                "Total": 2938,
+                "Diff": "62",
                 "Antece": "3000",
                 "game_status": "playing"
             },
@@ -1005,13 +1005,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 DeMar DeRozan (1 steal today) has passed Draymond Green and is now ranked 86th all-time with 1,257.",
-            "foto": [
-                "collages/1795232943827153_collage_1795232943698207.png"
-            ],
-            "timestamp": 1795232943
-        },
         {
             "texto": "📢🔝💯 DeMar DeRozan (1 assist today) has passed Norm Van Lier and is now ranked 67th all-time with 5,218.",
             "foto": [
@@ -1704,16 +1697,16 @@
                 "collages/1795570649956292_collage_1795570649861340.png"
             ],
             "timestamp": 1795570649
+        },
+        {
+            "texto": "Payton Pritchard (2 three-pointers today) has passed Rasual Butler and is now ranked 227th all-time with 912.",
+            "foto": [
+                "collages/1795571449096321_collage_1795571448995713.png"
+            ],
+            "timestamp": 1795571449
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "📢🔝🔟 📢HOF🏛️ Alperen Şengün (10 rebounds today) has passed Ralph Sampson and is now ranked 10th in Rockets history with 3,190.",
-            "foto": [],
-            "timestamp": 1794626664,
-            "team": "HOU",
-            "type": "franchise"
-        },
         {
             "texto": "Deni Avdija (1 three-pointer today) has passed Meyers Leonard and is now ranked 22nd in Trail Blazers history with 272.",
             "foto": [],
@@ -2544,9 +2537,18 @@
             "timestamp": 1795571251,
             "team": "ORL",
             "type": "franchise"
+        },
+        {
+            "texto": "📢🔝🔟 Payton Pritchard (2 three-pointers today) has passed Marcus Smart and is now ranked 5th in Celtics history with 912.",
+            "foto": [
+                "collages/1795571449302449_collage_1795571449194027.png"
+            ],
+            "timestamp": 1795571449,
+            "team": "BOS",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3110,
-    "total_franchise_historicas": 855,
-    "cache_buster": 1795571387
+    "total_notificaciones_historicas": 3111,
+    "total_franchise_historicas": 856,
+    "cache_buster": 1795571449
 }
