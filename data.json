@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:36:42",
+    "ultima_actualizacion": "02:38:58",
     "jornada_inici": 1795582829,
     "tablas": {
         "pts": [
@@ -185,9 +185,9 @@
                 "Rank": 26,
                 "Nombre": "Andre Drummond",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 11645,
-                "Diff": "256",
+                "Hoy": 1,
+                "Total": 11646,
+                "Diff": "255",
                 "Antece": "Kevin Willis",
                 "Nota": "",
                 "game_status": "playing"
@@ -552,9 +552,9 @@
                 "Rank": 13,
                 "Nombre": "Buddy Hield",
                 "Team": "CHI",
-                "Hoy": 1,
-                "Total": 2236,
-                "Diff": "46",
+                "Hoy": 2,
+                "Total": 2237,
+                "Diff": "45",
                 "Antece": "Jason Terry",
                 "Nota": "",
                 "game_status": "playing"
@@ -1259,13 +1259,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 174,
+                "Rank": 172,
                 "Nombre": "Andre Drummond",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 984,
+                "Hoy": 1,
+                "Total": 985,
                 "Diff": "1",
-                "Antece": "LaSalle Thompson",
+                "Antece": "Wesley Matthews",
                 "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
@@ -2378,13 +2378,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 23,
+                "Rank": 22,
                 "Nombre": "Zach Edey",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 122,
-                "Diff": "0",
-                "Antece": "Tony Massenburg",
+                "Hoy": 2,
+                "Total": 123,
+                "Diff": "11",
+                "Antece": "Kosta Koufos",
                 "game_status": "playing"
             },
             {
@@ -2444,13 +2444,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Jrue Holiday (2 steals today) has passed Andre Miller and is now ranked 45th all-time with 1,547.",
-            "foto": [
-                "collages/1795314111953941_collage_1795314111856553.png"
-            ],
-            "timestamp": 1795314111
-        },
         {
             "texto": "LaMelo Ball (1 three-pointer today) has passed Desmond Bane and Doug McDermott and is now ranked 180th all-time with 1,033.",
             "foto": [
@@ -3143,16 +3136,16 @@
                 "collages/1795656777450779_collage_1795656777360791.png"
             ],
             "timestamp": 1795656777
+        },
+        {
+            "texto": "📢HOF🏛️ Andre Drummond today surpasses Vinnie Johnson, Wayne Cooper and Wes Unseld and now ranked 172nd all time with 985 games",
+            "foto": [
+                "collages/1795657138235275_collage_1795657138143286.png"
+            ],
+            "timestamp": 1795657138
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Zion Williamson (2 blocks today) has passed Jonas Valančiūnas and is now ranked 11th in Pelicans history with 181.",
-            "foto": [],
-            "timestamp": 1794706397,
-            "team": "NOH",
-            "type": "franchise"
-        },
         {
             "texto": "Noah Clowney (1 three-pointer today) has passed Lucious Harris and is now ranked 23rd in Nets history with 237.",
             "foto": [],
@@ -3995,9 +3988,18 @@
             "timestamp": 1795656777,
             "team": "MIN",
             "type": "franchise"
+        },
+        {
+            "texto": "Zach Edey (2 blocks today) has passed Tony Massenburg and is now ranked 22nd in Grizzlies history with 123.",
+            "foto": [
+                "collages/1795657138491236_collage_1795657138372294.png"
+            ],
+            "timestamp": 1795657138,
+            "team": "MEM",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3138,
-    "total_franchise_historicas": 861,
-    "cache_buster": 1795657002
+    "total_notificaciones_historicas": 3139,
+    "total_franchise_historicas": 862,
+    "cache_buster": 1795657138
 }
