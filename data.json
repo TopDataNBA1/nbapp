@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "05:03:01",
+    "ultima_actualizacion": "05:04:17",
     "jornada_inici": 1795582829,
     "tablas": {
         "pts": [
@@ -18,9 +18,9 @@
                 "Rank": 5,
                 "Nombre": "Kevin Durant",
                 "Team": "HOU",
-                "Hoy": 18,
-                "Total": 33004,
-                "Diff": "639",
+                "Hoy": 20,
+                "Total": 33006,
+                "Diff": "637",
                 "Antece": "Kobe Bryant",
                 "Nota": "",
                 "game_status": "playing"
@@ -192,25 +192,25 @@
             },
             {
                 "Rank": 172,
+                "Nombre": "Harrison Barnes",
+                "Team": "SAS",
+                "Hoy": 5,
+                "Total": 14664,
+                "Diff": "12",
+                "Antece": "Richie Guerin",
+                "Nota": "",
+                "game_status": "playing"
+            },
+            {
+                "Rank": 173,
                 "Nombre": "Zach LaVine",
                 "Team": "SAC",
                 "Hoy": 0,
                 "Total": 14663,
-                "Diff": "13",
-                "Antece": "Richie Guerin",
-                "Nota": "",
+                "Diff": "1",
+                "Antece": "Harrison Barnes",
+                "Nota": "A tiro de 1",
                 "game_status": "inactive"
-            },
-            {
-                "Rank": 173,
-                "Nombre": "Harrison Barnes",
-                "Team": "SAS",
-                "Hoy": 2,
-                "Total": 14661,
-                "Diff": "2",
-                "Antece": "Zach LaVine",
-                "Nota": "A tiro de 2",
-                "game_status": "playing"
             },
             {
                 "Rank": 204,
@@ -849,9 +849,9 @@
                 "Rank": 49,
                 "Nombre": "Harrison Barnes",
                 "Team": "SAS",
-                "Hoy": 0,
-                "Total": 1594,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 1595,
+                "Diff": "5",
                 "Antece": "1600",
                 "Nota": "",
                 "game_status": "playing"
@@ -1409,14 +1409,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 129,
+                "Rank": 128,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 5,
-                "Total": 4000,
-                "Diff": "1",
-                "Antece": "Manu Ginóbili",
-                "Nota": "A tiro de 1",
+                "Hoy": 6,
+                "Total": 4001,
+                "Diff": "11",
+                "Antece": "Alvan Adams",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2173,9 +2173,9 @@
                 "Rank": 20,
                 "Nombre": "Jabari Smith Jr.",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 2228,
-                "Diff": "7",
+                "Hoy": 4,
+                "Total": 2229,
+                "Diff": "6",
                 "Antece": "Charles Barkley",
                 "game_status": "playing"
             },
@@ -2935,9 +2935,9 @@
                 "Rank": 4,
                 "Nombre": "Devin Booker",
                 "Stat": "AST",
-                "Hoy": 5,
-                "Total": 4000,
-                "Diff": "12",
+                "Hoy": 6,
+                "Total": 4001,
+                "Diff": "11",
                 "Antece": "Alvan Adams",
                 "game_status": "playing"
             },
@@ -3159,9 +3159,9 @@
                 "Rank": 25,
                 "Nombre": "Devin Vassell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 1001,
-                "Diff": "75",
+                "Hoy": 1,
+                "Total": 1002,
+                "Diff": "74",
                 "Antece": "Billy Paultz",
                 "game_status": "playing"
             },
@@ -3239,9 +3239,9 @@
                 "Rank": 18,
                 "Nombre": "Harrison Barnes",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 311,
-                "Diff": "45",
+                "Hoy": 1,
+                "Total": 312,
+                "Diff": "44",
                 "Antece": "Brent Barry",
                 "game_status": "playing"
             },
@@ -3438,13 +3438,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Anthony Davis (2 steals today) has passed Derrick McKey and is now ranked 153rd all-time with 1,074.",
-            "foto": [
-                "collages/1795397220307380_collage_1795397220182416.png"
-            ],
-            "timestamp": 1795397220
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Al Horford today surpasses Dikembe Mutombo and now ranked 55th all time with 1,197 games",
             "foto": [
@@ -4137,6 +4130,13 @@
                 "collages/1795665340023808_collage_1795665339899850.png"
             ],
             "timestamp": 1795665340
+        },
+        {
+            "texto": "Harrison Barnes (5 points today) has passed Zach LaVine and is now ranked 172nd all-time with 14,664.",
+            "foto": [
+                "collages/1795665856890516_collage_1795665856797437.png"
+            ],
+            "timestamp": 1795665856
         }
     ],
     "notificaciones_franchise": [
@@ -5007,7 +5007,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 3159,
+    "total_notificaciones_historicas": 3160,
     "total_franchise_historicas": 869,
-    "cache_buster": 1795665781
+    "cache_buster": 1795665857
 }
