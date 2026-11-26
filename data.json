@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:56:17",
+    "ultima_actualizacion": "01:58:25",
     "jornada_inici": 1795582829,
     "tablas": {
         "pts": [
@@ -117,9 +117,9 @@
                 "Rank": 206,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Team": "OKC",
-                "Hoy": 2,
-                "Total": 13958,
-                "Diff": "10",
+                "Hoy": 4,
+                "Total": 13960,
+                "Diff": "8",
                 "Antece": "Andre Iguodala",
                 "Nota": "",
                 "game_status": "playing"
@@ -736,14 +736,14 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 181,
+                "Rank": 180,
                 "Nombre": "LaMelo Ball",
                 "Team": "MIN",
-                "Hoy": 0,
-                "Total": 1035,
-                "Diff": "",
-                "Antece": "James Posey",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 1036,
+                "Diff": "1",
+                "Antece": "Steve Blake",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1325,7 +1325,7 @@
                 "Stat": "REB",
                 "Hoy": 0,
                 "Total": 2338,
-                "Diff": "127",
+                "Diff": "128",
                 "Antece": "Naz Reid",
                 "game_status": "inactive"
             },
@@ -1587,9 +1587,9 @@
                 "Rank": 5,
                 "Nombre": "Shai Gilgeous-Alexander",
                 "Stat": "PTS",
-                "Hoy": 2,
-                "Total": 13069,
-                "Diff": "431",
+                "Hoy": 4,
+                "Total": 13071,
+                "Diff": "429",
                 "Antece": "13500",
                 "game_status": "playing"
             },
@@ -1956,13 +1956,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 Rudy Gobert (7 rebounds today) has passed Nikola Vučević and is now ranked 35th all-time with 10,742.",
-            "foto": [
-                "collages/1795312786548023_collage_1795312786461079.png"
-            ],
-            "timestamp": 1795312786
-        },
         {
             "texto": "Jalen Brunson (4 assists today) has passed Ish Smith and is now ranked 238th all-time with 3,045.",
             "foto": [
@@ -2655,6 +2648,13 @@
                 "collages/1795653861094210_collage_1795653860984260.png"
             ],
             "timestamp": 1795653861
+        },
+        {
+            "texto": "LaMelo Ball (1 three-pointer today) has passed James Posey and is now ranked 180th all-time with 1,036.",
+            "foto": [
+                "collages/1795654704960907_collage_1795654704864938.png"
+            ],
+            "timestamp": 1795654704
         }
     ],
     "notificaciones_franchise": [
@@ -3505,7 +3505,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3134,
+    "total_notificaciones_historicas": 3135,
     "total_franchise_historicas": 859,
-    "cache_buster": 1795654577
+    "cache_buster": 1795654705
 }
