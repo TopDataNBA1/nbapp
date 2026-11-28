@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:45:24",
+    "ultima_actualizacion": "01:46:34",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -541,11 +541,11 @@
                 "Rank": 127,
                 "Nombre": "Kyle Kuzma",
                 "Team": "MIL",
-                "Hoy": 0,
-                "Total": 1160,
-                "Diff": "1",
+                "Hoy": 1,
+                "Total": 1161,
+                "Diff": "",
                 "Antece": "Donte DiVincenzo",
-                "Nota": "A tiro de 1",
+                "Nota": "Mismo total",
                 "game_status": "playing"
             },
             {
@@ -554,7 +554,7 @@
                 "Team": "PHI",
                 "Hoy": 0,
                 "Total": 1156,
-                "Diff": "4",
+                "Diff": "5",
                 "Antece": "Kyle Kuzma",
                 "Nota": "",
                 "game_status": "playing"
@@ -1196,9 +1196,9 @@
                 "Rank": 24,
                 "Nombre": "Ausar Thompson",
                 "Stat": "BLK",
-                "Hoy": 0,
-                "Total": 184,
-                "Diff": "8",
+                "Hoy": 1,
+                "Total": 185,
+                "Diff": "7",
                 "Antece": "Cade Cunningham",
                 "game_status": "playing"
             },
@@ -2604,13 +2604,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Luka Dončić (5 three-pointers today) has passed Metta World Peace and is now ranked 14th in Lakers history with 421.",
-            "foto": [],
-            "timestamp": 1794783351,
-            "team": "LAL",
-            "type": "franchise"
-        },
-        {
             "texto": "Collin Gillespie (3 three-pointers today) has passed Clifford Robinson and is now ranked 22nd in Suns history with 296.",
             "foto": [],
             "timestamp": 1794783621,
@@ -3468,9 +3461,18 @@
             "timestamp": 1795662806,
             "team": "PHO",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Ausar Thompson (1 block today) has passed Jerry Stackhouse and is now ranked 24th in Pistons history with 185.",
+            "foto": [
+                "collages/1795826794644944_collage_1795826794537969.png"
+            ],
+            "timestamp": 1795826794,
+            "team": "DET",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3167,
-    "total_franchise_historicas": 869,
-    "cache_buster": 1795826724
+    "total_franchise_historicas": 870,
+    "cache_buster": 1795826794
 }
