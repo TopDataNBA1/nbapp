@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:07:38",
+    "ultima_actualizacion": "03:09:01",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -1143,14 +1143,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 142,
+                "Rank": 141,
                 "Nombre": "Tyler Herro",
                 "Team": "MIL",
-                "Hoy": 2,
-                "Total": 1123,
-                "Diff": "",
-                "Antece": "David Wesley",
-                "Nota": "Mismo total",
+                "Hoy": 3,
+                "Total": 1124,
+                "Diff": "8",
+                "Antece": "Gary Payton",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -3816,9 +3816,9 @@
                 "Rank": 24,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 530,
-                "Diff": "14",
+                "Hoy": 1,
+                "Total": 531,
+                "Diff": "13",
                 "Antece": "Andrea Bargnani",
                 "game_status": "playing"
             },
@@ -3836,9 +3836,9 @@
                 "Rank": 19,
                 "Nombre": "Jakob Poeltl",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 243,
-                "Diff": "9",
+                "Hoy": 3,
+                "Total": 244,
+                "Diff": "8",
                 "Antece": "Anthony Parker",
                 "game_status": "playing"
             },
@@ -4249,13 +4249,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Devin Booker (4 assists today) has passed Mo Williams and is now ranked 129th all-time with 3,991.",
-            "foto": [
-                "collages/1795484115485404_collage_1795484115360446.png"
-            ],
-            "timestamp": 1795484115
-        },
         {
             "texto": "Donovan Mitchell (7 points today) has passed Kevin Love and is now ranked 141st all-time with 15,671.",
             "foto": [
@@ -4948,16 +4941,16 @@
                 "collages/1795831345321574_collage_1795831345183104.png"
             ],
             "timestamp": 1795831345
+        },
+        {
+            "texto": "Tyler Herro (3 three-pointers today) has passed David Wesley and is now ranked 141st all-time with 1,124.",
+            "foto": [
+                "collages/1795831740723136_collage_1795831740605173.png"
+            ],
+            "timestamp": 1795831740
         }
     ],
     "notificaciones_franchise": [
-        {
-            "texto": "Scottie Barnes (2 three-pointers today) has passed Chris Boucher and is now ranked 15th in Raptors history with 372.",
-            "foto": [],
-            "timestamp": 1794784886,
-            "team": "TOR",
-            "type": "franchise"
-        },
         {
             "texto": "Keyonte George (6 assists today) has passed Thurl Bailey and is now ranked 16th in Jazz history with 1,125.",
             "foto": [],
@@ -5822,9 +5815,18 @@
             "timestamp": 1795831658,
             "team": "MIL",
             "type": "franchise"
+        },
+        {
+            "texto": "Jakob Poeltl (1 assist today) has passed Greivis Vásquez and is now ranked 24th in Raptors history with 531.",
+            "foto": [
+                "collages/1795831741000703_collage_1795831740889763.png"
+            ],
+            "timestamp": 1795831741,
+            "team": "TOR",
+            "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3178,
-    "total_franchise_historicas": 872,
-    "cache_buster": 1795831658
+    "total_notificaciones_historicas": 3179,
+    "total_franchise_historicas": 873,
+    "cache_buster": 1795831741
 }
