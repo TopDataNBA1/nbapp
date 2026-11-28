@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "02:38:46",
+    "ultima_actualizacion": "02:40:09",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -18,10 +18,10 @@
                 "Rank": 39,
                 "Nombre": "Giannis Antetokounmpo",
                 "Team": "MIA",
-                "Hoy": 13,
-                "Total": 21999,
-                "Diff": "1",
-                "Antece": "22000",
+                "Hoy": 14,
+                "Total": 22000,
+                "Diff": "195",
+                "Antece": "Clyde Drexler",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -185,9 +185,9 @@
                 "Rank": 23,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 3,
-                "Total": 12202,
-                "Diff": "3",
+                "Hoy": 4,
+                "Total": 12203,
+                "Diff": "2",
                 "Antece": "Charles Oakley",
                 "Nota": "",
                 "game_status": "playing"
@@ -229,9 +229,9 @@
                 "Rank": 75,
                 "Nombre": "Karl-Anthony Towns",
                 "Team": "NYK",
-                "Hoy": 7,
-                "Total": 8264,
-                "Diff": "97",
+                "Hoy": 8,
+                "Total": 8265,
+                "Diff": "96",
                 "Antece": "Kevin Durant",
                 "Nota": "",
                 "game_status": "playing"
@@ -284,9 +284,9 @@
                 "Rank": 249,
                 "Nombre": "Ivica Zubac",
                 "Team": "IND",
-                "Hoy": 11,
-                "Total": 5380,
-                "Diff": "24",
+                "Hoy": 12,
+                "Total": 5381,
+                "Diff": "23",
                 "Antece": "Joe Barry Carroll",
                 "Nota": "",
                 "game_status": "playing"
@@ -330,9 +330,9 @@
                 "Rank": 68,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 1194,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 1195,
+                "Diff": "5",
                 "Antece": "Chris Webber",
                 "Nota": "",
                 "game_status": "playing"
@@ -739,11 +739,11 @@
                 "Rank": 161,
                 "Nombre": "Michael Porter Jr.",
                 "Team": "BKN",
-                "Hoy": 2,
-                "Total": 1068,
-                "Diff": "2",
+                "Hoy": 3,
+                "Total": 1069,
+                "Diff": "1",
                 "Antece": "Derek Harper",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -1038,9 +1038,9 @@
                 "Rank": 215,
                 "Nombre": "Julius Randle",
                 "Team": "BKN",
-                "Hoy": 4,
-                "Total": 3190,
-                "Diff": "12",
+                "Hoy": 5,
+                "Total": 3191,
+                "Diff": "11",
                 "Antece": "Rafer Alston",
                 "Nota": "",
                 "game_status": "playing"
@@ -2060,9 +2060,9 @@
                 "Rank": 7,
                 "Nombre": "Scottie Barnes",
                 "Stat": "PTS",
-                "Hoy": 20,
-                "Total": 6522,
-                "Diff": "59",
+                "Hoy": 22,
+                "Total": 6524,
+                "Diff": "57",
                 "Antece": "Andrea Bargnani",
                 "game_status": "playing"
             },
@@ -2120,9 +2120,9 @@
                 "Rank": 13,
                 "Nombre": "Immanuel Quickley",
                 "Stat": "AST",
-                "Hoy": 7,
-                "Total": 960,
-                "Diff": "5",
+                "Hoy": 8,
+                "Total": 961,
+                "Diff": "4",
                 "Antece": "Morris Peterson",
                 "game_status": "playing"
             },
@@ -2489,13 +2489,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "Jaylen Brown (15 points today) has passed Deron Williams and is now ranked 213th all-time with 13,805.",
-            "foto": [
-                "collages/1795482115868015_collage_1795482115740058.png"
-            ],
-            "timestamp": 1795482115
-        },
         {
             "texto": "📢🔝💯 📢HOF🏛️ Damian Lillard (3 assists today) has passed Scottie Pippen and is now ranked 39th all-time with 6,136.",
             "foto": [
@@ -3188,6 +3181,13 @@
                 "collages/1795829773634151_collage_1795829773507196.png"
             ],
             "timestamp": 1795829773
+        },
+        {
+            "texto": "📢🔝💯 Giannis Antetokounmpo (14 points today) becomes the 39th player to reach 22,000",
+            "foto": [
+                "collages/1795830008930083_collage_1795830008855113.png"
+            ],
+            "timestamp": 1795830008
         }
     ],
     "notificaciones_franchise": [
@@ -4060,7 +4060,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3174,
+    "total_notificaciones_historicas": 3175,
     "total_franchise_historicas": 870,
-    "cache_buster": 1795829926
+    "cache_buster": 1795830009
 }
