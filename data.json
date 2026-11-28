@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:05:07",
+    "ultima_actualizacion": "04:06:55",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -84,9 +84,9 @@
                 "Rank": 75,
                 "Nombre": "Devin Booker",
                 "Team": "PHX",
-                "Hoy": 8,
-                "Total": 18545,
-                "Diff": "33",
+                "Hoy": 10,
+                "Total": 18547,
+                "Diff": "31",
                 "Antece": "Zach Randolph",
                 "Nota": "",
                 "game_status": "playing"
@@ -205,9 +205,9 @@
                 "Rank": 146,
                 "Nombre": "Luka Dončić",
                 "Team": "LAL",
-                "Hoy": 12,
-                "Total": 15619,
-                "Diff": "16",
+                "Hoy": 14,
+                "Total": 15621,
+                "Diff": "14",
                 "Antece": "Sam Cassell",
                 "Nota": "",
                 "game_status": "playing"
@@ -361,9 +361,9 @@
                 "Rank": 55,
                 "Nombre": "Al Horford",
                 "Team": "GSW",
-                "Hoy": 2,
-                "Total": 9216,
-                "Diff": "110",
+                "Hoy": 3,
+                "Total": 9217,
+                "Diff": "109",
                 "Antece": "Vlade Divac",
                 "Nota": "",
                 "game_status": "playing"
@@ -1135,9 +1135,9 @@
                 "Rank": 139,
                 "Nombre": "Jordan Poole",
                 "Team": "NOP",
-                "Hoy": 0,
-                "Total": 1134,
-                "Diff": "7",
+                "Hoy": 1,
+                "Total": 1135,
+                "Diff": "6",
                 "Antece": "Kevin Martin",
                 "Nota": "",
                 "game_status": "playing"
@@ -2618,10 +2618,10 @@
                 "Rank": 13,
                 "Nombre": "Brandin Podziemski",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 399,
-                "Diff": "1",
-                "Antece": "400",
+                "Hoy": 1,
+                "Total": 400,
+                "Diff": "27",
+                "Antece": "Kevin Durant",
                 "game_status": "playing"
             },
             {
@@ -2812,9 +2812,9 @@
                 "Rank": 7,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "STL",
-                "Hoy": 1,
-                "Total": 439,
-                "Diff": "10",
+                "Hoy": 2,
+                "Total": 440,
+                "Diff": "9",
                 "Antece": "Sam Mitchell",
                 "game_status": "playing"
             },
@@ -3380,9 +3380,9 @@
                 "Rank": 1,
                 "Nombre": "Devin Booker",
                 "Stat": "PTS",
-                "Hoy": 8,
-                "Total": 18545,
-                "Diff": "455",
+                "Hoy": 10,
+                "Total": 18547,
+                "Diff": "453",
                 "Antece": "19000",
                 "game_status": "playing"
             },
@@ -3980,9 +3980,9 @@
                 "Rank": 23,
                 "Nombre": "Onyeka Okongwu",
                 "Stat": "REB",
-                "Hoy": 6,
-                "Total": 2765,
-                "Diff": "145",
+                "Hoy": 8,
+                "Total": 2767,
+                "Diff": "143",
                 "Antece": "John Collins",
                 "game_status": "playing"
             },
@@ -4952,13 +4952,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Collin Gillespie (2 three-pointers today) has passed Eric Bledsoe and is now ranked 23rd in Suns history with 295.",
-            "foto": [],
-            "timestamp": 1794883494,
-            "team": "PHO",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Jaden McDaniels (2 steals today) has passed Doug West and is now ranked 8th in Timberwolves history with 429.",
             "foto": [],
             "timestamp": 1794884278,
@@ -5840,9 +5833,18 @@
             "timestamp": 1795834943,
             "team": "POR",
             "type": "franchise"
+        },
+        {
+            "texto": "Brandin Podziemski (1 three-pointer today) becomes the 13th player to reach 400 three-pointers with Warriors.",
+            "foto": [
+                "collages/1795835215549226_collage_1795835215469251.png"
+            ],
+            "timestamp": 1795835215,
+            "team": "GSW",
+            "type": "franchise_milestone"
         }
     ],
     "total_notificaciones_historicas": 3189,
-    "total_franchise_historicas": 881,
-    "cache_buster": 1795835107
+    "total_franchise_historicas": 882,
+    "cache_buster": 1795835215
 }
