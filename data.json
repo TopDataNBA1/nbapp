@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:53:06",
+    "ultima_actualizacion": "01:54:25",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -538,14 +538,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 127,
+                "Rank": 125,
                 "Nombre": "Kyle Kuzma",
                 "Team": "MIL",
-                "Hoy": 1,
-                "Total": 1161,
-                "Diff": "",
-                "Antece": "Donte DiVincenzo",
-                "Nota": "Mismo total",
+                "Hoy": 2,
+                "Total": 1162,
+                "Diff": "1",
+                "Antece": "Antawn Jamison",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -555,7 +555,7 @@
                 "Hoy": 0,
                 "Total": 1156,
                 "Diff": "5",
-                "Antece": "Kyle Kuzma",
+                "Antece": "Donte DiVincenzo",
                 "Nota": "",
                 "game_status": "playing"
             },
@@ -774,9 +774,9 @@
                 "Rank": 3,
                 "Nombre": "LeBron James",
                 "Team": "PHI",
-                "Hoy": 0,
-                "Total": 12119,
-                "Diff": "433",
+                "Hoy": 1,
+                "Total": 12120,
+                "Diff": "432",
                 "Antece": "Chris Paul",
                 "Nota": "",
                 "game_status": "playing"
@@ -1902,13 +1902,6 @@
     },
     "notificaciones": [
         {
-            "texto": "Tyrese Maxey (1 three-pointer today) has passed Seth Curry and is now ranked 208th all-time with 958.",
-            "foto": [
-                "collages/1795479137617191_collage_1795479137513976.png"
-            ],
-            "timestamp": 1795479137
-        },
-        {
             "texto": "Jaylen Brown (2 points today) has passed Bill Laimbeer and is now ranked 214th all-time with 13,792.",
             "foto": [
                 "collages/1795479217413480_collage_1795479217310584.png"
@@ -2600,6 +2593,13 @@
                 "collages/1795827106017929_collage_1795827105899969.png"
             ],
             "timestamp": 1795827106
+        },
+        {
+            "texto": "Kyle Kuzma (2 three-pointers today) has passed Donte DiVincenzo and is now ranked 125th all-time with 1,162.",
+            "foto": [
+                "collages/1795827265309178_collage_1795827265214859.png"
+            ],
+            "timestamp": 1795827265
         }
     ],
     "notificaciones_franchise": [
@@ -3472,7 +3472,7 @@
             "type": "franchise"
         }
     ],
-    "total_notificaciones_historicas": 3169,
+    "total_notificaciones_historicas": 3170,
     "total_franchise_historicas": 870,
-    "cache_buster": 1795827186
+    "cache_buster": 1795827265
 }
