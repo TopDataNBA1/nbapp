@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "01:14:20",
+    "ultima_actualizacion": "01:15:38",
     "jornada_inici": 1795669245,
     "tablas": {
         "pts": [
@@ -29,9 +29,9 @@
                 "Rank": 97,
                 "Nombre": "Klay Thompson",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 17576,
-                "Diff": "24",
+                "Hoy": 3,
+                "Total": 17579,
+                "Diff": "21",
                 "Antece": "Otis Thorpe",
                 "Nota": "",
                 "game_status": "playing"
@@ -310,9 +310,9 @@
                 "Rank": 4,
                 "Nombre": "Klay Thompson",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 2960,
-                "Diff": "13",
+                "Hoy": 1,
+                "Total": 2961,
+                "Diff": "12",
                 "Antece": "Ray Allen",
                 "Nota": "",
                 "game_status": "playing"
@@ -582,14 +582,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 248,
+                "Rank": 247,
                 "Nombre": "Landry Shamet",
                 "Team": "NYK",
-                "Hoy": 0,
-                "Total": 868,
-                "Diff": "",
-                "Antece": "Ben McLemore",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 869,
+                "Diff": "2",
+                "Antece": "Jalen Green",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -599,7 +599,7 @@
                 "Hoy": 0,
                 "Total": 866,
                 "Diff": "2",
-                "Antece": "Landry Shamet",
+                "Antece": "Ben McLemore",
                 "Nota": "",
                 "game_status": "inactive"
             }
@@ -764,14 +764,14 @@
                 "game_status": "not_started"
             },
             {
-                "Rank": 217,
+                "Rank": 215,
                 "Nombre": "Klay Thompson",
                 "Team": "MIA",
-                "Hoy": 0,
-                "Total": 950,
-                "Diff": "",
-                "Antece": "Bailey Howell",
-                "Nota": "Mismo total",
+                "Hoy": 1,
+                "Total": 951,
+                "Diff": "2",
+                "Antece": "Alton Lister",
+                "Nota": "",
                 "game_status": "playing"
             }
         ]
@@ -894,9 +894,9 @@
                 "Rank": 22,
                 "Nombre": "Davion Mitchell",
                 "Stat": "AST",
-                "Hoy": 0,
-                "Total": 761,
-                "Diff": "16",
+                "Hoy": 1,
+                "Total": 762,
+                "Diff": "15",
                 "Antece": "Duncan Robinson",
                 "game_status": "playing"
             },
@@ -1465,20 +1465,6 @@
         ]
     },
     "notificaciones": [
-        {
-            "texto": "📢🔝💯 📢HOF🏛️ Nikola Jokić (35 points today) has passed Tracy McGrady and is now ranked 79th all-time with 18,383.",
-            "foto": [
-                "collages/1795400942351947_collage_1795400942247187.png"
-            ],
-            "timestamp": 1795400942
-        },
-        {
-            "texto": "Jayson Tatum (14 points today) has passed Blake Griffin and is now ranked 182nd all-time with 14,515.",
-            "foto": [
-                "collages/1795401017280976_collage_1795401017181691.png"
-            ],
-            "timestamp": 1795401017
-        },
         {
             "texto": "📢🔝💯 Karl-Anthony Towns (3 three-pointers today) has passed D.J. Augustin and is now ranked 93rd all-time with 1,263.",
             "foto": [
@@ -2164,6 +2150,20 @@
                 "collages/1795670345488945_collage_1795670345387998.png"
             ],
             "timestamp": 1795670345
+        },
+        {
+            "texto": "Landry Shamet (1 three-pointer today) has passed Ben McLemore and is now ranked 247th all-time with 869.",
+            "foto": [
+                "collages/1795824937828769_collage_1795824937719390.png"
+            ],
+            "timestamp": 1795824937
+        },
+        {
+            "texto": "📢HOF🏛️ Klay Thompson today surpasses Bailey Howell and now ranked 215th all time with 951 games",
+            "foto": [
+                "collages/1795824938047501_collage_1795824937953766.png"
+            ],
+            "timestamp": 1795824938
         }
     ],
     "notificaciones_franchise": [
@@ -3034,7 +3034,7 @@
             "type": "franchise_milestone"
         }
     ],
-    "total_notificaciones_historicas": 3163,
+    "total_notificaciones_historicas": 3165,
     "total_franchise_historicas": 869,
-    "cache_buster": 1795824860
+    "cache_buster": 1795824938
 }
