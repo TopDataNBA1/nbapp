@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "04:27:36",
+    "ultima_actualizacion": "04:28:47",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -106,9 +106,9 @@
                 "Rank": 79,
                 "Nombre": "Brook Lopez",
                 "Team": "LAC",
-                "Hoy": 8,
-                "Total": 18404,
-                "Diff": "7",
+                "Hoy": 10,
+                "Total": 18406,
+                "Diff": "5",
                 "Antece": "Nikola Jokić",
                 "Nota": "",
                 "game_status": "playing"
@@ -350,9 +350,9 @@
                 "Rank": 35,
                 "Nombre": "Rudy Gobert",
                 "Team": "MIN",
-                "Hoy": 3,
-                "Total": 10762,
-                "Diff": "54",
+                "Hoy": 4,
+                "Total": 10763,
+                "Diff": "53",
                 "Antece": "Jack Sikma",
                 "Nota": "",
                 "game_status": "playing"
@@ -701,14 +701,14 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 198,
+                "Rank": 197,
                 "Nombre": "Daniel Gafford",
                 "Team": "DAL",
-                "Hoy": 1,
-                "Total": 684,
-                "Diff": "1",
-                "Antece": "Kelvin Cato",
-                "Nota": "A tiro de 1",
+                "Hoy": 2,
+                "Total": 685,
+                "Diff": "6",
+                "Antece": "Jim McIlvaine",
+                "Nota": "",
                 "game_status": "playing"
             },
             {
@@ -2219,13 +2219,13 @@
                 "game_status": "inactive"
             },
             {
-                "Rank": 15,
+                "Rank": 14,
                 "Nombre": "Daniel Gafford",
                 "Stat": "BLK",
-                "Hoy": 1,
-                "Total": 258,
-                "Diff": "0",
-                "Antece": "Rolando Blackman",
+                "Hoy": 2,
+                "Total": 259,
+                "Diff": "12",
+                "Antece": "Derek Harper",
                 "game_status": "playing"
             },
             {
@@ -2752,9 +2752,9 @@
                 "Rank": 4,
                 "Nombre": "Rudy Gobert",
                 "Stat": "REB",
-                "Hoy": 3,
-                "Total": 3643,
-                "Diff": "357",
+                "Hoy": 4,
+                "Total": 3644,
+                "Diff": "356",
                 "Antece": "4000",
                 "game_status": "playing"
             },
@@ -2984,9 +2984,9 @@
                 "Rank": 18,
                 "Nombre": "Yves Missi",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 1059,
-                "Diff": "70",
+                "Hoy": 2,
+                "Total": 1060,
+                "Diff": "69",
                 "Antece": "Josh Hart",
                 "game_status": "playing"
             },
@@ -3034,9 +3034,9 @@
                 "Rank": 6,
                 "Nombre": "Trey Murphy III",
                 "Stat": "STL",
-                "Hoy": 2,
-                "Total": 333,
-                "Diff": "63",
+                "Hoy": 3,
+                "Total": 334,
+                "Diff": "62",
                 "Antece": "David West",
                 "game_status": "playing"
             },
@@ -3046,7 +3046,7 @@
                 "Stat": "STL",
                 "Hoy": 1,
                 "Total": 310,
-                "Diff": "23",
+                "Diff": "24",
                 "Antece": "Trey Murphy III",
                 "game_status": "playing"
             },
@@ -4952,13 +4952,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "📢🔝🔟 Jaden McDaniels (2 steals today) has passed Doug West and is now ranked 8th in Timberwolves history with 429.",
-            "foto": [],
-            "timestamp": 1794884278,
-            "team": "MIN",
-            "type": "franchise"
-        },
-        {
             "texto": "📢🔝🔟 Devin Booker (4 rebounds today) becomes the 9th player to reach 3,000 rebounds with Suns.",
             "foto": [],
             "timestamp": 1794898067,
@@ -5842,9 +5835,18 @@
             "timestamp": 1795835215,
             "team": "GSW",
             "type": "franchise_milestone"
+        },
+        {
+            "texto": "Daniel Gafford (2 blocks today) has passed Rolando Blackman and is now ranked 14th in Mavericks history with 259.",
+            "foto": [
+                "collages/1795836527150856_collage_1795836527041892.png"
+            ],
+            "timestamp": 1795836527,
+            "team": "DAL",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3189,
-    "total_franchise_historicas": 882,
-    "cache_buster": 1795836456
+    "total_franchise_historicas": 883,
+    "cache_buster": 1795836527
 }
