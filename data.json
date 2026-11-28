@@ -1,5 +1,5 @@
 {
-    "ultima_actualizacion": "03:51:39",
+    "ultima_actualizacion": "03:53:01",
     "jornada_inici": 1795825282,
     "tablas": {
         "pts": [
@@ -427,11 +427,11 @@
                 "Rank": 159,
                 "Nombre": "Draymond Green",
                 "Team": "GSW",
-                "Hoy": 1,
-                "Total": 6534,
-                "Diff": "3",
+                "Hoy": 3,
+                "Total": 6536,
+                "Diff": "1",
                 "Antece": "Dave Greenwood",
-                "Nota": "",
+                "Nota": "A tiro de 1",
                 "game_status": "playing"
             },
             {
@@ -2314,9 +2314,9 @@
                 "Rank": 10,
                 "Nombre": "Jamal Murray",
                 "Stat": "STL",
-                "Hoy": 0,
-                "Total": 626,
-                "Diff": "6",
+                "Hoy": 1,
+                "Total": 627,
+                "Diff": "5",
                 "Antece": "Reggie Williams",
                 "game_status": "playing"
             },
@@ -2371,13 +2371,13 @@
                 "game_status": "playing"
             },
             {
-                "Rank": 25,
+                "Rank": 24,
                 "Nombre": "Christian Braun",
                 "Stat": "3PM",
-                "Hoy": 0,
-                "Total": 258,
-                "Diff": "0",
-                "Antece": "Malik Beasley",
+                "Hoy": 1,
+                "Total": 259,
+                "Diff": "3",
+                "Antece": "Kentavious Caldwell-Pope",
                 "game_status": "playing"
             },
             {
@@ -2508,9 +2508,9 @@
                 "Rank": 3,
                 "Nombre": "Draymond Green",
                 "Stat": "REB",
-                "Hoy": 1,
-                "Total": 6535,
-                "Diff": "465",
+                "Hoy": 3,
+                "Total": 6537,
+                "Diff": "463",
                 "Antece": "7000",
                 "game_status": "playing"
             },
@@ -2732,9 +2732,9 @@
                 "Rank": 10,
                 "Nombre": "Jaden McDaniels",
                 "Stat": "PTS",
-                "Hoy": 3,
-                "Total": 5235,
-                "Diff": "265",
+                "Hoy": 6,
+                "Total": 5238,
+                "Diff": "262",
                 "Antece": "5500",
                 "game_status": "playing"
             },
@@ -4952,13 +4952,6 @@
     ],
     "notificaciones_franchise": [
         {
-            "texto": "Davion Mitchell (2 assists today) has passed Udonis Haslem and is now ranked 22nd in Heat history with 734.",
-            "foto": [],
-            "timestamp": 1794877240,
-            "team": "MIA",
-            "type": "franchise"
-        },
-        {
             "texto": "Kyshawn George (2 three-pointers today) has passed Kelly Oubre Jr. and is now ranked 19th in Wizards history with 247.",
             "foto": [],
             "timestamp": 1794881528,
@@ -5834,9 +5827,18 @@
             "timestamp": 1795833983,
             "team": "TOR",
             "type": "franchise"
+        },
+        {
+            "texto": "Christian Braun (1 three-pointer today) has passed Malik Beasley and is now ranked 24th in Nuggets history with 259.",
+            "foto": [
+                "collages/1795834381336930_collage_1795834381234963.png"
+            ],
+            "timestamp": 1795834381,
+            "team": "DEN",
+            "type": "franchise"
         }
     ],
     "total_notificaciones_historicas": 3188,
-    "total_franchise_historicas": 878,
-    "cache_buster": 1795834299
+    "total_franchise_historicas": 879,
+    "cache_buster": 1795834381
 }
